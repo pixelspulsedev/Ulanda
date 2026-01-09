@@ -55,7 +55,7 @@ export const pathways = [
         perfectFor: 'Jawline softening, mid-face changes, neck laxity, postpartum body changes.'
     },
     {
-        id: 'radiate-wellness',
+        id: 'radiate',
         title: "Radiate Wellness",
         heading: () => `Support Your Energy, <span class="italic ${typeof window !== 'undefined' && window.location.pathname === '/pathways' ? 'text-primary' : ''}">Hormones & Wellness</span>`,
         subtitle: "Because when you feel balanced on the inside, your skin shows it on the outside.",

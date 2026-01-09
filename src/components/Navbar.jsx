@@ -4,10 +4,18 @@ import { useState, useEffect } from 'react';
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [activeMobileMenu, setActiveMobileMenu] = useState(null);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setScrolled(window.scrollY > 20);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -34,6 +42,8 @@ export default function Navbar() {
           <img
             src="/assets/img/ui/Logo.webp"
             alt="Ulanda"
+            width="168"
+            height="48"
             className={`w-auto h-12 object-contain transition-all duration-300 group-hover:opacity-90`}
           />
         </Link>
@@ -53,7 +63,7 @@ export default function Navbar() {
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-56 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {['Refresh', 'Renew', 'Restore', 'Radiate'].map((item) => (
                 <li key={item}>
-                  <Link to="/pathways" className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link to={`/pathways/${item.toLowerCase()}`} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
                     {item}
                   </Link>
                 </li>
@@ -147,6 +157,7 @@ export default function Navbar() {
         <button 
           className="btn btn-ghost btn-circle lg:hidden hover:bg-secondary/20"
           onClick={() => setIsDrawerOpen(true)}
+          aria-label="Open menu"
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
@@ -173,6 +184,7 @@ export default function Navbar() {
               {/* <span className="text-xl font-serif text-primary">Menu</span> */}
               <button 
                 onClick={() => setIsDrawerOpen(false)} 
+                aria-label="Close menu"
                 className="btn btn-ghost btn-sm btn-circle hover:bg-secondary/20"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -185,20 +197,36 @@ export default function Navbar() {
            <div className="overflow-y-auto flex-1 p-4">
               <ul className="menu menu-lg w-full p-0">
                 <li>
-                  <details open>
-                    <summary className="font-medium text-lg py-3 text-base-content/90 font-sans">Pathways</summary>
+                  <details open={activeMobileMenu === 'pathways'}>
+                    <summary 
+                      className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setActiveMobileMenu(activeMobileMenu === 'pathways' ? null : 'pathways');
+                      }}
+                    >
+                      Pathways
+                    </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
                         <li><Link to="/pathways" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
-                        <li><Link to="/pathways" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Refresh</Link></li>
-                        <li><Link to="/pathways" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Renew</Link></li>
-                        <li><Link to="/pathways" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Restore</Link></li>
-                        <li><Link to="/pathways" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Radiate</Link></li>
+                        <li><Link to="/pathways/refresh" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Refresh</Link></li>
+                        <li><Link to="/pathways/renew" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Renew</Link></li>
+                        <li><Link to="/pathways/restore" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Restore</Link></li>
+                        <li><Link to="/pathways/radiate" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Radiate</Link></li>
                     </ul>
                   </details>
                 </li>
                  <li>
-                  <details>
-                    <summary className="font-medium text-lg py-3 text-base-content/90 font-sans">Programs</summary>
+                  <details open={activeMobileMenu === 'programs'}>
+                    <summary 
+                      className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setActiveMobileMenu(activeMobileMenu === 'programs' ? null : 'programs');
+                      }}
+                    >
+                      Programs
+                    </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
                       <li><Link to="/programmes" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
                       <li><Link to="/programmes/menopause-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Menopause Regeneration</Link></li>
@@ -210,8 +238,16 @@ export default function Navbar() {
                   </details>
                 </li>
                 <li>
-                  <details>
-                    <summary className="font-medium text-lg py-3 text-base-content/90 font-sans">Conditions</summary>
+                  <details open={activeMobileMenu === 'conditions'}>
+                    <summary 
+                      className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setActiveMobileMenu(activeMobileMenu === 'conditions' ? null : 'conditions');
+                      }}
+                    >
+                      Conditions
+                    </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
                       <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
                       <li><Link to="/conditions/skin-laxity" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin laxity</Link></li>
@@ -223,8 +259,16 @@ export default function Navbar() {
                   </details>
                 </li>
                 <li>
-                  <details>
-                     <summary className="font-medium text-lg py-3 text-base-content/90 font-sans">Company</summary>
+                  <details open={activeMobileMenu === 'company'}>
+                     <summary 
+                      className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setActiveMobileMenu(activeMobileMenu === 'company' ? null : 'company');
+                      }}
+                    >
+                      Company
+                    </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
                       <li><Link to="/about/our-story" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">About</Link></li>
                       <li><Link to="/about/our-founder" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Founder</Link></li>

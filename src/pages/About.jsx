@@ -96,7 +96,7 @@ const pathwaysMap = {
     perfectFor:
       'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.',
     image:
-      'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop',
   },
   renew: {
     title: (
@@ -120,7 +120,7 @@ const pathwaysMap = {
     perfectFor:
       'Fine lines, thinning skin, early collagen loss, tired-looking eyes, long-term glow.',
     image:
-      'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=800&auto=format&fit=crop',
   },
   restore: {
     title: (
@@ -143,7 +143,7 @@ const pathwaysMap = {
     perfectFor:
       'Jawline softening, mid-face changes, neck laxity, postpartum body changes.',
     image:
-      'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop',
   },
   radiate: {
     title: (
@@ -176,7 +176,7 @@ const pathwaysMap = {
     perfectFor:
       'Fatigue, poor sleep, slow metabolism, inflammation, hormone-transition symptoms.',
     image:
-      'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop',
   },
 };
 
@@ -349,17 +349,17 @@ export default function About() {
                 </p>
               </div>
               <div className="hidden md:flex">
-                <button
-                  onClick={() => (window.location.href = '/pathways')}
+                <Link
+                  to="/pathways"
                   className="btn btn-primary"
                 >
                   Learn More About Our Pathways
-                </button>
+                </Link>
               </div>
             </div>
 
             {/* Tabs */}
-            <div className="sticky pt-4 top-20 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
+            <div className="sticky pt-4 top-16 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
               <div className="flex items-center justify-between max-w-7xl mx-auto">
                 {Object.keys(pathwaysMap).map((key) => (
                   <button
@@ -367,7 +367,7 @@ export default function About() {
                     onClick={() => {
                       const el = document.getElementById(key);
                       if (el) {
-                        const offset = 100;
+                        const offset = 150;
                         const bodyRect =
                           document.body.getBoundingClientRect().top;
                         const elementRect = el.getBoundingClientRect().top;
@@ -384,7 +384,7 @@ export default function About() {
                     className={`flex-1 pb-4 text-lg font-sans transition-all duration-300 ${
                       activeTab === key
                         ? 'border-b-2 border-primary text-primary font-medium'
-                        : 'text-base-content/60 hover:text-primary'
+                        : 'text-base-content hover:text-primary'
                     }`}
                   >
                     {key.charAt(0).toUpperCase() + key.slice(1)}
@@ -458,8 +458,9 @@ export default function About() {
                     </div>
 
                     <Link
-                      to={`/treatments/${key}`}
+                      to={`/pathways/${key}`}
                       className="btn btn-primary text-white px-8"
+                      aria-label={`Explore ${pathway.title} pathway`}
                     >
                       Explore
                     </Link>
@@ -469,12 +470,12 @@ export default function About() {
             </div>
 
             <div className="md:hidden flex mt-8">
-              <button
-                onClick={() => (window.location.href = '/pathways')}
+              <Link
+                to="/pathways"
                 className="btn btn-primary"
               >
                 Learn More About Our Pathways
-              </button>
+              </Link>
             </div>
           </div>
         </section>
@@ -483,12 +484,12 @@ export default function About() {
           <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <div className="space-y-3 mb-8">
-                <p className="font-serif font-medium text-3xl">
+                <h2 className="font-serif font-medium text-3xl">
                   Designed for{' '}
                   <span className="font-light italic text-primary">
                     women at every stage
                   </span>
-                </p>
+                </h2>
                 <p className="text-base md:text-lg font-light font-sans text-base-content/90">
                   Instead of choosing between “a medical clinic” or “a beauty
                   spa,” ULANDA brings both worlds together — safely,
@@ -511,12 +512,12 @@ export default function About() {
                 className="w-full max-w-sm object-cover aspect-square"
               />
               <img
-                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
                 alt="Women at every stage"
                 className="absolute w-full max-w-xs object-cover aspect-square top-20 left-8"
               />
               <img
-                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
                 alt="Women at every stage"
                 className="hidden md:absolute w-full max-w-xs object-cover aspect-square bottom-20 right-8"
               />
@@ -527,10 +528,10 @@ export default function About() {
         <section className="py-16 px-4 md:px-8">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-3">
-              <p className="font-serif text-3xl">
+              <h2 className="font-serif text-3xl">
                 The ULANDA{' '}
                 <span className="text-primary italic">experience</span>
-              </p>
+              </h2>
               <p className="text-base font-sans text-base-content/90">
                 Science-led. Woman-led. Comfort-led. Our environment is designed
                 to feel calming, uplifting and deeply personal. Every
@@ -553,7 +554,7 @@ export default function About() {
               </div>
             </div>
             <div className="space-y-3">
-              <p className="font-serif text-3xl">Safety & accreditation</p>
+              <h2 className="font-serif text-3xl">Safety & accreditation</h2>
               <ul className="space-y-2 text-base font-sans text-base-content/90">
                 {safety.map((item) => (
                   <li key={item} className="flex items-start gap-2">
@@ -571,9 +572,9 @@ export default function About() {
 
         <section className="py-16 px-4 md:px-8 bg-primary">
           <div className="max-w-6xl mx-auto space-y-6 text-center">
-            <p className="text-secondary italic font-serif text-3xl">
+            <h2 className="text-secondary italic font-serif text-3xl">
               Our promise
-            </p>
+            </h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               {promise.map((item) => (
                 <div
@@ -593,9 +594,9 @@ export default function About() {
 
         <section className="py-40 px-4 md:px-8 bg-secondary">
           <div className="max-w-4xl mx-auto text-center space-y-4">
-            <h1 className="font-sans text-lg font-medium">
+            <p className="font-sans text-lg font-medium">
               Begin your <span className="font-light italic">journey</span>
-            </h1>
+            </p>
             <h2 className="text-3xl md:text-4xl font-serif leading-tight">
               Glow <span className="font-light italic">naturally</span>. Age{' '}
               <span className="font-light italic">beautifully</span>. Feel like

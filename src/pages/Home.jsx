@@ -31,7 +31,7 @@ export default function Home() {
       perfectFor:
         'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.',
       image:
-        'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop',
     },
     renew: {
       title: (
@@ -55,7 +55,7 @@ export default function Home() {
       perfectFor:
         'Fine lines, thinning skin, early collagen loss, tired-looking eyes, long-term glow.',
       image:
-        'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=800&auto=format&fit=crop',
     },
     restore: {
       title: (
@@ -79,7 +79,7 @@ export default function Home() {
       perfectFor:
         'Jawline softening, mid-face changes, neck laxity, postpartum body changes.',
       image:
-        'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop',
     },
     radiate: {
       title: (
@@ -112,31 +112,34 @@ export default function Home() {
       perfectFor:
         'Fatigue, poor sleep, slow metabolism, inflammation, hormone-transition symptoms.',
       image:
-        'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop',
     },
   };
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY + 300; // Offset for trigger point
-
-      const sections = Object.keys(pathways);
-      for (const section of sections) {
-        const element = document.getElementById(section);
-        if (element) {
-          const { offsetTop, offsetHeight } = element;
-          if (
-            scrollPosition >= offsetTop &&
-            scrollPosition < offsetTop + offsetHeight
-          ) {
-            setActiveTab(section);
-          }
-        }
-      }
+    const observerOptions = {
+        root: null,
+        rootMargin: '-50% 0px -50% 0px', 
+        threshold: 0
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    const observerCallback = (entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                setActiveTab(entry.target.id);
+            }
+        });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const sections = Object.keys(pathways);
+    
+    sections.forEach(section => {
+        const element = document.getElementById(section);
+        if (element) observer.observe(element);
+    });
+
+    return () => observer.disconnect();
   }, []);
 
   return (
@@ -278,7 +281,7 @@ export default function Home() {
               />
             </div>
 
-            {/* Main Image */}
+            {/* Main Image */}80
             <div className="relative rounded-t-full overflow-hidden w-full max-w-xs max-h-xs aspect-[3/4]">
               <img
                 src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
@@ -312,11 +315,11 @@ export default function Home() {
               </p>
             </div>
             <div className='hidden md:flex'>
-              <button
-              onClick={() => window.location.href = '/pathways'}
+              <Link
+              to='/pathways'
               className='btn btn-primary'>
                 Learn More About Our Pathways
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -420,7 +423,7 @@ export default function Home() {
                   </div>
 
                   <Link
-                    to="/pathways"
+                    to={`/pathways/${key}`}
                     className="btn btn-primary text-white px-8"
                   >
                     Explore
@@ -431,11 +434,11 @@ export default function Home() {
           </div>
 
           <div className='md:hidden flex mt-8'>
-              <button
-              onClick={() => window.location.href = '/pathways'}
+              <Link
+              to='/pathways'
               className='btn btn-primary'>
                 Learn More About Our Pathways
-              </button>
+              </Link>
             </div>
         </div>
       </section>
@@ -821,6 +824,8 @@ export default function Home() {
             <img
               src="assets/img/home/ulanda-helen-balogun-founder-ware.webp"
               alt=""
+              width="384"
+              height="500"
               className="max-w-sm"
             />
           </div>
@@ -1088,7 +1093,7 @@ export default function Home() {
                           }
                           className="text-primary font-medium hover:underline"
                         >
-                          Learn more
+                          {faq.linkText || 'Learn more'}
                         </Link>
                       </div>
                     )}

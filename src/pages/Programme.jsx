@@ -254,7 +254,7 @@ export default function Programme() {
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
                           <img
                             src={programme.summary.image}
-                            alt={programme.title}
+                            alt=""
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -356,7 +356,7 @@ export default function Programme() {
                       <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
                         <img
                           src={programme.summary.image}
-                          alt={programme.title}
+                          alt=""
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -423,7 +423,7 @@ export default function Programme() {
                       <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
                         <img
                           src={programme.summary.image}
-                          alt={programme.title}
+                          alt=""
                           className="w-full h-full object-cover"
                         />
                       </div>

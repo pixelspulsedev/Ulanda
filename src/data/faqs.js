@@ -128,7 +128,8 @@ export const homeFaqs = [
   {
     question: "Is this safe for menopausal conditions?",
     answer: "Yes, we specialise in menopausal skin changes. We address skin thinning, laxity, and dryness with treatments specifically safe and effective for hormonal skin changes.",
-    linkId: "conditions/menopause-hormone-skin-changes"
+    linkId: "conditions/menopause-hormone-skin-changes",
+    linkText: "Learn about menopause skin treatments"
   }
 ];
 

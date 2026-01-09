@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 import { conditions } from '../src/data/pageContents/conditions/conditions.js';
 import { programmes } from '../src/data/pageContents/programmes/programmes.js';
 import { treatments } from '../src/data/pageContents/treatments/treatments.js';
+import { pathways } from '../src/data/pageContents/pathways/pathways.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -19,18 +20,8 @@ const staticRoutes = [
   '/conditions',
   '/programmes',
   '/pathways',
-  '/contact' // Assuming contact exists or will exist? Removed from list for now if not sure. Checked main.jsx, no explicit contact route.
-  // main.jsx routes:
-  // /
-  // /pathways
-  // /conditions
-  // /programmes
-  // /about -> redirect
-  // /about/our-story
-  // /about/our-philosophy
-  // /about/manifesto
-  // /about/founder -> founder (src/pages/Founder.jsx)
-  // /treatment -> treatment (src/pages/Treatment.jsx) - Wait, is this a generic page?
+  '/contact',
+  '/help-and-support'
 ];
 
 // Check main.jsx again for other static routes.
@@ -89,10 +80,22 @@ const generateSitemap = () => {
     urls.push(`/programmes/${programme.id}`);
   });
 
+  // Add Pathways Pages
+  pathways.forEach(pathway => {
+    // /pathways/:id
+    urls.push(`/pathways/${pathway.id}`);
+  });
+
   // Add Treatments Pages
   treatments.forEach(treatment => {
-    // /treatments/:id
-    urls.push(`/treatments/${treatment.id}`);
+    if (treatment.category) {
+      // /treatments/:category/:id 
+      // Ensure category is URL-friendly (lowercase, maybe replace spaces if needed, but assuming simple for now)
+      urls.push(`/treatments/${treatment.category.toLowerCase()}/${treatment.id}`);
+    } else {
+       // Fallback or skip if no category
+       urls.push(`/treatments/${treatment.id}`);
+    }
   });
 
   // Create XML
