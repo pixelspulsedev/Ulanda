@@ -19,7 +19,7 @@ export const treatments = [
     highlight: 'Glow',
     titleSuffix: 'IV',
     benefits: ['Collagen', 'Brightening', 'Hydration', 'Cellular Radiance'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hoddesdon', 'Great Amwell', 'Stanstead Abbotts', 'Hunsdon', 'Much Hadham', 'Brickendon', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Revitalize your skin with our signature Glow IV treatment.',
@@ -88,7 +88,7 @@ export const treatments = [
         },
         {
           title: "Glutathione",
-          description: "Master antioxidant → pigmentation control → luminosity"
+          description: "Master antioxidant - pigmentation control - luminosity"
         },
         {
           title: "Hydrating electrolytes",
@@ -108,6 +108,40 @@ export const treatments = [
         }
       ],
       footer: "All formulations are medically assessed & prescribed by 360Medicx."
+    },
+    detailedBenefits: {
+      title: "Benefits of the Beauty & Skin Glow IV",
+      sections: [
+        {
+          title: "SKIN-SPECIFIC BENEFITS",
+          items: [
+            "Brighter, more even complexion",
+            "Reduction in pigmentation",
+            "Improved luminosity & clarity",
+            "Plumper, more hydrated appearance",
+            "Reduced inflammation & redness",
+            "Strengthened barrier function"
+          ]
+        },
+        {
+          title: "COLLAGEN & REGENERATION",
+          items: [
+            "Boosts collagen & elastin formation",
+            "Supports recovery after PN, PRP & microneedling",
+            "Protects against oxidative collagen breakdown",
+            "Improves wound healing"
+          ]
+        },
+        {
+          title: "MID-LIFE BENEFITS",
+          items: [
+            "Supports perimenopause/menopause dryness",
+            "Improves dullness driven by hormone shifts",
+            "Reduces inflammation & oxidative stress",
+            "Supports antioxidant depletion caused by hot flushes & stress"
+          ]
+        }
+      ]
     },
     ulandaConnection: {
       // title: <h1 className="text-3xl md:text-5xl font-serif text-base-content mb-4 leading-tight">The Ulanda Connection — How <span className="italic text-primary">Beauty & Skin Glow IV</span> Elevates Refresh, Renew & Restore</h1>,
@@ -150,7 +184,7 @@ export const treatments = [
             "Faster, smoother healing after threads",
             "Better elasticity & long-term skin density"
           ],
-          conclusion: "Stronger internal biochemistry → stronger structural aesthetic results.",
+          conclusion: "Stronger internal biochemistry - stronger structural aesthetic results.",
           image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop"
         }
       ]
@@ -220,7 +254,7 @@ export const treatments = [
     highlight: 'IV',
     titleSuffix: 'Drip',
     benefits: ['Metabolic Reset', 'Fatigue Recovery', 'Hormone Support', 'Mitochondrial Boost'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire', 'Hoddesdon', 'Stanstead Abbotts', 'Great Amwell', 'Much Hadham', 'Hunsdon', 'Brickendon'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Metabolic Reset • Fatigue Recovery • Hormone Support • Mitochondrial Boost',
@@ -234,17 +268,17 @@ export const treatments = [
       title: "Introduction",
       content: [
         "When energy drops, life feels heavier. This is your reset.",
-        "Whether due to stress, hormones, work, parenting, chronic fatigue, burnout or perimenopause, many women experience low stamina, constant tiredness, mental heaviness, difficulty concentrating, slow metabolism, reliance on caffeine, broken sleep, low motivation, and afternoon crashes.",
+        "Whether due to stress, hormones, work, parenting, chronic fatigue, burnout or perimenopause, many women experience: low stamina, constant tiredness, mental heaviness, difficulty concentrating, slow metabolism, reliance on caffeine, broken sleep, low motivation, afternoon crashes",
         "ULANDA’s Energy IV Drip, delivered under the medical oversight of 360Medicx, floods your body with high-dose vitamins, essential minerals, metabolic co-factors and hydration — restoring optimal biochemical function and lifting you out of fatigue."
       ],
       goals: [
         "Stable, clean, clear energy — No jittery highs",
-        "Mental clarity & focus",
-        "Improved mood & stress resilience",
-        "Reduced inflammation",
-        "Metabolic activation",
-        "Better skin & hair vitality",
-        "Superior hydration"
+        "Mental clarity & focus — Enhanced concentration, alertness and productivity",
+        "Improved mood & stress resilience — Nervous system support",
+        "Reduced inflammation — Antioxidant and micronutrient support",
+        "Metabolic activation — Supports glucose utilisation, fat metabolism & mitochondrial function",
+        "Better skin & hair vitality — Improved nutrient availability",
+        "Superior hydration — IV delivery restores deep cellular hydration"
       ],
       highlightBox: {
         text1: "This is not a “quick pick-me-up.”",
@@ -259,7 +293,7 @@ export const treatments = [
       points: [
         {
           title: "Direct bloodstream delivery",
-          description: "No digestive loss → 100% immediate absorption."
+          description: "No digestive loss - 100% immediate absorption."
         },
         {
           title: "Higher therapeutic potency",
@@ -346,6 +380,7 @@ export const treatments = [
       ]
     },
     ulandaConnection: {
+      title: "Popular Energy IV Synergies",
       subtitle: "Popular Energy IV Synergies",
       sections: [
         {
@@ -381,8 +416,8 @@ export const treatments = [
     cta: {
       title: "Recharge Your Energy.",
       highlight: "Revive Your Mind.",
-      description: "Restore Your Balance. ULANDA’s Energy IV Drip — delivered in clinical collaboration with 360Medicx — gives your cells the nutrients they need to lift fatigue, clear the mind, and restore natural vitality.",
-      buttonText: "Book Energy IV Consultation"
+      description: "Restore Your Balance. ULANDA’s Energy IV Drip — delivered in clinical collaboration with 360Medicx — gives your cells the nutrients they need to lift fatigue, clear the mind, and restore natural vitality. This is energy that lasts — powered by science.",
+      buttonText: "Book Energy IV Consultation (ULANDA × 360Medicx Harley Street)"
     }
   },
   {
@@ -404,7 +439,7 @@ export const treatments = [
     highlight: 'IM',
     titleSuffix: 'Booster',
     benefits: ['Brightening', 'Antioxidant Repair', 'Detox', 'Skin Clarity'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire', 'Hoddesdon', 'Great Amwell', 'Stanstead Abbotts', 'Much Hadham', 'Brickendon', 'Hunsdon'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Brightening • Antioxidant Repair • Detox • Skin Clarity',
@@ -421,16 +456,7 @@ export const treatments = [
         "But stress, ageing, environmental toxins, hormonal fluctuations (especially during perimenopause and menopause) and nutrient depletion drastically reduce glutathione levels.",
         "ULANDA’s Glutathione IM delivers a potent dose directly into the bloodstream, offering faster absorption and deeper antioxidant repair compared to oral supplements."
       ],
-      goals: [
-        "Brighter, more even complexion",
-        "Visible glow enhancement",
-        "Reduction in pigmentation & melasma",
-        "Smoother, clearer skin tone",
-        "Reduction in inflammation",
-        "Collagen protection",
-        "Neutralises free radicals",
-        "Supports detox pathways"
-      ],
+      goals: [],
       highlightBox: {
         text1: "This is your internal glow enhancer.",
         text2: "Supporting every stage of ULANDA’s regenerative system."
@@ -489,6 +515,48 @@ export const treatments = [
       ],
       footer: "Your injection is clinically assessed and administered by trained clinicians."
     },
+    detailedBenefits: {
+      title: "Benefits of Glutathione IM",
+      sections: [
+        {
+          title: "SKIN & AESTHETIC BENEFITS",
+          items: [
+            "Brighter, more even complexion",
+            "Visible glow enhancement",
+            "Reduction in pigmentation & melasma",
+            "Smoother, clearer skin tone",
+            "Reduction in inflammation",
+            "Collagen protection"
+          ]
+        },
+        {
+          title: "CELLULAR & LONGEVITY BENEFITS",
+          items: [
+            "Neutralises free radicals",
+            "Supports detox pathways",
+            "Protects DNA & slows cellular ageing",
+            "Enhances immune resilience"
+          ]
+        },
+        {
+          title: "HORMONE SUPPORT",
+          items: [
+            "Reduces oxidative stress triggered by menopause",
+            "Supports liver detox - better estrogen metabolism",
+            "Helps balance inflammation-driven discoloration"
+          ]
+        },
+        {
+          title: "OVERALL WELLNESS",
+          items: [
+            "Improved clarity & mental sharpness",
+            "Reduction in “puffy,” congested skin",
+            "Support during stress, fatigue, or chronic inflammation",
+            "A small injection - big internal repair."
+          ]
+        }
+      ]
+    },
     idealFor: {
       title: "Who This Treatment Is",
       highlight: "Ideal For",
@@ -505,26 +573,42 @@ export const treatments = [
       ]
     },
     ulandaConnection: {
-      subtitle: "How Glutathione IM Elevates Refresh, Renew & Restore",
+      title: "The Ulanda Connection — How Glutathione IM Elevates Refresh, Renew & Restore",
+      subtitle: "This section links Radiate across all vertical pathways.",
       sections: [
         {
           title: "1. REFRESH (Facials, BioRePeel, Peels, LED)",
-          description: "Glutathione IM supports faster post-peel recovery, increased brightness after facials, reduced redness & inflammation, and stronger glow response from LED/light therapy.",
-          points: [],
+          description: "Glutathione IM supports:",
+          points: [
+            "Faster post-peel recovery",
+            "Increased brightness after facials",
+            "Reduced redness & inflammation",
+            "Stronger glow response from LED/light therapy"
+          ],
           conclusion: "Your surface radiance improves from within.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
-          description: "Glutathione enhances regen outcomes by reducing post-microneedling inflammation, improving fibroblast environment for PN, supporting PRP with antioxidant-rich blood, and increasing hydration & even tone for boosters.",
-          points: [],
+          description: "Glutathione enhances regen outcomes by:",
+          points: [
+            "Reducing post-microneedling inflammation",
+            "Improving fibroblast environment for PN",
+            "Supporting PRP with antioxidant-rich blood",
+            "Increasing hydration & even tone for boosters"
+          ],
           conclusion: "Regeneration needs a calm, antioxidant-rich environment.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "3. RESTORE (Biostimulators, Threads, Fillers)",
-          description: "Glutathione IM strengthens structural results by protecting new collagen fibres, reducing swelling after threads, improving skin density for better lifting, and extending longevity of biostimulators.",
-          points: [],
+          description: "Glutathione IM strengthens structural results by:",
+          points: [
+            "Protecting new collagen fibres",
+            "Reducing swelling after threads",
+            "Improving skin density - better lifting",
+            "Extending longevity of biostimulators"
+          ],
           conclusion: "Cleaner internal chemistry = stronger aesthetic outcomes.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         }
@@ -534,18 +618,18 @@ export const treatments = [
       title: "Safety & Medical Governance",
       items: [
         {
-          title: "CQC Registered",
-          description: "Clinical Delivery via 360Medicx Harley Street. Full pre-treatment medical screening.",
-          icon: "cqc"
-        },
-        {
-          title: "Clinician Supervised",
-          description: "Clinician-supervised IV therapy with safe infusion protocols.",
+          title: "Clinicially Assessed",
+          description: "Clinically assessed and administered by trained clinicians.",
           icon: "clinician"
         },
         {
+          title: "CQC Registered",
+          description: "Governed by CQC-registered 360Medicx.",
+          icon: "cqc"
+        },
+        {
           title: "Safe & Effective",
-          description: "Suitable for most adults with minimal downtime (continue your day normally).",
+          description: "Safe with minimal downtime. High-purity injectable formulation.",
           icon: "prescribed"
         }
       ]
@@ -553,8 +637,8 @@ export const treatments = [
     cta: {
       title: "Cleanser. Brightener.",
       highlight: "Inner Glow Activator.",
-      description: "ULANDA’s Glutathione IM — delivered in partnership with 360Medicx — is your internal antioxidant reset, supporting clear, luminous, youthful-looking skin. Glow starts inside.",
-      buttonText: "Book Glutathione IM"
+      description: "ULANDA’s Glutathione IM — delivered in partnership with 360Medicx, the CQC-registered Harley Street Longevity Clinic — is your internal antioxidant reset, supporting clear, luminous, youthful-looking skin. Glow starts inside.",
+      buttonText: "Book Glutathione IM (ULANDA × 360Medicx Harley Street)"
     }
   },
   {
@@ -577,7 +661,7 @@ export const treatments = [
     highlight: 'IV',
     titleSuffix: 'Drip',
     benefits: ['Replenish', 'Restore', 'Rebalance'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire', 'Hoddesdon', 'Great Amwell', 'Stanstead Abbotts', 'Hunsdon', 'Much Hadham', 'Brickendon'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Replenish • Restore • Rebalance',
@@ -672,6 +756,7 @@ export const treatments = [
       footer: "Delivered with full prescribing + protocol governance by 360Medicx."
     },
     ulandaConnection: {
+      title: "The Ulanda Connection — How Hydration IV Supercharges Your Skin Results",
       subtitle: "How Hydration IV Supercharges Your Skin Results",
       sections: [
         {
@@ -727,17 +812,16 @@ export const treatments = [
   {
     id: 'immunity-iv',
     seo: {
-      title: "Immunity IV Drip | Strengthen Your Defences | ULANDA",
-      description: "Boost your immune system with our Immunity IV Drip. High-dose Vitamin C & Zinc to help fight illness, fatigue & seasonal bugs."
+      title: "Immunity IV Drip | Strengthen • Defend • Recover | ULANDA",
+      description: "Strengthen your immune system, speed up recovery & restore resilience with our clinician-delivered Immunity IV Drip. In partnership with 360Medicx Harley Street."
     },
     seoHeadings: {
-      h1: "Immunity IV Therapy in Ware SG12 — Stronger Defence, Faster Recovery",
+      h1: "Immunity IV Drip in Ware SG12 — Strengthen, Defend & Recover",
       h2: [
-        "What Immunity IV Treats (Frequent Illness, Low Immunity, Stress)",
-        "What's Inside the Infusion",
-        "Immunity Decline in Perimenopause & Postpartum",
-        "Why IV Immune Support Works",
-        "Linked Regenerative Treatments for Inflammation",
+        "What Immunity IV Treats (Recurrent Infections, Low Immunity)",
+        "What's Inside (High-Dose Vitamin C, Zinc, B-Complex)",
+        "Immunity in Perimenopause & Postpartum",
+        "Why IV Immunity is Stronger Than Supplements",
         "Book Immunity IV — With 360Medicx Harley Street"
       ]
     },
@@ -745,7 +829,7 @@ export const treatments = [
     highlight: 'IV',
     titleSuffix: 'Drip',
     benefits: ['Strengthen', 'Defend', 'Recover', 'Restore'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware (SG12)', 'Hertford', 'Broxbourne', 'Hoddesdon', 'Stanstead Abbotts', 'Great Amwell', 'Hunsdon', 'Much Hadham', 'Brickendon', 'All Hertfordshire villages within 10 miles'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Strengthen • Defend • Recover • Restore',
@@ -777,14 +861,61 @@ export const treatments = [
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
+    detailedBenefits: {
+      title: "Benefits of Immunity IV",
+      sections: [
+        {
+          title: "Stronger immune defence",
+          items: [
+            "Supporting your body’s ability to fight infection"
+          ]
+        },
+        {
+          title: "Faster recovery",
+          items: [
+            "From illness, burnout, inflammation or stress"
+          ]
+        },
+        {
+          title: "Better skin healing",
+          items: [
+            "Improved immunity = better collagen & tissue repair"
+          ]
+        },
+        {
+          title: "Reduced inflammation",
+          items: [
+            "Antioxidants calm inflammatory pathways affecting skin, joints, and deeper tissues"
+          ]
+        },
+        {
+          title: "Improved clarity & focus",
+          items: [
+            "Lower inflammation supports the brain and mood"
+          ]
+        },
+        {
+          title: "Superior hydration",
+          items: [
+            "Immune cells function better when deeply hydrated"
+          ]
+        },
+        {
+          title: "Hormone-aware immune support",
+          items: [
+            "Particularly valuable for perimenopausal and menopausal women experiencing immune fluctuations"
+          ]
+        }
+      ]
+    },
     internalSupport: {
-      title: "Why Immunity IV is Stronger than",
+      title: "Why Immunity IV is Stronger Than",
       titleSuffix: "Supplements",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
         {
           title: "Direct infusion",
-          description: "Immediate bloodstream absorption → 100% availability."
+          description: "Immediate bloodstream absorption - 100% availability."
         },
         {
           title: "High-dose therapeutic levels",
@@ -800,7 +931,7 @@ export const treatments = [
         },
         {
           title: "Fully personalised",
-          description: "Each infusion is adjusted based on symptoms, lifestyle, hormonal stage, and recovery needs."
+          description: "Each infusion is adjusted based on: symptoms, lifestyle, hormonal stage, recovery needs."
         },
         {
           title: "Oral supplements support. IV therapy activates.",
@@ -812,7 +943,7 @@ export const treatments = [
       title: "What’s",
       highlight: "Inside",
       titleSuffix: "the Immunity IV",
-      subtitle: "A clinically formulated combination for immune resilience:",
+      subtitle: "Our clinically formulated Immunity IV contains a powerful combination of:",
       items: [
         {
           title: "High-Dose Vitamin C",
@@ -836,7 +967,7 @@ export const treatments = [
         },
         {
           title: "Optional Add-Ons:",
-          description: "Glutathione IV, NAD+ microdose, B12 IM."
+          description: "Glutathione IV for detox + oxidative stress reduction, NAD+ microdose for mitochondrial immune activation, B12 IM for energy + mood."
         }
       ],
       footer: "This formulation is ideal for prevention, recovery and strengthening."
@@ -846,16 +977,17 @@ export const treatments = [
       highlight: "Immunity IV",
       titleSuffix: "",
       items: [
-        "Women experiencing recurrent infections",
-        "Perimenopausal & menopausal women (hormones influence immunity)",
-        "Postpartum clients (immune suppression after childbirth)",
-        "Busy professionals (chronic stress weakens immunity)",
-        "Travellers (pre- and post-travel reinforcement)",
+        "Women experiencing recurrent infections (Low immunity linked to stress, hormones, or lifestyle)",
+        "Perimenopausal & menopausal women (Because hormones influence inflammation, stress response & immune regulation)",
+        "Postpartum clients (Immune systems often remain suppressed after childbirth)",
+        "Busy professionals (Chronic stress weakens immune pathways and increases vulnerability)",
+        "Travellers (Ideal for pre- and post-travel immune reinforcement)",
         "Clients recovering from illness or inflammation",
-        "Aesthetic clients (improves post-procedure healing)"
+        "Aesthetic clients (Improves post-procedure healing following PN, RF microneedling, peels and biostimulators)"
       ]
     },
     ulandaConnection: {
+      title: "Perfect Synergies",
       subtitle: "Perfect Synergies",
       sections: [
         {
@@ -899,18 +1031,18 @@ export const treatments = [
       title: "Safety & Medical Governance",
       items: [
         {
-          title: "CQC Registered",
-          description: "Delivered in partnership with 360Medicx. Pre-treatment health screening.",
-          icon: "cqc"
-        },
-        {
-          title: "Clinician Administered",
-          description: "Clinician-administered IV therapy with regulated medical protocols.",
+          title: "Clinician-Delivered",
+          description: "Your treatment is medically prescribed and clinician-delivered.",
           icon: "clinician"
         },
         {
-          title: "Safe & Effective",
-          description: "Minimal downtime. Safe for most adults.",
+          title: "CQC-Governed",
+          description: "Fully supervised via CQC protocols (through 360Medicx Harley Street).",
+          icon: "cqc"
+        },
+        {
+          title: "Comfort & Safety",
+          description: "Slow-infused for comfort and safety. Customised to your immune status and lifestyle. Sessions last 45–60 minutes.",
           icon: "prescribed"
         }
       ]
@@ -918,32 +1050,32 @@ export const treatments = [
     cta: {
       title: "Strengthen Your Defence.",
       highlight: "Boost Your Energy.",
-      description: "Protect Your Wellness. ULANDA’s Immunity IV Therapy — powered by our clinical collaboration with 360Medicx — restores immune balance, reduces inflammation and supports your recovery from the inside out. Because resilience is the foundation of radiance.",
-      buttonText: "Book Immunity IV Consultation"
+      description: "Protect Your Wellness. ULANDA’s Immunity IV Therapy — powered by our clinical collaboration with 360Medicx, the CQC-registered Harley Street Longevity Clinic — restores immune balance, reduces inflammation and supports your recovery from the inside out. Because resilience is the foundation of radiance.",
+      buttonText: "Book Immunity IV Consultation (ULANDA × 360Medicx Harley Street)"
     }
   },
   {
     id: 'medical-weight-management',
     seo: {
-      title: "Medical Weight Management | GLP-1 & Metabolic Support | ULANDA",
-      description: "Expert-led medical weight management in Ware. Hormone-smart programmes featuring GLP-1 support, metabolic analysis & nutritional guidance."
+      title: "Medical Weight Management | Metabolic Reset & Hormone Support | ULANDA",
+      description: "A medically supervised metabolic reset programme for midlife weight changes, hormonal balance & body confidence. In partnership with 360Medicx Harley Street."
     },
     seoHeadings: {
-      h1: "Medical Weight Management in Ware SG12 — Safe, Guided GLP-1 & Body Composition Support",
+      h1: "Medical Weight Management in Ware SG12 — Hormone-Smart Metabolic Reset",
       h2: [
-        "What Our Weight Programme Treats",
-        "Why Menopause + Postpartum Weight Is Different",
-        "GLP-1 with Longevity Support (B12, Carnitine, NAD+)",
-        "Weight Loss + Skin Laxity (Regenerative Options)",
-        "Body Contouring + Weight Management",
-        "Book Weight Management Assessment (360Medicx Partnership)"
+        "What the Programme Treats (Menopause Weight, Insulin Resistance)",
+        "Why Midlife Weight Gain is Hormonal",
+        "GLP-1 & Metabolic Medication Support",
+        "The 6-Step Clinical Pathway",
+        "Integrating Weight Loss with Skin & Body Contouring",
+        "Book Medical Weight Management — With 360Medicx Harley Street"
       ]
     },
     title: 'Medical Weight',
     highlight: 'Management',
     titleSuffix: '',
     benefits: ['Metabolic Reset', 'Hormone Support', 'Body Confidence'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware (SG12)', 'Hertford', 'Broxbourne', 'Hoddesdon', 'Great Amwell', 'Much Hadham', 'Brickendon', 'Stanstead Abbotts', 'Hunsdon', 'surrounding villages'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Metabolic Reset • Hormone Support • Body Confidence',
@@ -957,7 +1089,8 @@ export const treatments = [
       title: "Introduction",
       content: [
         "Weight changes in midlife are not about willpower — they’re about hormones, metabolism, stress, inflammation, sleep and cellular signalling.",
-        "ULANDA’s Medical Weight Management programme is a science-led, hormone-smart, regenerative solution, designed for women experiencing perimenopause weight gain, menopause belly fat, metabolic slowdown, insulin resistance, stress-induced weight changes, stubborn fat despite dieting, fatigue & inflammation, poor sleep, and muscle loss with age."
+        "ULANDA’s Medical Weight Management programme is a science-led, hormone-smart, regenerative solution, designed for women experiencing:",
+        "perimenopause weight gain, menopause belly fat, metabolic slowdown, insulin resistance, stress-induced weight changes, stubborn fat despite dieting, fatigue & inflammation, poor sleep, muscle loss with age"
       ],
       goals: [
         "Fat loss",
@@ -980,7 +1113,7 @@ export const treatments = [
       points: [
         {
           title: "Hormonal decline",
-          description: "Estrogen + progesterone shifts → fat redistribution, appetite changes, metabolic slowdown."
+          description: "Estrogen + progesterone shifts - fat redistribution, appetite changes, metabolic slowdown."
         },
         {
           title: "Insulin resistance",
@@ -1000,7 +1133,7 @@ export const treatments = [
         },
         {
           title: "Thyroid instability",
-          description: "Often subtle, frequently undiagnosed."
+          description: "Often subtle, frequently undiagnosed. This programme identifies and treats root causes — not symptoms."
         }
       ]
     },
@@ -1012,30 +1145,30 @@ export const treatments = [
       items: [
         {
           title: "1. Clinical Assessment & Diagnostics",
-          description: "Hormone panel, thyroid screening, deficiency review, BMI/visceral fat/muscle mass assessment, medical history."
+          description: "Hormone panel (if clinically indicated), Thyroid screening, Vitamin & mineral deficiency review, BMI, visceral fat, hydration & muscle mass assessment, Medical history analysis, Perimenopause & menopause profiling"
         },
         {
           title: "2. Prescription Medication (If Appropriate)",
-          description: "GLP-1 analogues, Metformin, Naltrexone/bupropion. Prescribed by 360Medicx clinicians."
+          description: "Medications may include: GLP-1 analogues (semaglutide, liraglutide etc.), Metformin (for insulin resistance), Naltrexone/bupropion (appetite regulation). All prescribing is done exclusively by 360Medicx clinicians."
         },
         {
           title: "3. Metabolic Nutrition Strategy",
-          description: "Designed for fat loss, hormone stabilisation, gut repair, and inflammation reduction."
+          description: "Designed for: fat loss, hormone stabilisation, gut repair, reducing inflammation, improving energy, maintaining muscle"
         },
         {
           title: "4. Lifestyle, Sleep & Stress Reset",
-          description: "Addressing cortisol and nervous-system regulation."
+          description: "Because cortisol, sleep and nervous-system regulation determine fat distribution."
         },
         {
           title: "5. Movement & Strength Programming",
-          description: "Maintains lean muscle → restores metabolic rate."
+          description: "Maintains lean muscle - restores metabolic rate."
         },
         {
           title: "6. Optional Radiate Add-Ons",
-          description: "B12 injections, Vitamin D IM, NAD+ IM, Metabolic Reset IV."
+          description: "(NOT required, but synergistic.) B12 injections (energy & metabolism), Vitamin D IM (hormones & insulin support), NAD+ IM (cellular energy + fat burning), Metabolic Reset IV (electrolytes + amino acids + antioxidants)"
         }
       ],
-      footer: "This programme identifies and treats root causes — not symptoms."
+      footer: "This is the signature ULANDA integration that ties everything together."
     },
     idealFor: {
       title: "Who This Programme Is",
@@ -1052,34 +1185,67 @@ export const treatments = [
       ]
     },
     ulandaConnection: {
-      subtitle: "Integrating Medical Weight Management into ULANDA’s Ecosystem",
+      title: "Integrating Medical Weight Management into ULANDA’s 4-Pillar Regenerative Ecosystem",
+      subtitle: "The Ulanda Connection",
       sections: [
         {
           title: "1. REFRESH (Skin Surface Renewal)",
-          description: "As weight reduces, skin texture reflects improved nutrition & hydration, facials & peels perform better, and inflammation decreases leading to a brighter complexion.",
-          points: [],
+          description: "As weight reduces:",
+          points: [
+            "skin texture reflects improved nutrition & hydration",
+            "facials & peels perform better",
+            "inflammation decreases - brighter complexion"
+          ],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "2. RENEW (Cellular Regeneration)",
-          description: "Metabolic stability enhances PN fibroblast response, PRP platelet quality, microneedling repair speed, and skin booster hydration.",
-          points: [],
+          title: "2. RENEW (Cellular Regeneration: PN, PRP, Boosters)",
+          description: "Metabolic stability enhances:",
+          points: [
+            "PN fibroblast response",
+            "PRP platelet quality",
+            "Microneedling repair speed",
+            "Skin booster hydration"
+          ],
           conclusion: "Healthy metabolism = stronger cellular regeneration.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "3. RESTORE (Structural)",
-          description: "Weight loss improves structural longevity: better definition for jawline & chin treatments, increased collagen quality for PLLA/CaHA, smoother outcomes for threads, and better facial balancing.",
-          points: [],
+          title: "3. RESTORE (Structural: Threads, Biostimulators, Fillers)",
+          description: "Weight loss improves structural longevity:",
+          points: [
+            "better definition for jawline & chin treatments",
+            "increased collagen quality for PLLA/CaHA",
+            "smoother outcomes for threads",
+            "better facial balancing"
+          ],
           conclusion: "Internal body changes enhance external structural results.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "4. RADIATE (Internal Wellness)",
-          description: "Aligns directly with Radiate services such as NAD+ IM, Glutathione IV/IM, Vitamin D IM, B12 IM, and Women’s Longevity IV.",
-          points: [],
+          title: "4. RADIATE (Internal Wellness: IV/IM Therapies)",
+          description: "The Medical Weight Management programme aligns directly with Radiate services such as:",
+          points: [
+            "NAD+ IM",
+            "Glutathione IV/IM",
+            "Vitamin D IM",
+            "B12 IM",
+            "Women’s Longevity IV"
+          ],
           conclusion: "Together, they form a holistic metabolic-hormonal-skin optimisation system.",
+          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+        },
+        {
+          title: "OPTIONAL AESTHETIC SYNERGIES",
+          description: "ULANDA can also integrate body contouring alongside medical weight loss:",
+          points: [
+            "Fat-dissolving treatments (if appropriate)",
+            "Body tightening (RF, threads or biostimulators)",
+            "Cellulite regeneration programmes",
+            "Abdomen tightening (postpartum, perimenopause)"
+          ],
+          conclusion: "This creates a 360° physical + metabolic transformation.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         }
       ]
@@ -1090,32 +1256,32 @@ export const treatments = [
         {
           title: "Medically Supervised",
           description: "Fully medically supervised and CQC-governed via 360Medicx.",
-          icon: "cqc"
+          icon: "clinician"
         },
         {
-          title: "Clinician Prescribed",
-          description: "Evidence-based and clinician-prescribed.",
+          title: "Clinician-Prescribed",
+          description: "All protocols are clinician-prescribed and evidence-based.",
           icon: "prescribed"
         },
         {
-          title: "Hormone Aware",
-          description: "Safe & tailored for midlife women.",
-          icon: "clinician"
+          title: "Hormone-Smart",
+          description: "Hormone- and metabolic-aware. Safe & tailored for midlife women.",
+          icon: "cqc"
         }
       ]
     },
     cta: {
       title: "The Future of Weight Loss is",
-      highlight: "Hormone-Smart.",
-      description: "Metabolic & Medical — Not Restrictive. ULANDA’s Medical Weight Management, in clinical partnership with 360Medicx, is a regenerative, holistic, feminine-focused approach that supports your body inside and out.",
-      buttonText: "Book Medical Weight Management Consultation"
+      highlight: "Hormone-Smart",
+      description: "Metabolic & Medical — Not Restrictive. ULANDA’s Medical Weight Management, in clinical partnership with 360Medicx, CQC-Registered Harley Street Clinic, is a regenerative, holistic, feminine-focused approach that supports your body inside and out. Healthy. Sustainable. Science-led. Tailored to the way women actually live. ",
+      buttonText: "Book Medical Weight Management Consultation (ULANDA × 360Medicx)"
     }
   },
   {
     id: 'nad-im',
     seo: {
       title: "NAD+ Injection | Cellular Energy & Anti-Ageing | ULANDA",
-      description: "Boost cellular energy and focus with a fast-acting NAD+ Injection. Supports DNA repair, anti-ageing & cognitive clarity."
+      description: "Boost cellular energy and focus with a fast-acting NAD+ Injection. Supports DNA repair, anti-ageing & cognitive clarity. In partnership with 360Medicx Harley Street."
     },
     seoHeadings: {
       h1: "NAD+ Injection in Ware SG12 — Quick Energy & Anti-Ageing Support",
@@ -1131,7 +1297,7 @@ export const treatments = [
     highlight: 'IM',
     titleSuffix: 'Injection',
     benefits: ['Cellular Energy', 'Anti-Ageing', 'Brain Clarity', 'Hormone Support'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware (SG12)', 'Hertford', 'Broxbourne', 'Hoddesdon', 'Great Amwell', 'Stanstead Abbotts', 'Much Hadham', 'Brickendon', 'Hunsdon', 'all surrounding Hertfordshire villages'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Cellular Energy • Anti-Ageing • Brain Clarity • Hormone Support',
@@ -1144,7 +1310,8 @@ export const treatments = [
     introduction: {
       title: "Introduction",
       content: [
-        "NAD+ (Nicotinamide Adenine Dinucleotide) is the core molecule of life — every cell in your body depends on it to create energy, repair DNA, regulate metabolism, protect against ageing, support the nervous system, balance hormones, and restore resilience.",
+        "NAD+ (Nicotinamide Adenine Dinucleotide) is the core molecule of life — every cell in your body depends on it to:",
+        "create energy, repair DNA, regulate metabolism, protect against ageing, support the nervous system, balance hormones, restore resilience",
         "But by age 40, NAD+ levels can drop up to 50%, and by age 50, even more rapidly — driving fatigue, brain fog, slower skin repair, weight changes, reduced collagen, inflammation and accelerated ageing.",
         "ULANDA’s NAD+ IM injection delivers fast-release NAD+ at the cellular level for immediate energy, enhanced cognitive performance and powerful anti-ageing support — especially for women navigating perimenopause, menopause and midlife stress."
       ],
@@ -1164,14 +1331,59 @@ export const treatments = [
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
+    detailedBenefits: {
+      title: "Benefits of NAD+ IM",
+      sections: [
+        {
+          title: "ENERGY & PERFORMANCE",
+          items: [
+            "Clean, stable, stimulant-free energy",
+            "Reduced fatigue & burn-out",
+            "Increased mental stamina"
+          ]
+        },
+        {
+          title: "COGNITION & MOOD",
+          items: [
+            "Sharper focus",
+            "Better memory & motivation",
+            "Enhanced mood regulation"
+          ]
+        },
+        {
+          title: "CELLULAR LONGEVITY",
+          items: [
+            "DNA repair activation",
+            "Reduced cellular ageing",
+            "Enhanced metabolic resilience"
+          ]
+        },
+        {
+          title: "SKIN & AESTHETIC BENEFITS",
+          items: [
+            "Improved collagen activity",
+            "Faster tissue repair",
+            "Reduced inflammation",
+            "Stronger response to regenerative skin treatments"
+          ]
+        },
+        {
+          title: "HORMONE SUPPORT",
+          items: [
+            "Helps balance metabolic stress from hormonal decline",
+            "Supports sleep & nervous system function"
+          ]
+        }
+      ]
+    },
     internalSupport: {
-      title: "Why NAD+ is Essential for",
+      title: "Why NAD+ Is Essential for",
       titleSuffix: "Women in Midlife",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
         {
           title: "Energy crashes are often mitochondrial",
-          description: "NAD+ restores ATP production, giving clean, stable energy."
+          description: "NAD+ restores ATP production, giving clean, stable energy. Often these crashes are not motivational."
         },
         {
           title: "Hormones and NAD+ decline simultaneously",
@@ -1187,11 +1399,11 @@ export const treatments = [
         },
         {
           title: "Cognitive clarity depends on NAD+",
-          description: "Low levels → brain fog, forgetfulness, low motivation."
+          description: "Low levels - brain fog, forgetfulness, low motivation."
         },
         {
           title: "NAD+ slows cellular ageing",
-          description: "A critical part of longevity medicine."
+          description: "A critical part of longevity medicine. NAD+ IM gives your cells the direct fuel they need to function, repair and regenerate."
         }
       ]
     },
@@ -1199,26 +1411,26 @@ export const treatments = [
       title: "What’s",
       highlight: "Inside",
       titleSuffix: "the NAD+ IM",
-      subtitle: "Clinical dose delivered intramuscularly for rapid absorption:",
+      subtitle: "Clinical dose delivered intramuscularly for rapid absorption without the longer infusion time of NAD+ IV.",
       items: [
         {
           title: "Pure NAD+",
-          description: "Nicotinamide adenine dinucleotide for cellular energy."
+          description: "Nicotinamide adenine dinucleotide."
         },
         {
           title: "Optional Enhancer: B12",
-          description: "Energy + mood."
+          description: "(energy + mood)"
         },
         {
           title: "Optional Enhancer: Magnesium",
-          description: "Sleep + stress."
+          description: "(sleep + stress)"
         },
         {
           title: "Optional Enhancer: Glutathione",
-          description: "Detox + glow."
+          description: "(detox + glow)"
         }
       ],
-      footer: "Delivered intramuscularly for rapid absorption without the longer infusion time of NAD+ IV."
+      footer: "This is your “deep internal battery recharge.”"
     },
     idealFor: {
       title: "Who This Treatment Is",
@@ -1235,26 +1447,42 @@ export const treatments = [
       ]
     },
     ulandaConnection: {
-      subtitle: "How NAD+ Supercharges Refresh, Renew & Restore",
+      title: "The Ulanda Connection — How NAD+ Supercharges Refresh, Renew & Restore",
+      subtitle: "Horizontal Integration",
       sections: [
         {
           title: "1. REFRESH (Facials, Peels, LED, Enzymes)",
-          description: "NAD+ improves skin healing, reduction in inflammation, recovery after resurfacing, and glow response from facials and LED.",
-          points: [],
+          description: "NAD+ improves:",
+          points: [
+            "Skin healing",
+            "Reduction in inflammation",
+            "Recovery after resurfacing",
+            "Glow response from facials and LED"
+          ],
           conclusion: "Better cellular energy = better surface radiance.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
-          description: "NAD+ accelerates fibroblast activation, collagen production for PN & microneedling, platelet quality for PRP, and hydration response to skin boosters.",
-          points: [],
+          description: "NAD+ accelerates:",
+          points: [
+            "Fibroblast activation",
+            "Collagen production for PN & microneedling",
+            "Platelet quality for PRP",
+            "Hydration response to skin boosters"
+          ],
           conclusion: "Regeneration is energy-dependent — NAD+ fuels the process.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "3. RESTORE (Biostimulators, Threads, Natural Fillers)",
-          description: "NAD+ enhances structural results by improving collagen fibre quality, supporting healing after threads, maximising PLLA/CaHA outcomes, and strengthening skin density.",
-          points: [],
+          description: "NAD+ enhances structural results by:",
+          points: [
+            "Improving collagen fibre quality",
+            "Supporting healing after threads",
+            "Maximising PLLA/CaHA outcomes",
+            "Strengthening skin density"
+          ],
           conclusion: "High NAD+ = stronger, thicker, healthier skin that lifts better.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         }
@@ -1264,13 +1492,13 @@ export const treatments = [
       title: "Safety & Medical Oversight",
       items: [
         {
-          title: "Clinically Screened",
-          description: "Prescribed by 360Medicx and CQC-governed.",
+          title: "Clinicially Screened",
+          description: "Clinically screened & prescribed by 360Medicx.",
           icon: "cqc"
         },
         {
           title: "Clinician Administered",
-          description: "Administered by trained medical clinicians.",
+          description: "Administered by trained medical clinicians and CQC-governed.",
           icon: "clinician"
         },
         {
@@ -1283,15 +1511,15 @@ export const treatments = [
     cta: {
       title: "Energy. Clarity.",
       highlight: "Longevity.",
-      description: "From a Single Injection. ULANDA’s NAD+ IM, delivered through 360Medicx, is your fast-acting anti-ageing and energy-reset solution — for women who want to feel alive, focused and restored from the inside out.",
-      buttonText: "Book NAD+ IM"
+      description: "From a Single Injection. ULANDA’s NAD+ IM, delivered through 360Medicx, the CQC-registered Harley Street Longevity Clinic, is your fast-acting anti-ageing and energy-reset solution — for women who want to feel alive, focused and restored from the inside out.",
+      buttonText: "Book NAD+ IM (ULANDA × 360Medicx Harley Street)"
     }
   },
   {
     id: 'nad-iv',
     seo: {
       title: "NAD+ IV Therapy | Anti-Ageing & Brain Health | ULANDA",
-      description: "Restore cellular energy with NAD+ IV Therapy. A powerful anti-ageing treatment to improve mental clarity, focus & metabolic function."
+      description: "Restore cellular energy with NAD+ IV Therapy. A powerful anti-ageing treatment to improve mental clarity, focus & metabolic function. In partnership with 360Medicx Harley Street."
     },
     seoHeadings: {
       h1: "NAD+ IV Therapy in Ware SG12 — Energy, Longevity & Cellular Repair",
@@ -1310,7 +1538,7 @@ export const treatments = [
     highlight: 'IV',
     titleSuffix: 'Therapy',
     benefits: ['Cellular Energy', 'Brain Function', 'Longevity', 'Metabolic Support'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware (SG12)', 'Hertford', 'Broxbourne', 'Stanstead Abbotts', 'Hoddesdon', 'Great Amwell', 'Much Hadham', 'Brickendon', 'Hunsdon', '10-mile Hertfordshire radius'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Cellular Energy • Brain Function • Longevity • Metabolic Support',
@@ -1318,15 +1546,15 @@ export const treatments = [
       partner: '360Medicx',
       subtitle: 'CQC Registered Harley Street Clinic',
       features: ['Regulated', 'Medically Overseen', 'Clinician-Delivered'],
-      description: "ULANDA’s RADIATE Wellness IV & IM therapies are provided in collaboration with 360Medicx, a CQC-registered Harley Street medical clinic specialising in longevity, preventive medicine and advanced IV infusion therapy.",
+      description: "ULANDA’s RADIATE Wellness IV & IM therapies are provided in collaboration with 360Medicx, a CQC-registered Harley Street medical clinic specialising in longevity, preventive medicine and advanced IV infusion therapy. This partnership ensures regulated, medically overseen, clinician-delivered care for every internal wellness service.",
     },
     introduction: {
       title: "Introduction",
       content: [
         "Regeneration begins at the cellular level — and NAD+ is at the heart of it.",
         "Your energy, hormones, metabolism, clarity, skin regeneration and longevity all depend on one essential molecule: NAD+ — the master coenzyme for energy, repair and cellular resilience.",
-        "By your mid-30s, NAD+ levels drop sharply — up to 50% by age 40, and up to 80% by menopause — affecting chronic fatigue, brain fog, metabolism + weight, mood + stress tolerance, sleep quality, collagen formation, skin elasticity, inflammation, and healing capacity.",
-        "ULANDA’s NAD+ IV Therapy — delivered under the clinical governance of 360Medicx — restores NAD+ directly into the bloodstream for immediate cellular uptake and deep regenerative impact."
+        "By your mid-30s, NAD+ levels drop sharply — up to 50% by age 40, and up to 80% by menopause — affecting: chronic fatigue, brain fog, metabolism + weight, mood + stress tolerance, sleep quality, collagen formation, skin elasticity, inflammation, healing capacity.",
+        "ULANDA’s NAD+ IV Therapy — delivered under the clinical governance of 360Medicx (CQC Registered Harley Street Clinic) — restores NAD+ directly into the bloodstream for immediate cellular uptake and deep regenerative impact."
       ],
       goals: [
         "Rapid cellular repair",
@@ -1360,7 +1588,7 @@ export const treatments = [
         },
         {
           title: "Brain Function",
-          description: "Improves neurotransmitter balance → clarity, focus, memory and mental calm."
+          description: "Improves neurotransmitter balance - clarity, focus, memory and mental calm."
         },
         {
           title: "Metabolism & Weight Regulation",
@@ -1372,7 +1600,32 @@ export const treatments = [
         },
         {
           title: "Skin Regeneration",
-          description: "Energises fibroblasts → stronger collagen, elasticity and repair."
+          description: "Energises fibroblasts - stronger collagen, elasticity and repair. True glow begins with cellular energy."
+        }
+      ]
+    },
+    detailedBenefits: {
+      title: "Benefits of NAD+ IV",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Rapid cellular repair",
+            "Stable, lasting energy",
+            "Improved mood + motivation",
+            "Enhanced mental clarity",
+            "Better metabolic performance",
+            "Reduced inflammation",
+            "Faster post-treatment recovery",
+            "Stronger collagen + elasticity",
+            "Restored vitality during hormonal change"
+          ]
+        },
+        {
+          title: "Client Experience",
+          items: [
+            "Clients often describe a feeling of “reset, clarity and deep calm” within days."
+          ]
         }
       ]
     },
@@ -1380,48 +1633,49 @@ export const treatments = [
       title: "Treatment",
       highlight: "Schedule",
       titleSuffix: "",
-      subtitle: "360Medicx provides full medical assessment and dosing governance.",
+      subtitle: "How NAD+ IV Works at ULANDA: Your infusion is medically prescribed, delivered by 360Medicx clinicians, managed under CQC-governed protocols, slow-infused for comfort and safety, and tailored to age, hormones and goals.",
       items: [
         {
-          title: "Loading Phase",
-          description: "2 IVs per week × 2 weeks → restores depleted NAD+ stores."
+          title: "Loading Phase (for depleted or first-time clients)",
+          description: "2 IVs per week × 2 weeks - restores depleted NAD+ stores."
         },
         {
           title: "Stabilisation Phase",
-          description: "1 IV per week × 4 weeks → metabolic + cognitive optimisation."
+          description: "1 IV per week × 4 weeks - metabolic + cognitive optimisation."
         },
         {
           title: "Maintenance",
-          description: "Every 2–4 weeks → longevity, clarity and vitality preserved."
+          description: "Every 2–4 weeks - longevity, clarity and vitality preserved."
         }
       ],
-      footer: "Sessions last 90–120 minutes, allowing a restorative, calming wellness experience."
+      footer: "Sessions last 90–120 minutes, allowing a restorative, calming wellness experience for Hertfordshire women balancing work, family and midlife transitions. 360Medicx provides full medical assessment and dosing governance."
     },
     idealFor: {
       title: "Who Benefits",
       highlight: "Most",
       titleSuffix: "",
       items: [
-        "Perimenopausal & menopausal women (fatigue, mood shifts, weight resistance, sleep disruption, brain fog, collagen loss)",
-        "Postpartum clients (depleted energy, stress overload, hormonal dysregulation)",
-        "High-performing professionals (cognitive strain, chronic stress, burnout)",
+        "Perimenopausal & menopausal women: fatigue, mood shifts, weight resistance, sleep disruption, brain fog, collagen loss",
+        "Postpartum clients: depleted energy, stress overload, hormonal dysregulation",
+        "High-performing professionals: cognitive strain, chronic stress, burnout",
         "Recovery, inflammation or immune challenges",
-        "Clients on regenerative aesthetic journeys (amplifies PN, PRP, microneedling, biostimulators, peels)"
+        "Clients on regenerative aesthetic journeys: NAD+ amplifies results from PN, PRP, microneedling, biostimulators, advanced peels"
       ]
     },
     ulandaConnection: {
-      subtitle: "Why NAD+ Boosts Aesthetic Outcomes",
+      title: "Why NAD+ Boosts Aesthetic Outcomes",
+      subtitle: "Internal Regeneration Elevates External Results",
       sections: [
         {
           title: "Faster Tissue Recovery",
-          description: "Improved fibroblast energy leads to better collagen response and reduced inflammation.",
+          description: "Improved fibroblast energy means better collagen response and reduced inflammation.",
           points: [],
-          conclusion: "Internal regeneration elevates external results.",
+          conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "Enhanced Skin Rejuvenation",
-          description: "Makes NAD+ a powerful companion to PN, biostimulators, RF microneedling, anti-ageing facials, and menopausal skin treatments.",
+          description: "NAD+ is a powerful companion to PN, biostimulators, RF microneedling, anti-ageing facials, and menopausal skin treatments.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -1451,8 +1705,8 @@ export const treatments = [
     cta: {
       title: "Elevate Your Energy.",
       highlight: "Restore Your Clarity.",
-      description: "Radiate From Within. ULANDA’s NAD+ IV Therapy — delivered in clinical partnership with 360Medicx — supports your internal vitality, hormonal health and skin regeneration from the inside out.",
-      buttonText: "Book NAD+ Consultation"
+      description: "Radiate From Within. ULANDA’s NAD+ IV Therapy — delivered in clinical partnership with 360Medicx, a CQC-registered Harley Street Longevity Clinic — supports your internal vitality, hormonal health and skin regeneration from the inside out. Because true beauty starts at the cellular level.",
+      buttonText: "Book NAD+ Consultation (ULANDA × 360Medicx Harley Street)"
     }
   },
   {
@@ -1475,6 +1729,52 @@ export const treatments = [
     highlight: 'IM',
     titleSuffix: 'Booster',
     benefits: ['Energy', 'Cognition', 'Metabolism', 'Hormone Support'],
+    detailedBenefits: {
+      title: "Benefits of Vitamin B12 IM",
+      sections: [
+        {
+          title: "ENERGY & MOOD",
+          items: [
+            "Immediate increase in energy",
+            "Reduced fatigue and sluggishness",
+            "Improved mood and emotional regulation",
+            "Better stress resilience"
+          ]
+        },
+        {
+          title: "COGNITION & NERVOUS SYSTEM",
+          items: [
+            "Improved focus and mental clarity",
+            "Reduction in “brain fog”",
+            "Enhanced memory and concentration"
+          ]
+        },
+        {
+          title: "METABOLISM & WEIGHT SUPPORT",
+          items: [
+            "Supports fat metabolism",
+            "Improved glucose processing",
+            "Helps stabilise appetite & cravings"
+          ]
+        },
+        {
+          title: "SKIN & AESTHETIC BENEFITS",
+          items: [
+            "Supports collagen formation",
+            "Reduces inflammation",
+            "Enhances wound healing",
+            "Improves overall brightness"
+          ]
+        },
+        {
+          title: "LONGEVITY BENEFITS",
+          items: [
+            "Reduces homocysteine (associated with cellular ageing)",
+            "Supports optimal red blood cell production"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
@@ -1570,24 +1870,39 @@ export const treatments = [
       subtitle: "How B12 Boosts All Skin & Regenerative Treatments",
       sections: [
         {
-          title: "1. REFRESH (Facials, Chemical Peels, BioRePeel, LED)",
-          description: "B12 enhances skin recovery after peels, cellular turnover, reduction in redness, and improved brightness and vitality.",
-          points: [],
+          title: "1. REFRESH — Facials, Chemical Peels, BioRePeel, LED",
+          description: "B12 enhances:",
+          points: [
+            "Skin recovery after peels",
+            "Cellular turnover",
+            "Reduction in redness",
+            "Improved brightness and vitality"
+          ],
           conclusion: "A healthy metabolic state = a more radiant complexion.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
-          description: "B12 is essential for DNA synthesis (stronger PN & PRP response), faster microneedling healing, better collagen activation, and improved hydration response with boosters.",
-          points: [],
+          title: "2. RENEW — PN, PRP, Microneedling, Skin Boosters",
+          description: "B12 is essential for:",
+          points: [
+            "DNA synthesis - stronger PN & PRP response",
+            "Faster microneedling healing",
+            "Better collagen activation",
+            "Improved hydration response with boosters"
+          ],
           conclusion: "Cellular regeneration depends on optimal B12 levels.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "3. RESTORE (Biostimulators, Threads, Natural Fillers)",
-          description: "B12 improves structural outcomes by supporting fibroblast activity, enhancing collagen quality for PLLA/CaHA, improving tissue healing post-threads, and increasing skin density & resilience.",
-          points: [],
-          conclusion: "Better nutrition → stronger collagen → better lifting & structural results.",
+          title: "3. RESTORE — Biostimulators, Threads, Natural Fillers",
+          description: "B12 improves structural outcomes by:",
+          points: [
+            "Supporting fibroblast activity",
+            "Enhancing collagen quality for PLLA/CaHA",
+            "Improving tissue healing post-threads",
+            "Increasing skin density & resilience"
+          ],
+          conclusion: "Better nutrition - stronger collagen - better lifting & structural results.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         }
       ]
@@ -1639,6 +1954,52 @@ export const treatments = [
     highlight: 'IM',
     titleSuffix: 'Booster',
     benefits: ['Immunity', 'Hormones', 'Mood', 'Skin Repair'],
+    detailedBenefits: {
+      title: "Benefits of Vitamin D IM",
+      sections: [
+        {
+          title: "ENERGY & HORMONE SUPPORT",
+          items: [
+            "Improved mood & emotional stability",
+            "Better perimenopause/menopause symptom tolerance",
+            "Enhanced sleep quality"
+          ]
+        },
+        {
+          title: "IMMUNITY BOOST",
+          items: [
+            "Stronger immune defence",
+            "Reduced frequency of colds / infections"
+          ]
+        },
+        {
+          title: "SKIN & AESTHETIC BENEFITS",
+          items: [
+            "Enhanced skin repair",
+            "Reduced inflammation & redness",
+            "Supports healthy pigmentation pathways",
+            "Strengthens the skin barrier"
+          ]
+        },
+        {
+          title: "METABOLIC BENEFITS",
+          items: [
+            "Improved insulin sensitivity",
+            "Better weight management outcomes",
+            "Supports thyroid function"
+          ]
+        },
+        {
+          title: "LONGEVITY EFFECTS",
+          items: [
+            "Reduced chronic inflammation",
+            "Bone density support",
+            "Improved muscle strength",
+            "This is one of the most essential longevity nutrients for women in midlife."
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
@@ -1652,23 +2013,14 @@ export const treatments = [
     introduction: {
       title: "Introduction",
       content: [
-        "Vitamin D isn’t just a vitamin — it is a hormone-like regulatory molecule essential for immunity, energy, mood, hormone balance, bone health, skin repair, and inflammation control.",
+        "Vitamin D isn’t just a vitamin — it is a hormone-like regulatory molecule essential for: immunity, energy, mood, hormone balance, bone health, skin repair, inflammation control.",
         "Yet over 60% of UK adults are deficient, especially during autumn–winter months and particularly women over 35 due to hormonal changes.",
         "A Vitamin D IM booster bypasses digestion and delivers a therapeutic dose directly into the bloodstream, restoring optimal levels for immunity, vitality and long-term skin regeneration."
       ],
-      goals: [
-        "Improved mood & emotional stability",
-        "Better perimenopause/menopause symptom tolerance",
-        "Enhanced sleep quality",
-        "Stronger immune defence",
-        "Enhanced skin repair",
-        "Reduced inflammation & redness",
-        "Improved insulin sensitivity",
-        "Bone density support"
-      ],
+      goals: [],
       highlightBox: {
-        text1: "This is one of the most essential longevity nutrients for women in midlife.",
-        text2: "A Vitamin D IM booster restores balance rapidly — usually within hours."
+        text1: "A Vitamin D IM booster restores balance rapidly — usually within hours.",
+        text2: ""
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -1703,7 +2055,7 @@ export const treatments = [
       title: "What’s",
       highlight: "Inside",
       titleSuffix: "the Vitamin D IM",
-      subtitle: "A therapeutic dose for optimal levels:",
+      subtitle: "",
       items: [
         {
           title: "High-dose Vitamin D3 (Cholecalciferol)",
@@ -1714,7 +2066,7 @@ export const treatments = [
           description: "Supports Vitamin D activation & hormone balance."
         }
       ],
-      footer: "Restores optimal levels for immunity, vitality and long-term skin regeneration."
+      footer: ""
     },
     idealFor: {
       title: "Who This Treatment Is",
@@ -1730,26 +2082,42 @@ export const treatments = [
       ]
     },
     ulandaConnection: {
-      subtitle: "How Vitamin D Supports All Skin & Aesthetic Treatments",
+      title: "The Ulanda Connection — How Vitamin D Supports All Skin & Aesthetic Treatments",
+      subtitle: "This section anchors Radiate across the Refresh • Renew • Restore verticals.",
       sections: [
         {
-          title: "1. REFRESH (Facials, Peels, LED, Enzyme Therapy)",
-          description: "Vitamin D IM improves barrier repair post-peel, redness reduction after BioRePeel / chemical peels, skin tolerance & recovery from resurfacing, and overall clarity + brightness.",
-          points: [],
+          title: "1. REFRESH — Facials, Peels, LED, Enzyme Therapy",
+          description: "Vitamin D IM improves:",
+          points: [
+            "Barrier repair post-peel",
+            "Redness reduction after BioRePeel / chemical peels",
+            "Skin tolerance & recovery from resurfacing",
+            "Overall clarity + brightness"
+          ],
           conclusion: "Inflamed, depleted skin does not glow — Vitamin D restores its resilience.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
-          description: "Vitamin D enhances cellular repair by reducing inflammation during microneedling recovery, improving fibroblast performance (collagen synthesis), supporting tissue repair for PN + PRP, and enhancing healing after skin boosters.",
-          points: [],
+          title: "2. RENEW — PN, PRP, Microneedling, Skin Boosters",
+          description: "Vitamin D enhances cellular repair by:",
+          points: [
+             "Reducing inflammation during microneedling recovery",
+             "Improving fibroblast performance (collagen synthesis)",
+             "Supporting tissue repair for PN + PRP",
+             "Enhancing healing after skin boosters"
+          ],
           conclusion: "Vitamin D is essential for collagen activation + wound healing.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "3. RESTORE (Biostimulators, Threads, Natural Fillers)",
-          description: "Vitamin D IM strengthens collagen response to PLLA/CaHA, tissue integrity before thread lifting, healing quality post-threads, and skin density for better, longer-lasting structural outcomes.",
-          points: [],
+          title: "3. RESTORE — Biostimulators, Threads, Natural Fillers",
+          description: "Vitamin D IM strengthens:",
+          points: [
+            "Collagen response to PLLA/CaHA",
+            "Tissue integrity before thread lifting",
+            "Healing quality post-threads",
+            "Skin density - better, longer-lasting structural outcomes"
+          ],
           conclusion: "Stronger, healthier tissue = better lifting, tightening and structural work.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         }
@@ -1760,26 +2128,29 @@ export const treatments = [
       items: [
         {
           title: "Medically Screened",
-          description: "Medically screened and tailored to your medical history.",
+          description: "All Vitamin D IM injections are Medically screened",
           icon: "cqc"
         },
         {
           title: "Clinician Administered",
-          description: "Administered by trained professionals.",
+          description: "Clinician-administered and CQC-protocols governed.",
           icon: "clinician"
         },
         {
           title: "Safe",
-          description: "Safe with minimal downtime.",
+          description: "Safe with minimal downtime. Tailored to your medical history.",
           icon: "prescribed"
         }
       ]
     },
+    localSeo: {
+      content: "Vitamin D IM available for clients in: Ware (SG12), Hertford, Broxbourne, Hoddesdon, Great Amwell, Stanstead Abbotts, Hunsdon, Much Hadham, Brickendon, and surrounding villages within a 10-mile radius."
+    },
     cta: {
       title: "Vitality Starts With",
       highlight: "What’s Inside.",
-      description: "ULANDA’s Vitamin D IM — delivered through our partnership with 360Medicx — restores energy, immune strength and the hormonal balance your skin and body depend on. Because glowing on the outside begins with nourishing the inside.",
-      buttonText: "Book Vitamin D IM"
+      description: "ULANDA’s Vitamin D IM — delivered through our partnership with 360Medicx (CQC Registered Harley Street Clinic) — restores energy, immune strength and the hormonal balance your skin and body depend on. Because glowing on the outside begins with nourishing the inside.",
+      buttonText: "Book Vitamin D IM (ULANDA × 360Medicx Harley Street)"
     }
   },
   {
@@ -1794,7 +2165,7 @@ export const treatments = [
         "What This Infusion Treats (Menopause, Perimenopause, Stress Ageing)",
         "Why Hormonal Skin Responds Better to IV Support",
         "Who This Is Ideal For",
-        "IV + Aesthetics (Radiate → Restore → Renew Pathway)",
+        "IV + Aesthetics (Radiate - Restore - Renew Pathway)",
         "Book Women's Longevity IV — Via 360Medicx Harley Street"
       ]
     },
@@ -1802,6 +2173,54 @@ export const treatments = [
     highlight: 'IV',
     titleSuffix: '',
     benefits: ['Hormone Support', 'Energy', 'Metabolism', 'Skin Repair'],
+    detailedBenefits: {
+      title: "Benefits of Women's Longevity IV",
+      sections: [
+        {
+          title: "ENERGY + METABOLISM",
+          items: [
+            "Improved mitochondrial energy",
+            "Better fat oxidation",
+            "Reduced sluggishness",
+            "Improved stamina"
+          ]
+        },
+        {
+          title: "HORMONE SUPPORT",
+          items: [
+            "Supports estrogen/progesterone pathways",
+            "Reduces perimenopause symptoms",
+            "Stabilises cortisol",
+            "Enhances emotional balance"
+          ]
+        },
+        {
+          title: "COGNITION & MOOD",
+          items: [
+            "Reduces brain fog",
+            "Improves clarity & focus",
+            "Boosts serotonin pathway support"
+          ]
+        },
+        {
+          title: "SKIN & COLLAGEN REGENERATION",
+          items: [
+            "Improved collagen protection",
+            "Reduced dullness & inflammation",
+            "Increased glow & repair",
+            "Helps with dehydration from hormonal changes"
+          ]
+        },
+        {
+          title: "CELLULAR LONGEVITY",
+          items: [
+            "Reduced oxidative stress",
+            "Improved detoxification",
+            "Slower biological ageing"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
@@ -1849,7 +2268,7 @@ export const treatments = [
           description: "Leading to weight plateaus and higher inflammation."
         },
         {
-          title: "Stress increases cortisol → fatigue + skin ageing",
+          title: "Stress increases cortisol - fatigue + skin ageing",
           description: "Chronic cortisol damages collagen, sleep and emotional stability."
         },
         {
@@ -1858,7 +2277,7 @@ export const treatments = [
         },
         {
           title: "Detoxification slows",
-          description: "Toxins accumulate → low energy, dull skin, inflammation."
+          description: "Toxins accumulate - low energy, dull skin, inflammation."
         }
       ]
     },
@@ -1869,16 +2288,16 @@ export const treatments = [
       subtitle: "Clinically tailored formulation may include:",
       items: [
         {
-          title: "Amino Acids",
-          description: "Carnitine, Taurine, Lysine for hormone & metabolic balance."
+          title: "Amino Acids for Hormone & Metabolic Balance",
+          description: "Carnitine (fat metabolism), Taurine (liver support + mood balance), Lysine (collagen stability)."
         },
         {
-          title: "B-Vitamin Complex",
-          description: "B12, B6, B5, B1, B2, B3 for cellular energy."
+          title: "B-Vitamin Complex for Cellular Energy",
+          description: "B12 (energy, mood, brain), B6 (hormone support), B5 (stress hormone regulation), B1, B2, B3 (metabolic activation)."
         },
         {
-          title: "Antioxidants",
-          description: "Glutathione, Vitamin C, Alpha-lipoic acid for skin & hormone repair."
+          title: "Antioxidants for Skin & Hormone Repair",
+          description: "Glutathione, Vitamin C, Alpha-lipoic acid."
         },
         {
           title: "Hydration + Electrolytes",
@@ -1886,7 +2305,7 @@ export const treatments = [
         },
         {
           title: "Optional Longevity Add-Ons",
-          description: "NAD+ microdose, Zinc, Magnesium, Selenium."
+          description: "NAD+ microdose (mitochondrial repair), Zinc (immune + hormone balance), Magnesium (sleep, nervous system), Selenium (thyroid support)."
         }
       ],
       footer: "All formulations are clinician-prescribed by 360Medicx."
@@ -1907,26 +2326,42 @@ export const treatments = [
       ]
     },
     ulandaConnection: {
-      subtitle: "How the Longevity IV Supercharges Refresh, Renew & Restore",
+      title: "The Ulanda Connection — How the Longevity IV Supercharges Refresh, Renew & Restore",
+      subtitle: "This section cements Radiate as the core of the ecosystem.",
       sections: [
         {
           title: "1. REFRESH (Facials, BioRePeel, Peels, LED)",
-          description: "The Longevity IV improves post-peel repair, skin brightness, barrier strength, and glow after medical facials.",
-          points: [],
+          description: "The Longevity IV improves:",
+          points: [
+            "Post-peel repair",
+            "Skin brightness",
+            "Barrier strength",
+            "Glow after medical facials"
+          ],
           conclusion: "Healthier internal chemistry creates healthier skin surfaces.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
-          description: "Nutrient-loaded blood + balanced hormones improve PN fibroblast activation, PRP platelet quality, microneedling healing speed, and hydration response to skin boosters.",
-          points: [],
+          description: "Nutrient-loaded blood + balanced hormones improve:",
+          points: [
+            "PN fibroblast activation",
+            "PRP platelet quality",
+            "Microneedling healing speed",
+            "Hydration response to skin boosters"
+          ],
           conclusion: "Hormone-smart internal support = stronger regeneration.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "3. RESTORE (Threads, Biostimulators, Natural Fillers)",
-          description: "Longevity IV enhances structural outcomes: collagen formation for PLLA/CaHA, skin density for threads, reduced inflammation post-treatment, and longer-lasting lifting results.",
-          points: [],
+          description: "Longevity IV enhances structural outcomes:",
+          points: [
+            "Collagen formation for PLLA/CaHA",
+            "Skin density for threads",
+            "Reduced inflammation post-treatment",
+            "Longer-lasting lifting results"
+          ],
           conclusion: "Internal balance determines external results.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         }
@@ -1951,6 +2386,9 @@ export const treatments = [
           icon: "prescribed"
         }
       ]
+    },
+    localSeo: {
+      content: "Women’s Longevity IV available in: Ware (SG12), Hertford, Broxbourne, Hoddesdon, Great Amwell, Stanstead Abbotts, Hunsdon, Much Hadham, Brickendon, and neighbouring Hertfordshire villages."
     },
     cta: {
       title: "A New Era of",
@@ -1979,7 +2417,7 @@ export const treatments = [
     highlight: 'IV',
     titleSuffix: 'Drip',
     benefits: ['Detox', 'Brighten', 'Regenerate'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire', 'Hoddesdon', 'Great Amwell', 'Stanstead Abbotts', 'Hunsdon', 'Brickendon', 'Much Hadham'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Radiate',
     description: 'Detox • Brighten • Regenerate',
@@ -1996,20 +2434,7 @@ export const treatments = [
         "But stress, ageing, hormones (especially perimenopause/menopause), poor sleep and inflammation all rapidly deplete glutathione levels.",
         "ULANDA’s Glutathione IV restores this vital antioxidant directly into your bloodstream for immediate, deep, systemic benefits that cannot be achieved through topical skincare or supplements alone."
       ],
-      goals: [
-        "Brighter, more even skin tone",
-        "Reduction in pigmentation / melasma",
-        "Enhanced glow & clarity",
-        "Increased collagen protection",
-        "Reduced inflammation & redness",
-        "Detoxifies skin for stronger regeneration",
-        "Master antioxidant replenishment",
-        "Liver detox support",
-        "Improved immune response",
-        "Strong anti-inflammatory effects",
-        "Metabolic clarity",
-        "Improved energy & recovery"
-      ],
+      goals: [],
       highlightBox: {
         text1: "This treatment is a core part of our RADIATE Internal Wellness Pathway.",
         text2: "The foundation supporting REFRESH, RENEW and RESTORE."
@@ -2051,30 +2476,49 @@ export const treatments = [
       items: [
         {
           title: "Pure Glutathione (Reduced Form)",
-          description: "The biologically active “master antioxidant”."
+          description: "The biologically active “master antioxidant”"
         },
         {
-          title: "Optional Add-On: Vitamin C",
-          description: "Supports glutathione recycling."
-        },
-        {
-          title: "Optional Add-On: Hydration fluids",
-          description: "For systemic support."
-        },
-        {
-          title: "Optional Add-On: B-complex",
-          description: "For energy."
-        },
-        {
-          title: "Optional Add-On: NAD+ microdose",
-          description: "For cellular energy."
-        },
-        {
-          title: "Optional Add-On: Mineral electrolytes",
-          description: "For balance."
+          title: "Optional Add-Ons",
+          description: "Vitamin C (supports glutathione recycling), Hydration fluids, B-complex for energy, NAD+ microdose, Mineral electrolytes"
         }
       ],
       footer: "Every infusion is formulated by 360Medicx clinicians for your goals."
+    },
+    detailedBenefits: {
+      title: "Benefits of Glutathione IV",
+      sections: [
+        {
+          title: "Skin & Aesthetic Benefits",
+          items: [
+            "Brighter, more even skin tone",
+            "Reduction in pigmentation / melasma",
+            "Enhanced glow & clarity",
+            "Increased collagen protection",
+            "Reduced inflammation & redness",
+            "Detoxifies skin for stronger regeneration"
+          ]
+        },
+        {
+          title: "Internal & Longevity Benefits",
+          items: [
+            "Master antioxidant replenishment",
+            "Liver detox support",
+            "Improved immune response",
+            "Strong anti-inflammatory effects",
+            "Metabolic clarity",
+            "Improved energy & recovery"
+          ]
+        },
+        {
+          title: "Menopause-Specific Benefits",
+          items: [
+            "Reduces oxidative stress (major driver of menopausal ageing)",
+            "Helps regulate pigmentation pathways",
+            "Supports detoxification compromised by hormonal decline"
+          ]
+        }
+      ]
     },
     idealFor: {
       title: "Who This Treatment Is",
@@ -2090,26 +2534,43 @@ export const treatments = [
       ]
     },
     ulandaConnection: {
+      title: "The Ulanda Connection — How Glutathione IV Supercharges All Skin Treatments",
       subtitle: "How Glutathione IV Supercharges All Skin Treatments",
       sections: [
         {
           title: "1. REFRESH (Facials, Peels, Enzymes, LED)",
-          description: "Glutathione IV enhances post-peel healing, reduction in redness, brightness after BioRePeel, skin clarity for medical-grade facials, and LED results via reduced oxidative stress.",
-          points: [],
+          description: "Glutathione IV enhances:",
+          points: [
+            "Post-peel healing",
+            "Reduction in redness",
+            "Brightness after BioRePeel",
+            "Skin clarity for medical-grade facials",
+            "LED results via reduced oxidative stress"
+          ],
           conclusion: "The complexion becomes clearer, brighter, and more even-toned.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
-          description: "Glutathione strengthens the cellular environment by reducing inflammation after microneedling, improving tissue response to PN, enhancing platelet activity for PRP, and supporting collagen integrity for skin boosters.",
-          points: [],
+          description: "Glutathione strengthens the cellular environment by:",
+          points: [
+            "Reducing inflammation after microneedling",
+            "Improving tissue response to PN",
+            "Enhancing platelet activity for PRP",
+            "Supporting collagen integrity for skin boosters"
+          ],
           conclusion: "Cells regenerate more effectively when oxidative stress is lowered.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
           title: "3. RESTORE (Biostimulators, Threads, Natural Fillers)",
-          description: "Glutathione IV supports structural work by improving collagen quality, reducing swelling & oxidative stress, enhancing longevity of PLLA/CaHA biostimulators, and preparing the skin for thread tensioning & healing.",
-          points: [],
+          description: "Glutathione IV supports structural work by:",
+          points: [
+            "Improving collagen quality",
+            "Reducing swelling & oxidative stress",
+            "Enhancing longevity of PLLA/CaHA biostimulators",
+            "Preparing the skin for thread tensioning & healing"
+          ],
           conclusion: "Better internal repair = stronger structural outcomes.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         }
@@ -2120,26 +2581,36 @@ export const treatments = [
       items: [
         {
           title: "Medically Screened",
-          description: "Medically screened and protocol-based.",
+          description: "Medically screened.",
           icon: "cqc"
         },
         {
           title: "Clinician Delivered",
-          description: "Clinician-delivered infusion.",
+          description: "Clinician-delivered.",
           icon: "clinician"
         },
         {
-          title: "Safe & Monitored",
-          description: "Safe, controlled and highly monitored.",
+          title: "Protocol Based",
+          description: "Protocol-based.",
           icon: "prescribed"
+        },
+        {
+            title: "CQC Governed",
+            description: "Governed via 360Medicx.",
+            icon: "cqc"
+        },
+         {
+            title: "Safe & Monitored",
+            description: "Safe, controlled and highly monitored.",
+            icon: "prescribed"
         }
       ]
     },
     cta: {
       title: "Brighter. Clearer.",
       highlight: "Healthier From Within.",
-      description: "ULANDA’s Glutathione IV — delivered through our partnership with 360Medicx — supports deep detoxification, clear glowing skin, and midlife vitality. Because your glow starts inside.",
-      buttonText: "Book Glutathione IV"
+      description: "ULANDA’s Glutathione IV — delivered through our partnership with 360Medicx, the CQC-registered Harley Street Longevity Clinic — supports deep detoxification, clear glowing skin, and midlife vitality. Because your glow starts inside.",
+      buttonText: "Book Glutathione IV (ULANDA × 360Medicx Harley Street)"
     }
   },
   {
@@ -2165,6 +2636,27 @@ export const treatments = [
     highlight: 'Medical-Grade',
     titleSuffix: 'Peel',
     benefits: ['Resurfacing', 'Revitalising', 'No Downtime', 'Brightening'],
+    detailedBenefits: {
+      title: "Benefits of BioRePeel",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Brightens dull, tired skin",
+            "Improves fine lines",
+            "Refines pores",
+            "Smooths texture",
+            "Evens tone & pigmentation",
+            "Reduces congestion & breakouts",
+            "Safe for sensitive + menopause skin",
+            "Hydrates and improves elasticity",
+            "Zero downtime",
+            "No flaking or peeling",
+            "Immediate radiance"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Refresh',
@@ -2184,8 +2676,8 @@ export const treatments = [
         "Antioxidant protection"
       ],
       highlightBox: {
-        text1: "Unlike standard peeling clinics, we use BioRePeel within a regenerative protocol.",
-        text2: "Strengthening the skin barrier, not simply resurfacing it."
+        text1: "Unlike standard peeling clinics, we use BioRePeel within a regenerative protocol — strengthening the skin barrier, not simply resurfacing it.",
+        text2: ""
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -2196,23 +2688,23 @@ export const treatments = [
       points: [
         {
           title: "Hormone-smart facial assessment",
-          description: "Tailored for perimenopause/menopause skin needs."
+          description: "(perimenopause/menopause)"
         },
         {
           title: "Barrier evaluation",
-          description: "To avoid over-exfoliation and ensure safety."
+          description: "to avoid over-exfoliation"
         },
         {
           title: "Regenerative LED therapy",
-          description: "Included to boost healing and results."
+          description: ""
         },
         {
-          title: "Hydrating, peptide-rich post-peel infusion",
-          description: "Restores moisture immediately."
+          title: "A hydrating, peptide-rich post-peel infusion",
+          description: ""
         },
         {
           title: "Optional PN/Booster prep",
-          description: "For deeper, long-lasting results."
+          description: "for deeper results"
         }
       ]
     },
@@ -2220,30 +2712,69 @@ export const treatments = [
       title: "The Science",
       highlight: "Behind",
       titleSuffix: "BioRePeel",
-      subtitle: "BioRePeel contains a powerful blend of active ingredients:",
+      subtitle: "BioRePeel contains:",
       items: [
         {
           title: "35% TCA",
-          description: "Deep dermal stimulation without visible peeling."
+          description: "deep dermal stimulation without visible peeling"
         },
         {
           title: "Amino Acids",
-          description: "Proline, arginine, glycine for skin building."
+          description: "proline, arginine, glycine"
         },
         {
           title: "GABA",
-          description: "Dermal relaxant that softens fine lines."
+          description: "dermal relaxant that softens fine lines"
         },
         {
           title: "Vitamin C & B2 (Riboflavin)",
-          description: "Antioxidant protection."
+          description: "antioxidant protection"
         },
         {
           title: "Salicylic & Lactobionic Acid",
-          description: "Pore refinement + hydration."
+          description: "pore refinement + hydration"
         }
       ],
-      footer: "Clinical evidence shows BioRePeel can increase collagen expression, improve hydration, and decrease pigmentation."
+      footer: "Clinical evidence shows BioRePeel can increase collagen expression, improve hydration, decrease pigmentation, regulate sebum, and improve superficial scarring."
+    },
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+        "Face",
+        "Neck",
+        "Décolletage",
+        "Back or shoulders (optional)",
+        "Hands (optional)"
+      ]
+    },
+    process: {
+      title: "What Happens During the Treatment?",
+      steps: [
+        { title: "1. Consultation & Skin Assessment", description: "We evaluate your skin’s barrier, hydration and hormonal pattern." },
+        { title: "2. Cleansing & Degreasing", description: "Prepares the skin to receive the peel." },
+        { title: "3. BioRePeel Application", description: "Applied in layers depending on your skin’s resilience." },
+        { title: "4. Neutralisation", description: "No downtime or peeling expected." },
+        { title: "5. Regenerative Post-Treatment Protocol", description: "Hydrating, peptide-rich infusion + LED." },
+        { title: "6. Barrier Protection", description: "Ceramides and antioxidants applied to seal moisture." }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "Brighter skin, Clearer complexion, Smoother texture" },
+        { title: "24–72 hours", description: "Pores refined, Congestion reduced, Glow intensifies" },
+        { title: "1–2 weeks", description: "Improved pigmentation, Collagen stimulation begins" },
+        { title: "4–6 weeks (with a course)", description: "Visible rejuvenation, Reduced signs of ageing, More even tone and firmness" }
+      ]
+    },
+    frequency: {
+      title: "How Many Sessions Do I Need?",
+      items: [
+          "Single session: glow, clarity & smoothness",
+          "3 sessions: visible resurfacing",
+          "6 sessions: transformation, especially for pigmentation/texture",
+          "Maintenance: monthly or bi-monthly"
+      ]
     },
     idealFor: {
       title: "Who Is It",
@@ -2260,29 +2791,31 @@ export const treatments = [
         "Hormonal breakouts",
         "Enlarged pores",
         "Rough or dehydrated skin",
-        "Loss of glow"
+        "Loss of glow",
+        "Suitable for all Fitzpatrick skin types (I–VI)."
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings (Cross-Sell)",
+      title: "Perfect Pairings",
+      subtitle: "BioRePeel enhances results of:",
       sections: [
         {
-          title: "RENEW (PN, Skin Boosters, Microneedling, PRP)",
-          description: "BioRePeel enhances results of regenerative treatments. Pairs especially well with PN for menopausal skin texture.",
+          title: "RENEW",
+          description: "PN (Polynucleotides), Skin Boosters (Profhilo, Hydrobooster), Microneedling, PRP. Pairs especially well with PN for menopausal skin texture.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "REFRESH (Regenerative Facial, Medical-Grade Facial)",
-          description: "Combines for a comprehensive surface renewal.",
+          title: "REFRESH",
+          description: "Regenerative Facial, Medical-Grade Facial.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "RADIATE (Glutathione IM, NAD+ IV)",
-          description: "Internal support for brightening and cellular repair.",
+          title: "RADIATE",
+          description: "Glutathione IM (brightening), NAD+ IV (cellular repair).",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2294,19 +2827,30 @@ export const treatments = [
       items: [
         {
           title: "Zero Downtime",
-          description: "Ideal for busy women. No flaking or peeling expected.",
+          description: "BioRePeel is known for zero downtime, making it ideal for busy women.",
           icon: "cqc"
         },
         {
-          title: "Safe For All",
-          description: "Safe for all skin tones, perimenopause & menopause, sensitive / reactive skin.",
+          title: "Mild tingling",
+          description: "Most clients experience mild tingling or light flushing (15–30 mins).",
           icon: "clinician"
         },
         {
-          title: "Mild Sensation",
-          description: "Most clients experience only mild tingling or light flushing (15–30 mins).",
+          title: "Safe For All",
+          description: "Safe for all skin tones, perimenopause & menopause, sensitive / reactive skin, rosacea-prone skin (with caution).",
           icon: "prescribed"
         }
+      ]
+    },
+    faq: {
+      title: "FAQ",
+      items: [
+        { question: "Will I peel?", answer: "No — BioRePeel resurfaces the skin without physical peeling." },
+        { question: "Is it painful?", answer: "No — slight tingling only." },
+        { question: "Can it treat pigmentation?", answer: "Yes, especially early or mixed pigmentation." },
+        { question: "Is it safe for menopausal skin?", answer: "Yes — we customise strength based on barrier health." },
+        { question: "Can it treat acne or congestion?", answer: "Yes — salicylic acid assists in clearing the pores." },
+        { question: "Can I combine with injectables?", answer: "Yes — it is a perfect prep treatment for PN and biostimulators." }
       ]
     },
     cta: {
@@ -2337,6 +2881,28 @@ export const treatments = [
     highlight: 'Peels',
     titleSuffix: '',
     benefits: ['Full-Body Renewal', 'Smoother Texture', 'Brighter Tone', 'Healthier Skin'],
+    detailedBenefits: {
+      title: "Benefits of Body Peels",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Smoother, softer skin",
+            "Reduced roughness",
+            "Brightened tone",
+            "Faded pigmentation",
+            "Fewer ingrown hairs",
+            "Clearer back/chest acne",
+            "Improved hydration",
+            "Reduced keratosis pilaris & bumps",
+            "Anti-aging benefits for chest/arms/hands",
+            "Better product absorption",
+            "Skin that glows from the neck downward",
+            "Perfect for midlife women who want uniform, healthy-looking skin everywhere, not just the face."
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Refresh',
@@ -2345,7 +2911,7 @@ export const treatments = [
       title: "What Are Body Peels?",
       content: [
         "Body peels use controlled chemical exfoliation to remove dull, damaged skin cells and stimulate the regeneration of fresher, smoother and healthier skin.",
-        "ULANDA uses advanced formulations including Lactic Acid, Glycolic Acid, Salicylic Acid, TCA blends, Retinoic acid combinations, and AHA/BHA hybrid systems.",
+        "ULANDA uses advanced formulations including: Lactic Acid (hydrating + brightening), Glycolic Acid (texture smoothing), Salicylic Acid (acne + congestion), TCA blends (pigmentation + deeper renewal), Retinoic acid combinations (cell turnover + glow), AHA/BHA hybrid systems.",
         "In simple terms: They resurface and rejuvenate areas where the skin is thicker, rougher or more sun-damaged than the face."
       ],
       goals: [
@@ -2383,8 +2949,12 @@ export const treatments = [
           description: "Available for back and chest."
         },
         {
-          title: "Regenerative hydration + antioxidants",
-          description: "Post-peel infusion."
+          title: "Regenerative hydration + antioxidants post-peel",
+          description: "For barrier support."
+        },
+        {
+          title: "Aftercare tailored for menopause skin",
+          description: "Ensures safe, effective and beautifully regenerated body skin."
         }
       ]
     },
@@ -2400,7 +2970,7 @@ export const treatments = [
         },
         {
           title: "BHA (Salicylic Acid)",
-          description: "Penetrates oil → excellent for back/chest acne, bumps & clogged pores."
+          description: "Penetrates oil - excellent for back/chest acne, bumps & clogged pores."
         },
         {
           title: "TCA Systems",
@@ -2411,7 +2981,53 @@ export const treatments = [
           description: "Boosts cell turnover & enhances collagen formation."
         }
       ],
-      footer: "Clinical evidence shows chemical peels thicken the epidermis and improve smoothness and elasticity."
+      footer: "Clinical evidence shows chemical peels thicken the epidermis, improve smoothness and elasticity, reduce sun damage and pigmentation, and salicylic acid decreases body acne lesions by up to 60%."
+    },
+    treatmentAreas: {
+      title: "Areas We Treat",
+      items: [
+        "Chest / Décolletage",
+        "Arms (upper & lower)",
+        "Back",
+        "Buttocks",
+        "Thighs",
+        "Legs",
+        "Hands",
+        "Feet",
+        "Underarms",
+        "Stomach",
+        "Neck",
+        "Menopausal and perimenopausal skin often becomes drier, thinner and more uneven, making body peels a valuable part of a regenerative routine."
+      ]
+    },
+    process: {
+      title: "What Happens During the Treatment?",
+      steps: [
+        { title: "1. Consultation & Skin Analysis", description: "We identify the correct peel type, strength and layers." },
+        { title: "2. Cleanse & Degreasing Prep", description: "Removes oil and prepares the skin for penetration." },
+        { title: "3. Peel Application", description: "Layered application depending on thickness and concerns." },
+        { title: "4. Neutralising / Leave-On Technique", description: "Depending on the peel chosen." },
+        { title: "5. Regenerative Hydration", description: "We apply ceramides, hyaluronic acid and peptides for barrier support." },
+        { title: "6. Aftercare Guidance", description: "Clear instructions to ensure safe and effective results." }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "Smoother skin, Brighter tone, Cleaner pores" },
+        { title: "3–7 days", description: "Light flaking (depending on peel type), Visible improvement in texture" },
+        { title: "2–4 weeks", description: "Fading pigmentation, Clearer, softer, more even skin" },
+        { title: "6–8 weeks", description: "Full regenerative results, Increased collagen and elasticity (with deeper peels)" }
+      ]
+    },
+    frequency: {
+      title: "How Many Sessions Do I Need?",
+      items: [
+          "Light peel: every 2–4 weeks",
+          "Medium peel: every 4–6 weeks",
+          "TCA systems: every 8 weeks",
+          "Maintenance recommended every 6–12 weeks."
+      ]
     },
     idealFor: {
       title: "Who Are Body Peels",
@@ -2431,25 +3047,26 @@ export const treatments = [
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings (Cross-Sell)",
+      title: "Perfect Pairings",
+      subtitle: "",
       sections: [
         {
-          title: "RENEW (Microneedling, PN, PRP)",
-          description: "Microneedling for stretch marks, PN for neck/chest/hand rejuvenation, PRP for body skin quality.",
+          title: "RENEW",
+          description: "Microneedling for stretch marks, PN for neck, chest or hand rejuvenation, PRP for body skin quality.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "REFRESH (Medical-Grade Facial, LED, Enzyme Therapy)",
-          description: "Comprehensive surface renewal.",
+          title: "REFRESH",
+          description: "Medical-Grade Facial, LED Light Therapy, Enzyme Therapy.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "RADIATE (NAD+ IV, Vitamin C IM)",
-          description: "Cellular repair and brightening support.",
+          title: "RADIATE",
+          description: "NAD+ IV (cellular repair), Vitamin C IM (brightening support).",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2466,14 +3083,24 @@ export const treatments = [
         },
         {
           title: "Safe For All",
-          description: "Safe for all skin tones, perimenopause & menopause.",
+          description: "Safe for all skin tones (peels selected accordingly), perimenopause & menopause.",
           icon: "clinician"
         },
         {
           title: "Body-Suitable",
-          description: "Formulations specifically designed for body skin.",
+          description: "Can be combined with LED. Body-suitable formulations.",
           icon: "prescribed"
         }
+      ]
+    },
+    faq: {
+      title: "FAQ",
+      items: [
+        { question: "Will I peel a lot?", answer: "Depends on the peel — some gently exfoliate, others have mild flaking." },
+        { question: "Is it safe for darker skin?", answer: "Yes — we select gentle, pigment-safe formulations." },
+        { question: "Does it help with bumps (keratosis pilaris)?", answer: "Yes — AHAs/BHAs work exceptionally well." },
+        { question: "Can I do body peels during menopause?", answer: "Yes — they help hydrate, smooth and restore radiance." },
+        { question: "Can I combine body peels with waxing or laser?", answer: "Yes, but timing must be managed — we’ll advise." }
       ]
     },
     cta: {
@@ -2505,6 +3132,28 @@ export const treatments = [
     highlight: 'Peels',
     titleSuffix: '',
     benefits: ['Brighter Skin', 'Smoother Texture', 'Targeted Correction', 'Midlife Tailored'],
+    detailedBenefits: {
+      title: "Benefits of Chemical Peels",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Brightens dull skin",
+            "Smooths texture",
+            "Softens fine lines",
+            "Minimises pores",
+            "Reduces pigmentation & sun spots",
+            "Improves hormonal breakouts",
+            "Boosts collagen",
+            "Improves elasticity",
+            "Evens out tone",
+            "Restores radiance",
+            "Safe for perimenopause and menopause",
+            "Helps with dryness and skin roughness"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Refresh',
@@ -2539,19 +3188,19 @@ export const treatments = [
       points: [
         {
           title: "Tailored to your skin tone & ethnicity",
-          description: "Ensuring safety and efficacy for all."
+          description: "Ensuring clinical results without irritation."
         },
         {
           title: "Hormonal stage aware",
-          description: "Protocols adjusted for perimenopause and menopause."
+          description: "(perimenopause, menopause)"
         },
         {
           title: "Barrier strength focus",
-          description: "Avoiding over-exfoliation and irritation."
+          description: "Avoiding over-exfoliation."
         },
         {
           title: "Regenerative LED included",
-          description: "To boost healing and results."
+          description: "Boosts healing."
         },
         {
           title: "Hydration infusion finishing",
@@ -2588,6 +3237,45 @@ export const treatments = [
       ],
       footer: "Chemical peels are particularly effective for hormonal ageing because they compensate for slowed cell turnover."
     },
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+        "Face",
+        "Neck",
+        "Décolletage",
+        "Hands",
+        "Back / shoulders (optional)"
+      ]
+    },
+    process: {
+      title: "What Happens During the Treatment?",
+      steps: [
+        { title: "1. Consultation & Assessment", description: "We evaluate barrier resilience, hormonal skin behaviour and pigmentation pattern." },
+        { title: "2. Deep Cleanse & Prep", description: "Prepares skin for even penetration." },
+        { title: "3. Chemical Peel Application", description: "Layered according to your skin’s tolerance." },
+        { title: "4. Neutralisation / Removal", description: "Depending on peel type." },
+        { title: "5. Regenerative LED Therapy", description: "Reduces inflammation + boosts collagen." },
+        { title: "6. Barrier Reinforcement", description: "We apply ceramides, peptides and antioxidants to protect newly revealed skin." }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "Radiance, Smoother texture, Brighter complexion" },
+        { title: "1–3 days", description: "Refined pores, Reduced congestion, Even tone" },
+        { title: "4–7 days", description: "Healthy, renewed glow, More youthful appearance" },
+        { title: "For medium-depth peels", description: "Light flaking may occur 48–72 hours after treatment." }
+      ]
+    },
+    frequency: {
+      title: "How Many Sessions Do I Need?",
+      items: [
+          "Single session: glow and clarity",
+          "3 sessions: resurfacing and texture improvement",
+          "6 sessions: pigmentation correction & anti-aging effect",
+          "Maintenance: every 4–6 weeks"
+      ]
+    },
     idealFor: {
       title: "Who Is It",
       highlight: "For?",
@@ -2602,29 +3290,31 @@ export const treatments = [
         "Congestion or breakouts",
         "Melasma (with specialised protocols)",
         "Enlarged pores",
-        "Uneven skin tone"
+        "Uneven skin tone",
+        "Safe for all skin tones with correct protocol."
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings (Cross-Sell)",
+      title: "Perfect Pairings",
+      subtitle: "Chemical peels pair exceptionally well with:",
       sections: [
         {
-          title: "RENEW (PN, Microneedling, Skin Boosters, PRP)",
-          description: "Chemical peels are a key skin-prep treatment before PN or biostimulators. Pairs well with Lemon Bottle for glow cycles.",
+          title: "RENEW",
+          description: "Polynucleotides (PN), Microneedling, Skin Boosters (Profhilo/Hydrobooster), PRP, Lemon Bottle (for glow cycles). Chemical peels are a key skin-prep treatment before PN or biostimulators.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "REFRESH (Regenerative Facial, Medical-Grade Facial)",
-          description: "Enhances overall skin health and radiance.",
+          title: "REFRESH",
+          description: "Regenerative Facial, Medical-Grade Facial.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "RADIATE (NAD+ IV, Glutathione)",
-          description: "Internal support for collagen repair and brightening.",
+          title: "RADIATE",
+          description: "NAD+ IV (collagen + repair), Glutathione (brightening).",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2636,12 +3326,12 @@ export const treatments = [
       items: [
         {
           title: "Variable Downtime",
-          description: "Superficial: No downtime. Medium: Mild flaking possible for 2-3 days.",
+          description: "Superficial: No downtime. Medium: Mild flaking possible.",
           icon: "cqc"
         },
         {
           title: "Safe For All",
-          description: "Safe for all skin tones, menopause, perimenopause, rosacea (with caution), and sensitive skin.",
+          description: "Safe for all skin tones (when correctly selected), menopause skin, perimenopause skin, rosacea (with caution), sensitive skin.",
           icon: "clinician"
         },
         {
@@ -2649,6 +3339,17 @@ export const treatments = [
           description: "You may feel light tingling or warmth.",
           icon: "prescribed"
         }
+      ]
+    },
+    faq: {
+      title: "FAQ",
+      items: [
+        { question: "Will my skin peel?", answer: "Sometimes — mostly mild flaking depending on peel type." },
+        { question: "Is it painful?", answer: "You may feel light tingling or warmth." },
+        { question: "Can chemical peels treat pigmentation?", answer: "Yes — they are excellent for early pigmentation and sun damage." },
+        { question: "Is it safe for menopausal skin?", answer: "Yes — we adjust strength based on your barrier health." },
+        { question: "Can I combine it with other treatments?", answer: "Absolutely. Peels enhance results of PN, boosters and microneedling." },
+        { question: "Is it good for acne or congestion?", answer: "Yes — salicylic and mandelic peels are perfect for this." }
       ]
     },
     cta: {
@@ -2680,6 +3381,26 @@ export const treatments = [
     highlight: 'Therapy',
     titleSuffix: '',
     benefits: ['Restorative', 'Oxygenating', 'Barrier Strengthening', 'Circulation Boost'],
+    detailedBenefits: {
+      title: "Benefits of Enzyme Therapy",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Improves circulation & oxygenation",
+            "Strengthens the skin barrier",
+            "Calms sensitivity & inflammation",
+            "Reduces puffiness",
+            "Firms & tightens the skin",
+            "Smooths texture",
+            "Boosts hydration",
+            "Enhances glow and skin vibrancy",
+            "Reduces congestion",
+            "Restores healthy skin function"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Refresh',
@@ -2687,9 +3408,9 @@ export const treatments = [
     introduction: {
       title: "What Is Enzyme Therapy?",
       content: [
-        "Enzyme Therapy is a biofunctional facial treatment that uses transfer messenger enzymes to increase oxygenation, stimulate lymphatic flow, support cellular detoxification, enhance microcirculation, tighten and lift the skin, and rebuild the skin’s protective barrier.",
+        "Enzyme Therapy is a biofunctional facial treatment that uses transfer messenger enzymes to:\nincrease oxygenation\nstimulate lymphatic flow\nsupport cellular detoxification\nenhance microcirculation\ntighten and lift the skin\nrebuild the skin’s protective barrier",
         "In simple terms: It “wakes up” the skin — restoring firmness, clarity and glow.",
-        "Scientifically: Enzyme therapy works by stimulating lymphatic drainage, vascular supply, oxygen uptake, keratinocyte renewal, intercellular communication, and structural protein synthesis."
+        "Scientifically: Enzyme therapy works by stimulating:\nlymphatic drainage\nvascular supply\noxygen uptake\nkeratinocyte renewal\nintercellular communication\nstructural protein synthesis\nThis creates a visibly firmer, brighter and healthier complexion."
       ],
       goals: [
         "Improves circulation & oxygenation",
@@ -2699,11 +3420,13 @@ export const treatments = [
         "Firms & tightens the skin",
         "Smooths texture",
         "Boosts hydration",
-        "Enhances glow and skin vibrancy"
+        "Enhances glow and skin vibrancy",
+        "Reduces congestion",
+        "Restores healthy skin function"
       ],
       highlightBox: {
-        text1: "Particularly effective for midlife and menopausal clients.",
-        text2: "Whose skin has become dull, reactive, sluggish or prone to dehydration due to declining cellular activity."
+        text1: "ULANDA’s Enzyme Therapy is a regenerative, skin-strengthening treatment designed to restore vital circulation, enhance lymphatic drainage, firm the skin and support barrier repair.",
+        text2: "It is particularly effective for midlife and menopausal clients whose skin has become dull, reactive, sluggish or prone to dehydration due to declining cellular activity."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -2731,6 +3454,14 @@ export const treatments = [
         {
           title: "Deep hydration infusion",
           description: "Restores moisture balance."
+        },
+        {
+          title: "Oxygenation + circulation enhancement",
+          description: "Boosts vital skin function."
+        },
+        {
+          title: "Clinical-grade active ingredients",
+          description: "For superior results."
         }
       ]
     },
@@ -2738,30 +3469,68 @@ export const treatments = [
       title: "The Science",
       highlight: "Behind",
       titleSuffix: "Enzyme Therapy",
-      subtitle: "Transfer messenger enzymes work through multiple mechanisms:",
+      subtitle: "Transfer messenger enzymes work through:",
       items: [
         {
-          title: "Oxygenation",
+          title: "1. Oxygenation",
           description: "Improves circulation and boosts tissue oxygen levels — essential for energy production in ageing skin."
         },
         {
-          title: "Lymphatic Stimulation",
+          title: "2. Lymphatic Stimulation",
           description: "Reduces puffiness, improves waste removal and decongests the skin."
         },
         {
-          title: "Barrier Repair",
+          title: "3. Barrier Repair",
           description: "Supports ceramide production, improving hydration retention."
         },
         {
-          title: "Cellular Communication",
+          title: "4. Cellular Communication",
           description: "Enhances intercellular signaling — which declines during menopause."
         },
         {
-          title: "Protein Synthesis Support",
+          title: "5. Protein Synthesis Support",
           description: "Improves collagen, elastin and keratin formation."
         }
       ],
-      footer: "Clinical evidence shows improved microcirculation, reduced sensitivity, better moisture retention, and enhanced firmness."
+      footer: "Clinical Evidence: Improved microcirculation, Reduced sensitivity, Better moisture retention, Enhanced firmness, Reduced inflammation (Journal of Cosmetic Science, 2020–2023)"
+    },
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+        "Face",
+        "Neck",
+        "Décolletage",
+        "Under-eye (modified)",
+        "Scalp (optional detox upgrade)"
+      ]
+    },
+    process: {
+      title: "What Happens During the Treatment?",
+      steps: [
+        { title: "1. Skin Consultation", description: "We assess hydration, sensitivity, barrier strength and hormonal behaviour." },
+        { title: "2. Enzyme Application", description: "A customised enzyme formulation is applied to the skin." },
+        { title: "3. Tightening Phase (The “Pulsing”)", description: "Enzymes activate lymphatics and circulation — creating a tightening sensation." },
+        { title: "4. Removal + Rinse Phase", description: "Reveals clearer, oxygenated tissue." },
+        { title: "5. Regenerative LED Therapy", description: "Reduces inflammation + supports collagen production." },
+        { title: "6. Hydration & Barrier Restoration", description: "Ceramide, peptide and antioxidant formulations seal the results." }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "Lifted, firmer appearance, Brighter complexion, Reduced puffiness, Healthier glow" },
+        { title: "24–72 hours", description: "Improved elasticity, Balanced hydration, Softer texture" },
+        { title: "1–2 weeks", description: "Enhanced barrier function, Long-lasting radiance" }
+      ]
+    },
+    frequency: {
+      title: "How Many Sessions Do I Need?",
+      items: [
+        "Single session: circulation boost & radiance",
+        "3 sessions: barrier repair & firmness",
+        "6 sessions: significant improvement in texture & tone",
+        "Maintenance: every 4–6 weeks"
+      ]
     },
     idealFor: {
       title: "Who Is It",
@@ -2777,29 +3546,31 @@ export const treatments = [
         "Mild laxity",
         "Hormonal skin changes",
         "Stressed, fatigued skin",
-        "Reduced elasticity"
+        "Reduced elasticity",
+        "Perfect for women aged 35–65 who need deep repair without aggression."
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings (Cross-Sell)",
+      title: "Perfect Pairings",
+      subtitle: "Enzyme Therapy enhances:",
       sections: [
         {
-          title: "RENEW (PN, PRP, Skin Boosters, Microneedling)",
-          description: "It is one of the BEST prep facials before PN or biostimulator treatments.",
+          title: "RENEW",
+          description: "PN (Polynucleotides), PRP, Skin Boosters (Profhilo, Hydrobooster), Microneedling (as prep or recovery). It is one of the BEST prep facials before PN or biostimulator treatments.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "REFRESH (BioRePeel, Medical-Grade Facial)",
-          description: "Complements other surface renewal treatments.",
+          title: "REFRESH",
+          description: "BioRePeel, Medical-Grade Facial.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "RADIATE (NAD+ IV, Glutathione IM)",
-          description: "Internal support for energy, oxygenation, clarity & brightness.",
+          title: "RADIATE",
+          description: "NAD+ IV (energy + oxygenation), Glutathione IM (clarity & brightness).",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2810,20 +3581,31 @@ export const treatments = [
       title: "Downtime & Safety",
       items: [
         {
-          title: "Minimal Downtime",
-          description: "Minimal to none. Mild temporary redness or flushing during activation.",
+          title: "Variable Downtime",
+          description: "Minimal to none. Mild temporary redness or flushing during enzyme activation.",
           icon: "cqc"
         },
         {
           title: "Safe For All",
-          description: "Safe for all skin types, menopause & perimenopause, sensitive skin, and rosacea-prone skin.",
+          description: "Safe for all skin types, menopause & perimenopause, sensitive skin, and rosacea-prone skin (with modifications).",
           icon: "clinician"
         },
         {
           title: "Comfortable",
-          description: "You’ll feel tightening and pulsation, which indicates increased circulation.",
+          description: "No — you’ll feel tightening and pulsation, which indicates increased circulation.",
           icon: "prescribed"
         }
+      ]
+    },
+    faq: {
+      title: "FAQ",
+      items: [
+        { question: "Does Enzyme Therapy hurt?", answer: "No — you’ll feel tightening and pulsation, which indicates increased circulation." },
+        { question: "Is this good for menopausal skin?", answer: "Yes — especially for dullness, dryness and loss of vitality." },
+        { question: "Will my skin peel?", answer: "No — this is not an exfoliating treatment." },
+        { question: "Can it reduce puffiness?", answer: "Yes — it targets lymphatic stagnation." },
+        { question: "Is it suitable for sensitive skin?", answer: "Yes — enzymes are gentle and non-abrasive." },
+        { question: "How soon can I wear makeup?", answer: "After 12 hours, but ideally the next day for optimal absorption." }
       ]
     },
     cta: {
@@ -2855,6 +3637,27 @@ export const treatments = [
     highlight: 'Therapy',
     titleSuffix: '',
     benefits: ['Collagen Stimulation', 'Calms Inflammation', 'Accelerates Regeneration', 'Midlife Skin Support'],
+    detailedBenefits: {
+      title: "Benefits of LED Light Therapy",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Boosts collagen & elastin",
+            "Improves firmness & elasticity",
+            "Reduces fine lines",
+            "Strengthens thinning menopausal skin",
+            "Calms redness & inflammation",
+            "Helps with rosacea & sensitivity",
+            "Brightens dull complexion",
+            "Improves hydration",
+            "Reduces acne & congestion",
+            "Accelerates healing after peels/injectables",
+            "Supports long-term regenerative results"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Refresh',
@@ -2864,7 +3667,7 @@ export const treatments = [
       content: [
         "LED (Light Emitting Diode) therapy uses clinically validated wavelengths of light to target different layers of the skin, promoting regeneration without pain or downtime.",
         "In simple terms: It helps your skin repair itself faster, look younger, and behave healthier.",
-        "Scientifically: Different wavelengths penetrate the skin to stimulate fibroblasts (collagen production), reduce inflammation, accelerate wound healing, improve circulation, regulate oil production, calm redness, and enhance hydration pathways."
+        "Scientifically: Different wavelengths penetrate the skin to:\nstimulate fibroblasts (collagen production)\nreduce inflammation\naccelerate wound healing\nimprove circulation\nregulate oil production\ncalm redness\nenhance hydration pathways"
       ],
       goals: [
         "Boosts collagen & elastin",
@@ -2877,8 +3680,7 @@ export const treatments = [
         "Improves hydration"
       ],
       highlightBox: {
-        text1: "ULANDA uses medical-grade LED.",
-        text2: "Which penetrates deeper and produces stronger regenerative effects than beauty salon devices."
+        text1: "ULANDA uses medical-grade LED, which penetrates deeper and produces stronger regenerative effects than beauty salon devices."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -2889,7 +3691,7 @@ export const treatments = [
       points: [
         {
           title: "Medical-grade wavelengths",
-          description: "Red, near-infrared, blue, amber."
+          description: "(red, near-infrared, blue, amber)"
         },
         {
           title: "Hormone-smart skin assessment",
@@ -2902,6 +3704,10 @@ export const treatments = [
         {
           title: "Enhanced recovery",
           description: "Post-injectables support."
+        },
+        {
+          title: "LED as a collagen-supporting maintenance tool",
+          description: "Long-term skin health."
         },
         {
           title: "Anti-inflammatory protocols",
@@ -2917,22 +3723,61 @@ export const treatments = [
       items: [
         {
           title: "RED LIGHT (630–660 nm)",
-          description: "Stimulates fibroblasts → increases collagen + elastin. Improves texture, firmness, and fine lines."
+          description: "Stimulates fibroblasts - increases collagen + elastin. Improves texture, firmness, and fine lines."
         },
         {
           title: "NEAR-INFRARED (830–850 nm)",
-          description: "Deep tissue repair → reduces inflammation + supports healing. Ideal for mature, thin or menopausal skin."
+          description: "Deep tissue repair - reduces inflammation + supports healing. Ideal for mature, thin or menopausal skin."
         },
         {
           title: "BLUE LIGHT (415 nm)",
-          description: "Targets acne-causing bacteria → reduces breakouts. Regulates sebum + calms congestion."
+          description: "Targets acne-causing bacteria - reduces breakouts. Regulates sebum + calms congestion."
         },
         {
           title: "AMBER LIGHT (590 nm)",
-          description: "Boosts radiance → brightens dull or tired skin. Improves circulation."
+          description: "Boosts radiance - brightens dull or tired skin. Improves circulation."
         }
       ],
-      footer: "Clinical evidence shows LED increases collagen by 31–36% and significantly reduces inflammation."
+      footer: "Clinical Evidence: LED increases collagen by 31–36% (JAMA Dermatology, 2020), Red + NIR light reduces inflammation and accelerates healing (Journal of Photomedicine, 2021), Blue light significantly reduces bacterial load (British Journal of Dermatology, 2022), LED improves menopausal skin density and elasticity (Women’s Dermatology Research, 2023)"
+    },
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+        "Face",
+        "Neck",
+        "Décolletage",
+        "Scalp (optional)",
+        "Back (acne protocols)",
+        "Hands"
+      ]
+    },
+    process: {
+      title: "What Happens During the Treatment?",
+      steps: [
+        { title: "1. Skin Assessment", description: "We identify the right wavelengths for your goals." },
+        { title: "2. Cleanse & Prep", description: "Ensures optimal light penetration." },
+        { title: "3. LED Treatment (10–20 mins)", description: "Medical-grade LED light penetrates deep into the skin." },
+        { title: "4. Hydration & Protection", description: "We apply regenerative serums and barrier protection." },
+        { title: "5. Optional Add-Ons", description: "PN infusion, Enzyme therapy, Post-peel recovery, Anti-inflammatory mask" }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "Brighter skin, Reduced redness, Calmer complexion" },
+        { title: "1–2 weeks", description: "Improved elasticity, Smoother texture, Fewer breakouts" },
+        { title: "4–8 weeks (with regular sessions)", description: "Increased collagen, Firmer, more youthful skin, Long-term anti-aging benefits, Significant improvement in menopausal thinning" }
+      ]
+    },
+    frequency: {
+      title: "How Many Sessions Do I Need?",
+      items: [
+        "Single session: radiance + healing",
+        "6 sessions: noticeable improvement in tone & texture",
+        "12 sessions: collagen + anti-aging optimisation",
+        "Maintenance: once weekly or every facial",
+        "ULANDA offers monthly and 8-week LED protocols for clients on regenerative journeys."
+      ]
     },
     idealFor: {
       title: "Who Is It",
@@ -2948,29 +3793,34 @@ export const treatments = [
         "Redness or irritation",
         "Acne or congestion",
         "Pigmentation",
-        "Slow healing"
+        "Slow healing",
+        "Post-peel or post-injectable recovery",
+        "Stress skin",
+        "Chronic dryness",
+        "LED is especially powerful for midlife skin, where cellular repair naturally slows."
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings (Cross-Sell)",
+      title: "Perfect Pairings",
+      subtitle: "LED enhances the results of:",
       sections: [
         {
-          title: "RENEW (PN, PRP, Profhilo, Microneedling)",
-          description: "LED is essential post-PN and post-biostimulators to maximise collagen stimulation.",
+          title: "RENEW",
+          description: "PN (Polynucleotides), PRP, Profhilo, Definisse Hydrobooster, Microneedling. LED is essential post-PN and post-biostimulators to maximise collagen stimulation.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "REFRESH (Regenerative Facial, Enzyme Therapy, Chemical Peel)",
-          description: "Enhances results and accelerates healing.",
+          title: "REFRESH",
+          description: "Regenerative Facial, Enzyme Therapy, Chemical Peel, BioRePeel.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "RADIATE (NAD+ IV, Glutathione)",
-          description: "Internal support for cell repair, energy, and anti-inflammatory benefits.",
+          title: "RADIATE",
+          description: "NAD+ IV (cell repair + energy), Glutathione (anti-inflammatory + brightening).",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2982,12 +3832,12 @@ export const treatments = [
       items: [
         {
           title: "Zero Downtime",
-          description: "Pain-free and suitable for all skin tones.",
+          description: "Pain-free.",
           icon: "cqc"
         },
         {
           title: "Safe For All",
-          description: "Safe during menopause, post-pregnancy (light only), and for sensitive skin.",
+          description: "Suitable for all skin tones, safe during menopause, gentle for sensitive or reactive skin, and safe post-pregnancy (light only).",
           icon: "clinician"
         },
         {
@@ -2995,6 +3845,17 @@ export const treatments = [
           description: "Works synergistically with injectables and peels.",
           icon: "prescribed"
         }
+      ]
+    },
+    faq: {
+      title: "FAQ",
+      items: [
+        { question: "Is LED therapy painful?", answer: "Not at all — it is warm, relaxing and comfortable." },
+        { question: "Is it safe for menopausal skin?", answer: "Yes — it supports healing and collagen, which decline during menopause." },
+        { question: "Can LED help with redness or rosacea?", answer: "Yes — red + NIR wavelengths reduce inflammation and sensitivity." },
+        { question: "Can I use LED after injectables?", answer: "Yes — it accelerates healing and reduces swelling." },
+        { question: "Does LED replace microneedling or PN?", answer: "No — it enhances their results and supports healing." },
+        { question: "How soon can I see results?", answer: "Many clients see a glow immediately, with long-term benefits after consistent sessions." }
       ]
     },
     cta: {
@@ -3026,6 +3887,27 @@ export const treatments = [
     highlight: 'Facial',
     titleSuffix: '',
     benefits: ['Resurfacing', 'Hydration', 'Rejuvenation', 'Clinical Strength'],
+    detailedBenefits: {
+      title: "Benefits of the Medical-Grade Facial",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Brightens dull skin",
+            "Smooths texture",
+            "Softens early fine lines",
+            "Clears congestion",
+            "Improves overall clarity",
+            "Refines pores",
+            "Boosts hydration",
+            "Evens out tone",
+            "Supports barrier resilience",
+            "Enhances makeup application",
+            "Works particularly well for menopausal and stressed skin"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Refresh',
@@ -3035,7 +3917,7 @@ export const treatments = [
       content: [
         "A Medical-Grade Facial is a results-driven skin treatment delivered with clinical-strength actives and devices. It goes beyond relaxation-focused facials by targeting deeper concerns such as pigmentation, congestion, fine lines and dehydration.",
         "In simple terms: It’s a powerful, skin-transforming facial designed to change your skin — not just pamper it.",
-        "In scientific terms: Medical-grade facials promote accelerated epidermal turnover, controlled resurfacing, antioxidant enhancement, deep hydration delivery, barrier lipid replenishment, and regulation of inflammation."
+        "In scientific terms: Medical-grade facials promote:\naccelerated epidermal turnover\ncontrolled resurfacing\nantioxidant enhancement\ndeep hydration delivery\nbarrier lipid replenishment\nregulation of inflammation\nThey are especially effective for midlife skin that has slowed cell renewal or hormonal imbalance."
       ],
       goals: [
         "Brightens dull skin",
@@ -3048,8 +3930,8 @@ export const treatments = [
         "Evens out tone"
       ],
       highlightBox: {
-        text1: "Especially effective for midlife skin.",
-        text2: "That has slowed cell renewal or hormonal imbalance."
+        text1: "Because ULANDA specialises in regeneration, every Medical-Grade Facial is tailored to your skin’s biology — not generic templates.",
+        text2: "To improve texture, brightness and clarity."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -3064,7 +3946,7 @@ export const treatments = [
         },
         {
           title: "Hormone-smart customisation",
-          description: "Tailored for perimenopause and menopause."
+          description: "(perimenopause, menopause)."
         },
         {
           title: "Regenerative LED therapy",
@@ -3073,6 +3955,10 @@ export const treatments = [
         {
           title: "Barrier repair focus",
           description: "Strengthening skin defence."
+        },
+        {
+          title: "Deep cleansing, resurfacing and hydration",
+          description: "For comprehensive renewal."
         },
         {
           title: "Expert aesthetic practitioner care",
@@ -3084,30 +3970,71 @@ export const treatments = [
       title: "The Science",
       highlight: "Behind",
       titleSuffix: "Medical-Grade Facials",
-      subtitle: "Counteracting midlife skin issues through targeted mechanisms:",
+      subtitle: "Medical-grade facials counteract midlife skin issues by:",
       items: [
         {
-          title: "Exfoliating Dead Skin Cells",
+          title: "exfoliating dead skin cells",
           description: "Improves turnover and texture."
         },
         {
-          title: "Improving Hydration Pathways",
+          title: "improving hydration pathways",
           description: "Deep moisture delivery."
         },
         {
-          title: "Supporting Ceramide Synthesis",
+          title: "supporting ceramide synthesis",
           description: "Strengthens the barrier."
         },
         {
-          title: "Increasing Microcirculation",
+          title: "increasing microcirculation",
           description: "Boosts oxygen and nutrient delivery."
         },
         {
-          title: "Stimulating Cell Renewal",
+          title: "strengthening the barrier",
+          description: "Supports resilience."
+        },
+        {
+          title: "stimulating cell renewal",
           description: "For fresher, younger-looking skin."
         }
       ],
-      footer: "Clinical research shows midlife skin experiences slower turnover, reduced ceramides, and increased inflammation."
+      footer: "Clinical research shows midlife skin experiences slower cell turnover, reduced ceramide production, increased inflammation, greater water loss (TEWL) and oxidative stress. (Journal of Drugs in Dermatology, 2021; International Journal of Cosmetic Science, 2022; Journal of Cosmetic Dermatology, 2020)"
+    },
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+        "Face",
+        "Neck",
+        "Décolletage",
+        "Shoulders or back (optional upgrade)"
+      ]
+    },
+    process: {
+      title: "What Happens During the Treatment?",
+      steps: [
+        { title: "1. Clinical Skin Assessment", description: "We map hydration levels, texture, congestion and barrier health." },
+        { title: "2. Deep Cleanse & Preparation", description: "Removes impurities and prepares skin for absorption." },
+        { title: "3. Professional Exfoliation", description: "Mild acids, enzymes or micro-exfoliation depending on your skin." },
+        { title: "4. Customised Treatment Phase", description: "Can include one or more of: Antioxidant infusion, Hydration boosters, Peptide therapy, Congestion management, Brightening actives." },
+        { title: "5. LED Cellular Therapy", description: "Stimulates collagen + calms inflammation." },
+        { title: "6. Barrier Strengthening", description: "Ceramide and lipid-rich finishing layers." }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "Brighter skin, Clearer complexion, Smoother texture" },
+        { title: "1–3 days", description: "Glowing radiance, Better hydration, Improved skin comfort" },
+        { title: "1–2 weeks", description: "Ongoing skin refinement, Reduced congestion" },
+        { title: "Monthly treatments", description: "Build cumulative, long-term clarity and smoothness." }
+      ]
+    },
+    frequency: {
+      title: "How Often Should I Have It?",
+      items: [
+        "Every 3–4 weeks for best results",
+        "Every 2–3 weeks during hormonal breakouts",
+        "Every 1–2 weeks before events or holidays"
+      ]
     },
     idealFor: {
       title: "Who Is It",
@@ -3121,29 +4048,31 @@ export const treatments = [
         "Early fine lines",
         "Pigmentation or uneven tone",
         "Hormonal breakouts (perimenopause)",
-        "Post-summer or post-winter skin fatigue"
+        "Post-summer or post-winter skin fatigue",
+        "Perfect for women aged 30–65 who need visible improvements in clarity and smoothness."
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings (Cross-Sell)",
+      title: "Perfect Pairings",
+      subtitle: "A Medical-Grade Facial enhances and prepares skin for:",
       sections: [
         {
-          title: "RENEW (Microneedling, PN, PRP, Profhilo)",
-          description: "Monthly facials drastically improve the results of PN and biostimulators.",
+          title: "RENEW",
+          description: "Microneedling, PN, PRP, Profhilo / Hydrobooster. Monthly facials drastically improve the results of PN and biostimulators.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "REFRESH (BioRePeel, Enzyme Therapy)",
-          description: "Complements other surface treatments.",
+          title: "REFRESH",
+          description: "BioRePeel, Enzyme Therapy.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "RADIATE (Glutathione IM, NAD+ IV)",
-          description: "Internal support for skin energy and brightness.",
+          title: "RADIATE",
+          description: "Glutathione IM, NAD+ IV for skin energy.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -3155,19 +4084,29 @@ export const treatments = [
       items: [
         {
           title: "Minimal Downtime",
-          description: "Minimal or none. Mild temporary redness or slight tightness possible.",
+          description: "Minimal or none. You may experience mild temporary redness or slight tightness.",
           icon: "cqc"
         },
         {
           title: "Safe For All",
-          description: "Safe for all skin tones, sensitive skin, menopausal skin, and rosacea-prone skin.",
+          description: "Safe for all skin tones, sensitive skin, menopausal skin, and rosacea-prone skin (with modifications).",
           icon: "clinician"
         },
         {
           title: "Comfortable",
-          description: "Comfortable and relaxing. Burning or peeling does not occur unless a peel is added.",
+          description: "Burning or peeling does not occur unless a peel is added.",
           icon: "prescribed"
         }
+      ]
+    },
+    faq: {
+      title: "FAQ",
+      items: [
+        { question: "Is this like a spa facial?", answer: "No. It uses clinical formulations that create visible results." },
+        { question: "Is it painful?", answer: "No — the treatment is comfortable and relaxing." },
+        { question: "Can it help with hormonal breakouts?", answer: "Yes, especially when combined with peels or LED." },
+        { question: "Is it suitable during perimenopause?", answer: "Absolutely — we tailor it to your skin’s hormone-driven needs." },
+        { question: "Does it replace regenerative facials?", answer: "They complement each other; the Medical-Grade Facial is more corrective, while the Regenerative Facial is more restorative." }
       ]
     },
     cta: {
@@ -3198,6 +4137,27 @@ export const treatments = [
     highlight: 'Infusion',
     titleSuffix: 'Facial',
     benefits: ['Deep Hydration', 'Brightening', 'Revitalising', 'Energising'],
+    detailedBenefits: {
+      title: "Benefits of Oxygen & Vitamin Infusion",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Boosts hydration deeply",
+            "Brightens dull, tired skin",
+            "Evens tone & improves clarity",
+            "Smooths fine lines",
+            "Plumps and re-energises skin",
+            "Calms redness",
+            "Restores radiance",
+            "Strengthens barrier health",
+            "Ideal before events (instant glow)",
+            "Perfect for menopause skin (gentle + hydrating)",
+            "No pain, no downtime"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Refresh',
@@ -3205,9 +4165,9 @@ export const treatments = [
     introduction: {
       title: "What Is an Oxygen & Vitamin Infusion Facial?",
       content: [
-        "It is a non-invasive facial that uses pressurised oxygen to infuse the skin with vitamins (A, C, E, B5, B3), antioxidants, hyaluronic acid, peptides, amino acids, and brightening complexes.",
+        "It is a non-invasive facial that uses pressurised oxygen to infuse the skin with:\nVitamins (A, C, E, B5, B3)\nAntioxidants\nHyaluronic acid\nPeptides\nAmino acids\nBrightening complexes",
         "In simple terms: It delivers pure hydration, nutrients and oxygen to instantly plump, brighten and energise the skin.",
-        "Scientifically: The treatment enhances cellular oxygen uptake, microcirculation, hydration pathways, antioxidant defence, collagen activation, and epidermal turnover."
+        "Scientifically: The treatment enhances:\ncellular oxygen uptake\nmicrocirculation\nhydration pathways\nantioxidant defence\ncollagen activation\nepidermal turnover\nThese processes naturally decline after age 35 and accelerate during menopause, making nutrient delivery essential."
       ],
       goals: [
         "Boosts hydration deeply",
@@ -3220,8 +4180,8 @@ export const treatments = [
         "Strengthens barrier health"
       ],
       highlightBox: {
-        text1: "Ideal for perimenopause and menopause skin.",
-        text2: "Prone to dryness, dullness and fatigue."
+        text1: "Ideally suited for perimenopause and menopause skin prone to dryness, dullness and fatigue.",
+        text2: "This treatment boosts circulation, hydration, glow and cellular energy."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -3232,7 +4192,7 @@ export const treatments = [
       points: [
         {
           title: "Hormone-ready formulations",
-          description: "Tailored for perimenopause/menopause."
+          description: "(perimenopause/menopause)."
         },
         {
           title: "Custom vitamin blends",
@@ -3247,8 +4207,12 @@ export const treatments = [
           description: "Included enhancement."
         },
         {
-          title: "Barrier-strengthening finishing",
+          title: "Barrier-strengthening finishing steps",
           description: "Seals in results."
+        },
+        {
+          title: "Suitable for sensitive or reactive skin",
+          description: "Gentle yet effective."
         }
       ]
     },
@@ -3256,11 +4220,11 @@ export const treatments = [
       title: "The Science",
       highlight: "Behind",
       titleSuffix: "Oxygen & Vitamin Infusion",
-      subtitle: "Boosting essential systems that decline with age:",
+      subtitle: "The Oxygen Infusion Facial boosts essential systems:",
       items: [
         {
           title: "Oxygenation",
-          description: "Increases blood flow → better nutrient delivery and tissue repair."
+          description: "Increases blood flow - better nutrient delivery and tissue repair."
         },
         {
           title: "Vitamin Penetration",
@@ -3279,7 +4243,46 @@ export const treatments = [
           description: "Peptides and ceramides strengthen menopausal skin."
         }
       ],
-      footer: "Clinical evidence shows improved hydration levels, increased radiance and elasticity, and significant reduction in oxidative stress."
+      footer: "Clinical Evidence: Improved hydration levels (International Journal of Cosmetic Science, 2021), Increased radiance and elasticity (Journal of Dermatologic Therapy, 2020), Significant reduction in oxidative stress (Skin Pharmacology 2022)"
+    },
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+        "Face",
+        "Neck",
+        "Décolletage",
+        "Under-eye (safe & gentle)",
+        "Hands (optional)"
+      ]
+    },
+    process: {
+      title: "What Happens During the Treatment?",
+      steps: [
+        { title: "1. Clinical Skin Analysis", description: "We tailor vitamin blends based on hydration, pigmentation and hormonal status." },
+        { title: "2. Oxygen Cleanse & Prep", description: "Removes impurities and oxygenates tissue." },
+        { title: "3. Vitamin & Antioxidant Infusion", description: "Delivered using pressurised oxygen for deeper penetration." },
+        { title: "4. Hydration Plumping Layer", description: "Hyaluronic acid saturates the skin with moisture." },
+        { title: "5. Vitamin Boost Mask", description: "Seals in nutrients." },
+        { title: "6. LED Therapy (Optional Included Enhancement)", description: "Supports regeneration, anti-inflammatory repair and glow." },
+        { title: "7. Barrier Reinforcement", description: "Ceramide, peptide and lipid-based finishing." }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "Radiant glow, Deep hydration, Plump, soft skin, Even tone" },
+        { title: "24–72 hours", description: "More even texture, Reduced dullness and fatigue, Brighter complexion" },
+        { title: "1–2 weeks", description: "Progressive improvement with cumulative sessions, Better barrier resilience" }
+      ]
+    },
+    frequency: {
+      title: "How Often Should I Have It?",
+      items: [
+        "Single session: perfect for events",
+        "Every 2–4 weeks: hydration & radiance maintenance",
+        "Every 7–14 days: during menopause dullness or stress flare-ups",
+        "Combined with PN/Boosters: optimal regenerative outcome"
+      ]
     },
     idealFor: {
       title: "Who Is It",
@@ -3295,29 +4298,31 @@ export const treatments = [
         "Stress-related skin fatigue",
         "Post-travel dehydration",
         "Early pigmentation",
-        "Event prep"
+        "Event prep (pre-wedding, photoshoots, holidays)",
+        "This treatment is especially beneficial for women 35–65, where hormonal shifts reduce skin oxygenation and hydration."
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings (Cross-Sell)",
+      title: "Perfect Pairings",
+      subtitle: "Oxygen infusion enhances:",
       sections: [
         {
-          title: "RENEW (PN, Microneedling, PRP, Profhilo)",
-          description: "Oxygen infusion prepares the skin exceptionally well for PN and biostimulator treatment plans.",
+          title: "RENEW",
+          description: "Polynucleotides (PN), Microneedling, PRP, Profhilo, Definisse Hydrobooster. Oxygen infusion prepares the skin exceptionally well for PN and biostimulator treatment plans.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "REFRESH (Regenerative Facial, Medical-Grade Facial, LED, Enzyme Therapy, Chemical Peel)",
-          description: "Complements other surface treatments.",
+          title: "REFRESH",
+          description: "Regenerative Facial, Medical-Grade Facial, LED, Enzyme Therapy, Chemical Peel.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "RADIATE (NAD+ IV, Glutathione IM, Vitamin B12)",
-          description: "Internal support for oxygenation, energy, and brightening.",
+          title: "RADIATE",
+          description: "NAD+ IV (oxygenation + energy), Glutathione IM (brightening), Vitamin B12 (cell energy).",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -3344,6 +4349,17 @@ export const treatments = [
         }
       ]
     },
+    faq: {
+      title: "FAQ",
+      items: [
+        { question: "Does this replace a regular facial?", answer: "It is more advanced — delivering deeper hydration and brighter results." },
+        { question: "Is it safe for menopause skin?", answer: "Yes, especially for dryness, dullness and sensitivity." },
+        { question: "Does it hurt?", answer: "No — the treatment is cool, soothing and relaxing." },
+        { question: "Will it clog pores?", answer: "No — formulations are lightweight and non-comedogenic." },
+        { question: "How soon before an event should I book?", answer: "24–48 hours before for peak glow." },
+        { question: "Can I combine this with chemical peels or PN?", answer: "Yes — it enhances penetration and speeds healing." }
+      ]
+    },
     cta: {
       title: "Oxygenate, Brighten &",
       highlight: "Re-Energise Your Skin",
@@ -3361,6 +4377,27 @@ export const treatments = [
     highlight: 'Facial',
     titleSuffix: '',
     benefits: ['Repair', 'Strengthen', 'Restore', 'Cellular Activation'],
+    detailedBenefits: {
+      title: "Benefits of the Regenerative Facial",
+      sections: [
+        {
+          title: "Benefits",
+          items: [
+            "Restores radiance",
+            "Improves hydration & plumpness",
+            "Calms inflammation",
+            "Reduces sensitivity",
+            "Softens fine lines",
+            "Balances hormonal skin fluctuations",
+            "Strengthens barrier function",
+            "Brightens dull or tired complexion",
+            "Improves texture & smoothness",
+            "Boosts glow for 2–4 weeks",
+            "Menopause clients often notice significant improvement in comfort, texture and ease of makeup application"
+          ]
+        }
+      ]
+    },
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Refresh',
@@ -3371,7 +4408,7 @@ export const treatments = [
         "A Regenerative Facial is a medical-grade treatment that combines resurfacing, hydration, antioxidant infusion, and LED cellular stimulation to restore your skin’s natural repair mechanisms.",
         "It improves the quality of the skin — not just the surface — making it ideal for perimenopause and menopause skin.",
         "In simple terms: It brings your skin back to life.",
-        "In scientific terms: It supports fibroblast activity, epidermal turnover, barrier lipid restoration, microcirculation, dermal hydration, and antioxidant defence mechanisms."
+        "In scientific terms: It supports:\nfibroblast activity\nepidermal turnover\nbarrier lipid restoration\nmicrocirculation\ndermal hydration\nantioxidant defence mechanisms"
       ],
       goals: [
         "Restores radiance",
@@ -3384,8 +4421,8 @@ export const treatments = [
         "Brightens dull or tired complexion"
       ],
       highlightBox: {
-        text1: "Not a spa facial — it is a treatment engineered to activate skin repair.",
-        text2: "Perfect for midlife women experiencing dullness, dryness, sensitivity, hormonal changes, or early signs of ageing."
+        text1: "ULANDA specialises in regenerative aesthetics — meaning every treatment is designed to support the skin’s biology, not just improve its appearance temporarily.",
+        text2: "This is why the treatment creates a sustained glow, not a short-term “facial day” look."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -3396,19 +4433,23 @@ export const treatments = [
       points: [
         {
           title: "Medical-grade formulations",
-          description: "For deep repair."
+          description: "Use of potent actives."
         },
         {
           title: "Prioritises barrier repair",
-          description: "Strengthening skin defence."
+          description: "Focus on health."
         },
         {
-          title: "Targets inflammation & oxidative stress",
-          description: "Addressing root causes of ageing."
+          title: "Targets inflammation, oxidative stress & hormonal dullness",
+          description: "Root cause treatment."
         },
         {
-          title: "Works beautifully between injectables",
-          description: "Enhancing overall results."
+          title: "Works beautifully between injectable treatments",
+          description: "Maintenance."
+        },
+        {
+          title: "Prepares the skin",
+          description: "For PN, biostimulators & microneedling."
         },
         {
           title: "Customised to your hormonal stage",
@@ -3420,30 +4461,71 @@ export const treatments = [
       title: "The Science",
       highlight: "Behind",
       titleSuffix: "Regenerative Facials",
-      subtitle: "Countering midlife skin changes:",
+      subtitle: "A Regenerative Facial counters midlife skin changes by:",
       items: [
         {
-          title: "Restoring Epidermal Turnover",
-          description: "For fresher skin."
+          title: "restoring epidermal turnover",
+          description: "Fresher skin surface."
         },
         {
-          title: "Infusing Deep Hydration",
+          title: "infusing deep hydration",
           description: "Combating dryness."
         },
         {
-          title: "Stimulating Collagen via LED",
-          description: "Improving firmness."
+          title: "stimulating collagen via LED",
+          description: "Cellular activation."
         },
         {
-          title: "Repairing Ceramide + Lipid Depletion",
-          description: "Strengthening the barrier."
+          title: "repairing ceramide + lipid depletion",
+          description: "Barrier strength."
         },
         {
-          title: "Protecting from Oxidative Stress",
-          description: "Preventing further damage."
+          title: "protecting the skin from oxidative stress",
+          description: "Antioxidant defence."
         }
       ],
-      footer: "Medical evidence shows midlife skin undergoes collagen loss, reduced ceramide production, and increased inflammation."
+      footer: "Medical evidence shows that midlife skin undergoes ↓ 1–2% collagen loss per year after age 30 and ↓ 30% collagen loss in the first 5 years of menopause. (Journal of Cosmetic Dermatology, 2022; JAMA Dermatology, 2021; Menopause Journal, 2020; International Journal of Women’s Dermatology, 2023)"
+    },
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+        "Face",
+        "Neck",
+        "Décolletage",
+        "Under-eye",
+        "Hands (optional)",
+        "Back or shoulders (optional)"
+      ]
+    },
+    process: {
+      title: "What Happens During the Treatment?",
+      steps: [
+        { title: "1. Consultation & Skin Analysis", description: "We assess hydration, barrier health, hormonal stage and inflammation levels." },
+        { title: "2. Deep Cleanse & Enzyme Prep", description: "Prepares skin for optimal absorption." },
+        { title: "3. Medical-Grade Exfoliation", description: "Gentle resurfacing (customised for your skin sensitivity)." },
+        { title: "4. Hydration Infusion", description: "Peptides, hyaluronic acid, antioxidants or PN-infused serums." },
+        { title: "5. Regenerative Massage Technique", description: "Stimulates microcirculation." },
+        { title: "6. LED Cellular Therapy", description: "Red light stimulates fibroblasts & reduces inflammation." },
+        { title: "7. Barrier Lock-in", description: "Ceramide + lipid repair for long-lasting glow." }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "Radiance, Plumper skin, Smoother texture" },
+        { title: "24–72 hours", description: "Glow intensifies, Reduced redness, More refined pores" },
+        { title: "1–2 weeks", description: "More balanced skin tone, Improved elasticity" },
+        { title: "Consistent monthly treatments", description: "Build long-term repair." }
+      ]
+    },
+    frequency: {
+      title: "How Often Should I Have It?",
+      items: [
+        "For best regenerative results:",
+        "Every 4 weeks for ongoing skin repair",
+        "Every 2–3 weeks during menopause flare-ups",
+        "Monthly when combined with PN / microneedling / peels"
+      ]
     },
     idealFor: {
       title: "Who Is It",
@@ -3459,29 +4541,31 @@ export const treatments = [
         "Sensitive or reactive skin",
         "Mild pigmentation",
         "Tired, stressed, or congested skin",
-        "Post-travel or seasonal skin imbalance"
+        "Post-travel or seasonal skin imbalance",
+        "Particularly recommended for women aged 35–65 undergoing hormonal skin changes."
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings (Cross-Sell)",
+      title: "Perfect Pairings",
+      subtitle: "A Regenerative Facial enhances the results of:",
       sections: [
         {
-          title: "RENEW (PN, Microneedling, Skin Boosters, PRP)",
-          description: "Works beautifully as a preparation facial before biostimulators and threads.",
+          title: "RENEW",
+          description: "Polynucleotides (PN), Microneedling, Skin Boosters, PRP. Works beautifully as a preparation facial before biostimulators and threads.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "REFRESH (BioRePeel, Chemical Peels)",
-          description: "Complements other surface treatments.",
+          title: "REFRESH",
+          description: "BioRePeel, Chemical Peels.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
         },
         {
-          title: "RADIATE (Glutathione IM, NAD+ IV, Vitamin D & B12)",
-          description: "Internal support for skin health.",
+          title: "RADIATE",
+          description: "Glutathione IM, NAD+ IV, Vitamin D & B12.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -3492,8 +4576,8 @@ export const treatments = [
       title: "Downtime & Safety",
       items: [
         {
-          title: "No Significant Downtime",
-          description: "Mild temporary redness may last 1–2 hours.",
+          title: "No Downtime",
+          description: "No significant downtime. Mild temporary redness may last 1–2 hours.",
           icon: "cqc"
         },
         {
@@ -3502,14 +4586,26 @@ export const treatments = [
           icon: "clinician"
         },
         {
-          title: "Corrective",
-          description: "Clinically driven, corrective and regenerative — not cosmetic.",
+          title: "Comfortable",
+          description: "Ideally wait 12 hours before wearing makeup.",
           icon: "prescribed"
         }
       ]
     },
+    faq: {
+      title: "FAQ",
+      items: [
+        { question: "Is this different from a spa facial?", answer: "Completely. It’s clinically driven, corrective and regenerative — not cosmetic." },
+        { question: "Is it safe for menopause skin?", answer: "Yes — this facial is specifically designed for hormone-stressed skin." },
+        { question: "Can it help with tired, stressed or dull skin?", answer: "Absolutely. This is where it excels." },
+        { question: "Can I combine it with injectables?", answer: "Yes — it prepares your skin for PN, biostimulators, fillers and threads." },
+        { question: "What if my skin is very sensitive?", answer: "We tailor the formulation to protect your barrier." },
+        { question: "Can I wear makeup afterwards?", answer: "Preferably wait 12 hours." },
+        { question: "Is it suitable for rosacea?", answer: "Yes — LED + barrier repair reduce redness." }
+      ]
+    },
     cta: {
-      title: "Restore Your Glow",
+      title: "Restore Your Glow —",
       highlight: "Restore Your Skin",
       description: "Book your Regenerative Facial at ULANDA in Ware SG12 and begin your journey to radiant, healthy, resilient skin.",
       buttonText: "Book Consultation"
@@ -4540,21 +5636,32 @@ export const treatments = [
       ]
     },
     title: 'Biostimulators',
-    highlight: '(PLLA, PDLLA, CaHA)',
+    highlight: 'Long-Term Collagen Regeneration & Lifting',
     titleSuffix: '',
     benefits: ['Activate fibroblasts', 'Rebuild skin architecture', 'Improve elasticity + firmness', 'Provide long-term, natural correction'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'Long-Term Collagen Regeneration & Lifting',
+    description: 'PLLA • PDLLA • CaHA — The Structural Foundation of Natural Aesthetics',
     introduction: {
       title: "The Structural Foundation of Natural Aesthetics",
       content: [
         "Not filler. Not volume. True structural regeneration.",
         "Biostimulators are the deepest level of regenerative aesthetic treatment, designed to restore the architecture, firmness and support your face naturally loses with age, hormonal change and collagen decline.",
-        "Unlike fillers—which simply add volume—biostimulators rebuild your skin’s own collagen and elastin, giving lifted contours, firmer jawline, improved elasticity, reduced crepiness, and long-term structural support.",
+        "Unlike fillers—which simply add volume—biostimulators rebuild your skin’s own collagen and elastin, giving:",
+        "• lifted contours",
+        "• firmer jawline",
+        "• improved elasticity",
+        "• reduced crepiness",
+        "• long-term structural support",
+        "• natural, refined rejuvenation",
+        "• menopausal collagen restoration",
         "Biostimulators are ideal for women seeking authentic, regenerative, long-term results without the “filler look.”",
-        "At ULANDA, we specialise in the three most scientifically validated biostimulators: PLLA (e.g., Sculptra®), PDLLA (next-gen collagen stimulator), and CaHA (Calcium Hydroxyapatite)."
+        "At ULANDA, we specialise in the three most scientifically validated biostimulators:",
+        "PLLA — (e.g., Sculptra®)",
+        "PDLLA — next-gen collagen stimulator",
+        "CaHA — Calcium Hydroxyapatite",
+        "Each delivers unique structural, lifting and collagen-building benefits."
       ],
       goals: [
         "Activate fibroblasts",
@@ -4573,19 +5680,19 @@ export const treatments = [
       title: "Types of",
       highlight: "Biostimulators",
       titleSuffix: "Used at ULANDA",
-      subtitle: "Each delivers unique structural, lifting and collagen-building benefits:",
+      subtitle: "",
       items: [
         {
           title: "PLLA (Poly-L-Lactic Acid)",
-          description: "Strongest collagen stimulation. Best for full-face structural support and lower-face laxity. Works gradually and naturally."
+          description: "Ideal for:\n• facial volume restoration\n• menopausal collagen collapse\n• overall skin firmness\n• long-term regeneration (24+ months)\nBenefits:\n• strongest collagen stimulation\n• exceptional for lower-face laxity\n• excellent for cheeks, temples, jawline\n• best for full-face structural support\nPLLA works gradually and naturally — perfect for subtle rejuvenation."
         },
         {
           title: "PDLLA (Poly-D,L-Lactic Acid)",
-          description: "Next-gen biostimulator. Immediate support + long-term collagen. Excellent for midface and jawline."
+          description: "Ideal for:\n• contour refinement\n• lifting effect\n• moderate volume + collagen\n• improving facial architecture\nBenefits:\n• immediate support + long-term collagen\n• excellent for midface and jawline\n• highly versatile structural tool\n• beautiful, natural outcomes"
         },
         {
           title: "CaHA (Calcium Hydroxyapatite)",
-          description: "Strong collagen stimulation with immediate firmness + lift. Exceptional for neck crepiness and skin tightening."
+          description: "Ideal for:\n• jawline sculpting\n• neck rejuvenation\n• skin tightening\n• improving texture + elasticity\nBenefits:\n• strong collagen stimulation\n• immediate firmness + lift\n• exceptional for neck crepiness\n• smoothes fine lines + texture\nCaHA is also used as a dilute “skin strengthening” treatment for menopause-related thinning."
         }
       ],
       footer: "Biostimulators outperform fillers for structural rejuvenation."
@@ -4595,33 +5702,60 @@ export const treatments = [
       highlight: "Perfect For",
       titleSuffix: "",
       items: [
-        "Age-Related Changes: loss of structure, sagging, cheek flattening, deeper folds",
-        "Texture & Quality Concerns: crepey lower face, menopausal thinning, poor elasticity",
-        "Clients Who Dislike Fillers: want natural results, gradual improvement",
-        "Menopause-Specific Needs: loss of collagen, hormonal weakening of facial support"
+        "Age-Related Changes: loss of structure, sagging, cheek flattening, deeper folds, neck laxity",
+        "Texture & Quality Concerns: crepey lower face, menopausal thinning, poor elasticity, dull skin, tired skin",
+        "Clients Who Dislike Fillers: want natural results, gradual improvement, long-lasting skin health",
+        "Menopause-Specific Needs: loss of collagen, changes in skin density, hormonal weakening of facial support, lower-face collapse, increased laxity"
       ]
     },
-    internalSupport: {
-      title: "Treatment",
-      titleSuffix: "Areas",
-      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
-      points: [
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+        "Face: Temples, cheeks, jawline, nasolabial folds, marionette zone, lower-face laxity, pre-jowl sulcus.",
+        "Neck: Crepiness, 'neck rings', laxity, thinning.",
+        "Decolletage: Sun damage, wrinkles, thinning.",
+        "Hands: Collagen loss, skin thinning."
+      ]
+    },
+    science: {
+      title: "The Science of",
+      highlight: "Biostimulation",
+      content: [
+        "Clinical research shows biostimulators:",
+        "• increase collagen types I & III",
+        "• reorganise collagen fibres",
+        "• increase dermal thickness",
+        "• stimulate fibroblast proliferation",
+        "• support long-term structural remodeling",
+        "Aesthetic Surgery Journal (2023), JDD (2024) and Clinical Medicine (2024) all confirm: Biostimulators outperform fillers for structural rejuvenation."
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediately", description: "subtle firmness, improved contour (depending on product)" },
+        { title: "4–6 Weeks", description: "early collagen activation, improved texture" },
+        { title: "8–12 Weeks", description: "visible firmness, smoother contour, more lifted appearance" },
+        { title: "3–6 Months", description: "peak collagen regeneration, structural improvement" },
+        { title: "18–36 Months", description: "long-lasting results depending on product type" }
+      ]
+    },
+    faq: {
+      title: "FAQ",
+      items: [
         {
-          title: "Face",
-          description: "Temples, cheeks, jawline, nasolabial folds, marionette zone, lower-face laxity."
-        },
-        {
-          title: "Neck",
-          description: "Crepiness, 'neck rings', laxity, thinning."
-        },
-        {
-          title: "Decolletage",
-          description: "Sun damage, wrinkles, thinning."
-        },
-        {
-          title: "Hands",
-          description: "Collagen loss, skin thinning."
+          question: "How Many Sessions?",
+          answer: "ULANDA protocol:\nPLLA: 2–3 sessions, 6–8 weeks apart\nPDLLA: 1–2 sessions\nCaHA: 1–2 sessions depending on dilution\nMaintenance every 12–18 months."
         }
+      ]
+    },
+    process: {
+      title: "What to Expect During Your Session",
+      steps: [
+        { title: "Consultation & Structural Mapping", description: "We assess collagen density, facial architecture, hormonal influences and ageing patterns." },
+        { title: "Numbing + Precision Injection", description: "Ultrasound-guided if needed." },
+        { title: "Layered Placement", description: "Deep, mid or superficial dermal placement depending on goal." },
+        { title: "Regenerative Aftercare", description: "Including lymphatic support + LED for enhanced healing." }
       ]
     },
     ulandaConnection: {
@@ -4673,21 +5807,21 @@ export const treatments = [
           icon: "cqc"
         },
         {
-          title: "Natural Results",
+          title: "Ultra-Natural Results",
           description: "Gradual + natural, suitable for all skin tones.",
           icon: "clinician"
         },
         {
           title: "Menopause-Specific",
-          description: "Particularly effective for menopausal skin.",
+          description: "Particularly effective for menopausal skin. Minimal downtime. This is one of the safest structural treatments in aesthetics.",
           icon: "prescribed"
         }
       ]
     },
     cta: {
-      title: "Restore Your",
-      highlight: "Collagen",
-      description: "Book your Restore Consultation at ULANDA.",
+      title: "Restore Your Collagen.",
+      highlight: "Restore Your Confidence.",
+      description: "Biostimulators are the cornerstone of natural, structural rejuvenation — especially for midlife and menopausal women seeking long-term transformation.",
       buttonText: "Book Restore Consultation"
     }
   },
@@ -4695,209 +5829,171 @@ export const treatments = [
     id: 'thread-lift',
     relatedTools: ['definisse'],
     seo: {
-      title: "Thread Lifts (PDO / PLLA) | Non-Surgical Facelift | ULANDA",
-      description: "Lift & tighten sagging skin instantly with Thread Lifts. ULANDA uses advanced PDO/PLLA threads to reposition tissues & stimulate long-term collagen."
+      title: "Thread Lifts | Non-Surgical Facelift & Neck Lift | ULANDA",
+      description: "Lift jowls, cheeks & neck instantly with PDO & Definisse threads. A non-surgical alternative to facelifts available at ULANDA Ware."
     },
     seoHeadings: {
-      h1: "Thread Lifts in Ware SG12 — Non-Surgical Lifting for Jawline, Cheeks & Neck",
+      h1: "Thread Lifts in Ware SG12 — Natural, Non-Surgical Lifting",
       h2: [
-        "What Thread Lifts Treat: Sagging, Jowls, Laxity",
-        "How Threads Work — Mechanical Lift + Collagen Remodeling",
-        "PDO Threads vs Definisse Threads",
-        "Treatment Process",
-        "Best Combinations (Biostimulators, PN)",
-        "Conditions Threads Improve",
-        "Book Thread Lift in Ware SG12"
+        "What Can a Thread Lift Achieve?",
+        "How Threads Work: Mechanical Lift + Biological Regeneration",
+        "PDO vs. Definisse (PLLA/PCL): Which is Right for You?",
+        "Recovery & Longevity"
       ]
     },
     title: 'Thread Lifts',
     highlight: '(PDO / Definisse)',
     titleSuffix: '',
-    benefits: ['Lifts sagging skin', 'Improves facial definition', 'Corrects lower-face laxity', 'Strengthens collagen architecture'],
+    benefits: ['Instantly lifts sagging tissue', 'Redefines jawline & cheekbones', 'Stimulates long-term collagen', 'Natural alternative to surgery', 'Treats jowls & neck laxity'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'Restorative Lifting & Collagen Remodelling',
+    description: 'Lift • Define • Tighten',
     introduction: {
-      title: "The Artistry of Lifting Without Surgery",
+      title: "Lift, Define & Tighten",
       content: [
-        "Thread lifts are one of the most advanced non-surgical techniques for lifting, firming and redefining facial contours—without adding volume or altering your natural features.",
-        "At ULANDA, we specialise in PDO and Definisse® threads, clinically engineered to lift sagging skin, improve facial definition, correct lower-face laxity, strengthen collagen architecture, enhance jawline + midface support, rejuvenate neck and under-eye areas, and reverse menopausal facial descent.",
-        "Threads do not act like fillers. They reposition tissues and stimulate your body to rebuild its own collagen for long-lasting firmness and lift."
+        "Gravity affects us all — but you don’t always need surgery to fight back.",
+        "Thread lifts are the premier non-surgical method for physically repositioning sagging tissue.",
+        "Unlike fillers (which add volume), threads LIFT the skin back to its youthful position.",
+        "At ULANDA, we use premium PDO and Definisse (PLLA/PCL) threads to lift the cheeks, sharpen the jawline, and tighten the neck.",
+        "It’s a dual-action treatment: 1) Immediate mechanical lift. 2) Long-term collagen stimulation as the threads dissolve."
       ],
       goals: [
-        "Lift sagging skin",
-        "Improve facial definition",
-        "Correct lower-face laxity",
-        "Strengthen collagen architecture",
-        "Enhance jawline + midface support",
-        "Rejuvenate neck and under-eye areas"
+        "Lifts sagging cheeks & jowls",
+        "Sharpens jawline definition",
+        "Tightens moderate neck laxity",
+        "Restores the 'Triangle of Youth'",
+        "Boosts natural collagen production",
+        "Provides immediate visible results"
       ],
       highlightBox: {
-        text1: "Not fillers.",
-        text2: "Reposition tissues and stimulate collagen."
+        text1: "Restores the 'Triangle of Youth'.",
+        text2: "Immediate visible results."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
     internalSupport: {
-      title: "What Are",
-      titleSuffix: "Thread Lifts?",
+      title: "How It",
+      titleSuffix: "Works",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
         {
-          title: "Lift Sagging Tissue",
-          description: "A mechanical repositioning effect."
+          title: "Mechanical Lift",
+          description: "Micro-barbs on the threads anchor to the skin and physically lift the tissue upwards."
         },
         {
-          title: "Stimulate Collagen",
-          description: "Continued regenerative improvement for months."
-        },
-        {
-          title: "Tighten & Firm",
-          description: "A sculpted, refreshed appearance."
-        },
-        {
-          title: "Restore Structure",
-          description: "Especially effective for lower-face, midface and jawline lost through ageing and menopause."
+          title: "Biological Lift",
+          description: "As the threads slowly dissolve over 6–9 months, they stimulate a mesh of new collagen (Types 1 & 3) that keeps the lift in place for 12–18 months."
         }
       ]
     },
     ingredients: {
-      title: "Two Thread",
-      highlight: "Modalities",
-      titleSuffix: "for Precision Lifting",
-      subtitle: "ULANDA uses two thread modalities:",
+      title: "Our Thread",
+      highlight: "Types",
+      titleSuffix: "",
+      subtitle: "We select the thread based on your tissue type:",
       items: [
         {
           title: "PDO Threads (Polydioxanone)",
-          description: "Gentle lift, improved firmness, collagen stimulation. Perfect for early to moderate laxity, lower-face & neck."
+          description: "Excellent for tightening, collagen stimulation, and lighter lifting. Great for younger patients or thinner skin."
         },
         {
-          title: "Definisse® Threads (Advanced COG Technology)",
-          description: "Stronger lift, deeper anchoring. Ideal for lower-face sagging, jowls, midface descent, and menopausal laxity."
+          title: "Definisse Threads (PLLA / PCL)",
+          description: "Stronger, longer-lasting threads with high tensile strength. Ideal for heavier tissues, significant jowls, and menopausal skin changes."
         }
       ],
-      footer: "This is the premium lifting solution in advanced regenerative aesthetics."
+      footer: "Your clinician will choose the perfect thread type for your face."
+    },
+    treatmentAreas: {
+        title: "Treatment Areas",
+        items: [
+            "Cheeks: Restoring the apple of the cheek.",
+            "Jawline: Lifting jowls and sharpening contours.",
+            "Neck: Tightening loose skin under the chin.",
+            "Eyebrows: Subtle 'Fox Eye' or brow lift.",
+            "Nasolabial Folds: Reducing the depth of smile lines."
+        ]
     },
     idealFor: {
-      title: "Who Thread Lifts Are",
+      title: "Who This Is",
       highlight: "Perfect For",
       titleSuffix: "",
       items: [
-        "Sagging cheeks",
-        "Early jowls",
-        "Lower-face heaviness",
-        "Midface descent",
-        "Hollowed contour",
-        "Weak jawline",
-        "Crepey neck",
-        "Menopause-related collagen collapse",
-        "Clients seeking natural results without volume"
+        "Mild to moderate sagging",
+        "Jowl formation",
+        "Undefined jawline",
+        "Neck laxity",
+        "Patients wanting a lift WITHOUT more volume",
+        "Those avoiding surgery"
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Immediate", description: "visible lift (some swelling/puckering possible)" },
+        { title: "2 Weeks", description: "swelling subsides, tissue settles" },
+        { title: "3 Months", description: "collagen production ramps up, skin quality improves" },
+        { title: "12–18 Months", description: "typical longevity of results" }
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect ULANDA Pairings",
+      subtitle: "Perfect Combinations",
       sections: [
-        {
-          title: "Threads + Biostimulators",
-          description: "The strongest non-surgical lift & collagen combination.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Threads + PN",
-          description: "Lift + structural dermal strengthening.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Threads + Profhilo / Hydrobooster",
-          description: "Lift + hydration + elasticity.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Threads + RF Microneedling",
-          description: "Lift + tightening around jawline & neck.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Threads + PRP",
-          description: "Accelerated healing + repair.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Threads + Biostimulators", description: "The 'Non-Surgical Facelift' Protocol." },
+        { title: "Threads + PN (Polynucleotides)", description: "For thinner skin types." },
+        { title: "Threads + Cheek Filler", description: "Lift + Volume balance." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Clinician-Administered",
-          description: "CE-certified threads, safe for all skin tones.",
-          icon: "clinician"
-        },
-        {
-          title: "Minimal Downtime",
-          description: "Mild swelling for 2–3 days. Most clients resume normal activity within 24–72 hours.",
-          icon: "cqc"
-        },
-        {
-          title: "Natural Finish",
-          description: "No overfilled appearance. Harmony with natural anatomy.",
-          icon: "prescribed"
-        }
+        { title: "Downtime Required", description: "Plan for 3-7 days of downtime (swelling, possible dimpling).", icon: "check" },
+        { title: "Avoid Exercise", description: "No heavy exercise for 2 weeks post-treatment.", icon: "star" },
+        { title: "Clinician Only", description: "We use only CE-marked, medical-grade threads.", icon: "prescribed" }
       ]
     },
     cta: {
-    seoHeadings: {
-      h1: "Collagen Therapy in Ware SG12 — Skin Firming, Smoothing & Long-Term Regeneration",
-      h2: [
-        "What Collagen Therapy Treats",
-        "How Collagen Therapy Workss",
-        "Collagen Therapy vs Biostimulators",
-        "Combination Treatments",
-        "Conditions Improved",
-        "Book Collagen Therapy in Ware SG12"
-      ]
-    },
-      title: "Lift, Firm &",
-      highlight: "Restore",
-      description: "Threads are one of the most sophisticated regenerative lifting tools in modern aesthetics.",
-      buttonText: "Book Restore Consultation"
+      title: "Lift.",
+      highlight: "Define.",
+      description: "Tighten. ULANDA’s Thread Lift protocols provide the most effective non-surgical lift available safely.",
+      buttonText: "Book Thread Lift Consultation"
     }
   },
   {
     id: 'collagen-therapy',
-    seo: {
-      title: "Collagen Induction Therapy | Skin Regeneration | ULANDA",
-      description: "Boost your skin’s natural repair process with Collagen Induction Therapy. ULANDA combines microneedling & regenerative serums for firmer, smoother skin."
+    seoHeadings: {
+      h1: "Collagen Therapy in Ware SG12 — Rebuild Firmness & Density",
+      h2: [
+        "Why You Lose Collagen in Midlife",
+        "Regenerative Science: How We Rebuild It",
+        "Biostimulators, PN, and RF: A Multi-Modal Approach",
+        "Long-Term Structural Restoration"
+      ]
     },
-    title: 'Collagen',
-    highlight: 'Therapy',
+    seo: {
+      title: "Collagen Therapy | Restore Skin Architecture | ULANDA",
+      description: "Rebuild lost collagen & restore skin firmness with ULANDA’s regenerative therapies. The foundation of long-term youthful skin structure."
+    },
+    title: 'Collagen Therapy',
+    highlight: 'Restore Your Skin\'s Architecture',
     titleSuffix: '',
-    benefits: ['Rebuilds foundational collagen', 'Restores skin architecture', 'Improves firmness + density', 'Long-term regenerative results'],
+    benefits: ['Rebuilds deep structural collagen', 'Thickens thinning dermis', 'Lifts and firms naturally', 'Restores elasticity', 'Fixes the root cause of ageing'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'Rebuild Firmness, Density & Elasticity Through Regenerative Science',
+    description: 'Rebuild • Strengthen • Firm',
     introduction: {
-      title: "Restore Your Skin’s Architecture",
+      title: "Rebuilding, Not Just Filling",
       content: [
-        "Your skin doesn’t need more volume — it needs more collagen.",
-        "Collagen Therapy at ULANDA is a curated, science-led approach to rebuilding foundational collagen, restoring the architecture of your skin that naturally weakens with ageing, perimenopause, menopause, stress, sun exposure, weight loss, and inflammation.",
-        "This is not a single treatment — it is a precision-designed regenerative process using biostimulators (PLLA, PDLLA, CaHA), polynucleotides (PN), collagen-supporting skin boosters, regenerative microneedling, RF microneedling, PRP, and threads (where needed).",
-        "Collagen Therapy is ideal for women who want firmer, tighter, stronger skin with long-term results — without unnatural changes.",
-        "It is the signature treatment philosophy inside RESTORE at ULANDA."
+        "Your skin doesn't just need more volume — it needs more collagen.",
+        "From the age of 30, we lose 1% of our collagen every year. During the first 5 years of menopause, we lose 30%.",
+        "This structural collapse leads to sagging, jowls, thinning skin, and hollowing.",
+        "Collagen Therapy at ULANDA isn't a single product. It is a regenerative philosophy.",
+        "We use a combination of advanced biostimulators, polynucleotides, and energy devices to wake up your own cells (fibroblasts) to produce new, fresh, strong collagen.",
+        "Result: Your skin becomes thicker, firmer, and more resilient from the inside out."
       ],
       goals: [
-        "Produce new collagen (Type I & III)",
+        "Stimulate new Type I & III Collagen",
         "Strengthen the dermal matrix",
         "Improve elasticity",
         "Increase firmness + support",
@@ -4906,149 +6002,97 @@ export const treatments = [
         "Improve texture + density"
       ],
       highlightBox: {
-        text1: "Reverses hollowing and sagging.",
-        text2: "Instead of adding volume, we regenerate it."
+        text1: "Wake up your own cells.",
+        text2: "Thicker, firmer, resilient skin."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
     internalSupport: {
       title: "Why Collagen Therapy",
-      titleSuffix: "Matters in Midlife",
+      titleSuffix: "Matters (Expert Science)",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
-        {
-          title: "Collagen Decline",
-          description: "From age 30+, collagen declines 1% every year. In menopause, collagen drops by 30% in the first 5 years."
-        },
-        {
-          title: "Structural Impact",
-          description: "This leads to facial descent, jawline weakening, jowls, neck laxity, crepey cheeks, volume loss, and reduced facial support."
-        },
-        {
-          title: "Regenerative Solution",
-          description: "Collagen Therapy directly reverses these biological changes by rebuilding collagen, strengthening fascia + dermis, and stimulating long-term regeneration."
-        }
+          { title: "The Decline", description: "Collagen acts as the scaffold of your face. As it weakens, the 'building' (your face) begins to slide downwards." },
+          { title: "The Fix", description: "You cannot replace this structure with surface creams or simple fillers. You must regenerate it biologically." },
+          { title: "The Outcome", description: "Regenerated skin holds its shape better, resists gravity, and looks naturally youthful for longer." }
       ]
     },
     ingredients: {
-      title: "What Collagen Therapy",
-      highlight: "Includes",
+      title: "The Collagen Toolkit",
+      highlight: "(How We Do It)",
       titleSuffix: "",
-      subtitle: "At ULANDA, Collagen Therapy is a layered approach delivered through:",
+      subtitle: "We combine modalities for maximum impact:",
       items: [
         {
-          title: "1. Biostimulators (PLLA, PDLLA, CaHA)",
-          description: "Deep, long-term collagen induction (18–36 month structural remodelling)."
+          title: "1. Biostimulators (PLLA/PDLLA/CaHA)",
+          description: "Injectable seeds that grow new structural collagen over 12–24 months."
         },
         {
           title: "2. Polynucleotides (PN)",
-          description: "Creates a stronger, thicker dermal matrix. Improves elasticity and long-term resilience."
+          description: "Heal the cells (fibroblasts) so they can produce better quality collagen."
         },
         {
           title: "3. RF Microneedling",
-          description: "Thermal collagen tightening + deep tissue remodelling."
+          description: "Uses heat to tighten existing collagen and stimulate new production."
         },
         {
-          title: "4. Medical Microneedling",
-          description: "Improves texture, pore size, brightness and superficial collagen."
-        },
-        {
-          title: "5. Collagen-Supporting Skin Boosters",
-          description: "Improves elasticity, hydration and superficial firmness (Hydrobooster, Profhilo, Seventy Hyal, Jalupro)."
-        },
-        {
-          title: "6. PRP (Platelet-Rich Plasma)",
-          description: "Accelerates repair, healing and microcirculation."
-        },
-        {
-          title: "7. PDO / Definisse Threads (optional)",
-          description: "Adds lift + structural reinforcement."
+          title: "4. Tensoring Threads",
+          description: "Instant lift + long-term collagen fibrosis for support."
         }
       ],
-      footer: "Your treatment plan may include 2–5 of these modalities depending on your collagen level, age, menopause stage, skin thickness, and structural support."
+      footer: "We curate the perfect mix for your unique skin density and age."
+    },
+    treatmentAreas: {
+        title: "Treatment Areas",
+        items: [
+            "Full Face: Global structural strengthening.",
+            "Cheeks & Midface: Restoring the 'triangle of youth'.",
+            "Lower Face: Preventing jowls and marionette lines.",
+            "Neck & Décolletage: Thickening crepey skin.",
+            "Hands: Restoring volume and hiding tendons/veins."
+        ]
     },
     idealFor: {
-      title: "Who Collagen Therapy",
-      highlight: "Is For",
+      title: "Who This Is",
+      highlight: "For",
       titleSuffix: "",
       items: [
-        "Early or advanced sagging",
-        "Loss of jawline definition",
-        "Cheek deflation",
-        "Marionette lines",
-        "Thinning, crepey skin",
-        "Menopausal collagen collapse",
-        "Loss of firmness",
-        "Dull, tired appearance",
-        "Deeper facial folds",
-        "Weakened skin structure"
+        "Women 35+ noticing early laxity",
+        "Perimenopausal & Menopausal women (Essential treatment)",
+        "Anyone with 'tired', thin, or crepey skin",
+        "Those wanting natural anti-ageing without looking 'filled'"
+      ]
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Weeks 1–4", description: "initial glow, skin quality repair" },
+        { title: "Month 3", description: "visible firmness, thicker skin, lifting effect" },
+        { title: "Months 6–18", description: "peak structural improvement (results last years)" }
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect ULANDA Pairings",
+      subtitle: "Perfect Combinations",
       sections: [
-        {
-          title: "Biostimulators + Threads",
-          description: "For maximum structural lift.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "PN + Collagen Therapy",
-          description: "Cellular and structural repair combined.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "RF Microneedling + Biostimulators",
-          description: "Strength + tightening.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "PRP + Microneedling",
-          description: "Accelerated healing + glow.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Profhilo + Collagen Therapy",
-          description: "Elasticity + structure.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Biostimulators + RF Microneedling", description: "The ultimate tightening duo." },
+        { title: "PN + Collagen Therapy", description: "Repairing the factory (cells) before asking it to produce." },
+        { title: "Profhilo + Biostimulators", description: "Hydration (surface) + Structure (deep)." },
+        { title: "Maintenance", description: "Once the structure is built, simple maintenance keeps it there." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Excellent Safety Profile",
-          description: "Clinician-led, safe for all skin tones.",
-          icon: "cqc"
-        },
-        {
-          title: "Minimal Downtime",
-          description: "Varies by modality, but generally minimal.",
-          icon: "clinician"
-        },
-        {
-          title: "Natural Results",
-          description: "No risk of ‘filler heaviness’ or artificial volume.",
-          icon: "prescribed"
-        }
+        { title: "Biocompatible", description: "Uses materials that naturally integrate with your tissue.", icon: "check" }, // check icon
+        { title: "Low Downtime", description: "Minimal social downtime compared to surgical options.", icon: "star" },
+        { title: "Long-Lasting", description: "Results come from your own tissue, lasting 2+ years.", icon: "history" } // history icon
       ]
     },
     cta: {
-      title: "Rebuild Your",
-      highlight: "Collagen",
-      description: "Collagen Therapy is the most advanced, natural and regenerative approach to midlife rejuvenation.",
-      buttonText: "Book Restore Consultation"
+      title: "Rebuild.",
+      highlight: "Don't Just Repair.",
+      description: "Invest in the future of your face. Collagen Therapy builds the foundation for graceful, natural ageing.",
+      buttonText: "Book Collagen Consultation"
     }
   },
   {
@@ -5069,20 +6113,25 @@ export const treatments = [
         "Book Anti-Wrinkle Treatments in Ware SG12"
       ]
     },
-    title: 'Anti-Wrinkle',
-    highlight: 'Injections',
+    title: 'Anti-Wrinkle Injections',
+    highlight: 'Smooth, Soft & Natural',
     titleSuffix: '',
-    benefits: ['Soften fine lines & dynamic wrinkles', 'Prevent deeper creasing', 'Smooth expression-heavy zones', 'Refresh the upper face without altering shape'],
+    benefits: ['Soften fine lines', 'Prevent deeper creasing', 'Smooth expression-heavy zones', 'Refresh the upper face'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'Smooth, Soft & Natural • Subtle Expression Refinement',
+    description: 'Subtle Expression Refinement That Supports Your Regeneration Journey',
     introduction: {
-      title: "Subtle Expression Refinement That Supports Your Regeneration Journey",
+      title: "Smooth, Soft & Natural",
       content: [
         "ULANDA anti-wrinkle treatments are designed for harmony — never heaviness.",
-        "At ULANDA, Anti-Wrinkle Injections are used as a precision tool to soften expression lines while maintaining natural movement.",
-        "Neurotoxins are not a replacement for regenerative therapies — instead, they act as a supportive treatment to enhance collagen therapies, biostimulators, PN injectables, skin boosters, regenerative facials, and thread lifts.",
+        "At ULANDA, Anti-Wrinkle Injections are used as a precision tool to soften expression lines while maintaining natural movement. Neurotoxins are not a replacement for regenerative therapies — instead, they act as a supportive treatment to enhance:",
+        "• collagen therapies",
+        "• biostimulators",
+        "• PN injectables",
+        "• skin boosters",
+        "• regenerative facials",
+        "• thread lifts",
         "This ensures smoother skin without freezing, flattening or changing your natural expression.",
         "We use a hormone-aware, age-specific approach ideal for women in their mid-30s, 40s, 50s and beyond, particularly during perimenopause and menopause."
       ],
@@ -5094,156 +6143,133 @@ export const treatments = [
         "Support long-term skin quality"
       ],
       highlightBox: {
-        text1: "Harmony, never heaviness.",
-        text2: "Precision tool to soften expression lines while maintaining natural movement."
+        text1: "Designed for harmony.",
+        text2: "Never heaviness or frozen."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
     idealFor: {
-      title: "Who This Treatment Is",
-      highlight: "For",
+      title: "Who This Treatment",
+      highlight: "Is For",
       titleSuffix: "",
       items: [
-        "Women experiencing forehead lines, frown lines, crow’s feet",
-        "Eyebrow heaviness or tired-looking eyes",
-        "Early upper-face age markers",
-        "Perimenopause clients (35–50)",
-        "Menopause clients (45–70+)",
-        "First-time clients wanting subtle introduction"
+        "Women experiencing: forehead lines, frown (“11s”) lines, crow’s feet, eyebrow heaviness, tired-looking eyes, early upper-face age markers",
+        "Perfect for those who want: soft elegant refinement, movement preserved, refreshed appearance, preventive wrinkle control",
+        "Especially popular for: perimenopause clients (35–50), menopause clients (45–70+), first-time clients, clients reducing filler"
       ]
     },
-    internalSupport: {
-      title: "Treatment",
-      titleSuffix: "Areas",
-      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
-      points: [
+    treatmentAreas: {
+      title: "Treatment Areas",
+      items: [
+          "Upper Face: Forehead lines, Frown lines, Crow’s feet, Eyebrow lift (subtle)",
+          "Mid & Lower Face: Bunny lines, Gummy smile, Lips (lip flip), Chin dimpling, Downturned corners, Neck bands (Nefertiti lift)",
+          "Medical Applications: Bruxism (jaw clenching), Masseter slimming, Migraine support, Excessive sweating (underarms)"
+      ]
+    },
+    ingredients: {
+        title: "Anti-Wrinkle Injections in",
+        highlight: "The Ulanda Philosophy",
+        titleSuffix: "",
+        subtitle: "ULANDA does not believe in over-treating expression. Instead, we use anti-wrinkle injections to support regenerative ageing.",
+        items: [
+            { title: "Anti-Wrinkle Injections Are For", description: "Smoothing dynamic lines, preventing deeper creases, maintaining a bright rested appearance." },
+            { title: "Regenerative Treatments Are For", description: "Rebuilding structure, restoring collagen, improving elasticity, strengthening the dermis, treating menopause-related thinning." }
+        ],
+        footer: "Both combined = natural, long-term, elegant results. This keeps the face soft, lifted, expressive and authentically you."
+    },
+    resultsTimeline: {
+      title: "Results Timeline",
+      items: [
+        { title: "Day 3–5", description: "Initial smoothing" },
+        { title: "Day 10–14", description: "Full results" },
+        { title: "3–4 Months", description: "Duration (varies by dose, muscle strength, lifestyle)" },
+        { title: "Long-term", description: "Prevents deeper wrinkles forming. Consistency leads to more refined, stable results." }
+      ]
+    },
+    faq: {
+      title: "FAQ",
+      items: [
         {
-          title: "Upper Face",
-          description: "Forehead lines, Frown lines, Crow’s feet, Eyebrow lift (subtle)."
+          question: "How Many Units Will I Need?",
+          answer: "Every face is unique, but typical dosing is:\nForehead: 6–12\nFrown (11s): 12–20\nCrow’s Feet: 8–12 each side\nAdvanced areas: tailored individually\nULANDA prioritises subtle, natural movement."
         },
         {
-          title: "Mid & Lower Face",
-          description: "Bunny lines, Gummy smile, Lips (lip flip), Chin dimpling, Downturned corners of mouth, Neck bands."
-        },
-        {
-          title: "Medical Applications",
-          description: "Bruxism (jaw clenching), Masseter slimming, Migraine support, Excessive sweating."
+            question: "Why Women in Midlife Benefit Most",
+            answer: "Perimenopause and menopause increase muscle overactivity, stress-related tension lines, and collagen decline. Anti-wrinkle injections gently counter these changes, restoring a fresher upper face and softer lines."
         }
       ]
     },
     ulandaConnection: {
       subtitle: "Perfect ULANDA Combinations",
       sections: [
-        {
-          title: "Anti-Wrinkle + PN",
-          description: "Smooth + strengthen the delicate eye area.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Anti-Wrinkle + Biostimulators",
-          description: "Enhance facial expressions while restoring deeper support.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Anti-Wrinkle + Skin Boosters",
-          description: "Glow + softness.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Anti-Wrinkle + Threads",
-          description: "Lift + relax. The most advanced midface anti-ageing duo.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Anti-Wrinkle + Regenerative Facials",
-          description: "Long-term skin quality + softness.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Anti-Wrinkle + PN", description: "Smooth + strengthen the delicate eye area." },
+        { title: "Anti-Wrinkle + Biostimulators", description: "Enhance facial expressions while restoring deeper support." },
+        { title: "Anti-Wrinkle + Skin Boosters", description: "Glow + softness." },
+        { title: "Anti-Wrinkle + Threads", description: "Lift + relax. The most advanced midface anti-ageing duo." },
+        { title: "Anti-Wrinkle + Regenerative Facials", description: "Long-term skin quality + softness." }
       ]
     },
     safetyOversight: {
-      title: "Safety & Downtime",
+      title: "Safety",
       items: [
-        {
-          title: "Clinician-Administered",
-          description: "Quick treatment (10–15 minutes), fully customisable dose.",
-          icon: "clinician"
-        },
-        {
-          title: "Minimal Downtime",
-          description: "Safe for all skin tones, no surgical intervention.",
-          icon: "cqc"
-        },
-        {
-          title: "Natural Identity",
-          description: "No effect on natural facial identity.",
-          icon: "prescribed"
-        }
+         { title: "Clinician-Administered", description: "Quick (10–15 mins), minimal downtime.", icon: "clinician" },
+         { title: "Natural Identity", description: "Fully customisable dose, no surgical intervention, no effect on natural facial identity.", icon: "star" },
+         { title: "Safe", description: "Safe for all skin tones.", icon: "cqc" }
       ]
     },
     cta: {
-      title: "Smooth, Soft &",
-      highlight: "Natural",
-      description: "Book your Anti-Wrinkle Consultation at ULANDA.",
-      buttonText: "Book Anti-Wrinkle Consultation"
+        title: "Smooth. Soft. Natural.",
+        highlight: "Never Frozen.",
+        description: "ULANDA Anti-Wrinkle Injections are designed to complement your regenerative journey — enhancing expression while keeping every result refined, subtle and authentically you.",
+        buttonText: "Book Anti-Wrinkle Consultation"
     }
   },
   {
     id: 'dermal-fillers',
-    seo: {
-      title: "Dermal Fillers | Natural & Balanced Volumisation | ULANDA",
-      description: "Restore lost volume & define features with premium Dermal Fillers. ULANDA creates balanced, natural enhancements for lips, cheeks & jawline."
-    },
     seoHeadings: {
-      h1: "Dermal Fillers in Ware SG12 — Soft, Natural Enhancement (Midlife & Postpartum Safe Approach)",
+      h1: "Dermal Fillers in Ware SG12 — Natural, Balanced Enhancement",
       h2: [
-        "What Fillers Treat: Volume Loss, Shadows, Contours",
-        "How Fillers Work",
-        "Fillers vs Biostimulators vs Threads (Regeneration vs Volume)",
-        "Natural Results Protocol at ULANDA",
-        "Best Combined Treatments",
-        "Conditions Fillers Improve",
-        "Book Dermal Fillers in Ware SG12"
+        "Why Fillers Behave Differently in Midlife",
+        "Regeneration-First Philosophy: Structure Before Volume",
+        "Strategic Volume vs Overfilling",
+        "Natural Results Protocol & Safety"
       ]
     },
-    title: 'Dermal',
-    highlight: 'Fillers',
+    seo: {
+      title: "Dermal Fillers | Natural & Balanced Volumisation | ULANDA",
+      description: "Restore lost volume & define features with premium Dermal Fillers. ULANDA uses a regeneration-first approach for natural, balanced results."
+    },
+    title: 'Dermal Fillers',
+    highlight: 'Natural Results Approach',
     titleSuffix: '',
-    benefits: ['Soft, natural lift', 'Restores youthful proportions', 'Enhances facial shape without looking “done”', 'Pairs perfectly with biostimulators or threads'],
+    benefits: ['Restores lost volume', 'Refines facial contours', 'Softens deep shadows', 'Balances asymmetry', 'Hydrates from within'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'Soft, Subtle, Balanced Contouring That Respects Your Natural Anatomy',
+    description: 'Subtle volume • Contour refinement • Balance',
     introduction: {
-      title: "The ULANDA Natural Results Approach",
+      title: "Natural Results Approach",
       content: [
-        "Fillers should enhance your face — not change it.",
-        "At ULANDA, dermal fillers are used differently. We do not chase trends, exaggerated volume, or unnatural shapes.",
-        "We use fillers as precision sculpting tools to restore gentle contours, midface support, youthful light reflection, proportional harmony, and subtle balancing.",
-        "This approach is essential for midlife, perimenopause and menopausal women, whose needs are fundamentally different from younger clients.",
-        "Fillers here are only used where regeneration alone cannot replace structural support — and always in the smallest, safest, most elegant amount."
+        "At ULANDA, we believe dermal fillers should whisper, not shout.",
+        "Many women in midlife fear looking 'done', 'puffy', or 'overfilled' (often called 'pillow face').",
+        "This happens when fillers are used to fix *tightness* instead of *volume*.",
+        "Our philosophy is Regeneration-First:",
+        "1. We rebuild the skin's structure with biostimulators or energy devices.",
+        "2. We use Dermal Fillers only for what they do best: precise contouring, restoring deep volume loss, and refining shadows.",
+        "The result is a face that looks rested, lifted, and fresh — never distorted."
       ],
       goals: [
-        "Restore lost volume",
-        "Smooth deeper lines",
-        "Recreate youthful contouring",
-        "Support facial architecture",
-        "Improve symmetry",
-        "Enhance light reflection"
+        "Restores deep volume support",
+        "Refines facial contours",
+        "Softens deep shadows",
+        "Balances asymmetry",
+        "Hydrates adjacent tissues",
+        "Lifts without puffiness",
+        "Maintains natural expressions"
       ],
       highlightBox: {
-        text1: "Fillers are never the first tool.",
-        text2: "They are the final refinement."
+        text1: "Regeneration-First.",
+        text2: "Fillers whisper, not shout."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -5252,182 +6278,145 @@ export const treatments = [
       titleSuffix: "In Midlife",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
-        {
-          title: "Hormonal Changes",
-          description: "As oestrogen declines, collagen loss, fat pad descent, bone resorption, ligament weakening, and skin thinning accelerate."
-        },
-        {
-          title: "The Risk",
-          description: "Typical filler techniques can look heavy or unnatural on midlife skin."
-        },
-        {
-          title: "The ULANDA Method",
-          description: "We use menopause-specific methods: lower concentrations, micro-cannula approach, shadow correction, and integration with regenerative support."
-        }
+          { title: "Hormonal Changes", description: "Oestrogen decline accelerates bone resorption, fat pad descent, and skin thinning." },
+          { title: "The Risk", description: "Injecting heavy filler into thin, lax midlife skin causes sagging and 'puffiness' rather than lift." },
+          { title: "The ULANDA Solution", description: "We strengthen the 'canvas' (skin) first using collagen banking, then use fillers strategically to replace bone and deep fat loss." }
       ]
     },
     ingredients: {
-      title: "The ULANDA",
-      highlight: "Difference",
+      title: "Strategic Volume",
+      highlight: "vs Overfilling",
       titleSuffix: "",
-      subtitle: "Unlike traditional clinics, ULANDA places fillers after regenerative therapies, not before.",
+      subtitle: "The ULANDA Difference",
       items: [
         {
-          title: "Regeneration Rebuilds",
-          description: "Collagen, Elasticity, Skin thickness, Natural lift, Tissue quality."
+          title: "Traditional Approach (What We Avoid)",
+          description: "Filling every line directly. Using heavy fillers in the lower face. Ignoring bone loss. Result: 'Pillow Face'."
         },
         {
-          title: "Fillers Refine",
-          description: "Replace true lost volume, Recreate natural contours, Enhance bone shadows, Add subtle structure."
+          title: "ULANDA Approach (What We Do)",
+          description: "Restoring deep structure first. Using biostimulators for foundation. Treating the cause of the fold. Micro-droplets for refinement. Result: Natural Lift."
         }
       ],
-      footer: "This ensures you avoid the heavy, puffy, filler-forward look common in midlife."
+      footer: "We use premium, safety-profiled fillers (e.g. MaiLi, Teoxane, Restylane) tailored to your tissue type."
+    },
+    treatmentAreas: {
+        title: "Treatment",
+        titleSuffix: "Areas",
+        image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        points: [
+            { title: "Cheeks (Deep)", description: "Restoring the 'scaffold' of the face for a subtle lift." },
+            { title: "Temples", description: "Softening the hollows that make the face look skeletal." },
+            { title: "Jawline (Posterior)", description: "Restoring the angle of the jaw to support the neck." },
+            { title: "Chin", description: "Balancing the profile and supporting the lower lip." },
+            { title: "Lips (Restoration)", description: "Hydration and shape, correcting peri-oral lines (smokers lines)." },
+            { title: "Marionette Shadows", description: "Softening the shadows from mouth to chin." }
+        ]
     },
     idealFor: {
-      title: "Who This Treatment",
-      highlight: "Is For",
+      title: "Who This Is",
+      highlight: "For",
       titleSuffix: "",
       items: [
-        "Flattening of the midface",
-        "Under-eye hollowness (where safe)",
-        "Marionette softness",
-        "Early jowl formation",
-        "Thinning lips",
-        "Chin or jawline blunting",
-        "Age-related loss of definition",
-        "Women wanting natural, subtle enhancement"
+        "Women noticing: volume loss in cheeks/temples, deep shadows, looking 'tired' despite sleeping, sagging lower face, thinning lips",
+        "Anyone who wants: undetectable enhancement, balanced features, a 'refreshed' look"
+      ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "Immediate", scaling: "visible lift and volume restoration" },
+        { time: "2 Weeks", scaling: "product integrates fully with tissue (result softens)" },
+        { time: "6–12+ Months", scaling: "long-lasting enhancement (depending on product)" }
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Combinations at ULANDA",
+      subtitle: "Perfect Combinations",
       sections: [
-        {
-          title: "PN + Fillers",
-          description: "For under-eye, peri-oral and midface refinement.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Biostimulators + Fillers",
-          description: "Structure first → subtle filler next.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Threads + Fillers",
-          description: "Lift → light contour → natural support.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "RF Microneedling + Fillers",
-          description: "Tighten → define → refine.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Skin Boosters + Fillers",
-          description: "Hydrate → brighten → subtle plump.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Biostimulators + Fillers", description: "Structure first - subtle filler next (The Gold Standard)." },
+        { title: "PN (Polynucleotides) + Fillers", description: "Improves skin quality over the filled area." },
+        { title: "Full Face Rebalancing", description: "Addressing multiple areas for total harmony." },
+        { title: "Lip Restoration", description: "Subtle hydration + shape (never 'duck lips')." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Clinician-Led",
-          description: "Tailored to midlife anatomy, minimal downtime.",
-          icon: "clinician"
-        },
-        {
-          title: "Natural Safety",
-          description: "Hyaluronic acid is reversible if needed. Avoids overfilling and migration.",
-          icon: "cqc"
-        },
-        {
-          title: "Barely-There Results",
-          description: "We specialise in non-obvious results — the kind where people say: “You look refreshed — but I can’t tell what you’ve had done.”",
-          icon: "prescribed"
-        }
+        { title: "Reversible", description: "Hyaluronic Acid fillers are dissolvable for safety.", icon: "check" }, // using check icon for safety
+        { title: "Cannula Technique", description: "We use micro-cannulas to minimise bruising and maximise safety.", icon: "star" },
+        { title: "Barely-There Results", description: "We specialise in non-obvious results. “You look refreshed — but I can’t tell what you’ve had done.”", icon: "smile" } // using smile icon
       ]
     },
     cta: {
-      title: "Softer. Fresher.",
-      highlight: "More You.",
-      description: "Dermal fillers should never overpower your features — they should support natural beauty.",
-      buttonText: "Book Restore Consultation"
+      title: "Refresh.",
+      highlight: "Don't Change.",
+      description: "Restoring volume should look like you, just fresher. Trust ULANDA’s natural approach.",
+      buttonText: "Book Fillers Consultation"
     }
   },
   {
     id: 'jawline-contouring',
-    seo: {
-      title: "Jawline Contouring | Define & Contour | ULANDA",
-      description: "Achieve a sharper, more defined profile with Jawline Sculpting. ULANDA uses fillers & anti-wrinkle treatments to contour the lower face."
-    },
     seoHeadings: {
-      h1: "Jawline Contouring in Ware SG12 — Structural Lift for Softened Menopause & Postpartum Jawlines",
+      h1: "Jawline Shaping in Ware SG12 — Structural Definition",
       h2: [
-        "What Causes Jawline Softening",
-        "Treatment Options (Fillers vs Threads vs Biostimulators)",
-        "ULANDA’s Regenerative Jawline Method",
-        "Conditions Treated",
-        "Book Jawline Sculpting in Ware SG12"
+        "Why the Jawline Softens in Midlife",
+        "Regenerative Contouring vs Traditional Filler",
+        "The ULANDA Jawline Method: Lift, Structure, Refine",
+        "Natural Results: Avoiding the 'Overfilled' Look"
       ]
     },
-    title: 'Jawline',
-    highlight: 'Shaping',
-    titleSuffix: '(Natural Contouring)',
-    benefits: ['Clean, defined jawline', 'Lifted appearance', 'Feminine shape', 'No heaviness or distortion'],
+    seo: {
+      title: "Jawline Shaping | Natural Definition | ULANDA",
+      description: "Restore jawline definition without heaviness. ULANDA uses regenerative techniques and precision sculpting to lift and refine the lower face."
+    },
+    title: 'Jawline Shaping',
+    highlight: 'Natural Contouring',
+    titleSuffix: '',
+    benefits: ['sharpens jawline definition', 'reduces jowls', 'lifts lower face', 'balances profile', 'restores structure'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'A Clean, Defined, Feminine Jawline Designed for Midlife Harmony',
+    description: 'Structure • Definition • Lift',
     introduction: {
-      title: "Restored with Regeneration",
+      title: "Natural Contouring",
       content: [
-        "A defined jawline is not created with filler — it is restored with regeneration.",
-        "ULANDA’s Jawline Shaping focuses on rebuilding the structural support that weakens with age, hormones, stress, and collagen decline.",
-        "Our approach is not about “adding” jawline — it’s about re-establishing the natural contours you once had.",
-        "We use a blend of collagen biostimulators, threads, chin support, lower-face PN, micro-filler contouring, RF tightening, and marionette / jowl correction to create a jawline that looks lifted, clean, elegant, feminine, and natural.",
-        "Without heaviness. Without squareness. Without distortion."
+        "A defined jawline is the key to a youthful, balanced lower face.",
+        "However, midlife changes — bone resorption, fat pad loss, and skin laxity — often lead to softening, jowling, and a loss of definition.",
+        "Traditional fillers often make this worse by 'over-filling' the jaw, creating a heavy, masculine or square look.",
+        "At ULANDA, we use a structural, regenerative approach.",
+        "We don't just add volume. We restore the deep support structures first, then refine the contours.",
+        "This creates a sharp, elegant, lifted jawline that looks entirely natural.",
+        "Corrects:",
+        "• Jowls",
+        "• Softened jawline",
+        "• 'Heavy' lower face",
+        "• Weak chin profile",
+        "• Loss of angle definition"
       ],
       goals: [
-        "Lifted jawline",
-        "Clean contour",
-        "Elegant profile",
-        "Feminine shape",
-        "Natural definition"
+        "Sharpens jawline definition",
+        "Reduces appearance of jowls",
+        "Lifts lower face visually",
+        "Balances profile and chin",
+        "Restores structural support",
+        "Improves neck/jaw transition",
+        "Prevents 'heavy' lower face"
       ],
       highlightBox: {
-        text1: "Not about adding jawline.",
-        text2: "Re-establishing natural contours."
+        text1: "Structural regeneration.",
+        text2: "Elegant definition."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
     internalSupport: {
       title: "Why The Jawline Changes",
-      titleSuffix: "In Midlife",
+      titleSuffix: "(In Midlife)",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
-        {
-          title: "Accelerated Ageing",
-          description: "Perimenopause and menopause accelerate bone resorption, ligament weakening, fat pad descent, skin laxity, and collagen depletion."
-        },
-        {
-          title: "Visible Signs",
-          description: "This leads to jowls becoming visible, jawline softening, chin becoming shorter or rounder, face appearing heavier, and neck-to-jaw angle blurring."
-        },
-        {
-          title: "The Solution",
-          description: "Filler alone cannot fix these changes — and often makes them worse. ULANDA restores structure through regeneration first, contouring second."
-        }
+          { title: "Accelerated Ageing", description: "Perimenopause and menopause accelerate bone resorption, ligament weakening, fat pad descent, skin laxity, and collagen depletion." },
+          { title: "Visible Signs", description: "This leads to jowls becoming visible, jawline softening, chin becoming shorter or rounder, face appearing heavier, and neck-to-jaw angle blurring." },
+          { title: "The Solution", description: "Filler alone cannot fix these changes — and often makes them worse. ULANDA restores structure through regeneration first, contouring second." }
       ]
     },
     ingredients: {
@@ -5455,78 +6444,53 @@ export const treatments = [
       ],
       footer: "This gives the jawline a cleaner, more defined shape without bulk."
     },
+    treatmentAreas: {
+        title: "Treatment",
+        titleSuffix: "Areas",
+        image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        points: [
+            { title: "Jowls", description: "Masking and lifting early jowl formation." },
+            { title: "Posterior Jawline", description: "Creating a sharp angle near the ear." },
+            { title: "Pre-jowl sulcus", description: "Blending the dip in front of the jowl." },
+            { title: "Chin balance", description: "Restoring projection if receded." },
+            { title: "Neck border", description: "Improving the transition from face to neck." }
+        ]
+    },
     idealFor: {
-      title: "Who This Treatment",
-      highlight: "Is Perfect For",
+      title: "Who This Is",
+      highlight: "For",
       titleSuffix: "",
       items: [
-        "Jowls",
-        "Jawline blurring",
-        "Sagging lower face",
-        "Rounder or shortened chin",
-        "Early heaviness during perimenopause",
-        "Menopausal collagen collapse",
-        "Weak jawline definition"
+        "Women noticing: early jowls, softening jawline, weak chin, loss of face shape, heavy lower face",
+        "Note: We do NOT perform aggressive 'Texas Jawline' or masculine square jawlines. Our aesthetic is soft, lifted and feminine."
+      ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "Immediate", scaling: "visible definition (if filler used)" },
+        { time: "2–4 Weeks", scaling: "settling of filler, initial biostimulation" },
+        { time: "3 Months", scaling: "peak collagen production, tighter skin" },
+        { time: "12–18 Months", scaling: "long-lasting structure (maintenance required)" }
       ]
     },
     ulandaConnection: {
       subtitle: "Perfect ULANDA Combinations",
       sections: [
-        {
-          title: "Biostimulator Jawline Lift",
-          description: "Long-term structural tightening.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Threads for Jowls",
-          description: "Immediate lift + collagen stimulation.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "PN + RF for Skin Strength",
-          description: "Improves elasticity and snap-back.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Chin + Prejowl Sculpting",
-          description: "Balances proportions without heaviness.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Lower Face BioRePeel",
-          description: "Refines crepey skin and texture.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Biostimulator Jawline Lift", description: "Long-term structural tightening." },
+        { title: "Threads for Jowls", description: "Immediate lift + collagen stimulation." },
+        { title: "PN + RF for Skin Strength", description: "Improves elasticity and snap-back." },
+        { title: "Chin + Prejowl Sculpting", description: "Balances proportions without heaviness." },
+        { title: "Lower Face BioRePeel", description: "Refines crepey skin and texture." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Minimal Downtime",
-          description: "Most women return to normal activities same day.",
-          icon: "cqc"
-        },
-        {
-          title: "Hormone-Aware",
-          description: "Hormone-aware dosing for midlife women. No distortion of natural facial shape.",
-          icon: "clinician"
-        },
-        {
-          title: "Elegant Results",
-          description: "We prioritise soft contouring, gentle angles, and femininity preservation. No wide, square jawlines.",
-          icon: "prescribed"
-        }
+        { title: "Minimal Downtime", description: "Most women return to normal activities same day.", icon: "star" },
+        { title: "Hormone-Aware", description: "Hormone-aware dosing for midlife women.", icon: "history" }, // using history icon for hormone
+        { title: "Elegant Results", description: "We prioritise soft contouring. No wide, square jawlines.", icon: "check" }
       ]
     },
     cta: {
@@ -5552,30 +6516,38 @@ export const treatments = [
         "Book Body Tightening in Ware SG12"
       ]
     },
-    title: 'Body',
-    highlight: 'Tightening',
+    title: 'Body Tightening',
+    highlight: 'Regenerative Firming for Midlife Skin',
     titleSuffix: '',
-    benefits: ['Strengthens collagen + elastin', 'Tightens loose, sagging body skin', 'Smooths crepiness + textural laxity', 'Firms abdomen, arms, thighs, buttocks, knees'],
+    benefits: ['Strengthens collagen + elastin', 'Tightens loose, sagging body skin', 'Smooths crepiness', 'Firms abdomen, arms, thighs'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'Regenerative Firming for Midlife Skin — Lift, Strengthen & Smooth Your Body',
+    description: 'Lift, Strengthen & Smooth Your Body',
     introduction: {
-      title: "Tightening the body in midlife requires more than “fat reduction.” It requires regeneration.",
+      title: "Regenerative Firming for Midlife Skin",
       content: [
-        "ULANDA Body Tightening is designed for women whose bodies are changing through perimenopause, menopause, weight fluctuation, postpartum changes, and natural collagen decline.",
-        "This treatment pathway focuses on lifting, firming, smoothing and strengthening the skin using regenerative science — not invasive surgery or aggressive filler techniques."
+        "Tightening the body in midlife requires more than “fat reduction.” It requires regeneration.",
+        "ULANDA Body Tightening is designed for women whose bodies are changing through:",
+        "• perimenopause",
+        "• menopause",
+        "• weight fluctuation",
+        "• postpartum changes",
+        "• natural collagen decline",
+        "This treatment pathway focuses on lifting, firming, smoothing and strengthening the skin using regenerative science — not invasive surgery or aggressive filler techniques.",
+        "Our approach restores body confidence through collagen rebuilding, skin thickening, elasticity improvement, contour refinement, and structural tightening, while respecting natural curves and hormonal changes."
       ],
       goals: [
-        "Collagen rebuilding",
-        "Skin thickening",
-        "Elasticity improvement",
-        "Contour refinement",
-        "Structural tightening"
+        "Strengthens collagen + elastin",
+        "Tightens loose, sagging body skin",
+        "Smooths crepiness + textural laxity",
+        "Firms abdomen, arms, thighs, buttocks, knees",
+        "Enhances contour without adding volume",
+        "Supports weight-loss or muscle-toning programmes"
       ],
       highlightBox: {
-        text1: "True regeneration, not camouflage.",
-        text2: "Strengthens collagen + elastin."
+        text1: "True regeneration.",
+        text2: "Not camouflage."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -5585,16 +6557,16 @@ export const treatments = [
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
         {
-          title: "Collagen Loss",
-          description: "Rapid collagen loss (up to 30% in first 5 years of menopause), reduced elastin, and skin thinning."
+          title: "Collagen & Elastin",
+          description: "From 35+, rapid collagen loss (up to 30% in menopause), reduced elastin, skin thinning."
         },
         {
           title: "Physical Changes",
-          description: "Decreased circulation, muscle + ligament laxity leading to crepey skin and sagging."
+          description: "Decreased circulation, muscle + ligament laxity leading to crepey skin, sagging thighs, soft knees."
         },
         {
           title: "Root Cause",
-          description: "Most women try fat-loss treatments when the real issue is skin quality + collagen collapse."
+          description: "Most women try fat-loss treatments when the real issue is skin quality + collagen collapse. ULANDA addresses the root cause."
         }
       ]
     },
@@ -5602,74 +6574,62 @@ export const treatments = [
       title: "The ULANDA",
       highlight: "Body Regeneration",
       titleSuffix: "Method™",
-      subtitle: "A multi-layer, structural approach designed for midlife bodies.",
+      subtitle: "A multi-layer, structural approach designed for midlife bodies. ULANDA doesn’t use a single treatment. We rebuild your skin using three tightening pillars:",
       items: [
         {
-          title: "1. Collagen Biostimulators",
-          description: "Deep Structural Tightening. Rebuilds collagen from the inside out — delivering 12–36 months of tightening."
+          title: "1. Collagen Biostimulators (PLLA, CaHA)",
+          description: "Deep Structural Tightening. Ideal for crepey arms, abdomen laxity, thigh/buttock softness. Rebuilds collagen from inside out (12–36 months)."
         },
         {
           title: "2. RF & Regenerative Microneedling",
-          description: "Surface Firming + Elasticity. Stimulates thermal collagen remodelling for a smoother, firmer, stronger appearance."
+          description: "Surface Firming + Elasticity. Tightens wrinkled abdomen, loose arms, knees, chest. Stimulates thermal collagen remodelling."
         },
         {
           title: "3. PN + PRP Body Regeneration",
-          description: "Strengthens Skin Quality. Thickens body skin, improves texture, increases elasticity, and accelerates repair."
+          description: "Strengthens Skin Quality. Thickens body skin, improves texture, increases elasticity, accelerates repair. Perfect for delicate areas."
         }
       ],
       footer: "This is true regeneration, not camouflage."
     },
     idealFor: {
-      title: "Who This Treatment Is",
-      highlight: "For",
+      title: "Who This Treatment",
+      highlight: "Is For",
       titleSuffix: "",
       items: [
-        "Loose or crepey arms",
-        "Abdominal laxity",
-        "Thigh softness or rippling",
-        "Postpartum skin laxity",
-        "Knee wrinkles",
-        "Menopause-related collagen loss"
+        "Women experiencing: loose or crepey arms, abdominal laxity, thigh softness or rippling, postpartum skin laxity, knee wrinkles, menopause-related collagen loss",
+        "Perfect for women who want: natural firmness, smoother lifted skin, no surgery/volume, regenerative long-term results, body confidence"
+      ]
+    },
+    treatmentAreas: {
+      title: "Treatment",
+      titleSuffix: "Areas",
+      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+      points: [
+          { title: "Upper Body", description: "upper arms, triceps, chest, décolletage, bra-line area" },
+          { title: "Midsection", description: "abdomen, waistline, flanks" },
+          { title: "Lower Body", description: "inner thighs, outer thighs, buttocks, back of thighs, knees, calves" },
+          { title: "Postpartum / Post-weight loss", description: "stomach laxity, loose skin after body recomposition" }
+      ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "Immediately", scaling: "subtle firmness, improved texture" },
+        { time: "6–8 Weeks", scaling: "tightening begins, elasticity improves" },
+        { time: "12–16 Weeks", scaling: "visible smoothing, firmer tighter skin, reduced crepiness" },
+        { time: "3–6 Months", scaling: "full collagen activation" },
+        { time: "12–36 Months", scaling: "long-term regeneration (biostimulators)" }
       ]
     },
     ulandaConnection: {
       subtitle: "Perfect Programme Pairings",
       sections: [
-        {
-          title: "Body Tightening + Weight Management",
-          description: "Shape + shrink + firm simultaneously.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Biostimulators + RF Microneedling",
-          description: "Deep tightening + surface refinement.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "PN Body + RF Microneedling",
-          description: "Elasticity + regeneration + smoothing.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "PRP + Microneedling",
-          description: "Regenerative textural transformation for stretch marks.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Body Peels + Tightening",
-          description: "Improves skin tone, brightness, texture.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Body Tightening + Weight Management", description: "Shape + shrink + firm simultaneously." },
+        { title: "Biostimulators + RF Microneedling", description: "Deep tightening + surface refinement." },
+        { title: "PN Body + RF Microneedling", description: "Elasticity + regeneration + smoothing." },
+        { title: "PRP + Microneedling for Stretch Marks", description: "Regenerative textural transformation." },
+        { title: "Body Peels + Tightening", description: "Improves skin tone, brightness, texture." }
       ]
     },
     safetyOversight: {
@@ -5687,14 +6647,24 @@ export const treatments = [
         },
         {
           title: "Natural Results",
-          description: "Gradual, natural tightening.",
+          description: "Gradual, natural tightening. Improves long-term skin health.",
           icon: "clinician"
         }
       ]
     },
     cta: {
       title: "Tighter. Stronger.",
-      highlight: "Smoother.",
+      highlight: "Smoother. Confident.",
+      description: "ULANDA Body Tightening restores firmness and elasticity naturally — using regenerative science to support your midlife body, not fight it.",
+      buttonText: "Book Body Consultation"
+    }
+  },
+  {
+    id: 'body-contouring',
+    seo: {
+      title: "Body Contouring | Sculpt & Define | ULANDA",
+      description: "Refine your shape with non-invasive Body Contouring. ULANDA targets stubborn areas to sculpt, define & enhance your natural silhouette."
+    },
     seoHeadings: {
       h1: "Body Contouring in Ware SG12 — Sculpt, Smooth & Re-Define Postpartum & Midlife Bodies",
       h2: [
@@ -5705,27 +6675,18 @@ export const treatments = [
         "Book Body Contouring in Ware SG12"
       ]
     },
-      description: "ULANDA Body Tightening restores firmness and elasticity naturally.",
-      buttonText: "Book Body Consultation"
-    }
-  },
-  {
-    id: 'body-contouring',
-    seo: {
-      title: "Body Contouring | Sculpt & Define | ULANDA",
-      description: "Refine your shape with non-invasive Body Contouring. ULANDA targets stubborn areas to sculpt, define & enhance your natural silhouette."
-    },
-    title: 'Body',
-    highlight: 'Contouring',
+    title: 'Body Contouring',
+    highlight: '(Fat Reduction & Shaping)',
     titleSuffix: '',
-    benefits: ['Reduce stubborn fat', 'Sculpt curves naturally', 'Enhance body proportions', 'Support weight-loss or recomposition plans'],
+    benefits: ['Reduce stubborn fat', 'Sculpt curves naturally', 'Enhance body proportions', 'Support weight-loss'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
     description: 'Sculpt, Refine & Shape Your Body Using Regenerative Aesthetic Science',
     introduction: {
-      title: "Contouring at ULANDA is not about shrinking you — it’s about sculpting you.",
+      title: "Sculpt, Refine & Shape",
       content: [
+        "Contouring at ULANDA is not about shrinking you — it’s about sculpting you.",
         "At ULANDA, Body Contouring focuses on reshaping areas where fat persists despite exercise, nutrition and lifestyle changes.",
         "Unlike fad treatments that promise dramatic change without substance, our approach is grounded in fat reduction science, hormone-aware weight distribution, body architecture mapping, regenerative skin tightening, and personalised metabolic balance.",
         "This ensures natural, smooth, elegant shaping without harsh angles or overdone “fitness model” aesthetics.",
@@ -5740,8 +6701,8 @@ export const treatments = [
         "Improve confidence during hormonal transitions"
       ],
       highlightBox: {
-        text1: "Subtle — but transformative.",
-        text2: "Body-positive, feminine, subtle, and regenerative."
+        text1: "Grounded in fat reduction science.",
+        text2: "Hormone-aware weight distribution."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -5750,18 +6711,9 @@ export const treatments = [
       titleSuffix: "In Midlife",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
-        {
-          title: "Hormonal Shifts",
-          description: "Perimenopause and menopause cause shifts in Estrogen, Cortisol, Insulin, and Thyroid balance."
-        },
-        {
-          title: "Redistribution",
-          description: "Leads to stubborn abdomen fat, thickening around the waist, back/bra-line fat, hip + thigh redistribution, and loss of definition in arms."
-        },
-        {
-          title: "Resistance",
-          description: "Fat becomes hormonally resistant, meaning diet and exercise alone may no longer work effectively."
-        }
+          { title: "Hormonal Shifts", description: "Perimenopause and menopause cause shifts in Estrogen, Cortisol, Insulin, and Thyroid balance." },
+          { title: "Redistribution", description: "This leads to stubborn abdomen fat, thickening around the waist, back/bra-line fat, hip + thigh redistribution, loss of definition in arms, and reduced metabolic flexibility." },
+          { title: "Resistance", description: "Fat becomes hormonally resistant, meaning diet and exercise alone may no longer work effectively." }
       ]
     },
     ingredients: {
@@ -5772,162 +6724,138 @@ export const treatments = [
       items: [
         {
           title: "1. Non-Surgical Fat Reduction",
-          description: "Targeted fat softening and reduction using approved, safe, body-contouring modalities. Targets abdomen, waist, bra-line, back rolls, thighs, buttocks, and arms."
+          description: "Targeted fat softening and reduction using approved, safe, body-contouring modalities. Common target areas: abdomen, waist, bra-line, back rolls, thighs, buttocks, upper arms."
         },
         {
-          title: "2. Regenerative Tightening",
-          description: "Pairs contouring with RF microneedling, body skin boosters, biostimulators, and PN body regeneration to prevent post-fat-loss laxity."
+          title: "2. Regenerative Tightening for Smooth Contour",
+          description: "Because fat reduction alone can worsen loose skin, ULANDA pairs contouring with RF microneedling, body skin boosters, biostimulators, and PN body regeneration."
         },
         {
           title: "3. Hormone-Smart Sculpting",
-          description: "We map how your body stores fat based on perimenopause stage, menopause status, metabolic markers, and stress patterns to preserve natural feminine shape."
+          description: "We map how your body stores fat based on perimenopause stage, menopause status, metabolic markers, stress patterns, weight history and postpartum changes."
         }
       ],
-      footer: "This is body contouring designed for real women."
+      footer: "This avoids over-reducing areas and preserves natural feminine shape."
     },
     idealFor: {
-      title: "Who This Treatment Is",
-      highlight: "For",
+      title: "Who This Treatment",
+      highlight: "Is For",
       titleSuffix: "",
       items: [
-        "Stubborn midsection fat",
-        "Perimenopause belly changes",
-        "Thigh or hip redistribution",
-        "Back/bra-line fat",
-        "Fat pockets that resist exercise",
-        "Postpartum stubborn fat",
-        "Age-related metabolic slowing"
+        "Women experiencing: stubborn midsection fat, perimenopause belly changes, thigh or hip redistribution, back/bra-line fat, fat pockets that resist exercise, postpartum stubborn fat",
+        "Perfect for women who want: gentle reshaping, subtle contour refinement, improved silhouette, hormone-aware sculpting, no surgery, natural curves"
+      ]
+    },
+    treatmentAreas: {
+        title: "Treatment",
+        titleSuffix: "Areas",
+        image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        points: [
+            { title: "Midsection", description: "abdomen, waistline, lower belly, hips, flanks/love handles" },
+            { title: "Upper Body", description: "upper arms, bra-line, back rolls" },
+            { title: "Lower Body", description: "inner thighs, outer thighs, buttock under-crease (banana roll), knees" },
+            { title: "Postpartum / Weight Change", description: "abdominal pouch, waist thickening" }
+        ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "Week 1", scaling: "early smoothing, reduced bloating appearance" },
+        { time: "Week 4–6", scaling: "visible fat softening, tighter contours" },
+        { time: "Week 8–12", scaling: "major transformation phase, shaping + definition appear" },
+        { time: "3–6 Months", scaling: "peak fat reduction, long-term body reshaping" },
+        { time: "Maintenance", scaling: "every 3–6 months depending on goals" }
       ]
     },
     ulandaConnection: {
       subtitle: "Perfect Combination Treatments",
       sections: [
-        {
-          title: "Body Contouring + Tightening",
-          description: "Fat reduction + skin strengthening = best results.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Contouring + Hormone-Smart Weight Management",
-          description: "Targets the metabolic cause of stubborn fat.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "PN Body + Contouring",
-          description: "Smooths, regenerates and prevents laxity.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Contouring + Regenerative Facials",
-          description: "Integrated beauty + body confidence approach.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Contouring + Wellness IV / IM",
-          description: "Energy, metabolic support, stress regulation.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Body Contouring + Tightening", description: "Fat reduction + skin strengthening = best results." },
+        { title: "Contouring + Hormone-Smart Weight Management", description: "Targets the metabolic cause of stubborn fat." },
+        { title: "PN Body + Contouring", description: "Smooths, regenerates and prevents laxity." },
+        { title: "Contouring + Regenerative Facials", description: "Integrated beauty + body confidence approach." },
+        { title: "Contouring + Wellness IV / IM", description: "Energy, metabolic support, stress regulation." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Non-Surgical",
-          description: "No surgery, no incisions, minimal downtime.",
-          icon: "clinician"
-        },
-        {
-          title: "Safe",
-          description: "Safe for all skin tones. Respectful of natural feminine curves.",
-          icon: "cqc"
-        },
-        {
-          title: "Holistic",
-          description: "Effective for menopausal fat redistribution. Supports medical weight-loss efforts.",
-          icon: "prescribed"
-        }
+          { title: "Non-Surgical", description: "No surgery, no incisions, minimal downtime.", icon: "clinician" },
+          { title: "Curved", description: "Respectful of natural feminine curves. Not harsh or extreme.", icon: "star" },
+          { title: "Medical Support", description: "Effective for menopausal fat redistribution. Supports medical weight-loss efforts.", icon: "prescribed" }
       ]
     },
     cta: {
-      title: "Sculpt Your",
-      highlight: "Shape",
-      description: "ULANDA Body Contouring offers subtle reshaping and fat reduction designed for women who want elegance, not exaggeration.",
-      buttonText: "Book Body Contouring Consultation"
+        title: "Sculpt Your Shape —",
+        highlight: "Naturally, Safely, Beautifully",
+        description: "ULANDA Body Contouring offers subtle reshaping and fat reduction designed for women who want elegance, not exaggeration — and regenerative support, not quick fixes.",
+        buttonText: "Book Body Contouring Consultation"
     }
   },
   {
     id: 'threads-biostimulators',
     seoHeadings: {
-      h1: "Threads + Biostimulators",
+      h1: "Threads + Biostimulators in Ware SG12 — The Ultimate Non-Surgical Lift",
       h2: [
-        "Synergistic Lift: Why Combine Threads & Biostimulators?",
-        "Immediate Structural Support Meets Long-Term Collagen Growth.",
-        "Ideal for: Total Midface & Jawline Rejuvenation.",
-        "The ‘Non-Surgical Facelift’ Effect Explained."
+        "Why Combine Threads & Biostimulators?",
+        "Lift & Structure: A Dual-Action Approach",
+        "The ULANDA Method: Support, Lift, Regenerate",
+        "Who Benefits Most from This Protocol?"
       ]
     },
     seo: {
-      title: "Threads & Biostimulators Combo | Structural Lift | ULANDA",
-      description: "Combine the lifting power of Threads with the collagen-boosting effects of Biostimulators. A dual-action treatment for structural rejuvenation."
+      title: "Threads + Biostimulators | Non-Surgical Facelift | ULANDA",
+      description: "Combine PDO threads with biostimulators for the ultimate non-surgical lift. Restore volume, tighten skin & define contours at ULANDA Ware."
     },
     title: 'Threads + Biostimulators',
-    highlight: '(Combination)',
-    titleSuffix: '',
-    benefits: ['Lifts sagging tissues', 'Rebuilds collagen from within', 'Sharpens jawline contours', 'Softens jowls naturally'],
+    highlight: 'Structure & Lift',
+    titleSuffix: 'Protocol',
+    benefits: ['Immediate mechanical lift (Threads)', 'Long-term structural rebuilding (Biostimulators)', 'Reduces jowls & sagging', 'Thickens & tightens skin', 'Results last 12–18+ months'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'The Ultimate Lift & Regenerate Combo for Midlife Faces',
+    description: 'Structure • Lift • Firmness',
     introduction: {
-      title: "Lift Today. Rebuild Tomorrow.",
+      title: "Structure & Lift",
       content: [
-        "If you want a lifted, tighter, firmer, more sculpted face without looking overfilled or unnatural — the most advanced regenerative combination is Threads + Biostimulators.",
-        "Threads reposition sagging tissues immediately, while biostimulators rebuild deep collagen over months, creating the strongest and most natural structural transformation available in non-surgical aesthetics.",
-        "This combination is especially effective for women in their late 30s–40s (early perimenopause support), 50s+ (menopause collagen collapse), and post-weight-loss or postpartum clients.",
-        "ULANDA specialises in natural, elegant, regenerative lifting — never tight, pulled, or overdone."
+        "The ‘Holy Grail’ of non-surgical lifting.",
+        "Threads lift the tissue physically. Biostimulators rebuild the collagen mesh to hold it there.",
+        "Used alone, threads are effective but can struggle if the skin is too thin.",
+        "Used alone, biostimulators thicken skin but don’t provide an immediate vertical lift.",
+        "Together, they offer the most powerful synergy available today: changing the structural shape of the face immediately while thickening the skin over 3–6 months."
       ],
       goals: [
-        "Lifts sagging tissues (threads)",
-        "Rebuilds collagen from within (biostimulators)",
-        "Sharpens jawline contours",
-        "Softens jowls naturally",
-        "Restores midface support",
-        "Improves elasticity",
-        "Adds structural firmness"
+        "Lifts sagging tissue immediately",
+        "Thickens thin, crepey skin",
+        "Sharpens jawline definition",
+        "Smooths nasolabial folds",
+        "Restores youthful 'V-shape'",
+        "Provides long-lasting structural support",
+        "Prevents future sagging"
       ],
       highlightBox: {
-        text1: "Strongest natural structural transformation.",
-        text2: "Regenerative ageing — not cosmetic alteration."
+        text1: "Immediate lift.",
+        text2: "Long-term strength."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
     internalSupport: {
-      title: "Why Midlife Faces",
-      titleSuffix: "Need Both",
+      title: "Why The Combination",
+      titleSuffix: "Works",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
         {
-          title: "Accelerated Ageing",
-          description: "Perimenopause and menopause accelerate collagen decline (up to 30% in 5 years), ligament weakening, jawline descent, and jowl formation."
+          title: "The Lift (Threads)",
+          description: "Think of threads as the tent poles. They physically pick up sagging tissue (jowls, cheeks) and anchor it in a higher position."
         },
         {
-          title: "The Limitation",
-          description: "Threads alone lift, but don’t restore structure. Biostimulators alone rebuild, but don’t reposition tissue."
+          title: "The Canvas (Biostimulators)",
+          description: "Think of biostimulators (PLLA/CaHA) as strengthening the fabric of the tent. They thicken the dermis so the threads have something solid to hold onto."
         },
         {
-          title: "The Solution",
-          description: "Together, they create a complete structural fix."
+          title: "The Synergy",
+          description: "By doing both, you get an immediate visual result (from the threads) and a lasting structural improvement (from the biostimulators) that extends the longevity of the lift."
         }
       ]
     },
@@ -5935,167 +6863,144 @@ export const treatments = [
       title: "The ULANDA",
       highlight: "Threads + Biostimulators",
       titleSuffix: "Method™",
-      subtitle: "A three-phase regenerative protocol:",
+      subtitle: "Our signature layering technique:",
       items: [
         {
-          title: "PHASE 1: Structural Lift (Threads)",
-          description: "PDO / Definisse threads lift fallen tissue, reposition jowls, support midface, and refine jawline. Immediate lift."
+          title: "Step 1 — Structural Foundation (Biostimulation)",
+          description: "We inject PLLA (Sculptra/Lanluma) or CaHA (Radiesse/HArmonyCa) into the lateral face and jawline to rebuild the 'scaffold'."
         },
         {
-          title: "PHASE 2: Collagen Rebuild (Biostimulators)",
-          description: "PLLA, PDLLA or CaHA thicken skin, improve elasticity, and rebuild collagen foundations. Peak structural regeneration at 3–6 months."
+          title: "Step 2 — Vector Lifting (Threads)",
+          description: "We insert engaging threads (PDO/Definisse) to physically lift the jowls, nasolabial folds, and lower face."
         },
         {
-          title: "PHASE 3: Sculpt & Refine (Optional Add-Ons)",
-          description: "PN for elasticity, RF microneedling for tightening, micro-cannula filler, skin boosters, BioRePeel."
+          title: "Step 3 — Skin Strengthening (Optional PN)",
+          description: "For patients with very thin skin, we may prime the area with Polynucleotides to ensure the best hold."
         }
       ],
-      footer: "This ensures a lifted, smooth, firm and radiant outcome."
+      footer: "This creates a lifted look that looks natural, not ‘pulled’."
+    },
+    treatmentAreas: {
+        title: "Treatment",
+        titleSuffix: "Areas",
+        image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        points: [
+            { title: "Jawline", description: "Sharpening and lifting jowls." },
+            { title: "Mid-Face", description: "Restoring cheek height." },
+            { title: "Nasolabial Folds", description: "Reducing shadows." },
+            { title: "Lower Face", description: "Tightening loose skin." },
+            { title: "Neck", description: "Optional add-on for neck smoothing." }
+        ]
     },
     idealFor: {
-      title: "Who This Combination",
-      highlight: "Is Perfect For",
+      title: "Who This Is",
+      highlight: "Perfect For",
       titleSuffix: "",
       items: [
-        "Jowls",
-        "Lower-face heaviness",
-        "Early or advanced sagging",
-        "Midface deflation",
-        "Weak jawline definition",
-        "Collagen loss from menopause",
-        "Women wanting natural results without surgical look"
+        "Moderate sagging & jowls",
+        "Loss of facial volume",
+        "Thinning 'crepey' skin",
+        "Desire for immediate AND long-term results",
+        "Women aged 40–60+",
+        "Those not ready for surgery"
+      ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "Immediate", scaling: "visible mechanical lift from threads" },
+        { time: "4–8 Weeks", scaling: "integration, softening of threads, early collagen start" },
+        { time: "3 Months", scaling: "biostimulator peak activation, skin thickening, stronger lift" },
+        { time: "12–18 Months", scaling: "long-lasting maintenance of structure" }
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect ULANDA Synergies",
+      subtitle: "Perfect Combinations",
       sections: [
-        {
-          title: "PN + Threads + Biostimulators",
-          description: "Ultimate collagen + elasticity + lift.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Threads + RF Microneedling",
-          description: "Lift + tightening.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Threads + Jawline Sculpting",
-          description: "Lift + streamline.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Biostimulators + PN",
-          description: "Deep + surface collagen rebuilding.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "BioRePeel + Biostimulators",
-          description: "Texture + firmness.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Neck Lift", description: "Extend the tightening to the neck." },
+        { title: "Brightening Peel", description: "For surface glow." },
+        { title: "Lip Refresh", description: "Balance the lower face." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Minimal Downtime",
-          description: "Most clients return to normal routines the next day.",
-          icon: "cqc"
-        },
-        {
-          title: "Natural Lift",
-          description: "No over-puffing or distortion. Ideal alternative to early facelift.",
-          icon: "clinician"
-        },
-        {
-          title: "Hormone-Aware",
-          description: "Hormone-aware placement & dosing. Safe for all skin tones.",
-          icon: "prescribed"
-        }
+        { title: "Moderate Downtime", description: "Swelling/bruising for 3-7 days is possible.", icon: "check" },
+        { title: "Expert Application", description: "Performed by senior clinicians only.", icon: "star" },
+        { title: "Natural Evolution", description: "Results improve over time as collagen builds.", icon: "prescribed" }
       ]
     },
     cta: {
-      title: "The Most Powerful",
-      highlight: "Non-Surgical Lift",
-      description: "Threads + Biostimulators delivers immediate lift, long-term collagen rebuilding, and naturally sculpted definition.",
-      buttonText: "Book Restore Consultation"
+      title: "Lift.",
+      highlight: "Strengthen.",
+      description: "Define. The ULANDA Threads + Biostimulator protocol is the gold standard for non-surgical facial lifting.",
+      buttonText: "Book Consultation"
     }
   },
   {
     id: 'full-face-lift',
     seoHeadings: {
-      h1: "Full-Face Structural Lift",
+      h1: "Full-Face Structural Lift in Ware SG12 — The Ultimate Non-Surgical Reset",
       h2: [
-        "Beyond Fillers: A Holistic Approach to Facial Structure.",
-        "Restoring Volume, contour, and Definition Simultaneously.",
-        "Why a Structural Lift Lasts Longer Than Standard Fillers.",
-        "Customizing Your Lift for Unique Facial Anatomy."
+        "Why the Full Face Matters: Harmony & Balance",
+        "Regenerative Lift vs Traditional Filler: The Difference",
+        "The 5-Step ULANDA Method: Threads, Deep Volume, Biostimulation",
+        "Natural Results & Timeline: Resetting the Clock"
       ]
     },
     seo: {
-      title: "Full Face Structural Lift | Non-Surgical Facelift | ULANDA",
-      description: "Restore facial structure & volume with a Full Face Structural Lift. A comprehensive non-surgical approach to lifting & rejuvenating the entire face."
+      title: "Full-Face Structural Lift | Non-Surgical Facelift | ULANDA",
+      description: "A complete non-surgical facelift using threads, biostimulators & regeneration. Lift, volumise & tighten the full face harmoniously at ULANDA."
     },
-    title: 'Full-Face',
-    highlight: 'Structural Lift',
-    titleSuffix: '',
-    benefits: ['Natural lift without surgery', 'Restores youthful architecture', 'Rebuilds collagen deep within', 'No heaviness or “done” look'],
+    title: 'Full-Face Structural Lift',
+    highlight: 'Structure, Volume & Lift',
+    titleSuffix: 'Protocol',
+    benefits: ['Comprehensive full-face rejuvenation', 'Restores deep structural volume', 'Lifts cheeks, jowls & brows', 'Smooths nasolabial & marionette lines', 'Harmonises the entire face naturally'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'The Most Advanced Non-Surgical Lift for Midlife Women',
+    description: 'Structure • Volume • Lift',
     introduction: {
-      title: "Regenerative Structural Lift",
+      title: "Structure, Volume & Lift",
       content: [
-        "This isn’t a “filler lift.” This is a regenerative structural lift designed for the way women truly age.",
-        "The ULANDA Full-Face Structural Lift is a comprehensive regenerative protocol that lifts, tightens, rebuilds and rebalances the entire face — not by adding bulk, but by restoring the internal scaffolding weakened by perimenopause, menopause and natural ageing.",
-        "It combines Threads (immediate lift), Biostimulators (deep collagen rebuilding), PN (elasticity + dermal density), RF microneedling (skin tightening), Micro-refinement filler (only where needed), and Hormone-aware facial mapping.",
-        "This is the anti-filler alternative for women who want lift, firmness, tighter contours, youthful support, no heaviness, and no “done” look."
+        "Ageing doesn’t happen in one spot — it affects the bone, fat pads, ligaments, and skin simultaneously.",
+        "Treating just one area (like the lips or cheeks) can often look unbalanced.",
+        "The ULANDA Full-Face Structural Lift is our most comprehensive non-surgical protocol. It addresses the entire face as a unified structure.",
+        "Using a strategic combination of Threads (Lifting), Biostimulators (Skin Strengthening), and Volumisation (Deep Support), we restore the triangle of youth, lift falling tissues, and smooth deep transitions.",
+        "This is for the woman who wants a complete reset — looking fresher, rested, and structurally supported, without looking “done” or distorted."
       ],
       goals: [
-        "Lifts sagging midface + jowls",
-        "Rebuilds collagen deep within the dermis",
-        "Restores a clean jawline",
-        "Reduces heaviness in lower face",
-        "Softens nasolabial and marionette folds",
-        "Opens and brightens the eye area",
-        "Improves skin strength + elasticity",
-        "Creates natural youthful V-shape contour"
+        "Lifts sagging tissues (cheeks, jowls, brows)",
+        "Restores deep structural volume (temples, mid-face)",
+        "Smooths transitions (nasolabial, marionette)",
+        "Strengthens skin quality globally",
+        "Harmonises profile balance",
+        "Rebuilds collagen for long-term firmness",
+        "Provides a rested, fresher, more youthful look"
       ],
       highlightBox: {
-        text1: "Closest non-surgical alternative to a facelift.",
-        text2: "Regenerative, subtle and age-appropriate."
+        text1: "Treats the face as a whole.",
+        text2: "Total harmony."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
     internalSupport: {
-      title: "Why Midface / Lower-Face",
-      titleSuffix: "Sagging Happens",
+      title: "Why The Full Face",
+      titleSuffix: "Method Matters",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
         {
-          title: "The Descent",
-          description: "As women enter their late 30s, 40s and 50s, the face begins to descend due to collagen crash, ligament weakening, fat pad descent, bone resorption, and skin thinning."
+          title: "Holistic Ageing",
+          description: "We lose bone in the temples and chin, fat in the mid-face, and elasticity in the skin. Addressing only one makes the others look more obvious."
         },
         {
-          title: "The Result",
-          description: "This leads to jowls, sagging cheeks, flat midface, tired eyes, deep folds, lower-face heaviness, and loss of definition."
+          title: "Avoids Distortion",
+          description: "Overfilling one area (like cheeks) creates an alien look. Treating the full face allows us to use LESS product in each area for a lighter, more natural result."
         },
         {
-          title: "The ULANDA Difference",
-          description: "Filler attempts to replace this downward movement by adding volume — which often causes puffiness and distortion. The ULANDA Full-Face Lift restores lift and structure WITHOUT adding excessive volume."
+          title: "The ULANDA Philosophy",
+          description: "Structure first. Lift second. Volume third. This sequence ensures elegance."
         }
       ]
     },
@@ -6103,136 +7008,129 @@ export const treatments = [
       title: "The ULANDA",
       highlight: "Full-Face Structural Lift",
       titleSuffix: "Method™",
-      subtitle: "A 3-phase regenerative lift protocol:",
+      subtitle: "A 5-step regenerative sequence:",
       items: [
         {
-          title: "PHASE 1: The Lift (Threads)",
-          description: "PDO / Definisse threads reposition midface, jowls, jawline, marionette fold area, lower and lateral cheeks, and brow. Immediate lift + vector-based collagen stimulation."
+          title: "Step 1 — Upper Face Opening (Temples & Brows)",
+          description: "Restoring temple hollows to lift the brow tail and open the eyes. (Using High-G Prime Filler or Biostimulator)."
         },
         {
-          title: "PHASE 2: The Regeneration (Biostimulators + PN)",
-          description: "Rebuilds the structure beneath. Biostimulators thicken skin and strengthen ligaments. PN restores dermal density and tightens under-eye area. Creates 12–36 months of structural rejuvenation."
+          title: "Step 2 — Mid-Face Support (Cheek Structure)",
+          description: "Rebuilding the deep cheek fat pad to support the under-eye and lift the nasolabial fold. (Deep Structural Volumisation)."
         },
         {
-          title: "PHASE 3: The Refinement (Advanced Finishing)",
-          description: "Personalised finishing: PN under-eye, RF microneedling for tightening, BioRePeel for texture, Skin boosters for hydration, Minimal micro-filler for shadow correction."
+          title: "Step 3 — Lower Face Lifting (Threads)",
+          description: "PDO / Definisse threads to physically lift the jowls and lower face, creating a smoother jawline and tighter skin."
+        },
+        {
+          title: "Step 4 — Mandibular Strengthening (Jawline & Chin)",
+          description: "Restoring the bony angle of the jaw and chin projection to balance the profile and support the neck."
+        },
+        {
+          title: "Step 5 — Global Skin Quality (Polynucleotides / Profhilo)",
+          description: "Final polish: Hydrating and strengthening the skin envelope so it glows."
         }
       ],
-      footer: "This ensures polished, detail-oriented, natural results."
+      footer: "A complete, multi-layer approach for total facial harmony."
+    },
+    treatmentAreas: {
+        title: "Treatment",
+        titleSuffix: "Areas",
+        image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        points: [
+            { title: "Temples", description: "Lifting the brow and reducing hollowing." },
+            { title: "Cheeks", description: " restoring the 'ogee curve' and mid-face support." },
+            { title: "Nasolabial Folds", description: "Softening the nose-to-mouth shadow." },
+            { title: "Jawline & Jowls", description: "Lifting and defining the lower third." },
+            { title: "Chin", description: "Balancing the profile." },
+            { title: "Skin Quality", description: "Global glow and firmness." }
+        ]
     },
     idealFor: {
-      title: "Who This Treatment",
-      highlight: "Is For",
+      title: "Who This Is",
+      highlight: "Perfect For",
       titleSuffix: "",
       items: [
-        "Midface sagging",
-        "Early or visible jowls",
-        "Jawline softening",
-        "Flattening of cheek support",
-        "Lower-face heaviness",
-        "Deepening nasolabial folds",
-        "Eye hollowing (PN highly effective)",
-        "Menopausal collagen collapse"
+        "Women feeling 'tired' or 'saggy' all over",
+        "Volume loss in temples and cheeks",
+        "Jowls and jawline softness",
+        "Nasolabial folds and marionette shadows",
+        "Those wanting a significant refresh without surgery",
+        "Midlife/Menopausal structural changes"
+      ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "Immediate", scaling: "visible lift, improved volume, better balance" },
+        { time: "2–4 Weeks", scaling: "swelling settles, threads integrate, face looks rested" },
+        { time: "3–6 Months", scaling: "collagen production peaks, skin quality improves, lift strengthens" },
+        { time: "6–18 Months", scaling: "long-lasting structural support (maintenance every 12-18 months)" }
       ]
     },
     ulandaConnection: {
-      subtitle: "Perfect Pairings",
+      subtitle: "Perfect Combinations",
       sections: [
-        {
-          title: "Full-Face Lift + PN",
-          description: "For elasticity + under-eye regeneration.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Full-Face Lift + RF Microneedling",
-          description: "Lift + tighten.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Full-Face Lift + BioRePeel",
-          description: "Lift + texture clarity.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Full-Face Lift + Jawline Refinement",
-          description: "Sculpted lower face.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Full-Face Lift + Collagen Therapy",
-          description: "Strongest long-term results.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Full Face Lift + Neck Lift", description: "The complete head, neck & face reset." },
+        { title: "CO2 Laser or RF Microneedling", description: "Surface resurfacing to match the structural lift." },
+        { title: "Routine Botox", description: "To clear dynamic lines and maintain the smooth upper face." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Minimal Downtime",
-          description: "Most clients return to daily activities within 24 hours.",
-          icon: "cqc"
-        },
-        {
-          title: "Safe & Natural",
-          description: "Safe for all skin tones. No overfilling or distortion.",
-          icon: "clinician"
-        },
-        {
-          title: "Hormone-Aware",
-          description: "Hormone-aware dosing perfect for midlife changes.",
-          icon: "prescribed"
-        }
+        { title: "Moderate Downtime", description: "Expect 2-4 days of mild swelling/bruising.", icon: "check" },
+        { title: "Holistic Review", description: "We assess your entire facial balance before starting.", icon: "star" },
+        { title: "Clinician-Led", description: "Advanced techniques for safety and natural results.", icon: "prescribed" }
       ]
     },
     cta: {
-      title: "Lift. Regenerate.",
-      highlight: "Restore.",
-      description: "The ULANDA Full-Face Structural Lift is our most advanced non-surgical approach — designed specifically for midlife women.",
-      buttonText: "Book Full-Face Lift Consultation"
+      title: "Structure.",
+      highlight: "Harmony.",
+      description: "Balance. ULANDA’s Full-Face Structural Lift is the ultimate non-surgical reset for women who want to look fresh, lifted, and undeniably like themselves.",
+      buttonText: "Book Full-Face Consultation"
     }
   },
   {
     id: 'neck-lower-face-lift',
     seoHeadings: {
-      h1: "Neck & Lower Face Structural Lift",
+      h1: "Neck & Lower Face Structural Lift in Ware SG12 — Lift, Tighten & Rebuild",
       h2: [
-        "Defining the Jawline & Eliminating Jowls.",
-        "Tightening the Neck: Addressing Tech Neck & Laxity.",
-        "Combining Modalities for Sharp, Youthful Contours.",
-        "Recovery & Results: What to Expect from a Lower Face Lift."
+        "Why the Neck & Lower Face Change First",
+        "Regenerative Lift vs Filler: Why Structure Matters",
+        "The 4-Step ULANDA Method: Threads, Biostimulators, PN, RF",
+        "Natural Results & Timeline"
       ]
     },
     seo: {
-      title: "Neck & Lower Face Lift | Define Jawline & Neck | ULANDA",
-      description: "Tighten & define the jawline and neck with our structural lift treatment. Reduce sagging & improve contours without surgery."
+      title: "Neck & Lower Face Structural Lift | Lift & Tighten | ULANDA",
+      description: "Lift jowls, sharpen the jawline & tighten the neck with ULANDA’s structural lift. A non-surgical regenerative protocol for midlife women."
     },
-    title: 'Neck & Lower Face',
-    highlight: 'Structural Lift',
+    title: 'Neck & Lower Face Structural Lift',
+    highlight: 'Lift, Tighten & Rebuild',
     titleSuffix: '',
-    benefits: ['Lifts jowls and lower-face heaviness', 'Sharpens jawline naturally', 'Tightens and smooths neck skin', 'Restores youthful chin-to-neck angle'],
+    benefits: ['Lifts jowls and lower-face heaviness', 'Sharpens jawline naturally', 'Tightens and smooths neck skin', 'Reduces neck creases and banding', 'Restores youthful chin-to-neck angle'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'Lift, Tighten & Rebuild the Most Age-Defining Areas',
+    description: 'Lift • Tighten • Rebuild',
     introduction: {
       title: "Lift, Tighten & Rebuild",
       content: [
         "The lower face and neck are the first to fall — and the last to respond to superficial treatments.",
-        "At ULANDA, the Neck & Lower Face Structural Lift is a regenerative, non-surgical solution designed specifically for women experiencing jowls, jawline loss, neck laxity, “turkey neck”, crepey skin, heaviness around the lower face, marionette shadows, and lower-face droop during perimenopause or menopause.",
+        "At ULANDA, the Neck & Lower Face Structural Lift is a regenerative, non-surgical solution designed specifically for women experiencing:",
+        "• jowls",
+        "• jawline loss",
+        "• neck laxity",
+        "• “turkey neck”",
+        "• crepey skin",
+        "• heaviness around the lower face",
+        "• marionette shadows",
+        "• lower-face droop during perimenopause or menopause",
         "This treatment is NOT a filler-heavy attempt to “inflate” sagging skin.",
-        "Instead, we use Threads (PDO/Definisse) to lift, Biostimulators to rebuild collagen, PN to strengthen elasticity, RF microneedling for tightening, Collagen therapy for deep dermal support, and Micro-refinement filler only if necessary.",
-        "This creates a lifted, refined, smooth, elegant lower face and neck — with long-term regeneration."
+        "Instead, we use Threads (PDO/Definisse) to lift, Biostimulators to rebuild collagen, PN to strengthen elasticity, RF microneedling for tightening, and Collagen therapy for deep dermal support.",
+        "Result: A lifted, refined, smooth, elegant lower face and neck — with long-term regeneration."
       ],
       goals: [
         "Lifts jowls and lower-face heaviness",
@@ -6241,11 +7139,12 @@ export const treatments = [
         "Reduces neck creases and banding",
         "Restores youthful chin-to-neck angle",
         "Thickens and strengthens skin",
-        "Rebuilds collagen + elasticity"
+        "Rebuilds collagen + elasticity",
+        "Creates a softer, slimmer lower face"
       ],
       highlightBox: {
-        text1: "Most advanced non-surgical lower-face rejuvenation.",
-        text2: "Restores structure, not volume."
+        text1: "Restores structure.",
+        text2: "Not volume."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -6270,7 +7169,7 @@ export const treatments = [
     },
     ingredients: {
       title: "The ULANDA",
-      highlight: "Structural Lift",
+      highlight: "Neck & Lower Face Structural Lift",
       titleSuffix: "Method™",
       subtitle: "A 4-step regenerative sequence:",
       items: [
@@ -6288,89 +7187,70 @@ export const treatments = [
         },
         {
           title: "Step 4 — Jawline Refinement (Optional Micro-Contouring)",
-          description: "Only if needed: micro-filler for prejowl dip, chin projection enhancement, jawline smoothing. Never heavy."
+          description: "Only if needed: micro-filler for prejowl dip, chin projection enhancement, jawline smoothing. Never heavy. Never masculine."
         }
       ],
       footer: "This is a comprehensive lift, not one isolated treatment."
     },
+    treatmentAreas: {
+        title: "Treatment",
+        titleSuffix: "Areas",
+        image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        points: [
+            { title: "Lower Face", description: "Jowls, marionette lines, submandibular zone." },
+            { title: "Jawline", description: "Restoring the sharp angle and definition." },
+            { title: "Neck", description: "Tightening skin, reducing banding, smoothing crepiness." },
+            { title: "Chin", description: "Projection and balance." },
+            { title: "Under-Chin", description: "Reducing 'double chin' appearance (skin-related)." }
+        ]
+    },
     idealFor: {
-      title: "Who This Treatment",
-      highlight: "Is Perfect For",
+      title: "Who This Is",
+      highlight: "Perfect For",
       titleSuffix: "",
       items: [
         "Early or moderate jowls",
         "Sagging jawline",
-        "Neck crepiness",
-        "Loose neck folds",
+        "Neck crepiness & loose folds",
         "Heaviness under jaw",
         "Midlife neck ageing",
-        "Menopausal collagen loss"
+        "Menopausal collagen loss",
+        "Women wanting a tighter, lifted profile without surgery"
+      ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "Immediate", scaling: "lifted lower face, improved jawline, smoother neck" },
+        { time: "2–6 Weeks", scaling: "threads settle, neck and lower face look more natural + refined" },
+        { time: "6–12 Weeks", scaling: "biostimulators activate, collagen rebuild noticeable, tightening increases" },
+        { time: "3–6 Months", scaling: "peak regeneration, strongest lifting + smoothing" },
+        { time: "12–36 Months", scaling: "long-term structure (annual maintenance advised)" }
       ]
     },
     ulandaConnection: {
       subtitle: "Perfect Combinations",
       sections: [
-        {
-          title: "Threads + Biostimulators (Structural Lift)",
-          description: "The ultimate jowl + jawline protocol.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "PN + RF Microneedling",
-          description: "Elasticity + tightening for the neck.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "PRP + RF for Fine Neck Lines",
-          description: "Boosts repair + smoothness.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Under-Chin PN + Tightening",
-          description: "Improves silhouette naturally.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Neck BioRePeel + PN",
-          description: "Texture + firmness.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Threads + Biostimulators (Structural Lift)", description: "The ultimate jowl + jawline protocol." },
+        { title: "PN + RF Microneedling", description: "Elasticity + tightening for the neck." },
+        { title: "PRP + RF for Fine Neck Lines", description: "Boosts repair + smoothness." },
+        { title: "Under-Chin PN + Tightening", description: "Improves silhouette naturally." },
+        { title: "Neck BioRePeel + PN", description: "Texture + firmness." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Minimal Downtime",
-          description: "Most women return to daily life within 24 hours.",
-          icon: "cqc"
-        },
-        {
-          title: "Safe & Natural",
-          description: "Safe for midlife + menopausal women. No distortion, no overfilling.",
-          icon: "clinician"
-        },
-        {
-          title: "Clinician-Led",
-          description: "Local anaesthetic used. Minimal swelling.",
-          icon: "prescribed"
-        }
+        { title: "Minimal Downtime", description: "Most women return to daily life within 24 hours.", icon: "check" }, // check icon
+        { title: "Safe & Natural", description: "Safe for midlife + menopausal women. No distortion, no overfilling.", icon: "star" },
+        { title: "Clinician-Led", description: "Local anaesthetic used. Minimal swelling.", icon: "prescribed" }
       ]
     },
     cta: {
-      title: "Lift. Tighten.",
-      highlight: "Rebuild.",
-      description: "ULANDA’s Neck & Lower Face Structural Lift is the most advanced regenerative protocol for women who want powerful lifting with natural results.",
+      title: "A Tighter Neck.",
+      highlight: "A Cleaner Jawline.",
+      description: "A More Lifted You. ULANDA’s Neck & Lower Face Structural Lift is the most advanced regenerative protocol for women who want powerful lifting with natural results.",
       buttonText: "Book Neck & Lower Face Consultation"
     }
   },
@@ -6389,50 +7269,59 @@ export const treatments = [
       title: "Cellulite Regeneration | Smooth & Firm Skin | ULANDA",
       description: "Target cellulite at the source with regenerative treatments. ULANDA improves skin texture & firmness for smoother legs and body contours."
     },
-    title: 'Cellulite',
-    highlight: 'Regeneration',
+    title: 'Cellulite Regeneration',
+    highlight: 'Smooth, Firm & Strengthen',
     titleSuffix: '',
-    benefits: ['Smooths visible dimples', 'Tightens and firms skin', 'Thickens the dermis', 'Breaks down fibrous tethering bands'],
+    benefits: ['Smooths visible dimples', 'Tightens and firms skin', 'Thickens the dermis', 'Breaks down fibrotic bands'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
-    description: 'Smooth, Firm & Strengthen — A Regenerative Approach to Cellulite Treatment',
+    description: 'A Regenerative Approach to Cellulite Treatment',
     introduction: {
-      title: "Cellulite isn’t a fat problem — it’s a structural and collagen problem.",
+      title: "Smooth, Firm & Strengthen",
       content: [
+        "Cellulite isn’t a fat problem — it’s a structural and collagen problem.",
         "Most cellulite treatments fail because they only target fat, surface texture, or lymphatic flow.",
-        "At ULANDA, cellulite treatment is fully regenerative, targeting the real causes: weakened collagen, fibrous tethering bands, reduced elasticity, hormonal changes, inflammation, poor skin structure, and reduced microcirculation."
+        "At ULANDA, cellulite treatment is fully regenerative, targeting the real causes:",
+        "• weakened collagen",
+        "• fibrous tethering bands",
+        "• reduced elasticity",
+        "• hormonal changes",
+        "• inflammation",
+        "• poor skin structure",
+        "• reduced microcirculation",
+        "Our Cellulite Regeneration Protocol combines:",
+        "• RF Microneedling - collagen tightening",
+        "• Biostimulators - structural rebuilding",
+        "• PN (Polynucleotides) - elasticity + dermal repair",
+        "• PRP optional - microcirculation activation",
+        "to deliver smoother, firmer, more even skin on thighs, bum and hips."
       ],
       goals: [
         "Smooths visible dimples",
         "Tightens and firms skin",
         "Thickens the dermis",
         "Breaks down fibrous tethering bands",
-        "Improves elasticity"
+        "Improves elasticity",
+        "Stimulates collagen & elastin",
+        "Enhances microcirculation",
+        "Reduces rippling + unevenness",
+        "Prevents worsening during hormonal transitions"
       ],
       highlightBox: {
-        text1: "Structural Repair.",
-        text2: "Targeting the real causes of cellulite."
+        text1: "Fully regenerative.",
+        text2: "Targeting the real causes."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
     internalSupport: {
       title: "Why Cellulite",
-      titleSuffix: "Appears in Midlife",
+      titleSuffix: "Appears (Especially in Midlife)",
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       points: [
-        {
-          title: "Not Just Fat",
-          description: "Cellulite is NOT caused by weight or fat alone."
-        },
-        {
-          title: "Hormonal Factors",
-          description: "Perimenopause and menopause cause collagen breakdown, thinning dermis, and loss of elasticity."
-        },
-        {
-          title: "Structural Issues",
-          description: "Fibrosis of connective bands and reduced microcirculation lead to dimples and rippling."
-        }
+          { title: "Not Fat Alone", description: "Cellulite is NOT caused by weight or fat alone." },
+          { title: "Hormonal Impact", description: "Perimenopause and menopause cause collagen breakdown, thinning dermis, loss of elasticity, and changes in fat distribution." },
+          { title: "The Result", description: "Fibrosis of connective bands leads to dimples, ripples, 'orange peel' texture, and sagging skin over fat pads." }
       ]
     },
     ingredients: {
@@ -6442,100 +7331,86 @@ export const treatments = [
       subtitle: "A 3-phase protocol to rebuild and regenerate the deeper structures.",
       items: [
         {
-          title: "Phase 1: RF Microneedling",
-          description: "Deep Tissue Tightening. Tightens collagen fibres, remodels deeper layers, and breaks down fibrotic bands."
+          title: "Phase 1 — RF Microneedling (Deep Tissue Tightening)",
+          description: "Tightens collagen fibres, remodels deeper layers, breaks down fibrotic bands, smooths rippled areas. Perfect for thighs, bum, banana roll, hips."
         },
         {
-          title: "Phase 2: Biostimulators",
-          description: "Structural Rebuilding. Thicken the skin, rebuild collagen, and improve firmness to mask irregularities."
+          title: "Phase 2 — Biostimulators (PLLA, PDLLA, CaHA)",
+          description: "Strengthen dermal architecture, thicken skin, rebuild collagen, reduce crepiness. Masks underlying irregularities by densifying the skin."
         },
         {
-          title: "Phase 3: Polynucleotides (PN)",
-          description: "Elasticity + Repair. Delivers elasticity improvement, dermal hydration, and microcirculation enhancement."
-        },
-        {
-          title: "Optional: PRP Boost",
-          description: "Accelerates healing and microvascular repair."
+          title: "Phase 3 — Polynucleotides (PN)",
+          description: "Delivers elasticity improvement, dermal hydration, microcirculation enhancement. Especially useful for back of thighs, knees, delicate zones."
         }
       ],
-      footer: "Results are natural, long-lasting and regenerative."
+      footer: "Optional PRP Boost accelerates healing and microvascular repair. Results are natural, long-lasting and regenerative."
     },
     idealFor: {
-      title: "Who This Treatment Is",
-      highlight: "Perfect For",
+      title: "Who This Treatment",
+      highlight: "Is Perfect For",
       titleSuffix: "",
       items: [
-        "Cellulite on thighs, bum, hips",
-        "Crepey or sagging skin",
-        "Postpartum thigh/bum changes",
-        "Menopausal loss of elasticity",
-        "Rippled or uneven skin"
+        "Women experiencing: cellulite on thighs/bum/hips, crepey or sagging skin, postpartum changes, menopausal loss of elasticity, rippled or uneven skin, visible dimples",
+        "Ideal for women who want: natural smooth firm appearance, long-term regenerative correction, no surgery, midlife-suited results"
       ]
+    },
+    treatmentAreas: {
+        title: "Treatment",
+        titleSuffix: "Areas",
+        image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        points: [
+            { title: "Lower Body", description: "thighs (front + back), buttocks, banana roll, hips, back of legs, knees" },
+            { title: "Abdomen", description: "lower abdomen (if crepey)" }
+        ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "After 1 session", scaling: "mild tightening, improved texture" },
+        { time: "6–8 Weeks", scaling: "early smoothing, fewer surface irregularities" },
+        { time: "12–16 Weeks", scaling: "visible reduction in dimpling, firmer skin, smoother silhouette" },
+        { time: "4–6 Months", scaling: "Peak: deep collagen remodelling, long-term improvement" },
+        { time: "12–24 Months", scaling: "sustained results with maintenance" }
+      ]
+    },
+    science: {
+        title: "Why This Is Superior To",
+        highlight: "Traditional Treatments",
+        content: [
+            "Most cellulite treatments fail because they only target fat, lymphatic flow, surface texture, or short-term tightening.",
+            "ULANDA targets the root causes:",
+            "• weakened collagen",
+            "• fibrotic bands",
+            "• hormonal decline",
+            "• structural laxity",
+            "• dermal thinning",
+            "• elasticity loss",
+            "This creates real, lasting and structural change."
+        ]
     },
     ulandaConnection: {
       subtitle: "Perfect ULANDA Combinations",
       sections: [
-        {
-          title: "Body Tightening (RF + PN)",
-          description: "For maximum firmness.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Biostimulator Butt Lift",
-          description: "Roundness + firmness + cellulite smoothing.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Medical Weight Management",
-          description: "Targets hormonal + metabolic factors.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Body Contouring",
-          description: "Improves silhouette while smoothing skin.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Wellness IV / IM",
-          description: "Supports stress, inflammation, recovery.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "Body Tightening (RF + PN)", description: "For maximum firmness." },
+        { title: "Biostimulator Butt Lift", description: "Roundness + firmness + cellulite smoothing." },
+        { title: "Medical Weight Management", description: "Targets hormonal + metabolic factors." },
+        { title: "Body Contouring", description: "Improves silhouette while smoothing skin." },
+        { title: "Wellness IV / IM", description: "Supports stress, inflammation, recovery." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Non-Surgical",
-          description: "No cutting, suction or trauma. Minimal downtime.",
-          icon: "clinician"
-        },
-        {
-          title: "Safe",
-          description: "Safe for all skin tones. Ideal for midlife women.",
-          icon: "cqc"
-        },
-        {
-          title: "Regenerative",
-          description: "Improves long-term skin health.",
-          icon: "prescribed"
-        }
+        { title: "Non-Surgical", description: "No cutting, suction or trauma. Minimal downtime.", icon: "clinician" },
+        { title: "Safe", description: "Safe for all skin tones. Ideal for midlife women.", icon: "star" },
+        { title: "Regenerative", description: "Improves long-term skin health.", icon: "prescribed" }
       ]
     },
     cta: {
       title: "Smoother Skin.",
       highlight: "Stronger Structure.",
-      description: "ULANDA’s Cellulite Regeneration treatment rebuilds collagen, tightens skin, and smooths dimpling naturally.",
+      description: "ULANDA’s Cellulite Regeneration treatment rebuilds collagen, tightens skin, and smooths dimpling naturally — without aggressive or temporary solutions.",
       buttonText: "Book Cellulite Consultation"
     }
   },
@@ -6554,20 +7429,24 @@ export const treatments = [
       title: "Abdomen Tightening | Non-Surgical Tummy Tuck | ULANDA",
       description: "Firm & tighten the stomach area with non-surgical Abdomen Tightening. ULANDA helps restore elasticity & tone for a flatter, smoother midsection."
     },
-    title: 'Abdomen',
-    highlight: 'Tightening',
+    title: 'Abdomen Tightening',
+    highlight: 'Regenerate Your Core Skin, Strength & Elasticity',
     titleSuffix: '',
-    benefits: ['Tightens lax, stretched, or crepey abdominal skin', 'Strengthens collagen + elastin', 'Smooths wrinkled or loose areas', 'Firms skin weakened by hormones or pregnancy'],
+    benefits: ['Tightens lax, stretched skin', 'Strengthens collagen + elastin', 'Smooths wrinkled areas', 'Firms skin weakened by hormones'],
     locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
     image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
     category: 'Restore',
     description: 'Postpartum • Perimenopause • Post-Weight Loss',
     introduction: {
-      title: "Regenerate Your Core Skin, Strength & Elasticity",
+      title: "Regenerate Your Core Skin",
       content: [
         "Loose skin isn’t a surface issue — it’s a collagen, elasticity, and structural integrity issue.",
         "Whether caused by pregnancy, hormonal shifts, or weight fluctuations, abdominal skin laxity can impact confidence even in women who are fit, strong, and healthy.",
-        "At ULANDA, we specialise in regenerative abdominal tightening, using a combination of RF Microneedling (deep tightening), Biostimulators (collagen rebuilding), PN (elasticity + dermal repair), and optional PRP (microvascular repair + healing support).",
+        "At ULANDA, we specialise in regenerative abdominal tightening, using a combination of:",
+        "• RF Microneedling - deep tightening",
+        "• Biostimulators - collagen rebuilding",
+        "• PN (Polynucleotides) - elasticity + dermal repair",
+        "• PRP optional - microvascular repair + healing support",
         "Our approach strengthens abdominal skin from the inside out — creating smoother, firmer, more resilient tissue."
       ],
       goals: [
@@ -6581,8 +7460,8 @@ export const treatments = [
         "Supports long-term skin resilience"
       ],
       highlightBox: {
-        text1: "True regeneration, not temporary tightening.",
-        text2: "Treats collagen, elasticity, fascia, and structure."
+        text1: "True regeneration.",
+        text2: "Not temporary tightening."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
     },
@@ -6593,119 +7472,84 @@ export const treatments = [
       points: [
         {
           title: "Postpartum",
-          description: "Pregnancy stretches skin and fascia, causing collagen disruption, elastin fragmentation, and weaker dermal structure."
+          description: "Pregnancy stretches the skin and underlying fascial layers, causing collagen disruption, elastin fragmentation, stretched abdominal fascia, crepey skin, weaker dermal structure."
         },
         {
           title: "Perimenopause & Menopause",
-          description: "Declining estrogen leads to 30% collagen loss in the first 5 years, thinner skin, and reduced elasticity."
+          description: "Declining estrogen leads to 30% collagen loss in the first 5 years, thinner skin, reduced elasticity, increased creping, and slower repair."
         },
         {
           title: "Post-Weight Loss",
-          description: "Rapid changes reduce dermal thickness and collagen density, creating overhang and laxity."
+          description: "Rapid changes reduce dermal thickness and collagen density, creating overhang, laxity, skin 'folding', and vertical wrinkling."
         }
       ]
     },
     ingredients: {
       title: "The Abdominal",
-      highlight: "Regeneration",
-      titleSuffix: "Protocol",
+      highlight: "Regeneration Protocol",
+      titleSuffix: "",
       subtitle: "A 3-phase approach targeting structure, collagen, and elasticity:",
       items: [
         {
-          title: "Phase 1: RF Microneedling",
-          description: "Deep tightening & resurfacing. Tightens collagen fibres, contracts lax skin, and improves texture."
+          title: "Phase 1 - RF Microneedling (Deep Tightening & Resurfacing)",
+          description: "RF energy delivered through microneedles tightens collagen fibres, contracts lax skin, improves texture + wrinkling, supports postpartum skin recoil, refines crepey areas. Especially effective for skin folding under the belly button."
         },
         {
-          title: "Phase 2: Biostimulators",
-          description: "Structural collagen rebuild. Rebuilds collagen, improves dermal density, and prevents sagging."
+          title: "Phase 2 - Biostimulators (Structural Collagen Rebuild)",
+          description: "Biostimulators (PLLA, PDLLA, CaHA) rebuild collagen, improve dermal density, prevent sagging, improve firmness. Perfect for loose lower abdomen."
         },
         {
-          title: "Phase 3: Polynucleotides",
-          description: "Elasticity + smoothness. Improves elasticity, hydration, and skin recoil."
-        },
-        {
-          title: "Optional Boost: PRP",
-          description: "Amplifies tissue healing, collagen quality, and recovery."
+          title: "Phase 3 - Polynucleotides (Elasticity + Smoothness)",
+          description: "PN is the missing link. Improves elasticity, hydration, microvascular function, smoothness. Useful for wrinkled belly-button area."
         }
       ],
-      footer: "This is true regeneration, not temporary tightening."
+      footer: "Optional Boost: PRP for Postpartum, Hormonal, or Weight-Loss Clients (amplifies tissue healing)."
     },
     idealFor: {
-      title: "Who This Treatment Is",
-      highlight: "Perfect For",
+      title: "Who This Treatment",
+      highlight: "Is Perfect For",
       titleSuffix: "",
       items: [
-        "Postpartum clients with 'soft' or 'wrinkled' lower abdomen",
-        "Perimenopause / Menopause drooping or thinning skin",
-        "Post-weight loss skin that didn't tighten naturally",
-        "Fit women with skin that doesn't match the muscle underneath",
-        "Clients not ready for surgery"
+        "Postpartum Clients: 'Soft', 'wrinkled' or 'stretched' lower abdomen",
+        "Perimenopause / Menopause: Drooping, thinning, crepey belly skin linked to hormonal collagen decline",
+        "Post-Weight Loss: Skin that softened or didn’t tighten naturally",
+        "Fit Women: Who have strong cores but skin that doesn’t match the muscle underneath",
+        "Clients Not Ready For Surgery: Want results without tummy tucks or downtimes"
+      ]
+    },
+    results: {
+      title: "Results",
+      highlight: "Timeline",
+      timeline: [
+        { time: "Immediately", scaling: "Tightening effect from RF, Smoother surface" },
+        { time: "6–8 Weeks", scaling: "Visible firming, fewer wrinkles, improved tone" },
+        { time: "12–16 Weeks", scaling: "Collagen rebuilding, smoother tighter belly skin" },
+        { time: "4–6 Months", scaling: "Peak tightening, long-term improvement" },
+        { time: "12–24 Months", scaling: "Maintained results with annual support" }
       ]
     },
     ulandaConnection: {
       subtitle: "Perfect ULANDA Synergies",
       sections: [
-        {
-          title: "PN + RF",
-          description: "Best for crepey skin (Elasticity + Tightening).",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Biostimulators + RF",
-          description: "Improves long-term firmness (Deep Structural Firming).",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Stretch Mark Regeneration",
-          description: "Microneedling + PN + PRP.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "Body Contouring",
-          description: "Combines structural tightening with shape improvement.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "IV Wellness",
-          description: "Supports healing internally (Collagen, Energy, Hormones).",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
+        { title: "PN + RF", description: "Elasticity + Tightening. Best for crepey skin." },
+        { title: "Biostimulators + RF", description: "Deep Structural Firming. Improves long-term firmness." },
+        { title: "Stretch Mark Regeneration", description: "Microneedling + PN + PRP." },
+        { title: "Body Contouring (Fat Reduction)", description: "Combines structural tightening with shape improvement." },
+        { title: "IV Wellness", description: "Supports healing internally (Collagen, Energy, Hormones)." }
       ]
     },
     safetyOversight: {
       title: "Safety & Downtime",
       items: [
-        {
-          title: "Minimal Downtime",
-          description: "Most clients resume normal activity same day.",
-          icon: "cqc"
-        },
-        {
-          title: "Non-Surgical",
-          description: "No incisions, natural-looking results.",
-          icon: "clinician"
-        },
-        {
-          title: "Safe",
-          description: "Safe for all skin types and suitable post-pregnancy (after clearance).",
-          icon: "prescribed"
-        }
+        { title: "Minimal Downtime", description: "Non-surgical, safe for all skin types.", icon: "clock" },
+        { title: "Postpartum Safe", description: "Suitable post-pregnancy (after clearance).", icon: "prescribed" },
+        { title: "Natural Results", description: "Natural-looking results. Most clients resume normal activity same day.", icon: "star" }
       ]
     },
     cta: {
-      title: "Regenerate Your",
-      highlight: "Core",
-      description: "Book your Abdomen Consultation at ULANDA.",
+      title: "A Stronger, Smoother,",
+      highlight: "More Confident Abdomen — Naturally.",
+      description: "ULANDA’s regenerative abdominal tightening protocol rebuilds the skin’s structure, restores firmness, and supports your hormonal, postpartum or post-weight-loss journey — without surgery.",
       buttonText: "Book Abdomen Consultation"
     }
   },

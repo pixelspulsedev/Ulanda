@@ -329,7 +329,6 @@ export default function Founder() {
                   key={item}
                   className="flex items-start gap-3 p-4 bg-secondary rounded-lg text-primary"
                 >
-                  {/* <span className="text-primary text-xl">✨</span> */}
                   <span className="text-base font-sans">{item}</span>
                 </div>
               ))}
