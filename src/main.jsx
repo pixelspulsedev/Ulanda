@@ -22,6 +22,9 @@ const PathwayDetail = lazy(() => import('./pages/PathwayDetail.jsx'))
 const HelpAndSupport = lazy(() => import('./pages/HelpAndSupport.jsx'))
 const Contact = lazy(() => import('./pages/Contact.jsx'))
 const NotFound = lazy(() => import('./pages/NotFound.jsx'))
+const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy.jsx'))
+const TermsOfUse = lazy(() => import('./pages/TermsOfUse.jsx'))
+const Disclaimer = lazy(() => import('./pages/Disclaimer.jsx'))
 
 const routes = [
   {
@@ -99,6 +102,18 @@ const routes = [
       {
         path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'privacy-policy',
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: 'terms-of-use',
+        element: <TermsOfUse />,
+      },
+      {
+        path: 'disclaimer',
+        element: <Disclaimer />,
       },
       {
         path: '*',

@@ -36,49 +36,49 @@ export default function Footer() {
           <div className="md:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-8">
             {/* Pathways */}
             <div>
-              <h3 className="font-medium font-sans text-base-content mb-6">
-                <Link to="/pathways" className="hover:text-primary transition-colors text-base-content">Pathways</Link>
+              <h3 className="font-medium font-sans text-primary mb-4">
+                <Link to="/pathways" className="hover:text-primary transition-colors text-primary">Pathways</Link>
               </h3>
-              <ul className="space-y-3 text-base-content/100 font-sans">
-                <li><Link to="/pathways/refresh" className="hover:text-primary transition-colors text-base-content">Refresh</Link></li>
-                <li><Link to="/pathways/renew" className="hover:text-primary transition-colors text-base-content">Renew</Link></li>
-                <li><Link to="/pathways/restore" className="hover:text-primary transition-colors text-base-content">Restore</Link></li>
-                <li><Link to="/pathways/radiate" className="hover:text-primary transition-colors text-base-content">Radiate</Link></li>
+              <ul className="space-y-3 text-base-content/80 font-sans">
+                <li><Link to="/pathways/refresh" className="hover:text-primary transition-colors ">Refresh</Link></li>
+                <li><Link to="/pathways/renew" className="hover:text-primary transition-colors ">Renew</Link></li>
+                <li><Link to="/pathways/restore" className="hover:text-primary transition-colors ">Restore</Link></li>
+                <li><Link to="/pathways/radiate" className="hover:text-primary transition-colors ">Radiate</Link></li>
               </ul>
             </div>
 
             {/* Programs */}
             <div>
-              <h3 className="font-medium font-sans text-base-content mb-6">Programs</h3>
-              <ul className="space-y-3 text-base-content/100 font-sans">
-                <li><Link to="/programmes/menopause-regeneration" className="hover:text-primary transition-colors text-base-content">Menopause Regeneration</Link></li>
-                <li><Link to="/programmes/under-eye-regeneration" className="hover:text-primary transition-colors text-base-content">Under-Eye Regeneration</Link></li>
-                <li><Link to="/programmes/collagen-reset" className="hover:text-primary transition-colors text-base-content">Collagen Reset</Link></li>
-                <li><Link to="/programmes/hormone-smart-skin" className="hover:text-primary transition-colors text-base-content">Hormone-Smart Skin</Link></li>
-                <li><Link to="/programmes/shape-and-regenerate" className="hover:text-primary transition-colors text-base-content">Shape & Regenerate™</Link></li>
+              <h3 className="font-medium font-sans text-primary mb-4">Programs</h3>
+              <ul className="space-y-3 text-base-content/80 font-sans">
+                <li><Link to="/programmes/menopause-regeneration" className="hover:text-primary transition-colors ">Menopause Regeneration</Link></li>
+                <li><Link to="/programmes/under-eye-regeneration" className="hover:text-primary transition-colors ">Under-Eye Regeneration</Link></li>
+                <li><Link to="/programmes/collagen-reset" className="hover:text-primary transition-colors ">Collagen Reset</Link></li>
+                <li><Link to="/programmes/hormone-smart-skin" className="hover:text-primary transition-colors ">Hormone-Smart Skin</Link></li>
+                <li><Link to="/programmes/shape-and-regenerate" className="hover:text-primary transition-colors ">Shape & Regenerate™</Link></li>
               </ul>
             </div>
 
             {/* Conditions */}
             <div>
-              <h3 className="font-medium font-sans text-base-content mb-6">Conditions</h3>
-              <ul className="space-y-3 text-base-content/100 font-sans">
-                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors text-base-content">Skin laxity</Link></li>
-                <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors text-base-content">Uneven tone & pigmentation</Link></li>
-                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors text-base-content">Texture & pores</Link></li>
-                <li><Link to="/conditions/dark-circles" className="hover:text-primary transition-colors text-base-content">Dark circles</Link></li>
-                <li><Link to="/conditions" className="hover:text-primary transition-colors text-base-content">More +</Link></li>
+              <h3 className="font-medium font-sans text-primary mb-4">Conditions</h3>
+              <ul className="space-y-3 text-base-content/80 font-sans">
+                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Skin laxity</Link></li>
+                <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors ">Uneven tone & pigmentation</Link></li>
+                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Texture & pores</Link></li>
+                <li><Link to="/conditions/dark-circles" className="hover:text-primary transition-colors ">Dark circles</Link></li>
+                <li><Link to="/conditions" className="hover:text-primary transition-colors ">More +</Link></li>
               </ul>
             </div>
 
             {/* Identity */}
             <div>
-              <h3 className="font-medium font-sans text-base-content mb-6">Identity</h3>
-              <ul className="space-y-3 text-base-content/100 font-sans">
-                <li><Link to="/about/our-story" className="hover:text-primary transition-colors text-base-content">Our Story</Link></li>
-                <li><Link to="/about/our-philosophy" className="hover:text-primary transition-colors text-base-content">Our Philosophy</Link></li>
-                <li><Link to="/about/our-founder" className="hover:text-primary transition-colors text-base-content">Our Founder</Link></li>
-                <li><Link to="/about/manifesto" className="hover:text-primary transition-colors text-base-content">The Manifesto</Link></li>
+              <h3 className="font-medium font-sans text-primary mb-4">Identity</h3>
+              <ul className="space-y-3 text-base-content/80 font-sans">
+                <li><Link to="/about/our-story" className="hover:text-primary transition-colors ">Our Story</Link></li>
+                <li><Link to="/about/our-philosophy" className="hover:text-primary transition-colors ">Our Philosophy</Link></li>
+                <li><Link to="/about/our-founder" className="hover:text-primary transition-colors ">Our Founder</Link></li>
+                <li><Link to="/about/manifesto" className="hover:text-primary transition-colors ">The Manifesto</Link></li>
               </ul>
             </div>
 
@@ -112,7 +112,9 @@ export default function Footer() {
         <div className="pt-8 border-t border-base-200 flex flex-col md:flex-row justify-between items-center text-base-content/40 text-sm font-sans">
           <p>© Ulanda, 2025</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
+            <Link to="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-use" className="hover:text-primary transition-colors">Terms of Use</Link>
+            <Link to="/disclaimer" className="hover:text-primary transition-colors">Disclaimer</Link>
           </div>
         </div>
       </div>
