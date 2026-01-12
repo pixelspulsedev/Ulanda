@@ -1,10 +1,18 @@
 import { Link, NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [activeMobileMenu, setActiveMobileMenu] = useState(null);
+
+  const closeDropdown = () => {
+    const elem = document.activeElement;
+    if (elem) {
+      elem.blur();
+    }
+  };
 
   useEffect(() => {
     let ticking = false;
@@ -34,8 +42,13 @@ export default function Navbar() {
   );
 
   return (
-    <div className={`navbar bg-base-100 border border-b border-secondary sticky top-0 w-full z-50 transition-all duration-300 px-4 md:px-8 
-     `}>
+    <motion.div 
+      initial={{ y: -20, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className={`navbar bg-base-100 border border-b border-secondary sticky top-0 w-full z-50 transition-all duration-300 px-4 md:px-8 
+     `}
+    >
       
       <div className="navbar-start">
         <Link to="/" className="flex items-center group">
@@ -56,6 +69,7 @@ export default function Navbar() {
           <div className="dropdown dropdown-hover group px-2">
             <NavLink 
               to="/pathways" 
+              onClick={closeDropdown}
               className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
             >
               Pathways <ChevronDown />
@@ -63,7 +77,7 @@ export default function Navbar() {
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-56 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {['Refresh', 'Renew', 'Restore', 'Radiate'].map((item) => (
                 <li key={item}>
-                  <Link to={`/pathways/${item.toLowerCase()}`} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link to={`/pathways/${item.toLowerCase()}`} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
                     {item}
                   </Link>
                 </li>
@@ -75,6 +89,7 @@ export default function Navbar() {
           <div className="dropdown dropdown-hover group px-2">
             <NavLink 
               to="/programmes"
+              onClick={closeDropdown}
               className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
             >
               Programs <ChevronDown />
@@ -88,7 +103,7 @@ export default function Navbar() {
                 { name: 'Shape & Regenerate™', path: '/programmes/shape-and-regenerate' }
               ].map((item) => (
                 <li key={item.name}>
-                  <Link to={item.path} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
                     {item.name}
                   </Link>
                 </li>
@@ -100,6 +115,7 @@ export default function Navbar() {
           <div className="dropdown dropdown-hover group px-2">
             <NavLink 
               to="/conditions"
+              onClick={closeDropdown}
               className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
             >
               Conditions <ChevronDown />
@@ -113,7 +129,7 @@ export default function Navbar() {
                 { name: 'More +', path: '/conditions' }
               ].map((item) => (
                 <li key={item.name}>
-                  <Link to={item.path} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
                     {item.name}
                   </Link>
                 </li>
@@ -135,7 +151,7 @@ export default function Navbar() {
                 { name: 'Blogs', path: '/blogs' }
               ].map((item) => (
                 <li key={item.name}>
-                  <Link to={item.path} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
                     {item.name}
                   </Link>
                 </li>
@@ -288,6 +304,6 @@ export default function Navbar() {
            </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

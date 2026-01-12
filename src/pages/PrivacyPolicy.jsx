@@ -1,4 +1,5 @@
 import { Head } from 'vite-react-ssg';
+import { HeroText, FadeInWhenVisible } from '../components/animations';
 
 export default function PrivacyPolicy() {
   return (
@@ -7,10 +8,12 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy - ULANDA MedSpa</title>
       </Head>
       
-      <h1 className="text-4xl md:text-5xl font-light mb-8 font-serif">Privacy Policy</h1>
-      <p className="text-gray-600 mb-8">Effective Date: 11/02/2026</p>
+      <HeroText>
+        <h1 className="text-4xl md:text-5xl font-light mb-8 font-serif">Privacy Policy</h1>
+        <p className="text-gray-600 mb-8">Effective Date: 11/02/2026</p>
+      </HeroText>
 
-      <div className="prose prose-lg max-w-none text-gray-700 space-y-8">
+      <FadeInWhenVisible className="prose prose-lg max-w-none text-gray-700 space-y-8">
         <p>
           ULANDA MedSpa (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal data when you use our website [www.ulanda.co.uk] (the “Website”) or engage with our services.
         </p>
@@ -97,7 +100,7 @@ export default function PrivacyPolicy() {
             <p><a href="tel:+447904336031" className="text-primary hover:underline">+44 7904 336 031</a></p>
           </div>
         </section>
-      </div>
+      </FadeInWhenVisible>
     </div>
   );
 }

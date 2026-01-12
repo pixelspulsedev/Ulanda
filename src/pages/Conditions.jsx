@@ -3,6 +3,9 @@ import { useParams, Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getCondition } from '../data/pageContents/conditions/conditions';
 import ConditionsLanding from './ConditionsLanding';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function Conditions() {
   const { id } = useParams();
@@ -39,7 +42,7 @@ export default function Conditions() {
         {/* Hero Section */}
         <section className="relative min-h-[70vh] w-full flex items-center">
           {/* Background Image */}
-          <div className="absolute inset-0 z-0">
+          <RevealImage className="absolute inset-0 z-0 w-full h-full">
             <img
               src={condition.hero.image}
               alt={`${condition.hero.title} ${condition.hero.highlight}`}
@@ -47,23 +50,29 @@ export default function Conditions() {
               fetchpriority="high"
             />
             <div className="absolute inset-0 bg-black/30"></div>
-          </div>
+          </RevealImage>
 
           {/* Content */}
           <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-white w-full">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight mb-4">
+                <HeroText>
                 {condition.hero.title}{' '}
                 <span className="italic font-light">{condition.hero.highlight}</span>
+                </HeroText>
               </h1>
 
-              <p className="text-sm md:text-base font-sans font-light tracking-wide opacity-90 mb-8">
+              <div className="text-sm md:text-base font-sans font-light tracking-wide opacity-90 mb-8">
+                <HeroText delay={0.2}>
                 {condition.hero.subtitle}
-              </p>
+                </HeroText>
+              </div>
 
               <div className="space-y-4 text-lg md:text-xl font-sans font-light text-white/90 leading-relaxed">
                 {condition.hero.description.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
+                  <HeroText key={index} delay={0.4 + (index * 0.1)}>
+                  <p>{paragraph}</p>
+                  </HeroText>
                 ))}
               </div>
             </div>
@@ -131,20 +140,24 @@ export default function Conditions() {
                         <div className="relative w-full max-w-sm aspect-[4/5]">
                           {/* Accent / shadow image (background) */}
                           <div className="absolute top-20 right-20 w-full h-full z-0">
+                            <RevealImage className="w-full h-full">
                             <img
                               src="/assets/img/ui/accent.webp"
                               alt="Decorative shadow"
                               className="w-full h-full object-cover"
                             />
+                            </RevealImage>
                           </div>
 
                           {/* Main image (foreground) */}
                           <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                            <RevealImage className="w-full h-full">
                             <img
                               src={item.image}
                               alt={item.title}
                               className="w-full h-full object-cover"
                             />
+                            </RevealImage>
                           </div>
                         </div>
                       </div>
@@ -218,20 +231,24 @@ export default function Conditions() {
                       <div className="relative w-full max-w-sm aspect-[4/5]">
                         {/* Accent / shadow image (background) */}
                         <div className="absolute top-20 right-10 lg:right-20 w-full h-full z-0">
+                          <RevealImage className="w-full h-full">
                           <img
                             src="/assets/img/ui/accent.webp"
                             alt="Decorative shadow"
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
 
                         {/* Main image (foreground) */}
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                          <RevealImage className="w-full h-full">
                           <img
                             src={item.image}
                             alt={item.title}
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
                       </div>
                     </div>
@@ -278,20 +295,24 @@ export default function Conditions() {
                       <div className="relative w-full max-w-sm aspect-[4/5]">
                         {/* Accent / shadow image (background) */}
                         <div className="absolute top-20 left-10 lg:left-20 w-full h-full z-0">
+                          <RevealImage className="w-full h-full">
                           <img
                             src="/assets/img/ui/accent.webp"
                             alt="Decorative shadow"
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
 
                         {/* Main image (foreground) */}
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                          <RevealImage className="w-full h-full">
                           <img
                             src={item.image}
                             alt={item.title}
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
                       </div>
                     </div>
@@ -417,20 +438,24 @@ export default function Conditions() {
                       <div className="relative w-full max-w-sm aspect-[4/5]">
                         {/* Accent / shadow image (background) */}
                         <div className="absolute top-20 right-10 lg:right-20 w-full h-full z-0">
+                          <RevealImage className="w-full h-full">
                           <img
                             src="/assets/img/ui/accent.webp"
                             alt="Decorative shadow"
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
 
                         {/* Main image (foreground) */}
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                          <RevealImage className="w-full h-full">
                           <img
                             src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
                             alt="Refresh Treatment"
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
                       </div>
                     </div>
@@ -474,20 +499,24 @@ export default function Conditions() {
                       <div className="relative w-full max-w-sm aspect-[4/5]">
                         {/* Accent / shadow image (background) */}
                         <div className="absolute top-20 left-10 lg:left-20 w-full h-full z-0">
+                          <RevealImage className="w-full h-full">
                           <img
                             src="/assets/img/ui/accent.webp"
                             alt="Decorative shadow"
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
 
                         {/* Main image (foreground) */}
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                          <RevealImage className="w-full h-full">
                           <img
                             src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
                             alt="Refresh Treatment"
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
                       </div>
                     </div>
@@ -586,20 +615,24 @@ export default function Conditions() {
               <div className="relative w-full max-w-sm aspect-[4/5]">
                 {/* Accent / shadow image (background) */}
                 <div className="absolute -top-12 -right-12 w-full h-full z-0">
+                  <RevealImage className="w-full h-full">
                   <img
                     src="/assets/img/ui/accent.webp"
                     alt="Decorative shadow"
                     className="w-full h-full object-cover opacity-50"
                   />
+                  </RevealImage>
                 </div>
 
                 {/* Main image (foreground) */}
                 <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                  <RevealImage className="w-full h-full">
                   <img
                     src={condition.whyChoose.image}
                     alt="Facial Treatment at ULANDA"
                     className="w-full h-full object-cover"
                   />
+                  </RevealImage>
                 </div>
               </div>
             </div>

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { pathways } from '../data/pageContents/pathways/pathways';
 import { ArrowRight, ChevronRight } from 'lucide-react';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
 
 export default function Pathways() {
   return (
@@ -19,9 +21,9 @@ export default function Pathways() {
         <Breadcrumbs />
 
         {/* Hero Section */}
-        <section className="relative min-h-[80vh] w-full flex items-center justify-center">
+        <section className="relative min-h-[85vh] w-full flex items-center justify-center">
           {/* Background Image */}
-          <div className="absolute inset-0 z-0">
+          <RevealImage className="absolute inset-0 z-0 w-full h-full">
             <img
               src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
               alt="Ulanda Pathways Treatment"
@@ -29,29 +31,35 @@ export default function Pathways() {
               fetchpriority="high"
             />
             <div className="absolute inset-0 bg-black/40"></div>
-          </div>
+          </RevealImage>
 
           {/* Content */}
           <div className=" w-full relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-white">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
+                <HeroText>
                 A simple,{' '}
                 <span className="italic font-extralight">intelligent</span> way
                 to understand your{' '}
                 <span className="italic font-extralight">regenerative</span>{' '}
                 journey.
+                </HeroText>
               </h1>
 
               <div className="space-y-4 text-lg md:text-xl font-light text-white/90 leading-relaxed">
+                <HeroText delay={0.2}>
                 <p>
                   Every ULANDA treatment fits into one of four pathways —
                   designed to help you understand what your skin and body truly
                   need, without confusion or overwhelm.
                 </p>
+                </HeroText>
+                <HeroText delay={0.3}>
                 <p>
                   Each pathway addresses a different layer of skin health,
                   structure and internal balance.
                 </p>
+                </HeroText>
               </div>
             </div>
           </div>
@@ -127,20 +135,24 @@ export default function Pathways() {
                       index % 2 === 0 ? 'right-10' : 'left-10'
                     }`}
                   >
+                    <RevealImage className="w-full h-full">
                     <img
                       src="/assets/img/ui/accent.webp"
                       alt=""
                       className="w-full h-full object-cover opacity-60"
                     />
+                    </RevealImage>
                   </div>
 
                   {/* Main Image */}
                   <div className="relative z-10 w-full h-full overflow-hidden shadow-xl rounded-sm">
+                    <RevealImage className="w-full h-full">
                     <img
                       src={pathway.image}
                       alt={pathway.title}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                     />
+                    </RevealImage>
                   </div>
                 </div>
               </div>
@@ -189,20 +201,24 @@ export default function Pathways() {
                         index % 2 === 0 ? 'right-10' : 'left-10'
                       }`}
                     >
+                      <RevealImage className="w-full h-full">
                       <img
                         src="/assets/img/ui/accent.webp"
                         alt=""
                         className="w-full h-full object-cover opacity-60"
                       />
+                      </RevealImage>
                     </div>
 
                     {/* Main Image */}
                     <div className="relative z-10 w-full h-full overflow-hidden shadow-xl rounded-sm">
+                      <RevealImage className="w-full h-full">
                       <img
                         src={pathway.image}
                         alt={pathway.title}
                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                       />
+                      </RevealImage>
                     </div>
                   </div>
                 </div>

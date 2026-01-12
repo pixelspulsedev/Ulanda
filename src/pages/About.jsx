@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import { Head } from 'vite-react-ssg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 const differentiators = [
   'Science-backed regenerative aesthetics',
@@ -220,14 +223,17 @@ export default function About() {
           <div className="inline-block px-8 py-2 rounded-full border bg-secondary border-primary/30 text-primary text-sm font-bold tracking-wider mb-4 uppercase">
             About Ulanda
           </div>
-          <h1 className="text-3xl md:text-4xl font-serif leading-tight">
+          <div className="text-3xl md:text-4xl font-serif leading-tight">
+            <HeroText>
             Where women’s{' '}
             <span className="italic text-primary">
               skin, hormones and wellbeing
             </span>{' '}
             meet in one regenerative sanctuary.
-          </h1>
+            </HeroText>
+          </div>
           <div className="space-y-4 text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
+            <FadeInWhenVisible delay={0.2}>
             <p>
               ULANDA was created by{' '}
               <Link
@@ -253,6 +259,8 @@ export default function About() {
               Hormonal changes are rarely “just hormones.” Fatigue and stress
               are rarely “just lifestyle.” At ULANDA, we connect the dots.
             </p>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible delay={0.3}>
             <p>
               We support women through the full physiology of change —
               postpartum, perimenopause, menopause and beyond — blending our{' '}
@@ -277,16 +285,22 @@ export default function About() {
               with wellness, hormone-aware care and medical-grade skin health
               solutions.
             </p>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible delay={0.4}>
             <p>
               Our mission is to help every woman feel confident, balanced and
               radiant in her own skin, at every stage of her life.
             </p>
+            </FadeInWhenVisible>
           </div>
-          <img
-            src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-            alt=""
-            fetchpriority="high"
-          />
+          <RevealImage className="aspect-video w-full">
+            <img
+                src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                alt=""
+                fetchpriority="high"
+                className="w-full h-full object-cover"
+            />
+          </RevealImage>
         </section>
 
         <section className="py-16 px-4 md:px-8">
@@ -396,7 +410,7 @@ export default function About() {
             {/* Content */}
             <div className="space-y-24">
               {Object.entries(pathwaysMap).map(([key, pathway]) => (
-                <motion.div
+                <div
                   // initial={{ opacity: 0 }}
                   // whileInView={{ opacity: 1 }}
                   // viewport={{ amount: 0.9, once: false }}
@@ -409,26 +423,28 @@ export default function About() {
                   <div className="relative hidden md:flex justify-center md:justify-start">
                     {/* Background decorative element */}
                     <div className="absolute bottom-10 left-10 w-3/4 max-w-xs h-full">
+                        <RevealImage className="w-full h-full">
                       <img
                         src="/assets/img/ui/accent.webp"
                         alt="Decorative shadow"
                         className="w-full h-full object-cover"
                       />
+                      </RevealImage>
                     </div>
 
                     {/* Main Image */}
-                    <div className="relative rounded-t-full overflow-hidden shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
+                    <RevealImage className="relative rounded-t-full shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
                       <img
                         src={pathway.image}
                         alt={pathway.title}
                         className="w-full h-full object-cover transition-opacity duration-500"
                         loading="lazy"
                       />
-                    </div>
+                    </RevealImage>
                   </div>
 
                   {/* Right Content */}
-                  <div>
+                  <FadeInWhenVisible>
                     <h3 className="text-3xl md:text-4xl font-serif text-base-content mb-4 leading-tight">
                       {pathway.title}
                     </h3>
@@ -464,8 +480,8 @@ export default function About() {
                     >
                       Explore
                     </Link>
-                  </div>
-                </motion.div>
+                  </FadeInWhenVisible>
+                </div>
               ))}
             </div>
 
@@ -506,21 +522,27 @@ export default function About() {
               </ul>
             </div>
             <div className="w-full mt-16 relative flex items-center justify-center">
-              <img
-                src="/assets/img/ui/accent.webp"
-                alt="Women at every stage"
-                className="w-full max-w-sm object-cover aspect-square"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
-                alt="Women at every stage"
-                className="absolute w-full max-w-xs object-cover aspect-square top-20 left-8"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
-                alt="Women at every stage"
-                className="hidden md:absolute w-full max-w-xs object-cover aspect-square bottom-20 right-8"
-              />
+              <RevealImage className="w-full max-w-sm aspect-square">
+                <img
+                    src="/assets/img/ui/accent.webp"
+                    alt="Women at every stage"
+                    className="w-full h-full object-cover"
+                />
+              </RevealImage>
+              <RevealImage className="absolute w-full max-w-xs aspect-square top-20 left-8">
+                <img
+                    src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
+                    alt="Women at every stage"
+                    className="w-full h-full object-cover"
+                />
+              </RevealImage>
+              <RevealImage className="hidden md:block absolute w-full max-w-xs aspect-square bottom-20 right-8">
+                <img
+                    src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
+                    alt="Women at every stage"
+                    className="w-full h-full object-cover"
+                />
+              </RevealImage>
             </div>
           </div>
         </section>

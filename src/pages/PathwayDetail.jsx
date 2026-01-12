@@ -4,6 +4,8 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import { getPathway } from '../data/pageContents/pathways/pathways';
 import { getTreatmentUrl } from '../data/crosslinks';
 import { Check, ArrowRight } from 'lucide-react';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
 
 export default function PathwayDetail() {
   const { id, category } = useParams();
@@ -26,7 +28,7 @@ export default function PathwayDetail() {
 
         {/* Hero Section */}
         <section className="relative min-h-[85vh] flex items-center">
-             <div className="absolute inset-0 z-0">
+             <RevealImage className="absolute inset-0 z-0 w-full h-full">
                 <img
                   src={pathway.image}
                   alt={pathway.title}
@@ -34,20 +36,29 @@ export default function PathwayDetail() {
                   fetchpriority="high"
                 />
                  <div className="absolute inset-0 bg-black/30"></div>
-              </div>
+              </RevealImage>
 
              <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full">
                 <div className="max-w-3xl text-white">
+                    <HeroText>
                     <span className="inline-block px-4 py-1 mb-6 border border-white/30 rounded-full bg-white/10 backdrop-blur-sm text-sm font-bold tracking-widest uppercase">
                         The {pathway.title} Pathway
                     </span>
+                    </HeroText>
+                    
                     <h1 
                         className="text-4xl md:text-6xl font-serif mb-6 leading-tight"
-                        dangerouslySetInnerHTML={{ __html: typeof pathway.heading === 'function' ? pathway.heading() : pathway.heading }}
-                    />
-                     <p className="text-xl md:text-2xl font-light text-white/90 leading-relaxed">
+                    >
+                    <HeroText delay={0.2}>
+                        <span dangerouslySetInnerHTML={{ __html: typeof pathway.heading === 'function' ? pathway.heading() : pathway.heading }} />
+                    </HeroText>
+                    </h1>
+                     
+                    <div className="text-xl md:text-2xl font-light text-white/90 leading-relaxed">
+                        <HeroText delay={0.4}>
                         {pathway.subtitle}
-                    </p>
+                        </HeroText>
+                    </div>
                 </div>
              </div>
         </section>

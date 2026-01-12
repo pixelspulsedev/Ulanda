@@ -3,6 +3,9 @@ import { Head } from 'vite-react-ssg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { homeFaqs } from '../data/faqs';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('refresh');
@@ -157,7 +160,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen">
-        <div className="absolute inset-0 w-full h-full">
+        <RevealImage className="absolute inset-0 w-full h-full">
           <img
             src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
             alt="Ulanda Hero Background"
@@ -166,24 +169,29 @@ export default function Home() {
             decoding="sync"
           />
           <div className="absolute inset-0 bg-black/50"></div>
-        </div>
+        </RevealImage>
 
         <div className="relative z-10 hero min-h-screen">
           <div className="hero-content text-neutral-content text-left w-full justify-start px-4 md:px-20">
             <div className="max-w-2xl">
             <h1 className="mb-5 font-medium text-3xl md:text-5xl xl:text-6xl font-serif leading-tight text-white">
+              <HeroText>
               Where{' '}
               <span className="italic font-extralight">
                 Skin, Hormones & <br />
                 Wellness
               </span>{' '}
               Come Together
+              </HeroText>
             </h1>
-            <p className="mb-4 font-sans text-white">
+            <div className="mb-4 font-sans text-white">
+              <HeroText delay={0.2}>
               For women navigating postpartum changes, perimenopause transitions
               and the menopause journey.
-            </p>
-            <p className="mb-4 text-base font-sans font-light text-white/80 max-w-xl">
+              </HeroText>
+            </div>
+            <div className="mb-4 text-base font-sans font-light text-white/80 max-w-xl">
+              <HeroText delay={0.4}>
               At ULANDA, we create personalised aesthetic and wellness pathways
               that help your skin look brighter, firmer and more radiant — while
               supporting your inner balance and confidence.
@@ -192,8 +200,11 @@ export default function Home() {
                 Natural results. Personalised care. Regeneration that works with
                 your body.
               </span>
-            </p>
-            <button className="btn btn-primary">Book Your Consultation</button>
+              </HeroText>
+            </div>
+            <FadeInWhenVisible delay={0.6}>
+              <button className="btn btn-primary">Book Your Consultation</button>
+            </FadeInWhenVisible>
           </div>
         </div>
       </div>
@@ -208,7 +219,7 @@ export default function Home() {
         </div>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
-          <div className="order-2 md:order-1">
+          <FadeInWhenVisible className="order-2 md:order-1">
             <div className="hidden md:inline-block px-4 py-1 mb-8 border border-primary/30 rounded-full bg-secondary/30">
               <span className="text-xs font-bold tracking-widest text-primary uppercase">
                 Our Approach
@@ -268,28 +279,28 @@ export default function Home() {
               We help you glow today while supporting the deeper systems that
               keep your skin healthy long-term.
             </p>
-          </div>
+          </FadeInWhenVisible>
 
           {/* Right Image */}
           <div className="relative order-1 md:order-2 flex justify-center">
             {/* Background decorative element (Accent Image) */}
-            <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
+            <RevealImage className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
               <img
                 src="/assets/img/ui/accent.webp"
                 alt="Decorative shadow"
                 className="w-full h-full object-cover opacity-60 mix-blend-multiply"
               />
-            </div>
+            </RevealImage>
 
-            {/* Main Image */}80
-            <div className="relative rounded-t-full overflow-hidden w-full max-w-xs max-h-xs aspect-[3/4]">
+            {/* Main Image */}
+            <RevealImage className="relative rounded-t-full w-full max-w-xs max-h-xs aspect-[3/4]">
               <img
                 src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
                 alt="Facial treatment"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
-            </div>
+            </RevealImage>
           </div>
         </div>
       </section>
@@ -298,7 +309,7 @@ export default function Home() {
       <section className="py-24 px-4 md:px-8 bg-base-100">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <div className="mb-16 flex items-center justify-between">
+          <FadeInWhenVisible className="mb-16 flex items-center justify-between">
             <div>
               <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-6">
                 The{' '}
@@ -321,7 +332,7 @@ export default function Home() {
                 Learn More About Our Pathways
               </Link>
             </div>
-          </div>
+          </FadeInWhenVisible>
 
           {/* Tabs */}
           <div className="sticky top-16 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
@@ -374,26 +385,28 @@ export default function Home() {
                 <div className="relative hidden md:flex justify-center md:justify-start">
                   {/* Background decorative element */}
                   <div className="absolute bottom-10 left-10 w-3/4 max-w-xs h-full">
-                    <img
-                      src="/assets/img/ui/accent.webp"
-                      alt="Decorative shadow"
-                      className="w-full h-full object-cover"
-                    />
+                    <RevealImage className="w-full h-full">
+                        <img
+                        src="/assets/img/ui/accent.webp"
+                        alt="Decorative shadow"
+                        className="w-full h-full object-cover"
+                        />
+                    </RevealImage>
                   </div>
 
                   {/* Main Image */}
-                  <div className="relative rounded-t-full overflow-hidden shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
+                  <RevealImage className="relative rounded-t-full shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
                     <img
                       src={pathway.image}
                       alt={pathway.title}
                       className="w-full h-full object-cover transition-opacity duration-500"
                       loading="lazy"
                     />
-                  </div>
+                  </RevealImage>
                 </div>
 
                 {/* Right Content */}
-                <div>
+                <FadeInWhenVisible>
                   <h3 className="text-3xl md:text-4xl font-serif text-base-content mb-4 leading-tight">
                     {pathway.title}
                   </h3>
@@ -428,7 +441,7 @@ export default function Home() {
                   >
                     Explore
                   </Link>
-                </div>
+                </FadeInWhenVisible>
               </motion.div>
             ))}
           </div>
@@ -460,12 +473,14 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Card 1: Postpartum */}
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
+              <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop"
                 alt="Postpartum Women"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
+              </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 text-white">
                 <h3 className="text-2xl font-sans font-medium mb-2">
@@ -480,12 +495,14 @@ export default function Home() {
 
             {/* Card 2: Perimenopausal */}
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
+              <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="https://images.unsplash.com/photo-1588510904409-47e2f767540d?q=80&w=1887&auto=format&fit=crop"
                 alt="Perimenopausal Women"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
+              </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 text-white">
                 <h3 className="text-2xl font-sans font-medium mb-2">
@@ -500,12 +517,14 @@ export default function Home() {
 
             {/* Card 3: Menopausal */}
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
+              <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="https://images.unsplash.com/photo-1551847677-dc82d764e1eb?q=80&w=2070&auto=format&fit=crop"
                 alt="Menopausal Women"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
+              </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 text-white">
                 <h3 className="text-2xl font-sans font-medium mb-2">
@@ -548,12 +567,14 @@ export default function Home() {
               to="/programmes/menopause-regeneration"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
+              <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
                 alt="12-Week Menopause Regeneration Plan"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
+              </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
@@ -567,12 +588,14 @@ export default function Home() {
               to="/programmes/under-eye-regeneration"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
+              <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
                 alt="Under-Eye Regeneration Blueprint"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
+              </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
@@ -586,12 +609,14 @@ export default function Home() {
               to="/programmes/collagen-reset"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
+              <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="https://images.unsplash.com/photo-1601412436009-d964bd02edbc?q=80&w=1964&auto=format&fit=crop"
                 alt="Collagen Reset Journey"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
+              </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
@@ -605,12 +630,14 @@ export default function Home() {
               to="/programmes/hormone-smart-skin"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
+              <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
                 alt="Radiate Hormone-Smart Skin Programme"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
+              </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
@@ -624,12 +651,14 @@ export default function Home() {
               to="/programmes/shape-and-regenerate"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
+              <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=2070&auto=format&fit=crop"
                 alt="ULANDA Shape & Regenerate™"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
+              </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
@@ -769,7 +798,7 @@ export default function Home() {
       <section className="py-24 px-4 md:px-8 bg-base-100">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
           {/* Left Content */}
-          <div className="order-1 ">
+          <FadeInWhenVisible className="order-1 ">
             <div className="inline-block px-8 py-2 rounded-full border bg-secondary border-primary/30 text-primary text-sm font-bold tracking-wider mb-8 uppercase">
               About Ulanda
             </div>
@@ -816,18 +845,20 @@ export default function Home() {
             >
               Meet Helen
             </button>
-          </div>
+          </FadeInWhenVisible>
 
           {/* Right Image */}
           <div className="relative flex justify-center order-2">
             {/* Arch Container */}
-            <img
-              src="assets/img/home/ulanda-helen-balogun-founder-ware.webp"
-              alt=""
-              width="384"
-              height="500"
-              className="max-w-sm"
-            />
+            <RevealImage className="max-w-sm aspect-[3/4] w-full">
+                <img
+                src="assets/img/home/ulanda-helen-balogun-founder-ware.webp"
+                alt=""
+                width="384"
+                height="500"
+                className="w-full h-full object-cover"
+                />
+            </RevealImage>
           </div>
         </div>
         <button

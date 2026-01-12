@@ -1,4 +1,5 @@
 import { Head } from 'vite-react-ssg';
+import { HeroText, FadeInWhenVisible } from '../components/animations';
 
 export default function Disclaimer() {
   return (
@@ -7,10 +8,12 @@ export default function Disclaimer() {
         <title>Website Disclaimer - ULANDA MedSpa</title>
       </Head>
       
-      <h1 className="text-4xl md:text-5xl font-light mb-8 font-serif">Website Disclaimer (Medical & Spa Services)</h1>
-      <p className="text-gray-600 mb-8">Effective Date: 11/01/2026</p>
+      <HeroText>
+        <h1 className="text-4xl md:text-5xl font-light mb-8 font-serif">Website Disclaimer (Medical & Spa Services)</h1>
+        <p className="text-gray-600 mb-8">Effective Date: 11/01/2026</p>
+      </HeroText>
 
-      <div className="prose prose-lg max-w-none text-gray-700 space-y-8">
+      <FadeInWhenVisible className="prose prose-lg max-w-none text-gray-700 space-y-8">
         <p>
           The content on <a href="https://www.ulanda.co.uk" className="text-primary hover:underline">www.ulanda.co.uk</a> (the “Website”) is for informational purposes only and is not intended to be a substitute for professional medical advice, diagnosis, or treatment.
         </p>
@@ -70,7 +73,7 @@ export default function Disclaimer() {
             <p><a href="tel:+447904336031" className="text-primary hover:underline">+44 7904 336 031</a></p>
           </div>
         </section>
-      </div>
+      </FadeInWhenVisible>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
+import { HeroText, FadeInWhenVisible } from '../components/animations';
 
 export default function TermsOfUse() {
   return (
@@ -8,10 +9,12 @@ export default function TermsOfUse() {
         <title>Terms of Use - ULANDA MedSpa</title>
       </Head>
       
-      <h1 className="text-4xl md:text-5xl font-light mb-8 font-serif">Terms of Use</h1>
-      <p className="text-gray-600 mb-8">Effective Date: 11/01/2026</p>
+      <HeroText>
+        <h1 className="text-4xl md:text-5xl font-light mb-8 font-serif">Terms of Use</h1>
+        <p className="text-gray-600 mb-8">Effective Date: 11/01/2026</p>
+      </HeroText>
 
-      <div className="prose prose-lg max-w-none text-gray-700 space-y-8">
+      <FadeInWhenVisible className="prose prose-lg max-w-none text-gray-700 space-y-8">
         <p>
           Welcome to ULANDA MedSpa (“we,” “our,” or “us”). By accessing or using our website – <a href="https://www.ulanda.co.uk" className="text-primary hover:underline">www.ulanda.co.uk</a> (the “Website”), you agree to comply with and be bound by these Terms of Use. If you do not agree with these terms, please do not use the Website.
         </p>
@@ -125,7 +128,7 @@ export default function TermsOfUse() {
             <p><a href="tel:+447904336031" className="text-primary hover:underline">+44 7904 336 031</a></p>
           </div>
         </section>
-      </div>
+      </FadeInWhenVisible>
     </div>
   );
 }

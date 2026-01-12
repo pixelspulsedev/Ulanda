@@ -5,6 +5,9 @@ import { getConditionsForProgramme, getTreatmentsForProgramme, getConditionUrl, 
 import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedTreatments from '../components/RelatedTreatments';
 import RelatedConditions from '../components/RelatedConditions';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function ProgrammeDetail() {
   const { id } = useParams();
@@ -29,7 +32,7 @@ export default function ProgrammeDetail() {
         <Breadcrumbs />
         {/* Hero Section */}
         <section className="relative min-h-[85vh] flex items-center">
-          <div className="absolute inset-0 w-full h-full">
+          <RevealImage className="absolute inset-0 w-full h-full">
             <img 
               src={summary.image} 
               alt={title} 
@@ -37,21 +40,31 @@ export default function ProgrammeDetail() {
               fetchpriority="high"
             />
             <div className="absolute inset-0 bg-black/60"></div>
-          </div>
+          </RevealImage>
           
           <div className="relative z-10 w-full px-4 md:px-20 py-20 text-neutral-content text-left">
             <div className="max-w-3xl">
               <h1 className="mb-4 text-3xl md:text-5xl font-serif font-semibold text-white">
+                <HeroText>
                 {title}
+                </HeroText>
               </h1>
 
-              <p className="mb-4 font-sans italic text-white/90">{subtitle}</p>
-              <p className="mb-8 text-lg font-sans font-light text-white/80 max-w-xl">
+              <div className="mb-4 font-sans italic text-white/90">
+                <HeroText delay={0.2}>
+                {subtitle}
+                </HeroText>
+              </div>
+              <div className="mb-8 text-lg font-sans font-light text-white/80 max-w-xl">
+                <HeroText delay={0.4}>
                 {summary.description}
-              </p>
+                </HeroText>
+              </div>
+              <FadeInWhenVisible delay={0.6}>
               <button className="btn btn-primary text-white border-none">
                 Book Consultation
               </button>
+              </FadeInWhenVisible>
             </div>
           </div>
         </section>
@@ -81,20 +94,22 @@ export default function ProgrammeDetail() {
                 {/* Right Image */}
               <div className="relative md:hidden flex justify-center my-8">
                 <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
+                  <RevealImage className="w-full h-full">
                   <img
                     src="/assets/img/ui/accent.webp"
                     alt="Decorative shadow"
                     className="w-full h-full object-cover"
                   />
+                  </RevealImage>
                 </div>
                 {/* Arch Image */}
-                <div className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
+                <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
                   <img
                     src={content.whoIsItFor.image || "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"}
                     alt="Who is it for"
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </RevealImage>
               </div>
                 <div>
                   <ul className="space-y-2 text-base md:text-lg font-sans font-light text-base-content/90">
@@ -110,20 +125,22 @@ export default function ProgrammeDetail() {
               {/* Right Image */}
               <div className="relative hidden md:flex justify-center">
                 <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
+                  <RevealImage className="w-full h-full">
                   <img
                     src="/assets/img/ui/accent.webp"
                     alt="Decorative shadow"
                     className="w-full h-full object-cover"
                   />
+                  </RevealImage>
                 </div>
                 {/* Arch Image */}
-                <div className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
+                <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
                   <img
                     src={content.whoIsItFor.image || "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"}
                     alt="Who is it for"
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </RevealImage>
               </div>
             </div>
           </section>
@@ -174,12 +191,14 @@ export default function ProgrammeDetail() {
                     to={`/pathways/${pillar.name.toLowerCase()}`}
                     className="group relative h-[300px] overflow-hidden cursor-pointer block"
                   >
+                    <RevealImage className="absolute inset-0 w-full h-full">
                     <img
                       src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop"
                       alt={pillar.name}
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                       loading="lazy"
                     />
+                    </RevealImage>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
                     <div className="absolute bottom-0 left-0 p-8 text-white">
                       <h3 className="text-2xl font-sans font-medium mb-2">

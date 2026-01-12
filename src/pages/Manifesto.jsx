@@ -1,5 +1,6 @@
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
+import { HeroText, FadeInWhenVisible } from '../components/animations';
 
 const manifestoSections = [
   {
@@ -197,13 +198,15 @@ export default function Manifesto() {
           {/* <div className="inline-block px-8 py-2 rounded-full border bg-secondary border-primary/30 text-primary text-sm font-bold tracking-wider mb-4 uppercase">
             Brand Manifesto
           </div> */}
-          <h1 className="text-3xl md:text-4xl font-serif leading-tight">
-            ULANDA —{' '}
-            <span className="italic text-primary">The Brand Manifesto</span>
-          </h1>
-          <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90 max-w-3xl">
-            Where regeneration becomes a woman’s birthright.
-          </p>
+          <HeroText>
+            <h1 className="text-3xl md:text-4xl font-serif leading-tight">
+              ULANDA —{' '}
+              <span className="italic text-primary">The Brand Manifesto</span>
+            </h1>
+            <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90 max-w-3xl">
+              Where regeneration becomes a woman’s birthright.
+            </p>
+          </HeroText>
         </section>
 
         {/* Manifesto Body */}
@@ -213,11 +216,13 @@ export default function Manifesto() {
 
             <div className="grid gap-6">
               {manifestoSections.map((section, idx) => (
-                <article key={idx} className="">
-                  <p className="text-base md:text-lg font-sans font-light leading-relaxed text-base-content/90">
-                    {section.text}
-                  </p>
-                </article>
+                <FadeInWhenVisible key={idx}>
+                  <article className="">
+                    <p className="text-base md:text-lg font-sans font-light leading-relaxed text-base-content/90">
+                      {section.text}
+                    </p>
+                  </article>
+                </FadeInWhenVisible>
               ))}
             </div>
           </div>
@@ -226,27 +231,31 @@ export default function Manifesto() {
         {/* Closing */}
         <section className="py-24 px-4 md:px-8 bg-primary">
           <div className="max-w-4xl mx-auto text-center space-y-6">
-            <p className="text-secondary italic font-serif text-3xl">ULANDA</p>
-            <div className="space-y-2 font-light text-xl md:text-2xl font-sans leading-relaxed text-secondary">
-              <p>Where science meets femininity.</p>
-              <p>Where regenerative care meets luxury.</p>
-              <p>Where women become themselves again.</p>
-            </div>
+            <FadeInWhenVisible>
+              <p className="text-secondary italic font-serif text-3xl">ULANDA</p>
+              <div className="space-y-2 font-light text-xl md:text-2xl font-sans leading-relaxed text-secondary">
+                <p>Where science meets femininity.</p>
+                <p>Where regenerative care meets luxury.</p>
+                <p>Where women become themselves again.</p>
+              </div>
+            </FadeInWhenVisible>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-40 px-4 md:px-8 bg-secondary">
           <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h2 className="text-3xl md:text-4xl font-serif leading-tight">
+            <HeroText className="text-3xl md:text-4xl font-serif leading-tight">
               Experience our <span className="font-light italic">clinical standard</span>
-            </h2>
-            <p className="text-base md:text-lg font-sans font-light text-base-content/90 leading-relaxed">
-              Your journey starts with a personalised consultation.
-            </p>
-            <button className="btn btn-primary text-white px-8 py-3 h-auto rounded-lg">
-              Book Your Consultation
-            </button>
+            </HeroText>
+            <FadeInWhenVisible>
+              <p className="text-base md:text-lg font-sans font-light text-base-content/90 leading-relaxed">
+                Your journey starts with a personalised consultation.
+              </p>
+              <button className="btn btn-primary text-white px-8 py-3 h-auto rounded-lg">
+                Book Your Consultation
+              </button>
+            </FadeInWhenVisible>
           </div>
         </section>
       </div>

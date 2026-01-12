@@ -3,6 +3,9 @@ import { useParams, Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { tools } from '../data/pageContents/tools/tools';
 import { Check, Clock, Shield, ChevronRight } from 'lucide-react';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function ToolDetail() {
   const { id } = useParams();
@@ -25,9 +28,19 @@ export default function ToolDetail() {
         {/* Hero Section */}
         <section className="relative py-16 md:py-24 px-4 md:px-8 bg-secondary">
           <div className="max-w-4xl mx-auto text-center">
+            <HeroText>
             <span className="text-sm font-bold tracking-widest uppercase text-stone-500 mb-4 block">Biostimulator</span>
-            <h1 className="text-4xl md:text-6xl font-serif mb-6 text-primary">{tool.title}</h1>
-            <p className="text-xl md:text-2xl font-light text-stone-600 italic mb-8 max-w-2xl mx-auto">{tool.subtitle}</p>
+            </HeroText>
+            <h1 className="text-4xl md:text-6xl font-serif mb-6 text-primary">
+            <HeroText delay={0.2}>
+            {tool.title}
+            </HeroText>
+            </h1>
+            <div className="text-xl md:text-2xl font-light text-stone-600 italic mb-8 max-w-2xl mx-auto">
+            <HeroText delay={0.4}>
+            {tool.subtitle}
+            </HeroText>
+            </div>
           </div>
         </section>
 

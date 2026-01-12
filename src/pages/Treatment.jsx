@@ -6,6 +6,9 @@ import { tools } from '../data/pageContents/tools/tools';
 import { getConditionsForTreatment, getConditionUrl } from '../data/crosslinks';
 import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedConditions from '../components/RelatedConditions';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 const SafetyIcon = ({ type }) => {
   switch (type) {
@@ -95,7 +98,8 @@ const Treatment = () => {
         <section className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-6">
-            <h1 className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
+            <div className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
+              <HeroText>
               {treatment.seoHeadings?.h1 ? (
                 treatment.seoHeadings.h1
               ) : (
@@ -107,20 +111,24 @@ const Treatment = () => {
                   {treatment.titleSuffix}
                 </>
               )}
-            </h1>
+              </HeroText>
+            </div>
 
             <div className="flex flex-wrap text-base-content/80 text-lg font-light tracking-wide">
               {treatment.benefits?.map((benefit, index) => (
                 <span key={index} className="flex items-center">
+                  <FadeInWhenVisible delay={index * 0.1}>
                   {benefit}
                   {index < (treatment.benefits?.length || 0) - 1 && (
                     <span className="mx-1">•</span>
                   )}
+                  </FadeInWhenVisible>
                 </span>
               ))}
             </div>
 
             <div className="flex flex-wrap font-extralight text-base-content/60 text-sm">
+              <FadeInWhenVisible delay={0.4}>
               {treatment.locations?.map((loc, index) => (
                 <span key={index} className="flex items-center">
                   {loc}
@@ -129,27 +137,30 @@ const Treatment = () => {
                   )}
                 </span>
               ))}
+              </FadeInWhenVisible>
             </div>
           </div>
 
           {/* Right Image */}
           <div className="relative flex justify-center">
             <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
+                <RevealImage className="w-full h-full">
               <img
                 src="/assets/img/ui/accent.webp"
                 alt="Decorative shadow"
                 className="w-full h-full object-cover"
               />
+              </RevealImage>
             </div>
             {/* Arch Image */}
-            <div className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
+            <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
               <img
                 src={treatment.image}
                 alt={`${treatment.title} ${treatment.highlight}`}
                 className="w-full h-full object-cover"
                 fetchpriority="high"
               />
-            </div>
+            </RevealImage>
           </div>
         </section>
 
@@ -200,11 +211,10 @@ const Treatment = () => {
         {treatment.introduction && (
           <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              {/* Left Content */}
-              <div className="space-y-6">
-                <h2 className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
-                  {treatment.introduction.title}
-                </h2>
+                <FadeInWhenVisible className="space-y-6">
+                    <h2 className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
+                    {treatment.introduction.title}
+                    </h2>
 
                 <div className="space-y-4 text-base-content/80 leading-relaxed">
                   {treatment.introduction.content?.map((paragraph, idx) => (
@@ -217,18 +227,18 @@ const Treatment = () => {
                     ))}
                   </ul>
                 </div>
-              </div>
+              </FadeInWhenVisible>
 
               {/* Right Content - Image with Overlay */}
               <div className="relative mt-8 md:mt-0 flex justify-end">
                 {/* Image Container */}
-                <div className="w-full max-w-sm aspect-[4/5] relative z-0">
+                <RevealImage className="w-full max-w-sm aspect-[4/5] relative z-0">
                   <img
                     src={treatment.introduction.image}
                     alt="Treatment Introduction"
                     className="w-full h-full object-cover rounded-sm"
                   />
-                </div>
+                </RevealImage>
 
                 {/* Overlay Box */}
                 <div className="absolute top-1/2 left-0 -translate-y-1/2 w-3/5 bg-secondary/46 backdrop-blur-xl p-6 md:p-8 z-10">
@@ -264,11 +274,13 @@ const Treatment = () => {
               {/* Left Content - Image with Text Overlay */}
               <div className="relative w-full">
                 {/* Background Image */}
+                <RevealImage className="w-full h-full">
                 <img
                   src={treatment.internalSupport.image}
                   alt="Background"
                   className="w-full h-full object-cover aspect-square md:aspect-square max-w-sm"
                 />
+                </RevealImage>
 
                 {/* Overlay Text Box */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-secondary/60 backdrop-blur-xl p-8 md:p-12 text-center w-3/4 ">
@@ -439,18 +451,22 @@ const Treatment = () => {
                           <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
                           <div className="relative w-full max-w-xs aspect-[4/5]">
                             <div className="absolute top-20 right-20 w-full h-full z-0">
+                              <RevealImage className="w-full h-full">
                               <img
                                 src="/assets/img/ui/accent.webp"
                                 alt="Decorative shadow"
                                 className="w-full h-full object-cover"
                               />
+                              </RevealImage>
                             </div>
                             <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                              <RevealImage className="w-full h-full">
                               <img
                                 src={section.image}
                                 alt={section.title}
                                 className="w-full h-full object-cover"
                               />
+                              </RevealImage>
                             </div>
                           </div>
                         </div>
@@ -535,19 +551,23 @@ const Treatment = () => {
                               : 'left-10 lg:left-20'
                           } w-full h-full z-0`}
                         >
+                          <RevealImage className="w-full h-full">
                           <img
                             src="/assets/img/ui/accent.webp"
                             alt="Decorative shadow"
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
 
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                          <RevealImage className="w-full h-full">
                           <img
                             src={section.image}
                             alt={section.title}
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
                       </div>
                     </div>
@@ -588,20 +608,22 @@ const Treatment = () => {
               {/* Right Image */}
               <div className="relative flex justify-center">
                 <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
+                  <RevealImage className="w-full h-full">
                   <img
                     src="/assets/img/ui/accent.webp"
                     alt="Decorative shadow"
                     className="w-full h-full object-cover"
                   />
+                  </RevealImage>
                 </div>
                 {/* Arch Image */}
-                <div className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
+                <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
                   <img
                     src={treatment.image}
                     alt={`${treatment.title} ${treatment.highlight}`}
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </RevealImage>
               </div>
             </div>
           </section>

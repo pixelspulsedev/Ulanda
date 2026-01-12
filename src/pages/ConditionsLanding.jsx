@@ -1,6 +1,9 @@
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function ConditionsLanding() {
   const categories = [
@@ -202,42 +205,52 @@ export default function ConditionsLanding() {
 
         {/* Hero Section */}
         <section className="relative min-h-[85vh] w-full flex items-center">
-          <div className="absolute inset-0 z-0">
+            <RevealImage className="absolute inset-0 z-0 w-full h-full">
             <img
               src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
               alt="Ulanda Conditions"
               className="w-full h-full object-cover brightness-75"
             />
             <div className="absolute inset-0 bg-black/30"></div>
-          </div>
+            </RevealImage>
 
           <div className=" relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-white text-start w-full">
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
+                <HeroText>
                 Conditions <span className="italic font-light">We Treat</span>
+                </HeroText>
               </h1>
 
-              <p className="text-xl md:text-2xl font-serif italic mb-8">
+              <div className="text-xl md:text-2xl font-serif italic mb-8">
+                <HeroText delay={0.2}>
                 A regenerative approach to women’s skin, structure and internal
                 wellness.
-              </p>
+                </HeroText>
+              </div>
 
               <div className="space-y-4 text-lg font-sans font-light text-white/90 leading-relaxed mx-auto">
+                <HeroText delay={0.4}>
                 <p>
                   At ULANDA, we don’t treat symptoms in isolation — we treat the
                   whole woman.
                 </p>
+                </HeroText>
+                <HeroText delay={0.5}>
                 <p>
                   Every condition is assessed through the lens of regenerative
                   aesthetics, hormone-aware physiology and internal wellness so
                   we can address the root cause of the concern, not just the
                   surface.
                 </p>
+                </HeroText>
+                <HeroText delay={0.6}>
                 <p>
                   Whether you’re experiencing menopause-related skin changes,
                   texture concerns, under-eye issues or low energy, our approach
                   is precise, personalised and medically led.
                 </p>
+                </HeroText>
               </div>
             </div>
           </div>
@@ -267,7 +280,7 @@ export default function ConditionsLanding() {
                     } gap-12 md:gap-16 items-center justify-center`}
                   >
                     {/* Content Side */}
-                    <div className="flex-1 flex justify-center w-full max-w-3xl">
+                    <FadeInWhenVisible className="flex-1 flex justify-center w-full max-w-3xl">
                       <div className="w-full px-4 md:px-0">
                         <div className="flex items-center gap-3 mb-6">
                           {/* <span className="text-2xl">{cat.dot}</span> */}
@@ -295,6 +308,7 @@ export default function ConditionsLanding() {
 
                         <div className="md:hidden flex-1 w-full max-w-sm mx-auto relative flex justify-center mb-16 md:mt-0">
                           {/* Decorative Background Element */}
+                          <RevealImage className="w-full h-full">
                           <div
                             className={`absolute top-12 ${
                               isEven
@@ -332,6 +346,7 @@ export default function ConditionsLanding() {
                               />
                             </div>
                           </div>
+                          </RevealImage>
                         </div>
 
                         {/* Lists Container - Styled to fit naturally in text block */}
@@ -386,11 +401,12 @@ export default function ConditionsLanding() {
                           {cat.linkText}
                         </button>
                       </div>
-                    </div>
+                    </FadeInWhenVisible>
 
                     {/* Image Side */}
                     <div className="hidden flex-1 w-full max-w-sm relative md:flex justify-center mt-8 md:mt-0">
                       {/* Decorative Background Element */}
+                      <RevealImage className="w-full h-full">
                       <div
                         className={`absolute top-12 ${
                           isEven
@@ -398,7 +414,7 @@ export default function ConditionsLanding() {
                             : '-right-8 md:-right-12'
                         } w-3/4 h-full -z-10 bg-primary/5 rounded-3xl`}
                       ></div>
-
+                      
                       <div className="relative w-full max-w-sm aspect-[4/5]">
                         {/* Accent / shadow image (background) */}
                         <div
@@ -427,6 +443,7 @@ export default function ConditionsLanding() {
                           />
                         </div>
                       </div>
+                      </RevealImage>
                     </div>
                   </div>
                 </section>
@@ -435,9 +452,9 @@ export default function ConditionsLanding() {
           </div>
         </section>
 
-        {/* Simple Usage Section */}
-        <section className="bg-primary/5 py-20 px-4 md:px-8">
-          <div className="max-w-4xl mx-auto text-center">
+        {/* Guidance Section */}
+        <section className="max-w-4xl mx-auto px-6 py-12 md:py-20 text-center">
+        <FadeInWhenVisible className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-serif mb-8 text-base-content">
               The Ultra Simple way{' '}
               <span className="italic font-light">Use This Page</span>
@@ -470,7 +487,7 @@ export default function ConditionsLanding() {
                 analysis, hormonal stage assessment and your personal goals.
               </p>
             </div>
-          </div>
+          </FadeInWhenVisible>
         </section>
 
         <section className="py-32 px-4 md:px-8 bg-secondary text-primary text-center">

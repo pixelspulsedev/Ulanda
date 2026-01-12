@@ -7,6 +7,9 @@ import { getTreatmentsForCondition, getTreatmentUrl } from '../data/crosslinks';
 import Conditions from './Conditions';
 import { ChevronRight } from 'lucide-react';
 import RelatedTreatments from '../components/RelatedTreatments';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function ConditionDetail() {
   const { id, category } = useParams();
@@ -43,41 +46,49 @@ export default function ConditionDetail() {
             {/* Text Content */}
             <div className="flex-1 max-w-2xl">
               <h1 className="text-3xl md:text-5xl font-serif leading-tight mb-6 text-[#2A2A2A]">
+                <HeroText>
                 <span className="italic font-light text-primary">
                   {condition.hero.title.split(' ')[0]}
                 </span>{' '}
                 {condition.hero.title.split(' ').slice(1).join(' ')}{' '}
                 {condition.hero.highlight}
+                </HeroText>
               </h1>
 
-              <p className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed">
+              <div className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed">
+                <HeroText delay={0.2}>
                 {condition.hero.description}
-              </p>
+                </HeroText>
+              </div>
 
+              <FadeInWhenVisible delay={0.4}>
               <button className="btn btn-primary">
                 {condition.hero.buttonText}
               </button>
+              </FadeInWhenVisible>
             </div>
 
             {/* Image Content */}
             <div className="flex-1 relative w-full flex justify-center md:justify-end">
               <div className="relative w-full max-w-sm aspect-[4/5]">
                 <div className="absolute top-20 right-20 w-full h-full z-0">
+                  <RevealImage delay={0.2} className="w-full h-full">
                   <img
                     src="/assets/img/ui/accent.webp"
                     alt="Decorative shadow"
                     className="w-full h-full  object-cover"
                   />
+                  </RevealImage>
                 </div>
                 {/* Main image */}
-                <div className="relative z-10 w-full h-full overflow-hidden">
+                <RevealImage className="relative z-10 w-full h-full overflow-hidden">
                   <img
                     src={condition.hero.image}
                     alt={`${condition.hero.title} ${condition.hero.highlight}`}
                     className="w-full h-full object-cover"
                     fetchpriority="high"
                   />
-                </div>
+                </RevealImage>
               </div>
             </div>
           </div>
@@ -155,18 +166,22 @@ export default function ConditionDetail() {
                       <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
                       <div className="relative w-full max-w-sm aspect-[4/5]">
                         <div className="absolute top-20 right-20 w-full h-full z-0">
+                          <RevealImage className="w-full h-full">
                           <img
                             src="/assets/img/ui/accent.webp"
                             alt="Decorative shadow"
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                          <RevealImage className="w-full h-full">
                           <img
                             src={section.image}
                             alt={section.title}
                             className="w-full h-full object-cover"
                           />
+                          </RevealImage>
                         </div>
                       </div>
                     </div>
@@ -256,19 +271,23 @@ export default function ConditionDetail() {
                           : 'left-10 lg:left-20'
                       } w-full h-full z-0`}
                     >
+                      <RevealImage className="w-full h-full">
                       <img
                         src="/assets/img/ui/accent.webp"
                         alt="Decorative shadow"
                         className="w-full h-full object-cover"
                       />
+                      </RevealImage>
                     </div>
 
                     <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                      <RevealImage className="w-full h-full">
                       <img
                         src={section.image}
                         alt={section.title}
                         className="w-full h-full object-cover"
                       />
+                      </RevealImage>
                     </div>
                   </div>
                 </div>
@@ -334,20 +353,24 @@ export default function ConditionDetail() {
               <div className="relative w-full max-w-sm aspect-[4/5]">
                 {/* Accent / shadow image (background) */}
                 <div className="absolute -top-12 -right-12 w-full h-full z-0">
+                  <RevealImage className="w-full h-full">
                   <img
                     src="/assets/img/ui/accent.webp"
                     alt="Decorative shadow"
                     className="w-full h-full object-cover opacity-50"
                   />
+                  </RevealImage>
                 </div>
 
                 {/* Main image (foreground) */}
                 <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                  <RevealImage className="w-full h-full">
                   <img
                     src={condition.whyChoose.image}
                     alt="Why Choose ULANDA"
                     className="w-full h-full object-cover"
                   />
+                  </RevealImage>
                 </div>
               </div>
             </div>
