@@ -105,7 +105,7 @@ export default function Philosophy() {
       perfectFor:
         'Fine lines, thinning skin, early collagen loss, tired-looking eyes, long-term glow.',
       image:
-        'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop',
     },
     restore: {
       title: (
@@ -304,8 +304,10 @@ export default function Philosophy() {
               <div className="relative rounded-t-full overflow-hidden w-full max-w-xs max-h-xs aspect-[3/4]">
                 <RevealImage className="w-full h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
                     alt="Facial treatment"
+                    width="1200"
+                    height="1600"
                     className="w-full h-full object-cover"
                     loading="lazy"
                   />
@@ -432,7 +434,7 @@ export default function Philosophy() {
             </div>
 
             {/* Tabs */}
-            <div className="sticky pt-4 top-20 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
+            <div className="sticky pt-4 top-16 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
               <div className="flex items-center justify-between max-w-7xl mx-auto">
                 {Object.keys(pathwaysMap).map((key) => (
                   <button

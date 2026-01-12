@@ -25,4 +25,13 @@ export default defineConfig({
     script: 'async',
     formatting: 'minify',
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom', 'framer-motion'],
+        },
+      },
+    },
+  },
 })

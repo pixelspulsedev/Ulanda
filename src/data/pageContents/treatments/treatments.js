@@ -172,7 +172,7 @@ export const treatments = [
             "Enhancing hydration outcomes"
           ],
           conclusion: "The glow outside starts with nourishment inside.",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
         },
         {
           id: "3",

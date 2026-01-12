@@ -412,7 +412,7 @@ export const programmes = [
         'early folds forming (nasolabial, marionette)'
       ],
       includes: 'Biostimulators, Threads, Polynucleotides, Skin Boosters, LED, Medical Facials',
-      image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop',
     },
     content: {
       intro: [

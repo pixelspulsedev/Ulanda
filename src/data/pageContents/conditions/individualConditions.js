@@ -59,7 +59,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Hydration & Repair – CORE CATEGORY)",
           description: "These are the strongest treatments for dull skin:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
           points: [
             { name: "Skin Boosters (Profhilo, Definisse Hydrobooster, Seventy Hyal)", desc: "Intense, injectable hydration → instant glow + smoother texture." },
             { name: "Polynucleotides (PN)", desc: "Restores elasticity, reduces inflammation, repairs dullness at a cellular level." },
@@ -179,7 +179,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Collagen Activation — CORE CATEGORY)",
           description: "The most effective pore treatments regenerate the dermis:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
           points: [
             { name: "Microneedling", desc: "Stimulates collagen around the pores → reduces pore diameter." },
             { name: "RF Microneedling", desc: "Combines heat + collagen induction for maximum tightening." },
@@ -286,7 +286,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration)",
           description: "Core category for reversing fine lines:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improve elasticity and dermal density." },
             { name: "PRP", desc: "Collagen stimulation and repair." },
@@ -394,7 +394,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Reinforcement)",
           description: "Strengthens tissue to hold the lift:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves elasticity and collagen quality." },
             { name: "PRP", desc: "Boosts fibroblast activity and repair." },
@@ -489,7 +489,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration — CORE)",
           description: "Rebuilds thickness and resilience:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
           points: [
             { name: "Polynucleotides (PN)", desc: "Thickens dermis, improves elasticity, calms inflammation." },
             { name: "PRP", desc: "Stimulates fibroblasts for repair." },
@@ -609,7 +609,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration — CORE)",
           description: "Strengthens texture at the dermal level:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
           points: [
             { name: "Microneedling / RF Microneedling", desc: "Refines pores and remodels collagen." },
             { name: "Skin Boosters (Profhilo, Hydrobooster)", desc: "Hydration for smoother texture." },
@@ -715,7 +715,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Volume Support)",
           description: "Strengthens tissue to support structure:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves elasticity and dermal thickness." },
             { name: "PRP", desc: "Supports healing and fibroblast activity." },
@@ -812,7 +812,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular & Skin Quality)",
           description: "Strengthen building blocks first:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
           points: [
             { name: "Polynucleotides (PN Body)", desc: "Thickens thin skin; improves elasticity." },
             { name: "Microneedling / RF Microneedling", desc: "Tightens loose skin and smooths crepe lines." },

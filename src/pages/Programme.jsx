@@ -131,8 +131,10 @@ export default function Programme() {
               <div className="relative rounded-t-full overflow-hidden shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
                 <RevealImage className="w-full h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
                     alt="Facial treatment"
+                    width="1200"
+                    height="1600"
                     className="w-full h-full object-cover"
                     fetchpriority="high"
                   />
@@ -192,8 +194,10 @@ export default function Programme() {
             <div className="relative rounded-t-full overflow-hidden shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
               <RevealImage className="w-full h-full">
                 <img
-                  src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
                   alt="Facial treatment"
+                  width="1200"
+                  height="1600"
                   className="w-full h-full object-cover"
                   fetchpriority="high"
                 />

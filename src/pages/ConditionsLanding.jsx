@@ -207,8 +207,10 @@ export default function ConditionsLanding() {
         <section className="relative min-h-[85vh] w-full flex items-center">
             <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
               alt="Ulanda Conditions"
+              width="1200"
+              height="1600"
               className="w-full h-full object-cover brightness-75"
             />
             <div className="absolute inset-0 bg-black/30"></div>

@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Logo & Socials Column */}
           <div className="md:col-span-3 flex flex-col justify-between">
             <div className="mb-8">
-              <img src="/assets/img/ui/Logo.webp" alt="Ulanda" className="h-16 w-auto object-contain" />
+              <img src="/assets/img/ui/Logo.webp" alt="Ulanda" width="224" height="64" className="h-16 w-auto object-contain" />
               <div className="mt-6 space-y-2 text-sm text-base-content/80 font-sans">
                  <p>Uphaven, Hampden Hill</p>
                  <p>Ware, East Hertfordshire</p>

@@ -23,7 +23,7 @@ export const pathways = [
         heading: () => `Strengthen Your Skin <span class="italic ${typeof window !== 'undefined' && window.location.pathname === '/pathways' ? 'text-primary' : ''}">From Within</span>`,
         subtitle: "Boosts your skin’s natural ability to repair, firm and glow over time.",
         description: "The Renew pathway is about biological stimulation. We use advanced regenerative tools to wake up your fibroblasts, stimulating collagen, elastin, and hydration from within. This is for long-term skin quality and resilience.",
-        image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
         includes: [
             { name: 'Polynucleotides (PN)', linkId: 'polynucleotides' },
             { name: 'PRP', linkId: 'prp-skin-regeneration' },
