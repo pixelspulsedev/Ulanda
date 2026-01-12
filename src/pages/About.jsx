@@ -293,14 +293,14 @@ export default function About() {
             </p>
             </FadeInWhenVisible>
           </div>
-          <RevealImage className="aspect-video w-full">
+          <div className="aspect-video w-full overflow-hidden">
             <img
                 src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
                 alt=""
                 fetchpriority="high"
                 className="w-full h-full object-cover"
             />
-          </RevealImage>
+          </div>
         </section>
 
         <section className="py-16 px-4 md:px-8">

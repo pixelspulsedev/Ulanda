@@ -220,14 +220,14 @@ export default function Philosophy() {
               </p>
             </div>
           </FadeInWhenVisible>
-          <RevealImage className="aspect-video w-full">
+          <div className="aspect-video w-full overflow-hidden">
             <img
               src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
               alt=""
               fetchpriority="high"
               className="w-full h-full object-cover"
             />
-          </RevealImage>
+          </div>
         </section>
 
         {/* The ULANDA Way */}

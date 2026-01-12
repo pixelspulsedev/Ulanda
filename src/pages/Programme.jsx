@@ -56,7 +56,7 @@ export default function Programme() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen">
-        <RevealImage className="absolute inset-0 w-full h-full">
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
           <img
             src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
             alt="Ulanda Programme"
@@ -64,7 +64,7 @@ export default function Programme() {
             fetchpriority="high"
           />
           <div className="absolute inset-0 bg-black/50"></div>
-        </RevealImage>
+        </div>
         <div className="hero min-h-screen relative z-10">
           <div className="hero-content text-neutral-content text-left w-full justify-start px-4 md:px-20">
             <div className="max-w-2xl">

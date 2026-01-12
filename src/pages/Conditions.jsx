@@ -42,7 +42,7 @@ export default function Conditions() {
         {/* Hero Section */}
         <section className="relative min-h-[70vh] w-full flex items-center">
           {/* Background Image */}
-          <RevealImage className="absolute inset-0 z-0 w-full h-full">
+          <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
               src={condition.hero.image}
               alt={`${condition.hero.title} ${condition.hero.highlight}`}
@@ -50,7 +50,7 @@ export default function Conditions() {
               fetchpriority="high"
             />
             <div className="absolute inset-0 bg-black/30"></div>
-          </RevealImage>
+          </div>
 
           {/* Content */}
           <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-white w-full">

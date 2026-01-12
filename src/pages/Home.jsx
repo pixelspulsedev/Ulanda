@@ -160,7 +160,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen">
-        <RevealImage className="absolute inset-0 w-full h-full">
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
           <img
             src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
             alt="Ulanda Hero Background"
@@ -169,7 +169,7 @@ export default function Home() {
             decoding="sync"
           />
           <div className="absolute inset-0 bg-black/50"></div>
-        </RevealImage>
+        </div>
 
         <div className="relative z-10 hero min-h-screen">
           <div className="hero-content text-neutral-content text-left w-full justify-start px-4 md:px-20">
