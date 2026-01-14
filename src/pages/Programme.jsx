@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { Head } from 'vite-react-ssg';
 import { motion } from 'framer-motion';

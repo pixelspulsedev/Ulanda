@@ -1,3 +1,4 @@
+import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';

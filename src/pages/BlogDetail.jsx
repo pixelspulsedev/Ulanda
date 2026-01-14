@@ -1,3 +1,4 @@
+import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { useParams, Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
@@ -240,6 +241,14 @@ export default function BlogDetail() {
     return <div className="text-center py-20">Blog post not found</div>;
   }
 
+  // Handle multiple images
+  const displayImages = blog.images && blog.images.length > 0 
+    ? blog.images 
+    : (blog.heroImage ? [blog.heroImage] : []);
+  
+  const heroImage = displayImages[0];
+  const contentImages = displayImages.slice(1);
+
   // Resolve related treatments
   const relatedTreatments = blog.relatedTreatments
     ? blog.relatedTreatments.map((tid) => getTreatment(tid)).filter(Boolean)
@@ -280,13 +289,15 @@ export default function BlogDetail() {
 
             {/* Image Content */}
             <div className="flex-1 relative w-full flex justify-center md:justify-end">
-              <RevealImage delay={0.2} className="w-full h-full">
-                <img
-                  src={blog.heroImage}
-                  alt="Decorative shadow"
-                  className="aspect-video w-full h-full object-cover"
-                />
-              </RevealImage>
+              {heroImage && (
+                <RevealImage delay={0.2} className="w-full h-full">
+                  <img
+                    src={heroImage}
+                    alt={blog.title}
+                    className="aspect-video w-full h-full object-cover"
+                  />
+                </RevealImage>
+              )}
             </div>
           </div>
         </section>
@@ -294,9 +305,26 @@ export default function BlogDetail() {
         {/* Content Section */}
         <section className="py-6 px-4 md:px-8 max-w-5xl mx-auto">
           {blog.content.map((item, index) => (
-            <FadeInWhenVisible key={index} delay={index * 0.05} threshold={0.1}>
-              <BlogContent content={item} />
-            </FadeInWhenVisible>
+            <div key={index}>
+              <FadeInWhenVisible delay={index * 0.05} threshold={0.1}>
+                <BlogContent content={item} />
+              </FadeInWhenVisible>
+              
+              {/* Interleaved Image */}
+              {contentImages[index] && (
+                <FadeInWhenVisible delay={0.2} threshold={0.1}>
+                   <div className="my-12 w-full">
+                       <RevealImage className="w-full">
+                           <img
+                             src={contentImages[index]}
+                             alt={`Illustration`}
+                             className="w-full h-auto object-cover rounded-xl shadow-sm"
+                           />
+                       </RevealImage>
+                   </div>
+                </FadeInWhenVisible>
+              )}
+            </div>
           ))}
         </section>
 

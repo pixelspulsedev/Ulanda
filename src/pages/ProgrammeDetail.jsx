@@ -1,25 +1,32 @@
+import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Head } from 'vite-react-ssg';
-import { programmes } from '../data/pageContents/programmes/programmes';
-import { getConditionsForProgramme, getTreatmentsForProgramme, getConditionUrl, getTreatmentUrl } from '../data/crosslinks';
+import { getTreatment } from '../data/pageContents/treatments/treatments';
+import { getConditionsForProgramme, getTreatmentsForProgramme } from '../data/crosslinks';
 import Breadcrumbs from '../components/Breadcrumbs';
-import RelatedTreatments from '../components/RelatedTreatments';
 import RelatedConditions from '../components/RelatedConditions';
+import RelatedTreatments from '../components/RelatedTreatments';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function ProgrammeDetail() {
   const { id } = useParams();
-  const programme = programmes.find((p) => p.id === id);
+  // Programmes are now stored under treatments -> radiate -> programmes
+  const programme = getTreatment('radiate', 'programmes', id);
   const relatedConditions = getConditionsForProgramme(id);
   const relatedTreatments = getTreatmentsForProgramme(id);
 
   if (!programme) {
-    return <Navigate to="/programmes" replace />;
+    return <Navigate to="/treatments/radiate/programmes" replace />;
   }
 
-  const { title, subtitle, content, summary } = programme;
+  const { title, subtitle, content = {}, summary = {} } = programme;
+  const intro = content.intro || [];
+  const whoIsItFor = content.whoIsItFor || {};
+  const scientificContext = content.scientificContext;
+  const framework = content.framework;
+  const summaryImage = summary.image || '';
 
   return (
     <>
@@ -33,12 +40,14 @@ export default function ProgrammeDetail() {
         {/* Hero Section */}
         <section className="relative min-h-[85vh] flex items-center">
           <div className="absolute inset-0 w-full h-full overflow-hidden">
-            <img 
-              src={summary.image} 
-              alt={title} 
-              className="w-full h-full object-cover object-center"
-              fetchpriority="high"
-            />
+            {summaryImage && (
+              <img 
+                src={summaryImage} 
+                alt={title} 
+                className="w-full h-full object-cover object-center"
+                fetchpriority="high"
+              />
+            )}
             <div className="absolute inset-0 bg-black/60"></div>
           </div>
           
@@ -72,23 +81,23 @@ export default function ProgrammeDetail() {
         {/* Intro Section */}
         <section className="max-w-6xl mx-auto px-4 md:px-8 py-12 space-y-6">
           <div className="space-y-4 text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
-            {content.intro.map((paragraph, index) => (
+            {intro.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
           </div>
         </section>
 
         {/* Who Is It For */}
-        {content.whoIsItFor && (
+        {whoIsItFor.list && (
           <section className="py-16 grid  px-4 md:px-8 bg-secondary/40">
             <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="grid gap-4 items-start">
                 <div className="space-y-4">
                   <h2 className="text-2xl md:text-3xl font-serif">
-                    {content.whoIsItFor.title}
+                    {whoIsItFor.title}
                   </h2>
                   <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
-                    {content.whoIsItFor.note}
+                    {whoIsItFor.note}
                   </p>
                 </div>
                 {/* Right Image */}
@@ -105,7 +114,7 @@ export default function ProgrammeDetail() {
                 {/* Arch Image */}
                 <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
                   <img
-                    src={content.whoIsItFor.image || "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"}
+                    src={whoIsItFor.image || "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"}
                     alt="Who is it for"
                     className="w-full h-full object-cover"
                   />
@@ -113,7 +122,7 @@ export default function ProgrammeDetail() {
               </div>
                 <div>
                   <ul className="space-y-2 text-base md:text-lg font-sans font-light text-base-content/90">
-                    {content.whoIsItFor.list.map((item, index) => (
+                    {whoIsItFor.list.map((item, index) => (
                       <li key={index} className="flex items-start gap-3">
                         <span className="text-primary mt-1">•</span>
                         <span>{item}</span>
@@ -136,7 +145,7 @@ export default function ProgrammeDetail() {
                 {/* Arch Image */}
                 <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
                   <img
-                    src={content.whoIsItFor.image || "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"}
+                    src={whoIsItFor.image || "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"}
                     alt="Who is it for"
                     className="w-full h-full object-cover"
                   />
@@ -147,17 +156,17 @@ export default function ProgrammeDetail() {
         )}
 
         {/* Scientific Context */}
-        {content.scientificContext && (
+        {scientificContext && (
           <section className="py-16 px-4 md:px-8">
             <div className="max-w-4xl mx-auto space-y-6 text-center">
               <h2 className="text-2xl md:text-3xl font-serif">
-                {content.scientificContext.title}
+                {scientificContext.title}
               </h2>
               <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
-                {content.scientificContext.description}
+                {scientificContext.description}
               </p>
               <ul className="grid sm:grid-cols-2 gap-4 text-left max-w-2xl mx-auto">
-                {content.scientificContext.list.map((item, index) => (
+                {scientificContext.list.map((item, index) => (
                   <li key={index} className="flex items-center justify-center gap-3 bg-secondary p-3 rounded-full">
                     <span className="text-primary text-lg">!</span>
                     <span className="font-sans font-light text-primary">{item}</span>
@@ -165,30 +174,30 @@ export default function ProgrammeDetail() {
                 ))}
               </ul>
               <p className="font-medium text-primary italic pt-4">
-                {content.scientificContext.note}
+                {scientificContext.note}
               </p>
             </div>
           </section>
         )}
 
         {/* Framework */}
-        {content.framework && (
+        {framework && (
           <section className="py-16 px-4 md:px-8">
             <div className="max-w-6xl mx-auto space-y-8">
               <div className="space-y-4 max-w-3xl">
                 <h2 className="text-2xl md:text-3xl font-serif">
                   {/* <span className="text-primary">⭐</span>{' '} */}
-                  {content.framework.title}
+                  {framework.title}
                 </h2>
                 <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
-                  {content.framework.description}
+                  {framework.description}
                 </p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                {content.framework.pillars.map((pillar, index) => (
+                {framework.pillars.map((pillar, index) => (
                   <Link 
                     key={index}
-                    to={`/pathways/${pillar.name.toLowerCase()}`}
+                    to={`/treatments/${pillar.name.toLowerCase()}`}
                     className="group relative h-[300px] overflow-hidden cursor-pointer block"
                   >
                     <RevealImage className="absolute inset-0 w-full h-full">

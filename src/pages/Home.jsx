@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
@@ -556,7 +557,7 @@ export default function Home() {
               </p>
             </div>
             <Link
-              to="/programmes"
+              to="/treatments/radiate/programmes"
               className="btn hidden md:flex btn-primary text-white px-8 mt-6 md:mt-0"
             >
               Explore

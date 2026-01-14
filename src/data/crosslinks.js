@@ -1,3 +1,5 @@
+import { getAllTreatments } from './pageContents/treatments/treatments';
+
 // ═══════════════════════════════════════════════════════════════
 // ULANDA INTERNAL CROSSLINKING SYSTEM (2025)
 // Complete SEO-optimised internal linking architecture
@@ -1027,89 +1029,42 @@ export const getConditionUrl = (slug) => {
   return category ? `/conditions/${category}/${slug}` : `/conditions/${slug}`;
 };
 
+// Dynamic Lookup Cache for Treatments
+let treatmentLookupCache = null;
+
 export const getTreatmentUrl = (slug) => {
-  const treatmentCategories = {
-    // REFRESH (Skin Surface)
-    "regenerative-facial": "refresh",
-    "vital-glow-facial": "refresh",
-    "biorepeel": "refresh",
-    "chemical-peel": "refresh",
-    "enzyme-therapy": "refresh",
-    "led-light-therapy": "refresh",
-    "oxygen-vitamin-infusion-facial": "refresh",
-    "body-peels": "refresh",
+  if (!treatmentLookupCache) {
+    const treatments = getAllTreatments();
+    const lookup = {};
+    for (const [catId, cat] of Object.entries(treatments)) {
+      if (cat.subCategories) {
+        for (const [subId, sub] of Object.entries(cat.subCategories)) {
+          if (sub.treatments) {
+            for (const tId of Object.keys(sub.treatments)) {
+              lookup[tId] = { catId, subId };
+            }
+          }
+        }
+      }
+    }
+    treatmentLookupCache = lookup;
+  }
 
-    // RENEW (Cellular Regeneration)
-    "polynucleotides": "renew",
-    "prp-skin-regeneration": "renew",
-    "microneedling": "renew",
-    "rf-microneedling": "renew",
-    "profhilo": "renew",
-    "definisse-hydrobooster": "renew",
-    "seventy-hyal": "renew",
-    "lumi-eyes": "renew",
-    "jalupro": "renew",
-    "lemon-bottle": "renew",
-    "plenhyage": "renew",
-    "nucleofill": "renew",
-    "prp-under-eye": "renew",
-    "under-eye-regeneration-programme": "renew",
-    "pn-microneedling": "renew",
-    "prp-microneedling": "renew",
-    "pn-prp-combined": "renew",
-
-    // RESTORE (Structural Regeneration)
-    "sculptra": "restore",
-    "lanluma": "restore",
-    "ellanse": "restore",
-    "radiesse": "restore",
-    "definisse-bio": "restore",
-    "thread-lift": "restore",
-    "collagen-therapy": "restore",
-    "anti-wrinkle": "restore",
-    "dermal-fillers": "restore",
-    "jawline-contouring": "restore",
-    "body-tightening": "restore",
-    "body-contouring": "restore",
-    "biostimulators": "restore",
-    "threads-biostimulators": "restore",
-    "full-face-lift": "restore",
-    "neck-lower-face-lift": "restore",
-    "cellulite-regeneration": "restore",
-    "abdomen-tightening": "restore",
-
-    // RADIATE WELLNESS (Internal Regeneration)
-    "nad-iv": "radiate",
-    "energy-iv": "radiate",
-    "immunity-iv": "radiate",
-    "hydration-iv": "radiate",
-    "glutathione-iv": "radiate",
-    "womens-longevity-iv": "radiate",
-    "skin-glow-iv": "radiate",
-    "vitamin-d-im": "radiate",
-    "vitamin-b12-im": "radiate",
-    "nad-im": "radiate",
-    "glutathione-im": "radiate",
-    "medical-weight-management": "radiate",
-
-    // PROGRAMMES
-    "menopause-regeneration": "programmes",
-    "under-eye-regeneration": "programmes",
-    "collagen-reset": "programmes",
-    "hormone-smart-skin": "programmes",
-    "shape-and-regenerate": "programmes"
-  };
-
-  const category = treatmentCategories[slug];
-  
-  if (category === "programmes") {
-    return `/programmes/${slug}`;
+  const info = treatmentLookupCache[slug];
+  if (info) {
+    return `/treatments/${info.catId}/${info.subId}/${slug}`;
   }
   
-  return category ? `/treatments/${category}/${slug}` : `/treatments/${slug}`;
+  // Fallback for non-migrated or missing items
+  return `/treatments/other/other/${slug}`;
 };
 
-export const getProgrammeUrl = (slug) => `/programmes/${slug}`;
+export const getProgrammeUrl = (slug) => {
+   // Assuming programmes are under radiate/programmes (or check lookup)
+   const url = getTreatmentUrl(slug);
+   if (url && !url.includes('other/other')) return url;
+   return `/treatments/radiate/programmes/${slug}`;
+};
 
 // ───────────────────────────────────────────────────────────────
 // 7. HELPER FUNCTIONS

@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -65,46 +66,20 @@ export default function Navbar() {
       {/* Desktop Menu - Centered for balance */}
       <div className="navbar-center hidden lg:flex">
         <div className="flex gap-1 p-1 rounded-full px-4">
-          {/* Pathways Dropdown */}
+          {/* Treatments Dropdown */}
           <div className="dropdown dropdown-hover group px-2">
             <NavLink 
-              to="/pathways" 
+              to="/treatments" 
               onClick={closeDropdown}
               className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
             >
-              Pathways <ChevronDown />
+              Treatments <ChevronDown />
             </NavLink>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-56 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {['Refresh', 'Renew', 'Restore', 'Radiate'].map((item) => (
                 <li key={item}>
-                  <Link to={`/pathways/${item.toLowerCase()}`} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link to={`/treatments/${item.toLowerCase()}`} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
                     {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Programs Dropdown */}
-          <div className="dropdown dropdown-hover group px-2">
-            <NavLink 
-              to="/programmes"
-              onClick={closeDropdown}
-              className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
-            >
-              Programs <ChevronDown />
-            </NavLink>
-            <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-64 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
-              {[
-                { name: 'Menopause Regeneration', path: '/programmes/menopause-regeneration' },
-                { name: 'Under-Eye Regeneration', path: '/programmes/under-eye-regeneration' },
-                { name: 'Collagen Reset', path: '/programmes/collagen-reset' },
-                { name: 'Hormone-Smart Skin', path: '/programmes/hormone-smart-skin' },
-                { name: 'Shape & Regenerate™', path: '/programmes/shape-and-regenerate' }
-              ].map((item) => (
-                <li key={item.name}>
-                  <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
-                    {item.name}
                   </Link>
                 </li>
               ))}
@@ -213,22 +188,22 @@ export default function Navbar() {
            <div className="overflow-y-auto flex-1 p-4">
               <ul className="menu menu-lg w-full p-0">
                 <li>
-                  <details open={activeMobileMenu === 'pathways'}>
+                  <details open={activeMobileMenu === 'treatments'}>
                     <summary 
                       className="font-medium text-lg py-3 text-base-content/90 font-sans"
                       onClick={(e) => {
                         e.preventDefault();
-                        setActiveMobileMenu(activeMobileMenu === 'pathways' ? null : 'pathways');
+                        setActiveMobileMenu(activeMobileMenu === 'treatments' ? null : 'treatments');
                       }}
                     >
-                      Pathways
+                      Treatments
                     </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-                        <li><Link to="/pathways" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
-                        <li><Link to="/pathways/refresh" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Refresh</Link></li>
-                        <li><Link to="/pathways/renew" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Renew</Link></li>
-                        <li><Link to="/pathways/restore" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Restore</Link></li>
-                        <li><Link to="/pathways/radiate" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Radiate</Link></li>
+                        <li><Link to="/treatments" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
+                        <li><Link to="/treatments/refresh" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Refresh</Link></li>
+                        <li><Link to="/treatments/renew" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Renew</Link></li>
+                        <li><Link to="/treatments/restore" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Restore</Link></li>
+                        <li><Link to="/treatments/radiate" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Radiate</Link></li>
                     </ul>
                   </details>
                 </li>

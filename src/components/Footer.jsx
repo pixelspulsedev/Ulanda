@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import React from 'react';
 
 export default function Footer() {
   return (
@@ -34,16 +35,16 @@ export default function Footer() {
 
           {/* Links Columns */}
           <div className="md:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-8">
-            {/* Pathways */}
+            {/* Treatments */}
             <div>
               <h3 className="font-medium font-sans text-primary mb-4">
-                <Link to="/pathways" className="hover:text-primary transition-colors text-primary">Pathways</Link>
+                <Link to="/treatments" className="hover:text-primary transition-colors text-primary">Treatments</Link>
               </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/pathways/refresh" className="hover:text-primary transition-colors ">Refresh</Link></li>
-                <li><Link to="/pathways/renew" className="hover:text-primary transition-colors ">Renew</Link></li>
-                <li><Link to="/pathways/restore" className="hover:text-primary transition-colors ">Restore</Link></li>
-                <li><Link to="/pathways/radiate" className="hover:text-primary transition-colors ">Radiate</Link></li>
+                <li><Link to="/treatments/refresh" className="hover:text-primary transition-colors ">Refresh</Link></li>
+                <li><Link to="/treatments/renew" className="hover:text-primary transition-colors ">Renew</Link></li>
+                <li><Link to="/treatments/restore" className="hover:text-primary transition-colors ">Restore</Link></li>
+                <li><Link to="/treatments/radiate" className="hover:text-primary transition-colors ">Radiate</Link></li>
               </ul>
             </div>
 
@@ -79,6 +80,7 @@ export default function Footer() {
                 <li><Link to="/about/our-philosophy" className="hover:text-primary transition-colors ">Our Philosophy</Link></li>
                 <li><Link to="/about/our-founder" className="hover:text-primary transition-colors ">Our Founder</Link></li>
                 <li><Link to="/about/manifesto" className="hover:text-primary transition-colors ">The Manifesto</Link></li>
+                <li><Link to="/blogs" className="hover:text-primary transition-colors ">Journal</Link></li>
               </ul>
             </div>
 

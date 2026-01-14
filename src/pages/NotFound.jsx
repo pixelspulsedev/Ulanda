@@ -1,3 +1,4 @@
+import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import { HeroText, FadeInWhenVisible } from '../components/animations';

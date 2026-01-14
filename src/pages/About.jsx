@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import { Head } from 'vite-react-ssg';
 import { motion } from 'framer-motion';
@@ -364,7 +365,7 @@ export default function About() {
               </div>
               <div className="hidden md:flex">
                 <Link
-                  to="/pathways"
+                  to="/treatments"
                   className="btn btn-primary"
                 >
                   Learn More About Our Pathways

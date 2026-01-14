@@ -1,13 +1,14 @@
 
 export const blogs = [
   {
+    status: "published",
     id: "collagen-elastin-fibroblasts",
     slug: "collagen-elastin-fibroblasts",
     title: "Collagen, Elastin & Fibroblasts — The Three Engines of Beautiful Skin",
     subtitle: "The biological truth every Hertfordshire woman should know.",
     date: "2024-03-20",
     readTime: "5 min read",
-    heroImage: "/assets/img/ui/accent.webp", // Replace with actual image
+    images: ["/assets/img/blogs/collagen-elastin-fibroblasts-1.webp"],
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
@@ -241,13 +242,14 @@ export const blogs = [
     ]
   },
   {
+    status: "published",
     id: "inflammation-stress-skin-ageing",
     slug: "inflammation-stress-skin-ageing",
     title: "Inflammation, Stress & Skin Ageing — The Hertfordshire Regeneration Reset",
     subtitle: "A clinical, hormone-aware guide for women in Ware, Hertford & surrounding villages.",
     date: "2024-03-21",
     readTime: "6 min read",
-    heroImage: "/assets/img/ui/accent.webp",
+    images: ["/assets/img/blogs/inflammation-stress-skin-ageing-1.webp", "/assets/img/blogs/inflammation-stress-skin-ageing-2.webp"],
     relatedTreatments: [
       "polynucleotides",
       "profhilo",
@@ -467,13 +469,14 @@ export const blogs = [
     ]
   },
   {
+    status: "published",
     id: "internal-health-regeneration",
     slug: "internal-health-regeneration",
     title: "Internal Health Meets Regeneration — How Nutrition, Hormones & Lifestyle Transform Skin",
     subtitle: "A clinical, regenerative roadmap for Hertfordshire women who want glowing skin from the inside and outside.",
     date: "2024-03-22",
     readTime: "5 min read",
-    heroImage: "/assets/img/ui/accent.webp",
+    images: ["/assets/img/blogs/internal-health-regeneration-1.webp", "/assets/img/blogs/internal-health-regeneration-2.webp"],
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
@@ -646,13 +649,14 @@ export const blogs = [
     ]
   },
   {
+    status: "published",
     id: "is-regenerative-aesthetics-safe",
     slug: "is-regenerative-aesthetics-safe",
     title: "Is Regenerative Aesthetics Safe? The Medical Truth Behind the Trend",
     subtitle: "What Hertfordshire women must know before choosing PN, biostimulators, threads or skin boosters.",
     date: "2024-03-23",
     readTime: "4 min read",
-    heroImage: "/assets/img/ui/accent.webp",
+    images: ["/assets/img/blogs/is-regenerative-aesthetics-safe-1.webp", "/assets/img/blogs/is-regenerative-aesthetics-safe-2.webp", "/assets/img/blogs/is-regenerative-aesthetics-safe-3.webp"],
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
@@ -804,13 +808,14 @@ export const blogs = [
     ]
   },
   {
+    status: "published",
     id: "regeneration-longevity",
     slug: "regeneration-longevity",
     title: "Regeneration & Longevity — The Future of Aesthetic Medicine in Ware",
     subtitle: "The evidence-based shift redefining midlife skin for Hertfordshire women.",
     date: "2024-03-24",
     readTime: "5 min read",
-    heroImage: "/assets/img/ui/accent.webp",
+    images: ["/assets/img/blogs/regeneration-longevity-1.webp", "/assets/img/blogs/regeneration-longevity-2.webp"],
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
@@ -981,6 +986,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "regeneration-vs-correction",
     slug: "regeneration-vs-correction",
     title: "Regeneration vs Correction — Understanding the New Aesthetics Philosophy",
@@ -1155,6 +1161,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "skin-stress-calm-storm",
     slug: "skin-stress-calm-storm",
     title: "Skin Stress, Inflammation & Ageing — How Regenerative Treatments Calm the Storm",

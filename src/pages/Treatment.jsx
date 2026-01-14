@@ -76,8 +76,10 @@ const getBookingButtonLabel = (booking) => {
 };
 
 const Treatment = () => {
-  const { category, id } = useParams();
-  const treatment = getTreatment(id);
+  const { category, subcategory, id } = useParams();
+  // Using new call signature: (categoryId, subId, treatmentId)
+  const treatment = getTreatment(category, subcategory, id);
+  // relatedConditions expects ID, which corresponds to treatmentId
   const relatedConditions = getConditionsForTreatment(id);
   const [isStickyVisible, setIsStickyVisible] = useState(false);
   const heroRef = useRef(null);
@@ -100,11 +102,19 @@ const Treatment = () => {
     return <div className="text-center py-20">Treatment not found</div>;
   }
 
+  // Handle data structure variations (some have nested hero object, some represent hero at root)
+  const heroData = treatment.hero || treatment;
+
   const seoTitle =
     treatment.seo?.title ||
-    `Ulanda - ${treatment.hero.title} ${treatment.hero.highlight || ''}`;
+    `Ulanda - ${heroData.title} ${heroData.highlight || ''}`;
+
   const seoDescription =
-    treatment.seo?.description || treatment.hero.introduction || '';
+    treatment.seo?.description ||
+    (typeof heroData.introduction === 'string'
+      ? heroData.introduction
+      : treatment.description) ||
+    '';
 
   const Book = () => {
     window.open('https://bookings.gettimely.com/ulanda/book', '_blank');
@@ -167,11 +177,17 @@ const Treatment = () => {
                     </div>
                   )}
                 </div>
-
-                <button onClick={() => Book()} className="btn btn-primary">
-                  {getBookingButtonLabel(treatment.booking)}
-                </button>
               </div>
+            )}
+            {treatment.booking ? (
+              <button onClick={() => Book()} className="ml-4 btn btn-primary">
+                {getBookingButtonLabel(treatment.booking) ||
+                  'Book Consultation'}
+              </button>
+            ) : (
+              <button onClick={() => Book()} className="ml-4 btn btn-primary">
+                Book Consultation
+              </button>
             )}
           </div>
         </div>
@@ -332,7 +348,7 @@ const Treatment = () => {
                 </p>
 
                 <div className="pt-4">
-                  <button 
+                  <button
                     onClick={() => Book()}
                     className="btn btn-primary text-white px-8 rounded-md normal-case font-normal hover:bg-primary/90 border-none"
                   >
@@ -383,28 +399,32 @@ const Treatment = () => {
                 </RevealImage>
 
                 {/* Overlay Box */}
-                <div className="absolute top-1/2 left-0 -translate-y-1/2 w-3/5 bg-secondary/46 backdrop-blur-xl p-6 md:p-8 z-10">
-                  <div className="space-y-6 text-primary">
-                    <p className=" leading-relaxed">
-                      {treatment.introduction.highlightBox.text1}
-                    </p>
-                    <p className=" leading-relaxed font-medium">
-                      {treatment.introduction.highlightBox.text2 &&
-                        treatment.introduction.highlightBox.text2
-                          .split('30–65+')
-                          .map((part, i, arr) => (
-                            <React.Fragment key={i}>
-                              {part}
-                              {i < arr.length - 1 && (
-                                <span className="font-bold text-primary">
-                                  30–65+
-                                </span>
-                              )}
-                            </React.Fragment>
-                          ))}
-                    </p>
+                {treatment.introduction.highlightBox && (
+                  <div className="absolute top-1/2 left-0 -translate-y-1/2 w-3/5 bg-secondary/46 backdrop-blur-xl p-6 md:p-8 z-10">
+                    <div className="space-y-6 text-primary">
+                      {treatment.introduction.highlightBox.text1 && (
+                        <p className=" leading-relaxed">
+                          {treatment.introduction.highlightBox.text1}
+                        </p>
+                      )}
+                      <p className=" leading-relaxed font-medium">
+                        {treatment.introduction.highlightBox.text2 &&
+                          treatment.introduction.highlightBox.text2
+                            .split('30–65+')
+                            .map((part, i, arr) => (
+                              <React.Fragment key={i}>
+                                {part}
+                                {i < arr.length - 1 && (
+                                  <span className="font-bold text-primary">
+                                    30–65+
+                                  </span>
+                                )}
+                              </React.Fragment>
+                            ))}
+                      </p>
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
           </section>
@@ -838,7 +858,9 @@ const Treatment = () => {
                 rel="noopener noreferrer"
                 className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
-                {treatment.cta.buttonText}
+                {treatment.booking
+                  ? getBookingButtonLabel(treatment.booking)
+                  : "Book Consultation"}
               </a>
             </div>
           </section>

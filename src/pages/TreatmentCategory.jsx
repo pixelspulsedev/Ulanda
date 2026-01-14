@@ -1,0 +1,81 @@
+import React from 'react';
+import { Head } from 'vite-react-ssg';
+import { useParams, Link, Navigate } from 'react-router-dom';
+import Breadcrumbs from '../components/Breadcrumbs';
+import { getTreatmentCategory } from '../data/pageContents/treatments/treatments';
+import { ArrowRight } from 'lucide-react';
+import HeroText from '../components/animations/HeroText';
+import RevealImage from '../components/animations/RevealImage';
+
+export default function TreatmentCategory() {
+  const { category: categoryId } = useParams();
+  const category = getTreatmentCategory(categoryId);
+
+  if (!category) {
+    return <Navigate to="/treatments" replace />;
+  }
+
+  return (
+    <>
+      <Head>
+        <title>{category.title} | Ulanda Treatments</title>
+        <meta name="description" content={category.subtitle} />
+      </Head>
+
+      <div className="bg-base-100 font-sans text-base-content">
+        <Breadcrumbs />
+
+        {/* Hero Section */}
+        <section className="relative min-h-[70vh] md:min-h-[70vh] flex items-center">
+             <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
+                <img
+                  src={category.image}
+                  alt={category.title}
+                  className="w-full h-full object-cover brightness-75"
+                />
+                 <div className="absolute inset-0 bg-black/40"></div>
+              </div>
+
+             <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full text-white">
+                <div className="max-w-4xl">
+                     <div className="inline-block px-4 py-1 mb-6 border border-white/30 rounded-full bg-white/10 backdrop-blur-sm text-sm font-bold tracking-widest uppercase">
+                        Treatment Category
+                    </div>
+                    <h1 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
+                        <HeroText>{category.title}</HeroText>
+                    </h1>
+                    <p className="text-xl md:text-2xl font-light text-white/90 leading-relaxed max-w-2xl">
+                        <HeroText delay={0.2}>{category.description}</HeroText>
+                    </p>
+                </div>
+             </div>
+        </section>
+
+        {/* Subcategories Grid */}
+        <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+             <h2 className="text-3xl font-serif mb-12 text-center">Explore {category.title}</h2>
+             
+             <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+                {Object.entries(category.subCategories).map(([key, sub]) => (
+                    <Link key={key} to={`/treatments/${category.id}/${key}`} className="group block h-full">
+                        <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-base-200">
+                             <div className="h-64 overflow-hidden relative">
+                                 <img src={sub.image || category.image} alt={sub.title} className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors" />
+                             </div>
+                             <div className="p-8 flex-grow flex flex-col items-start">
+                                 <h3 className="text-2xl font-serif mb-3 text-stone-900 group-hover:text-primary transition-colors">{sub.title}</h3>
+                                 <p className="text-stone-600 mb-6 flex-grow font-light leading-relaxed">{sub.description}</p>
+                                 <span className="inline-flex items-center gap-2 text-primary font-medium group-hover:translate-x-1 transition-transform">
+                                     View Treatments <ArrowRight size={18} />
+                                 </span>
+                             </div>
+                        </div>
+                    </Link>
+                ))}
+             </div>
+        </section>
+      </div>
+    </>
+  );
+}
