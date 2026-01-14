@@ -475,7 +475,7 @@ export default function About() {
                     </div>
 
                     <Link
-                      to={`/pathways/${key}`}
+                      to={`/treatments/${key}`}
                       className="btn btn-primary text-white px-8"
                       aria-label={`Explore ${pathway.title} pathway`}
                     >

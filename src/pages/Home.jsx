@@ -439,7 +439,7 @@ export default function Home() {
                   </div>
 
                   <Link
-                    to={`/pathways/${key}`}
+                    to={`/treatments/${key}`}
                     className="btn btn-primary text-white px-8"
                   >
                     Explore
