@@ -503,7 +503,7 @@ export const conditions = [
           includes: [
             'Eye-safe chemical peels',
             'LED Light Therapy',
-            'Medical-grade facials',
+            'Vital Glow Facials',
             'Hydration boosters',
           ],
         },
@@ -851,7 +851,7 @@ export const conditions = [
           includes: [
             'Enzyme Therapy',
             'Chemical Peels',
-            'Medical-Grade Facials',
+            'Vital Glow Facials',
             'LED Light Therapy (anti-inflammatory)',
           ],
         },

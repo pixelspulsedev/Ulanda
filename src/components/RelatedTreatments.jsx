@@ -28,20 +28,31 @@ export default function RelatedTreatments({
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {treatments.map((treatmentSlug) => (
-          <Link 
-            key={treatmentSlug} 
-            to={getTreatmentUrl(treatmentSlug)}
-            className="group block p-6 bg-base-100 border border-base-200 rounded-lg hover:shadow-lg transition-all duration-300 hover:border-primary/20"
-          >
-            <div className="flex items-center justify-between">
-              <h3 className="text-xl font-sans font-medium text-primary capitalize group-hover:text-primary-focus transition-colors">
-                {treatmentSlug.replace(/-/g, ' ')}
-              </h3>
-              <ChevronRight className="w-5 h-5 text-primary opacity-0 group-hover:opacity-100 transition-opacity" />
-            </div>
-          </Link>
-        ))}
+        {treatments.map((item) => {
+          const isObject = typeof item === 'object' && item !== null;
+          const slug = isObject ? item.id : item;
+          
+          if (!slug || typeof slug !== 'string') return null;
+          
+          const displayName = isObject && item.title 
+            ? item.title 
+            : slug.replace(/-/g, ' ');
+
+          return (
+            <Link 
+              key={slug} 
+              to={getTreatmentUrl(slug)}
+              className="group block p-6 bg-base-100 border border-base-200 rounded-lg hover:shadow-lg transition-all duration-300 hover:border-primary/20"
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl font-sans font-medium text-primary capitalize group-hover:text-primary-focus transition-colors">
+                  {displayName}
+                </h3>
+                <ChevronRight className="w-5 h-5 text-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+              </div>
+            </Link>
+          );
+        })}
       </div>
     </section>
   );

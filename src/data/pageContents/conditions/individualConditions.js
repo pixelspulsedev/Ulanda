@@ -75,7 +75,7 @@ export const individualConditions = [
           points: [
             { name: "BioRePeel", desc: "Brightens pigment + boosts glow." },
             { name: "Chemical Peels", desc: "Improve radiance and remove dull surface cells." },
-            { name: "Medical-Grade Hydration Facials", desc: "Deeply hydrate and stimulate circulation." }
+            { name: "Vital Glow Facials", desc: "Deeply hydrate and stimulate circulation." }
           ]
         },
         {
@@ -108,7 +108,7 @@ export const individualConditions = [
         { time: "Month 1", treatment: "Skin boosters + BioRePeel" },
         { time: "Month 2", treatment: "PN + Microneedling" },
         { time: "Month 3", treatment: "PRP + Hydration IV" },
-        { time: "Ongoing", treatment: "Medical-grade facials + PN maintenance" }
+        { time: "Ongoing", treatment: "Vital Glow Facials + PN maintenance" }
       ]
     },
     whyChoose: {
@@ -279,7 +279,7 @@ export const individualConditions = [
           points: [
             { name: "Chemical Peels", desc: "Smooth the appearance of early fine lines." },
             { name: "BioRePeel", desc: "Refines texture and glow." },
-            { name: "Medical-Grade Facials", desc: "Gentle resurfacing without stripping." }
+            { name: "Vital Glow Facials", desc: "Gentle resurfacing without stripping." }
           ]
         },
         {
@@ -408,7 +408,7 @@ export const individualConditions = [
           image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
           points: [
             { name: "BioRePeel", desc: "Brightens and smooths surface laxity." },
-            { name: "Medical-Grade Facials", desc: "Hydrates and firms mild laxity." }
+            { name: "Vital Glow Facials", desc: "Hydrates and firms mild laxity." }
           ]
         },
         {
@@ -514,7 +514,7 @@ export const individualConditions = [
           points: [
             { name: "BioRePeel", desc: "Brightens and smooths fine crepe lines." },
             { name: "Chemical Peels", desc: "Balances tone and texture." },
-            { name: "Medical-Grade Facials", desc: "Hydrates and refines." }
+            { name: "Vital Glow Facials", desc: "Hydrates and refines." }
           ]
         },
         {
@@ -602,7 +602,7 @@ export const individualConditions = [
             { name: "BioRePeel", desc: "Targets roughness and early lines." },
             { name: "Chemical Peels", desc: "Resurfaces uneven patches." },
             { name: "Enzyme Therapy Facials", desc: "Gentle resurfacing for sensitive or hormonal skin." },
-            { name: "Medical-Grade Hydration Facials", desc: "Plumps fine irregularities." }
+            { name: "Vital Glow Facials", desc: "Plumps fine irregularities." }
           ]
         },
         {
@@ -1749,7 +1749,7 @@ export const individualConditions = [
             { name: "Enzyme Therapy", desc: "Removes dead skin while keeping the barrier intact." },
             { name: "Oxygen / Vitamin Infusion Facial", desc: "Hydrates and calms irritation immediately." },
             { name: "LED Light Therapy (Red)", desc: "Reduces inflammation and accelerates repair." },
-            { name: "Medical-Grade Hydration Facials", desc: "Infuses antioxidants, HA and peptides without harshness." }
+            { name: "Vital Glow Facials", desc: "Infuses antioxidants, HA and peptides without harshness." }
           ]
         },
         {
@@ -2401,7 +2401,7 @@ export const individualConditions = [
             { name: "BioRePeel", desc: "Brightens and stimulates mild collagen without irritation." },
             { name: "Chemical Peels", desc: "Improve tone, texture and pigmentation." },
             { name: "Enzyme Therapy", desc: "Essential for sensitive, reactive menopause skin." },
-            { name: "Medical-Grade Facials", desc: "Hydration and barrier repair." }
+            { name: "Vital Glow Facials", desc: "Hydration and barrier repair." }
           ]
         },
         {
@@ -2515,7 +2515,7 @@ export const individualConditions = [
             { name: "BioRePeel", desc: "Removes buildup and brightens." },
             { name: "Chemical Peels (Mild–Medium)", desc: "Smooth superficial texture safely." },
             { name: "Enzyme Therapy", desc: "Gentle resurfacing for sensitive skin." },
-            { name: "Medical-Grade Facials", desc: "Hydrates and oxygenates for softness." }
+            { name: "Vital Glow Facials", desc: "Hydrates and oxygenates for softness." }
           ]
         },
         {
@@ -3083,7 +3083,7 @@ export const individualConditions = [
           description: "Fatigue shows as dullness and dark circles:",
           image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
           points: [
-            { name: "Medical-Grade Facials", desc: "Re-oxygenate tired skin." },
+            { name: "Vital Glow Facials", desc: "Re-oxygenate tired skin." },
             { name: "BioRePeel / Peels", desc: "Brighten without stripping." },
             { name: "Oxygen & LED", desc: "Calm, energise and reduce inflammation." }
           ]
@@ -3195,7 +3195,7 @@ export const individualConditions = [
           image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
           points: [
             { name: "LED Therapy", desc: "Reduces inflammation and supports healing." },
-            { name: "Medical-Grade Facials", desc: "Gentle clearing and hydration." },
+            { name: "Vital Glow Facials", desc: "Gentle clearing and hydration." },
             { name: "Oxygen / Vitamin Infusion", desc: "Boosts radiance while internal systems recover." }
           ]
         },
@@ -3502,7 +3502,7 @@ export const individualConditions = [
           points: [
             { name: "Enzyme Therapy", desc: "Gentle resurfacing without stripping." },
             { name: "BioRePeel", desc: "Anti-inflammatory resurfacing." },
-            { name: "Medical-Grade Facials", desc: "Hydration and calming for reactive skin." },
+            { name: "Vital Glow Facials", desc: "Hydration and calming for reactive skin." },
             { name: "Oxygen/Vitamin Infusion", desc: "Instant brightness for stressed skin." },
             { name: "LED Light Therapy", desc: "Up to 50% inflammation reduction." }
           ]

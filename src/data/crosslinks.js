@@ -17,7 +17,7 @@ export const conditionToTreatments = {
     "polynucleotides",
     "lemon-bottle",
     "regenerative-facial",
-    "medical-grade-facial",
+    "vital-glow-facial",
     "oxygen-vitamin-infusion-facial",
     "led-light-therapy"
   ],
@@ -28,7 +28,7 @@ export const conditionToTreatments = {
     "enzyme-therapy",
     "polynucleotides",
     "microneedling",
-    "medical-grade-facial",
+    "vital-glow-facial",
     "led-light-therapy",
     "hormone-smart-skin"
   ],
@@ -46,6 +46,7 @@ export const conditionToTreatments = {
 
   "uneven-skin-tone": [
     "oxygen-vitamin-infusion-facial",
+    "hydrafacial",
     "biorepeel",
     "chemical-peel",
     "lemon-bottle",
@@ -55,7 +56,8 @@ export const conditionToTreatments = {
   ],
 
   "dull-dehydrated-skin": [
-    "medical-grade-facial",
+    "vital-glow-facial",
+    "hydrafacial",
     "oxygen-vitamin-infusion-facial",
     "seventy-hyal",
     "profhilo",
@@ -66,6 +68,7 @@ export const conditionToTreatments = {
 
   // MENOPAUSE & HORMONE-LINKED SKIN CHANGES
   "menopause-skin-decline": [
+    "hydrafacial",
     "polynucleotides",
     "prp-skin-regeneration",
     "sculptra",
@@ -125,7 +128,7 @@ export const conditionToTreatments = {
     "plenhyage",
     "nucleofill",
     "under-eye-regeneration",
-    "medical-grade-facial",
+    "vital-glow-facial",
     "led-light-therapy"
   ],
 
@@ -161,7 +164,7 @@ export const conditionToTreatments = {
     "polynucleotides",
     "lumi-eyes",
     "led-light-therapy",
-    "medical-grade-facial",
+    "vital-glow-facial",
     "under-eye-regeneration"
   ],
 
@@ -210,6 +213,7 @@ export const conditionToTreatments = {
   ],
 
   "enlarged-pores": [
+    "hydrafacial",
     "rf-microneedling",
     "microneedling",
     "chemical-peel",
@@ -227,7 +231,7 @@ export const conditionToTreatments = {
   ],
 
   "dryness-sensitivity": [
-    "medical-grade-facial",
+    "vital-glow-facial",
     "enzyme-therapy",
     "profhilo",
     "seventy-hyal",
@@ -340,7 +344,7 @@ export const treatmentToConditions = {
     "texture-decline"
   ],
 
-  "medical-grade-facial": [
+  "vital-glow-facial": [
     "dull-dehydrated-skin",
     "enlarged-pores",
     "uneven-texture",
@@ -810,7 +814,7 @@ export const programmeToTreatments = {
     "biorepeel",
     "led-light-therapy",
     "enzyme-therapy",
-    "medical-grade-facial",
+    "vital-glow-facial",
     "hormone-smart-skin"
   ],
 
@@ -844,7 +848,7 @@ export const programmeToTreatments = {
   ],
 
   "hormone-smart-skin": [
-    "medical-grade-facial",
+    "vital-glow-facial",
     "enzyme-therapy",
     "led-light-therapy",
     "chemical-peel",
@@ -1027,7 +1031,7 @@ export const getTreatmentUrl = (slug) => {
   const treatmentCategories = {
     // REFRESH (Skin Surface)
     "regenerative-facial": "refresh",
-    "medical-grade-facial": "refresh",
+    "vital-glow-facial": "refresh",
     "biorepeel": "refresh",
     "chemical-peel": "refresh",
     "enzyme-therapy": "refresh",
@@ -1067,6 +1071,7 @@ export const getTreatmentUrl = (slug) => {
     "jawline-contouring": "restore",
     "body-tightening": "restore",
     "body-contouring": "restore",
+    "biostimulators": "restore",
     "threads-biostimulators": "restore",
     "full-face-lift": "restore",
     "neck-lower-face-lift": "restore",

@@ -2,6 +2,7 @@ import { ViteReactSSG } from 'vite-react-ssg'
 import { Navigate } from 'react-router-dom'
 import { lazy } from 'react'
 import App from './App.jsx'
+import ErrorPage from './pages/ErrorPage.jsx'
 import './index.css'
 import '@fontsource/inter'
 import '@fontsource/playfair-display'
@@ -16,6 +17,7 @@ const Manifesto = lazy(() => import('./pages/Manifesto.jsx'))
 const Founder = lazy(() => import('./pages/Founder.jsx'))
 const Treatment = lazy(() => import('./pages/Treatment.jsx'))
 const ConditionDetail = lazy(() => import('./pages/ConditionDetail.jsx'))
+const BlogDetail = lazy(() => import('./pages/BlogDetail.jsx'))
 const ProgrammeDetail = lazy(() => import('./pages/ProgrammeDetail.jsx'))
 const ToolDetail = lazy(() => import('./pages/ToolDetail.jsx'))
 const PathwayDetail = lazy(() => import('./pages/PathwayDetail.jsx'))
@@ -30,6 +32,7 @@ const routes = [
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -54,6 +57,10 @@ const routes = [
       {
         path: 'conditions/:id',
         element: <ConditionDetail />,
+      },
+      {
+        path: 'blogs/:id',
+        element: <BlogDetail />,
       },
       {
         path: 'programmes',

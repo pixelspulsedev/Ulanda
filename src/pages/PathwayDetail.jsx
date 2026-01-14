@@ -1,7 +1,8 @@
 import { Head } from 'vite-react-ssg';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getPathway } from '../data/pageContents/pathways/pathways';
+import { getTreatment } from '../data/pageContents/treatments/treatments';
 import { getTreatmentUrl } from '../data/crosslinks';
 import { Check, ArrowRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
@@ -13,6 +14,13 @@ export default function PathwayDetail() {
   const pathway = getPathway(pathwayId);
 
   if (!pathway) {
+    // Check if it's a treatment and redirect
+    const treatment = getTreatment(pathwayId);
+    if (treatment) {
+      // Assuming category in treatment data matches the URL slug structure (e.g. 'Refresh' -> 'refresh')
+      const categorySlug = treatment.category ? treatment.category.toLowerCase() : 'other';
+      return <Navigate to={`/treatments/${categorySlug}/${treatment.id}`} replace />;
+    }
     return <div className="text-center py-20">Pathway not found</div>;
   }
 

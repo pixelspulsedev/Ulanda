@@ -1,6 +1,12 @@
 export const treatments = [
   {
     id: 'skin-glow-iv',
+    booking: {
+      price: 180,
+      duration: 90,
+      treatmentType: 'iv',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Skin, Hair & Nails IV Drip | Radiance Boost | ULANDA",
       description: "Nourish your beauty from within. Our Skin, Hair & Nails IV Drip delivers essential nutrients for a glowing complexion & stronger hair/nails."
@@ -234,6 +240,12 @@ export const treatments = [
   },
   {
     id: 'energy-iv',
+    booking: {
+      price: 170,
+      duration: 90,
+      treatmentType: 'iv',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Energy IV Drip | Boost Vitality & Focus | ULANDA",
       description: "Recharge with our Energy IV Drip. Packed with B vitamins & amino acids to fight fatigue, boost metabolism & restore mental clarity."
@@ -422,6 +434,12 @@ export const treatments = [
   },
   {
     id: 'glutathione-im',
+    booking: {
+      price: 45,
+      duration: 20,
+      treatmentType: 'im',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Glutathione Injection | Master Antioxidant | ULANDA",
       description: "Brighten skin & detoxify your body with a Glutathione Injection. The master antioxidant for glowing skin & immune support."
@@ -643,6 +661,12 @@ export const treatments = [
   },
   {
     id: 'hydration-iv',
+    booking: {
+      price: 185,
+      duration: 90,
+      treatmentType: 'iv',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Hydration IV Drip | Restore Fluid Balance & Skin Glow | ULANDA",
       description: "Fast rehydration with ULANDA's Hydration IV Drip. Restore essential fluids & electrolytes for improved energy, skin vitality & recovery."
@@ -811,6 +835,12 @@ export const treatments = [
   },
   {
     id: 'immunity-iv',
+    booking: {
+      price: 170,
+      duration: 90,
+      treatmentType: 'iv',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Immunity IV Drip | Strengthen • Defend • Recover | ULANDA",
       description: "Strengthen your immune system, speed up recovery & restore resilience with our clinician-delivered Immunity IV Drip. In partnership with 360Medicx Harley Street."
@@ -1056,6 +1086,13 @@ export const treatments = [
   },
   {
     id: 'medical-weight-management',
+    booking: {
+      starting: true,
+      price: 125,
+      duration: 90,
+      treatmentType: 'medical programme',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Medical Weight Management | Metabolic Reset & Hormone Support | ULANDA",
       description: "A medically supervised metabolic reset programme for midlife weight changes, hormonal balance & body confidence. In partnership with 360Medicx Harley Street."
@@ -1277,246 +1314,252 @@ export const treatments = [
       buttonText: "Book Medical Weight Management Consultation (ULANDA × 360Medicx)"
     }
   },
-  {
-    id: 'nad-im',
-    seo: {
-      title: "NAD+ Injection | Cellular Energy & Anti-Ageing | ULANDA",
-      description: "Boost cellular energy and focus with a fast-acting NAD+ Injection. Supports DNA repair, anti-ageing & cognitive clarity. In partnership with 360Medicx Harley Street."
-    },
-    seoHeadings: {
-      h1: "NAD+ Injection in Ware SG12 — Quick Energy & Anti-Ageing Support",
-      h2: [
-        "What NAD+ IM Treats",
-        "Why IM Works Quickly",
-        "For Busy Women, Fatigue, Sleep Issues",
-        "Linked Regenerative Skin Options",
-        "Book NAD+ IM — 360Medicx Harley Street Partner"
-      ]
-    },
-    title: 'NAD+',
-    highlight: 'IM',
-    titleSuffix: 'Injection',
-    benefits: ['Cellular Energy', 'Anti-Ageing', 'Brain Clarity', 'Hormone Support'],
-    locations: ['Ware (SG12)', 'Hertford', 'Broxbourne', 'Hoddesdon', 'Great Amwell', 'Stanstead Abbotts', 'Much Hadham', 'Brickendon', 'Hunsdon', 'all surrounding Hertfordshire villages'],
-    image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
-    category: 'Radiate',
-    description: 'Cellular Energy • Anti-Ageing • Brain Clarity • Hormone Support',
-    collaboration: {
-      partner: '360Medicx',
-      subtitle: 'CQC Registered Harley Street Longevity Clinic',
-      features: ['Medical Oversight', 'Prescribing', 'Cellular Longevity Protocols'],
-      description: "ULANDA’s NAD+ IM is delivered under the full clinical governance of 360Medicx, specialists in mitochondrial medicine and longevity therapy.",
-    },
-    introduction: {
-      title: "Introduction",
-      content: [
-        "NAD+ (Nicotinamide Adenine Dinucleotide) is the core molecule of life — every cell in your body depends on it to:",
-        "create energy, repair DNA, regulate metabolism, protect against ageing, support the nervous system, balance hormones, restore resilience",
-        "But by age 40, NAD+ levels can drop up to 50%, and by age 50, even more rapidly — driving fatigue, brain fog, slower skin repair, weight changes, reduced collagen, inflammation and accelerated ageing.",
-        "ULANDA’s NAD+ IM injection delivers fast-release NAD+ at the cellular level for immediate energy, enhanced cognitive performance and powerful anti-ageing support — especially for women navigating perimenopause, menopause and midlife stress."
-      ],
-      goals: [
-        "Clean, stable, stimulant-free energy",
-        "Reduced fatigue & burn-out",
-        "Sharper focus & better memory",
-        "DNA repair activation",
-        "Reduced cellular ageing",
-        "Improved collagen activity",
-        "Faster tissue repair",
-        "Helps balance metabolic stress"
-      ],
-      highlightBox: {
-        text1: "This is your “deep internal battery recharge.”",
-        text2: "NAD+ IM gives your cells the direct fuel they need to function, repair and regenerate."
-      },
-      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-    },
-    detailedBenefits: {
-      title: "Benefits of NAD+ IM",
-      sections: [
-        {
-          title: "ENERGY & PERFORMANCE",
-          items: [
-            "Clean, stable, stimulant-free energy",
-            "Reduced fatigue & burn-out",
-            "Increased mental stamina"
-          ]
-        },
-        {
-          title: "COGNITION & MOOD",
-          items: [
-            "Sharper focus",
-            "Better memory & motivation",
-            "Enhanced mood regulation"
-          ]
-        },
-        {
-          title: "CELLULAR LONGEVITY",
-          items: [
-            "DNA repair activation",
-            "Reduced cellular ageing",
-            "Enhanced metabolic resilience"
-          ]
-        },
-        {
-          title: "SKIN & AESTHETIC BENEFITS",
-          items: [
-            "Improved collagen activity",
-            "Faster tissue repair",
-            "Reduced inflammation",
-            "Stronger response to regenerative skin treatments"
-          ]
-        },
-        {
-          title: "HORMONE SUPPORT",
-          items: [
-            "Helps balance metabolic stress from hormonal decline",
-            "Supports sleep & nervous system function"
-          ]
-        }
-      ]
-    },
-    internalSupport: {
-      title: "Why NAD+ Is Essential for",
-      titleSuffix: "Women in Midlife",
-      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
-      points: [
-        {
-          title: "Energy crashes are often mitochondrial",
-          description: "NAD+ restores ATP production, giving clean, stable energy. Often these crashes are not motivational."
-        },
-        {
-          title: "Hormones and NAD+ decline simultaneously",
-          description: "Estrogen protects mitochondria — when it drops, NAD+ plummets."
-        },
-        {
-          title: "Collagen needs NAD+ to stimulate fibroblasts",
-          description: "Low NAD+ = poor collagen = thinner, ageing skin."
-        },
-        {
-          title: "Stress burns through NAD+ rapidly",
-          description: "Midlife stress complicates the decline even more."
-        },
-        {
-          title: "Cognitive clarity depends on NAD+",
-          description: "Low levels - brain fog, forgetfulness, low motivation."
-        },
-        {
-          title: "NAD+ slows cellular ageing",
-          description: "A critical part of longevity medicine. NAD+ IM gives your cells the direct fuel they need to function, repair and regenerate."
-        }
-      ]
-    },
-    ingredients: {
-      title: "What’s",
-      highlight: "Inside",
-      titleSuffix: "the NAD+ IM",
-      subtitle: "Clinical dose delivered intramuscularly for rapid absorption without the longer infusion time of NAD+ IV.",
-      items: [
-        {
-          title: "Pure NAD+",
-          description: "Nicotinamide adenine dinucleotide."
-        },
-        {
-          title: "Optional Enhancer: B12",
-          description: "(energy + mood)"
-        },
-        {
-          title: "Optional Enhancer: Magnesium",
-          description: "(sleep + stress)"
-        },
-        {
-          title: "Optional Enhancer: Glutathione",
-          description: "(detox + glow)"
-        }
-      ],
-      footer: "This is your “deep internal battery recharge.”"
-    },
-    idealFor: {
-      title: "Who This Treatment Is",
-      highlight: "Ideal For",
-      titleSuffix: "",
-      items: [
-        "Perimenopause & menopause fatigue",
-        "Low motivation, brain fog, mental burnout",
-        "Slow tissue healing / collagen decline",
-        "Clients preparing for PN, PRP or microneedling",
-        "High stress, poor sleep, emotional depletion",
-        "Weight-loss resistance + slow metabolism",
-        "Anyone feeling “flat,” tired, or disconnected"
-      ]
-    },
-    ulandaConnection: {
-      title: "The Ulanda Connection — How NAD+ Supercharges Refresh, Renew & Restore",
-      subtitle: "Horizontal Integration",
-      sections: [
-        {
-          title: "1. REFRESH (Facials, Peels, LED, Enzymes)",
-          description: "NAD+ improves:",
-          points: [
-            "Skin healing",
-            "Reduction in inflammation",
-            "Recovery after resurfacing",
-            "Glow response from facials and LED"
-          ],
-          conclusion: "Better cellular energy = better surface radiance.",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
-          description: "NAD+ accelerates:",
-          points: [
-            "Fibroblast activation",
-            "Collagen production for PN & microneedling",
-            "Platelet quality for PRP",
-            "Hydration response to skin boosters"
-          ],
-          conclusion: "Regeneration is energy-dependent — NAD+ fuels the process.",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "3. RESTORE (Biostimulators, Threads, Natural Fillers)",
-          description: "NAD+ enhances structural results by:",
-          points: [
-            "Improving collagen fibre quality",
-            "Supporting healing after threads",
-            "Maximising PLLA/CaHA outcomes",
-            "Strengthening skin density"
-          ],
-          conclusion: "High NAD+ = stronger, thicker, healthier skin that lifts better.",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
-      ]
-    },
-    safetyOversight: {
-      title: "Safety & Medical Oversight",
-      items: [
-        {
-          title: "Clinicially Screened",
-          description: "Clinically screened & prescribed by 360Medicx.",
-          icon: "cqc"
-        },
-        {
-          title: "Clinician Administered",
-          description: "Administered by trained medical clinicians and CQC-governed.",
-          icon: "clinician"
-        },
-        {
-          title: "Safe & Rapid",
-          description: "Rapid, safe & well tolerated.",
-          icon: "prescribed"
-        }
-      ]
-    },
-    cta: {
-      title: "Energy. Clarity.",
-      highlight: "Longevity.",
-      description: "From a Single Injection. ULANDA’s NAD+ IM, delivered through 360Medicx, the CQC-registered Harley Street Longevity Clinic, is your fast-acting anti-ageing and energy-reset solution — for women who want to feel alive, focused and restored from the inside out.",
-      buttonText: "Book NAD+ IM (ULANDA × 360Medicx Harley Street)"
-    }
-  },
+  // {
+  //   id: 'nad-im',
+  //   seo: {
+  //     title: "NAD+ Injection | Cellular Energy & Anti-Ageing | ULANDA",
+  //     description: "Boost cellular energy and focus with a fast-acting NAD+ Injection. Supports DNA repair, anti-ageing & cognitive clarity. In partnership with 360Medicx Harley Street."
+  //   },
+  //   seoHeadings: {
+  //     h1: "NAD+ Injection in Ware SG12 — Quick Energy & Anti-Ageing Support",
+  //     h2: [
+  //       "What NAD+ IM Treats",
+  //       "Why IM Works Quickly",
+  //       "For Busy Women, Fatigue, Sleep Issues",
+  //       "Linked Regenerative Skin Options",
+  //       "Book NAD+ IM — 360Medicx Harley Street Partner"
+  //     ]
+  //   },
+  //   title: 'NAD+',
+  //   highlight: 'IM',
+  //   titleSuffix: 'Injection',
+  //   benefits: ['Cellular Energy', 'Anti-Ageing', 'Brain Clarity', 'Hormone Support'],
+  //   locations: ['Ware (SG12)', 'Hertford', 'Broxbourne', 'Hoddesdon', 'Great Amwell', 'Stanstead Abbotts', 'Much Hadham', 'Brickendon', 'Hunsdon', 'all surrounding Hertfordshire villages'],
+  //   image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
+  //   category: 'Radiate',
+  //   description: 'Cellular Energy • Anti-Ageing • Brain Clarity • Hormone Support',
+  //   collaboration: {
+  //     partner: '360Medicx',
+  //     subtitle: 'CQC Registered Harley Street Longevity Clinic',
+  //     features: ['Medical Oversight', 'Prescribing', 'Cellular Longevity Protocols'],
+  //     description: "ULANDA’s NAD+ IM is delivered under the full clinical governance of 360Medicx, specialists in mitochondrial medicine and longevity therapy.",
+  //   },
+  //   introduction: {
+  //     title: "Introduction",
+  //     content: [
+  //       "NAD+ (Nicotinamide Adenine Dinucleotide) is the core molecule of life — every cell in your body depends on it to:",
+  //       "create energy, repair DNA, regulate metabolism, protect against ageing, support the nervous system, balance hormones, restore resilience",
+  //       "But by age 40, NAD+ levels can drop up to 50%, and by age 50, even more rapidly — driving fatigue, brain fog, slower skin repair, weight changes, reduced collagen, inflammation and accelerated ageing.",
+  //       "ULANDA’s NAD+ IM injection delivers fast-release NAD+ at the cellular level for immediate energy, enhanced cognitive performance and powerful anti-ageing support — especially for women navigating perimenopause, menopause and midlife stress."
+  //     ],
+  //     goals: [
+  //       "Clean, stable, stimulant-free energy",
+  //       "Reduced fatigue & burn-out",
+  //       "Sharper focus & better memory",
+  //       "DNA repair activation",
+  //       "Reduced cellular ageing",
+  //       "Improved collagen activity",
+  //       "Faster tissue repair",
+  //       "Helps balance metabolic stress"
+  //     ],
+  //     highlightBox: {
+  //       text1: "This is your “deep internal battery recharge.”",
+  //       text2: "NAD+ IM gives your cells the direct fuel they need to function, repair and regenerate."
+  //     },
+  //     image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //   },
+  //   detailedBenefits: {
+  //     title: "Benefits of NAD+ IM",
+  //     sections: [
+  //       {
+  //         title: "ENERGY & PERFORMANCE",
+  //         items: [
+  //           "Clean, stable, stimulant-free energy",
+  //           "Reduced fatigue & burn-out",
+  //           "Increased mental stamina"
+  //         ]
+  //       },
+  //       {
+  //         title: "COGNITION & MOOD",
+  //         items: [
+  //           "Sharper focus",
+  //           "Better memory & motivation",
+  //           "Enhanced mood regulation"
+  //         ]
+  //       },
+  //       {
+  //         title: "CELLULAR LONGEVITY",
+  //         items: [
+  //           "DNA repair activation",
+  //           "Reduced cellular ageing",
+  //           "Enhanced metabolic resilience"
+  //         ]
+  //       },
+  //       {
+  //         title: "SKIN & AESTHETIC BENEFITS",
+  //         items: [
+  //           "Improved collagen activity",
+  //           "Faster tissue repair",
+  //           "Reduced inflammation",
+  //           "Stronger response to regenerative skin treatments"
+  //         ]
+  //       },
+  //       {
+  //         title: "HORMONE SUPPORT",
+  //         items: [
+  //           "Helps balance metabolic stress from hormonal decline",
+  //           "Supports sleep & nervous system function"
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   internalSupport: {
+  //     title: "Why NAD+ Is Essential for",
+  //     titleSuffix: "Women in Midlife",
+  //     image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+  //     points: [
+  //       {
+  //         title: "Energy crashes are often mitochondrial",
+  //         description: "NAD+ restores ATP production, giving clean, stable energy. Often these crashes are not motivational."
+  //       },
+  //       {
+  //         title: "Hormones and NAD+ decline simultaneously",
+  //         description: "Estrogen protects mitochondria — when it drops, NAD+ plummets."
+  //       },
+  //       {
+  //         title: "Collagen needs NAD+ to stimulate fibroblasts",
+  //         description: "Low NAD+ = poor collagen = thinner, ageing skin."
+  //       },
+  //       {
+  //         title: "Stress burns through NAD+ rapidly",
+  //         description: "Midlife stress complicates the decline even more."
+  //       },
+  //       {
+  //         title: "Cognitive clarity depends on NAD+",
+  //         description: "Low levels - brain fog, forgetfulness, low motivation."
+  //       },
+  //       {
+  //         title: "NAD+ slows cellular ageing",
+  //         description: "A critical part of longevity medicine. NAD+ IM gives your cells the direct fuel they need to function, repair and regenerate."
+  //       }
+  //     ]
+  //   },
+  //   ingredients: {
+  //     title: "What’s",
+  //     highlight: "Inside",
+  //     titleSuffix: "the NAD+ IM",
+  //     subtitle: "Clinical dose delivered intramuscularly for rapid absorption without the longer infusion time of NAD+ IV.",
+  //     items: [
+  //       {
+  //         title: "Pure NAD+",
+  //         description: "Nicotinamide adenine dinucleotide."
+  //       },
+  //       {
+  //         title: "Optional Enhancer: B12",
+  //         description: "(energy + mood)"
+  //       },
+  //       {
+  //         title: "Optional Enhancer: Magnesium",
+  //         description: "(sleep + stress)"
+  //       },
+  //       {
+  //         title: "Optional Enhancer: Glutathione",
+  //         description: "(detox + glow)"
+  //       }
+  //     ],
+  //     footer: "This is your “deep internal battery recharge.”"
+  //   },
+  //   idealFor: {
+  //     title: "Who This Treatment Is",
+  //     highlight: "Ideal For",
+  //     titleSuffix: "",
+  //     items: [
+  //       "Perimenopause & menopause fatigue",
+  //       "Low motivation, brain fog, mental burnout",
+  //       "Slow tissue healing / collagen decline",
+  //       "Clients preparing for PN, PRP or microneedling",
+  //       "High stress, poor sleep, emotional depletion",
+  //       "Weight-loss resistance + slow metabolism",
+  //       "Anyone feeling “flat,” tired, or disconnected"
+  //     ]
+  //   },
+  //   ulandaConnection: {
+  //     title: "The Ulanda Connection — How NAD+ Supercharges Refresh, Renew & Restore",
+  //     subtitle: "Horizontal Integration",
+  //     sections: [
+  //       {
+  //         title: "1. REFRESH (Facials, Peels, LED, Enzymes)",
+  //         description: "NAD+ improves:",
+  //         points: [
+  //           "Skin healing",
+  //           "Reduction in inflammation",
+  //           "Recovery after resurfacing",
+  //           "Glow response from facials and LED"
+  //         ],
+  //         conclusion: "Better cellular energy = better surface radiance.",
+  //         image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //       },
+  //       {
+  //         title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
+  //         description: "NAD+ accelerates:",
+  //         points: [
+  //           "Fibroblast activation",
+  //           "Collagen production for PN & microneedling",
+  //           "Platelet quality for PRP",
+  //           "Hydration response to skin boosters"
+  //         ],
+  //         conclusion: "Regeneration is energy-dependent — NAD+ fuels the process.",
+  //         image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //       },
+  //       {
+  //         title: "3. RESTORE (Biostimulators, Threads, Natural Fillers)",
+  //         description: "NAD+ enhances structural results by:",
+  //         points: [
+  //           "Improving collagen fibre quality",
+  //           "Supporting healing after threads",
+  //           "Maximising PLLA/CaHA outcomes",
+  //           "Strengthening skin density"
+  //         ],
+  //         conclusion: "High NAD+ = stronger, thicker, healthier skin that lifts better.",
+  //         image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //       }
+  //     ]
+  //   },
+  //   safetyOversight: {
+  //     title: "Safety & Medical Oversight",
+  //     items: [
+  //       {
+  //         title: "Clinicially Screened",
+  //         description: "Clinically screened & prescribed by 360Medicx.",
+  //         icon: "cqc"
+  //       },
+  //       {
+  //         title: "Clinician Administered",
+  //         description: "Administered by trained medical clinicians and CQC-governed.",
+  //         icon: "clinician"
+  //       },
+  //       {
+  //         title: "Safe & Rapid",
+  //         description: "Rapid, safe & well tolerated.",
+  //         icon: "prescribed"
+  //       }
+  //     ]
+  //   },
+  //   cta: {
+  //     title: "Energy. Clarity.",
+  //     highlight: "Longevity.",
+  //     description: "From a Single Injection. ULANDA’s NAD+ IM, delivered through 360Medicx, the CQC-registered Harley Street Longevity Clinic, is your fast-acting anti-ageing and energy-reset solution — for women who want to feel alive, focused and restored from the inside out.",
+  //     buttonText: "Book NAD+ IM (ULANDA × 360Medicx Harley Street)"
+  //   }
+  // },
   {
     id: 'nad-iv',
+    booking: {
+      price: 250,
+      duration: 90,
+      treatmentType: 'iv',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "NAD+ IV Therapy | Anti-Ageing & Brain Health | ULANDA",
       description: "Restore cellular energy with NAD+ IV Therapy. A powerful anti-ageing treatment to improve mental clarity, focus & metabolic function. In partnership with 360Medicx Harley Street."
@@ -1711,6 +1754,12 @@ export const treatments = [
   },
   {
     id: 'vitamin-b12-im',
+    booking: {
+      price: 30,
+      duration: 20,
+      treatmentType: 'im',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Vitamin B12 Injection | Energy Boost | ULANDA",
       description: "Combat fatigue & brain fog with a Vitamin B12 Injection. A quick, effective boost for energy levels, mood & metabolism."
@@ -1936,6 +1985,12 @@ export const treatments = [
   },
   {
     id: 'vitamin-d-im',
+    booking: {
+      price: 45,
+      duration: 20,
+      treatmentType: 'im',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Vitamin D Injection | Immunity & Bone Health | ULANDA",
       description: "Maintain optimal health with a Vitamin D Injection. Essential for immune function, bone strength & mood regulation."
@@ -2155,6 +2210,12 @@ export const treatments = [
   },
   {
     id: 'womens-longevity-iv',
+    booking: {
+      price: 175,
+      duration: 90,
+      treatmentType: 'iv',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Women's Longevity IV | Menopause & Hormonal Support | ULANDA",
       description: "Targeted IV therapy for women's longevity. Supports hormonal balance, energy & skin health during perimenopause & menopause."
@@ -2399,6 +2460,12 @@ export const treatments = [
   },
   {
     id: 'glutathione-iv',
+    booking: {
+      price: 180,
+      duration: 90,
+      treatmentType: 'iv',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Glutathione IV Drip | Master Antioxidant Detox | ULANDA",
       description: "The ultimate antioxidant infusion. Glutathione IV brightens skin, reduces pigmentation & supports total body detoxification."
@@ -2615,6 +2682,12 @@ export const treatments = [
   },
   {
     id: 'biorepeel',
+    booking: {
+      price: 150,
+      duration: 50,
+      treatmentType: 'resurfacing',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "BioRePeel Ware SG12 | No-Peel Regeneration Treatment",
       description: "BioRePeel in Ware. The no-downtime, biostimulating peel for pigmentation, acne & texture. Instant glow without the shedding."
@@ -2808,7 +2881,7 @@ export const treatments = [
         },
         {
           title: "REFRESH",
-          description: "Regenerative Facial, Medical-Grade Facial.",
+          description: "Regenerative Facial, Vital Glow Facial.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2860,258 +2933,264 @@ export const treatments = [
       buttonText: "Book Consultation"
     }
   },
-  {
-    id: 'body-peels',
-    seo: {
-      title: "Body Peels Ware SG12 | Back Acne, Keratosis & Pigmentation",
-      description: "Body chemical peels in Ware. Treat back acne (bacne), keratosis pilaris, pigmentation & rough skin on the body. Smooth & renew."
-    },
-    seoHeadings: {
-      h1: "Body Peels in Ware SG12 — Smooth, Brighten & Regenerate Body Skin",
-      h2: [
-        "What Body Peels Treat (Back Acne • Keratosis • Pigmentation • Roughness)",
-        "Areas We Treat (Back • Chest • Arms • Bum • Legs)",
-        "Body Peels + Body PN / Microneedling",
-        "Body Peels for Postpartum & Menopause Skin",
-        "Linked Conditions (Body Texture, Stretch Marks, Pigmentation)",
-        "Book Body Peel in Ware"
-      ]
-    },
-    title: 'Body',
-    highlight: 'Peels',
-    titleSuffix: '',
-    benefits: ['Full-Body Renewal', 'Smoother Texture', 'Brighter Tone', 'Healthier Skin'],
-    detailedBenefits: {
-      title: "Benefits of Body Peels",
-      sections: [
-        {
-          title: "Benefits",
-          items: [
-            "Smoother, softer skin",
-            "Reduced roughness",
-            "Brightened tone",
-            "Faded pigmentation",
-            "Fewer ingrown hairs",
-            "Clearer back/chest acne",
-            "Improved hydration",
-            "Reduced keratosis pilaris & bumps",
-            "Anti-aging benefits for chest/arms/hands",
-            "Better product absorption",
-            "Skin that glows from the neck downward",
-            "Perfect for midlife women who want uniform, healthy-looking skin everywhere, not just the face."
-          ]
-        }
-      ]
-    },
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
-    image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
-    category: 'Refresh',
-    description: 'Full-body skin renewal for smoother texture, brighter tone & healthier skin from neck to toe.',
-    introduction: {
-      title: "What Are Body Peels?",
-      content: [
-        "Body peels use controlled chemical exfoliation to remove dull, damaged skin cells and stimulate the regeneration of fresher, smoother and healthier skin.",
-        "ULANDA uses advanced formulations including: Lactic Acid (hydrating + brightening), Glycolic Acid (texture smoothing), Salicylic Acid (acne + congestion), TCA blends (pigmentation + deeper renewal), Retinoic acid combinations (cell turnover + glow), AHA/BHA hybrid systems.",
-        "In simple terms: They resurface and rejuvenate areas where the skin is thicker, rougher or more sun-damaged than the face."
-      ],
-      goals: [
-        "Epidermal turnover",
-        "Hydration",
-        "Collagen activation",
-        "Pigmentation correction",
-        "Inflammation reduction"
-      ],
-      highlightBox: {
-        text1: "Unlike spa body scrubs, these are clinical-grade peels.",
-        text2: "Actively regenerating the skin for long-lasting clarity, brightness and smoothness."
-      },
-      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-    },
-    internalSupport: {
-      title: "Why ULANDA Clients Choose",
-      titleSuffix: "Body Peels",
-      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
-      points: [
-        {
-          title: "Hormone-smart assessment",
-          description: "Considering hormones, hydration, collagen decline and inflammation."
-        },
-        {
-          title: "Bespoke peel strengths",
-          description: "Based on area + skin type."
-        },
-        {
-          title: "Combination blends",
-          description: "For pigmentation and texture."
-        },
-        {
-          title: "Optional LED therapy",
-          description: "Available for back and chest."
-        },
-        {
-          title: "Regenerative hydration + antioxidants post-peel",
-          description: "For barrier support."
-        },
-        {
-          title: "Aftercare tailored for menopause skin",
-          description: "Ensures safe, effective and beautifully regenerated body skin."
-        }
-      ]
-    },
-    ingredients: {
-      title: "The Science",
-      highlight: "Behind",
-      titleSuffix: "Body Peels",
-      subtitle: "Body skin is thicker and more sun-exposed — requiring stronger peel systems.",
-      items: [
-        {
-          title: "AHA (Lactic + Glycolic)",
-          description: "Hydration + brightening + texture smoothing. Gentle enough for menopause-related dryness."
-        },
-        {
-          title: "BHA (Salicylic Acid)",
-          description: "Penetrates oil - excellent for back/chest acne, bumps & clogged pores."
-        },
-        {
-          title: "TCA Systems",
-          description: "Target deep pigmentation, sun damage, crepiness and uneven tone."
-        },
-        {
-          title: "Retinoic Acid",
-          description: "Boosts cell turnover & enhances collagen formation."
-        }
-      ],
-      footer: "Clinical evidence shows chemical peels thicken the epidermis, improve smoothness and elasticity, reduce sun damage and pigmentation, and salicylic acid decreases body acne lesions by up to 60%."
-    },
-    treatmentAreas: {
-      title: "Areas We Treat",
-      items: [
-        "Chest / Décolletage",
-        "Arms (upper & lower)",
-        "Back",
-        "Buttocks",
-        "Thighs",
-        "Legs",
-        "Hands",
-        "Feet",
-        "Underarms",
-        "Stomach",
-        "Neck",
-        "Menopausal and perimenopausal skin often becomes drier, thinner and more uneven, making body peels a valuable part of a regenerative routine."
-      ]
-    },
-    process: {
-      title: "What Happens During the Treatment?",
-      steps: [
-        { title: "1. Consultation & Skin Analysis", description: "We identify the correct peel type, strength and layers." },
-        { title: "2. Cleanse & Degreasing Prep", description: "Removes oil and prepares the skin for penetration." },
-        { title: "3. Peel Application", description: "Layered application depending on thickness and concerns." },
-        { title: "4. Neutralising / Leave-On Technique", description: "Depending on the peel chosen." },
-        { title: "5. Regenerative Hydration", description: "We apply ceramides, hyaluronic acid and peptides for barrier support." },
-        { title: "6. Aftercare Guidance", description: "Clear instructions to ensure safe and effective results." }
-      ]
-    },
-    resultsTimeline: {
-      title: "Results Timeline",
-      items: [
-        { title: "Immediately", description: "Smoother skin, Brighter tone, Cleaner pores" },
-        { title: "3–7 days", description: "Light flaking (depending on peel type), Visible improvement in texture" },
-        { title: "2–4 weeks", description: "Fading pigmentation, Clearer, softer, more even skin" },
-        { title: "6–8 weeks", description: "Full regenerative results, Increased collagen and elasticity (with deeper peels)" }
-      ]
-    },
-    frequency: {
-      title: "How Many Sessions Do I Need?",
-      items: [
-          "Light peel: every 2–4 weeks",
-          "Medium peel: every 4–6 weeks",
-          "TCA systems: every 8 weeks",
-          "Maintenance recommended every 6–12 weeks."
-      ]
-    },
-    idealFor: {
-      title: "Who Are Body Peels",
-      highlight: "For?",
-      titleSuffix: "",
-      items: [
-        "Rough skin (arms, thighs, buttocks)",
-        "Keratosis pilaris",
-        "Back or body acne",
-        "Pigmentation (chest, back, arms)",
-        "Sun damage",
-        "Dry, flaky, dull body skin",
-        "Menopause-related textural changes",
-        "Stretch mark brightness improvement",
-        "Uneven skin tone",
-        "Ingrown-prone skin"
-      ]
-    },
-    ulandaConnection: {
-      title: "Perfect Pairings",
-      subtitle: "",
-      sections: [
-        {
-          title: "RENEW",
-          description: "Microneedling for stretch marks, PN for neck, chest or hand rejuvenation, PRP for body skin quality.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "REFRESH",
-          description: "Medical-Grade Facial, LED Light Therapy, Enzyme Therapy.",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        },
-        {
-          title: "RADIATE",
-          description: "NAD+ IV (cellular repair), Vitamin C IM (brightening support).",
-          points: [],
-          conclusion: "",
-          image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-        }
-      ]
-    },
-    safetyOversight: {
-      title: "Downtime & Safety",
-      items: [
-        {
-          title: "Minimal Downtime",
-          description: "Based on peel strength. No pain, only tingling or warmth.",
-          icon: "cqc"
-        },
-        {
-          title: "Safe For All",
-          description: "Safe for all skin tones (peels selected accordingly), perimenopause & menopause.",
-          icon: "clinician"
-        },
-        {
-          title: "Body-Suitable",
-          description: "Can be combined with LED. Body-suitable formulations.",
-          icon: "prescribed"
-        }
-      ]
-    },
-    faq: {
-      title: "FAQ",
-      items: [
-        { question: "Will I peel a lot?", answer: "Depends on the peel — some gently exfoliate, others have mild flaking." },
-        { question: "Is it safe for darker skin?", answer: "Yes — we select gentle, pigment-safe formulations." },
-        { question: "Does it help with bumps (keratosis pilaris)?", answer: "Yes — AHAs/BHAs work exceptionally well." },
-        { question: "Can I do body peels during menopause?", answer: "Yes — they help hydrate, smooth and restore radiance." },
-        { question: "Can I combine body peels with waxing or laser?", answer: "Yes, but timing must be managed — we’ll advise." }
-      ]
-    },
-    cta: {
-      title: "Smooth, Bright, Renewed Skin",
-      highlight: "From Head to Toe",
-      description: "Book Body Peels at ULANDA in Ware SG12 and experience clearer, brighter and beautifully renewed body skin.",
-      buttonText: "Book Consultation"
-    }
-  },
+  // {
+  //   id: 'body-peels',
+  //   seo: {
+  //     title: "Body Peels Ware SG12 | Back Acne, Keratosis & Pigmentation",
+  //     description: "Body chemical peels in Ware. Treat back acne (bacne), keratosis pilaris, pigmentation & rough skin on the body. Smooth & renew."
+  //   },
+  //   seoHeadings: {
+  //     h1: "Body Peels in Ware SG12 — Smooth, Brighten & Regenerate Body Skin",
+  //     h2: [
+  //       "What Body Peels Treat (Back Acne • Keratosis • Pigmentation • Roughness)",
+  //       "Areas We Treat (Back • Chest • Arms • Bum • Legs)",
+  //       "Body Peels + Body PN / Microneedling",
+  //       "Body Peels for Postpartum & Menopause Skin",
+  //       "Linked Conditions (Body Texture, Stretch Marks, Pigmentation)",
+  //       "Book Body Peel in Ware"
+  //     ]
+  //   },
+  //   title: 'Body',
+  //   highlight: 'Peels',
+  //   titleSuffix: '',
+  //   benefits: ['Full-Body Renewal', 'Smoother Texture', 'Brighter Tone', 'Healthier Skin'],
+  //   detailedBenefits: {
+  //     title: "Benefits of Body Peels",
+  //     sections: [
+  //       {
+  //         title: "Benefits",
+  //         items: [
+  //           "Smoother, softer skin",
+  //           "Reduced roughness",
+  //           "Brightened tone",
+  //           "Faded pigmentation",
+  //           "Fewer ingrown hairs",
+  //           "Clearer back/chest acne",
+  //           "Improved hydration",
+  //           "Reduced keratosis pilaris & bumps",
+  //           "Anti-aging benefits for chest/arms/hands",
+  //           "Better product absorption",
+  //           "Skin that glows from the neck downward",
+  //           "Perfect for midlife women who want uniform, healthy-looking skin everywhere, not just the face."
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+  //   image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
+  //   category: 'Refresh',
+  //   description: 'Full-body skin renewal for smoother texture, brighter tone & healthier skin from neck to toe.',
+  //   introduction: {
+  //     title: "What Are Body Peels?",
+  //     content: [
+  //       "Body peels use controlled chemical exfoliation to remove dull, damaged skin cells and stimulate the regeneration of fresher, smoother and healthier skin.",
+  //       "ULANDA uses advanced formulations including: Lactic Acid (hydrating + brightening), Glycolic Acid (texture smoothing), Salicylic Acid (acne + congestion), TCA blends (pigmentation + deeper renewal), Retinoic acid combinations (cell turnover + glow), AHA/BHA hybrid systems.",
+  //       "In simple terms: They resurface and rejuvenate areas where the skin is thicker, rougher or more sun-damaged than the face."
+  //     ],
+  //     goals: [
+  //       "Epidermal turnover",
+  //       "Hydration",
+  //       "Collagen activation",
+  //       "Pigmentation correction",
+  //       "Inflammation reduction"
+  //     ],
+  //     highlightBox: {
+  //       text1: "Unlike spa body scrubs, these are clinical-grade peels.",
+  //       text2: "Actively regenerating the skin for long-lasting clarity, brightness and smoothness."
+  //     },
+  //     image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //   },
+  //   internalSupport: {
+  //     title: "Why ULANDA Clients Choose",
+  //     titleSuffix: "Body Peels",
+  //     image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+  //     points: [
+  //       {
+  //         title: "Hormone-smart assessment",
+  //         description: "Considering hormones, hydration, collagen decline and inflammation."
+  //       },
+  //       {
+  //         title: "Bespoke peel strengths",
+  //         description: "Based on area + skin type."
+  //       },
+  //       {
+  //         title: "Combination blends",
+  //         description: "For pigmentation and texture."
+  //       },
+  //       {
+  //         title: "Optional LED therapy",
+  //         description: "Available for back and chest."
+  //       },
+  //       {
+  //         title: "Regenerative hydration + antioxidants post-peel",
+  //         description: "For barrier support."
+  //       },
+  //       {
+  //         title: "Aftercare tailored for menopause skin",
+  //         description: "Ensures safe, effective and beautifully regenerated body skin."
+  //       }
+  //     ]
+  //   },
+  //   ingredients: {
+  //     title: "The Science",
+  //     highlight: "Behind",
+  //     titleSuffix: "Body Peels",
+  //     subtitle: "Body skin is thicker and more sun-exposed — requiring stronger peel systems.",
+  //     items: [
+  //       {
+  //         title: "AHA (Lactic + Glycolic)",
+  //         description: "Hydration + brightening + texture smoothing. Gentle enough for menopause-related dryness."
+  //       },
+  //       {
+  //         title: "BHA (Salicylic Acid)",
+  //         description: "Penetrates oil - excellent for back/chest acne, bumps & clogged pores."
+  //       },
+  //       {
+  //         title: "TCA Systems",
+  //         description: "Target deep pigmentation, sun damage, crepiness and uneven tone."
+  //       },
+  //       {
+  //         title: "Retinoic Acid",
+  //         description: "Boosts cell turnover & enhances collagen formation."
+  //       }
+  //     ],
+  //     footer: "Clinical evidence shows chemical peels thicken the epidermis, improve smoothness and elasticity, reduce sun damage and pigmentation, and salicylic acid decreases body acne lesions by up to 60%."
+  //   },
+  //   treatmentAreas: {
+  //     title: "Areas We Treat",
+  //     items: [
+  //       "Chest / Décolletage",
+  //       "Arms (upper & lower)",
+  //       "Back",
+  //       "Buttocks",
+  //       "Thighs",
+  //       "Legs",
+  //       "Hands",
+  //       "Feet",
+  //       "Underarms",
+  //       "Stomach",
+  //       "Neck",
+  //       "Menopausal and perimenopausal skin often becomes drier, thinner and more uneven, making body peels a valuable part of a regenerative routine."
+  //     ]
+  //   },
+  //   process: {
+  //     title: "What Happens During the Treatment?",
+  //     steps: [
+  //       { title: "1. Consultation & Skin Analysis", description: "We identify the correct peel type, strength and layers." },
+  //       { title: "2. Cleanse & Degreasing Prep", description: "Removes oil and prepares the skin for penetration." },
+  //       { title: "3. Peel Application", description: "Layered application depending on thickness and concerns." },
+  //       { title: "4. Neutralising / Leave-On Technique", description: "Depending on the peel chosen." },
+  //       { title: "5. Regenerative Hydration", description: "We apply ceramides, hyaluronic acid and peptides for barrier support." },
+  //       { title: "6. Aftercare Guidance", description: "Clear instructions to ensure safe and effective results." }
+  //     ]
+  //   },
+  //   resultsTimeline: {
+  //     title: "Results Timeline",
+  //     items: [
+  //       { title: "Immediately", description: "Smoother skin, Brighter tone, Cleaner pores" },
+  //       { title: "3–7 days", description: "Light flaking (depending on peel type), Visible improvement in texture" },
+  //       { title: "2–4 weeks", description: "Fading pigmentation, Clearer, softer, more even skin" },
+  //       { title: "6–8 weeks", description: "Full regenerative results, Increased collagen and elasticity (with deeper peels)" }
+  //     ]
+  //   },
+  //   frequency: {
+  //     title: "How Many Sessions Do I Need?",
+  //     items: [
+  //         "Light peel: every 2–4 weeks",
+  //         "Medium peel: every 4–6 weeks",
+  //         "TCA systems: every 8 weeks",
+  //         "Maintenance recommended every 6–12 weeks."
+  //     ]
+  //   },
+  //   idealFor: {
+  //     title: "Who Are Body Peels",
+  //     highlight: "For?",
+  //     titleSuffix: "",
+  //     items: [
+  //       "Rough skin (arms, thighs, buttocks)",
+  //       "Keratosis pilaris",
+  //       "Back or body acne",
+  //       "Pigmentation (chest, back, arms)",
+  //       "Sun damage",
+  //       "Dry, flaky, dull body skin",
+  //       "Menopause-related textural changes",
+  //       "Stretch mark brightness improvement",
+  //       "Uneven skin tone",
+  //       "Ingrown-prone skin"
+  //     ]
+  //   },
+  //   ulandaConnection: {
+  //     title: "Perfect Pairings",
+  //     subtitle: "",
+  //     sections: [
+  //       {
+  //         title: "RENEW",
+  //         description: "Microneedling for stretch marks, PN for neck, chest or hand rejuvenation, PRP for body skin quality.",
+  //         points: [],
+  //         conclusion: "",
+  //         image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //       },
+  //       {
+  //         title: "REFRESH",
+  //         description: "Vital Glow Facial, LED Light Therapy, Enzyme Therapy.",
+  //         points: [],
+  //         conclusion: "",
+  //         image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //       },
+  //       {
+  //         title: "RADIATE",
+  //         description: "NAD+ IV (cellular repair), Vitamin C IM (brightening support).",
+  //         points: [],
+  //         conclusion: "",
+  //         image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //       }
+  //     ]
+  //   },
+  //   safetyOversight: {
+  //     title: "Downtime & Safety",
+  //     items: [
+  //       {
+  //         title: "Minimal Downtime",
+  //         description: "Based on peel strength. No pain, only tingling or warmth.",
+  //         icon: "cqc"
+  //       },
+  //       {
+  //         title: "Safe For All",
+  //         description: "Safe for all skin tones (peels selected accordingly), perimenopause & menopause.",
+  //         icon: "clinician"
+  //       },
+  //       {
+  //         title: "Body-Suitable",
+  //         description: "Can be combined with LED. Body-suitable formulations.",
+  //         icon: "prescribed"
+  //       }
+  //     ]
+  //   },
+  //   faq: {
+  //     title: "FAQ",
+  //     items: [
+  //       { question: "Will I peel a lot?", answer: "Depends on the peel — some gently exfoliate, others have mild flaking." },
+  //       { question: "Is it safe for darker skin?", answer: "Yes — we select gentle, pigment-safe formulations." },
+  //       { question: "Does it help with bumps (keratosis pilaris)?", answer: "Yes — AHAs/BHAs work exceptionally well." },
+  //       { question: "Can I do body peels during menopause?", answer: "Yes — they help hydrate, smooth and restore radiance." },
+  //       { question: "Can I combine body peels with waxing or laser?", answer: "Yes, but timing must be managed — we’ll advise." }
+  //     ]
+  //   },
+  //   cta: {
+  //     title: "Smooth, Bright, Renewed Skin",
+  //     highlight: "From Head to Toe",
+  //     description: "Book Body Peels at ULANDA in Ware SG12 and experience clearer, brighter and beautifully renewed body skin.",
+  //     buttonText: "Book Consultation"
+  //   }
+  // },
   {
     id: 'chemical-peel',
+    booking: {
+      price: 120,
+      duration: 90,
+      treatmentType: 'resurfacing',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Chemical Peels Ware SG12 | Smooth, Brighten & Renew",
       description: "Medical chemical peels in Ware. Treat pigmentation, acne scarring & sun damage. Reveal smoother, brighter, younger-looking skin."
@@ -3307,7 +3386,7 @@ export const treatments = [
         },
         {
           title: "REFRESH",
-          description: "Regenerative Facial, Medical-Grade Facial.",
+          description: "Regenerative Facial, Vital Glow Facial.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -3361,6 +3440,12 @@ export const treatments = [
   },
   {
     id: 'enzyme-therapy',
+    booking: {
+      price: 95,
+      duration: 30,
+      treatmentType: 'facial',
+      bookingType: 'Book Now',
+    },
     seo: {
       title: "Enzyme Facial Ware SG12 | Gentle Resurfacing & Barrier Repair",
       description: "Enzyme therapy facial in Ware. Gentle exfoliation for sensitive skin, rosacea & pregnancy. Repair the barrier & restore natural glow."
@@ -3563,7 +3648,7 @@ export const treatments = [
         },
         {
           title: "REFRESH",
-          description: "BioRePeel, Medical-Grade Facial.",
+          description: "BioRePeel, Vital Glow Facial.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -3617,6 +3702,12 @@ export const treatments = [
   },
   {
     id: 'led-light-therapy',
+    booking: {
+      price: 20,
+      duration: 15,
+      treatmentType: 'device',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "LED Light Therapy Ware SG12 | Collagen, Acne & Inflammation",
       description: "Dermalux LED Light Therapy in Ware. Clinically proven wavelengths for acne, anti-ageing & inflammation. Boost collagen & calm redness."
@@ -3866,29 +3957,35 @@ export const treatments = [
     }
   },
   {
-    id: 'medical-grade-facial',
+    id: 'vital-glow-facial',
+    booking: {
+      price: 180,
+      duration: 90,
+      treatmentType: 'facial',
+      bookingType: 'Book Now',
+    },
     seo: {
-      title: "Medical-Grade Facial Ware SG12 | Advanced Skin Renewal",
-      description: "Medical-grade facials in Ware. Treat dullness, congestion & texture issues. Advanced skin renewal for healthy, radiant & resilient skin."
+      title: "Vital Glow Facial Ware SG12 | Advanced Skin Renewal",
+      description: "Vital Glow Facials in Ware. Treat dullness, congestion & texture issues. Advanced skin renewal for healthy, radiant & resilient skin."
     },
     seoHeadings: {
-      h1: "Medical-Grade Facials in Ware SG12 — Advanced Skin Renewal for Healthy, Radiant Skin",
+      h1: "Vital Glow Facials in Ware SG12 — Advanced Skin Renewal for Healthy, Radiant Skin",
       h2: [
-        "What a Medical-Grade Facial Treats (Dullness • Texture • Dehydration • Congestion)",
-        "Why Medical-Grade Facials Work Better Than Spa Facials",
+        "What a Vital Glow Facial Treats (Dullness • Texture • Dehydration • Congestion)",
+        "Why Vital Glow Facials Work Better Than Spa Facials",
         "Who This Treatment Is Ideal For (Postpartum • Perimenopause • Sensitive Skin)",
         "Facial Options (Hydration • Brightening • Resurfacing • Antioxidant Repair)",
-        "Medical-Grade Facial + Regenerative Add-Ons (PN, Boosters, LED)",
+        "Vital Glow Facial + Regenerative Add-Ons (PN, Boosters, LED)",
         "Linked Conditions (Uneven Tone, Dull Skin, Enlarged Pores)",
-        "Book Your Medical-Grade Facial in Ware"
+        "Book Your Vital Glow Facial in Ware"
       ]
     },
-    title: 'Medical-Grade',
+    title: 'Vital Glow',
     highlight: 'Facial',
     titleSuffix: '',
     benefits: ['Resurfacing', 'Hydration', 'Rejuvenation', 'Clinical Strength'],
     detailedBenefits: {
-      title: "Benefits of the Medical-Grade Facial",
+      title: "Benefits of the Vital Glow Facial",
       sections: [
         {
           title: "Benefits",
@@ -3913,11 +4010,11 @@ export const treatments = [
     category: 'Refresh',
     description: 'Advanced clinical facial designed to resurface, hydrate and rejuvenate the skin with medical-strength formulations.',
     introduction: {
-      title: "What Is a Medical-Grade Facial?",
+      title: "What Is a Vital Glow Facial?",
       content: [
-        "A Medical-Grade Facial is a results-driven skin treatment delivered with clinical-strength actives and devices. It goes beyond relaxation-focused facials by targeting deeper concerns such as pigmentation, congestion, fine lines and dehydration.",
+        "A Vital Glow Facial is a results-driven skin treatment delivered with clinical-strength actives and devices. It goes beyond relaxation-focused facials by targeting deeper concerns such as pigmentation, congestion, fine lines and dehydration.",
         "In simple terms: It’s a powerful, skin-transforming facial designed to change your skin — not just pamper it.",
-        "In scientific terms: Medical-grade facials promote:\naccelerated epidermal turnover\ncontrolled resurfacing\nantioxidant enhancement\ndeep hydration delivery\nbarrier lipid replenishment\nregulation of inflammation\nThey are especially effective for midlife skin that has slowed cell renewal or hormonal imbalance."
+        "In scientific terms: Vital Glow Facials promote:\naccelerated epidermal turnover\ncontrolled resurfacing\nantioxidant enhancement\ndeep hydration delivery\nbarrier lipid replenishment\nregulation of inflammation\nThey are especially effective for midlife skin that has slowed cell renewal or hormonal imbalance."
       ],
       goals: [
         "Brightens dull skin",
@@ -3930,7 +4027,7 @@ export const treatments = [
         "Evens out tone"
       ],
       highlightBox: {
-        text1: "Because ULANDA specialises in regeneration, every Medical-Grade Facial is tailored to your skin’s biology — not generic templates.",
+        text1: "Because ULANDA specialises in regeneration, every Vital Glow Facial is tailored to your skin’s biology — not generic templates.",
         text2: "To improve texture, brightness and clarity."
       },
       image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -3969,8 +4066,8 @@ export const treatments = [
     ingredients: {
       title: "The Science",
       highlight: "Behind",
-      titleSuffix: "Medical-Grade Facials",
-      subtitle: "Medical-grade facials counteract midlife skin issues by:",
+      titleSuffix: "Vital Glow Facials",
+      subtitle: "Vital Glow Facials counteract midlife skin issues by:",
       items: [
         {
           title: "exfoliating dead skin cells",
@@ -4054,7 +4151,7 @@ export const treatments = [
     },
     ulandaConnection: {
       title: "Perfect Pairings",
-      subtitle: "A Medical-Grade Facial enhances and prepares skin for:",
+      subtitle: "A Vital Glow Facial enhances and prepares skin for:",
       sections: [
         {
           title: "RENEW",
@@ -4106,18 +4203,24 @@ export const treatments = [
         { question: "Is it painful?", answer: "No — the treatment is comfortable and relaxing." },
         { question: "Can it help with hormonal breakouts?", answer: "Yes, especially when combined with peels or LED." },
         { question: "Is it suitable during perimenopause?", answer: "Absolutely — we tailor it to your skin’s hormone-driven needs." },
-        { question: "Does it replace regenerative facials?", answer: "They complement each other; the Medical-Grade Facial is more corrective, while the Regenerative Facial is more restorative." }
+        { question: "Does it replace regenerative facials?", answer: "They complement each other; the Vital Glow Facial is more corrective, while the Regenerative Facial is more restorative." }
       ]
     },
     cta: {
       title: "Transform Your Skin",
       highlight: "With Clinical Precision",
-      description: "Book your Medical-Grade Facial at ULANDA in Ware SG12 for clearer, brighter, more radiant skin that truly behaves younger.",
+      description: "Book your Vital Glow Facial at ULANDA in Ware SG12 for clearer, brighter, more radiant skin that truly behaves younger.",
       buttonText: "Book Consultation"
     }
   },
   {
     id: 'oxygen-vitamin-infusion-facial',
+    booking: {
+      price: 110,
+      duration: 60,
+      treatmentType: 'facial',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Oxygen Facial Ware SG12 | Brightening & Deep Hydration",
       description: "Oxygen & Vitamin Infusion Facial in Ware. Instantly brighten, hydrate & re-energise tired skin. Perfect for events & menopause dullness."
@@ -4315,7 +4418,7 @@ export const treatments = [
         },
         {
           title: "REFRESH",
-          description: "Regenerative Facial, Medical-Grade Facial, LED, Enzyme Therapy, Chemical Peel.",
+          description: "Regenerative Facial, Vital Glow Facial, LED, Enzyme Therapy, Chemical Peel.",
           points: [],
           conclusion: "",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -4612,6 +4715,146 @@ export const treatments = [
     }
   },
   {
+    id: 'hydrafacial',
+    booking: {
+      price: 125,
+      duration: 60,
+      treatmentType: 'facial',
+      bookingType: 'Book Now',
+    },
+    seo: {
+      title: "HydraFacial Treatment Ware SG12 | Deep Cleanse & Instant Glow",
+      description: "HydraFacial in Ware. Medical-grade vortex technology for deep cleansing, extraction, and hydration. Perfect for dull skin, pores & texture."
+    },
+    seoHeadings: {
+      h1: "HydraFacial in Ware SG12 — Medical-Grade Vortex Cleansing & Post-Travel Glow",
+      h2: [
+        "What is HydraFacial?",
+        "How HydraFacial Works (Vortex Technology)",
+        "HydraFacial for Menopause & Sensitive Skin",
+        "Best Treatment Pairings (PN, Peels, LED)",
+        "Book HydraFacial in Ware — Refresh Pathway"
+      ]
+    },
+    title: 'HydraFacial',
+    highlight: 'Medical-Grade',
+    titleSuffix: 'Cleansing & Glow',
+    pricing: {
+      singlePrice: 'Consult',
+      bookingType: 'Consultation- First - Book Consultation Button'
+    },
+    benefits: ['Deep cleanse', 'Instant glow', 'Barrier-safe hydration'],
+    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+    image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
+    category: 'Refresh',
+    description: 'Deep cleanse • Instant glow • Barrier-safe hydration',
+    introduction: {
+      title: "What is HydraFacial?",
+      content: [
+        "A medical-grade, non-invasive treatment that cleanses, exfoliates, extracts and hydrates the skin in one powerful session using vortex technology.",
+        "Safe for menopausal, perimenopausal and sensitive skin when tailored carefully."
+      ],
+      goals: [
+        "Cleanses & exfoliates",
+        "Extracts impurities",
+        "Hydrates with antioxidant serums",
+        "Improves luminosity"
+      ],
+      highlightBox: {
+        text1: "ULANDA specialises in regenerative aesthetics — meaning every treatment is designed to support the skin’s biology, not just improve its appearance temporarily.",
+        text2: "HydraFacial is perfect as a Week 0 Reset in regenerative programmes."
+      },
+      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+    },
+    idealFor: {
+      title: "Best",
+      highlight: "For",
+      titleSuffix: "",
+      items: [
+        "Dull or uneven tone",
+        "Congested pores",
+        "Rough texture",
+        "Dehydration",
+        "Early ageing",
+        "Post-travel or fatigue-related skin stress"
+      ]
+    },
+    detailedBenefits: {
+      title: "Why HydraFacial?",
+      sections: [
+        {
+          title: "CLEANSING & REPAIR",
+          items: [
+            "✔ Deep cleansing without irritation",
+            "✔ Instant glow with long-term hydration",
+            "✔ Removes buildup that accelerates ageing",
+            "✔ Pairs well with PN, peels and skin boosters",
+            "✔ Safe for retinol users (with barrier assessment)"
+          ]
+        }
+      ]
+    },
+    ulandaConnection: {
+      title: "ULANDA-Enhanced",
+      highlight: "Protocol",
+      subtitle: "Our signature approach includes:",
+      sections: [
+        {
+          id: "1",
+          title: "AI Skin Analysis",
+          description: "To personalise intensity based on your actual skin condition.",
+          points: []
+        },
+        {
+          id: "2",
+          title: "Barrier Assessment",
+          description: "Essential for retinol users to ensure safety.",
+          points: []
+        },
+        {
+          id: "3",
+          title: "Optional LED",
+          description: "+ Lymphatic drainage for enhanced detoxification.",
+          points: []
+        }
+      ]
+    },
+    resultsTimeline: {
+      title: "Results & Timing",
+      items: [
+        { title: "Treatment Time", description: "45–60 minutes" },
+        { title: "Downtime", description: "None" },
+        { title: "Results", description: "Immediate + improved clarity over 1–2 weeks" }
+      ]
+    },
+    safetyOversight: {
+      title: "Downtime & Safety",
+      items: [
+        {
+          title: "No Downtime",
+          description: "No significant downtime. Perfect for events.",
+          icon: "cqc"
+        },
+        {
+          title: "Safe For All",
+          description: "Safe for most skin tones and sensitive skin when tailored.",
+          icon: "clinician"
+        },
+        {
+          title: "Expert Delivery",
+          description: "Delivered by trained clinicians.",
+          icon: "prescribed"
+        }
+      ]
+    },
+    cta: {
+      title: "Deep Cleanse. Instant Glow.",
+      highlight: "Start Your Journey.",
+      description: "Book your HydraFacial at ULANDA in Ware SG12 today.",
+      buttonText: "Book Consultation"
+    }
+  },
+  {
     id: 'polynucleotides',
     seo: {
       title: "Polynucleotides (PN) Treatment Ware SG12 | Regenerative Skin Repair",
@@ -4764,6 +5007,12 @@ export const treatments = [
   },
   {
     id: 'microneedling',
+    booking: {
+      price: 75,
+      duration: 30,
+      treatmentType: 'device',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Microneedling Ware SG12 | Collagen Induction for Pores & Scars",
       description: "Medical Microneedling in Ware. Reduce pore size, smooth texture, and treat acne scars. Natural collagen induction for clearer, firmer skin."
@@ -4824,70 +5073,76 @@ export const treatments = [
       buttonText: "Book Consultation"
     }
   },
-  {
-    id: 'rf-microneedling',
-    seo: {
-      title: "RF Microneedling Ware SG12 | Skin Tightening & Lifting",
-      description: "Advanced RF Microneedling in Ware. Combine radiofrequency with needling for deep skin tightening, lifting & collagen remodeling."
-    },
-    seoHeadings: {
-      h1: "RF Microneedling in Ware SG12 — Lifting, Tightening & Collagen Remodeling for Aging Skin",
-      h2: [
-        "What RF Microneedling Treats: Laxity, Texture, Wrinkles, Pores",
-        "How RF Energy Enhances Collagen & Elastin",
-        "RF Microneedling vs Traditional Microneedling",
-        "Treatment Experience & Recovery",
-        "Best Combined Treatments (Biostimulators, PN, Peels)",
-        "Conditions RF Treats",
-        "Book RF Microneedling in Ware SG12"
-      ]
-    },
-    title: 'RF',
-    highlight: 'Microneedling',
-    titleSuffix: '',
-    benefits: ['Skin tightening', 'Texture improvement', 'Collagen remodelling', 'Significant results'],
-    locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
-    image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
-    category: 'Renew',
-    description: 'Advanced tightening + collagen regeneration',
-    introduction: {
-      title: "What Is RF Microneedling?",
-      content: [
-        "Combines microneedling with radiofrequency energy to remodel collagen, tighten skin and improve laxity."
-      ],
-      goals: [
-        "Skin tightening",
-        "Texture improvement",
-        "Collagen remodelling",
-        "Significant results"
-      ],
-      highlightBox: {
-        text1: "Advanced tightening.",
-        text2: "Collagen regeneration with radiofrequency energy."
-      },
-      image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
-    },
-    idealFor: {
-      title: "Best",
-      highlight: "For",
-      titleSuffix: "",
-      items: [
-        "Early jowling",
-        "Neck laxity",
-        "Acne scars",
-        "Thin, crepey skin",
-        "Menopause-related sagging"
-      ]
-    },
-    cta: {
-      title: "Tighten &",
-      highlight: "Remodel",
-      description: "Book your RF Microneedling consultation at ULANDA.",
-      buttonText: "Book Consultation"
-    }
-  },
+  // {
+  //   id: 'rf-microneedling',
+  //   seo: {
+  //     title: "RF Microneedling Ware SG12 | Skin Tightening & Lifting",
+  //     description: "Advanced RF Microneedling in Ware. Combine radiofrequency with needling for deep skin tightening, lifting & collagen remodeling."
+  //   },
+  //   seoHeadings: {
+  //     h1: "RF Microneedling in Ware SG12 — Lifting, Tightening & Collagen Remodeling for Aging Skin",
+  //     h2: [
+  //       "What RF Microneedling Treats: Laxity, Texture, Wrinkles, Pores",
+  //       "How RF Energy Enhances Collagen & Elastin",
+  //       "RF Microneedling vs Traditional Microneedling",
+  //       "Treatment Experience & Recovery",
+  //       "Best Combined Treatments (Biostimulators, PN, Peels)",
+  //       "Conditions RF Treats",
+  //       "Book RF Microneedling in Ware SG12"
+  //     ]
+  //   },
+  //   title: 'RF',
+  //   highlight: 'Microneedling',
+  //   titleSuffix: '',
+  //   benefits: ['Skin tightening', 'Texture improvement', 'Collagen remodelling', 'Significant results'],
+  //   locations: ['Ware SG12', 'Hertford', 'Broxbourne', 'Hertfordshire'],
+  //   image: '/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
+  //   category: 'Renew',
+  //   description: 'Advanced tightening + collagen regeneration',
+  //   introduction: {
+  //     title: "What Is RF Microneedling?",
+  //     content: [
+  //       "Combines microneedling with radiofrequency energy to remodel collagen, tighten skin and improve laxity."
+  //     ],
+  //     goals: [
+  //       "Skin tightening",
+  //       "Texture improvement",
+  //       "Collagen remodelling",
+  //       "Significant results"
+  //     ],
+  //     highlightBox: {
+  //       text1: "Advanced tightening.",
+  //       text2: "Collagen regeneration with radiofrequency energy."
+  //     },
+  //     image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+  //   },
+  //   idealFor: {
+  //     title: "Best",
+  //     highlight: "For",
+  //     titleSuffix: "",
+  //     items: [
+  //       "Early jowling",
+  //       "Neck laxity",
+  //       "Acne scars",
+  //       "Thin, crepey skin",
+  //       "Menopause-related sagging"
+  //     ]
+  //   },
+  //   cta: {
+  //     title: "Tighten &",
+  //     highlight: "Remodel",
+  //     description: "Book your RF Microneedling consultation at ULANDA.",
+  //     buttonText: "Book Consultation"
+  //   }
+  // },
   {
     id: 'profhilo',
+    booking: {
+      price: 230,
+      duration: 45,
+      treatmentType: 'skin-booster',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Profhilo Ware SG12 | Deep Hydration & Skin Remodelling",
       description: "Profhilo treatment in Ware. The ultimate injectable glow. Deeply hydrate, improve elasticity & treat crepey skin with bio-remodelling."
@@ -4961,6 +5216,12 @@ export const treatments = [
   },
   {
     id: 'definisse-hydrobooster',
+    booking: {
+      price: 210,
+      duration: 30,
+      treatmentType: 'skin-booster',
+      bookingType: 'consultation',
+    },
     relatedTools: ['definisse'],
     seo: {
       title: "Definisse Hydrobooster Ware SG12 | Hydration & Fine Line Smoothing",
@@ -5022,6 +5283,12 @@ export const treatments = [
   },
   {
     id: 'seventy-hyal',
+    booking: {
+      price: 185,
+      duration: 45,
+      treatmentType: 'skin-booster',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Seventy Hyal Ware SG12 | The High-Glow Skin Booster",
       description: "Seventy Hyal 2000 in Ware. Achieve glass-skin radiance and deep hydration. The perfect pre-event glow treatment."
@@ -5082,6 +5349,12 @@ export const treatments = [
   },
   {
     id: 'jalupro',
+    booking: {
+      price: 160,
+      duration: 45,
+      treatmentType: 'skin-booster',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Jalupro Amino Acid Therapy Ware SG12 | Feed Your Skin",
       description: "Jalupro Amino Acid replacement therapy in Ware. Feed collagen at the source. Treat dark circles, fine lines & crepey skin."
@@ -5142,6 +5415,12 @@ export const treatments = [
   },
   {
     id: 'lumi-eyes',
+    booking: {
+      price: 130,
+      duration: 30,
+      treatmentType: 'eye-pn',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Lumi Eyes Ware SG12 | Under-Eye Brightening & Regeneration",
       description: "Lumi Eyes PN treatment in Ware. Specifically for dark circles, hollows & under-eye signs of aging. Safe, effective regeneration."
@@ -5203,6 +5482,12 @@ export const treatments = [
   },
   {
     id: 'lemon-bottle',
+    booking: {
+      price: 150,
+      duration: 45,
+      treatmentType: 'skin-booster',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Lemon Bottle Skin Booster Ware SG12 | Vitamin C Brightening",
       description: "Lemon Bottle Skin Booster in Ware. High-dose Vitamin C + Tyrosinase inhibitors for instant brightness, glow and pigmentation control."
@@ -5263,6 +5548,12 @@ export const treatments = [
   },
   {
     id: 'plenhyage',
+    booking: {
+      price: 200,
+      duration: 30,
+      treatmentType: 'polynucleotide',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Plenhyage PN Treatment | ULANDA",
       description: "Deep tissue regeneration with Plenhyage PN. ULANDA’s high-concentration polynucleotide treatment repairs scarring, thinning & damage."
@@ -5316,6 +5607,12 @@ export const treatments = [
   },
   {
     id: 'nucleofill',
+    booking: {
+      price: 180,
+      duration: 30,
+      treatmentType: 'polynucleotide',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Nucleofill PN Treatment | ULANDA",
       description: "Lift & hydrate with Nucleofill PN. ULANDA’s bio-stimulating polynucleotide gel provides a natural lifting effect & deep moisture."
@@ -5366,6 +5663,12 @@ export const treatments = [
   },
   {
     id: 'prp-under-eye',
+    booking: {
+      price: null,
+      duration: null,
+      treatmentType: 'outcome pathway',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "PRP Under-Eye Regeneration | ULANDA",
       description: "Treat dark circles naturally with PRP Under-Eye Regeneration. ULANDA uses your own growth factors to brighten & strengthen delicate eye skin."
@@ -6097,6 +6400,12 @@ export const treatments = [
   },
   {
     id: 'anti-wrinkle',
+    booking: {
+      price: 180,
+      duration: 45,
+      treatmentType: 'injectable',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Anti-Wrinkle Injections (Botox) | Natural Expression | ULANDA",
       description: "Smooth fine lines & prevent wrinkles with precision Anti-Wrinkle Injections. ULANDA prioritises natural movement & refreshed results."
@@ -6226,6 +6535,12 @@ export const treatments = [
   },
   {
     id: 'dermal-fillers',
+    booking: {
+      price: 140,
+      duration: 60,
+      treatmentType: 'injectable',
+      bookingType: 'consultation',
+    },
     seoHeadings: {
       h1: "Dermal Fillers in Ware SG12 — Natural, Balanced Enhancement",
       h2: [
@@ -6357,6 +6672,12 @@ export const treatments = [
   },
   {
     id: 'jawline-contouring',
+    booking: {
+      price: 140,
+      duration: 90,
+      treatmentType: 'injectable',
+      bookingType: 'consultation',
+    },
     seoHeadings: {
       h1: "Jawline Shaping in Ware SG12 — Structural Definition",
       h2: [
@@ -6502,6 +6823,12 @@ export const treatments = [
   },
   {
     id: 'body-tightening',
+    booking: {
+      price: 180,
+      duration: 90,
+      treatmentType: 'body-device',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Body Skin Tightening | Firm & Tone Skin | ULANDA",
       description: "Tighten loose skin & improve texture with ULANDA’s Body Tightening treatments. Non-surgical solutions for firmer, smoother body contours."
@@ -6661,6 +6988,12 @@ export const treatments = [
   },
   {
     id: 'body-contouring',
+    booking: {
+      price: 200,
+      duration: 90,
+      treatmentType: 'body-device',
+      bookingType: 'consultation',
+    },
     seo: {
       title: "Body Contouring | Sculpt & Define | ULANDA",
       description: "Refine your shape with non-invasive Body Contouring. ULANDA targets stubborn areas to sculpt, define & enhance your natural silhouette."

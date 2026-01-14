@@ -66,7 +66,7 @@ export const programmes = [
               'prepare the skin for deeper regeneration'
             ],
             treatments: [
-              'Medical-grade facial',
+              'Vital Glow Facial',
               'Enzyme therapy',
               'Light chemical peel',
               'LED regeneration session'
@@ -475,7 +475,7 @@ export const programmes = [
               'prepare fibroblasts'
             ],
             treatments: [
-              'Medical-grade facial',
+              'Vital Glow Facial',
               'Enzyme therapy',
               'Light peel',
               'LED collagen boost'
@@ -678,7 +678,7 @@ export const programmes = [
               'brighten dull or ashy skin'
             ],
             treatments: [
-              'Medical-grade facial',
+              'Vital Glow Facial',
               'Enzyme therapy',
               'Gentle chemical peel',
               'LED for inflammation',

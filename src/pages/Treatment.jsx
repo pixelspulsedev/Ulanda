@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { Head } from 'vite-react-ssg';
 import { getTreatment } from '../data/pageContents/treatments/treatments';
@@ -68,10 +68,32 @@ const SafetyIcon = ({ type }) => {
   }
 };
 
+const getBookingButtonLabel = (booking) => {
+  if (booking?.bookingType?.toLowerCase().includes('consultation')) {
+    return 'Book Consultation';
+  }
+  return 'Book Now';
+};
+
 const Treatment = () => {
   const { category, id } = useParams();
   const treatment = getTreatment(id);
   const relatedConditions = getConditionsForTreatment(id);
+  const [isStickyVisible, setIsStickyVisible] = useState(false);
+  const heroRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (heroRef.current) {
+        const heroHeight = heroRef.current.offsetHeight;
+        // Show sticky bar when scrolled past roughly the hero section (minus some offset)
+        setIsStickyVisible(window.scrollY > heroHeight - 100);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   if (!treatment) {
     // In a real app, you might want to redirect to a 404 page or the treatments list
@@ -84,6 +106,10 @@ const Treatment = () => {
   const seoDescription =
     treatment.seo?.description || treatment.hero.introduction || '';
 
+  const Book = () => {
+    window.open('https://bookings.gettimely.com/ulanda/book', '_blank');
+  };
+
   return (
     <>
       <Head>
@@ -94,23 +120,82 @@ const Treatment = () => {
       <div className="bg-base-100 min-h-screen">
         <Breadcrumbs />
 
+        {/* Sticky Booking Details Header */}
+        <div
+          className={`fixed left-0 w-full bg-base-100/95 backdrop-blur-md z-40 transition-all duration-300 transform 
+            bottom-0 border-t border-secondary/20
+            md:top-[65px] md:bottom-auto md:border-t-0 md:border-b
+            ${
+              isStickyVisible
+                ? 'translate-y-0 opacity-100 shadow-[0_-4px_10px_-1px_rgba(0,0,0,0.1)] md:shadow-sm'
+                : 'translate-y-full opacity-0 pointer-events-none md:-translate-y-full'
+            }`}
+        >
+          <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-3 flex items-center justify-between">
+            <div className="hidden md:block text-lg font-serif text-base-content leading-tight">
+              {treatment.title}{' '}
+              <span className="italic text-primary">{treatment.highlight}</span>
+            </div>
+
+            {treatment.booking && (
+              <div className="flex items-center gap-6 ml-auto w-full md:w-auto justify-between md:justify-end">
+                {/* Prices and Duration */}
+                <div className="flex items-center gap-6 text-sm">
+                  {treatment.booking.price && (
+                    <div className="flex flex-col items-start leading-none">
+                      <span className="text-[10px] uppercase tracking-widest opacity-60">
+                        Investment
+                      </span>
+                      <span className="font-serif text-primary text-lg">
+                        {treatment.booking.starting && (
+                          <span className="text-sm font-sans font-light text-base-content/60 mr-1">
+                            From
+                          </span>
+                        )}
+                        £{treatment.booking.price}
+                      </span>
+                    </div>
+                  )}
+                  {treatment.booking.duration && (
+                    <div className="hidden sm:flex flex-col items-start leading-none border-l border-secondary/30 pl-6">
+                      <span className="text-[10px] uppercase tracking-widest opacity-60">
+                        Duration
+                      </span>
+                      <span className="font-medium text-lg">
+                        {treatment.booking.duration} min
+                      </span>
+                    </div>
+                  )}
+                </div>
+
+                <button onClick={() => Book()} className="btn btn-primary">
+                  {getBookingButtonLabel(treatment.booking)}
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+
         {/* Hero Section */}
-        <section className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
+        <section
+          ref={heroRef}
+          className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center"
+        >
           {/* Left Content */}
           <div className="space-y-6">
             <div className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
               <HeroText>
-              {treatment.seoHeadings?.h1 ? (
-                treatment.seoHeadings.h1
-              ) : (
-                <>
-                  {treatment.title}{' '}
-                  <span className="italic text-primary font-serif">
-                    {treatment.highlight}
-                  </span>{' '}
-                  {treatment.titleSuffix}
-                </>
-              )}
+                {treatment.seoHeadings?.h1 ? (
+                  treatment.seoHeadings.h1
+                ) : (
+                  <>
+                    {treatment.title}{' '}
+                    <span className="italic text-primary font-serif">
+                      {treatment.highlight}
+                    </span>{' '}
+                    {treatment.titleSuffix}
+                  </>
+                )}
               </HeroText>
             </div>
 
@@ -118,38 +203,92 @@ const Treatment = () => {
               {treatment.benefits?.map((benefit, index) => (
                 <span key={index} className="flex items-center">
                   <FadeInWhenVisible delay={index * 0.1}>
-                  {benefit}
-                  {index < (treatment.benefits?.length || 0) - 1 && (
-                    <span className="mx-1">•</span>
-                  )}
+                    {benefit}
+                    {index < (treatment.benefits?.length || 0) - 1 && (
+                      <span className="mx-1">•</span>
+                    )}
                   </FadeInWhenVisible>
                 </span>
               ))}
             </div>
 
-            <div className="flex flex-wrap font-extralight text-base-content/60 text-sm">
-              <FadeInWhenVisible delay={0.4}>
-              {treatment.locations?.map((loc, index) => (
-                <span key={index} className="flex items-center">
-                  {loc}
-                  {index < (treatment.locations?.length || 0) - 1 && (
-                    <span className="mx-1">•</span>
-                  )}
-                </span>
-              ))}
+            <div className="font-extralight text-base-content/60 text-sm">
+              <FadeInWhenVisible delay={0.4} className="flex flex-wrap">
+                {treatment.locations?.map((loc, index) => (
+                  <span key={index} className="flex items-center">
+                    {loc}
+                    {index < (treatment.locations?.length || 0) - 1 && (
+                      <span className="mx-1">•</span>
+                    )}
+                  </span>
+                ))}
               </FadeInWhenVisible>
             </div>
+
+            {/* Booking Details */}
+            {treatment.booking && (
+              <FadeInWhenVisible delay={0.5}>
+                <div className="pt-6 flex flex-wrap justify items-center gap-12 mt-8 border-t border-secondary/50">
+                  <div className="flex items-center flex-wrap gap-8">
+                    {treatment.booking.price && (
+                      <div className="flex items-center flex-col gap-1">
+                        <span className="text-xs uppercase tracking-widest text-base-content/60">
+                          Price
+                        </span>
+                        <span className="text-2xl font-serif text-primary">
+                          {treatment.booking.starting && (
+                            <span className="text-lg font-sans font-light text-base-content/60 mr-1">
+                              From
+                            </span>
+                          )}
+                          £{treatment.booking.price}
+                        </span>
+                      </div>
+                    )}
+                    {treatment.booking.duration && (
+                      <div className="flex items-center flex-col gap-1">
+                        <span className="text-xs uppercase tracking-widest text-base-content/60">
+                          Duration
+                        </span>
+                        <span className="text-2xl font-serif text-base-content">
+                          {treatment.booking.duration} min
+                        </span>
+                      </div>
+                    )}
+                    {/* {treatment.booking.bookingType && (
+                      <div className="flex flex-col gap-1">
+                        <span className="text-xs uppercase tracking-widest text-base-content/60">
+                          Session Type
+                        </span>
+                        <span className="text-2xl font-serif text-base-content capitalize">
+                          {treatment.booking.bookingType}
+                        </span>
+                      </div>
+                    )} */}
+                  </div>
+
+                  <a
+                    href="https://bookings.gettimely.com/ulanda/book"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary text-white rounded-sm px-10 py-3 h-auto text-lg font-light tracking-wide hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+                  >
+                    {getBookingButtonLabel(treatment.booking)}
+                  </a>
+                </div>
+              </FadeInWhenVisible>
+            )}
           </div>
 
           {/* Right Image */}
-          <div className="relative flex justify-center">
+          <div className="relative mt-8 md:mt-0 flex justify-center">
             <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
-                <RevealImage className="w-full h-full">
-              <img
-                src="/assets/img/ui/accent.webp"
-                alt="Decorative shadow"
-                className="w-full h-full object-cover"
-              />
+              <RevealImage className="w-full h-full">
+                <img
+                  src="/assets/img/ui/accent.webp"
+                  alt="Decorative shadow"
+                  className="w-full h-full object-cover"
+                />
               </RevealImage>
             </div>
             {/* Arch Image */}
@@ -193,8 +332,11 @@ const Treatment = () => {
                 </p>
 
                 <div className="pt-4">
-                  <button className="btn btn-primary text-white px-8 rounded-md normal-case font-normal hover:bg-primary/90 border-none">
-                    Book Now
+                  <button 
+                    onClick={() => Book()}
+                    className="btn btn-primary text-white px-8 rounded-md normal-case font-normal hover:bg-primary/90 border-none"
+                  >
+                    {getBookingButtonLabel(treatment.booking)}
                   </button>
                 </div>
               </div>
@@ -211,10 +353,10 @@ const Treatment = () => {
         {treatment.introduction && (
           <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-                <FadeInWhenVisible className="space-y-6">
-                    <h2 className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
-                    {treatment.introduction.title}
-                    </h2>
+              <FadeInWhenVisible className="space-y-6">
+                <h2 className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
+                  {treatment.introduction.title}
+                </h2>
 
                 <div className="space-y-4 text-base-content/80 leading-relaxed">
                   {treatment.introduction.content?.map((paragraph, idx) => (
@@ -247,18 +389,19 @@ const Treatment = () => {
                       {treatment.introduction.highlightBox.text1}
                     </p>
                     <p className=" leading-relaxed font-medium">
-                      {treatment.introduction.highlightBox.text2 && treatment.introduction.highlightBox.text2
-                        .split('30–65+')
-                        .map((part, i, arr) => (
-                          <React.Fragment key={i}>
-                            {part}
-                            {i < arr.length - 1 && (
-                              <span className="font-bold text-primary">
-                                30–65+
-                              </span>
-                            )}
-                          </React.Fragment>
-                        ))}
+                      {treatment.introduction.highlightBox.text2 &&
+                        treatment.introduction.highlightBox.text2
+                          .split('30–65+')
+                          .map((part, i, arr) => (
+                            <React.Fragment key={i}>
+                              {part}
+                              {i < arr.length - 1 && (
+                                <span className="font-bold text-primary">
+                                  30–65+
+                                </span>
+                              )}
+                            </React.Fragment>
+                          ))}
                     </p>
                   </div>
                 </div>
@@ -275,11 +418,11 @@ const Treatment = () => {
               <div className="relative w-full">
                 {/* Background Image */}
                 <RevealImage className="w-full h-full">
-                <img
-                  src={treatment.internalSupport.image}
-                  alt="Background"
-                  className="w-full h-full object-cover aspect-square md:aspect-square max-w-sm"
-                />
+                  <img
+                    src={treatment.internalSupport.image}
+                    alt="Background"
+                    className="w-full h-full object-cover aspect-square md:aspect-square max-w-sm"
+                  />
                 </RevealImage>
 
                 {/* Overlay Text Box */}
@@ -360,18 +503,19 @@ const Treatment = () => {
 
             <div className="text-center mt-12">
               <p className="text-base-content/60 font-medium">
-                {treatment.ingredients.footer && treatment.ingredients.footer
-                  .split('360Medicx')
-                  .map((part, i, arr) => (
-                    <React.Fragment key={i}>
-                      {part}
-                      {i < arr.length - 1 && (
-                        <span className="font-bold text-base-content/80">
-                          360Medicx
-                        </span>
-                      )}
-                    </React.Fragment>
-                  ))}
+                {treatment.ingredients.footer &&
+                  treatment.ingredients.footer
+                    .split('360Medicx')
+                    .map((part, i, arr) => (
+                      <React.Fragment key={i}>
+                        {part}
+                        {i < arr.length - 1 && (
+                          <span className="font-bold text-base-content/80">
+                            360Medicx
+                          </span>
+                        )}
+                      </React.Fragment>
+                    ))}
               </p>
             </div>
           </section>
@@ -412,172 +556,6 @@ const Treatment = () => {
           </section>
         )}
 
-        {/* Ulanda Connection Section */}
-        {treatment.ulandaConnection && (
-          <>
-            <section className="py-8 bg-base-100">
-              <div className="max-w-7xl mx-auto px-4 md:px-8 text-center mb-8 md:mb-16">
-                <h1 className="text-3xl md:text-5xl font-serif text-base-content mb-4 leading-tight">
-                  {treatment.ulandaConnection.title ? (
-                    treatment.ulandaConnection.title
-                  ) : (
-                    <>
-                      The Ulanda Connection — How{' '}
-                      <span className="italic text-primary">
-                        {treatment.title}
-                      </span>{' '}
-                      Elevates Refresh, Renew & Restore
-                    </>
-                  )}
-                </h1>
-                {/* <p className="text-base-content/80 font-sans">
-                {treatment.ulandaConnection.subtitle}
-              </p> */}
-              </div>
-            </section>
-
-            {treatment.ulandaConnection.sections?.map((section, index) => (
-              <div key={index}>
-                {/* Mobile View */}
-                <section className="md:hidden pb-12 flex items-center bg-base-100">
-                  <div className="w-full flex flex-col gap-16 items-center justify-end">
-                    <div className="flex justify-center w-full">
-                      <div className="w-full px-4">
-                        <h3 className="text-2xl font-serif text-base-content mb-6">
-                          {section.title}
-                        </h3>
-
-                        <div className="flex-1 w-full relative flex justify-center pb-12">
-                          <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-                          <div className="relative w-full max-w-xs aspect-[4/5]">
-                            <div className="absolute top-20 right-20 w-full h-full z-0">
-                              <RevealImage className="w-full h-full">
-                              <img
-                                src="/assets/img/ui/accent.webp"
-                                alt="Decorative shadow"
-                                className="w-full h-full object-cover"
-                              />
-                              </RevealImage>
-                            </div>
-                            <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                              <RevealImage className="w-full h-full">
-                              <img
-                                src={section.image}
-                                alt={section.title}
-                                className="w-full h-full object-cover"
-                              />
-                              </RevealImage>
-                            </div>
-                          </div>
-                        </div>
-
-                        <p className="text-lg text-base-content/80 font-sans font-light mt-12 leading-relaxed">
-                          {section.description}
-                        </p>
-
-                        <ul className="my-4 space-y-2">
-                          {section.points?.map((point, idx) => (
-                            <li
-                              key={idx}
-                              className="text-base-content/80 font-light flex items-start gap-2"
-                            >
-                              <span className="text-primary mt-1.5 text-xs">
-                                ●
-                              </span>
-                              <span>{point}</span>
-                            </li>
-                          ))}
-                        </ul>
-
-                        <p className="text-lg font-medium text-primary font-serif italic mt-6">
-                          {section.conclusion}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-
-                {/* Desktop View */}
-                <section className="hidden py-24 md:flex items-center bg-base-100">
-                  <div
-                    className={`w-full flex flex-col ${
-                      index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                    } gap-16 items-center justify-end max-w-7xl mx-auto px-4 md:px-8`}
-                  >
-                    {/* Content */}
-                    <div className="flex-1 flex justify-center w-full">
-                      <div className="w-full max-w-3xl px-4">
-                        <h3 className="text-3xl font-serif text-base-content mb-6">
-                          {section.title}
-                        </h3>
-
-                        <p className="text-lg text-base-content/80 font-sans font-light mb-4 leading-relaxed max-w-lg">
-                          {section.description}
-                        </p>
-
-                        <ul className="mb-6 space-y-2">
-                          {section.points?.map((point, idx) => (
-                            <li
-                              key={idx}
-                              className="text-base-content/80 font-light flex items-start gap-2"
-                            >
-                              <span className="text-primary mt-1.5 text-xs">
-                                ●
-                              </span>
-                              <span>{point}</span>
-                            </li>
-                          ))}
-                        </ul>
-
-                        <p className="text-lg font-medium text-primary font-serif italic">
-                          {section.conclusion}
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Image */}
-                    <div
-                      className={`flex-1 max-w-xs relative flex justify-center ${
-                        index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'
-                      } mt-12 md:mt-0`}
-                    >
-                      <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                      <div className="relative w-full max-w-xs aspect-[4/5]">
-                        <div
-                          className={`absolute top-20 ${
-                            index % 2 === 0
-                              ? 'right-10 lg:right-20'
-                              : 'left-10 lg:left-20'
-                          } w-full h-full z-0`}
-                        >
-                          <RevealImage className="w-full h-full">
-                          <img
-                            src="/assets/img/ui/accent.webp"
-                            alt="Decorative shadow"
-                            className="w-full h-full object-cover"
-                          />
-                          </RevealImage>
-                        </div>
-
-                        <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                          <RevealImage className="w-full h-full">
-                          <img
-                            src={section.image}
-                            alt={section.title}
-                            className="w-full h-full object-cover"
-                          />
-                          </RevealImage>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            ))}
-          </>
-        )}
-
         {/* Ideal For Section */}
         {treatment.idealFor && (
           <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24">
@@ -609,11 +587,11 @@ const Treatment = () => {
               <div className="relative flex justify-center">
                 <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
                   <RevealImage className="w-full h-full">
-                  <img
-                    src="/assets/img/ui/accent.webp"
-                    alt="Decorative shadow"
-                    className="w-full h-full object-cover"
-                  />
+                    <img
+                      src="/assets/img/ui/accent.webp"
+                      alt="Decorative shadow"
+                      className="w-full h-full object-cover"
+                    />
                   </RevealImage>
                 </div>
                 {/* Arch Image */}
@@ -824,9 +802,44 @@ const Treatment = () => {
                 {treatment.cta.description}
               </p>
 
-              <button className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
+              {treatment.booking && (
+                <div className="flex justify-center flex-wrap gap-x-12 gap-y-4 mb-10 text-base-content/70 font-light">
+                  {treatment.booking.price && (
+                    <span className="flex flex-col items-center gap-1">
+                      <span className="uppercase text-xs tracking-widest opacity-70">
+                        Investment
+                      </span>
+                      <span className="text-2xl font-serif text-primary">
+                        {treatment.booking.starting && (
+                          <span className="text-lg font-sans font-light text-base-content/60 mr-1">
+                            From
+                          </span>
+                        )}
+                        £{treatment.booking.price}
+                      </span>
+                    </span>
+                  )}
+                  {treatment.booking.duration && (
+                    <span className="flex flex-col items-center gap-1">
+                      <span className="uppercase text-xs tracking-widest opacity-70">
+                        Duration
+                      </span>
+                      <span className="text-2xl font-serif text-base-content">
+                        {treatment.booking.duration} min
+                      </span>
+                    </span>
+                  )}
+                </div>
+              )}
+
+              <a
+                href="https://bookings.gettimely.com/ulanda/book"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+              >
                 {treatment.cta.buttonText}
-              </button>
+              </a>
             </div>
           </section>
         )}
@@ -860,6 +873,172 @@ const Treatment = () => {
               ))}
             </div>
           </section>
+        )}
+
+        {/* Ulanda Connection Section */}
+        {treatment.ulandaConnection && (
+          <>
+            <section className="py-8 bg-base-100">
+              <div className="max-w-7xl mx-auto px-4 md:px-8 text-center mb-8 md:mb-16">
+                <h1 className="text-3xl md:text-5xl font-serif text-base-content mb-4 leading-tight">
+                  {treatment.ulandaConnection.title ? (
+                    treatment.ulandaConnection.title
+                  ) : (
+                    <>
+                      The Ulanda Connection — How{' '}
+                      <span className="italic text-primary">
+                        {treatment.title}
+                      </span>{' '}
+                      Elevates Refresh, Renew & Restore
+                    </>
+                  )}
+                </h1>
+                {/* <p className="text-base-content/80 font-sans">
+                {treatment.ulandaConnection.subtitle}
+              </p> */}
+              </div>
+            </section>
+
+            {treatment.ulandaConnection.sections?.map((section, index) => (
+              <div key={index}>
+                {/* Mobile View */}
+                <section className="md:hidden pb-12 flex items-center bg-base-100">
+                  <div className="w-full flex flex-col gap-16 items-center justify-end">
+                    <div className="flex justify-center w-full">
+                      <div className="w-full px-4">
+                        <h3 className="text-2xl font-serif text-base-content mb-6">
+                          {section.title}
+                        </h3>
+
+                        <div className="flex-1 w-full relative flex justify-center pb-12">
+                          <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
+                          <div className="relative w-full max-w-xs aspect-[4/5]">
+                            <div className="absolute top-20 right-20 w-full h-full z-0">
+                              <RevealImage className="w-full h-full">
+                                <img
+                                  src="/assets/img/ui/accent.webp"
+                                  alt="Decorative shadow"
+                                  className="w-full h-full object-cover"
+                                />
+                              </RevealImage>
+                            </div>
+                            <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                              <RevealImage className="w-full h-full">
+                                <img
+                                  src={section.image}
+                                  alt={section.title}
+                                  className="w-full h-full object-cover"
+                                />
+                              </RevealImage>
+                            </div>
+                          </div>
+                        </div>
+
+                        <p className="text-lg text-base-content/80 font-sans font-light mt-12 leading-relaxed">
+                          {section.description}
+                        </p>
+
+                        <ul className="my-4 space-y-2">
+                          {section.points?.map((point, idx) => (
+                            <li
+                              key={idx}
+                              className="text-base-content/80 font-light flex items-start gap-2"
+                            >
+                              <span className="text-primary mt-1.5 text-xs">
+                                ●
+                              </span>
+                              <span>{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+
+                        <p className="text-lg font-medium text-primary font-serif italic mt-6">
+                          {section.conclusion}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                {/* Desktop View */}
+                <section className="hidden py-24 md:flex items-center bg-base-100">
+                  <div
+                    className={`w-full flex flex-col ${
+                      index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                    } gap-16 items-center justify-end max-w-7xl mx-auto px-4 md:px-8`}
+                  >
+                    {/* Content */}
+                    <div className="flex-1 flex justify-center w-full">
+                      <div className="w-full max-w-3xl px-4">
+                        <h3 className="text-3xl font-serif text-base-content mb-6">
+                          {section.title}
+                        </h3>
+
+                        <p className="text-lg text-base-content/80 font-sans font-light mb-4 leading-relaxed max-w-lg">
+                          {section.description}
+                        </p>
+
+                        <ul className="mb-6 space-y-2">
+                          {section.points?.map((point, idx) => (
+                            <li
+                              key={idx}
+                              className="text-base-content/80 font-light flex items-start gap-2"
+                            >
+                              <span className="text-primary mt-1.5 text-xs">
+                                ●
+                              </span>
+                              <span>{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+
+                        <p className="text-lg font-medium text-primary font-serif italic">
+                          {section.conclusion}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Image */}
+                    <div
+                      className={`flex-1 max-w-xs relative flex justify-center ${
+                        index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'
+                      } mt-12 md:mt-0`}
+                    >
+                      <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
+
+                      <div className="relative w-full max-w-xs aspect-[4/5]">
+                        <div
+                          className={`absolute top-20 ${
+                            index % 2 === 0
+                              ? 'right-10 lg:right-20'
+                              : 'left-10 lg:left-20'
+                          } w-full h-full z-0`}
+                        >
+                          <RevealImage className="w-full h-full">
+                            <img
+                              src="/assets/img/ui/accent.webp"
+                              alt="Decorative shadow"
+                              className="w-full h-full object-cover"
+                            />
+                          </RevealImage>
+                        </div>
+
+                        <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
+                          <RevealImage className="w-full h-full">
+                            <img
+                              src={section.image}
+                              alt={section.title}
+                              className="w-full h-full object-cover"
+                            />
+                          </RevealImage>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            ))}
+          </>
         )}
       </div>
     </>

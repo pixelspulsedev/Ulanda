@@ -312,11 +312,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/nad-im</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/treatments/radiate/nad-iv</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -347,11 +342,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/refresh/body-peels</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/treatments/refresh/chemical-peel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -367,7 +357,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/refresh/medical-grade-facial</loc>
+    <loc>https://www.ulanda.co.uk/treatments/refresh/vital-glow-facial</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -378,6 +368,11 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/refresh/regenerative-facial</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/refresh/hydrafacial</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -393,11 +388,6 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/renew/microneedling</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/renew/rf-microneedling</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
