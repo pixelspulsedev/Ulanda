@@ -2258,6 +2258,156 @@ export const treatments = {
               "buttonText": "Book Consultation"
             }
           },
+          "seventy-hyal": {
+            "id": "seventy-hyal",
+            "booking": {
+              "price": 185,
+              "duration": 45,
+              "treatmentType": "skin-booster",
+              "bookingType": "consultation"
+            },
+            "seo": {
+              "title": "Seventy Hyal Ware SG12 | The High-Glow Skin Booster",
+              "description": "Seventy Hyal 2000 in Ware. Achieve glass-skin radiance and deep hydration. The perfect pre-event glow treatment."
+            },
+            "seoHeadings": {
+              "h1": "Seventy Hyal in Ware SG12 — High-Glow Hyaluronic Booster for Dull, Dehydrated Skin",
+              "h2": [
+                "What It Treats: Dullness, Dehydration, Texture",
+                "How It Works — HA Glow Hydration",
+                "SeventyHyal vs Profhilo vs Hydrobooster",
+                "Treatment Protocol",
+                "Ideal Combinations",
+                "Conditions It Improves",
+                "Book Seventy Hyal in Ware SG12"
+              ]
+            },
+            "title": "Seventy",
+            "highlight": "Hyal",
+            "titleSuffix": "",
+            "benefits": [
+              "Dewy finish",
+              "Skin plumping",
+              "Minimal downtime"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "category": "Renew",
+            "description": "High-intensity hydration for instant radiance",
+            "introduction": {
+              "title": "What Is Seventy Hyal?",
+              "content": [
+                "An injectable hyaluronic acid booster providing deep hydration and immediate glow."
+              ],
+              "goals": [
+                "Dewy finish",
+                "Skin plumping",
+                "Minimal downtime"
+              ],
+              "highlightBox": {
+                "text1": "Instant radiance.",
+                "text2": "High-intensity hydration."
+              },
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "titleSuffix": "",
+              "items": [
+                "Dehydrated skin",
+                "First-time injectable users",
+                "Event prep",
+                "Fine dryness lines"
+              ]
+            },
+            "cta": {
+              "title": "Instant",
+              "highlight": "Radiance",
+              "description": "Book your Seventy Hyal consultation at ULANDA.",
+              "buttonText": "Book Consultation"
+            }
+          },
+          "lemon-bottle": {
+            "id": "lemon-bottle",
+            "booking": {
+              "price": 150,
+              "duration": 45,
+              "treatmentType": "skin-booster",
+              "bookingType": "consultation"
+            },
+            "seo": {
+              "title": "Lemon Bottle Skin Booster Ware SG12 | Vitamin C Brightening",
+              "description": "Lemon Bottle Skin Booster in Ware. High-dose Vitamin C + Tyrosinase inhibitors for instant brightness, glow and pigmentation control."
+            },
+            "seoHeadings": {
+              "h1": "Lemon Bottle Skin Booster in Ware SG12 — Brightening & Glow Revitalisation Treatment",
+              "h2": [
+                "What It Treats: Dullness, Uneven Tone, Fine Texture Issues",
+                "How It Works — Antioxidant + HA Blend",
+                "Lemon Bottle vs Jalupro vs SeventyHyal",
+                "Treatment Timeline",
+                "Ideal Combinations",
+                "Conditions Treated",
+                "Book Lemon Bottle Skin Booster in Ware SG12"
+              ]
+            },
+            "title": "Lemon Bottle",
+            "highlight": "Skin Booster",
+            "titleSuffix": "",
+            "benefits": [
+              "Radiance boost",
+              "Hydration",
+              "Brightening"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "category": "Renew",
+            "description": "Brightening + hydration + glow",
+            "introduction": {
+              "title": "What Is Lemon Bottle Skin Booster?",
+              "content": [
+                "A revitalising injectable with brightening peptides, hydrating agents and antioxidants."
+              ],
+              "goals": [
+                "Radiance boost",
+                "Hydration",
+                "Brightening"
+              ],
+              "highlightBox": {
+                "text1": "Revitalising glow.",
+                "text2": "Brightening peptides and antioxidants."
+              },
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "titleSuffix": "",
+              "items": [
+                "Dullness",
+                "Uneven tone",
+                "Mild pigmentation",
+                "Early ageing"
+              ]
+            },
+            "cta": {
+              "title": "Boost Your",
+              "highlight": "Glow",
+              "description": "Book your Lemon Bottle Skin Booster consultation at ULANDA.",
+              "buttonText": "Book Consultation"
+            }
+          },
           "lumi-eyes": {
             "id": "lumi-eyes",
             "booking": {
@@ -2510,6 +2660,141 @@ export const treatments = {
               "title": "Repair at the",
               "highlight": "Cellular Level",
               "description": "Book your Polynucleotides consultation at ULANDA.",
+              "buttonText": "Book Consultation"
+            }
+          },
+          "plenhyage": {
+            "id": "plenhyage",
+            "booking": {
+              "price": 200,
+              "duration": 30,
+              "treatmentType": "polynucleotide",
+              "bookingType": "consultation"
+            },
+            "seo": {
+              "title": "Plenhyage PN Treatment | ULANDA",
+              "description": "Deep tissue regeneration with Plenhyage PN. ULANDA's high-concentration polynucleotide treatment repairs scarring, thinning & damage."
+            },
+            "title": "Plenhyage",
+            "highlight": "PN",
+            "titleSuffix": "",
+            "benefits": [
+              "Deep tissue repair",
+              "Elasticity recovery",
+              "Under-eye & global regeneration"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "category": "Renew",
+            "description": "Advanced PN Treatment",
+            "introduction": {
+              "title": "What Is Plenhyage?",
+              "content": [
+                "Plenhyage is an advanced Polynucleotide (PN) injectable designed to stimulate fibroblasts, improve hydration, strengthen the extracellular matrix and repair damaged skin.",
+                "Its longer-chain PN structure makes it ideal for deeper regeneration."
+              ],
+              "goals": [
+                "Powerful collagen & elastin stimulation",
+                "Thickens fragile skin",
+                "Reduces fine lines & crepiness",
+                "Increases structural resilience",
+                "Longer-lasting PN effects"
+              ],
+              "highlightBox": {
+                "text1": "Advanced Cellular Regeneration.",
+                "text2": "Deep tissue repair and elasticity recovery."
+              },
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "titleSuffix": "",
+              "items": [
+                "Menopause thinning",
+                "Under-eye crepiness",
+                "Fine lines",
+                "Loss of elasticity",
+                "Scarring or damaged skin",
+                "Sensitive or inflammatory-prone skin"
+              ]
+            },
+            "cta": {
+              "title": "Deep",
+              "highlight": "Regeneration",
+              "description": "Book your Plenhyage PN consultation at ULANDA.",
+              "buttonText": "Book Consultation"
+            }
+          },
+          "nucleofill": {
+            "id": "nucleofill",
+            "booking": {
+              "starting": true,
+              "price": 180,
+              "duration": 30,
+              "treatmentType": "polynucleotide",
+              "bookingType": "consultation"
+            },
+            "seo": {
+              "title": "Nucleofill PN Treatment | ULANDA",
+              "description": "Lift & hydrate with Nucleofill PN. ULANDA's bio-stimulating polynucleotide gel provides a natural lifting effect & deep moisture."
+            },
+            "title": "Nucleofill",
+            "highlight": "PN",
+            "titleSuffix": "",
+            "benefits": [
+              "Lifting effect",
+              "Strong fibroblast activation",
+              "Deep hydration + elasticity boost",
+              "Smooth, firm appearance"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "category": "Renew",
+            "description": "Bio-stimulation • Lifting effect • Deep hydration + firming",
+            "introduction": {
+              "title": "What Is Nucleofill?",
+              "content": [
+                "Nucleofill is a premium bio-stimulation PN injectable that focuses on lifting, firming and deep hydration through molecular-level regeneration."
+              ],
+              "goals": [
+                "Lifting effect (unique to Nucleofill)",
+                "Strong fibroblast activation",
+                "Deep hydration + elasticity boost",
+                "Smooth, firm appearance"
+              ],
+              "highlightBox": {
+                "text1": "Bio-stimulation and lifting.",
+                "text2": "Molecular-level regeneration."
+              },
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "titleSuffix": "",
+              "items": [
+                "Mild sagging",
+                "Loss of firmness",
+                "Dehydration",
+                "Eye-area thinning",
+                "Post-menopause collagen loss"
+              ]
+            },
+            "cta": {
+              "title": "Lift &",
+              "highlight": "Firm",
+              "description": "Book your Nucleofill PN consultation at ULANDA.",
               "buttonText": "Book Consultation"
             }
           },
@@ -2819,6 +3104,89 @@ export const treatments = {
               "title": "Tighter. Stronger.",
               "highlight": "Smoother. Confident.",
               "description": "ULANDA Body Tightening restores firmness and elasticity naturally — using regenerative science to support your midlife body, not fight it.",
+              "buttonText": "Book Body Consultation"
+            }
+          },
+          "body-contouring": {
+            "id": "body-contouring",
+            "booking": {
+              "starting": true,
+              "price": 200,
+              "duration": 90,
+              "treatmentType": "body-device",
+              "bookingType": "consultation"
+            },
+            "seo": {
+              "title": "Body Contouring | Sculpt & Define | ULANDA",
+              "description": "Refine your shape with non-invasive Body Contouring. ULANDA targets stubborn areas to sculpt, define & enhance your natural silhouette."
+            },
+            "seoHeadings": {
+              "h1": "Body Contouring in Ware SG12 — Sculpt, Smooth & Re-Define Postpartum & Midlife Bodies",
+              "h2": [
+                "What Body Contouring Treats",
+                "How It Works (Fat Reduction + Lymphatic Drainage)",
+                "Best Combinations",
+                "Conditions Treated",
+                "Book Body Contouring in Ware SG12"
+              ]
+            },
+            "title": "Body Contouring",
+            "highlight": "(Fat Reduction & Shaping)",
+            "titleSuffix": "",
+            "benefits": [
+              "Reduce stubborn fat",
+              "Sculpt curves naturally",
+              "Enhance body proportions",
+              "Support weight-loss"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "category": "Renew",
+            "description": "Sculpt, Refine & Shape Your Body Using Regenerative Aesthetic Science",
+            "introduction": {
+              "title": "Sculpt, Refine & Shape",
+              "content": [
+                "Contouring at ULANDA is not about shrinking you — it's about sculpting you.",
+                "At ULANDA, Body Contouring focuses on reshaping areas where fat persists despite exercise, nutrition and lifestyle changes.",
+                "Unlike fad treatments that promise dramatic change without substance, our approach is grounded in fat reduction science, hormone-aware weight distribution, body architecture mapping, regenerative skin tightening, and personalised metabolic balance.",
+                "Body Contouring here is body-positive, feminine, subtle, and regenerative — not extreme."
+              ],
+              "goals": [
+                "Reduce stubborn fat",
+                "Sculpt curves naturally",
+                "Enhance body proportions",
+                "Support weight-loss or recomposition plans",
+                "Smooth problem areas",
+                "Improve confidence during hormonal transitions"
+              ],
+              "highlightBox": {
+                "text1": "Grounded in fat reduction science.",
+                "text2": "Hormone-aware weight distribution."
+              },
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Who This Treatment",
+              "highlight": "Is For",
+              "titleSuffix": "",
+              "items": [
+                "Women experiencing stubborn midsection fat",
+                "Perimenopause belly changes",
+                "Thigh or hip redistribution",
+                "Back/bra-line fat",
+                "Fat pockets that resist exercise",
+                "Postpartum stubborn fat"
+              ]
+            },
+            "cta": {
+              "title": "Sculpt. Smooth.",
+              "highlight": "Re-Define.",
+              "description": "ULANDA Body Contouring uses regenerative science to reshape your body naturally.",
               "buttonText": "Book Body Consultation"
             }
           }
@@ -4190,6 +4558,107 @@ export const treatments = {
                   "description": "Sustained collagen remodelling"
                 }
               ]
+            }
+          },
+          "anti-wrinkle": {
+            "id": "anti-wrinkle",
+            "booking": {
+              "starting": true,
+              "price": 180,
+              "duration": 45,
+              "treatmentType": "injectable",
+              "bookingType": "consultation"
+            },
+            "seo": {
+              "title": "Anti-Wrinkle Injections (Botox) | Natural Expression | ULANDA",
+              "description": "Smooth fine lines & prevent wrinkles with precision Anti-Wrinkle Injections. ULANDA prioritises natural movement & refreshed results."
+            },
+            "seoHeadings": {
+              "h1": "Anti-Wrinkle Injections in Ware SG12 — Natural, Refreshed Expression for All Life Stages",
+              "h2": [
+                "What Anti-Wrinkle Injections Treat",
+                "How They Work — Muscle Relaxation & Expression Reset",
+                "Anti-Wrinkle vs Threads vs Fillers",
+                "Menopause & Postpartum Considerations",
+                "Best Combinations",
+                "Conditions Treated",
+                "Book Anti-Wrinkle Treatments in Ware SG12"
+              ]
+            },
+            "title": "Anti-Wrinkle Injections",
+            "highlight": "Smooth, Soft & Natural",
+            "titleSuffix": "",
+            "benefits": [
+              "Soften fine lines",
+              "Prevent deeper creasing",
+              "Smooth expression-heavy zones",
+              "Refresh the upper face"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "category": "Renew",
+            "description": "Subtle Expression Refinement That Supports Your Regeneration Journey",
+            "introduction": {
+              "title": "Smooth, Soft & Natural",
+              "content": [
+                "ULANDA anti-wrinkle treatments are designed for harmony — never heaviness.",
+                "At ULANDA, Anti-Wrinkle Injections are used as a precision tool to soften expression lines while maintaining natural movement.",
+                "This ensures smoother skin without freezing, flattening or changing your natural expression.",
+                "We use a hormone-aware, age-specific approach ideal for women in their mid-30s, 40s, 50s and beyond."
+              ],
+              "goals": [
+                "Soften fine lines & dynamic wrinkles",
+                "Prevent deeper creasing",
+                "Smooth expression-heavy zones",
+                "Refresh the upper face without altering shape",
+                "Support long-term skin quality"
+              ],
+              "highlightBox": {
+                "text1": "Designed for harmony.",
+                "text2": "Never heaviness or frozen."
+              },
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Who This Treatment",
+              "highlight": "Is For",
+              "titleSuffix": "",
+              "items": [
+                "Forehead lines",
+                "Frown (11s) lines",
+                "Crow's feet",
+                "Eyebrow heaviness",
+                "Tired-looking eyes",
+                "Early upper-face age markers"
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results Timeline",
+              "items": [
+                {
+                  "title": "Day 3–5",
+                  "description": "Initial smoothing"
+                },
+                {
+                  "title": "Day 10–14",
+                  "description": "Full results"
+                },
+                {
+                  "title": "3–4 Months",
+                  "description": "Duration (varies by dose, muscle strength, lifestyle)"
+                }
+              ]
+            },
+            "cta": {
+              "title": "Smooth. Soft. Natural.",
+              "highlight": "Never Frozen.",
+              "description": "ULANDA Anti-Wrinkle Injections are designed to complement your regenerative journey — enhancing expression while keeping every result refined, subtle and authentically you.",
+              "buttonText": "Book Anti-Wrinkle Consultation"
             }
           },
           "dermal-fillers": {
@@ -6171,6 +6640,205 @@ export const treatments = {
               "highlight": "Clarity You Can See.",
               "description": "Glow That Starts Within. ULANDA’s Vitamin B12 IM — in partnership with 360Medicx — restores energy, cognitive clarity and metabolic balance, supporting your skin and body at every stage of midlife.",
               "buttonText": "Book Vitamin B12 IM"
+            }
+          },
+          "glutathione-im": {
+            "id": "glutathione-im",
+            "booking": {
+              "price": 45,
+              "duration": 20,
+              "treatmentType": "injectable",
+              "bookingType": "booking"
+            },
+            "seo": {
+              "title": "Glutathione IM Injection | Detox & Skin Brightening | ULANDA",
+              "description": "Master antioxidant injection for detox, radiance, liver support and skin brightening. ULANDA Glutathione IM boosts cellular health from within."
+            },
+            "seoHeadings": {
+              "h1": "Glutathione IM Injection in Ware SG12 — Master Antioxidant for Detox, Radiance & Liver Support",
+              "h2": [
+                "What Glutathione IM Does",
+                "How It Works — Cellular Detox & Oxidative Defence",
+                "Skin Brightening & Pigmentation",
+                "Menopause & Postpartum Considerations",
+                "Best Combinations",
+                "Conditions Treated",
+                "Book Glutathione IM in Ware SG12"
+              ]
+            },
+            "title": "Glutathione IM",
+            "highlight": "Master Antioxidant",
+            "titleSuffix": "Detox Booster",
+            "benefits": [
+              "Detoxification",
+              "Skin brightening",
+              "Liver support",
+              "Anti-ageing cellular defence"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "category": "Radiate",
+            "description": "Cellular Detoxification & Skin Brightening From Within",
+            "introduction": {
+              "title": "Detox, Brighten & Protect",
+              "content": [
+                "ULANDA Glutathione IM delivers the body's master antioxidant directly into your system for maximum absorption.",
+                "Glutathione is essential for detoxification, liver function, immune support and skin radiance.",
+                "This treatment supports those recovering from hormonal stress, environmental toxin exposure or metabolic strain — especially during midlife transitions."
+              ],
+              "goals": [
+                "Cellular detoxification",
+                "Liver support & regeneration",
+                "Skin brightening & tone evening",
+                "Oxidative stress protection",
+                "Immune function support"
+              ],
+              "highlightBox": {
+                "text1": "Master antioxidant.",
+                "text2": "Cellular-level radiance."
+              },
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Who This Treatment Is",
+              "highlight": "For",
+              "titleSuffix": "",
+              "items": [
+                "Dull, tired-looking skin",
+                "Hyperpigmentation or uneven tone",
+                "Hormonal skin changes",
+                "Those undergoing detox or cleanse protocols",
+                "Clients preparing for regenerative treatments",
+                "High stress or toxin exposure",
+                "Liver support needs"
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results Timeline",
+              "items": [
+                {
+                  "title": "Immediately",
+                  "description": "Improved energy and clarity"
+                },
+                {
+                  "title": "1–2 Weeks",
+                  "description": "Visible skin brightening"
+                },
+                {
+                  "title": "4–6 Weeks",
+                  "description": "Cumulative detox and radiance benefits"
+                }
+              ]
+            },
+            "cta": {
+              "title": "Detox From Within.",
+              "highlight": "Glow on the Outside.",
+              "description": "ULANDA's Glutathione IM supports your body's natural detoxification and skin brightness from the cellular level — ideal for midlife wellness and regenerative care.",
+              "buttonText": "Book Glutathione IM"
+            }
+          },
+          "vitamin-d-im": {
+            "id": "vitamin-d-im",
+            "booking": {
+              "price": 45,
+              "duration": 20,
+              "treatmentType": "injectable",
+              "bookingType": "booking"
+            },
+            "seo": {
+              "title": "Vitamin D IM Injection | Bone, Mood & Immune Support | ULANDA",
+              "description": "Restore Vitamin D levels with direct IM injection. ULANDA Vitamin D IM supports bone health, mood stability, immune function and hormonal balance."
+            },
+            "seoHeadings": {
+              "h1": "Vitamin D IM Injection in Ware SG12 — Essential Support for Bones, Mood & Immunity",
+              "h2": [
+                "What Vitamin D IM Does",
+                "How It Works — Direct Absorption & Hormonal Support",
+                "Menopause & Postpartum Considerations",
+                "Best Combinations",
+                "Conditions Treated",
+                "Book Vitamin D IM in Ware SG12"
+              ]
+            },
+            "title": "Vitamin D IM",
+            "highlight": "The Sunshine Vitamin",
+            "titleSuffix": "Essential Support",
+            "benefits": [
+              "Bone & joint health",
+              "Mood & energy support",
+              "Immune function",
+              "Hormonal balance"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "category": "Radiate",
+            "description": "Essential Vitamin D Support for Bones, Mood & Immunity",
+            "introduction": {
+              "title": "Restore Your Sunshine Vitamin",
+              "content": [
+                "ULANDA Vitamin D IM provides direct, high-absorption delivery of Vitamin D — essential for bone health, mood stability and immune function.",
+                "Vitamin D deficiency is extremely common, especially in the UK, and becomes more pronounced during perimenopause, menopause and postpartum recovery.",
+                "This treatment supports those with low levels, seasonal depression risk or those preparing for regenerative treatments that require optimal nutrient status."
+              ],
+              "goals": [
+                "Restore optimal Vitamin D levels",
+                "Support bone density & joint health",
+                "Improve mood & energy",
+                "Boost immune resilience",
+                "Enhance hormonal balance"
+              ],
+              "highlightBox": {
+                "text1": "Essential for midlife.",
+                "text2": "Direct absorption."
+              },
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Who This Treatment Is",
+              "highlight": "For",
+              "titleSuffix": "",
+              "items": [
+                "Low Vitamin D levels",
+                "Bone or joint concerns",
+                "Seasonal mood changes",
+                "Chronic fatigue",
+                "Perimenopause/menopause support",
+                "Postpartum recovery",
+                "Those preparing for regenerative treatments"
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results Timeline",
+              "items": [
+                {
+                  "title": "1–2 Weeks",
+                  "description": "Improved energy and mood"
+                },
+                {
+                  "title": "4–6 Weeks",
+                  "description": "Optimal levels restored"
+                },
+                {
+                  "title": "Ongoing",
+                  "description": "Maintenance doses as needed"
+                }
+              ]
+            },
+            "cta": {
+              "title": "Essential Support.",
+              "highlight": "Optimal Wellness.",
+              "description": "ULANDA's Vitamin D IM restores essential nutrient levels to support your bones, mood and immune system — especially important during midlife transitions.",
+              "buttonText": "Book Vitamin D IM"
             }
           },
           "medical-weight-management": {

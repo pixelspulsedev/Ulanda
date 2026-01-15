@@ -717,6 +717,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/treatments/renew/skin-boosters/seventy-hyal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/renew/skin-boosters/lemon-bottle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/treatments/renew/skin-boosters/lumi-eyes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -742,6 +752,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/treatments/renew/injectables/plenhyage</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/renew/injectables/nucleofill</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/treatments/renew/injectables/prp-skin-regeneration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -753,6 +773,11 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/renew/body-tightening/body-tightening</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/renew/body-tightening/body-contouring</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -827,6 +852,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/anti-wrinkle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/dermal-fillers</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -878,6 +908,16 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/radiate/wellness/vitamin-b12-im</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/wellness/glutathione-im</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/wellness/vitamin-d-im</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
