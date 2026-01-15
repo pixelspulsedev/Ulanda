@@ -14,11 +14,12 @@ export default function Treatments() {
   return (
     <>
       <Head>
-        <title>Ulanda - Treatments</title>
+        <title>Regenerative Treatments in Ware SG12 | ULANDA</title>
         <meta
           name="description"
-          content="A simple, intelligent way to understand your regenerative journey. Every ULANDA treatment fits into one of four guidance pillars."
+          content="Explore ULANDA's regenerative treatments in Ware SG12, Hertfordshire. Four pathways — Refresh, Renew, Restore, Radiate — designed for midlife skin regeneration and wellness."
         />
+        <link rel="canonical" href="https://www.ulanda.co.uk/treatments" />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

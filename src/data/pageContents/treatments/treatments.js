@@ -12,6 +12,128 @@ export const treatments = {
         "description": "Deep cleansing, exfoliation and hydration treatments.",
         "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
         "treatments": {
+          "dermaplaning": {
+            "id": "dermaplaning",
+            "booking": {
+              "price": 50,
+              "duration": 30,
+              "treatmentType": "facial",
+              "bookingType": "Book Now"
+            },
+            "seo": {
+              "title": "Dermaplaning in Ware SG12 | Refresh | ULANDA",
+              "description": "Professional dermaplaning in Ware SG12, Hertfordshire. Instantly smooths skin, enhances glow and improves makeup finish. Trusted regenerative aesthetics clinic."
+            },
+            "seoHeadings": {
+              "h1": "Dermaplaning in Ware SG12",
+              "h2": [
+                "What is Dermaplaning?",
+                "Best For",
+                "Benefits",
+                "ULANDA-Enhanced Protocol",
+                "Results & Timing"
+              ]
+            },
+            "title": "Dermaplaning",
+            "subtitle": "Surface smoothing • Instant radiance • Makeup-ready skin",
+            "highlight": "",
+            "titleSuffix": "",
+            "category": "Refresh",
+            "description": "Surface smoothing • Instant radiance • Makeup-ready skin",
+            "locations": [
+              "Ware SG12",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "introduction": {
+              "title": "What is Dermaplaning?",
+              "content": [
+                "Dermaplaning in Ware (SG12) is a professional exfoliation treatment that removes dead skin cells and fine vellus hair to instantly smooth the skin surface and enhance radiance.",
+                "This treatment is popular with clients from Ware, Hertford, Cheshunt, Hoddesdon and Bishops Stortford who want immediate skin refinement with no downtime. Dermaplaning improves product absorption, makeup application and overall skin clarity when performed by trained medical aesthetics professionals.",
+                "It is an ideal choice for event preparation or as part of a regular skin maintenance routine in Hertfordshire."
+              ],
+              "goals": [
+                "Surface smoothing",
+                "Instant radiance",
+                "Makeup-ready skin",
+                "Enhances skincare absorption"
+              ],
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "items": [
+                "Dull or rough skin texture",
+                "Uneven makeup application",
+                "Peach fuzz build-up",
+                "Dry or flaky skin",
+                "Pre-event skin preparation"
+              ]
+            },
+            "benefits": [
+              "Instantly smoother, brighter skin",
+              "Enhances skincare absorption",
+              "Improves makeup finish",
+              "Non-invasive with no downtime"
+            ],
+            "detailedBenefits": {
+              "title": "Benefits of Dermaplaning",
+              "sections": [
+                {
+                  "title": "Benefits",
+                  "items": [
+                    "✔ Instantly smoother, brighter skin",
+                    "✔ Enhances skincare absorption",
+                    "✔ Improves makeup finish",
+                    "✔ Non-invasive with no downtime",
+                    "✔ Safe when clinically assessed"
+                  ]
+                }
+              ]
+            },
+            "ulandaConnection": {
+              "title": "ULANDA-Enhanced",
+              "highlight": "Protocol",
+              "subtitle": "Our signature approach includes:",
+              "sections": [
+                {
+                  "title": "Protocol",
+                  "description": "Pre-treatment skin and barrier assessment. Medical-grade technique and sterility. Optional calming mask or LED add-on. Can be paired with facials or peels.",
+                  "points": []
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results & Timing",
+              "items": [
+                {
+                  "title": "Treatment Time",
+                  "description": "30–45 minutes"
+                },
+                {
+                  "title": "Downtime",
+                  "description": "None"
+                },
+                {
+                  "title": "Results",
+                  "description": "Immediate smoothness and glow"
+                }
+              ]
+            },
+            "cta": {
+              "title": "Smooth Skin.",
+              "highlight": "Instant Radiance.",
+              "description": "Book your Dermaplaning treatment at ULANDA in Ware SG12 today.",
+              "buttonText": "Book Consultation"
+            },
+            "oftenPairedWith": [
+              "HydraFacial",
+              "Chemical Peel (light)",
+              "BioRePeel",
+              "Oxygen / Vitamin Infusion Facial"
+            ]
+          },
           "hydrafacial": {
             "id": "hydrafacial",
             "booking": {
@@ -21,11 +143,11 @@ export const treatments = {
               "bookingType": "Book Now"
             },
             "seo": {
-              "title": "HydraFacial Treatment Ware SG12 | Deep Cleanse & Instant Glow",
-              "description": "HydraFacial in Ware. Medical-grade vortex technology for deep cleansing, extraction, and hydration. Perfect for dull skin, pores & texture."
+              "title": "HydraFacial in Ware SG12 | Refresh | ULANDA",
+              "description": "HydraFacial in Ware SG12, Hertfordshire. Medical-grade vortex technology for deep cleansing, extraction and hydration. Perfect for dull skin, pores and texture."
             },
             "seoHeadings": {
-              "h1": "HydraFacial in Ware SG12 — Medical-Grade Vortex Cleansing & Post-Travel Glow",
+              "h1": "HydraFacial in Ware SG12",
               "h2": [
                 "What is HydraFacial?",
                 "How HydraFacial Works (Vortex Technology)",
@@ -1564,6 +1686,7 @@ export const treatments = {
           "chemical-peel": {
             "id": "chemical-peel",
             "booking": {
+              "starting": true,
               "price": 120,
               "duration": 90,
               "treatmentType": "resurfacing",
@@ -1875,19 +1998,6 @@ export const treatments = {
             }
           }
         }
-      },
-      "body-surface": {
-        "title": "Body Surface",
-        "description": "Treatments for body skin texture and tone.",
-        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
-        "treatments": {
-          "body-peels": {
-            "id": "body-peels",
-            "title": "Body Peels",
-            "description": "Coming soon.",
-            "image": ""
-          }
-        }
       }
     }
   },
@@ -1906,17 +2016,18 @@ export const treatments = {
           "profhilo": {
             "id": "profhilo",
             "booking": {
+              "starting": true,
               "price": 230,
               "duration": 45,
               "treatmentType": "skin-booster",
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Profhilo Ware SG12 | Deep Hydration & Skin Remodelling",
-              "description": "Profhilo treatment in Ware. The ultimate injectable glow. Deeply hydrate, improve elasticity & treat crepey skin with bio-remodelling."
+              "title": "Profhilo in Ware SG12 | Renew | ULANDA",
+              "description": "Profhilo treatment in Ware SG12, Hertfordshire. Deep hydration and skin remodelling for crepey skin and fine lines. Bio-remodelling for lasting results."
             },
             "seoHeadings": {
-              "h1": "Profhilo in Ware SG12 — Deep Hydration & Elasticity Booster for Postpartum & Menopause Skin",
+              "h1": "Profhilo in Ware SG12",
               "h2": [
                 "What Profhilo Treats: Dehydration, Crepey Skin, Fine Lines",
                 "How Profhilo Works — HA Hybrid Complex & Bio-Remodeling",
@@ -1995,6 +2106,7 @@ export const treatments = {
           "definisse-hydrobooster": {
             "id": "definisse-hydrobooster",
             "booking": {
+              "starting": true,
               "price": 210,
               "duration": 30,
               "treatmentType": "skin-booster",
@@ -2073,6 +2185,7 @@ export const treatments = {
           "jalupro": {
             "id": "jalupro",
             "booking": {
+              "starting": true,
               "price": 160,
               "duration": 45,
               "treatmentType": "skin-booster",
@@ -2306,12 +2419,6 @@ export const treatments = {
               "description": "Book your Microneedling consultation at ULANDA.",
               "buttonText": "Book Consultation"
             }
-          },
-          "rf-microneedling": {
-            "id": "rf-microneedling",
-            "title": "Rf Microneedling",
-            "description": "Coming soon.",
-            "image": ""
           }
         }
       },
@@ -2500,6 +2607,7 @@ export const treatments = {
           "body-tightening": {
             "id": "body-tightening",
             "booking": {
+              "starting": true,
               "price": 180,
               "duration": 90,
               "treatmentType": "body-device",
@@ -2725,18 +2833,19 @@ export const treatments = {
     "description": "The Restore pathway focuses on calm, recovery, and strengthening the skin barrier. Ideal for post-procedure recovery or compromised skin.",
     "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop",
     "subCategories": {
-      "oxygenation": {
-        "title": "Oxygenation",
-        "description": "Infusing cells with oxygen for life.",
+      "oxygen-healing-support": {
+        "title": "Oxygenation & Healing Support",
+        "description": "Supporting oxygen delivery and circulation for tissue healing.",
         "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
         "treatments": {
-          "oxygen-vitamin-infusion-facial": {
-            "id": "oxygen-vitamin-infusion-facial",
+          "oxygen-facial": { // Renaming from oxygen-vitamin-infusion-facial to match sitemap if needed, but sitemap says oxygen-facial. 
+            // However, the restore page content has Oxygen Facial (recovery-focused use).
+            "id": "oxygen-facial",
             "booking": {
-              "price": 110,
-              "duration": 60,
+              "price": 50,
+              "duration": 30,
               "treatmentType": "facial",
-              "bookingType": "consultation"
+              "bookingType": "Book Now"
             },
             "seo": {
               "title": "Oxygen Facial Ware SG12 | Brightening & Deep Hydration",
@@ -3044,220 +3153,133 @@ export const treatments = {
               "description": "Book your Oxygen & Vitamin Infusion Facial at ULANDA in Ware SG12 and experience luminous, hydrated, revitalised skin with zero downtime.",
               "buttonText": "Book Consultation"
             }
-          }
-        }
-      },
-      "structural-lifting": {
-        "title": "Structural Lifting",
-        "description": "Restoring youthful contours and support without surgery.",
-        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop",
-        "treatments": {
-          "thread-lifts": {
-            "id": "thread-lifts",
-            "title": "Thread Lifts",
-            "subtitle": "Restorative Lifting & Collagen Remodelling",
-            "category": "Restore",
-            "description": "The artistry of lifting without surgery—restoring structure, contour and youthful support.",
-            "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
-            
-            "introduction": {
-              "title": "What are Thread Lifts?",
-              "content": [
-                "The artistry of lifting without surgery—restoring structure, contour and youthful support.",
-                "Thread lifts are one of the most advanced non-surgical techniques for lifting, firming and redefining facial contours—without adding volume or altering your natural features."
-              ],
-              "goals": [
-                "Lift sagging skin",
-                "Improve facial definition",
-                "Review menopausal facial descent",
-                "Strengthen collagen architecture"
+          },
+          "post-procedure-recovery-facial": {
+            "id": "post-procedure-recovery-facial",
+            "booking": {
+              "price": 60,
+              "duration": 20,
+              "treatmentType": "facial",
+              "bookingType": "Book Now"
+            },
+            "seo": {
+              "title": "Post-Procedure Recovery Facial | Ware SG12 | ULANDA",
+              "description": "Medical-grade recovery facial in Ware SG12. Calms redness, supports healing and optimises results after aesthetic treatments. Hertfordshire clinic."
+            },
+            "seoHeadings": {
+              "h1": "Post-Procedure Recovery Facial",
+              "h2": [
+                "What is Post-Procedure Recovery Facial?",
+                "Best For",
+                "Benefits",
+                "ULANDA-Enhanced Protocol"
               ]
             },
-            "cta": {
-              "title": "Lift, Firm & Restore",
-              "highlight": "Your Contours Naturally",
-              "description": "Threads are one of the most sophisticated regenerative lifting tools in modern aesthetics.",
-              "buttonText": "Book Restore Consultation"
+            "title": "Post-Procedure Recovery Facial",
+            "subtitle": "Calm inflammation • Accelerate healing • Optimise results",
+            "category": "Restore",
+            "description": "Calm inflammation • Accelerate healing • Optimise results",
+            "locations": [
+              "Ware SG12",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "introduction": {
+              "title": "What is the Post-Procedure Recovery Facial?",
+              "content": [
+                "The Post-Procedure Recovery Facial in Ware (SG12) is a medical-grade recovery treatment designed to calm inflammation, reduce redness and support skin healing following aesthetic or medical procedures.",
+                "This treatment is frequently chosen by clients travelling from Hertford, Bishops Stortford, Hoddesdon, Broxbourne and surrounding Hertfordshire areas, as well as North East London, for expert-led aftercare in a calm clinical setting.",
+                "The facial focuses on restoring the skin barrier, reducing post-treatment sensitivity and optimising results following injectables, microneedling or regenerative treatments. It is suitable for sensitive, menopausal and reactive skin when clinically assessed."
+              ],
+              "goals": [
+                "Calm inflammation",
+                "Reduce redness",
+                "Support skin healing",
+                "Restore skin barrier"
+              ],
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
             },
             "idealFor": {
               "title": "Best",
               "highlight": "For",
               "items": [
-                "Sagging cheeks",
-                "Midface descent",
-                "Jawline loss",
-                "Neck laxity"
+                "Post-injectable recovery",
+                "Redness, swelling or tenderness",
+                "Compromised or stressed skin",
+                "Sensitivity following aesthetic procedures",
+                "Clients prone to prolonged downtime"
               ]
             },
             "benefits": [
-              "Lift sagging tissue",
-              "Stimulate collagen and elastin",
-              "Refine facial contours",
-              "Restore youthful structure"
+              "Calms inflammation and reduces redness",
+              "Supports faster, safer healing",
+              "Helps optimise outcomes from Renew or Radiate treatments",
+              "Strengthens the skin barrier",
+              "Reassuring, clinically led aftercare"
             ],
             "detailedBenefits": {
-              "title": "Why Thread Lifts?",
+              "title": "Benefits",
               "sections": [
                 {
                   "title": "Benefits",
                   "items": [
-                    "✔ Gentle lift",
-                    "✔ Improved firmness",
-                    "✔ Collagen stimulation",
-                    "✔ Refined contour",
-                    "✔ Natural outcomes"
+                    "✔ Calms inflammation and reduces redness",
+                    "✔ Supports faster, safer healing",
+                    "✔ Helps optimise outcomes from Renew or Radiate treatments",
+                    "✔ Strengthens the skin barrier",
+                    "✔ Reassuring, clinically led aftercare"
                   ]
+                }
+              ]
+            },
+            "ulandaConnection": {
+              "title": "ULANDA-Enhanced",
+              "highlight": "Protocol",
+              "subtitle": "Our signature approach includes:",
+              "sections": [
+                {
+                  "title": "Protocol",
+                  "description": "Clinical skin and recovery assessment. Targeted calming and barrier-support ingredients. Optional LED therapy for accelerated repair. Can be scheduled as part of a post-treatment plan.",
+                  "points": []
                 }
               ]
             },
             "resultsTimeline": {
-              "title": "Results Timeline",
+              "title": "Results & Timing",
               "items": [
                 {
-                  "title": "Immediately",
-                  "description": "Visible lift, improved contour, defined jawline"
+                  "title": "Treatment Time",
+                  "description": "45–60 minutes"
                 },
                 {
-                  "title": "4–6 Weeks",
-                  "description": "Collagen activation, firmer skin, smoother texture"
+                  "title": "Downtime",
+                  "description": "None"
                 },
                 {
-                  "title": "8–12 Weeks",
-                  "description": "Peak lift, long-lasting definition"
-                },
-                {
-                  "title": "6–12 Months",
-                  "description": "Sustained collagen remodelling"
+                  "title": "Results",
+                  "description": "Immediate comfort with progressive improvement over several days"
                 }
-              ]
-            }
-          },
-          "jawline-sculpting": {
-            "id": "jawline-sculpting",
-            "title": "Jawline Sculpting",
-            "subtitle": "Natural Contouring",
-            "category": "Restore",
-            "description": "A Clean, Defined, Feminine Jawline Designed for Midlife Harmony.",
-            "image": "https://images.unsplash.com/photo-1519699047748-40ba5266f2bb?q=80&w=2070&auto=format&fit=crop",
-            "booking": {
-              "price": 140,
-              "duration": 90,
-              "treatmentType": "injectible",
-              "bookingType": "Book Now"
-            },
-            "introduction": {
-              "title": "What is Jawline Sculpting?",
-              "content": [
-                "A defined jawline is not created with filler — it is restored with regeneration.",
-                "ULANDA’s Jawline Shaping focuses on rebuilding the structural support that weakens with age, hormones, stress, and collagen decline."
-              ],
-              "goals": [
-                "Lifted jawline",
-                "Clean contour",
-                "Elegant definition",
-                "Natural appearance"
               ]
             },
             "cta": {
-              "title": "Lift. Define.",
-              "highlight": "Refine. Naturally.",
-              "description": "ULANDA Jawline Shaping restores the natural elegance of your lower face — without heaviness, distortion or over-filling.",
-              "buttonText": "Book Jawline Consultation"
+              "title": "Calm.",
+              "highlight": "Recover.",
+              "description": "Support your skin's healing with our Post-Procedure Recovery Facial.",
+              "buttonText": "Book Consultation"
             },
-            "idealFor": {
-              "title": "Best",
-              "highlight": "For",
-              "items": [
-                "Jowls",
-                "Jawline blurring",
-                "Sagging lower face",
-                "Weak jawline definition"
-              ]
-            },
-            "benefits": [
-              "Natural, lifted jawline",
-              "No over-filling",
-              "Feminine shape",
-              "Regenerative results"
-            ],
-            "detailedBenefits": {
-              "title": "Why Jawline Sculpting?",
-              "sections": [
-                {
-                  "title": "Benefits",
-                  "items": [
-                    "✔ Lifted contour",
-                    "✔ No lateral bulk",
-                    "✔ Soft angles",
-                    "✔ Long-term structure"
-                  ]
-                }
-              ]
-            }
-          },
-          "neck-lower-face-lift": {
-            "id": "neck-lower-face-lift",
-            "title": "Neck & Lower Face Structural Lift",
-            "subtitle": "Lift, Tighten & Rebuild",
-            "category": "Restore",
-            "description": "Lift, Tighten & Rebuild the Most Age-Defining Areas.",
-            "image": "https://images.unsplash.com/photo-1606907639536-cb654b79b940?q=80&w=2070&auto=format&fit=crop",
-      
-            "introduction": {
-              "title": "What is Structural Lift?",
-              "content": [
-                "The lower face and neck are the first to fall — and the last to respond to superficial treatments.",
-                "This treatment is NOT a filler-heavy attempt to 'inflate' sagging skin. It uses threads, biostimulators, and PN to lift and rebuild."
-              ],
-              "goals": [
-                "Lift jowls",
-                "Sharpen jawline",
-                "Tighten neck skin",
-                "Restore chin-to-neck angle"
-              ]
-            },
-            "cta": {
-              "title": "A Tighter Neck.",
-              "highlight": "A Cleaner Jawline.",
-              "description": "ULANDA’s Neck & Lower Face Structural Lift is the most advanced regenerative protocol for powerful lifting with natural results.",
-              "buttonText": "Book Neck & Lower Face Consultation"
-            },
-            "idealFor": {
-              "title": "Best",
-              "highlight": "For",
-              "items": [
-                "Early or moderate jowls",
-                "Sagging jawline",
-                "Neck crepiness",
-                "Loose neck folds"
-              ]
-            },
-            "benefits": [
-              "Lifts jowls",
-              "Sharpens jawline naturally",
-              "Tightens neck skin",
-              "Rebuilds collagen"
-            ],
-            "detailedBenefits": {
-              "title": "Why Structural Lift?",
-              "sections": [
-                {
-                  "title": "Benefits",
-                  "items": [
-                    "✔ Lift instead of filling",
-                    "✔ Collagen rebuilding",
-                    "✔ Elasticity improvement",
-                    "✔ Natural results"
-                  ]
-                }
-              ]
-            }
+            "oftenPairedWith": [
+              "Anti-Wrinkle Injections",
+              "Dermal Fillers",
+              "RF Microneedling",
+              "Radiate Pathways (as aftercare support)",
+              "LED Light Therapy (Restore)"
+            ]
           }
         }
       },
       "light-based-recovery": {
-        "title": "Light-Based Recovery",
-        "description": "Gentle light therapy for healing.",
+        "title": "Light-Based Recovery & Repair",
+        "description": "Supporting tissue repair, inflammation reduction and accelerated recovery.",
         "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
         "treatments": {
           "led-light-therapy": {
@@ -3570,17 +3592,260 @@ export const treatments = {
           }
         }
       },
-      "skin-barrier": {
-        "title": "Skin Barrier",
-        "description": "Repair and strengthen the skin barrier.",
+      "skin-barrier-repair": {
+        "title": "Skin Barrier Repair & Recovery",
+        "description": "Repairing the skin barrier, calming inflammation and restoring comfort.",
         "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
-        "treatments": {}
+        "treatments": {
+          "barrier-repair-facial": {
+            "id": "barrier-repair-facial",
+            "booking": {
+              "price": 120,
+              "duration": 60,
+              "treatmentType": "facial",
+              "bookingType": "Book Now"
+            },
+            "seo": {
+              "title": "Barrier Repair Facial in Ware SG12 | Restore | ULANDA",
+              "description": "Barrier Repair Facial in Ware SG12, Hertfordshire. Calms inflammation and restores resilience for sensitive or compromised skin. Expert regenerative aesthetics."
+            },
+            "seoHeadings": {
+              "h1": "Barrier Repair Facial in Ware SG12",
+              "h2": [
+                "What is Barrier Repair Facial?",
+                "Best For",
+                "Benefits",
+                "ULANDA-Enhanced Protocol",
+                "Often Paired With"
+              ]
+            },
+            "title": "Barrier Repair Facial",
+            "subtitle": "Restore resilience • Calm sensitivity • Strengthen the skin",
+            "category": "Restore",
+            "description": "Restore resilience • Calm sensitivity • Strengthen the skin",
+            "locations": [
+              "Ware SG12",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "introduction": {
+              "title": "What is the Barrier Repair Facial?",
+              "content": [
+                "The Barrier Repair Facial in Ware (SG12) is a medical-grade treatment designed to strengthen the skin barrier, reduce inflammation and restore comfort in sensitive or compromised skin.",
+                "This facial is commonly chosen by clients from Ware, Hertford, Bishops Stortford, Cheshunt and the wider Hertfordshire area who are experiencing sensitivity related to retinol use, over-exfoliation, environmental stress or hormonal changes.",
+                "The treatment focuses on restoring skin resilience and is often recommended before or after advanced aesthetic treatments to protect long-term skin health."
+              ],
+              "goals": [
+                "Strengthens the skin barrier",
+                "Reduces redness and irritation",
+                "Improves skin comfort",
+                "Supports long-term skin health"
+              ],
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "items": [
+                "Sensitive or reactive skin",
+                "Impaired skin barrier",
+                "Redness or irritation",
+                "Over-exfoliated or over-treated skin",
+                "Retinol or active-related sensitivity"
+              ]
+            },
+            "benefits": [
+              "Strengthens the skin barrier",
+              "Reduces redness and irritation",
+              "Improves skin comfort and resilience",
+              "Supports long-term skin health",
+              "Ideal reset before or after advanced treatments"
+            ],
+            "detailedBenefits": {
+              "title": "Benefits",
+              "sections": [
+                {
+                  "title": "Benefits",
+                  "items": [
+                    "✔ Strengthens the skin barrier",
+                    "✔ Reduces redness and irritation",
+                    "✔ Improves skin comfort and resilience",
+                    "✔ Supports long-term skin health",
+                    "✔ Ideal reset before or after advanced treatments"
+                  ]
+                }
+              ]
+            },
+            "ulandaConnection": {
+              "title": "ULANDA-Enhanced",
+              "highlight": "Protocol",
+              "subtitle": "Our signature approach includes:",
+              "sections": [
+                {
+                  "title": "Protocol",
+                  "description": "Barrier and sensitivity assessment. Lipid-replenishing and anti-inflammatory actives. Optional LED therapy for repair support. Often recommended before entering Renew or Radiate.",
+                  "points": []
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results & Timing",
+              "items": [
+                {
+                  "title": "Treatment Time",
+                  "description": "45–60 minutes"
+                },
+                {
+                  "title": "Downtime",
+                  "description": "None"
+                },
+                {
+                  "title": "Results",
+                  "description": "Immediate comfort with ongoing barrier improvement over 1–2 weeks"
+                }
+              ]
+            },
+            "cta": {
+              "title": "Calm.",
+              "highlight": "Repair.",
+              "description": "Restore your skin's resilience with a Barrier Repair Facial.",
+              "buttonText": "Book Consultation"
+            },
+            "oftenPairedWith": [
+              "Post-Procedure Recovery Facial",
+              "LED Light Therapy (Restore)",
+              "Renew treatments"
+            ]
+          }
+
+        }
       },
-      "lymphatic": {
-        "title": "Lymphatic",
-        "description": "Detoxification and drainage.",
+      "lymphatic-support": {
+        "title": "Lymphatic & Decongestive Support",
+        "description": "Reducing congestion, swelling and fluid retention to support recovery.",
         "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
-        "treatments": {}
+        "treatments": {
+          "facial-lymphatic-drainage": {
+            "id": "facial-lymphatic-drainage",
+            "booking": {
+              "price": 30,
+              "duration": 15,
+              "treatmentType": "facial",
+              "bookingType": "Book Now"
+            },
+            "seo": {
+              "title": "Facial Lymphatic Drainage | Ware SG12 | ULANDA",
+              "description": "Facial lymphatic drainage in Ware SG12. Reduces puffiness, supports recovery and post-injectable healing. Hertfordshire clinic."
+            },
+            "seoHeadings": {
+              "h1": "Facial Lymphatic Drainage",
+              "h2": [
+                "What is Facial Lymphatic Drainage?",
+                "Best For",
+                "Benefits",
+                "ULANDA-Enhanced Protocol"
+              ]
+            },
+            "title": "Facial Lymphatic Drainage",
+            "subtitle": "Detox, Depuff & Define",
+            "category": "Restore",
+            "description": "Reduce facial puffiness, clear congestion and support natural detoxification.",
+            "locations": [
+              "Ware SG12",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            "introduction": {
+              "title": "What is Facial Lymphatic Drainage?",
+              "content": [
+                "Facial Lymphatic Drainage in Ware (SG12) is a gentle, recovery-focused treatment designed to reduce puffiness, improve circulation and support lymphatic flow in the face.",
+                "Clients often travel from Hertford, Hoddesdon, Broxbourne, Bishops Stortford and nearby Hertfordshire towns for this treatment following injectables or during periods of facial congestion, swelling or stress-related fluid retention.",
+                "This treatment supports natural detoxification processes and is frequently recommended as part of post-procedure recovery plans."
+              ],
+              "goals": [
+                "Reduces puffiness",
+                "Improves circulation",
+                "Supports lymphatic flow",
+                "Supports recovery"
+              ],
+              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "items": [
+                "Facial puffiness or swelling",
+                "Post-injectable recovery",
+                "Sinus congestion",
+                "Dull or congested skin",
+                "Stress-related facial tension"
+              ]
+            },
+            "benefits": [
+              "Reduces puffiness and fluid retention",
+              "Supports faster post-procedure recovery",
+              "Enhances skin clarity and comfort",
+              "Promotes a lighter, refreshed appearance",
+              "Calming for the nervous system"
+            ],
+            "detailedBenefits": {
+              "title": "Benefits",
+              "sections": [
+                {
+                  "title": "Benefits",
+                  "items": [
+                    "✔ Reduces puffiness and fluid retention",
+                    "✔ Supports faster post-procedure recovery",
+                    "✔ Enhances skin clarity and comfort",
+                    "✔ Promotes a lighter, refreshed appearance",
+                    "✔ Calming for the nervous system"
+                  ]
+                }
+              ]
+            },
+            "ulandaConnection": {
+              "title": "ULANDA-Enhanced",
+              "highlight": "Protocol",
+              "subtitle": "Our signature approach includes:",
+              "sections": [
+                {
+                  "title": "Protocol",
+                  "description": "Clinical assessment of swelling and sensitivity. Gentle, structured lymphatic technique. Optional LED or calming facial add-on. Often recommended alongside recovery facials.",
+                  "points": []
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results & Timing",
+              "items": [
+                {
+                  "title": "Treatment Time",
+                  "description": "30–45 minutes"
+                },
+                {
+                  "title": "Downtime",
+                  "description": "None"
+                },
+                {
+                  "title": "Results",
+                  "description": "Immediate de-puffing with cumulative benefits"
+                }
+              ]
+            },
+            "cta": {
+              "title": "De-puff.",
+              "highlight": "Decongest.",
+              "description": "Experience the benefits of Facial Lymphatic Drainage.",
+              "buttonText": "Book Consultation"
+            },
+            "oftenPairedWith": [
+              "Post-Procedure Recovery",
+              "LED Light Therapy",
+              "Oxygen Facial",
+              "Barrier Repair Facial"
+            ]
+          }
+        }
       }
     }
   },
@@ -3591,8 +3856,8 @@ export const treatments = {
     "description": "The Radiate pathway bridges the gap between internal health and external beauty, and includes our advanced Structural Lift and Menopause programmes.",
     "image": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop",
     "subCategories": {
-      "structural-lift": {
-        "title": "Structural Lift",
+      "structural-lifting": {
+        "title": "Structural Lifting",
         "description": "Restoring youthful contours and definition.",
         "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
         "treatments": {
@@ -3851,12 +4116,86 @@ export const treatments = {
           "thread-lifts": {
             "id": "thread-lifts",
             "title": "Thread Lifts",
-            "description": "Coming soon.",
-            "image": ""
+            "subtitle": "Restorative Lifting & Collagen Remodelling",
+            "category": "Radiate",
+            "description": "The artistry of lifting without surgery—restoring structure, contour and youthful support.",
+            "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+            "introduction": {
+              "title": "What are Thread Lifts?",
+              "content": [
+                "The artistry of lifting without surgery—restoring structure, contour and youthful support.",
+                "Thread lifts are one of the most advanced non-surgical techniques for lifting, firming and redefining facial contours—without adding volume or altering your natural features."
+              ],
+              "goals": [
+                "Lift sagging skin",
+                "Improve facial definition",
+                "Review menopausal facial descent",
+                "Strengthen collagen architecture"
+              ]
+            },
+            "cta": {
+              "title": "Lift, Firm & Restore",
+              "highlight": "Your Contours Naturally",
+              "description": "Threads are one of the most sophisticated regenerative lifting tools in modern aesthetics.",
+              "buttonText": "Book Radiate Consultation"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "items": [
+                "Sagging cheeks",
+                "Midface descent",
+                "Jawline loss",
+                "Neck laxity"
+              ]
+            },
+            "benefits": [
+              "Lift sagging tissue",
+              "Stimulate collagen and elastin",
+              "Refine facial contours",
+              "Restore youthful structure"
+            ],
+            "detailedBenefits": {
+              "title": "Why Thread Lifts?",
+              "sections": [
+                {
+                  "title": "Benefits",
+                  "items": [
+                    "✔ Gentle lift",
+                    "✔ Improved firmness",
+                    "✔ Collagen stimulation",
+                    "✔ Refined contour",
+                    "✔ Natural outcomes"
+                  ]
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results Timeline",
+              "items": [
+                {
+                  "title": "Immediately",
+                  "description": "Visible lift, improved contour, defined jawline"
+                },
+                {
+                  "title": "4–6 Weeks",
+                  "description": "Collagen activation, firmer skin, smoother texture"
+                },
+                {
+                  "title": "8–12 Weeks",
+                  "description": "Peak lift, long-lasting definition"
+                },
+                {
+                  "title": "6–12 Months",
+                  "description": "Sustained collagen remodelling"
+                }
+              ]
+            }
           },
           "dermal-fillers": {
             "id": "dermal-fillers",
             "booking": {
+              "starting": true,
               "price": 140,
               "duration": 60,
               "treatmentType": "injectable",
@@ -4254,14 +4593,123 @@ export const treatments = {
           "jawline-sculpting": {
             "id": "jawline-sculpting",
             "title": "Jawline Sculpting",
-            "description": "Coming soon.",
-            "image": ""
+            "subtitle": "Natural Contouring",
+            "category": "Radiate",
+            "description": "A Clean, Defined, Feminine Jawline Designed for Midlife Harmony.",
+            "image": "https://images.unsplash.com/photo-1519699047748-40ba5266f2bb?q=80&w=2070&auto=format&fit=crop",
+            "booking": {
+              "starting": true,
+              "price": 140,
+              "duration": 90,
+              "treatmentType": "injectable",
+              "bookingType": "consultation"
+            },
+            "introduction": {
+              "title": "What is Jawline Sculpting?",
+              "content": [
+                "A defined jawline is not created with filler — it is restored with regeneration.",
+                "ULANDA’s Jawline Shaping focuses on rebuilding the structural support that weakens with age, hormones, stress, and collagen decline."
+              ],
+              "goals": [
+                "Lifted jawline",
+                "Clean contour",
+                "Elegant definition",
+                "Natural appearance"
+              ]
+            },
+            "cta": {
+              "title": "Lift. Define.",
+              "highlight": "Refine. Naturally.",
+              "description": "ULANDA Jawline Shaping restores the natural elegance of your lower face — without heaviness, distortion or over-filling.",
+              "buttonText": "Book Jawline Consultation"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "items": [
+                "Jowls",
+                "Jawline blurring",
+                "Sagging lower face",
+                "Weak jawline definition"
+              ]
+            },
+            "benefits": [
+              "Natural, lifted jawline",
+              "No over-filling",
+              "Feminine shape",
+              "Regenerative results"
+            ],
+            "detailedBenefits": {
+              "title": "Why Jawline Sculpting?",
+              "sections": [
+                {
+                  "title": "Benefits",
+                  "items": [
+                    "✔ Lifted contour",
+                    "✔ No lateral bulk",
+                    "✔ Soft angles",
+                    "✔ Long-term structure"
+                  ]
+                }
+              ]
+            }
           },
-          "neck-lower-face-structural-lift": {
-            "id": "neck-lower-face-structural-lift",
-            "title": "Neck Lower Face Structural Lift",
-            "description": "Coming soon.",
-            "image": ""
+          "neck-lower-face-lift": {
+            "id": "neck-lower-face-lift",
+            "title": "Neck & Lower Face Structural Lift",
+            "subtitle": "Lift, Tighten & Rebuild",
+            "category": "Radiate",
+            "description": "Lift, Tighten & Rebuild the Most Age-Defining Areas.",
+            "image": "https://images.unsplash.com/photo-1606907639536-cb654b79b940?q=80&w=2070&auto=format&fit=crop",
+            "introduction": {
+              "title": "What is Structural Lift?",
+              "content": [
+                "The lower face and neck are the first to fall — and the last to respond to superficial treatments.",
+                "This treatment is NOT a filler-heavy attempt to 'inflate' sagging skin. It uses threads, biostimulators, and PN to lift and rebuild."
+              ],
+              "goals": [
+                "Lift jowls",
+                "Sharpen jawline",
+                "Tighten neck skin",
+                "Restore chin-to-neck angle"
+              ]
+            },
+            "cta": {
+              "title": "A Tighter Neck.",
+              "highlight": "A Cleaner Jawline.",
+              "description": "ULANDA’s Neck & Lower Face Structural Lift is the most advanced regenerative protocol for powerful lifting with natural results.",
+              "buttonText": "Book Neck & Lower Face Consultation"
+            },
+            "idealFor": {
+              "title": "Best",
+              "highlight": "For",
+              "items": [
+                "Early or moderate jowls",
+                "Sagging jawline",
+                "Neck crepiness",
+                "Loose neck folds"
+              ]
+            },
+            "benefits": [
+              "Lifts jowls",
+              "Sharpens jawline naturally",
+              "Tightens neck skin",
+              "Rebuilds collagen"
+            ],
+            "detailedBenefits": {
+              "title": "Why Structural Lift?",
+              "sections": [
+                {
+                  "title": "Benefits",
+                  "items": [
+                    "✔ Lift instead of filling",
+                    "✔ Collagen rebuilding",
+                    "✔ Elasticity improvement",
+                    "✔ Natural results"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
@@ -4279,11 +4727,11 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "NAD+ IV Therapy | Anti-Ageing & Brain Health | ULANDA",
-              "description": "Restore cellular energy with NAD+ IV Therapy. A powerful anti-ageing treatment to improve mental clarity, focus & metabolic function. In partnership with 360Medicx Harley Street."
+              "title": "NAD+ IV Therapy in Ware SG12 | Radiate | ULANDA",
+              "description": "NAD+ IV Therapy in Ware SG12, Hertfordshire. Restore cellular energy, improve mental clarity and metabolic function. In partnership with 360Medicx Harley Street."
             },
             "seoHeadings": {
-              "h1": "NAD+ IV Therapy in Ware SG12 — Energy, Longevity & Cellular Repair",
+              "h1": "NAD+ IV Therapy in Ware SG12",
               "h2": [
                 "What NAD+ IV Treats (Fatigue, Brain Fog, Slow Metabolism, Ageing)",
                 "How NAD+ Works — Mitochondria, Longevity Pathways & Repair",
@@ -4740,24 +5188,24 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Energy IV Drip | Boost Vitality & Focus | ULANDA",
-              "description": "Recharge with our Energy IV Drip. Packed with B vitamins & amino acids to fight fatigue, boost metabolism & restore mental clarity."
+              "title": "Myers Cocktail IV | The Standard for Wellness & Energy | ULANDA",
+              "description": "Recharge with the classic Myers Cocktail. Packed with B vitamins, magnesium & amino acids to fight fatigue, boost metabolism & restore mental clarity."
             },
             "seoHeadings": {
-              "h1": "Energy IV Drip in Ware SG12 — Fast Relief for Fatigue & Low Mood",
+              "h1": "Myers Cocktail in Ware SG12 — The Gold Standard for Fatigue & Low Mood",
               "h2": [
-                "What Energy IV Treats",
+                "What Myers Cocktail Treats",
                 "What's Inside the Infusion",
-                "Why Energy IV Works Faster Than Oral Supplements",
+                "Why It Works Faster Than Oral Supplements",
                 "Menopause & Postpartum Fatigue",
-                "Energy IV + Regenerative Skin Plan",
+                "Myers Cocktail + Regenerative Skin Plan",
                 "Linked Conditions (Low Energy, Stress Skin, Dullness)",
-                "Book Energy IV — Partnered with 360Medicx Harley Street"
+                "Book Myers Cocktail — Partnered with 360Medicx Harley Street"
               ]
             },
-            "title": "Energy",
+            "title": "Myers Cocktail",
             "highlight": "IV",
-            "titleSuffix": "Drip",
+            "titleSuffix": "",
             "benefits": [
               "Metabolic Reset",
               "Fatigue Recovery",
@@ -5225,21 +5673,21 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Women's Longevity IV | Menopause & Hormonal Support | ULANDA",
+              "title": "Hormone Harmony IV | Menopause & Hormonal Support | ULANDA",
               "description": "Targeted IV therapy for women's longevity. Supports hormonal balance, energy & skin health during perimenopause & menopause."
             },
             "seoHeadings": {
-              "h1": "Women's Longevity IV in Ware SG12 — Hormone-Smart Energy, Skin & Metabolism Support",
+              "h1": "Hormone Harmony IV in Ware SG12 — Hormone-Smart Energy, Skin & Metabolism Support",
               "h2": [
                 "What This Infusion Treats (Menopause, Perimenopause, Stress Ageing)",
                 "Why Hormonal Skin Responds Better to IV Support",
                 "Who This Is Ideal For",
                 "IV + Aesthetics (Radiate - Restore - Renew Pathway)",
-                "Book Women's Longevity IV — Via 360Medicx Harley Street"
+                "Book Hormone Harmony IV — Via 360Medicx Harley Street"
               ]
             },
-            "title": "Women’s Longevity",
-            "highlight": "IV",
+            "title": "Hormone Harmony",
+            "highlight": "IV - Balance from within",
             "titleSuffix": "",
             "benefits": [
               "Hormone Support",
@@ -5735,22 +6183,22 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Medical Weight Management | Metabolic Reset & Hormone Support | ULANDA",
+              "title": "Integrated Weight Management Support | Metabolic Reset & Hormone Support | ULANDA",
               "description": "A medically supervised metabolic reset programme for midlife weight changes, hormonal balance & body confidence. In partnership with 360Medicx Harley Street."
             },
             "seoHeadings": {
-              "h1": "Medical Weight Management in Ware SG12 — Hormone-Smart Metabolic Reset",
+              "h1": "Integrated Weight Management Support in Ware SG12 — Hormone-Smart Metabolic Reset",
               "h2": [
                 "What the Programme Treats (Menopause Weight, Insulin Resistance)",
                 "Why Midlife Weight Gain is Hormonal",
                 "GLP-1 & Metabolic Medication Support",
                 "The 6-Step Clinical Pathway",
                 "Integrating Weight Loss with Skin & Body Contouring",
-                "Book Medical Weight Management — With 360Medicx Harley Street"
+                "Book Integrated Weight Management Support — With 360Medicx Harley Street"
               ]
             },
-            "title": "Medical Weight",
-            "highlight": "Management",
+            "title": "Integrated Weight",
+            "highlight": "Management Support",
             "titleSuffix": "",
             "benefits": [
               "Metabolic Reset",
@@ -7288,3 +7736,17 @@ export const getTreatmentCategory = (id) => treatments[id];
 export const getTreatmentSubCategory = (categoryId, subId) => treatments[categoryId]?.subCategories[subId];
 export const getTreatment = (categoryId, subId, treatmentId) => treatments[categoryId]?.subCategories[subId]?.treatments[treatmentId];
 export const getAllTreatments = () => treatments;
+
+// Helper to find a treatment by ID only (scans all categories/subcategories)
+export const getTreatmentById = (treatmentId) => {
+  for (const cat of Object.values(treatments)) {
+    if (cat.subCategories) {
+      for (const sub of Object.values(cat.subCategories)) {
+        if (sub.treatments && sub.treatments[treatmentId]) {
+          return sub.treatments[treatmentId];
+        }
+      }
+    }
+  }
+  return null;
+};

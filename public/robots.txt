@@ -1,4 +1,16 @@
 User-agent: *
 Allow: /
+Allow: /treatments/
+Allow: /conditions/
+Allow: /blogs/
+Allow: /about/
+Allow: /contact
+
+# Disallow staging/test pages if any
+Disallow: /staging/
+Disallow: /test/
+
+# Canonical domain
+Host: https://www.ulanda.co.uk
 
 Sitemap: https://www.ulanda.co.uk/sitemap.xml

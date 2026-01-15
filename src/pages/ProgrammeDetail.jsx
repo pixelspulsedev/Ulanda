@@ -28,11 +28,16 @@ export default function ProgrammeDetail() {
   const framework = content.framework;
   const summaryImage = summary.image || '';
 
+  // Generate SEO following locked Radiate Pathway format: [Outcome-Led Pathway Name] | Radiate | Ware SG12 | ULANDA
+  const seoTitle = `${title} | Radiate | Ware SG12 | ULANDA`;
+  const canonicalUrl = `https://www.ulanda.co.uk/treatments/radiate/pathways/${id}`;
+
   return (
     <>
       <Head>
-        <title>Ulanda - {title}</title>
+        <title>{seoTitle}</title>
         <meta name="description" content={subtitle} />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <div className="bg-base-100 text-base-content">

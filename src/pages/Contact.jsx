@@ -6,8 +6,9 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact Us - Ulanda</title>
-        <meta name="description" content="Contact Ulanda for consultations and enquiries." />
+        <title>Contact ULANDA | Regenerative Aesthetics Clinic Ware SG12</title>
+        <meta name="description" content="Contact ULANDA in Ware SG12, Hertfordshire. Book a consultation for regenerative aesthetics, skin treatments and wellness therapies. Serving Ware, Hertford and surrounding areas." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/contact" />
       </Head>
 
       {/* Hero Section */}

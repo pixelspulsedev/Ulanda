@@ -28,6 +28,7 @@ export default function Home() {
         'Enzyme Therapy',
         'Oxygen Facials',
         'BioRePeel',
+        'Dermaplaning',
         'Chemical Peels',
         'LED',
         'Body Peels',
@@ -79,6 +80,9 @@ export default function Home() {
         'Jawline Contouring',
         'Neck Tightening',
         'Body Tightening',
+        'Barrier Repair',
+        'Lymphatic Drainage',
+        'Post-Procedure Recovery',
       ],
       perfectFor:
         'Jawline softening, mid-face changes, neck laxity, postpartum body changes.',
@@ -149,8 +153,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ulanda - Home</title>
-        <meta name="description" content="Welcome to Ulanda" />
+        <title>ULANDA | Regenerative Aesthetics Clinic in Ware SG12 | Hertfordshire</title>
+        <meta name="description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Specialising in skin regeneration, bio-remodelling and hormone-smart treatments for midlife women." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/" />
         <link 
           rel="preload" 
           as="image" 

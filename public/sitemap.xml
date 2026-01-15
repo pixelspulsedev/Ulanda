@@ -252,27 +252,27 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/menopause-regeneration</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/menopause-regeneration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/under-eye-regeneration</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/under-eye-regeneration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/collagen-reset</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/collagen-reset</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/hormone-smart-skin</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/hormone-smart-skin</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/shape-and-regenerate</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/shape-and-regenerate</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -642,6 +642,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/treatments/refresh/signature-facials/dermaplaning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/treatments/refresh/signature-facials/hydrafacial</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -653,11 +658,6 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/refresh/signature-facials/oxygen-vitamin-infusion-facial</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/refresh/signature-facials/dermaplaning</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -688,16 +688,6 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/refresh/skin-resurfacing/chemical-peel</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/refresh/body-surface</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/refresh/body-surface/body-peels</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -742,11 +732,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/renew/microneedling/rf-microneedling</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/treatments/renew/injectables</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -777,32 +762,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/restore/oxygenation</loc>
+    <loc>https://www.ulanda.co.uk/treatments/restore/oxygen-healing-support</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/restore/oxygenation/oxygen-vitamin-infusion-facial</loc>
+    <loc>https://www.ulanda.co.uk/treatments/restore/oxygen-healing-support/oxygen-facial</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/restore/structural-lifting</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/restore/structural-lifting/thread-lifts</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/restore/structural-lifting/jawline-sculpting</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/restore/structural-lifting/neck-lower-face-lift</loc>
+    <loc>https://www.ulanda.co.uk/treatments/restore/oxygen-healing-support/post-procedure-recovery-facial</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -817,12 +787,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/restore/skin-barrier</loc>
+    <loc>https://www.ulanda.co.uk/treatments/restore/skin-barrier-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/restore/lymphatic</loc>
+    <loc>https://www.ulanda.co.uk/treatments/restore/skin-barrier-repair/barrier-repair-facial</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/restore/lymphatic-support</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/restore/lymphatic-support/facial-lymphatic-drainage</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -832,37 +812,37 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lift</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lift/biostimulators</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/biostimulators</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lift/thread-lifts</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/thread-lifts</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lift/dermal-fillers</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/dermal-fillers</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lift/collagen-therapy</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/collagen-therapy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lift/jawline-sculpting</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/jawline-sculpting</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lift/neck-lower-face-structural-lift</loc>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/neck-lower-face-lift</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -913,6 +893,31 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/radiate/programmes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/menopause-regeneration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/under-eye-regeneration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/collagen-reset</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/hormone-smart-skin</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/shape-and-regenerate</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -9,7 +9,7 @@ import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import RelatedTreatments from '../components/RelatedTreatments';
 import { Crown, Check, X, Bookmark, ExternalLink } from 'lucide-react';
-import { getTreatment } from '../data/pageContents/treatments/treatments';
+import { getTreatmentById } from '../data/pageContents/treatments/treatments';
 
 const BlogContent = ({ content }) => {
   if (!content) return null;
@@ -251,7 +251,7 @@ export default function BlogDetail() {
 
   // Resolve related treatments
   const relatedTreatments = blog.relatedTreatments
-    ? blog.relatedTreatments.map((tid) => getTreatment(tid)).filter(Boolean)
+    ? blog.relatedTreatments.map((tid) => getTreatmentById(tid)).filter(Boolean)
     : [];
 
   return (

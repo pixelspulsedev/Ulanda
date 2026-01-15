@@ -7,6 +7,26 @@ import { ArrowRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 
+// SEO metadata for pathway landing pages - LOCKED format
+const pathwaySEO = {
+  refresh: {
+    title: "Refresh Skin Treatments in Ware SG12 | ULANDA",
+    description: "Refresh pathway treatments at ULANDA in Ware SG12. Surface-level rejuvenation including HydraFacial, peels, LED and enzyme therapy. Clear congestion, hydrate and brighten."
+  },
+  renew: {
+    title: "Renew Regenerative Treatments in Ware SG12 | ULANDA",
+    description: "Renew pathway treatments at ULANDA in Ware SG12. Biological stimulation with polynucleotides, skin boosters, microneedling and PRP. Long-term skin quality and resilience."
+  },
+  restore: {
+    title: "Restore Recovery Treatments in Ware SG12 | ULANDA",
+    description: "Restore pathway treatments at ULANDA in Ware SG12. Structural support with biostimulators, thread lifts and barrier repair. Natural contouring and definition."
+  },
+  radiate: {
+    title: "Radiate Advanced Treatments in Ware SG12 | ULANDA",
+    description: "Radiate pathway treatments at ULANDA in Ware SG12. Internal wellness with IV therapy, NAD+, glutathione and medical weight management. Balance from within."
+  }
+};
+
 export default function TreatmentCategory() {
   const { category: categoryId } = useParams();
   const category = getTreatmentCategory(categoryId);
@@ -15,11 +35,18 @@ export default function TreatmentCategory() {
     return <Navigate to="/treatments" replace />;
   }
 
+  // Get pathway-specific SEO or fall back to generic
+  const seo = pathwaySEO[categoryId] || {
+    title: `${category.title} Treatments in Ware SG12 | ULANDA`,
+    description: category.subtitle || category.description
+  };
+
   return (
     <>
       <Head>
-        <title>{category.title} | Ulanda Treatments</title>
-        <meta name="description" content={category.subtitle} />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
+        <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${categoryId}`} />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

@@ -27,14 +27,19 @@ export default function Conditions() {
     return <div className="text-center py-20">Condition not found</div>;
   }
 
+  // Generate proper SEO title following locked format
+  const seoTitle = `${condition.hero.title} ${condition.hero.highlight || ''} Treatment in Ware SG12 | ULANDA`.trim();
+  const canonicalUrl = `https://www.ulanda.co.uk/conditions/${id}`;
+
   return (
     <>
       <Head>
-        <title>Ulanda - {condition.hero.title} {condition.hero.highlight}</title>
+        <title>{seoTitle}</title>
         <meta
           name="description"
           content={condition.hero.description[0]}
         />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
 
       <div className="bg-base-100">

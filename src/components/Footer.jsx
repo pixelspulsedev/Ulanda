@@ -48,15 +48,17 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Programs */}
+            {/* Radiate Pathways (formerly Programs) */}
             <div>
-              <h3 className="font-medium font-sans text-primary mb-4">Programs</h3>
+              <h3 className="font-medium font-sans text-primary mb-4">
+                <Link to="/treatments/radiate" className="hover:text-primary transition-colors text-primary">Radiate Pathways</Link>
+              </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/programmes/menopause-regeneration" className="hover:text-primary transition-colors ">Menopause Regeneration</Link></li>
-                <li><Link to="/programmes/under-eye-regeneration" className="hover:text-primary transition-colors ">Under-Eye Regeneration</Link></li>
-                <li><Link to="/programmes/collagen-reset" className="hover:text-primary transition-colors ">Collagen Reset</Link></li>
-                <li><Link to="/programmes/hormone-smart-skin" className="hover:text-primary transition-colors ">Hormone-Smart Skin</Link></li>
-                <li><Link to="/programmes/shape-and-regenerate" className="hover:text-primary transition-colors ">Shape & Regenerate™</Link></li>
+                <li><Link to="/treatments/radiate/pathways/menopause-regeneration" className="hover:text-primary transition-colors ">Menopause Regeneration</Link></li>
+                <li><Link to="/treatments/radiate/pathways/under-eye-regeneration" className="hover:text-primary transition-colors ">Under-Eye Regeneration</Link></li>
+                <li><Link to="/treatments/radiate/pathways/collagen-reset" className="hover:text-primary transition-colors ">Collagen Reset</Link></li>
+                <li><Link to="/treatments/radiate/pathways/hormone-smart-skin" className="hover:text-primary transition-colors ">Hormone-Smart Skin</Link></li>
+                <li><Link to="/treatments/radiate/pathways/shape-and-regenerate" className="hover:text-primary transition-colors ">Shape & Regenerate</Link></li>
               </ul>
             </div>
 

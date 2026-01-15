@@ -15,11 +15,11 @@ export const conditionToTreatments = {
     "chemical-peel",
     "biorepeel",
     "microneedling",
-    "rf-microneedling",
+
     "polynucleotides",
-    "lemon-bottle",
-    "regenerative-facial",
-    "vital-glow-facial",
+    "medical-weight-management",
+    "barrier-repair-facial",
+    "oxygen-facial",
     "oxygen-vitamin-infusion-facial",
     "led-light-therapy"
   ],
@@ -30,7 +30,7 @@ export const conditionToTreatments = {
     "enzyme-therapy",
     "polynucleotides",
     "microneedling",
-    "vital-glow-facial",
+    "oxygen-facial",
     "led-light-therapy",
     "hormone-smart-skin"
   ],
@@ -40,8 +40,8 @@ export const conditionToTreatments = {
     "biorepeel",
     "polynucleotides",
     "microneedling",
-    "prp-microneedling",
-    "regenerative-facial",
+    "prp-skin-regeneration",
+    "barrier-repair-facial",
     "enzyme-therapy",
     "led-light-therapy"
   ],
@@ -51,17 +51,17 @@ export const conditionToTreatments = {
     "hydrafacial",
     "biorepeel",
     "chemical-peel",
-    "lemon-bottle",
+    "medical-weight-management",
     "profhilo",
     "polynucleotides",
-    "regenerative-facial"
+    "barrier-repair-facial"
   ],
 
   "dull-dehydrated-skin": [
-    "vital-glow-facial",
+    "oxygen-facial",
     "hydrafacial",
     "oxygen-vitamin-infusion-facial",
-    "seventy-hyal",
+    "jalupro",
     "profhilo",
     "definisse-hydrobooster",
     "polynucleotides",
@@ -73,41 +73,41 @@ export const conditionToTreatments = {
     "hydrafacial",
     "polynucleotides",
     "prp-skin-regeneration",
-    "sculptra",
-    "lanluma",
-    "ellanse",
-    "radiesse",
-    "definisse-bio",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
     "profhilo",
     "definisse-hydrobooster",
-    "rf-microneedling",
+
     "microneedling",
-    "regenerative-facial",
+    "barrier-repair-facial",
     "hormone-smart-skin",
     "nad-iv",
     "skin-glow-iv"
   ],
 
   "jawline-softening": [
-    "thread-lift",
-    "radiesse",
-    "sculptra",
-    "ellanse",
-    "lanluma",
-    "jawline-contouring",
-    "full-face-lift",
+    "thread-lifts",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "jawline-sculpting",
+    "thread-lifts",
     "neck-lower-face-lift",
-    "rf-microneedling"
+
   ],
 
   "neck-crepiness": [
-    "nucleofill",
-    "radiesse",
     "polynucleotides",
-    "rf-microneedling",
+    "biostimulators",
+    "polynucleotides",
+
     "profhilo",
-    "thread-lift",
-    "sculptra",
+    "thread-lifts",
+    "biostimulators",
     "neck-lower-face-lift"
   ],
 
@@ -115,7 +115,7 @@ export const conditionToTreatments = {
     "prp-skin-regeneration",
     "polynucleotides",
     "microneedling",
-    "rf-microneedling",
+
     "chemical-peel",
     "enzyme-therapy",
     "profhilo",
@@ -126,18 +126,18 @@ export const conditionToTreatments = {
   "dark-circles": [
     "lumi-eyes",
     "polynucleotides",
-    "prp-under-eye",
-    "plenhyage",
-    "nucleofill",
+    "lumi-eyes",
+    "polynucleotides",
+    "polynucleotides",
     "under-eye-regeneration",
-    "vital-glow-facial",
+    "oxygen-facial",
     "led-light-therapy"
   ],
 
   "tear-troughs": [
-    "plenhyage",
     "polynucleotides",
-    "prp-under-eye",
+    "polynucleotides",
+    "lumi-eyes",
     "dermal-fillers",
     "under-eye-regeneration"
   ],
@@ -146,14 +146,14 @@ export const conditionToTreatments = {
     "lumi-eyes",
     "polynucleotides",
     "jalupro",
-    "prp-under-eye",
-    "pn-microneedling",
+    "lumi-eyes",
+    "polynucleotides",
     "under-eye-regeneration",
-    "rf-microneedling"
+
   ],
 
   "under-eye-pigmentation": [
-    "prp-under-eye",
+    "lumi-eyes",
     "polynucleotides",
     "lumi-eyes",
     "enzyme-therapy",
@@ -166,61 +166,61 @@ export const conditionToTreatments = {
     "polynucleotides",
     "lumi-eyes",
     "led-light-therapy",
-    "vital-glow-facial",
+    "oxygen-facial",
     "under-eye-regeneration"
   ],
 
   // AGE & SKIN REGENERATION
   "crepey-skin-general": [
     "polynucleotides",
-    "nucleofill",
-    "plenhyage",
+    "polynucleotides",
+    "polynucleotides",
     "profhilo",
     "definisse-hydrobooster",
     "prp-skin-regeneration",
-    "sculptra",
-    "rf-microneedling"
+    "biostimulators",
+
   ],
 
   "skin-laxity": [
-    "thread-lift",
-    "rf-microneedling",
-    "radiesse",
-    "nucleofill",
-    "sculptra",
-    "ellanse",
-    "lanluma",
-    "full-face-lift",
+    "thread-lifts",
+
+    "biostimulators",
+    "polynucleotides",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "thread-lifts",
     "neck-lower-face-lift"
   ],
 
   "volume-loss": [
-    "sculptra",
-    "lanluma",
-    "ellanse",
-    "radiesse",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
     "dermal-fillers",
-    "thread-lift",
-    "jawline-contouring"
+    "thread-lifts",
+    "jawline-sculpting"
   ],
 
   "uneven-texture": [
     "microneedling",
-    "rf-microneedling",
+
     "chemical-peel",
     "biorepeel",
-    "prp-microneedling",
-    "pn-microneedling",
+    "prp-skin-regeneration",
+    "polynucleotides",
     "enzyme-therapy"
   ],
 
   "enlarged-pores": [
     "hydrafacial",
-    "rf-microneedling",
+
     "microneedling",
     "chemical-peel",
     "biorepeel",
-    "prp-microneedling"
+    "prp-skin-regeneration"
   ],
 
   // HORMONAL SKIN CONDITIONS
@@ -228,16 +228,16 @@ export const conditionToTreatments = {
     "chemical-peel",
     "biorepeel",
     "led-light-therapy",
-    "regenerative-facial",
+    "barrier-repair-facial",
     "hormone-smart-skin"
   ],
 
   "dryness-sensitivity": [
-    "vital-glow-facial",
+    "oxygen-facial",
     "enzyme-therapy",
     "profhilo",
-    "seventy-hyal",
-    "hydration-iv"
+    "jalupro",
+    "skin-glow-iv"
   ],
 
   "hormonal-pigmentation": [
@@ -250,50 +250,50 @@ export const conditionToTreatments = {
   ],
 
   "loss-of-definition": [
-    "thread-lift",
-    "jawline-contouring",
-    "radiesse",
-    "sculptra",
-    "ellanse",
-    "full-face-lift"
+    "thread-lifts",
+    "jawline-sculpting",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "thread-lifts"
   ],
 
   // BODY SKIN & STRUCTURAL CONDITIONS
   "body-skin-laxity": [
-    "rf-microneedling",
-    "sculptra",
-    "lanluma",
+
+    "biostimulators",
+    "biostimulators",
     "body-tightening",
     "polynucleotides"
   ],
 
   "cellulite": [
-    "rf-microneedling",
-    "radiesse",
-    "sculptra",
-    "cellulite-regeneration"
+
+    "biostimulators",
+    "biostimulators",
+    "body-tightening"
   ],
 
   "stretch-marks": [
     "microneedling",
-    "rf-microneedling",
+
     "polynucleotides",
     "prp-skin-regeneration",
-    "body-peels"
+
   ],
 
   "post-weightloss-postpartum": [
-    "sculptra",
-    "rf-microneedling",
+    "biostimulators",
+
     "polynucleotides",
-    "abdomen-tightening",
-    "body-contouring"
+    "body-tightening",
+    "body-tightening"
   ],
 
   // INTERNAL WELLNESS CONDITIONS
   "fatigue-low-energy": [
     "nad-iv",
-    "nad-im",
+    "nad-iv",
     "energy-iv",
     "vitamin-b12-im",
     "womens-longevity-iv"
@@ -301,7 +301,7 @@ export const conditionToTreatments = {
 
   "low-immunity": [
     "immunity-iv",
-    "vitamin-d-im",
+    "vitamin-b12-im",
     "glutathione-iv"
   ],
 
@@ -322,10 +322,10 @@ export const conditionToTreatments = {
   ],
 
   "nutrient-deficiency-skin": [
-    "vitamin-d-im",
+    "vitamin-b12-im",
     "vitamin-b12-im",
     "skin-glow-iv",
-    "hydration-iv"
+    "skin-glow-iv"
   ]
 };
 
@@ -335,7 +335,7 @@ export const conditionToTreatments = {
 
 export const treatmentToConditions = {
   // REFRESH (Skin Surface)
-  "regenerative-facial": [
+  "barrier-repair-facial": [
     "dull-dehydrated-skin",
     "uneven-skin-tone",
     "uneven-texture",
@@ -346,7 +346,7 @@ export const treatmentToConditions = {
     "texture-decline"
   ],
 
-  "vital-glow-facial": [
+  "oxygen-facial": [
     "dull-dehydrated-skin",
     "enlarged-pores",
     "uneven-texture",
@@ -401,7 +401,7 @@ export const treatmentToConditions = {
     "menopause-skin-decline"
   ],
 
-  "body-peels": [
+  "body-tightening": [
     "body-skin-laxity",
     "stretch-marks",
     "post-weightloss-postpartum",
@@ -437,15 +437,6 @@ export const treatmentToConditions = {
     "texture-decline"
   ],
 
-  "rf-microneedling": [
-    "skin-laxity",
-    "enlarged-pores",
-    "uneven-texture",
-    "crepey-skin",
-    "body-skin-laxity",
-    "neck-crepiness"
-  ],
-
   "profhilo": [
     "crepey-skin",
     "dull-dehydrated-skin",
@@ -462,7 +453,7 @@ export const treatmentToConditions = {
     "volume-loss"
   ],
 
-  "seventy-hyal": [
+  "jalupro": [
     "dull-dehydrated-skin",
     "uneven-texture",
     "enlarged-pores",
@@ -483,27 +474,27 @@ export const treatmentToConditions = {
     "dull-dehydrated-skin"
   ],
 
-  "lemon-bottle": [
+  "medical-weight-management": [
     "uneven-skin-tone",
     "dull-dehydrated-skin",
     "texture-decline"
   ],
 
-  "plenhyage": [
+  "polynucleotides": [
     "tear-troughs",
     "crepey-under-eye",
     "dark-circles",
     "menopause-skin-decline"
   ],
 
-  "nucleofill": [
+  "polynucleotides": [
     "neck-crepiness",
     "skin-laxity",
     "crepey-skin",
     "menopause-skin-decline"
   ],
 
-  "prp-under-eye": [
+  "lumi-eyes": [
     "under-eye-pigmentation",
     "dark-circles",
     "crepey-under-eye",
@@ -518,28 +509,28 @@ export const treatmentToConditions = {
     "under-eye-puffiness"
   ],
 
-  "pn-microneedling": [
+  "polynucleotides": [
     "texture-decline",
     "enlarged-pores",
     "post-inflammatory-hyperpigmentation",
     "crepey-skin"
   ],
 
-  "prp-microneedling": [
+  "prp-skin-regeneration": [
     "enlarged-pores",
     "uneven-texture",
     "crepey-skin",
     "post-weightloss-postpartum"
   ],
 
-  "pn-prp-combined": [
+  "polynucleotides": [
     "crepey-skin",
     "menopause-skin-decline",
     "texture-decline"
   ],
 
   // RESTORE (Structural Regeneration)
-  "sculptra": [
+  "biostimulators": [
     "menopause-skin-decline",
     "skin-laxity",
     "volume-loss",
@@ -550,7 +541,7 @@ export const treatmentToConditions = {
     "cellulite"
   ],
 
-  "lanluma": [
+  "biostimulators": [
     "menopause-skin-decline",
     "skin-laxity",
     "volume-loss",
@@ -559,7 +550,7 @@ export const treatmentToConditions = {
     "body-skin-laxity"
   ],
 
-  "ellanse": [
+  "biostimulators": [
     "menopause-skin-decline",
     "skin-laxity",
     "volume-loss",
@@ -567,7 +558,7 @@ export const treatmentToConditions = {
     "jawline-softening"
   ],
 
-  "radiesse": [
+  "biostimulators": [
     "menopause-skin-decline",
     "skin-laxity",
     "volume-loss",
@@ -577,14 +568,14 @@ export const treatmentToConditions = {
     "cellulite"
   ],
 
-  "definisse-bio": [
+  "biostimulators": [
     "menopause-skin-decline",
     "skin-laxity",
     "volume-loss",
     "loss-of-definition"
   ],
 
-  "thread-lift": [
+  "thread-lifts": [
     "skin-laxity",
     "jawline-softening",
     "menopause-skin-decline",
@@ -599,7 +590,7 @@ export const treatmentToConditions = {
     "texture-decline"
   ],
 
-  "anti-wrinkle": [
+  "dermal-fillers": [
     "loss-of-definition",
     "texture-decline"
   ],
@@ -611,7 +602,7 @@ export const treatmentToConditions = {
     "jawline-softening"
   ],
 
-  "jawline-contouring": [
+  "jawline-sculpting": [
     "jawline-softening",
     "loss-of-definition",
     "menopause-skin-decline"
@@ -623,7 +614,7 @@ export const treatmentToConditions = {
     "post-weightloss-postpartum"
   ],
 
-  "body-contouring": [
+  "body-tightening": [
     "slow-metabolism",
     "post-weightloss-postpartum"
   ],
@@ -635,7 +626,7 @@ export const treatmentToConditions = {
     "volume-loss"
   ],
 
-  "full-face-lift": [
+  "thread-lifts": [
     "menopause-skin-decline",
     "skin-laxity",
     "volume-loss",
@@ -649,12 +640,12 @@ export const treatmentToConditions = {
     "menopause-skin-decline"
   ],
 
-  "cellulite-regeneration": [
+  "body-tightening": [
     "cellulite",
     "body-skin-laxity"
   ],
 
-  "abdomen-tightening": [
+  "body-tightening": [
     "post-weightloss-postpartum",
     "menopause-skin-decline"
   ],
@@ -675,7 +666,7 @@ export const treatmentToConditions = {
     "low-immunity"
   ],
 
-  "hydration-iv": [
+  "skin-glow-iv": [
     "dull-dehydrated-skin",
     "dryness-sensitivity"
   ],
@@ -695,7 +686,7 @@ export const treatmentToConditions = {
     "dull-dehydrated-skin"
   ],
 
-  "vitamin-d-im": [
+  "vitamin-b12-im": [
     "nutrient-deficiency-skin",
     "low-immunity"
   ],
@@ -706,11 +697,11 @@ export const treatmentToConditions = {
     "slow-metabolism"
   ],
 
-  "nad-im": [
+  "nad-iv": [
     "fatigue-low-energy"
   ],
 
-  "glutathione-im": [
+  "glutathione-iv": [
     "stress-inflammation"
   ],
 
@@ -800,85 +791,85 @@ export const programmeToTreatments = {
     "polynucleotides",
     "prp-skin-regeneration",
     "microneedling",
-    "rf-microneedling",
-    "sculptra",
-    "lanluma",
-    "ellanse",
-    "radiesse",
-    "definisse-bio",
-    "thread-lift",
+
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "thread-lifts",
     "profhilo",
     "definisse-hydrobooster",
-    "seventy-hyal",
-    "plenhyage",
-    "nucleofill",
+    "jalupro",
+    "polynucleotides",
+    "polynucleotides",
     "chemical-peel",
     "biorepeel",
     "led-light-therapy",
     "enzyme-therapy",
-    "vital-glow-facial",
+    "oxygen-facial",
     "hormone-smart-skin"
   ],
 
   "under-eye-regeneration": [
     "lumi-eyes",
-    "plenhyage",
-    "nucleofill",
     "polynucleotides",
-    "prp-under-eye",
-    "seventy-hyal",
+    "polynucleotides",
+    "polynucleotides",
+    "lumi-eyes",
+    "jalupro",
     "microneedling",
-    "rf-microneedling",
+
     "collagen-therapy",
     "enzyme-therapy",
     "led-light-therapy"
   ],
 
   "collagen-reset": [
-    "sculptra",
-    "lanluma",
-    "ellanse",
-    "radiesse",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
+    "biostimulators",
     "polynucleotides",
     "prp-skin-regeneration",
     "microneedling",
-    "rf-microneedling",
+
     "profhilo",
     "definisse-hydrobooster",
     "collagen-therapy",
-    "thread-lift"
+    "thread-lifts"
   ],
 
   "hormone-smart-skin": [
-    "vital-glow-facial",
+    "oxygen-facial",
     "enzyme-therapy",
     "led-light-therapy",
     "chemical-peel",
     "biorepeel",
     "polynucleotides",
-    "seventy-hyal",
+    "jalupro",
     "microneedling",
     "prp-skin-regeneration",
     "nad-iv",
     "energy-iv",
     "womens-longevity-iv",
     "skin-glow-iv",
-    "vitamin-d-im",
+    "vitamin-b12-im",
     "vitamin-b12-im"
   ],
 
   "shape-and-regenerate": [
-    "body-peels",
+
     "body-tightening",
     "collagen-therapy",
-    "rf-microneedling",
-    "sculptra",
-    "lanluma",
-    "body-contouring",
+
+    "biostimulators",
+    "biostimulators",
+    "body-tightening",
     "polynucleotides",
     "prp-skin-regeneration",
     "nad-iv",
-    "vitamin-d-im",
+    "vitamin-b12-im",
     "vitamin-b12-im",
     "medical-weight-management"
   ]
@@ -901,17 +892,17 @@ export const blogCategories = {
       "jawline-softening"
     ],
     treatments: [
-      "sculptra",
-      "lanluma",
-      "ellanse",
-      "radiesse",
+      "biostimulators",
+      "biostimulators",
+      "biostimulators",
+      "biostimulators",
       "collagen-therapy",
       "polynucleotides",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "microneedling",
-      "rf-microneedling",
-      "regenerative-facial"
+
+      "barrier-repair-facial"
     ]
   },
 
@@ -927,8 +918,8 @@ export const blogCategories = {
       "chemical-peel",
       "biorepeel",
       "polynucleotides",
-      "seventy-hyal",
-      "regenerative-facial",
+      "jalupro",
+      "barrier-repair-facial",
       "hormone-smart-skin"
     ]
   },
@@ -943,11 +934,11 @@ export const blogCategories = {
     ],
     treatments: [
       "lumi-eyes",
-      "plenhyage",
       "polynucleotides",
-      "prp-under-eye",
-      "thread-lift",
-      "seventy-hyal"
+      "polynucleotides",
+      "lumi-eyes",
+      "thread-lifts",
+      "jalupro"
     ]
   },
 
@@ -961,8 +952,8 @@ export const blogCategories = {
     ],
     treatments: [
       "nad-iv",
-      "nad-im",
-      "vitamin-d-im",
+      "nad-iv",
+      "vitamin-b12-im",
       "vitamin-b12-im",
       "womens-longevity-iv",
       "skin-glow-iv",

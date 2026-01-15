@@ -25,11 +25,16 @@ export default function PathwayDetail() {
     return <div className="text-center py-20">Pathway not found</div>;
   }
 
+  // Generate SEO title following locked format for pathways
+  const seoTitle = `${pathway.title} Treatments in Ware SG12 | ULANDA`;
+  const seoDescription = pathway.subtitle || pathway.description;
+
   return (
     <>
       <Head>
-        <title>{pathway.title} Pathway | Ulanda</title>
-        <meta name="description" content={pathway.subtitle} />
+        <title>{seoTitle}</title>
+        <meta name="description" content={seoDescription} />
+        <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${pathwayId}`} />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

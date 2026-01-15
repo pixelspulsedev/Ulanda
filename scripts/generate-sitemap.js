@@ -50,9 +50,9 @@ const generateSitemap = () => {
     }
   });
 
-  // Add Programmes Pages (Under Radiate Treatment)
+  // Add Programmes Pages (Now under Radiate Pathways)
   programmes.forEach(programme => {
-    urls.push(`/treatments/radiate/programmes/${programme.id}`);
+    urls.push(`/treatments/radiate/pathways/${programme.id}`);
   });
 
   // Add Blog Pages

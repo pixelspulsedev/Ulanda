@@ -14,7 +14,7 @@ export const blogs = [
       "biostimulators",
       "profhilo",
       "definisse-hydrobooster",
-      "thread-lift",
+      "thread-lifts",
       "biorepeel",
       "microneedling"
     ],
@@ -254,9 +254,9 @@ export const blogs = [
       "polynucleotides",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
+      "jalupro",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "biorepeel",
       "led-light-therapy"
     ],
@@ -480,7 +480,7 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "biorepeel",
       "microneedling",
@@ -660,7 +660,7 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "definisse-hydrobooster"
     ],
@@ -819,10 +819,10 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
+      "jalupro",
       "biorepeel",
       "microneedling"
     ],
@@ -999,7 +999,7 @@ export const blogs = [
       "biostimulators",
       "profhilo",
       "definisse-hydrobooster",
-      "thread-lift",
+      "thread-lifts",
       "biorepeel"
     ],
     content: [
@@ -1173,10 +1173,10 @@ export const blogs = [
       "polynucleotides",
       "biostimulators",
       "biorepeel",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
+      "jalupro",
       "led-light-therapy"
     ],
     content: [
@@ -1374,7 +1374,7 @@ export const blogs = [
       "biostimulators",
       "profhilo",
       "definisse-hydrobooster",
-      "thread-lift",
+      "thread-lifts",
       "biorepeel",
       "microneedling"
     ],
@@ -1554,10 +1554,10 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
+      "jalupro",
       "biorepeel"
     ],
     content: [
@@ -1792,7 +1792,7 @@ export const blogs = [
       "microneedling",
       "biorepeel",
       "biostimulators",
-      "thread-lift"
+      "thread-lifts"
     ],
     content: [
       {
@@ -1941,7 +1941,7 @@ export const blogs = [
       "microneedling",
       "led-light-therapy",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "polynucleotides"
     ],
     content: [
@@ -2097,7 +2097,7 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "definisse-hydrobooster",
       "biorepeel"
@@ -2252,7 +2252,7 @@ export const blogs = [
       "polynucleotides",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
+      "jalupro",
       "biostimulators",
       "biorepeel",
       "led-light-therapy"
@@ -2372,7 +2372,7 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "biorepeel",
       "microneedling"
     ],
@@ -2488,7 +2488,7 @@ export const blogs = [
       "polynucleotides",
       "led-light-therapy",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "microneedling",
       "profhilo",
       "definisse-hydrobooster",
@@ -2607,10 +2607,10 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
+      "jalupro",
       "biorepeel",
       "led-light-therapy",
       "microneedling"
@@ -2726,7 +2726,7 @@ export const blogs = [
       "biostimulators",
       "profhilo",
       "definisse-hydrobooster",
-      "thread-lift",
+      "thread-lifts",
       "biorepeel"
     ],
     content: [
@@ -2831,10 +2831,10 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal"
+      "jalupro"
     ],
     content: [
       {
@@ -2941,7 +2941,7 @@ export const blogs = [
       "biostimulators",
       "profhilo",
       "definisse-hydrobooster",
-      "thread-lift",
+      "thread-lifts",
       "biorepeel"
     ],
     content: [
@@ -3051,10 +3051,10 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
+      "jalupro",
       "biorepeel"
     ],
     content: [
@@ -3166,12 +3166,12 @@ export const blogs = [
       "polynucleotides",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
+      "jalupro",
       "biorepeel",
       "enzyme-therapy",
       "led-light-therapy",
       "nad-iv",
-      "hydration-iv"
+      "skin-glow-iv"
     ],
     content: [
       {
@@ -3312,7 +3312,7 @@ export const blogs = [
       "profhilo",
       "microneedling",
       "nad-iv",
-      "hydration-iv"
+      "skin-glow-iv"
     ],
     content: [
       {
@@ -3429,8 +3429,8 @@ export const blogs = [
     readTime: "4 min read",
     heroImage: "/assets/img/ui/accent.webp",
     relatedTreatments: [
-      "regenerative-facial",
-      "vital-glow-facial",
+      "barrier-repair-facial",
+      "oxygen-facial",
       "polynucleotides",
       "biostimulators",
       "led-light-therapy",
@@ -3526,12 +3526,12 @@ export const blogs = [
     heroImage: "/assets/img/ui/accent.webp",
     relatedTreatments: [
       "biostimulators",
-      "sculptra",
-      "radiesse",
-      "ellanse",
-      "lanluma",
+      "biostimulators",
+      "biostimulators",
+      "biostimulators",
+      "biostimulators",
       "polynucleotides",
-      "thread-lift",
+      "thread-lifts",
       "nad-iv"
     ],
     content: [
@@ -3634,8 +3634,8 @@ export const blogs = [
       "polynucleotides",
       "profhilo",
       "microneedling",
-      "thread-lift",
-      "vital-glow-facial"
+      "thread-lifts",
+      "oxygen-facial"
     ],
     content: [
       {
@@ -3724,12 +3724,12 @@ export const blogs = [
     relatedTreatments: [
       "biostimulators",
       "polynucleotides",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "microneedling",
       "biorepeel",
       "nad-iv",
-      "hydration-iv"
+      "skin-glow-iv"
     ],
     content: [
       {
@@ -3858,15 +3858,15 @@ export const blogs = [
     heroImage: "/assets/img/ui/accent.webp",
     relatedTreatments: [
       "microneedling",
-      "rf-microneedling",
+
       "polynucleotides",
       "chemical-peel",
       "biorepeel",
-      "sculptra",
-      "lanluma",
-      "radiesse",
+      "biostimulators",
+      "biostimulators",
+      "biostimulators",
       "profhilo",
-      "seventy-hyal",
+      "jalupro",
       "nad-iv"
     ],
     content: [
@@ -3987,10 +3987,10 @@ export const blogs = [
     readTime: "4 min read",
     heroImage: "/assets/img/ui/accent.webp",
     relatedTreatments: [
-      "thread-lift",
+      "thread-lifts",
       "biostimulators",
       "nad-iv",
-      "hydration-iv"
+      "skin-glow-iv"
     ],
     content: [
       {
@@ -4096,11 +4096,11 @@ export const blogs = [
       "polynucleotides",
       "biorepeel",
       "enzyme-therapy",
-      "regenerative-facial",
+      "barrier-repair-facial",
       "nad-iv",
-      "hydration-iv",
+      "skin-glow-iv",
       "profhilo",
-      "seventy-hyal"
+      "jalupro"
     ],
     content: [
       {
@@ -4177,11 +4177,11 @@ export const blogs = [
       "polynucleotides",
       "microneedling",
       "profhilo",
-      "thread-lift",
+      "thread-lifts",
       "nad-iv",
-      "hydration-iv",
-      "sculptra",
-      "radiesse"
+      "skin-glow-iv",
+      "biostimulators",
+      "biostimulators"
     ],
     content: [
       {
@@ -4282,7 +4282,7 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "biorepeel",
       "microneedling",
@@ -4379,14 +4379,14 @@ export const blogs = [
     readTime: "4 min read",
     heroImage: "/assets/img/treatments/programmes/menopause.webp",
     relatedTreatments: [
-      "thread-lift",
+      "thread-lifts",
       "microneedling",
       "profhilo",
       "polynucleotides",
       "biostimulators",
       "chemical-peel",
       "nad-iv",
-      "hydration-iv"
+      "skin-glow-iv"
     ],
     content: [
       {
@@ -4484,7 +4484,7 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "profhilo",
-      "sculptra"
+      "biostimulators"
     ],
     content: [
       {
@@ -4577,9 +4577,9 @@ export const blogs = [
       "polynucleotides",
       "profhilo",
       "definisse-hydrobooster",
-      "sculptra",
-      "radiesse",
-      "vital-glow-facial"
+      "biostimulators",
+      "biostimulators",
+      "oxygen-facial"
     ],
     content: [
       {
@@ -5036,10 +5036,10 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "profhilo",
       "biorepeel",
-      "seventy-hyal"
+      "jalupro"
     ],
     content: [
       {
@@ -5185,12 +5185,12 @@ export const blogs = [
     heroImage: "/assets/img/treatments/restore/threads-biostimulators.webp",
     category: "Menopause Skin",
     relatedTreatments: [
-      "thread-lift",
+      "thread-lifts",
       "biostimulators",
       "dermal-fillers",
       "polynucleotides",
-      "sculptra",
-      "radiesse"
+      "biostimulators",
+      "biostimulators"
     ],
     content: [
       {
@@ -5324,7 +5324,7 @@ export const blogs = [
     relatedTreatments: [
       "microneedling",
       "polynucleotides",
-      "plenhyage",
+      "polynucleotides",
       "lumi-eyes"
     ],
     content: [
@@ -5433,9 +5433,9 @@ export const blogs = [
     relatedTreatments: [
       "microneedling",
       "polynucleotides",
-      "skin-boosters",
-      "sculptra",
-      "radiesse",
+      "profhilo",
+      "biostimulators",
+      "biostimulators",
       "chemical-peel",
       "led-light-therapy"
     ],
@@ -5559,10 +5559,10 @@ export const blogs = [
     relatedTreatments: [
       "polynucleotides",
       "biostimulators",
-      "thread-lift",
+      "thread-lifts",
       "nad-iv",
-      "sculptra",
-      "radiesse"
+      "biostimulators",
+      "biostimulators"
     ],
     content: [
       {
@@ -5689,12 +5689,12 @@ export const blogs = [
     category: "Treatment Comparisons",
     relatedTreatments: [
       "polynucleotides",
-      "skin-boosters",
+      "profhilo",
       "profhilo",
       "definisse-hydrobooster",
-      "seventy-hyal",
-      "sculptra",
-      "radiesse"
+      "jalupro",
+      "biostimulators",
+      "biostimulators"
     ],
     content: [
       {
@@ -5818,7 +5818,7 @@ export const blogs = [
       "biostimulators",
       "biorepeel",
       "chemical-peel",
-      "skin-boosters",
+      "profhilo",
       "microneedling",
       "nad-iv"
     ],
@@ -6203,7 +6203,7 @@ export const blogs = [
         ]
       }
     ],
-    relatedTreatments: ['polynucleotides', 'profhilo', 'seventy-hyal', 'definisse-hydrobooster'],
+    relatedTreatments: ['polynucleotides', 'profhilo', 'jalupro', 'definisse-hydrobooster'],
     seo: {
       title: "PN vs Skin Boosters in Ware SG12 | Menopause Glow & Regeneration | ULANDA",
       description: "Confused between PN and Skin Boosters? ULANDA explains the difference for menopausal skin. Get the glow today and regenerate for tomorrow in Ware, Hertfordshire.",
@@ -6341,7 +6341,7 @@ export const blogs = [
         ]
       }
     ],
-    relatedTreatments: ['polynucleotides', 'profhilo', 'seventy-hyal'],
+    relatedTreatments: ['polynucleotides', 'profhilo', 'jalupro'],
     seo: {
       title: "PN Treatment Ware SG12 | Menopause Regeneration | ULANDA",
       description: "Menopausal skin needs regeneration. Discover why PN and Skin Boosters are the top treatments in Ware, Hertford & Broxbourne. Restore collagen & hydration.",
@@ -7000,7 +7000,7 @@ export const blogs = [
         ]
       }
     ],
-    relatedTreatments: ['polynucleotides', 'biorepeel-cl3', 'profhilo'],
+    relatedTreatments: ['polynucleotides', 'biorepeel', 'profhilo'],
     seo: {
       title: "Seasonal Skin Regeneration Ware SG12 | Year-Round Glow | ULANDA",
       description: "Protect your skin across every season with ULANDA's regenerative guide. Clinical skincare plans for spring, summer, autumn & winter in Hertfordshire.",
@@ -7112,7 +7112,7 @@ export const blogs = [
         ]
       }
     ],
-    relatedTreatments: ['polynucleotides', 'profhilo', 'seventy-hyal'],
+    relatedTreatments: ['polynucleotides', 'profhilo', 'jalupro'],
     seo: {
       title: "Skin Boosters vs PN Ware SG12 | Regenerative Guide | ULANDA",
       description: "Skin Boosters vs Polynucleotides - what's the difference? Clinical guide to hydration vs regeneration for midlife skin in Hertfordshire.",
@@ -7217,7 +7217,7 @@ export const blogs = [
         ]
       }
     ],
-    relatedTreatments: ['definisse-hydrobooster', 'profhilo', 'seventy-hyal'],
+    relatedTreatments: ['definisse-hydrobooster', 'profhilo', 'jalupro'],
     seo: {
       title: "Skin Boosters Ware SG12 | Glow & Hydration Guide | ULANDA",
       description: "Everything you need to know about Skin Boosters in Ware. Profhilo, Hydrobooster & Seventy Hyal treatments for hydration & glow in Hertfordshire.",
@@ -7314,7 +7314,7 @@ export const blogs = [
         ]
       }
     ],
-    relatedTreatments: ['thread-lift', 'biostimulators', 'polynucleotides'],
+    relatedTreatments: ['thread-lifts', 'biostimulators', 'polynucleotides'],
     seo: {
       title: "Menopause Jawline Fix Ware SG12 | Regenerative Contouring | ULANDA",
       description: "Fix sagging jowls & jawline loss during menopause. ULANDA's regenerative contouring in Ware uses biology to lift, not just fill. Natural results for midlife women.",
@@ -7402,7 +7402,7 @@ export const blogs = [
         ]
       }
     ],
-    relatedTreatments: ['biorepeel-cl3', 'profhilo', 'seventy-hyal'],
+    relatedTreatments: ['biorepeel', 'profhilo', 'jalupro'],
     seo: {
       title: "Chemical Peels & Boosters for Menopause Ware SG12 | ULANDA",
       description: "Restore glow during perimenopause with chemical peels & skin boosters. Regenerative advice for midlife skin changes in Hertfordshire.",
@@ -7489,7 +7489,7 @@ export const blogs = [
         ]
       }
     ],
-    relatedTreatments: ['biostimulators', 'thread-lift', 'microneedling'],
+    relatedTreatments: ['biostimulators', 'thread-lifts', 'microneedling'],
     seo: {
       title: "Menopause Glow Biostimulants Ware SG12 | ULANDA",
       description: "Restore radiance & firmness in perimenopause with Biostimulants & Collagen Therapy. Regenerative aesthetic guide for women in Ware, Hertford & Broxbourne.",
@@ -7782,7 +7782,7 @@ export const blogs = [
         content: "At ULANDA in Ware (SG12), we specialise in regenerative plans that help women thrive through perimenopause and menopause — not just survive it."
       }
     ],
-    relatedTreatments: ["polynucleotides", "profhilo", "biostimulators", "thread-lift", "nad-iv"],
+    relatedTreatments: ["polynucleotides", "profhilo", "biostimulators", "thread-lifts", "nad-iv"],
     seo: {
       title: "PN, Skin Boosters, Biostimulators & Threads Guide Ware SG12 | ULANDA",
       description: "A clear menopause guide to PN, Skin Boosters, Biostimulators & Threads. Understand the difference and find the right regenerative treatment in Hertfordshire.",
@@ -7901,7 +7901,7 @@ export const blogs = [
         content: "Under-eye ageing in midlife isn’t a filler issue — it’s a collagen issue, a hormonal issue, and a regenerative biology issue. PN, skin boosters and threads work because they restore strength, elasticity and structure — naturally."
       }
     ],
-    relatedTreatments: ["polynucleotides", "thread-lift", "lumi-eyes", "profhilo"],
+    relatedTreatments: ["polynucleotides", "thread-lifts", "lumi-eyes", "profhilo"],
     seo: {
       title: "Under-Eye Regeneration Blueprint Ware SG12 | PN & Threads | ULANDA",
       description: "Treat dark circles and hollows naturally. The ULANDA Under-Eye Regeneration Blueprint using PN, Skin Boosters and Threads in Ware, Hertfordshire.",
@@ -8001,7 +8001,7 @@ export const blogs = [
         content: "So which lifts better? Threads lift sagging tissue. Fillers lift through volume replacement. For many Hertfordshire women aged 40–65, threads offer the most natural, elegant and regenerative lift, especially when jowls or early midface descent have started."
       }
     ],
-    relatedTreatments: ["thread-lift", "dermal-fillers"],
+    relatedTreatments: ["thread-lifts", "dermal-fillers"],
     seo: {
       title: "Thread Lift vs Dermal Fillers Hertfordshire Guide | ULANDA Ware",
       description: "Which lifts better: Threads or Fillers? A clinical comparison for Hertfordshire women. Lift sagging or replace volume? Find out here.",
@@ -8186,7 +8186,7 @@ export const blogs = [
         content: "If you’re noticing new changes in your skin, energy or mood, you’re not alone. The ULANDA Perimenopause Skin Protocol treats the woman — not just the skin. Book your ULANDA Women’s Skin & Perimenopause Vitality Assessment today."
       }
     ],
-    relatedTreatments: ["polynucleotides", "profhilo", "biorepeel", "nad-iv", "hydration-iv"],
+    relatedTreatments: ["polynucleotides", "profhilo", "biorepeel", "nad-iv", "skin-glow-iv"],
     seo: {
       title: "Perimenopause Skin Guide Ware | Clinical Advice ULANDA",
       description: "What happens to your skin in perimenopause? Clinical guide to dryness, acne, thinning and regeneration. Specialist perimenopause skin clinic Ware.",
@@ -8462,7 +8462,7 @@ export const blogs = [
         content: "Menopause skin does not need more filler — it needs more collagen. Regenerative aesthetics rebuilds what hormones break down. Book your ULANDA Menopause Collagen Consultation in Ware (SG12)."
       }
     ],
-    relatedTreatments: ["biostimulators", "polynucleotides", "thread-lift", "nad-iv", "biorepeel"],
+    relatedTreatments: ["biostimulators", "polynucleotides", "thread-lifts", "nad-iv", "biorepeel"],
     seo: {
       title: "Menopause Collagen Treatment Ware | Biostimulators vs Fillers",
       description: "Why menopause skin needs collagen stimulation instead of dermal fillers. Biostimulators, PN and Regenerative Aesthetics in Ware, Hertfordshire.",
@@ -8527,7 +8527,7 @@ export const blogs = [
         content: "Midlife women no longer need to choose between surgery or overdone fillers. Regenerative aesthetics respects the biology of menopause. Regenerate. Restore. Redefine your midlife glow."
       }
     ],
-    relatedTreatments: ["polynucleotides", "biostimulators", "profhilo", "thread-lift", "biorepeel", "nad-iv"],
+    relatedTreatments: ["polynucleotides", "biostimulators", "profhilo", "thread-lifts", "biorepeel", "nad-iv"],
     seo: {
       title: "Future of Aesthetics for Midlife Women Ware | Regenerative Medicine",
       description: "Why regenerative aesthetics is replacing anti-ageing quick fixes. The biological approach to midlife skin in Ware, Hertfordshire.",
@@ -8774,7 +8774,7 @@ export const blogs = [
         content: "Regenerative aesthetics allows women to stay ahead of every stage by rebuilding collagen and strengthening tissue. Book your ULANDA Regenerative Ageing Consultation in Ware (SG12)."
       }
     ],
-    relatedTreatments: ["polynucleotides", "biostimulators", "thread-lift", "biorepeel", "microneedling", "nad-iv"],
+    relatedTreatments: ["polynucleotides", "biostimulators", "thread-lifts", "biorepeel", "microneedling", "nad-iv"],
     seo: {
       title: "Skin Ageing Timeline 30s 40s 50s 60s | Regenerative Guide Ware",
       description: "A decade-by-decade guide to female skin ageing. What treatments you need at 35, 45, 55 and 65. Regenerative aesthetics in Ware, Hertfordshire.",

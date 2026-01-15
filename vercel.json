@@ -1,4 +1,36 @@
 {
+  "redirects": [
+    {
+      "source": "/programmes/menopause-regeneration",
+      "destination": "/treatments/radiate/pathways/menopause-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/under-eye-regeneration",
+      "destination": "/treatments/radiate/pathways/under-eye-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/collagen-reset",
+      "destination": "/treatments/radiate/pathways/collagen-reset",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/hormone-smart-skin",
+      "destination": "/treatments/radiate/pathways/hormone-smart-skin",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/shape-and-regenerate",
+      "destination": "/treatments/radiate/pathways/shape-and-regenerate",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/:path*",
+      "destination": "/treatments/radiate",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!assets/|static/|favicon.ico|robots.txt|sitemap.xml).*)",

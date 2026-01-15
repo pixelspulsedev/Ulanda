@@ -61,12 +61,20 @@ const routes = [
         element: <ProgrammeDetail />,
       },
       {
+        path: 'treatments/radiate/pathways/:id',
+        element: <ProgrammeDetail />,
+      },
+      {
         path: 'treatments/:category/:subcategory',
         element: <TreatmentSubCategory />,
       },
       {
         path: 'treatments/:category/:subcategory/:id',
         element: <Treatment />,
+      },
+      {
+        path: 'tools/:id',
+        element: <ToolDetail />,
       },
       {
         path: 'pathways',

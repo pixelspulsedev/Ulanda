@@ -212,11 +212,12 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Ulanda - About</title>
+        <title>About ULANDA | Regenerative Aesthetics Ware SG12 | Hertfordshire</title>
         <meta
           name="description"
-          content="Learn about ULANDA: regenerative aesthetics, hormone-aware care, internal wellness, and women-first programmes."
+          content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Hormone-aware care, internal wellness, and women-first treatments for midlife skin regeneration."
         />
+        <link rel="canonical" href="https://www.ulanda.co.uk/about/our-story" />
       </Head>
 
       <div className="bg-base-100 text-base-content">

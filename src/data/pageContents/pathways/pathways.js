@@ -12,8 +12,7 @@ export const pathways = [
             { name: 'Oxygen Facials', linkId: 'oxygen-vitamin-infusion-facial' },
             { name: 'BioRePeel', linkId: 'biorepeel' },
             { name: 'Chemical Peel', linkId: 'chemical-peel' },
-            { name: 'LED', linkId: 'led-light-therapy' },
-            { name: 'Body Peels', linkId: 'body-peels' }
+            { name: 'LED', linkId: 'led-light-therapy' }
         ],
         perfectFor: 'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.'
     },
@@ -28,7 +27,6 @@ export const pathways = [
             { name: 'Polynucleotides (PN)', linkId: 'polynucleotides' },
             { name: 'PRP', linkId: 'prp-skin-regeneration' },
             { name: 'Microneedling', linkId: 'microneedling' },
-            { name: 'RF Microneedling', linkId: 'rf-microneedling' },
             { name: 'Profhilo', linkId: 'profhilo' },
             { name: 'Hydrobooster', linkId: 'definisse-hydrobooster' },
             { name: 'Jalupro', linkId: 'jalupro' },
@@ -49,7 +47,7 @@ export const pathways = [
             { name: 'Natural Fillers', linkId: 'dermal-fillers' },
             { name: 'Collagen Therapy', linkId: 'collagen-therapy' },
             { name: 'Jawline Contouring', linkId: 'jawline-sculpting' },
-            { name: 'Neck Tightening', linkId: 'neck-lower-face-structural-lift' },
+            { name: 'Neck Tightening', linkId: 'neck-lower-face-lift' },
             { name: 'Body Tightening', linkId: 'body-tightening' }
         ],
         perfectFor: 'Jawline softening, mid-face changes, neck laxity, postpartum body changes.'

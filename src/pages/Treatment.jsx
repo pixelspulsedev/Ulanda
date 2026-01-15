@@ -9,6 +9,7 @@ import RelatedConditions from '../components/RelatedConditions';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import { ServiceSchema } from '../components/Schema';
 
 const SafetyIcon = ({ type }) => {
   switch (type) {
@@ -116,6 +117,9 @@ const Treatment = () => {
       : treatment.description) ||
     '';
 
+  // Canonical URL for the treatment page
+  const canonicalUrl = `https://www.ulanda.co.uk/treatments/${category}/${subcategory}/${id}`;
+
   const Book = () => {
     window.open('https://bookings.gettimely.com/ulanda/book', '_blank');
   };
@@ -125,7 +129,15 @@ const Treatment = () => {
       <Head>
         <title>{seoTitle}</title>
         <meta name="description" content={seoDescription} />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
+      
+      {/* Service Schema for this treatment page */}
+      <ServiceSchema 
+        treatment={treatment} 
+        pathway={category} 
+        subcategory={subcategory} 
+      />
 
       <div className="bg-base-100 min-h-screen">
         <Breadcrumbs />
@@ -781,7 +793,7 @@ const Treatment = () => {
                   return (
                     <Link
                       key={tool.id}
-                      to={`/treatments/${category}/${id}/${tool.id}`}
+                      to={`/tools/${tool.id}`}
                       className="bg-base-100 p-8 rounded-sm hover:shadow-lg transition-shadow duration-300 group block border-l-4 border-primary"
                     >
                       <h3 className="text-xl font-serif text-primary mb-2 group-hover:underline">

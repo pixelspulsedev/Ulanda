@@ -1,0 +1,164 @@
+import React from 'react';
+
+/**
+ * Site-wide LocalBusiness/MedicalBusiness Schema
+ * Implements as per ULANDA SEO requirements - added once site-wide
+ */
+export const LocalBusinessSchema = () => {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "@id": "https://www.ulanda.co.uk/#medicalbusiness",
+    "name": "ULANDA",
+    "url": "https://www.ulanda.co.uk",
+    "logo": "https://www.ulanda.co.uk/assets/img/ui/Logo.webp",
+    "image": "https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+    "telephone": "+44 7904 336031",
+    "email": "info@ulanda.co.uk",
+    "priceRange": "£££",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Uphaven, Hampden Hill",
+      "addressLocality": "Ware",
+      "postalCode": "SG12 7JT",
+      "addressRegion": "Hertfordshire",
+      "addressCountry": "GB"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "51.8094",
+      "longitude": "-0.0316"
+    },
+    "areaServed": [
+      {
+        "@type": "AdministrativeArea",
+        "name": "Hertfordshire"
+      },
+      {
+        "@type": "City",
+        "name": "Ware"
+      },
+      {
+        "@type": "City",
+        "name": "Hertford"
+      },
+      {
+        "@type": "City",
+        "name": "Bishops Stortford"
+      },
+      {
+        "@type": "City",
+        "name": "Hoddesdon"
+      },
+      {
+        "@type": "City",
+        "name": "Broxbourne"
+      }
+    ],
+    "medicalSpecialty": [
+      "Dermatology",
+      "Aesthetic Medicine",
+      "Skin Regeneration"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:30",
+      "closes": "18:30"
+    },
+    "sameAs": [
+      "https://www.instagram.com/ulandamedspa",
+      "https://www.facebook.com/ulandamedspa"
+    ]
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
+
+/**
+ * Service Schema for individual treatment pages
+ * @param {Object} treatment - Treatment data object
+ * @param {string} pathway - Pathway name (refresh, renew, restore, radiate)
+ * @param {string} subcategory - Subcategory slug
+ */
+export const ServiceSchema = ({ treatment, pathway, subcategory }) => {
+  if (!treatment) return null;
+
+  const baseUrl = 'https://www.ulanda.co.uk';
+  const treatmentUrl = `${baseUrl}/treatments/${pathway}/${subcategory}/${treatment.id}`;
+  
+  // Build price specification if available
+  const priceSpec = treatment.booking?.price ? {
+    "@type": "PriceSpecification",
+    "price": treatment.booking.price,
+    "priceCurrency": "GBP",
+    "valueAddedTaxIncluded": true
+  } : null;
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": treatment.title + (treatment.highlight ? ` ${treatment.highlight}` : '') + (treatment.titleSuffix ? ` ${treatment.titleSuffix}` : ''),
+    "description": treatment.seo?.description || treatment.description || '',
+    "url": treatmentUrl,
+    "provider": {
+      "@type": "MedicalBusiness",
+      "@id": "https://www.ulanda.co.uk/#medicalbusiness"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Ware, Hertfordshire"
+    },
+    "serviceType": `${pathway.charAt(0).toUpperCase() + pathway.slice(1)} Treatment`,
+    ...(priceSpec && { "offers": priceSpec }),
+    ...(treatment.booking?.duration && {
+      "termsOfService": `Treatment duration: approximately ${treatment.booking.duration} minutes`
+    })
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
+
+/**
+ * Breadcrumb Schema for navigation
+ * @param {Array} items - Array of breadcrumb items with name and url
+ */
+export const BreadcrumbSchema = ({ items }) => {
+  if (!items || items.length === 0) return null;
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "item": `https://www.ulanda.co.uk${item.url}`
+    }))
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
+
+export default { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema };

@@ -6,6 +6,39 @@ import { getTreatmentSubCategory, getTreatmentCategory } from '../data/pageConte
 import { ArrowRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 
+// Sub-category SEO mapping following locked format: [Treatment Focus] in Ware SG12 | [Pathway] | ULANDA
+const subCategorySEO = {
+  // Refresh subcategories
+  'refresh': {
+    'signature-facials': { title: 'Medical Facials in Ware SG12 | Refresh | ULANDA', description: 'Professional medical facials at ULANDA in Ware SG12. Deep cleansing, exfoliation and hydration treatments including HydraFacial, enzyme therapy and oxygen facials.' },
+    'resurfacing': { title: 'Skin Resurfacing in Ware SG12 | Refresh | ULANDA', description: 'Skin resurfacing treatments at ULANDA in Ware SG12. Chemical peels, dermaplaning and BioRePeel for texture refinement and radiance.' },
+    'light-based': { title: 'LED Light Therapy in Ware SG12 | Refresh | ULANDA', description: 'LED light therapy at ULANDA in Ware SG12. Medical-grade wavelengths for collagen stimulation, acne and inflammation control.' },
+    'body-surface': { title: 'Body Surface Treatments in Ware SG12 | Refresh | ULANDA', description: 'Body surface treatments at ULANDA in Ware SG12. Body peels and resurfacing for improved skin texture and tone.' }
+  },
+  // Renew subcategories
+  'renew': {
+    'skin-boosters': { title: 'Skin Boosters in Ware SG12 | Renew | ULANDA', description: 'Injectable skin boosters at ULANDA in Ware SG12. Profhilo, Hydrobooster, Jalupro and Lumi Eyes for deep hydration and bio-remodelling.' },
+    'microneedling': { title: 'Microneedling Treatments in Ware SG12 | Renew | ULANDA', description: 'Medical microneedling at ULANDA in Ware SG12. Collagen induction therapy and RF microneedling for texture, pores and scarring.' },
+    'regenerative': { title: 'Regenerative Treatments in Ware SG12 | Renew | ULANDA', description: 'Regenerative skin treatments at ULANDA in Ware SG12. Polynucleotides (PN), PRP and advanced bio-revitalisation.' },
+    'injectable-aesthetics': { title: 'Injectable Aesthetics in Ware SG12 | Renew | ULANDA', description: 'Injectable aesthetic treatments at ULANDA in Ware SG12. Anti-wrinkle treatments and natural enhancement options.' }
+  },
+  // Restore subcategories
+  'restore': {
+    'biostimulators': { title: 'Biostimulator Treatments in Ware SG12 | Restore | ULANDA', description: 'Biostimulator treatments at ULANDA in Ware SG12. PLLA and CaHA for natural collagen rebuilding and structural support.' },
+    'structural': { title: 'Structural Treatments in Ware SG12 | Restore | ULANDA', description: 'Structural aesthetic treatments at ULANDA in Ware SG12. Thread lifts, dermal fillers and jawline sculpting.' },
+    'skin-recovery': { title: 'Skin Recovery Treatments in Ware SG12 | Restore | ULANDA', description: 'Skin recovery treatments at ULANDA in Ware SG12. Barrier repair facials, lymphatic drainage and post-procedure care.' },
+    'body-contouring': { title: 'Body Contouring in Ware SG12 | Restore | ULANDA', description: 'Body contouring treatments at ULANDA in Ware SG12. Body tightening and skin firming for natural definition.' }
+  },
+  // Radiate subcategories
+  'radiate': {
+    'iv-therapy': { title: 'IV Therapy in Ware SG12 | Radiate | ULANDA', description: 'IV therapy treatments at ULANDA in Ware SG12. NAD+, glutathione, energy and immunity IV drips for internal wellness.' },
+    'im-therapy': { title: 'IM Vitamin Therapy in Ware SG12 | Radiate | ULANDA', description: 'Intramuscular vitamin therapy at ULANDA in Ware SG12. Vitamin B12, D3 and energy-boosting injections.' },
+    'weight-management': { title: 'Medical Weight Management in Ware SG12 | Radiate | ULANDA', description: 'Medical weight management at ULANDA in Ware SG12. Clinically supervised programmes for sustainable weight loss.' },
+    'longevity': { title: 'Longevity & Cellular Health in Ware SG12 | Radiate | ULANDA', description: 'Longevity and cellular health treatments at ULANDA in Ware SG12. NAD+ therapy and regenerative wellness protocols.' },
+    'pathways': { title: 'Radiate Pathways in Ware SG12 | ULANDA', description: 'Comprehensive treatment pathways at ULANDA in Ware SG12. Multi-week regenerative programmes for transformational results.' }
+  }
+};
+
 export default function TreatmentSubCategory() {
   const { category: categoryId, subcategory: subId } = useParams();
   const category = getTreatmentCategory(categoryId);
@@ -15,11 +48,18 @@ export default function TreatmentSubCategory() {
     return <Navigate to={`/treatments/${categoryId || ''}`} replace />;
   }
 
+  // Get subcategory-specific SEO or fall back to generic
+  const seo = subCategorySEO[categoryId]?.[subId] || {
+    title: `${subCategory.title} in Ware SG12 | ${category.title} | ULANDA`,
+    description: subCategory.description
+  };
+
   return (
     <>
       <Head>
-        <title>{subCategory.title} | {category.title} | Ulanda</title>
-        <meta name="description" content={subCategory.description} />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
+        <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${categoryId}/${subId}`} />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

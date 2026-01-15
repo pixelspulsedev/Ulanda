@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import './index.css'
 import ScrollToTop from './components/ScrollToTop'
 import PageTransition from './components/animations/PageTransition'
+import { LocalBusinessSchema } from './components/Schema'
 
 function App() {
   const location = useLocation()
@@ -15,8 +16,13 @@ function App() {
   return (
     <div className="min-h-screen bg-base-100 flex flex-col font-sans">
       <Head>
-        <title>Ulanda</title>
+        <title>ULANDA | Regenerative Aesthetics in Ware SG12, Hertfordshire</title>
+        <meta name="description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Specialising in skin regeneration, bio-remodelling and hormone-smart treatments for midlife women." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/" />
       </Head>
+      
+      {/* Site-wide LocalBusiness Schema - added once */}
+      <LocalBusinessSchema />
 
       <Navbar />
 
