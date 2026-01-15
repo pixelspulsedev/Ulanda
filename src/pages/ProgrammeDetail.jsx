@@ -75,9 +75,9 @@ export default function ProgrammeDetail() {
                 </HeroText>
               </div>
               <FadeInWhenVisible delay={0.6}>
-              <button className="btn btn-primary text-white border-none">
+              <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white border-none">
                 Book Consultation
-              </button>
+              </a>
               </FadeInWhenVisible>
             </div>
           </div>
@@ -457,9 +457,9 @@ export default function ProgrammeDetail() {
                 Your next decade of skin begins here.
               </h2>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="btn btn-primary">
+                <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                   Book Consultation
-                </button>
+                </a>
                 <button className="btn btn-outline border border-primary text-primary shadow-none hover:bg-primary/10 hover:text-primary"> 
                   Speak to a Practitioner
                 </button>

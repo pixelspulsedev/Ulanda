@@ -181,7 +181,7 @@ export const conditions = [
       titleSuffix: "Consultation",
       description: "Reverse visible ageing at every layer — cellular, dermal, structural and internal.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -356,7 +356,7 @@ export const conditions = [
       titleSuffix: "Consultation",
       description: "Smooth, firm and restore your body’s natural contours with true regenerative medicine.",
       buttonText: "Book Body Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -543,7 +543,7 @@ export const conditions = [
       titleSuffix: "Journey",
       description: "Brighten, thicken, smooth and support the eye area naturally.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -716,7 +716,7 @@ export const conditions = [
       titleSuffix: "",
       description: "Your skin can thrive at every age. Begin your personalised menopause regeneration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -891,7 +891,7 @@ export const conditions = [
       titleSuffix: "",
       description: "Clarity comes from calm, balanced, regenerated skin. Begin your personalised ULANDA Pigmentation Pathway today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1053,7 +1053,7 @@ export const conditions = [
       titleSuffix: "Consultation",
       description: "True skin health starts within. Rebuild your internal foundation for brighter, firmer, more radiant skin — naturally.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1215,7 +1215,7 @@ export const conditions = [
       titleSuffix: "Consultation",
       description: "Regain control of your skin with science-backed, hormone-aware regeneration.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   }
 ];
@@ -1224,3 +1224,4 @@ export const getCondition = (id) => {
   if (id === 'aging') return conditions.find(c => c.id === 'ageing');
   return conditions.find(c => c.id === id);
 };
+

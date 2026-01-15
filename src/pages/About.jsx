@@ -632,9 +632,9 @@ export default function About() {
               we’re here to guide you. Your journey starts with a personalised
               consultation.
             </p>
-            <button className="btn btn-primary text-white px-8 py-3 h-auto rounded-lg">
+            <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-8 py-3 h-auto rounded-lg">
               Book Your Consultation
-            </button>
+            </a>
           </div>
         </section>
       </div>

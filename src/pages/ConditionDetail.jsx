@@ -63,9 +63,14 @@ export default function ConditionDetail() {
               </div>
 
               <FadeInWhenVisible delay={0.4}>
-              <button className="btn btn-primary">
+              <a 
+                href={condition.hero.buttonLink || "https://ulanda-100633.square.site/"} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
                 {condition.hero.buttonText}
-              </button>
+              </a>
               </FadeInWhenVisible>
             </div>
 

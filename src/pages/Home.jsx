@@ -209,7 +209,7 @@ export default function Home() {
               </HeroText>
             </div>
             <FadeInWhenVisible delay={0.6}>
-              <button className="btn btn-primary">Book Your Consultation</button>
+              <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Book Your Consultation</a>
             </FadeInWhenVisible>
           </div>
         </div>
@@ -1063,9 +1063,9 @@ export default function Home() {
             wellbeing at every stage — postpartum, perimenopause or menopause.
           </p>
 
-          <button className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
+          <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
             Book Your Consultation
-          </button>
+          </a>
         </div>
       </section>
 

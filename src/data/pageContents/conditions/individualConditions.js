@@ -10,7 +10,7 @@ export const individualConditions = [
       highlight: "Dehydrated, Lacklustre Skin",
       description: "Dull, dehydrated skin is one of the most common concerns for women 30+, often becoming more noticeable during perimenopause and menopause. The skin looks tired, flat, uneven or “grey,” makeup doesn’t sit well, and fine lines appear more defined.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop" // Using a placeholder similar to the image
     },
     science: {
@@ -129,7 +129,7 @@ export const individualConditions = [
       titleSuffix: "your glow?",
       description: "Book your personalised regenerative hydration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -143,7 +143,7 @@ export const individualConditions = [
       highlight: "Enlarged Pores",
       description: "Enlarged pores are a common midlife concern, especially for women entering their late 30s, 40s, and beyond. They often make the skin appear rough, aged, uneven or oily — and makeup tends to sit inside the pores, making them more visible.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -237,7 +237,7 @@ export const individualConditions = [
       titleSuffix: "your pores?",
       description: "Book your regenerative skin consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -251,7 +251,7 @@ export const individualConditions = [
       highlight: "Fine Lines & Wrinkles",
       description: "Fine lines and wrinkles are one of the earliest signs of ageing — often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -345,7 +345,7 @@ export const individualConditions = [
       titleSuffix: "fine lines?",
       description: "Explore your regenerative options with a personalised consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -359,7 +359,7 @@ export const individualConditions = [
       highlight: "Skin Laxity",
       description: "Skin laxity — sagging of the face, jawline and neck — is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -451,7 +451,7 @@ export const individualConditions = [
       titleSuffix: "without surgery?",
       description: "Book your regenerative lifting consultation for jawline, face or neck.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -465,7 +465,7 @@ export const individualConditions = [
       highlight: "Thin, Crepey Menopause Skin",
       description: "Crepey, thinning skin on the face, neck, under-eyes and body is a hallmark of menopause. We rebuild thickness, elasticity and density at the source.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -559,7 +559,7 @@ export const individualConditions = [
       titleSuffix: "crepey skin?",
       description: "Book your regenerative menopause skin consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -573,7 +573,7 @@ export const individualConditions = [
       highlight: "Uneven Skin Texture",
       description: "Roughness, bumps, enlarged pores or a sandpaper feel signal slowed renewal and collagen decline — often worsened in perimenopause.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -667,7 +667,7 @@ export const individualConditions = [
       titleSuffix: "skin?",
       description: "Book your personalised regenerative texture consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -681,7 +681,7 @@ export const individualConditions = [
       highlight: "Facial Volume Loss",
       description: "Hollow cheeks, flat midface and sunken temples are key signs of midlife ageing. We restore natural contour with regenerative volume strategies.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -773,7 +773,7 @@ export const individualConditions = [
       titleSuffix: "natural volume?",
       description: "Book your personalised regenerative contouring consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -787,7 +787,7 @@ export const individualConditions = [
       highlight: "Body Skin Laxity",
       description: "Loose, crepey arms, stomach, thighs or knees are structural and hormonal, not just weight related. We tighten body skin by rebuilding collagen, elastin and fascia.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -872,7 +872,7 @@ export const individualConditions = [
       titleSuffix: "body skin?",
       description: "Book your ULANDA Body Regeneration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -886,7 +886,7 @@ export const individualConditions = [
       highlight: "Cellulite",
       description: "Cellulite is structural and hormonal, not a fat problem. We smooth dimples by repairing collagen, releasing tethering and improving tissue health.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -968,7 +968,7 @@ export const individualConditions = [
       titleSuffix: "cellulite?",
       description: "Book your ULANDA Body Consultation for regenerative cellulite care.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -982,7 +982,7 @@ export const individualConditions = [
       highlight: "Post-Weight Loss & Postpartum Skin",
       description: "After pregnancy or weight loss, skin can feel loose, soft or crepey. We restore firmness and contour through non-surgical regeneration.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1064,7 +1064,7 @@ export const individualConditions = [
       titleSuffix: "post-weight loss/postpartum skin?",
       description: "Rebuild firmness and tone with ULANDA’s regenerative body treatments.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1078,7 +1078,7 @@ export const individualConditions = [
       highlight: "Stretch Marks",
       description: "Stretch marks are dermal tears, not surface lines. We repair the collagen network for smoother, stronger skin.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1160,7 +1160,7 @@ export const individualConditions = [
       titleSuffix: "stretch-marked skin?",
       description: "Restore skin confidence through true regeneration.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1174,7 +1174,7 @@ export const individualConditions = [
       highlight: "Crepey Under-Eye Skin",
       description: "Thin, wrinkled under-eye skin accelerates after 35 and during menopause. We thicken, hydrate and strengthen instead of masking.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1270,7 +1270,7 @@ export const individualConditions = [
       titleSuffix: "crepey eyes?",
       description: "Book your Under-Eye Regeneration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1284,7 +1284,7 @@ export const individualConditions = [
       highlight: "Dark Circles",
       description: "Dark circles are usually structural, vascular, pigment and hydration related — not just lack of sleep. We brighten by regenerating skin, not masking.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1379,7 +1379,7 @@ export const individualConditions = [
       titleSuffix: "dark circles?",
       description: "Book your regenerative under-eye consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1393,7 +1393,7 @@ export const individualConditions = [
       highlight: "Under-Eye Hollows",
       description: "Tear trough hollows and shadows are structural. We strengthen skin, restore support and hydrate for natural, rested eyes without overfilling.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1487,7 +1487,7 @@ export const individualConditions = [
       titleSuffix: "under-eye support?",
       description: "Book your Tear Trough Regeneration consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1501,7 +1501,7 @@ export const individualConditions = [
       highlight: "Under-Eye Pigmentation",
       description: "Brown, blue or mixed under-eye pigmentation needs gentle regeneration, pigment control and barrier repair — not harsh bleaching.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1595,7 +1595,7 @@ export const individualConditions = [
       titleSuffix: "under-eye pigment?",
       description: "Book your Under-Eye Pigmentation consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1609,7 +1609,7 @@ export const individualConditions = [
       highlight: "Under-Eye Puffiness",
       description: "Puffiness and bags come from fluid retention, lax support and inflammation — not just tiredness. We de-puff by improving drainage, strength and structure.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1704,7 +1704,7 @@ export const individualConditions = [
       titleSuffix: "your under-eyes?",
       description: "Book your Under-Eye Regeneration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1718,7 +1718,7 @@ export const individualConditions = [
       highlight: "Dryness & Sensitivity",
       description: "Dry, tight, reactive skin is one of the earliest menopause signals. We rebuild strength, hydration and resilience so skin feels calm again.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1817,7 +1817,7 @@ export const individualConditions = [
       titleSuffix: "comfort and hydration?",
       description: "Book your ULANDA Skin Comfort & Hydration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1831,7 +1831,7 @@ export const individualConditions = [
       highlight: "Hormonal Breakouts",
       description: "Midlife acne is inflammatory and hormone-driven — stripping makes it worse. We calm, repair and prevent breakouts with hormone-smart regeneration.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -1930,7 +1930,7 @@ export const individualConditions = [
       titleSuffix: "hormonal breakouts?",
       description: "Book your Hormonal Skin consultation and calm acne from the inside out.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -1944,7 +1944,7 @@ export const individualConditions = [
       highlight: "Hormonal Pigmentation",
       description: "Hormone-driven pigmentation needs calm, regenerative brightening — not lasers or harsh bleaching. We repair melanocyte balance safely.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2043,7 +2043,7 @@ export const individualConditions = [
       titleSuffix: "hormonal pigmentation?",
       description: "Book your Hormonal Pigmentation consultation for safe, long-term clarity.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2057,7 +2057,7 @@ export const individualConditions = [
       highlight: "Loss of Facial Definition",
       description: "Menopause-driven contour loss is structural — collagen, ligaments and fat pads weaken. We lift and rebuild definition without heaviness.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2155,7 +2155,7 @@ export const individualConditions = [
       titleSuffix: "your natural contours?",
       description: "Book your Facial Definition consultation and lift without heaviness.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2169,7 +2169,7 @@ export const individualConditions = [
       highlight: "Menopause Jawline Softening / Jowls",
       description: "Jawline softening is a structural, hormone-driven change — not a volume problem. We lift jawlines naturally with regeneration, not heavy filler.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2255,7 +2255,7 @@ export const individualConditions = [
       titleSuffix: "your jawline?",
       description: "Book your Jawline Regeneration consultation and lift naturally.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2269,7 +2269,7 @@ export const individualConditions = [
       highlight: "Menopause Neck Crepiness / Neck Laxity",
       description: "Menopause neck ageing is rapid and delicate. We thicken, smooth and tighten the neck with regeneration, not overfilling or harsh resurfacing.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2355,7 +2355,7 @@ export const individualConditions = [
       titleSuffix: "a smoother neck?",
       description: "Book your Neck Regeneration consultation and rebuild firmness.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2369,7 +2369,7 @@ export const individualConditions = [
       highlight: "Menopause Skin Decline",
       description: "Menopause triggers the most dramatic skin shift of a woman’s life. ULANDA rebuilds collagen, hydration, barrier strength and contour through regeneration.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2470,7 +2470,7 @@ export const individualConditions = [
       titleSuffix: "menopause skin?",
       description: "Book your Menopause Skin Regeneration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2484,7 +2484,7 @@ export const individualConditions = [
       highlight: "Menopause Skin Texture Decline",
       description: "Rough, uneven, crepey texture in menopause needs stacked regeneration — collagen renewal, hydration rebuilding and dermal strengthening.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2583,7 +2583,7 @@ export const individualConditions = [
       titleSuffix: "menopause texture?",
       description: "Book your Texture Regeneration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2597,7 +2597,7 @@ export const individualConditions = [
       highlight: "Hyperpigmentation",
       description: "Sun damage, age spots and uneven brown patches need calm, regenerative correction — not aggressive bleaching. We fade pigment safely and prevent recurrence.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2691,7 +2691,7 @@ export const individualConditions = [
       titleSuffix: "more even skin?",
       description: "Book your regenerative pigmentation consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2705,7 +2705,7 @@ export const individualConditions = [
       highlight: "Melasma",
       description: "Melasma is hormone- and inflammation-driven; harsh peels and lasers often worsen it. We calm, repair and brighten with melasma-safe regeneration.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2799,7 +2799,7 @@ export const individualConditions = [
       titleSuffix: "melasma safely?",
       description: "Book your specialist melasma consultation and begin long-term clarity.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2813,7 +2813,7 @@ export const individualConditions = [
       highlight: "Post-Inflammatory Hyperpigmentation (PIH)",
       description: "PIH follows acne, irritation or trauma. We calm, repair and brighten without triggering further darkening — safe for all tones.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -2908,7 +2908,7 @@ export const individualConditions = [
       titleSuffix: "PIH safely?",
       description: "Book your personalised PIH consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -2922,7 +2922,7 @@ export const individualConditions = [
       highlight: "Uneven Skin Tone / Discolouration",
       description: "Patchy, dull, uneven tone needs calm regeneration — strengthening barrier, boosting turnover and hydrating deeply for natural clarity.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -3018,7 +3018,7 @@ export const individualConditions = [
       titleSuffix: "your tone?",
       description: "Book your regenerative tone-correction consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -3032,7 +3032,7 @@ export const individualConditions = [
       highlight: "Fatigue / Low Energy",
       description: "Energy decline after 30–40 is biological — mitochondria slow, hormones fluctuate, nutrients deplete. ULANDA restores cellular energy so skin, mind and body perform again.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -3128,7 +3128,7 @@ export const individualConditions = [
       titleSuffix: "your energy?",
       description: "Begin your ULANDA Fatigue & Energy Regeneration Consultation in Ware, Hertford & SG12.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -3142,7 +3142,7 @@ export const individualConditions = [
       highlight: "Low Immunity / Frequent Illness",
       description: "If you catch colds easily or recover slowly, immunity is signalling nutrient depletion, cortisol shifts or mitochondrial decline. We rebuild resilience from within.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -3239,7 +3239,7 @@ export const individualConditions = [
       titleSuffix: "your immunity?",
       description: "Begin your ULANDA Immunity & Longevity Consultation in Ware, Hertford & SG12.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -3253,7 +3253,7 @@ export const individualConditions = [
       highlight: "Nutrient Deficiency–Linked Skin Issues",
       description: "Dullness, pigmentation, roughness or hair shedding often trace back to Vitamin D, B12, antioxidant and amino-acid deficits. We correct inside first, then regenerate skin.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -3348,7 +3348,7 @@ export const individualConditions = [
       titleSuffix: "your nutrients & glow?",
       description: "Book your ULANDA Nutrient & Skin Regeneration Consultation in Ware, Hertford & SG12 today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -3362,7 +3362,7 @@ export const individualConditions = [
       highlight: "Slow Metabolism / Weight Gain",
       description: "Midlife weight gain is hormonal and metabolic, not willpower. ULANDA resets metabolism with regenerative, longevity-led support.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -3459,7 +3459,7 @@ export const individualConditions = [
       titleSuffix: "your metabolism?",
       description: "Begin your ULANDA Metabolic & Weight Consultation in Ware, Hertford & SG12 today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
@@ -3473,7 +3473,7 @@ export const individualConditions = [
       highlight: "Stress & Inflammation Impacting Skin",
       description: "Chronic stress is a hormonal and inflammatory storm that accelerates ageing. We calm cortisol, rebuild barrier and regenerate skin at every layer.",
       buttonText: "Book Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
     },
     science: {
@@ -3571,9 +3571,10 @@ export const individualConditions = [
       titleSuffix: "stress-ageing?",
       description: "Book your ULANDA Stress & Inflammation Consultation in Ware, Hertford, SG12 today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://www.fresha.com/book-now/ulanda-skin-clinic-mq50m10o/all-offer?pId=1034761"
+      buttonLink: "https://ulanda-100633.square.site/"
     }
   }
 ];
 
 export const getIndividualCondition = (id) => individualConditions.find(c => c.id === id);
+

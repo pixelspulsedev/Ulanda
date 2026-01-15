@@ -121,7 +121,7 @@ const Treatment = () => {
   const canonicalUrl = `https://www.ulanda.co.uk/treatments/${category}/${subcategory}/${id}`;
 
   const Book = () => {
-    window.open('https://bookings.gettimely.com/ulanda/book', '_blank');
+    window.open('https://ulanda-100633.square.site/', '_blank');
   };
 
   return (
@@ -296,7 +296,7 @@ const Treatment = () => {
                   </div>
 
                   <a
-                    href="https://bookings.gettimely.com/ulanda/book"
+                    href="https://ulanda-100633.square.site/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary text-white rounded-sm px-10 py-3 h-auto text-lg font-light tracking-wide hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
@@ -865,7 +865,7 @@ const Treatment = () => {
               )}
 
               <a
-                href="https://bookings.gettimely.com/ulanda/book"
+                href="https://ulanda-100633.square.site/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
