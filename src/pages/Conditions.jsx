@@ -367,8 +367,8 @@ export default function Conditions() {
                           {/* Main image (foreground) */}
                           <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
                             <img
-                              src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
-                              alt="Refresh Treatment"
+                              src={item.image}
+                              alt={`${item.highlight} ${item.titleSuffix}`}
                               className="w-full h-full object-cover"
                             />
                           </div>
@@ -457,8 +457,8 @@ export default function Conditions() {
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
                           <RevealImage className="w-full h-full">
                           <img
-                            src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
-                            alt="Refresh Treatment"
+                            src={item.image}
+                            alt={`${item.highlight} ${item.titleSuffix}`}
                             className="w-full h-full object-cover"
                           />
                           </RevealImage>
@@ -518,8 +518,8 @@ export default function Conditions() {
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
                           <RevealImage className="w-full h-full">
                           <img
-                            src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
-                            alt="Refresh Treatment"
+                            src={item.image}
+                            alt={`${item.highlight} ${item.titleSuffix}`}
                             className="w-full h-full object-cover"
                           />
                           </RevealImage>

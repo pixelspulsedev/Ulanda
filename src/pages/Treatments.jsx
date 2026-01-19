@@ -2,7 +2,7 @@ import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
-import { getAllTreatments } from '../data/pageContents/treatments/treatments';
+import { getAllTreatments, treatmentsPageData } from '../data/pageContents/treatments/treatments';
 import { ArrowRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
@@ -30,8 +30,8 @@ export default function Treatments() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
-              alt="Ulanda Treatments"
+              src={treatmentsPageData.hero.image}
+              alt={treatmentsPageData.hero.title}
               className="w-full h-full object-cover brightness-75"
               fetchpriority="high"
             />

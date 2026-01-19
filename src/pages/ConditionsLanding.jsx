@@ -5,191 +5,10 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import { conditionsLandingData } from '../data/pageContents/conditions/landing';
 
 export default function ConditionsLanding() {
-  const categories = [
-    {
-      title: 'Pigmentation &',
-      subtitle: 'Skin Tone',
-      highlight: 'Hyperpigmentation • Melasma • Dullness • Uneven Tone',
-      description:
-        'Uneven skin tone, sun damage and pigmentation are often the first signs of cellular ageing. ULANDA restores clarity and brightness through targeted regenerative protocols.',
-      concerns: [
-        'Hyperpigmentation (Sun Damage)',
-        'Melasma',
-        'Post-Inflammatory Hyperpigmentation',
-        'Uneven Skin Tone / Discolouration',
-        'Dull, Dehydrated Skin',
-      ],
-      solutions: [
-        'BioRePeel & Chemical Peels',
-        'Polynucleotides (PN)',
-        'Meso-Tox & Skin Boosters',
-        'Regenerative Facials',
-        'Home-care Pigmentation Protocols',
-      ],
-      link: '/conditions/pigmentation-and-skin-tone',
-      linkText: 'Explore Pigmentation',
-      color: 'bg-blue-50/50',
-      dot: '🔵',
-      image:
-        'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop',
-    },
-    {
-      title: 'Menopause &',
-      subtitle: 'Hormone-Linked Changes',
-      highlight: 'Sagginess • Jowls • Neck Crepiness • Texture Decline',
-      description:
-        'Menopause accelerates collagen loss by up to 30% in the first 5 years. We specialise in hormone-aware skin regeneration to restore density, firmness and lift.',
-      concerns: [
-        'Menopause Skin Decline',
-        'Jawline Softening / Jowls',
-        'Neck Crepiness / Laxity',
-        'Skin Texture Decline',
-      ],
-      solutions: [
-        'Biostimulators (PLLA, CaHA)',
-        'Threads (PDO / Definisse)',
-        'RF Microneedling',
-        'Polynucleotides',
-        'Hormone-Supporting IV Therapy',
-      ],
-      link: '/conditions/menopause-hormone-skin-changes',
-      linkText: 'Explore Menopause Skin',
-      color: 'bg-purple-50/50',
-      dot: '🟣',
-      image:
-        'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop',
-    },
-    {
-      title: 'Eye Area',
-      subtitle: 'Conditions',
-      highlight: 'Dark Circles • Hollows • Crepiness • Puffiness',
-      description:
-        'The eye area ages faster than the rest of the face. Our specialised eye regeneration protocols treat the root cause: thin skin, poor circulation and volume loss.',
-      concerns: [
-        'Dark Circles',
-        'Under-Eye Hollows / Tear Troughs',
-        'Crepey Under-Eye Skin',
-        'Under-Eye Pigmentation',
-        'Under-Eye Puffiness',
-      ],
-      solutions: [
-        'Lumi Eyes / Polynucleotides',
-        'PRP Under-Eye',
-        'Tear Trough Filler (when suitable)',
-        'Nanosoft Mesotherapy',
-      ],
-      link: '/conditions/eye-area',
-      linkText: 'Explore Eye Area',
-      color: 'bg-yellow-50/50',
-      dot: '🟡',
-      image:
-        'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop',
-    },
-    {
-      title: 'Age &',
-      subtitle: 'Skin Regeneration',
-      highlight: 'Crepey Skin • Laxity • Volume Loss • Pores',
-      description:
-        'True anti-ageing is about biological regeneration. We stimulate your body to produce its own collagen, elastin and fresh cells for natural, long-term rejuvenation.',
-      concerns: [
-        'Thin, Crepey “Menopause Skin”',
-        'Skin Laxity (Face, Neck, Jawline)',
-        'Volume Loss (Cheeks, Temples)',
-        'Uneven Texture / Roughness',
-        'Enlarged Pores',
-      ],
-      solutions: [
-        'Biostimulators (Sculptra / Ellansé)',
-        'RF Microneedling',
-        'Skin Boosters',
-        'Medical Microneedling',
-      ],
-      link: '/conditions/age-and-regeneration',
-      linkText: 'Explore Regeneration',
-      color: 'bg-rose-50/50',
-      dot: '🔴',
-      image:
-        'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop', // Placeholder reuse
-    },
-    {
-      title: 'Hormonal',
-      subtitle: 'Skin Conditions',
-      highlight: 'Breakouts • Sensitivity • Hormonal Pigment',
-      description:
-        'Hormonal fluctuations (puberty, cycle, perimenopause) drive specific skin issues. We treat the skin while supporting the internal hormonal environment.',
-      concerns: [
-        'Hormonal Breakouts',
-        'Dryness & Sensitivity',
-        'Hormonal Pigmentation',
-        'Loss of Facial Definition',
-      ],
-      solutions: [
-        'BioRePeel',
-        'LED Light Therapy',
-        'Barrier Repair Protocols',
-        'Internal Wellness Support',
-      ],
-      link: '/conditions/hormonal-skin',
-      linkText: 'Explore Hormonal Skin',
-      color: 'bg-indigo-50/50',
-      dot: '🟣',
-      image:
-        'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop', // Placeholder reuse
-    },
-    {
-      title: 'Body Skin &',
-      subtitle: 'Structural Conditions',
-      highlight: 'Laxity • Cellulite • Stretch Marks • Postpartum',
-      description:
-        'Body skin requires a different approach. We focus on thickening the collagen matrix, tightening connective tissue and smoothing surface texture.',
-      concerns: [
-        'Body Skin Laxity',
-        'Cellulite',
-        'Stretch Marks',
-        'Post-Weight Loss / Postpartum',
-      ],
-      solutions: [
-        'Body RF Microneedling',
-        'Body Biostimulators (Lanluma)',
-        'Polynucleotides for Body',
-      ],
-      link: '/conditions/body-skin-structural',
-      linkText: 'Explore Body',
-      color: 'bg-green-50/50',
-      dot: '🟢',
-      image:
-        'https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop',
-    },
-    {
-      title: 'Internal',
-      subtitle: 'Wellness Conditions',
-      highlight: 'Fatigue • Immunity • Metabolism • Stress',
-      description:
-        'Skin health starts within. Our internal wellness therapies naturally enhance your energy, immune function and skin resilience.',
-      concerns: [
-        'Fatigue / Low Energy',
-        'Low Immunity / Frequent Illness',
-        'Slow Metabolism',
-        'Stress & Inflammation',
-        'Nutrient Dificiency Skin',
-      ],
-      solutions: [
-        'NAD+ IV Drip',
-        'Vitamin D & B12 Shots',
-        'Glutathione IV',
-        'Women’s Longevity IV',
-      ],
-      note: '(IV/IM performed in collaboration with 360Medicx Harley Street Clinic.)',
-      link: '/conditions/internal-wellness',
-      linkText: 'Explore Wellness',
-      color: 'bg-orange-50/50',
-      dot: '🟠',
-      image:
-        'https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop',
-    },
-  ];
+  const { hero, categories } = conditionsLandingData;
 
   return (
     <>
@@ -208,7 +27,7 @@ export default function ConditionsLanding() {
         <section className="relative min-h-[85vh] w-full flex items-center">
             <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
+              src={hero.image}
               alt="Ulanda Conditions"
               width="1200"
               height="1600"
@@ -221,7 +40,7 @@ export default function ConditionsLanding() {
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
                 <HeroText>
-                Conditions <span className="italic font-light">We Treat</span>
+                {hero.title} <span className="italic font-light">{hero.subtitle}</span>
                 </HeroText>
               </h1>
 
@@ -233,27 +52,13 @@ export default function ConditionsLanding() {
               </div>
 
               <div className="space-y-4 text-lg font-sans font-light text-white/90 leading-relaxed mx-auto">
-                <HeroText delay={0.4}>
-                <p>
-                  At ULANDA, we don’t treat symptoms in isolation — we treat the
-                  whole woman.
-                </p>
-                </HeroText>
-                <HeroText delay={0.5}>
-                <p>
-                  Every condition is assessed through the lens of regenerative
-                  aesthetics, hormone-aware physiology and internal wellness so
-                  we can address the root cause of the concern, not just the
-                  surface.
-                </p>
-                </HeroText>
-                <HeroText delay={0.6}>
-                <p>
-                  Whether you’re experiencing menopause-related skin changes,
-                  texture concerns, under-eye issues or low energy, our approach
-                  is precise, personalised and medically led.
-                </p>
-                </HeroText>
+                {hero.description.map((paragraph, index) => (
+                    <HeroText delay={0.4 + (index * 0.1)} key={index}>
+                    <p>
+                      {paragraph}
+                    </p>
+                    </HeroText>
+                ))}
               </div>
             </div>
           </div>

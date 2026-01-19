@@ -5,12 +5,12 @@ export const treatments = {
     "title": "Refresh",
     "subtitle": "Gently renews the surface of your skin for instant brightness and hydration.",
     "description": "The Refresh pathway focuses on surface-level rejuvenation. It is designed to clear congestion, remove dead skin cells, and flood the skin with hydration and nutrients. This is the starting point for healthy skin function.",
-    "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+    image: "/assets/img/treatments/refresh-category-hero.webp",
     "subCategories": {
       "signature-facials": {
         "title": "Signature Facials",
         "description": "Deep cleansing, exfoliation and hydration treatments.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/signature-facials-subcategory-thumb.webp",
         "treatments": {
           "dermaplaning": {
             "id": "dermaplaning",
@@ -44,7 +44,7 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/dermaplaning-hero.webp",
             "introduction": {
               "title": "What is Dermaplaning?",
               "content": [
@@ -58,7 +58,7 @@ export const treatments = {
                 "Makeup-ready skin",
                 "Enhances skincare absorption"
               ],
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/dermaplaning-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -174,7 +174,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/hydrafacial-hero.webp",
             "category": "Refresh",
             "description": "Deep cleanse • Instant glow • Barrier-safe hydration",
             "introduction": {
@@ -193,7 +193,7 @@ export const treatments = {
                 "text1": "ULANDA specialises in regenerative aesthetics — meaning every treatment is designed to support the skin’s biology, not just improve its appearance temporarily.",
                 "text2": "HydraFacial is perfect as a Week 0 Reset in regenerative programmes."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/hydrafacial-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -351,7 +351,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/enzyme-therapy-hero.webp",
             "category": "Refresh",
             "description": "A restorative, oxygenating facial that strengthens the skin barrier, boosts circulation and improves midlife skin function.",
             "introduction": {
@@ -377,12 +377,12 @@ export const treatments = {
                 "text1": "ULANDA’s Enzyme Therapy is a regenerative, skin-strengthening treatment designed to restore vital circulation, enhance lymphatic drainage, firm the skin and support barrier repair.",
                 "text2": "It is particularly effective for midlife and menopausal clients whose skin has become dull, reactive, sluggish or prone to dehydration due to declining cellular activity."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/enzyme-therapy-introduction.webp"
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "Enzyme Therapy",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/enzyme-therapy-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormone-smart customisation",
@@ -535,21 +535,21 @@ export const treatments = {
                   "description": "PN (Polynucleotides), PRP, Skin Boosters (Profhilo, Hydrobooster), Microneedling (as prep or recovery). It is one of the BEST prep facials before PN or biostimulator treatments.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/enzyme-therapy-ulandaConnection.webp"
                 },
                 {
                   "title": "REFRESH",
                   "description": "BioRePeel, Vital Glow Facial.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/enzyme-therapy-ulandaConnection.webp"
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (energy + oxygenation), Glutathione IM (clarity & brightness).",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/enzyme-therapy-ulandaConnection.webp"
                 }
               ]
             },
@@ -668,7 +668,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-hero.webp",
             "category": "Refresh",
             "description": "A deeply hydrating, oxygen-rich infusion that brightens, revitalises and energises midlife skin.",
             "introduction": {
@@ -692,12 +692,12 @@ export const treatments = {
                 "text1": "Ideally suited for perimenopause and menopause skin prone to dryness, dullness and fatigue.",
                 "text2": "This treatment boosts circulation, hydration, glow and cellular energy."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-introduction.webp"
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "This Facial",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormone-ready formulations",
@@ -850,21 +850,21 @@ export const treatments = {
                   "description": "Polynucleotides (PN), Microneedling, PRP, Profhilo, Definisse Hydrobooster. Oxygen infusion prepares the skin exceptionally well for PN and biostimulator treatment plans.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-ulandaConnection.webp"
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Vital Glow Facial, LED, Enzyme Therapy, Chemical Peel.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-ulandaConnection.webp"
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (oxygenation + energy), Glutathione IM (brightening), Vitamin B12 (cell energy).",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-ulandaConnection.webp"
                 }
               ]
             },
@@ -930,7 +930,7 @@ export const treatments = {
             "subtitle": "Ultra-smooth finish • Makeup-ready glow",
             "category": "Refresh",
             "description": "A manual exfoliation method using a sterile blade to remove vellus hair (peach fuzz) and dead skin cells.",
-            "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/dermaplaning-hero.webp",
             "booking": {
               "price": 50,
               "duration": 30,
@@ -993,7 +993,7 @@ export const treatments = {
             "subtitle": "De-puff • Sculpt • Reduce inflammation",
             "category": "Refresh",
             "description": "A gentle, rhythmic technique that removes stagnant fluid, improves circulation and reduces inflammation — essential for tired, puffy or stressed skin.",
-            "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/lymphatic-drainage-facial-hero.webp",
             "booking": {
               "price": 30,
               "duration": 15,
@@ -1055,7 +1055,7 @@ export const treatments = {
       "light-based": {
         "title": "Light-Based",
         "description": "LED technology to calm and rejuvenate.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/light-based-subcategory-thumb.webp",
         "treatments": {
           "led-light-therapy": {
             "id": "led-light-therapy",
@@ -1117,7 +1117,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/led-light-therapy-hero.webp",
             "category": "Refresh",
             "description": "Clinically proven light therapy that stimulates collagen, calms inflammation and accelerates regeneration — ideal for midlife and menopausal skin.",
             "introduction": {
@@ -1140,12 +1140,12 @@ export const treatments = {
               "highlightBox": {
                 "text1": "ULANDA uses medical-grade LED, which penetrates deeper and produces stronger regenerative effects than beauty salon devices."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/led-light-therapy-introduction.webp"
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "LED Therapy",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/led-light-therapy-internalSupport.webp",
               "points": [
                 {
                   "title": "Medical-grade wavelengths",
@@ -1291,21 +1291,21 @@ export const treatments = {
                   "description": "PN (Polynucleotides), PRP, Profhilo, Definisse Hydrobooster, Microneedling. LED is essential post-PN and post-biostimulators to maximise collagen stimulation.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp"
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Enzyme Therapy, Chemical Peel, BioRePeel.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp"
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (cell repair + energy), Glutathione (anti-inflammatory + brightening).",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp"
                 }
               ]
             },
@@ -1370,7 +1370,7 @@ export const treatments = {
       "skin-resurfacing": {
         "title": "Skin Resurfacing",
         "description": "Peels and resurfacing for smoother texture.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/skin-resurfacing-subcategory-thumb.webp",
         "treatments": {
           "biorepeel": {
             "id": "biorepeel",
@@ -1433,7 +1433,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/biorepeel-hero.webp",
             "category": "Refresh",
             "description": "Resurfaces and revitalises the skin without visible exfoliation.",
             "introduction": {
@@ -1454,12 +1454,12 @@ export const treatments = {
                 "text1": "Unlike standard peeling clinics, we use BioRePeel within a regenerative protocol — strengthening the skin barrier, not simply resurfacing it.",
                 "text2": ""
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/biorepeel-introduction.webp"
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "BioRePeel",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/biorepeel-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormone-smart facial assessment",
@@ -1609,21 +1609,21 @@ export const treatments = {
                   "description": "PN (Polynucleotides), Skin Boosters (Profhilo, Hydrobooster), Microneedling, PRP. Pairs especially well with PN for menopausal skin texture.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/biorepeel-ulandaConnection.webp"
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Vital Glow Facial.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/biorepeel-ulandaConnection.webp"
                 },
                 {
                   "title": "RADIATE",
                   "description": "Glutathione IM (brightening), NAD+ IV (cellular repair).",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/biorepeel-ulandaConnection.webp"
                 }
               ]
             },
@@ -1745,7 +1745,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/chemical-peel-hero.webp",
             "category": "Refresh",
             "description": "Medical-grade peeling for brighter skin, smoother texture and targeted correction — tailored for midlife and menopausal skin.",
             "introduction": {
@@ -1769,12 +1769,12 @@ export const treatments = {
                 "text1": "ULANDA uses medical-grade blends, not cosmetic-strength formulations.",
                 "text2": "Fully customised to your hormonal stage, skin sensitivity and regeneration needs."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/chemical-peel-introduction.webp"
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "Our Peels",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/chemical-peel-internalSupport.webp",
               "points": [
                 {
                   "title": "Tailored to your skin tone & ethnicity",
@@ -1923,21 +1923,21 @@ export const treatments = {
                   "description": "Polynucleotides (PN), Microneedling, Skin Boosters (Profhilo/Hydrobooster), PRP, Lemon Bottle (for glow cycles). Chemical peels are a key skin-prep treatment before PN or biostimulators.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/chemical-peel-ulandaConnection.webp"
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Vital Glow Facial.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/chemical-peel-ulandaConnection.webp"
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (collagen + repair), Glutathione (brightening).",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/chemical-peel-ulandaConnection.webp"
                 }
               ]
             },
@@ -2006,12 +2006,12 @@ export const treatments = {
     "title": "Renew",
     "subtitle": "Boosts your skin’s natural ability to repair, firm and glow over time.",
     "description": "The Renew pathway is about biological stimulation. We use advanced regenerative tools to wake up your fibroblasts, stimulating collagen, elastin, and hydration from within. This is for long-term skin quality and resilience.",
-    "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+    image: "/assets/img/treatments/renew-category-hero.webp",
     "subCategories": {
       "skin-boosters": {
         "title": "Skin Boosters",
         "description": "Injectable hydration and remodelling.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/skin-boosters-subcategory-thumb.webp",
         "treatments": {
           "profhilo": {
             "id": "profhilo",
@@ -2053,7 +2053,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/profhilo-hero.webp",
             "category": "Renew",
             "description": "Hydration + collagen stimulation in one",
             "introduction": {
@@ -2071,7 +2071,7 @@ export const treatments = {
                 "text1": "Not a filler.",
                 "text2": "A bio-remodeling treatment for hydration and elasticity."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/profhilo-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2092,7 +2092,7 @@ export const treatments = {
                   "description": "2 sessions, 4 weeks apart.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/profhilo-ulandaConnection.webp"
                 }
               ]
             },
@@ -2145,7 +2145,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/definisse-hydrobooster-hero.webp",
             "category": "Renew",
             "description": "Hydration + elasticity improvement + wrinkle softening",
             "introduction": {
@@ -2162,7 +2162,7 @@ export const treatments = {
                 "text1": "Next-generation skin booster.",
                 "text2": "Hydration and elasticity improvement."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/definisse-hydrobooster-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2221,7 +2221,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/jalupro-hero.webp",
             "category": "Renew",
             "description": "Amino-acid infused regenerative booster",
             "introduction": {
@@ -2238,7 +2238,7 @@ export const treatments = {
                 "text1": "Bio-revitalisation.",
                 "text2": "Amino acids for collagen stimulation."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/jalupro-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2296,7 +2296,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/seventy-hyal-hero.webp",
             "category": "Renew",
             "description": "High-intensity hydration for instant radiance",
             "introduction": {
@@ -2313,7 +2313,7 @@ export const treatments = {
                 "text1": "Instant radiance.",
                 "text2": "High-intensity hydration."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/seventy-hyal-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2371,7 +2371,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/lemon-bottle-hero.webp",
             "category": "Renew",
             "description": "Brightening + hydration + glow",
             "introduction": {
@@ -2388,7 +2388,7 @@ export const treatments = {
                 "text1": "Revitalising glow.",
                 "text2": "Brightening peptides and antioxidants."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/lemon-bottle-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2447,7 +2447,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/lumi-eyes-hero.webp",
             "category": "Renew",
             "description": "Under-eye hydration + tissue repair",
             "introduction": {
@@ -2465,7 +2465,7 @@ export const treatments = {
                 "text1": "Specialised eye treatment.",
                 "text2": "Polynucleotides for the delicate under-eye area."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/lumi-eyes-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2490,7 +2490,7 @@ export const treatments = {
       "microneedling": {
         "title": "Microneedling",
         "description": "Collagen induction therapy.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/microneedling-subcategory-thumb.webp",
         "treatments": {
           "microneedling": {
             "id": "microneedling",
@@ -2531,7 +2531,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/microneedling-hero.webp",
             "category": "Renew",
             "description": "Collagen induction • Texture rejuvenation • Glow boosting",
             "introduction": {
@@ -2549,7 +2549,7 @@ export const treatments = {
                 "text1": "Collagen induction therapy.",
                 "text2": "Texture rejuvenation and glow boosting."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/microneedling-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2575,7 +2575,7 @@ export const treatments = {
       "injectables": {
         "title": "Injectables",
         "description": "Regenerative injectables.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/injectables-subcategory-thumb.webp",
         "treatments": {
           "polynucleotides": {
             "id": "polynucleotides",
@@ -2609,7 +2609,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/polynucleotides-hero.webp",
             "category": "Renew",
             "description": "Cellular repair • Collagen stimulation • Elasticity revival",
             "introduction": {
@@ -2629,7 +2629,7 @@ export const treatments = {
                 "text1": "Deep regeneration for thinning skin.",
                 "text2": "Activates your body's own repair mechanisms."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/polynucleotides-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2652,7 +2652,7 @@ export const treatments = {
                   "description": "AI skin analysis to identify thinning zones. Course of 2–4 sessions. Often combined with microneedling or PRP.",
                   "points": [],
                   "conclusion": "Results: 2–12 weeks, progressive. Downtime: Minimal.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/polynucleotides-ulandaConnection.webp"
                 }
               ]
             },
@@ -2689,7 +2689,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/plenhyage-hero.webp",
             "category": "Renew",
             "description": "Advanced PN Treatment",
             "introduction": {
@@ -2709,7 +2709,7 @@ export const treatments = {
                 "text1": "Advanced Cellular Regeneration.",
                 "text2": "Deep tissue repair and elasticity recovery."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/plenhyage-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2759,7 +2759,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/nucleofill-hero.webp",
             "category": "Renew",
             "description": "Bio-stimulation • Lifting effect • Deep hydration + firming",
             "introduction": {
@@ -2777,7 +2777,7 @@ export const treatments = {
                 "text1": "Bio-stimulation and lifting.",
                 "text2": "Molecular-level regeneration."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/nucleofill-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2831,7 +2831,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/prp-skin-regeneration-hero.webp",
             "category": "Renew",
             "description": "Your own growth factors for natural regeneration",
             "introduction": {
@@ -2849,7 +2849,7 @@ export const treatments = {
                 "text1": "Harnessing your body's own power.",
                 "text2": "Natural regeneration using your own growth factors."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/prp-skin-regeneration-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -2871,7 +2871,7 @@ export const treatments = {
                   "description": "Premium centrifugation for high-yield PRP. PRP injected + microneedling delivery option.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/prp-skin-regeneration-ulandaConnection.webp"
                 }
               ]
             },
@@ -2887,7 +2887,7 @@ export const treatments = {
       "body-tightening": {
         "title": "Body Tightening",
         "description": "Firming treatments for the body.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/body-tightening-subcategory-thumb.webp",
         "treatments": {
           "body-tightening": {
             "id": "body-tightening",
@@ -2927,7 +2927,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/body-tightening-hero.webp",
             "category": "Restore",
             "description": "Lift, Strengthen & Smooth Your Body",
             "introduction": {
@@ -2955,12 +2955,12 @@ export const treatments = {
                 "text1": "True regeneration.",
                 "text2": "Not camouflage."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/body-tightening-introduction.webp"
             },
             "internalSupport": {
               "title": "Why Body Skin",
               "titleSuffix": "Loosens in Midlife",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/body-tightening-internalSupport.webp",
               "points": [
                 {
                   "title": "Collagen & Elastin",
@@ -3009,7 +3009,7 @@ export const treatments = {
             "treatmentAreas": {
               "title": "Treatment",
               "titleSuffix": "Areas",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/body-tightening-treatmentAreas.webp",
               "points": [
                 {
                   "title": "Upper Body",
@@ -3145,7 +3145,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/body-contouring-hero.webp",
             "category": "Renew",
             "description": "Sculpt, Refine & Shape Your Body Using Regenerative Aesthetic Science",
             "introduction": {
@@ -3168,7 +3168,7 @@ export const treatments = {
                 "text1": "Grounded in fat reduction science.",
                 "text2": "Hormone-aware weight distribution."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/body-contouring-introduction.webp"
             },
             "idealFor": {
               "title": "Who This Treatment",
@@ -3199,12 +3199,12 @@ export const treatments = {
     "title": "Restore",
     "subtitle": "Recovery, healing and barrier support.",
     "description": "The Restore pathway focuses on calm, recovery, and strengthening the skin barrier. Ideal for post-procedure recovery or compromised skin.",
-    "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop",
+    image: "/assets/img/treatments/restore-category-hero.webp",
     "subCategories": {
       "oxygen-healing-support": {
         "title": "Oxygenation & Healing Support",
         "description": "Supporting oxygen delivery and circulation for tissue healing.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/oxygen-healing-support-subcategory-thumb.webp",
         "treatments": {
           "oxygen-facial": { // Renaming from oxygen-vitamin-infusion-facial to match sitemap if needed, but sitemap says oxygen-facial. 
             // However, the restore page content has Oxygen Facial (recovery-focused use).
@@ -3266,7 +3266,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/oxygen-facial-hero.webp",
             "category": "Refresh",
             "description": "A deeply hydrating, oxygen-rich infusion that brightens, revitalises and energises midlife skin.",
             "introduction": {
@@ -3290,12 +3290,12 @@ export const treatments = {
                 "text1": "Ideally suited for perimenopause and menopause skin prone to dryness, dullness and fatigue.",
                 "text2": "This treatment boosts circulation, hydration, glow and cellular energy."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/oxygen-facial-introduction.webp"
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "This Facial",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/oxygen-facial-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormone-ready formulations",
@@ -3448,21 +3448,21 @@ export const treatments = {
                   "description": "Polynucleotides (PN), Microneedling, PRP, Profhilo, Definisse Hydrobooster. Oxygen infusion prepares the skin exceptionally well for PN and biostimulator treatment plans.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/oxygen-facial-ulandaConnection.webp"
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Vital Glow Facial, LED, Enzyme Therapy, Chemical Peel.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/oxygen-facial-ulandaConnection.webp"
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (oxygenation + energy), Glutathione IM (brightening), Vitamin B12 (cell energy).",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/oxygen-facial-ulandaConnection.webp"
                 }
               ]
             },
@@ -3551,7 +3551,7 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/post-procedure-recovery-facial-hero.webp",
             "introduction": {
               "title": "What is the Post-Procedure Recovery Facial?",
               "content": [
@@ -3565,7 +3565,7 @@ export const treatments = {
                 "Support skin healing",
                 "Restore skin barrier"
               ],
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/post-procedure-recovery-facial-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -3648,7 +3648,7 @@ export const treatments = {
       "light-based-recovery": {
         "title": "Light-Based Recovery & Repair",
         "description": "Supporting tissue repair, inflammation reduction and accelerated recovery.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/light-based-recovery-subcategory-thumb.webp",
         "treatments": {
           "led-light-therapy": {
             "id": "led-light-therapy",
@@ -3710,7 +3710,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/led-light-therapy-hero.webp",
             "category": "Refresh",
             "description": "Clinically proven light therapy that stimulates collagen, calms inflammation and accelerates regeneration — ideal for midlife and menopausal skin.",
             "introduction": {
@@ -3733,12 +3733,12 @@ export const treatments = {
               "highlightBox": {
                 "text1": "ULANDA uses medical-grade LED, which penetrates deeper and produces stronger regenerative effects than beauty salon devices."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/led-light-therapy-introduction.webp"
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "LED Therapy",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/led-light-therapy-internalSupport.webp",
               "points": [
                 {
                   "title": "Medical-grade wavelengths",
@@ -3884,21 +3884,21 @@ export const treatments = {
                   "description": "PN (Polynucleotides), PRP, Profhilo, Definisse Hydrobooster, Microneedling. LED is essential post-PN and post-biostimulators to maximise collagen stimulation.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp"
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Enzyme Therapy, Chemical Peel, BioRePeel.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp"
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (cell repair + energy), Glutathione (anti-inflammatory + brightening).",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp"
                 }
               ]
             },
@@ -3963,7 +3963,7 @@ export const treatments = {
       "skin-barrier-repair": {
         "title": "Skin Barrier Repair & Recovery",
         "description": "Repairing the skin barrier, calming inflammation and restoring comfort.",
-        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+        image: "/assets/img/treatments/skin-barrier-repair-subcategory-thumb.webp",
         "treatments": {
           "barrier-repair-facial": {
             "id": "barrier-repair-facial",
@@ -3995,7 +3995,7 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/barrier-repair-facial-hero.webp",
             "introduction": {
               "title": "What is the Barrier Repair Facial?",
               "content": [
@@ -4009,7 +4009,7 @@ export const treatments = {
                 "Improves skin comfort",
                 "Supports long-term skin health"
               ],
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/barrier-repair-facial-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -4091,7 +4091,7 @@ export const treatments = {
       "lymphatic-support": {
         "title": "Lymphatic & Decongestive Support",
         "description": "Reducing congestion, swelling and fluid retention to support recovery.",
-        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+        image: "/assets/img/treatments/lymphatic-support-subcategory-thumb.webp",
         "treatments": {
           "facial-lymphatic-drainage": {
             "id": "facial-lymphatic-drainage",
@@ -4122,7 +4122,7 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/facial-lymphatic-drainage-hero.webp",
             "introduction": {
               "title": "What is Facial Lymphatic Drainage?",
               "content": [
@@ -4136,7 +4136,7 @@ export const treatments = {
                 "Supports lymphatic flow",
                 "Supports recovery"
               ],
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/facial-lymphatic-drainage-introduction.webp"
             },
             "idealFor": {
               "title": "Best",
@@ -4222,12 +4222,12 @@ export const treatments = {
     "title": "Radiate Wellness",
     "subtitle": "Wellness, Structural Lift & Longevity.",
     "description": "The Radiate pathway bridges the gap between internal health and external beauty, and includes our advanced Structural Lift and Menopause programmes.",
-    "image": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop",
+    image: "/assets/img/treatments/radiate-category-hero.webp",
     "subCategories": {
       "structural-lifting": {
         "title": "Structural Lifting",
         "description": "Restoring youthful contours and definition.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/structural-lifting-subcategory-thumb.webp",
         "treatments": {
           "biostimulators": {
             "id": "biostimulators",
@@ -4269,7 +4269,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/biostimulators-hero.webp",
             "category": "Restore",
             "description": "PLLA • PDLLA • CaHA — The Structural Foundation of Natural Aesthetics",
             "introduction": {
@@ -4303,7 +4303,7 @@ export const treatments = {
                 "text1": "True biological anti-ageing.",
                 "text2": "Rebuilds your skin's own collagen and elastin."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/biostimulators-introduction.webp"
             },
             "ingredients": {
               "title": "Types of",
@@ -4422,35 +4422,35 @@ export const treatments = {
                   "description": "The strongest non-surgical lift.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp"
                 },
                 {
                   "title": "Biostimulators + PN",
                   "description": "Structure + cellular repair.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp"
                 },
                 {
                   "title": "Biostimulators + Profhilo",
                   "description": "Structure + hydration + elasticity.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp"
                 },
                 {
                   "title": "Biostimulators + Microneedling",
                   "description": "Structure + texture refinement.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp"
                 },
                 {
                   "title": "Biostimulators + PRP",
                   "description": "Structure + biological healing.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp"
                 }
               ]
             },
@@ -4487,7 +4487,7 @@ export const treatments = {
             "subtitle": "Restorative Lifting & Collagen Remodelling",
             "category": "Radiate",
             "description": "The artistry of lifting without surgery—restoring structure, contour and youthful support.",
-            "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/thread-lifts-hero.webp",
             "introduction": {
               "title": "What are Thread Lifts?",
               "content": [
@@ -4600,7 +4600,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/anti-wrinkle-hero.webp",
             "category": "Renew",
             "description": "Subtle Expression Refinement That Supports Your Regeneration Journey",
             "introduction": {
@@ -4622,7 +4622,7 @@ export const treatments = {
                 "text1": "Designed for harmony.",
                 "text2": "Never heaviness or frozen."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/anti-wrinkle-introduction.webp"
             },
             "idealFor": {
               "title": "Who This Treatment",
@@ -4699,7 +4699,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/dermal-fillers-hero.webp",
             "category": "Restore",
             "description": "Subtle volume • Contour refinement • Balance",
             "introduction": {
@@ -4726,12 +4726,12 @@ export const treatments = {
                 "text1": "Regeneration-First.",
                 "text2": "Fillers whisper, not shout."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/dermal-fillers-introduction.webp"
             },
             "internalSupport": {
               "title": "Why Fillers Behave Differently",
               "titleSuffix": "In Midlife",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/dermal-fillers-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormonal Changes",
@@ -4767,7 +4767,7 @@ export const treatments = {
             "treatmentAreas": {
               "title": "Treatment",
               "titleSuffix": "Areas",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/dermal-fillers-treatmentAreas.webp",
               "points": [
                 {
                   "title": "Cheeks (Deep)",
@@ -4901,7 +4901,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/collagen-therapy-hero.webp",
             "category": "Restore",
             "description": "Rebuild • Strengthen • Firm",
             "introduction": {
@@ -4927,12 +4927,12 @@ export const treatments = {
                 "text1": "Wake up your own cells.",
                 "text2": "Thicker, firmer, resilient skin."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/collagen-therapy-introduction.webp"
             },
             "internalSupport": {
               "title": "Why Collagen Therapy",
               "titleSuffix": "Matters (Expert Science)",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/collagen-therapy-internalSupport.webp",
               "points": [
                 {
                   "title": "The Decline",
@@ -5065,7 +5065,7 @@ export const treatments = {
             "subtitle": "Natural Contouring",
             "category": "Radiate",
             "description": "A Clean, Defined, Feminine Jawline Designed for Midlife Harmony.",
-            "image": "https://images.unsplash.com/photo-1519699047748-40ba5266f2bb?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/jawline-sculpting-hero.webp",
             "booking": {
               "starting": true,
               "price": 140,
@@ -5129,7 +5129,7 @@ export const treatments = {
             "subtitle": "Lift, Tighten & Rebuild",
             "category": "Radiate",
             "description": "Lift, Tighten & Rebuild the Most Age-Defining Areas.",
-            "image": "https://images.unsplash.com/photo-1606907639536-cb654b79b940?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/neck-lower-face-lift-hero.webp",
             "introduction": {
               "title": "What is Structural Lift?",
               "content": [
@@ -5185,7 +5185,7 @@ export const treatments = {
       "wellness": {
         "title": "Wellness & IVs",
         "description": "Internal support for cellular health.",
-        "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+        image: "/assets/img/treatments/wellness-subcategory-thumb.webp",
         "treatments": {
           "nad-iv": {
             "id": "nad-iv",
@@ -5233,7 +5233,7 @@ export const treatments = {
               "Hunsdon",
               "10-mile Hertfordshire radius"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/nad-iv-hero.webp",
             "category": "Radiate",
             "description": "Cellular Energy • Brain Function • Longevity • Metabolic Support",
             "collaboration": {
@@ -5269,12 +5269,12 @@ export const treatments = {
                 "text1": "NAD+ IV is the foundation of internal vitality.",
                 "text2": "The internal pillar that enhances all regenerative aesthetic outcomes."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/nad-iv-introduction.webp"
             },
             "internalSupport": {
               "title": "The Science of NAD+ —",
               "titleSuffix": "Simple, Clear, Powerful",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/nad-iv-internalSupport.webp",
               "points": [
                 {
                   "title": "Energy (ATP Production)",
@@ -5369,14 +5369,14 @@ export const treatments = {
                   "description": "Improved fibroblast energy means better collagen response and reduced inflammation.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/nad-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "Enhanced Skin Rejuvenation",
                   "description": "NAD+ is a powerful companion to PN, biostimulators, RF microneedling, anti-ageing facials, and menopausal skin treatments.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/nad-iv-ulandaConnection.webp"
                 }
               ]
             },
@@ -5449,7 +5449,7 @@ export const treatments = {
               "Brickendon",
               "Much Hadham"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/glutathione-iv-hero.webp",
             "category": "Radiate",
             "description": "Detox • Brighten • Regenerate",
             "collaboration": {
@@ -5474,12 +5474,12 @@ export const treatments = {
                 "text1": "This treatment is a core part of our RADIATE Internal Wellness Pathway.",
                 "text2": "The foundation supporting REFRESH, RENEW and RESTORE."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/glutathione-iv-introduction.webp"
             },
             "internalSupport": {
               "title": "Why Glutathione Matters for",
               "titleSuffix": "Women 35–65+",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/glutathione-iv-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormonal shifts increase oxidative stress",
@@ -5583,7 +5583,7 @@ export const treatments = {
                     "LED results via reduced oxidative stress"
                   ],
                   "conclusion": "The complexion becomes clearer, brighter, and more even-toned.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/glutathione-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
@@ -5595,7 +5595,7 @@ export const treatments = {
                     "Supporting collagen integrity for skin boosters"
                   ],
                   "conclusion": "Cells regenerate more effectively when oxidative stress is lowered.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/glutathione-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "3. RESTORE (Biostimulators, Threads, Natural Fillers)",
@@ -5607,7 +5607,7 @@ export const treatments = {
                     "Preparing the skin for thread tensioning & healing"
                   ],
                   "conclusion": "Better internal repair = stronger structural outcomes.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/glutathione-iv-ulandaConnection.webp"
                 }
               ]
             },
@@ -5693,7 +5693,7 @@ export const treatments = {
               "Hunsdon",
               "Brickendon"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/energy-iv-hero.webp",
             "category": "Radiate",
             "description": "Metabolic Reset • Fatigue Recovery • Hormone Support • Mitochondrial Boost",
             "collaboration": {
@@ -5726,12 +5726,12 @@ export const treatments = {
                 "text1": "This is not a “quick pick-me-up.”",
                 "text2": "This is cellular-level energy regeneration."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/energy-iv-introduction.webp"
             },
             "internalSupport": {
               "title": "Why Energy IV is Superior to",
               "titleSuffix": "Oral Supplements",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/energy-iv-internalSupport.webp",
               "points": [
                 {
                   "title": "Direct bloodstream delivery",
@@ -5830,28 +5830,28 @@ export const treatments = {
                   "description": "For mitochondrial regeneration + cognitive lift",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/energy-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "Energy IV + B12 IM",
                   "description": "Stable energy + mood enhancement",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/energy-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "Energy IV + Glutathione (add-on)*",
                   "description": "Anti-inflammatory + antioxidant repair",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/energy-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "Energy IV + PN/Aesthetic Plans",
                   "description": "Improves healing, collagen response & tissue recovery.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/energy-iv-ulandaConnection.webp"
                 }
               ]
             },
@@ -5905,7 +5905,7 @@ export const treatments = {
               "Brickendon",
               "All Hertfordshire villages within 10 miles"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/immunity-iv-hero.webp",
             "category": "Radiate",
             "description": "Strengthen • Defend • Recover • Restore",
             "collaboration": {
@@ -5938,7 +5938,7 @@ export const treatments = {
                 "text1": "This isn’t a “quick boost.”",
                 "text2": "It’s a biological upgrade to your immune function, energy, recovery and inflammatory balance."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/immunity-iv-introduction.webp"
             },
             "detailedBenefits": {
               "title": "Benefits of Immunity IV",
@@ -5990,7 +5990,7 @@ export const treatments = {
             "internalSupport": {
               "title": "Why Immunity IV is Stronger Than",
               "titleSuffix": "Supplements",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/immunity-iv-internalSupport.webp",
               "points": [
                 {
                   "title": "Direct infusion",
@@ -6074,35 +6074,35 @@ export const treatments = {
                   "description": "Ultimate antioxidant & detox combination.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "Immunity IV + NAD+ IV",
                   "description": "Energy + resilience + mitochondrial strength.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "Immunity IV + B12 IM",
                   "description": "Mood, nerve support, immune balance.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "Immunity IV + Aesthetic Recovery",
                   "description": "Ideal before or after PN, microneedling, biostimulators, peels, or threads.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "Immunity IV + Hormone Support",
                   "description": "Helps counteract inflammation associated with hormonal shifts.",
                   "points": [],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp"
                 }
               ]
             },
@@ -6218,7 +6218,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/womens-longevity-iv-hero.webp",
             "category": "Radiate",
             "description": "Hormone Support • Energy • Metabolism • Skin Repair",
             "collaboration": {
@@ -6252,12 +6252,12 @@ export const treatments = {
                 "text1": "This is not just an IV.",
                 "text2": "It is the internal engine behind ULANDA’s regeneration philosophy."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/womens-longevity-iv-introduction.webp"
             },
             "internalSupport": {
               "title": "Why Women 35–65 Need a",
               "titleSuffix": "Longevity IV",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/womens-longevity-iv-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormonal fluctuations impact mitochondria",
@@ -6339,7 +6339,7 @@ export const treatments = {
                     "Glow after medical facials"
                   ],
                   "conclusion": "Healthier internal chemistry creates healthier skin surfaces.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/womens-longevity-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
@@ -6351,7 +6351,7 @@ export const treatments = {
                     "Hydration response to skin boosters"
                   ],
                   "conclusion": "Hormone-smart internal support = stronger regeneration.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/womens-longevity-iv-ulandaConnection.webp"
                 },
                 {
                   "title": "3. RESTORE (Threads, Biostimulators, Natural Fillers)",
@@ -6363,7 +6363,7 @@ export const treatments = {
                     "Longer-lasting lifting results"
                   ],
                   "conclusion": "Internal balance determines external results.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/womens-longevity-iv-ulandaConnection.webp"
                 }
               ]
             },
@@ -6480,7 +6480,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/vitamin-b12-im-hero.webp",
             "category": "Radiate",
             "description": "Energy • Cognition • Metabolism • Hormone Support",
             "collaboration": {
@@ -6514,12 +6514,12 @@ export const treatments = {
                 "text1": "It forms a core part of ULANDA’s RADIATE Internal Wellness pathway.",
                 "text2": "The foundation supporting REFRESH, RENEW and RESTORE."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/vitamin-b12-im-introduction.webp"
             },
             "internalSupport": {
               "title": "Why B12 Matters More for",
               "titleSuffix": "Midlife Women",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/vitamin-b12-im-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormonal fluctuations affect B12 absorption",
@@ -6587,7 +6587,7 @@ export const treatments = {
                     "Improved brightness and vitality"
                   ],
                   "conclusion": "A healthy metabolic state = a more radiant complexion.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/vitamin-b12-im-ulandaConnection.webp"
                 },
                 {
                   "title": "2. RENEW — PN, PRP, Microneedling, Skin Boosters",
@@ -6599,7 +6599,7 @@ export const treatments = {
                     "Improved hydration response with boosters"
                   ],
                   "conclusion": "Cellular regeneration depends on optimal B12 levels.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/vitamin-b12-im-ulandaConnection.webp"
                 },
                 {
                   "title": "3. RESTORE — Biostimulators, Threads, Natural Fillers",
@@ -6611,7 +6611,7 @@ export const treatments = {
                     "Increasing skin density & resilience"
                   ],
                   "conclusion": "Better nutrition - stronger collagen - better lifting & structural results.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/vitamin-b12-im-ulandaConnection.webp"
                 }
               ]
             },
@@ -6681,7 +6681,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/glutathione-im-hero.webp",
             "category": "Radiate",
             "description": "Cellular Detoxification & Skin Brightening From Within",
             "introduction": {
@@ -6702,7 +6702,7 @@ export const treatments = {
                 "text1": "Master antioxidant.",
                 "text2": "Cellular-level radiance."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/glutathione-im-introduction.webp"
             },
             "idealFor": {
               "title": "Who This Treatment Is",
@@ -6780,7 +6780,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/vitamin-d-im-hero.webp",
             "category": "Radiate",
             "description": "Essential Vitamin D Support for Bones, Mood & Immunity",
             "introduction": {
@@ -6801,7 +6801,7 @@ export const treatments = {
                 "text1": "Essential for midlife.",
                 "text2": "Direct absorption."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/vitamin-d-im-introduction.webp"
             },
             "idealFor": {
               "title": "Who This Treatment Is",
@@ -6885,7 +6885,7 @@ export const treatments = {
               "Hunsdon",
               "surrounding villages"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/medical-weight-management-hero.webp",
             "category": "Radiate",
             "description": "Metabolic Reset • Hormone Support • Body Confidence",
             "collaboration": {
@@ -6917,12 +6917,12 @@ export const treatments = {
                 "text1": "This is not a “slimming programme.”",
                 "text2": "It is a medically supervised metabolic restoration pathway — part of ULANDA’s radiance-from-within philosophy."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/medical-weight-management-introduction.webp"
             },
             "internalSupport": {
               "title": "Why Medical Weight Management",
               "titleSuffix": "Matters",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/medical-weight-management-internalSupport.webp",
               "points": [
                 {
                   "title": "Hormonal decline",
@@ -7010,7 +7010,7 @@ export const treatments = {
                     "inflammation decreases - brighter complexion"
                   ],
                   "conclusion": "",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp"
                 },
                 {
                   "title": "2. RENEW (Cellular Regeneration: PN, PRP, Boosters)",
@@ -7022,7 +7022,7 @@ export const treatments = {
                     "Skin booster hydration"
                   ],
                   "conclusion": "Healthy metabolism = stronger cellular regeneration.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp"
                 },
                 {
                   "title": "3. RESTORE (Structural: Threads, Biostimulators, Fillers)",
@@ -7034,7 +7034,7 @@ export const treatments = {
                     "better facial balancing"
                   ],
                   "conclusion": "Internal body changes enhance external structural results.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp"
                 },
                 {
                   "title": "4. RADIATE (Internal Wellness: IV/IM Therapies)",
@@ -7047,7 +7047,7 @@ export const treatments = {
                     "Women’s Longevity IV"
                   ],
                   "conclusion": "Together, they form a holistic metabolic-hormonal-skin optimisation system.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp"
                 },
                 {
                   "title": "OPTIONAL AESTHETIC SYNERGIES",
@@ -7059,7 +7059,7 @@ export const treatments = {
                     "Abdomen tightening (postpartum, perimenopause)"
                   ],
                   "conclusion": "This creates a 360° physical + metabolic transformation.",
-                  "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp"
                 }
               ]
             },
@@ -7133,7 +7133,7 @@ export const treatments = {
               "Brickendon",
               "Hertfordshire"
             ],
-            "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+            image: "/assets/img/treatments/skin-glow-iv-hero.webp",
             "category": "Radiate",
             "description": "Revitalize your skin with our signature Glow IV treatment.",
             "collaboration": {
@@ -7164,12 +7164,12 @@ export const treatments = {
                 "text1": "Using targeted antioxidants, vitamins and amino acids, this IV delivers the internal foundation required for ULANDA’s regenerative skin pathways.",
                 "text2": "Perfect for women 30–65+, especially during perimenopause & menopause when collagen, hydration and antioxidative capacity naturally decline."
               },
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              image: "/assets/img/treatments/skin-glow-iv-introduction.webp"
             },
             "internalSupport": {
               "title": "Why Your Skin Needs",
               "titleSuffix": "Internal Support",
-              "image": "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
+              image: "/assets/img/treatments/skin-glow-iv-internalSupport.webp",
               "points": [
                 {
                   "title": "At 30, collagen drops 1% per year",
@@ -7274,7 +7274,7 @@ export const treatments = {
                     "Stronger LED regenerative response"
                   ],
                   "conclusion": "Better internal nutrition = immediately better glow.",
-                  "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
+                  image: "/assets/img/treatments/skin-glow-iv-ulandaConnection.webp"
                 },
                 {
                   "id": "2",
@@ -7288,7 +7288,7 @@ export const treatments = {
                     "Enhancing hydration outcomes"
                   ],
                   "conclusion": "The glow outside starts with nourishment inside.",
-                  "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
+                  image: "/assets/img/treatments/skin-glow-iv-ulandaConnection.webp"
                 },
                 {
                   "id": "3",
@@ -7301,7 +7301,7 @@ export const treatments = {
                     "Better elasticity & long-term skin density"
                   ],
                   "conclusion": "Stronger internal biochemistry - stronger structural aesthetic results.",
-                  "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop"
+                  image: "/assets/img/treatments/skin-glow-iv-ulandaConnection.webp"
                 }
               ]
             },
@@ -7319,7 +7319,7 @@ export const treatments = {
                 "Brides / events / photography prep",
                 "Anyone wanting a healthy, reflective, luminous complexion"
               ],
-              "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+              image: "/assets/img/treatments/skin-glow-iv-idealFor.webp"
             },
             "safetyOversight": {
               "title": "Safety & medical Oversight",
@@ -7353,7 +7353,7 @@ export const treatments = {
       "programmes": {
         "title": "Programmes",
         "description": "Comprehensive, multi-week regeneration plans.",
-        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+        image: "/assets/img/treatments/programmes-subcategory-thumb.webp",
         "treatments": {
           "menopause-regeneration": {
             "id": "menopause-regeneration",
@@ -7373,7 +7373,7 @@ export const treatments = {
                 "inflammation & barrier breakdown"
               ],
               "includes": "PN, PRP (optional), skin boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.",
-              "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"
+              image: "/assets/img/treatments/menopause-regeneration-summary.webp"
             },
             "content": {
               "intro": [
@@ -7582,7 +7582,7 @@ export const treatments = {
                 "crepey skin"
               ],
               "includes": "Polynucleotides, Mesotherapy, specialized peels.",
-              "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop"
+              image: "/assets/img/treatments/under-eye-regeneration-summary.webp"
             },
             "content": {
               "intro": [
@@ -7791,7 +7791,7 @@ export const treatments = {
                 "early folds forming (nasolabial, marionette)"
               ],
               "includes": "Biostimulators, Threads, Polynucleotides, Skin Boosters, LED, Medical Facials",
-              "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
+              image: "/assets/img/treatments/collagen-reset-summary.webp"
             },
             "content": {
               "intro": [
@@ -8003,7 +8003,7 @@ export const treatments = {
                 "disrupted sleep + low vitality"
               ],
               "includes": "PN, Skin Boosters, Microneedling, LED, Peels, Internal Radiate Support (IV/IM)",
-              "image": "https://images.unsplash.com/photo-1588510904409-47e2f767540d?q=80&w=1887&auto=format&fit=crop"
+              image: "/assets/img/treatments/hormone-smart-skin-summary.webp"
             },
             "content": {
               "intro": [
@@ -8212,7 +8212,7 @@ export const treatments = {
                 "fluid retention or bloating"
               ],
               "includes": "Body Contouring, Metabolic Reset, Skin Tightening, Biostimulators, Radiate IM Support",
-              "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop"
+              image: "/assets/img/treatments/shape-and-regenerate-summary.webp"
             },
             "content": {
               "intro": [
@@ -8417,4 +8417,12 @@ export const getTreatmentById = (treatmentId) => {
     }
   }
   return null;
+};
+
+export const treatmentsPageData = {
+  hero: {
+    image: "/assets/img/treatments/page-hero.webp",
+    title: "Regenerative Treatments",
+    subtitle: "A simple, intelligent way to understand your regenerative journey."
+  }
 };

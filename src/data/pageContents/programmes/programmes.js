@@ -7,6 +7,7 @@ export const programmes = [
     },
     title: "12-Week Menopause Regeneration Plan",
     subtitle: 'Hormone-Smart Skin • Collagen Revival • Radiance Restored',
+    accentImage: '/assets/img/ui/accent.webp',
     summary: {
       description: 'A complete midlife skin and collagen renewal system.',
       idealFor: [
@@ -206,6 +207,7 @@ export const programmes = [
     },
     title: 'Under-Eye Regeneration Blueprint',
     subtitle: 'Strengthen • Brighten • Smooth • Restore',
+    accentImage: '/assets/img/ui/accent.webp',
     summary: {
       description: 'A targeted programme for tired eyes and dark circles.',
       idealFor: [
@@ -398,6 +400,7 @@ export const programmes = [
     },
     title: 'Collagen Reset Journey',
     subtitle: 'ULANDA’s Structural + Cellular Regeneration Programme',
+    accentImage: '/assets/img/ui/accent.webp',
     summary: {
       description: 'Rebuild • Strengthen • Restore. When collagen collapses, regeneration begins.',
       idealFor: [
@@ -598,6 +601,7 @@ export const programmes = [
     },
     title: 'Radiate Hormone-Smart Skin Programme',
     subtitle: 'Internal Balance • Cellular Repair • Hormone-Aware Regeneration',
+    accentImage: '/assets/img/ui/accent.webp',
     summary: {
       description: 'This is one of ULANDA’s most powerful identity-defining programmes — where internal wellness meets advanced regenerative skin science.',
       idealFor: [
@@ -795,6 +799,7 @@ export const programmes = [
     },
     title: 'ULANDA Shape & Regenerate™',
     subtitle: 'Body • Weight • Metabolism • Longevity',
+    accentImage: '/assets/img/ui/accent.webp',
     summary: {
       description: 'This is ULANDA’s most comprehensive body transformation pathway — regenerative, hormonal, aesthetic and metabolic combined.',
       idealFor: [

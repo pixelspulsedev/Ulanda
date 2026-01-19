@@ -295,14 +295,12 @@ const Treatment = () => {
                     )} */}
                   </div>
 
-                  <a
-                    href="https://ulanda-100633.square.site/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    onClick={() => Book()}
                     className="btn btn-primary text-white rounded-sm px-10 py-3 h-auto text-lg font-light tracking-wide hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
                   >
                     {getBookingButtonLabel(treatment.booking)}
-                  </a>
+                  </button>
                 </div>
               </FadeInWhenVisible>
             )}
@@ -944,31 +942,7 @@ const Treatment = () => {
                           {section.title}
                         </h3>
 
-                        <div className="flex-1 w-full relative flex justify-center pb-12">
-                          <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-                          <div className="relative w-full max-w-xs aspect-[4/5]">
-                            <div className="absolute top-20 right-20 w-full h-full z-0">
-                              <RevealImage className="w-full h-full">
-                                <img
-                                  src="/assets/img/ui/accent.webp"
-                                  alt="Decorative shadow"
-                                  className="w-full h-full object-cover"
-                                />
-                              </RevealImage>
-                            </div>
-                            <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                              <RevealImage className="w-full h-full">
-                                <img
-                                  src={section.image}
-                                  alt={section.title}
-                                  className="w-full h-full object-cover"
-                                />
-                              </RevealImage>
-                            </div>
-                          </div>
-                        </div>
-
-                        <p className="text-lg text-base-content/80 font-sans font-light mt-12 leading-relaxed">
+                        <p className="text-lg text-base-content/80 font-sans font-light mt-6 leading-relaxed">
                           {section.description}
                         </p>
 
@@ -996,11 +970,7 @@ const Treatment = () => {
 
                 {/* Desktop View */}
                 <section className="hidden py-24 md:flex items-center bg-base-100">
-                  <div
-                    className={`w-full flex flex-col ${
-                      index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                    } gap-16 items-center justify-end max-w-7xl mx-auto px-4 md:px-8`}
-                  >
+                  <div className="w-full flex flex-col items-center justify-center max-w-7xl mx-auto px-4 md:px-8">
                     {/* Content */}
                     <div className="flex-1 flex justify-center w-full">
                       <div className="w-full max-w-3xl px-4">
@@ -1029,43 +999,6 @@ const Treatment = () => {
                         <p className="text-lg font-medium text-primary font-serif italic">
                           {section.conclusion}
                         </p>
-                      </div>
-                    </div>
-
-                    {/* Image */}
-                    <div
-                      className={`flex-1 max-w-xs relative flex justify-center ${
-                        index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'
-                      } mt-12 md:mt-0`}
-                    >
-                      <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                      <div className="relative w-full max-w-xs aspect-[4/5]">
-                        <div
-                          className={`absolute top-20 ${
-                            index % 2 === 0
-                              ? 'right-10 lg:right-20'
-                              : 'left-10 lg:left-20'
-                          } w-full h-full z-0`}
-                        >
-                          <RevealImage className="w-full h-full">
-                            <img
-                              src="/assets/img/ui/accent.webp"
-                              alt="Decorative shadow"
-                              className="w-full h-full object-cover"
-                            />
-                          </RevealImage>
-                        </div>
-
-                        <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                          <RevealImage className="w-full h-full">
-                            <img
-                              src={section.image}
-                              alt={section.title}
-                              className="w-full h-full object-cover"
-                            />
-                          </RevealImage>
-                        </div>
                       </div>
                     </div>
                   </div>

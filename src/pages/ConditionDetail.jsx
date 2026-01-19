@@ -303,7 +303,7 @@ export default function ConditionDetail() {
         ))}
 
         {/* Pathway Section */}
-        <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+        {/* <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-serif text-base-content hover:text-primary transition-colors">
               <Link to={`/pathways/${condition.pathway.title.toLowerCase().split(' ')[0]}`}>
@@ -327,7 +327,7 @@ export default function ConditionDetail() {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Why Choose Section */}
         <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto overflow-hidden">

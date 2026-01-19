@@ -347,7 +347,7 @@ export default function BlogDetail() {
               Book a consultation with our specialists at ULANDA to discuss a personalized treatment plan for your skin needs.
             </p>
             <div className="flex gap-4 justify-center">
-              <Link to="/contact" className="btn btn-primary text-white px-8">
+              <Link to="/book-consultation" className="btn btn-primary text-white px-8">
                 Book Consultation
               </Link>
             </div>

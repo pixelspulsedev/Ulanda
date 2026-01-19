@@ -11,7 +11,7 @@ export const individualConditions = [
       description: "Dull, dehydrated skin is one of the most common concerns for women 30+, often becoming more noticeable during perimenopause and menopause. The skin looks tired, flat, uneven or “grey,” makeup doesn’t sit well, and fine lines appear more defined.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop" // Using a placeholder similar to the image
+      image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp" // Using a placeholder similar to the image
     },
     science: {
       title: "What’s Really Happening —",
@@ -59,7 +59,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Hydration & Repair – CORE CATEGORY)",
           description: "These are the strongest treatments for dull skin:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+          image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
           points: [
             { name: "Skin Boosters (Profhilo, Definisse Hydrobooster, Seventy Hyal)", desc: "Intense, injectable hydration → instant glow + smoother texture." },
             { name: "Polynucleotides (PN)", desc: "Restores elasticity, reduces inflammation, repairs dullness at a cellular level." },
@@ -71,7 +71,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Brightening & Exfoliation)",
           description: "Reveals new, fresh skin:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Brightens pigment + boosts glow." },
             { name: "Chemical Peels", desc: "Improve radiance and remove dull surface cells." },
@@ -82,7 +82,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support — if dullness is linked to ageing)",
           description: "Mild structural sagging can cause tired appearance:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
           points: [
             { name: "Biostimulators", desc: "Firmness improves light reflection." },
             { name: "Threads", desc: "Lift areas that cast shadows (e.g., midface)." }
@@ -92,7 +92,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Hydration & Energy)",
           description: "Internal health directly affects glow:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
           points: [
             { name: "Hydration IV", desc: "Immediate replenishment." },
             { name: "NAD+ IV", desc: "Boosts cellular energy → improves glow." },
@@ -121,7 +121,7 @@ export const individualConditions = [
         "Tailored pathways for long-term radiance",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & surrounding villages"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -144,7 +144,7 @@ export const individualConditions = [
       description: "Enlarged pores are a common midlife concern, especially for women entering their late 30s, 40s, and beyond. They often make the skin appear rough, aged, uneven or oily — and makeup tends to sit inside the pores, making them more visible.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/enlarged-pores-hero.webp"
     },
     science: {
       title: "What’s Really Happening —",
@@ -168,7 +168,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Clearing & Smoothing)",
           description: "Essential first step for pore refinement:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/enlarged-pores-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Improves texture and reduces congestion." },
             { name: "Chemical Peels", desc: "Dissolve dead skin + tighten the surface." },
@@ -179,7 +179,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Collagen Activation — CORE CATEGORY)",
           description: "The most effective pore treatments regenerate the dermis:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+          image: "/assets/img/conditions/enlarged-pores-hero.webp",
           points: [
             { name: "Microneedling", desc: "Stimulates collagen around the pores → reduces pore diameter." },
             { name: "RF Microneedling", desc: "Combines heat + collagen induction for maximum tightening." },
@@ -192,7 +192,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support — for ageing-related pore widening)",
           description: "Structural tightening for advanced cases:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/enlarged-pores-hero.webp",
           points: [
             { name: "Biostimulators", desc: "Strengthen the dermis → visibly smooth and tighten pore structure." },
             { name: "Threads (micro threads)", desc: "Used selectively for structural laxity." }
@@ -202,7 +202,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Skin-Quality Support)",
           description: "Internal support improves pore health and inflammation:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/enlarged-pores-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Improves cell turnover + reduces oxidative stress." },
             { name: "Glutathione IV", desc: "Brightens complexion + reduces skin congestion." },
@@ -229,7 +229,7 @@ export const individualConditions = [
         "Multi-layer strategy for long-term pore refinement",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & more"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/enlarged-pores-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -252,7 +252,7 @@ export const individualConditions = [
       description: "Fine lines and wrinkles are one of the earliest signs of ageing — often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp"
     },
     science: {
       title: "What’s Really Happening —",
@@ -275,7 +275,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Renewal)",
           description: "Removes dull cells and boosts turnover:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
           points: [
             { name: "Chemical Peels", desc: "Smooth the appearance of early fine lines." },
             { name: "BioRePeel", desc: "Refines texture and glow." },
@@ -286,7 +286,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration)",
           description: "Core category for reversing fine lines:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+          image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improve elasticity and dermal density." },
             { name: "PRP", desc: "Collagen stimulation and repair." },
@@ -298,7 +298,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "For deeper wrinkles or structural lines:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
           points: [
             { name: "Biostimulators (PLLA, CaHA)", desc: "Rebuild collagen over time." },
             { name: "Anti-wrinkle injections", desc: "Soften expression lines where indicated." },
@@ -309,7 +309,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Regeneration)",
           description: "Internal support that enhances results:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Reduces oxidative stress, boosts collagen." },
             { name: "Skin Glow IV", desc: "Supports repair and radiance." },
@@ -337,7 +337,7 @@ export const individualConditions = [
         "Multi-layer personalised pathways",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & surrounding Hertfordshire villages"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -360,7 +360,7 @@ export const individualConditions = [
       description: "Skin laxity — sagging of the face, jawline and neck — is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/skin-laxity-hero.webp"
     },
     science: {
       title: "What’s Really Happening —",
@@ -383,7 +383,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Lifting — CORE)",
           description: "Primary lift for jawline, cheeks and neck:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/skin-laxity-hero.webp",
           points: [
             { name: "Thread Lifts (PDO / Definisse)", desc: "Immediate mechanical lift + collagen stimulation." },
             { name: "Biostimulators (PLLA, CaHA, PDLLA)", desc: "Increase dermal density for lasting firmness." },
@@ -394,7 +394,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Reinforcement)",
           description: "Strengthens tissue to hold the lift:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+          image: "/assets/img/conditions/skin-laxity-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves elasticity and collagen quality." },
             { name: "PRP", desc: "Boosts fibroblast activity and repair." },
@@ -405,7 +405,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Quality)",
           description: "Refines early laxity and texture:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/skin-laxity-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Brightens and smooths surface laxity." },
             { name: "Vital Glow Facials", desc: "Hydrates and firms mild laxity." }
@@ -415,7 +415,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Longevity Support)",
           description: "Internal support to accelerate lift and repair:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/skin-laxity-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Optimises cellular energy for regeneration." },
             { name: "Skin Glow IV", desc: "Collagen + antioxidant support." },
@@ -443,7 +443,7 @@ export const individualConditions = [
         "Full-face mapping for natural contour",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & nearby villages"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/skin-laxity-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -466,7 +466,7 @@ export const individualConditions = [
       description: "Crepey, thinning skin on the face, neck, under-eyes and body is a hallmark of menopause. We rebuild thickness, elasticity and density at the source.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/crepey-skin-hero.webp"
     },
     science: {
       title: "What’s Really Happening —",
@@ -489,7 +489,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration — CORE)",
           description: "Rebuilds thickness and resilience:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+          image: "/assets/img/conditions/crepey-skin-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Thickens dermis, improves elasticity, calms inflammation." },
             { name: "PRP", desc: "Stimulates fibroblasts for repair." },
@@ -500,7 +500,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Strength)",
           description: "Deep collagen rebuilding for fragile areas:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/crepey-skin-hero.webp",
           points: [
             { name: "Biostimulators (PLLA, CaHA, PDLLA)", desc: "Add firmness over 6–12 months." },
             { name: "Threads (Definisse / PDO)", desc: "Collagen scaffolding for neck and lower face." }
@@ -510,7 +510,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Renewal)",
           description: "Evens dull, crepey surface:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/crepey-skin-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Brightens and smooths fine crepe lines." },
             { name: "Chemical Peels", desc: "Balances tone and texture." },
@@ -521,7 +521,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Internal therapies that enhance hormonal skin repair:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/crepey-skin-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular repair." },
             { name: "Glutathione IV", desc: "Reduces oxidative stress." },
@@ -551,7 +551,7 @@ export const individualConditions = [
         "Internal + external synergy for resilience",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & more"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/crepey-skin-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -574,7 +574,7 @@ export const individualConditions = [
       description: "Roughness, bumps, enlarged pores or a sandpaper feel signal slowed renewal and collagen decline — often worsened in perimenopause.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/uneven-texture-hero.webp"
     },
     science: {
       title: "What’s Really Happening —",
@@ -597,7 +597,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Smoothing — FIRST STEP)",
           description: "Removes dead cells and brightens:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/uneven-texture-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Targets roughness and early lines." },
             { name: "Chemical Peels", desc: "Resurfaces uneven patches." },
@@ -609,7 +609,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration — CORE)",
           description: "Strengthens texture at the dermal level:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+          image: "/assets/img/conditions/uneven-texture-hero.webp",
           points: [
             { name: "Microneedling / RF Microneedling", desc: "Refines pores and remodels collagen." },
             { name: "Skin Boosters (Profhilo, Hydrobooster)", desc: "Hydration for smoother texture." },
@@ -621,7 +621,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Improvement)",
           description: "For texture linked to deeper ageing:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/uneven-texture-hero.webp",
           points: [
             { name: "Biostimulators", desc: "Thicken and firm skin for a smoother surface." },
             { name: "Threads", desc: "Lift areas where sagging exaggerates texture." }
@@ -631,7 +631,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Boost)",
           description: "Hydration and repair from within:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/uneven-texture-hero.webp",
           points: [
             { name: "Hydration IV", desc: "Restores moisture balance." },
             { name: "Skin Glow IV", desc: "Collagen co-factors and antioxidants." },
@@ -659,7 +659,7 @@ export const individualConditions = [
         "Tailored surface + cellular + structural repair",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & more"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/uneven-texture-hero.webp"
     },
     cta: {
       title: "Ready for",
@@ -682,7 +682,7 @@ export const individualConditions = [
       description: "Hollow cheeks, flat midface and sunken temples are key signs of midlife ageing. We restore natural contour with regenerative volume strategies.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/volume-loss-hero.webp"
     },
     science: {
       title: "What’s Really Happening —",
@@ -705,7 +705,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Volume & Contour — CORE)",
           description: "Rebuilds shape naturally:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/volume-loss-hero.webp",
           points: [
             { name: "Natural Dermal Fillers", desc: "Cheeks, temples, jawline with balanced contour." },
             { name: "Biostimulators (PLLA, CaHA, PDLLA)", desc: "Regenerative fullness without overfilling." }
@@ -715,7 +715,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Volume Support)",
           description: "Strengthens tissue to support structure:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+          image: "/assets/img/conditions/volume-loss-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves elasticity and dermal thickness." },
             { name: "PRP", desc: "Supports healing and fibroblast activity." },
@@ -726,7 +726,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Enhancements)",
           description: "Refines how restored volume appears:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/volume-loss-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Improves surface glow around restored volume." },
             { name: "Chemical Peels", desc: "Evens tone and texture." },
@@ -737,7 +737,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Optimises metabolic and hormonal factors for contour longevity:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/volume-loss-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Enhances cellular repair and collagen." },
             { name: "Women’s Longevity IV", desc: "Supports hormonal balance." },
@@ -765,7 +765,7 @@ export const individualConditions = [
         "Multi-layer planning for subtle, lasting results",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & nearby villages"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/volume-loss-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -788,7 +788,7 @@ export const individualConditions = [
       description: "Loose, crepey arms, stomach, thighs or knees are structural and hormonal, not just weight related. We tighten body skin by rebuilding collagen, elastin and fascia.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/body-skin-laxity-hero.webp"
     },
     science: {
       title: "Why Body Skin Becomes Loose —",
@@ -812,7 +812,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular & Skin Quality)",
           description: "Strengthen building blocks first:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop",
+          image: "/assets/img/conditions/body-skin-laxity-hero.webp",
           points: [
             { name: "Polynucleotides (PN Body)", desc: "Thickens thin skin; improves elasticity." },
             { name: "Microneedling / RF Microneedling", desc: "Tightens loose skin and smooths crepe lines." },
@@ -823,7 +823,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Tightening)",
           description: "Addresses core structural causes:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/body-skin-laxity-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Long-lasting collagen rebuild for arms, thighs, abdomen." },
             { name: "Body Threads (PDO / Definisse)", desc: "Instant lift + collagen for knees, arms, abdomen." },
@@ -834,7 +834,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Regeneration)",
           description: "Internal support accelerates firmness:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/body-skin-laxity-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Boosts cellular repair and collagen." },
             { name: "Glutathione IV", desc: "Reduces inflammation and improves tissue health." },
@@ -864,7 +864,7 @@ export const individualConditions = [
         "Advanced medical-grade body protocols",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell and nearby villages"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/body-skin-laxity-hero.webp"
     },
     cta: {
       title: "Ready for",
@@ -887,7 +887,7 @@ export const individualConditions = [
       description: "Cellulite is structural and hormonal, not a fat problem. We smooth dimples by repairing collagen, releasing tethering and improving tissue health.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/cellulite-hero.webp"
     },
     science: {
       title: "Why Cellulite Happens —",
@@ -909,7 +909,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Skin Quality & Cellular Strength)",
           description: "Thicken and smooth the overlying skin:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/cellulite-hero.webp",
           points: [
             { name: "Polynucleotides (PN Body)", desc: "Improves density, elasticity and hydration." },
             { name: "Microneedling / RF Microneedling", desc: "Stimulates new collagen; breaks irregular patterns." },
@@ -920,7 +920,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Correction)",
           description: "Addresses tethering and support:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/cellulite-hero.webp",
           points: [
             { name: "Biostimulators (CaHA / PLLA)", desc: "Plumps, strengthens and smooths thighs, buttocks, hips." },
             { name: "Body Threads", desc: "Releases mild tethering and supports lift." },
@@ -931,7 +931,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Optimisation)",
           description: "Improves circulation, repair and inflammation control:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/cellulite-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Boosts collagen turnover and healing." },
             { name: "Glutathione IV", desc: "Reduces inflammation and improves tissue quality." },
@@ -960,7 +960,7 @@ export const individualConditions = [
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell and more",
         "Integrates internal longevity support"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/cellulite-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -983,7 +983,7 @@ export const individualConditions = [
       description: "After pregnancy or weight loss, skin can feel loose, soft or crepey. We restore firmness and contour through non-surgical regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp"
     },
     science: {
       title: "Why Skin Changes After Weight Loss or Pregnancy —",
@@ -1005,7 +1005,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair)",
           description: "Rebuild dermal quality first:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp",
           points: [
             { name: "Polynucleotides (PN Body)", desc: "Thickens, hydrates and improves elasticity." },
             { name: "RF Microneedling (Body)", desc: "Gold-standard tightening and smoothing." },
@@ -1016,7 +1016,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "Adds firmness and lift where skin deflates:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Rebuild thickness for abdomen, arms, buttocks, hips." },
             { name: "Body Threads", desc: "Light lifting and collagen scaffolding." },
@@ -1027,7 +1027,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Optimises recovery and hormonal balance:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Supports fibroblast repair and collagen synthesis." },
             { name: "Hydration or Collagen Glow IV", desc: "Improves tissue healing from within." },
@@ -1056,7 +1056,7 @@ export const individualConditions = [
         "Serves Ware, Hertford, Stanstead Abbotts, Broxbourne, Hoddesdon, Great Amwell, Welwyn",
         "Supports women through every life stage"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1079,7 +1079,7 @@ export const individualConditions = [
       description: "Stretch marks are dermal tears, not surface lines. We repair the collagen network for smoother, stronger skin.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/stretch-marks-hero.webp"
     },
     science: {
       title: "Why Stretch Marks Form —",
@@ -1101,7 +1101,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair & Texture)",
           description: "Gold-standard smoothing and dermal repair:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/stretch-marks-hero.webp",
           points: [
             { name: "RF Microneedling (Body)", desc: "Top treatment for texture, depth and colour blending." },
             { name: "Polynucleotides (PN Body)", desc: "Thickens dermis and repairs fibroblasts." },
@@ -1112,7 +1112,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Reinforcement)",
           description: "Adds support where dermis tore:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/stretch-marks-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Plumps depressed marks; regenerates collagen up to 2 years." },
             { name: "Body Threads", desc: "Collagen scaffolding for larger soft areas." }
@@ -1122,7 +1122,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Healing)",
           description: "Improves repair environment:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/stretch-marks-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Boosts cellular repair and collagen cross-linking." },
             { name: "Glutathione IV", desc: "Reduces inflammation; aids tone blending." },
@@ -1152,7 +1152,7 @@ export const individualConditions = [
         "Serving Ware, Hertford, Welwyn, Broxbourne, Hoddesdon and nearby towns",
         "Long-term collagen strategy with internal support"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/stretch-marks-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1175,7 +1175,7 @@ export const individualConditions = [
       description: "Thin, wrinkled under-eye skin accelerates after 35 and during menopause. We thicken, hydrate and strengthen instead of masking.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/crepey-under-eye-hero.webp"
     },
     science: {
       title: "Why Crepey Eyes Develop —",
@@ -1199,7 +1199,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Smoothing & Brightening)",
           description: "Gentle prep for fragile skin:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/crepey-under-eye-hero.webp",
           points: [
             { name: "Enzyme Therapy", desc: "Smooths without irritation." },
             { name: "BioRePeel (eye protocol)", desc: "Brightens dullness, mild regeneration." },
@@ -1210,7 +1210,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Regeneration)",
           description: "Builds thickness, elasticity and hydration:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/crepey-under-eye-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "#1 for crepey eyes — improves density, elasticity and hydration." },
             { name: "PRP", desc: "Collagen + vascular support." },
@@ -1222,7 +1222,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "Adds support where hollows drive crepiness:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/crepey-under-eye-hero.webp",
           points: [
             { name: "Mid-Face or Micro Tear-Trough Filler", desc: "Restores support to reduce creasing." },
             { name: "Biostimulators", desc: "Strengthen thin skin over time." },
@@ -1233,7 +1233,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Improves repair and circulation:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/crepey-under-eye-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Supports cellular repair; reduces fatigue-linked crepiness." },
             { name: "Glutathione IV", desc: "Calms inflammation and brightens." },
@@ -1262,7 +1262,7 @@ export const individualConditions = [
         "Natural, subtle results (no over-filling)",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/crepey-under-eye-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1285,7 +1285,7 @@ export const individualConditions = [
       description: "Dark circles are usually structural, vascular, pigment and hydration related — not just lack of sleep. We brighten by regenerating skin, not masking.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/dark-circles-hero.webp"
     },
     science: {
       title: "Why Dark Circles Happen —",
@@ -1308,7 +1308,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Brightening)",
           description: "Gentle brightening to prep the area:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/dark-circles-hero.webp",
           points: [
             { name: "BioRePeel (eye protocol)", desc: "Safe pigment softening." },
             { name: "Enzyme Therapy", desc: "Brightens without irritation." },
@@ -1319,7 +1319,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Under-Eye Repair)",
           description: "Transforms thickness, hydration and tone:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/dark-circles-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves thickness, hydration, circulation and pigment balance." },
             { name: "PRP", desc: "Collagen + vascular improvement." },
@@ -1331,7 +1331,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Shadows)",
           description: "Targets hollows and support loss:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/dark-circles-hero.webp",
           points: [
             { name: "Mid-Face Filler", desc: "Lifts shadows naturally." },
             { name: "Micro Tear-Trough Filler", desc: "Used only when needed, very conservative." },
@@ -1342,7 +1342,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Brightening)",
           description: "Addresses internal drivers of darkness:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/dark-circles-hero.webp",
           points: [
             { name: "Glutathione IV", desc: "Antioxidant brightening." },
             { name: "NAD+ IV", desc: "Supports repair and better sleep quality." },
@@ -1371,7 +1371,7 @@ export const individualConditions = [
         "Safe for sensitive, menopause-affected eyes",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/dark-circles-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1394,7 +1394,7 @@ export const individualConditions = [
       description: "Tear trough hollows and shadows are structural. We strengthen skin, restore support and hydrate for natural, rested eyes without overfilling.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/tear-troughs-hero.webp"
     },
     science: {
       title: "Why Hollows Form —",
@@ -1417,7 +1417,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Brightness & Prep)",
           description: "Light resurfacing before deeper repair:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/tear-troughs-hero.webp",
           points: [
             { name: "BioRePeel (eye protocol)", desc: "Improves brightness." },
             { name: "Enzyme Therapy", desc: "Gentle smoothing for crepey texture." }
@@ -1427,7 +1427,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Repair)",
           description: "Strengthens thin skin and circulation:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/tear-troughs-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Gold-standard for dermal thickness and microcirculation." },
             { name: "PRP", desc: "Improves collagen and vascular tone." },
@@ -1439,7 +1439,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Volume)",
           description: "Conservative, natural support:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/tear-troughs-hero.webp",
           points: [
             { name: "Mid-Face Filler", desc: "Primary correction to lift hollows." },
             { name: "Micro Tear-Trough Filler", desc: "Only if needed; ultra-light." },
@@ -1451,7 +1451,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Improves healing and reduces fatigue look:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/tear-troughs-hero.webp",
           points: [
             { name: "Vitamin B12 IM", desc: "Enhances circulation." },
             { name: "NAD+ IV", desc: "Supports cellular repair and energy." },
@@ -1479,7 +1479,7 @@ export const individualConditions = [
         "Menopause-aware under-eye expertise",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/tear-troughs-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1502,7 +1502,7 @@ export const individualConditions = [
       description: "Brown, blue or mixed under-eye pigmentation needs gentle regeneration, pigment control and barrier repair — not harsh bleaching.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/under-eye-pigmentation-hero.webp"
     },
     science: {
       title: "Why Under-Eye Pigment Appears —",
@@ -1524,7 +1524,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Gentle Brightening)",
           description: "Safe resurfacing for fragile eyes:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
           points: [
             { name: "Enzyme Therapy", desc: "Brightens without irritation." },
             { name: "BioRePeel (eye)", desc: "Regulates melanin gently." },
@@ -1535,7 +1535,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Pigment Repair)",
           description: "Strengthens barrier and calms melanocytes:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Repairs barrier, reduces inflammation, improves hydration and pigment balance." },
             { name: "PRP", desc: "Improves vascular tone and healing." },
@@ -1547,7 +1547,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural & Deep Support)",
           description: "Helps when shadowing worsens pigment:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
           points: [
             { name: "Mid-Face Filler", desc: "Lifts shadows that exaggerate pigment." },
             { name: "Micro Tear-Trough Filler", desc: "Used sparingly when needed." },
@@ -1558,7 +1558,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Brightening)",
           description: "Targets inflammatory and hormonal drivers:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
           points: [
             { name: "Glutathione IV", desc: "Powerful antioxidant brightening." },
             { name: "NAD+ IV", desc: "Improves repair and reduces inflammation." },
@@ -1587,7 +1587,7 @@ export const individualConditions = [
         "Addresses pigment + vascular + shadow in one plan",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/under-eye-pigmentation-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1610,7 +1610,7 @@ export const individualConditions = [
       description: "Puffiness and bags come from fluid retention, lax support and inflammation — not just tiredness. We de-puff by improving drainage, strength and structure.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/under-eye-puffiness-hero.webp"
     },
     science: {
       title: "Why Puffiness Happens —",
@@ -1633,7 +1633,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Immediate Brightening & De-Puff)",
           description: "Gentle surface work plus lymphatic support:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
           points: [
             { name: "Enzyme Therapy", desc: "Reduces surface swelling." },
             { name: "BioRePeel (eye)", desc: "Improves texture + mild puffiness." },
@@ -1644,7 +1644,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Repair)",
           description: "Reduces inflammation and strengthens skin:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves drainage, calms inflammation, strengthens thin skin." },
             { name: "PRP", desc: "Supports vascular function and repair." },
@@ -1656,7 +1656,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Correction)",
           description: "For true bags or laxity:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
           points: [
             { name: "Biostimulators", desc: "Strengthen and tighten lower-lid skin." },
             { name: "Mid-Face Filler", desc: "Replaces support so puffiness looks flatter." },
@@ -1667,7 +1667,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal De-Puffing)",
           description: "Targets hormonal and inflammatory fluid retention:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
           points: [
             { name: "Vitamin B12 IM", desc: "Improves circulation and lymph flow." },
             { name: "NAD+ IV", desc: "Reduces inflammation and supports repair." },
@@ -1696,7 +1696,7 @@ export const individualConditions = [
         "Safe for sensitive under-eye skin",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/under-eye-puffiness-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1719,7 +1719,7 @@ export const individualConditions = [
       description: "Dry, tight, reactive skin is one of the earliest menopause signals. We rebuild strength, hydration and resilience so skin feels calm again.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/dryness-sensitivity-hero.webp"
     },
     science: {
       title: "Why Midlife Skin Becomes Dry & Reactive —",
@@ -1744,7 +1744,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Gentle Surface Renewal)",
           description: "Smooths without stripping the barrier:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
           points: [
             { name: "Enzyme Therapy", desc: "Removes dead skin while keeping the barrier intact." },
             { name: "Oxygen / Vitamin Infusion Facial", desc: "Hydrates and calms irritation immediately." },
@@ -1756,7 +1756,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Deep Regeneration)",
           description: "Core treatments to rebuild comfort and hydration:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Repairs barrier, boosts hydration, thickens thin menopausal skin." },
             { name: "Microneedling (Light Depth)", desc: "Improves hydration pathways and collagen." },
@@ -1768,7 +1768,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Strengthening the Dermis — If Needed)",
           description: "For advanced dryness with thinning:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
           points: [
             { name: "Biostimulators (micro-dilute)", desc: "Strengthen dermal structure to reduce crepiness." },
             { name: "Threads (micro PDO)", desc: "Stimulate collagen in thin regions selectively." }
@@ -1778,7 +1778,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Support)",
           description: "Addresses hormonal dryness from within:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular hydration and resilience." },
             { name: "Glutathione IV", desc: "Reduces inflammation and brightens dullness." },
@@ -1809,7 +1809,7 @@ export const individualConditions = [
         "Restores comfort, hydration and resilience",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Stanstead Abbotts"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/dryness-sensitivity-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1832,7 +1832,7 @@ export const individualConditions = [
       description: "Midlife acne is inflammatory and hormone-driven — stripping makes it worse. We calm, repair and prevent breakouts with hormone-smart regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/hormonal-breakouts-hero.webp"
     },
     science: {
       title: "Why Hormonal Breakouts Happen —",
@@ -1857,7 +1857,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Clearing Without Damage)",
           description: "Gentle clearing and inflammation control:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
           points: [
             { name: "BioRePeel (Acne Safe)", desc: "Reduces inflammation and congestion." },
             { name: "Enzyme Therapy", desc: "Deep, gentle exfoliation without irritation." },
@@ -1869,7 +1869,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair to Prevent Recurrence)",
           description: "Stops cycle-linked flare-ups and improves healing:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
           points: [
             { name: "Microneedling (post-inflammatory phase)", desc: "Improves texture and prevents scarring." },
             { name: "Polynucleotides (PN)", desc: "Repairs barrier, reduces inflammation and PIH." },
@@ -1881,7 +1881,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Strength for Stability)",
           description: "Addresses lax, inflamed tissue that worsens breakouts:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
           points: [
             { name: "Biostimulators (micro-dilute)", desc: "Improve resilience and texture, reducing future inflammation." },
             { name: "Micro Threads", desc: "Support collagen where acne scarring is present." }
@@ -1891,7 +1891,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Hormone-Smart Support)",
           description: "Calms inflammation and balances internal triggers:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Reduces inflammation and improves healing." },
             { name: "Glutathione IV", desc: "Brightens PIH and reduces oxidative stress." },
@@ -1922,7 +1922,7 @@ export const individualConditions = [
         "Integrated internal + external support",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/hormonal-breakouts-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -1945,7 +1945,7 @@ export const individualConditions = [
       description: "Hormone-driven pigmentation needs calm, regenerative brightening — not lasers or harsh bleaching. We repair melanocyte balance safely.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/hormonal-pigmentation-hero.webp"
     },
     science: {
       title: "Why Hormonal Pigmentation Appears —",
@@ -1969,7 +1969,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Gentle Surface Brightening)",
           description: "Preps skin without triggering pigment:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
           points: [
             { name: "BioRePeel (pigment safe)", desc: "Reduces surface dullness and inflammation." },
             { name: "Pigment-Safe Chemical Peels", desc: "Targets superficial pigment gently." },
@@ -1982,7 +1982,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Deep Cellular Repair)",
           description: "Core regenerative brightening for hormonal pigment:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Calms melanocyte hyperactivity, repairs barrier, thickens dermis." },
             { name: "Microneedling (pigment-safe)", desc: "Improves tone via healthy turnover." },
@@ -1994,7 +1994,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Strength — Optional)",
           description: "Helps pigment appear lighter by improving density:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
           points: [
             { name: "Biostimulators (micro-dilute)", desc: "Increase dermal density so pigment is less visible." },
             { name: "Threads (micro)", desc: "Collagen induction for texture and tone." }
@@ -2004,7 +2004,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Pigment Control)",
           description: "Targets endocrine and inflammatory drivers:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
           points: [
             { name: "Glutathione IV", desc: "Brightens and reduces melanin production." },
             { name: "NAD+ IV", desc: "Repairs cellular pathways and reduces inflammation." },
@@ -2035,7 +2035,7 @@ export const individualConditions = [
         "Safe for sensitive, menopause-affected skin",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell & SG12"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/hormonal-pigmentation-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -2058,7 +2058,7 @@ export const individualConditions = [
       description: "Menopause-driven contour loss is structural — collagen, ligaments and fat pads weaken. We lift and rebuild definition without heaviness.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/loss-of-definition-hero.webp"
     },
     science: {
       title: "Why Facial Definition Declines After 35–40 —",
@@ -2083,7 +2083,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Skin Quality & Collagen Foundation)",
           description: "Strengthens skin and fascia before lifting:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/loss-of-definition-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Tighten and thicken skin for sharper jawline and midface." },
             { name: "Microneedling / RF Microneedling", desc: "Improves elasticity and tightens mild sagging." },
@@ -2095,7 +2095,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Contour Rebuilding)",
           description: "Core lift for menopausal contour loss:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/loss-of-definition-hero.webp",
           points: [
             { name: "Biostimulators (PLLA, CaHA)", desc: "Rebuild collagen, restore frame, improve jawline and midface." },
             { name: "Thread Lifts (PDO / Definisse)", desc: "Repositions fat pads, lifts cheeks, sharpens jawline." },
@@ -2106,7 +2106,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Refinement)",
           description: "Enhances light reflection after lift:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/loss-of-definition-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Smooths shadows for a sharper look." },
             { name: "Enzyme Therapy", desc: "Improves clarity and glow." },
@@ -2117,7 +2117,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Regeneration)",
           description: "Supports hormonal and inflammatory factors:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/loss-of-definition-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular energy and reduces inflammation." },
             { name: "Glutathione IV", desc: "Reduces puffiness and brightens." },
@@ -2147,7 +2147,7 @@ export const individualConditions = [
         "Layered lift model for lasting definition",
         "Serving Ware, Hertford, Stanstead Abbotts, Broxbourne"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/loss-of-definition-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -2170,7 +2170,7 @@ export const individualConditions = [
       description: "Jawline softening is a structural, hormone-driven change — not a volume problem. We lift jawlines naturally with regeneration, not heavy filler.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/jawline-softening-hero.webp"
     },
     science: {
       title: "Why the Jawline Softens in Menopause —",
@@ -2194,7 +2194,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair & Skin Quality)",
           description: "Strengthens thin, lax lower-face skin:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/jawline-softening-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Top treatment for menopausal jawline laxity; thickens and improves elasticity." },
             { name: "RF Microneedling", desc: "Tightens skin and shrinks lower-face pouching." },
@@ -2205,7 +2205,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Lift & Ligament Support)",
           description: "Targets true causes of jowls:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/jawline-softening-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Rebuild deep support, reduce pre-jowl sulcus and heaviness." },
             { name: "Thread Lifts (PDO / Definisse)", desc: "Lift fat pads, re-anchor ligaments, sharpen jawline without filler." },
@@ -2216,7 +2216,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Reset)",
           description: "Hormone-aware internal support enhances lift:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/jawline-softening-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular energy and collagen." },
             { name: "Women’s Longevity IV", desc: "Hormone-supportive nutrients for lower face." },
@@ -2247,7 +2247,7 @@ export const individualConditions = [
         "Holistic internal + external approach",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon and nearby villages"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/jawline-softening-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -2270,7 +2270,7 @@ export const individualConditions = [
       description: "Menopause neck ageing is rapid and delicate. We thicken, smooth and tighten the neck with regeneration, not overfilling or harsh resurfacing.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/neck-crepiness-hero.webp"
     },
     science: {
       title: "Why the Neck Ages Fast in Menopause —",
@@ -2295,7 +2295,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration)",
           description: "Gold-standard for crepey menopausal neck skin:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/neck-crepiness-hero.webp",
           points: [
             { name: "Polynucleotides (PN — Plenhyage / Nucleofill)", desc: "Thicken dermis, improve elasticity and hydration." },
             { name: "Microneedling / RF Microneedling", desc: "Tightens loose skin and reduces neck rings." },
@@ -2307,7 +2307,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "Rebuilds firmness for sagging or turkey neck:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/neck-crepiness-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Deep collagen rebuild for sagging and deep lines." },
             { name: "Thread Lifts (PDO / Definisse)", desc: "Lifts lower-face heaviness and tightens neck vectors." },
@@ -2318,7 +2318,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Regeneration)",
           description: "Supports hormonal and inflammatory neck ageing:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/neck-crepiness-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular repair and resilience." },
             { name: "Glutathione IV", desc: "Targets crepey texture caused by oxidative stress." },
@@ -2347,7 +2347,7 @@ export const individualConditions = [
         "Serving Ware, Hertford, Broxbourne, Hoddesdon and surrounding villages",
         "Natural, age-appropriate outcomes"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/neck-crepiness-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -2370,7 +2370,7 @@ export const individualConditions = [
       description: "Menopause triggers the most dramatic skin shift of a woman’s life. ULANDA rebuilds collagen, hydration, barrier strength and contour through regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/menopause-skin-decline-hero.webp"
     },
     science: {
       title: "Understanding Menopause Skin Decline —",
@@ -2396,7 +2396,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Clarity & Texture)",
           description: "Clears buildup and prepares skin:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Brightens and stimulates mild collagen without irritation." },
             { name: "Chemical Peels", desc: "Improve tone, texture and pigmentation." },
@@ -2408,7 +2408,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular-Level Repair)",
           description: "Core treatments that thicken and hydrate menopausal skin:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Thicken thinning skin, enhance elasticity and calm inflammation." },
             { name: "PRP", desc: "Boosts collagen and improves vascularity." },
@@ -2420,7 +2420,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support & Lifting)",
           description: "Addresses sagging, contour loss and deeper laxity:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Rebuild dermal thickness and firmness." },
             { name: "Thread Lifts (PDO / Definisse)", desc: "Lift areas affected by ligament weakening." },
@@ -2432,7 +2432,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Menopause Support)",
           description: "Longevity and hormonal support amplify external results:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
           points: [
             { name: "Women’s Longevity IV", desc: "Hormone-supportive vitamins and antioxidants." },
             { name: "NAD+ IV", desc: "Enhances cellular repair and energy." },
@@ -2462,7 +2462,7 @@ export const individualConditions = [
         "Tailored plans for 35+, peri- and post-menopause",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/menopause-skin-decline-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -2485,7 +2485,7 @@ export const individualConditions = [
       description: "Rough, uneven, crepey texture in menopause needs stacked regeneration — collagen renewal, hydration rebuilding and dermal strengthening.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/texture-decline-hero.webp"
     },
     science: {
       title: "Why Texture Declines in Menopause —",
@@ -2510,7 +2510,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Reset)",
           description: "Immediate smoothing and glow:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/texture-decline-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Removes buildup and brightens." },
             { name: "Chemical Peels (Mild–Medium)", desc: "Smooth superficial texture safely." },
@@ -2522,7 +2522,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular & Dermal Regeneration)",
           description: "Core smoothing through collagen rebuilding:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/texture-decline-hero.webp",
           points: [
             { name: "Polynucleotides (PN)", desc: "Thickens menopausal skin and repairs texture." },
             { name: "Microneedling / RF Microneedling", desc: "Refines pores and remodels collagen." },
@@ -2534,7 +2534,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Strengthen & Tighten)",
           description: "Deeper structural smoothing for long-term change:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/texture-decline-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Strengthen deep dermal layers for lasting smoothness." },
             { name: "Threads (Micro Threads)", desc: "Collagen induction for mild neck and lower-face crepiness." },
@@ -2545,7 +2545,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Support)",
           description: "Addresses inflammatory and nutrient drivers:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/texture-decline-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular turnover and smoothness." },
             { name: "Glutathione IV", desc: "Brightens and reduces oxidative roughness." },
@@ -2575,7 +2575,7 @@ export const individualConditions = [
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell",
         "Natural, long-lasting results with internal support"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/texture-decline-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -2598,7 +2598,7 @@ export const individualConditions = [
       description: "Sun damage, age spots and uneven brown patches need calm, regenerative correction — not aggressive bleaching. We fade pigment safely and prevent recurrence.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/hyperpigmentation-hero.webp"
     },
     science: {
       title: "What Hyperpigmentation Really Is —",
@@ -2621,7 +2621,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Pigment Removal)",
           description: "Safe exfoliation and controlled resurfacing:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hyperpigmentation-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Breaks down pigment and dullness gently." },
             { name: "Chemical Peels", desc: "TCA, lactic or mandelic blends for sun damage and patches." },
@@ -2632,7 +2632,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair & Pigment Control)",
           description: "Core regeneration that calms pigment cells:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hyperpigmentation-hero.webp",
           points: [
             { name: "Microneedling", desc: "Improves tone and turnover; breaks up pigment." },
             { name: "RF Microneedling", desc: "Targets deeper dermal pigment and tightens skin." },
@@ -2645,7 +2645,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural & Long-Term Correction)",
           description: "For mottling or deep pigment in ageing skin:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/hyperpigmentation-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Improve dermal thickness so deep pigment looks lighter." },
             { name: "Threads (PDO / Definisse)", desc: "Used selectively to enhance global skin quality." }
@@ -2655,7 +2655,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Pigment Control)",
           description: "Targets oxidative and hormonal triggers:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/hyperpigmentation-hero.webp",
           points: [
             { name: "Glutathione IV", desc: "Antioxidant brightening and melanin regulation." },
             { name: "NAD+ IV", desc: "Cellular repair + inflammation reduction." },
@@ -2683,7 +2683,7 @@ export const individualConditions = [
         "Hormone-linked pigmentation expertise",
         "Serving Ware, Hertford, St Albans, Broxbourne, Hoddesdon, Great Amwell"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/hyperpigmentation-hero.webp"
     },
     cta: {
       title: "Ready for",
@@ -2706,7 +2706,7 @@ export const individualConditions = [
       description: "Melasma is hormone- and inflammation-driven; harsh peels and lasers often worsen it. We calm, repair and brighten with melasma-safe regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/melasma-hero.webp"
     },
     science: {
       title: "What Makes Melasma Different —",
@@ -2729,7 +2729,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Melasma-Safe Resurfacing)",
           description: "Only gentle, low-heat methods to avoid rebound:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/melasma-hero.webp",
           points: [
             { name: "Enzyme Therapy", desc: "Resurfaces without triggering inflammation." },
             { name: "Low-Strength Mandelic/Lactic Peels", desc: "Targets dullness safely." },
@@ -2740,7 +2740,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Melasma Repair)",
           description: "Dermal regeneration that calms pigment cells:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/melasma-hero.webp",
           points: [
             { name: "Microneedling (melasma-safe)", desc: "Improves texture and product penetration." },
             { name: "RF Microneedling (low heat)", desc: "Reduces vascular and dermal pigment when protocolled correctly." },
@@ -2753,7 +2753,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Deep Dermal Strengthening)",
           description: "For stubborn or menopausal melasma with thinning:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/melasma-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Strengthen dermis so pigment is less visible." },
             { name: "Threads (micro)", desc: "Optional collagen support when laxity is present." }
@@ -2763,7 +2763,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Melasma Control)",
           description: "Targets hormonal and oxidative drivers:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/melasma-hero.webp",
           points: [
             { name: "Glutathione IV", desc: "Antioxidant brightener and melanin regulator." },
             { name: "NAD+ IV", desc: "Repairs cell health and reduces inflammation." },
@@ -2791,7 +2791,7 @@ export const individualConditions = [
         "Calm-first philosophy for safer outcomes",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, St Albans"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/melasma-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -2814,7 +2814,7 @@ export const individualConditions = [
       description: "PIH follows acne, irritation or trauma. We calm, repair and brighten without triggering further darkening — safe for all tones.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/post-inflammatory-hyperpigmentation-hero.webp"
     },
     science: {
       title: "Why PIH Appears —",
@@ -2838,7 +2838,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Gentle Resurfacing)",
           description: "Improves tone while protecting the barrier:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/post-inflammatory-hyperpigmentation-hero.webp",
           points: [
             { name: "Enzyme Therapy", desc: "Ideal for sensitive, reactive skin; speeds recovery." },
             { name: "BioRePeel", desc: "Powerful brightening with low irritation." },
@@ -2849,7 +2849,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair & Melanin Regulation)",
           description: "Core PIH correction and texture smoothing:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/post-inflammatory-hyperpigmentation-hero.webp",
           points: [
             { name: "Microneedling", desc: "Boosts turnover so PIH fades faster." },
             { name: "RF Microneedling (controlled, low heat)", desc: "Helps deeper PIH and acne scarring." },
@@ -2862,7 +2862,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(For Stubborn PIH)",
           description: "Supports ageing or very reactive skin:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/post-inflammatory-hyperpigmentation-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Strengthen dermis and improve mottling." },
             { name: "Threads", desc: "Selective use when laxity exaggerates shadows." }
@@ -2872,7 +2872,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Anti-Inflammatory Support)",
           description: "Speeds fading from the inside:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/post-inflammatory-hyperpigmentation-hero.webp",
           points: [
             { name: "Glutathione IV", desc: "Anti-inflammatory brightening." },
             { name: "NAD+ IV", desc: "Cellular repair and oxidative stress reduction." },
@@ -2900,7 +2900,7 @@ export const individualConditions = [
         "Expertise in pigment-prone, reactive skin",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, St Albans"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/post-inflammatory-hyperpigmentation-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -2923,7 +2923,7 @@ export const individualConditions = [
       description: "Patchy, dull, uneven tone needs calm regeneration — strengthening barrier, boosting turnover and hydrating deeply for natural clarity.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/uneven-skin-tone-hero.webp"
     },
     science: {
       title: "Why Tone Becomes Uneven —",
@@ -2948,7 +2948,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Brightening & Texture Reset)",
           description: "First layer of tone improvement:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Breaks down dull surface cells, revealing clarity." },
             { name: "Chemical Peels", desc: "Mandelic, lactic or TCA blends reduce patchiness." },
@@ -2959,7 +2959,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration — Core Repair)",
           description: "Strengthens barrier and brightens from within:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
           points: [
             { name: "Microneedling", desc: "Boosts turnover, smooths texture and brightens." },
             { name: "RF Microneedling", desc: "Targets deeper unevenness and thickening." },
@@ -2972,7 +2972,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Deep Structural Tone Correction)",
           description: "Improves light reflection in ageing skin:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Thicker, healthier skin reflects light evenly." },
             { name: "Threads", desc: "Improve global dermal quality and contour shadows." }
@@ -2982,7 +2982,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Tone Regulation)",
           description: "Supports antioxidant and hormonal balance:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
           points: [
             { name: "Glutathione IV", desc: "Antioxidant brightening and pigment reduction." },
             { name: "NAD+ IV", desc: "Cellular repair and inflammation control." },
@@ -3010,7 +3010,7 @@ export const individualConditions = [
         "Holistic internal + external approach",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham, St Albans"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/uneven-skin-tone-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -3033,7 +3033,7 @@ export const individualConditions = [
       description: "Energy decline after 30–40 is biological — mitochondria slow, hormones fluctuate, nutrients deplete. ULANDA restores cellular energy so skin, mind and body perform again.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/fatigue-low-energy-hero.webp"
     },
     science: {
       title: "Why Energy Drops —",
@@ -3057,7 +3057,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Energy Medicine)",
           description: "Harley Street-partnered IV/IM protocols to restart ATP production:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/fatigue-low-energy-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Boosts mitochondrial ATP, clarity and repair." },
             { name: "Energy IV", desc: "B-complex, B12, magnesium, amino acids for metabolic lift." },
@@ -3070,7 +3070,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Skin & Tissue Regeneration)",
           description: "Skin reflects energy. Regeneration improves glow and resilience:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/fatigue-low-energy-hero.webp",
           points: [
             { name: "PRP", desc: "Growth factors to repair and calm inflammation." },
             { name: "Polynucleotides", desc: "Barrier strength and anti-inflammatory repair." },
@@ -3081,7 +3081,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Glow Recovery)",
           description: "Fatigue shows as dullness and dark circles:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/fatigue-low-energy-hero.webp",
           points: [
             { name: "Vital Glow Facials", desc: "Re-oxygenate tired skin." },
             { name: "BioRePeel / Peels", desc: "Brighten without stripping." },
@@ -3092,7 +3092,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Rejuvenation)",
           description: "Chronic fatigue accelerates structural ageing:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/fatigue-low-energy-hero.webp",
           points: [
             { name: "Biostimulators", desc: "Rebuild firmness lost through stress." },
             { name: "Threads", desc: "Support definition if fatigue has softened contours." }
@@ -3120,7 +3120,7 @@ export const individualConditions = [
         "Integrated internal + skin + structural recovery",
         "Serving Ware, Hertford, SG12 and surrounding areas"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/fatigue-low-energy-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -3143,7 +3143,7 @@ export const individualConditions = [
       description: "If you catch colds easily or recover slowly, immunity is signalling nutrient depletion, cortisol shifts or mitochondrial decline. We rebuild resilience from within.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/low-immunity-hero.webp"
     },
     science: {
       title: "Why Immunity Drops —",
@@ -3167,7 +3167,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Immune Medicine)",
           description: "Medical longevity therapies delivered with 360 Medicx Harley Street Clinic:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/low-immunity-hero.webp",
           points: [
             { name: "Immunity IV", desc: "High-dose vitamin C, zinc, glutathione, B-complex." },
             { name: "Glutathione IV", desc: "Master antioxidant; reduces inflammation and speeds recovery." },
@@ -3181,7 +3181,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair & Inflammation Control)",
           description: "Inflammation management improves skin and recovery:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/low-immunity-hero.webp",
           points: [
             { name: "PRP", desc: "Anti-inflammatory growth factors for healing." },
             { name: "Polynucleotides", desc: "Restore barrier and reduce inflammatory load." },
@@ -3192,7 +3192,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Recovery)",
           description: "Helps tired, reactive skin rebound during immune support:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/low-immunity-hero.webp",
           points: [
             { name: "LED Therapy", desc: "Reduces inflammation and supports healing." },
             { name: "Vital Glow Facials", desc: "Gentle clearing and hydration." },
@@ -3203,7 +3203,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "Chronic illness can accelerate ageing; structural support restores confidence:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/low-immunity-hero.webp",
           points: [
             { name: "Biostimulators", desc: "Rebuild collagen if illness has thinned skin." },
             { name: "Threads", desc: "Optional lift when laxity follows prolonged inflammation." }
@@ -3231,7 +3231,7 @@ export const individualConditions = [
         "Ideal for perimenopause, menopause and chronic fatigue",
         "Serving Ware, Hertford, SG12 and nearby"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/low-immunity-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -3254,7 +3254,7 @@ export const individualConditions = [
       description: "Dullness, pigmentation, roughness or hair shedding often trace back to Vitamin D, B12, antioxidant and amino-acid deficits. We correct inside first, then regenerate skin.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/nutrient-deficiency-skin-hero.webp"
     },
     science: {
       title: "Why Nutrients Drop —",
@@ -3277,7 +3277,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Correction)",
           description: "CQC-partnered IV/IM therapy with 360 Medicx Harley Street Clinic:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/nutrient-deficiency-skin-hero.webp",
           points: [
             { name: "Vitamin D IM", desc: "Supports immunity, barrier integrity and collagen." },
             { name: "Vitamin B12 IM", desc: "DNA repair, energy and under-eye brightness." },
@@ -3291,7 +3291,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration)",
           description: "Once nutrients are corrected, skin responds rapidly:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/nutrient-deficiency-skin-hero.webp",
           points: [
             { name: "Polynucleotides", desc: "Anti-inflammatory, barrier rebuilding." },
             { name: "PRP", desc: "Growth factors stimulate healing and collagen." },
@@ -3302,7 +3302,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Radiance)",
           description: "Restores glow while internal levels stabilise:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/nutrient-deficiency-skin-hero.webp",
           points: [
             { name: "Enzyme Therapy", desc: "Gentle clarity for sensitive, depleted skin." },
             { name: "BioRePeel", desc: "Brightens without stripping." },
@@ -3313,7 +3313,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Repair if Needed)",
           description: "Corrects accelerated ageing from long-term deficiencies:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/nutrient-deficiency-skin-hero.webp",
           points: [
             { name: "Biostimulators", desc: "Rebuild collagen and elasticity." },
             { name: "Threads", desc: "Optional support for laxity if present." }
@@ -3340,7 +3340,7 @@ export const individualConditions = [
         "Integrated internal + cellular + surface correction",
         "Serving Ware, Hertford, SG12 and surrounding Hertfordshire"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/nutrient-deficiency-skin-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -3363,7 +3363,7 @@ export const individualConditions = [
       description: "Midlife weight gain is hormonal and metabolic, not willpower. ULANDA resets metabolism with regenerative, longevity-led support.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/slow-metabolism-hero.webp"
     },
     science: {
       title: "Why Metabolism Slows —",
@@ -3387,7 +3387,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Metabolic Foundation)",
           description: "Longevity IV/IM programmes with 360 Medicx Harley Street Clinic:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/slow-metabolism-hero.webp",
           points: [
             { name: "Medical Weight Management", desc: "GLP-1 pathway where clinically appropriate." },
             { name: "Women’s Longevity IV", desc: "Hormone + metabolic support." },
@@ -3402,7 +3402,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular & Inflammation Control)",
           description: "Inflammation reduction improves metabolic signalling:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/slow-metabolism-hero.webp",
           points: [
             { name: "PN", desc: "Reduces inflammation; supports tissue quality." },
             { name: "PRP", desc: "Healing support for skin stressed by weight changes." },
@@ -3413,7 +3413,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Health)",
           description: "Metabolic health restoration often improves glow; we accelerate it:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/slow-metabolism-hero.webp",
           points: [
             { name: "LED", desc: "Anti-inflammatory; supports healing." },
             { name: "Oxygen/Vitamin Facial", desc: "Brightens tired skin during metabolic change." },
@@ -3424,7 +3424,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "Weight change can soften jawline and neck definition:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/slow-metabolism-hero.webp",
           points: [
             { name: "Jawline Shaping", desc: "Supports definition during metabolic reset." },
             { name: "Threads / Biostimulators", desc: "Optional lift for laxity from weight shifts." }
@@ -3451,7 +3451,7 @@ export const individualConditions = [
         "Integrated internal + skin + structural support",
         "Serving Ware, Hertford, SG12 and surrounding Hertfordshire"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/slow-metabolism-hero.webp"
     },
     cta: {
       title: "Ready to",
@@ -3474,7 +3474,7 @@ export const individualConditions = [
       description: "Chronic stress is a hormonal and inflammatory storm that accelerates ageing. We calm cortisol, rebuild barrier and regenerate skin at every layer.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/stress-inflammation-hero.webp"
     },
     science: {
       title: "Why Stress Ages Skin —",
@@ -3498,7 +3498,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Repair & Barrier Restoration)",
           description: "Calm, hydrate and restore barrier fast:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/stress-inflammation-hero.webp",
           points: [
             { name: "Enzyme Therapy", desc: "Gentle resurfacing without stripping." },
             { name: "BioRePeel", desc: "Anti-inflammatory resurfacing." },
@@ -3511,7 +3511,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular & Dermal Regeneration)",
           description: "Reverse inflammation at cellular level:",
-          image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/stress-inflammation-hero.webp",
           points: [
             { name: "Polynucleotides", desc: "Anti-inflammatory; strengthens barrier and texture." },
             { name: "PRP", desc: "Growth factors rebalance cytokines and heal." },
@@ -3522,7 +3522,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Repair)",
           description: "Chronic stress accelerates laxity; structural support restores lift:",
-          image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop",
+          image: "/assets/img/conditions/stress-inflammation-hero.webp",
           points: [
             { name: "Biostimulators", desc: "Rebuild collagen lost to stress." },
             { name: "Threads", desc: "Targeted lift for cortisol-softened contours." }
@@ -3532,7 +3532,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Anti-Inflammatory Support)",
           description: "Calm cortisol and oxidative stress internally with Harley Street medical partners:",
-          image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2073&auto=format&fit=crop",
+          image: "/assets/img/conditions/stress-inflammation-hero.webp",
           points: [
             { name: "NAD+ IV", desc: "Mitochondrial repair; improves sleep and resilience." },
             { name: "Glutathione IV", desc: "Master anti-inflammatory and brightening." },
@@ -3563,7 +3563,7 @@ export const individualConditions = [
         "Natural, lasting results for stressed skin",
         "Serving Ware, Hertford, SG12 and wider Hertfordshire"
       ],
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+      image: "/assets/img/conditions/stress-inflammation-hero.webp"
     },
     cta: {
       title: "Ready to",

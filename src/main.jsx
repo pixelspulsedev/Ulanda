@@ -27,6 +27,7 @@ const ToolDetail = lazy(() => import('./pages/ToolDetail.jsx'))
 const PathwayDetail = lazy(() => import('./pages/PathwayDetail.jsx'))
 const HelpAndSupport = lazy(() => import('./pages/HelpAndSupport.jsx'))
 const Contact = lazy(() => import('./pages/Contact.jsx'))
+const BookConsultation = lazy(() => import('./pages/BookConsultation.jsx'))
 const NotFound = lazy(() => import('./pages/NotFound.jsx'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy.jsx'))
 const TermsOfUse = lazy(() => import('./pages/TermsOfUse.jsx'))
@@ -136,6 +137,10 @@ const routes = [
       {
         path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'book-consultation',
+        element: <BookConsultation />,
       },
       {
         path: 'privacy-policy',

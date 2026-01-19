@@ -5,17 +5,9 @@ import { useEffect, useState } from 'react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import { philosophyData } from '../data/pageContents/philosophy/philosophy';
 
-const regenerativeSystems = [
-  'Collagen & elastin',
-  'Cellular repair',
-  'Barrier function',
-  'Hormone balance',
-  'Inflammation control',
-  'Mitochondrial energy',
-  'Facial structure',
-  'Internal wellness',
-];
+const regenerativeSystems = philosophyData.regenerativeSystems.list;
 
 const clinicValues = [
   'science meets sanctuary',

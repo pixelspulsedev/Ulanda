@@ -460,9 +460,9 @@ export default function ProgrammeDetail() {
                 <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                   Book Consultation
                 </a>
-                <button className="btn btn-outline border border-primary text-primary shadow-none hover:bg-primary/10 hover:text-primary"> 
+                {/* <button className="btn btn-outline border border-primary text-primary shadow-none hover:bg-primary/10 hover:text-primary"> 
                   Speak to a Practitioner
-                </button>
+                </button> */}
               </div>
               <div className="pt-4">
                 <Link

@@ -4,6 +4,7 @@ import { Head } from 'vite-react-ssg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { homeFaqs } from '../data/faqs';
+import { homePageData } from '../data/pageContents/home/home';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
@@ -12,117 +13,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('refresh');
   const [activeFaq, setActiveFaq] = useState(null);
 
-  const pathways = {
-    refresh: {
-      title: (
-        <>
-          Healthy,{' '}
-          <span className="italic font-serif text-primary">Glowing</span> Skin
-          Starts Here
-        </>
-      ),
-      description:
-        'Gently renews the surface of your skin for instant brightness and hydration.',
-      includes: [
-        'HydraFacial',
-        'Enzyme Therapy',
-        'Oxygen Facials',
-        'BioRePeel',
-        'Dermaplaning',
-        'Chemical Peels',
-        'LED',
-        'Body Peels',
-      ],
-      perfectFor:
-        'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.',
-      image:
-        'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop',
-    },
-    renew: {
-      title: (
-        <>
-          Strengthen Your Skin{' '}
-          <span className="italic font-serif text-primary">From Within</span>
-        </>
-      ),
-      description:
-        'Boosts your skin’s natural ability to repair, firm and glow over time.',
-      includes: [
-        'Polynucleotides (PN)',
-        'PRP',
-        'Microneedling',
-        'RF Microneedling',
-        'Profhilo',
-        'Hydrobooster',
-        'Jalupro',
-        'Lumi Eyes',
-      ],
-      perfectFor:
-        'Fine lines, thinning skin, early collagen loss, tired-looking eyes, long-term glow.',
-      image:
-        'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=800&auto=format&fit=crop',
-    },
-    restore: {
-      title: (
-        <>
-          Lift, Firm &{' '}
-          <span className="italic font-serif text-primary">Define</span>{' '}
-          Naturally
-        </>
-      ),
-      description:
-        'Subtle enhancements that support your structure without looking “done.”',
-      includes: [
-        'Biostimulators',
-        'Thread Lifts',
-        'Natural Fillers',
-        'Collagen Therapy',
-        'Jawline Contouring',
-        'Neck Tightening',
-        'Body Tightening',
-        'Barrier Repair',
-        'Lymphatic Drainage',
-        'Post-Procedure Recovery',
-      ],
-      perfectFor:
-        'Jawline softening, mid-face changes, neck laxity, postpartum body changes.',
-      image:
-        'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop',
-    },
-    radiate: {
-      title: (
-        <>
-          Support Your Energy,{' '}
-          <span className="italic font-serif text-primary">Hormones</span> &
-          Wellness
-        </>
-      ),
-      description: (
-        <>
-          Because when you feel balanced on the inside, your skin shows it on
-          the outside.
-          <br />
-          <span className="text-sm mt-2 block opacity-80">
-            Delivered in collaboration with 360Medicx Harley Street Clinic
-            (Longevity Partners).
-          </span>
-        </>
-      ),
-      includes: [
-        'NAD+ IV/IM',
-        'Glutathione IV/IM',
-        'Energy IV',
-        'Immunity IV',
-        'Women’s Longevity IV',
-        'Vitamin D & B12 IM',
-        'Weight Management',
-      ],
-      perfectFor:
-        'Fatigue, poor sleep, slow metabolism, inflammation, hormone-transition symptoms.',
-      image:
-        'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop',
-    },
-  };
+  const { pathways, hero, introduction } = homePageData;
 
   useEffect(() => {
     const observerOptions = {
@@ -168,7 +59,7 @@ export default function Home() {
       <section className="relative min-h-screen">
         <div className="absolute inset-0 w-full h-full overflow-hidden">
           <img
-            src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            src={hero.image}
             alt="Ulanda Hero Background"
             className="w-full h-full object-cover object-right"
             fetchpriority="high"
@@ -301,7 +192,7 @@ export default function Home() {
             {/* Main Image */}
             <RevealImage className="relative rounded-t-full w-full max-w-xs max-h-xs aspect-[3/4]">
               <img
-                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
+                src={introduction.image}
                 alt="Facial treatment"
                 width="1200"
                 height="1600"
@@ -406,7 +297,7 @@ export default function Home() {
                   <RevealImage className="relative rounded-t-full shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
                     <img
                       src={pathway.image}
-                      alt={pathway.title}
+                      alt={`${pathway.titlePrefix} ${pathway.highlight} ${pathway.titleSuffix}`}
                       className="w-full h-full object-cover transition-opacity duration-500"
                       loading="lazy"
                     />
@@ -416,7 +307,11 @@ export default function Home() {
                 {/* Right Content */}
                 <FadeInWhenVisible>
                   <h3 className="text-3xl md:text-4xl font-serif text-base-content mb-4 leading-tight">
-                    {pathway.title}
+                    {pathway.titlePrefix}{' '}
+                    <span className="italic font-serif text-primary">
+                      {pathway.highlight}
+                    </span>{' '}
+                    {pathway.titleSuffix}
                   </h3>
                   <p className="text-lg text-base-content/80 font-sans mb-8">
                     {pathway.description}
