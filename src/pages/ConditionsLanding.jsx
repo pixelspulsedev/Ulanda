@@ -307,9 +307,9 @@ export default function ConditionsLanding() {
               A personalised, clinical assessment for skin, structure & internal
               wellness.
             </p>
-            <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
+            <Link to="/book-consultation" className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
               Book Your Consultation
-            </a>
+            </Link>
           </div>
         </section>
       </div>

@@ -31,30 +31,21 @@ const BookConsultation = () => {
       </section>
 
       {/* Form Section */}
-      <section className="py-20 bg-base-100">
-        <div className="container mx-auto px-4 max-w-4xl">
+      <section className=" bg-base-100">
+        <div className="container mx-auto max-w-4xl">
           <FadeInWhenVisible>
-            <div className="bg-white p-4 md:p-8 shadow-sm rounded-lg border border-base-200">
-                {/* 
-                  ***********************************************************************
-                   REPLACE THE IFRAME BELOW WITH YOUR ACTUAL GOOGLE FORM EMBED CODE
-                   Instructions:
-                   1. Go to your Google Form.
-                   2. Click "Send" button.
-                   3. Click the "< >" (Embed HTML) tab.
-                   4. Copy the Width and Height, usually you can set width to "100%" in the code below.
-                   5. Paste the src URL from the embed code into the src attribute below.
-                   
-                   Note: If you want name, email, phone, and message, ensure your Google Form has these questions.
-                  ***********************************************************************
-                */}
-                <div className="relative w-full overflow-hidden" style={{ minHeight: '800px' }}>
-                  <iframe 
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSftSIF2Ee9XS1tdmwjzAOeuRBqCVjAJgkVvmg9dKPhhv4z94w/viewform?embedded=true" 
-                    className="absolute top-0 left-0 w-full h-full border-0" 
+            <div className="bg-white shadow-sm rounded-lg border border-base-200">
+                <div className="relative w-full" style={{ minHeight: '1000px' }}>
+                  <iframe
+                    id="JotFormIFrame-260183295758063"
                     title="Book Consultation Form"
+                    src="https://form.jotform.com/260183295758063"
+                    className="w-full h-full border-0"
+                    style={{ minHeight: '1000px' }}
+                    allowFullScreen={true}
+                    allow="geolocation; microphone; camera"
+                    scrolling="auto"
                   >
-                    Loading…
                   </iframe>
                 </div>
             </div>

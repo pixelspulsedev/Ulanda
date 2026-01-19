@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useParams, Navigate, Link } from 'react-router-dom';
+import { useParams, Navigate, Link, useNavigate } from 'react-router-dom';
 import { Head } from 'vite-react-ssg';
 import { getTreatment } from '../data/pageContents/treatments/treatments';
 import { tools } from '../data/pageContents/tools/tools';
@@ -77,6 +77,7 @@ const getBookingButtonLabel = (booking) => {
 };
 
 const Treatment = () => {
+  const navigate = useNavigate();
   const { category, subcategory, id } = useParams();
   // Using new call signature: (categoryId, subId, treatmentId)
   const treatment = getTreatment(category, subcategory, id);
@@ -121,7 +122,12 @@ const Treatment = () => {
   const canonicalUrl = `https://www.ulanda.co.uk/treatments/${category}/${subcategory}/${id}`;
 
   const Book = () => {
-    window.open('https://ulanda-100633.square.site/', '_blank');
+    const label = treatment.booking ? getBookingButtonLabel(treatment.booking) : 'Book Consultation';
+    if (label === 'Book Consultation') {
+      navigate('/book-consultation');
+    } else {
+      window.open('https://ulanda-100633.square.site/', '_blank');
+    }
   };
 
   return (
@@ -862,16 +868,14 @@ const Treatment = () => {
                 </div>
               )}
 
-              <a
-                href="https://ulanda-100633.square.site/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => Book()}
                 className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
                 {treatment.booking
                   ? getBookingButtonLabel(treatment.booking)
                   : "Book Consultation"}
-              </a>
+              </button>
             </div>
           </section>
         )}

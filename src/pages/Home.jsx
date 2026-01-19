@@ -100,7 +100,7 @@ export default function Home() {
               </HeroText>
             </div>
             <FadeInWhenVisible delay={0.6}>
-              <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Book Your Consultation</a>
+              <Link to="/book-consultation" className="btn btn-primary">Book Your Consultation</Link>
             </FadeInWhenVisible>
           </div>
         </div>

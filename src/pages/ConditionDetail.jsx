@@ -63,14 +63,20 @@ export default function ConditionDetail() {
               </div>
 
               <FadeInWhenVisible delay={0.4}>
-              <a 
-                href={condition.hero.buttonLink || "https://ulanda-100633.square.site/"} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                {condition.hero.buttonText}
-              </a>
+              {condition.hero.buttonText === 'Book Consultation' ? (
+                <Link to="/book-consultation" className="btn btn-primary">
+                  {condition.hero.buttonText}
+                </Link>
+              ) : (
+                <a 
+                  href={condition.hero.buttonLink || "https://ulanda-100633.square.site/"} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  {condition.hero.buttonText}
+                </a>
+              )}
               </FadeInWhenVisible>
             </div>
 
@@ -405,14 +411,20 @@ export default function ConditionDetail() {
               {condition.cta.description}
             </p>
 
-            <a 
-              href={condition.cta.buttonLink}
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-primary text-white px-8 py-4 rounded text-lg font-medium hover:bg-[#4A3024] transition-colors duration-300"
-            >
-              {condition.cta.buttonText}
-            </a>
+            {condition.cta.buttonText === 'Book Consultation' ? (
+              <Link to="/book-consultation" className="inline-block bg-primary text-white px-8 py-4 rounded text-lg font-medium hover:bg-[#4A3024] transition-colors duration-300">
+                {condition.cta.buttonText}
+              </Link>
+            ) : (
+              <a 
+                href={condition.cta.buttonLink}
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-primary text-white px-8 py-4 rounded text-lg font-medium hover:bg-[#4A3024] transition-colors duration-300"
+              >
+                {condition.cta.buttonText}
+              </a>
+            )}
           </div>
         </section>
       </div>
