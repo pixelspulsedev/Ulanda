@@ -93,7 +93,7 @@ export default function Navbar() {
               onClick={closeDropdown}
               className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
             >
-              Conditions <ChevronDown />
+              Skin Conditions <ChevronDown />
             </NavLink>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-64 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {[
@@ -237,7 +237,7 @@ export default function Navbar() {
                         setActiveMobileMenu(activeMobileMenu === 'conditions' ? null : 'conditions');
                       }}
                     >
-                      Conditions
+                      Skin Conditions
                     </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
                       <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
