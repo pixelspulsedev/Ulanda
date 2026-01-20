@@ -19,6 +19,7 @@ export const programmes = [
       ],
       includes: 'PN, PRP (optional), skin boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.',
       image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop',
+      placeholderUrl: 'https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200',
     },
     content: {
       intro: [
@@ -218,6 +219,7 @@ export const programmes = [
       ],
       includes: 'Polynucleotides, Mesotherapy, specialized peels.',
       image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop',
+      placeholderUrl: 'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200',
     },
     content: {
       intro: [
@@ -416,6 +418,7 @@ export const programmes = [
       ],
       includes: 'Biostimulators, Threads, Polynucleotides, Skin Boosters, LED, Medical Facials',
       image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop',
+      placeholderUrl: 'https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200',
     },
     content: {
       intro: [
@@ -617,6 +620,7 @@ export const programmes = [
       ],
       includes: 'PN, Skin Boosters, Microneedling, LED, Peels, Internal Radiate Support (IV/IM)',
       image: 'https://images.unsplash.com/photo-1588510904409-47e2f767540d?q=80&w=1887&auto=format&fit=crop',
+      placeholderUrl: 'https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200',
     },
     content: {
       intro: [
@@ -815,6 +819,7 @@ export const programmes = [
       ],
       includes: 'Body Contouring, Metabolic Reset, Skin Tightening, Biostimulators, Radiate IM Support',
       image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop',
+      placeholderUrl: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200',
     },
     content: {
       intro: [

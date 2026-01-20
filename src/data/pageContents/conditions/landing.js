@@ -8,6 +8,7 @@ export const conditionsLandingData = {
       "Whether you’re experiencing menopause-related skin changes, texture concerns, under-eye issues or low energy, our approach is precise, personalised and medically led."
     ],
     image: "/assets/img/conditions/landing/hero_conditions_landing.jpg",
+    placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1920",
   },
   categories: [
     {
@@ -35,6 +36,7 @@ export const conditionsLandingData = {
       color: 'bg-blue-50/50',
       dot: '🔵',
       image: '/assets/img/conditions/landing/pigmentation_skin_tone.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       title: 'Menopause &',
@@ -60,6 +62,7 @@ export const conditionsLandingData = {
       color: 'bg-purple-50/50',
       dot: '🟣',
       image: '/assets/img/conditions/landing/menopause_hormone_changes.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       title: 'Eye Area',
@@ -85,6 +88,7 @@ export const conditionsLandingData = {
       color: 'bg-yellow-50/50',
       dot: '🟡',
       image: '/assets/img/conditions/landing/eye_area_conditions.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       title: 'Age &',
@@ -110,6 +114,7 @@ export const conditionsLandingData = {
       color: 'bg-rose-50/50',
       dot: '🔴',
       image: '/assets/img/conditions/landing/age_skin_regeneration.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       title: 'Hormonal',
@@ -134,6 +139,7 @@ export const conditionsLandingData = {
       color: 'bg-indigo-50/50',
       dot: '🟣',
       image: '/assets/img/conditions/landing/hormonal_skin_conditions.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       title: 'Body Skin &',
@@ -157,6 +163,7 @@ export const conditionsLandingData = {
       color: 'bg-green-50/50',
       dot: '🟢',
       image: '/assets/img/conditions/landing/body_skin_structural.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       title: 'Internal',
@@ -183,6 +190,7 @@ export const conditionsLandingData = {
       color: 'bg-orange-50/50',
       dot: '🟠',
       image: '/assets/img/conditions/landing/internal_wellness.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
   ]
 };

@@ -100,7 +100,7 @@ const pathwaysMap = {
     perfectFor:
       'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.',
     image:
-      'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   renew: {
     title: (
@@ -124,7 +124,7 @@ const pathwaysMap = {
     perfectFor:
       'Fine lines, thinning skin, early collagen loss, tired-looking eyes, long-term glow.',
     image:
-      'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=800&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   restore: {
     title: (
@@ -147,7 +147,7 @@ const pathwaysMap = {
     perfectFor:
       'Jawline softening, mid-face changes, neck laxity, postpartum body changes.',
     image:
-      'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   radiate: {
     title: (
@@ -180,7 +180,7 @@ const pathwaysMap = {
     perfectFor:
       'Fatigue, poor sleep, slow metabolism, inflammation, hormone-transition symptoms.',
     image:
-      'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
 };
 
@@ -297,7 +297,7 @@ export default function About() {
           </div>
           <div className="aspect-video w-full overflow-hidden">
             <img
-                src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920"
                 alt=""
                 fetchpriority="high"
                 className="w-full h-full object-cover"
@@ -533,14 +533,14 @@ export default function About() {
               </RevealImage>
               <RevealImage className="absolute w-full max-w-xs aspect-square top-20 left-8">
                 <img
-                    src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
+                    src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=800"
                     alt="Women at every stage"
                     className="w-full h-full object-cover"
                 />
               </RevealImage>
               <RevealImage className="hidden md:block absolute w-full max-w-xs aspect-square bottom-20 right-8">
                 <img
-                    src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop"
+                    src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=800"
                     alt="Women at every stage"
                     className="w-full h-full object-cover"
                 />

@@ -59,7 +59,7 @@ export default function Programme() {
       <section className="relative min-h-screen">
         <div className="absolute inset-0 w-full h-full overflow-hidden">
           <img
-            src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+            src="https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Ulanda Programme"
             className="w-full h-full object-cover object-right"
             fetchpriority="high"
@@ -116,33 +116,6 @@ export default function Programme() {
               </div>
             </FadeInWhenVisible>
 
-            <div className="md:hidden relative my-8 mt-12 order-1 md:order-2 flex justify-center">
-              {/* Background decorative element (Accent Image) */}
-              <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
-                <RevealImage className="w-full h-full">
-                  <img
-                    src="/assets/img/ui/accent.webp"
-                    alt="Decorative shadow"
-                    className="w-full h-full object-cover opacity-60 mix-blend-multiply"
-                  />
-                </RevealImage>
-              </div>
-
-              {/* Main Image */}
-              <div className="relative rounded-t-full overflow-hidden shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
-                <RevealImage className="w-full h-full">
-                  <img
-                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
-                    alt="Facial treatment"
-                    width="1200"
-                    height="1600"
-                    className="w-full h-full object-cover"
-                    fetchpriority="high"
-                  />
-                </RevealImage>
-              </div>
-            </div>
-
             <FadeInWhenVisible>
               <ul className="space-y-3 font-sans text-base-content/90 md:text-lg mb-8">
                 {[
@@ -178,33 +151,6 @@ export default function Programme() {
               </p>
             </FadeInWhenVisible>
           </div>
-
-          <div className="hidden relative order-1 md:order-2 md:flex justify-center">
-            {/* Background decorative element (Accent Image) */}
-            <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
-              <RevealImage className="w-full h-full">
-                <img
-                  src="/assets/img/ui/accent.webp"
-                  alt="Decorative shadow"
-                  className="w-full h-full object-cover opacity-60 mix-blend-multiply"
-                />
-              </RevealImage>
-            </div>
-
-            {/* Main Image */}
-            <div className="relative rounded-t-full overflow-hidden shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
-              <RevealImage className="w-full h-full">
-                <img
-                  src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
-                  alt="Facial treatment"
-                  width="1200"
-                  height="1600"
-                  className="w-full h-full object-cover"
-                  fetchpriority="high"
-                />
-              </RevealImage>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -212,14 +158,7 @@ export default function Programme() {
       <section className="py-20 px-4 md:px-8 bg-base-100 overflow-hidden">
         <div className="max-w-6xl mx-auto grid md:grid-cols-[1fr,1.1fr] gap-12 items-center">
           <div className="relative w-full mx-auto md:mx-0">
-            <RevealImage className="w-full h-full">
-              <img
-                src="/assets/img/ui/accent.webp"
-                alt=""
-                className="max-w-sm aspect-[4/5]"
-              />
-            </RevealImage>
-            <div className="absolute left-28 top-1/2 -translate-y-1/2 bg-primary/10 backdrop-blur-xl px-12 py-10">
+            <div className="bg-primary/10 backdrop-blur-xl px-12 py-10">
               <p className="text-3xl md:text-3xl font-serif text-primary">
                 Why Programmes?
               </p>
@@ -266,35 +205,6 @@ export default function Programme() {
                 {/* Left Content */}
                 <div className=" flex justify-center w-full ">
                   <div className=" w-full px-4">
-                    <div className="flex-1 w-full relative flex justify-center pb-12">
-                      {/* Decorative Background */}
-                      <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                      <div className="relative w-full max-w-sm aspect-[4/5]">
-                        {/* Accent / shadow image (background) */}
-                        <div className="absolute top-20 right-20 w-full h-full z-0">
-                          <RevealImage className="w-full h-full">
-                            <img
-                              src="/assets/img/ui/accent.webp"
-                              alt="Decorative shadow"
-                              className="w-full h-full object-cover"
-                            />
-                          </RevealImage>
-                        </div>
-
-                        {/* Main image (foreground) */}
-                        <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                          <RevealImage className="w-full h-full">
-                            <img
-                              src={programme.summary.image}
-                              alt=""
-                              className="w-full h-full object-cover"
-                            />
-                          </RevealImage>
-                        </div>
-                      </div>
-                    </div>
-
                     <FadeInWhenVisible>
                       <h2 className="mb-4 mt-12 text-2xl font-serif text-base-content">
                         {programme.title}
@@ -374,36 +284,6 @@ export default function Programme() {
                       </FadeInWhenVisible>
                     </div>
                   </div>
-
-                  {/* Right Image */}
-                  <div className="flex-1 max-w-sm  relative flex justify-center md:justify-end mt-12 md:mt-0">
-                    {/* Decorative Background */}
-                    <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                    <div className="relative w-full max-w-sm aspect-[4/5]">
-                      {/* Accent / shadow image (background) */}
-                      <div className="absolute top-20 right-10 lg:right-20 w-full h-full z-0">
-                        <RevealImage className="w-full h-full">
-                          <img
-                            src="/assets/img/ui/accent.webp"
-                            alt="Decorative shadow"
-                            className="w-full h-full object-cover"
-                          />
-                        </RevealImage>
-                      </div>
-
-                      {/* Main image (foreground) */}
-                      <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                        <RevealImage className="w-full h-full">
-                          <img
-                            src={programme.summary.image}
-                            alt=""
-                            className="w-full h-full object-cover"
-                          />
-                        </RevealImage>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </section>
             ) : (
@@ -445,36 +325,6 @@ export default function Programme() {
                           Explore Programme
                         </Link>
                       </FadeInWhenVisible>
-                    </div>
-                  </div>
-
-                  {/* Right Image */}
-                  <div className="flex-1 max-w-sm  relative flex justify-center md:justify-start mt-12 md:mt-0">
-                    {/* Decorative Background */}
-                    <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                    <div className="relative w-full max-w-sm aspect-[4/5]">
-                      {/* Accent / shadow image (background) */}
-                      <div className="absolute top-20 left-10 lg:left-20 w-full h-full z-0">
-                        <RevealImage className="w-full h-full">
-                          <img
-                            src="/assets/img/ui/accent.webp"
-                            alt="Decorative shadow"
-                            className="w-full h-full object-cover"
-                          />
-                        </RevealImage>
-                      </div>
-
-                      {/* Main image (foreground) */}
-                      <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                        <RevealImage className="w-full h-full">
-                          <img
-                            src={programme.summary.image}
-                            alt=""
-                            className="w-full h-full object-cover"
-                          />
-                        </RevealImage>
-                      </div>
                     </div>
                   </div>
                 </div>

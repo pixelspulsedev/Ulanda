@@ -56,7 +56,7 @@ export default function TreatmentCategory() {
         <section className="relative min-h-[70vh] md:min-h-[70vh] flex items-center">
              <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
                 <img
-                  src={category.image}
+                  src={category.placeholderUrl || category.image}
                   alt={category.title}
                   className="w-full h-full object-cover brightness-75"
                 />
@@ -87,7 +87,7 @@ export default function TreatmentCategory() {
                     <Link key={key} to={`/treatments/${category.id}/${key}`} className="group block h-full">
                         <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-base-200">
                              <div className="h-64 overflow-hidden relative">
-                                 <img src={sub.image || category.image} alt={sub.title} className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                                 <img src={sub.placeholderUrl || sub.image || category.placeholderUrl || category.image} alt={sub.title} className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
                                  <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors" />
                              </div>
                              <div className="p-8 flex-grow flex flex-col items-start">

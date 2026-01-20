@@ -326,7 +326,7 @@ const Treatment = () => {
             {/* Arch Image */}
             <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
               <img
-                src={treatment.image}
+                src={treatment.placeholderUrl || treatment.image}
                 alt={`${treatment.title} ${treatment.highlight}`}
                 className="w-full h-full object-cover"
                 fetchpriority="high"
@@ -402,46 +402,6 @@ const Treatment = () => {
                   </ul>
                 </div>
               </FadeInWhenVisible>
-
-              {/* Right Content - Image with Overlay */}
-              <div className="relative mt-8 md:mt-0 flex justify-end">
-                {/* Image Container */}
-                <RevealImage className="w-full max-w-sm aspect-[4/5] relative z-0">
-                  <img
-                    src={treatment.introduction.image}
-                    alt="Treatment Introduction"
-                    className="w-full h-full object-cover rounded-sm"
-                  />
-                </RevealImage>
-
-                {/* Overlay Box */}
-                {treatment.introduction.highlightBox && (
-                  <div className="absolute top-1/2 left-0 -translate-y-1/2 w-3/5 bg-secondary/46 backdrop-blur-xl p-6 md:p-8 z-10">
-                    <div className="space-y-6 text-primary">
-                      {treatment.introduction.highlightBox.text1 && (
-                        <p className=" leading-relaxed">
-                          {treatment.introduction.highlightBox.text1}
-                        </p>
-                      )}
-                      <p className=" leading-relaxed font-medium">
-                        {treatment.introduction.highlightBox.text2 &&
-                          treatment.introduction.highlightBox.text2
-                            .split('30–65+')
-                            .map((part, i, arr) => (
-                              <React.Fragment key={i}>
-                                {part}
-                                {i < arr.length - 1 && (
-                                  <span className="font-bold text-primary">
-                                    30–65+
-                                  </span>
-                                )}
-                              </React.Fragment>
-                            ))}
-                      </p>
-                    </div>
-                  </div>
-                )}
-              </div>
             </div>
           </section>
         )}
@@ -449,31 +409,19 @@ const Treatment = () => {
         {/* Internal Support Section */}
         {treatment.internalSupport && (
           <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              {/* Left Content - Image with Text Overlay */}
-              <div className="relative w-full">
-                {/* Background Image */}
-                <RevealImage className="w-full h-full">
-                  <img
-                    src={treatment.internalSupport.image}
-                    alt="Background"
-                    className="w-full h-full object-cover aspect-square md:aspect-square max-w-sm"
-                  />
-                </RevealImage>
-
-                {/* Overlay Text Box */}
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-secondary/60 backdrop-blur-xl p-8 md:p-12 text-center w-3/4 ">
-                  <h2 className="text-3xl md:text-4xl font-serif text-primary">
-                    {treatment.internalSupport.title} <br />
-                    <span className="italic">
-                      {treatment.internalSupport.titleSuffix}
-                    </span>
-                  </h2>
-                </div>
+            <div className="max-w-4xl mx-auto">
+              {/* Title */}
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content">
+                  {treatment.internalSupport.title}{' '}
+                  <span className="italic text-primary">
+                    {treatment.internalSupport.titleSuffix}
+                  </span>
+                </h2>
               </div>
 
-              {/* Right Content - List */}
-              <div className="space-y-4">
+              {/* Content - List */}
+              <div className="grid md:grid-cols-2 gap-6">
                 {treatment.internalSupport.points.map((point, idx) => (
                   <div key={idx} className="flex items-start">
                     {/* Checkmark Icon */}
@@ -507,7 +455,7 @@ const Treatment = () => {
           </section>
         )}
 
-        {/* Ingredients Section */}
+        {/* Ingredients Section */}}
         {treatment.ingredients && (
           <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
             <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
@@ -595,10 +543,10 @@ const Treatment = () => {
         {/* Ideal For Section */}
         {treatment.idealFor && (
           <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              {/* Left Content */}
+            <div className="max-w-4xl mx-auto">
+              {/* Content */}
               <div className="space-y-8">
-                <h2 className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
+                <h2 className="text-3xl md:text-5xl font-serif text-base-content leading-tight text-center">
                   {treatment.idealFor.title}{' '}
                   <span className="italic text-primary font-serif">
                     {treatment.idealFor.highlight}
@@ -606,38 +554,17 @@ const Treatment = () => {
                   {treatment.idealFor.titleSuffix}
                 </h2>
 
-                <ul className="space-y-1">
+                <ul className="grid md:grid-cols-2 gap-4">
                   {treatment.idealFor.items.map((item, idx) => (
                     <li
                       key={idx}
                       className="flex items-start gap-3 text-lg text-base-content/80 font-light"
                     >
-                      <span className="text-base-content mt-1">✓</span>
+                      <span className="text-primary mt-1">✓</span>
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
-              </div>
-
-              {/* Right Image */}
-              <div className="relative flex justify-center">
-                <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
-                  <RevealImage className="w-full h-full">
-                    <img
-                      src="/assets/img/ui/accent.webp"
-                      alt="Decorative shadow"
-                      className="w-full h-full object-cover"
-                    />
-                  </RevealImage>
-                </div>
-                {/* Arch Image */}
-                <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
-                  <img
-                    src={treatment.image}
-                    alt={`${treatment.title} ${treatment.highlight}`}
-                    className="w-full h-full object-cover"
-                  />
-                </RevealImage>
               </div>
             </div>
           </section>

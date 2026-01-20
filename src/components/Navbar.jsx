@@ -115,7 +115,7 @@ export default function Navbar() {
           {/* Company Dropdown */}
           <div className="dropdown dropdown-hover group px-2">
             <div role="button" className={`flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 text-base-content/80 cursor-pointer`}>
-              Company <ChevronDown />
+              Who We Are <ChevronDown />
             </div>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-48 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {[
@@ -123,7 +123,7 @@ export default function Navbar() {
                 { name: 'Founder', path: '/about/our-founder' },
                 { name: 'Philosophy', path: '/about/our-philosophy' },
                 { name: 'Manifesto', path: '/about/manifesto' },
-                { name: 'Blogs', path: '/blogs' }
+                { name: 'Articles', path: '/blogs' }
               ].map((item) => (
                 <li key={item.name}>
                   <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
@@ -258,14 +258,14 @@ export default function Navbar() {
                         setActiveMobileMenu(activeMobileMenu === 'company' ? null : 'company');
                       }}
                     >
-                      Company
+                      Who We Are
                     </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
                       <li><Link to="/about/our-story" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">About</Link></li>
                       <li><Link to="/about/our-founder" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Founder</Link></li>
                       <li><Link to="/about/our-philosophy" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Philosophy</Link></li>
                       <li><Link to="/about/manifesto" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Manifesto</Link></li>
-                      <li><Link to="/blogs" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Blogs</Link></li>
+                      <li><Link to="/blogs" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Articles</Link></li>
                     </ul>
                   </details>
                 </li>

@@ -27,7 +27,7 @@ export default function ConditionsLanding() {
         <section className="relative min-h-[85vh] w-full flex items-center">
             <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
-              src={hero.image}
+              src={hero.placeholderUrl || hero.image}
               alt="Ulanda Conditions"
               width="1200"
               height="1600"
@@ -148,7 +148,7 @@ export default function ConditionsLanding() {
                             {/* Main image (foreground) */}
                             <div className="relative z-10 w-full h-full overflow-hidden shadow-2xl rounded-sm">
                               <img
-                                src={cat.image}
+                                src={cat.placeholderUrl || cat.image}
                                 alt={cat.title}
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                               />
@@ -244,7 +244,7 @@ export default function ConditionsLanding() {
                         {/* Main image (foreground) */}
                         <div className="relative z-10 w-full h-full overflow-hidden shadow-2xl rounded-sm">
                           <img
-                            src={cat.image}
+                            src={cat.placeholderUrl || cat.image}
                             alt={cat.title}
                             className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                             fetchpriority={idx === 0 ? 'high' : undefined}

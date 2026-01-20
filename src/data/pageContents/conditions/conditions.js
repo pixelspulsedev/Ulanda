@@ -15,7 +15,8 @@ export const conditions = [
         "It is a biological decline in collagen, elastin, hydration, cell turnover and structural support — accelerated for women through perimenopause and menopause.",
         "At ULANDA, we specialise in regenerative solutions that rebuild the skin’s architecture from the inside out, restoring firmness, radiance and youthful strength at every life stage."
       ],
-      image: "/assets/img/conditions/age-and-regeneration-hero.webp"
+      image: "/assets/img/conditions/age-and-regeneration-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "WHy Skin Ages -",
@@ -67,6 +68,7 @@ export const conditions = [
           description: "First signs around eyes & mouth. Caused by early collagen decline + dehydration.",
           text: "Best ULANDA treatments: Skin Boosters, PN, RF Microneedling, peels.",
           image: "/assets/img/conditions/age-and-regeneration-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/age-and-regeneration/fine-lines-wrinkles'
         },
         {
@@ -75,6 +77,7 @@ export const conditions = [
           description: "Lack of radiance and moisture due to slow cell turnover and barrier impairment.",
           text: "Best ULANDA treatments: HydraFacial, Skin Boosters, BioRePeel.",
           image: "/assets/img/conditions/age-and-regeneration-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/pigmentation-and-skin-tone/dull-dehydrated-skin'
         },
         {
@@ -83,6 +86,7 @@ export const conditions = [
           description: "Buildup of dead cells and collagen irregularities creating a rough surface feel.",
           text: "Best ULANDA treatments: Microneedling, Peels, Resurfacing.",
           image: "/assets/img/conditions/age-and-regeneration-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/age-and-regeneration/uneven-texture'
         },
         {
@@ -91,6 +95,7 @@ export const conditions = [
           description: "Loss of elasticity around the pore wall causes them to dilate and appear larger.",
           text: "Best ULANDA treatments: PN, RF Microneedling, Peels.",
           image: "/assets/img/conditions/age-and-regeneration-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/age-and-regeneration/enlarged-pores'
         }
       ]
@@ -115,6 +120,7 @@ export const conditions = [
             'LED',
           ],
           image: '/assets/img/conditions/age-and-regeneration/pathway_1.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Refresh",
@@ -130,6 +136,7 @@ export const conditions = [
             'LED',
           ],
           image: '/assets/img/conditions/age-and-regeneration/pathway_2.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
         }
       ]
     },
@@ -175,7 +182,8 @@ export const conditions = [
         'Integration of skin + structure + hormones + wellness',
         'Long-lasting, natural rejuvenation',
       ],
-      image: "/assets/img/conditions/age-and-regeneration-hero.webp"
+      image: "/assets/img/conditions/age-and-regeneration-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
       title: "Start Your",
@@ -203,7 +211,8 @@ export const conditions = [
         "At ULANDA, we specialise in regenerative body treatments that rebuild strength, elasticity and smoothness from the cellular and connective tissue levels, creating natural and long-lasting improvements.",
         "This category covers the four major body concerns most common in women 30+, postpartum, perimenopause and menopause."
       ],
-      image: "/assets/img/conditions/body-skin-structural-hero.webp"
+      image: "/assets/img/conditions/body-skin-structural-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "Why Body Skin Changes Happen —",
@@ -254,6 +263,7 @@ export const conditions = [
           description: "Loose, crepey or sagging skin on the arms, stomach, thighs or buttocks. Caused by collagen loss, postpartum stretching, weight fluctuation or menopause.",
           text: "Best solutions: PN, RF Microneedling, Biostimulators, Threads, IV support.",
           image: "/assets/img/conditions/body-skin-structural-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/body-skin-structural/body-skin-laxity'
         },
         {
@@ -262,6 +272,7 @@ export const conditions = [
           description: "Connective tissue dimpling — not a fat problem. True cellulite is caused by fibrous tethering, collagen thinning and inflammation.",
           text: "Best solutions: Biostimulators, PN Body, RF Microneedling, PRP, Threads.",
           image: "/assets/img/conditions/body-skin-structural-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/body-skin-structural/cellulite'
         },
         {
@@ -270,6 +281,7 @@ export const conditions = [
           description: "Collagen tears deep in the dermis — not a surface issue. Needs regenerative dermal repair, not creams.",
           text: "Best solutions: RF Microneedling, PN, PRP, Biostimulators, gentle peels.",
           image: "/assets/img/conditions/body-skin-structural-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/body-skin-structural/stretch-marks'
         },
         {
@@ -278,6 +290,7 @@ export const conditions = [
           description: "Loose skin, crepiness, deflation and texture changes after pregnancy or weight reduction. Common in abdomen, thighs, breasts, arms.",
           text: "Best solutions: RF Microneedling, PN, Biostimulators, Threads, IV support.",
           image: "/assets/img/conditions/body-skin-structural-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/body-skin-structural/post-weightloss-postpartum'
         }
       ]
@@ -301,6 +314,7 @@ export const conditions = [
             'Enzyme therapy',
           ],
           image: '/assets/img/conditions/body-skin-structural/pathway_1.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Restore",
@@ -313,6 +327,7 @@ export const conditions = [
             'Targeted volume restoration (where needed)',
           ],
           image: '/assets/img/conditions/body-skin-structural/pathway_2.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Refresh",
@@ -324,6 +339,7 @@ export const conditions = [
             'Hydration boosters',
           ],
           image: '/assets/img/conditions/body-skin-structural/pathway_3.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Radiate Wellness",
@@ -338,6 +354,7 @@ export const conditions = [
             'Medical weight management',
           ],
           image: '/assets/img/conditions/body-skin-structural/pathway_4.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
         }
       ]
     },
@@ -354,7 +371,8 @@ export const conditions = [
         'Integrated internal wellness as standard',
         'Focus on long-term firming & smoothing',
       ],
-      image: "/assets/img/conditions/body-skin-structural-hero.webp"
+      image: "/assets/img/conditions/body-skin-structural-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
       title: "Start Your",
@@ -383,7 +401,8 @@ export const conditions = [
         "The truth: The under-eye area requires the most careful, regenerative, biologically intelligent treatment strategy — not heavy correction.",
         "This is why ULANDA specialises in cellular & structural under-eye regeneration, combining PN, PRP, microneedling, boosters, threads and internal support to rebuild the tissues safely and naturally."
       ],
-      image: "/assets/img/conditions/eye-area-hero.webp"
+      image: "/assets/img/conditions/eye-area-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "Why the Under-Eye Area Ages Faster —",
@@ -434,6 +453,7 @@ export const conditions = [
           description: "Pigmentation + thin skin + vascular shadowing. Requires PN, PRP, peels, and internal support — not thick concealer or harsh lasers.",
           text: "Best solutions: PN, PRP, peels, and internal support.",
           image: "/assets/img/conditions/eye-area-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/eye-area/dark-circles'
         },
         {
@@ -442,6 +462,7 @@ export const conditions = [
           description: "Fat pad descent + ligament weakening. Requires PN, PRP, threads or biostimulators — filler only in selected cases.",
           text: "Best solutions: PN, PRP, threads or biostimulators.",
           image: "/assets/img/conditions/eye-area-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/eye-area/tear-troughs'
         },
         {
@@ -450,6 +471,7 @@ export const conditions = [
           description: "Thinning + collagen loss + hormonal decline. PN, RF microneedling, PRP and skin boosters restore strength and thickness.",
           text: "Best solutions: PN, RF microneedling, PRP and skin boosters.",
           image: "/assets/img/conditions/eye-area-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/eye-area/crepey-under-eye'
         },
         {
@@ -458,6 +480,7 @@ export const conditions = [
           description: "Melanin, blood vessels, inflammation, or all three. Requires a pigmentation-aware plan (peels + PN + glutathione IV + barrier repair).",
           text: "Best solutions: Peels, PN, Glutathione IV, Barrier repair.",
           image: "/assets/img/conditions/eye-area-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/eye-area/under-eye-pigmentation'
         },
         {
@@ -466,6 +489,7 @@ export const conditions = [
           description: "Lymphatic congestion + fat herniation + inflammation. Needs gentle de-puffing, PN strengthening, internal support — not filler.",
           text: "Best solutions: Gentle de-puffing, PN strengthening, internal support.",
           image: "/assets/img/conditions/eye-area-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/eye-area/under-eye-puffiness'
         }
       ]
@@ -491,6 +515,7 @@ export const conditions = [
             'Oxygen/Vitamin infusion',
           ],
           image: '/assets/img/conditions/eye-area/pathway_1.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Restore",
@@ -503,6 +528,7 @@ export const conditions = [
             'Collagen therapy',
           ],
           image: '/assets/img/conditions/eye-area/pathway_2.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Refresh",
@@ -515,6 +541,7 @@ export const conditions = [
             'Hydration boosters',
           ],
           image: '/assets/img/conditions/eye-area/pathway_3.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Radiate Wellness",
@@ -545,7 +572,8 @@ export const conditions = [
         'Serving Ware, Hertford, Broxbourne, Stanstead Abbotts, Hoddesdon & surrounding SG12 areas',
         'Integrated approach: skin + structure + wellness',
       ],
-      image: "/assets/img/conditions/eye-area-hero.webp"
+      image: "/assets/img/conditions/eye-area-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
       title: "Start Your",
@@ -573,7 +601,8 @@ export const conditions = [
         "This is the reality of oestrogen, progesterone, collagen and barrier decline — not bad skincare.",
         "At ULANDA, menopause skincare is NOT anti-wrinkle treatments. It is cellular regeneration, dermal rebuilding, internal support, and hormone-aware treatment mapping."
       ],
-      image: "/assets/img/conditions/menopause-hormone-skin-changes-hero.webp"
+      image: "/assets/img/conditions/menopause-hormone-skin-changes-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "Why Menopause Changes the Skin —",
@@ -619,6 +648,7 @@ export const conditions = [
           description: "Thinning, dryness, dullness, and slow repair caused by collagen collapse. Needs PN, biostimulation and internal support.",
           text: "Best solutions: PN, biostimulation and internal support.",
           image: "/assets/img/conditions/menopause-hormone-skin-changes-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/menopause-hormone-skin-changes/menopause-skin-decline'
         },
         {
@@ -627,6 +657,7 @@ export const conditions = [
           description: "Caused by bone loss, fat descent, collagen depletion and ligament weakening. Requires threads + biostimulators + facial contour regeneration.",
           text: "Best solutions: Threads, biostimulators, facial contour regeneration.",
           image: "/assets/img/conditions/menopause-hormone-skin-changes-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/menopause-hormone-skin-changes/jawline-softening'
         },
         {
@@ -635,6 +666,7 @@ export const conditions = [
           description: "One of the earliest and most visible hormone-related changes. PN, RF microneedling and CaHA biostimulators rebuild thin, fragile neck skin.",
           text: "Best solutions: PN, RF microneedling, CaHA biostimulators.",
           image: "/assets/img/conditions/menopause-hormone-skin-changes-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/menopause-hormone-skin-changes/neck-crepiness'
         },
         {
@@ -643,6 +675,7 @@ export const conditions = [
           description: "Uneven texture, enlarged pores, crepey areas — all linked to reduced HA + collagen. Needs boosters, PN, microneedling, BioRePeel.",
           text: "Best solutions: Boosters, PN, microneedling, BioRePeel.",
           image: "/assets/img/conditions/menopause-hormone-skin-changes-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/menopause-hormone-skin-changes/texture-decline'
         }
       ]
@@ -667,6 +700,7 @@ export const conditions = [
             'Enzyme therapy',
           ],
           image: '/assets/img/conditions/menopause-hormone-skin-changes/pathway_1.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Restore",
@@ -679,6 +713,7 @@ export const conditions = [
             'Volume harmonisation (natural fillers where appropriate)',
           ],
           image: '/assets/img/conditions/menopause-hormone-skin-changes/pathway_2.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Refresh",
@@ -691,6 +726,7 @@ export const conditions = [
             'Oxygen & vitamin infusion facials',
           ],
           image: '/assets/img/conditions/menopause-hormone-skin-changes/pathway_3.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Radiate",
@@ -705,6 +741,7 @@ export const conditions = [
             'Medical weight support',
           ],
           image: '/assets/img/conditions/menopause-hormone-skin-changes/pathway_4.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
         }
       ]
     },
@@ -722,7 +759,8 @@ export const conditions = [
         'Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & surrounding SG12 areas',
         'Focus on natural results, not over-filling or aggressive resurfacing',
       ],
-      image: "/assets/img/conditions/menopause-hormone-skin-changes-hero.webp"
+      image: "/assets/img/conditions/menopause-hormone-skin-changes-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
       title: "Start Your",
@@ -750,7 +788,8 @@ export const conditions = [
         "Why? Because pigmentation isn’t simply a “colour” issue — it’s a cellular regulation issue, driven by inflammation, hormones, sun exposure, melanocyte behaviour, and skin barrier health.",
         "At ULANDA, we treat pigmentation through regeneration, repair and hormonal-awareness, not aggressive destruction that worsens sensitivity."
       ],
-      image: "/assets/img/conditions/pigmentation-and-skin-tone-hero.webp"
+      image: "/assets/img/conditions/pigmentation-and-skin-tone-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "Why Pigmentation Happens —",
@@ -801,6 +840,7 @@ export const conditions = [
           description: "Sun-induced dark patches that deepen with age. Often caused by years of UV exposure + collagen breakdown + inflammation. Corrected through gentle exfoliation, PN, peels, and melanocyte-regulating treatments.",
           text: "Best solutions: Gentle exfoliation, PN, peels, melanocyte-regulating treatments.",
           image: "/assets/img/conditions/pigmentation-and-skin-tone-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/pigmentation-and-skin-tone/hyperpigmentation'
         },
         {
@@ -809,6 +849,7 @@ export const conditions = [
           description: "Hormonal pigmentation — needs precision, not aggression. Triggered by oestrogen, heat, UV, pregnancy or perimenopause. One of the most misunderstood conditions. ULANDA uses hormone-aware, regeneration-first protocols.",
           text: "Best solutions: Hormone-aware, regeneration-first protocols.",
           image: "/assets/img/conditions/pigmentation-and-skin-tone-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/pigmentation-and-skin-tone/melasma'
         },
         {
@@ -817,6 +858,7 @@ export const conditions = [
           description: "Dark marks left after acne, injury or irritation. Especially common in women with sensitive or reactive skin. Requires barrier repair + controlled regeneration.",
           text: "Best solutions: Barrier repair, controlled regeneration.",
           image: "/assets/img/conditions/pigmentation-and-skin-tone-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/pigmentation-and-skin-tone/post-inflammatory-pigmentation'
         },
         {
@@ -825,6 +867,7 @@ export const conditions = [
           description: "Surface-level tone irregularities linked to barrier damage and inflammation. Often worsened by over-exfoliation, retinoid misuse, and sensitivity. Treated through barrier repair, gentle resurfacing, and PN.",
           text: "Best solutions: Barrier repair, gentle resurfacing, PN.",
           image: "/assets/img/conditions/pigmentation-and-skin-tone-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/pigmentation-and-skin-tone/uneven-skin-tone'
         }
       ]
@@ -848,6 +891,7 @@ export const conditions = [
             'Skin Boosters for hydration + barrier repair',
           ],
           image: '/assets/img/conditions/pigmentation-and-skin-tone/pathway_1.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Restore",
@@ -859,6 +903,7 @@ export const conditions = [
             'Dermal rebuilding',
           ],
           image: '/assets/img/conditions/pigmentation-and-skin-tone/pathway_2.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Refresh",
@@ -871,6 +916,7 @@ export const conditions = [
             'LED Light Therapy (anti-inflammatory)',
           ],
           image: '/assets/img/conditions/pigmentation-and-skin-tone/pathway_3.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Radiate Wellness",
@@ -884,6 +930,7 @@ export const conditions = [
             'Stress & inflammation support',
           ],
           image: '/assets/img/conditions/pigmentation-and-skin-tone/pathway_4.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
         }
       ]
     },
@@ -901,7 +948,8 @@ export const conditions = [
         'Integrated internal + external approach',
         'Focus on long-term clarity, not temporary brightening',
       ],
-      image: "/assets/img/conditions/pigmentation-and-skin-tone-hero.webp"
+      image: "/assets/img/conditions/pigmentation-and-skin-tone-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
       title: "Start Your",
@@ -929,7 +977,8 @@ export const conditions = [
         "This is why the Radiate Wellness pillar is the foundation that supports every ULANDA treatment — from PN and biostimulators to microneedling and body contouring.",
         "When your internal health is optimised, your aesthetic results: Last longer, Look more natural, Heal faster, Build more collagen, Transform more visibly."
       ],
-      image: "/assets/img/conditions/internal-wellness-hero.webp"
+      image: "/assets/img/conditions/internal-wellness-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "Why Internal Wellness Matters for Regeneration —",
@@ -975,6 +1024,7 @@ export const conditions = [
           description: "When your cells are tired, your skin becomes tired. Fatigue reduces collagen production, slows healing, and dulls skin tone. ULANDA uses targeted wellness infusions such as NAD+ IV, B12 IM and Hydration IV to renew cellular energy and restore vitality.",
           text: "Best solutions: NAD+ IV, B12 IM, Hydration IV.",
           image: "/assets/img/conditions/internal-wellness-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/internal-wellness/fatigue-low-energy'
         },
         {
@@ -983,6 +1033,7 @@ export const conditions = [
           description: "A weak immune system disrupts skin repair. From inflammation to pigmentation to breakouts — low immunity affects everything. We use Glutathione IV, Immunity IV, Vitamin D IM and lifestyle optimisation to rebuild resilience.",
           text: "Best solutions: Glutathione IV, Immunity IV, Vitamin D IM.",
           image: "/assets/img/conditions/internal-wellness-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/internal-wellness/low-immunity'
         },
         {
@@ -999,6 +1050,7 @@ export const conditions = [
           description: "Cortisol is the biggest collagen killer. Chronic stress accelerates ageing, increases pigmentation and worsens texture. ULANDA combines Glutathione IV, NAD+ IV, Hydration IV with regenerative facials and PN to calm inflammation at its root.",
           text: "Best solutions: Glutathione IV, NAD+ IV, Hydration IV, regenerative facials, PN.",
           image: "/assets/img/conditions/internal-wellness-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/internal-wellness/stress-inflammation'
         },
         {
@@ -1028,6 +1080,7 @@ export const conditions = [
             'Skin Boosters',
           ],
           image: '/assets/img/conditions/internal-wellness/pathway_1.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Restore",
@@ -1038,6 +1091,7 @@ export const conditions = [
             'Threads',
           ],
           image: '/assets/img/conditions/internal-wellness/pathway_2.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Refresh",
@@ -1050,6 +1104,7 @@ export const conditions = [
             'BioRePeel',
           ],
           image: '/assets/img/conditions/internal-wellness/pathway_3.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
         }
       ]
     },
@@ -1066,7 +1121,8 @@ export const conditions = [
         'Integrated external + internal plans',
         'Safe & medically-supervised partner collaboration',
       ],
-      image: "/assets/img/conditions/internal-wellness-hero.webp"
+      image: "/assets/img/conditions/internal-wellness-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
       title: "Start Your",
@@ -1093,7 +1149,8 @@ export const conditions = [
         "Attempting to treat hormonal skin with standard ‘acne’ or ‘anti-ageing’ products often leads to irritation and damaged barriers.",
         "At ULANDA, we understand the hormone-skin connection. We don’t just treat the spot or the patch; we regulate the skin’s response to hormonal signalling through calming, strengthening and balancing regeneration."
       ],
-      image: "/assets/img/conditions/hormonal-skin-hero.webp"
+      image: "/assets/img/conditions/hormonal-skin-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "How Hormones Impact Skin —",
@@ -1139,6 +1196,7 @@ export const conditions = [
           description: "Deep, cystic or cyclical breakouts, typically on the jawline, chin and neck. Linked to cycle shifts or perimenopause. Needs barrier repair + anti-inflammatory regulation, not harsh scrubbing.",
           text: "Best solutions: Barrier repair, anti-inflammatory regulation.",
           image: "/assets/img/conditions/hormonal-skin-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/hormonal-skin/hormonal-breakouts'
         },
         {
@@ -1147,6 +1205,7 @@ export const conditions = [
           description: "Skin feels tight, reactive or stinging. A sign of estrogen deficiency or barrier collapse. Requires lipid restoration and cellular hydration.",
           text: "Best solutions: Lipid restoration, cellular hydration.",
           image: "/assets/img/conditions/hormonal-skin-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/hormonal-skin/dryness-sensitivity'
         },
         {
@@ -1155,6 +1214,7 @@ export const conditions = [
           description: "Melasma or dark patches that flare with heat, sun or stress. Driven by internal hormonal signalling. Requires melanocyte calming.",
           text: "Best solutions: Melanocyte calming.",
           image: "/assets/img/conditions/hormonal-skin-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/hormonal-skin/hormonal-pigmentation'
         },
         {
@@ -1163,6 +1223,7 @@ export const conditions = [
           description: "Softening jawline and reduced tone due to hormonal collagen drop. Can occur postpartum or in perimenopause.",
           text: "Best solutions: Structural support (Threads/Biostimulators).",
           image: "/assets/img/conditions/hormonal-skin-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/hormonal-skin/loss-of-definition'
         }
       ]
@@ -1184,6 +1245,7 @@ export const conditions = [
             'Skin Boosters (hydration)',
           ],
           image: '/assets/img/conditions/hormonal-skin/pathway_1.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Restore",
@@ -1194,6 +1256,7 @@ export const conditions = [
             'Threads',
           ],
           image: '/assets/img/conditions/hormonal-skin/pathway_2.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Refresh",
@@ -1205,6 +1268,7 @@ export const conditions = [
             'Oxygen Facials',
           ],
           image: '/assets/img/conditions/hormonal-skin/pathway_3.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
         },
         {
           highlight: "Radiate",
@@ -1217,6 +1281,7 @@ export const conditions = [
             'Stress/Cortisol Management',
           ],
           image: '/assets/img/conditions/hormonal-skin/pathway_4.jpg',
+          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
         }
       ]
     },
@@ -1232,7 +1297,8 @@ export const conditions = [
         'Serving Ware, Hertford, Hoddesdon, Broxbourne, SG12 & surrounding areas',
         'Safe, calming, long-term results',
       ],
-      image: "/assets/img/conditions/hormonal-skin-hero.webp"
+      image: "/assets/img/conditions/hormonal-skin-hero.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
       title: "Start Your",

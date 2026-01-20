@@ -350,32 +350,7 @@ export default function Conditions() {
                   {/* Left Content */}
                   <div className=" flex justify-center w-full ">
                     <div className=" w-full px-4">
-                      <div className="flex-1 w-full relative flex justify-center pb-12">
-                        {/* Decorative Background */}
-                        <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                        <div className="relative w-full max-w-sm aspect-[4/5]">
-                          {/* Accent / shadow image (background) */}
-                          <div className="absolute top-20 right-20 w-full h-full z-0">
-                            <img
-                              src="/assets/img/ui/accent.webp"
-                              alt="Decorative shadow"
-                              className="w-full h-full object-cover"
-                            />
-                          </div>
-
-                          {/* Main image (foreground) */}
-                          <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                            <img
-                              src={item.image}
-                              alt={`${item.highlight} ${item.titleSuffix}`}
-                              className="w-full h-full object-cover"
-                            />
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="mb-4 mt-12 text-2xl font-serif text-base-content">
+                      <div className="mb-4 text-2xl font-serif text-base-content">
                         <h1 className="text-3xl font-serif ">
                           <span className="italic font-light text-primary">{item.highlight}</span> {item.titleSuffix}
                         </h1>
@@ -435,36 +410,6 @@ export default function Conditions() {
                         </div>
                       </div>
                     </div>
-
-                    {/* Right Image */}
-                    <div className="flex-1 max-w-sm  relative flex justify-center md:justify-end mt-12 md:mt-0">
-                      {/* Decorative Background */}
-                      <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                      <div className="relative w-full max-w-sm aspect-[4/5]">
-                        {/* Accent / shadow image (background) */}
-                        <div className="absolute top-20 right-10 lg:right-20 w-full h-full z-0">
-                          <RevealImage className="w-full h-full">
-                          <img
-                            src="/assets/img/ui/accent.webp"
-                            alt="Decorative shadow"
-                            className="w-full h-full object-cover"
-                          />
-                          </RevealImage>
-                        </div>
-
-                        {/* Main image (foreground) */}
-                        <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                          <RevealImage className="w-full h-full">
-                          <img
-                            src={item.image}
-                            alt={`${item.highlight} ${item.titleSuffix}`}
-                            className="w-full h-full object-cover"
-                          />
-                          </RevealImage>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </section>
               ) : (
@@ -493,36 +438,6 @@ export default function Conditions() {
                           {item.constent.map((c, idx) => (
                             <p key={idx}>{c}</p>
                           ))}
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Right Image */}
-                    <div className="flex-1 max-w-sm  relative flex justify-center md:justify-start mt-12 md:mt-0">
-                      {/* Decorative Background */}
-                      <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                      <div className="relative w-full max-w-sm aspect-[4/5]">
-                        {/* Accent / shadow image (background) */}
-                        <div className="absolute top-20 left-10 lg:left-20 w-full h-full z-0">
-                          <RevealImage className="w-full h-full">
-                          <img
-                            src="/assets/img/ui/accent.webp"
-                            alt="Decorative shadow"
-                            className="w-full h-full object-cover"
-                          />
-                          </RevealImage>
-                        </div>
-
-                        {/* Main image (foreground) */}
-                        <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                          <RevealImage className="w-full h-full">
-                          <img
-                            src={item.image}
-                            alt={`${item.highlight} ${item.titleSuffix}`}
-                            className="w-full h-full object-cover"
-                          />
-                          </RevealImage>
                         </div>
                       </div>
                     </div>
@@ -614,33 +529,6 @@ export default function Conditions() {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Image Content */}
-            <div className="flex-1 relative w-full max-w-sm flex justify-center md:justify-end">
-              <div className="relative w-full max-w-sm aspect-[4/5]">
-                {/* Accent / shadow image (background) */}
-                <div className="absolute -top-12 -right-12 w-full h-full z-0">
-                  <RevealImage className="w-full h-full">
-                  <img
-                    src="/assets/img/ui/accent.webp"
-                    alt="Decorative shadow"
-                    className="w-full h-full object-cover opacity-50"
-                  />
-                  </RevealImage>
-                </div>
-
-                {/* Main image (foreground) */}
-                <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                  <RevealImage className="w-full h-full">
-                  <img
-                    src={condition.whyChoose.image}
-                    alt="Facial Treatment at ULANDA"
-                    className="w-full h-full object-cover"
-                  />
-                  </RevealImage>
-                </div>
-              </div>
             </div>
           </div>
         </section>

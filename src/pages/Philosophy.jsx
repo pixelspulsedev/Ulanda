@@ -74,7 +74,7 @@ export default function Philosophy() {
       perfectFor:
         'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.',
       image:
-        'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop',
+        'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=2070',
     },
     renew: {
       title: (
@@ -98,7 +98,7 @@ export default function Philosophy() {
       perfectFor:
         'Fine lines, thinning skin, early collagen loss, tired-looking eyes, long-term glow.',
       image:
-        'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop',
+        'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200',
     },
     restore: {
       title: (
@@ -122,7 +122,7 @@ export default function Philosophy() {
       perfectFor:
         'Jawline softening, mid-face changes, neck laxity, postpartum body changes.',
       image:
-        'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop',
+        'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=2070',
     },
     radiate: {
       title: (
@@ -155,7 +155,7 @@ export default function Philosophy() {
       perfectFor:
         'Fatigue, poor sleep, slow metabolism, inflammation, hormone-transition symptoms.',
       image:
-        'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop',
+        'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=2069',
     },
   };
 
@@ -215,7 +215,7 @@ export default function Philosophy() {
           </FadeInWhenVisible>
           <div className="aspect-video w-full overflow-hidden">
             <img
-              src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+              src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920"
               alt=""
               fetchpriority="high"
               className="w-full h-full object-cover"
@@ -297,7 +297,7 @@ export default function Philosophy() {
               <div className="relative rounded-t-full overflow-hidden w-full max-w-xs max-h-xs aspect-[3/4]">
                 <RevealImage className="w-full h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
+                    src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
                     alt="Facial treatment"
                     width="1200"
                     height="1600"
@@ -336,7 +336,7 @@ export default function Philosophy() {
                 <div className="group relative h-[500px] overflow-hidden cursor-pointer">
                   <RevealImage className="absolute inset-0 w-full h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop"
+                    src="https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=2070"
                     alt="Postpartum Women"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
@@ -358,7 +358,7 @@ export default function Philosophy() {
                 <div className="group relative h-[500px] overflow-hidden cursor-pointer">
                   <RevealImage className="absolute inset-0 w-full h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1588510904409-47e2f767540d?q=80&w=1887&auto=format&fit=crop"
+                    src="https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1887"
                     alt="Perimenopausal Women"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
@@ -380,7 +380,7 @@ export default function Philosophy() {
                 <div className="group relative h-[500px] overflow-hidden cursor-pointer">
                   <RevealImage className="absolute inset-0 w-full h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1551847677-dc82d764e1eb?q=80&w=2070&auto=format&fit=crop"
+                    src="https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=2070"
                     alt="Menopausal Women"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
@@ -568,7 +568,7 @@ export default function Philosophy() {
             </div>
             <RevealImage className="w-full h-full">
               <img
-                src="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
+                src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
                 alt=""
                 className="h-full object-cover"
               />

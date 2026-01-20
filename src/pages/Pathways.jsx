@@ -26,7 +26,7 @@ export default function Pathways() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+              src="https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=2070"
               alt="Ulanda Pathways Treatment"
               className="w-full h-full object-cover brightness-75"
               fetchpriority="high"

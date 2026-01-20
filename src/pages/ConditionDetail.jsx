@@ -95,7 +95,7 @@ export default function ConditionDetail() {
                 {/* Main image */}
                 <RevealImage className="relative z-10 w-full h-full overflow-hidden">
                   <img
-                    src={condition.hero.image}
+                    src={condition.hero.placeholderUrl || condition.hero.image}
                     alt={`${condition.hero.title} ${condition.hero.highlight}`}
                     className="w-full h-full object-cover"
                     fetchpriority="high"
@@ -174,31 +174,7 @@ export default function ConditionDetail() {
                       {section.subtitle}
                     </p>
 
-                    <div className="flex-1 w-full relative flex justify-center pb-12">
-                      <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-                      <div className="relative w-full max-w-sm aspect-[4/5]">
-                        <div className="absolute top-20 right-20 w-full h-full z-0">
-                          <RevealImage className="w-full h-full">
-                          <img
-                            src="/assets/img/ui/accent.webp"
-                            alt="Decorative shadow"
-                            className="w-full h-full object-cover"
-                          />
-                          </RevealImage>
-                        </div>
-                        <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                          <RevealImage className="w-full h-full">
-                          <img
-                            src={section.image}
-                            alt={section.title}
-                            className="w-full h-full object-cover"
-                          />
-                          </RevealImage>
-                        </div>
-                      </div>
-                    </div>
-
-                    <p className="text-lg text-base-content/80 font-sans font-light mt-12 leading-relaxed">
+                    <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed">
                       {section.description}
                     </p>
 
@@ -266,43 +242,6 @@ export default function ConditionDetail() {
                     </ul>
                   </div>
                 </div>
-
-                {/* Image */}
-                <div
-                  className={`flex-1 max-w-sm relative flex justify-center ${
-                    index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'
-                  } mt-12 md:mt-0`}
-                >
-                  <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                  <div className="relative w-full max-w-sm aspect-[4/5]">
-                    <div
-                      className={`absolute top-20 ${
-                        index % 2 === 0
-                          ? 'right-10 lg:right-20'
-                          : 'left-10 lg:left-20'
-                      } w-full h-full z-0`}
-                    >
-                      <RevealImage className="w-full h-full">
-                      <img
-                        src="/assets/img/ui/accent.webp"
-                        alt="Decorative shadow"
-                        className="w-full h-full object-cover"
-                      />
-                      </RevealImage>
-                    </div>
-
-                    <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                      <RevealImage className="w-full h-full">
-                      <img
-                        src={section.image}
-                        alt={section.title}
-                        className="w-full h-full object-cover"
-                      />
-                      </RevealImage>
-                    </div>
-                  </div>
-                </div>
               </div>
             </section>
           </div>
@@ -358,33 +297,6 @@ export default function ConditionDetail() {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Image Content */}
-            <div className="flex-1 relative w-full max-w-sm flex justify-center md:justify-end">
-              <div className="relative w-full max-w-sm aspect-[4/5]">
-                {/* Accent / shadow image (background) */}
-                <div className="absolute -top-12 -right-12 w-full h-full z-0">
-                  <RevealImage className="w-full h-full">
-                  <img
-                    src="/assets/img/ui/accent.webp"
-                    alt="Decorative shadow"
-                    className="w-full h-full object-cover opacity-50"
-                  />
-                  </RevealImage>
-                </div>
-
-                {/* Main image (foreground) */}
-                <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
-                  <RevealImage className="w-full h-full">
-                  <img
-                    src={condition.whyChoose.image}
-                    alt="Why Choose ULANDA"
-                    className="w-full h-full object-cover"
-                  />
-                  </RevealImage>
-                </div>
-              </div>
             </div>
           </div>
         </section>

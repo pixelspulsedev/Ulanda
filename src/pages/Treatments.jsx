@@ -30,7 +30,7 @@ export default function Treatments() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
-              src={treatmentsPageData.hero.image}
+              src={treatmentsPageData.hero.placeholderUrl || treatmentsPageData.hero.image}
               alt={treatmentsPageData.hero.title}
               className="w-full h-full object-cover brightness-75"
               fetchpriority="high"
@@ -124,7 +124,7 @@ export default function Treatments() {
                   <div className="relative z-10 w-full h-full overflow-hidden shadow-xl rounded-sm">
                     <RevealImage className="w-full h-full">
                     <img
-                      src={category.image}
+                      src={category.placeholderUrl || category.image}
                       alt={category.title}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                     />

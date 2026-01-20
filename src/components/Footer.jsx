@@ -25,6 +25,14 @@ export default function Footer() {
                  <p><a href="mailto:info@ulanda.co.uk" className="hover:text-primary transition-colors">info@ulanda.co.uk</a></p>
                  <p><a href="https://instagram.com/ulandamedspa" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">@ulandamedspa</a></p>
               </div>
+              <a 
+                href="http://eepurl.com/jsdn42" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="mt-6 p-6 flex items-center bg-primary rounded-lg text-secondary justify-center btn-sm"
+              >
+                Subscribe to our Newsletter
+              </a>
             </div>
             
             {/* <div className="flex gap-4">
@@ -83,13 +91,13 @@ export default function Footer() {
 
             {/* Identity */}
             <div>
-              <h3 className="font-medium font-sans text-primary mb-4">Identity</h3>
+              <h3 className="font-medium font-sans text-primary mb-4">Who We Are</h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
                 <li><Link to="/about/our-story" className="hover:text-primary transition-colors ">Our Story</Link></li>
                 <li><Link to="/about/our-philosophy" className="hover:text-primary transition-colors ">Our Philosophy</Link></li>
                 <li><Link to="/about/our-founder" className="hover:text-primary transition-colors ">Our Founder</Link></li>
                 <li><Link to="/about/manifesto" className="hover:text-primary transition-colors ">The Manifesto</Link></li>
-                <li><Link to="/blogs" className="hover:text-primary transition-colors ">Journal</Link></li>
+                <li><Link to="/blogs" className="hover:text-primary transition-colors ">Articles</Link></li>
               </ul>
             </div>
 

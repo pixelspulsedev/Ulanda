@@ -1,13 +1,15 @@
 export const homePageData = {
   hero: {
     image: "/assets/img/home/home-hero.webp",
+    placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1920",
     titlePrefix: "Where ",
     highlight: "Skin, Hormones & \nWellness",
     titleSuffix: " Come Together",
     subtitle: "For women navigating postpartum changes, perimenopause transitions and the menopause journey."
   },
   introduction: {
-    image: "/assets/img/home/introduction-main.webp"
+    image: "/assets/img/home/introduction-main.webp",
+    placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
   },
   pathways: {
     refresh: {
@@ -27,7 +29,8 @@ export const homePageData = {
         'Body Peels',
       ],
       perfectFor: "Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.",
-      image: "/assets/img/home/refresh-pathway.webp"
+      image: "/assets/img/home/refresh-pathway.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     renew: {
       id: "renew",
@@ -46,7 +49,8 @@ export const homePageData = {
         'Lumi Eyes',
       ],
       perfectFor: "Fine lines, thinning skin, early collagen loss, tired-looking eyes, long-term glow.",
-      image: "/assets/img/home/renew-pathway.webp"
+      image: "/assets/img/home/renew-pathway.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     restore: {
       id: "restore",
@@ -67,7 +71,8 @@ export const homePageData = {
         'Post-Procedure Recovery',
       ],
       perfectFor: "Jawline softening, mid-face changes, neck laxity, postpartum body changes.",
-      image: "/assets/img/home/restore-pathway.webp"
+      image: "/assets/img/home/restore-pathway.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     radiate: {
       id: "radiate",
@@ -86,7 +91,8 @@ export const homePageData = {
         'Weight Management',
       ],
       perfectFor: "Fatigue, poor sleep, slow metabolism, inflammation, hormone-transition symptoms.",
-      image: "/assets/img/home/radiate-pathway.webp"
+      image: "/assets/img/home/radiate-pathway.webp",
+      placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
     }
   }
 };

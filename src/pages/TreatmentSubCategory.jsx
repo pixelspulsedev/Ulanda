@@ -69,7 +69,7 @@ export default function TreatmentSubCategory() {
          <section className="relative min-h-[50vh] flex items-center bg-stone-900">
              <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
                 <img
-                  src={subCategory.image || category.image}
+                  src={subCategory.placeholderUrl || subCategory.image || category.placeholderUrl || category.image}
                   alt={subCategory.title}
                   className="w-full h-full object-cover opacity-60 mix-blend-overlay"
                 />
@@ -101,8 +101,8 @@ export default function TreatmentSubCategory() {
                         className="group relative flex flex-col md:flex-row bg-white border border-base-200 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300"
                     >
                          <div className="md:w-1/3 aspect-video md:aspect-auto relative overflow-hidden">
-                             {treatment.image || subCategory.image ? (
-                                 <img src={treatment.image || subCategory.image} alt={treatment.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                             {treatment.placeholderUrl || treatment.image || subCategory.placeholderUrl || subCategory.image ? (
+                                 <img src={treatment.placeholderUrl || treatment.image || subCategory.placeholderUrl || subCategory.image} alt={treatment.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                              ) : (
                                  <div className="w-full h-full bg-secondary flex items-center justify-center text-primary/30">
                                      <span className="text-4xl font-serif italic">Ulanda</span>

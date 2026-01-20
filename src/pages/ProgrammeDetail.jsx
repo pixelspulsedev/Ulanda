@@ -26,7 +26,7 @@ export default function ProgrammeDetail() {
   const whoIsItFor = content.whoIsItFor || {};
   const scientificContext = content.scientificContext;
   const framework = content.framework;
-  const summaryImage = summary.image || '';
+  const summaryImage = summary.placeholderUrl || summary.image || '';
 
   // Generate SEO following locked Radiate Pathway format: [Outcome-Led Pathway Name] | Radiate | Ware SG12 | ULANDA
   const seoTitle = `${title} | Radiate | Ware SG12 | ULANDA`;
@@ -105,26 +105,6 @@ export default function ProgrammeDetail() {
                     {whoIsItFor.note}
                   </p>
                 </div>
-                {/* Right Image */}
-              <div className="relative md:hidden flex justify-center my-8">
-                <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
-                  <RevealImage className="w-full h-full">
-                  <img
-                    src="/assets/img/ui/accent.webp"
-                    alt="Decorative shadow"
-                    className="w-full h-full object-cover"
-                  />
-                  </RevealImage>
-                </div>
-                {/* Arch Image */}
-                <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
-                  <img
-                    src={whoIsItFor.image || "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"}
-                    alt="Who is it for"
-                    className="w-full h-full object-cover"
-                  />
-                </RevealImage>
-              </div>
                 <div>
                   <ul className="space-y-2 text-base md:text-lg font-sans font-light text-base-content/90">
                     {whoIsItFor.list.map((item, index) => (
@@ -135,26 +115,6 @@ export default function ProgrammeDetail() {
                     ))}
                   </ul>
                 </div>
-              </div>
-              {/* Right Image */}
-              <div className="relative hidden md:flex justify-center">
-                <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
-                  <RevealImage className="w-full h-full">
-                  <img
-                    src="/assets/img/ui/accent.webp"
-                    alt="Decorative shadow"
-                    className="w-full h-full object-cover"
-                  />
-                  </RevealImage>
-                </div>
-                {/* Arch Image */}
-                <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
-                  <img
-                    src={whoIsItFor.image || "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop"}
-                    alt="Who is it for"
-                    className="w-full h-full object-cover"
-                  />
-                </RevealImage>
               </div>
             </div>
           </section>
@@ -203,25 +163,17 @@ export default function ProgrammeDetail() {
                   <Link 
                     key={index}
                     to={`/treatments/${pillar.name.toLowerCase()}`}
-                    className="group relative h-[300px] overflow-hidden cursor-pointer block"
+                    className="group relative h-[300px] overflow-hidden cursor-pointer block bg-secondary"
                   >
-                    <RevealImage className="absolute inset-0 w-full h-full">
-                    <img
-                      src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop"
-                      alt={pillar.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      loading="lazy"
-                    />
-                    </RevealImage>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
-                    <div className="absolute bottom-0 left-0 p-8 text-white">
+                    <div className="absolute inset-0 bg-secondary to-transparent"></div>
+                    <div className="absolute bottom-0 left-0 p-8 text-primary">
                       <h3 className="text-2xl font-sans font-medium mb-2">
                         {pillar.name}
                       </h3>
                       {/* <p className="text-sm text-white/90 font-light leading-relaxed">
                         {pillar.subtitle}
                       </p> */}
-                      <p className="mt-4 text-sm font-sans font-light text-white/90 italic">
+                      <p className="mt-4 text-sm font-sans font-light text-primary italic">
                         {pillar.description}
                       </p>
                     </div>

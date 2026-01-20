@@ -59,7 +59,7 @@ export default function Home() {
       <section className="relative min-h-screen">
         <div className="absolute inset-0 w-full h-full overflow-hidden">
           <img
-            src={hero.image}
+            src={hero.placeholderUrl || hero.image}
             alt="Ulanda Hero Background"
             className="w-full h-full object-cover object-right"
             fetchpriority="high"
@@ -192,7 +192,7 @@ export default function Home() {
             {/* Main Image */}
             <RevealImage className="relative rounded-t-full w-full max-w-xs max-h-xs aspect-[3/4]">
               <img
-                src={introduction.image}
+                src={introduction.placeholderUrl || introduction.image}
                 alt="Facial treatment"
                 width="1200"
                 height="1600"
@@ -296,7 +296,7 @@ export default function Home() {
                   {/* Main Image */}
                   <RevealImage className="relative rounded-t-full shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
                     <img
-                      src={pathway.image}
+                      src={pathway.placeholderUrl || pathway.image}
                       alt={`${pathway.titlePrefix} ${pathway.highlight} ${pathway.titleSuffix}`}
                       className="w-full h-full object-cover transition-opacity duration-500"
                       loading="lazy"
@@ -378,7 +378,7 @@ export default function Home() {
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=2070"
                 alt="Postpartum Women"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -400,7 +400,7 @@ export default function Home() {
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1588510904409-47e2f767540d?q=80&w=1887&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1887"
                 alt="Perimenopausal Women"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -422,7 +422,7 @@ export default function Home() {
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1551847677-dc82d764e1eb?q=80&w=2070&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=2070"
                 alt="Menopausal Women"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -467,12 +467,12 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
             {/* Program 1 */}
             <Link
-              to="/programmes/menopause-regeneration"
+              to="/treatments/radiate/programmes/menopause-regeneration"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=2070"
                 alt="12-Week Menopause Regeneration Plan"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -488,12 +488,12 @@ export default function Home() {
 
             {/* Program 2 */}
             <Link
-              to="/programmes/under-eye-regeneration"
+              to="/treatments/radiate/programmes/under-eye-regeneration"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
                 alt="Under-Eye Regeneration Blueprint"
                 width="1200"
                 height="1600"
@@ -511,12 +511,12 @@ export default function Home() {
 
             {/* Program 3 */}
             <Link
-              to="/programmes/collagen-reset"
+              to="/treatments/radiate/programmes/collagen-reset"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1601412436009-d964bd02edbc?q=80&w=1964&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/3997989/pexels-photo-3997989.jpeg?auto=compress&cs=tinysrgb&w=1964"
                 alt="Collagen Reset Journey"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -532,12 +532,12 @@ export default function Home() {
 
             {/* Program 4 */}
             <Link
-              to="/programmes/hormone-smart-skin"
+              to="/treatments/radiate/programmes/hormone-smart-skin"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=2070"
                 alt="Radiate Hormone-Smart Skin Programme"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -558,7 +558,7 @@ export default function Home() {
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=2070&auto=format&fit=crop"
+                src="https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=2070"
                 alt="ULANDA Shape & Regenerate™"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
