@@ -18,7 +18,7 @@ export const conditions = [
       image: "/assets/img/conditions/age-and-regeneration-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
+    science_removed: {
       title: "WHy Skin Ages -",
       highlight: "The Real Science",
       description: "From 25 onwards, collagen production declines by 1% every year.But for women, the real shift begins between 35–55, driven by:",
@@ -100,7 +100,7 @@ export const conditions = [
         }
       ]
     },
-    pathways: {
+    pathways_removed: {
       title: "How ULANDA",
       highlight: "Reverses Ageing",
       titleSuffix: "— The Regenerative Pathways",
@@ -643,7 +643,7 @@ export const conditions = [
       titleSuffix: "",
       items: [
         {
-          title: "Menopause",
+          title: "",
           highlight: "Skin Decline",
           description: "Thinning, dryness, dullness, and slow repair caused by collagen collapse. Needs PN, biostimulation and internal support.",
           text: "Best solutions: PN, biostimulation and internal support.",
@@ -652,7 +652,7 @@ export const conditions = [
           link: '/conditions/menopause-hormone-skin-changes/menopause-skin-decline'
         },
         {
-          title: "Menopause Jawline Softening /",
+          title: "Jawline Softening /",
           highlight: "Jowls",
           description: "Caused by bone loss, fat descent, collagen depletion and ligament weakening. Requires threads + biostimulators + facial contour regeneration.",
           text: "Best solutions: Threads, biostimulators, facial contour regeneration.",
@@ -661,7 +661,7 @@ export const conditions = [
           link: '/conditions/menopause-hormone-skin-changes/jawline-softening'
         },
         {
-          title: "Menopause Neck Crepiness /",
+          title: "Neck Crepiness /",
           highlight: "Neck Laxity",
           description: "One of the earliest and most visible hormone-related changes. PN, RF microneedling and CaHA biostimulators rebuild thin, fragile neck skin.",
           text: "Best solutions: PN, RF microneedling, CaHA biostimulators.",
@@ -670,7 +670,7 @@ export const conditions = [
           link: '/conditions/menopause-hormone-skin-changes/neck-crepiness'
         },
         {
-          title: "Menopause Skin",
+          title: "Skin",
           highlight: "Texture Decline",
           description: "Uneven texture, enlarged pores, crepey areas — all linked to reduced HA + collagen. Needs boosters, PN, microneedling, BioRePeel.",
           text: "Best solutions: Boosters, PN, microneedling, BioRePeel.",
@@ -680,7 +680,7 @@ export const conditions = [
         }
       ]
     },
-    pathways: {
+    pathways_removed: {
       title: "The ULANDA Regenerative Approach to",
       highlight: "Menopause Skin",
       titleSuffix: "",
@@ -791,7 +791,7 @@ export const conditions = [
       image: "/assets/img/conditions/pigmentation-and-skin-tone-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
+    science_removed: {
       title: "Why Pigmentation Happens —",
       highlight: "The Real Science",
       description: "Pigmentation is produced by melanocytes — specialised cells that create melanin. When these cells become overstimulated or inflamed, they produce too much melanin, causing patches, dark marks, uneven tone, “mottled” skin, melasma patterns.",
@@ -859,7 +859,7 @@ export const conditions = [
           text: "Best solutions: Barrier repair, controlled regeneration.",
           image: "/assets/img/conditions/pigmentation-and-skin-tone-sub-condition-thumb.webp",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          link: '/conditions/pigmentation-and-skin-tone/post-inflammatory-pigmentation'
+          link: '/conditions/pigmentation-and-skin-tone/post-inflammatory-hyperpigmentation'
         },
         {
           title: "Uneven Skin Tone /",
@@ -869,10 +869,19 @@ export const conditions = [
           image: "/assets/img/conditions/pigmentation-and-skin-tone-sub-condition-thumb.webp",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           link: '/conditions/pigmentation-and-skin-tone/uneven-skin-tone'
+        },
+        {
+          title: "Dull, Dehydrated",
+          highlight: "Skin",
+          description: "Lack of radiance and moisture due to slow cell turnover and barrier impairment. Caused by hormonal changes, stress, and environmental factors.",
+          text: "Best solutions: HydraFacial, Skin Boosters, BioRePeel, PN.",
+          image: "/assets/img/conditions/pigmentation-and-skin-tone-sub-condition-thumb.webp",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          link: '/conditions/pigmentation-and-skin-tone/dull-dehydrated-skin'
         }
       ]
     },
-    pathways: {
+    pathways_removed: {
       title: "The ULANDA Regenerative Approach to",
       highlight: "Pigmentation",
       titleSuffix: "",
@@ -1152,7 +1161,7 @@ export const conditions = [
       image: "/assets/img/conditions/hormonal-skin-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
+    science_removed: {
       title: "How Hormones Impact Skin —",
       highlight: "The Biological Link",
       description: "Your skin contains receptors for Estrogen, Progesterone, Testosterone and Cortisol. When levels fluctuate:",
@@ -1228,7 +1237,7 @@ export const conditions = [
         }
       ]
     },
-    pathways: {
+    pathways_removed: {
       title: "The ULANDA Regenerative Approach to",
       highlight: "Hormonal Skin",
       titleSuffix: "",

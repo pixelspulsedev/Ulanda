@@ -2959,228 +2959,6 @@ export const treatments = {
         image: "/assets/img/treatments/body-tightening-subcategory-thumb.webp",
         placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "treatments": {
-          "body-tightening": {
-            "id": "body-tightening",
-            "booking": {
-              "starting": true,
-              "price": 180,
-              "duration": 90,
-              "treatmentType": "body-device",
-              "bookingType": "consultation"
-            },
-            "seo": {
-              "title": "Body Skin Tightening | Firm & Tone Skin | ULANDA",
-              "description": "Tighten loose skin & improve texture with ULANDA’s Body Tightening treatments. Non-surgical solutions for firmer, smoother body contours."
-            },
-            "seoHeadings": {
-              "h1": "Body Skin Tightening in Ware SG12 — Lift, Firm & Regenerate Body Skin After Weight Change & Hormones",
-              "h2": [
-                "What It Treats",
-                "How RF & Collagen Therapy Work",
-                "Best Combinations",
-                "Conditions Improved",
-                "Book Body Tightening in Ware SG12"
-              ]
-            },
-            "title": "Body Tightening",
-            "highlight": "Regenerative Firming for Midlife Skin",
-            "titleSuffix": "",
-            "benefits": [
-              "Strengthens collagen + elastin",
-              "Tightens loose, sagging body skin",
-              "Smooths crepiness",
-              "Firms abdomen, arms, thighs"
-            ],
-            "locations": [
-              "Ware SG12",
-              "Hertford",
-              "Broxbourne",
-              "Hertfordshire"
-            ],
-            image: "/assets/img/treatments/body-tightening-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            "category": "Restore",
-            "description": "Lift, Strengthen & Smooth Your Body",
-            "introduction": {
-              "title": "Regenerative Firming for Midlife Skin",
-              "content": [
-                "Tightening the body in midlife requires more than “fat reduction.” It requires regeneration.",
-                "ULANDA Body Tightening is designed for women whose bodies are changing through:",
-                "• perimenopause",
-                "• menopause",
-                "• weight fluctuation",
-                "• postpartum changes",
-                "• natural collagen decline",
-                "This treatment pathway focuses on lifting, firming, smoothing and strengthening the skin using regenerative science — not invasive surgery or aggressive filler techniques.",
-                "Our approach restores body confidence through collagen rebuilding, skin thickening, elasticity improvement, contour refinement, and structural tightening, while respecting natural curves and hormonal changes."
-              ],
-              "goals": [
-                "Strengthens collagen + elastin",
-                "Tightens loose, sagging body skin",
-                "Smooths crepiness + textural laxity",
-                "Firms abdomen, arms, thighs, buttocks, knees",
-                "Enhances contour without adding volume",
-                "Supports weight-loss or muscle-toning programmes"
-              ],
-              "highlightBox": {
-                "text1": "True regeneration.",
-                "text2": "Not camouflage."
-              },
-              image: "/assets/img/treatments/body-tightening-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            },
-            "internalSupport": {
-              "title": "Why Body Skin",
-              "titleSuffix": "Loosens in Midlife",
-              image: "/assets/img/treatments/body-tightening-internalSupport.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-              "points": [
-                {
-                  "title": "Collagen & Elastin",
-                  "description": "From 35+, rapid collagen loss (up to 30% in menopause), reduced elastin, skin thinning."
-                },
-                {
-                  "title": "Physical Changes",
-                  "description": "Decreased circulation, muscle + ligament laxity leading to crepey skin, sagging thighs, soft knees."
-                },
-                {
-                  "title": "Root Cause",
-                  "description": "Most women try fat-loss treatments when the real issue is skin quality + collagen collapse. ULANDA addresses the root cause."
-                }
-              ]
-            },
-            "ingredients": {
-              "title": "The ULANDA",
-              "highlight": "Body Regeneration",
-              "titleSuffix": "Method™",
-              "subtitle": "A multi-layer, structural approach designed for midlife bodies. ULANDA doesn’t use a single treatment. We rebuild your skin using three tightening pillars:",
-              "items": [
-                {
-                  "title": "1. Collagen Biostimulators (PLLA, CaHA)",
-                  "description": "Deep Structural Tightening. Ideal for crepey arms, abdomen laxity, thigh/buttock softness. Rebuilds collagen from inside out (12–36 months)."
-                },
-                {
-                  "title": "2. RF & Regenerative Microneedling",
-                  "description": "Surface Firming + Elasticity. Tightens wrinkled abdomen, loose arms, knees, chest. Stimulates thermal collagen remodelling."
-                },
-                {
-                  "title": "3. PN + PRP Body Regeneration",
-                  "description": "Strengthens Skin Quality. Thickens body skin, improves texture, increases elasticity, accelerates repair. Perfect for delicate areas."
-                }
-              ],
-              "footer": "This is true regeneration, not camouflage."
-            },
-            "idealFor": {
-              "title": "Who This Treatment",
-              "highlight": "Is For",
-              "titleSuffix": "",
-              "items": [
-                "Women experiencing: loose or crepey arms, abdominal laxity, thigh softness or rippling, postpartum skin laxity, knee wrinkles, menopause-related collagen loss",
-                "Perfect for women who want: natural firmness, smoother lifted skin, no surgery/volume, regenerative long-term results, body confidence"
-              ]
-            },
-            "treatmentAreas": {
-              "title": "Treatment",
-              "titleSuffix": "Areas",
-              image: "/assets/img/treatments/body-tightening-treatmentAreas.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-              "points": [
-                {
-                  "title": "Upper Body",
-                  "description": "upper arms, triceps, chest, décolletage, bra-line area"
-                },
-                {
-                  "title": "Midsection",
-                  "description": "abdomen, waistline, flanks"
-                },
-                {
-                  "title": "Lower Body",
-                  "description": "inner thighs, outer thighs, buttocks, back of thighs, knees, calves"
-                },
-                {
-                  "title": "Postpartum / Post-weight loss",
-                  "description": "stomach laxity, loose skin after body recomposition"
-                }
-              ]
-            },
-            "results": {
-              "title": "Results",
-              "highlight": "Timeline",
-              "timeline": [
-                {
-                  "time": "Immediately",
-                  "scaling": "subtle firmness, improved texture"
-                },
-                {
-                  "time": "6–8 Weeks",
-                  "scaling": "tightening begins, elasticity improves"
-                },
-                {
-                  "time": "12–16 Weeks",
-                  "scaling": "visible smoothing, firmer tighter skin, reduced crepiness"
-                },
-                {
-                  "time": "3–6 Months",
-                  "scaling": "full collagen activation"
-                },
-                {
-                  "time": "12–36 Months",
-                  "scaling": "long-term regeneration (biostimulators)"
-                }
-              ]
-            },
-            "ulandaConnection": {
-              "subtitle": "Perfect Programme Pairings",
-              "sections": [
-                {
-                  "title": "Body Tightening + Weight Management",
-                  "description": "Shape + shrink + firm simultaneously."
-                },
-                {
-                  "title": "Biostimulators + RF Microneedling",
-                  "description": "Deep tightening + surface refinement."
-                },
-                {
-                  "title": "PN Body + RF Microneedling",
-                  "description": "Elasticity + regeneration + smoothing."
-                },
-                {
-                  "title": "PRP + Microneedling for Stretch Marks",
-                  "description": "Regenerative textural transformation."
-                },
-                {
-                  "title": "Body Peels + Tightening",
-                  "description": "Improves skin tone, brightness, texture."
-                }
-              ]
-            },
-            "safetyOversight": {
-              "title": "Safety & Downtime",
-              "items": [
-                {
-                  "title": "Minimal Downtime",
-                  "description": "Safe for all skin tones, non-surgical.",
-                  "icon": "cqc"
-                },
-                {
-                  "title": "Midlife Focused",
-                  "description": "Ideal for midlife & menopausal women.",
-                  "icon": "prescribed"
-                },
-                {
-                  "title": "Natural Results",
-                  "description": "Gradual, natural tightening. Improves long-term skin health.",
-                  "icon": "clinician"
-                }
-              ]
-            },
-            "cta": {
-              "title": "Tighter. Stronger.",
-              "highlight": "Smoother. Confident.",
-              "description": "ULANDA Body Tightening restores firmness and elasticity naturally — using regenerative science to support your midlife body, not fight it.",
-              "buttonText": "Book Body Consultation"
-            }
-          },
           "body-contouring": {
             "id": "body-contouring",
             "booking": {
@@ -4487,7 +4265,7 @@ export const treatments = {
                 }
               ]
             },
-            "faq": {
+            "faq_removed": {
               "title": "FAQ",
               "items": [
                 {
@@ -5299,6 +5077,228 @@ export const treatments = {
                 }
               ]
             }
+          },
+          "body-tightening": {
+            "id": "body-tightening",
+            "booking": {
+              "starting": true,
+              "price": 180,
+              "duration": 90,
+              "treatmentType": "body-device",
+              "bookingType": "consultation"
+            },
+            "seo": {
+              "title": "Body Skin Tightening | Firm & Tone Skin | ULANDA",
+              "description": "Tighten loose skin & improve texture with ULANDA's Body Tightening treatments. Non-surgical solutions for firmer, smoother body contours."
+            },
+            "seoHeadings": {
+              "h1": "Body Skin Tightening in Ware SG12 — Lift, Firm & Regenerate Body Skin After Weight Change & Hormones",
+              "h2": [
+                "What It Treats",
+                "How RF & Collagen Therapy Work",
+                "Best Combinations",
+                "Conditions Improved",
+                "Book Body Tightening in Ware SG12"
+              ]
+            },
+            "title": "Body Tightening",
+            "highlight": "Regenerative Firming for Midlife Skin",
+            "titleSuffix": "",
+            "benefits": [
+              "Strengthens collagen + elastin",
+              "Tightens loose, sagging body skin",
+              "Smooths crepiness",
+              "Firms abdomen, arms, thighs"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            image: "/assets/img/treatments/body-tightening-hero.webp",
+            placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            "category": "Restore",
+            "description": "Lift, Strengthen & Smooth Your Body",
+            "introduction": {
+              "title": "Regenerative Firming for Midlife Skin",
+              "content": [
+                "Tightening the body in midlife requires more than \"fat reduction.\" It requires regeneration.",
+                "ULANDA Body Tightening is designed for women whose bodies are changing through:",
+                "• perimenopause",
+                "• menopause",
+                "• weight fluctuation",
+                "• postpartum changes",
+                "• natural collagen decline",
+                "This treatment pathway focuses on lifting, firming, smoothing and strengthening the skin using regenerative science — not invasive surgery or aggressive filler techniques.",
+                "Our approach restores body confidence through collagen rebuilding, skin thickening, elasticity improvement, contour refinement, and structural tightening, while respecting natural curves and hormonal changes."
+              ],
+              "goals": [
+                "Strengthens collagen + elastin",
+                "Tightens loose, sagging body skin",
+                "Smooths crepiness + textural laxity",
+                "Firms abdomen, arms, thighs, buttocks, knees",
+                "Enhances contour without adding volume",
+                "Supports weight-loss or muscle-toning programmes"
+              ],
+              "highlightBox": {
+                "text1": "True regeneration.",
+                "text2": "Not camouflage."
+              },
+              image: "/assets/img/treatments/body-tightening-introduction.webp",
+              placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            },
+            "internalSupport": {
+              "title": "Why Body Skin",
+              "titleSuffix": "Loosens in Midlife",
+              image: "/assets/img/treatments/body-tightening-internalSupport.webp",
+              placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              "points": [
+                {
+                  "title": "Collagen & Elastin",
+                  "description": "From 35+, rapid collagen loss (up to 30% in menopause), reduced elastin, skin thinning."
+                },
+                {
+                  "title": "Physical Changes",
+                  "description": "Decreased circulation, muscle + ligament laxity leading to crepey skin, sagging thighs, soft knees."
+                },
+                {
+                  "title": "Root Cause",
+                  "description": "Most women try fat-loss treatments when the real issue is skin quality + collagen collapse. ULANDA addresses the root cause."
+                }
+              ]
+            },
+            "ingredients": {
+              "title": "The ULANDA",
+              "highlight": "Body Regeneration",
+              "titleSuffix": "Method™",
+              "subtitle": "A multi-layer, structural approach designed for midlife bodies. ULANDA doesn't use a single treatment. We rebuild your skin using three tightening pillars:",
+              "items": [
+                {
+                  "title": "1. Collagen Biostimulators (PLLA, CaHA)",
+                  "description": "Deep Structural Tightening. Ideal for crepey arms, abdomen laxity, thigh/buttock softness. Rebuilds collagen from inside out (12–36 months)."
+                },
+                {
+                  "title": "2. RF & Regenerative Microneedling",
+                  "description": "Surface Firming + Elasticity. Tightens wrinkled abdomen, loose arms, knees, chest. Stimulates thermal collagen remodelling."
+                },
+                {
+                  "title": "3. PN + PRP Body Regeneration",
+                  "description": "Strengthens Skin Quality. Thickens body skin, improves texture, increases elasticity, accelerates repair. Perfect for delicate areas."
+                }
+              ],
+              "footer": "This is true regeneration, not camouflage."
+            },
+            "idealFor": {
+              "title": "Who This Treatment",
+              "highlight": "Is For",
+              "titleSuffix": "",
+              "items": [
+                "Women experiencing: loose or crepey arms, abdominal laxity, thigh softness or rippling, postpartum skin laxity, knee wrinkles, menopause-related collagen loss",
+                "Perfect for women who want: natural firmness, smoother lifted skin, no surgery/volume, regenerative long-term results, body confidence"
+              ]
+            },
+            "treatmentAreas": {
+              "title": "Treatment",
+              "titleSuffix": "Areas",
+              image: "/assets/img/treatments/body-tightening-treatmentAreas.webp",
+              placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              "points": [
+                {
+                  "title": "Upper Body",
+                  "description": "upper arms, triceps, chest, décolletage, bra-line area"
+                },
+                {
+                  "title": "Midsection",
+                  "description": "abdomen, waistline, flanks"
+                },
+                {
+                  "title": "Lower Body",
+                  "description": "inner thighs, outer thighs, buttocks, back of thighs, knees, calves"
+                },
+                {
+                  "title": "Postpartum / Post-weight loss",
+                  "description": "stomach laxity, loose skin after body recomposition"
+                }
+              ]
+            },
+            "results": {
+              "title": "Results",
+              "highlight": "Timeline",
+              "timeline": [
+                {
+                  "time": "Immediately",
+                  "scaling": "subtle firmness, improved texture"
+                },
+                {
+                  "time": "6–8 Weeks",
+                  "scaling": "tightening begins, elasticity improves"
+                },
+                {
+                  "time": "12–16 Weeks",
+                  "scaling": "visible smoothing, firmer tighter skin, reduced crepiness"
+                },
+                {
+                  "time": "3–6 Months",
+                  "scaling": "full collagen activation"
+                },
+                {
+                  "time": "12–36 Months",
+                  "scaling": "long-term regeneration (biostimulators)"
+                }
+              ]
+            },
+            "ulandaConnection": {
+              "subtitle": "Perfect Programme Pairings",
+              "sections": [
+                {
+                  "title": "Body Tightening + Weight Management",
+                  "description": "Shape + shrink + firm simultaneously."
+                },
+                {
+                  "title": "Biostimulators + RF Microneedling",
+                  "description": "Deep tightening + surface refinement."
+                },
+                {
+                  "title": "PN Body + RF Microneedling",
+                  "description": "Elasticity + regeneration + smoothing."
+                },
+                {
+                  "title": "PRP + Microneedling for Stretch Marks",
+                  "description": "Regenerative textural transformation."
+                },
+                {
+                  "title": "Body Peels + Tightening",
+                  "description": "Improves skin tone, brightness, texture."
+                }
+              ]
+            },
+            "safetyOversight": {
+              "title": "Safety & Downtime",
+              "items": [
+                {
+                  "title": "Minimal Downtime",
+                  "description": "Safe for all skin tones, non-surgical.",
+                  "icon": "cqc"
+                },
+                {
+                  "title": "Midlife Focused",
+                  "description": "Ideal for midlife & menopausal women.",
+                  "icon": "prescribed"
+                },
+                {
+                  "title": "Natural Results",
+                  "description": "Gradual, natural tightening. Improves long-term skin health.",
+                  "icon": "clinician"
+                }
+              ]
+            },
+            "cta": {
+              "title": "Tighter. Stronger.",
+              "highlight": "Smoother. Confident.",
+              "description": "ULANDA Body Tightening restores firmness and elasticity naturally — using regenerative science to support your midlife body, not fight it.",
+              "buttonText": "Book Body Consultation"
+            }
           }
         }
       },
@@ -5555,9 +5555,9 @@ export const treatments = {
                 "Book Glutathione IV — Provided with 360Medicx Harley Street"
               ]
             },
-            "title": "Glutathione",
-            "highlight": "IV",
-            "titleSuffix": "Drip",
+            "title": "Glutathione IV",
+            "highlight": "",
+            "titleSuffix": "",
             "benefits": [
               "Detox",
               "Brighten",
@@ -6023,9 +6023,9 @@ export const treatments = {
                 "Book Immunity IV — With 360Medicx Harley Street"
               ]
             },
-            "title": "Immunity",
-            "highlight": "IV",
-            "titleSuffix": "Drip",
+            "title": "Immune Resilience",
+            "highlight": "Support",
+            "titleSuffix": "IV",
             "benefits": [
               "Strengthen",
               "Defend",
@@ -7274,7 +7274,7 @@ export const treatments = {
               "description": "Nourish your beauty from within. Our Skin, Hair & Nails IV Drip delivers essential nutrients for a glowing complexion & stronger hair/nails."
             },
             "seoHeadings": {
-              "h1": "Beauty & Skin Glow IV in Ware SG12 — Brighten, Hydrate & Boost Collagen From Within",
+              "h1": "Skin Radiance IV in Ware SG12 — Brighten, Hydrate & Boost Collagen From Within",
               "h2": [
                 "What Glow IV Treats (Pigmentation, Dullness, Dryness)",
                 "What's Inside (Vitamin C, Glutathione, Biotin, Collagen Boosters)",
@@ -7283,9 +7283,9 @@ export const treatments = {
                 "Book Glow IV — With 360Medicx Harley Street"
               ]
             },
-            "title": "Beauty & Skin",
-            "highlight": "Glow",
-            "titleSuffix": "IV",
+            "title": "Skin Radiance",
+            "highlight": "IV",
+            "titleSuffix": "",
             "benefits": [
               "Collagen",
               "Brightening",
@@ -7316,7 +7316,7 @@ export const treatments = {
                 "Prescribing",
                 "Clinical Safety"
               ],
-              "description": "ULANDA's Beauty & Skin Glow IV is delivered through our medical partnership with 360Medicx, a Harley Street clinic specialising in longevity-driven skin repair, antioxidant therapy and regenerative nutrition."
+              "description": "ULANDA's Skin Radiance IV is delivered through our medical partnership with 360Medicx, a Harley Street clinic specialising in longevity-driven skin repair, antioxidant therapy and regenerative nutrition."
             },
             "introduction": {
               "title": "Introduction",

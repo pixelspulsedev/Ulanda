@@ -86,6 +86,7 @@ export default function Conditions() {
         </section>
 
         {/* Science Section */}
+        {condition.science && (
         <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
           <div className="text-center mb-4">
             <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">
@@ -120,6 +121,7 @@ export default function Conditions() {
             {condition.science.footer}
           </p>
         </section>
+        )}
 
         {/* Sub Conditions Section */}
         <section className="py-20 px-4 md:px-0 mx-auto">
@@ -132,20 +134,11 @@ export default function Conditions() {
               {condition.subConditions.titleSuffix}
             </h2>
           </div>
-          <div className="md:hidden flex flex-col">
+          <div className="flex flex-col md:hidden gap-20">
             {condition.subConditions.items.map((item, index) => (
-              <section key={index} className="md:hidden py-12 flex items-center bg-base-100 overflow-hidden">
-                <div className="w-full flex flex-col gap-16 items-center justify-end">
-                  {/* Left Content */}
-                  <div className=" flex justify-center w-full ">
-                    <div className=" w-full px-4">
-                      <div className="flex-1 w-full relative flex justify-center pb-12">
-                        {/* Decorative Background */}
-                        <div className="absolute top-12 -left-12 w-3/4 h-full -z-10"></div>
-
-                        <div className="relative w-full max-w-sm aspect-[4/5]">
-                          {/* Accent / shadow image (background) */}
-                          <div className="absolute top-20 right-20 w-full h-full z-0">
+              <div key={index} className="flex flex-col gap-6">
+                  <div className="relative w-full max-w-sm mx-auto aspect-[4/5]">
+                        <div className="absolute top-10 right-5 w-full h-full z-0">
                             <RevealImage className="w-full h-full">
                             <img
                               src="/assets/img/ui/accent.webp"
@@ -153,7 +146,7 @@ export default function Conditions() {
                               className="w-full h-full object-cover"
                             />
                             </RevealImage>
-                          </div>
+                        </div>
 
                           {/* Main image (foreground) */}
                           <div className="relative z-10 w-full h-full overflow-hidden shadow-lg">
@@ -166,7 +159,6 @@ export default function Conditions() {
                             </RevealImage>
                           </div>
                         </div>
-                      </div>
 
                       <div className="mb-4 mt-12 text-2xl font-serif text-base-content">
                         <h1 className="font-serif text-3xl">
@@ -188,10 +180,7 @@ export default function Conditions() {
                       ) : (
                         <button className="mt-4 btn btn-primary">Explore</button>
                       )}
-                    </div>
-                  </div>
-                </div>
-              </section>
+              </div>
             ))}
           </div>
           <div className="md:flex flex-col hidden">
@@ -330,6 +319,7 @@ export default function Conditions() {
         </section>
 
         {/* Pathways Section */}
+        {condition.pathways && (
         <section className="py-20 px-4 md:px-0 mx-auto">
           <div className=" text-center w-full max-w-3xl mx-auto mb-4">
             <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">
@@ -447,6 +437,7 @@ export default function Conditions() {
             )}
           </div>
         </section>
+        )}
 
         {/* Ageing by Decade Section */}
         {condition.decades && (

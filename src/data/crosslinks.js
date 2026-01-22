@@ -74,13 +74,8 @@ export const conditionToTreatments = {
     "polynucleotides",
     "prp-skin-regeneration",
     "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
     "profhilo",
     "definisse-hydrobooster",
-
     "microneedling",
     "barrier-repair-facial",
     "hormone-smart-skin",
@@ -91,23 +86,15 @@ export const conditionToTreatments = {
   "jawline-softening": [
     "thread-lifts",
     "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
     "jawline-sculpting",
-    "thread-lifts",
     "neck-lower-face-lift",
-
   ],
 
   "neck-crepiness": [
     "polynucleotides",
     "biostimulators",
-    "polynucleotides",
-
     "profhilo",
     "thread-lifts",
-    "biostimulators",
     "neck-lower-face-lift"
   ],
 
@@ -115,7 +102,6 @@ export const conditionToTreatments = {
     "prp-skin-regeneration",
     "polynucleotides",
     "microneedling",
-
     "chemical-peel",
     "enzyme-therapy",
     "profhilo",
@@ -126,16 +112,12 @@ export const conditionToTreatments = {
   "dark-circles": [
     "lumi-eyes",
     "polynucleotides",
-    "lumi-eyes",
-    "polynucleotides",
-    "polynucleotides",
     "under-eye-regeneration",
     "oxygen-facial",
     "led-light-therapy"
   ],
 
   "tear-troughs": [
-    "polynucleotides",
     "polynucleotides",
     "lumi-eyes",
     "dermal-fillers",
@@ -146,16 +128,12 @@ export const conditionToTreatments = {
     "lumi-eyes",
     "polynucleotides",
     "jalupro",
-    "lumi-eyes",
-    "polynucleotides",
     "under-eye-regeneration",
-
   ],
 
   "under-eye-pigmentation": [
     "lumi-eyes",
     "polynucleotides",
-    "lumi-eyes",
     "enzyme-therapy",
     "biorepeel",
     "led-light-therapy",
@@ -173,31 +151,20 @@ export const conditionToTreatments = {
   // AGE & SKIN REGENERATION
   "crepey-skin-general": [
     "polynucleotides",
-    "polynucleotides",
-    "polynucleotides",
     "profhilo",
     "definisse-hydrobooster",
     "prp-skin-regeneration",
     "biostimulators",
-
   ],
 
   "skin-laxity": [
     "thread-lifts",
-
     "biostimulators",
     "polynucleotides",
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "thread-lifts",
     "neck-lower-face-lift"
   ],
 
   "volume-loss": [
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
     "biostimulators",
     "dermal-fillers",
     "thread-lifts",
@@ -260,39 +227,30 @@ export const conditionToTreatments = {
 
   // BODY SKIN & STRUCTURAL CONDITIONS
   "body-skin-laxity": [
-
-    "biostimulators",
     "biostimulators",
     "body-tightening",
     "polynucleotides"
   ],
 
   "cellulite": [
-
-    "biostimulators",
     "biostimulators",
     "body-tightening"
   ],
 
   "stretch-marks": [
     "microneedling",
-
     "polynucleotides",
     "prp-skin-regeneration",
-
   ],
 
   "post-weightloss-postpartum": [
     "biostimulators",
-
     "polynucleotides",
-    "body-tightening",
     "body-tightening"
   ],
 
   // INTERNAL WELLNESS CONDITIONS
   "fatigue-low-energy": [
-    "nad-iv",
     "nad-iv",
     "energy-iv",
     "vitamin-b12-im",

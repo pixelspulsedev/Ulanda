@@ -455,7 +455,7 @@ const Treatment = () => {
           </section>
         )}
 
-        {/* Ingredients Section */}}
+        {/* Ingredients Section */}
         {treatment.ingredients && (
           <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
             <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">

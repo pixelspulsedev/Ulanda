@@ -911,7 +911,7 @@ export const individualConditions = [
       title: "Ready for",
       highlight: "firmer",
       titleSuffix: "body skin?",
-      description: "Book your ULANDA Body Regeneration consultation today.",
+      description: "Book your ULANDA Body Regeneration consultation today. Treatments start from £180.",
       buttonText: "Book Your Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
@@ -1808,7 +1808,7 @@ export const individualConditions = [
       image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
+    science_removed: {
       title: "Why Midlife Skin Becomes Dry & Reactive —",
       highlight: "The Drivers",
       description: "Hormone decline + barrier weakness + cellular slowdown create dryness and sensitivity:",
@@ -1927,7 +1927,7 @@ export const individualConditions = [
       image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
+    science_removed: {
       title: "Why Hormonal Breakouts Happen —",
       highlight: "Perimenopause & Menopause",
       description: "Fluctuating hormones and slower repair drive midlife acne:",

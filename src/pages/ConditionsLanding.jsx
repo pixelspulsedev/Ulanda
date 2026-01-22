@@ -69,7 +69,7 @@ export default function ConditionsLanding() {
           <div className="text-center mb-16">
             <p className="text-lg text-base-content/80 font-sans max-w-2xl mx-auto">
               This page helps you explore the concerns we treat — grouped into
-              four simple, intelligent categories to make your journey
+              five simple, intelligent categories to make your journey
               effortless.
             </p>
           </div>

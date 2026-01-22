@@ -91,16 +91,15 @@ export const conditionsLandingData = {
       placeholderUrl: 'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
-      title: 'Age &',
-      subtitle: 'Skin Regeneration',
-      highlight: 'Crepey Skin • Laxity • Volume Loss • Pores',
+      title: 'Skin Texture &',
+      subtitle: 'Quality',
+      highlight: 'Fine Lines • Texture • Pores • Dullness',
       description:
         'True anti-ageing is about biological regeneration. We stimulate your body to produce its own collagen, elastin and fresh cells for natural, long-term rejuvenation.',
       concerns: [
-        'Thin, Crepey “Menopause Skin”',
-        'Skin Laxity (Face, Neck, Jawline)',
-        'Volume Loss (Cheeks, Temples)',
-        'Uneven Texture / Roughness',
+        'Fine Lines & Wrinkles',
+        'Dull, Dehydrated Skin',
+        'Rough / Uneven Texture',
         'Enlarged Pores',
       ],
       solutions: [
@@ -110,7 +109,7 @@ export const conditionsLandingData = {
         'Medical Microneedling',
       ],
       link: '/conditions/age-and-regeneration',
-      linkText: 'Explore Regeneration',
+      linkText: 'Explore Skin Texture',
       color: 'bg-rose-50/50',
       dot: '🔴',
       image: '/assets/img/conditions/landing/age_skin_regeneration.jpg',

@@ -108,6 +108,7 @@ export default function ConditionDetail() {
         </section>
 
         {/* Science Section */}
+        {condition.science && (
         <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">
@@ -148,6 +149,7 @@ export default function ConditionDetail() {
             {condition.science.footer}
           </p>
         </section>
+        )}
         
         {/* Related Treatments Section */}
         <RelatedTreatments

@@ -187,7 +187,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/pigmentation-and-skin-tone/post-inflammatory-pigmentation</loc>
+    <loc>https://www.ulanda.co.uk/conditions/pigmentation-and-skin-tone/post-inflammatory-hyperpigmentation</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -772,11 +772,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/renew/body-tightening/body-tightening</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/treatments/renew/body-tightening/body-contouring</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -873,6 +868,11 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/neck-lower-face-lift</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/body-tightening</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
