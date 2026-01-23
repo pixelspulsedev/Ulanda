@@ -206,7 +206,7 @@ export default function Navbar() {
               {[
                 { name: 'Skin laxity', path: '/conditions/skin-laxity' },
                 { name: 'Pigmentation & Skin Tone', path: '/conditions/pigmentation-and-skin-tone' },
-                { name: 'skin texture', path: '/conditions/age-and-regeneration' },
+                { name: 'Skin Texture', path: '/conditions/age-and-regeneration' },
                 { name: 'Dark circles', path: '/conditions/dark-circles' },
                 { name: 'More +', path: '/conditions' }
               ].map((item) => (
@@ -359,7 +359,7 @@ export default function Navbar() {
                       <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
                       <li><Link to="/conditions/skin-laxity" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin laxity</Link></li>
                       <li><Link to="/conditions/pigmentation-and-skin-tone" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Pigmentation & Skin Tone</Link></li>
-                      <li><Link to="/conditions/age-and-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">skin texture</Link></li>
+                      <li><Link to="/conditions/age-and-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin Texture</Link></li>
                       <li><Link to="/conditions/dark-circles" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Dark circles</Link></li>
                       <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">More +</Link></li>
                     </ul>
