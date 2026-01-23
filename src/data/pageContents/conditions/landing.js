@@ -7,8 +7,8 @@ export const conditionsLandingData = {
       "Every condition is assessed through the lens of regenerative aesthetics, hormone-aware physiology and internal wellness so we can address the root cause of the concern, not just the surface.",
       "Whether you’re experiencing menopause-related skin changes, texture concerns, under-eye issues or low energy, our approach is precise, personalised and medically led."
     ],
-    image: "/assets/img/conditions/landing/hero_conditions_landing.jpg",
-    placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    image: "https://images.unsplash.com/photo-1581182800629-7d90925ad072?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpbiUyMGJlYXV0eXxlbnwwfDB8MHx8fDA%3D",
+    placeholderUrl: "https://images.unsplash.com/photo-1581182800629-7d90925ad072?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpbiUyMGJlYXV0eXxlbnwwfDB8MHx8fDA%3D",
   },
   categories: [
     {

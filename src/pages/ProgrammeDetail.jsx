@@ -43,42 +43,62 @@ export default function ProgrammeDetail() {
       <div className="bg-base-100 text-base-content">
         <Breadcrumbs />
         {/* Hero Section */}
-        <section className="relative min-h-[85vh] flex items-center">
-          <div className="absolute inset-0 w-full h-full overflow-hidden">
-            {summaryImage && (
-              <img 
-                src={summaryImage} 
-                alt={title} 
-                className="w-full h-full object-cover object-center"
-                fetchpriority="high"
-              />
-            )}
-            <div className="absolute inset-0 bg-black/60"></div>
-          </div>
-          
-          <div className="relative z-10 w-full px-4 md:px-20 py-20 text-neutral-content text-left">
-            <div className="max-w-3xl">
-              <h1 className="mb-4 text-3xl md:text-5xl font-serif font-semibold text-white">
+        <section className="py-12 md:py-20 px-4 md:px-8 max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+            {/* Text Content */}
+            <div className="flex-1 max-w-2xl">
+              <h1 className="text-3xl md:text-5xl font-serif leading-tight mb-6 text-[#2A2A2A]">
                 <HeroText>
-                {title}
+                  <span className="italic font-light text-primary">
+                    {title.split(' ')[0]}
+                  </span>{' '}
+                  {title.split(' ').slice(1).join(' ')}
                 </HeroText>
               </h1>
 
-              <div className="mb-4 font-sans italic text-white/90">
+              {subtitle && (
+                <div className="text-xl font-serif italic text-primary mb-4">
+                  <HeroText delay={0.1}>
+                    {subtitle}
+                  </HeroText>
+                </div>
+              )}
+
+              <div className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed">
                 <HeroText delay={0.2}>
-                {subtitle}
+                  {summary.description}
                 </HeroText>
               </div>
-              <div className="mb-8 text-lg font-sans font-light text-white/80 max-w-xl">
-                <HeroText delay={0.4}>
-                {summary.description}
-                </HeroText>
-              </div>
-              <FadeInWhenVisible delay={0.6}>
-              <Link to="/book-consultation" className="btn btn-primary text-white border-none">
-                Book Consultation
-              </Link>
+
+              <FadeInWhenVisible delay={0.4}>
+                <Link to="/book-consultation" className="btn btn-primary text-white">
+                  Book Consultation
+                </Link>
               </FadeInWhenVisible>
+            </div>
+
+            {/* Image Content */}
+            <div className="flex-1 relative w-full flex justify-center md:justify-end">
+              <div className="relative w-full max-w-sm aspect-[4/5]">
+                <div className="absolute top-20 right-20 w-full h-full z-0">
+                  <RevealImage delay={0.2} className="w-full h-full">
+                    <img
+                      src="/assets/img/ui/accent.webp"
+                      alt="Decorative shadow"
+                      className="w-full h-full object-cover"
+                    />
+                  </RevealImage>
+                </div>
+
+                {/* Main image */}
+                <RevealImage className="relative z-10 w-full h-full overflow-hidden">
+                  <img
+                    src={summaryImage}
+                    alt={title}
+                    className="w-full h-full object-cover"
+                  />
+                </RevealImage>
+              </div>
             </div>
           </div>
         </section>

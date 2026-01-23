@@ -11,8 +11,8 @@ export const individualConditions = [
       description: "Dull, dehydrated skin is one of the most common concerns for women 30+, often becoming more noticeable during perimenopause and menopause. The skin looks tired, flat, uneven or “grey,” makeup doesn’t sit well, and fine lines appear more defined.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
     science: {
       title: "What’s Really Happening —",
@@ -60,7 +60,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Hydration & Repair – CORE CATEGORY)",
           description: "These are the strongest treatments for dull skin:",
-          image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Skin Boosters (Profhilo, Definisse Hydrobooster, Seventy Hyal)", desc: "Intense, injectable hydration → instant glow + smoother texture." },
@@ -73,7 +73,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Brightening & Exfoliation)",
           description: "Reveals new, fresh skin:",
-          image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel", desc: "Brightens pigment + boosts glow." },
@@ -85,7 +85,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support — if dullness is linked to ageing)",
           description: "Mild structural sagging can cause tired appearance:",
-          image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators", desc: "Firmness improves light reflection." },
@@ -96,7 +96,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Hydration & Energy)",
           description: "Internal health directly affects glow:",
-          image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Hydration IV", desc: "Immediate replenishment." },
@@ -126,7 +126,7 @@ export const individualConditions = [
         "Tailored pathways for long-term radiance",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & surrounding villages"
       ],
-      image: "/assets/img/conditions/dull-dehydrated-skin-hero.webp",
+      image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -150,7 +150,7 @@ export const individualConditions = [
       description: "Enlarged pores are a common midlife concern, especially for women entering their late 30s, 40s, and beyond. They often make the skin appear rough, aged, uneven or oily — and makeup tends to sit inside the pores, making them more visible.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/enlarged-pores-hero.webp"
+      image: "https://plus.unsplash.com/premium_photo-1671717724550-fd7e92333291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5sYXJnZWQlMjBwb3Jlc3xlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "What’s Really Happening —",
@@ -174,8 +174,8 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Clearing & Smoothing)",
           description: "Essential first step for pore refinement:",
-          image: "/assets/img/conditions/enlarged-pores-hero.webp",
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          image: "https://plus.unsplash.com/premium_photo-1671717724550-fd7e92333291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5sYXJnZWQlMjBwb3Jlc3xlbnwwfDF8MHx8fDA%3D",
+          placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724550-fd7e92333291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5sYXJnZWQlMjBwb3Jlc3xlbnwwfDF8MHx8fDA%3D",
           points: [
             { name: "BioRePeel", desc: "Improves texture and reduces congestion." },
             { name: "Chemical Peels", desc: "Dissolve dead skin + tighten the surface." },
@@ -186,7 +186,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Collagen Activation — CORE CATEGORY)",
           description: "The most effective pore treatments regenerate the dermis:",
-          image: "/assets/img/conditions/enlarged-pores-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Microneedling", desc: "Stimulates collagen around the pores → reduces pore diameter." },
@@ -200,7 +200,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support — for ageing-related pore widening)",
           description: "Structural tightening for advanced cases:",
-          image: "/assets/img/conditions/enlarged-pores-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators", desc: "Strengthen the dermis → visibly smooth and tighten pore structure." },
@@ -211,7 +211,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Skin-Quality Support)",
           description: "Internal support improves pore health and inflammation:",
-          image: "/assets/img/conditions/enlarged-pores-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Improves cell turnover + reduces oxidative stress." },
@@ -239,7 +239,7 @@ export const individualConditions = [
         "Multi-layer strategy for long-term pore refinement",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & more"
       ],
-      image: "/assets/img/conditions/enlarged-pores-hero.webp",
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -263,7 +263,7 @@ export const individualConditions = [
       description: "Fine lines and wrinkles are one of the earliest signs of ageing — often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp"
+      image: "https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww"
     },
     science: {
       title: "What’s Really Happening —",
@@ -286,8 +286,8 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Renewal)",
           description: "Removes dull cells and boosts turnover:",
-          image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
-          placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          image: "https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww",
+          placeholderUrl: "https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww",
           points: [
             { name: "Chemical Peels", desc: "Smooth the appearance of early fine lines." },
             { name: "BioRePeel", desc: "Refines texture and glow." },
@@ -298,7 +298,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration)",
           description: "Core category for reversing fine lines:",
-          image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improve elasticity and dermal density." },
@@ -311,7 +311,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "For deeper wrinkles or structural lines:",
-          image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA, CaHA)", desc: "Rebuild collagen over time." },
@@ -323,7 +323,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Regeneration)",
           description: "Internal support that enhances results:",
-          image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Reduces oxidative stress, boosts collagen." },
@@ -352,7 +352,7 @@ export const individualConditions = [
         "Multi-layer personalised pathways",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & surrounding Hertfordshire villages"
       ],
-      image: "/assets/img/conditions/fine-lines-wrinkles-hero.webp",
+      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -399,7 +399,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Lifting — CORE)",
           description: "Primary lift for jawline, cheeks and neck:",
-          image: "/assets/img/conditions/skin-laxity-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Thread Lifts (PDO / Definisse)", desc: "Immediate mechanical lift + collagen stimulation." },
@@ -411,7 +411,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Reinforcement)",
           description: "Strengthens tissue to hold the lift:",
-          image: "/assets/img/conditions/skin-laxity-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves elasticity and collagen quality." },
@@ -423,7 +423,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Quality)",
           description: "Refines early laxity and texture:",
-          image: "/assets/img/conditions/skin-laxity-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel", desc: "Brightens and smooths surface laxity." },
@@ -434,7 +434,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Longevity Support)",
           description: "Internal support to accelerate lift and repair:",
-          image: "/assets/img/conditions/skin-laxity-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Optimises cellular energy for regeneration." },
@@ -463,7 +463,7 @@ export const individualConditions = [
         "Full-face mapping for natural contour",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & nearby villages"
       ],
-      image: "/assets/img/conditions/skin-laxity-hero.webp",
+      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -510,7 +510,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration — CORE)",
           description: "Rebuilds thickness and resilience:",
-          image: "/assets/img/conditions/crepey-skin-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Thickens dermis, improves elasticity, calms inflammation." },
@@ -522,7 +522,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Strength)",
           description: "Deep collagen rebuilding for fragile areas:",
-          image: "/assets/img/conditions/crepey-skin-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA, CaHA, PDLLA)", desc: "Add firmness over 6–12 months." },
@@ -533,7 +533,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Renewal)",
           description: "Evens dull, crepey surface:",
-          image: "/assets/img/conditions/crepey-skin-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel", desc: "Brightens and smooths fine crepe lines." },
@@ -545,7 +545,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Internal therapies that enhance hormonal skin repair:",
-          image: "/assets/img/conditions/crepey-skin-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular repair." },
@@ -576,7 +576,7 @@ export const individualConditions = [
         "Internal + external synergy for resilience",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & more"
       ],
-      image: "/assets/img/conditions/crepey-skin-hero.webp",
+      image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -600,7 +600,7 @@ export const individualConditions = [
       description: "Roughness, bumps, enlarged pores or a sandpaper feel signal slowed renewal and collagen decline — often worsened in perimenopause.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/uneven-texture-hero.webp"
+      image: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww"
     },
     science: {
       title: "What’s Really Happening —",
@@ -623,8 +623,8 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Smoothing — FIRST STEP)",
           description: "Removes dead cells and brightens:",
-          image: "/assets/img/conditions/uneven-texture-hero.webp",
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          image: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww",
+          placeholderUrl: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww",
           points: [
             { name: "BioRePeel", desc: "Targets roughness and early lines." },
             { name: "Chemical Peels", desc: "Resurfaces uneven patches." },
@@ -636,7 +636,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration — CORE)",
           description: "Strengthens texture at the dermal level:",
-          image: "/assets/img/conditions/uneven-texture-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Microneedling / RF Microneedling", desc: "Refines pores and remodels collagen." },
@@ -649,7 +649,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Improvement)",
           description: "For texture linked to deeper ageing:",
-          image: "/assets/img/conditions/uneven-texture-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators", desc: "Thicken and firm skin for a smoother surface." },
@@ -660,7 +660,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Boost)",
           description: "Hydration and repair from within:",
-          image: "/assets/img/conditions/uneven-texture-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Hydration IV", desc: "Restores moisture balance." },
@@ -689,7 +689,7 @@ export const individualConditions = [
         "Tailored surface + cellular + structural repair",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & more"
       ],
-      image: "/assets/img/conditions/uneven-texture-hero.webp",
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -736,7 +736,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Volume & Contour — CORE)",
           description: "Rebuilds shape naturally:",
-          image: "/assets/img/conditions/volume-loss-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Natural Dermal Fillers", desc: "Cheeks, temples, jawline with balanced contour." },
@@ -747,7 +747,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Volume Support)",
           description: "Strengthens tissue to support structure:",
-          image: "/assets/img/conditions/volume-loss-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves elasticity and dermal thickness." },
@@ -759,7 +759,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Enhancements)",
           description: "Refines how restored volume appears:",
-          image: "/assets/img/conditions/volume-loss-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel", desc: "Improves surface glow around restored volume." },
@@ -771,7 +771,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Optimises metabolic and hormonal factors for contour longevity:",
-          image: "/assets/img/conditions/volume-loss-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Enhances cellular repair and collagen." },
@@ -800,7 +800,7 @@ export const individualConditions = [
         "Multi-layer planning for subtle, lasting results",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell, Stanstead Abbotts & nearby villages"
       ],
-      image: "/assets/img/conditions/volume-loss-hero.webp",
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -824,8 +824,8 @@ export const individualConditions = [
       description: "Loose, crepey arms, stomach, thighs or knees are structural and hormonal, not just weight related. We tighten body skin by rebuilding collagen, elastin and fascia.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/body-skin-laxity-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww"
     },
     science: {
       title: "Why Body Skin Becomes Loose —",
@@ -849,7 +849,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular & Skin Quality)",
           description: "Strengthen building blocks first:",
-          image: "/assets/img/conditions/body-skin-laxity-hero.webp",
+          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN Body)", desc: "Thickens thin skin; improves elasticity." },
@@ -861,7 +861,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Tightening)",
           description: "Addresses core structural causes:",
-          image: "/assets/img/conditions/body-skin-laxity-hero.webp",
+          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Long-lasting collagen rebuild for arms, thighs, abdomen." },
@@ -873,7 +873,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Regeneration)",
           description: "Internal support accelerates firmness:",
-          image: "/assets/img/conditions/body-skin-laxity-hero.webp",
+          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Boosts cellular repair and collagen." },
@@ -904,7 +904,7 @@ export const individualConditions = [
         "Advanced medical-grade body protocols",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell and nearby villages"
       ],
-      image: "/assets/img/conditions/body-skin-laxity-hero.webp",
+      image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -928,8 +928,8 @@ export const individualConditions = [
       description: "Cellulite is structural and hormonal, not a fat problem. We smooth dimples by repairing collagen, releasing tethering and improving tissue health.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/cellulite-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1661389208879-cef356e2497d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsbHVsaXRlJTIwdHJlYXRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1661389208879-cef356e2497d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsbHVsaXRlJTIwdHJlYXRtZW50fGVufDB8MXwwfHx8MA%3D%3D"
     },
     science: {
       title: "Why Cellulite Happens —",
@@ -951,7 +951,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Skin Quality & Cellular Strength)",
           description: "Thicken and smooth the overlying skin:",
-          image: "/assets/img/conditions/cellulite-hero.webp",
+          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN Body)", desc: "Improves density, elasticity and hydration." },
@@ -963,7 +963,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Correction)",
           description: "Addresses tethering and support:",
-          image: "/assets/img/conditions/cellulite-hero.webp",
+          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (CaHA / PLLA)", desc: "Plumps, strengthens and smooths thighs, buttocks, hips." },
@@ -975,7 +975,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Optimisation)",
           description: "Improves circulation, repair and inflammation control:",
-          image: "/assets/img/conditions/cellulite-hero.webp",
+          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Boosts collagen turnover and healing." },
@@ -1005,7 +1005,7 @@ export const individualConditions = [
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell and more",
         "Integrates internal longevity support"
       ],
-      image: "/assets/img/conditions/cellulite-hero.webp",
+      image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1029,8 +1029,8 @@ export const individualConditions = [
       description: "After pregnancy or weight loss, skin can feel loose, soft or crepey. We restore firmness and contour through non-surgical regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1746192629710-cdbc5ec17830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9zdC1XZWlnaHQlMjBMb3NzfGVufDB8MXwwfHx8MA%3D%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1746192629710-cdbc5ec17830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9zdC1XZWlnaHQlMjBMb3NzfGVufDB8MXwwfHx8MA%3D%3D"
     },
     science: {
       title: "Why Skin Changes After Weight Loss or Pregnancy —",
@@ -1052,7 +1052,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair)",
           description: "Rebuild dermal quality first:",
-          image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp",
+          image: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN Body)", desc: "Thickens, hydrates and improves elasticity." },
@@ -1064,7 +1064,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "Adds firmness and lift where skin deflates:",
-          image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp",
+          image: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Rebuild thickness for abdomen, arms, buttocks, hips." },
@@ -1076,7 +1076,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Optimises recovery and hormonal balance:",
-          image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp",
+          image: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Supports fibroblast repair and collagen synthesis." },
@@ -1106,7 +1106,7 @@ export const individualConditions = [
         "Serves Ware, Hertford, Stanstead Abbotts, Broxbourne, Hoddesdon, Great Amwell, Welwyn",
         "Supports women through every life stage"
       ],
-      image: "/assets/img/conditions/post-weightloss-postpartum-hero.webp",
+      image: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1130,8 +1130,7 @@ export const individualConditions = [
       description: "Stretch marks are dermal tears, not surface lines. We repair the collagen network for smoother, stronger skin.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/stretch-marks-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D"
     },
     science: {
       title: "Why Stretch Marks Form —",
@@ -1153,8 +1152,8 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair & Texture)",
           description: "Gold-standard smoothing and dermal repair:",
-          image: "/assets/img/conditions/stretch-marks-hero.webp",
-          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
+          placeholderUrl: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
           points: [
             { name: "RF Microneedling (Body)", desc: "Top treatment for texture, depth and colour blending." },
             { name: "Polynucleotides (PN Body)", desc: "Thickens dermis and repairs fibroblasts." },
@@ -1165,7 +1164,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Reinforcement)",
           description: "Adds support where dermis tore:",
-          image: "/assets/img/conditions/stretch-marks-hero.webp",
+          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Plumps depressed marks; regenerates collagen up to 2 years." },
@@ -1176,7 +1175,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Healing)",
           description: "Improves repair environment:",
-          image: "/assets/img/conditions/stretch-marks-hero.webp",
+          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Boosts cellular repair and collagen cross-linking." },
@@ -1207,7 +1206,7 @@ export const individualConditions = [
         "Serving Ware, Hertford, Welwyn, Broxbourne, Hoddesdon and nearby towns",
         "Long-term collagen strategy with internal support"
       ],
-      image: "/assets/img/conditions/stretch-marks-hero.webp",
+      image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1231,8 +1230,8 @@ export const individualConditions = [
       description: "Thin, wrinkled under-eye skin accelerates after 35 and during menopause. We thicken, hydrate and strengthen instead of masking.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/crepey-under-eye-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D"
     },
     science: {
       title: "Why Crepey Eyes Develop —",
@@ -1256,7 +1255,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Smoothing & Brightening)",
           description: "Gentle prep for fragile skin:",
-          image: "/assets/img/conditions/crepey-under-eye-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Enzyme Therapy", desc: "Smooths without irritation." },
@@ -1268,7 +1267,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Regeneration)",
           description: "Builds thickness, elasticity and hydration:",
-          image: "/assets/img/conditions/crepey-under-eye-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "#1 for crepey eyes — improves density, elasticity and hydration." },
@@ -1281,7 +1280,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "Adds support where hollows drive crepiness:",
-          image: "/assets/img/conditions/crepey-under-eye-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Mid-Face or Micro Tear-Trough Filler", desc: "Restores support to reduce creasing." },
@@ -1293,7 +1292,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Improves repair and circulation:",
-          image: "/assets/img/conditions/crepey-under-eye-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Supports cellular repair; reduces fatigue-linked crepiness." },
@@ -1323,7 +1322,7 @@ export const individualConditions = [
         "Natural, subtle results (no over-filling)",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "/assets/img/conditions/crepey-under-eye-hero.webp",
+      image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1347,8 +1346,8 @@ export const individualConditions = [
       description: "Dark circles are usually structural, vascular, pigment and hydration related — not just lack of sleep. We brighten by regenerating skin, not masking.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/dark-circles-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww",
+      placeholderUrl: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww"
     },
     science: {
       title: "Why Dark Circles Happen —",
@@ -1371,7 +1370,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Brightening)",
           description: "Gentle brightening to prep the area:",
-          image: "/assets/img/conditions/dark-circles-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel (eye protocol)", desc: "Safe pigment softening." },
@@ -1383,7 +1382,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Under-Eye Repair)",
           description: "Transforms thickness, hydration and tone:",
-          image: "/assets/img/conditions/dark-circles-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves thickness, hydration, circulation and pigment balance." },
@@ -1396,7 +1395,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Shadows)",
           description: "Targets hollows and support loss:",
-          image: "/assets/img/conditions/dark-circles-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Mid-Face Filler", desc: "Lifts shadows naturally." },
@@ -1408,7 +1407,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Brightening)",
           description: "Addresses internal drivers of darkness:",
-          image: "/assets/img/conditions/dark-circles-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Glutathione IV", desc: "Antioxidant brightening." },
@@ -1438,7 +1437,7 @@ export const individualConditions = [
         "Safe for sensitive, menopause-affected eyes",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "/assets/img/conditions/dark-circles-hero.webp",
+      image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1462,8 +1461,8 @@ export const individualConditions = [
       description: "Tear trough hollows and shadows are structural. We strengthen skin, restore support and hydrate for natural, rested eyes without overfilling.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/tear-troughs-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVuZGVyJTIwZXllJTIwaG9sbG93c3xlbnwwfHwwfHx8MA%3D%3D",
+      // placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "Why Hollows Form —",
@@ -1486,7 +1485,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Brightness & Prep)",
           description: "Light resurfacing before deeper repair:",
-          image: "/assets/img/conditions/tear-troughs-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel (eye protocol)", desc: "Improves brightness." },
@@ -1497,7 +1496,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Repair)",
           description: "Strengthens thin skin and circulation:",
-          image: "/assets/img/conditions/tear-troughs-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Gold-standard for dermal thickness and microcirculation." },
@@ -1510,7 +1509,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Volume)",
           description: "Conservative, natural support:",
-          image: "/assets/img/conditions/tear-troughs-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Mid-Face Filler", desc: "Primary correction to lift hollows." },
@@ -1523,7 +1522,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Support)",
           description: "Improves healing and reduces fatigue look:",
-          image: "/assets/img/conditions/tear-troughs-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Vitamin B12 IM", desc: "Enhances circulation." },
@@ -1552,7 +1551,7 @@ export const individualConditions = [
         "Menopause-aware under-eye expertise",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "/assets/img/conditions/tear-troughs-hero.webp",
+      image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1576,8 +1575,8 @@ export const individualConditions = [
       description: "Brown, blue or mixed under-eye pigmentation needs gentle regeneration, pigment control and barrier repair — not harsh bleaching.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://images.unsplash.com/photo-1636820531452-d63abb2d4008?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
+      placeholderUrl: "https://images.unsplash.com/photo-1636820531452-d63abb2d4008?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "Why Under-Eye Pigment Appears —",
@@ -1599,7 +1598,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Gentle Brightening)",
           description: "Safe resurfacing for fragile eyes:",
-          image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Enzyme Therapy", desc: "Brightens without irritation." },
@@ -1611,7 +1610,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Pigment Repair)",
           description: "Strengthens barrier and calms melanocytes:",
-          image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Repairs barrier, reduces inflammation, improves hydration and pigment balance." },
@@ -1624,7 +1623,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural & Deep Support)",
           description: "Helps when shadowing worsens pigment:",
-          image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Mid-Face Filler", desc: "Lifts shadows that exaggerate pigment." },
@@ -1636,7 +1635,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal Brightening)",
           description: "Targets inflammatory and hormonal drivers:",
-          image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Glutathione IV", desc: "Powerful antioxidant brightening." },
@@ -1666,7 +1665,7 @@ export const individualConditions = [
         "Addresses pigment + vascular + shadow in one plan",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "/assets/img/conditions/under-eye-pigmentation-hero.webp",
+      image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1690,8 +1689,8 @@ export const individualConditions = [
       description: "Puffiness and bags come from fluid retention, lax support and inflammation — not just tiredness. We de-puff by improving drainage, strength and structure.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
+      placeholderUrl: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "Why Puffiness Happens —",
@@ -1714,7 +1713,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Immediate Brightening & De-Puff)",
           description: "Gentle surface work plus lymphatic support:",
-          image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Enzyme Therapy", desc: "Reduces surface swelling." },
@@ -1726,7 +1725,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Core Repair)",
           description: "Reduces inflammation and strengthens skin:",
-          image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Improves drainage, calms inflammation, strengthens thin skin." },
@@ -1739,7 +1738,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Correction)",
           description: "For true bags or laxity:",
-          image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators", desc: "Strengthen and tighten lower-lid skin." },
@@ -1751,7 +1750,7 @@ export const individualConditions = [
           title: "Radiate Wellness",
           subtitle: "(Internal De-Puffing)",
           description: "Targets hormonal and inflammatory fluid retention:",
-          image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
+          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Vitamin B12 IM", desc: "Improves circulation and lymph flow." },
@@ -1781,7 +1780,7 @@ export const individualConditions = [
         "Safe for sensitive under-eye skin",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Much Hadham"
       ],
-      image: "/assets/img/conditions/under-eye-puffiness-hero.webp",
+      image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1805,8 +1804,8 @@ export const individualConditions = [
       description: "Dry, tight, reactive skin is one of the earliest menopause signals. We rebuild strength, hydration and resilience so skin feels calm again.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
     science_removed: {
       title: "Why Midlife Skin Becomes Dry & Reactive —",
@@ -1831,7 +1830,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Gentle Surface Renewal)",
           description: "Smooths without stripping the barrier:",
-          image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Enzyme Therapy", desc: "Removes dead skin while keeping the barrier intact." },
@@ -1844,7 +1843,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Deep Regeneration)",
           description: "Core treatments to rebuild comfort and hydration:",
-          image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Repairs barrier, boosts hydration, thickens thin menopausal skin." },
@@ -1857,7 +1856,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Strengthening the Dermis — If Needed)",
           description: "For advanced dryness with thinning:",
-          image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (micro-dilute)", desc: "Strengthen dermal structure to reduce crepiness." },
@@ -1868,7 +1867,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Support)",
           description: "Addresses hormonal dryness from within:",
-          image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular hydration and resilience." },
@@ -1900,7 +1899,7 @@ export const individualConditions = [
         "Restores comfort, hydration and resilience",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell, Stanstead Abbotts"
       ],
-      image: "/assets/img/conditions/dryness-sensitivity-hero.webp",
+      image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -1924,8 +1923,8 @@ export const individualConditions = [
       description: "Midlife acne is inflammatory and hormone-driven — stripping makes it worse. We calm, repair and prevent breakouts with hormone-smart regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
     },
     science_removed: {
       title: "Why Hormonal Breakouts Happen —",
@@ -1950,7 +1949,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Clearing Without Damage)",
           description: "Gentle clearing and inflammation control:",
-          image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel (Acne Safe)", desc: "Reduces inflammation and congestion." },
@@ -1963,7 +1962,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair to Prevent Recurrence)",
           description: "Stops cycle-linked flare-ups and improves healing:",
-          image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Microneedling (post-inflammatory phase)", desc: "Improves texture and prevents scarring." },
@@ -1976,7 +1975,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Strength for Stability)",
           description: "Addresses lax, inflamed tissue that worsens breakouts:",
-          image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (micro-dilute)", desc: "Improve resilience and texture, reducing future inflammation." },
@@ -1987,7 +1986,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Hormone-Smart Support)",
           description: "Calms inflammation and balances internal triggers:",
-          image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Reduces inflammation and improves healing." },
@@ -2019,7 +2018,7 @@ export const individualConditions = [
         "Integrated internal + external support",
         "Serving Ware, Hertford, Hoddesdon, Broxbourne, Great Amwell"
       ],
-      image: "/assets/img/conditions/hormonal-breakouts-hero.webp",
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -2043,8 +2042,8 @@ export const individualConditions = [
       description: "Hormone-driven pigmentation needs calm, regenerative brightening — not lasers or harsh bleaching. We repair melanocyte balance safely.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://images.unsplash.com/photo-1575779977884-f1069c45cbf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
+      placeholderUrl: "https://images.unsplash.com/photo-1575779977884-f1069c45cbf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "Why Hormonal Pigmentation Appears —",
@@ -2068,7 +2067,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Gentle Surface Brightening)",
           description: "Preps skin without triggering pigment:",
-          image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel (pigment safe)", desc: "Reduces surface dullness and inflammation." },
@@ -2082,7 +2081,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Deep Cellular Repair)",
           description: "Core regenerative brightening for hormonal pigment:",
-          image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Calms melanocyte hyperactivity, repairs barrier, thickens dermis." },
@@ -2095,7 +2094,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Strength — Optional)",
           description: "Helps pigment appear lighter by improving density:",
-          image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (micro-dilute)", desc: "Increase dermal density so pigment is less visible." },
@@ -2106,7 +2105,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Pigment Control)",
           description: "Targets endocrine and inflammatory drivers:",
-          image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Glutathione IV", desc: "Brightens and reduces melanin production." },
@@ -2138,7 +2137,7 @@ export const individualConditions = [
         "Safe for sensitive, menopause-affected skin",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon, Great Amwell & SG12"
       ],
-      image: "/assets/img/conditions/hormonal-pigmentation-hero.webp",
+      image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -2162,8 +2161,8 @@ export const individualConditions = [
       description: "Menopause-driven contour loss is structural — collagen, ligaments and fat pads weaken. We lift and rebuild definition without heaviness.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/loss-of-definition-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1682965699603-81ccb5965576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMHNraW58ZW58MHwxfDB8fHww",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1682965699603-81ccb5965576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMHNraW58ZW58MHwxfDB8fHww"
     },
     science: {
       title: "Why Facial Definition Declines After 35–40 —",
@@ -2188,7 +2187,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Skin Quality & Collagen Foundation)",
           description: "Strengthens skin and fascia before lifting:",
-          image: "/assets/img/conditions/loss-of-definition-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Tighten and thicken skin for sharper jawline and midface." },
@@ -2201,7 +2200,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Contour Rebuilding)",
           description: "Core lift for menopausal contour loss:",
-          image: "/assets/img/conditions/loss-of-definition-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA, CaHA)", desc: "Rebuild collagen, restore frame, improve jawline and midface." },
@@ -2213,7 +2212,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Refinement)",
           description: "Enhances light reflection after lift:",
-          image: "/assets/img/conditions/loss-of-definition-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel", desc: "Smooths shadows for a sharper look." },
@@ -2225,7 +2224,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Regeneration)",
           description: "Supports hormonal and inflammatory factors:",
-          image: "/assets/img/conditions/loss-of-definition-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular energy and reduces inflammation." },
@@ -2256,7 +2255,7 @@ export const individualConditions = [
         "Layered lift model for lasting definition",
         "Serving Ware, Hertford, Stanstead Abbotts, Broxbourne"
       ],
-      image: "/assets/img/conditions/loss-of-definition-hero.webp",
+      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -2280,8 +2279,8 @@ export const individualConditions = [
       description: "Jawline softening is a structural, hormone-driven change — not a volume problem. We lift jawlines naturally with regeneration, not heavy filler.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/jawline-softening-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://media.istockphoto.com/id/1317818764/photo/close-up-portrait-of-mature-blonde-woman-in-white-underwear-looking-away-posing-isolated-over.jpg?s=612x612&w=0&k=20&c=IvprcjEhcGmiLNUgTgPv2pIJBhUTJTOL-cfdU3tNYkE=",
+      // placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science: {
       title: "Why the Jawline Softens in Menopause —",
@@ -2305,7 +2304,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Repair & Skin Quality)",
           description: "Strengthens thin, lax lower-face skin:",
-          image: "/assets/img/conditions/jawline-softening-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Top treatment for menopausal jawline laxity; thickens and improves elasticity." },
@@ -2317,7 +2316,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Lift & Ligament Support)",
           description: "Targets true causes of jowls:",
-          image: "/assets/img/conditions/jawline-softening-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Rebuild deep support, reduce pre-jowl sulcus and heaviness." },
@@ -2329,7 +2328,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Reset)",
           description: "Hormone-aware internal support enhances lift:",
-          image: "/assets/img/conditions/jawline-softening-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular energy and collagen." },
@@ -2361,7 +2360,7 @@ export const individualConditions = [
         "Holistic internal + external approach",
         "Serving Ware, Hertford, Broxbourne, Hoddesdon and nearby villages"
       ],
-      image: "/assets/img/conditions/jawline-softening-hero.webp",
+      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -2385,8 +2384,8 @@ export const individualConditions = [
       description: "Menopause neck ageing is rapid and delicate. We thicken, smooth and tighten the neck with regeneration, not overfilling or harsh resurfacing.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/neck-crepiness-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1671718111719-52897ffd6f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1671718111719-52897ffd6f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "Why the Neck Ages Fast in Menopause —",
@@ -2411,7 +2410,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular Regeneration)",
           description: "Gold-standard for crepey menopausal neck skin:",
-          image: "/assets/img/conditions/neck-crepiness-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN — Plenhyage / Nucleofill)", desc: "Thicken dermis, improve elasticity and hydration." },
@@ -2424,7 +2423,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support)",
           description: "Rebuilds firmness for sagging or turkey neck:",
-          image: "/assets/img/conditions/neck-crepiness-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Deep collagen rebuild for sagging and deep lines." },
@@ -2436,7 +2435,7 @@ export const individualConditions = [
           title: "Radiate",
           subtitle: "(Internal Regeneration)",
           description: "Supports hormonal and inflammatory neck ageing:",
-          image: "/assets/img/conditions/neck-crepiness-hero.webp",
+          image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular repair and resilience." },
@@ -2466,7 +2465,7 @@ export const individualConditions = [
         "Serving Ware, Hertford, Broxbourne, Hoddesdon and surrounding villages",
         "Natural, age-appropriate outcomes"
       ],
-      image: "/assets/img/conditions/neck-crepiness-hero.webp",
+      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     cta: {
@@ -2490,8 +2489,8 @@ export const individualConditions = [
       description: "Menopause triggers the most dramatic skin shift of a woman’s life. ULANDA rebuilds collagen, hydration, barrier strength and contour through regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://images.unsplash.com/photo-1659531412263-bf2b9e1abf6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2tpbiUyMGRlY2xpbmV8ZW58MHwxfDB8fHww",
+      placeholderUrl: "https://images.unsplash.com/photo-1659531412263-bf2b9e1abf6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2tpbiUyMGRlY2xpbmV8ZW58MHwxfDB8fHww"
     },
     science: {
       title: "Understanding Menopause Skin Decline —",
@@ -2517,7 +2516,7 @@ export const individualConditions = [
           title: "Refresh",
           subtitle: "(Surface Clarity & Texture)",
           description: "Clears buildup and prepares skin:",
-          image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "BioRePeel", desc: "Brightens and stimulates mild collagen without irritation." },
@@ -2530,7 +2529,7 @@ export const individualConditions = [
           title: "Renew",
           subtitle: "(Cellular-Level Repair)",
           description: "Core treatments that thicken and hydrate menopausal skin:",
-          image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Polynucleotides (PN)", desc: "Thicken thinning skin, enhance elasticity and calm inflammation." },
@@ -2543,7 +2542,7 @@ export const individualConditions = [
           title: "Restore",
           subtitle: "(Structural Support & Lifting)",
           description: "Addresses sagging, contour loss and deeper laxity:",
-          image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
+          image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Rebuild dermal thickness and firmness." },
@@ -2609,7 +2608,7 @@ export const individualConditions = [
       description: "Rough, uneven, crepey texture in menopause needs stacked regeneration — collagen renewal, hydration rebuilding and dermal strengthening.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/texture-decline-hero.webp"
+      image: "https://images.unsplash.com/photo-1615997380705-504484cd99c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "Why Texture Declines in Menopause —",
@@ -2722,7 +2721,7 @@ export const individualConditions = [
       description: "Sun damage, age spots and uneven brown patches need calm, regenerative correction — not aggressive bleaching. We fade pigment safely and prevent recurrence.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/hyperpigmentation-hero.webp"
+      image: "https://images.unsplash.com/photo-1737978697863-5d65495b28ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2tpbiUyMHF1YWxpdHl8ZW58MHwxfDB8fHww"
     },
     science: {
       title: "What Hyperpigmentation Really Is —",
@@ -2830,7 +2829,7 @@ export const individualConditions = [
       description: "Melasma is hormone- and inflammation-driven; harsh peels and lasers often worsen it. We calm, repair and brighten with melasma-safe regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/melasma-hero.webp"
+      image: "https://plus.unsplash.com/premium_photo-1664203068076-c95b2d3054a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "What Makes Melasma Different —",
@@ -2938,7 +2937,7 @@ export const individualConditions = [
       description: "PIH follows acne, irritation or trauma. We calm, repair and brighten without triggering further darkening — safe for all tones.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/post-inflammatory-hyperpigmentation-hero.webp"
+      image: "https://plus.unsplash.com/premium_photo-1664203068366-f3387be92fb9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "Why PIH Appears —",
@@ -3047,7 +3046,7 @@ export const individualConditions = [
       description: "Patchy, dull, uneven tone needs calm regeneration — strengthening barrier, boosting turnover and hydrating deeply for natural clarity.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/uneven-skin-tone-hero.webp"
+      image: "https://images.unsplash.com/photo-1609542499975-4ca8bde933db?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     science: {
       title: "Why Tone Becomes Uneven —",
@@ -3157,7 +3156,7 @@ export const individualConditions = [
       description: "Energy decline after 30–40 is biological — mitochondria slow, hormones fluctuate, nutrients deplete. ULANDA restores cellular energy so skin, mind and body perform again.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/fatigue-low-energy-hero.webp"
+      image: "https://images.unsplash.com/photo-1561539207-46fec82a333c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RmF0aWd1ZSUyMCUyNiUyMExvdyUyMEVuZXJneXxlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "Why Energy Drops —",
@@ -3267,7 +3266,7 @@ export const individualConditions = [
       description: "If you catch colds easily or recover slowly, immunity is signalling nutrient depletion, cortisol shifts or mitochondrial decline. We rebuild resilience from within.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/low-immunity-hero.webp"
+      image: "https://www.drtatiana.co.uk/wp-content/smush-webp/2019/03/low-immunity-548x794.jpg.webp"
     },
     science: {
       title: "Why Immunity Drops —",
@@ -3378,7 +3377,7 @@ export const individualConditions = [
       description: "Dullness, pigmentation, roughness or hair shedding often trace back to Vitamin D, B12, antioxidant and amino-acid deficits. We correct inside first, then regenerate skin.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/nutrient-deficiency-skin-hero.webp"
+      image: "https://images.unsplash.com/photo-1643576493776-296ae3e0ca53?q=80&w=855&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     science: {
       title: "Why Nutrients Drop —",
@@ -3487,7 +3486,7 @@ export const individualConditions = [
       description: "Midlife weight gain is hormonal and metabolic, not willpower. ULANDA resets metabolism with regenerative, longevity-led support.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/slow-metabolism-hero.webp"
+      image: "https://plus.unsplash.com/premium_photo-1664884164827-4ba4247f3bdb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2xvdyUyMG1ldGFib2xpc218ZW58MHx8MHx8fDA%3D"
     },
     science: {
       title: "Why Metabolism Slows —",
@@ -3598,7 +3597,7 @@ export const individualConditions = [
       description: "Chronic stress is a hormonal and inflammatory storm that accelerates ageing. We calm cortisol, rebuild barrier and regenerate skin at every layer.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/stress-inflammation-hero.webp"
+      image: "https://plus.unsplash.com/premium_photo-1728915175711-c7bf6c398396?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     science: {
       title: "Why Stress Ages Skin —",

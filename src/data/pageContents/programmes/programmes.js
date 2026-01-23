@@ -1,6 +1,8 @@
 export const programmes = [
   {
     id: 'menopause-regeneration',
+    image: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+    placeholderUrl: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
     seo: {
       title: "12-Week Menopause Regeneration Plan | ULANDA",
       description: "ULANDA’s 12-Week Menopause Regeneration Plan restores collagen, hydration & firmness for midlife skin. A hormone-smart, regenerative pathway for perimenopause & menopause."
@@ -18,8 +20,8 @@ export const programmes = [
         'inflammation & barrier breakdown',
       ],
       includes: 'PN, PRP (optional), skin boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.',
-      image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop',
-      placeholderUrl: 'https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D',
+      placeholderUrl: 'https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D',
     },
     content: {
       intro: [
@@ -202,6 +204,8 @@ export const programmes = [
   // Placeholder for other programmes
   {
     id: 'under-eye-regeneration',
+    image: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
+    placeholderUrl: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
     seo: {
       title: "Under-Eye Regeneration Blueprint | ULANDA",
       description: "Restore tired eyes naturally with ULANDA’s Under-Eye Regeneration Blueprint. A filler-free, regenerative programme for dark circles, hollowing & crepey skin."
@@ -396,6 +400,8 @@ export const programmes = [
   },
   {
     id: 'collagen-reset',
+    image: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
+    placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
     seo: {
       title: "Collagen Reset Journey | ULANDA",
       description: "Rebuild your skin’s structure with ULANDA’s Collagen Reset Journey. A multi-layered regenerative programme to restore firmness, elasticity & natural lift."
@@ -417,8 +423,8 @@ export const programmes = [
         'early folds forming (nasolabial, marionette)'
       ],
       includes: 'Biostimulators, Threads, Polynucleotides, Skin Boosters, LED, Medical Facials',
-      image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop',
-      placeholderUrl: 'https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww',
+      placeholderUrl: 'https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww',
     },
     content: {
       intro: [
@@ -598,6 +604,8 @@ export const programmes = [
   },
   {
     id: 'hormone-smart-skin',
+    image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
+    placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
     seo: {
       title: "Radiate Hormone-Smart Skin Programme | ULANDA",
       description: "Balance hormonal skin from within. ULANDA’s Radiate Hormone-Smart Skin Programme targets breakouts, sensitivity & dullness through internal & external regeneration."
@@ -619,8 +627,8 @@ export const programmes = [
         'disrupted sleep + low vitality'
       ],
       includes: 'PN, Skin Boosters, Microneedling, LED, Peels, Internal Radiate Support (IV/IM)',
-      image: 'https://images.unsplash.com/photo-1588510904409-47e2f767540d?q=80&w=1887&auto=format&fit=crop',
-      placeholderUrl: 'https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww',
+      placeholderUrl: 'https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww',
     },
     content: {
       intro: [
@@ -797,6 +805,8 @@ export const programmes = [
   },
   {
     id: 'shape-and-regenerate',
+    image: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
+    placeholderUrl: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
     seo: {
       title: "Shape & Regenerate™ Body Transformation | ULANDA",
       description: "ULANDA Shape & Regenerate™ combines metabolic health, body contouring & skin tightening for a complete midlife body transformation. Regenerative, not restrictive."
@@ -818,8 +828,8 @@ export const programmes = [
         'fluid retention or bloating'
       ],
       includes: 'Body Contouring, Metabolic Reset, Skin Tightening, Biostimulators, Radiate IM Support',
-      image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2070&auto=format&fit=crop',
-      placeholderUrl: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D',
+      placeholderUrl: 'https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D',
     },
     content: {
       intro: [

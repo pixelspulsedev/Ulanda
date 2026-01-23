@@ -53,25 +53,16 @@ export default function TreatmentCategory() {
         <Breadcrumbs />
 
         {/* Hero Section */}
-        <section className="relative min-h-[70vh] md:min-h-[70vh] flex items-center">
-             <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
-                <img
-                  src={category.placeholderUrl || category.image}
-                  alt={category.title}
-                  className="w-full h-full object-cover brightness-75"
-                />
-                 <div className="absolute inset-0 bg-black/40"></div>
-              </div>
-
-             <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full text-white">
+        <section className="relative min-h-[50vh] flex items-center bg-secondary">
+             <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full text-base-content">
                 <div className="max-w-4xl">
-                     <div className="inline-block px-4 py-1 mb-6 border border-white/30 rounded-full bg-white/10 backdrop-blur-sm text-sm font-bold tracking-widest uppercase">
+                     <div className="inline-block px-2 py-1 mb-6 border border-primary/50 rounded-full bg-secondary backdrop-blur-sm text-xs font-bold tracking-widest uppercase text-primary">
                         Treatment Category
                     </div>
-                    <h1 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
+                    <h1 className="text-4xl text-primary md:text-6xl font-serif mb-6 leading-tight">
                         <HeroText>{category.title}</HeroText>
                     </h1>
-                    <p className="text-xl md:text-2xl font-light text-white/90 leading-relaxed max-w-2xl">
+                    <p className="text md:text-lg font-light text-base-content/80 leading-relaxed max-w-2xl">
                         <HeroText delay={0.2}>{category.description}</HeroText>
                     </p>
                 </div>

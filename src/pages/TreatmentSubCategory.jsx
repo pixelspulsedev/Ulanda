@@ -66,25 +66,16 @@ export default function TreatmentSubCategory() {
         <Breadcrumbs />
 
         {/* Hero Section */}
-         <section className="relative min-h-[50vh] flex items-center bg-stone-900">
-             <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
-                <img
-                  src={subCategory.placeholderUrl || subCategory.image || category.placeholderUrl || category.image}
-                  alt={subCategory.title}
-                  className="w-full h-full object-cover opacity-60 mix-blend-overlay"
-                />
-                 <div className="absolute inset-0 bg-gradient-to-r from-stone-900/90 to-transparent"></div>
-              </div>
-
-             <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full text-white">
+        <section className="relative min-h-[50vh] flex items-center bg-secondary">
+             <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full text-base-content">
                 <div className="max-w-3xl">
-                     <Link to={`/treatments/${category.id}`} className="text-white/70 hover:text-white uppercase tracking-widest text-xs font-bold mb-4 block">
+                     <Link to={`/treatments/${category.id}`} className=" hover:text-primary-focus uppercase tracking-widest text-xs font-bold mb-4 block">
                         &larr; Back to {category.title}
                      </Link>
-                    <h1 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
+                    <h1 className="text-4xl text-primary md:text-6xl font-serif mb-6 leading-tight">
                         <HeroText>{subCategory.title}</HeroText>
                     </h1>
-                    <p className="text-xl md:text-2xl font-light text-white/90 leading-relaxed max-w-2xl">
+                    <p className="text-xl md:text-2xl font-light text-base-content/80 leading-relaxed max-w-2xl">
                         <HeroText delay={0.2}>{subCategory.description}</HeroText>
                     </p>
                 </div>

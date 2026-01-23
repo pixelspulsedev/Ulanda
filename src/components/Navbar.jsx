@@ -1,12 +1,62 @@
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
+import { Search, X } from 'lucide-react';
+import { getAllTreatments } from '../data/pageContents/treatments/treatments';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [activeMobileMenu, setActiveMobileMenu] = useState(null);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
+
+  const treatments = getAllTreatments();
+  const treatmentList = Object.values(treatments);
+
+  // Get search results
+  const searchResults = useMemo(() => {
+    if (!searchQuery.trim()) {
+      return [];
+    }
+
+    const query = searchQuery.toLowerCase();
+    const results = [];
+
+    treatmentList.forEach(category => {
+      Object.entries(category.subCategories || {}).forEach(([subKey, subCategory]) => {
+        Object.entries(subCategory.treatments || {}).forEach(([treatmentKey, treatment]) => {
+          const matchesSearch = 
+            treatment.title?.toLowerCase().includes(query) ||
+            treatment.subtitle?.toLowerCase().includes(query) ||
+            treatment.description?.toLowerCase().includes(query) ||
+            category.title?.toLowerCase().includes(query) ||
+            subCategory.title?.toLowerCase().includes(query);
+
+          if (matchesSearch) {
+            results.push({
+              ...treatment,
+              categoryId: category.id,
+              categoryTitle: category.title,
+              subCategoryTitle: subCategory.title,
+              subCategoryKey: subKey, // Added subCategoryKey
+              treatmentKey: treatmentKey
+            });
+          }
+        });
+      });
+    });
+
+    return results.slice(0, 6); // Limit to 6 results
+  }, [searchQuery, treatmentList]);
+
+  const handleSearchClick = (categoryId, subCategoryId, treatmentKey) => {
+    setIsSearchOpen(false);
+    setSearchQuery('');
+    navigate(`/treatments/${categoryId}/${subCategoryId}/${treatmentKey}`);
+  };
 
   const closeDropdown = () => {
     const elem = document.activeElement;
@@ -99,7 +149,7 @@ export default function Navbar() {
               {[
                 { name: 'Skin laxity', path: '/conditions/skin-laxity' },
                 { name: 'Pigmentation & Skin Tone', path: '/conditions/pigmentation-and-skin-tone' },
-                { name: 'Texture & pores', path: '/conditions/age-and-regeneration' },
+                { name: 'skin texture', path: '/conditions/age-and-regeneration' },
                 { name: 'Dark circles', path: '/conditions/dark-circles' },
                 { name: 'More +', path: '/conditions' }
               ].map((item) => (
@@ -137,6 +187,15 @@ export default function Navbar() {
       </div>
 
       <div className="navbar-end gap-3">
+        {/* Search Button */}
+        <button
+          onClick={() => setIsSearchOpen(true)}
+          className="btn btn-ghost btn-circle hover:bg-secondary/20"
+          aria-label="Search treatments"
+        >
+          <Search className="h-5 w-5" />
+        </button>
+
         <Link 
           to="/book-consultation"
           className={`btn btn-primary hidden lg:flex items-center font-sans text-white px-8 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 `}
@@ -243,7 +302,7 @@ export default function Navbar() {
                       <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
                       <li><Link to="/conditions/skin-laxity" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin laxity</Link></li>
                       <li><Link to="/conditions/pigmentation-and-skin-tone" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Pigmentation & Skin Tone</Link></li>
-                      <li><Link to="/conditions/age-and-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Texture & pores</Link></li>
+                      <li><Link to="/conditions/age-and-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">skin texture</Link></li>
                       <li><Link to="/conditions/dark-circles" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Dark circles</Link></li>
                       <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">More +</Link></li>
                     </ul>
@@ -279,6 +338,107 @@ export default function Navbar() {
            </div>
         </div>
       </div>
+
+      {/* Search Modal */}
+      {isSearchOpen && (
+        <>
+          {/* Overlay */}
+          <div 
+            className="fixed inset-0 bg-black/40 backdrop-blur-sm z-[200] transition-opacity"
+            onClick={() => {
+              setIsSearchOpen(false);
+              setSearchQuery('');
+            }}
+          />
+          
+          {/* Modal */}
+          <div className="fixed top-20 left-1/2 transform -translate-x-1/2 w-full max-w-2xl z-[201] px-4">
+            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
+              {/* Search Input */}
+              <div className="p-4 border-b border-base-200">
+                <div className="relative">
+                  <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-base-content/40" />
+                  <input
+                    type="text"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    placeholder="Search for treatments..."
+                    autoFocus
+                    className="w-full pl-12 pr-12 py-3 text-base bg-base-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                  <button
+                    onClick={() => {
+                      setIsSearchOpen(false);
+                      setSearchQuery('');
+                    }}
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-base-content/40 hover:text-base-content"
+                  >
+                    <X className="h-5 w-5" />
+                  </button>
+                </div>
+              </div>
+
+              {/* Search Results */}
+              <div className="max-h-96 overflow-y-auto">
+                {searchQuery && searchResults.length === 0 && (
+                  <div className="p-8 text-center text-base-content/60">
+                    No treatments found matching &quot;{searchQuery}&quot;
+                  </div>
+                )}
+                {searchQuery && searchResults.length > 0 && (
+                  <div className="p-2">
+                    <div className="px-4 py-2 text-sm text-base-content/60">
+                      Found {searchResults.length} treatment{searchResults.length !== 1 ? 's' : ''}
+                    </div>
+                    {searchResults.map((treatment, index) => (
+                      <button
+                        key={`${treatment.categoryId}-${treatment.treatmentKey}-${index}`}
+                        onClick={() => handleSearchClick(treatment.categoryId, treatment.subCategoryKey, treatment.treatmentKey)}
+                        className="w-full text-left p-4 hover:bg-base-200 rounded-lg transition-colors group"
+                      >
+                        <div className="flex gap-4">
+                          {treatment.image && (
+                            <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-base-200">
+                              <img
+                                src={treatment.placeholderUrl || treatment.image}
+                                alt={treatment.title}
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                          )}
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2 mb-1">
+                              <span className="text-xs px-2 py-0.5 bg-primary/10 text-primary rounded">
+                                {treatment.categoryTitle}
+                              </span>
+                              <span className="text-xs text-base-content/60">
+                                {treatment.subCategoryTitle}
+                              </span>
+                            </div>
+                            <h4 className="font-medium text-base group-hover:text-primary transition-colors truncate">
+                              {treatment.title}
+                            </h4>
+                            {treatment.subtitle && (
+                              <p className="text-sm text-base-content/60 truncate mt-1">
+                                {treatment.subtitle}
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                )}
+                {!searchQuery && (
+                  <div className="p-8 text-center text-base-content/60">
+                    Start typing to search for treatments
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </>
+      )}
     </motion.div>
   );
 }

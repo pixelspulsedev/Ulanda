@@ -378,7 +378,7 @@ export default function Home() {
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=2070"
+                src="/assets/img/conditions/Postpartum.webp"
                 alt="Postpartum Women"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -400,7 +400,7 @@ export default function Home() {
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1887"
+                src="/assets/img/conditions/Uneven tone.webp"
                 alt="Perimenopausal Women"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -422,7 +422,7 @@ export default function Home() {
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=2070"
+                src="/assets/img/conditions/Menopausal skin condition.webp"
                 alt="Menopausal Women"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -472,7 +472,7 @@ export default function Home() {
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=2070"
+                src="/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp"
                 alt="12-Week Menopause Regeneration Plan"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -493,7 +493,7 @@ export default function Home() {
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/assets/img/treatments/radiate/Under eye regeneration treatment.webp"
                 alt="Under-Eye Regeneration Blueprint"
                 width="1200"
                 height="1600"
@@ -516,7 +516,7 @@ export default function Home() {
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.pexels.com/photos/3997989/pexels-photo-3997989.jpeg?auto=compress&cs=tinysrgb&w=1964"
+                src="/assets/img/treatments/radiate/Collagen reset journey.webp"
                 alt="Collagen Reset Journey"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -537,7 +537,7 @@ export default function Home() {
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=2070"
+                src="/assets/img/treatments/radiate/Radiate hormone smart skin programme.webp"
                 alt="Radiate Hormone-Smart Skin Programme"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -558,7 +558,7 @@ export default function Home() {
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=2070"
+                src="/assets/img/treatments/radiate/Ulanda shape regenerate.webp"
                 alt="ULANDA Shape & Regenerate™"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"

@@ -1,15 +1,98 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getAllTreatments, treatmentsPageData } from '../data/pageContents/treatments/treatments';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Search, X } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 
 export default function Treatments() {
   const treatments = getAllTreatments();
   const treatmentList = Object.values(treatments);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Get search results as individual treatments
+  const searchResults = useMemo(() => {
+    if (!searchQuery.trim()) {
+      return [];
+    }
+
+    const query = searchQuery.toLowerCase();
+    const results = [];
+
+    treatmentList.forEach(category => {
+      Object.entries(category.subCategories || {}).forEach(([subKey, subCategory]) => {
+        Object.entries(subCategory.treatments || {}).forEach(([treatmentKey, treatment]) => {
+          const matchesSearch = 
+            treatment.title?.toLowerCase().includes(query) ||
+            treatment.subtitle?.toLowerCase().includes(query) ||
+            treatment.description?.toLowerCase().includes(query) ||
+            category.title?.toLowerCase().includes(query) ||
+            subCategory.title?.toLowerCase().includes(query);
+
+          if (matchesSearch) {
+            results.push({
+              ...treatment,
+              categoryId: category.id,
+              categoryTitle: category.title,
+              subCategoryTitle: subCategory.title,
+              subCategoryKey: subKey,
+              treatmentKey: treatmentKey
+            });
+          }
+        });
+      });
+    });
+
+    return results;
+  }, [searchQuery, treatmentList]);
+
+  // Filter treatments based on search
+  const filteredTreatments = useMemo(() => {
+    if (!searchQuery.trim()) {
+      return treatmentList;
+    }
+
+    const query = searchQuery.toLowerCase();
+    
+    // Filter categories and their treatments
+    return treatmentList.map(category => {
+      const filteredSubCategories = {};
+      let hasMatches = false;
+
+      Object.entries(category.subCategories || {}).forEach(([subKey, subCategory]) => {
+        const filteredTreatments = {};
+        
+        Object.entries(subCategory.treatments || {}).forEach(([treatmentKey, treatment]) => {
+          const matchesSearch = 
+            treatment.title?.toLowerCase().includes(query) ||
+            treatment.subtitle?.toLowerCase().includes(query) ||
+            treatment.description?.toLowerCase().includes(query) ||
+            category.title?.toLowerCase().includes(query) ||
+            subCategory.title?.toLowerCase().includes(query);
+
+          if (matchesSearch) {
+            filteredTreatments[treatmentKey] = treatment;
+            hasMatches = true;
+          }
+        });
+
+        if (Object.keys(filteredTreatments).length > 0) {
+          filteredSubCategories[subKey] = {
+            ...subCategory,
+            treatments: filteredTreatments
+          };
+        }
+      });
+
+      return {
+        ...category,
+        subCategories: filteredSubCategories,
+        hasMatches
+      };
+    }).filter(category => category.hasMatches);
+  }, [searchQuery, treatmentList]);
 
   return (
     <>
@@ -68,8 +151,101 @@ export default function Treatments() {
           </div>
         </section>
 
+        {/* Search Bar */}
+        <section className="py-12 bg-base-200/50 border-b border-base-200">
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <div className="max-w-2xl mx-auto">
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                  <Search className="h-5 w-5 text-base-content/40" />
+                </div>
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Search for treatments..."
+                  className="w-full pl-12 pr-12 py-4 text-base bg-white border border-base-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent shadow-sm transition-all"
+                />
+                {searchQuery && (
+                  <button
+                    onClick={() => setSearchQuery('')}
+                    className="absolute inset-y-0 right-0 pr-4 flex items-center text-base-content/40 hover:text-base-content transition-colors"
+                  >
+                    <X className="h-5 w-5" />
+                  </button>
+                )}
+              </div>
+              {searchQuery && (
+                <p className="mt-3 text-sm text-base-content/60 text-center">
+                  {searchResults.length === 0 
+                    ? 'No treatments found matching your search'
+                    : `Found ${searchResults.length} ${searchResults.length === 1 ? 'treatment' : 'treatments'}`
+                  }
+                </p>
+              )}
+            </div>
+          </div>
+        </section>
+
+        {/* Search Results List */}
+        {searchQuery && searchResults.length > 0 && (
+          <section className="py-16 bg-base-100">
+            <div className="max-w-7xl mx-auto px-4 md:px-8">
+              <h2 className="text-2xl md:text-3xl font-serif mb-8">Search Results</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {searchResults.map((treatment, index) => (
+                  <Link
+                    key={`${treatment.categoryId}-${treatment.treatmentKey}-${index}`}
+                    to={`/treatments/${treatment.categoryId}/${treatment.subCategoryKey}/${treatment.treatmentKey}`}
+                    className="group bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-base-200"
+                  >
+                    {treatment.image && (
+                      <div className="aspect-[4/3] overflow-hidden bg-base-200">
+                        <img
+                          src={treatment.placeholderUrl || treatment.image}
+                          alt={treatment.title}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                      </div>
+                    )}
+                    <div className="p-6">
+                      <div className="flex items-center gap-2 mb-3 text-xs text-base-content/60">
+                        <span className="px-2 py-1 bg-primary/10 text-primary rounded">{treatment.categoryTitle}</span>
+                        <span>•</span>
+                        <span>{treatment.subCategoryTitle}</span>
+                      </div>
+                      <h3 className="text-xl font-serif mb-2 group-hover:text-primary transition-colors">
+                        {treatment.title}
+                      </h3>
+                      {treatment.subtitle && (
+                        <p className="text-sm text-base-content/70 mb-3">
+                          {treatment.subtitle}
+                        </p>
+                      )}
+                      {treatment.booking && (
+                        <div className="flex items-center gap-4 text-sm text-base-content/60 mt-4 pt-4 border-t border-base-200">
+                          {treatment.booking.duration && (
+                            <span>{treatment.booking.duration} mins</span>
+                          )}
+                          {treatment.booking.price && (
+                            <span>£{treatment.booking.price}</span>
+                          )}
+                        </div>
+                      )}
+                      <div className="flex items-center gap-2 text-primary font-medium mt-4 group-hover:gap-3 transition-all">
+                        Learn more
+                        <ArrowRight size={16} />
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Dynamic Treatment Categories Sections */}
-        {treatmentList.map((category, index) => (
+        {!searchQuery && treatmentList.map((category, index) => (
           <section
             key={category.id}
             className="py-24 flex items-center bg-base-100 border-b border-base-200 last:border-0 relative overflow-hidden"

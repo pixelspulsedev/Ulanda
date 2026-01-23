@@ -336,7 +336,7 @@ export default function Philosophy() {
                 <div className="group relative h-[500px] overflow-hidden cursor-pointer">
                   <RevealImage className="absolute inset-0 w-full h-full">
                   <img
-                    src="https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=2070"
+                    src="/assets/img/conditions/Postpartum.webp"
                     alt="Postpartum Women"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
@@ -358,7 +358,7 @@ export default function Philosophy() {
                 <div className="group relative h-[500px] overflow-hidden cursor-pointer">
                   <RevealImage className="absolute inset-0 w-full h-full">
                   <img
-                    src="https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1887"
+                    src="/assets/img/conditions/Uneven tone.webp"
                     alt="Perimenopausal Women"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
@@ -380,7 +380,7 @@ export default function Philosophy() {
                 <div className="group relative h-[500px] overflow-hidden cursor-pointer">
                   <RevealImage className="absolute inset-0 w-full h-full">
                   <img
-                    src="https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=2070"
+                    src="/assets/img/conditions/Menopausal skin condition.webp"
                     alt="Menopausal Women"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"

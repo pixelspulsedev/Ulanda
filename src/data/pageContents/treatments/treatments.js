@@ -5,14 +5,14 @@ export const treatments = {
     "title": "Refresh",
     "subtitle": "Gently renews the surface of your skin for instant brightness and hydration.",
     "description": "The Refresh pathway focuses on surface-level rejuvenation. It is designed to clear congestion, remove dead skin cells, and flood the skin with hydration and nutrients. This is the starting point for healthy skin function.",
-    image: "/assets/img/treatments/refresh-category-hero.webp",
-    placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "subCategories": {
       "signature-facials": {
         "title": "Signature Facials",
         "description": "Deep cleansing, exfoliation and hydration treatments.",
-        image: "/assets/img/treatments/signature-facials-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?q=80&w=698&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        placeholderUrl: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?q=80&w=698&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "treatments": {
           "dermaplaning": {
             "id": "dermaplaning",
@@ -46,8 +46,8 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/dermaplaning-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1643684391140-c5056cfd3436?q=80&w=2070&auto=format&fit=crop",
+            placeholderUrl: "https://images.unsplash.com/photo-1643684391140-c5056cfd3436?q=80&w=2070&auto=format&fit=crop",
             "introduction": {
               "title": "What is Dermaplaning?",
               "content": [
@@ -61,8 +61,8 @@ export const treatments = {
                 "Makeup-ready skin",
                 "Enhances skincare absorption"
               ],
-              image: "/assets/img/treatments/dermaplaning-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://cdn.prod.website-files.com/6764496e34ff7106c11cc5da/67be5ac8af4e8ceedac20e7f_Dermaplaning.webp",
+            placeholderUrl: "https://cdn.prod.website-files.com/6764496e34ff7106c11cc5da/67be5ac8af4e8ceedac20e7f_Dermaplaning.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -178,8 +178,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/hydrafacial-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://media.istockphoto.com/id/1755416967/photo/close-up-shot-of-a-young-beautiful-woman-lying-on-a-couch-in-a-cosmetology-center-young-woman.jpg?s=612x612&w=0&k=20&c=50Pk3m1CtnfKvvUA64-Qzc6amy9pvKpJZtphtRYL3mI=",
+            placeholderUrl: "https://media.istockphoto.com/id/1755416967/photo/close-up-shot-of-a-young-beautiful-woman-lying-on-a-couch-in-a-cosmetology-center-young-woman.jpg?s=612x612&w=0&k=20&c=50Pk3m1CtnfKvvUA64-Qzc6amy9pvKpJZtphtRYL3mI=",
             "category": "Refresh",
             "description": "Deep cleanse • Instant glow • Barrier-safe hydration",
             "introduction": {
@@ -198,8 +198,8 @@ export const treatments = {
                 "text1": "ULANDA specialises in regenerative aesthetics — meaning every treatment is designed to support the skin’s biology, not just improve its appearance temporarily.",
                 "text2": "HydraFacial is perfect as a Week 0 Reset in regenerative programmes."
               },
-              image: "/assets/img/treatments/hydrafacial-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "idealFor": {
               "title": "Best",
@@ -299,6 +299,8 @@ export const treatments = {
             }
           },
           "enzyme-therapy": {
+            image: "https://images.unsplash.com/photo-1761718210055-e83ca7e2c9ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW56eW1lJTIwZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1761718210055-e83ca7e2c9ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW56eW1lJTIwZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
             "id": "enzyme-therapy",
             "booking": {
               "price": 95,
@@ -357,8 +359,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/enzyme-therapy-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1761718210055-e83ca7e2c9ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW56eW1lJTIwZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1761718210055-e83ca7e2c9ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW56eW1lJTIwZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
             "category": "Refresh",
             "description": "A restorative, oxygenating facial that strengthens the skin barrier, boosts circulation and improves midlife skin function.",
             "introduction": {
@@ -384,14 +386,14 @@ export const treatments = {
                 "text1": "ULANDA’s Enzyme Therapy is a regenerative, skin-strengthening treatment designed to restore vital circulation, enhance lymphatic drainage, firm the skin and support barrier repair.",
                 "text2": "It is particularly effective for midlife and menopausal clients whose skin has become dull, reactive, sluggish or prone to dehydration due to declining cellular activity."
               },
-              image: "/assets/img/treatments/enzyme-therapy-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "Enzyme Therapy",
-              image: "/assets/img/treatments/enzyme-therapy-internalSupport.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "points": [
                 {
                   "title": "Hormone-smart customisation",
@@ -544,24 +546,24 @@ export const treatments = {
                   "description": "PN (Polynucleotides), PRP, Skin Boosters (Profhilo, Hydrobooster), Microneedling (as prep or recovery). It is one of the BEST prep facials before PN or biostimulator treatments.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/enzyme-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "REFRESH",
                   "description": "BioRePeel, Vital Glow Facial.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/enzyme-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (energy + oxygenation), Glutathione IM (clarity & brightness).",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/enzyme-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 }
               ]
             },
@@ -622,6 +624,8 @@ export const treatments = {
             }
           },
           "oxygen-vitamin-infusion-facial": {
+            image: "https://plus.unsplash.com/premium_photo-1755892625772-78fdf0a512b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3h5Z2VuJTIwYW5kJTIwdml0YW1pbiUyMGZhY2UlMjB0cmVhdG1lbnR8ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1755892625772-78fdf0a512b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3h5Z2VuJTIwYW5kJTIwdml0YW1pbiUyMGZhY2UlMjB0cmVhdG1lbnR8ZW58MHwxfDB8fHww",
             "id": "oxygen-vitamin-infusion-facial",
             "booking": {
               "price": 110,
@@ -680,8 +684,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "category": "Refresh",
             "description": "A deeply hydrating, oxygen-rich infusion that brightens, revitalises and energises midlife skin.",
             "introduction": {
@@ -705,14 +709,14 @@ export const treatments = {
                 "text1": "Ideally suited for perimenopause and menopause skin prone to dryness, dullness and fatigue.",
                 "text2": "This treatment boosts circulation, hydration, glow and cellular energy."
               },
-              image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "This Facial",
-              image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-internalSupport.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "points": [
                 {
                   "title": "Hormone-ready formulations",
@@ -865,24 +869,24 @@ export const treatments = {
                   "description": "Polynucleotides (PN), Microneedling, PRP, Profhilo, Definisse Hydrobooster. Oxygen infusion prepares the skin exceptionally well for PN and biostimulator treatment plans.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Vital Glow Facial, LED, Enzyme Therapy, Chemical Peel.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (oxygenation + energy), Glutathione IM (brightening), Vitamin B12 (cell energy).",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/oxygen-vitamin-infusion-facial-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 }
               ]
             },
@@ -948,8 +952,8 @@ export const treatments = {
             "subtitle": "Ultra-smooth finish • Makeup-ready glow",
             "category": "Refresh",
             "description": "A manual exfoliation method using a sterile blade to remove vellus hair (peach fuzz) and dead skin cells.",
-            image: "/assets/img/treatments/dermaplaning-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "booking": {
               "price": 50,
               "duration": 30,
@@ -1012,8 +1016,8 @@ export const treatments = {
             "subtitle": "De-puff • Sculpt • Reduce inflammation",
             "category": "Refresh",
             "description": "A gentle, rhythmic technique that removes stagnant fluid, improves circulation and reduces inflammation — essential for tired, puffy or stressed skin.",
-            image: "/assets/img/treatments/lymphatic-drainage-facial-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1666264200752-b7a7807d2b1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHltcGhhdGljJTIwZHJhaW5hZ2UlMjBmYWNpYWx8ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1666264200752-b7a7807d2b1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHltcGhhdGljJTIwZHJhaW5hZ2UlMjBmYWNpYWx8ZW58MHwxfDB8fHww",
             "booking": {
               "price": 30,
               "duration": 15,
@@ -1075,10 +1079,12 @@ export const treatments = {
       "light-based": {
         "title": "Light-Based",
         "description": "LED technology to calm and rejuvenate.",
-        image: "/assets/img/treatments/light-based-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
         "treatments": {
           "led-light-therapy": {
+              image: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
             "id": "led-light-therapy",
             "booking": {
               "price": 20,
@@ -1138,8 +1144,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/led-light-therapy-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "category": "Refresh",
             "description": "Clinically proven light therapy that stimulates collagen, calms inflammation and accelerates regeneration — ideal for midlife and menopausal skin.",
             "introduction": {
@@ -1162,14 +1168,14 @@ export const treatments = {
               "highlightBox": {
                 "text1": "ULANDA uses medical-grade LED, which penetrates deeper and produces stronger regenerative effects than beauty salon devices."
               },
-              image: "/assets/img/treatments/led-light-therapy-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "LED Therapy",
-              image: "/assets/img/treatments/led-light-therapy-internalSupport.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "points": [
                 {
                   "title": "Medical-grade wavelengths",
@@ -1315,24 +1321,24 @@ export const treatments = {
                   "description": "PN (Polynucleotides), PRP, Profhilo, Definisse Hydrobooster, Microneedling. LED is essential post-PN and post-biostimulators to maximise collagen stimulation.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Enzyme Therapy, Chemical Peel, BioRePeel.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (cell repair + energy), Glutathione (anti-inflammatory + brightening).",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 }
               ]
             },
@@ -1397,10 +1403,12 @@ export const treatments = {
       "skin-resurfacing": {
         "title": "Skin Resurfacing",
         "description": "Peels and resurfacing for smoother texture.",
-        image: "/assets/img/treatments/skin-resurfacing-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1732737781525-1cd8ddaefab5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjByZXN1cmZhY2luZ3xlbnwwfDB8MHx8fDA%3D",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1732737781525-1cd8ddaefab5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjByZXN1cmZhY2luZ3xlbnwwfDB8MHx8fDA%3D",
         "treatments": {
           "biorepeel": {
+              image: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "id": "biorepeel",
             "booking": {
               "price": 150,
@@ -1461,8 +1469,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/biorepeel-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "category": "Refresh",
             "description": "Resurfaces and revitalises the skin without visible exfoliation.",
             "introduction": {
@@ -1483,14 +1491,14 @@ export const treatments = {
                 "text1": "Unlike standard peeling clinics, we use BioRePeel within a regenerative protocol — strengthening the skin barrier, not simply resurfacing it.",
                 "text2": ""
               },
-              image: "/assets/img/treatments/biorepeel-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "BioRePeel",
-              image: "/assets/img/treatments/biorepeel-internalSupport.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "points": [
                 {
                   "title": "Hormone-smart facial assessment",
@@ -1640,24 +1648,24 @@ export const treatments = {
                   "description": "PN (Polynucleotides), Skin Boosters (Profhilo, Hydrobooster), Microneedling, PRP. Pairs especially well with PN for menopausal skin texture.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/biorepeel-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Vital Glow Facial.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/biorepeel-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "RADIATE",
                   "description": "Glutathione IM (brightening), NAD+ IV (cellular repair).",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/biorepeel-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 }
               ]
             },
@@ -1718,6 +1726,8 @@ export const treatments = {
             }
           },
           "chemical-peel": {
+            image: "https://images.unsplash.com/photo-1580564591877-3a6578d09f5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlbWljYWwlMjBmYWNlJTIwdHJlYXRtZW50fGVufDB8fDB8fHww",
+            placeholderUrl: "https://images.unsplash.com/photo-1580564591877-3a6578d09f5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlbWljYWwlMjBmYWNlJTIwdHJlYXRtZW50fGVufDB8fDB8fHww",
             "id": "chemical-peel",
             "booking": {
               "starting": true,
@@ -1779,8 +1789,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/chemical-peel-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1580564591877-3a6578d09f5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlbWljYWwlMjBmYWNlJTIwdHJlYXRtZW50fGVufDB8fDB8fHww",
+            placeholderUrl: "https://images.unsplash.com/photo-1580564591877-3a6578d09f5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlbWljYWwlMjBmYWNlJTIwdHJlYXRtZW50fGVufDB8fDB8fHww",
             "category": "Refresh",
             "description": "Medical-grade peeling for brighter skin, smoother texture and targeted correction — tailored for midlife and menopausal skin.",
             "introduction": {
@@ -1804,14 +1814,14 @@ export const treatments = {
                 "text1": "ULANDA uses medical-grade blends, not cosmetic-strength formulations.",
                 "text2": "Fully customised to your hormonal stage, skin sensitivity and regeneration needs."
               },
-              image: "/assets/img/treatments/chemical-peel-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "Our Peels",
-              image: "/assets/img/treatments/chemical-peel-internalSupport.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "points": [
                 {
                   "title": "Tailored to your skin tone & ethnicity",
@@ -1960,24 +1970,24 @@ export const treatments = {
                   "description": "Polynucleotides (PN), Microneedling, Skin Boosters (Profhilo/Hydrobooster), PRP, Lemon Bottle (for glow cycles). Chemical peels are a key skin-prep treatment before PN or biostimulators.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/chemical-peel-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Vital Glow Facial.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/chemical-peel-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (collagen + repair), Glutathione (brightening).",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/chemical-peel-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 }
               ]
             },
@@ -2046,14 +2056,13 @@ export const treatments = {
     "title": "Renew",
     "subtitle": "Boosts your skin’s natural ability to repair, firm and glow over time.",
     "description": "The Renew pathway is about biological stimulation. We use advanced regenerative tools to wake up your fibroblasts, stimulating collagen, elastin, and hydration from within. This is for long-term skin quality and resilience.",
-    image: "/assets/img/treatments/renew-category-hero.webp",
-    placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/assets/img/treatments/renew/Renew.webp",
     "subCategories": {
       "skin-boosters": {
         "title": "Skin Boosters",
         "description": "Injectable hydration and remodelling.",
-        image: "/assets/img/treatments/skin-boosters-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpkysqHiTE7vJNy-RWtDM-SH8OC74CkkE1xA&s",
+        placeholderUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpkysqHiTE7vJNy-RWtDM-SH8OC74CkkE1xA&s",
         "treatments": {
           "profhilo": {
             "id": "profhilo",
@@ -2095,8 +2104,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/profhilo-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?q=80&w=2070&auto=format&fit=crop",
+            placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?q=80&w=2070&auto=format&fit=crop",
             "category": "Renew",
             "description": "Hydration + collagen stimulation in one",
             "introduction": {
@@ -2114,7 +2123,7 @@ export const treatments = {
                 "text1": "Not a filler.",
                 "text2": "A bio-remodeling treatment for hydration and elasticity."
               },
-              image: "/assets/img/treatments/profhilo-introduction.webp",
+            image: "/assets/img/treatments/Skin boosters/Profhilo.webp",
               placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "idealFor": {
@@ -2136,7 +2145,7 @@ export const treatments = {
                   "description": "2 sessions, 4 weeks apart.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/profhilo-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -2190,8 +2199,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/definisse-hydrobooster-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1555820585-c5ae44394b79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXR5fGVufDB8fDB8fHww",
+            placeholderUrl: "https://images.unsplash.com/photo-1555820585-c5ae44394b79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXR5fGVufDB8fDB8fHww",
             "category": "Renew",
             "description": "Hydration + elasticity improvement + wrinkle softening",
             "introduction": {
@@ -2208,7 +2217,7 @@ export const treatments = {
                 "text1": "Next-generation skin booster.",
                 "text2": "Hydration and elasticity improvement."
               },
-              image: "/assets/img/treatments/definisse-hydrobooster-introduction.webp",
+              image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "idealFor": {
@@ -2268,8 +2277,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/jalupro-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1679750866883-b1c549f65da9?q=80&w=2070&auto=format&fit=crop",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1679750866883-b1c549f65da9?q=80&w=2070&auto=format&fit=crop",
             "category": "Renew",
             "description": "Amino-acid infused regenerative booster",
             "introduction": {
@@ -2286,8 +2295,8 @@ export const treatments = {
                 "text1": "Bio-revitalisation.",
                 "text2": "Amino acids for collagen stimulation."
               },
-              image: "/assets/img/treatments/jalupro-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "/assets/img/treatments/Skin boosters/Jalupro.webp",
+            placeholderUrl: "/assets/img/treatments/Skin boosters/Jalupro.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2345,8 +2354,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/seventy-hyal-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1679439492707-c08bca4c2ed2?q=80&w=2070&auto=format&fit=crop",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1679439492707-c08bca4c2ed2?q=80&w=2070&auto=format&fit=crop",
             "category": "Renew",
             "description": "High-intensity hydration for instant radiance",
             "introduction": {
@@ -2363,8 +2372,8 @@ export const treatments = {
                 "text1": "Instant radiance.",
                 "text2": "High-intensity hydration."
               },
-              image: "/assets/img/treatments/seventy-hyal-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "/assets/img/treatments/Skin boosters/Seventy.webp",
+            placeholderUrl: "/assets/img/treatments/Skin boosters/Seventy.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2422,8 +2431,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/lemon-bottle-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1616442047042-f54e9f6bd435?q=80&w=2070&auto=format&fit=crop",
+            placeholderUrl: "https://images.unsplash.com/photo-1616442047042-f54e9f6bd435?q=80&w=2070&auto=format&fit=crop",
             "category": "Renew",
             "description": "Brightening + hydration + glow",
             "introduction": {
@@ -2440,8 +2449,8 @@ export const treatments = {
                 "text1": "Revitalising glow.",
                 "text2": "Brightening peptides and antioxidants."
               },
-              image: "/assets/img/treatments/lemon-bottle-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "/assets/img/treatments/Skin boosters/Lemon bottle.webp",
+            placeholderUrl: "/assets/img/treatments/Skin boosters/Lemon bottle.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2500,8 +2509,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/lumi-eyes-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1647968678725-5bf93bf20a10?q=80&w=2070&auto=format&fit=crop",
+            placeholderUrl: "https://images.unsplash.com/photo-1647968678725-5bf93bf20a10?q=80&w=2070&auto=format&fit=crop",
             "category": "Renew",
             "description": "Under-eye hydration + tissue repair",
             "introduction": {
@@ -2519,8 +2528,8 @@ export const treatments = {
                 "text1": "Specialised eye treatment.",
                 "text2": "Polynucleotides for the delicate under-eye area."
               },
-              image: "/assets/img/treatments/lumi-eyes-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "/assets/img/treatments/Skin boosters/Lumi-eye.webp",
+            placeholderUrl: "/assets/img/treatments/Skin boosters/Lumi-eye.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2545,8 +2554,8 @@ export const treatments = {
       "microneedling": {
         "title": "Microneedling",
         "description": "Collagen induction therapy.",
-        image: "/assets/img/treatments/microneedling-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1726822826352-9aeacf54e056?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWljcm9uZWVkbGluZ3xlbnwwfDB8MHx8fDA%3D",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1726822826352-9aeacf54e056?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWljcm9uZWVkbGluZ3xlbnwwfDB8MHx8fDA%3D",
         "treatments": {
           "microneedling": {
             "id": "microneedling",
@@ -2587,8 +2596,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/microneedling-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
             "category": "Renew",
             "description": "Collagen induction • Texture rejuvenation • Glow boosting",
             "introduction": {
@@ -2606,8 +2615,8 @@ export const treatments = {
                 "text1": "Collagen induction therapy.",
                 "text2": "Texture rejuvenation and glow boosting."
               },
-              image: "/assets/img/treatments/microneedling-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
             },
             "idealFor": {
               "title": "Best",
@@ -2633,8 +2642,8 @@ export const treatments = {
       "injectables": {
         "title": "Injectables",
         "description": "Regenerative injectables.",
-        image: "/assets/img/treatments/injectables-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1719617672942-55508fa54c93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZSUyMGluamVjdGlvbnN8ZW58MHwwfDB8fHww",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1719617672942-55508fa54c93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZSUyMGluamVjdGlvbnN8ZW58MHwwfDB8fHww",
         "treatments": {
           "polynucleotides": {
             "id": "polynucleotides",
@@ -2668,8 +2677,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/polynucleotides-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Renew",
             "description": "Cellular repair • Collagen stimulation • Elasticity revival",
             "introduction": {
@@ -2689,8 +2698,8 @@ export const treatments = {
                 "text1": "Deep regeneration for thinning skin.",
                 "text2": "Activates your body's own repair mechanisms."
               },
-              image: "/assets/img/treatments/polynucleotides-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
             },
             "idealFor": {
               "title": "Best",
@@ -2713,7 +2722,7 @@ export const treatments = {
                   "description": "AI skin analysis to identify thinning zones. Course of 2–4 sessions. Often combined with microneedling or PRP.",
                   "points": [],
                   "conclusion": "Results: 2–12 weeks, progressive. Downtime: Minimal.",
-                  image: "/assets/img/treatments/polynucleotides-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -2751,8 +2760,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/plenhyage-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1631743363713-7ffc5d87e248?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1631743363713-7ffc5d87e248?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
             "category": "Renew",
             "description": "Advanced PN Treatment",
             "introduction": {
@@ -2772,8 +2781,8 @@ export const treatments = {
                 "text1": "Advanced Cellular Regeneration.",
                 "text2": "Deep tissue repair and elasticity recovery."
               },
-              image: "/assets/img/treatments/plenhyage-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1631743363713-7ffc5d87e248?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1631743363713-7ffc5d87e248?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
             },
             "idealFor": {
               "title": "Best",
@@ -2823,8 +2832,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/nucleofill-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1671717725132-5eacbfd6abd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717725132-5eacbfd6abd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
             "category": "Renew",
             "description": "Bio-stimulation • Lifting effect • Deep hydration + firming",
             "introduction": {
@@ -2842,8 +2851,8 @@ export const treatments = {
                 "text1": "Bio-stimulation and lifting.",
                 "text2": "Molecular-level regeneration."
               },
-              image: "/assets/img/treatments/nucleofill-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://plus.unsplash.com/premium_photo-1671717725132-5eacbfd6abd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717725132-5eacbfd6abd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
             },
             "idealFor": {
               "title": "Best",
@@ -2897,8 +2906,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/prp-skin-regeneration-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1671717725615-5a5f732957bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW58ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717725615-5a5f732957bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW58ZW58MHwxfDB8fHww",
             "category": "Renew",
             "description": "Your own growth factors for natural regeneration",
             "introduction": {
@@ -2916,8 +2925,8 @@ export const treatments = {
                 "text1": "Harnessing your body's own power.",
                 "text2": "Natural regeneration using your own growth factors."
               },
-              image: "/assets/img/treatments/prp-skin-regeneration-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://plus.unsplash.com/premium_photo-1671717725615-5a5f732957bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW58ZW58MHwxfDB8fHww",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717725615-5a5f732957bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW58ZW58MHwxfDB8fHww",
             },
             "idealFor": {
               "title": "Best",
@@ -2939,7 +2948,7 @@ export const treatments = {
                   "description": "Premium centrifugation for high-yield PRP. PRP injected + microneedling delivery option.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/prp-skin-regeneration-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -2956,8 +2965,8 @@ export const treatments = {
       "body-tightening": {
         "title": "Body Tightening",
         "description": "Firming treatments for the body.",
-        image: "/assets/img/treatments/body-tightening-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1682097035400-3df02426c913?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ym9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwwfDB8fHww",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1682097035400-3df02426c913?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ym9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwwfDB8fHww",
         "treatments": {
           "body-contouring": {
             "id": "body-contouring",
@@ -2997,8 +3006,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/body-contouring-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
             "category": "Renew",
             "description": "Sculpt, Refine & Shape Your Body Using Regenerative Aesthetic Science",
             "introduction": {
@@ -3021,8 +3030,8 @@ export const treatments = {
                 "text1": "Grounded in fat reduction science.",
                 "text2": "Hormone-aware weight distribution."
               },
-              image: "/assets/img/treatments/body-contouring-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
             },
             "idealFor": {
               "title": "Who This Treatment",
@@ -3053,16 +3062,18 @@ export const treatments = {
     "title": "Restore",
     "subtitle": "Recovery, healing and barrier support.",
     "description": "The Restore pathway focuses on calm, recovery, and strengthening the skin barrier. Ideal for post-procedure recovery or compromised skin.",
-    image: "/assets/img/treatments/restore-category-hero.webp",
-    placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "https://plus.unsplash.com/premium_photo-1676455982071-cb1863745447?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdG9yZSUyMHNraW58ZW58MHwxfDB8fHww",
+    placeholderUrl: "https://plus.unsplash.com/premium_photo-1676455982071-cb1863745447?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdG9yZSUyMHNraW58ZW58MHwxfDB8fHww",
     "subCategories": {
       "oxygen-healing-support": {
         "title": "Oxygenation & Healing Support",
         "description": "Supporting oxygen delivery and circulation for tissue healing.",
-        image: "/assets/img/treatments/oxygen-healing-support-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://images.unsplash.com/photo-1599847987657-881f11b92a75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvY3RvciUyMGFwcG9pbnRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
+        placeholderUrl: "https://images.unsplash.com/photo-1599847987657-881f11b92a75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvY3RvciUyMGFwcG9pbnRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
         "treatments": {
           "oxygen-facial": { // Renaming from oxygen-vitamin-infusion-facial to match sitemap if needed, but sitemap says oxygen-facial. 
+              image: "/assets/img/treatments/oxygenation and healing/Oxygen facial.webp",
+              placeholderUrl: "/assets/img/treatments/oxygenation and healing/Oxygen facial.webp",
             // However, the restore page content has Oxygen Facial (recovery-focused use).
             "id": "oxygen-facial",
             "booking": {
@@ -3122,8 +3133,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/oxygen-facial-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1672794776762-18dddc72982e?q=80&w=2070&auto=format&fit=crop",
+            placeholderUrl: "https://images.unsplash.com/photo-1672794776762-18dddc72982e?q=80&w=2070&auto=format&fit=crop",
             "category": "Refresh",
             "description": "A deeply hydrating, oxygen-rich infusion that brightens, revitalises and energises midlife skin.",
             "introduction": {
@@ -3147,13 +3158,13 @@ export const treatments = {
                 "text1": "Ideally suited for perimenopause and menopause skin prone to dryness, dullness and fatigue.",
                 "text2": "This treatment boosts circulation, hydration, glow and cellular energy."
               },
-              image: "/assets/img/treatments/oxygen-facial-introduction.webp",
+              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "This Facial",
-              image: "/assets/img/treatments/oxygen-facial-internalSupport.webp",
+              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -3307,7 +3318,7 @@ export const treatments = {
                   "description": "Polynucleotides (PN), Microneedling, PRP, Profhilo, Definisse Hydrobooster. Oxygen infusion prepares the skin exceptionally well for PN and biostimulator treatment plans.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/oxygen-facial-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -3315,7 +3326,7 @@ export const treatments = {
                   "description": "Regenerative Facial, Vital Glow Facial, LED, Enzyme Therapy, Chemical Peel.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/oxygen-facial-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -3323,7 +3334,7 @@ export const treatments = {
                   "description": "NAD+ IV (oxygenation + energy), Glutathione IM (brightening), Vitamin B12 (cell energy).",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/oxygen-facial-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -3413,8 +3424,8 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/post-procedure-recovery-facial-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1726862817251-4f3d409776e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2tpbiUyMHJlY292ZXJ5fGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1726862817251-4f3d409776e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2tpbiUyMHJlY292ZXJ5fGVufDB8MXwwfHx8MA%3D%3D",
             "introduction": {
               "title": "What is the Post-Procedure Recovery Facial?",
               "content": [
@@ -3428,8 +3439,8 @@ export const treatments = {
                 "Support skin healing",
                 "Restore skin barrier"
               ],
-              image: "/assets/img/treatments/post-procedure-recovery-facial-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "/assets/img/treatments/oxygenation and healing/Post procedure recovery facial.webp",
+            placeholderUrl: "/assets/img/treatments/oxygenation and healing/Post procedure recovery facial.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -3512,8 +3523,8 @@ export const treatments = {
       "light-based-recovery": {
         "title": "Light-Based Recovery & Repair",
         "description": "Supporting tissue repair, inflammation reduction and accelerated recovery.",
-        image: "/assets/img/treatments/light-based-recovery-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGVkJTIwbGlnaHQlMjB0aGVyYXB5fGVufDB8MXwwfHx8MA%3D%3D",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGVkJTIwbGlnaHQlMjB0aGVyYXB5fGVufDB8MXwwfHx8MA%3D%3D",
         "treatments": {
           "led-light-therapy": {
             "id": "led-light-therapy",
@@ -3575,8 +3586,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/led-light-therapy-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "category": "Refresh",
             "description": "Clinically proven light therapy that stimulates collagen, calms inflammation and accelerates regeneration — ideal for midlife and menopausal skin.",
             "introduction": {
@@ -3599,14 +3610,14 @@ export const treatments = {
               "highlightBox": {
                 "text1": "ULANDA uses medical-grade LED, which penetrates deeper and produces stronger regenerative effects than beauty salon devices."
               },
-              image: "/assets/img/treatments/led-light-therapy-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "LED Therapy",
-              image: "/assets/img/treatments/led-light-therapy-internalSupport.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "points": [
                 {
                   "title": "Medical-grade wavelengths",
@@ -3752,24 +3763,24 @@ export const treatments = {
                   "description": "PN (Polynucleotides), PRP, Profhilo, Definisse Hydrobooster, Microneedling. LED is essential post-PN and post-biostimulators to maximise collagen stimulation.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "REFRESH",
                   "description": "Regenerative Facial, Enzyme Therapy, Chemical Peel, BioRePeel.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 },
                 {
                   "title": "RADIATE",
                   "description": "NAD+ IV (cell repair + energy), Glutathione (anti-inflammatory + brightening).",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/led-light-therapy-ulandaConnection.webp",
-                  placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 }
               ]
             },
@@ -3834,8 +3845,8 @@ export const treatments = {
       "skin-barrier-repair": {
         "title": "Skin Barrier Repair & Recovery",
         "description": "Repairing the skin barrier, calming inflammation and restoring comfort.",
-        image: "/assets/img/treatments/skin-barrier-repair-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
+        placeholderUrl: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
         "treatments": {
           "barrier-repair-facial": {
             "id": "barrier-repair-facial",
@@ -3867,8 +3878,8 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/barrier-repair-facial-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
             "introduction": {
               "title": "What is the Barrier Repair Facial?",
               "content": [
@@ -3882,8 +3893,8 @@ export const treatments = {
                 "Improves skin comfort",
                 "Supports long-term skin health"
               ],
-              image: "/assets/img/treatments/barrier-repair-facial-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "/assets/img/treatments/Skin barrier and repair/Skin barrier and repair.webp",
+            placeholderUrl: "/assets/img/treatments/Skin barrier and repair/Skin barrier and repair.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -3965,8 +3976,8 @@ export const treatments = {
       "lymphatic-support": {
         "title": "Lymphatic & Decongestive Support",
         "description": "Reducing congestion, swelling and fluid retention to support recovery.",
-        image: "/assets/img/treatments/lymphatic-support-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1664187387456-63e1fb8bdada?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGx5bXBoYXRpY3xlbnwwfDF8MHx8fDA%3D",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1664187387456-63e1fb8bdada?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGx5bXBoYXRpY3xlbnwwfDF8MHx8fDA%3D",
         "treatments": {
           "facial-lymphatic-drainage": {
             "id": "facial-lymphatic-drainage",
@@ -3997,8 +4008,8 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/facial-lymphatic-drainage-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1666264200752-b7a7807d2b1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjaWFsJTIwbWFzc2FnZXxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1666264200752-b7a7807d2b1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjaWFsJTIwbWFzc2FnZXxlbnwwfDF8MHx8fDA%3D",
             "introduction": {
               "title": "What is Facial Lymphatic Drainage?",
               "content": [
@@ -4012,8 +4023,8 @@ export const treatments = {
                 "Supports lymphatic flow",
                 "Supports recovery"
               ],
-              image: "/assets/img/treatments/facial-lymphatic-drainage-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "/assets/img/treatments/Lymphatic and decongestive support/Lymphatic and decongestive support.webp",
+            placeholderUrl: "/assets/img/treatments/Lymphatic and decongestive support/Lymphatic and decongestive support.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -4099,14 +4110,14 @@ export const treatments = {
     "title": "Radiate Wellness",
     "subtitle": "Wellness, Structural Lift & Longevity.",
     "description": "The Radiate pathway bridges the gap between internal health and external beauty, and includes our advanced Structural Lift and Menopause programmes.",
-    image: "/assets/img/treatments/radiate-category-hero.webp",
-    placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hc3NhZ2V8ZW58MHwxfDB8fHww",
+    placeholderUrl: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hc3NhZ2V8ZW58MHwxfDB8fHww",
     "subCategories": {
       "structural-lifting": {
         "title": "Structural Lifting",
         "description": "Restoring youthful contours and definition.",
-        image: "/assets/img/treatments/structural-lifting-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://plus.unsplash.com/premium_photo-1682096537666-3621cc51c4b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmFjaWFsJTIwdHJlYXRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1682096537666-3621cc51c4b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmFjaWFsJTIwdHJlYXRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
         "treatments": {
           "biostimulators": {
             "id": "biostimulators",
@@ -4148,8 +4159,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/biostimulators-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1682096423780-41ca1b04af68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1682096423780-41ca1b04af68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
             "category": "Restore",
             "description": "PLLA • PDLLA • CaHA — The Structural Foundation of Natural Aesthetics",
             "introduction": {
@@ -4183,7 +4194,7 @@ export const treatments = {
                 "text1": "True biological anti-ageing.",
                 "text2": "Rebuilds your skin's own collagen and elastin."
               },
-              image: "/assets/img/treatments/biostimulators-introduction.webp",
+              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "ingredients": {
@@ -4303,7 +4314,7 @@ export const treatments = {
                   "description": "The strongest non-surgical lift.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -4311,7 +4322,7 @@ export const treatments = {
                   "description": "Structure + cellular repair.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -4319,7 +4330,7 @@ export const treatments = {
                   "description": "Structure + hydration + elasticity.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -4327,7 +4338,7 @@ export const treatments = {
                   "description": "Structure + texture refinement.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -4335,7 +4346,7 @@ export const treatments = {
                   "description": "Structure + biological healing.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/biostimulators-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -4373,8 +4384,8 @@ export const treatments = {
             "subtitle": "Restorative Lifting & Collagen Remodelling",
             "category": "Radiate",
             "description": "The artistry of lifting without surgery—restoring structure, contour and youthful support.",
-            image: "/assets/img/treatments/thread-lifts-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1596944887702-d0a38db968c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhY2UlMjBsaWZ0fGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1596944887702-d0a38db968c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhY2UlMjBsaWZ0fGVufDB8MXwwfHx8MA%3D%3D",
             "introduction": {
               "title": "What are Thread Lifts?",
               "content": [
@@ -4487,8 +4498,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/anti-wrinkle-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1675034823520-01a8784605ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym90b3h8ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1675034823520-01a8784605ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym90b3h8ZW58MHwxfDB8fHww",
             "category": "Renew",
             "description": "Subtle Expression Refinement That Supports Your Regeneration Journey",
             "introduction": {
@@ -4510,7 +4521,7 @@ export const treatments = {
                 "text1": "Designed for harmony.",
                 "text2": "Never heaviness or frozen."
               },
-              image: "/assets/img/treatments/anti-wrinkle-introduction.webp",
+              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "idealFor": {
@@ -4588,8 +4599,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/dermal-fillers-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVybWFsJTIwZmlsbGVyc3xlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVybWFsJTIwZmlsbGVyc3xlbnwwfDF8MHx8fDA%3D",
             "category": "Restore",
             "description": "Subtle volume • Contour refinement • Balance",
             "introduction": {
@@ -4616,13 +4627,13 @@ export const treatments = {
                 "text1": "Regeneration-First.",
                 "text2": "Fillers whisper, not shout."
               },
-              image: "/assets/img/treatments/dermal-fillers-introduction.webp",
+              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why Fillers Behave Differently",
               "titleSuffix": "In Midlife",
-              image: "/assets/img/treatments/dermal-fillers-internalSupport.webp",
+              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -4659,7 +4670,7 @@ export const treatments = {
             "treatmentAreas": {
               "title": "Treatment",
               "titleSuffix": "Areas",
-              image: "/assets/img/treatments/dermal-fillers-treatmentAreas.webp",
+              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -4794,8 +4805,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/collagen-therapy-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1661578356704-903bacf893d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW4lMjB0aGVyYXB5fGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1661578356704-903bacf893d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW4lMjB0aGVyYXB5fGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Restore",
             "description": "Rebuild • Strengthen • Firm",
             "introduction": {
@@ -4821,13 +4832,13 @@ export const treatments = {
                 "text1": "Wake up your own cells.",
                 "text2": "Thicker, firmer, resilient skin."
               },
-              image: "/assets/img/treatments/collagen-therapy-introduction.webp",
-              placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "/assets/img/treatments/Structural lifting/Collagen therapy.webp",
+            placeholderUrl: "/assets/img/treatments/Structural lifting/Collagen therapy.webp",
             },
             "internalSupport": {
               "title": "Why Collagen Therapy",
               "titleSuffix": "Matters (Expert Science)",
-              image: "/assets/img/treatments/collagen-therapy-internalSupport.webp",
+              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -4961,8 +4972,8 @@ export const treatments = {
             "subtitle": "Natural Contouring",
             "category": "Radiate",
             "description": "A Clean, Defined, Feminine Jawline Designed for Midlife Harmony.",
-            image: "/assets/img/treatments/jawline-sculpting-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1723291386764-49c52997a093?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGphd2xpbmV8ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1723291386764-49c52997a093?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGphd2xpbmV8ZW58MHwxfDB8fHww",
             "booking": {
               "starting": true,
               "price": 140,
@@ -5026,8 +5037,8 @@ export const treatments = {
             "subtitle": "Lift, Tighten & Rebuild",
             "category": "Radiate",
             "description": "Lift, Tighten & Rebuild the Most Age-Defining Areas.",
-            image: "/assets/img/treatments/neck-lower-face-lift-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1671717725628-9a875aa6bbfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVjayUyMGxpZnR8ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717725628-9a875aa6bbfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVjayUyMGxpZnR8ZW58MHwxfDB8fHww",
             "introduction": {
               "title": "What is Structural Lift?",
               "content": [
@@ -5116,8 +5127,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/body-tightening-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1661387470181-76fe834e6d9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHx8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1661387470181-76fe834e6d9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHx8MHx8fDA%3D",
             "category": "Restore",
             "description": "Lift, Strengthen & Smooth Your Body",
             "introduction": {
@@ -5145,13 +5156,13 @@ export const treatments = {
                 "text1": "True regeneration.",
                 "text2": "Not camouflage."
               },
-              image: "/assets/img/treatments/body-tightening-introduction.webp",
+              image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why Body Skin",
               "titleSuffix": "Loosens in Midlife",
-              image: "/assets/img/treatments/body-tightening-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -5201,7 +5212,7 @@ export const treatments = {
             "treatmentAreas": {
               "title": "Treatment",
               "titleSuffix": "Areas",
-              image: "/assets/img/treatments/body-tightening-treatmentAreas.webp",
+              image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -5305,8 +5316,8 @@ export const treatments = {
       "wellness": {
         "title": "Wellness & IVs",
         "description": "Internal support for cellular health.",
-        image: "/assets/img/treatments/wellness-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlbGxuZXNzfGVufDB8MXwwfHx8MA%3D%3D",
+        placeholderUrl: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlbGxuZXNzfGVufDB8MXwwfHx8MA%3D%3D",
         "treatments": {
           "nad-iv": {
             "id": "nad-iv",
@@ -5354,8 +5365,8 @@ export const treatments = {
               "Hunsdon",
               "10-mile Hertfordshire radius"
             ],
-            image: "/assets/img/treatments/nad-iv-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1683121409041-076759249d56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFkKyUyMGl2fGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1683121409041-076759249d56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFkKyUyMGl2fGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
             "description": "Cellular Energy • Brain Function • Longevity • Metabolic Support",
             "collaboration": {
@@ -5391,13 +5402,13 @@ export const treatments = {
                 "text1": "NAD+ IV is the foundation of internal vitality.",
                 "text2": "The internal pillar that enhances all regenerative aesthetic outcomes."
               },
-              image: "/assets/img/treatments/nad-iv-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "The Science of NAD+ —",
               "titleSuffix": "Simple, Clear, Powerful",
-              image: "/assets/img/treatments/nad-iv-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -5493,7 +5504,7 @@ export const treatments = {
                   "description": "Improved fibroblast energy means better collagen response and reduced inflammation.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/nad-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -5501,7 +5512,7 @@ export const treatments = {
                   "description": "NAD+ is a powerful companion to PN, biostimulators, RF microneedling, anti-ageing facials, and menopausal skin treatments.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/nad-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -5575,8 +5586,8 @@ export const treatments = {
               "Brickendon",
               "Much Hadham"
             ],
-            image: "/assets/img/treatments/glutathione-iv-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1594362323815-70c3944df76a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aXYlMjBkcmlwfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1594362323815-70c3944df76a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aXYlMjBkcmlwfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
             "description": "Detox • Brighten • Regenerate",
             "collaboration": {
@@ -5601,13 +5612,13 @@ export const treatments = {
                 "text1": "This treatment is a core part of our RADIATE Internal Wellness Pathway.",
                 "text2": "The foundation supporting REFRESH, RENEW and RESTORE."
               },
-              image: "/assets/img/treatments/glutathione-iv-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why Glutathione Matters for",
               "titleSuffix": "Women 35–65+",
-              image: "/assets/img/treatments/glutathione-iv-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -5712,7 +5723,7 @@ export const treatments = {
                     "LED results via reduced oxidative stress"
                   ],
                   "conclusion": "The complexion becomes clearer, brighter, and more even-toned.",
-                  image: "/assets/img/treatments/glutathione-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -5725,7 +5736,7 @@ export const treatments = {
                     "Supporting collagen integrity for skin boosters"
                   ],
                   "conclusion": "Cells regenerate more effectively when oxidative stress is lowered.",
-                  image: "/assets/img/treatments/glutathione-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -5738,7 +5749,7 @@ export const treatments = {
                     "Preparing the skin for thread tensioning & healing"
                   ],
                   "conclusion": "Better internal repair = stronger structural outcomes.",
-                  image: "/assets/img/treatments/glutathione-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -5825,8 +5836,8 @@ export const treatments = {
               "Hunsdon",
               "Brickendon"
             ],
-            image: "/assets/img/treatments/energy-iv-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1683121005130-ca80485aaf1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aXYlMjBkcmlwfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1683121005130-ca80485aaf1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aXYlMjBkcmlwfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
             "description": "Metabolic Reset • Fatigue Recovery • Hormone Support • Mitochondrial Boost",
             "collaboration": {
@@ -5859,13 +5870,13 @@ export const treatments = {
                 "text1": "This is not a “quick pick-me-up.”",
                 "text2": "This is cellular-level energy regeneration."
               },
-              image: "/assets/img/treatments/energy-iv-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why Energy IV is Superior to",
               "titleSuffix": "Oral Supplements",
-              image: "/assets/img/treatments/energy-iv-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -5965,7 +5976,7 @@ export const treatments = {
                   "description": "For mitochondrial regeneration + cognitive lift",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/energy-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -5973,7 +5984,7 @@ export const treatments = {
                   "description": "Stable energy + mood enhancement",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/energy-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -5981,7 +5992,7 @@ export const treatments = {
                   "description": "Anti-inflammatory + antioxidant repair",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/energy-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -5989,7 +6000,7 @@ export const treatments = {
                   "description": "Improves healing, collagen response & tissue recovery.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/energy-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -6044,8 +6055,8 @@ export const treatments = {
               "Brickendon",
               "All Hertfordshire villages within 10 miles"
             ],
-            image: "/assets/img/treatments/immunity-iv-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1577746838851-816a43ca8733?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpdGFtaW4lMjBjfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1577746838851-816a43ca8733?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpdGFtaW4lMjBjfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
             "description": "Strengthen • Defend • Recover • Restore",
             "collaboration": {
@@ -6078,7 +6089,7 @@ export const treatments = {
                 "text1": "This isn’t a “quick boost.”",
                 "text2": "It’s a biological upgrade to your immune function, energy, recovery and inflammatory balance."
               },
-              image: "/assets/img/treatments/immunity-iv-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "detailedBenefits": {
@@ -6131,7 +6142,7 @@ export const treatments = {
             "internalSupport": {
               "title": "Why Immunity IV is Stronger Than",
               "titleSuffix": "Supplements",
-              image: "/assets/img/treatments/immunity-iv-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -6216,7 +6227,7 @@ export const treatments = {
                   "description": "Ultimate antioxidant & detox combination.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -6224,7 +6235,7 @@ export const treatments = {
                   "description": "Energy + resilience + mitochondrial strength.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -6232,7 +6243,7 @@ export const treatments = {
                   "description": "Mood, nerve support, immune balance.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -6240,7 +6251,7 @@ export const treatments = {
                   "description": "Ideal before or after PN, microneedling, biostimulators, peels, or threads.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -6248,7 +6259,7 @@ export const treatments = {
                   "description": "Helps counteract inflammation associated with hormonal shifts.",
                   "points": [],
                   "conclusion": "",
-                  image: "/assets/img/treatments/immunity-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -6281,6 +6292,8 @@ export const treatments = {
             }
           },
           "womens-longevity-iv": {
+            image: "https://images.unsplash.com/photo-1617647386140-3ad7d21102d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29tZW5zJTIwaGVhbHRofGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1617647386140-3ad7d21102d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29tZW5zJTIwaGVhbHRofGVufDB8MXwwfHx8MA%3D%3D",
             "id": "womens-longevity-iv",
             "booking": {
               "price": 175,
@@ -6365,7 +6378,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/womens-longevity-iv-hero.webp",
+            image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             "category": "Radiate",
             "description": "Hormone Support • Energy • Metabolism • Skin Repair",
@@ -6400,13 +6413,13 @@ export const treatments = {
                 "text1": "This is not just an IV.",
                 "text2": "It is the internal engine behind ULANDA’s regeneration philosophy."
               },
-              image: "/assets/img/treatments/womens-longevity-iv-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why Women 35–65 Need a",
               "titleSuffix": "Longevity IV",
-              image: "/assets/img/treatments/womens-longevity-iv-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -6489,7 +6502,7 @@ export const treatments = {
                     "Glow after medical facials"
                   ],
                   "conclusion": "Healthier internal chemistry creates healthier skin surfaces.",
-                  image: "/assets/img/treatments/womens-longevity-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -6502,7 +6515,7 @@ export const treatments = {
                     "Hydration response to skin boosters"
                   ],
                   "conclusion": "Hormone-smart internal support = stronger regeneration.",
-                  image: "/assets/img/treatments/womens-longevity-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -6515,7 +6528,7 @@ export const treatments = {
                     "Longer-lasting lifting results"
                   ],
                   "conclusion": "Internal balance determines external results.",
-                  image: "/assets/img/treatments/womens-longevity-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -6551,6 +6564,8 @@ export const treatments = {
             }
           },
           "vitamin-b12-im": {
+            image: "https://plus.unsplash.com/premium_photo-1679046948909-ab47e96082e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dml0YW1pbiUyMGIxMnxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1679046948909-ab47e96082e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dml0YW1pbiUyMGIxMnxlbnwwfDF8MHx8fDA%3D",
             "id": "vitamin-b12-im",
             "booking": {
               "price": 30,
@@ -6633,7 +6648,7 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/vitamin-b12-im-hero.webp",
+            image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             "category": "Radiate",
             "description": "Energy • Cognition • Metabolism • Hormone Support",
@@ -6668,13 +6683,13 @@ export const treatments = {
                 "text1": "It forms a core part of ULANDA’s RADIATE Internal Wellness pathway.",
                 "text2": "The foundation supporting REFRESH, RENEW and RESTORE."
               },
-              image: "/assets/img/treatments/vitamin-b12-im-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why B12 Matters More for",
               "titleSuffix": "Midlife Women",
-              image: "/assets/img/treatments/vitamin-b12-im-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -6743,7 +6758,7 @@ export const treatments = {
                     "Improved brightness and vitality"
                   ],
                   "conclusion": "A healthy metabolic state = a more radiant complexion.",
-                  image: "/assets/img/treatments/vitamin-b12-im-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -6756,7 +6771,7 @@ export const treatments = {
                     "Improved hydration response with boosters"
                   ],
                   "conclusion": "Cellular regeneration depends on optimal B12 levels.",
-                  image: "/assets/img/treatments/vitamin-b12-im-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -6769,7 +6784,7 @@ export const treatments = {
                     "Increasing skin density & resilience"
                   ],
                   "conclusion": "Better nutrition - stronger collagen - better lifting & structural results.",
-                  image: "/assets/img/treatments/vitamin-b12-im-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -6840,8 +6855,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/glutathione-im-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1581182786510-168e6bc0013d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBjYXJlfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1581182786510-168e6bc0013d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBjYXJlfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
             "description": "Cellular Detoxification & Skin Brightening From Within",
             "introduction": {
@@ -6862,7 +6877,7 @@ export const treatments = {
                 "text1": "Master antioxidant.",
                 "text2": "Cellular-level radiance."
               },
-              image: "/assets/img/treatments/glutathione-im-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "idealFor": {
@@ -6941,8 +6956,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/vitamin-d-im-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1670201203116-26644750a726?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN1bnNoaW5lfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1670201203116-26644750a726?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN1bnNoaW5lfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
             "description": "Essential Vitamin D Support for Bones, Mood & Immunity",
             "introduction": {
@@ -6963,7 +6978,7 @@ export const treatments = {
                 "text1": "Essential for midlife.",
                 "text2": "Direct absorption."
               },
-              image: "/assets/img/treatments/vitamin-d-im-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "idealFor": {
@@ -7048,8 +7063,8 @@ export const treatments = {
               "Hunsdon",
               "surrounding villages"
             ],
-            image: "/assets/img/treatments/medical-weight-management-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1470167290877-7d5d3446de4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VpZ2h0JTIwbG9zc3xlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1470167290877-7d5d3446de4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VpZ2h0JTIwbG9zc3xlbnwwfDF8MHx8fDA%3D",
             "category": "Radiate",
             "description": "Metabolic Reset • Hormone Support • Body Confidence",
             "collaboration": {
@@ -7081,13 +7096,13 @@ export const treatments = {
                 "text1": "This is not a “slimming programme.”",
                 "text2": "It is a medically supervised metabolic restoration pathway — part of ULANDA’s radiance-from-within philosophy."
               },
-              image: "/assets/img/treatments/medical-weight-management-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why Medical Weight Management",
               "titleSuffix": "Matters",
-              image: "/assets/img/treatments/medical-weight-management-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -7176,7 +7191,7 @@ export const treatments = {
                     "inflammation decreases - brighter complexion"
                   ],
                   "conclusion": "",
-                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -7189,7 +7204,7 @@ export const treatments = {
                     "Skin booster hydration"
                   ],
                   "conclusion": "Healthy metabolism = stronger cellular regeneration.",
-                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -7202,7 +7217,7 @@ export const treatments = {
                     "better facial balancing"
                   ],
                   "conclusion": "Internal body changes enhance external structural results.",
-                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -7216,7 +7231,7 @@ export const treatments = {
                     "Women’s Longevity IV"
                   ],
                   "conclusion": "Together, they form a holistic metabolic-hormonal-skin optimisation system.",
-                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -7229,7 +7244,7 @@ export const treatments = {
                     "Abdomen tightening (postpartum, perimenopause)"
                   ],
                   "conclusion": "This creates a 360° physical + metabolic transformation.",
-                  image: "/assets/img/treatments/medical-weight-management-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -7304,8 +7319,8 @@ export const treatments = {
               "Brickendon",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/skin-glow-iv-hero.webp",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1716632012423-d4d0e2e63d57?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z2xvd2luZyUyMHNraW58ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1716632012423-d4d0e2e63d57?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z2xvd2luZyUyMHNraW58ZW58MHwxfDB8fHww",
             "category": "Radiate",
             "description": "Revitalize your skin with our signature Glow IV treatment.",
             "collaboration": {
@@ -7336,13 +7351,13 @@ export const treatments = {
                 "text1": "Using targeted antioxidants, vitamins and amino acids, this IV delivers the internal foundation required for ULANDA’s regenerative skin pathways.",
                 "text2": "Perfect for women 30–65+, especially during perimenopause & menopause when collagen, hydration and antioxidative capacity naturally decline."
               },
-              image: "/assets/img/treatments/skin-glow-iv-introduction.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
               "title": "Why Your Skin Needs",
               "titleSuffix": "Internal Support",
-              image: "/assets/img/treatments/skin-glow-iv-internalSupport.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
@@ -7448,7 +7463,7 @@ export const treatments = {
                     "Stronger LED regenerative response"
                   ],
                   "conclusion": "Better internal nutrition = immediately better glow.",
-                  image: "/assets/img/treatments/skin-glow-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -7463,7 +7478,7 @@ export const treatments = {
                     "Enhancing hydration outcomes"
                   ],
                   "conclusion": "The glow outside starts with nourishment inside.",
-                  image: "/assets/img/treatments/skin-glow-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
@@ -7477,7 +7492,7 @@ export const treatments = {
                     "Better elasticity & long-term skin density"
                   ],
                   "conclusion": "Stronger internal biochemistry - stronger structural aesthetic results.",
-                  image: "/assets/img/treatments/skin-glow-iv-ulandaConnection.webp",
+                  image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
               ]
@@ -7496,7 +7511,7 @@ export const treatments = {
                 "Brides / events / photography prep",
                 "Anyone wanting a healthy, reflective, luminous complexion"
               ],
-              image: "/assets/img/treatments/skin-glow-iv-idealFor.webp",
+              image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "safetyOversight": {
@@ -7531,11 +7546,13 @@ export const treatments = {
       "programmes": {
         "title": "Programmes",
         "description": "Comprehensive, multi-week regeneration plans.",
-        image: "/assets/img/treatments/programmes-subcategory-thumb.webp",
-        placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "https://www.shiseido.co.uk/on/demandware.static/-/Sites-shiseido_global_uk-Library/default/dwdcbbc526/GINZA_EDIT/dry-skin-in-menopause.png?frz-v=1462",
+        placeholderUrl: "https://www.shiseido.co.uk/on/demandware.static/-/Sites-shiseido_global_uk-Library/default/dwdcbbc526/GINZA_EDIT/dry-skin-in-menopause.png?frz-v=1462",
         "treatments": {
           "menopause-regeneration": {
             "id": "menopause-regeneration",
+            image: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
             "seo": {
               "title": "12-Week Menopause Regeneration Plan | ULANDA",
               "description": "ULANDA’s 12-Week Menopause Regeneration Plan restores collagen, hydration & firmness for midlife skin. A hormone-smart, regenerative pathway for perimenopause & menopause."
@@ -7552,8 +7569,8 @@ export const treatments = {
                 "inflammation & barrier breakdown"
               ],
               "includes": "PN, PRP (optional), skin boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.",
-              image: "/assets/img/treatments/menopause-regeneration-summary.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
             },
             "content": {
               "intro": [
@@ -7747,6 +7764,8 @@ export const treatments = {
           },
           "under-eye-regeneration": {
             "id": "under-eye-regeneration",
+            image: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
             "seo": {
               "title": "Under-Eye Regeneration Blueprint | ULANDA",
               "description": "Restore tired eyes naturally with ULANDA’s Under-Eye Regeneration Blueprint. A filler-free, regenerative programme for dark circles, hollowing & crepey skin."
@@ -7762,8 +7781,8 @@ export const treatments = {
                 "crepey skin"
               ],
               "includes": "Polynucleotides, Mesotherapy, specialized peels.",
-              image: "/assets/img/treatments/under-eye-regeneration-summary.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
             },
             "content": {
               "intro": [
@@ -7952,6 +7971,8 @@ export const treatments = {
           },
           "collagen-reset": {
             "id": "collagen-reset",
+            image: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
             "seo": {
               "title": "Collagen Reset Journey | ULANDA",
               "description": "Rebuild your skin’s structure with ULANDA’s Collagen Reset Journey. A multi-layered regenerative programme to restore firmness, elasticity & natural lift."
@@ -7972,8 +7993,8 @@ export const treatments = {
                 "early folds forming (nasolabial, marionette)"
               ],
               "includes": "Biostimulators, Threads, Polynucleotides, Skin Boosters, LED, Medical Facials",
-              image: "/assets/img/treatments/collagen-reset-summary.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
             },
             "content": {
               "intro": [
@@ -8165,6 +8186,8 @@ export const treatments = {
           },
           "hormone-smart-skin": {
             "id": "hormone-smart-skin",
+            image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
             "seo": {
               "title": "Radiate Hormone-Smart Skin Programme | ULANDA",
               "description": "Balance hormonal skin from within. ULANDA’s Radiate Hormone-Smart Skin Programme targets breakouts, sensitivity & dullness through internal & external regeneration."
@@ -8185,8 +8208,8 @@ export const treatments = {
                 "disrupted sleep + low vitality"
               ],
               "includes": "PN, Skin Boosters, Microneedling, LED, Peels, Internal Radiate Support (IV/IM)",
-              image: "/assets/img/treatments/hormone-smart-skin-summary.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
             },
             "content": {
               "intro": [
@@ -8375,6 +8398,8 @@ export const treatments = {
           },
           "shape-and-regenerate": {
             "id": "shape-and-regenerate",
+            image: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
             "seo": {
               "title": "Shape & Regenerate™ Body Transformation | ULANDA",
               "description": "ULANDA Shape & Regenerate™ combines metabolic health, body contouring & skin tightening for a complete midlife body transformation. Regenerative, not restrictive."
@@ -8395,8 +8420,8 @@ export const treatments = {
                 "fluid retention or bloating"
               ],
               "includes": "Body Contouring, Metabolic Reset, Skin Tightening, Biostimulators, Radiate IM Support",
-              image: "/assets/img/treatments/shape-and-regenerate-summary.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            image: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
             },
             "content": {
               "intro": [
@@ -8605,7 +8630,7 @@ export const getTreatmentById = (treatmentId) => {
 
 export const treatmentsPageData = {
   hero: {
-    image: "/assets/img/treatments/page-hero.webp",
+    image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
     placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
     title: "Regenerative Treatments",
     subtitle: "A simple, intelligent way to understand your regenerative journey."
