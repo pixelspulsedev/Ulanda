@@ -376,7 +376,7 @@ export const individualConditions = [
       description: "Skin laxity — sagging of the face, jawline and neck — is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/skin-laxity-hero.webp"
+      image: "https://plus.unsplash.com/premium_photo-1758742839721-6904259c5b6a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWlkJTIwYWdlZCUyMHdvbWFuJTIwZmFjZXxlbnwwfDF8MHx8fDA%3D"
     },
     science: {
       title: "What’s Really Happening —",
