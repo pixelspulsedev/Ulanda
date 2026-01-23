@@ -15,8 +15,8 @@ export const conditions = [
         "It is a biological decline in collagen, elastin, hydration, cell turnover and structural support — accelerated for women through perimenopause and menopause.",
         "At ULANDA, we specialise in regenerative solutions that rebuild the skin’s architecture from the inside out, restoring firmness, radiance and youthful strength at every life stage."
       ],
-      image: "https://images.unsplash.com/photo-1737978697863-5d65495b28ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2tpbiUyMHF1YWxpdHl8ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://images.unsplash.com/photo-1737978697863-5d65495b28ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2tpbiUyMHF1YWxpdHl8ZW58MHwxfDB8fHww"
+      image: "https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D"
     },
     science_removed: {
       title: "WHy Skin Ages -",
@@ -601,8 +601,8 @@ export const conditions = [
         "This is the reality of oestrogen, progesterone, collagen and barrier decline — not bad skincare.",
         "At ULANDA, menopause skincare is NOT anti-wrinkle treatments. It is cellular regeneration, dermal rebuilding, internal support, and hormone-aware treatment mapping."
       ],
-      image: "/assets/img/conditions/menopause-hormone-skin-changes-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     science: {
       title: "Why Menopause Changes the Skin —",

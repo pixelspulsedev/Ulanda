@@ -61,8 +61,8 @@ export const conditionsLandingData = {
       linkText: 'Explore Menopause Skin',
       color: 'bg-purple-50/50',
       dot: '🟣',
-      image: '/assets/img/conditions/landing/menopause_hormone_changes.jpg',
-      placeholderUrl: 'https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      placeholderUrl: 'https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
       title: 'Eye Area',
@@ -112,8 +112,8 @@ export const conditionsLandingData = {
       linkText: 'Explore Skin Texture',
       color: 'bg-rose-50/50',
       dot: '🔴',
-      image: '/assets/img/conditions/landing/age_skin_regeneration.jpg',
-      placeholderUrl: 'https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D',
+      placeholderUrl: 'https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D',
     },
     {
       title: 'Hormonal',

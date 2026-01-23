@@ -4,6 +4,8 @@ import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Search, X } from 'lucide-react';
 import { getAllTreatments } from '../data/pageContents/treatments/treatments';
+import { conditions } from '../data/pageContents/conditions/conditions';
+import { individualConditions } from '../data/pageContents/conditions/individualConditions';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -16,6 +18,41 @@ export default function Navbar() {
   const treatments = getAllTreatments();
   const treatmentList = Object.values(treatments);
 
+  // Get all conditions for search
+  const getAllConditions = () => {
+    const allConditions = [];
+    
+    // Add master conditions
+    conditions.forEach(condition => {
+      allConditions.push({
+        ...condition,
+        type: 'condition',
+        title: `${condition.hero.title} ${condition.hero.highlight || ''}`.trim(),
+        description: condition.hero.description?.[0] || '',
+        image: condition.hero.image,
+        placeholderUrl: condition.hero.placeholderUrl,
+        url: `/conditions/${condition.id}`
+      });
+    });
+    
+    // Add individual conditions
+    individualConditions.forEach(condition => {
+      allConditions.push({
+        ...condition,
+        type: 'condition',
+        title: `${condition.hero.title} ${condition.hero.highlight || ''}`.trim(),
+        description: condition.hero.description || '',
+        image: condition.hero.image,
+        placeholderUrl: condition.hero.placeholderUrl,
+        url: `/conditions/${condition.id}`
+      });
+    });
+    
+    return allConditions;
+  };
+
+  const allConditions = getAllConditions();
+
   // Get search results
   const searchResults = useMemo(() => {
     if (!searchQuery.trim()) {
@@ -25,6 +62,7 @@ export default function Navbar() {
     const query = searchQuery.toLowerCase();
     const results = [];
 
+    // Search treatments
     treatmentList.forEach(category => {
       Object.entries(category.subCategories || {}).forEach(([subKey, subCategory]) => {
         Object.entries(subCategory.treatments || {}).forEach(([treatmentKey, treatment]) => {
@@ -38,10 +76,11 @@ export default function Navbar() {
           if (matchesSearch) {
             results.push({
               ...treatment,
+              type: 'treatment',
               categoryId: category.id,
               categoryTitle: category.title,
               subCategoryTitle: subCategory.title,
-              subCategoryKey: subKey, // Added subCategoryKey
+              subCategoryKey: subKey,
               treatmentKey: treatmentKey
             });
           }
@@ -49,13 +88,31 @@ export default function Navbar() {
       });
     });
 
-    return results.slice(0, 6); // Limit to 6 results
-  }, [searchQuery, treatmentList]);
+    // Search conditions
+    allConditions.forEach(condition => {
+      const matchesSearch = 
+        condition.title?.toLowerCase().includes(query) ||
+        condition.description?.toLowerCase().includes(query) ||
+        condition.seo?.title?.toLowerCase().includes(query) ||
+        condition.seo?.description?.toLowerCase().includes(query);
 
-  const handleSearchClick = (categoryId, subCategoryId, treatmentKey) => {
+      if (matchesSearch) {
+        results.push(condition);
+      }
+    });
+
+    return results.slice(0, 8); // Limit to 8 results (increased from 6)
+  }, [searchQuery, treatmentList, allConditions]);
+
+  const handleSearchClick = (result) => {
     setIsSearchOpen(false);
     setSearchQuery('');
-    navigate(`/treatments/${categoryId}/${subCategoryId}/${treatmentKey}`);
+    
+    if (result.type === 'treatment') {
+      navigate(`/treatments/${result.categoryId}/${result.subCategoryKey}/${result.treatmentKey}`);
+    } else if (result.type === 'condition') {
+      navigate(result.url);
+    }
   };
 
   const closeDropdown = () => {
@@ -362,7 +419,7 @@ export default function Navbar() {
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search for treatments..."
+                    placeholder="Search for treatments and conditions..."
                     autoFocus
                     className="w-full pl-12 pr-12 py-3 text-base bg-base-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                   />
@@ -382,45 +439,47 @@ export default function Navbar() {
               <div className="max-h-96 overflow-y-auto">
                 {searchQuery && searchResults.length === 0 && (
                   <div className="p-8 text-center text-base-content/60">
-                    No treatments found matching &quot;{searchQuery}&quot;
+                    No results found matching &quot;{searchQuery}&quot;
                   </div>
                 )}
                 {searchQuery && searchResults.length > 0 && (
                   <div className="p-2">
                     <div className="px-4 py-2 text-sm text-base-content/60">
-                      Found {searchResults.length} treatment{searchResults.length !== 1 ? 's' : ''}
+                      Found {searchResults.length} result{searchResults.length !== 1 ? 's' : ''}
                     </div>
-                    {searchResults.map((treatment, index) => (
+                    {searchResults.map((result, index) => (
                       <button
-                        key={`${treatment.categoryId}-${treatment.treatmentKey}-${index}`}
-                        onClick={() => handleSearchClick(treatment.categoryId, treatment.subCategoryKey, treatment.treatmentKey)}
+                        key={`${result.type}-${index}`}
+                        onClick={() => handleSearchClick(result)}
                         className="w-full text-left p-4 hover:bg-base-200 rounded-lg transition-colors group"
                       >
                         <div className="flex gap-4">
-                          {treatment.image && (
+                          {result.image && (
                             <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-base-200">
                               <img
-                                src={treatment.placeholderUrl || treatment.image}
-                                alt={treatment.title}
+                                src={result.placeholderUrl || result.image}
+                                alt={result.title}
                                 className="w-full h-full object-cover"
                               />
                             </div>
                           )}
                           <div className="flex-1 min-w-0">
                             <div className="flex items-center gap-2 mb-1">
-                              <span className="text-xs px-2 py-0.5 bg-primary/10 text-primary rounded">
-                                {treatment.categoryTitle}
+                              <span className="text-xs px-2 py-0.5 bg-primary/10 text-primary rounded capitalize">
+                                {result.type === 'treatment' ? result.categoryTitle : 'Condition'}
                               </span>
-                              <span className="text-xs text-base-content/60">
-                                {treatment.subCategoryTitle}
-                              </span>
+                              {result.subCategoryTitle && (
+                                <span className="text-xs text-base-content/60">
+                                  {result.subCategoryTitle}
+                                </span>
+                              )}
                             </div>
                             <h4 className="font-medium text-base group-hover:text-primary transition-colors truncate">
-                              {treatment.title}
+                              {result.title}
                             </h4>
-                            {treatment.subtitle && (
+                            {result.description && (
                               <p className="text-sm text-base-content/60 truncate mt-1">
-                                {treatment.subtitle}
+                                {result.type === 'treatment' ? result.subtitle || result.description : result.description}
                               </p>
                             )}
                           </div>
@@ -431,7 +490,7 @@ export default function Navbar() {
                 )}
                 {!searchQuery && (
                   <div className="p-8 text-center text-base-content/60">
-                    Start typing to search for treatments
+                    Start typing to search...
                   </div>
                 )}
               </div>

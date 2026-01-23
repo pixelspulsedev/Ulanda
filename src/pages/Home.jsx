@@ -17,25 +17,28 @@ export default function Home() {
 
   useEffect(() => {
     const observerOptions = {
-        root: null,
-        rootMargin: '-50% 0px -50% 0px', 
-        threshold: 0
+      root: null,
+      rootMargin: '-50% 0px -50% 0px',
+      threshold: 0,
     };
 
     const observerCallback = (entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                setActiveTab(entry.target.id);
-            }
-        });
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveTab(entry.target.id);
+        }
+      });
     };
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions,
+    );
     const sections = Object.keys(pathways);
-    
-    sections.forEach(section => {
-        const element = document.getElementById(section);
-        if (element) observer.observe(element);
+
+    sections.forEach((section) => {
+      const element = document.getElementById(section);
+      if (element) observer.observe(element);
     });
 
     return () => observer.disconnect();
@@ -44,13 +47,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ULANDA | Regenerative Aesthetics Clinic in Ware SG12 | Hertfordshire</title>
-        <meta name="description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Specialising in skin regeneration, bio-remodelling and hormone-smart treatments for midlife women." />
+        <title>
+          ULANDA | Regenerative Aesthetics Clinic in Ware SG12 | Hertfordshire
+        </title>
+        <meta
+          name="description"
+          content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Specialising in skin regeneration, bio-remodelling and hormone-smart treatments for midlife women."
+        />
         <link rel="canonical" href="https://www.ulanda.co.uk/" />
-        <link 
-          rel="preload" 
-          as="image" 
-          href="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp" 
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
           fetchpriority="high"
         />
       </Head>
@@ -71,42 +79,193 @@ export default function Home() {
         <div className="relative z-10 hero min-h-screen">
           <div className="hero-content text-neutral-content text-left w-full justify-start px-4 md:px-20">
             <div className="max-w-2xl">
-            <h1 className="mb-5 font-medium text-3xl md:text-5xl xl:text-6xl font-serif leading-tight text-white">
-              <HeroText>
-              Where{' '}
-              <span className="italic font-extralight">
-                Skin, Hormones & <br />
-                Wellness
-              </span>{' '}
-              Come Together
-              </HeroText>
-            </h1>
-            <div className="mb-4 font-sans text-white">
-              <HeroText delay={0.2}>
-              For women navigating postpartum changes, perimenopause transitions
-              and the menopause journey.
-              </HeroText>
+              <h1 className="mb-5 font-medium text-3xl md:text-5xl xl:text-6xl font-serif leading-tight text-white">
+                <HeroText>
+                  Where{' '}
+                  <span className="italic font-extralight">
+                    Skin, Hormones & <br />
+                    Wellness
+                  </span>{' '}
+                  Come Together
+                </HeroText>
+              </h1>
+              <div className="mb-4 font-sans text-white">
+                <HeroText delay={0.2}>
+                  For women navigating postpartum changes, perimenopause
+                  transitions and the menopause journey.
+                </HeroText>
+              </div>
+              <div className="mb-4 text-base font-sans font-light text-white/80 max-w-xl">
+                <HeroText delay={0.4}>
+                  At ULANDA, we create personalised aesthetic and wellness
+                  pathways that help your skin look brighter, firmer and more
+                  radiant — while supporting your inner balance and confidence.
+                  <br />
+                  <span className="block mt-2">
+                    Natural results. Personalised care. Regeneration that works
+                    with your body.
+                  </span>
+                </HeroText>
+              </div>
+              <FadeInWhenVisible delay={0.6}>
+                <Link to="/book-consultation" className="btn btn-primary">
+                  Book Your Consultation
+                </Link>
+              </FadeInWhenVisible>
             </div>
-            <div className="mb-4 text-base font-sans font-light text-white/80 max-w-xl">
-              <HeroText delay={0.4}>
-              At ULANDA, we create personalised aesthetic and wellness pathways
-              that help your skin look brighter, firmer and more radiant — while
-              supporting your inner balance and confidence.
-              <br />
-              <span className="block mt-2">
-                Natural results. Personalised care. Regeneration that works with
-                your body.
-              </span>
-              </HeroText>
-            </div>
-            <FadeInWhenVisible delay={0.6}>
-              <Link to="/book-consultation" className="btn btn-primary">Book Your Consultation</Link>
-            </FadeInWhenVisible>
           </div>
         </div>
-      </div>
       </section>
+      {/* Pathways Section */}
+      <section className="py-24 px-4 md:px-8 bg-base-100">
+        <div className="max-w-7xl mx-auto">
+          {/* Header */}
+          <FadeInWhenVisible className="mb-16 flex items-center justify-between">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-6">
+                The{' '}
+                <span className="italic font-light text-primary">
+                  Four Pathways
+                </span>{' '}
+                to your <br />
+                Ulanda Journey
+              </h2>
+              <p className="text-lg text-base-content/80 font-sans max-w-2xl">
+                We’ve made regeneration easy to understand. <br />
+                Every treatment you receive sits within one of four simple
+                pathways:
+              </p>
+            </div>
+            <div className="hidden md:flex">
+              <Link to="/pathways" className="btn btn-primary">
+                Learn More About Our Pathways
+              </Link>
+            </div>
+          </FadeInWhenVisible>
 
+          {/* Tabs */}
+          <div className="sticky top-16 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
+            <div className="pt-4 flex items-center justify-between max-w-7xl mx-auto">
+              {Object.keys(pathways).map((key) => (
+                <button
+                  key={key}
+                  onClick={() => {
+                    const el = document.getElementById(key);
+                    if (el) {
+                      const offset = 150;
+                      const bodyRect =
+                        document.body.getBoundingClientRect().top;
+                      const elementRect = el.getBoundingClientRect().top;
+                      const elementPosition = elementRect - bodyRect;
+                      const offsetPosition = elementPosition - offset;
+
+                      window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth',
+                      });
+                    }
+                    setActiveTab(key);
+                  }}
+                  className={`flex-1 pb-4 text-lg font-sans transition-all duration-300 ${
+                    activeTab === key
+                      ? 'border-b-2 border-primary text-primary font-medium'
+                      : 'text-base-content/60 hover:text-primary'
+                  }`}
+                >
+                  {key.charAt(0).toUpperCase() + key.slice(1)}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Content */}
+          <div className="space-y-24">
+            {Object.entries(pathways).map(([key, pathway]) => (
+              <motion.div
+                // initial={{ opacity: 0.5 }}
+                // whileInView={{ opacity: 1 }}
+                // viewport={{ amount: 0.8, once: false }}
+                // transition={{ duration: 0.4, ease: 'easeIn' }}
+                key={key}
+                id={key}
+                className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center scroll-mt-32"
+              >
+                {/* Left Image */}
+                <div className="relative hidden md:flex justify-center md:justify-start">
+                  {/* Background decorative element */}
+                  <div className="absolute bottom-10 left-10 w-3/4 max-w-xs h-full">
+                    <RevealImage className="w-full h-full">
+                      <img
+                        src="/assets/img/ui/accent.webp"
+                        alt="Decorative shadow"
+                        className="w-full h-full object-cover"
+                      />
+                    </RevealImage>
+                  </div>
+
+                  {/* Main Image */}
+                  <RevealImage className="relative rounded-t-full shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
+                    <img
+                      src={pathway.placeholderUrl || pathway.image}
+                      alt={`${pathway.titlePrefix} ${pathway.highlight} ${pathway.titleSuffix}`}
+                      className="w-full h-full object-cover transition-opacity duration-500"
+                      loading="lazy"
+                    />
+                  </RevealImage>
+                </div>
+
+                {/* Right Content */}
+                <FadeInWhenVisible>
+                  <h3 className="text-3xl md:text-4xl font-serif text-base-content mb-4 leading-tight">
+                    {pathway.titlePrefix}{' '}
+                    <span className="italic font-serif text-primary">
+                      {pathway.highlight}
+                    </span>{' '}
+                    {pathway.titleSuffix}
+                  </h3>
+                  <p className="text-lg text-base-content/80 font-sans mb-8">
+                    {pathway.description}
+                  </p>
+
+                  <div className="grid grid-cols-1 gap-8 mb-8">
+                    <div>
+                      <h4 className="font-medium font-sans text-base-content mb-2">
+                        Includes:
+                      </h4>
+                      <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-base-content/80">
+                        {pathway.includes.map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-medium font-sans text-base-content mb-2">
+                        Perfect for:
+                      </h4>
+                      <p className="text-base-content/80">
+                        {pathway.perfectFor}
+                      </p>
+                    </div>
+                  </div>
+
+                  <Link
+                    to={`/treatments/${key}`}
+                    className="btn btn-primary text-white px-8"
+                  >
+                    Explore
+                  </Link>
+                </FadeInWhenVisible>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="md:hidden flex mt-8">
+            <Link to="/pathways" className="btn btn-primary">
+              Learn More About Our Pathways
+            </Link>
+          </div>
+        </div>
+      </section>
       {/* Our Approach Section */}
       <section className="py-24 px-4 md:px-8 bg-base-100">
         <div className="mb-16 md:hidden inline-block px-4 py-1 border border-primary/30 rounded-full bg-secondary">
@@ -169,7 +328,7 @@ export default function Home() {
                     </span>
                     {item}
                   </li>
-                )
+                ),
               )}
             </ul>
             <p className="text-lg text-base-content/80 font-sans leading-relaxed">
@@ -204,161 +363,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pathways Section */}
-      <section className="py-24 px-4 md:px-8 bg-base-100">
-        <div className="max-w-7xl mx-auto">
-          {/* Header */}
-          <FadeInWhenVisible className="mb-16 flex items-center justify-between">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-6">
-                The{' '}
-                <span className="italic font-light text-primary">
-                  Four Pathways
-                </span>{' '}
-                to your <br />
-                Ulanda Journey
-              </h2>
-              <p className="text-lg text-base-content/80 font-sans max-w-2xl">
-                We’ve made regeneration easy to understand. <br />
-                Every treatment you receive sits within one of four simple
-                pathways:
-              </p>
-            </div>
-            <div className='hidden md:flex'>
-              <Link
-              to='/pathways'
-              className='btn btn-primary'>
-                Learn More About Our Pathways
-              </Link>
-            </div>
-          </FadeInWhenVisible>
-
-          {/* Tabs */}
-          <div className="sticky top-16 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
-            <div className="pt-4 flex items-center justify-between max-w-7xl mx-auto">
-              {Object.keys(pathways).map((key) => (
-                <button
-                  key={key}
-                  onClick={() => {
-                    const el = document.getElementById(key);
-                    if (el) {
-                      const offset = 150;
-                      const bodyRect =
-                        document.body.getBoundingClientRect().top;
-                      const elementRect = el.getBoundingClientRect().top;
-                      const elementPosition = elementRect - bodyRect;
-                      const offsetPosition = elementPosition - offset;
-
-                      window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth',
-                      });
-                    }
-                    setActiveTab(key);
-                  }}
-                  className={`flex-1 pb-4 text-lg font-sans transition-all duration-300 ${
-                    activeTab === key
-                      ? 'border-b-2 border-primary text-primary font-medium'
-                      : 'text-base-content/60 hover:text-primary'
-                  }`}
-                >
-                  {key.charAt(0).toUpperCase() + key.slice(1)}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Content */}
-          <div className="space-y-24">
-            {Object.entries(pathways).map(([key, pathway]) => (
-              <motion.div
-                // initial={{ opacity: 0.5 }}
-                // whileInView={{ opacity: 1 }}
-                // viewport={{ amount: 0.8, once: false }}
-                // transition={{ duration: 0.4, ease: 'easeIn' }}
-                key={key}
-                id={key}
-                className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center scroll-mt-32"
-              >
-                {/* Left Image */}
-                <div className="relative hidden md:flex justify-center md:justify-start">
-                  {/* Background decorative element */}
-                  <div className="absolute bottom-10 left-10 w-3/4 max-w-xs h-full">
-                    <RevealImage className="w-full h-full">
-                        <img
-                        src="/assets/img/ui/accent.webp"
-                        alt="Decorative shadow"
-                        className="w-full h-full object-cover"
-                        />
-                    </RevealImage>
-                  </div>
-
-                  {/* Main Image */}
-                  <RevealImage className="relative rounded-t-full shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
-                    <img
-                      src={pathway.placeholderUrl || pathway.image}
-                      alt={`${pathway.titlePrefix} ${pathway.highlight} ${pathway.titleSuffix}`}
-                      className="w-full h-full object-cover transition-opacity duration-500"
-                      loading="lazy"
-                    />
-                  </RevealImage>
-                </div>
-
-                {/* Right Content */}
-                <FadeInWhenVisible>
-                  <h3 className="text-3xl md:text-4xl font-serif text-base-content mb-4 leading-tight">
-                    {pathway.titlePrefix}{' '}
-                    <span className="italic font-serif text-primary">
-                      {pathway.highlight}
-                    </span>{' '}
-                    {pathway.titleSuffix}
-                  </h3>
-                  <p className="text-lg text-base-content/80 font-sans mb-8">
-                    {pathway.description}
-                  </p>
-
-                  <div className="grid grid-cols-1 gap-8 mb-8">
-                    <div>
-                      <h4 className="font-medium font-sans text-base-content mb-2">
-                        Includes:
-                      </h4>
-                      <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-base-content/80">
-                        {pathway.includes.map((item) => (
-                          <li key={item}>{item}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="font-medium font-sans text-base-content mb-2">
-                        Perfect for:
-                      </h4>
-                      <p className="text-base-content/80">
-                        {pathway.perfectFor}
-                      </p>
-                    </div>
-                  </div>
-
-                  <Link
-                    to={`/treatments/${key}`}
-                    className="btn btn-primary text-white px-8"
-                  >
-                    Explore
-                  </Link>
-                </FadeInWhenVisible>
-              </motion.div>
-            ))}
-          </div>
-
-          <div className='md:hidden flex mt-8'>
-              <Link
-              to='/pathways'
-              className='btn btn-primary'>
-                Learn More About Our Pathways
-              </Link>
-            </div>
-        </div>
-      </section>
-
       {/* Who We Help Section */}
       <section className="py-24 px-4 md:px-8 bg-base-100">
         <div className="max-w-7xl mx-auto">
@@ -377,12 +381,12 @@ export default function Home() {
             {/* Card 1: Postpartum */}
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/conditions/Postpartum.webp"
-                alt="Postpartum Women"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
+                <img
+                  src="/assets/img/conditions/Postpartum.webp"
+                  alt="Postpartum Women"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
               </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 text-white">
@@ -399,12 +403,12 @@ export default function Home() {
             {/* Card 2: Perimenopausal */}
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/conditions/Uneven tone.webp"
-                alt="Perimenopausal Women"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
+                <img
+                  src="/assets/img/conditions/Uneven tone.webp"
+                  alt="Perimenopausal Women"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
               </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 text-white">
@@ -421,12 +425,12 @@ export default function Home() {
             {/* Card 3: Menopausal */}
             <div className="group relative h-[500px] overflow-hidden cursor-pointer">
               <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/conditions/Menopausal skin condition.webp"
-                alt="Menopausal Women"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
+                <img
+                  src="/assets/img/conditions/Menopausal skin condition.webp"
+                  alt="Menopausal Women"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
               </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8 text-white">
@@ -471,12 +475,12 @@ export default function Home() {
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp"
-                alt="12-Week Menopause Regeneration Plan"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
+                <img
+                  src="/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp"
+                  alt="12-Week Menopause Regeneration Plan"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
               </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
@@ -492,14 +496,14 @@ export default function Home() {
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/treatments/radiate/Under eye regeneration treatment.webp"
-                alt="Under-Eye Regeneration Blueprint"
-                width="1200"
-                height="1600"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
+                <img
+                  src="/assets/img/treatments/radiate/Under eye regeneration treatment.webp"
+                  alt="Under-Eye Regeneration Blueprint"
+                  width="1200"
+                  height="1600"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
               </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
@@ -515,12 +519,12 @@ export default function Home() {
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/treatments/radiate/Collagen reset journey.webp"
-                alt="Collagen Reset Journey"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
+                <img
+                  src="/assets/img/treatments/radiate/Collagen reset journey.webp"
+                  alt="Collagen Reset Journey"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
               </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
@@ -536,12 +540,12 @@ export default function Home() {
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/treatments/radiate/Radiate hormone smart skin programme.webp"
-                alt="Radiate Hormone-Smart Skin Programme"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
+                <img
+                  src="/assets/img/treatments/radiate/Radiate hormone smart skin programme.webp"
+                  alt="Radiate Hormone-Smart Skin Programme"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
               </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
@@ -557,12 +561,12 @@ export default function Home() {
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/treatments/radiate/Ulanda shape regenerate.webp"
-                alt="ULANDA Shape & Regenerate™"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
+                <img
+                  src="/assets/img/treatments/radiate/Ulanda shape regenerate.webp"
+                  alt="ULANDA Shape & Regenerate™"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
               </RevealImage>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
@@ -756,13 +760,13 @@ export default function Home() {
           <div className="relative flex justify-center order-2">
             {/* Arch Container */}
             <RevealImage className="max-w-sm aspect-[3/4] w-full">
-                <img
+              <img
                 src="assets/img/home/ulanda-helen-balogun-founder-ware.webp"
                 alt=""
                 width="384"
                 height="500"
                 className="w-full h-full object-cover"
-                />
+              />
             </RevealImage>
           </div>
         </div>
@@ -958,7 +962,12 @@ export default function Home() {
             wellbeing at every stage — postpartum, perimenopause or menopause.
           </p>
 
-          <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
+          <a
+            href="https://ulanda-100633.square.site/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg"
+          >
             Book Your Consultation
           </a>
         </div>
