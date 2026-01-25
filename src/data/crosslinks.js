@@ -10,222 +10,6 @@ import { getAllTreatments } from './pageContents/treatments/treatments';
 // ───────────────────────────────────────────────────────────────
 
 export const conditionToTreatments = {
-  // PIGMENTATION & SKIN TONE
-  "hyperpigmentation": [
-    "chemical-peel",
-    "biorepeel",
-    "microneedling",
-
-    "polynucleotides",
-    "medical-weight-management",
-    "barrier-repair-facial",
-    "oxygen-facial",
-    "oxygen-vitamin-infusion-facial",
-    "led-light-therapy"
-  ],
-
-  "melasma": [
-    "chemical-peel",
-    "biorepeel",
-    "enzyme-therapy",
-    "polynucleotides",
-    "microneedling",
-    "oxygen-facial",
-    "led-light-therapy",
-    "hormone-smart-skin"
-  ],
-
-  "post-inflammatory-hyperpigmentation": [
-    "chemical-peel",
-    "biorepeel",
-    "polynucleotides",
-    "microneedling",
-    "prp-skin-regeneration",
-    "barrier-repair-facial",
-    "enzyme-therapy",
-    "led-light-therapy"
-  ],
-
-  "uneven-skin-tone": [
-    "oxygen-vitamin-infusion-facial",
-    "hydrafacial",
-    "biorepeel",
-    "chemical-peel",
-    "medical-weight-management",
-    "profhilo",
-    "polynucleotides",
-    "barrier-repair-facial"
-  ],
-
-  "dull-dehydrated-skin": [
-    "oxygen-facial",
-    "hydrafacial",
-    "oxygen-vitamin-infusion-facial",
-    "jalupro",
-    "profhilo",
-    "definisse-hydrobooster",
-    "polynucleotides",
-    "led-light-therapy"
-  ],
-
-  // MENOPAUSE & HORMONE-LINKED SKIN CHANGES
-  "menopause-skin-decline": [
-    "hydrafacial",
-    "polynucleotides",
-    "prp-skin-regeneration",
-    "biostimulators",
-    "profhilo",
-    "definisse-hydrobooster",
-    "microneedling",
-    "barrier-repair-facial",
-    "hormone-smart-skin",
-    "nad-iv",
-    "skin-glow-iv"
-  ],
-
-  "jawline-softening": [
-    "thread-lifts",
-    "biostimulators",
-    "jawline-sculpting",
-    "neck-lower-face-lift",
-  ],
-
-  "neck-crepiness": [
-    "polynucleotides",
-    "biostimulators",
-    "profhilo",
-    "thread-lifts",
-    "neck-lower-face-lift"
-  ],
-
-  "texture-decline": [
-    "prp-skin-regeneration",
-    "polynucleotides",
-    "microneedling",
-    "chemical-peel",
-    "enzyme-therapy",
-    "profhilo",
-    "definisse-hydrobooster"
-  ],
-
-  // EYE AREA CONDITIONS
-  "dark-circles": [
-    "lumi-eyes",
-    "polynucleotides",
-    "under-eye-regeneration",
-    "oxygen-facial",
-    "led-light-therapy"
-  ],
-
-  "tear-troughs": [
-    "polynucleotides",
-    "lumi-eyes",
-    "dermal-fillers",
-    "under-eye-regeneration"
-  ],
-
-  "crepey-under-eye": [
-    "lumi-eyes",
-    "polynucleotides",
-    "jalupro",
-    "under-eye-regeneration",
-  ],
-
-  "under-eye-pigmentation": [
-    "lumi-eyes",
-    "polynucleotides",
-    "enzyme-therapy",
-    "biorepeel",
-    "led-light-therapy",
-    "under-eye-regeneration"
-  ],
-
-  "under-eye-puffiness": [
-    "polynucleotides",
-    "lumi-eyes",
-    "led-light-therapy",
-    "oxygen-facial",
-    "under-eye-regeneration"
-  ],
-
-  // AGE & SKIN REGENERATION
-  "crepey-skin-general": [
-    "polynucleotides",
-    "profhilo",
-    "definisse-hydrobooster",
-    "prp-skin-regeneration",
-    "biostimulators",
-  ],
-
-  "skin-laxity": [
-    "thread-lifts",
-    "biostimulators",
-    "polynucleotides",
-    "neck-lower-face-lift"
-  ],
-
-  "volume-loss": [
-    "biostimulators",
-    "dermal-fillers",
-    "thread-lifts",
-    "jawline-sculpting"
-  ],
-
-  "uneven-texture": [
-    "microneedling",
-
-    "chemical-peel",
-    "biorepeel",
-    "prp-skin-regeneration",
-    "polynucleotides",
-    "enzyme-therapy"
-  ],
-
-  "enlarged-pores": [
-    "hydrafacial",
-
-    "microneedling",
-    "chemical-peel",
-    "biorepeel",
-    "prp-skin-regeneration"
-  ],
-
-  // HORMONAL SKIN CONDITIONS
-  "hormonal-breakouts": [
-    "chemical-peel",
-    "biorepeel",
-    "led-light-therapy",
-    "barrier-repair-facial",
-    "hormone-smart-skin"
-  ],
-
-  "dryness-sensitivity": [
-    "oxygen-facial",
-    "enzyme-therapy",
-    "profhilo",
-    "jalupro",
-    "skin-glow-iv"
-  ],
-
-  "hormonal-pigmentation": [
-    "chemical-peel",
-    "biorepeel",
-    "enzyme-therapy",
-    "polynucleotides",
-    "microneedling",
-    "hormone-smart-skin"
-  ],
-
-  "loss-of-definition": [
-    "thread-lifts",
-    "jawline-sculpting",
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "thread-lifts"
-  ],
-
-  // BODY SKIN & STRUCTURAL CONDITIONS
   "body-skin-laxity": [
     "biostimulators",
     "body-tightening",
@@ -237,54 +21,256 @@ export const conditionToTreatments = {
     "body-tightening"
   ],
 
-  "stretch-marks": [
-    "microneedling",
-    "polynucleotides",
-    "prp-skin-regeneration",
-  ],
-
-  "post-weightloss-postpartum": [
+  "crepey-skin-general": [
     "biostimulators",
+    "definisse-hydrobooster",
     "polynucleotides",
-    "body-tightening"
+    "profhilo",
+    "prp-skin-regeneration"
   ],
 
-  // INTERNAL WELLNESS CONDITIONS
+  "crepey-under-eye": [
+    "jalupro",
+    "lumi-eyes",
+    "polynucleotides",
+    "under-eye-regeneration"
+  ],
+
+  "dark-circles": [
+    "led-light-therapy",
+    "lumi-eyes",
+    "oxygen-facial",
+    "polynucleotides",
+    "under-eye-regeneration"
+  ],
+
+  "dryness-sensitivity": [
+    "enzyme-therapy",
+    "jalupro",
+    "oxygen-facial",
+    "profhilo",
+    "skin-glow-iv"
+  ],
+
+  "dull-dehydrated-skin": [
+    "definisse-hydrobooster",
+    "hydrafacial",
+    "jalupro",
+    "led-light-therapy",
+    "oxygen-facial",
+    "oxygen-vitamin-infusion-facial",
+    "polynucleotides",
+    "profhilo"
+  ],
+
+  "enlarged-pores": [
+    "biorepeel",
+    "chemical-peel",
+    "hydrafacial",
+    "microneedling",
+    "prp-skin-regeneration"
+  ],
+
   "fatigue-low-energy": [
-    "nad-iv",
     "energy-iv",
+    "nad-iv",
     "vitamin-b12-im",
     "womens-longevity-iv"
   ],
 
+  "hormonal-breakouts": [
+    "barrier-repair-facial",
+    "biorepeel",
+    "chemical-peel",
+    "hormone-smart-skin",
+    "led-light-therapy"
+  ],
+
+  "hormonal-pigmentation": [
+    "biorepeel",
+    "chemical-peel",
+    "enzyme-therapy",
+    "hormone-smart-skin",
+    "microneedling",
+    "polynucleotides"
+  ],
+
+  "hyperpigmentation": [
+    "barrier-repair-facial",
+    "biorepeel",
+    "chemical-peel",
+    "led-light-therapy",
+    "medical-weight-management",
+    "microneedling",
+    "oxygen-facial",
+    "oxygen-vitamin-infusion-facial",
+    "polynucleotides"
+  ],
+
+  "jawline-softening": [
+    "biostimulators",
+    "jawline-sculpting",
+    "neck-lower-face-lift",
+    "thread-lifts"
+  ],
+
+  "loss-of-definition": [
+    "biostimulators",
+    "jawline-sculpting",
+    "thread-lifts"
+  ],
+
   "low-immunity": [
+    "glutathione-iv",
     "immunity-iv",
-    "vitamin-b12-im",
-    "glutathione-iv"
+    "vitamin-b12-im"
+  ],
+
+  "melasma": [
+    "biorepeel",
+    "chemical-peel",
+    "enzyme-therapy",
+    "hormone-smart-skin",
+    "led-light-therapy",
+    "microneedling",
+    "oxygen-facial",
+    "polynucleotides"
+  ],
+
+  "menopause-skin-decline": [
+    "barrier-repair-facial",
+    "biostimulators",
+    "definisse-hydrobooster",
+    "hormone-smart-skin",
+    "hydrafacial",
+    "microneedling",
+    "nad-iv",
+    "polynucleotides",
+    "profhilo",
+    "prp-skin-regeneration",
+    "skin-glow-iv"
+  ],
+
+  "neck-crepiness": [
+    "biostimulators",
+    "neck-lower-face-lift",
+    "polynucleotides",
+    "profhilo",
+    "thread-lifts"
+  ],
+
+  "nutrient-deficiency-skin": [
+    "skin-glow-iv",
+    "vitamin-b12-im"
+  ],
+
+  "post-inflammatory-hyperpigmentation": [
+    "barrier-repair-facial",
+    "biorepeel",
+    "chemical-peel",
+    "enzyme-therapy",
+    "led-light-therapy",
+    "microneedling",
+    "polynucleotides",
+    "prp-skin-regeneration"
+  ],
+
+  "post-weightloss-postpartum": [
+    "biostimulators",
+    "body-tightening",
+    "polynucleotides"
+  ],
+
+  "skin-laxity": [
+    "biostimulators",
+    "neck-lower-face-lift",
+    "polynucleotides",
+    "thread-lifts"
   ],
 
   "slow-metabolism": [
     "medical-weight-management",
     "nad-iv",
+    "shape-and-regenerate",
     "vitamin-b12-im",
-    "womens-longevity-iv",
-    "shape-and-regenerate"
+    "womens-longevity-iv"
   ],
 
   "stress-inflammation": [
     "glutathione-iv",
-    "nad-iv",
+    "hormone-smart-skin",
     "led-light-therapy",
-    "oxygen-vitamin-infusion-facial",
-    "hormone-smart-skin"
+    "nad-iv",
+    "oxygen-vitamin-infusion-facial"
   ],
 
-  "nutrient-deficiency-skin": [
-    "vitamin-b12-im",
-    "vitamin-b12-im",
-    "skin-glow-iv",
-    "skin-glow-iv"
+  "stretch-marks": [
+    "microneedling",
+    "polynucleotides",
+    "prp-skin-regeneration"
+  ],
+
+  "tear-troughs": [
+    "dermal-fillers",
+    "lumi-eyes",
+    "polynucleotides",
+    "under-eye-regeneration"
+  ],
+
+  "texture-decline": [
+    "chemical-peel",
+    "definisse-hydrobooster",
+    "enzyme-therapy",
+    "microneedling",
+    "polynucleotides",
+    "profhilo",
+    "prp-skin-regeneration"
+  ],
+
+  "under-eye-pigmentation": [
+    "biorepeel",
+    "enzyme-therapy",
+    "led-light-therapy",
+    "lumi-eyes",
+    "polynucleotides",
+    "under-eye-regeneration"
+  ],
+
+  "under-eye-puffiness": [
+    "led-light-therapy",
+    "lumi-eyes",
+    "oxygen-facial",
+    "polynucleotides",
+    "under-eye-regeneration"
+  ],
+
+  "uneven-skin-tone": [
+    "barrier-repair-facial",
+    "biorepeel",
+    "chemical-peel",
+    "hydrafacial",
+    "medical-weight-management",
+    "oxygen-vitamin-infusion-facial",
+    "polynucleotides",
+    "profhilo"
+  ],
+
+  "uneven-texture": [
+    "biorepeel",
+    "chemical-peel",
+    "enzyme-therapy",
+    "microneedling",
+    "polynucleotides",
+    "prp-skin-regeneration"
+  ],
+
+  "volume-loss": [
+    "biostimulators",
+    "dermal-fillers",
+    "jawline-sculpting",
+    "thread-lifts"
   ]
+
 };
 
 // ───────────────────────────────────────────────────────────────
@@ -292,253 +278,57 @@ export const conditionToTreatments = {
 // ───────────────────────────────────────────────────────────────
 
 export const treatmentToConditions = {
-  // REFRESH (Skin Surface)
   "barrier-repair-facial": [
-    "dull-dehydrated-skin",
-    "uneven-skin-tone",
-    "uneven-texture",
-    "enlarged-pores",
     "dryness-sensitivity",
+    "dull-dehydrated-skin",
+    "enlarged-pores",
     "hormonal-pigmentation",
     "post-inflammatory-hyperpigmentation",
-    "texture-decline"
-  ],
-
-  "oxygen-facial": [
-    "dull-dehydrated-skin",
-    "enlarged-pores",
-    "uneven-texture",
-    "hormonal-breakouts",
-    "dryness-sensitivity",
-    "skin-laxity",
-    "uneven-skin-tone"
+    "texture-decline",
+    "uneven-skin-tone",
+    "uneven-texture"
   ],
 
   "biorepeel": [
-    "hormonal-breakouts",
-    "post-inflammatory-hyperpigmentation",
-    "uneven-skin-tone",
-    "uneven-texture",
     "enlarged-pores",
-    "hyperpigmentation",
-    "melasma",
-    "texture-decline"
-  ],
-
-  "chemical-peel": [
+    "hormonal-breakouts",
     "hyperpigmentation",
     "melasma",
     "post-inflammatory-hyperpigmentation",
-    "uneven-texture",
-    "hormonal-breakouts",
-    "dull-dehydrated-skin",
-    "enlarged-pores"
-  ],
-
-  "enzyme-therapy": [
-    "dryness-sensitivity",
-    "dull-dehydrated-skin",
     "texture-decline",
-    "crepey-skin",
-    "hormonal-pigmentation",
-    "dryness-sensitivity"
-  ],
-
-  "led-light-therapy": [
-    "hormonal-breakouts",
-    "stress-inflammation",
-    "dull-dehydrated-skin",
-    "dryness-sensitivity"
-  ],
-
-  "oxygen-vitamin-infusion-facial": [
-    "dull-dehydrated-skin",
     "uneven-skin-tone",
-    "dryness-sensitivity",
-    "uneven-texture",
-    "menopause-skin-decline"
+    "uneven-texture"
+  ],
+
+  "biostimulators": [
+    "body-skin-laxity",
+    "cellulite",
+    "jawline-softening",
+    "loss-of-definition",
+    "menopause-skin-decline",
+    "neck-crepiness",
+    "skin-laxity",
+    "volume-loss"
   ],
 
   "body-tightening": [
     "body-skin-laxity",
-    "stretch-marks",
+    "cellulite",
+    "menopause-skin-decline",
     "post-weightloss-postpartum",
+    "slow-metabolism",
+    "stretch-marks",
     "uneven-texture"
   ],
 
-  // RENEW (Cellular Regeneration)
-  "polynucleotides": [
-    "crepey-skin",
-    "skin-laxity",
-    "dark-circles",
-    "crepey-under-eye",
-    "under-eye-pigmentation",
-    "texture-decline",
-    "uneven-texture",
-    "dull-dehydrated-skin"
-  ],
-
-  "prp-skin-regeneration": [
-    "crepey-skin",
-    "under-eye-pigmentation",
-    "volume-loss",
-    "menopause-skin-decline",
-    "uneven-texture",
-    "enlarged-pores"
-  ],
-
-  "microneedling": [
+  "chemical-peel": [
+    "dull-dehydrated-skin",
     "enlarged-pores",
-    "uneven-texture",
+    "hormonal-breakouts",
+    "hyperpigmentation",
+    "melasma",
     "post-inflammatory-hyperpigmentation",
-    "stretch-marks",
-    "texture-decline"
-  ],
-
-  "profhilo": [
-    "crepey-skin",
-    "dull-dehydrated-skin",
-    "skin-laxity",
-    "neck-crepiness",
-    "dull-dehydrated-skin",
-    "texture-decline"
-  ],
-
-  "definisse-hydrobooster": [
-    "crepey-under-eye",
-    "texture-decline",
-    "dull-dehydrated-skin",
-    "volume-loss"
-  ],
-
-  "jalupro": [
-    "dull-dehydrated-skin",
-    "uneven-texture",
-    "enlarged-pores",
-    "dryness-sensitivity"
-  ],
-
-  "lumi-eyes": [
-    "dark-circles",
-    "under-eye-pigmentation",
-    "crepey-under-eye",
-    "tear-troughs",
-    "menopause-skin-decline"
-  ],
-
-  "jalupro": [
-    "crepey-under-eye",
-    "texture-decline",
-    "dull-dehydrated-skin"
-  ],
-
-  "medical-weight-management": [
-    "uneven-skin-tone",
-    "dull-dehydrated-skin",
-    "texture-decline"
-  ],
-
-  "polynucleotides": [
-    "tear-troughs",
-    "crepey-under-eye",
-    "dark-circles",
-    "menopause-skin-decline"
-  ],
-
-  "polynucleotides": [
-    "neck-crepiness",
-    "skin-laxity",
-    "crepey-skin",
-    "menopause-skin-decline"
-  ],
-
-  "lumi-eyes": [
-    "under-eye-pigmentation",
-    "dark-circles",
-    "crepey-under-eye",
-    "tear-troughs"
-  ],
-
-  "under-eye-regeneration": [
-    "dark-circles",
-    "tear-troughs",
-    "crepey-under-eye",
-    "under-eye-pigmentation",
-    "under-eye-puffiness"
-  ],
-
-  "polynucleotides": [
-    "texture-decline",
-    "enlarged-pores",
-    "post-inflammatory-hyperpigmentation",
-    "crepey-skin"
-  ],
-
-  "prp-skin-regeneration": [
-    "enlarged-pores",
-    "uneven-texture",
-    "crepey-skin",
-    "post-weightloss-postpartum"
-  ],
-
-  "polynucleotides": [
-    "crepey-skin",
-    "menopause-skin-decline",
-    "texture-decline"
-  ],
-
-  // RESTORE (Structural Regeneration)
-  "biostimulators": [
-    "menopause-skin-decline",
-    "skin-laxity",
-    "volume-loss",
-    "loss-of-definition",
-    "jawline-softening",
-    "neck-crepiness",
-    "body-skin-laxity",
-    "cellulite"
-  ],
-
-  "biostimulators": [
-    "menopause-skin-decline",
-    "skin-laxity",
-    "volume-loss",
-    "loss-of-definition",
-    "jawline-softening",
-    "body-skin-laxity"
-  ],
-
-  "biostimulators": [
-    "menopause-skin-decline",
-    "skin-laxity",
-    "volume-loss",
-    "loss-of-definition",
-    "jawline-softening"
-  ],
-
-  "biostimulators": [
-    "menopause-skin-decline",
-    "skin-laxity",
-    "volume-loss",
-    "loss-of-definition",
-    "jawline-softening",
-    "neck-crepiness",
-    "cellulite"
-  ],
-
-  "biostimulators": [
-    "menopause-skin-decline",
-    "skin-laxity",
-    "volume-loss",
-    "loss-of-definition"
-  ],
-
-  "thread-lifts": [
-    "skin-laxity",
-    "jawline-softening",
-    "menopause-skin-decline",
-    "neck-crepiness",
-    "loss-of-definition"
+    "uneven-texture"
   ],
 
   "collagen-therapy": [
@@ -548,16 +338,49 @@ export const treatmentToConditions = {
     "texture-decline"
   ],
 
-  "dermal-fillers": [
-    "loss-of-definition",
-    "texture-decline"
+  "definisse-hydrobooster": [
+    "crepey-under-eye",
+    "dull-dehydrated-skin",
+    "texture-decline",
+    "volume-loss"
   ],
 
   "dermal-fillers": [
-    "tear-troughs",
-    "volume-loss",
+    "jawline-softening",
     "loss-of-definition",
-    "jawline-softening"
+    "tear-troughs",
+    "texture-decline",
+    "volume-loss"
+  ],
+
+  "energy-iv": [
+    "fatigue-low-energy"
+  ],
+
+  "enzyme-therapy": [
+    "crepey-skin",
+    "dryness-sensitivity",
+    "dull-dehydrated-skin",
+    "hormonal-pigmentation",
+    "texture-decline"
+  ],
+
+  "glutathione-iv": [
+    "low-immunity",
+    "stress-inflammation"
+  ],
+
+  "immunity-iv": [
+    "low-immunity"
+  ],
+
+  "jalupro": [
+    "crepey-under-eye",
+    "dryness-sensitivity",
+    "dull-dehydrated-skin",
+    "enlarged-pores",
+    "texture-decline",
+    "uneven-texture"
   ],
 
   "jawline-sculpting": [
@@ -566,106 +389,144 @@ export const treatmentToConditions = {
     "menopause-skin-decline"
   ],
 
-  "body-tightening": [
-    "body-skin-laxity",
-    "menopause-skin-decline",
-    "post-weightloss-postpartum"
+  "led-light-therapy": [
+    "dryness-sensitivity",
+    "dull-dehydrated-skin",
+    "hormonal-breakouts",
+    "stress-inflammation"
   ],
 
-  "body-tightening": [
+  "lumi-eyes": [
+    "crepey-under-eye",
+    "dark-circles",
+    "menopause-skin-decline",
+    "tear-troughs",
+    "under-eye-pigmentation"
+  ],
+
+  "medical-weight-management": [
+    "dull-dehydrated-skin",
     "slow-metabolism",
-    "post-weightloss-postpartum"
+    "texture-decline",
+    "uneven-skin-tone"
   ],
 
-  "threads-biostimulators": [
-    "skin-laxity",
-    "menopause-skin-decline",
-    "jawline-softening",
-    "volume-loss"
+  "microneedling": [
+    "enlarged-pores",
+    "post-inflammatory-hyperpigmentation",
+    "stretch-marks",
+    "texture-decline",
+    "uneven-texture"
   ],
 
-  "thread-lifts": [
+  "nad-iv": [
+    "fatigue-low-energy",
     "menopause-skin-decline",
-    "skin-laxity",
-    "volume-loss",
-    "loss-of-definition"
+    "slow-metabolism",
+    "stress-inflammation"
   ],
 
   "neck-lower-face-lift": [
-    "neck-crepiness",
     "jawline-softening",
+    "menopause-skin-decline",
+    "neck-crepiness",
+    "skin-laxity"
+  ],
+
+  "oxygen-facial": [
+    "dryness-sensitivity",
+    "dull-dehydrated-skin",
+    "enlarged-pores",
+    "hormonal-breakouts",
     "skin-laxity",
-    "menopause-skin-decline"
+    "uneven-skin-tone",
+    "uneven-texture"
   ],
 
-  "body-tightening": [
-    "cellulite",
-    "body-skin-laxity"
+  "oxygen-vitamin-infusion-facial": [
+    "dryness-sensitivity",
+    "dull-dehydrated-skin",
+    "menopause-skin-decline",
+    "uneven-skin-tone",
+    "uneven-texture"
   ],
 
-  "body-tightening": [
+  "polynucleotides": [
+    "crepey-skin",
+    "crepey-under-eye",
+    "dark-circles",
+    "dull-dehydrated-skin",
+    "enlarged-pores",
+    "menopause-skin-decline",
+    "neck-crepiness",
+    "post-inflammatory-hyperpigmentation",
+    "skin-laxity",
+    "tear-troughs",
+    "texture-decline",
+    "under-eye-pigmentation",
+    "uneven-texture"
+  ],
+
+  "profhilo": [
+    "crepey-skin",
+    "dull-dehydrated-skin",
+    "neck-crepiness",
+    "skin-laxity",
+    "texture-decline"
+  ],
+
+  "prp-skin-regeneration": [
+    "crepey-skin",
+    "enlarged-pores",
+    "menopause-skin-decline",
     "post-weightloss-postpartum",
-    "menopause-skin-decline"
-  ],
-
-  // RADIATE WELLNESS (Internal)
-  "nad-iv": [
-    "fatigue-low-energy",
-    "slow-metabolism",
-    "stress-inflammation",
-    "menopause-skin-decline"
-  ],
-
-  "energy-iv": [
-    "fatigue-low-energy"
-  ],
-
-  "immunity-iv": [
-    "low-immunity"
+    "under-eye-pigmentation",
+    "uneven-texture",
+    "volume-loss"
   ],
 
   "skin-glow-iv": [
+    "dryness-sensitivity",
     "dull-dehydrated-skin",
-    "dryness-sensitivity"
+    "nutrient-deficiency-skin"
   ],
 
-  "glutathione-iv": [
-    "stress-inflammation",
-    "low-immunity"
+  "thread-lifts": [
+    "jawline-softening",
+    "loss-of-definition",
+    "menopause-skin-decline",
+    "neck-crepiness",
+    "skin-laxity",
+    "volume-loss"
+  ],
+
+  "threads-biostimulators": [
+    "jawline-softening",
+    "menopause-skin-decline",
+    "skin-laxity",
+    "volume-loss"
+  ],
+
+  "under-eye-regeneration": [
+    "crepey-under-eye",
+    "dark-circles",
+    "tear-troughs",
+    "under-eye-pigmentation",
+    "under-eye-puffiness"
+  ],
+
+  "vitamin-b12-im": [
+    "fatigue-low-energy",
+    "low-immunity",
+    "nutrient-deficiency-skin",
+    "slow-metabolism"
   ],
 
   "womens-longevity-iv": [
     "fatigue-low-energy",
     "slow-metabolism"
-  ],
-
-  "skin-glow-iv": [
-    "nutrient-deficiency-skin",
-    "dull-dehydrated-skin"
-  ],
-
-  "vitamin-b12-im": [
-    "nutrient-deficiency-skin",
-    "low-immunity"
-  ],
-
-  "vitamin-b12-im": [
-    "fatigue-low-energy",
-    "nutrient-deficiency-skin",
-    "slow-metabolism"
-  ],
-
-  "nad-iv": [
-    "fatigue-low-energy"
-  ],
-
-  "glutathione-iv": [
-    "stress-inflammation"
-  ],
-
-  "medical-weight-management": [
-    "slow-metabolism"
   ]
+
 };
 
 // ───────────────────────────────────────────────────────────────
@@ -673,71 +534,72 @@ export const treatmentToConditions = {
 // ───────────────────────────────────────────────────────────────
 
 export const programmeToConditions = {
-  "menopause-regeneration": [
-    "menopause-skin-decline",
-    "jawline-softening",
-    "neck-crepiness",
-    "texture-decline",
-    "crepey-skin",
-    "loss-of-definition",
-    "hormonal-pigmentation",
-    "dryness-sensitivity",
-    "dull-dehydrated-skin",
-    "skin-laxity",
-    "uneven-skin-tone",
-    "dark-circles",
-    "crepey-under-eye",
-    "under-eye-pigmentation",
-    "under-eye-puffiness",
-    "hyperpigmentation",
-    "melasma",
-    "post-inflammatory-hyperpigmentation",
-    "fatigue-low-energy",
-    "slow-metabolism",
-    "stress-inflammation",
-    "nutrient-deficiency-skin"
-  ],
-
-  "under-eye-regeneration": [
-    "dark-circles",
-    "tear-troughs",
-    "crepey-under-eye",
-    "under-eye-pigmentation",
-    "under-eye-puffiness",
-    "crepey-skin",
-    "volume-loss"
-  ],
-
   "collagen-reset": [
     "crepey-skin",
+    "enlarged-pores",
     "menopause-skin-decline",
     "skin-laxity",
     "uneven-texture",
-    "enlarged-pores",
     "volume-loss"
   ],
 
   "hormone-smart-skin": [
+    "dryness-sensitivity",
+    "dull-dehydrated-skin",
     "hormonal-breakouts",
     "hormonal-pigmentation",
-    "stress-inflammation",
-    "dryness-sensitivity",
     "menopause-skin-decline",
     "post-weightloss-postpartum",
-    "dull-dehydrated-skin",
+    "stress-inflammation",
     "under-eye-pigmentation",
     "under-eye-puffiness"
   ],
 
-  "shape-and-regenerate": [
-    "slow-metabolism",
-    "body-skin-laxity",
-    "stretch-marks",
-    "cellulite",
-    "post-weightloss-postpartum",
+  "menopause-regeneration": [
+    "crepey-skin",
+    "crepey-under-eye",
+    "dark-circles",
+    "dryness-sensitivity",
+    "dull-dehydrated-skin",
     "fatigue-low-energy",
-    "nutrient-deficiency-skin"
+    "hormonal-pigmentation",
+    "hyperpigmentation",
+    "jawline-softening",
+    "loss-of-definition",
+    "melasma",
+    "menopause-skin-decline",
+    "neck-crepiness",
+    "nutrient-deficiency-skin",
+    "post-inflammatory-hyperpigmentation",
+    "skin-laxity",
+    "slow-metabolism",
+    "stress-inflammation",
+    "texture-decline",
+    "under-eye-pigmentation",
+    "under-eye-puffiness",
+    "uneven-skin-tone"
+  ],
+
+  "shape-and-regenerate": [
+    "body-skin-laxity",
+    "cellulite",
+    "fatigue-low-energy",
+    "nutrient-deficiency-skin",
+    "post-weightloss-postpartum",
+    "slow-metabolism",
+    "stretch-marks"
+  ],
+
+  "under-eye-regeneration": [
+    "crepey-skin",
+    "crepey-under-eye",
+    "dark-circles",
+    "tear-troughs",
+    "under-eye-pigmentation",
+    "under-eye-puffiness",
+    "volume-loss"
   ]
+
 };
 
 // ───────────────────────────────────────────────────────────────
@@ -745,92 +607,72 @@ export const programmeToConditions = {
 // ───────────────────────────────────────────────────────────────
 
 export const programmeToTreatments = {
-  "menopause-regeneration": [
-    "polynucleotides",
-    "prp-skin-regeneration",
-    "microneedling",
-
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "thread-lifts",
-    "profhilo",
-    "definisse-hydrobooster",
-    "jalupro",
-    "polynucleotides",
-    "polynucleotides",
-    "chemical-peel",
-    "biorepeel",
-    "led-light-therapy",
-    "enzyme-therapy",
-    "oxygen-facial",
-    "hormone-smart-skin"
-  ],
-
-  "under-eye-regeneration": [
-    "lumi-eyes",
-    "polynucleotides",
-    "polynucleotides",
-    "polynucleotides",
-    "lumi-eyes",
-    "jalupro",
-    "microneedling",
-
-    "collagen-therapy",
-    "enzyme-therapy",
-    "led-light-therapy"
-  ],
-
   "collagen-reset": [
     "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "biostimulators",
-    "polynucleotides",
-    "prp-skin-regeneration",
-    "microneedling",
-
-    "profhilo",
-    "definisse-hydrobooster",
     "collagen-therapy",
+    "definisse-hydrobooster",
+    "microneedling",
+    "polynucleotides",
+    "profhilo",
+    "prp-skin-regeneration",
     "thread-lifts"
   ],
 
   "hormone-smart-skin": [
-    "oxygen-facial",
-    "enzyme-therapy",
-    "led-light-therapy",
-    "chemical-peel",
     "biorepeel",
-    "polynucleotides",
-    "jalupro",
-    "microneedling",
-    "prp-skin-regeneration",
-    "nad-iv",
+    "chemical-peel",
     "energy-iv",
-    "womens-longevity-iv",
+    "enzyme-therapy",
+    "jalupro",
+    "led-light-therapy",
+    "microneedling",
+    "nad-iv",
+    "oxygen-facial",
+    "polynucleotides",
+    "prp-skin-regeneration",
     "skin-glow-iv",
     "vitamin-b12-im",
-    "vitamin-b12-im"
+    "womens-longevity-iv"
+  ],
+
+  "menopause-regeneration": [
+    "biorepeel",
+    "biostimulators",
+    "chemical-peel",
+    "definisse-hydrobooster",
+    "enzyme-therapy",
+    "hormone-smart-skin",
+    "jalupro",
+    "led-light-therapy",
+    "microneedling",
+    "oxygen-facial",
+    "polynucleotides",
+    "profhilo",
+    "prp-skin-regeneration",
+    "thread-lifts"
   ],
 
   "shape-and-regenerate": [
-
+    "biostimulators",
     "body-tightening",
     "collagen-therapy",
-
-    "biostimulators",
-    "biostimulators",
-    "body-tightening",
+    "medical-weight-management",
+    "nad-iv",
     "polynucleotides",
     "prp-skin-regeneration",
-    "nad-iv",
-    "vitamin-b12-im",
-    "vitamin-b12-im",
-    "medical-weight-management"
+    "vitamin-b12-im"
+  ],
+
+  "under-eye-regeneration": [
+    "collagen-therapy",
+    "enzyme-therapy",
+    "jalupro",
+    "led-light-therapy",
+    "lumi-eyes",
+    "microneedling",
+    "polynucleotides"
   ]
+
 };
 
 // ───────────────────────────────────────────────────────────────
@@ -840,85 +682,78 @@ export const programmeToTreatments = {
 export const blogCategories = {
   "collagen-ageing-menopause": {
     conditions: [
-      "skin-laxity",
       "crepey-skin",
-      "menopause-skin-decline",
-      "volume-loss",
-      "uneven-texture",
       "hormonal-pigmentation",
+      "jawline-softening",
+      "menopause-skin-decline",
       "neck-crepiness",
-      "jawline-softening"
+      "skin-laxity",
+      "uneven-texture",
+      "volume-loss"
     ],
     treatments: [
-      "biostimulators",
-      "biostimulators",
-      "biostimulators",
+      "barrier-repair-facial",
       "biostimulators",
       "collagen-therapy",
-      "polynucleotides",
-      "thread-lifts",
-      "profhilo",
       "microneedling",
-
-      "barrier-repair-facial"
+      "polynucleotides",
+      "profhilo",
+      "thread-lifts"
     ]
   },
 
   "pigmentation": {
     conditions: [
-      "melasma",
+      "hormonal-pigmentation",
       "hyperpigmentation",
-      "uneven-skin-tone",
+      "melasma",
       "post-inflammatory-hyperpigmentation",
-      "hormonal-pigmentation"
+      "uneven-skin-tone"
     ],
     treatments: [
-      "chemical-peel",
-      "biorepeel",
-      "polynucleotides",
-      "jalupro",
       "barrier-repair-facial",
-      "hormone-smart-skin"
+      "biorepeel",
+      "chemical-peel",
+      "hormone-smart-skin",
+      "jalupro",
+      "polynucleotides"
     ]
   },
 
   "under-eye": {
     conditions: [
+      "crepey-under-eye",
       "dark-circles",
       "tear-troughs",
-      "crepey-under-eye",
       "under-eye-pigmentation",
       "under-eye-puffiness"
     ],
     treatments: [
+      "jalupro",
       "lumi-eyes",
       "polynucleotides",
-      "polynucleotides",
-      "lumi-eyes",
-      "thread-lifts",
-      "jalupro"
+      "thread-lifts"
     ]
   },
 
   "wellness-radiate": {
     conditions: [
       "fatigue-low-energy",
-      "stress-inflammation",
       "low-immunity",
+      "nutrient-deficiency-skin",
       "slow-metabolism",
-      "nutrient-deficiency-skin"
+      "stress-inflammation"
     ],
     treatments: [
-      "nad-iv",
-      "nad-iv",
-      "vitamin-b12-im",
-      "vitamin-b12-im",
-      "womens-longevity-iv",
-      "skin-glow-iv",
+      "hormone-smart-skin",
       "medical-weight-management",
-      "hormone-smart-skin"
+      "nad-iv",
+      "skin-glow-iv",
+      "vitamin-b12-im",
+      "womens-longevity-iv"
     ]
   }
+
 };
 
 // ───────────────────────────────────────────────────────────────
