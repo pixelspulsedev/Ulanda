@@ -21,7 +21,7 @@ export default function Footer() {
                  <p>Uphaven, Hampden Hill</p>
                  <p>Ware, East Hertfordshire</p>
                  <p>UK, SG12 7JT</p>
-                 <p className="pt-2"><a href="tel:+447816069608" className="hover:text-primary transition-colors">+44 7816069608</a></p>
+                 <p className="pt-2"><a href="tel:+447904336031" className="hover:text-primary transition-colors">+44 7904 336031</a></p>
                  <p><a href="mailto:info@ulanda.co.uk" className="hover:text-primary transition-colors">info@ulanda.co.uk</a></p>
                  <p><a href="https://instagram.com/ulandamedspa" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">@ulandamedspa</a></p>
               </div>
@@ -81,10 +81,10 @@ export default function Footer() {
             <div>
               <h3 className="font-medium font-sans text-primary mb-4">Skin Conditions</h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Skin Laxity</Link></li>
-                <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors ">Uneven Tone & Pigmentation</Link></li>
-                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Skin Texture</Link></li>
-                <li><Link to="/conditions/dark-circles" className="hover:text-primary transition-colors ">Dark Circles</Link></li>
+                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Skin laxity</Link></li>
+                <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors ">Uneven tone & pigmentation</Link></li>
+                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">skin texture</Link></li>
+                <li><Link to="/conditions/dark-circles" className="hover:text-primary transition-colors ">Dark circles</Link></li>
                 <li><Link to="/conditions" className="hover:text-primary transition-colors ">More +</Link></li>
               </ul>
             </div>
@@ -98,6 +98,7 @@ export default function Footer() {
                 <li><Link to="/about/our-founder" className="hover:text-primary transition-colors ">Our Founder</Link></li>
                 <li><Link to="/about/manifesto" className="hover:text-primary transition-colors ">The Manifesto</Link></li>
                 <li><Link to="/blogs" className="hover:text-primary transition-colors ">Articles</Link></li>
+                <li><Link to="/contact" className="hover:text-primary transition-colors ">Contact</Link></li>
               </ul>
             </div>
 

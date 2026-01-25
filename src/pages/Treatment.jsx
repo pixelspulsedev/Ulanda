@@ -522,17 +522,23 @@ const Treatment = () => {
                     {section.title}
                   </h3>
                   <ul className="space-y-3">
-                    {section.items?.map((item, i) => (
-                      <li
-                        key={i}
-                        className="flex items-start gap-3 text-base-content/80 font-light"
-                      >
-                        <span className="text-primary mt-1">
-                          {section.icon || '•'}
-                        </span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
+                    {section.items?.map((item, i) => {
+                      const hasCheckmark = typeof item === 'string' && (item.trim().startsWith('✔') || item.trim().startsWith('✓'));
+                      const displayItem = hasCheckmark ? item.trim().substring(1).trim() : item;
+                      const displayIcon = section.icon || (hasCheckmark ? '✔' : '•');
+                      
+                      return (
+                        <li
+                          key={i}
+                          className="flex items-start gap-3 text-base-content/80 font-light"
+                        >
+                          <span className="text-primary mt-1">
+                            {displayIcon}
+                          </span>
+                          <span>{displayItem}</span>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               ))}
@@ -560,7 +566,7 @@ const Treatment = () => {
                       key={idx}
                       className="flex items-start gap-3 text-lg text-base-content/80 font-light"
                     >
-                      <span className="text-primary mt-1">✓</span>
+                      <span className="text-primary mt-1">✔</span>
                       <span>{item}</span>
                     </li>
                   ))}
