@@ -3,7 +3,7 @@ export const conditionsLandingData = {
     title: "Conditions",
     subtitle: "We Treat",
     description: [
-      "At ULANDA, we don’t treat symptoms in isolation — we treat the whole woman.",
+      "At ULANDA, we don’t treat symptoms in isolation, we treat the whole woman.",
       "Every condition is assessed through the lens of regenerative aesthetics, hormone-aware physiology and internal wellness so we can address the root cause of the concern, not just the surface.",
       "Whether you’re experiencing menopause-related skin changes, texture concerns, under-eye issues or low energy, our approach is precise, personalised and medically led."
     ],
@@ -46,6 +46,7 @@ export const conditionsLandingData = {
         'Menopause accelerates collagen loss by up to 30% in the first 5 years. We specialise in hormone-aware skin regeneration to restore density, firmness and lift.',
       concerns: [
         'Menopause Skin Decline',
+        'Hormonal Breakouts',
         'Jawline Softening / Jowls',
         'Neck Crepiness / Laxity',
         'Skin Texture Decline',
@@ -114,31 +115,6 @@ export const conditionsLandingData = {
       dot: '🔴',
       image: 'https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D',
       placeholderUrl: 'https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D',
-    },
-    {
-      title: 'Hormonal',
-      subtitle: 'Skin Conditions',
-      highlight: 'Breakouts • Sensitivity • Hormonal Pigment',
-      description:
-        'Hormonal fluctuations (puberty, cycle, perimenopause) drive specific skin issues. We treat the skin while supporting the internal hormonal environment.',
-      concerns: [
-        'Hormonal Breakouts',
-        'Dryness & Sensitivity',
-        'Hormonal Pigmentation',
-        'Loss of Facial Definition',
-      ],
-      solutions: [
-        'BioRePeel',
-        'LED Light Therapy',
-        'Barrier Repair Protocols',
-        'Internal Wellness Support',
-      ],
-      link: '/conditions/hormonal-skin',
-      linkText: 'Explore Hormonal Skin',
-      color: 'bg-indigo-50/50',
-      dot: '🟣',
-      image: '/assets/img/conditions/landing/hormonal_skin_conditions.jpg',
-      placeholderUrl: 'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       title: 'Body Skin &',

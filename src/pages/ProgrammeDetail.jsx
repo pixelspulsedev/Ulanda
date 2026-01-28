@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Head } from 'vite-react-ssg';
-import { getTreatment } from '../data/pageContents/treatments/treatments';
+import { getTreatment, getTreatmentById } from '../data/pageContents/treatments/treatments';
 import { getConditionsForProgramme, getTreatmentsForProgramme } from '../data/crosslinks';
 import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedConditions from '../components/RelatedConditions';
@@ -15,7 +15,12 @@ export default function ProgrammeDetail() {
   // Programmes are now stored under treatments -> radiate -> programmes
   const programme = getTreatment('radiate', 'programmes', id);
   const relatedConditions = getConditionsForProgramme(id);
-  const relatedTreatments = getTreatmentsForProgramme(id);
+  const relatedTreatmentIds = getTreatmentsForProgramme(id);
+  const relatedTreatments = relatedTreatmentIds.map(tid => {
+      // try to resolve full object to get proper casing title
+      const tObj = getTreatmentById(tid);
+      return tObj || tid;
+  });
 
   if (!programme) {
     return <Navigate to="/treatments/radiate/programmes" replace />;

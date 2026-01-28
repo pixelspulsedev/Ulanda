@@ -792,7 +792,7 @@ export const treatments = [
         },
         {
           title: "2. RENEW (PN, PRP, Microneedling, Skin Boosters)",
-          description: "Hydration IV enhances cellular regeneration by improving fibroblast responsiveness for PN, increasing platelet quality for PRP, accelerating microneedling healing, and helping HA skin boosters integrate more smoothly.",
+          description: "Hydration IV enhances cellular regeneration by improving fibroblast responsiveness for PN, increasing platelet quality for PRP, accelerating microneedling healing, and helping HA Skin Boosters integrate more smoothly.",
           points: [],
           conclusion: "Internal hydration = stronger collagen + better cellular repair.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -1506,7 +1506,7 @@ export const treatments = [
   //           "Fibroblast activation",
   //           "Collagen production for PN & microneedling",
   //           "Platelet quality for PRP",
-  //           "Hydration response to skin boosters"
+  //           "Hydration response to Skin Boosters"
   //         ],
   //         conclusion: "Regeneration is energy-dependent — NAD+ fuels the process.",
   //         image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2159,7 +2159,7 @@ export const treatments = [
              "Reducing inflammation during microneedling recovery",
              "Improving fibroblast performance (collagen synthesis)",
              "Supporting tissue repair for PN + PRP",
-             "Enhancing healing after skin boosters"
+             "Enhancing healing after Skin Boosters"
           ],
           conclusion: "Vitamin D is essential for collagen activation + wound healing.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2409,7 +2409,7 @@ export const treatments = [
             "PN fibroblast activation",
             "PRP platelet quality",
             "Microneedling healing speed",
-            "Hydration response to skin boosters"
+            "Hydration response to Skin Boosters"
           ],
           conclusion: "Hormone-smart internal support = stronger regeneration.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -2624,7 +2624,7 @@ export const treatments = [
             "Reducing inflammation after microneedling",
             "Improving tissue response to PN",
             "Enhancing platelet activity for PRP",
-            "Supporting collagen integrity for skin boosters"
+            "Supporting collagen integrity for Skin Boosters"
           ],
           conclusion: "Cells regenerate more effectively when oxidative stress is lowered.",
           image: "/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
@@ -4788,7 +4788,7 @@ export const treatments = [
             "✔ Deep cleansing without irritation",
             "✔ Instant glow with long-term hydration",
             "✔ Removes buildup that accelerates ageing",
-            "✔ Pairs well with PN, peels and skin boosters",
+            "✔ Pairs well with PN, peels and Skin Boosters",
             "✔ Safe for retinol users (with barrier assessment)"
           ]
         }
@@ -5569,7 +5569,7 @@ export const treatments = [
     introduction: {
       title: "What Is Plenhyage?",
       content: [
-        "Plenhyage is an advanced Polynucleotide (PN) injectable designed to stimulate fibroblasts, improve hydration, strengthen the extracellular matrix and repair damaged skin.",
+        "Plenhyage is an advanced Polynucleotides (PN) injectable designed to stimulate fibroblasts, improve hydration, strengthen the extracellular matrix and repair damaged skin.",
         "Its longer-chain PN structure makes it ideal for deeper regeneration."
       ],
       goals: [
@@ -5734,7 +5734,7 @@ export const treatments = [
     introduction: {
       title: "What Is This Programme?",
       content: [
-        "A tailored combination of PN, PRP, skin boosters, microneedling and LED therapy designed to rebuild, repair and brighten the under-eye area."
+        "A tailored combination of PN, PRP, Skin Boosters, microneedling and LED therapy designed to rebuild, repair and brighten the under-eye area."
       ],
       goals: [
         "Fully personalised",
@@ -6438,7 +6438,7 @@ export const treatments = [
         "• collagen therapies",
         "• biostimulators",
         "• PN injectables",
-        "• skin boosters",
+        "• Skin Boosters",
         "• regenerative facials",
         "• thread lifts",
         "This ensures smoother skin without freezing, flattening or changing your natural expression.",
@@ -7061,7 +7061,7 @@ export const treatments = [
         },
         {
           title: "2. Regenerative Tightening for Smooth Contour",
-          description: "Because fat reduction alone can worsen loose skin, ULANDA pairs contouring with RF microneedling, body skin boosters, biostimulators, and PN body regeneration."
+          description: "Because fat reduction alone can worsen loose skin, ULANDA pairs contouring with RF microneedling, body Skin Boosters, biostimulators, and PN body regeneration."
         },
         {
           title: "3. Hormone-Smart Sculpting",

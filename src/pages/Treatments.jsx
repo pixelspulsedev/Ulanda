@@ -137,7 +137,7 @@ export default function Treatments() {
               <div className="space-y-4 text-lg md:text-xl font-light text-white/90 leading-relaxed">
                 <HeroText delay={0.2}>
                 <p>
-                  Every ULANDA treatment fits into one of four categories —
+                  Every ULANDA treatment fits into one of four categories:
                   Refresh, Renew, Restore, and Radiate.
                 </p>
                 </HeroText>

@@ -93,7 +93,7 @@ export default function PrivacyPolicy() {
           <p className="mb-4">For any questions about this Privacy Policy, please contact:</p>
           <div className="bg-gray-50 p-6 rounded-lg">
             <p className="font-semibold">ULANDA MedSpa</p>
-            <p>Uphaven House,</p>
+            <p>Uphaven,</p>
             <p>6 Hampden Hill,</p>
             <p>Ware, East Hertfordshire</p>
             <p>UK. SG12 7JT</p>

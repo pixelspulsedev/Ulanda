@@ -67,8 +67,8 @@ export default function ConditionsLanding() {
         <section className="py-20 px-4 md:px-8 max-w-[1400px] mx-auto">
           <div className="text-center mb-16">
             <p className="text-lg text-base-content/80 font-sans max-w-2xl mx-auto">
-              This page helps you explore the concerns we treat — grouped into
-              five simple, intelligent categories to make your journey
+              This page helps you explore the concerns we treat, grouped into
+              six simple, intelligent categories to make your journey
               effortless.
             </p>
           </div>

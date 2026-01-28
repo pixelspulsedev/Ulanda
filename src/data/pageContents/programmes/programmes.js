@@ -19,7 +19,7 @@ export const programmes = [
         'loss of elasticity',
         'inflammation & barrier breakdown',
       ],
-      includes: 'PN, PRP (optional), skin boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.',
+      includes: 'PN, PRP (optional), Skin Boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.',
       image: 'https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D',
       placeholderUrl: 'https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D',
     },
@@ -75,7 +75,7 @@ export const programmes = [
               'Light chemical peel',
               'LED regeneration session'
             ],
-            description: 'You begin the journey by refreshing the canvas — essential for menopausal skin that has become reactive and sluggish.'
+            description: 'You begin the journey by refreshing the canvas, essential for menopausal skin that has become reactive and sluggish.'
           },
           {
             weeks: 'Weeks 3–6',
@@ -108,7 +108,7 @@ export const programmes = [
               'CaHA for both collagen and definition',
               'Optional lower-face support threads (if indicated)'
             ],
-            description: 'Menopausal collagen drops by 30% in the first five years (scientifically established). This phase reverses the decline. Your face does not change shape — it simply looks rested, lifted, supported and youthful again.'
+            description: 'Menopausal collagen drops by 30% in the first five years (scientifically established). This phase reverses the decline. Your face does not change shape, it simply looks rested, lifted, supported and youthful again.'
           },
           {
             weeks: 'Weeks 10–12',

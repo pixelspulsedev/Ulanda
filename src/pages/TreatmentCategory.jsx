@@ -15,7 +15,7 @@ const pathwaySEO = {
   },
   renew: {
     title: "Renew Regenerative Treatments in Ware SG12 | ULANDA",
-    description: "Renew pathway treatments at ULANDA in Ware SG12. Biological stimulation with polynucleotides, skin boosters, microneedling and PRP. Long-term skin quality and resilience."
+    description: "Renew pathway treatments at ULANDA in Ware SG12. Biological stimulation with polynucleotides, Skin Boosters, microneedling and PRP. Long-term skin quality and resilience."
   },
   restore: {
     title: "Restore Recovery Treatments in Ware SG12 | ULANDA",
@@ -23,7 +23,7 @@ const pathwaySEO = {
   },
   radiate: {
     title: "Radiate Advanced Treatments in Ware SG12 | ULANDA",
-    description: "Radiate pathway treatments at ULANDA in Ware SG12. Internal wellness with IV therapy, NAD+, glutathione and medical weight management. Balance from within."
+    description: "Radiate pathway treatments at ULANDA in Ware SG12. Internal wellness with IV therapy, NAD+, glutathione IV and medical weight management. Balance from within."
   }
 };
 

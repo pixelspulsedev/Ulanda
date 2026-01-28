@@ -18,11 +18,11 @@ export const LocalBusinessSchema = () => {
     "priceRange": "£££",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Uphaven, Hampden Hill",
+      "streetAddress": "Uphaven, 6 Hampden Hill",
       "addressLocality": "Ware",
       "postalCode": "SG12 7JT",
-      "addressRegion": "Hertfordshire",
-      "addressCountry": "GB"
+      "addressRegion": "East Hertfordshire",
+      "addressCountry": "UK"
     },
     "geo": {
       "@type": "GeoCoordinates",

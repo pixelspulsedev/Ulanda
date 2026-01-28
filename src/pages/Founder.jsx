@@ -187,7 +187,7 @@ export default function Founder() {
                 <p>Her vision was simple but bold:</p>
                 <p className="font-medium text-base-content">
                   To give women a place where their skin, hormones and wellbeing
-                  are treated with equal importance — with care that is
+                  are treated with equal importance, with care that is
                   scientific, personal and deeply respectful of each woman’s
                   journey.
                 </p>
@@ -228,7 +228,7 @@ export default function Founder() {
                 <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
                   This blend of clinical expertise, women’s health knowledge and
                   aesthetic mastery allows Helen to understand not only how a
-                  woman looks — but how she feels, functions and evolves
+                  woman looks but how she feels, functions and evolves
                   biologically across the decades.
                 </p>
               </FadeInWhenVisible>
@@ -321,7 +321,7 @@ export default function Founder() {
                 </h2>
                 <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
                   Helen has completed advanced training across every treatment
-                  within ULANDA, allowing her to deliver — and oversee — every
+                  within ULANDA, allowing her to deliver and oversee every
                   service with clinical precision.
                 </p>
                 <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
@@ -395,7 +395,7 @@ export default function Founder() {
             </div>
             <FadeInWhenVisible delay={0.5}>
               <p className="max-w-3xl mx-auto text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
-                ULANDA is her life’s work — a carefully built ecosystem where
+                ULANDA is her life’s work; a carefully built ecosystem where
                 clinical excellence meets warmth, and where women are celebrated,
                 never judged.
               </p>
@@ -424,7 +424,7 @@ export default function Founder() {
                 <blockquote className="text-xl md:text-2xl font-sans italic font-light leading-relaxed  space-y-4">
                   <p>
                     “Women deserve care that understands everything they are
-                    carrying — physically, emotionally and hormonally.
+                    carrying, physically, emotionally and hormonally.
                   </p>
                   <p>
                     My role is to guide you, to support you, and to help you feel

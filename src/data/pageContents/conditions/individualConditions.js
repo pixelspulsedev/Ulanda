@@ -8,16 +8,16 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Dehydrated, Lacklustre Skin",
-      description: "Dull, dehydrated skin is one of the most common concerns for women 30+, often becoming more noticeable during perimenopause and menopause. The skin looks tired, flat, uneven or “grey,” makeup doesn’t sit well, and fine lines appear more defined.",
+      description: "Dull, dehydrated skin is one of the most common concerns for women 30+, often becoming more noticeable during perimenopause and menopause. The skin looks tired, flat, uneven or â€œgrey,â€ makeup doesnâ€™t sit well, and fine lines appear more defined.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
-    science: {
-      title: "What’s Really Happening —",
+    science_removed: {
+      title: "Whatâ€™s Really Happening â€”",
       highlight: "Why Skin Looks Dull",
-      description: "Dull skin isn’t just dryness — it’s a reflection of:",
+      description: "Dull skin isnâ€™t just dryness â€” itâ€™s a reflection of:",
       items: [
         {
           number: '01',
@@ -32,7 +32,7 @@ export const individualConditions = [
         {
           number: '03',
           title: 'Weakened Skin Barrier',
-          description: 'Skin struggles to retain moisture → tightness + dullness.'
+          description: 'Skin struggles to retain moisture â†’ tightness + dullness.'
         },
         {
           number: '04',
@@ -42,7 +42,7 @@ export const individualConditions = [
         {
           number: '05',
           title: 'Oxidative Stress & Inflammation',
-          description: 'Stress, lack of sleep, UV damage → a “tired, flat” complexion.'
+          description: 'Stress, lack of sleep, UV damage â†’ a â€œtired, flatâ€ complexion.'
         },
         {
           number: '06',
@@ -50,20 +50,20 @@ export const individualConditions = [
           description: 'Low B12, dehydration, poor sleep, low NAD+ levels all show on the skin.'
         }
       ],
-      footer: "This is why topical skincare alone cannot resolve dullness — the issue is deeper and multifactorial."
+      footer: "This is why topical skincare alone cannot resolve dullness â€” the issue is deeper and multifactorial."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Dull, Dehydrated Skin —",
+      title: "How ULANDA Treats Dull, Dehydrated Skin â€”",
       highlight: "The Regenerative Model",
       items: [
         {
           title: "Renew",
-          subtitle: "(Cellular Hydration & Repair – CORE CATEGORY)",
+          subtitle: "(Cellular Hydration & Repair â€“ CORE CATEGORY)",
           description: "These are the strongest treatments for dull skin:",
           image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Skin Boosters (Profhilo, Definisse Hydrobooster, Seventy Hyal)", desc: "Intense, injectable hydration → instant glow + smoother texture." },
+            { name: "Skin Boosters (Profhilo, Definisse Hydrobooster, Seventy Hyal)", desc: "Intense, injectable hydration â†’ instant glow + smoother texture." },
             { name: "Polynucleotides (PN)", desc: "Restores elasticity, reduces inflammation, repairs dullness at a cellular level." },
             { name: "PRP", desc: "Activates cell renewal + collagen." },
             { name: "Microneedling / RF Microneedling", desc: "Improves tone, texture and luminosity." }
@@ -83,7 +83,7 @@ export const individualConditions = [
         },
         {
           title: "Restore",
-          subtitle: "(Structural Support — if dullness is linked to ageing)",
+          subtitle: "(Structural Support â€” if dullness is linked to ageing)",
           description: "Mild structural sagging can cause tired appearance:",
           image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -100,14 +100,14 @@ export const individualConditions = [
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Hydration IV", desc: "Immediate replenishment." },
-            { name: "NAD+ IV", desc: "Boosts cellular energy → improves glow." },
+            { name: "NAD+ IV", desc: "Boosts cellular energy â†’ improves glow." },
             { name: "Glutathione IV", desc: "Brightens & reduces oxidative stress." },
             { name: "B12 IM", desc: "Improves cellular turnover" }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Hydration & Glow Pathway",
       steps: [
         { time: "Month 1", treatment: "Skin boosters + BioRePeel" },
@@ -147,27 +147,27 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Enlarged Pores",
-      description: "Enlarged pores are a common midlife concern, especially for women entering their late 30s, 40s, and beyond. They often make the skin appear rough, aged, uneven or oily — and makeup tends to sit inside the pores, making them more visible.",
+      description: "Enlarged pores are a common midlife concern, especially for women entering their late 30s, 40s, and beyond. They often make the skin appear rough, aged, uneven or oily â€” and makeup tends to sit inside the pores, making them more visible.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1671717724550-fd7e92333291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5sYXJnZWQlMjBwb3Jlc3xlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "What’s Really Happening —",
+    science_removed: {
+      title: "Whatâ€™s Really Happening â€”",
       highlight: "Why Pores Enlarge",
       description: "Pores appear larger when:",
       items: [
-        { number: '01', title: 'Collagen Weakens Around the Pore Walls', description: 'The pore loses its tight “support ring,” making it appear larger.' },
+        { number: '01', title: 'Collagen Weakens Around the Pore Walls', description: 'The pore loses its tight â€œsupport ring,â€ making it appear larger.' },
         { number: '02', title: 'Skin Becomes Thinner (Menopause-related)', description: 'Thinner skin exaggerates pore visibility.' },
-        { number: '03', title: 'Slower Cell Turnover', description: 'Dead skin builds up → pores stretch and become clogged.' },
+        { number: '03', title: 'Slower Cell Turnover', description: 'Dead skin builds up â†’ pores stretch and become clogged.' },
         { number: '04', title: 'Sebum Changes (Perimenopause)', description: 'Hormone fluctuations cause periods of dryness and excess oil, both making pores more visible.' },
         { number: '05', title: 'Sun Damage', description: 'UV breaks collagen around pores over time.' },
         { number: '06', title: 'Genetics & Ageing', description: 'Some people naturally have larger pores, which worsen with midlife changes.' },
       ],
-      footer: "At ULANDA, we treat enlarged pores by strengthening the skin from within through collagen regeneration, resurfacing and cellular repair — not harsh or stripping treatments."
+      footer: "At ULANDA, we treat enlarged pores by strengthening the skin from within through collagen regeneration, resurfacing and cellular repair â€” not harsh or stripping treatments."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Enlarged Pores —",
+      title: "How ULANDA Treats Enlarged Pores â€”",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -184,26 +184,26 @@ export const individualConditions = [
         },
         {
           title: "Renew",
-          subtitle: "(Collagen Activation — CORE CATEGORY)",
+          subtitle: "(Collagen Activation â€” CORE CATEGORY)",
           description: "The most effective pore treatments regenerate the dermis:",
           image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Microneedling", desc: "Stimulates collagen around the pores → reduces pore diameter." },
+            { name: "Microneedling", desc: "Stimulates collagen around the pores â†’ reduces pore diameter." },
             { name: "RF Microneedling", desc: "Combines heat + collagen induction for maximum tightening." },
             { name: "Polynucleotides (PN)", desc: "Improve elasticity + reduce inflammation contributing to enlarged pores." },
             { name: "PRP", desc: "Improves overall skin quality + pore refinement." },
-            { name: "Skin Boosters (Profhilo / Hydrobooster)", desc: "Hydration plumps and smooths the skin → reducing visibility." }
+            { name: "Skin Boosters (Profhilo / Hydrobooster)", desc: "Hydration plumps and smooths the skin â†’ reducing visibility." }
           ]
         },
         {
           title: "Restore",
-          subtitle: "(Structural Support — for ageing-related pore widening)",
+          subtitle: "(Structural Support â€” for ageing-related pore widening)",
           description: "Structural tightening for advanced cases:",
           image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Biostimulators", desc: "Strengthen the dermis → visibly smooth and tighten pore structure." },
+            { name: "Biostimulators", desc: "Strengthen the dermis â†’ visibly smooth and tighten pore structure." },
             { name: "Threads (micro threads)", desc: "Used selectively for structural laxity." }
           ]
         },
@@ -221,13 +221,13 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Pore Refinement Pathway",
       steps: [
         { time: "Month 1", treatment: "BioRePeel + Microneedling" },
         { time: "Month 2", treatment: "RF Microneedling + PN" },
         { time: "Month 3", treatment: "Skin booster (Hydrobooster or Profhilo)" },
-        { time: "Month 4–6", treatment: "Microneedling maintenance + NAD+ IV" }
+        { time: "Month 4â€“6", treatment: "Microneedling maintenance + NAD+ IV" }
       ]
     },
     whyChoose: {
@@ -260,13 +260,13 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Fine Lines & Wrinkles",
-      description: "Fine lines and wrinkles are one of the earliest signs of ageing — often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
+      description: "Fine lines and wrinkles are one of the earliest signs of ageing â€” often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww"
     },
-    science: {
-      title: "What’s Really Happening —",
+    science_removed: {
+      title: "Whatâ€™s Really Happening â€”",
       highlight: "Why Fine Lines Form",
       description: "Fine lines develop when:",
       items: [
@@ -276,10 +276,10 @@ export const individualConditions = [
         { number: '04', title: 'Hormonal decline', description: 'Accelerates cellular ageing and dryness.' },
         { number: '05', title: 'Repetitive movement', description: 'Expression lines deepen without dermal support.' }
       ],
-      footer: "Surface-only treatments rarely create lasting change — the issue is structural and cellular."
+      footer: "Surface-only treatments rarely create lasting change â€” the issue is structural and cellular."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Fine Lines —",
+      title: "How ULANDA Treats Fine Lines â€”",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -327,19 +327,19 @@ export const individualConditions = [
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Reduces oxidative stress, boosts collagen." },
-            { name: "Skin Glow IV", desc: "Supports repair and radiance." },
+            { name: "Skin Radiance IV", desc: "Supports repair and radiance." },
             { name: "B12 IM", desc: "Supports skin metabolism and healing." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Regenerative Pathway",
       steps: [
         { time: "Month 1", treatment: "PN + Profhilo" },
         { time: "Month 2", treatment: "Microneedling + PRP" },
         { time: "Month 3", treatment: "Biostimulator for deeper structural change" },
-        { time: "Month 4–6", treatment: "Booster sessions + Radiate Wellness infusions" }
+        { time: "Month 4â€“6", treatment: "Booster sessions + Radiate Wellness infusions" }
       ]
     },
     whyChoose: {
@@ -373,31 +373,31 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Skin Laxity",
-      description: "Skin laxity — sagging of the face, jawline and neck — is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
+      description: "Skin laxity â€” sagging of the face, jawline and neck â€” is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1758742839721-6904259c5b6a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWlkJTIwYWdlZCUyMHdvbWFuJTIwZmFjZXxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/skin-laxity-hero.webp"
     },
-    science: {
-      title: "What’s Really Happening —",
+    science_removed: {
+      title: "Whatâ€™s Really Happening â€”",
       highlight: "The Science of Laxity",
       description: "Sagging appears when deep support systems weaken:",
       items: [
-        { number: '01', title: 'Collagen & Elastin Breakdown', description: '1–2% yearly decline; up to 30% loss in early menopause.' },
+        { number: '01', title: 'Collagen & Elastin Breakdown', description: '1â€“2% yearly decline; up to 30% loss in early menopause.' },
         { number: '02', title: 'Fat Pad Shifting', description: 'Midface volume descends, softening the jawline.' },
         { number: '03', title: 'Ligament Weakening', description: 'Facial retaining ligaments loosen around the jowls.' },
-        { number: '04', title: 'Thinner Skin', description: 'Hormonal decline thins the dermis → less lift.' },
+        { number: '04', title: 'Thinner Skin', description: 'Hormonal decline thins the dermis â†’ less lift.' },
         { number: '05', title: 'Muscle Pull vs Weak Support', description: 'Downward pull overpowers depleted support structures.' }
       ],
-      footer: "Laxity is structural and cellular — creams or surface-only fixes cannot lift."
+      footer: "Laxity is structural and cellular â€” creams or surface-only fixes cannot lift."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Laxity —",
+      title: "How ULANDA Treats Laxity â€”",
       highlight: "The Regenerative Model",
       items: [
         {
           title: "Restore",
-          subtitle: "(Structural Lifting — CORE)",
+          subtitle: "(Structural Lifting â€” CORE)",
           description: "Primary lift for jawline, cheeks and neck:",
           image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -438,19 +438,19 @@ export const individualConditions = [
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Optimises cellular energy for regeneration." },
-            { name: "Skin Glow IV", desc: "Collagen + antioxidant support." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware internal support." }
+            { name: "Skin Radiance IV", desc: "Collagen + antioxidant support." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware internal support." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Regenerative Lifting Pathway",
       steps: [
         { time: "Month 1", treatment: "Midface support + PN" },
         { time: "Month 2", treatment: "Thread lift (jawline/cheeks/neck)" },
-        { time: "Month 3–4", treatment: "Biostimulator sessions" },
-        { time: "Month 5–6", treatment: "RF Microneedling + PN maintenance" }
+        { time: "Month 3â€“4", treatment: "Biostimulator sessions" },
+        { time: "Month 5â€“6", treatment: "RF Microneedling + PN maintenance" }
       ]
     },
     whyChoose: {
@@ -489,26 +489,26 @@ export const individualConditions = [
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/crepey-skin-hero.webp"
     },
-    science: {
-      title: "What’s Really Happening —",
+    science_removed: {
+      title: "Whatâ€™s Really Happening â€”",
       highlight: "The Science of Crepey Skin",
       description: "Crepey skin is structural, not just dryness:",
       items: [
-        { number: '01', title: 'Estrogen Drop → Collagen Loss', description: 'Up to 30% collagen lost in the first 5 years of menopause.' },
+        { number: '01', title: 'Estrogen Drop â†’ Collagen Loss', description: 'Up to 30% collagen lost in the first 5 years of menopause.' },
         { number: '02', title: 'Elastin Collapse', description: 'Bounce and recoil diminish rapidly.' },
         { number: '03', title: 'Dermal Density Weakens', description: 'Skin becomes fragile, papery and loose.' },
-        { number: '04', title: 'Oil Reduction', description: 'Less sebum → micro-wrinkling and dryness.' },
+        { number: '04', title: 'Oil Reduction', description: 'Less sebum â†’ micro-wrinkling and dryness.' },
         { number: '05', title: 'Lower Cell Turnover', description: 'Surface looks dull and finely lined.' }
       ],
-      footer: "Moisturisers alone cannot rebuild crepey skin — hormonal + structural repair is required."
+      footer: "Moisturisers alone cannot rebuild crepey skin â€” hormonal + structural repair is required."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Crepey Skin —",
+      title: "How ULANDA Treats Crepey Skin â€”",
       highlight: "The Regenerative Model",
       items: [
         {
           title: "Renew",
-          subtitle: "(Cellular Regeneration — CORE)",
+          subtitle: "(Cellular Regeneration â€” CORE)",
           description: "Rebuilds thickness and resilience:",
           image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -525,7 +525,7 @@ export const individualConditions = [
           image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Biostimulators (PLLA, CaHA, PDLLA)", desc: "Add firmness over 6–12 months." },
+            { name: "Biostimulators (PLLA, CaHA, PDLLA)", desc: "Add firmness over 6â€“12 months." },
             { name: "Threads (Definisse / PDO)", desc: "Collagen scaffolding for neck and lower face." }
           ]
         },
@@ -550,20 +550,20 @@ export const individualConditions = [
           points: [
             { name: "NAD+ IV", desc: "Improves cellular repair." },
             { name: "Glutathione IV", desc: "Reduces oxidative stress." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware vitality support." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware vitality support." },
             { name: "Vitamin D + B12 IM", desc: "Supports skin metabolism." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Crepey Skin Regeneration Pathway",
       steps: [
         { time: "Month 1", treatment: "PN + RF Microneedling" },
         { time: "Month 2", treatment: "Biostimulator treatment" },
         { time: "Month 3", treatment: "PN + PRP combination" },
-        { time: "Month 4–6", treatment: "Threads (if needed) + Radiate IVs" },
-        { time: "Month 6–12", treatment: "PN maintenance + microneedling" }
+        { time: "Month 4â€“6", treatment: "Threads (if needed) + Radiate IVs" },
+        { time: "Month 6â€“12", treatment: "PN maintenance + microneedling" }
       ]
     },
     whyChoose: {
@@ -597,31 +597,31 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Uneven Skin Texture",
-      description: "Roughness, bumps, enlarged pores or a sandpaper feel signal slowed renewal and collagen decline — often worsened in perimenopause.",
+      description: "Roughness, bumps, enlarged pores or a sandpaper feel signal slowed renewal and collagen decline â€” often worsened in perimenopause.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww"
     },
-    science: {
-      title: "What’s Really Happening —",
+    science_removed: {
+      title: "Whatâ€™s Really Happening â€”",
       highlight: "Why Texture Declines",
       description: "Texture worsens when renewal and collagen slow:",
       items: [
-        { number: '01', title: 'Slower Cell Turnover', description: 'Dead cells sit on the surface → roughness and dullness.' },
+        { number: '01', title: 'Slower Cell Turnover', description: 'Dead cells sit on the surface â†’ roughness and dullness.' },
         { number: '02', title: 'Dehydration & Barrier Breakdown', description: 'Dry, inflamed skin becomes patchy and uneven.' },
         { number: '03', title: 'Collagen & Elastin Decline', description: 'Pores look larger and texture more visible.' },
-        { number: '04', title: 'Hormonal Shifts (35–55)', description: 'Menopause accelerates dryness, micro-wrinkling and inflammation.' },
+        { number: '04', title: 'Hormonal Shifts (35â€“55)', description: 'Menopause accelerates dryness, micro-wrinkling and inflammation.' },
         { number: '05', title: 'Sun Damage & Stress', description: 'UV and cortisol thicken skin unevenly and increase rough patches.' }
       ],
       footer: "Texture needs both surface renewal and deeper collagen activation."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Texture —",
+      title: "How ULANDA Treats Texture â€”",
       highlight: "The Regenerative Model",
       items: [
         {
           title: "Refresh",
-          subtitle: "(Surface Smoothing — FIRST STEP)",
+          subtitle: "(Surface Smoothing â€” FIRST STEP)",
           description: "Removes dead cells and brightens:",
           image: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww",
           placeholderUrl: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww",
@@ -634,7 +634,7 @@ export const individualConditions = [
         },
         {
           title: "Renew",
-          subtitle: "(Cellular Regeneration — CORE)",
+          subtitle: "(Cellular Regeneration â€” CORE)",
           description: "Strengthens texture at the dermal level:",
           image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -664,20 +664,20 @@ export const individualConditions = [
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "Hydration IV", desc: "Restores moisture balance." },
-            { name: "Skin Glow IV", desc: "Collagen co-factors and antioxidants." },
+            { name: "Skin Radiance IV", desc: "Collagen co-factors and antioxidants." },
             { name: "NAD+ IV", desc: "Supports cellular turnover." },
             { name: "B12 IM", desc: "Supports metabolism and healing." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Texture Refinement Pathway",
       steps: [
         { time: "Month 1", treatment: "BioRePeel + Microneedling" },
         { time: "Month 2", treatment: "Skin Booster (Profhilo / Hydrobooster)" },
         { time: "Month 3", treatment: "PN or PRP session" },
-        { time: "Month 4–6", treatment: "Microneedling maintenance + NAD+ IV" }
+        { time: "Month 4â€“6", treatment: "Microneedling maintenance + NAD+ IV" }
       ]
     },
     whyChoose: {
@@ -715,8 +715,8 @@ export const individualConditions = [
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/volume-loss-hero.webp"
     },
-    science: {
-      title: "What’s Really Happening —",
+    science_removed: {
+      title: "Whatâ€™s Really Happening â€”",
       highlight: "Why Volume Declines",
       description: "Volume loss is structural, hormonal and collagen-based:",
       items: [
@@ -726,15 +726,15 @@ export const individualConditions = [
         { number: '04', title: 'Menopause Acceleration', description: 'Estrogen loss speeds fat pad and collagen depletion.' },
         { number: '05', title: 'Ligament Weakening', description: 'Weaker support lets volume shift downward.' }
       ],
-      footer: "Topical volume fixes do not exist — structural and regenerative repair is required."
+      footer: "Topical volume fixes do not exist â€” structural and regenerative repair is required."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Volume Loss —",
+      title: "How ULANDA Treats Volume Loss â€”",
       highlight: "The Regenerative Model",
       items: [
         {
           title: "Restore",
-          subtitle: "(Structural Volume & Contour — CORE)",
+          subtitle: "(Structural Volume & Contour â€” CORE)",
           description: "Rebuilds shape naturally:",
           image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -775,18 +775,18 @@ export const individualConditions = [
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Enhances cellular repair and collagen." },
-            { name: "Women’s Longevity IV", desc: "Supports hormonal balance." },
-            { name: "Skin Glow IV", desc: "Boosts collagen co-factors." }
+            { name: "Womenâ€™s Longevity IV", desc: "Supports hormonal balance." },
+            { name: "Skin Radiance IV", desc: "Boosts collagen co-factors." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Volume Restoration Pathway",
       steps: [
         { time: "Month 1", treatment: "Cheek & temple filler + PN" },
         { time: "Month 2", treatment: "Biostimulator for natural collagen" },
-        { time: "Month 3–4", treatment: "Microneedling / PRP" },
+        { time: "Month 3â€“4", treatment: "Microneedling / PRP" },
         { time: "Month 6+", treatment: "Biostimulator top-up + PN maintenance" }
       ]
     },
@@ -827,8 +827,8 @@ export const individualConditions = [
       image: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww"
     },
-    science: {
-      title: "Why Body Skin Becomes Loose —",
+    science_removed: {
+      title: "Why Body Skin Becomes Loose â€”",
       highlight: "The Real Science",
       description: "Body laxity stems from deep changes, not surface dryness:",
       items: [
@@ -842,7 +842,7 @@ export const individualConditions = [
       footer: "Creams, gym or home devices cannot rebuild dermal collagen; regeneration can."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Body Laxity —",
+      title: "How ULANDA Treats Body Laxity â€”",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -879,19 +879,19 @@ export const individualConditions = [
             { name: "NAD+ IV", desc: "Boosts cellular repair and collagen." },
             { name: "Glutathione IV", desc: "Reduces inflammation and improves tissue health." },
             { name: "Hydration IV", desc: "Supports elasticity; ideal alongside tightening." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware internal support." }
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware internal support." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Body Tightening Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "PN + RF Microneedling (arms/stomach/thighs)" },
-        { time: "Weeks 3–4", treatment: "Biostimulator (CaHA or PLLA)" },
-        { time: "Weeks 5–6", treatment: "PN top-up + PRP" },
-        { time: "Weeks 7–8", treatment: "Body threads (if lift needed)" },
-        { time: "Weeks 9–12", treatment: "RF Microneedling + NAD/Glutathione IV" }
+        { time: "Weeks 1â€“2", treatment: "PN + RF Microneedling (arms/stomach/thighs)" },
+        { time: "Weeks 3â€“4", treatment: "Biostimulator (CaHA or PLLA)" },
+        { time: "Weeks 5â€“6", treatment: "PN top-up + PRP" },
+        { time: "Weeks 7â€“8", treatment: "Body threads (if lift needed)" },
+        { time: "Weeks 9â€“12", treatment: "RF Microneedling + NAD/Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -911,7 +911,7 @@ export const individualConditions = [
       title: "Ready for",
       highlight: "firmer",
       titleSuffix: "body skin?",
-      description: "Book your ULANDA Body Regeneration consultation today. Treatments start from £180.",
+      description: "Book your ULANDA Body Regeneration consultation today. Treatments start from Â£180.",
       buttonText: "Book Your Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
@@ -931,20 +931,20 @@ export const individualConditions = [
       image: "https://plus.unsplash.com/premium_photo-1661389208879-cef356e2497d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsbHVsaXRlJTIwdHJlYXRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1661389208879-cef356e2497d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsbHVsaXRlJTIwdHJlYXRtZW50fGVufDB8MXwwfHx8MA%3D%3D"
     },
-    science: {
-      title: "Why Cellulite Happens —",
+    science_removed: {
+      title: "Why Cellulite Happens â€”",
       highlight: "The Real Biology",
       description: "Cellulite appears when three systems fail:",
       items: [
         { number: '01', title: 'Connective Tissue Weakening', description: 'Thin collagen bands let skin sink between fibres.' },
-        { number: '02', title: 'Fibrous Septae Tightening', description: 'Vertical tethers pull skin down → dimples.' },
+        { number: '02', title: 'Fibrous Septae Tightening', description: 'Vertical tethers pull skin down â†’ dimples.' },
         { number: '03', title: 'Fat Lobules Push Upward', description: 'Weak collagen cannot contain fat lobules.' },
         { number: '04', title: 'Hormonal Decline & Inflammation', description: 'Oestrogen drop, poor circulation, lymph sluggishness worsen dimpling.' }
       ],
       footer: "Surface creams or gym cannot fix tethering and collagen weakness; regeneration can."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Cellulite —",
+      title: "How ULANDA Treats Cellulite â€”",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -985,14 +985,14 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Cellulite Regeneration Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "PN + RF Microneedling" },
-        { time: "Weeks 3–4", treatment: "Biostimulator (CaHA/PLLA)" },
-        { time: "Weeks 5–6", treatment: "PN second session + PRP" },
-        { time: "Weeks 7–8", treatment: "Threads (if deeper dimples)" },
-        { time: "Weeks 9–12", treatment: "RF Microneedling + Glutathione/NAD IV" }
+        { time: "Weeks 1â€“2", treatment: "PN + RF Microneedling" },
+        { time: "Weeks 3â€“4", treatment: "Biostimulator (CaHA/PLLA)" },
+        { time: "Weeks 5â€“6", treatment: "PN second session + PRP" },
+        { time: "Weeks 7â€“8", treatment: "Threads (if deeper dimples)" },
+        { time: "Weeks 9â€“12", treatment: "RF Microneedling + Glutathione/NAD IV" }
       ]
     },
     whyChoose: {
@@ -1032,20 +1032,20 @@ export const individualConditions = [
       image: "https://plus.unsplash.com/premium_photo-1746192629710-cdbc5ec17830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9zdC1XZWlnaHQlMjBMb3NzfGVufDB8MXwwfHx8MA%3D%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1746192629710-cdbc5ec17830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9zdC1XZWlnaHQlMjBMb3NzfGVufDB8MXwwfHx8MA%3D%3D"
     },
-    science: {
-      title: "Why Skin Changes After Weight Loss or Pregnancy —",
+    science_removed: {
+      title: "Why Skin Changes After Weight Loss or Pregnancy â€”",
       highlight: "The Real Science",
       description: "Stretching and hormonal shifts weaken the dermis:",
       items: [
         { number: '01', title: 'Collagen Breakdown', description: 'Stretching + hormone shifts thin the dermis.' },
         { number: '02', title: 'Loss of Elastic Recoil', description: 'Elastin overstretches; skin cannot snap back.' },
-        { number: '03', title: 'Volume Loss', description: 'Deflation leaves skin “empty” and lax.' },
+        { number: '03', title: 'Volume Loss', description: 'Deflation leaves skin â€œemptyâ€ and lax.' },
         { number: '04', title: 'Fascia & Lymph Changes', description: 'Postpartum and weight shifts alter support and drainage.' }
       ],
       footer: "Gym builds muscle, not collagen; regeneration repairs skin strength."
     },
     treatmentModel: {
-      title: "How ULANDA Restores Post-Weight Loss/Postpartum Skin —",
+      title: "How ULANDA Restores Post-Weight Loss/Postpartum Skin â€”",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -1087,14 +1087,14 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Body Restoration Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "RF Microneedling + PN" },
-        { time: "Weeks 3–4", treatment: "Biostimulator for firmness" },
-        { time: "Weeks 5–6", treatment: "PN second session + PRP" },
-        { time: "Weeks 7–8", treatment: "Threads in targeted areas" },
-        { time: "Weeks 9–12", treatment: "Repeat RF Microneedling + NAD/Collagen Glow IV" }
+        { time: "Weeks 1â€“2", treatment: "RF Microneedling + PN" },
+        { time: "Weeks 3â€“4", treatment: "Biostimulator for firmness" },
+        { time: "Weeks 5â€“6", treatment: "PN second session + PRP" },
+        { time: "Weeks 7â€“8", treatment: "Threads in targeted areas" },
+        { time: "Weeks 9â€“12", treatment: "Repeat RF Microneedling + NAD/Collagen Glow IV" }
       ]
     },
     whyChoose: {
@@ -1113,7 +1113,7 @@ export const individualConditions = [
       title: "Ready to",
       highlight: "restore",
       titleSuffix: "post-weight loss/postpartum skin?",
-      description: "Rebuild firmness and tone with ULANDA’s regenerative body treatments.",
+      description: "Rebuild firmness and tone with ULANDAâ€™s regenerative body treatments.",
       buttonText: "Book Your Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
@@ -1132,8 +1132,8 @@ export const individualConditions = [
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D"
     },
-    science: {
-      title: "Why Stretch Marks Form —",
+    science_removed: {
+      title: "Why Stretch Marks Form â€”",
       highlight: "Science-Backed Truth",
       description: "Dermal tearing happens when stretch exceeds collagen strength:",
       items: [
@@ -1145,7 +1145,7 @@ export const individualConditions = [
       footer: "Creams stay in the epidermis; stretch marks are deep in the dermis and need regeneration."
     },
     treatmentModel: {
-      title: "How ULANDA Regenerates Stretch Marks —",
+      title: "How ULANDA Regenerates Stretch Marks â€”",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -1186,15 +1186,15 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Stretch Mark Regeneration Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "RF Microneedling + PN" },
-        { time: "Weeks 3–4", treatment: "Biostimulator session" },
-        { time: "Weeks 5–6", treatment: "RF Microneedling #2 + PRP" },
-        { time: "Weeks 7–8", treatment: "PN second session" },
-        { time: "Weeks 9–10", treatment: "Biostimulator top-up (if deeper marks)" },
-        { time: "Weeks 11–12", treatment: "Glutathione IV + Hydration IV" }
+        { time: "Weeks 1â€“2", treatment: "RF Microneedling + PN" },
+        { time: "Weeks 3â€“4", treatment: "Biostimulator session" },
+        { time: "Weeks 5â€“6", treatment: "RF Microneedling #2 + PRP" },
+        { time: "Weeks 7â€“8", treatment: "PN second session" },
+        { time: "Weeks 9â€“10", treatment: "Biostimulator top-up (if deeper marks)" },
+        { time: "Weeks 11â€“12", treatment: "Glutathione IV + Hydration IV" }
       ]
     },
     whyChoose: {
@@ -1233,14 +1233,14 @@ export const individualConditions = [
       image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D"
     },
-    science: {
-      title: "Why Crepey Eyes Develop —",
+    science_removed: {
+      title: "Why Crepey Eyes Develop â€”",
       highlight: "Key Drivers",
       description: "Under-eye skin is the thinnest on the face; menopause and movement speed crepiness:",
       items: [
         { number: '01', title: 'Collagen & Elastin Decline', description: 'Up to 30% collagen lost in early menopause.' },
         { number: '02', title: 'Hydration & HA Loss', description: 'Skin dries and fine lines etch in.' },
-        { number: '03', title: 'Ligament Weakness', description: 'Lower-lid support loosens → creases.' },
+        { number: '03', title: 'Ligament Weakness', description: 'Lower-lid support loosens â†’ creases.' },
         { number: '04', title: 'Repetitive Movement', description: 'Blinking/squinting etches fine lines.' },
         { number: '05', title: 'UV + Inflammation', description: 'Sun and irritation thin the dermis.' },
         { number: '06', title: 'Volume Loss', description: 'Hollows exaggerate crepey texture.' }
@@ -1248,7 +1248,7 @@ export const individualConditions = [
       footer: "Crepey eyes need structural and cellular repair, not surface cover-ups."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Crepey Under-Eyes —",
+      title: "How ULANDA Treats Crepey Under-Eyes â€”",
       highlight: "Regenerate, Hydrate, Support",
       items: [
         {
@@ -1270,7 +1270,7 @@ export const individualConditions = [
           image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Polynucleotides (PN)", desc: "#1 for crepey eyes — improves density, elasticity and hydration." },
+            { name: "Polynucleotides (PN)", desc: "#1 for crepey eyes â€” improves density, elasticity and hydration." },
             { name: "PRP", desc: "Collagen + vascular support." },
             { name: "Microneedling / RF (low heat)", desc: "Stimulates collagen safely." },
             { name: "Skin Boosters (Lumi Eyes / Hydrobooster)", desc: "Deep hydration for immediate softening." }
@@ -1297,20 +1297,20 @@ export const individualConditions = [
           points: [
             { name: "NAD+ IV", desc: "Supports cellular repair; reduces fatigue-linked crepiness." },
             { name: "Glutathione IV", desc: "Calms inflammation and brightens." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware support for menopausal eyes." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware support for menopausal eyes." },
             { name: "Vitamin B12 IM", desc: "Improves microcirculation." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Crepey Eye Repair (12 Weeks)",
       steps: [
-        { time: "Weeks 1–2", treatment: "PN + Enzyme Therapy" },
-        { time: "Weeks 3–4", treatment: "Microneedling (gentle orbital protocol)" },
-        { time: "Weeks 5–6", treatment: "PRP + PN stacked session" },
-        { time: "Weeks 7–10", treatment: "Hydrobooster or Lumi Eyes" },
-        { time: "Weeks 10–12", treatment: "PN maintenance + NAD+ IV" }
+        { time: "Weeks 1â€“2", treatment: "PN + Enzyme Therapy" },
+        { time: "Weeks 3â€“4", treatment: "Microneedling (gentle orbital protocol)" },
+        { time: "Weeks 5â€“6", treatment: "PRP + PN stacked session" },
+        { time: "Weeks 7â€“10", treatment: "Hydrobooster or Lumi Eyes" },
+        { time: "Weeks 10â€“12", treatment: "PN maintenance + NAD+ IV" }
       ]
     },
     whyChoose: {
@@ -1343,14 +1343,14 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Dark Circles",
-      description: "Dark circles are usually structural, vascular, pigment and hydration related — not just lack of sleep. We brighten by regenerating skin, not masking.",
+      description: "Dark circles are usually structural, vascular, pigment and hydration related â€” not just lack of sleep. We brighten by regenerating skin, not masking.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww"
     },
-    science: {
-      title: "Why Dark Circles Happen —",
+    science_removed: {
+      title: "Why Dark Circles Happen â€”",
       highlight: "Multi-Factor Causes",
       description: "Darkness comes from overlapping drivers:",
       items: [
@@ -1363,7 +1363,7 @@ export const individualConditions = [
       footer: "Lasting brightening needs dermal regeneration, pigment control and structural support."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Dark Circles —",
+      title: "How ULANDA Treats Dark Circles â€”",
       highlight: "Regenerate, Brighten, Support",
       items: [
         {
@@ -1413,19 +1413,19 @@ export const individualConditions = [
             { name: "Glutathione IV", desc: "Antioxidant brightening." },
             { name: "NAD+ IV", desc: "Supports repair and better sleep quality." },
             { name: "Vitamin B12 IM", desc: "Improves energy and circulation." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware support for menopause cases." }
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware support for menopause cases." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Under-Eye Brightening Plan (12 Weeks)",
       steps: [
-        { time: "Weeks 1–2", treatment: "PN + BioRePeel" },
-        { time: "Weeks 3–4", treatment: "Microneedling + PN" },
-        { time: "Weeks 5–6", treatment: "PRP + PN stacked" },
-        { time: "Weeks 7–10", treatment: "Hydrobooster or Lumi Eyes" },
-        { time: "Weeks 10–12", treatment: "Glutathione IV + PN maintenance" }
+        { time: "Weeks 1â€“2", treatment: "PN + BioRePeel" },
+        { time: "Weeks 3â€“4", treatment: "Microneedling + PN" },
+        { time: "Weeks 5â€“6", treatment: "PRP + PN stacked" },
+        { time: "Weeks 7â€“10", treatment: "Hydrobooster or Lumi Eyes" },
+        { time: "Weeks 10â€“12", treatment: "Glutathione IV + PN maintenance" }
       ]
     },
     whyChoose: {
@@ -1464,21 +1464,21 @@ export const individualConditions = [
       image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVuZGVyJTIwZXllJTIwaG9sbG93c3xlbnwwfHwwfHx8MA%3D%3D",
       // placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
-      title: "Why Hollows Form —",
+    science_removed: {
+      title: "Why Hollows Form â€”",
       highlight: "Root Causes",
       description: "Hollows reflect support loss and thinning skin:",
       items: [
         { number: '01', title: 'Mid-Face Volume Loss', description: 'Top driver of tear-trough shadows.' },
         { number: '02', title: 'Thinning Under-Eye Skin', description: 'Menopause accelerates dermal loss.' },
-        { number: '03', title: 'Ligament Weakening', description: 'Tear-trough ligament loosens → deeper shadow.' },
+        { number: '03', title: 'Ligament Weakening', description: 'Tear-trough ligament loosens â†’ deeper shadow.' },
         { number: '04', title: 'Fat Pad Reduction', description: 'Under-eye fat shrinks with age.' },
         { number: '05', title: 'Vascular Transparency', description: 'Visible vessels exaggerate hollows.' }
       ],
       footer: "Safe correction requires regeneration plus measured structural support."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Hollows —",
+      title: "How ULANDA Treats Hollows â€”",
       highlight: "Support, Strengthen, Hydrate",
       items: [
         {
@@ -1532,14 +1532,14 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Tear Trough Plan (12 Weeks)",
       steps: [
-        { time: "Weeks 1–2", treatment: "PN + Enzyme therapy" },
-        { time: "Weeks 3–4", treatment: "PN + Microneedling" },
-        { time: "Weeks 5–6", treatment: "PRP + PN stacked" },
-        { time: "Weeks 7–10", treatment: "Hydrobooster or mid-face filler (if needed)" },
-        { time: "Weeks 10–12", treatment: "PN maintenance + Glutathione IV" }
+        { time: "Weeks 1â€“2", treatment: "PN + Enzyme therapy" },
+        { time: "Weeks 3â€“4", treatment: "PN + Microneedling" },
+        { time: "Weeks 5â€“6", treatment: "PRP + PN stacked" },
+        { time: "Weeks 7â€“10", treatment: "Hydrobooster or mid-face filler (if needed)" },
+        { time: "Weeks 10â€“12", treatment: "PN maintenance + Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -1572,14 +1572,14 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Under-Eye Pigmentation",
-      description: "Brown, blue or mixed under-eye pigmentation needs gentle regeneration, pigment control and barrier repair — not harsh bleaching.",
+      description: "Brown, blue or mixed under-eye pigmentation needs gentle regeneration, pigment control and barrier repair â€” not harsh bleaching.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1636820531452-d63abb2d4008?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1636820531452-d63abb2d4008?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "Why Under-Eye Pigment Appears —",
+    science_removed: {
+      title: "Why Under-Eye Pigment Appears â€”",
       highlight: "Core Mechanisms",
       description: "Pigment is usually mixed (melanin + vascular + shadowing):",
       items: [
@@ -1588,10 +1588,10 @@ export const individualConditions = [
         { number: '03', title: 'Vascular Pigment', description: 'Thin skin shows blue/purple tones.' },
         { number: '04', title: 'Post-Inflammatory Pigment', description: 'Rubbing, eczema or irritation.' }
       ],
-      footer: "Thinner menopausal skin makes pigment look darker — gentle regeneration works best."
+      footer: "Thinner menopausal skin makes pigment look darker â€” gentle regeneration works best."
     },
     treatmentModel: {
-      title: "How ULANDA Brightens Pigmentation —",
+      title: "How ULANDA Brightens Pigmentation â€”",
       highlight: "Calm, Repair, Brighten",
       items: [
         {
@@ -1641,19 +1641,19 @@ export const individualConditions = [
             { name: "Glutathione IV", desc: "Powerful antioxidant brightening." },
             { name: "NAD+ IV", desc: "Improves repair and reduces inflammation." },
             { name: "Vitamin C IV", desc: "Collagen support + glow." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware pigment support." }
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware pigment support." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Under-Eye Brightening Plan",
       steps: [
-        { time: "Week 1–2", treatment: "PN + BioRePeel" },
-        { time: "Week 3–4", treatment: "Microneedling + PN" },
-        { time: "Week 5–6", treatment: "PRP + PN stacked" },
-        { time: "Week 7–10", treatment: "Hydrobooster or Lumi Eyes" },
-        { time: "Week 10–12", treatment: "Glutathione IV + PN maintenance" }
+        { time: "Week 1â€“2", treatment: "PN + BioRePeel" },
+        { time: "Week 3â€“4", treatment: "Microneedling + PN" },
+        { time: "Week 5â€“6", treatment: "PRP + PN stacked" },
+        { time: "Week 7â€“10", treatment: "Hydrobooster or Lumi Eyes" },
+        { time: "Week 10â€“12", treatment: "Glutathione IV + PN maintenance" }
       ]
     },
     whyChoose: {
@@ -1686,18 +1686,18 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Under-Eye Puffiness",
-      description: "Puffiness and bags come from fluid retention, lax support and inflammation — not just tiredness. We de-puff by improving drainage, strength and structure.",
+      description: "Puffiness and bags come from fluid retention, lax support and inflammation â€” not just tiredness. We de-puff by improving drainage, strength and structure.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "Why Puffiness Happens —",
+    science_removed: {
+      title: "Why Puffiness Happens â€”",
       highlight: "Key Drivers",
       description: "Fluid + structural + inflammatory factors:",
       items: [
-        { number: '01', title: 'Fluid Retention (Hormonal)', description: 'Estrogen fluctuations → water retention, morning swelling.' },
+        { number: '01', title: 'Fluid Retention (Hormonal)', description: 'Estrogen fluctuations â†’ water retention, morning swelling.' },
         { number: '02', title: 'Weakened Support', description: 'Collagen, elastin, ligaments and fat pads decline.' },
         { number: '03', title: 'Lymphatic Sluggishness', description: 'Poor drainage collects fluid under eyes.' },
         { number: '04', title: 'Fat Pad Herniation', description: 'Forward-shifting pads create bags.' },
@@ -1706,7 +1706,7 @@ export const individualConditions = [
       footer: "Tear-trough filler worsens puffiness; regenerative strengthening works better."
     },
     treatmentModel: {
-      title: "How ULANDA Reduces Puffiness —",
+      title: "How ULANDA Reduces Puffiness â€”",
       highlight: "Drain, Strengthen, Support",
       items: [
         {
@@ -1756,19 +1756,19 @@ export const individualConditions = [
             { name: "Vitamin B12 IM", desc: "Improves circulation and lymph flow." },
             { name: "NAD+ IV", desc: "Reduces inflammation and supports repair." },
             { name: "Glutathione IV", desc: "Calms oxidative stress linked puffiness." },
-            { name: "Women’s Longevity IV", desc: "Addresses hormonal water retention." }
+            { name: "Womenâ€™s Longevity IV", desc: "Addresses hormonal water retention." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Under-Eye De-Puff Plan (12 Weeks)",
       steps: [
-        { time: "Weeks 1–2", treatment: "PN + Enzyme therapy + lymphatic support" },
-        { time: "Weeks 3–4", treatment: "Microneedling (low)" },
-        { time: "Weeks 5–6", treatment: "PRP + PN stacked" },
-        { time: "Weeks 7–10", treatment: "Hydrobooster / Lumi Eyes" },
-        { time: "Weeks 10–12", treatment: "Biostimulator (if needed) + NAD/Glutathione IV" }
+        { time: "Weeks 1â€“2", treatment: "PN + Enzyme therapy + lymphatic support" },
+        { time: "Weeks 3â€“4", treatment: "Microneedling (low)" },
+        { time: "Weeks 5â€“6", treatment: "PRP + PN stacked" },
+        { time: "Weeks 7â€“10", treatment: "Hydrobooster / Lumi Eyes" },
+        { time: "Weeks 10â€“12", treatment: "Biostimulator (if needed) + NAD/Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -1808,22 +1808,22 @@ export const individualConditions = [
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
     science_removed: {
-      title: "Why Midlife Skin Becomes Dry & Reactive —",
+      title: "Why Midlife Skin Becomes Dry & Reactive â€”",
       highlight: "The Drivers",
       description: "Hormone decline + barrier weakness + cellular slowdown create dryness and sensitivity:",
       items: [
-        { number: '01', title: 'Estrogen Decline', description: 'Up to 50% less natural moisture → tightness and flaking.' },
-        { number: '02', title: 'Barrier Function Weakens', description: 'Ceramides and lipids drop → products sting and skin reddens.' },
+        { number: '01', title: 'Estrogen Decline', description: 'Up to 50% less natural moisture â†’ tightness and flaking.' },
+        { number: '02', title: 'Barrier Function Weakens', description: 'Ceramides and lipids drop â†’ products sting and skin reddens.' },
         { number: '03', title: 'Thinner Skin Loses Water Faster', description: 'Transepidermal water loss rises, worsening dehydration.' },
         { number: '04', title: 'Lower Collagen & Elastin', description: 'Texture becomes rough and crepey.' },
         { number: '05', title: 'Inflammation Increases', description: 'Stress and poor sleep create reactive, irritated skin.' },
         { number: '06', title: 'Microbiome Imbalance', description: 'Flora shifts cause sensitivity and breakouts.' },
         { number: '07', title: 'Skincare Intolerance', description: 'Previously tolerated products now burn or sting.' }
       ],
-      footer: "Dry + thin + reactive is the classic menopause skin triad — it needs regeneration, not harsher products."
+      footer: "Dry + thin + reactive is the classic menopause skin triad â€” it needs regeneration, not harsher products."
     },
     treatmentModel: {
-      title: "How ULANDA Restores Dry, Sensitive Menopause Skin —",
+      title: "How ULANDA Restores Dry, Sensitive Menopause Skin â€”",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -1854,7 +1854,7 @@ export const individualConditions = [
         },
         {
           title: "Restore",
-          subtitle: "(Strengthening the Dermis — If Needed)",
+          subtitle: "(Strengthening the Dermis â€” If Needed)",
           description: "For advanced dryness with thinning:",
           image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -1873,20 +1873,20 @@ export const individualConditions = [
             { name: "NAD+ IV", desc: "Improves cellular hydration and resilience." },
             { name: "Glutathione IV", desc: "Reduces inflammation and brightens dullness." },
             { name: "Vitamin D IM", desc: "Supports skin integrity; deficiency worsens dryness." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware nutrient complex for dryness." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware nutrient complex for dryness." },
             { name: "Hydration IV", desc: "Immediate hydration boost for skin and body." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Dryness & Sensitivity Transformation",
       steps: [
-        { time: "Weeks 1–2", treatment: "Enzyme facial + PN" },
-        { time: "Weeks 3–4", treatment: "Oxygen facial + LED" },
+        { time: "Weeks 1â€“2", treatment: "Enzyme facial + PN" },
+        { time: "Weeks 3â€“4", treatment: "Oxygen facial + LED" },
         { time: "Week 5", treatment: "Skin Booster (Profhilo / Hydrobooster)" },
-        { time: "Weeks 6–8", treatment: "PN top-up + PRP (optional)" },
-        { time: "Weeks 9–12", treatment: "Light Microneedling or RF (if tolerated) + NAD/Hydration IV" }
+        { time: "Weeks 6â€“8", treatment: "PN top-up + PRP (optional)" },
+        { time: "Weeks 9â€“12", treatment: "Light Microneedling or RF (if tolerated) + NAD/Hydration IV" }
       ]
     },
     whyChoose: {
@@ -1920,29 +1920,29 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Hormonal Breakouts",
-      description: "Midlife acne is inflammatory and hormone-driven — stripping makes it worse. We calm, repair and prevent breakouts with hormone-smart regeneration.",
+      description: "Midlife acne is inflammatory and hormone-driven â€” stripping makes it worse. We calm, repair and prevent breakouts with hormone-smart regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
     },
     science_removed: {
-      title: "Why Hormonal Breakouts Happen —",
+      title: "Why Hormonal Breakouts Happen â€”",
       highlight: "Perimenopause & Menopause",
       description: "Fluctuating hormones and slower repair drive midlife acne:",
       items: [
         { number: '01', title: 'Progesterone Drops, Estrogen Fluctuates', description: 'Inflammation and cystic congestion increase.' },
         { number: '02', title: 'Testosterone Impact Increases', description: 'Jawline and chin breakouts become common.' },
         { number: '03', title: 'Higher Cortisol', description: 'Stress triggers flare-ups and inflammation.' },
-        { number: '04', title: 'Slower Cell Turnover', description: 'Dead skin builds up → blocked pores and long healing.' },
+        { number: '04', title: 'Slower Cell Turnover', description: 'Dead skin builds up â†’ blocked pores and long healing.' },
         { number: '05', title: 'Weaker Barrier', description: 'Irritation and inflammation worsen.' },
         { number: '06', title: 'Insulin Resistance', description: 'Common 40+; triggers jawline acne.' },
         { number: '07', title: 'Microbiome Disruption', description: 'Oiliness and dryness cycle, increasing congestion.' }
       ],
-      footer: "Hormonal acne needs regenerative, anti-inflammatory care — not harsh stripping."
+      footer: "Hormonal acne needs regenerative, anti-inflammatory care â€” not harsh stripping."
     },
     treatmentModel: {
-      title: "How ULANDA Resets Hormonal Breakouts —",
+      title: "How ULANDA Resets Hormonal Breakouts â€”",
       highlight: "Regenerate, Calm, Prevent",
       items: [
         {
@@ -1992,20 +1992,20 @@ export const individualConditions = [
             { name: "NAD+ IV", desc: "Reduces inflammation and improves healing." },
             { name: "Glutathione IV", desc: "Brightens PIH and reduces oxidative stress." },
             { name: "B12 IM", desc: "Supports turnover in acne-safe dosing." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware metabolic and inflammatory support." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware metabolic and inflammatory support." },
             { name: "Medical Weight Management", desc: "Improves insulin resistance linked to breakouts." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Hormonal Breakout Reset",
       steps: [
-        { time: "Weeks 1–2", treatment: "BioRePeel + LED + Enzyme Therapy" },
-        { time: "Weeks 3–4", treatment: "PN treatment + Oxygen Facial" },
-        { time: "Weeks 5–6", treatment: "Microneedling (once inflammation calms)" },
-        { time: "Weeks 7–8", treatment: "Skin Booster + PRP for scarring" },
-        { time: "Weeks 9–12", treatment: "RF Microneedling (if needed) + NAD/Glutathione IV" }
+        { time: "Weeks 1â€“2", treatment: "BioRePeel + LED + Enzyme Therapy" },
+        { time: "Weeks 3â€“4", treatment: "PN treatment + Oxygen Facial" },
+        { time: "Weeks 5â€“6", treatment: "Microneedling (once inflammation calms)" },
+        { time: "Weeks 7â€“8", treatment: "Skin Booster + PRP for scarring" },
+        { time: "Weeks 9â€“12", treatment: "RF Microneedling (if needed) + NAD/Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -2039,14 +2039,14 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Hormonal Pigmentation",
-      description: "Hormone-driven pigmentation needs calm, regenerative brightening — not lasers or harsh bleaching. We repair melanocyte balance safely.",
+      description: "Hormone-driven pigmentation needs calm, regenerative brightening â€” not lasers or harsh bleaching. We repair melanocyte balance safely.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1575779977884-f1069c45cbf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1575779977884-f1069c45cbf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "Why Hormonal Pigmentation Appears —",
+    science_removed: {
+      title: "Why Hormonal Pigmentation Appears â€”",
       highlight: "Perimenopause & Menopause",
       description: "Hormone shifts overstimulate melanocytes and increase inflammation:",
       items: [
@@ -2057,11 +2057,11 @@ export const individualConditions = [
         { number: '05', title: 'Heat + Stress', description: 'Hot yoga, saunas and stress trigger melanin production.' },
         { number: '06', title: 'Post-Inflammatory Pigment', description: 'Breakouts and slow healing leave long-lasting marks.' }
       ],
-      footer: "Lasers and heat can worsen hormonal pigment — we use pigment-safe regeneration instead."
+      footer: "Lasers and heat can worsen hormonal pigment â€” we use pigment-safe regeneration instead."
     },
     treatmentModel: {
-      title: "How ULANDA Reverses Hormonal Pigmentation —",
-      highlight: "Regenerate • Calm • Strengthen • Brighten",
+      title: "How ULANDA Reverses Hormonal Pigmentation â€”",
+      highlight: "Regenerate â€¢ Calm â€¢ Strengthen â€¢ Brighten",
       items: [
         {
           title: "Refresh",
@@ -2092,7 +2092,7 @@ export const individualConditions = [
         },
         {
           title: "Restore",
-          subtitle: "(Structural Strength — Optional)",
+          subtitle: "(Structural Strength â€” Optional)",
           description: "Helps pigment appear lighter by improving density:",
           image: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5938358/pexels-photo-5938358.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -2111,20 +2111,20 @@ export const individualConditions = [
             { name: "Glutathione IV", desc: "Brightens and reduces melanin production." },
             { name: "NAD+ IV", desc: "Repairs cellular pathways and reduces inflammation." },
             { name: "Vitamin D IM", desc: "Essential for melanocyte regulation." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware pigment support." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware pigment support." },
             { name: "Medical Weight Management", desc: "Improves insulin resistance that triggers pigment." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Hormonal Pigment Reset",
       steps: [
-        { time: "Weeks 1–2", treatment: "BioRePeel + LED + Enzyme Therapy" },
-        { time: "Weeks 3–4", treatment: "Polynucleotides (PN)" },
-        { time: "Weeks 5–6", treatment: "Pigment-safe microneedling + Vitamin C Infusion" },
-        { time: "Weeks 7–8", treatment: "Skin Booster (Profhilo / Hydrobooster)" },
-        { time: "Weeks 9–12", treatment: "PN top-up + Glutathione IV + NAD IV" }
+        { time: "Weeks 1â€“2", treatment: "BioRePeel + LED + Enzyme Therapy" },
+        { time: "Weeks 3â€“4", treatment: "Polynucleotides (PN)" },
+        { time: "Weeks 5â€“6", treatment: "Pigment-safe microneedling + Vitamin C Infusion" },
+        { time: "Weeks 7â€“8", treatment: "Skin Booster (Profhilo / Hydrobooster)" },
+        { time: "Weeks 9â€“12", treatment: "PN top-up + Glutathione IV + NAD IV" }
       ]
     },
     whyChoose: {
@@ -2158,14 +2158,14 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Loss of Facial Definition",
-      description: "Menopause-driven contour loss is structural — collagen, ligaments and fat pads weaken. We lift and rebuild definition without heaviness.",
+      description: "Menopause-driven contour loss is structural â€” collagen, ligaments and fat pads weaken. We lift and rebuild definition without heaviness.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1682965699603-81ccb5965576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1682965699603-81ccb5965576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMHNraW58ZW58MHwxfDB8fHww"
     },
-    science: {
-      title: "Why Facial Definition Declines After 35–40 —",
+    science_removed: {
+      title: "Why Facial Definition Declines After 35â€“40 â€”",
       highlight: "Root Causes",
       description: "Hormone shifts change skin, ligaments, fat pads and bone:",
       items: [
@@ -2177,11 +2177,11 @@ export const individualConditions = [
         { number: '06', title: 'Inflammation & Stress', description: 'Puffiness and heaviness increase.' },
         { number: '07', title: 'Muscle Overactivity', description: 'Downward pull worsens sagging when support is low.' }
       ],
-      footer: "Definition loss needs regeneration and lift — not heavy filler that creates puffiness."
+      footer: "Definition loss needs regeneration and lift â€” not heavy filler that creates puffiness."
     },
     treatmentModel: {
-      title: "How ULANDA Restores Definition —",
-      highlight: "Lift • Strengthen • Regenerate • Restore",
+      title: "How ULANDA Restores Definition â€”",
+      highlight: "Lift â€¢ Strengthen â€¢ Regenerate â€¢ Restore",
       items: [
         {
           title: "Renew",
@@ -2229,20 +2229,20 @@ export const individualConditions = [
           points: [
             { name: "NAD+ IV", desc: "Improves cellular energy and reduces inflammation." },
             { name: "Glutathione IV", desc: "Reduces puffiness and brightens." },
-            { name: "Women’s Longevity IV", desc: "Hormone-supportive nutrients to reduce heaviness." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-supportive nutrients to reduce heaviness." },
             { name: "Medical Weight Management", desc: "Improves insulin resistance that drives facial puffiness." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Facial Definition Restoration",
       steps: [
-        { time: "Weeks 1–2", treatment: "PN + RF Microneedling" },
-        { time: "Weeks 3–4", treatment: "Thread Lift (midface + jawline)" },
-        { time: "Weeks 5–6", treatment: "Biostimulator (PLLA / CaHA)" },
-        { time: "Weeks 7–8", treatment: "Targeted volume rebalancing (if needed)" },
-        { time: "Weeks 9–12", treatment: "Skin Booster + NAD IV + Glutathione IV" }
+        { time: "Weeks 1â€“2", treatment: "PN + RF Microneedling" },
+        { time: "Weeks 3â€“4", treatment: "Thread Lift (midface + jawline)" },
+        { time: "Weeks 5â€“6", treatment: "Biostimulator (PLLA / CaHA)" },
+        { time: "Weeks 7â€“8", treatment: "Targeted volume rebalancing (if needed)" },
+        { time: "Weeks 9â€“12", treatment: "Skin Booster + NAD IV + Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -2276,29 +2276,29 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Menopause Jawline Softening / Jowls",
-      description: "Jawline softening is a structural, hormone-driven change — not a volume problem. We lift jawlines naturally with regeneration, not heavy filler.",
+      description: "Jawline softening is a structural, hormone-driven change â€” not a volume problem. We lift jawlines naturally with regeneration, not heavy filler.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://media.istockphoto.com/id/1317818764/photo/close-up-portrait-of-mature-blonde-woman-in-white-underwear-looking-away-posing-isolated-over.jpg?s=612x612&w=0&k=20&c=IvprcjEhcGmiLNUgTgPv2pIJBhUTJTOL-cfdU3tNYkE=",
       // placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
-      title: "Why the Jawline Softens in Menopause —",
+    science_removed: {
+      title: "Why the Jawline Softens in Menopause â€”",
       highlight: "Structural Drivers",
       description: "Menopause accelerates jawline ageing via collagen, ligament and bone changes:",
       items: [
-        { number: '01', title: 'Collagen Drops', description: 'Up to 30% loss in first 5 years → thinner, looser skin.' },
+        { number: '01', title: 'Collagen Drops', description: 'Up to 30% loss in first 5 years â†’ thinner, looser skin.' },
         { number: '02', title: 'Ligament Weakening', description: 'Anchors loosen and jowls appear.' },
         { number: '03', title: 'Midface Fat Pad Descent', description: 'Volume drops downward, creating lower-face heaviness.' },
         { number: '04', title: 'Bone Resorption', description: 'Jaw and chin foundation weakens.' },
         { number: '05', title: 'Skin Hydration Collapse', description: 'Dry, thin skin worsens folds.' },
         { number: '06', title: 'Inflammation & Fluid Retention', description: 'Cortisol and hormone shifts increase puffiness.' }
       ],
-      footer: "Jawline sagging is structural — filler-in-the-jowl worsens heaviness."
+      footer: "Jawline sagging is structural â€” filler-in-the-jowl worsens heaviness."
     },
     treatmentModel: {
-      title: "The ULANDA Jawline Regeneration Model —",
-      highlight: "Renew • Restore • Radiate",
+      title: "The ULANDA Jawline Regeneration Model â€”",
+      highlight: "Renew â€¢ Restore â€¢ Radiate",
       items: [
         {
           title: "Renew",
@@ -2332,7 +2332,7 @@ export const individualConditions = [
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
             { name: "NAD+ IV", desc: "Improves cellular energy and collagen." },
-            { name: "Women’s Longevity IV", desc: "Hormone-supportive nutrients for lower face." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-supportive nutrients for lower face." },
             { name: "Glutathione IV", desc: "Reduces inflammation and puffiness." },
             { name: "Vitamin D & B12 IM", desc: "Essential for skin repair and circulation." },
             { name: "Medical Weight Management", desc: "Balances insulin and inflammation affecting jawline." }
@@ -2340,14 +2340,14 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Jawline Regeneration Protocol",
       steps: [
-        { time: "Weeks 1–2", treatment: "PN + RF Microneedling" },
+        { time: "Weeks 1â€“2", treatment: "PN + RF Microneedling" },
         { time: "Week 3", treatment: "Thread Lift (Definisse or PDO)" },
-        { time: "Weeks 4–7", treatment: "PN top-up + PRP (optional)" },
+        { time: "Weeks 4â€“7", treatment: "PN top-up + PRP (optional)" },
         { time: "Week 8", treatment: "Biostimulator (PLLA or CaHA)" },
-        { time: "Weeks 9–12", treatment: "Skin Booster + NAD/Glutathione IV" }
+        { time: "Weeks 9â€“12", treatment: "Skin Booster + NAD/Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -2387,8 +2387,8 @@ export const individualConditions = [
       image: "https://plus.unsplash.com/premium_photo-1671718111719-52897ffd6f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1671718111719-52897ffd6f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "Why the Neck Ages Fast in Menopause —",
+    science_removed: {
+      title: "Why the Neck Ages Fast in Menopause â€”",
       highlight: "Key Factors",
       description: "The neck has fewer collagen-producing cells and is highly hormone-sensitive:",
       items: [
@@ -2400,11 +2400,11 @@ export const individualConditions = [
         { number: '06', title: 'Loss of Subcutaneous Fat', description: 'Neck looks thin, deflated and crepey.' },
         { number: '07', title: 'Sun Damage Accumulates Faster', description: 'Decades of exposure show quickly on the neck.' }
       ],
-      footer: "The neck needs regeneration and collagen rebuilding — not filler-heavy approaches."
+      footer: "The neck needs regeneration and collagen rebuilding â€” not filler-heavy approaches."
     },
     treatmentModel: {
-      title: "ULANDA Neck Regeneration Model —",
-      highlight: "Renew • Restore • Radiate",
+      title: "ULANDA Neck Regeneration Model â€”",
+      highlight: "Renew â€¢ Restore â€¢ Radiate",
       items: [
         {
           title: "Renew",
@@ -2413,7 +2413,7 @@ export const individualConditions = [
           image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Polynucleotides (PN — Plenhyage / Nucleofill)", desc: "Thicken dermis, improve elasticity and hydration." },
+            { name: "Polynucleotides (PN â€” Plenhyage / Nucleofill)", desc: "Thicken dermis, improve elasticity and hydration." },
             { name: "Microneedling / RF Microneedling", desc: "Tightens loose skin and reduces neck rings." },
             { name: "PRP", desc: "Stimulates collagen and improves fragile skin." },
             { name: "Skin Boosters (Profhilo / Hydrobooster)", desc: "Hydration and elasticity for glow + tightening." }
@@ -2428,7 +2428,7 @@ export const individualConditions = [
           points: [
             { name: "Biostimulators (PLLA / CaHA)", desc: "Deep collagen rebuild for sagging and deep lines." },
             { name: "Thread Lifts (PDO / Definisse)", desc: "Lifts lower-face heaviness and tightens neck vectors." },
-            { name: "Subtle Midface Rebalancing", desc: "Supports jaw–neck transition when midface descent worsens laxity." }
+            { name: "Subtle Midface Rebalancing", desc: "Supports jawâ€“neck transition when midface descent worsens laxity." }
           ]
         },
         {
@@ -2440,19 +2440,19 @@ export const individualConditions = [
           points: [
             { name: "NAD+ IV", desc: "Improves cellular repair and resilience." },
             { name: "Glutathione IV", desc: "Targets crepey texture caused by oxidative stress." },
-            { name: "Women’s Longevity IV", desc: "Hormone-smart nutrients for long-term skin health." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-smart nutrients for long-term skin health." },
             { name: "Vitamin D IM", desc: "Essential for collagen repair pathways." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Menopause Neck Regeneration Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "Polynucleotides (PN) + RF Microneedling" },
-        { time: "Weeks 3–4", treatment: "Skin Booster (Profhilo or Hydrobooster)" },
-        { time: "Weeks 5–8", treatment: "Biostimulator for deep tightening" },
-        { time: "Weeks 9–12", treatment: "Threads (optional) + NAD/Glutathione IV" }
+        { time: "Weeks 1â€“2", treatment: "Polynucleotides (PN) + RF Microneedling" },
+        { time: "Weeks 3â€“4", treatment: "Skin Booster (Profhilo or Hydrobooster)" },
+        { time: "Weeks 5â€“8", treatment: "Biostimulator for deep tightening" },
+        { time: "Weeks 9â€“12", treatment: "Threads (optional) + NAD/Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -2486,31 +2486,31 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Menopause Skin Decline",
-      description: "Menopause triggers the most dramatic skin shift of a woman’s life. ULANDA rebuilds collagen, hydration, barrier strength and contour through regeneration.",
+      description: "Menopause triggers the most dramatic skin shift of a womanâ€™s life. ULANDA rebuilds collagen, hydration, barrier strength and contour through regeneration.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1659531412263-bf2b9e1abf6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2tpbiUyMGRlY2xpbmV8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://images.unsplash.com/photo-1659531412263-bf2b9e1abf6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2tpbiUyMGRlY2xpbmV8ZW58MHwxfDB8fHww"
     },
-    science: {
-      title: "Understanding Menopause Skin Decline —",
+    science_removed: {
+      title: "Understanding Menopause Skin Decline â€”",
       highlight: "What Changes",
       description: "Hormone-driven structural decline affects every layer:",
       items: [
         { number: '01', title: '30% Collagen Loss (First 5 Years)', description: 'Skin thins, weakens and sags.' },
         { number: '02', title: 'Elastin Declines', description: 'Crepiness, fine lines and loose skin increase.' },
-        { number: '03', title: 'Hyaluronic Acid Production Falls', description: 'Hydration collapses → dryness and dullness.' },
+        { number: '03', title: 'Hyaluronic Acid Production Falls', description: 'Hydration collapses â†’ dryness and dullness.' },
         { number: '04', title: 'Fat Pads Shift & Volume Is Lost', description: 'Cheeks flatten; hollows and sagging appear.' },
         { number: '05', title: 'Skin Barrier Weakens', description: 'Sensitivity, redness and inflammation rise.' },
         { number: '06', title: 'Pigmentation Reactivity Rises', description: 'Melasma and sun damage worsen.' },
         { number: '07', title: 'Wound Healing Slows', description: 'Skin repairs more slowly; scarring risk increases.' },
         { number: '08', title: 'Sleep, Stress & Inflammation Increase', description: 'All accelerate visible ageing.' }
       ],
-      footer: "Menopause skin decline is structural + hormonal + cellular — it needs multi-layer regeneration."
+      footer: "Menopause skin decline is structural + hormonal + cellular â€” it needs multi-layer regeneration."
     },
     treatmentModel: {
-      title: "ULANDA Menopause Regeneration Model —",
-      highlight: "Rebuild • Restore • Hydrate • Harmonise",
+      title: "ULANDA Menopause Regeneration Model â€”",
+      highlight: "Rebuild â€¢ Restore â€¢ Hydrate â€¢ Harmonise",
       items: [
         {
           title: "Refresh",
@@ -2557,7 +2557,7 @@ export const individualConditions = [
           description: "Longevity and hormonal support amplify external results:",
           image: "/assets/img/conditions/menopause-skin-decline-hero.webp",
           points: [
-            { name: "Women’s Longevity IV", desc: "Hormone-supportive vitamins and antioxidants." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-supportive vitamins and antioxidants." },
             { name: "NAD+ IV", desc: "Enhances cellular repair and energy." },
             { name: "Glutathione IV", desc: "Brightens pigmentation and reduces oxidative stress." },
             { name: "Vitamin D & B12 IM", desc: "Essential metabolism and repair nutrients." },
@@ -2566,13 +2566,13 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Menopause Regeneration Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "BioRePeel + PN" },
-        { time: "Weeks 3–6", treatment: "RF Microneedling + PN" },
-        { time: "Weeks 7–10", treatment: "Biostimulator (PLLA or CaHA)" },
-        { time: "Weeks 10–12", treatment: "Profhilo / Hydrobooster + NAD/Glutathione IV" }
+        { time: "Weeks 1â€“2", treatment: "BioRePeel + PN" },
+        { time: "Weeks 3â€“6", treatment: "RF Microneedling + PN" },
+        { time: "Weeks 7â€“10", treatment: "Biostimulator (PLLA or CaHA)" },
+        { time: "Weeks 10â€“12", treatment: "Profhilo / Hydrobooster + NAD/Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -2605,19 +2605,19 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Menopause Skin Texture Decline",
-      description: "Rough, uneven, crepey texture in menopause needs stacked regeneration — collagen renewal, hydration rebuilding and dermal strengthening.",
+      description: "Rough, uneven, crepey texture in menopause needs stacked regeneration â€” collagen renewal, hydration rebuilding and dermal strengthening.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1615997380705-504484cd99c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "Why Texture Declines in Menopause —",
+    science_removed: {
+      title: "Why Texture Declines in Menopause â€”",
       highlight: "Key Changes",
       description: "Hormone shifts slow turnover and weaken the dermis:",
       items: [
         { number: '01', title: '30% Collagen Loss (First 5 Years)', description: 'Creates thin, fragile, uneven skin.' },
-        { number: '02', title: 'Elastin Decline', description: 'Bounce is lost → crepiness and fine lines.' },
-        { number: '03', title: 'Slower Cell Turnover', description: 'Dead skin accumulates → rough texture and dullness.' },
+        { number: '02', title: 'Elastin Decline', description: 'Bounce is lost â†’ crepiness and fine lines.' },
+        { number: '03', title: 'Slower Cell Turnover', description: 'Dead skin accumulates â†’ rough texture and dullness.' },
         { number: '04', title: 'Reduced Hydration', description: 'Lower HA causes dryness and uneven surface.' },
         { number: '05', title: 'Dermal Thinning', description: 'Fine lines become pronounced; pores look larger.' },
         { number: '06', title: 'Barrier Weakening', description: 'Sensitivity and patchiness rise.' },
@@ -2626,8 +2626,8 @@ export const individualConditions = [
       footer: "Texture repair needs surface smoothing plus deep collagen and hydration rebuilding."
     },
     treatmentModel: {
-      title: "How ULANDA Rebuilds Menopause Texture —",
-      highlight: "Refresh • Renew • Restore • Radiate",
+      title: "How ULANDA Rebuilds Menopause Texture â€”",
+      highlight: "Refresh â€¢ Renew â€¢ Restore â€¢ Radiate",
       items: [
         {
           title: "Refresh",
@@ -2636,7 +2636,7 @@ export const individualConditions = [
           image: "/assets/img/conditions/texture-decline-hero.webp",
           points: [
             { name: "BioRePeel", desc: "Removes buildup and brightens." },
-            { name: "Chemical Peels (Mild–Medium)", desc: "Smooth superficial texture safely." },
+            { name: "Chemical Peels (Mildâ€“Medium)", desc: "Smooth superficial texture safely." },
             { name: "Enzyme Therapy", desc: "Gentle resurfacing for sensitive skin." },
             { name: "Vital Glow Facials", desc: "Hydrates and oxygenates for softness." }
           ]
@@ -2673,19 +2673,19 @@ export const individualConditions = [
             { name: "NAD+ IV", desc: "Improves cellular turnover and smoothness." },
             { name: "Glutathione IV", desc: "Brightens and reduces oxidative roughness." },
             { name: "Vitamin D IM", desc: "Critical for healthy skin metabolism." },
-            { name: "Women’s Longevity IV", desc: "Targets hormonal, inflammatory and metabolic pathways." }
+            { name: "Womenâ€™s Longevity IV", desc: "Targets hormonal, inflammatory and metabolic pathways." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Menopause Texture Regeneration",
       steps: [
-        { time: "Weeks 1–2", treatment: "BioRePeel + PN" },
-        { time: "Weeks 3–4", treatment: "Microneedling or RF Microneedling" },
+        { time: "Weeks 1â€“2", treatment: "BioRePeel + PN" },
+        { time: "Weeks 3â€“4", treatment: "Microneedling or RF Microneedling" },
         { time: "Week 5", treatment: "Skin Booster (Hydrobooster or Profhilo)" },
-        { time: "Weeks 6–8", treatment: "PN top-up + PRP" },
-        { time: "Weeks 9–12", treatment: "Biostimulator (if laxity) + NAD/Glutathione IV" }
+        { time: "Weeks 6â€“8", treatment: "PN top-up + PRP" },
+        { time: "Weeks 9â€“12", treatment: "Biostimulator (if laxity) + NAD/Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -2718,27 +2718,27 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Hyperpigmentation",
-      description: "Sun damage, age spots and uneven brown patches need calm, regenerative correction — not aggressive bleaching. We fade pigment safely and prevent recurrence.",
+      description: "Sun damage, age spots and uneven brown patches need calm, regenerative correction â€” not aggressive bleaching. We fade pigment safely and prevent recurrence.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1737978697863-5d65495b28ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2tpbiUyMHF1YWxpdHl8ZW58MHwxfDB8fHww"
     },
-    science: {
-      title: "What Hyperpigmentation Really Is —",
+    science_removed: {
+      title: "What Hyperpigmentation Really Is â€”",
       highlight: "Drivers",
       description: "Melanocytes overproduce melanin when triggered by UV, hormones and inflammation:",
       items: [
-        { number: '01', title: 'UV Exposure', description: 'Main cause — damage accumulates over decades.' },
+        { number: '01', title: 'UV Exposure', description: 'Main cause â€” damage accumulates over decades.' },
         { number: '02', title: 'Hormonal Changes', description: 'Perimenopause and menopause increase melanocyte sensitivity.' },
         { number: '03', title: 'Inflammation / PIH', description: 'Breakouts, harsh treatments or over-exfoliation create dark marks.' },
         { number: '04', title: 'Ageing Cell Slowdown', description: 'Slower turnover lets pigment linger.' },
         { number: '05', title: 'Heat & Environmental Triggers', description: 'Heat and stress flare melanin production.' }
       ],
-      footer: "Pigment needs layered regeneration — not just bleaching creams."
+      footer: "Pigment needs layered regeneration â€” not just bleaching creams."
     },
     treatmentModel: {
-      title: "How ULANDA Clears Hyperpigmentation —",
-      highlight: "Refresh • Renew • Restore • Radiate",
+      title: "How ULANDA Clears Hyperpigmentation â€”",
+      highlight: "Refresh â€¢ Renew â€¢ Restore â€¢ Radiate",
       items: [
         {
           title: "Refresh",
@@ -2783,18 +2783,18 @@ export const individualConditions = [
             { name: "Glutathione IV", desc: "Antioxidant brightening and melanin regulation." },
             { name: "NAD+ IV", desc: "Cellular repair + inflammation reduction." },
             { name: "Vitamin C IV", desc: "Collagen support and oxidative control." },
-            { name: "Women’s Longevity IV", desc: "Hormone-aware pigment stability." }
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-aware pigment stability." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA Pigmentation Pathway (12 Weeks)",
       steps: [
         { time: "Week 1", treatment: "BioRePeel" },
-        { time: "Weeks 2–4", treatment: "Microneedling or RF Microneedling" },
-        { time: "Weeks 5–6", treatment: "PN or Skin Booster" },
-        { time: "Weeks 7–12", treatment: "Alternating peels + NAD/Glutathione infusions" }
+        { time: "Weeks 2â€“4", treatment: "Microneedling or RF Microneedling" },
+        { time: "Weeks 5â€“6", treatment: "PN or Skin Booster" },
+        { time: "Weeks 7â€“12", treatment: "Alternating peels + NAD/Glutathione infusions" }
       ]
     },
     whyChoose: {
@@ -2831,8 +2831,8 @@ export const individualConditions = [
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1664203068076-c95b2d3054a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "What Makes Melasma Different —",
+    science_removed: {
+      title: "What Makes Melasma Different â€”",
       highlight: "Root Factors",
       description: "Melasma combines melanocyte hyperactivity, barrier damage, vascular input and hormonal sensitivity:",
       items: [
@@ -2842,11 +2842,11 @@ export const individualConditions = [
         { number: '04', title: 'Hormonal Sensitivity', description: 'Estrogen/progesterone shifts (peri/menopause, pregnancy).' },
         { number: '05', title: 'Deep Dermal Pigment', description: 'Patches often sit deeper than standard pigmentation.' }
       ],
-      footer: "Melasma cannot be peeled or lasered aggressively — it must be calmed and repaired."
+      footer: "Melasma cannot be peeled or lasered aggressively â€” it must be calmed and repaired."
     },
     treatmentModel: {
-      title: "ULANDA Melasma Strategy —",
-      highlight: "Calm • Repair • Regenerate",
+      title: "ULANDA Melasma Strategy â€”",
+      highlight: "Calm â€¢ Repair â€¢ Regenerate",
       items: [
         {
           title: "Refresh",
@@ -2891,18 +2891,18 @@ export const individualConditions = [
             { name: "Glutathione IV", desc: "Antioxidant brightener and melanin regulator." },
             { name: "NAD+ IV", desc: "Repairs cell health and reduces inflammation." },
             { name: "Vitamin C IV", desc: "Supports collagen and pigment stability." },
-            { name: "Women’s Longevity IV", desc: "Ideal for peri/menopause melasma drivers." }
+            { name: "Womenâ€™s Longevity IV", desc: "Ideal for peri/menopause melasma drivers." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Melasma Reset",
       steps: [
-        { time: "Weeks 1–2", treatment: "Enzyme therapy + BioRePeel (gentle)" },
-        { time: "Weeks 3–6", treatment: "Microneedling + PN" },
-        { time: "Weeks 6–10", treatment: "Skin boosters + low-heat RF Microneedling" },
-        { time: "Weeks 10–12", treatment: "Glutathione IV + PN maintenance" }
+        { time: "Weeks 1â€“2", treatment: "Enzyme therapy + BioRePeel (gentle)" },
+        { time: "Weeks 3â€“6", treatment: "Microneedling + PN" },
+        { time: "Weeks 6â€“10", treatment: "Skin boosters + low-heat RF Microneedling" },
+        { time: "Weeks 10â€“12", treatment: "Glutathione IV + PN maintenance" }
       ]
     },
     whyChoose: {
@@ -2934,14 +2934,14 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Post-Inflammatory Hyperpigmentation (PIH)",
-      description: "PIH follows acne, irritation or trauma. We calm, repair and brighten without triggering further darkening — safe for all tones.",
+      description: "PIH follows acne, irritation or trauma. We calm, repair and brighten without triggering further darkening â€” safe for all tones.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1664203068366-f3387be92fb9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "Why PIH Appears —",
-      highlight: "Inflammation → Pigment",
+    science_removed: {
+      title: "Why PIH Appears â€”",
+      highlight: "Inflammation â†’ Pigment",
       description: "Inflammation triggers melanocytes to release excess pigment after breakouts, irritation or heat:",
       items: [
         { number: '01', title: 'Acne / Breakouts', description: 'Most common PIH trigger.' },
@@ -2951,11 +2951,11 @@ export const individualConditions = [
         { number: '05', title: 'Eczema / Dermatitis', description: 'Inflammation leaves lingering marks.' },
         { number: '06', title: 'Ingrown Hairs / Waxing', description: 'Common PIH triggers on face and body.' }
       ],
-      footer: "PIH needs calming and regeneration — harsh acids often make it worse."
+      footer: "PIH needs calming and regeneration â€” harsh acids often make it worse."
     },
     treatmentModel: {
-      title: "How ULANDA Heals PIH —",
-      highlight: "Calm • Resurface • Regenerate",
+      title: "How ULANDA Heals PIH â€”",
+      highlight: "Calm â€¢ Resurface â€¢ Regenerate",
       items: [
         {
           title: "Refresh",
@@ -3005,13 +3005,13 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
-      title: "ULANDA PIH Healing Plan (8–12 Weeks)",
+    pathway_removed: {
+      title: "ULANDA PIH Healing Plan (8â€“12 Weeks)",
       steps: [
-        { time: "Weeks 1–2", treatment: "Enzyme therapy or BioRePeel" },
-        { time: "Weeks 3–6", treatment: "Microneedling + PN" },
-        { time: "Weeks 6–10", treatment: "Skin boosters + RF microneedling (if scarring)" },
-        { time: "Weeks 10–12", treatment: "Glutathione IV + PN maintenance" }
+        { time: "Weeks 1â€“2", treatment: "Enzyme therapy or BioRePeel" },
+        { time: "Weeks 3â€“6", treatment: "Microneedling + PN" },
+        { time: "Weeks 6â€“10", treatment: "Skin boosters + RF microneedling (if scarring)" },
+        { time: "Weeks 10â€“12", treatment: "Glutathione IV + PN maintenance" }
       ]
     },
     whyChoose: {
@@ -3043,13 +3043,13 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Uneven Skin Tone / Discolouration",
-      description: "Patchy, dull, uneven tone needs calm regeneration — strengthening barrier, boosting turnover and hydrating deeply for natural clarity.",
+      description: "Patchy, dull, uneven tone needs calm regeneration â€” strengthening barrier, boosting turnover and hydrating deeply for natural clarity.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1609542499975-4ca8bde933db?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
-    science: {
-      title: "Why Tone Becomes Uneven —",
+    science_removed: {
+      title: "Why Tone Becomes Uneven â€”",
       highlight: "Multi-Factor Causes",
       description: "UV, hormones, PIH, barrier damage and slow turnover all create patchy tone:",
       items: [
@@ -3057,15 +3057,15 @@ export const individualConditions = [
         { number: '02', title: 'Hormonal Fluctuations', description: 'Peri/menopause increases melanocyte reactivity.' },
         { number: '03', title: 'Post-Inflammatory Pigmentation', description: 'Marks left from acne or irritation.' },
         { number: '04', title: 'Skin Barrier Damage', description: 'Reactivity and blotchiness increase.' },
-        { number: '05', title: 'Ageing & Slow Turnover', description: 'Old cells accumulate → dull, uneven surface.' },
+        { number: '05', title: 'Ageing & Slow Turnover', description: 'Old cells accumulate â†’ dull, uneven surface.' },
         { number: '06', title: 'Dehydration', description: 'Flat, patchy appearance from low hydration.' },
         { number: '07', title: 'Texture Irregularities', description: 'Shadows from roughness make tone look uneven.' }
       ],
-      footer: "Even tone needs anti-inflammatory, collagen-supportive regeneration — not harsh lightening."
+      footer: "Even tone needs anti-inflammatory, collagen-supportive regeneration â€” not harsh lightening."
     },
     treatmentModel: {
-      title: "ULANDA Tone-Correction Model —",
-      highlight: "Refresh • Renew • Restore • Radiate",
+      title: "ULANDA Tone-Correction Model â€”",
+      highlight: "Refresh â€¢ Renew â€¢ Restore â€¢ Radiate",
       items: [
         {
           title: "Refresh",
@@ -3080,7 +3080,7 @@ export const individualConditions = [
         },
         {
           title: "Renew",
-          subtitle: "(Cellular Regeneration — Core Repair)",
+          subtitle: "(Cellular Regeneration â€” Core Repair)",
           description: "Strengthens barrier and brightens from within:",
           image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
           points: [
@@ -3110,18 +3110,18 @@ export const individualConditions = [
             { name: "Glutathione IV", desc: "Antioxidant brightening and pigment reduction." },
             { name: "NAD+ IV", desc: "Cellular repair and inflammation control." },
             { name: "Vitamin C IV", desc: "Collagen support and clarity." },
-            { name: "Women’s Longevity IV", desc: "Supports peri/menopause-related tone issues." }
+            { name: "Womenâ€™s Longevity IV", desc: "Supports peri/menopause-related tone issues." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Tone Transformation",
       steps: [
-        { time: "Weeks 1–2", treatment: "BioRePeel + Enzyme therapy" },
-        { time: "Weeks 3–6", treatment: "Microneedling + PN" },
-        { time: "Weeks 6–10", treatment: "Skin booster (Profhilo or Hydrobooster)" },
-        { time: "Weeks 10–12", treatment: "RF Microneedling + Glutathione IV" }
+        { time: "Weeks 1â€“2", treatment: "BioRePeel + Enzyme therapy" },
+        { time: "Weeks 3â€“6", treatment: "Microneedling + PN" },
+        { time: "Weeks 6â€“10", treatment: "Skin booster (Profhilo or Hydrobooster)" },
+        { time: "Weeks 10â€“12", treatment: "RF Microneedling + Glutathione IV" }
       ]
     },
     whyChoose: {
@@ -3153,28 +3153,28 @@ export const individualConditions = [
     hero: {
       title: "Internal Wellness for",
       highlight: "Fatigue / Low Energy",
-      description: "Energy decline after 30–40 is biological — mitochondria slow, hormones fluctuate, nutrients deplete. ULANDA restores cellular energy so skin, mind and body perform again.",
+      description: "Energy decline after 30â€“40 is biological â€” mitochondria slow, hormones fluctuate, nutrients deplete. ULANDA restores cellular energy so skin, mind and body perform again.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1561539207-46fec82a333c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RmF0aWd1ZSUyMCUyNiUyMExvdyUyMEVuZXJneXxlbnwwfDF8MHx8fDA%3D"
     },
-    science: {
-      title: "Why Energy Drops —",
+    science_removed: {
+      title: "Why Energy Drops â€”",
       highlight: "Cellular & Hormonal Drivers",
       description: "Fatigue is multi-factor: mitochondrial slowdown, hormone shifts, micronutrient gaps, stress, sleep disruption.",
       items: [
-        { number: '01', title: 'Mitochondrial Decline', description: 'ATP output falls after 30 → slower metabolism and recovery.' },
-        { number: '02', title: 'Hormonal Fluctuations', description: 'Peri/menopause lowers estrogen/progesterone/thyroid → brain fog, crashes.' },
+        { number: '01', title: 'Mitochondrial Decline', description: 'ATP output falls after 30 â†’ slower metabolism and recovery.' },
+        { number: '02', title: 'Hormonal Fluctuations', description: 'Peri/menopause lowers estrogen/progesterone/thyroid â†’ brain fog, crashes.' },
         { number: '03', title: 'Nutrient Depletion', description: 'Vitamin D, B12, iron, magnesium, folate deficiencies blunt energy.' },
-        { number: '04', title: 'Cortisol Dysregulation', description: 'High = wired-tired; low = exhaustion — both common in midlife.' },
+        { number: '04', title: 'Cortisol Dysregulation', description: 'High = wired-tired; low = exhaustion â€” both common in midlife.' },
         { number: '05', title: 'Poor Sleep Quality', description: 'Night cortisol spikes, hot flushes and palpitations fragment sleep.' },
         { number: '06', title: 'Inflammation & Oxidative Stress', description: 'Chronic stress and illness impair cellular function.' }
       ],
-      footer: "Fatigue is a cellular issue — not solved by generic supplements alone."
+      footer: "Fatigue is a cellular issue â€” not solved by generic supplements alone."
     },
     treatmentModel: {
-      title: "How ULANDA Restores Energy —",
-      highlight: "Radiate • Renew • Refresh • Restore",
+      title: "How ULANDA Restores Energy â€”",
+      highlight: "Radiate â€¢ Renew â€¢ Refresh â€¢ Restore",
       items: [
         {
           title: "Radiate Wellness",
@@ -3186,7 +3186,7 @@ export const individualConditions = [
             { name: "Energy IV", desc: "B-complex, B12, magnesium, amino acids for metabolic lift." },
             { name: "Vitamin B12 IM", desc: "Corrects deficiency; supports nerves and stamina." },
             { name: "Vitamin D IM", desc: "Balances mood, immunity and hormone signalling." },
-            { name: "Women’s Longevity IV", desc: "Hormone-smart for peri/menopause fatigue." }
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone-smart for peri/menopause fatigue." }
           ]
         },
         {
@@ -3223,13 +3223,13 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 8-Week Fatigue Recovery Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "NAD+ IV loading + Vitamin B12 IM; Hydration IV if needed" },
-        { time: "Weeks 3–4", treatment: "Women’s Longevity IV; sleep + stress optimisation" },
-        { time: "Weeks 5–6", treatment: "Under-eye PN/PRP + regenerative facial" },
-        { time: "Weeks 7–8", treatment: "Energy IV + PN/PRP maintenance; optional biostimulators" }
+        { time: "Weeks 1â€“2", treatment: "NAD+ IV loading + Vitamin B12 IM; Hydration IV if needed" },
+        { time: "Weeks 3â€“4", treatment: "Womenâ€™s Longevity IV; sleep + stress optimisation" },
+        { time: "Weeks 5â€“6", treatment: "Under-eye PN/PRP + regenerative facial" },
+        { time: "Weeks 7â€“8", treatment: "Energy IV + PN/PRP maintenance; optional biostimulators" }
       ]
     },
     whyChoose: {
@@ -3268,12 +3268,12 @@ export const individualConditions = [
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://www.drtatiana.co.uk/wp-content/smush-webp/2019/03/low-immunity-548x794.jpg.webp"
     },
-    science: {
-      title: "Why Immunity Drops —",
+    science_removed: {
+      title: "Why Immunity Drops â€”",
       highlight: "Science for Women 35+",
       description: "Mitochondria fuel immune cells; hormones modulate inflammation; nutrients power response. When these fall, illness frequency rises.",
       items: [
-        { number: '01', title: 'Mitochondrial Slowdown', description: 'Weaker cellular energy → slower immune response.' },
+        { number: '01', title: 'Mitochondrial Slowdown', description: 'Weaker cellular energy â†’ slower immune response.' },
         { number: '02', title: 'Chronic Stress', description: 'High cortisol suppresses immunity; low cortisol reduces resilience.' },
         { number: '03', title: 'Nutrient Gaps', description: 'Vitamin D, C, zinc, B12, glutathione often low.' },
         { number: '04', title: 'Hormonal Changes', description: 'Peri/menopause shifts increase infection susceptibility.' },
@@ -3283,8 +3283,8 @@ export const individualConditions = [
       footer: "Immunity must be rebuilt at cellular, hormonal and antioxidant levels."
     },
     treatmentModel: {
-      title: "ULANDA Immunity Model —",
-      highlight: "Radiate • Renew • Refresh • Restore",
+      title: "ULANDA Immunity Model â€”",
+      highlight: "Radiate â€¢ Renew â€¢ Refresh â€¢ Restore",
       items: [
         {
           title: "Radiate Wellness",
@@ -3296,7 +3296,7 @@ export const individualConditions = [
             { name: "Glutathione IV", desc: "Master antioxidant; reduces inflammation and speeds recovery." },
             { name: "Vitamin D IM", desc: "Corrects common deficiency tied to low immunity." },
             { name: "Vitamin B12 IM", desc: "Supports immune cell production and energy." },
-            { name: "Women’s Longevity IV", desc: "Addresses hormone-related immune decline." },
+            { name: "Womenâ€™s Longevity IV", desc: "Addresses hormone-related immune decline." },
             { name: "NAD+ IV", desc: "Mitochondrial repair for stronger defences." }
           ]
         },
@@ -3334,20 +3334,20 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 8-Week Immunity Strengthening",
       steps: [
-        { time: "Weeks 1–2", treatment: "Immunity IV + Vitamin D IM; Glutathione loading" },
-        { time: "Weeks 3–4", treatment: "NAD+ IV + B12 IM for recovery" },
-        { time: "Weeks 5–6", treatment: "PN or PRP for inflammation reduction; LED" },
-        { time: "Weeks 7–8", treatment: "Women’s Longevity IV + regenerative facial" }
+        { time: "Weeks 1â€“2", treatment: "Immunity IV + Vitamin D IM; Glutathione loading" },
+        { time: "Weeks 3â€“4", treatment: "NAD+ IV + B12 IM for recovery" },
+        { time: "Weeks 5â€“6", treatment: "PN or PRP for inflammation reduction; LED" },
+        { time: "Weeks 7â€“8", treatment: "Womenâ€™s Longevity IV + regenerative facial" }
       ]
     },
     whyChoose: {
       title: "Why",
       highlight: "Hertfordshire Women Choose ULANDA",
       items: [
-        "Expertise in women’s midlife immune shifts",
+        "Expertise in womenâ€™s midlife immune shifts",
         "Regenerative-first, not supplement-only",
         "Evidence-based IV therapy via Harley Street partners",
         "Integrated internal + cellular + skin recovery",
@@ -3373,14 +3373,14 @@ export const individualConditions = [
     },
     hero: {
       title: "Internal Wellness for",
-      highlight: "Nutrient Deficiency–Linked Skin Issues",
+      highlight: "Nutrient Deficiencyâ€“Linked Skin Issues",
       description: "Dullness, pigmentation, roughness or hair shedding often trace back to Vitamin D, B12, antioxidant and amino-acid deficits. We correct inside first, then regenerate skin.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1643576493776-296ae3e0ca53?q=80&w=855&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
-    science: {
-      title: "Why Nutrients Drop —",
+    science_removed: {
+      title: "Why Nutrients Drop â€”",
       highlight: "Midlife Biology",
       description: "Hormonal shifts, stress, poor absorption and sleep loss increase demand while reducing uptake, leaving skin under-fuelled.",
       items: [
@@ -3390,11 +3390,11 @@ export const individualConditions = [
         { number: '04', title: 'Dietary Gaps', description: 'Low protein or restrictive plans reduce building blocks.' },
         { number: '05', title: 'Gut Absorption Decline', description: 'B12, iron, folate malabsorption becomes common.' }
       ],
-      footer: "Topicals cannot fix internal deficits — regeneration needs nutrients restored first."
+      footer: "Topicals cannot fix internal deficits â€” regeneration needs nutrients restored first."
     },
     treatmentModel: {
       title: "ULANDA Model for Nutrient-Linked Skin",
-      highlight: "Radiate • Renew • Refresh • Restore",
+      highlight: "Radiate â€¢ Renew â€¢ Refresh â€¢ Restore",
       items: [
         {
           title: "Radiate Wellness",
@@ -3404,10 +3404,10 @@ export const individualConditions = [
           points: [
             { name: "Vitamin D IM", desc: "Supports immunity, barrier integrity and collagen." },
             { name: "Vitamin B12 IM", desc: "DNA repair, energy and under-eye brightness." },
-            { name: "Glutathione IV", desc: "Master antioxidant — brightens, detoxifies inflammation." },
+            { name: "Glutathione IV", desc: "Master antioxidant â€” brightens, detoxifies inflammation." },
             { name: "NAD+ IV", desc: "Cellular repair for slow healing and dullness." },
             { name: "Hydration IV", desc: "Restores electrolytes and deep hydration." },
-            { name: "Women’s Longevity IV", desc: "Targets nutrient + hormone + inflammatory pathways." }
+            { name: "Womenâ€™s Longevity IV", desc: "Targets nutrient + hormone + inflammatory pathways." }
           ]
         },
         {
@@ -3444,13 +3444,13 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 8-Week Nutrient & Skin Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "Vitamin D IM + Vitamin B12 IM + Hydration IV; LED + Enzyme facial" },
-        { time: "Weeks 3–4", treatment: "Glutathione IV + PN; Microneedling" },
-        { time: "Weeks 5–6", treatment: "NAD+ IV; BioRePeel or RF needling" },
-        { time: "Weeks 7–8", treatment: "Women’s Longevity IV + regenerative facial" }
+        { time: "Weeks 1â€“2", treatment: "Vitamin D IM + Vitamin B12 IM + Hydration IV; LED + Enzyme facial" },
+        { time: "Weeks 3â€“4", treatment: "Glutathione IV + PN; Microneedling" },
+        { time: "Weeks 5â€“6", treatment: "NAD+ IV; BioRePeel or RF needling" },
+        { time: "Weeks 7â€“8", treatment: "Womenâ€™s Longevity IV + regenerative facial" }
       ]
     },
     whyChoose: {
@@ -3488,23 +3488,23 @@ export const individualConditions = [
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1664884164827-4ba4247f3bdb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2xvdyUyMG1ldGFib2xpc218ZW58MHx8MHx8fDA%3D"
     },
-    science: {
-      title: "Why Metabolism Slows —",
-      highlight: "Hormones • Muscle • Stress",
+    science_removed: {
+      title: "Why Metabolism Slows â€”",
+      highlight: "Hormones â€¢ Muscle â€¢ Stress",
       description: "Peri/menopause shifts, thyroid fluctuations, cortisol, muscle loss and insulin resistance drive weight gain and fatigue.",
       items: [
         { number: '01', title: 'Hormonal Decline', description: 'Estrogen/progesterone/testosterone changes increase fat storage.' },
         { number: '02', title: 'Thyroid Fluctuations', description: 'Suboptimal function slows metabolic rate.' },
         { number: '03', title: 'Chronic Stress', description: 'High cortisol drives belly fat and cravings.' },
         { number: '04', title: 'Muscle Loss', description: 'Sarcopenia after 30 reduces resting burn.' },
-        { number: '05', title: 'Poor Sleep', description: 'Ghrelin rises, leptin falls → hunger and cravings.' },
+        { number: '05', title: 'Poor Sleep', description: 'Ghrelin rises, leptin falls â†’ hunger and cravings.' },
         { number: '06', title: 'Insulin Resistance', description: 'Common midlife; fuels central weight gain.' }
       ],
-      footer: "Calorie cutting alone slows metabolism further — biology must be reset."
+      footer: "Calorie cutting alone slows metabolism further â€” biology must be reset."
     },
     treatmentModel: {
-      title: "ULANDA Metabolic Reset —",
-      highlight: "Radiate • Renew • Refresh • Restore",
+      title: "ULANDA Metabolic Reset â€”",
+      highlight: "Radiate â€¢ Renew â€¢ Refresh â€¢ Restore",
       items: [
         {
           title: "Radiate Wellness",
@@ -3513,7 +3513,7 @@ export const individualConditions = [
           image: "/assets/img/conditions/slow-metabolism-hero.webp",
           points: [
             { name: "Medical Weight Management", desc: "GLP-1 pathway where clinically appropriate." },
-            { name: "Women’s Longevity IV", desc: "Hormone + metabolic support." },
+            { name: "Womenâ€™s Longevity IV", desc: "Hormone + metabolic support." },
             { name: "NAD+ IV", desc: "Mitochondrial repair for metabolic efficiency." },
             { name: "Energy IV", desc: "B vitamins, magnesium and amino acids for burn." },
             { name: "Vitamin B12 IM", desc: "Metabolic and red blood cell support." },
@@ -3555,19 +3555,19 @@ export const individualConditions = [
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 12-Week Metabolic Regeneration",
       steps: [
-        { time: "Weeks 1–4", treatment: "NAD+ IV loading + B12 IM; initiate medical weight management; sleep & stress reset" },
-        { time: "Weeks 5–8", treatment: "Women’s Longevity IV; PN/PRP for inflammation; regenerative facials" },
-        { time: "Weeks 9–12", treatment: "NAD+ IV top-up; strength-building guidance; jawline/skin tightening if needed" }
+        { time: "Weeks 1â€“4", treatment: "NAD+ IV loading + B12 IM; initiate medical weight management; sleep & stress reset" },
+        { time: "Weeks 5â€“8", treatment: "Womenâ€™s Longevity IV; PN/PRP for inflammation; regenerative facials" },
+        { time: "Weeks 9â€“12", treatment: "NAD+ IV top-up; strength-building guidance; jawline/skin tightening if needed" }
       ]
     },
     whyChoose: {
       title: "Why",
       highlight: "Women Choose ULANDA",
       items: [
-        "Focused on women’s midlife metabolism",
+        "Focused on womenâ€™s midlife metabolism",
         "Longevity medicine + aesthetics under one roof",
         "Medically supervised Harley Street partnership",
         "Addresses hormones, inflammation, sleep and stress",
@@ -3599,23 +3599,23 @@ export const individualConditions = [
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1728915175711-c7bf6c398396?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
-    science: {
-      title: "Why Stress Ages Skin —",
-      highlight: "Cortisol • Inflammation • Mitochondria",
+    science_removed: {
+      title: "Why Stress Ages Skin â€”",
+      highlight: "Cortisol â€¢ Inflammation â€¢ Mitochondria",
       description: "High cortisol breaks collagen, disrupts barrier lipids, increases inflammation and depletes cellular energy.",
       items: [
-        { number: '01', title: 'Collagen Breakdown', description: 'Cortisol activates MMPs → sagging, lines, crepey texture.' },
-        { number: '02', title: 'Barrier Damage', description: 'Ceramides and lipids fall → dryness, stinging, sensitivity.' },
+        { number: '01', title: 'Collagen Breakdown', description: 'Cortisol activates MMPs â†’ sagging, lines, crepey texture.' },
+        { number: '02', title: 'Barrier Damage', description: 'Ceramides and lipids fall â†’ dryness, stinging, sensitivity.' },
         { number: '03', title: 'Inflammageing', description: 'Inflammatory cytokines accelerate ageing and pigmentation.' },
         { number: '04', title: 'Hormone Disruption', description: 'Stress worsens peri/menopause symptoms and pigmentation.' },
-        { number: '05', title: 'Microbiome Weakening', description: 'Flora shifts → sensitivity and breakouts.' },
+        { number: '05', title: 'Microbiome Weakening', description: 'Flora shifts â†’ sensitivity and breakouts.' },
         { number: '06', title: 'Mitochondrial Fatigue', description: 'ATP depletion dulls glow and slows repair.' }
       ],
-      footer: "Topicals alone cannot reverse stress-induced ageing — biology must be calmed and rebuilt."
+      footer: "Topicals alone cannot reverse stress-induced ageing â€” biology must be calmed and rebuilt."
     },
     treatmentModel: {
       title: "ULANDA Stress & Inflammation Model",
-      highlight: "Refresh • Renew • Restore • Radiate",
+      highlight: "Refresh â€¢ Renew â€¢ Restore â€¢ Radiate",
       items: [
         {
           title: "Refresh",
@@ -3659,27 +3659,27 @@ export const individualConditions = [
           points: [
             { name: "NAD+ IV", desc: "Mitochondrial repair; improves sleep and resilience." },
             { name: "Glutathione IV", desc: "Master anti-inflammatory and brightening." },
-            { name: "Women’s Longevity IV", desc: "Targets stress + hormones + inflammation together." },
+            { name: "Womenâ€™s Longevity IV", desc: "Targets stress + hormones + inflammation together." },
             { name: "Hydration IV", desc: "Reduces fatigue and improves circulation." },
             { name: "Vitamin B12 IM", desc: "Supports energy during recovery." }
           ]
         }
       ]
     },
-    pathway: {
+    pathway_removed: {
       title: "ULANDA 8-Week Stress & Inflammation Plan",
       steps: [
-        { time: "Weeks 1–2", treatment: "LED + Enzyme Therapy; NAD+ IV loading; Hydration IV" },
-        { time: "Weeks 3–4", treatment: "PN (anti-inflammatory) + Glutathione IV" },
-        { time: "Weeks 5–6", treatment: "Microneedling / PRP for dermal healing; Oxygen facial" },
-        { time: "Weeks 7–8", treatment: "Women’s Longevity IV; optional Restore support if laxity present" }
+        { time: "Weeks 1â€“2", treatment: "LED + Enzyme Therapy; NAD+ IV loading; Hydration IV" },
+        { time: "Weeks 3â€“4", treatment: "PN (anti-inflammatory) + Glutathione IV" },
+        { time: "Weeks 5â€“6", treatment: "Microneedling / PRP for dermal healing; Oxygen facial" },
+        { time: "Weeks 7â€“8", treatment: "Womenâ€™s Longevity IV; optional Restore support if laxity present" }
       ]
     },
     whyChoose: {
       title: "Why",
       highlight: "ULANDA",
       items: [
-        "Specialists in women’s stress + hormone ageing",
+        "Specialists in womenâ€™s stress + hormone ageing",
         "Multi-layer regenerative correction",
         "Longevity medicine access via 360 Medicx",
         "Treats cause (cortisol/inflammation) not symptoms",
@@ -3700,4 +3700,5 @@ export const individualConditions = [
 ];
 
 export const getIndividualCondition = (id) => individualConditions.find(c => c.id === id);
+
 

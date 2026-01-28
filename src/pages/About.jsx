@@ -257,15 +257,15 @@ export default function About() {
                 </svg>
               </Link>{' '}
               from a simple belief: women deserve care that understands them
-              fully — not in fragments. Skin concerns are rarely “just skin.”
+              fully, not in fragments. Skin concerns are rarely “just skin.”
               Hormonal changes are rarely “just hormones.” Fatigue and stress
               are rarely “just lifestyle.” At ULANDA, we connect the dots.
             </p>
             </FadeInWhenVisible>
             <FadeInWhenVisible delay={0.3}>
             <p>
-              We support women through the full physiology of change —
-              postpartum, perimenopause, menopause and beyond — blending our{' '}
+              We support women through the full physiology of change
+              (postpartum, perimenopause, menopause and beyond), blending our{' '}
               <Link
                 to="/about/our-philosophy"
                 className="text-primary font-bold hover:underline inline-flex items-center gap-0.5"
@@ -318,7 +318,7 @@ export default function About() {
               </h2>
               <p className="text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
                 Unlike traditional clinics that chase temporary fixes, ULANDA
-                focuses on treatments that work with your biology — stimulating
+                focuses on treatments that work with your biology, stimulating
                 collagen, strengthening cellular repair, restoring hormonal
                 balance and rebuilding long-term skin health.
               </p>
@@ -336,7 +336,7 @@ export default function About() {
               </div>
               <p className="font-light text-base md:text-lg font-sans text-base-content/80 mt-6">
                 Every woman receives a care plan crafted around her unique
-                physiology — whether she is navigating postpartum recovery,
+                physiology, whether she is navigating postpartum recovery,
                 hormonal fluctuations in perimenopause, or the deeper structural
                 changes of menopause.
               </p>
@@ -510,7 +510,7 @@ export default function About() {
                 </h2>
                 <p className="text-base md:text-lg font-light font-sans text-base-content/90">
                   Instead of choosing between “a medical clinic” or “a beauty
-                  spa,” ULANDA brings both worlds together — safely,
+                  spa,” ULANDA brings both worlds together, safely,
                   compassionately and intelligently.
                 </p>
               </div>
@@ -628,8 +628,8 @@ export default function About() {
             </h2>
             <p className="text-base py-8 font-sans text-base-content/90 leading-relaxed">
               Whether your goal is brighter skin, improved firmness, hormonal
-              balance, more energy or simply feeling like “yourself” again —
-              we’re here to guide you. Your journey starts with a personalised
+              balance, more energy or simply feeling like “yourself” again,
+              we are here to guide you. Your journey starts with a personalised
               consultation.
             </p>
             <Link to="/book-consultation" className="btn btn-primary text-white px-8 py-3 h-auto rounded-lg">

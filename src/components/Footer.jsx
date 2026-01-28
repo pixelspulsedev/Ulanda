@@ -18,9 +18,9 @@ export default function Footer() {
                 className="h-16 w-auto object-contain" 
               />
               <div className="mt-6 space-y-2 text-sm text-base-content/80 font-sans">
-                 <p>Uphaven, Hampden Hill</p>
-                 <p>Ware, East Hertfordshire</p>
-                 <p>UK, SG12 7JT</p>
+                 <p>Uphaven, 6 Hampden Hill,</p>
+                 <p>Ware, East Hertfordshire.</p>
+                 <p>UK. SG12 7JT</p>
                  <p className="pt-2"><a href="tel:+447904336031" className="hover:text-primary transition-colors">+44 7904 336031</a></p>
                  <p><a href="mailto:info@ulanda.co.uk" className="hover:text-primary transition-colors">info@ulanda.co.uk</a></p>
                  <p><a href="https://instagram.com/ulandamedspa" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">@ulandamedspa</a></p>

@@ -348,7 +348,7 @@ export const tools = [
     },
     philosophy: {
       heading: "Why Sculptra Fits the ULANDA Philosophy",
-      content: "ULANDA is a regenerative-first clinic. Sculptra aligns perfectly because it works with your biology, enhances long-term collagen architecture, creates natural, not “done,” results, supports midlife structural decline gracefully, and integrates beautifully with PN, skin boosters, and internal wellness. It is one of the safest, most evidence-backed collagen therapies available globally."
+      content: "ULANDA is a regenerative-first clinic. Sculptra aligns perfectly because it works with your biology, enhances long-term collagen architecture, creates natural, not “done,” results, supports midlife structural decline gracefully, and integrates beautifully with PN, Skin Boosters, and internal wellness. It is one of the safest, most evidence-backed collagen therapies available globally."
     },
     science: {
       heading: "The Science — How Sculptra Works",

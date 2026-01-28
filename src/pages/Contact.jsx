@@ -48,7 +48,7 @@ const Contact = () => {
                <div className="absolute inset-0 flex items-center justify-center p-12 bg-secondary/20 pointer-events-none">
                   <FadeInWhenVisible delay={0.3} className="border border-primary/30 p-8 w-full h-full flex flex-col justify-center items-center text-center">
                       <h3 className="font-serif text-3xl text-primary mb-4 italic">Regenerate. Restore. Radiate.</h3>
-                      <p className="font-sans font-light text-base-content/70">Uphaven, Hampden Hill</p>
+                      <p className="font-sans font-light text-base-content/70">Uphaven, 6 Hampden Hill, Ware</p>
                   </FadeInWhenVisible>
                </div>
             </div>
@@ -105,9 +105,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-serif text-lg text-base-content mb-1">Visit Us</h3>
                         <address className="not-italic text-lg font-light text-base-content/80 space-y-1">
-                          <p>Uphaven, Hampden Hill</p>
-                          <p>Ware, East Hertfordshire</p>
-                          <p>UK, SG12 7JT</p>
+                          <p>Uphaven, 6 Hampden Hill,</p>
+                          <p>Ware, East Hertfordshire.</p>
+                          <p>UK.</p>
+                          <p>SG12 7JT</p>
                         </address>
                       </div>
                     </div>
@@ -132,6 +133,20 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Google Map Section */}
+      <section className="w-full h-96 border-t border-b border-base-200">
+         <iframe
+           width="100%"
+           height="100%"
+           style={{ border: 0 }}
+           loading="lazy"
+           allowFullScreen
+           src="https://maps.google.com/maps?q=Uphaven,+6+Hampden+Hill,+Ware+SG12+7JT&t=&z=15&ie=UTF8&iwloc=&output=embed"
+           title="Ulanda Location"
+           aria-label="Ulanda Location Map"
+         ></iframe>
       </section>
 
       {/* Map or CTA placeholder (Optional) */}

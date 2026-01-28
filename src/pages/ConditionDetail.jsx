@@ -8,6 +8,7 @@ import { getTreatmentsForCondition, getTreatmentUrl } from '../data/crosslinks';
 import Conditions from './Conditions';
 import { ChevronRight } from 'lucide-react';
 import RelatedTreatments from '../components/RelatedTreatments';
+import { getTreatmentById } from '../data/pageContents/treatments/treatments';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
@@ -23,7 +24,13 @@ export default function ConditionDetail() {
   }
 
   const condition = getIndividualCondition(conditionId);
-  const relatedTreatments = getTreatmentsForCondition(conditionId);
+  const relatedTreatmentIds = getTreatmentsForCondition(conditionId);
+  const relatedTreatments = relatedTreatmentIds.map(tid => {
+    // try to resolve full object to get proper casing title
+    const tObj = getTreatmentById(tid);
+    // fallback to id if object not found (though object is preferred)
+    return tObj || tid;
+  });
 
   if (!condition) {
     return <div className="text-center py-20">Condition not found</div>;

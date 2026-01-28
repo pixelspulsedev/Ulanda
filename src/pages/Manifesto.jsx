@@ -16,7 +16,7 @@ const manifestoSections = [
         <br />
         The kind that rebuilds, replenishes, and restores from the inside out.
         <br />
-        Because ageing is not a decline —
+        Because ageing is not a decline,
         <br />
         It is a biological rhythm, a hormonal evolution, a new chapter of
         identity.
@@ -39,9 +39,7 @@ const manifestoSections = [
         <br />
         Not sculpted into someone else’s ideal.
         <br />
-        Instead, we choose a different path —
-        <br />
-        One where your natural contours, your expression, your identity
+        Instead, we choose a different path, one where your natural contours, your expression, your identity
         <br />
         remain beautifully, unmistakably yours.
       </>
@@ -63,7 +61,7 @@ const manifestoSections = [
         <br />
         In strengthening cellular health, not masking decline.
         <br />
-        This is <Link to="/treatments/renew" className="text-primary font-bold hover:underline inline-flex items-center gap-0.5">regenerative aesthetics <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" /></svg></Link> —
+        This is <Link to="/treatments/renew" className="text-primary font-bold hover:underline inline-flex items-center gap-0.5">regenerative aesthetics <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" /></svg></Link>,
         <br />
         the future of women’s ageing.
       </>
@@ -81,7 +79,7 @@ const manifestoSections = [
         <br />
         but something to elevate.
         <br />
-        Perimenopause and menopause are not interruptions —
+        Perimenopause and menopause are not interruptions,
         <br />
         they are transformations.
         <br />
@@ -172,10 +170,10 @@ const manifestoSections = [
           not created in a syringe.
         </h1>
         {/* <br /> */}
-        It is awakened when a woman recognises herself again —
+        It is awakened when a woman recognises herself again,
         <br />
         in the mirror, in her skin, in her energy, in her life. Our role is not
-        to change her. It is to bring her back to herself — regenerated,
+        to change her. It is to bring her back to herself, regenerated,
         rebalanced, radiant.
       </>
     ),
@@ -235,9 +233,9 @@ export default function Manifesto() {
             <FadeInWhenVisible>
               <p className="text-secondary italic font-serif text-3xl">ULANDA</p>
               <div className="space-y-2 font-light text-xl md:text-2xl font-sans leading-relaxed text-secondary">
-                <p>Where science meets femininity.</p>
-                <p>Where regenerative care meets luxury.</p>
-                <p>Where women become themselves again.</p>
+                <p>Science-led care for women.</p>
+                <p>Backed by research.</p>
+                <p>Driven by results.</p>
               </div>
             </FadeInWhenVisible>
           </div>

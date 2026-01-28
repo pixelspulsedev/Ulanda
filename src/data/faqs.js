@@ -8,7 +8,7 @@ export const faqData = {
       },
       {
         question: "How is ULANDA different from other aesthetics clinics?",
-        answer: "ULANDA is regenerative-first, not correction-first. Rather than chasing quick cosmetic fixes, we focus on restoring skin health, collagen function, cellular repair, and internal balance — so results look natural, last longer, and support long-term wellbeing."
+        answer: "ULANDA is regenerative-first, not correction-first. Rather than chasing quick cosmetic fixes, we focus on restoring skin health, collagen function, cellular repair, and internal balance, so results look natural, last longer, and support long-term wellbeing."
       },
       {
         question: "Who is ULANDA designed for?",
@@ -28,7 +28,7 @@ export const faqData = {
         answer: "Yes — but selectively and conservatively. At ULANDA, fillers are used only where structurally appropriate and anti-wrinkle injections are tailored for natural expression. We prioritise regenerative treatments first. We believe fillers and neurotoxins should complement regeneration, not replace it."
       },
       {
-        question: "I’ve never had aesthetic treatment before — is ULANDA suitable for me?",
+        question: "I’ve never had aesthetic treatment before. Is ULANDA suitable for me?",
         answer: "Absolutely. Many ULANDA clients are first-timers. We specialise in gentle entry-level treatments, education-led consultations, progressive treatment planning, and building trust before advanced treatments. You will never be rushed or pressured."
       },
       {

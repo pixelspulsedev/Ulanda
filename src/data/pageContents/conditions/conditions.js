@@ -147,7 +147,7 @@ export const conditions = [
         {
           decade: 'In Your 30s:',
           title: 'Prevention + Early Regeneration',
-          focus: 'PN, skin boosters, peels, early RF microneedling',
+          focus: 'PN, Skin Boosters, peels, early RF microneedling',
           theme: 'light',
         },
         {
@@ -214,7 +214,7 @@ export const conditions = [
       image: "/assets/img/conditions/body-skin-structural-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
+    science_removed: {
       title: "Why Body Skin Changes Happen —",
       highlight: "The Real Science",
       description: "The body ages differently from the face. It experiences:",
@@ -295,7 +295,7 @@ export const conditions = [
         }
       ]
     },
-    pathways: {
+    pathways_removed: {
       title: "The ULANDA Regenerative Approach to",
       highlight: "Body Rejuvenation",
       titleSuffix: "",
@@ -404,7 +404,7 @@ export const conditions = [
       image: "/assets/img/conditions/eye-area-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
+    science_removed: {
       title: "Why the Under-Eye Area Ages Faster —",
       highlight: "The Real Science",
       description: "Science explains every under-eye concern:",
@@ -468,8 +468,8 @@ export const conditions = [
         {
           title: "Crepey",
           highlight: "Under-Eye Skin",
-          description: "Thinning + collagen loss + hormonal decline. PN, RF microneedling, PRP and skin boosters restore strength and thickness.",
-          text: "Best solutions: PN, RF microneedling, PRP and skin boosters.",
+          description: "Thinning + collagen loss + hormonal decline. PN, RF microneedling, PRP and Skin Boosters restore strength and thickness.",
+          text: "Best solutions: PN, RF microneedling, PRP and Skin Boosters.",
           image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
           placeholderUrl: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
           link: '/conditions/eye-area/crepey-under-eye'
@@ -494,7 +494,7 @@ export const conditions = [
         }
       ]
     },
-    pathways: {
+    pathways_removed: {
       title: "The ULANDA Regenerative Approach to",
       highlight: "the Eye Area",
       titleSuffix: "",
@@ -604,7 +604,7 @@ export const conditions = [
       image: "https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
-    science: {
+    science_removed: {
       title: "Why Menopause Changes the Skin —",
       highlight: "The Scientific Truth",
       description: "When oestrogen declines, the skin loses:",
@@ -677,6 +677,15 @@ export const conditions = [
           image: "https://images.unsplash.com/photo-1615997380705-504484cd99c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D",
           placeholderUrl: "https://images.unsplash.com/photo-1615997380705-504484cd99c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D",
           link: '/conditions/menopause-hormone-skin-changes/texture-decline'
+        },
+        {
+          title: "Hormonal",
+          highlight: "Breakouts",
+          description: "Deep, cystic or cyclical breakouts, typically on the jawline, chin and neck. Linked to cycle shifts or perimenopause. Needs barrier repair + anti-inflammatory regulation, not harsh scrubbing.",
+          text: "Best solutions: Barrier repair, anti-inflammatory regulation.",
+          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
+          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
+          link: '/conditions/menopause-hormone-skin-changes/hormonal-breakouts'
         }
       ]
     },
@@ -988,7 +997,7 @@ export const conditions = [
       image: "/assets/img/conditions/internal-wellness-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    science: {
+    science_removed: {
       title: "Why Internal Wellness Matters for Regeneration —",
       highlight: "The Real Science",
       description: "The skin is a mirror of cellular health. If your:",
@@ -1071,7 +1080,7 @@ export const conditions = [
         }
       ]
     },
-    pathways: {
+    pathways_removed: {
       title: "How Internal Wellness Integrates With",
       highlight: "ULANDA’s Other Pathways",
       titleSuffix: "",
@@ -1080,7 +1089,7 @@ export const conditions = [
         {
           highlight: "Renew",
           titleSuffix: "(Cellular Skin Regeneration)",
-          constent: ['PN, PRP, microneedling and skin boosters achieve significantly better collagen response when internal energy and nutrients are optimised.'],
+          constent: ['PN, PRP, microneedling and Skin Boosters achieve significantly better collagen response when internal energy and nutrients are optimised.'],
           includes: [
             'Polynucleotides (PN)',
             'PRP',
@@ -1141,182 +1150,6 @@ export const conditions = [
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
-  {
-    id: 'hormonal-skin',
-    seo: {
-      title: "Hormonal Skin Treatment Ware | Acne, Pigmentation & Sensitivity",
-      description: "Treat hormonal skin changes. Regulate breakouts, dryness, pigmentation & sensitivity with hormone-aware regenerative protocols."
-    },
-    hero: {
-      title: "Hormonal",
-      highlight: "Skin Conditions",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
-      description: [
-        "Hormones Control Your Skin. When They Shift, Your Skin Shifts Too — ULANDA Restores Balance.",
-        "From puberty to pregnancy, postpartum to perimenopause, hormonal fluctuations drive the most stubborn skin concerns: adult acne, cyclical breakouts, deep pigmentation, sudden sensitivity, and dryness.",
-        "Attempting to treat hormonal skin with standard ‘acne’ or ‘anti-ageing’ products often leads to irritation and damaged barriers.",
-        "At ULANDA, we understand the hormone-skin connection. We don’t just treat the spot or the patch; we regulate the skin’s response to hormonal signalling through calming, strengthening and balancing regeneration."
-      ],
-      image: "https://plus.unsplash.com/premium_photo-1734714167500-cc692038228c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2tpbiUyMHF1YWxpdHl8ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1734714167500-cc692038228c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2tpbiUyMHF1YWxpdHl8ZW58MHwxfDB8fHww"
-    },
-    science_removed: {
-      title: "How Hormones Impact Skin —",
-      highlight: "The Biological Link",
-      description: "Your skin contains receptors for Estrogen, Progesterone, Testosterone and Cortisol. When levels fluctuate:",
-      items: [
-        {
-          number: '01',
-          title: 'Progesterone Spikes',
-          description: 'Increases sebum production → hormonal breakouts (chin/jawline).',
-        },
-        {
-          number: '02',
-          title: 'Estrogen Drops',
-          description: 'Reduces hydration and collagen → dryness, sensitivity, ageing.',
-        },
-        {
-          number: '03',
-          title: 'Testosterone Dominance',
-          description: 'Triggers cystic acne and hair growth changes.',
-        },
-        {
-          number: '04',
-          title: 'Cortisol (Stress Hormone)',
-          description: 'Inflames the skin, breaks collagen, worsens acne and rosacea.',
-        },
-        {
-          number: '05',
-          title: 'MSH (Melanocyte Stimulating Hormone)',
-          description: 'Triggered by pregnancy/pill/hormones → Melasma.',
-        },
-      ],
-      footer: "Treating hormonal skin requires a ‘calm and regulate’ approach — aggressive stripping only signals more inflammation."
-    },
-    subConditions: {
-      titlePrefix: "Conditions We Treat Under",
-      highlight: "Hormonal Skin",
-      titleSuffix: "",
-      items: [
-        {
-          title: "Hormonal",
-          highlight: "Breakouts",
-          description: "Deep, cystic or cyclical breakouts, typically on the jawline, chin and neck. Linked to cycle shifts or perimenopause. Needs barrier repair + anti-inflammatory regulation, not harsh scrubbing.",
-          text: "Best solutions: Barrier repair, anti-inflammatory regulation.",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          link: '/conditions/hormonal-skin/hormonal-breakouts'
-        },
-        {
-          title: "Dryness &",
-          highlight: "Sensitivity",
-          description: "Skin feels tight, reactive or stinging. A sign of estrogen deficiency or barrier collapse. Requires lipid restoration and cellular hydration.",
-          text: "Best solutions: Lipid restoration, cellular hydration.",
-          image: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-          link: '/conditions/hormonal-skin/dryness-sensitivity'
-        },
-        {
-          title: "Hormonal",
-          highlight: "Pigmentation",
-          description: "Melasma or dark patches that flare with heat, sun or stress. Driven by internal hormonal signalling. Requires melanocyte calming.",
-          text: "Best solutions: Melanocyte calming.",
-          image: "https://images.unsplash.com/photo-1575779977884-f1069c45cbf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://images.unsplash.com/photo-1575779977884-f1069c45cbf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-          link: '/conditions/hormonal-skin/hormonal-pigmentation'
-        },
-        {
-          title: "Loss of",
-          highlight: "Facial Definition",
-          description: "Softening jawline and reduced tone due to hormonal collagen drop. Can occur postpartum or in perimenopause.",
-          text: "Best solutions: Structural support (Threads/Biostimulators).",
-          image: "https://plus.unsplash.com/premium_photo-1682965699603-81ccb5965576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMHNraW58ZW58MHwxfDB8fHww",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1682965699603-81ccb5965576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMHNraW58ZW58MHwxfDB8fHww",
-          link: '/conditions/hormonal-skin/loss-of-definition'
-        }
-      ]
-    },
-    pathways_removed: {
-      title: "The ULANDA Regenerative Approach to",
-      highlight: "Hormonal Skin",
-      titleSuffix: "",
-      description: "We work with your hormones, not against them. Our protocols adapt to your life stage:",
-      items: [
-        {
-          highlight: "Renew",
-          titleSuffix: "(Calm & balance cellular function)",
-          constent: ['Reduces inflammation and regulates turnover.'],
-          includes: [
-            'Polynucleotides (PN) for healing',
-            'LED Therapy (Blue/Red light)',
-            'BioRePeel (anti-inflammatory exfoliation)',
-            'Skin Boosters (hydration)',
-          ],
-          image: '/assets/img/conditions/hormonal-skin/pathway_1.jpg',
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
-        },
-        {
-          highlight: "Restore",
-          titleSuffix: "(Structural Support)",
-          constent: ['If hormones have depleted collagen structure.'],
-          includes: [
-            'Biostimulators',
-            'Threads',
-          ],
-          image: '/assets/img/conditions/hormonal-skin/pathway_2.jpg',
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
-        },
-        {
-          highlight: "Refresh",
-          titleSuffix: "(Surface Management)",
-          constent: ['Keeps skin clear and smooth without irritation.'],
-          includes: [
-            'Enzyme Therapy',
-            'Gentle Peels',
-            'Oxygen Facials',
-          ],
-          image: '/assets/img/conditions/hormonal-skin/pathway_3.jpg',
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
-        },
-        {
-          highlight: "Radiate",
-          titleSuffix: "(Internal Hormonal Support)",
-          constent: ['Crucial for long-term control.'],
-          includes: [
-            'Women’s Longevity IV',
-            'Glutathione IV',
-            'Vitamin D & B12',
-            'Stress/Cortisol Management',
-          ],
-          image: '/assets/img/conditions/hormonal-skin/pathway_4.jpg',
-          placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
-        }
-      ]
-    },
-    whyChoose: {
-      title: "Why",
-      highlight: "Hertfordshire",
-      titleSuffix: "Women Choose ULANDA for Hormonal Skin",
-      items: [
-        'Hormone-expert aesthetic clinic',
-        'Understanding of menstrual, postpartum & menopausal skin',
-        'Regenerative (non-drying) acne & pigment solutions',
-        'Integrated internal wellness support',
-        'Serving Ware, Hertford, Hoddesdon, Broxbourne, SG12 & surrounding areas',
-        'Safe, calming, long-term results',
-      ],
-      image: "/assets/img/conditions/hormonal-skin-hero.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
-    },
-    cta: {
-      title: "Start Your",
-      highlight: "Hormone Balancing",
-      titleSuffix: "Consultation",
-      description: "Regain control of your skin with science-backed, hormone-aware regeneration.",
-      buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
-    }
-  }
 ];
 
 export const getCondition = (id) => {

@@ -121,7 +121,7 @@ export default function TermsOfUse() {
           <p className="mb-4">If you have any questions or concerns regarding these Terms of Use, please contact us at:</p>
           <div className="bg-gray-50 p-6 rounded-lg">
             <p className="font-semibold">ULANDA MedSpa</p>
-            <p>Uphaven House,</p>
+            <p>Uphaven,</p>
             <p>6 Hampden Hill,</p>
             <p>Ware, East Hertfordshire</p>
             <p>UK. SG12 7JT</p>

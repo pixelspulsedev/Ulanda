@@ -223,7 +223,7 @@ export const treatments = {
                     "✔ Deep cleansing without irritation",
                     "✔ Instant glow with long-term hydration",
                     "✔ Removes buildup that accelerates ageing",
-                    "✔ Pairs well with PN, peels and skin boosters",
+                    "✔ Pairs well with PN, peels and Skin Boosters",
                     "✔ Safe for retinol users (with barrier assessment)"
                   ]
                 }
@@ -2767,7 +2767,7 @@ export const treatments = {
             "introduction": {
               "title": "What Is Plenhyage?",
               "content": [
-                "Plenhyage is an advanced Polynucleotide (PN) injectable designed to stimulate fibroblasts, improve hydration, strengthen the extracellular matrix and repair damaged skin.",
+                "Plenhyage is an advanced Polynucleotides (PN) injectable designed to stimulate fibroblasts, improve hydration, strengthen the extracellular matrix and repair damaged skin.",
                 "Its longer-chain PN structure makes it ideal for deeper regeneration."
               ],
               "goals": [
@@ -2958,99 +2958,6 @@ export const treatments = {
               "highlight": "Regeneration",
               "description": "Book your PRP Skin Regeneration consultation at ULANDA.",
               "buttonText": "Book Consultation"
-            }
-          }
-        }
-      },
-      "body-tightening": {
-        "title": "Body Tightening",
-        "description": "Firming treatments for the body.",
-        image: "https://plus.unsplash.com/premium_photo-1682097035400-3df02426c913?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ym9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwwfDB8fHww",
-        placeholderUrl: "https://plus.unsplash.com/premium_photo-1682097035400-3df02426c913?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ym9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwwfDB8fHww",
-        "treatments": {
-          "body-contouring": {
-            "id": "body-contouring",
-            "booking": {
-              "starting": true,
-              "price": 200,
-              "duration": 90,
-              "treatmentType": "body-device",
-              "bookingType": "consultation"
-            },
-            "seo": {
-              "title": "Body Contouring | Sculpt & Define | ULANDA",
-              "description": "Refine your shape with non-invasive Body Contouring. ULANDA targets stubborn areas to sculpt, define & enhance your natural silhouette."
-            },
-            "seoHeadings": {
-              "h1": "Body Contouring in Ware SG12 — Sculpt, Smooth & Re-Define Postpartum & Midlife Bodies",
-              "h2": [
-                "What Body Contouring Treats",
-                "How It Works (Fat Reduction + Lymphatic Drainage)",
-                "Best Combinations",
-                "Conditions Treated",
-                "Book Body Contouring in Ware SG12"
-              ]
-            },
-            "title": "Body Contouring",
-            "highlight": "(Fat Reduction & Shaping)",
-            "titleSuffix": "",
-            "benefits": [
-              "Reduce stubborn fat",
-              "Sculpt curves naturally",
-              "Enhance body proportions",
-              "Support weight-loss"
-            ],
-            "locations": [
-              "Ware SG12",
-              "Hertford",
-              "Broxbourne",
-              "Hertfordshire"
-            ],
-        image: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
-        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
-            "category": "Renew",
-            "description": "Sculpt, Refine & Shape Your Body Using Regenerative Aesthetic Science",
-            "introduction": {
-              "title": "Sculpt, Refine & Shape",
-              "content": [
-                "Contouring at ULANDA is not about shrinking you — it's about sculpting you.",
-                "At ULANDA, Body Contouring focuses on reshaping areas where fat persists despite exercise, nutrition and lifestyle changes.",
-                "Unlike fad treatments that promise dramatic change without substance, our approach is grounded in fat reduction science, hormone-aware weight distribution, body architecture mapping, regenerative skin tightening, and personalised metabolic balance.",
-                "Body Contouring here is body-positive, feminine, subtle, and regenerative — not extreme."
-              ],
-              "goals": [
-                "Reduce stubborn fat",
-                "Sculpt curves naturally",
-                "Enhance body proportions",
-                "Support weight-loss or recomposition plans",
-                "Smooth problem areas",
-                "Improve confidence during hormonal transitions"
-              ],
-              "highlightBox": {
-                "text1": "Grounded in fat reduction science.",
-                "text2": "Hormone-aware weight distribution."
-              },
-              image: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
-              placeholderUrl: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
-            },
-            "idealFor": {
-              "title": "Who This Treatment",
-              "highlight": "Is For",
-              "titleSuffix": "",
-              "items": [
-                "Women experiencing stubborn midsection fat",
-                "Perimenopause belly changes",
-                "Thigh or hip redistribution",
-                "Back/bra-line fat",
-                "Fat pockets that resist exercise",
-                "Postpartum stubborn fat"
-              ]
-            },
-            "cta": {
-              "title": "Sculpt. Smooth.",
-              "highlight": "Re-Define.",
-              "description": "ULANDA Body Contouring uses regenerative science to reshape your body naturally.",
-              "buttonText": "Book Body Consultation"
             }
           }
         }
@@ -5311,7 +5218,92 @@ export const treatments = {
               "buttonText": "Book Body Consultation"
             }
           }
-        }
+        ,
+        "body-contouring": {
+            "id": "body-contouring",
+            "booking": {
+              "starting": true,
+              "price": 200,
+              "duration": 90,
+              "treatmentType": "body-device",
+              "bookingType": "consultation"
+            },
+            "seo": {
+              "title": "Body Contouring | Sculpt & Define | ULANDA",
+              "description": "Refine your shape with non-invasive Body Contouring. ULANDA targets stubborn areas to sculpt, define & enhance your natural silhouette."
+            },
+            "seoHeadings": {
+              "h1": "Body Contouring in Ware SG12 — Sculpt, Smooth & Re-Define Postpartum & Midlife Bodies",
+              "h2": [
+                "What Body Contouring Treats",
+                "How It Works (Fat Reduction + Lymphatic Drainage)",
+                "Best Combinations",
+                "Conditions Treated",
+                "Book Body Contouring in Ware SG12"
+              ]
+            },
+            "title": "Body Contouring",
+            "highlight": "(Fat Reduction & Shaping)",
+            "titleSuffix": "",
+            "benefits": [
+              "Reduce stubborn fat",
+              "Sculpt curves naturally",
+              "Enhance body proportions",
+              "Support weight-loss"
+            ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+        image: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
+        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
+            "category": "Renew",
+            "description": "Sculpt, Refine & Shape Your Body Using Regenerative Aesthetic Science",
+            "introduction": {
+              "title": "Sculpt, Refine & Shape",
+              "content": [
+                "Contouring at ULANDA is not about shrinking you — it's about sculpting you.",
+                "At ULANDA, Body Contouring focuses on reshaping areas where fat persists despite exercise, nutrition and lifestyle changes.",
+                "Unlike fad treatments that promise dramatic change without substance, our approach is grounded in fat reduction science, hormone-aware weight distribution, body architecture mapping, regenerative skin tightening, and personalised metabolic balance.",
+                "Body Contouring here is body-positive, feminine, subtle, and regenerative — not extreme."
+              ],
+              "goals": [
+                "Reduce stubborn fat",
+                "Sculpt curves naturally",
+                "Enhance body proportions",
+                "Support weight-loss or recomposition plans",
+                "Smooth problem areas",
+                "Improve confidence during hormonal transitions"
+              ],
+              "highlightBox": {
+                "text1": "Grounded in fat reduction science.",
+                "text2": "Hormone-aware weight distribution."
+              },
+              image: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
+            },
+            "idealFor": {
+              "title": "Who This Treatment",
+              "highlight": "Is For",
+              "titleSuffix": "",
+              "items": [
+                "Women experiencing stubborn midsection fat",
+                "Perimenopause belly changes",
+                "Thigh or hip redistribution",
+                "Back/bra-line fat",
+                "Fat pockets that resist exercise",
+                "Postpartum stubborn fat"
+              ]
+            },
+            "cta": {
+              "title": "Sculpt. Smooth.",
+              "highlight": "Re-Define.",
+              "description": "ULANDA Body Contouring uses regenerative science to reshape your body naturally.",
+              "buttonText": "Book Body Consultation"
+            }
+          }}
       },
       "wellness": {
         "title": "Wellness & IVs",
@@ -5559,8 +5551,8 @@ export const treatments = {
             "seoHeadings": {
               "h1": "Glutathione IV in Ware SG12 — Brighten, Detox & Reduce Oxidative Stress",
               "h2": [
-                "What Glutathione Treats (Pigmentation, Dullness, Toxin Load)",
-                "How Glutathione Works — The Master Antioxidant",
+                "What Glutathione IV Treats (Pigmentation, Dullness, Toxin Load)",
+                "How Glutathione IV Works — The Master Antioxidant",
                 "Glutathione IV vs Oral Glutathione",
                 "Linked Treatments (Peels, Skin Boosters, PN)",
                 "Book Glutathione IV — Provided with 360Medicx Harley Street"
@@ -5616,7 +5608,7 @@ export const treatments = {
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
-              "title": "Why Glutathione Matters for",
+              "title": "Why Glutathione IV Matters for",
               "titleSuffix": "Women 35–65+",
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -5733,7 +5725,7 @@ export const treatments = {
                     "Reducing inflammation after microneedling",
                     "Improving tissue response to PN",
                     "Enhancing platelet activity for PRP",
-                    "Supporting collagen integrity for skin boosters"
+                    "Supporting collagen integrity for Skin Boosters"
                   ],
                   "conclusion": "Cells regenerate more effectively when oxidative stress is lowered.",
                   image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -6021,17 +6013,17 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Immunity IV Drip | Strengthen • Defend • Recover | ULANDA",
-              "description": "Strengthen your immune system, speed up recovery & restore resilience with our clinician-delivered Immunity IV Drip. In partnership with 360Medicx Harley Street."
+              "title": "Immune Resilience Support IV Drip | Strengthen • Defend • Recover | ULANDA",
+              "description": "Strengthen your immune system, speed up recovery & restore resilience with our clinician-delivered Immune Resilience Support IV Drip. In partnership with 360Medicx Harley Street."
             },
             "seoHeadings": {
-              "h1": "Immunity IV Drip in Ware SG12 — Strengthen, Defend & Recover",
+              "h1": "Immune Resilience Support IV Drip in Ware SG12 — Strengthen, Defend & Recover",
               "h2": [
-                "What Immunity IV Treats (Recurrent Infections, Low Immunity)",
+                "What Immune Resilience Support IV Treats (Recurrent Infections, Low Immunity)",
                 "What's Inside (High-Dose Vitamin C, Zinc, B-Complex)",
                 "Immunity in Perimenopause & Postpartum",
                 "Why IV Immunity is Stronger Than Supplements",
-                "Book Immunity IV — With 360Medicx Harley Street"
+                "Book Immune Resilience Support IV — With 360Medicx Harley Street"
               ]
             },
             "title": "Immune Resilience",
@@ -6074,7 +6066,7 @@ export const treatments = {
               "content": [
                 "Your immunity is not just a defence system — it is your body’s frontline regenerative engine.",
                 "Modern life, seasonal viruses, chronic stress, poor sleep, perimenopause, and even aesthetic recovery all place demands on your immune system that supplements alone cannot fill.",
-                "The ULANDA Immunity IV Drip, delivered under full medical oversight of 360Medicx, provides high-dose vitamins, minerals, antioxidants and hydration directly into your bloodstream to strengthen immune resilience from the inside out."
+                "The ULANDA Immune Resilience Support IV Drip, delivered under full medical oversight of 360Medicx, provides high-dose vitamins, minerals, antioxidants and hydration directly into your bloodstream to strengthen immune resilience from the inside out."
               ],
               "goals": [
                 "Stronger immune defence",
@@ -6093,7 +6085,7 @@ export const treatments = {
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "detailedBenefits": {
-              "title": "Benefits of Immunity IV",
+              "title": "Benefits of Immune Resilience Support IV",
               "sections": [
                 {
                   "title": "Stronger immune defence",
@@ -6140,7 +6132,7 @@ export const treatments = {
               ]
             },
             "internalSupport": {
-              "title": "Why Immunity IV is Stronger Than",
+              "title": "Why Immune Resilience Support IV is Stronger Than",
               "titleSuffix": "Supplements",
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -6174,8 +6166,8 @@ export const treatments = {
             "ingredients": {
               "title": "What’s",
               "highlight": "Inside",
-              "titleSuffix": "the Immunity IV",
-              "subtitle": "Our clinically formulated Immunity IV contains a powerful combination of:",
+              "titleSuffix": "the Immune Resilience Support IV",
+              "subtitle": "Our clinically formulated Immune Resilience Support IV contains a powerful combination of:",
               "items": [
                 {
                   "title": "High-Dose Vitamin C",
@@ -6206,7 +6198,7 @@ export const treatments = {
             },
             "idealFor": {
               "title": "Who Benefits From",
-              "highlight": "Immunity IV",
+              "highlight": "Immune Resilience Support IV",
               "titleSuffix": "",
               "items": [
                 "Women experiencing recurrent infections (Low immunity linked to stress, hormones, or lifestyle)",
@@ -6223,7 +6215,7 @@ export const treatments = {
               "subtitle": "Perfect Synergies",
               "sections": [
                 {
-                  "title": "Immunity IV + Glutathione IV",
+                  "title": "Immune Resilience Support IV + Glutathione IV",
                   "description": "Ultimate antioxidant & detox combination.",
                   "points": [],
                   "conclusion": "",
@@ -6231,7 +6223,7 @@ export const treatments = {
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
-                  "title": "Immunity IV + NAD+ IV",
+                  "title": "Immune Resilience Support IV + NAD+ IV",
                   "description": "Energy + resilience + mitochondrial strength.",
                   "points": [],
                   "conclusion": "",
@@ -6239,7 +6231,7 @@ export const treatments = {
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
-                  "title": "Immunity IV + B12 IM",
+                  "title": "Immune Resilience Support IV + B12 IM",
                   "description": "Mood, nerve support, immune balance.",
                   "points": [],
                   "conclusion": "",
@@ -6247,7 +6239,7 @@ export const treatments = {
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
-                  "title": "Immunity IV + Aesthetic Recovery",
+                  "title": "Immune Resilience Support IV + Aesthetic Recovery",
                   "description": "Ideal before or after PN, microneedling, biostimulators, peels, or threads.",
                   "points": [],
                   "conclusion": "",
@@ -6255,7 +6247,7 @@ export const treatments = {
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
-                  "title": "Immunity IV + Hormone Support",
+                  "title": "Immune Resilience Support IV + Hormone Support",
                   "description": "Helps counteract inflammation associated with hormonal shifts.",
                   "points": [],
                   "conclusion": "",
@@ -6287,8 +6279,8 @@ export const treatments = {
             "cta": {
               "title": "Strengthen Your Defence.",
               "highlight": "Boost Your Energy.",
-              "description": "Protect Your Wellness. ULANDA’s Immunity IV Therapy — powered by our clinical collaboration with 360Medicx, the CQC-registered Harley Street Longevity Clinic — restores immune balance, reduces inflammation and supports your recovery from the inside out. Because resilience is the foundation of radiance.",
-              "buttonText": "Book Immunity IV Consultation (ULANDA × 360Medicx Harley Street)"
+              "description": "Protect Your Wellness. ULANDA’s Immune Resilience Support IV Therapy — powered by our clinical collaboration with 360Medicx, the CQC-registered Harley Street Longevity Clinic — restores immune balance, reduces inflammation and supports your recovery from the inside out. Because resilience is the foundation of radiance.",
+              "buttonText": "Book Immune Resilience Support IV Consultation (ULANDA × 360Medicx Harley Street)"
             }
           },
           "womens-longevity-iv": {
@@ -6512,7 +6504,7 @@ export const treatments = {
                     "PN fibroblast activation",
                     "PRP platelet quality",
                     "Microneedling healing speed",
-                    "Hydration response to skin boosters"
+                    "Hydration response to Skin Boosters"
                   ],
                   "conclusion": "Hormone-smart internal support = stronger regeneration.",
                   image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -7337,7 +7329,7 @@ export const treatments = {
               "title": "Introduction",
               "content": [
                 "Skincare works from the outside in — but true radiance starts from within.",
-                "The Beauty & Skin Glow IV is ULANDA’s signature internal skin infusion, designed to:"
+                "The Skin Radiance IV is ULANDA’s signature internal skin infusion, designed to:"
               ],
               "goals": [
                 "brighten dull or uneven skin",
@@ -7370,7 +7362,7 @@ export const treatments = {
                 },
                 {
                   "title": "Hormonal changes increase pigmentation",
-                  "description": "The Beauty & Skin Glow IV reduces oxidative stress driving melasma and uneven tone."
+                  "description": "The Skin Radiance IV reduces oxidative stress driving melasma and uneven tone."
                 },
                 {
                   "title": "Inflammation rises with age",
@@ -7385,7 +7377,7 @@ export const treatments = {
             "ingredients": {
               "title": "What’s",
               "highlight": "Inside",
-              "titleSuffix": "the Beauty & Skin Glow IV",
+              "titleSuffix": "the Skin Radiance IV",
               "subtitle": "A carefully designed skin-focused formulation that may include:",
               "items": [
                 {
@@ -7393,7 +7385,7 @@ export const treatments = {
                   "description": "Collagen synthesis + brightening + antioxidant protection"
                 },
                 {
-                  "title": "Glutathione",
+                  "title": "Glutathione IV",
                   "description": "Master antioxidant - pigmentation control - luminosity"
                 },
                 {
@@ -7416,7 +7408,7 @@ export const treatments = {
               "footer": "All formulations are medically assessed & prescribed by 360Medicx."
             },
             "detailedBenefits": {
-              "title": "Benefits of the Beauty & Skin Glow IV",
+              "title": "Benefits of the Skin Radiance IV",
               "sections": [
                 {
                   "title": "SKIN-SPECIFIC BENEFITS",
@@ -7568,7 +7560,7 @@ export const treatments = {
                 "loss of elasticity",
                 "inflammation & barrier breakdown"
               ],
-              "includes": "PN, PRP (optional), skin boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.",
+              "includes": "PN, PRP (optional), Skin Boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.",
             image: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
             },

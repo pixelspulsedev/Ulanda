@@ -17,7 +17,7 @@ const subCategorySEO = {
   },
   // Renew subcategories
   'renew': {
-    'skin-boosters': { title: 'Skin Boosters in Ware SG12 | Renew | ULANDA', description: 'Injectable skin boosters at ULANDA in Ware SG12. Profhilo, Hydrobooster, Jalupro and Lumi Eyes for deep hydration and bio-remodelling.' },
+    'skin-boosters': { title: 'Skin Boosters in Ware SG12 | Renew | ULANDA', description: 'Injectable Skin Boosters at ULANDA in Ware SG12. Profhilo, Hydrobooster, Jalupro and Lumi Eyes for deep hydration and bio-remodelling.' },
     'microneedling': { title: 'Microneedling Treatments in Ware SG12 | Renew | ULANDA', description: 'Medical microneedling at ULANDA in Ware SG12. Collagen induction therapy and RF microneedling for texture, pores and scarring.' },
     'regenerative': { title: 'Regenerative Treatments in Ware SG12 | Renew | ULANDA', description: 'Regenerative skin treatments at ULANDA in Ware SG12. Polynucleotides (PN), PRP and advanced bio-revitalisation.' },
     'injectable-aesthetics': { title: 'Injectable Aesthetics in Ware SG12 | Renew | ULANDA', description: 'Injectable aesthetic treatments at ULANDA in Ware SG12. Anti-wrinkle treatments and natural enhancement options.' }
@@ -31,7 +31,7 @@ const subCategorySEO = {
   },
   // Radiate subcategories
   'radiate': {
-    'iv-therapy': { title: 'IV Therapy in Ware SG12 | Radiate | ULANDA', description: 'IV therapy treatments at ULANDA in Ware SG12. NAD+, glutathione, energy and immunity IV drips for internal wellness.' },
+    'iv-therapy': { title: 'IV Therapy in Ware SG12 | Radiate | ULANDA', description: 'IV therapy treatments at ULANDA in Ware SG12. NAD+, glutathione IV, energy and immune resilience support IV drips for internal wellness.' },
     'im-therapy': { title: 'IM Vitamin Therapy in Ware SG12 | Radiate | ULANDA', description: 'Intramuscular vitamin therapy at ULANDA in Ware SG12. Vitamin B12, D3 and energy-boosting injections.' },
     'weight-management': { title: 'Medical Weight Management in Ware SG12 | Radiate | ULANDA', description: 'Medical weight management at ULANDA in Ware SG12. Clinically supervised programmes for sustainable weight loss.' },
     'longevity': { title: 'Longevity & Cellular Health in Ware SG12 | Radiate | ULANDA', description: 'Longevity and cellular health treatments at ULANDA in Ware SG12. NAD+ therapy and regenerative wellness protocols.' },

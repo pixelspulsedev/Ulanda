@@ -421,7 +421,7 @@ export const blogs = [
             subtitle: "The ULANDA “Inflammation Reset Protocol”",
             content: [
                 "Our personalised protocol includes:",
-                { type: "shoutout", title: "Step 1 — Calm & Repair (Weeks 1–4)", content: { type: "list", style: "check", items: ["PN", "LED", "skin boosters", "barrier-reset skincare"] } },
+                { type: "shoutout", title: "Step 1 — Calm & Repair (Weeks 1–4)", content: { type: "list", style: "check", items: ["PN", "LED", "Skin Boosters", "barrier-reset skincare"] } },
                 { type: "shoutout", title: "Step 2 — Rebuild & Strengthen (Weeks 5–10)", content: { type: "list", style: "check", items: ["biostimulators", "threads (if required)", "regenerative peels", "advanced hydration therapies"] } },
                 { type: "shoutout", title: "Step 3 — Future-Proof (Weeks 10–12)", content: { type: "list", style: "check", items: ["antioxidant strategies", "hormone-aware skincare", "nutrition + stress-modulating guidance"] } },
                 "This is the deeper, medical approach stressed skin requires."
@@ -653,7 +653,7 @@ export const blogs = [
     id: "is-regenerative-aesthetics-safe",
     slug: "is-regenerative-aesthetics-safe",
     title: "Is Regenerative Aesthetics Safe? The Medical Truth Behind the Trend",
-    subtitle: "What Hertfordshire women must know before choosing PN, biostimulators, threads or skin boosters.",
+    subtitle: "What Hertfordshire women must know before choosing PN, biostimulators, threads or Skin Boosters.",
     date: "2024-03-23",
     readTime: "4 min read",
     images: ["/assets/img/blogs/is-regenerative-aesthetics-safe-1.webp", "/assets/img/blogs/is-regenerative-aesthetics-safe-2.webp", "/assets/img/blogs/is-regenerative-aesthetics-safe-3.webp"],
@@ -2843,7 +2843,7 @@ export const blogs = [
         content: [
           "Many women across Ware, Hertford, Hoddesdon and Broxbourne reach their 40s and 50s and suddenly feel like their skin “changed overnight.”",
           "Fine lines, crepiness, thinning and sagging appear faster — and traditional fillers don’t seem to sit as naturally as before.",
-          "There’s a medical reason for this. Menopause dramatically alters the biology of the skin, making regenerative treatments (like PN, skin boosters, biostimulators and threads) more effective than fillers — because they address the hormonal changes directly at the tissue level."
+          "There’s a medical reason for this. Menopause dramatically alters the biology of the skin, making regenerative treatments (like PN, Skin Boosters, biostimulators and threads) more effective than fillers — because they address the hormonal changes directly at the tissue level."
         ]
       },
       {
@@ -2951,7 +2951,7 @@ export const blogs = [
         content: [
           "Across Ware, Hertford, Hoddesdon and Broxbourne, more women are asking the same question: “Why do regenerative treatments look more natural than fillers?”",
           "The answer is simple, biological, and backed by strong scientific evidence: Regeneration restores what your skin used to produce naturally. Fillers add something the body never made in the first place.",
-          "This blog breaks down the medical reasons behind the shift — and why midlife women (35–65) are choosing PN, biostimulators, threads and skin boosters over traditional volume-adding filler."
+          "This blog breaks down the medical reasons behind the shift — and why midlife women (35–65) are choosing PN, biostimulators, threads and Skin Boosters over traditional volume-adding filler."
         ]
       },
       {
@@ -3261,7 +3261,7 @@ export const blogs = [
           "Your journey includes:",
           "Step 1: Clinical Assessment — Understanding your symptoms, triggers and biological patterns.",
           "Step 2: AI Skin Diagnostics — Mapping the barrier, hydration, inflammation and microdamage.",
-          "Step 3: Regenerative Treatment Plan — PN, skin boosters, enzyme facials, or combination therapy.",
+          "Step 3: Regenerative Treatment Plan — PN, Skin Boosters, enzyme facials, or combination therapy.",
           "Step 4: Internal Vitality Support — NAD+ or IV hydration if depletion is identified.",
           "Step 5: Preventive Guidance — Hormonal insights, skincare routine refinement, lifestyle strategies.",
           "Step 6: Visible Results — Expect stronger, calmer, plumper, more resilient skin within 4–8 weeks."
@@ -3663,7 +3663,7 @@ export const blogs = [
         subtitle: "Why Chemical Peels Are More Than “Exfoliation”",
         content: [
           "At ULANDA, chemical peels are regenerative tools: promoting healthier cell turnover, reducing oxidative stress, strengthening the skin barrier, and improving collagen.",
-          "They create the ideal foundation for PN injectables, skin boosters, biostimulators, and microneedling.",
+          "They create the ideal foundation for PN injectables, Skin Boosters, biostimulators, and microneedling.",
           "Chemical peels are often the first step on a long-term regenerative plan for women in their 30s–60s across Hertfordshire."
         ]
       },
@@ -3778,7 +3778,7 @@ export const blogs = [
         content: [
           "ULANDA’s regenerative approach focuses on rebuilding the actual structure of the skin, not masking symptoms.",
           { type: "treatment_highlight", title: "1. Biostimulators (PLLA, CaHA, PDLLA)", items: ["Stimulate powerful collagen production", "Improve elasticity & thickness", "Rebuild dermal architecture", "Strengthen menopausal skin"] },
-          { type: "treatment_highlight", title: "2. Polynucleotide (PN) Injectables", items: ["Improve fibroblast function", "Boost elasticity", "Repair thinning, fragile skin"] },
+          { type: "treatment_highlight", title: "2. Polynucleotides (PN) Injectables", items: ["Improve fibroblast function", "Boost elasticity", "Repair thinning, fragile skin"] },
           { type: "treatment_highlight", title: "3. Threads (PDO / Definisse)", items: ["Mechanical lift", "Long-term collagen stimulation", "Structural support"] },
           { type: "treatment_highlight", title: "4. Skin Boosters", items: ["Hydrate", "Improve surface elasticity", "Enhance glow"] },
           { type: "treatment_highlight", title: "5. Microneedling", items: ["Collagen induction therapy", "Texture + firmness improvement"] },
@@ -3816,7 +3816,7 @@ export const blogs = [
         title: "6. Personalisation & Precision",
         content: [
           "Collagen Decline Is Universal — But the Pattern Is Individual. ULANDA creates collagen-regeneration plans using AI Skin Analysis and Clinical Assessment.",
-          "Your Personal Collagen Plan May Include: biostimulators, PN, threads, microneedling, BioRePeel, skin boosters, longevity IVs, seasonal optimisation.",
+          "Your Personal Collagen Plan May Include: biostimulators, PN, threads, microneedling, BioRePeel, Skin Boosters, longevity IVs, seasonal optimisation.",
           "Mini Case Example: A 48-year-old client from Broxbourne with early jowls, dullness and thinning skin received PLLA biostimulation + PN + NAD+. At 12 weeks, her jawline sharpened naturally, her cheeks regained structure, and her skin felt thicker and more resilient."
         ]
       },
@@ -4214,7 +4214,7 @@ export const blogs = [
           "✔ NO RISK OF OVERFILLING: They do not add artificial bulk.",
           "✔ SUBTLE & AUTHENTIC: You look fresher, never altered.",
           "✔ IDEAL FOR MENOPAUSAL SKIN: Replenishes collagen lost due to oestrogen decline.",
-          "✔ LAYERED SYNERGY: Combine beautifully with PN, microneedling, skin boosters and threads."
+          "✔ LAYERED SYNERGY: Combine beautifully with PN, microneedling, Skin Boosters and threads."
         ]
       },
       {
@@ -4343,7 +4343,7 @@ export const blogs = [
         title: "5. Personalisation & Precision",
         content: [
           "Hormonal ageing isn’t the same for every woman. ULANDA uses AI diagnostics + clinical mapping to determine collagen density, fat pad descent, and hormonal triggers.",
-          { type: "treatment_highlight", title: "1. Polynucleotide (PN) Injectables", items: ["Repair thin, fragile menopausal skin", "Rebuild elasticity", "Improve glow + resilience", "Exceptional for under-eyes & crepiness"] },
+          { type: "treatment_highlight", title: "1. Polynucleotides (PN) Injectables", items: ["Repair thin, fragile menopausal skin", "Rebuild elasticity", "Improve glow + resilience", "Exceptional for under-eyes & crepiness"] },
           { type: "treatment_highlight", title: "2. Biostimulators (PLLA / CaHA / PDLLA)", items: ["Deep collagen regeneration", "Thickness improvement", "Sculpting & structure", "Long-lasting renewal"] },
           { type: "treatment_highlight", title: "3. Threads (PDO / Definisse)", items: ["Collagen-stimulating lift", "Jawline redefining", "Support for sagging hormonal skin"] },
           { type: "treatment_highlight", title: "4. Skin Boosters (HA-based)", items: ["Hydration for dryness", "Improved plumpness", "Enhanced radiance"] },
@@ -5915,7 +5915,7 @@ export const blogs = [
             "Skin Boosters: Hydrate menopausal dryness, increase glow.",
             "Microneedling: Stimulate collagen, improve post-inflammatory pigmentation."
           ]},
-          { type: "shoutout", title: "Mini Case Example", content: "A 52-year-old client from Hertford came with melasma worsened by past IPL. We used PN + BioRePeel + skin boosters + NAD+. Within 12 weeks her pigmentation lightened significantly, her skin thickened, and she reported 'feeling like my face is mine again.'" }
+          { type: "shoutout", title: "Mini Case Example", content: "A 52-year-old client from Hertford came with melasma worsened by past IPL. We used PN + BioRePeel + Skin Boosters + NAD+. Within 12 weeks her pigmentation lightened significantly, her skin thickened, and she reported 'feeling like my face is mine again.'" }
         ]
       },
       {
@@ -6098,7 +6098,7 @@ export const blogs = [
             "Redensity 1"
           ]},
           "Ideal for: dryness, dullness, crepey texture, early wrinkles, menopausal dehydration, “tired skin” days, and quick glow ahead of events.",
-          "But… skin boosters do not regenerate collagen or repair ageing at a structural level. They give the glow, not the rebuild."
+          "But… Skin Boosters do not regenerate collagen or repair ageing at a structural level. They give the glow, not the rebuild."
         ]
       },
       {
@@ -6208,7 +6208,7 @@ export const blogs = [
       title: "PN vs Skin Boosters in Ware SG12 | Menopause Glow & Regeneration | ULANDA",
       description: "Confused between PN and Skin Boosters? ULANDA explains the difference for menopausal skin. Get the glow today and regenerate for tomorrow in Ware, Hertfordshire.",
       keywords: [
-        "PN vs skin boosters Ware SG12",
+        "PN vs Skin Boosters Ware SG12",
         "menopause skin hydration Hertfordshire",
         "polynucleotides Hertford",
         "Seventy Hyal menopause SG12",
@@ -6233,7 +6233,7 @@ export const blogs = [
       },
       {
         type: 'paragraph',
-        text: "At ULANDA in Ware (SG12), serving Hertford, Hoddesdon, Broxbourne, Stanstead Abbotts and surrounding Hertfordshire villages, two regenerative treatments stand out for menopausal skin: Skin Boosters and Polynucleotide (PN) injectables."
+        text: "At ULANDA in Ware (SG12), serving Hertford, Hoddesdon, Broxbourne, Stanstead Abbotts and surrounding Hertfordshire villages, two regenerative treatments stand out for menopausal skin: Skin Boosters and Polynucleotides (PN) injectables."
       },
       {
         type: 'paragraph',
@@ -6256,7 +6256,7 @@ export const blogs = [
           { type: 'heading', level: 4, text: "Skin Boosters (Hyaluronic Acid)" },
           "Best for: Hydration, Plumpness, Dewy radiance, Fine dehydration lines.",
           "HOW THEY WORK: Skin Boosters infuse hyaluronic acid into the dermis, improving moisture retention and giving a smoother, more luminous look.",
-          { type: 'heading', level: 4, text: "Polynucleotide (PN) Injectables" },
+          { type: 'heading', level: 4, text: "Polynucleotides (PN) Injectables" },
           "Best for: Collagen regeneration, Elastin production, Firmness & resilience, Thinning, fragile, menopausal skin.",
           "HOW THEY WORK: PN stimulates fibroblasts, improves DNA repair and accelerates tissue regeneration. Results develop slowly — but they are structural, long-term and natural.",
           "The Key Difference: Skin Boosters improve hydration. PN rebuilds the skin. This is why PN has become the gold standard for menopausal skin regeneration."
@@ -6348,9 +6348,9 @@ export const blogs = [
       keywords: [
         "PN treatment Ware SG12",
         "menopausal skin regeneration Hertfordshire",
-        "skin boosters for menopause Hertford",
+        "Skin Boosters for menopause Hertford",
         "polynucleotide injections Hoddesdon",
-        "PN vs skin boosters SG12",
+        "PN vs Skin Boosters SG12",
         "natural midlife skin rejuvenation Hertfordshire villages",
         "under-eye PN therapy Ware"
       ]
@@ -6462,7 +6462,7 @@ export const blogs = [
           "Polynucleotides are not hype — they are one of the most advanced, natural-looking and results-driven treatments for women in midlife.",
           "Whether you’re facing menopausal crepiness, dark circles, thinning skin, or just want long-term regeneration rather than quick fixes, PN delivers what filler cannot: true biological repair.",
           "At ULANDA in Ware (SG12), we specialise in personalised PN treatment plans tailored to midlife skin and regenerative longevity.",
-          "Book Your Polynucleotide Consultation in Ware (SG12). Serving Hertford, Hoddesdon, Broxbourne, Stanstead Abbotts, Great Amwell & surrounding Hertfordshire villages.",
+          "Book Your Polynucleotides Consultation in Ware (SG12). Serving Hertford, Hoddesdon, Broxbourne, Stanstead Abbotts, Great Amwell & surrounding Hertfordshire villages.",
           "Glow today. Regenerate tomorrow. Age beautifully."
         ]
       }
@@ -6582,7 +6582,7 @@ export const blogs = [
       title: "PN vs Skin Boosters SG12 | Regenerative Skin Guide | ULANDA",
       description: "Polynucleotides or Skin Boosters? ULANDA SG12 explains the difference for menopausal skin, under-eyes & elasticity. Choose the right regenerative path in Ware.",
       keywords: [
-        "PN vs skin boosters SG12",
+        "PN vs Skin Boosters SG12",
         "menopause skincare guide Hertfordshire",
         "polynucleotides Ware",
         "Best skin booster Hertford",
@@ -7016,7 +7016,7 @@ export const blogs = [
   {
     id: 'skin-boosters-vs-polynucleotide-pn-injectables-guide',
     slug: 'skin-boosters-vs-polynucleotide-pn-injectables-guide',
-    title: 'Skin Boosters vs Polynucleotide (PN) Injectables — What’s the Real Difference?',
+    title: 'Skin Boosters vs Polynucleotides (PN) Injectables — What’s the Real Difference?',
     date: 'January 14, 2026',
     category: 'Regenerative Aesthetics',
     image: '/assets/img/treatments/restore/polynucleotides.jpg',
@@ -7024,7 +7024,7 @@ export const blogs = [
     content: [
       {
         type: 'paragraph',
-        text: "Skin Boosters and Polynucleotide (PN) injectables are two of the most in-demand regenerative treatments — but they are not interchangeable. Both improve skin quality, hydration and radiance, yet each works on a different biological level and is suited to different skin needs."
+        text: "Skin Boosters and Polynucleotides (PN) injectables are two of the most in-demand regenerative treatments — but they are not interchangeable. Both improve skin quality, hydration and radiance, yet each works on a different biological level and is suited to different skin needs."
       },
       {
         type: 'paragraph',
@@ -7036,7 +7036,7 @@ export const blogs = [
         subtitle: "Hydration vs Regeneration — Two Treatments, Two Biological Pathways",
         content: [
           "What Exactly Are Skin Boosters? Injectable hyaluronic acid treatments designed to deeply hydrate. Work by pulling moisture into dermis, improving plumpness, reducing crepiness. Do not change facial structure.",
-          "What Are Polynucleotide (PN) Injectables? Uses purified DNA fragments to regenerate skin at cellular level. Work by activating fibroblasts (collagen + elastin), improving dermal thickness, repairing autodamage. Deliver deep regenerative change.",
+          "What Are Polynucleotides (PN) Injectables? Uses purified DNA fragments to regenerate skin at cellular level. Work by activating fibroblasts (collagen + elastin), improving dermal thickness, repairing autodamage. Deliver deep regenerative change.",
           "Clinical Insight: Skin Boosters = Water content. PN = Collagen activation."
         ]
       },
@@ -7117,10 +7117,10 @@ export const blogs = [
       title: "Skin Boosters vs PN Ware SG12 | Regenerative Guide | ULANDA",
       description: "Skin Boosters vs Polynucleotides - what's the difference? Clinical guide to hydration vs regeneration for midlife skin in Hertfordshire.",
       keywords: [
-        "skin boosters Ware SG12",
+        "Skin Boosters Ware SG12",
         "PN injectables Hertfordshire",
         "midlife skin regeneration Hertford",
-        "skin boosters vs PN SG12",
+        "Skin Boosters vs PN SG12",
         "polynucleotide treatment Hoddesdon"
       ]
     }
@@ -7136,7 +7136,7 @@ export const blogs = [
     content: [
       {
         type: 'paragraph',
-        text: "If you’ve been searching for brighter, smoother, better-hydrated skin in Ware (SG12), Hertford or the surrounding Hertfordshire villages, you’ve probably heard about skin boosters. They’re one of the fastest-growing treatments in the UK because they deliver what skincare cannot: deep, injectable hydration and a fresh, healthy glow from within."
+        text: "If you’ve been searching for brighter, smoother, better-hydrated skin in Ware (SG12), Hertford or the surrounding Hertfordshire villages, you’ve probably heard about Skin Boosters. They’re one of the fastest-growing treatments in the UK because they deliver what skincare cannot: deep, injectable hydration and a fresh, healthy glow from within."
       },
       {
         type: 'paragraph',
@@ -7148,7 +7148,7 @@ export const blogs = [
         subtitle: "What Are Skin Boosters?",
         content: [
           "Skin boosters are injectable hyaluronic acid (HA) treatments designed to: deeply hydrate, smooth fine lines, improve texture, boost radiance, plump the skin subtly, and restore bounce and softness.",
-          "Unlike fillers, skin boosters: do NOT add volume, do NOT change your face shape, do NOT act as wrinkle-fillers. They work by drawing water into the skin and improving the quality of the dermis.",
+          "Unlike fillers, Skin Boosters: do NOT add volume, do NOT change your face shape, do NOT act as wrinkle-fillers. They work by drawing water into the skin and improving the quality of the dermis.",
           "Best Areas Treated: cheeks, midface, jawline, neck, hands, decolletage, smoker’s lines, crepey texture."
         ]
       },
@@ -7222,7 +7222,7 @@ export const blogs = [
       title: "Skin Boosters Ware SG12 | Glow & Hydration Guide | ULANDA",
       description: "Everything you need to know about Skin Boosters in Ware. Profhilo, Hydrobooster & Seventy Hyal treatments for hydration & glow in Hertfordshire.",
       keywords: [
-        "skin boosters Ware SG12",
+        "Skin Boosters Ware SG12",
         "Profhilo Ware",
         "Hydrobooster Hertfordshire",
         "best skin booster Hertford",
@@ -7343,7 +7343,7 @@ export const blogs = [
       },
       {
         type: 'paragraph',
-        text: "At ULANDA in Ware (SG12), we use regenerative chemical peels and advanced skin boosters to restore hydration, improve elasticity and revive the natural glow that hormonal changes often diminish."
+        text: "At ULANDA in Ware (SG12), we use regenerative chemical peels and advanced Skin Boosters to restore hydration, improve elasticity and revive the natural glow that hormonal changes often diminish."
       },
       {
         type: 'section',
@@ -7351,7 +7351,7 @@ export const blogs = [
         subtitle: "Why Menopause Alters Your Skin — The Biological & Hormonal Mechanisms",
         content: [
           "Key Scientific Changes: Collagen loss (up to 30% in early menopause), Reduced sebum and ceramide production (Dryness), Slower cell turnover (Dullness), Pigmentation changes (Melasma), Inflammation increases (Inflammageing).",
-          "These changes make menopausal skin uniquely responsive to chemical peels and skin boosters, which work on deeper regenerative pathways."
+          "These changes make menopausal skin uniquely responsive to chemical peels and Skin Boosters, which work on deeper regenerative pathways."
         ]
       },
       {
@@ -7389,7 +7389,7 @@ export const blogs = [
         type: 'section',
         title: "5. Thought Leadership & Future Trends",
         content: [
-          "Emerging regenerative breakthroughs include: Exosome-infused chemical peels, Peptide-based skin boosters, Mitochondria-targeted antioxidants, Hybrid PN–HA boosters.",
+          "Emerging regenerative breakthroughs include: Exosome-infused chemical peels, Peptide-based Skin Boosters, Mitochondria-targeted antioxidants, Hybrid PN–HA boosters.",
           "ULANDA stays ahead of the curve by continually integrating evidence-backed technologies."
         ]
       },
@@ -7397,7 +7397,7 @@ export const blogs = [
         type: 'section',
         title: "Conclusion",
         content: [
-          "Perimenopause and menopause may bring change — but they can also bring renewal. With a regenerative combination of chemical peels, skin boosters and longevity support, your skin can remain vibrant, vibrant and luminous.",
+          "Perimenopause and menopause may bring change — but they can also bring renewal. With a regenerative combination of chemical peels, Skin Boosters and longevity support, your skin can remain vibrant, vibrant and luminous.",
           "Book your ULANDA Menopause Skin Regeneration Consultation in Ware (SG12). Serving Hertford, Hoddesdon, Broxbourne, Stanstead Abbotts, Great Amwell and all nearby villages."
         ]
       }
@@ -7405,10 +7405,10 @@ export const blogs = [
     relatedTreatments: ['biorepeel', 'profhilo', 'jalupro'],
     seo: {
       title: "Chemical Peels & Boosters for Menopause Ware SG12 | ULANDA",
-      description: "Restore glow during perimenopause with chemical peels & skin boosters. Regenerative advice for midlife skin changes in Hertfordshire.",
+      description: "Restore glow during perimenopause with chemical peels & Skin Boosters. Regenerative advice for midlife skin changes in Hertfordshire.",
       keywords: [
         "menopause chemical peels Ware SG12",
-        "skin boosters Hertfordshire",
+        "Skin Boosters Hertfordshire",
         "perimenopause rejuvenation Hertford",
         "midlife skin glow Hoddesdon",
         "BioRePeel Hertfordshire",
@@ -7788,7 +7788,7 @@ export const blogs = [
       description: "A clear menopause guide to PN, Skin Boosters, Biostimulators & Threads. Understand the difference and find the right regenerative treatment in Hertfordshire.",
       keywords: [
         "menopause skin treatment Ware SG12",
-        "PN vs skin boosters Hertfordshire",
+        "PN vs Skin Boosters Hertfordshire",
         "regenerative face lift Hertford",
         "biostimulator menopause SG12",
         "PDO threads Hoddesdon",
@@ -7813,7 +7813,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        content: "The mistake most clinics make? Using filler. Filler often looks puffy, unnatural, or worsens shadows in midlife skin. At ULANDA in Ware (SG12), we use a regenerative-only method that repairs the biology of the under-eyes: PN injectables, skin boosters and structural threads."
+        content: "The mistake most clinics make? Using filler. Filler often looks puffy, unnatural, or worsens shadows in midlife skin. At ULANDA in Ware (SG12), we use a regenerative-only method that repairs the biology of the under-eyes: PN injectables, Skin Boosters and structural threads."
       },
       {
         type: "heading",
@@ -7841,7 +7841,7 @@ export const blogs = [
       {
         type: "heading",
         level: 3,
-        text: "1️⃣ Polynucleotide (PN) Injectables — The Foundation"
+        text: "1️⃣ Polynucleotides (PN) Injectables — The Foundation"
       },
       {
         type: "paragraph",
@@ -7854,7 +7854,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        content: "Once the structure begins to repair through PN, skin boosters support smoothness, hydration, bounce, and radiance. Especially effective when dryness and dullness are menopausal symptoms."
+        content: "Once the structure begins to repair through PN, Skin Boosters support smoothness, hydration, bounce, and radiance. Especially effective when dryness and dullness are menopausal symptoms."
       },
       {
         type: "heading",
@@ -7898,7 +7898,7 @@ export const blogs = [
       },
       {
         type: "paragraph",
-        content: "Under-eye ageing in midlife isn’t a filler issue — it’s a collagen issue, a hormonal issue, and a regenerative biology issue. PN, skin boosters and threads work because they restore strength, elasticity and structure — naturally."
+        content: "Under-eye ageing in midlife isn’t a filler issue — it’s a collagen issue, a hormonal issue, and a regenerative biology issue. PN, Skin Boosters and threads work because they restore strength, elasticity and structure — naturally."
       }
     ],
     relatedTreatments: ["polynucleotides", "thread-lifts", "lumi-eyes", "profhilo"],

@@ -172,6 +172,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/conditions/menopause-hormone-skin-changes/hormonal-breakouts</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/conditions/pigmentation-and-skin-tone</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -223,31 +228,6 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/conditions/internal-wellness/nutrient-deficiency-skin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/hormonal-breakouts</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/dryness-sensitivity</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/hormonal-pigmentation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/loss-of-definition</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -767,16 +747,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/renew/body-tightening</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/renew/body-tightening/body-contouring</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/treatments/restore</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -873,6 +843,11 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/body-tightening</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/structural-lifting/body-contouring</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
