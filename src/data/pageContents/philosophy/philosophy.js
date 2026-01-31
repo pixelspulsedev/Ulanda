@@ -60,7 +60,7 @@ export const philosophyData = {
         'Body Peels',
       ],
       perfectFor: 'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.',
-      image: '/assets/img/treatments/refresh/landing.jpg',
+      image: '/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp',
     },
     renew: {
       title: "Strengthen Your Skin From Within",

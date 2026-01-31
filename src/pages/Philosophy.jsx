@@ -74,7 +74,7 @@ export default function Philosophy() {
       perfectFor:
         'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.',
       image:
-        'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=2070',
+        '/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp',
     },
     renew: {
       title: (
@@ -215,7 +215,7 @@ export default function Philosophy() {
           </FadeInWhenVisible>
           <div className="aspect-video w-full overflow-hidden">
             <img
-              src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920"
+              src="/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp"
               alt=""
               fetchpriority="high"
               className="w-full h-full object-cover"

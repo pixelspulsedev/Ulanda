@@ -15,9 +15,9 @@ export const individualConditions = [
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
     science_removed: {
-      title: "Whatâ€™s Really Happening â€”",
+      title: "What’s Really Happening -",
       highlight: "Why Skin Looks Dull",
-      description: "Dull skin isnâ€™t just dryness â€” itâ€™s a reflection of:",
+      description: "Dull skin isn’t just dryness - it’s a reflection of:",
       items: [
         {
           number: '01',
@@ -32,7 +32,7 @@ export const individualConditions = [
         {
           number: '03',
           title: 'Weakened Skin Barrier',
-          description: 'Skin struggles to retain moisture â†’ tightness + dullness.'
+          description: 'Skin struggles to retain moisture -> tightness + dullness.'
         },
         {
           number: '04',
@@ -42,7 +42,7 @@ export const individualConditions = [
         {
           number: '05',
           title: 'Oxidative Stress & Inflammation',
-          description: 'Stress, lack of sleep, UV damage â†’ a â€œtired, flatâ€ complexion.'
+          description: 'Stress, lack of sleep, UV damage -> a “tired, flat” complexion.'
         },
         {
           number: '06',
@@ -50,20 +50,20 @@ export const individualConditions = [
           description: 'Low B12, dehydration, poor sleep, low NAD+ levels all show on the skin.'
         }
       ],
-      footer: "This is why topical skincare alone cannot resolve dullness â€” the issue is deeper and multifactorial."
+      footer: "This is why topical skincare alone cannot resolve dullness - the issue is deeper and multifactorial."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Dull, Dehydrated Skin â€”",
+      title: "How ULANDA Treats Dull, Dehydrated Skin -",
       highlight: "The Regenerative Model",
       items: [
         {
           title: "Renew",
-          subtitle: "(Cellular Hydration & Repair â€“ CORE CATEGORY)",
+          subtitle: "(Cellular Hydration & Repair – CORE CATEGORY)",
           description: "These are the strongest treatments for dull skin:",
           image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Skin Boosters (Profhilo, Definisse Hydrobooster, Seventy Hyal)", desc: "Intense, injectable hydration â†’ instant glow + smoother texture." },
+            { name: "Skin Boosters (Profhilo, Definisse Hydrobooster, Seventy Hyal)", desc: "Intense, injectable hydration -> instant glow + smoother texture." },
             { name: "Polynucleotides (PN)", desc: "Restores elasticity, reduces inflammation, repairs dullness at a cellular level." },
             { name: "PRP", desc: "Activates cell renewal + collagen." },
             { name: "Microneedling / RF Microneedling", desc: "Improves tone, texture and luminosity." }
@@ -83,7 +83,7 @@ export const individualConditions = [
         },
         {
           title: "Restore",
-          subtitle: "(Structural Support â€” if dullness is linked to ageing)",
+          subtitle: "(Structural Support - if dullness is linked to ageing)",
           description: "Mild structural sagging can cause tired appearance:",
           image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -147,27 +147,27 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Enlarged Pores",
-      description: "Enlarged pores are a common midlife concern, especially for women entering their late 30s, 40s, and beyond. They often make the skin appear rough, aged, uneven or oily â€” and makeup tends to sit inside the pores, making them more visible.",
+      description: "Enlarged pores are a common midlife concern, especially for women entering their late 30s, 40s, and beyond. They often make the skin appear rough, aged, uneven or oily - and makeup tends to sit inside the pores, making them more visible.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1671717724550-fd7e92333291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5sYXJnZWQlMjBwb3Jlc3xlbnwwfDF8MHx8fDA%3D"
     },
     science_removed: {
-      title: "Whatâ€™s Really Happening â€”",
+      title: "What’s Really Happening -",
       highlight: "Why Pores Enlarge",
       description: "Pores appear larger when:",
       items: [
-        { number: '01', title: 'Collagen Weakens Around the Pore Walls', description: 'The pore loses its tight â€œsupport ring,â€ making it appear larger.' },
+        { number: '01', title: 'Collagen Weakens Around the Pore Walls', description: 'The pore loses its tight “support ring,” making it appear larger.' },
         { number: '02', title: 'Skin Becomes Thinner (Menopause-related)', description: 'Thinner skin exaggerates pore visibility.' },
-        { number: '03', title: 'Slower Cell Turnover', description: 'Dead skin builds up â†’ pores stretch and become clogged.' },
+        { number: '03', title: 'Slower Cell Turnover', description: 'Dead skin builds up -> pores stretch and become clogged.' },
         { number: '04', title: 'Sebum Changes (Perimenopause)', description: 'Hormone fluctuations cause periods of dryness and excess oil, both making pores more visible.' },
         { number: '05', title: 'Sun Damage', description: 'UV breaks collagen around pores over time.' },
         { number: '06', title: 'Genetics & Ageing', description: 'Some people naturally have larger pores, which worsen with midlife changes.' },
       ],
-      footer: "At ULANDA, we treat enlarged pores by strengthening the skin from within through collagen regeneration, resurfacing and cellular repair â€” not harsh or stripping treatments."
+      footer: "At ULANDA, we treat enlarged pores by strengthening the skin from within through collagen regeneration, resurfacing and cellular repair - not harsh or stripping treatments."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Enlarged Pores â€”",
+      title: "How ULANDA Treats Enlarged Pores -",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -184,21 +184,21 @@ export const individualConditions = [
         },
         {
           title: "Renew",
-          subtitle: "(Collagen Activation â€” CORE CATEGORY)",
+          subtitle: "(Collagen Activation – CORE CATEGORY)",
           description: "The most effective pore treatments regenerate the dermis:",
           image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Microneedling", desc: "Stimulates collagen around the pores â†’ reduces pore diameter." },
+            { name: "Microneedling", desc: "Stimulates collagen around the pores -> reduces pore diameter." },
             { name: "RF Microneedling", desc: "Combines heat + collagen induction for maximum tightening." },
             { name: "Polynucleotides (PN)", desc: "Improve elasticity + reduce inflammation contributing to enlarged pores." },
             { name: "PRP", desc: "Improves overall skin quality + pore refinement." },
-            { name: "Skin Boosters (Profhilo / Hydrobooster)", desc: "Hydration plumps and smooths the skin â†’ reducing visibility." }
+            { name: "Skin Boosters (Profhilo / Hydrobooster)", desc: "Hydration plumps and smooths the skin -> reducing visibility." }
           ]
         },
         {
           title: "Restore",
-          subtitle: "(Structural Support â€” for ageing-related pore widening)",
+          subtitle: "(Structural Support - for ageing-related pore widening)",
           description: "Structural tightening for advanced cases:",
           image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -260,13 +260,13 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Fine Lines & Wrinkles",
-      description: "Fine lines and wrinkles are one of the earliest signs of ageing â€” often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
+      description: "Fine lines and wrinkles are one of the earliest signs of ageing - often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww"
+      image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-anti-wrinkes-botox.webp"
     },
     science_removed: {
-      title: "Whatâ€™s Really Happening â€”",
+      title: "What’s Really Happening -",
       highlight: "Why Fine Lines Form",
       description: "Fine lines develop when:",
       items: [
@@ -276,10 +276,10 @@ export const individualConditions = [
         { number: '04', title: 'Hormonal decline', description: 'Accelerates cellular ageing and dryness.' },
         { number: '05', title: 'Repetitive movement', description: 'Expression lines deepen without dermal support.' }
       ],
-      footer: "Surface-only treatments rarely create lasting change â€” the issue is structural and cellular."
+      footer: "Surface-only treatments rarely create lasting change - the issue is structural and cellular."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Fine Lines â€”",
+      title: "How ULANDA Treats Fine Lines -",
       highlight: "The Regenerative Model",
       items: [
         {
@@ -339,7 +339,7 @@ export const individualConditions = [
         { time: "Month 1", treatment: "PN + Profhilo" },
         { time: "Month 2", treatment: "Microneedling + PRP" },
         { time: "Month 3", treatment: "Biostimulator for deeper structural change" },
-        { time: "Month 4â€“6", treatment: "Booster sessions + Radiate Wellness infusions" }
+        { time: "Month 4-6", treatment: "Booster sessions + Radiate Wellness infusions" }
       ]
     },
     whyChoose: {
@@ -373,31 +373,31 @@ export const individualConditions = [
     hero: {
       title: "Regenerative Treatments for",
       highlight: "Skin Laxity",
-      description: "Skin laxity â€” sagging of the face, jawline and neck â€” is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
+      description: "Skin laxity - sagging of the face, jawline and neck - is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/skin-laxity-hero.webp"
     },
     science_removed: {
-      title: "Whatâ€™s Really Happening â€”",
+      title: "What’s Really Happening -",
       highlight: "The Science of Laxity",
       description: "Sagging appears when deep support systems weaken:",
       items: [
-        { number: '01', title: 'Collagen & Elastin Breakdown', description: '1â€“2% yearly decline; up to 30% loss in early menopause.' },
+        { number: '01', title: 'Collagen & Elastin Breakdown', description: '1-2% yearly decline; up to 30% loss in early menopause.' },
         { number: '02', title: 'Fat Pad Shifting', description: 'Midface volume descends, softening the jawline.' },
         { number: '03', title: 'Ligament Weakening', description: 'Facial retaining ligaments loosen around the jowls.' },
-        { number: '04', title: 'Thinner Skin', description: 'Hormonal decline thins the dermis â†’ less lift.' },
+        { number: '04', title: 'Thinner Skin', description: 'Hormonal decline thins the dermis -> less lift.' },
         { number: '05', title: 'Muscle Pull vs Weak Support', description: 'Downward pull overpowers depleted support structures.' }
       ],
-      footer: "Laxity is structural and cellular â€” creams or surface-only fixes cannot lift."
+      footer: "Laxity is structural and cellular - creams or surface-only fixes cannot lift."
     },
     treatmentModel: {
-      title: "How ULANDA Treats Laxity â€”",
+      title: "How ULANDA Treats Laxity -",
       highlight: "The Regenerative Model",
       items: [
         {
           title: "Restore",
-          subtitle: "(Structural Lifting â€” CORE)",
+          subtitle: "(Structural Lifting - CORE)",
           description: "Primary lift for jawline, cheeks and neck:",
           image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -2384,8 +2384,8 @@ export const individualConditions = [
       description: "Menopause neck ageing is rapid and delicate. We thicken, smooth and tighten the neck with regeneration, not overfilling or harsh resurfacing.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1671718111719-52897ffd6f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1671718111719-52897ffd6f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-neck-skin.webp",
+      placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-neck-skin.webp"
     },
     science_removed: {
       title: "Why the Neck Ages Fast in Menopause â€”",
@@ -2608,7 +2608,7 @@ export const individualConditions = [
       description: "Rough, uneven, crepey texture in menopause needs stacked regeneration â€” collagen renewal, hydration rebuilding and dermal strengthening.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1615997380705-504484cd99c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmVjayUyMGNyZXBpbmVzc3xlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp"
     },
     science_removed: {
       title: "Why Texture Declines in Menopause â€”",
@@ -3046,7 +3046,7 @@ export const individualConditions = [
       description: "Patchy, dull, uneven tone needs calm regeneration â€” strengthening barrier, boosting turnover and hydrating deeply for natural clarity.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1609542499975-4ca8bde933db?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-pigmentation-uneven-skin-tone.webp"
     },
     science_removed: {
       title: "Why Tone Becomes Uneven â€”",

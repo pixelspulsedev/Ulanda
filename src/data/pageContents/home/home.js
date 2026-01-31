@@ -29,8 +29,8 @@ export const homePageData = {
         'Body Peels',
       ],
       perfectFor: "Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.",
-      image: "/assets/img/home/refresh-pathway.webp",
-      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp",
+      placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp"
     },
     renew: {
       id: "renew",

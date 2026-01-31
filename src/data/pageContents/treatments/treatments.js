@@ -5,8 +5,8 @@ export const treatments = {
     "title": "Refresh",
     "subtitle": "Gently renews the surface of your skin for instant brightness and hydration.",
     "description": "The Refresh pathway focuses on surface-level rejuvenation. It is designed to clear congestion, remove dead skin cells, and flood the skin with hydration and nutrients. This is the starting point for healthy skin function.",
-    image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp",
+    placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp",
     "subCategories": {
       "signature-facials": {
         "title": "Signature Facials",
@@ -46,8 +46,8 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            image: "https://images.unsplash.com/photo-1643684391140-c5056cfd3436?q=80&w=2070&auto=format&fit=crop",
-            placeholderUrl: "https://images.unsplash.com/photo-1643684391140-c5056cfd3436?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/refresh/skin-clinic-ware-dermaplaning.webp",
+            placeholderUrl: "/assets/img/treatments/refresh/skin-clinic-ware-dermaplaning.webp",
             "introduction": {
               "title": "What is Dermaplaning?",
               "content": [
@@ -624,8 +624,8 @@ export const treatments = {
             }
           },
           "oxygen-vitamin-infusion-facial": {
-            image: "https://plus.unsplash.com/premium_photo-1755892625772-78fdf0a512b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3h5Z2VuJTIwYW5kJTIwdml0YW1pbiUyMGZhY2UlMjB0cmVhdG1lbnR8ZW58MHwxfDB8fHww",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1755892625772-78fdf0a512b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3h5Z2VuJTIwYW5kJTIwdml0YW1pbiUyMGZhY2UlMjB0cmVhdG1lbnR8ZW58MHwxfDB8fHww",
+            image: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+            placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             "id": "oxygen-vitamin-infusion-facial",
             "booking": {
               "price": 110,
@@ -684,8 +684,6 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "category": "Refresh",
             "description": "A deeply hydrating, oxygen-rich infusion that brightens, revitalises and energises midlife skin.",
             "introduction": {
@@ -709,14 +707,14 @@ export const treatments = {
                 "text1": "Ideally suited for perimenopause and menopause skin prone to dryness, dullness and fatigue.",
                 "text2": "This treatment boosts circulation, hydration, glow and cellular energy."
               },
-              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              image: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+              placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
               "titleSuffix": "This Facial",
-              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              image: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+              placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
               "points": [
                 {
                   "title": "Hormone-ready formulations",
@@ -952,8 +950,8 @@ export const treatments = {
             "subtitle": "Ultra-smooth finish • Makeup-ready glow",
             "category": "Refresh",
             "description": "A manual exfoliation method using a sterile blade to remove vellus hair (peach fuzz) and dead skin cells.",
-            image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "/assets/img/treatments/refresh/skin-clinic-ware-dermaplaning.webp",
+            placeholderUrl: "/assets/img/treatments/refresh/skin-clinic-ware-dermaplaning.webp",
             "booking": {
               "price": 50,
               "duration": 30,
@@ -1079,8 +1077,8 @@ export const treatments = {
       "light-based": {
         "title": "Light-Based",
         "description": "LED technology to calm and rejuvenate.",
-        image: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
-        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
+        image: "/assets/img/treatments/refresh/aesthetic-treatment-light-based-theraphy.png.webp",
+        placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-light-based-theraphy.png.webp",
         "treatments": {
           "led-light-therapy": {
               image: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
@@ -2277,8 +2275,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://plus.unsplash.com/premium_photo-1679750866883-b1c549f65da9?q=80&w=2070&auto=format&fit=crop",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1679750866883-b1c549f65da9?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
+            placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
             "category": "Renew",
             "description": "Amino-acid infused regenerative booster",
             "introduction": {
@@ -2295,8 +2293,8 @@ export const treatments = {
                 "text1": "Bio-revitalisation.",
                 "text2": "Amino acids for collagen stimulation."
               },
-            image: "/assets/img/treatments/Skin boosters/Jalupro.webp",
-            placeholderUrl: "/assets/img/treatments/Skin boosters/Jalupro.webp",
+            image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
+            placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2354,8 +2352,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://plus.unsplash.com/premium_photo-1679439492707-c08bca4c2ed2?q=80&w=2070&auto=format&fit=crop",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1679439492707-c08bca4c2ed2?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-seventy-hyal.png.webp",
+            placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-seventy-hyal.png.webp",
             "category": "Renew",
             "description": "High-intensity hydration for instant radiance",
             "introduction": {
@@ -2372,8 +2370,8 @@ export const treatments = {
                 "text1": "Instant radiance.",
                 "text2": "High-intensity hydration."
               },
-            image: "/assets/img/treatments/Skin boosters/Seventy.webp",
-            placeholderUrl: "/assets/img/treatments/Skin boosters/Seventy.webp",
+            image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-seventy-hyal.png.webp",
+            placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-seventy-hyal.png.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2431,8 +2429,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://images.unsplash.com/photo-1616442047042-f54e9f6bd435?q=80&w=2070&auto=format&fit=crop",
-            placeholderUrl: "https://images.unsplash.com/photo-1616442047042-f54e9f6bd435?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-lemon-bottle.webp",
+            placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-lemon-bottle.webp",
             "category": "Renew",
             "description": "Brightening + hydration + glow",
             "introduction": {
@@ -2979,8 +2977,8 @@ export const treatments = {
         placeholderUrl: "https://images.unsplash.com/photo-1599847987657-881f11b92a75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvY3RvciUyMGFwcG9pbnRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
         "treatments": {
           "oxygen-facial": { // Renaming from oxygen-vitamin-infusion-facial to match sitemap if needed, but sitemap says oxygen-facial. 
-              image: "/assets/img/treatments/oxygenation and healing/Oxygen facial.webp",
-              placeholderUrl: "/assets/img/treatments/oxygenation and healing/Oxygen facial.webp",
+              image: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+              placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             // However, the restore page content has Oxygen Facial (recovery-focused use).
             "id": "oxygen-facial",
             "booking": {
@@ -3331,8 +3329,8 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            image: "https://plus.unsplash.com/premium_photo-1726862817251-4f3d409776e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2tpbiUyMHJlY292ZXJ5fGVufDB8MXwwfHx8MA%3D%3D",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1726862817251-4f3d409776e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2tpbiUyMHJlY292ZXJ5fGVufDB8MXwwfHx8MA%3D%3D",
+            image: "/assets/img/treatments/refresh/aesthetic-treatment-ware-anti-aging-facial-Recovery.png.webp",
+            placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-ware-anti-aging-facial-Recovery.png.webp",
             "introduction": {
               "title": "What is the Post-Procedure Recovery Facial?",
               "content": [
@@ -5578,8 +5576,8 @@ export const treatments = {
               "Brickendon",
               "Much Hadham"
             ],
-            image: "https://images.unsplash.com/photo-1594362323815-70c3944df76a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aXYlMjBkcmlwfGVufDB8MXwwfHx8MA%3D%3D",
-            placeholderUrl: "https://images.unsplash.com/photo-1594362323815-70c3944df76a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aXYlMjBkcmlwfGVufDB8MXwwfHx8MA%3D%3D",
+            image: "/assets/img/treatments/radiate/nurse-led-aesthetic-clinic-Ware-glutathione-IV_png.webp",
+            placeholderUrl: "/assets/img/treatments/radiate/nurse-led-aesthetic-clinic-Ware-glutathione-IV_png.webp",
             "category": "Radiate",
             "description": "Detox • Brighten • Regenerate",
             "collaboration": {
@@ -6556,8 +6554,8 @@ export const treatments = {
             }
           },
           "vitamin-b12-im": {
-            image: "https://plus.unsplash.com/premium_photo-1679046948909-ab47e96082e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dml0YW1pbiUyMGIxMnxlbnwwfDF8MHx8fDA%3D",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1679046948909-ab47e96082e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dml0YW1pbiUyMGIxMnxlbnwwfDF8MHx8fDA%3D",
+            image: "/assets/img/treatments/radiate/nurse-led-aesthetic-clinic-Ware-vitamin-b12.webp",
+            placeholderUrl: "/assets/img/treatments/radiate/nurse-led-aesthetic-clinic-Ware-vitamin-b12.webp",
             "id": "vitamin-b12-im",
             "booking": {
               "price": 30,
@@ -6640,8 +6638,6 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             "category": "Radiate",
             "description": "Energy • Cognition • Metabolism • Hormone Support",
             "collaboration": {
