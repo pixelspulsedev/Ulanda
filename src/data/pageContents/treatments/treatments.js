@@ -2976,9 +2976,9 @@ export const treatments = {
         image: "https://images.unsplash.com/photo-1599847987657-881f11b92a75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvY3RvciUyMGFwcG9pbnRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
         placeholderUrl: "https://images.unsplash.com/photo-1599847987657-881f11b92a75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvY3RvciUyMGFwcG9pbnRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
         "treatments": {
-          "oxygen-facial": { // Renaming from oxygen-vitamin-infusion-facial to match sitemap if needed, but sitemap says oxygen-facial. 
-              image: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
-              placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+            "oxygen-facial": { // Renaming from oxygen-vitamin-infusion-facial to match sitemap if needed, but sitemap says oxygen-facial. 
+              image: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+              placeholderUrl: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             // However, the restore page content has Oxygen Facial (recovery-focused use).
             "id": "oxygen-facial",
             "booking": {
@@ -3038,8 +3038,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://images.unsplash.com/photo-1672794776762-18dddc72982e?q=80&w=2070&auto=format&fit=crop",
-            placeholderUrl: "https://images.unsplash.com/photo-1672794776762-18dddc72982e?q=80&w=2070&auto=format&fit=crop",
+            image: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+            placeholderUrl: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             "category": "Refresh",
             "description": "A deeply hydrating, oxygen-rich infusion that brightens, revitalises and energises midlife skin.",
             "introduction": {

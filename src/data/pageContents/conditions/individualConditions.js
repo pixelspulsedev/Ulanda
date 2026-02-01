@@ -600,7 +600,8 @@ export const individualConditions = [
       description: "Roughness, bumps, enlarged pores or a sandpaper feel signal slowed renewal and collagen decline â€” often worsened in perimenopause.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww"
+      image: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww",
+      placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-pigmentation-uneven-skin-tone1.webp"
     },
     science_removed: {
       title: "Whatâ€™s Really Happening â€”",
