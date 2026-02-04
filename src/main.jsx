@@ -33,6 +33,13 @@ const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy.jsx'))
 const TermsOfUse = lazy(() => import('./pages/TermsOfUse.jsx'))
 const Disclaimer = lazy(() => import('./pages/Disclaimer.jsx'))
 
+// DRAFT: Test routes for new treatment structure - REMOVE BEFORE PRODUCTION
+const TreatmentsDraft = lazy(() => import('./data/pageContents/treatments/drafts/Treatments_draft.jsx'))
+const TreatmentCategoryDraft = lazy(() => import('./data/pageContents/treatments/drafts/TreatmentCategory_draft.jsx'))
+const TreatmentDraft = lazy(() => import('./data/pageContents/treatments/drafts/Treatment_draft.jsx'))
+
+// DRAFT: Test routes for new condition pages - REMOVE BEFORE PRODUCTION
+const NonResponsiveSkinDraft = lazy(() => import('./data/pageContents/conditions/drafts/NonResponsiveSkin_draft.jsx'))
 
 const RedirectToProgramme = () => {
   const { id } = useParams();
@@ -53,6 +60,25 @@ const routes = [
         path: 'treatments',
         element: <Treatments />,
       },
+      // DRAFT: Test routes - REMOVE BEFORE PRODUCTION
+      {
+        path: 'treatments-draft',
+        element: <TreatmentsDraft />,
+      },
+      {
+        path: 'treatments-draft/:category',
+        element: <TreatmentCategoryDraft />,
+      },
+      {
+        path: 'treatments-draft/:category/:id',
+        element: <TreatmentDraft />,
+      },
+      // DRAFT: Test route for Non-Responsive Skin condition
+      {
+        path: 'conditions-draft/non-responsive-skin',
+        element: <NonResponsiveSkinDraft />,
+      },
+      // END DRAFT ROUTES
       {
         path: 'treatments/:category',
         element: <TreatmentCategory />,

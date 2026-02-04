@@ -3697,6 +3697,251 @@
       buttonText: "Book Your Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
+  },
+  {
+    id: 'acne-scarring',
+    seo: {
+      title: "Acne Scarring Treatment | Regenerative Skin Repair in Ware SG12 | ULANDA",
+      description: "Acne scarring is a regenerative skin condition shaped by inflammation, hormones and collagen quality. Discover a biology-led approach to acne scar repair in a Nurse-Led Skin clinic in Ware SG12."
+    },
+    hero: {
+      title: "Acne",
+      highlight: "Scarring",
+      description: "Acne scarring is not simply a surface imperfection. It is the visible result of disrupted healing following inflammation — influenced by hormones, immune response, collagen quality and tissue resilience. At ULANDA, acne scarring is approached as a regenerative skin condition, not something to be aggressively resurfaced or corrected in isolation.",
+      buttonText: "Book Consultation",
+      buttonLink: "https://ulanda-100633.square.site/",
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    science: {
+      title: "What Causes",
+      highlight: "Acne Scarring?",
+      description: "Acne scars form when inflammation damages the deeper layers of the skin and the body is unable to restore tissue evenly during healing. This process is influenced by:",
+      items: [
+        { number: '01', title: 'Inflammation Depth', description: 'Depth and duration of inflammation affects healing.' },
+        { number: '02', title: 'Collagen Production', description: 'Individual collagen production and breakdown capacity.' },
+        { number: '03', title: 'Hormonal Drivers', description: 'Particularly androgen sensitivity driving breakouts.' },
+        { number: '04', title: 'Skin Barrier', description: 'Barrier health and immune response determine repair quality.' },
+        { number: '05', title: 'Treatment History', description: 'Repeated irritation or over-treatment can worsen scarring.' },
+        { number: '06', title: 'Hormonal Cycles', description: 'Skin continues to cycle through inflammation and incomplete repair.' }
+      ],
+      footer: "True improvement requires addressing the underlying tissue behaviour, not just smoothing the surface."
+    },
+    treatmentModel: {
+      title: "How ULANDA Treats Acne Scarring -",
+      highlight: "The Regenerative Model",
+      items: [
+        {
+          title: "Renew",
+          subtitle: "(Collagen Regeneration)",
+          description: "Supporting collagen regeneration rather than replacing tissue:",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Microneedling", desc: "Introduced when skin demonstrates readiness." },
+            { name: "RF Microneedling", desc: "Deeper stimulation for structural improvement." }
+          ]
+        },
+        {
+          title: "Hormone-Smart",
+          subtitle: "(Hormonal Context)",
+          description: "When acne scarring is influenced by hormonal skin patterns:",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Hormone-Smart Skin", desc: "Addressing inflammation driven by hormones." }
+          ]
+        },
+        {
+          title: "Radiate",
+          subtitle: "(Structural & Life-Stage)",
+          description: "When scarring requires deeper structural or life-stage-led regeneration:",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Radiate Pathways", desc: "Structured regenerative pathways for complex scarring." }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "How",
+      highlight: "Scarring is Addressed",
+      items: [
+        "Identifying biological barriers to repair",
+        "Clarifying whether regeneration is appropriate now",
+        "Discussing realistic outcomes and timelines",
+        "Avoiding unnecessary or premature intervention"
+      ],
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    cta: {
+      title: "Ready to",
+      highlight: "restore",
+      titleSuffix: "healing conditions?",
+      description: "Acne scarring improves not when skin is pushed harder but when the conditions for healing are restored.",
+      buttonText: "Book Your Consultation",
+      buttonLink: "https://ulanda-100633.square.site/"
+    }
+  },
+  {
+    id: 'non-responsive-skin',
+    seo: {
+      title: "Non-Responsive Skin & Treatment Fatigue | Regenerative Skin Aesthetics | Skin Clinic Ware SG12",
+      description: "Non-responsive skin and treatment fatigue occur when results plateau despite repeated treatments. Learn how ULANDA Skin Clinic identifies underlying barriers and guides care through its regenerative skin treatment."
+    },
+    hero: {
+      title: "Non-Responsive Skin &",
+      highlight: "Treatment Fatigue",
+      description: "Non-responsive skin, sometimes referred to as treatment fatigue, describes a state in which the skin no longer delivers consistent or lasting results, despite appropriate treatments being performed. At ULANDA, this is understood not as a failure of treatment — but as a signal that the skin’s biology, recovery capacity or structure requires reassessment.",
+      buttonText: "Book Consultation",
+      buttonLink: "https://ulanda-100633.square.site/",
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    science: {
+      title: "Why Treatment Fatigue Develops -",
+      highlight: "The Biology",
+      description: "Treatment fatigue is rarely caused by a single factor. It often reflects a combination of:",
+      items: [
+        { number: '01', title: 'Cumulative Inflammation', description: 'Chronic inflammation hinders response.' },
+        { number: '02', title: 'Reduced Collagen Response', description: 'Cells become less responsive to stimulation.' },
+        { number: '03', title: 'Impaired Barrier Function', description: 'A weak barrier prevents effective treatment.' },
+        { number: '04', title: 'Hormonal Transition', description: 'Changes in hormones affect repair capacity.' },
+        { number: '05', title: 'Structural Change', description: 'Deeper changes masked by surface treatments.' },
+        { number: '06', title: 'Insufficient Recovery', description: 'Lack of downtime prevents healing.' }
+      ],
+      footer: "As the skin changes biologically, repeating the same treatments can lead to diminishing returns rather than progress."
+    },
+    treatmentModel: {
+      title: "How Non-Responsive Skin Is Addressed at ULANDA -",
+      highlight: "The Regenerative Model",
+      items: [
+        {
+          title: "Assess",
+          subtitle: "(Understanding the Cause)",
+          description: "Care begins with understanding why the skin has stopped responding:",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Collagen Quality", desc: "Evaluating the health of your collagen." },
+            { name: "Structural Support", desc: "Checking for deeper structural issues." },
+            { name: "Hormonal Context", desc: "How hormones are affecting repair." }
+          ]
+        },
+        {
+          title: "Radiate",
+          subtitle: "(Regenerative Pathway)",
+          description: "Moving from isolated treatments to a structured pathway:",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Pathway Planning", desc: "A comprehensive plan rather than a series of treatments." },
+            { name: "Sequencing", desc: "Ordering treatments for maximum impact." },
+            { name: "Recovery Focus", desc: "Prioritising barrier health and recovery." }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why",
+      highlight: "Choose ULANDA",
+      items: [
+        "We identify biological barriers to repair",
+        "We clarify whether regeneration is appropriate now",
+        "We discuss realistic outcomes and timelines",
+        "We avoid unnecessary or premature intervention"
+      ],
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    cta: {
+      title: "Ready to",
+      highlight: "reassess",
+      titleSuffix: "your skin?",
+      description: "When skin stops responding, the answer is not more treatment — it is better interpretation.",
+      buttonText: "Book Your Consultation",
+      buttonLink: "https://ulanda-100633.square.site/"
+    }
+  },
+  {
+    id: 'pelvic-intimate-regeneration',
+    seo: {
+      title: "Pelvic & Intimate Regeneration in Ware SG12 | Radiate Pathway | ULANDA",
+      description: "Clinician-led pelvic and intimate regeneration in Ware, Hertfordshire. A consultation-first Radiate pathway supporting tissue health, comfort and recovery across life stages."
+    },
+    hero: {
+      title: "Pelvic & Intimate",
+      highlight: "Regeneration",
+      description: "Pelvic and intimate tissue changes are a biological reality across a woman’s life course — particularly following childbirth, during perimenopause, and through menopause. These changes are rarely cosmetic in nature. They are functional, structural and deeply embodied. This pathway exists to support tissue quality, resilience and comfort.",
+      buttonText: "Request a Radiate Consultation",
+      buttonLink: "https://ulanda-100633.square.site/",
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    science: {
+      title: "Hormonal Context & Life-Stage Awareness -",
+      highlight: "The Science",
+      description: "Pelvic and intimate tissues are highly hormone-responsive. Changes in oestrogen, progesterone and androgen balance influence:",
+      items: [
+        { number: '01', title: 'Tissue Hydration', description: 'Essential for comfort and resilience.' },
+        { number: '02', title: 'Collagen Integrity', description: 'Critical for structural support.' },
+        { number: '03', title: 'Elasticity', description: 'Allows for flexibility and movement.' },
+        { number: '04', title: 'Vascularity', description: 'Blood flow supports healing and health.' },
+        { number: '05', title: 'Recovery Capacity', description: 'Hormones drive how well tissues repair.' }
+      ],
+      footer: "Hormonal status is understood as biological context, not a standalone intervention."
+    },
+    treatmentModel: {
+      title: "How Care Is Approached -",
+      highlight: "The Radiate Method",
+      items: [
+        {
+          title: "Assess",
+          subtitle: "(Tissue Readiness)",
+          description: "Tissue readiness is assessed before intervention:",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Assessment", desc: "Detailed evaluation of tissue health." },
+            { name: "Inflammation Check", desc: "Ensuring sensitivity is respected." }
+          ]
+        },
+        {
+          title: "Treat",
+          subtitle: "(Conservative & Progressive)",
+          description: "Intervention intensity is conservative and progressive:",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Regenerative Energy", desc: "Supportive energy-based support." },
+            { name: "Tissue Stimulation", desc: "Techniques appropriate to intimate anatomy." },
+            { name: "Recovery Protocols", desc: "Focus on healing and comfort." }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why",
+      highlight: "Choose ULANDA",
+      items: [
+        "Clinician-led pelvic and intimate regeneration",
+        "Consultation-first Radiate pathway",
+        "Supports tissue health, comfort and recovery",
+        "Life-stage awareness (postpartum, perimenopause, menopause)"
+      ],
+      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    cta: {
+      title: "When Comfort,",
+      highlight: "Identity and Biology",
+      titleSuffix: "Intersect",
+      description: "If you are seeking clarity rather than correction, a Radiate consultation offers space to explore whether regenerative support is appropriate for you.",
+      buttonText: "Request a Radiate Consultation",
+      buttonLink: "https://ulanda-100633.square.site/"
+    }
   }
 ];
 
