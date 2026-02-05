@@ -13,11 +13,16 @@ export default function ConditionsLanding() {
   return (
     <>
       <Head>
-        <title>Ulanda - Conditions We Treat</title>
+        <title>Skin Conditions We Treat | ULANDA Ware SG12</title>
         <meta
           name="description"
-          content="A regenerative approach to women’s skin, structure and internal wellness. Treat symptoms at the root with precise, personalised and medically led care in Ware."
+          content="Explore skin conditions treated at ULANDA in Ware SG12. A regenerative approach to women's skin, structure and internal wellness. Personalised, medically led care."
         />
+        <link rel="canonical" href="https://www.ulanda.co.uk/conditions" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Skin Conditions We Treat | ULANDA" />
+        <meta name="twitter:description" content="Explore skin conditions treated at ULANDA. A regenerative approach to women's skin, structure and wellness." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100">

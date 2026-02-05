@@ -30,6 +30,7 @@ export default function Conditions() {
   // Generate proper SEO title following locked format
   const seoTitle = `${condition.hero.title} ${condition.hero.highlight || ''} Treatment in Ware SG12 | ULANDA`.trim();
   const canonicalUrl = `https://www.ulanda.co.uk/conditions/${id}`;
+  const seoDescription = condition.hero.description[0];
 
   return (
     <>
@@ -37,9 +38,13 @@ export default function Conditions() {
         <title>{seoTitle}</title>
         <meta
           name="description"
-          content={condition.hero.description[0]}
+          content={seoDescription}
         />
         <link rel="canonical" href={canonicalUrl} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={seoTitle} />
+        <meta name="twitter:description" content={seoDescription} />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100">

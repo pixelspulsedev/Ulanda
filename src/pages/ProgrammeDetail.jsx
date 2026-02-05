@@ -43,6 +43,10 @@ export default function ProgrammeDetail() {
         <title>{seoTitle}</title>
         <meta name="description" content={subtitle} />
         <link rel="canonical" href={canonicalUrl} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={seoTitle} />
+        <meta name="twitter:description" content={subtitle} />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 text-base-content">
@@ -443,7 +447,7 @@ export default function ProgrammeDetail() {
               </div>
               <div className="pt-4">
                 <Link
-                  to="/programmes"
+                  to="/treatments/radiate/programmes"
                   className="hover:underline font-sans font-light inline-flex items-center gap-2"
                 >
                   Explore Other Signature Programmes{' '}

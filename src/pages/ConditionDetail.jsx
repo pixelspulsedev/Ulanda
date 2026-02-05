@@ -40,9 +40,14 @@ export default function ConditionDetail() {
     <>
       <Head>
         <title>
-          Ulanda - {condition.hero.title} {condition.hero.highlight}
+          {condition.hero.title} {condition.hero.highlight} Treatment | ULANDA Ware SG12
         </title>
         <meta name="description" content={condition.hero.description} />
+        <link rel="canonical" href={`https://www.ulanda.co.uk/conditions/${category}/${id}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${condition.hero.title} ${condition.hero.highlight} Treatment | ULANDA`} />
+        <meta name="twitter:description" content={condition.hero.description} />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100">

@@ -11,11 +11,16 @@ export default function Pathways() {
   return (
     <>
       <Head>
-        <title>Ulanda - Pathways</title>
+        <title>Treatment Pathways | ULANDA Regenerative Aesthetics</title>
         <meta
           name="description"
-          content="A simple, intelligent way to understand your regenerative journey. Every ULANDA treatment fits into one of four pathways."
+          content="Discover ULANDA's four treatment pathways: Refresh, Renew, Restore, Radiate. A simple, intelligent way to understand your regenerative skincare journey."
         />
+        <link rel="canonical" href="https://www.ulanda.co.uk/pathways" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Treatment Pathways | ULANDA" />
+        <meta name="twitter:description" content="Discover ULANDA's four treatment pathways: Refresh, Renew, Restore, Radiate." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

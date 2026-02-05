@@ -162,11 +162,16 @@ export default function Philosophy() {
   return (
     <>
       <Head>
-        <title>Ulanda - Our Philosophy</title>
+        <title>Our Philosophy | ULANDA Regenerative Aesthetics</title>
         <meta
           name="description"
-          content="Regeneration. Hormone Intelligence. Personalised Care for Every Stage of Womanhood at ULANDA."
+          content="ULANDA philosophy: Regeneration, Hormone Intelligence & Personalised Care for every stage of womanhood. Treating root causes, not just symptoms."
         />
+        <link rel="canonical" href="https://www.ulanda.co.uk/about/our-philosophy" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Philosophy | ULANDA" />
+        <meta name="twitter:description" content="Regeneration, Hormone Intelligence & Personalised Care for every stage of womanhood. Treating root causes, not just symptoms." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 text-base-content">

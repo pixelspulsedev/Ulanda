@@ -6,7 +6,12 @@ export default function Disclaimer() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12 md:py-20 font-sans">
       <Head>
-        <title>Website Disclaimer - ULANDA MedSpa</title>
+        <title>Website Disclaimer | ULANDA Skin Clinic</title>
+        <meta name="description" content="ULANDA MedSpa website disclaimer. Content is for informational purposes only and is not a substitute for professional medical advice." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/disclaimer" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Website Disclaimer | ULANDA" />
+        <meta name="twitter:description" content="ULANDA website disclaimer. Content is for informational purposes only." />
       </Head>
       
       <HeroText>

@@ -257,8 +257,13 @@ export default function BlogDetail() {
   return (
     <>
       <Head>
-        <title>Ulanda - {blog.title}</title>
+        <title>{blog.title} | ULANDA Journal</title>
         <meta name="description" content={blog.subtitle} />
+        <link rel="canonical" href={`https://www.ulanda.co.uk/blogs/${blog.id}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${blog.title} | ULANDA`} />
+        <meta name="twitter:description" content={blog.subtitle} />
+        <meta name="twitter:image" content={blog.heroImage || "https://www.ulanda.co.uk/assets/img/ui/Logo.webp"} />
       </Head>
 
       <div className="bg-base-100 min-h-screen">

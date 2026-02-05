@@ -184,11 +184,16 @@ export default function Manifesto() {
   return (
     <>
       <Head>
-        <title>Ulanda - Brand Manifesto</title>
+        <title>Our Manifesto | ULANDA Regenerative Aesthetics</title>
         <meta
           name="description"
-          content="ULANDA — The Brand Manifesto. Where regeneration becomes a woman’s birthright."
+          content="ULANDA Brand Manifesto. Where regeneration becomes a woman's birthright. We believe women deserve more than correction — they deserve regeneration."
         />
+        <link rel="canonical" href="https://www.ulanda.co.uk/about/manifesto" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Manifesto | ULANDA" />
+        <meta name="twitter:description" content="Where regeneration becomes a woman's birthright. We believe women deserve more than correction — they deserve regeneration." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 text-base-content">

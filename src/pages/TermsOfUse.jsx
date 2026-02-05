@@ -7,7 +7,12 @@ export default function TermsOfUse() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12 md:py-20 font-sans">
       <Head>
-        <title>Terms of Use - ULANDA MedSpa</title>
+        <title>Terms of Use | ULANDA Skin Clinic</title>
+        <meta name="description" content="ULANDA MedSpa terms of use. By accessing our website, you agree to comply with these terms. Read our conditions for using our services." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/terms-of-use" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Terms of Use | ULANDA" />
+        <meta name="twitter:description" content="ULANDA MedSpa terms of use. Read our conditions for using our website and services." />
       </Head>
       
       <HeroText>

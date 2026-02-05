@@ -16,6 +16,10 @@ const Contact = () => {
           content="Contact ULANDA in Ware SG12, Hertfordshire. Book a consultation for regenerative aesthetics, skin treatments and wellness therapies. Serving Ware, Hertford and surrounding areas."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/contact" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact ULANDA | Regenerative Aesthetics Clinic" />
+        <meta name="twitter:description" content="Contact ULANDA in Ware SG12, Hertfordshire. Book a consultation for regenerative aesthetics and skin treatments." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       {/* Hero Section */}

@@ -44,9 +44,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ULANDA Skin Clinic | A Regenerative Skin Aesthetic Clinic in Ware SG12 Hertfordshire</title>
+        <title>ULANDA Skin Clinic | Regenerative Aesthetics in Ware SG12 Hertfordshire</title>
         <meta name="description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Specialising in skin regeneration, bio-remodelling and hormone-smart treatments for midlife women." />
         <link rel="canonical" href="https://www.ulanda.co.uk/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ULANDA Skin Clinic | Regenerative Aesthetics in Ware SG12" />
+        <meta name="twitter:description" content="Regenerative aesthetics clinic specialising in skin regeneration, bio-remodelling and hormone-smart treatments for midlife women." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp" />
         <link 
           rel="preload" 
           as="image" 
@@ -553,7 +557,7 @@ export default function Home() {
 
             {/* Program 5 */}
             <Link
-              to="/programmes/shape-and-regenerate"
+              to="/treatments/radiate/pathways/shape-and-regenerate"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">

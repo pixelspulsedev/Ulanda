@@ -19,8 +19,13 @@ export default function ToolDetail() {
   return (
     <>
       <Head>
-        <title>{tool.title} | Ulanda</title>
+        <title>{tool.title} Biostimulator | ULANDA Skin Clinic</title>
         <meta name="description" content={tool.subtitle} />
+        <link rel="canonical" href={`https://www.ulanda.co.uk/tools/${id}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${tool.title} | ULANDA`} />
+        <meta name="twitter:description" content={tool.subtitle} />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

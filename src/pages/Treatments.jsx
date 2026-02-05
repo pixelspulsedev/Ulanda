@@ -103,6 +103,10 @@ export default function Treatments() {
           content="Explore ULANDA's regenerative treatments in Ware SG12, Hertfordshire. Four pathways — Refresh, Renew, Restore, Radiate — designed for midlife skin regeneration and wellness."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Regenerative Treatments in Ware SG12 | ULANDA" />
+        <meta name="twitter:description" content="Explore ULANDA's regenerative treatments. Four pathways — Refresh, Renew, Restore, Radiate — designed for midlife skin regeneration." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/treatments/treatments-hero.webp" />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

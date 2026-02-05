@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <>
       <Head>
-        <title>Page Not Found | Ulanda</title>
+        <title>Page Not Found | ULANDA Skin Clinic</title>
         <meta name="robots" content="noindex" />
       </Head>
 

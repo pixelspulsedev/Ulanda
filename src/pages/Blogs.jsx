@@ -13,8 +13,13 @@ export default function Blogs() {
   return (
     <div>
       <Head>
-        <title>Journal | ULANDA</title>
-        <meta name="description" content="Science-led insights on skin regeneration, menopause, and aesthetic medicine." />
+        <title>The Journal | ULANDA Skin Clinic</title>
+        <meta name="description" content="Science-led insights on skin regeneration, menopause, hormone health and aesthetic medicine from ULANDA in Ware, Hertfordshire." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/blogs" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="The Journal | ULANDA Skin Clinic" />
+        <meta name="twitter:description" content="Science-led insights on skin regeneration, menopause, hormone health and aesthetic medicine." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-[#FAF9F6] min-h-screen">

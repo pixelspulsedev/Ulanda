@@ -42,11 +42,15 @@ const HelpAndSupport = () => {
   return (
     <>
       <Head>
-        <title>Help & Support | Ulanda</title>
+        <title>Help & Support | ULANDA Skin Clinic</title>
         <meta
           name="description"
-          content="Frequently asked questions about Ulanda's regenerative aesthetics, menopausal wellness treatments, safety, and booking."
+          content="Frequently asked questions about ULANDA's regenerative aesthetics, menopausal wellness treatments, safety protocols and booking process."
         />
+        <link rel="canonical" href="https://www.ulanda.co.uk/help-and-support" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Help & Support | ULANDA" />
+        <meta name="twitter:description" content="Frequently asked questions about ULANDA's regenerative aesthetics and menopausal wellness treatments." />
         <script type="application/ld+json">
           {JSON.stringify(generateSchema())}
         </script>

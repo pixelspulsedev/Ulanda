@@ -49,8 +49,13 @@ export default function Programme() {
   return (
     <>
       <Head>
-        <title>Ulanda - Programme</title>
-        <meta name="description" content="Welcome to Ulanda" />
+        <title>Radiate Programmes | ULANDA Regenerative Wellness</title>
+        <meta name="description" content="ULANDA Radiate programmes combine regenerative science with personalised wellness. Multi-week treatment pathways for transformational skin and body results." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/treatments/radiate/programmes" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Radiate Programmes | ULANDA" />
+        <meta name="twitter:description" content="Multi-week regenerative treatment pathways for transformational skin and body results." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <Breadcrumbs />

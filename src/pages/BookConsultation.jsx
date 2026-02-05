@@ -9,6 +9,10 @@ const BookConsultation = () => {
         <title>Book Consultation | ULANDA Regenerative Aesthetics</title>
         <meta name="description" content="Book your consultation at ULANDA. Start your journey to regenerated skin and holistic wellness in Ware, Hertfordshire." />
         <link rel="canonical" href="https://www.ulanda.co.uk/book-consultation" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Book Consultation | ULANDA" />
+        <meta name="twitter:description" content="Book your consultation at ULANDA. Start your journey to regenerated skin and holistic wellness." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       {/* Hero Section */}

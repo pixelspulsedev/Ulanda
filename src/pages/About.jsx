@@ -217,6 +217,10 @@ export default function About() {
           content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Hormone-aware care, internal wellness, and women-first treatments for midlife skin regeneration."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/about/our-story" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About ULANDA | Regenerative Aesthetics in Hertfordshire" />
+        <meta name="twitter:description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12. Hormone-aware care and women-first treatments for midlife skin regeneration." />
+        <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 text-base-content">

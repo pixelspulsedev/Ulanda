@@ -6,7 +6,12 @@ export default function PrivacyPolicy() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12 md:py-20 font-sans">
       <Head>
-        <title>Privacy Policy - ULANDA MedSpa</title>
+        <title>Privacy Policy | ULANDA Skin Clinic</title>
+        <meta name="description" content="ULANDA MedSpa privacy policy. Learn how we collect, use and safeguard your personal data when using our website or engaging with our services." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/privacy-policy" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Privacy Policy | ULANDA" />
+        <meta name="twitter:description" content="ULANDA MedSpa privacy policy. Learn how we collect, use and safeguard your personal data." />
       </Head>
       
       <HeroText>
