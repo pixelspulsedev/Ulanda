@@ -309,7 +309,7 @@ export const treatments = {
               "bookingType": "Book Now"
             },
             "seo": {
-              "title": "Enzyme Facial Ware SG12 | Gentle Resurfacing & Barrier Repair",
+              "title": "Enzyme Therapy Ware SG12 | Gentle Resurfacing & Barrier Repair | ULANDA",
               "description": "Enzyme therapy facial in Ware. Gentle exfoliation for sensitive skin, rosacea & pregnancy. Repair the barrier & restore natural glow."
             },
             "seoHeadings": {
@@ -634,7 +634,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Oxygen Facial Ware SG12 | Brightening & Deep Hydration",
+              "title": "Oxygen Facial in Ware SG12 | Brightening & Hydration | ULANDA",
               "description": "Oxygen & Vitamin Infusion Facial in Ware. Instantly brighten, hydrate & re-energise tired skin. Perfect for events & menopause dullness."
             },
             "seoHeadings": {
@@ -1091,7 +1091,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "LED Light Therapy Ware SG12 | Collagen, Acne & Inflammation",
+              "title": "LED Light Therapy Ware SG12 | Collagen, Acne & Inflammation | ULANDA",
               "description": "Dermalux LED Light Therapy in Ware. Clinically proven wavelengths for acne, anti-ageing & inflammation. Boost collagen & calm redness."
             },
             "seoHeadings": {
@@ -1415,7 +1415,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "BioRePeel Ware SG12 | No-Peel Regeneration Treatment",
+              "title": "BioRePeel Ware SG12 | No-Peel Regeneration Treatment | ULANDA",
               "description": "BioRePeel in Ware. The no-downtime, biostimulating peel for pigmentation, acne & texture. Instant glow without the shedding."
             },
             "seoHeadings": {
@@ -1735,7 +1735,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Chemical Peels Ware SG12 | Smooth, Brighten & Renew",
+              "title": "Chemical Peels Ware SG12 | Smooth, Brighten & Renew | ULANDA",
               "description": "Medical chemical peels in Ware. Treat pigmentation, acne scarring & sun damage. Reveal smoother, brighter, younger-looking skin."
             },
             "seoHeadings": {
@@ -2168,7 +2168,7 @@ export const treatments = {
               "definisse"
             ],
             "seo": {
-              "title": "Definisse Hydrobooster Ware SG12 | Hydration & Fine Line Smoothing",
+              "title": "Definisse Hydrobooster Ware SG12 | Hydration & Fine Lines | ULANDA",
               "description": "Definisse Hydrobooster in Ware. Specialized hydration + fine line smoothing. Ideal for upper lip lines, cheeks & crepey skin."
             },
             "seoHeadings": {
@@ -2246,7 +2246,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Jalupro Amino Acid Therapy Ware SG12 | Feed Your Skin",
+              "title": "Jalupro Ware SG12 | Amino Acid Therapy | ULANDA",
               "description": "Jalupro Amino Acid replacement therapy in Ware. Feed collagen at the source. Treat dark circles, fine lines & crepey skin."
             },
             "seoHeadings": {
@@ -2323,7 +2323,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Seventy Hyal Ware SG12 | The High-Glow Skin Booster",
+              "title": "SeventyHyal Ware SG12 | High-Glow Hydration | ULANDA",
               "description": "Seventy Hyal 2000 in Ware. Achieve glass-skin radiance and deep hydration. The perfect pre-event glow treatment."
             },
             "seoHeadings": {
@@ -2400,7 +2400,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Lemon Bottle Skin Booster Ware SG12 | Vitamin C Brightening",
+              "title": "Lemon Bottle Ware SG12 | Vitamin C Glow | ULANDA",
               "description": "Lemon Bottle Skin Booster in Ware. High-dose Vitamin C + Tyrosinase inhibitors for instant brightness, glow and pigmentation control."
             },
             "seoHeadings": {
@@ -2477,7 +2477,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Lumi Eyes Ware SG12 | Under-Eye Brightening & Regeneration",
+              "title": "Lumi Eyes Ware SG12 | Under-Eye Brightening | ULANDA",
               "description": "Lumi Eyes PN treatment in Ware. Specifically for dark circles, hollows & under-eye signs of aging. Safe, effective regeneration."
             },
             "seoHeadings": {
@@ -2564,7 +2564,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Microneedling Ware SG12 | Collagen Induction for Pores & Scars",
+              "title": "Microneedling in Ware SG12 | Collagen Induction | ULANDA",
               "description": "Medical Microneedling in Ware. Reduce pore size, smooth texture, and treat acne scars. Natural collagen induction for clearer, firmer skin."
             },
             "seoHeadings": {
@@ -2646,7 +2646,7 @@ export const treatments = {
           "polynucleotides": {
             "id": "polynucleotides",
             "seo": {
-              "title": "Polynucleotides (PN) Treatment Ware SG12 | Regenerative Skin Repair",
+              "title": "Polynucleotides Ware SG12 | Regenerative DNA Repair | ULANDA",
               "description": "Advanced Polynucleotides (PN) treatment in Ware. Repair thinning skin, dark circles & laxity. Ideal for postpartum & menopause skin regeneration."
             },
             "seoHeadings": {
@@ -2741,7 +2741,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Plenhyage PN Treatment | ULANDA",
+              "title": "Plenhyage PN Ware SG12 | Tissue Repair | ULANDA",
               "description": "Deep tissue regeneration with Plenhyage PN. ULANDA's high-concentration polynucleotide treatment repairs scarring, thinning & damage."
             },
             "title": "Plenhyage",
@@ -2812,7 +2812,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Nucleofill PN Treatment | ULANDA",
+              "title": "Nucleofill PN Ware SG12 | Lift & Hydrate | ULANDA",
               "description": "Lift & hydrate with Nucleofill PN. ULANDA's bio-stimulating polynucleotide gel provides a natural lifting effect & deep moisture."
             },
             "title": "Nucleofill",
@@ -2874,7 +2874,7 @@ export const treatments = {
           "prp-skin-regeneration": {
             "id": "prp-skin-regeneration",
             "seo": {
-              "title": "PRP Skin Regeneration Ware SG12 | Natural Collagen Boosting",
+              "title": "PRP Therapy Ware SG12 | Natural Collagen Boost | ULANDA",
               "description": "PRP Skin Regeneration in Ware. 100% natural collagen boosting using your own growth factors. Improve texture, hollows & healing."
             },
             "seoHeadings": {
@@ -2988,7 +2988,7 @@ export const treatments = {
               "bookingType": "Book Now"
             },
             "seo": {
-              "title": "Oxygen Facial Ware SG12 | Brightening & Deep Hydration",
+              "title": "Oxygen Facial Ware SG12 | Brightening & Deep Hydration | ULANDA",
               "description": "Oxygen & Vitamin Infusion Facial in Ware. Instantly brighten, hydrate & re-energise tired skin. Perfect for events & menopause dullness."
             },
             "seoHeadings": {
@@ -3440,7 +3440,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "LED Light Therapy Ware SG12 | Collagen, Acne & Inflammation",
+              "title": "LED Light Therapy Ware SG12 | Collagen, Acne & Inflammation | ULANDA",
               "description": "Dermalux LED Light Therapy in Ware. Clinically proven wavelengths for acne, anti-ageing & inflammation. Boost collagen & calm redness."
             },
             "seoHeadings": {
@@ -4033,7 +4033,7 @@ export const treatments = {
               "definisse"
             ],
             "seo": {
-              "title": "Biostimulators (Sculptra / Radiesse) | Collagen Regeneration | ULANDA",
+              "title": "Biostimulators Ware SG12 | Collagen Regeneration | ULANDA",
               "description": "Rebuild lost collagen with Biostimulators (PLLA/CaHA). ULANDA’s regenerative injections restore facial volume & structure naturally over time."
             },
             "seoHeadings": {
@@ -4285,6 +4285,10 @@ export const treatments = {
           },
           "thread-lifts": {
             "id": "thread-lifts",
+            "seo": {
+              "title": "Thread Lifts Ware SG12 | Non-Surgical Lift | ULANDA",
+              "description": "Natural lifting without surgery. Thread Lifts at ULANDA in Ware SG12 restore facial contours and stimulate collagen for long-lasting firmness."
+            },
             "title": "Thread Lifts",
             "subtitle": "Restorative Lifting & Collagen Remodelling",
             "category": "Radiate",
@@ -4373,7 +4377,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Anti-Wrinkle Injections (Botox) | Natural Expression | ULANDA",
+              "title": "Anti-Wrinkle Injections Ware SG12 | Natural Expression | ULANDA",
               "description": "Smooth fine lines & prevent wrinkles with precision Anti-Wrinkle Injections. ULANDA prioritises natural movement & refreshed results."
             },
             "seoHeadings": {
@@ -4485,7 +4489,7 @@ export const treatments = {
               ]
             },
             "seo": {
-              "title": "Dermal Fillers | Natural & Balanced Volumisation | ULANDA",
+              "title": "Dermal Fillers Ware SG12 | Natural Volumisation | ULANDA",
               "description": "Restore lost volume & define features with premium Dermal Fillers. ULANDA uses a regeneration-first approach for natural, balanced results."
             },
             "title": "Dermal Fillers",
@@ -4691,7 +4695,7 @@ export const treatments = {
               ]
             },
             "seo": {
-              "title": "Collagen Therapy | Restore Skin Architecture | ULANDA",
+              "title": "Collagen Therapy Ware SG12 | Restore Skin Architecture | ULANDA",
               "description": "Rebuild lost collagen & restore skin firmness with ULANDA’s regenerative therapies. The foundation of long-term youthful skin structure."
             },
             "title": "Collagen Therapy",
@@ -4873,6 +4877,10 @@ export const treatments = {
           },
           "jawline-sculpting": {
             "id": "jawline-sculpting",
+            "seo": {
+              "title": "Jawline Sculpting Ware SG12 | Natural Definition | ULANDA",
+              "description": "Restore a clean, defined jawline naturally. ULANDA's Jawline Sculpting in Ware SG12 uses regenerative techniques for elegant, feminine contours."
+            },
             "title": "Jawline Sculpting",
             "subtitle": "Natural Contouring",
             "category": "Radiate",
@@ -4938,6 +4946,10 @@ export const treatments = {
           },
           "neck-lower-face-lift": {
             "id": "neck-lower-face-lift",
+            "seo": {
+              "title": "Neck & Lower Face Lift Ware SG12 | Regenerative Lifting | ULANDA",
+              "description": "Lift jowls, tighten neck skin and restore the chin-to-neck angle. ULANDA's Neck & Lower Face Lift in Ware SG12 uses threads and biostimulators."
+            },
             "title": "Neck & Lower Face Structural Lift",
             "subtitle": "Lift, Tighten & Rebuild",
             "category": "Radiate",
@@ -5004,7 +5016,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Body Skin Tightening | Firm & Tone Skin | ULANDA",
+              "title": "Body Tightening Ware SG12 | Firm & Tone Skin | ULANDA",
               "description": "Tighten loose skin & improve texture with ULANDA's Body Tightening treatments. Non-surgical solutions for firmer, smoother body contours."
             },
             "seoHeadings": {
@@ -5227,7 +5239,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Body Contouring | Sculpt & Define | ULANDA",
+              "title": "Body Contouring Ware SG12 | Sculpt & Define | ULANDA",
               "description": "Refine your shape with non-invasive Body Contouring. ULANDA targets stubborn areas to sculpt, define & enhance your natural silhouette."
             },
             "seoHeadings": {
@@ -5318,7 +5330,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "NAD+ IV Therapy in Ware SG12 | Radiate | ULANDA",
+              "title": "NAD+ IV Therapy Ware SG12 | Cellular Energy | ULANDA",
               "description": "NAD+ IV Therapy in Ware SG12, Hertfordshire. Restore cellular energy, improve mental clarity and metabolic function. In partnership with 360Medicx Harley Street."
             },
             "seoHeadings": {
@@ -5543,7 +5555,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Glutathione IV Drip | Master Antioxidant Detox | ULANDA",
+              "title": "Glutathione IV Ware SG12 | Detox & Brightening | ULANDA",
               "description": "The ultimate antioxidant infusion. Glutathione IV brightens skin, reduces pigmentation & supports total body detoxification."
             },
             "seoHeadings": {
@@ -5790,7 +5802,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Myers Cocktail IV | The Standard for Wellness & Energy | ULANDA",
+              "title": "Energy IV (Myers Cocktail) Ware SG12 | Vitality Boost | ULANDA",
               "description": "Recharge with the classic Myers Cocktail. Packed with B vitamins, magnesium & amino acids to fight fatigue, boost metabolism & restore mental clarity."
             },
             "seoHeadings": {
@@ -6011,7 +6023,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Immune Resilience Support IV Drip | Strengthen • Defend • Recover | ULANDA",
+              "title": "Immunity IV Ware SG12 | Immune Support | ULANDA",
               "description": "Strengthen your immune system, speed up recovery & restore resilience with our clinician-delivered Immune Resilience Support IV Drip. In partnership with 360Medicx Harley Street."
             },
             "seoHeadings": {
@@ -6292,7 +6304,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Hormone Harmony IV | Menopause & Hormonal Support | ULANDA",
+              "title": "Hormone Harmony IV Ware SG12 | Menopause Support | ULANDA",
               "description": "Targeted IV therapy for women's longevity. Supports hormonal balance, energy & skin health during perimenopause & menopause."
             },
             "seoHeadings": {
@@ -6564,7 +6576,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Vitamin B12 Injection | Energy Boost | ULANDA",
+              "title": "Vitamin B12 IM Ware SG12 | Energy & Focus | ULANDA",
               "description": "Combat fatigue & brain fog with a Vitamin B12 Injection. A quick, effective boost for energy levels, mood & metabolism."
             },
             "seoHeadings": {
@@ -6813,7 +6825,7 @@ export const treatments = {
               "bookingType": "booking"
             },
             "seo": {
-              "title": "Glutathione IM Injection | Detox & Skin Brightening | ULANDA",
+              "title": "Glutathione IM Ware SG12 | Detox & Brightening | ULANDA",
               "description": "Master antioxidant injection for detox, radiance, liver support and skin brightening. ULANDA Glutathione IM boosts cellular health from within."
             },
             "seoHeadings": {
@@ -6915,7 +6927,7 @@ export const treatments = {
               "bookingType": "booking"
             },
             "seo": {
-              "title": "Vitamin D IM Injection | Bone, Mood & Immune Support | ULANDA",
+              "title": "Vitamin D IM Ware SG12 | Hormonal Support | ULANDA",
               "description": "Restore Vitamin D levels with direct IM injection. ULANDA Vitamin D IM supports bone health, mood stability, immune function and hormonal balance."
             },
             "seoHeadings": {
@@ -7017,7 +7029,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Integrated Weight Management Support | Metabolic Reset & Hormone Support | ULANDA",
+              "title": "Weight Management Ware SG12 | Metabolic Reset | ULANDA",
               "description": "A medically supervised metabolic reset programme for midlife weight changes, hormonal balance & body confidence. In partnership with 360Medicx Harley Street."
             },
             "seoHeadings": {
@@ -7273,7 +7285,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Skin, Hair & Nails IV Drip | Radiance Boost | ULANDA",
+              "title": "Skin, Hair & Nails IV Ware SG12 | Radiance Boost | ULANDA",
               "description": "Nourish your beauty from within. Our Skin, Hair & Nails IV Drip delivers essential nutrients for a glowing complexion & stronger hair/nails."
             },
             "seoHeadings": {
@@ -7542,7 +7554,7 @@ export const treatments = {
             image: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
             "seo": {
-              "title": "12-Week Menopause Regeneration Plan | ULANDA",
+              "title": "Menopause Regeneration Plan Ware SG12 | Collagen Revival | ULANDA",
               "description": "ULANDA’s 12-Week Menopause Regeneration Plan restores collagen, hydration & firmness for midlife skin. A hormone-smart, regenerative pathway for perimenopause & menopause."
             },
             "title": "12-Week Menopause Regeneration Plan",
@@ -7755,7 +7767,7 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
             "seo": {
-              "title": "Under-Eye Regeneration Blueprint | ULANDA",
+              "title": "Under-Eye Regeneration Ware SG12 | Filler-Free Treatment | ULANDA",
               "description": "Restore tired eyes naturally with ULANDA’s Under-Eye Regeneration Blueprint. A filler-free, regenerative programme for dark circles, hollowing & crepey skin."
             },
             "title": "Under-Eye Regeneration Blueprint",
@@ -7962,7 +7974,7 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
             "seo": {
-              "title": "Collagen Reset Journey | ULANDA",
+              "title": "Collagen Reset Journey Ware SG12 | Skin Rebuild | ULANDA",
               "description": "Rebuild your skin’s structure with ULANDA’s Collagen Reset Journey. A multi-layered regenerative programme to restore firmness, elasticity & natural lift."
             },
             "title": "Collagen Reset Journey",
@@ -8177,7 +8189,7 @@ export const treatments = {
             image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
             placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
             "seo": {
-              "title": "Radiate Hormone-Smart Skin Programme | ULANDA",
+              "title": "Hormone-Smart Skin Programme Ware SG12 | Radiate | ULANDA",
               "description": "Balance hormonal skin from within. ULANDA’s Radiate Hormone-Smart Skin Programme targets breakouts, sensitivity & dullness through internal & external regeneration."
             },
             "title": "Radiate Hormone-Smart Skin Programme",
@@ -8389,7 +8401,7 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
             "seo": {
-              "title": "Shape & Regenerate™ Body Transformation | ULANDA",
+              "title": "Shape & Regenerate Ware SG12 | Body Transformation | ULANDA",
               "description": "ULANDA Shape & Regenerate™ combines metabolic health, body contouring & skin tightening for a complete midlife body transformation. Regenerative, not restrictive."
             },
             "title": "ULANDA Shape & Regenerate™",

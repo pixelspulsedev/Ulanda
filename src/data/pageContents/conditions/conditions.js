@@ -3,7 +3,7 @@ export const conditions = [
   {
     id: 'age-and-regeneration',
     seo: {
-      title: "Skin Texture & Quality Treatment Ware | Regeneration for 35+, 45+, 55+",
+      title: "Skin Texture & Quality Treatment Ware SG12 | Regeneration | ULANDA",
       description: "Skin texture and quality treatment in Ware using PN, PRP, boosters, biostimulators & collagen therapies. Tailored to your decade of life."
     },
     hero: {
@@ -197,7 +197,7 @@ export const conditions = [
   {
     id: 'body-skin-structural',
     seo: {
-      title: "Body Skin Concerns Ware | Laxity, Cellulite, Stretch Marks",
+      title: "Body Skin Concerns Ware SG12 | Laxity & Cellulite | ULANDA",
       description: "Body skin concerns treatment in Ware. Treat cellulite, stretch marks, laxity & postpartum changes using RF, PN & biostimulators."
     },
     hero: {
@@ -386,7 +386,7 @@ export const conditions = [
   {
     id: 'eye-area',
     seo: {
-      title: "Under-Eye Treatment Ware SG12 | Dark Circles, Hollows, Crepey Skin",
+      title: "Under-Eye Treatment Ware SG12 | Dark Circles & Hollows | ULANDA",
       description: "Advanced under-eye regeneration in Ware. Treat dark circles, hollows & crepey skin with PN, PRP, boosters & threads. Book under-eye analysis."
     },
     hero: {
@@ -587,7 +587,7 @@ export const conditions = [
   {
     id: 'menopause-hormone-skin-changes',
     seo: {
-      title: "Menopause Skin Treatment Ware SG12 | Regeneration for 40+ Women",
+      title: "Menopause Skin Treatment Ware SG12 | Regeneration 40+ | ULANDA",
       description: "Menopause skin specialists in Ware. Treat dryness, laxity, pigmentation, texture decline & hormonal ageing with PN, biostimulators, threads & wellness."
     },
     hero: {
@@ -783,7 +783,7 @@ export const conditions = [
   {
     id: 'pigmentation-and-skin-tone',
     seo: {
-      title: "Pigmentation Treatment Ware SG12 | Melasma, Sun Damage & PIH Experts",
+      title: "Pigmentation Treatment Ware SG12 | Melasma & Sun Damage | ULANDA",
       description: "Advanced pigmentation treatments in Ware for melasma, sun damage, age spots and uneven tone. PN, peels, boosters & regeneration-led care. Book your skin analysis."
     },
     hero: {
@@ -980,7 +980,7 @@ export const conditions = [
   {
     id: 'internal-wellness',
     seo: {
-      title: "Wellness & Life Stage Support Ware SG12 | Energy, Immunity & Longevity",
+      title: "Wellness & Life Stage Support Ware SG12 | Energy & Immunity | ULANDA",
       description: "Wellness and life stage support in Ware: fatigue, slow metabolism, inflammation & nutrient deficiency treated with IV/IM therapy & menopause support."
     },
     hero: {

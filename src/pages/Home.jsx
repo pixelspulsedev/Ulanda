@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ULANDA | Regenerative Aesthetics Clinic in Ware SG12 | Hertfordshire</title>
+        <title>ULANDA Skin Clinic | A Regenerative Skin Aesthetic Clinic in Ware SG12 Hertfordshire</title>
         <meta name="description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Specialising in skin regeneration, bio-remodelling and hormone-smart treatments for midlife women." />
         <link rel="canonical" href="https://www.ulanda.co.uk/" />
         <link 
