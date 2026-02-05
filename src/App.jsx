@@ -18,7 +18,6 @@ function App() {
       <Head>
         <title>ULANDA | Regenerative Aesthetics in Ware SG12, Hertfordshire</title>
         <meta name="description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Specialising in skin regeneration, bio-remodelling and hormone-smart treatments for mid-life women." />
-        <link rel="canonical" href="https://www.ulanda.co.uk/" />
       </Head>
       
       {/* Site-wide LocalBusiness Schema - added once */}
