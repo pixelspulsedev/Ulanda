@@ -85,7 +85,7 @@ export default function Footer() {
                 <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors ">Uneven tone & pigmentation</Link></li>
                 <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Skin Texture</Link></li>
                 <li><Link to="/conditions/dark-circles" className="hover:text-primary transition-colors ">Dark circles</Link></li>
-                <li><Link to="/conditions" className="hover:text-primary transition-colors ">More +</Link></li>
+                <li><Link to="/conditions" className="hover:text-primary transition-colors ">All Conditions</Link></li>
               </ul>
             </div>
 

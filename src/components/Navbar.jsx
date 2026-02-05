@@ -209,7 +209,7 @@ export default function Navbar() {
                 { name: 'Texture & Pores', path: '/conditions/age-and-regeneration' },
                 { name: 'Post-Inflammatory Pigmentation', path: '/conditions/post-inflammatory-hyperpigmentation' },
                 { name: 'Dark Circles', path: '/conditions/dark-circles' },
-                { name: 'More +', path: '/conditions' }
+                { name: 'All Conditions', path: '/conditions' }
               ].map((item) => (
                 <li key={item.name}>
                   <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
@@ -363,7 +363,7 @@ export default function Navbar() {
                       <li><Link to="/conditions/age-and-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Texture & Pores</Link></li>
                       <li><Link to="/conditions/post-inflammatory-hyperpigmentation" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Post-Inflammatory Pigmentation</Link></li>
                       <li><Link to="/conditions/dark-circles" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Dark Circles</Link></li>
-                      <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">More +</Link></li>
+                      <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">All Conditions</Link></li>
                     </ul>
                   </details>
                 </li>

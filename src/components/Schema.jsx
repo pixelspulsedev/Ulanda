@@ -56,9 +56,19 @@ export const LocalBusinessSchema = () => {
       }
     ],
     "medicalSpecialty": [
-      "Dermatology",
-      "Aesthetic Medicine",
-      "Skin Regeneration"
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Dermatology",
+        "sameAs": "https://schema.org/Dermatology"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Aesthetic Medicine"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Skin Regeneration"
+      }
     ],
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
