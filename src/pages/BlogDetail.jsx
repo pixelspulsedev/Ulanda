@@ -72,10 +72,25 @@ const BlogContent = ({ content }) => {
               {content.style === 'cross' && (
                 <X className="w-5 h-5 text-red-400 mt-1 shrink-0" />
               )}
-              {content.style !== 'check' && content.style !== 'cross' && (
+              {content.style === 'dict' && (
                 <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2.5 shrink-0" />
               )}
-              <span className="leading-relaxed">{item}</span>
+              {content.style !== 'check' && content.style !== 'cross' && content.style !== 'dict' && (
+                <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2.5 shrink-0" />
+              )}
+              <span className="leading-relaxed">
+                {content.style === 'dict' && typeof item === 'object' && item.label ? (
+                  <>
+                    <strong className="text-base-content">{item.label}:</strong> {item.text}
+                  </>
+                ) : typeof item === 'object' && item.label ? (
+                  <>
+                    <strong className="text-base-content">{item.label}:</strong> {item.text}
+                  </>
+                ) : (
+                  item
+                )}
+              </span>
             </li>
           ))}
         </ul>

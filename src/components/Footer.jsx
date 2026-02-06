@@ -81,10 +81,10 @@ export default function Footer() {
             <div>
               <h3 className="font-medium font-sans text-primary mb-4">Skin Conditions</h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Skin laxity</Link></li>
+                <li><Link to="/conditions/menopause-hormone-skin-changes" className="hover:text-primary transition-colors ">Skin laxity</Link></li>
                 <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors ">Uneven tone & pigmentation</Link></li>
                 <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Skin Texture</Link></li>
-                <li><Link to="/conditions/dark-circles" className="hover:text-primary transition-colors ">Dark circles</Link></li>
+                <li><Link to="/conditions/eye-area/dark-circles" className="hover:text-primary transition-colors ">Dark circles</Link></li>
                 <li><Link to="/conditions" className="hover:text-primary transition-colors ">All Conditions</Link></li>
               </ul>
             </div>

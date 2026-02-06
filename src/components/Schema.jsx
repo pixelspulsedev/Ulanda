@@ -55,20 +55,13 @@ export const LocalBusinessSchema = () => {
         "name": "Broxbourne"
       }
     ],
-    "medicalSpecialty": [
-      {
-        "@type": "MedicalSpecialty",
-        "name": "Dermatology",
-        "sameAs": "https://schema.org/Dermatology"
-      },
-      {
-        "@type": "MedicalSpecialty",
-        "name": "Aesthetic Medicine"
-      },
-      {
-        "@type": "MedicalSpecialty",
-        "name": "Skin Regeneration"
-      }
+    "medicalSpecialty": "https://schema.org/Dermatology",
+    "knowsAbout": [
+      "Aesthetic Medicine",
+      "Skin Regeneration",
+      "Regenerative Aesthetics",
+      "Bio-remodelling",
+      "Hormone-aware Skincare"
     ],
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",

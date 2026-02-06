@@ -7543,8 +7543,8 @@ export const treatments = {
           }
         }
       },
-      "programmes": {
-        "title": "Programmes",
+      "pathways": {
+        "title": "Pathways",
         "description": "Comprehensive, multi-week regeneration plans.",
         image: "https://www.shiseido.co.uk/on/demandware.static/-/Sites-shiseido_global_uk-Library/default/dwdcbbc526/GINZA_EDIT/dry-skin-in-menopause.png?frz-v=1462",
         placeholderUrl: "https://www.shiseido.co.uk/on/demandware.static/-/Sites-shiseido_global_uk-Library/default/dwdcbbc526/GINZA_EDIT/dry-skin-in-menopause.png?frz-v=1462",

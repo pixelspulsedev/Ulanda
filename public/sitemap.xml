@@ -232,6 +232,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/menopause-regeneration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -903,36 +908,6 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/radiate/wellness/skin-glow-iv</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/menopause-regeneration</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/under-eye-regeneration</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/collagen-reset</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/hormone-smart-skin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/programmes/shape-and-regenerate</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

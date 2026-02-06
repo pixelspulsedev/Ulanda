@@ -23,7 +23,7 @@ export default function ProgrammeDetail() {
   });
 
   if (!programme) {
-    return <Navigate to="/treatments/radiate/programmes" replace />;
+    return <Navigate to="/treatments/radiate/pathways" replace />;
   }
 
   const { title, subtitle, content = {}, summary = {} } = programme;
@@ -447,7 +447,7 @@ export default function ProgrammeDetail() {
               </div>
               <div className="pt-4">
                 <Link
-                  to="/treatments/radiate/programmes"
+                  to="/treatments/radiate/pathways"
                   className="hover:underline font-sans font-light inline-flex items-center gap-2"
                 >
                   Explore Other Signature Programmes{' '}

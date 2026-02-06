@@ -204,11 +204,11 @@ export default function Navbar() {
             </NavLink>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-64 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {[
-                { name: 'Skin Laxity', path: '/conditions/skin-laxity' },
+                { name: 'Skin Laxity', path: '/conditions/menopause-hormone-skin-changes' },
                 { name: 'Uneven Tone & Pigmentation', path: '/conditions/pigmentation-and-skin-tone' },
                 { name: 'Texture & Pores', path: '/conditions/age-and-regeneration' },
-                { name: 'Post-Inflammatory Pigmentation', path: '/conditions/post-inflammatory-hyperpigmentation' },
-                { name: 'Dark Circles', path: '/conditions/dark-circles' },
+                { name: 'Post-Inflammatory Pigmentation', path: '/conditions/pigmentation-and-skin-tone/post-inflammatory-hyperpigmentation' },
+                { name: 'Dark Circles', path: '/conditions/eye-area/dark-circles' },
                 { name: 'All Conditions', path: '/conditions' }
               ].map((item) => (
                 <li key={item.name}>
@@ -358,11 +358,11 @@ export default function Navbar() {
                     </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
                       <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
-                      <li><Link to="/conditions/skin-laxity" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin Laxity</Link></li>
+                      <li><Link to="/conditions/menopause-hormone-skin-changes" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin Laxity</Link></li>
                       <li><Link to="/conditions/pigmentation-and-skin-tone" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Uneven Tone & Pigmentation</Link></li>
                       <li><Link to="/conditions/age-and-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Texture & Pores</Link></li>
-                      <li><Link to="/conditions/post-inflammatory-hyperpigmentation" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Post-Inflammatory Pigmentation</Link></li>
-                      <li><Link to="/conditions/dark-circles" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Dark Circles</Link></li>
+                      <li><Link to="/conditions/pigmentation-and-skin-tone/post-inflammatory-hyperpigmentation" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Post-Inflammatory Pigmentation</Link></li>
+                      <li><Link to="/conditions/eye-area/dark-circles" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Dark Circles</Link></li>
                       <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">All Conditions</Link></li>
                     </ul>
                   </details>

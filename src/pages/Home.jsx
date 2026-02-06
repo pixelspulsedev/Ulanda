@@ -461,7 +461,7 @@ export default function Home() {
               </p>
             </div>
             <Link
-              to="/treatments/radiate/programmes"
+              to="/treatments/radiate/pathways"
               className="btn hidden md:flex btn-primary text-white px-8 mt-6 md:mt-0"
             >
               Explore
@@ -471,7 +471,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
             {/* Program 1 */}
             <Link
-              to="/treatments/radiate/programmes/menopause-regeneration"
+              to="/treatments/radiate/pathways/menopause-regeneration"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
@@ -492,7 +492,7 @@ export default function Home() {
 
             {/* Program 2 */}
             <Link
-              to="/treatments/radiate/programmes/under-eye-regeneration"
+              to="/treatments/radiate/pathways/under-eye-regeneration"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
@@ -515,7 +515,7 @@ export default function Home() {
 
             {/* Program 3 */}
             <Link
-              to="/treatments/radiate/programmes/collagen-reset"
+              to="/treatments/radiate/pathways/collagen-reset"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
@@ -536,7 +536,7 @@ export default function Home() {
 
             {/* Program 4 */}
             <Link
-              to="/treatments/radiate/programmes/hormone-smart-skin"
+              to="/treatments/radiate/pathways/hormone-smart-skin"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
@@ -634,7 +634,7 @@ export default function Home() {
               },
               {
                 text: 'Texture & pores',
-                link: '/conditions/skin-texture-quality',
+                link: '/conditions/age-and-regeneration',
               },
               {
                 text: 'Dark circles',
@@ -656,17 +656,17 @@ export default function Home() {
               },
               {
                 text: 'Postpartum skin changes',
-                link: '/conditions/body-skin-concerns/post-weightloss-postpartum',
+                link: '/conditions/body-skin-structural/post-weightloss-postpartum',
               },
             ],
             [
               {
                 text: 'Body tightening needs',
-                link: '/conditions/body-skin-concerns',
+                link: '/conditions/body-skin-structural',
               },
               {
                 text: 'Fatigue / inflammation-driven skin dullness',
-                link: '/conditions/wellness-life-stage/fatigue-low-energy',
+                link: '/conditions/internal-wellness/fatigue-low-energy',
               },
               {
                 text: 'Skin laxity',

@@ -36,7 +36,7 @@ const Disclaimer = lazy(() => import('./pages/Disclaimer.jsx'))
 
 const RedirectToProgramme = () => {
   const { id } = useParams();
-  return <Navigate to={`/treatments/radiate/programmes/${id}`} replace />;
+  return <Navigate to={`/treatments/radiate/pathways/${id}`} replace />;
 };
 
 const routes = [
@@ -56,6 +56,14 @@ const routes = [
       {
         path: 'treatments/:category',
         element: <TreatmentCategory />,
+      },
+      {
+        path: 'treatments/radiate/programmes',
+        element: <Programme />,
+      },
+      {
+        path: 'treatments/radiate/pathways',
+        element: <Programme />,
       },
       {
         path: 'treatments/radiate/programmes/:id',
@@ -103,7 +111,7 @@ const routes = [
       },
       {
         path: 'programmes',
-        element: <Navigate to="/treatments/radiate/programmes" replace />,
+        element: <Navigate to="/treatments/radiate/pathways" replace />,
       },
       {
         path: 'programmes/:id',
@@ -165,7 +173,7 @@ const routes = [
 export const createRoot = ViteReactSSG(
   { routes },
   ({ app, router, routes, isClient, initialState }) => {
-    // ...
+    // Custom setup if needed
   }
 )
 
