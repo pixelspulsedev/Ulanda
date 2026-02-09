@@ -9,7 +9,8 @@ import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function ToolDetail() {
-  const { id } = useParams();
+  const { id: rawId } = useParams();
+  const id = rawId?.toLowerCase();
   const tool = tools.find(t => t.id === id);
 
   if (!tool) {

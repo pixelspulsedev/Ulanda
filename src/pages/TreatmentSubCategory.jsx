@@ -40,7 +40,10 @@ const subCategorySEO = {
 };
 
 export default function TreatmentSubCategory() {
-  const { category: categoryId, subcategory: subId } = useParams();
+  const { category: rawCategoryId, subcategory: rawSubId } = useParams();
+  const categoryId = rawCategoryId?.toLowerCase();
+  const subId = rawSubId?.toLowerCase();
+
   const category = getTreatmentCategory(categoryId);
   const subCategory = getTreatmentSubCategory(categoryId, subId);
 
@@ -59,7 +62,7 @@ export default function TreatmentSubCategory() {
       <Head>
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
-        <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${categoryId}/${subId}`} />
+        <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${categoryId}/${subId}`.toLowerCase()} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={seo.title} />
         <meta name="twitter:description" content={seo.description} />

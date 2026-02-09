@@ -359,8 +359,6 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://images.unsplash.com/photo-1761718210055-e83ca7e2c9ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW56eW1lJTIwZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
-            placeholderUrl: "https://images.unsplash.com/photo-1761718210055-e83ca7e2c9ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW56eW1lJTIwZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
             "category": "Refresh",
             "description": "A restorative, oxygenating facial that strengthens the skin barrier, boosts circulation and improves midlife skin function.",
             "introduction": {
@@ -386,8 +384,6 @@ export const treatments = {
                 "text1": "ULANDA’s Enzyme Therapy is a regenerative, skin-strengthening treatment designed to restore vital circulation, enhance lymphatic drainage, firm the skin and support barrier repair.",
                 "text2": "It is particularly effective for midlife and menopausal clients whose skin has become dull, reactive, sluggish or prone to dehydration due to declining cellular activity."
               },
-              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
@@ -944,70 +940,6 @@ export const treatments = {
               "buttonText": "Book Consultation"
             }
           },
-          "dermaplaning": {
-            "id": "dermaplaning",
-            "title": "Dermaplaning",
-            "subtitle": "Ultra-smooth finish • Makeup-ready glow",
-            "category": "Refresh",
-            "description": "A manual exfoliation method using a sterile blade to remove vellus hair (peach fuzz) and dead skin cells.",
-            image: "/assets/img/treatments/refresh/skin-clinic-ware-dermaplaning.webp",
-            placeholderUrl: "/assets/img/treatments/refresh/skin-clinic-ware-dermaplaning.webp",
-            "booking": {
-              "price": 50,
-              "duration": 30,
-              "treatmentType": "resurfacing",
-              "bookingType": "Book Now"
-            },
-            "introduction": {
-              "title": "What is Dermaplaning?",
-              "content": [
-                "A manual exfoliation method using a sterile blade to remove vellus hair (peach fuzz) and dead skin cells.",
-                "It helps products penetrate deeper and provides a smooth base for makeup."
-              ],
-              "goals": [
-                "Remove vellus hair",
-                "Exfoliate dead skin",
-                "Brighten complexion",
-                "Smooth texture"
-              ]
-            },
-            "idealFor": {
-              "title": "Best",
-              "highlight": "For",
-              "items": [
-                "Dullness",
-                "Makeup lovers",
-                "Dry rough texture",
-                "Pre-event prep"
-              ]
-            },
-            "benefits": [
-              "Instant smoothness",
-              "Helps products penetrate",
-              "Pairs beautifully with facials or peels"
-            ],
-            "detailedBenefits": {
-              "title": "Benefits",
-              "sections": [
-                {
-                  "title": "Why Choose Dermaplaning?",
-                  "items": [
-                    "✔ Instant smoothness",
-                    "✔ Helps products penetrate",
-                    "✔ Pairs beautifully with facials or peels",
-                    "✔ Ultra-smooth finish",
-                    "✔ Makeup-ready glow"
-                  ]
-                }
-              ]
-            },
-            "cta": {
-              "title": "Instant Smoothness.",
-              "highlight": "Makeup-Ready Glow.",
-              "description": "Book your Dermaplaning treatment today.",
-              "buttonText": "Book Now"
-            }
-          },
           "lymphatic-drainage-facial": {
             "id": "lymphatic-drainage-facial",
             "title": "Lymphatic Drainage Facial",
@@ -1142,8 +1074,6 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "category": "Refresh",
             "description": "Clinically proven light therapy that stimulates collagen, calms inflammation and accelerates regeneration — ideal for midlife and menopausal skin.",
             "introduction": {
@@ -1467,8 +1397,6 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "category": "Refresh",
             "description": "Resurfaces and revitalises the skin without visible exfoliation.",
             "introduction": {
@@ -1489,8 +1417,6 @@ export const treatments = {
                 "text1": "Unlike standard peeling clinics, we use BioRePeel within a regenerative protocol — strengthening the skin barrier, not simply resurfacing it.",
                 "text2": ""
               },
-              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
@@ -1787,8 +1713,6 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://images.unsplash.com/photo-1580564591877-3a6578d09f5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlbWljYWwlMjBmYWNlJTIwdHJlYXRtZW50fGVufDB8fDB8fHww",
-            placeholderUrl: "https://images.unsplash.com/photo-1580564591877-3a6578d09f5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlbWljYWwlMjBmYWNlJTIwdHJlYXRtZW50fGVufDB8fDB8fHww",
             "category": "Refresh",
             "description": "Medical-grade peeling for brighter skin, smoother texture and targeted correction — tailored for midlife and menopausal skin.",
             "introduction": {
@@ -1812,8 +1736,6 @@ export const treatments = {
                 "text1": "ULANDA uses medical-grade blends, not cosmetic-strength formulations.",
                 "text2": "Fully customised to your hormonal stage, skin sensitivity and regeneration needs."
               },
-              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
@@ -3038,8 +2960,6 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
-            placeholderUrl: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             "category": "Refresh",
             "description": "A deeply hydrating, oxygen-rich infusion that brightens, revitalises and energises midlife skin.",
             "introduction": {
@@ -6380,8 +6300,6 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-            image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             "category": "Radiate",
             "description": "Hormone Support • Energy • Metabolism • Skin Repair",
             "collaboration": {

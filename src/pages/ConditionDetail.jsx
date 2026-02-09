@@ -3,7 +3,7 @@ import { Head } from 'vite-react-ssg';
 import { useParams, Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getIndividualCondition } from '../data/pageContents/conditions/individualConditions';
-import { getCondition } from '../data/pageContents/conditions/conditions';
+import { conditions } from '../data/pageContents/conditions/conditions';
 import { getTreatmentsForCondition, getTreatmentUrl } from '../data/crosslinks';
 import Conditions from './Conditions';
 import { ChevronRight } from 'lucide-react';
@@ -14,12 +14,15 @@ import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function ConditionDetail() {
-  const { id, category } = useParams();
+  const { id: rawId, category: rawCategory } = useParams();
+  const id = rawId?.toLowerCase();
+  const category = rawCategory?.toLowerCase();
   const conditionId = id || category;
 
   // Check if it's a master condition first
-  const masterCondition = getCondition(conditionId);
-  if (masterCondition) {
+  const isMasterCondition = conditions.some(c => c.id === conditionId || (conditionId === 'aging' && c.id === 'ageing'));
+  
+  if (isMasterCondition) {
     return <Conditions />;
   }
 
@@ -36,14 +39,18 @@ export default function ConditionDetail() {
     return <div className="text-center py-20">Condition not found</div>;
   }
 
+  const canonicalPath = category ? `${category}/${id}` : id;
+  const canonicalUrl = `https://www.ulanda.co.uk/conditions/${canonicalPath}`.toLowerCase();
+  const seoDescription = condition.hero.description;
+
   return (
     <>
       <Head>
         <title>
           {condition.hero.title} {condition.hero.highlight} Treatment | ULANDA Ware SG12
         </title>
-        <meta name="description" content={condition.hero.description} />
-        <link rel="canonical" href={`https://www.ulanda.co.uk/conditions/${category}/${id}`} />
+        <meta name="description" content={seoDescription} />
+        <link rel="canonical" href={canonicalUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${condition.hero.title} ${condition.hero.highlight} Treatment | ULANDA`} />
         <meta name="twitter:description" content={condition.hero.description} />

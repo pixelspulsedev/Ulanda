@@ -10,7 +10,9 @@ import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 
 export default function PathwayDetail() {
-  const { id, category } = useParams();
+  const { id: rawId, category: rawCategory } = useParams();
+  const id = rawId?.toLowerCase();
+  const category = rawCategory?.toLowerCase();
   const pathwayId = id || category;
   const pathway = getPathway(pathwayId);
 

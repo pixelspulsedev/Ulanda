@@ -78,7 +78,11 @@ const getBookingButtonLabel = (booking) => {
 
 const Treatment = () => {
   const navigate = useNavigate();
-  const { category, subcategory, id } = useParams();
+  const { category: rawCategory, subcategory: rawSubcategory, id: rawId } = useParams();
+  const category = rawCategory?.toLowerCase();
+  const subcategory = rawSubcategory?.toLowerCase();
+  const id = rawId?.toLowerCase();
+
   // Using new call signature: (categoryId, subId, treatmentId)
   const treatment = getTreatment(category, subcategory, id);
   // relatedConditions expects ID, which corresponds to treatmentId
@@ -119,7 +123,7 @@ const Treatment = () => {
     '';
 
   // Canonical URL for the treatment page
-  const canonicalUrl = `https://www.ulanda.co.uk/treatments/${category}/${subcategory}/${id}`;
+  const canonicalUrl = `https://www.ulanda.co.uk/treatments/${category}/${subcategory}/${id}`.toLowerCase();
 
   const Book = () => {
     const label = treatment.booking ? getBookingButtonLabel(treatment.booking) : 'Book Consultation';

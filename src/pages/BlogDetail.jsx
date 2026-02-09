@@ -249,7 +249,8 @@ const BlogContent = ({ content }) => {
 };
 
 export default function BlogDetail() {
-  const { id } = useParams();
+  const { id: rawId } = useParams();
+  const id = rawId?.toLowerCase();
   const blog = getBlog(id);
 
   if (!blog) {

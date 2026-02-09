@@ -36,7 +36,7 @@ const Disclaimer = lazy(() => import('./pages/Disclaimer.jsx'))
 
 const RedirectToProgramme = () => {
   const { id } = useParams();
-  return <Navigate to={`/treatments/radiate/pathways/${id}`} replace />;
+  return <Navigate to={`/treatments/radiate/pathways/${id ? id.toLowerCase() : ''}`} replace />;
 };
 
 const routes = [

@@ -1,4 +1,6 @@
 
+import { individualConditions } from './individualConditions';
+
 export const conditions = [
   {
     id: 'age-and-regeneration',
@@ -1154,6 +1156,9 @@ export const conditions = [
 
 export const getCondition = (id) => {
   if (id === 'aging') return conditions.find(c => c.id === 'ageing');
-  return conditions.find(c => c.id === id);
+  const condition = conditions.find(c => c.id === id);
+  if (condition) return condition;
+  
+  return individualConditions.find(c => c.id === id);
 };
 

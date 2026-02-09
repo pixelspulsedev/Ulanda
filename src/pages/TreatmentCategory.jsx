@@ -28,7 +28,9 @@ const pathwaySEO = {
 };
 
 export default function TreatmentCategory() {
-  const { category: categoryId } = useParams();
+  const { category: rawCategoryId } = useParams();
+  const categoryId = rawCategoryId?.toLowerCase();
+  
   const category = getTreatmentCategory(categoryId);
 
   if (!category) {
@@ -46,7 +48,7 @@ export default function TreatmentCategory() {
       <Head>
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
-        <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${categoryId}`} />
+        <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${categoryId}`.toLowerCase()} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={seo.title} />
         <meta name="twitter:description" content={seo.description} />

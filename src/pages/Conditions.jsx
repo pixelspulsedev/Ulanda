@@ -9,7 +9,8 @@ import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function Conditions() {
-  const { id } = useParams();
+  const { id: rawId } = useParams();
+  const id = rawId?.toLowerCase();
   
   // If no ID is present, render the landing page
   if (!id) {

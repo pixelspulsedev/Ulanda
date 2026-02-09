@@ -11,7 +11,8 @@ import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function ProgrammeDetail() {
-  const { id } = useParams();
+  const { id: rawId } = useParams();
+  const id = rawId?.toLowerCase();
   // Programmes are now stored under treatments -> radiate -> programmes
   const programme = getTreatment('radiate', 'programmes', id);
   const relatedConditions = getConditionsForProgramme(id);
