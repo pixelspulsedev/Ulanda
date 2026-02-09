@@ -1,5 +1,5 @@
 
-import { individualConditions } from './individualConditions';
+import { individualConditions } from './individualConditions.js';
 
 export const conditions = [
   {

@@ -1,4 +1,4 @@
-import { getAllTreatments } from './pageContents/treatments/treatments';
+import { getAllTreatments } from './pageContents/treatments/treatments.js';
 
 // ═══════════════════════════════════════════════════════════════
 // ULANDA INTERNAL CROSSLINKING SYSTEM (2025)
