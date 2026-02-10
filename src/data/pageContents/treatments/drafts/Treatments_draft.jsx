@@ -216,7 +216,7 @@ export default function TreatmentsDraft() {
                 {searchResults.map((treatment, index) => (
                   <Link
                     key={`${treatment.categoryId}-${treatment.treatmentKey}-${index}`}
-                    to={`/treatments-draft/${treatment.categoryId}/${treatment.treatmentKey}`}
+                    to={`/treatments/${treatment.categoryId}/${treatment.treatmentKey}`}
                     className="group bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-base-200"
                   >
                     {treatment.image && (
@@ -274,7 +274,7 @@ export default function TreatmentsDraft() {
               {categories.map((category) => (
                 <Link
                   key={category.id}
-                  to={`/treatments-draft/${category.id}`}
+                  to={`/treatments/${category.id}`}
                   className="group block h-full"
                 >
                   <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-base-200">

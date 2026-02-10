@@ -57,7 +57,7 @@ export default function TreatmentCategoryDraft() {
   const linkedConditions = getLinkedConditionsForCategory(categoryId);
 
   if (!category) {
-    return <Navigate to="/treatments-draft" replace />;
+    return <Navigate to="/treatments" replace />;
   }
 
   // Check if this is the Pelvic & Intimate Regeneration page (special pathway rendering)
@@ -95,7 +95,7 @@ export default function TreatmentCategoryDraft() {
             <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full text-base-content">
               <div className="max-w-4xl">
                 <Link 
-                  to="/treatments-draft" 
+                  to="/treatments" 
                   className="inline-flex items-center gap-2 text-primary/70 hover:text-primary mb-6 transition-colors text-sm"
                 >
                   ← Back to All Treatments
@@ -467,7 +467,7 @@ export default function TreatmentCategoryDraft() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full text-base-content">
             <div className="max-w-4xl">
               <Link 
-                to="/treatments-draft" 
+                to="/treatments" 
                 className="inline-flex items-center gap-2 text-primary/70 hover:text-primary mb-6 transition-colors text-sm"
               >
                 ← Back to All Treatments
@@ -525,7 +525,7 @@ export default function TreatmentCategoryDraft() {
               {validTreatments.map(([treatmentKey, treatment]) => (
                 <Link 
                   key={treatmentKey} 
-                  to={`/treatments-draft/${category.id}/${treatmentKey}`} 
+                  to={`/treatments/${category.id}/${treatmentKey}`} 
                   className="group block h-full"
                 >
                   <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-base-200">
@@ -598,7 +598,7 @@ export default function TreatmentCategoryDraft() {
             <h3 className="text-2xl font-serif mb-8 text-center">Explore Other Categories</h3>
             <div className="flex flex-wrap justify-center gap-4">
               <Link 
-                to="/treatments-draft" 
+                to="/treatments" 
                 className="px-6 py-3 border border-primary/30 rounded-full text-primary hover:bg-primary hover:text-white transition-colors"
               >
                 View All Treatments

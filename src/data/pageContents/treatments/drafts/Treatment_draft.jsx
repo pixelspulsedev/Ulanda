@@ -1,7 +1,7 @@
 /**
- * DRAFT: Treatment_draft.jsx - Individual Treatment Page for New Structure
+ * Treatment Page - Individual Treatment Page for New Structure
  * 
- * This handles the flattened URL structure: /treatments-draft/:category/:treatmentId
+ * This handles the flattened URL structure: /treatments/:category/:treatmentId
  * It retrieves the treatment from the new category structure and renders it
  * using the same layout as the original Treatment.jsx.
  */
@@ -75,7 +75,7 @@ export default function TreatmentDraft() {
   }, []);
 
   if (!category || !treatment) {
-    return <Navigate to="/treatments-draft" replace />;
+    return <Navigate to="/treatments" replace />;
   }
 
   const seoTitle = treatment.seo?.title || `Ulanda - ${treatment.title} ${treatment.highlight || ''}`;

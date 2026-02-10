@@ -1,6 +1,6 @@
 /**
- * DRAFT: ConditionDetail page for Non-Responsive Skin
- * Test route: /conditions-draft/non-responsive-skin
+ * ConditionDetail page for Non-Responsive Skin
+ * Route: /conditions/non-responsive-skin
  */
 
 import React from 'react';

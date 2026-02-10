@@ -3,7 +3,7 @@ import React from 'react';
 import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Search, X } from 'lucide-react';
-import { getAllTreatments } from '../data/pageContents/treatments/treatments';
+import { getVisibleTreatmentCategories, findTreatmentById } from '../data/pageContents/treatments/drafts/treatments_restructured_draft';
 import { conditions } from '../data/pageContents/conditions/conditions';
 import { individualConditions } from '../data/pageContents/conditions/individualConditions';
 
@@ -15,8 +15,7 @@ export default function Navbar() {
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
 
-  const treatments = getAllTreatments();
-  const treatmentList = Object.values(treatments);
+  const treatmentCategories = getVisibleTreatmentCategories();
 
   // Get all conditions for search
   const getAllConditions = () => {
@@ -62,29 +61,26 @@ export default function Navbar() {
     const query = searchQuery.toLowerCase();
     const results = [];
 
-    // Search treatments
-    treatmentList.forEach(category => {
-      Object.entries(category.subCategories || {}).forEach(([subKey, subCategory]) => {
-        Object.entries(subCategory.treatments || {}).forEach(([treatmentKey, treatment]) => {
-          const matchesSearch = 
-            treatment.title?.toLowerCase().includes(query) ||
-            treatment.subtitle?.toLowerCase().includes(query) ||
-            treatment.description?.toLowerCase().includes(query) ||
-            category.title?.toLowerCase().includes(query) ||
-            subCategory.title?.toLowerCase().includes(query);
+    // Search treatments (new flattened structure)
+    treatmentCategories.forEach(category => {
+      Object.entries(category.treatments || {}).forEach(([treatmentKey, treatment]) => {
+        if (!treatment) return;
+        
+        const matchesSearch = 
+          treatment.title?.toLowerCase().includes(query) ||
+          treatment.subtitle?.toLowerCase().includes(query) ||
+          treatment.description?.toLowerCase().includes(query) ||
+          category.title?.toLowerCase().includes(query);
 
-          if (matchesSearch) {
-            results.push({
-              ...treatment,
-              type: 'treatment',
-              categoryId: category.id,
-              categoryTitle: category.title,
-              subCategoryTitle: subCategory.title,
-              subCategoryKey: subKey,
-              treatmentKey: treatmentKey
-            });
-          }
-        });
+        if (matchesSearch) {
+          results.push({
+            ...treatment,
+            type: 'treatment',
+            categoryId: category.id,
+            categoryTitle: category.title,
+            treatmentKey: treatmentKey
+          });
+        }
       });
     });
 
@@ -102,14 +98,14 @@ export default function Navbar() {
     });
 
     return results.slice(0, 8); // Limit to 8 results (increased from 6)
-  }, [searchQuery, treatmentList, allConditions]);
+  }, [searchQuery, treatmentCategories, allConditions]);
 
   const handleSearchClick = (result) => {
     setIsSearchOpen(false);
     setSearchQuery('');
     
     if (result.type === 'treatment') {
-      navigate(`/treatments/${result.categoryId}/${result.subCategoryKey}/${result.treatmentKey}`);
+      navigate(`/treatments/${result.categoryId}/${result.treatmentKey}`);
     } else if (result.type === 'condition') {
       navigate(result.url);
     }
@@ -182,11 +178,11 @@ export default function Navbar() {
             >
               Treatments <ChevronDown />
             </NavLink>
-            <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-56 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
-              {['Refresh', 'Renew', 'Restore', 'Radiate'].map((item) => (
-                <li key={item}>
-                  <Link to={`/treatments/${item.toLowerCase()}`} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
-                    {item}
+            <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-72 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
+              {treatmentCategories.map((category) => (
+                <li key={category.id}>
+                  <Link to={`/treatments/${category.id}`} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                    {category.title}
                   </Link>
                 </li>
               ))}
@@ -317,10 +313,9 @@ export default function Navbar() {
                     </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
                         <li><Link to="/treatments" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
-                        <li><Link to="/treatments/refresh" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Refresh</Link></li>
-                        <li><Link to="/treatments/renew" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Renew</Link></li>
-                        <li><Link to="/treatments/restore" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Restore</Link></li>
-                        <li><Link to="/treatments/radiate" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Radiate</Link></li>
+                        {treatmentCategories.map((category) => (
+                          <li key={category.id}><Link to={`/treatments/${category.id}`} onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">{category.title}</Link></li>
+                        ))}
                     </ul>
                   </details>
                 </li>
@@ -333,15 +328,14 @@ export default function Navbar() {
                         setActiveMobileMenu(activeMobileMenu === 'programs' ? null : 'programs');
                       }}
                     >
-                      Programs
+                      Pathways
                     </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-                      <li><Link to="/programmes" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
-                      <li><Link to="/programmes/menopause-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Menopause Regeneration</Link></li>
-                      <li><Link to="/programmes/under-eye-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Under-Eye Regeneration</Link></li>
-                      <li><Link to="/programmes/collagen-reset" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Collagen Reset</Link></li>
-                      <li><Link to="/programmes/hormone-smart-skin" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Hormone-Smart Skin</Link></li>
-                      <li><Link to="/programmes/shape-and-regenerate" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Shape & Regenerate™</Link></li>
+                      <li><Link to="/treatments/radiate/pathways/menopause-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Menopause Regeneration</Link></li>
+                      <li><Link to="/treatments/radiate/pathways/under-eye-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Under-Eye Regeneration</Link></li>
+                      <li><Link to="/treatments/radiate/pathways/collagen-reset" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Collagen Reset</Link></li>
+                      <li><Link to="/treatments/radiate/pathways/hormone-smart-skin" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Hormone-Smart Skin</Link></li>
+                      <li><Link to="/treatments/radiate/pathways/shape-and-regenerate" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Shape & Regenerate™</Link></li>
                     </ul>
                   </details>
                 </li>
