@@ -4,7 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getIndividualCondition } from '../data/pageContents/conditions/individualConditions';
 import { conditions } from '../data/pageContents/conditions/conditions';
-import { getTreatmentsForCondition, getTreatmentUrl } from '../data/crosslinks';
+import { getTreatmentsForCondition, getTreatmentUrl, getConditionUrl } from '../data/crosslinks';
 import Conditions from './Conditions';
 import { ChevronRight } from 'lucide-react';
 import RelatedTreatments from '../components/RelatedTreatments';
@@ -39,8 +39,8 @@ export default function ConditionDetail() {
     return <div className="text-center py-20">Condition not found</div>;
   }
 
-  const canonicalPath = category ? `${category}/${id}` : id;
-  const canonicalUrl = `https://www.ulanda.co.uk/conditions/${canonicalPath}`.toLowerCase();
+  const preferredPath = getConditionUrl(conditionId);
+  const canonicalUrl = `https://www.ulanda.co.uk${preferredPath}`.toLowerCase();
   const seoDescription = condition.hero.description;
 
   return (

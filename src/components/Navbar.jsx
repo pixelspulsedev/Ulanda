@@ -6,6 +6,7 @@ import { Search, X } from 'lucide-react';
 import { getAllTreatments } from '../data/pageContents/treatments/treatments';
 import { conditions } from '../data/pageContents/conditions/conditions';
 import { individualConditions } from '../data/pageContents/conditions/individualConditions';
+import { getConditionUrl } from '../data/crosslinks';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -44,7 +45,7 @@ export default function Navbar() {
         description: condition.hero.description || '',
         image: condition.hero.image,
         placeholderUrl: condition.hero.placeholderUrl,
-        url: `/conditions/${condition.id}`
+        url: getConditionUrl(condition.id)
       });
     });
     

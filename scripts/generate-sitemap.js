@@ -2,9 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { conditions } from '../src/data/pageContents/conditions/conditions.js';
+import { individualConditions } from '../src/data/pageContents/conditions/individualConditions.js';
 import { programmes } from '../src/data/pageContents/programmes/programmes.js';
 import { treatments } from '../src/data/pageContents/treatments/treatments.js';
 import { blogs } from '../src/data/pageContents/blogs/blogs.js';
+import { getConditionUrl } from '../src/data/crosslinks.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -48,6 +50,11 @@ const generateSitemap = () => {
         }
       });
     }
+  });
+
+  // Add Individual Conditions (Fallback for orphans)
+  individualConditions.forEach(condition => {
+    urls.push(getConditionUrl(condition.id));
   });
 
   // Add Pathways Pages (Radiate category)
