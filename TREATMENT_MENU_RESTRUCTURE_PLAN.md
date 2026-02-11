@@ -10,7 +10,7 @@ The 4 existing visible pathways will be replaced by 6 functional categories plus
 ### New Categories (Public)
 1.  **Skin Health & Facial Therapies** (`skin-health-facial-therapies`)
 2.  **Skin Renewal & Regeneration** (`skin-renewal-regeneration`)
-3.  **Injectable Skin Optimisation** (`injectable-skin-optimisation`)
+3.  **Regenerative Injectables** (`injectable-skin-optimisation`)
 4.  **Structural & Collagen Support** (`structural-collagen-support`)
 5.  **Body Regeneration & Tissue Support** (`body-regeneration-tissue-support`)
 6.  **Wellness & Regenerative Recovery** (`wellness-regenerative-recovery`)

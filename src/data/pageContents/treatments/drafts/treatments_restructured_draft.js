@@ -119,7 +119,7 @@ const skinRenewalRegeneration = {
 };
 
 // ═══════════════════════════════════════════════════════════════
-// CATEGORY 3: Injectable Skin Optimisation
+// CATEGORY 3: Regenerative Injectables
 // ═══════════════════════════════════════════════════════════════
 // Clinician-led injectable treatments used conservatively to improve 
 // skin quality, hydration, elasticity, non-volumising and regenerative capacity.
@@ -136,7 +136,7 @@ const skinRenewalRegeneration = {
 
 const injectableSkinOptimisation = {
   id: "injectable-skin-optimisation",
-  title: "Injectable Skin Optimisation",
+  title: "Regenerative Injectables",
   subtitle: "Clinician-led injectable treatments used conservatively to improve skin quality, hydration, elasticity, non-volumising and regenerative capacity.",
   description: "Often searched as Profhilo Ware, skin boosters near me or medical aesthetics Hertfordshire.",
   image: "/assets/img/treatments/renew/Renew.webp",
@@ -522,7 +522,7 @@ export const categorySEO = {
     description: "Skin resurfacing and renewal treatments at ULANDA in Ware SG12. Chemical peels, BioRePeel, microneedling and PRP for texture improvement, pigmentation and scarring."
   },
   "injectable-skin-optimisation": {
-    title: "Injectable Skin Optimisation in Ware SG12 | ULANDA",
+    title: "Regenerative Injectables in Ware SG12 | ULANDA",
     description: "Advanced injectable treatments at ULANDA in Ware SG12. Profhilo, Jalupro, skin boosters and Lumi Eyes for hydration, elasticity and skin quality."
   },
   "structural-collagen-support": {
