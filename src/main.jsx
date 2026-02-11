@@ -9,22 +9,28 @@ import '@fontsource/inter'
 import '@fontsource/playfair-display'
 
 const Home = lazy(() => import('./pages/Home.jsx'))
-const Treatments = lazy(() => import('./pages/Treatments.jsx'))
-const TreatmentCategory = lazy(() => import('./pages/TreatmentCategory.jsx'))
-const TreatmentSubCategory = lazy(() => import('./pages/TreatmentSubCategory.jsx'))
+// NEW Treatment Structure (6 categories + Pelvic pathway)
+const Treatments = lazy(() => import('./data/pageContents/treatments/drafts/Treatments_draft.jsx'))
+const TreatmentCategory = lazy(() => import('./data/pageContents/treatments/drafts/TreatmentCategory_draft.jsx'))
+const Treatment = lazy(() => import('./data/pageContents/treatments/drafts/Treatment_draft.jsx'))
+// Conditions
 const Conditions = lazy(() => import('./pages/Conditions.jsx'))
-const Programme = lazy(() => import('./pages/Programme.jsx'))
+const ConditionDetail = lazy(() => import('./pages/ConditionDetail.jsx'))
+const NonResponsiveSkin = lazy(() => import('./data/pageContents/conditions/drafts/NonResponsiveSkin_draft.jsx'))
+// Company pages
 const About = lazy(() => import('./pages/About.jsx'))
 const Philosophy = lazy(() => import('./pages/Philosophy.jsx'))
 const Manifesto = lazy(() => import('./pages/Manifesto.jsx'))
 const Founder = lazy(() => import('./pages/Founder.jsx'))
-const Treatment = lazy(() => import('./pages/Treatment.jsx'))
-const ConditionDetail = lazy(() => import('./pages/ConditionDetail.jsx'))
+// Blogs & Articles
 const Blogs = lazy(() => import('./pages/Blogs.jsx'))
 const BlogDetail = lazy(() => import('./pages/BlogDetail.jsx'))
+// Programmes & Tools
+const Programme = lazy(() => import('./pages/Programme.jsx'))
 const ProgrammeDetail = lazy(() => import('./pages/ProgrammeDetail.jsx'))
 const ToolDetail = lazy(() => import('./pages/ToolDetail.jsx'))
 const PathwayDetail = lazy(() => import('./pages/PathwayDetail.jsx'))
+// General pages
 const HelpAndSupport = lazy(() => import('./pages/HelpAndSupport.jsx'))
 const Contact = lazy(() => import('./pages/Contact.jsx'))
 const BookConsultation = lazy(() => import('./pages/BookConsultation.jsx'))
@@ -32,7 +38,6 @@ const NotFound = lazy(() => import('./pages/NotFound.jsx'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy.jsx'))
 const TermsOfUse = lazy(() => import('./pages/TermsOfUse.jsx'))
 const Disclaimer = lazy(() => import('./pages/Disclaimer.jsx'))
-
 
 const RedirectToProgramme = () => {
   const { id } = useParams();
@@ -58,13 +63,10 @@ const routes = [
         element: <TreatmentCategory />,
       },
       {
-        path: 'treatments/radiate/programmes',
-        element: <Programme />,
+        path: 'treatments/:category/:id',
+        element: <Treatment />,
       },
-      {
-        path: 'treatments/radiate/pathways',
-        element: <Programme />,
-      },
+      // Legacy pathway routes
       {
         path: 'treatments/radiate/programmes/:id',
         element: <ProgrammeDetail />,
@@ -72,14 +74,6 @@ const routes = [
       {
         path: 'treatments/radiate/pathways/:id',
         element: <ProgrammeDetail />,
-      },
-      {
-        path: 'treatments/:category/:subcategory',
-        element: <TreatmentSubCategory />,
-      },
-      {
-        path: 'treatments/:category/:subcategory/:id',
-        element: <Treatment />,
       },
       {
         path: 'tools/:id',
@@ -92,6 +86,10 @@ const routes = [
       {
         path: 'conditions',
         element: <Conditions />,
+      },
+      {
+        path: 'conditions/non-responsive-skin',
+        element: <NonResponsiveSkin />,
       },
       {
         path: 'conditions/:category/:id',

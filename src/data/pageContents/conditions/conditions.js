@@ -99,6 +99,24 @@ export const conditions = [
           image: "https://plus.unsplash.com/premium_photo-1671717724550-fd7e92333291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5sYXJnZWQlMjBwb3Jlc3xlbnwwfDF8MHx8fDA%3D",
           placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724550-fd7e92333291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5sYXJnZWQlMjBwb3Jlc3xlbnwwfDF8MHx8fDA%3D",
           link: '/conditions/age-and-regeneration/enlarged-pores'
+        },
+        {
+          title: "Acne",
+          highlight: "Scarring",
+          description: "Scarring from past breakouts. Influenced by hormones, immune response, collagen quality and tissue resilience.",
+          text: "Best ULANDA treatments: PN, RF Microneedling, Hormone-Smart Skin.",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          link: '/conditions/age-and-regeneration/acne-scarring'
+        },
+        {
+          title: "Non-Responsive",
+          highlight: "Skin",
+          description: "When results plateau despite treatments. Suggests biological barriers or treatment fatigue.",
+          text: "Best ULANDA treatments: Reassessment, Pathway Planning.",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          link: '/conditions/age-and-regeneration/non-responsive-skin'
         }
       ]
     },
@@ -294,6 +312,15 @@ export const conditions = [
           image: "https://plus.unsplash.com/premium_photo-1746192629710-cdbc5ec17830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9zdC1XZWlnaHQlMjBMb3NzfGVufDB8MXwwfHx8MA%3D%3D",
           placeholderUrl: "https://plus.unsplash.com/premium_photo-1746192629710-cdbc5ec17830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9zdC1XZWlnaHQlMjBMb3NzfGVufDB8MXwwfHx8MA%3D%3D",
           link: '/conditions/body-skin-structural/post-weightloss-postpartum'
+        },
+        {
+          title: "Pelvic & Intimate",
+          highlight: "Regeneration",
+          description: "Functional and structural support for pelvic and intimate tissue changes across life stages.",
+          text: "Best ULANDA treatments: Radiate Pathway Consultation.",
+          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          link: '/conditions/body-skin-structural/pelvic-intimate-regeneration'
         }
       ]
     },

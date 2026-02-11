@@ -92,6 +92,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/acne-scarring</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/non-responsive-skin</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/conditions/body-skin-structural</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -113,6 +123,11 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/conditions/body-skin-structural/post-weightloss-postpartum</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/conditions/body-skin-structural/pelvic-intimate-regeneration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

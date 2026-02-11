@@ -167,5 +167,32 @@ export const conditionsLandingData = {
       image: '/assets/img/conditions/landing/internal_wellness.jpg',
       placeholderUrl: 'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
+    {
+      title: 'Non-Responsive Skin &',
+      subtitle: 'Treatment Fatigue',
+      highlight: 'Diminishing Results • Recovery Decline • Plateau',
+      description:
+        "When treatments stop delivering — not because they're wrong, but because the skin is no longer responding. A signal that the skin's biology requires reassessment.",
+      concerns: [
+        'Results that fade quickly',
+        'Treatments that no longer work',
+        'Increasing downtime, diminishing benefit',
+        'Skin that reacts unpredictably',
+        'Sense that "nothing works anymore"',
+      ],
+      solutions: [
+        'Regenerative pause protocols',
+        'Barrier & recovery support',
+        'Biological reassessment',
+        'Sequenced care planning',
+        'Hormone-aware skin audit',
+      ],
+      link: '/conditions/non-responsive-skin',
+      linkText: 'Explore Treatment Fatigue',
+      color: 'bg-gray-50/50',
+      dot: '⚪',
+      image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=500&auto=format&fit=crop',
+      placeholderUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=500&auto=format&fit=crop',
+    },
   ]
 };

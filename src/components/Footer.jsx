@@ -56,10 +56,12 @@ export default function Footer() {
                 <Link to="/treatments" className="hover:text-primary transition-colors text-primary">Treatments</Link>
               </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/treatments/refresh" className="hover:text-primary transition-colors ">Refresh</Link></li>
-                <li><Link to="/treatments/renew" className="hover:text-primary transition-colors ">Renew</Link></li>
-                <li><Link to="/treatments/restore" className="hover:text-primary transition-colors ">Restore</Link></li>
-                <li><Link to="/treatments/radiate" className="hover:text-primary transition-colors ">Radiate</Link></li>
+                <li><Link to="/treatments/skin-health-facial-therapies" className="hover:text-primary transition-colors ">Skin Health & Facials</Link></li>
+                <li><Link to="/treatments/skin-renewal-regeneration" className="hover:text-primary transition-colors ">Skin Renewal</Link></li>
+                <li><Link to="/treatments/injectable-skin-optimisation" className="hover:text-primary transition-colors ">Injectable Treatments</Link></li>
+                <li><Link to="/treatments/structural-collagen-support" className="hover:text-primary transition-colors ">Structural Support</Link></li>
+                <li><Link to="/treatments/body-regeneration-tissue-support" className="hover:text-primary transition-colors ">Body Regeneration</Link></li>
+                <li><Link to="/treatments/wellness-regenerative-recovery" className="hover:text-primary transition-colors ">Wellness & Recovery</Link></li>
               </ul>
             </div>
 
