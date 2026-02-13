@@ -1,4 +1,4 @@
-
+﻿
 export const treatments = {
   "refresh": {
     "id": "refresh",
@@ -17,94 +17,132 @@ export const treatments = {
           "dermaplaning": {
             "id": "dermaplaning",
             "booking": {
-              "price": 50,
-              "duration": 30,
+              "price": 95,
+              "duration": 45,
               "treatmentType": "facial",
               "bookingType": "Book Now"
             },
             "seo": {
-              "title": "Dermaplaning in Ware SG12 | Refresh | ULANDA",
-              "description": "Professional dermaplaning in Ware SG12, Hertfordshire. Instantly smooths skin, enhances glow and improves makeup finish. Trusted regenerative aesthetics clinic."
+              "title": "Clinical Dermaplaning in Ware | Dermaplaning Facial Hertfordshire",
+              "description": "Nurse-led clinical dermaplaning in Ware SG12 to remove dead skin build-up, improve texture and enhance product absorption. Suitable for dull, uneven or hormonally changing skin."
             },
             "seoHeadings": {
-              "h1": "Dermaplaning in Ware SG12",
+              "h1": "Clinical Dermaplaning Therapy",
               "h2": [
-                "What is Dermaplaning?",
-                "Best For",
-                "Benefits",
-                "ULANDA-Enhanced Protocol",
-                "Results & Timing"
+                "What Is Dermaplaning?",
+                "Why ULANDA Uses Dermaplaning Selectively",
+                "Who This Treatment Is For",
+                "Who It Is Not Suitable For",
+                "How the Treatment Works",
+                "Results & Timing",
+                "Why Choose ULANDA for Dermaplaning in Ware",
+                "Frequently Asked Questions"
               ]
             },
-            "title": "Dermaplaning",
-            "subtitle": "Surface smoothing • Instant radiance • Makeup-ready skin",
+            "title": "Clinical Dermaplaning Therapy",
+            "subtitle": "Precision Exfoliation • Texture Refinement • Skin Clarity Reset",
             "highlight": "",
             "titleSuffix": "",
             "category": "Refresh",
-            "description": "Surface smoothing • Instant radiance • Makeup-ready skin",
+            "description": "Precision Exfoliation • Texture Refinement • Skin Clarity Reset",
             "locations": [
-              "Ware SG12",
-              "Hertfordshire"
+              "Ware SG12"
             ],
             image: "/assets/img/treatments/refresh/skin-clinic-ware-dermaplaning.webp",
             placeholderUrl: "/assets/img/treatments/refresh/skin-clinic-ware-dermaplaning.webp",
             "introduction": {
-              "title": "What is Dermaplaning?",
+              "title": "What Is Dermaplaning?",
               "content": [
-                "Dermaplaning in Ware (SG12) is a professional exfoliation treatment that removes dead skin cells and fine vellus hair to instantly smooth the skin surface and enhance radiance.",
-                "This treatment is popular with clients from Ware, Hertford, Cheshunt, Hoddesdon and Bishops Stortford who want immediate skin refinement with no downtime. Dermaplaning improves product absorption, makeup application and overall skin clarity when performed by trained medical aesthetics professionals.",
-                "It is an ideal choice for event preparation or as part of a regular skin maintenance routine in Hertfordshire."
+                "Clinical Dermaplaning Therapy is a nurse-led exfoliation treatment designed to remove compacted dead skin cells and fine vellus hair, improving skin clarity, texture and light reflection.",
+                "Often searched as “dermaplaning Ware,” “dermaplaning facial near me,” or “facial for dull skin Hertfordshire,” this treatment supports smoother skin surface function without chemical resurfacing.",
+                "Delivered at our skin clinic in Ware SG12, dermaplaning is used as a controlled reset — not an aggressive peel.",
+                "Dermaplaning is a manual exfoliation technique using a sterile surgical blade to gently remove:"
               ],
               "goals": [
-                "Surface smoothing",
-                "Instant radiance",
-                "Makeup-ready skin",
-                "Enhances skincare absorption"
+                "Dead skin cell build-up",
+                "Surface debris",
+                "Fine vellus hair (peach fuzz)"
               ],
-            image: "https://cdn.prod.website-files.com/6764496e34ff7106c11cc5da/67be5ac8af4e8ceedac20e7f_Dermaplaning.webp",
-            placeholderUrl: "https://cdn.prod.website-files.com/6764496e34ff7106c11cc5da/67be5ac8af4e8ceedac20e7f_Dermaplaning.webp",
+              image: "https://cdn.prod.website-files.com/6764496e34ff7106c11cc5da/67be5ac8af4e8ceedac20e7f_Dermaplaning.webp",
+              placeholderUrl: "https://cdn.prod.website-files.com/6764496e34ff7106c11cc5da/67be5ac8af4e8ceedac20e7f_Dermaplaning.webp"
             },
             "idealFor": {
-              "title": "Best",
-              "highlight": "For",
+              "title": "Who This Treatment Is For",
+              "highlight": "",
               "items": [
-                "Dull or rough skin texture",
-                "Uneven makeup application",
-                "Peach fuzz build-up",
-                "Dry or flaky skin",
-                "Pre-event skin preparation"
-              ]
+                "Dull or lacklustre skin",
+                "Rough texture",
+                "Uneven tone",
+                "Makeup sitting poorly",
+                "Mild congestion",
+                "Non-inflammatory breakouts",
+                "Post-inflammatory pigmentation (when stable)",
+                "Hormone-related texture irregularity"
+              ],
+              "footer": "It may be integrated before: Microneedling, Polynucleotides, Profhilo, Biostimulators. Surface clarity improves regenerative response."
+            },
+            "notSuitableFor": {
+               "title": "Who It Is Not Suitable For",
+               "highlight": "",
+               "items": [
+                  "Active inflammatory acne",
+                  "Severe rosacea flare",
+                  "Compromised barrier function",
+                  "Severe skin sensitivity",
+                  "Open lesions or infection"
+               ],
+               "footer": "Barrier stability precedes exfoliation."
             },
             "benefits": [
-              "Instantly smoother, brighter skin",
-              "Enhances skincare absorption",
-              "Improves makeup finish",
-              "Non-invasive with no downtime"
+               "Improved product penetration",
+               "Enhanced skin luminosity",
+               "Smoother makeup application",
+               "More even texture"
             ],
             "detailedBenefits": {
-              "title": "Benefits of Dermaplaning",
+              "title": "Treatment Details",
               "sections": [
                 {
-                  "title": "Benefits",
+                  "title": "How the Treatment Works",
                   "items": [
-                    "✔ Instantly smoother, brighter skin",
-                    "✔ Enhances skincare absorption",
-                    "✔ Improves makeup finish",
-                    "✔ Non-invasive with no downtime",
-                    "✔ Safe when clinically assessed"
-                  ]
+                    "Gentle enzymatic cleanse",
+                    "Precision dermaplaning technique",
+                    "Hydration infusion",
+                    "Barrier-supporting serum application",
+                    "LED support where indicated",
+                    "Protective finishing products"
+                  ],
+                  "description": "No harsh scrubs or aggressive acids are used. The objective is surface refinement within biological tolerance."
                 }
               ]
             },
             "ulandaConnection": {
-              "title": "ULANDA-Enhanced",
-              "highlight": "Protocol",
-              "subtitle": "Our signature approach includes:",
+              "title": "Why ULANDA Uses Dermaplaning Selectively",
+              "highlight": "",
               "sections": [
                 {
-                  "title": "Protocol",
-                  "description": "Pre-treatment skin and barrier assessment. Medical-grade technique and sterility. Optional calming mask or LED add-on. Can be paired with facials or peels.",
-                  "points": []
+                  "title": "Selective Approach",
+                  "description": "At ULANDA, dermaplaning is not performed automatically. It is introduced when:",
+                  "points": [
+                    "The skin barrier is stable",
+                    "There is no active inflammatory acne",
+                    "Rosacea flare is controlled",
+                    "Treatment fatigue is not present",
+                    "Tissue tolerance allows safe exfoliation"
+                  ],
+                  "conclusion": "This protects against over-exfoliation and barrier disruption. Dermaplaning is often used as a preparation step before regenerative treatments — not as an isolated cosmetic service."
+                },
+                {
+                   "title": "Why Choose ULANDA for Dermaplaning in Ware",
+                   "points": [
+                      "Dermaplaning is nurse-led",
+                      "Skin tolerance is assessed before treatment",
+                      "Hormonal context is considered",
+                      "Over-exfoliation risk is avoided",
+                      "Sequencing protects long-term skin resilience",
+                      "Treatment is delivered in a private, appointment-only setting"
+                   ],
+                   "conclusion": "Clients searching for “dermaplaning Ware” or “dermaplaning near me” often choose ULANDA for structured, clinically guided exfoliation rather than beauty-led surface treatments."
                 }
               ]
             },
@@ -113,23 +151,46 @@ export const treatments = {
               "items": [
                 {
                   "title": "Treatment Time",
-                  "description": "30–45 minutes"
+                  "description": "45 minutes"
                 },
                 {
                   "title": "Downtime",
-                  "description": "None"
+                  "description": "No downtime. Skin may appear slightly pink immediately after treatment for 1–2 hours."
                 },
                 {
                   "title": "Results",
-                  "description": "Immediate smoothness and glow"
+                  "description": [
+                     "Smoother skin texture",
+                     "Improved brightness",
+                     "Better skincare absorption",
+                     "Enhanced makeup finish",
+                     "More even skin tone"
+                  ]
                 }
               ]
             },
+            "faq": {
+               "title": "Frequently Asked Questions",
+               "items": [
+                  { "question": "Will dermaplaning make my hair grow back thicker?", "answer": "No. Vellus hair grows back at the same rate and texture." },
+                  { "question": "Is dermaplaning safe for sensitive skin?", "answer": "Only when barrier stability is confirmed. It is not suitable during active flare phases." },
+                  { "question": "Can dermaplaning help pigmentation?", "answer": "It can improve surface tone and enhance treatment absorption but does not treat deeper melasma alone." },
+                  { "question": "Is there downtime?", "answer": "No. Mild pinkness may occur for a few hours." },
+                  { "question": "How often can I have dermaplaning?", "answer": "Every 4–6 weeks depending on skin tolerance." },
+                  { "question": "Can it be combined with other treatments?", "answer": "Yes. It is often paired with hydration therapy or used before regenerative treatments." },
+                  { "question": "What do people search for this treatment as?", "answer": "Clients often search for: Dermaplaning Ware, Dermaplaning facial near me, Facial for dull skin, Exfoliation treatment Hertfordshire, Smooth skin facial." },
+                  { "question": "Where is ULANDA located?", "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and surrounding Hertfordshire areas." }
+               ]
+            },
             "cta": {
-              "title": "Smooth Skin.",
-              "highlight": "Instant Radiance.",
-              "description": "Book your Dermaplaning treatment at ULANDA in Ware SG12 today.",
-              "buttonText": "Book Consultation"
+              "title": "Ready to refine skin texture safely?",
+              "highlight": "Clinical Dermaplaning Therapy",
+              "description": "ULANDA Ware, Hertfordshire — Nurse-led skin care clinic delivering precision exfoliation within regenerative sequencing.",
+              "buttonText": "Book Consultation",
+              "booking": {
+                  "price": 95,
+                  "duration": 45
+              }
             },
             "oftenPairedWith": [
               "HydraFacial",
@@ -147,110 +208,123 @@ export const treatments = {
               "bookingType": "Book Now"
             },
             "seo": {
-              "title": "HydraFacial in Ware SG12 | Refresh | ULANDA",
-              "description": "HydraFacial in Ware SG12, Hertfordshire. Medical-grade vortex technology for deep cleansing, extraction and hydration. Perfect for dull skin, pores and texture."
+              "title": "Advanced Cleansing & Hydration Therapy in Ware | Rejuvenating Hydration facial Hertfordshire",
+              "description": "Nurse-led Advanced Cleansing & Hydration Therapy in Ware SG12. Deep cleansing, extraction and barrier-safe hydration for dull, congested or hormonally stressed skin. Medical skin clinic Hertfordshire."
             },
             "seoHeadings": {
-              "h1": "HydraFacial in Ware SG12",
+              "h1": "Advanced Cleansing & Hydration Therapy",
               "h2": [
-                "What is HydraFacial?",
-                "How HydraFacial Works (Vortex Technology)",
-                "HydraFacial for Menopause & Sensitive Skin",
-                "Best Treatment Pairings (PN, Peels, LED)",
-                "Book HydraFacial in Ware — Refresh Pathway"
+                "What Is Advanced Cleansing & Hydration Therapy?",
+                "What Does Congested, Dull Skin Really Indicate?",
+                "Why ULANDA Prioritises Function Over “Instant Glow”",
+                "Who This Treatment Is For",
+                "How the Treatment Works",
+                "Results & Timing",
+                "Frequently Asked Questions"
               ]
             },
-            "title": "HydraFacial",
-            "highlight": "Medical-Grade",
-            "titleSuffix": "Cleansing & Glow",
+            "title": "Advanced Cleansing & Hydration Therapy",
+            "subtitle": "Deep Pore Detox • Barrier-Safe Hydration • Skin Function Reset",
             "pricing": {
-              "singlePrice": "Consult",
-              "bookingType": "Consultation- First - Book Consultation Button"
+              "singlePrice": "125",
+              "bookingType": "Book Now"
             },
             "benefits": [
-              "Deep cleanse",
-              "Instant glow",
-              "Barrier-safe hydration"
+              "Deep Pore Detox",
+              "Barrier-Safe Hydration",
+              "Skin Function Reset"
             ],
             "locations": [
               "Ware SG12",
-              "Hertford",
-              "Broxbourne",
               "Hertfordshire"
             ],
             image: "https://media.istockphoto.com/id/1755416967/photo/close-up-shot-of-a-young-beautiful-woman-lying-on-a-couch-in-a-cosmetology-center-young-woman.jpg?s=612x612&w=0&k=20&c=50Pk3m1CtnfKvvUA64-Qzc6amy9pvKpJZtphtRYL3mI=",
             placeholderUrl: "https://media.istockphoto.com/id/1755416967/photo/close-up-shot-of-a-young-beautiful-woman-lying-on-a-couch-in-a-cosmetology-center-young-woman.jpg?s=612x612&w=0&k=20&c=50Pk3m1CtnfKvvUA64-Qzc6amy9pvKpJZtphtRYL3mI=",
             "category": "Refresh",
-            "description": "Deep cleanse • Instant glow • Barrier-safe hydration",
+            "description": "Deep Pore Detox • Barrier-Safe Hydration • Skin Function Reset",
             "introduction": {
-              "title": "What is HydraFacial?",
+              "title": "What Is Advanced Cleansing & Hydration Therapy?",
               "content": [
-                "A medical-grade, non-invasive treatment that cleanses, exfoliates, extracts and hydrates the skin in one powerful session using vortex technology.",
-                "Safe for menopausal, perimenopausal and sensitive skin when tailored carefully."
+                "Advanced Cleansing & Hydration Therapy is ULANDA’s clinical-grade resurfacing and hydration treatment designed to deeply cleanse, infuse hydration and restore skin function without disrupting the barrier.",
+                "Often searched as “HydraFacial Ware,” “deep cleansing facial near me,” or “hydrating facial Hertfordshire,” this treatment goes beyond surface glow. It is delivered at our nurse-led skin clinic in Ware SG12 and structured around skin biology, congestion patterns and hormonal context.",
+                "This is not a spa facial. It is a controlled, medical-grade skin reconditioning treatment."
               ],
               "goals": [
-                "Cleanses & exfoliates",
-                "Extracts impurities",
-                "Hydrates with antioxidant serums",
-                "Improves luminosity"
+                "Deep pore detox",
+                "Barrier-safe hydration",
+                "Skin function reset"
               ],
-              "highlightBox": {
-                "text1": "ULANDA specialises in regenerative aesthetics — meaning every treatment is designed to support the skin’s biology, not just improve its appearance temporarily.",
-                "text2": "HydraFacial is perfect as a Week 0 Reset in regenerative programmes."
-              },
-              image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "image": "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "placeholderUrl": "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "idealFor": {
-              "title": "Best",
-              "highlight": "For",
-              "titleSuffix": "",
+              "title": "Who This Treatment Is For",
               "items": [
-                "Dull or uneven tone",
-                "Congested pores",
-                "Rough texture",
-                "Dehydration",
-                "Early ageing",
-                "Post-travel or fatigue-related skin stress"
+                "Dull, dehydrated skin",
+                "Congested or enlarged pores",
+                "Hormonal breakouts",
+                "Uneven texture",
+                "Pigmentation-prone skin",
+                "Perimenopause or menopause-related dryness",
+                "Treatment fatigue",
+                "Pre-event preparation",
+                "Maintenance between regenerative treatments"
               ]
             },
             "detailedBenefits": {
-              "title": "Why HydraFacial?",
+              "title": "Treatment Insights",
               "sections": [
                 {
-                  "title": "CLEANSING & REPAIR",
+                  "title": "What Does Congested, Dull Skin Really Indicate?",
                   "items": [
-                    "✔ Deep cleansing without irritation",
-                    "✔ Instant glow with long-term hydration",
-                    "✔ Removes buildup that accelerates ageing",
-                    "✔ Pairs well with PN, peels and Skin Boosters",
-                    "✔ Safe for retinol users (with barrier assessment)"
-                  ]
+                    "Impaired cellular turnover",
+                    "Accumulated debris within pores",
+                    "Dehydration beneath surface oil",
+                    "Slowed circulation",
+                    "Hormone-influenced sebum imbalance"
+                  ],
+                  "description": "Aggressive exfoliation can temporarily brighten the skin, but without controlled hydration and barrier protection, congestion and inflammation often return. True clarity requires extraction and infusion without barrier disruption."
+                },
+                {
+                  "title": "How the Treatment Works",
+                  "items": [
+                    "Controlled enzymatic resurfacing",
+                    "Vortex extraction without manual trauma",
+                    "Hydration infusion with hyaluronic complexes",
+                    "Antioxidant protection",
+                    "LED support where indicated",
+                    "Lymphatic stimulation if congestion is present"
+                  ],
+                  "description": "The objective is clarity without compromise."
                 }
               ]
             },
             "ulandaConnection": {
-              "title": "ULANDA-Enhanced",
-              "highlight": "Protocol",
-              "subtitle": "Our signature approach includes:",
+              "title": "Why ULANDA Prioritises Function Over “Instant Glow”",
+              "description": "Many clients seek quick brightness before events or after periods of skin instability. However, skin that is hormonally dry, perimenopause-influenced, postpartum reactive, acne-prone or treatment fatigued requires stabilised cleansing rather than harsh resurfacing.",
               "sections": [
                 {
-                  "id": "1",
-                  "title": "AI Skin Analysis",
-                  "description": "To personalise intensity based on your actual skin condition.",
-                  "points": []
+                  "title": "Usage",
+                  "items": [
+                    "Before regenerative treatments",
+                    "During seasonal transitions",
+                    "As a stabilisation phase before microneedling or polynucleotides",
+                    "To reduce inflammatory load before structural intervention"
+                  ],
+                   "description": "Barrier integrity determines regenerative success."
                 },
                 {
-                  "id": "2",
-                  "title": "Barrier Assessment",
-                  "description": "Essential for retinol users to ensure safety.",
-                  "points": []
-                },
-                {
-                  "id": "3",
-                  "title": "Optional LED",
-                  "description": "+ Lymphatic drainage for enhanced detoxification.",
-                  "points": []
+                  "title": "Why Choose ULANDA",
+                  "items": [
+                    "Assessment is nurse-led",
+                    "Hormonal context is considered",
+                    "Barrier stability is evaluated before treatment",
+                    "Extraction is controlled and atraumatic",
+                    "Products are selected for function, not fragrance",
+                    "Treatment sequencing protects long-term outcomes",
+                    "Care is delivered in a private, appointment-only setting"
+                  ],
+                  "description": "This is why clients searching for “HydraFacial near me in Ware” often choose ULANDA when previous facials have caused sensitivity or short-lived results."
                 }
               ]
             },
@@ -263,39 +337,228 @@ export const treatments = {
                 },
                 {
                   "title": "Downtime",
-                  "description": "None"
+                  "description": "No downtime. Mild pinkness may occur for 1–2 hours in reactive skin."
                 },
                 {
                   "title": "Results",
-                  "description": "Immediate + improved clarity over 1–2 weeks"
+                  "description": "Clients typically notice immediate clarity, improved hydration retention, reduced pore congestion, smoother texture, more even tone, and improved tolerance to active skincare. Best results occur when repeated every 4–6 weeks or integrated within a structured clinical pathway."
                 }
               ]
             },
-            "safetyOversight": {
-              "title": "Downtime & Safety",
+            "faq": {
+              "title": "Frequently Asked Questions",
               "items": [
                 {
-                  "title": "No Downtime",
-                  "description": "No significant downtime. Perfect for events.",
-                  "icon": "cqc"
+                  "question": "Is this the same as HydraFacial?",
+                  "answer": "This treatment uses similar deep cleansing and hydration principles but is delivered within ULANDA’s clinical model, focusing on barrier protection and hormonal context."
                 },
                 {
-                  "title": "Safe For All",
-                  "description": "Safe for most skin tones and sensitive skin when tailored.",
-                  "icon": "clinician"
+                  "question": "Is it suitable for sensitive skin?",
+                  "answer": "Yes. Treatment intensity is adjusted according to barrier stability and inflammatory behaviour."
                 },
                 {
-                  "title": "Expert Delivery",
-                  "description": "Delivered by trained clinicians.",
-                  "icon": "prescribed"
+                  "question": "Can this help hormonal breakouts?",
+                  "answer": "Yes. Controlled extraction and hydration help reduce congestion while protecting barrier integrity."
+                },
+                {
+                  "question": "Is it safe during perimenopause or menopause?",
+                  "answer": "Yes. Hormone-influenced dryness and sensitivity are assessed before infusion selection."
+                },
+                {
+                  "question": "How often should I have this treatment?",
+                  "answer": "Typically every 4–6 weeks depending on skin behaviour and regenerative goals."
+                },
+                {
+                  "question": "Is there downtime?",
+                  "answer": "No. Most clients resume normal activity immediately."
+                },
+                {
+                  "question": "What do people search for this treatment as?",
+                  "answer": "Clients often search for: HydraFacial Ware, Deep cleansing facial near me, Hydrating facial Hertfordshire, Pore cleansing treatment Ware, Medical facial SG12, Skin care clinic Ware."
+                },
+                {
+                  "question": "Can I book this without a consultation?",
+                  "answer": "Yes. However, sequencing may be advised if your skin shows instability or treatment fatigue."
+                },
+                {
+                  "question": "Where is ULANDA located?",
+                  "answer": "ULANDA is based in Ware SG12, Hertfordshire, serving clients from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and surrounding areas."
                 }
               ]
             },
             "cta": {
-              "title": "Deep Cleanse. Instant Glow.",
-              "highlight": "Start Your Journey.",
-              "description": "Book your HydraFacial at ULANDA in Ware SG12 today.",
-              "buttonText": "Book Consultation"
+              "title": "Ready to restore clarity and hydration safely?",
+              "highlight": "",
+              "description": "Advanced Cleansing & Hydration Therapy. £125 • 45–60 minutes. ULANDA Ware, Hertfordshire — Nurse-led skin care clinic providing medical-grade cleansing, hydration and regenerative sequencing.",
+              "buttonText": "Book Now"
+            }
+          },
+          "deep-hydration-facial": {
+            "id": "deep-hydration-facial",
+            "booking": {
+              "price": 115,
+              "duration": 60,
+              "treatmentType": "facial",
+              "bookingType": "Book Now"
+            },
+            "seo": {
+              "title": "Deep Hydration Facial in Ware | Intensive Hydrating Facial Hertfordshire",
+              "description": "Nurse-led deep hydration facial in Ware SG12 for dehydrated, tight or hormonally dry skin. Designed to restore water balance, strengthen the barrier and improve skin resilience."
+            },
+            "seoHeadings": {
+              "h1": "Deep Hydration Facial",
+              "h2": [
+                "What Is Skin Dehydration?",
+                "What Is the Deep Hydration Facial?",
+                "Why ULANDA prioritises hydration stability",
+                "Who This Treatment Is For",
+                "How the Treatment Works",
+                "Results",
+                "Why Choose ULANDA for Deep Hydration in Ware",
+                "Frequently Asked Questions"
+              ]
+            },
+            "title": "Deep Hydration Facial",
+            "subtitle": "Intensive Moisture Infusion • Barrier Support • Skin Replenishment",
+            "highlight": "",
+            "titleSuffix": "",
+            "category": "Refresh",
+            "description": "Intensive Moisture Infusion • Barrier Support • Skin Replenishment",
+            "locations": [
+              "Ware SG12",
+              "Hertfordshire"
+            ],
+            "image": "/assets/img/treatments/refresh/skin-clinic-ware-deep-hydration.webp",
+            "placeholderUrl": "/assets/img/treatments/refresh/skin-clinic-ware-deep-hydration.webp",
+            "introduction": {
+              "title": "What Is the Deep Hydration Facial?",
+              "content": [
+                "The Deep Hydration Facial is a nurse-led treatment designed to restore water balance, improve hydration retention and support lipid barrier integrity.",
+                "Often searched as “hydrating facial near me,” “deep hydration facial Ware,” or “facial for dry skin Hertfordshire,” this treatment focuses on restoring functional moisture levels rather than temporary surface glow.",
+                "Delivered at our skin clinic in Ware SG12, this facial supports skin experiencing: Chronic dehydration, Tightness after cleansing, Hormonal dryness (perimenopause / menopause), Seasonal skin instability, Reduced elasticity linked to moisture loss, Dull, fatigued skin.",
+                "This is structured hydration correction, not a cosmetic refresh.",
+                "The Deep Hydration Facial is ULANDA’s intensive moisture restoration therapy designed to improve water-binding capacity and reduce transepidal water loss (TEWL)."
+              ],
+              "goals": [
+                "Immediate moisture replenishment",
+                "Improved hydration retention",
+                "Reduced tightness and flaking",
+                "Improved tolerance to skincare",
+                "Enhanced regenerative readiness"
+              ]
+            },
+            "idealFor": {
+              "title": "Who This Treatment Is For",
+              "items": [
+                "Tightness and surface discomfort",
+                "Dehydrated but oily skin",
+                "Hormonal dryness during perimenopause or menopause",
+                "Winter skin decline",
+                "Post-travel skin fatigue",
+                "Dull, non-responsive skin",
+                "Reduced elasticity linked to moisture depletion"
+              ],
+              "footer": "It is frequently used before: Microneedling, Polynucleotides, Profhilo, RF Microneedling, Structural interventions. Hydrated tissue responds more predictably and heals more efficiently."
+            },
+            "detailedBenefits": {
+              "title": "Treatment Insights",
+              "sections": [
+                {
+                  "title": "What Is Skin Dehydration?",
+                  "description": "Dehydration is a water imbalance in the skin. Unlike dry skin (a lipid deficiency), dehydrated skin lacks sufficient water within the epidermis and dermis. It may feel:",
+                  "items": [
+                    "Tight",
+                    "Rough",
+                    "Dull",
+                    "Easily irritated",
+                    "Prone to fine dehydration lines"
+                  ]
+                },
+                {
+                  "title": "How the Treatment Works",
+                  "description": "No aggressive resurfacing is performed. The objective is water restoration and functional balance. Each session is adapted to tissue condition and may include:",
+                  "items": [
+                    "Gentle barrier-safe cleansing",
+                    "Hydrating serum infusion",
+                    "Multi-weight hyaluronic acid layering",
+                    "Occlusive lipid support",
+                    "LED light therapy (if inflammation present)",
+                    "Lymphatic stimulation where indicated"
+                  ]
+                }
+              ]
+            },
+            "ulandaConnection": {
+              "title": "Why ULANDA prioritises hydration stability",
+              "description": "Dehydrated skin does not respond predictably to stimulation. Hydration is therefore treated as a functional foundation before introducing corrective or regenerative procedures.",
+              "sections": [
+                {
+                  "title": "The Impact of Dehydration",
+                  "description": "Without adequate water content:",
+                  "points": [
+                    "Collagen signalling is reduced",
+                    "Elastic fibres become less resilient",
+                    "Barrier function weakens",
+                    "Inflammation becomes more likely",
+                    "Fine lines appear more pronounced"
+                  ]
+                },
+                {
+                  "title": "Why Choose ULANDA for Deep Hydration in Ware",
+                  "points": [
+                    "Hydration assessment is nurse-led",
+                    "Hormonal context is considered",
+                    "Barrier integrity is evaluated before infusion",
+                    "Treatment is sequenced within a clinical model",
+                    "Personalised home hydration guidance is provided where required",
+                    "Care is delivered in a private, appointment-only setting"
+                  ],
+                  "conclusion": "This is structured hydration correction, not a temporary glow treatment."
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results",
+              "items": [
+                {
+                  "title": "Treatment Time",
+                  "description": "50–60 minutes"
+                },
+                {
+                  "title": "Downtime",
+                  "description": "No downtime. Skin may appear plumper and brighter immediately."
+                },
+                {
+                  "title": "Results",
+                  "description": [
+                    "Reduced tightness within 24 hours",
+                    "Improved softness and comfort",
+                    "Increased glow from hydration, not exfoliation",
+                    "Smoother fine dehydration lines",
+                    "Improved tolerance to home skincare"
+                  ]
+                }
+              ]
+            },
+            "faq": {
+              "title": "Frequently Asked Questions",
+              "items": [
+                { "question": "Is this suitable for menopausal dryness?", "answer": "Yes. Hormonal shifts commonly reduce sebum and hydration retention. This facial supports both water balance and lipid barrier stability." },
+                { "question": "Is this the same as a HydraFacial?", "answer": "No. While HydraFacial focuses on cleansing and infusion, this treatment prioritises layered hydration stability and barrier recalibration." },
+                { "question": "Will this help fine lines?", "answer": "Yes. Fine dehydration lines often soften significantly once water balance improves." },
+                { "question": "Do you offer deep hydration facials near me in Ware?", "answer": "Yes. ULANDA provides nurse-led hydration facials in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and surrounding areas." },
+                { "question": "How often should I have this treatment?", "answer": "For maintenance, every 6–8 weeks. For correction, 2–3 sessions may be advised." },
+                { "question": "What do people search for this treatment as?", "answer": "Clients often search for: hydrating facial near me, facial for dry skin Ware, deep hydration facial Hertfordshire, menopause facial Ware, facial for tight skin." },
+                { "question": "Can I book this without consultation?", "answer": "Yes. However, if dehydration is linked to barrier dysfunction or hormonal transition, clinical sequencing may be advised." },
+                { "question": "Is there any downtime?", "answer": "No. Most clients return to normal activity immediately." },
+                { "question": "Where is ULANDA located?", "answer": "ULANDA is based in Ware, Hertfordshire, serving clients across Hertford, Hoddesdon, Broxbourne, Stanstead Abbotts and surrounding areas." }
+              ]
+            },
+            "cta": {
+              "title": "Ready to restore deep hydration and improve skin resilience?",
+              "highlight": "Deep Hydration Facial",
+              "description": "ULANDA Ware, Hertfordshire — Nurse-led skin therapy designed to restore hydration, support barrier function and improve long-term tissue resilience.",
+              "buttonText": "Book Now"
             }
           },
           "enzyme-therapy": {
@@ -324,8 +587,8 @@ export const treatments = {
                 "Book Enzyme Facial in Ware"
               ]
             },
-            "title": "Enzyme",
-            "highlight": "Therapy",
+            "title": "Enzyme Renewal Facial",
+            "highlight": "",
             "titleSuffix": "",
             "benefits": [
               "Restorative",
@@ -624,56 +887,36 @@ export const treatments = {
             placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             "id": "oxygen-vitamin-infusion-facial",
             "booking": {
-              "price": 110,
-              "duration": 60,
+              "price": 115,
+              "duration": "45-60",
               "treatmentType": "facial",
-              "bookingType": "consultation"
+              "bookingType": "treatment"
             },
             "seo": {
-              "title": "Oxygen Facial in Ware SG12 | Brightening & Hydration | ULANDA",
-              "description": "Oxygen & Vitamin Infusion Facial in Ware. Instantly brighten, hydrate & re-energise tired skin. Perfect for events & menopause dullness."
+              "title": "Oxygen Glow Facial in Ware | Oxygenation Skin Treatment Hertfordshire",
+              "description": "Nurse-led Oxygen Glow Facial in Ware SG12 to support circulation, hydration and skin vitality. Ideal for dull, fatigued or hormonally stressed skin seeking oxygenation and glow without irritation."
             },
             "seoHeadings": {
-              "h1": "Oxygen Facial in Ware SG12 — Brightening, Hydration & Cellular Repair",
+              "h1": "Oxygen Glow Facial in Ware SG12",
               "h2": [
-                "What Oxygen Infusions Treat (Dullness • Dehydration • Tired Skin)",
-                "Vitamin Infusion Options (C, B-Complex, Brightening Blends)",
-                "Why Oxygen Improves Cell Regeneration",
-                "Oxygen Facial vs HydraFacial vs Peels",
-                "Linked Conditions (Uneven Tone, Dullness, Dry Skin)",
-                "Book Oxygen Facial in Hertfordshire"
+                "Why Oxygenation Matters for Skin Health",
+                "What Is the Oxygen Glow Facial?",
+                "Who This Treatment Is For",
+                "How the Treatment Works",
+                "Treatment Time and Downtime",
+                "Results",
+                "Why Choose ULANDA for Oxygen Facial in Ware",
+                "Frequently Asked Questions"
               ]
             },
-            "title": "Oxygen & Vitamin",
-            "highlight": "Infusion",
-            "titleSuffix": "Facial",
+            "title": "Oxygen Glow",
+            "highlight": "Facial",
+            "titleSuffix": "",
             "benefits": [
-              "Deep Hydration",
-              "Brightening",
-              "Revitalising",
-              "Energising"
+              "Oxygenation Support",
+              "Circulation Boost",
+              "Skin Vitality Reset"
             ],
-            "detailedBenefits": {
-              "title": "Benefits of Oxygen & Vitamin Infusion",
-              "sections": [
-                {
-                  "title": "Benefits",
-                  "items": [
-                    "Boosts hydration deeply",
-                    "Brightens dull, tired skin",
-                    "Evens tone & improves clarity",
-                    "Smooths fine lines",
-                    "Plumps and re-energises skin",
-                    "Calms redness",
-                    "Restores radiance",
-                    "Strengthens barrier health",
-                    "Ideal before events (instant glow)",
-                    "Perfect for menopause skin (gentle + hydrating)",
-                    "No pain, no downtime"
-                  ]
-                }
-              ]
-            },
             "locations": [
               "Ware SG12",
               "Hertford",
@@ -681,326 +924,429 @@ export const treatments = {
               "Hertfordshire"
             ],
             "category": "Refresh",
-            "description": "A deeply hydrating, oxygen-rich infusion that brightens, revitalises and energises midlife skin.",
+            "description": "The Oxygen Glow Facial is a nurse-led treatment designed to support microcirculation, hydration delivery and cellular vitality in skin that appears dull, fatigued or sluggish.",
             "introduction": {
-              "title": "What Is an Oxygen & Vitamin Infusion Facial?",
+              "title": "Why Oxygenation Matters for Skin Health",
               "content": [
-                "It is a non-invasive facial that uses pressurised oxygen to infuse the skin with:\nVitamins (A, C, E, B5, B3)\nAntioxidants\nHyaluronic acid\nPeptides\nAmino acids\nBrightening complexes",
-                "In simple terms: It delivers pure hydration, nutrients and oxygen to instantly plump, brighten and energise the skin.",
-                "Scientifically: The treatment enhances:\ncellular oxygen uptake\nmicrocirculation\nhydration pathways\nantioxidant defence\ncollagen activation\nepidermal turnover\nThese processes naturally decline after age 35 and accelerate during menopause, making nutrient delivery essential."
+                "Healthy skin depends on adequate microcirculation, oxygen delivery to cells, efficient nutrient transport, balanced inflammatory signalling and effective waste removal.",
+                "Reduced oxygenation can contribute to dull complexion, grey or tired skin tone, slower healing, increased sensitivity and reduced regenerative response.",
+                "Hormonal shifts during perimenopause and menopause may also influence circulation and tissue vitality. Oxygen support improves responsiveness without destabilising the barrier."
               ],
               "goals": [
-                "Boosts hydration deeply",
-                "Brightens dull, tired skin",
-                "Evens tone & improves clarity",
-                "Smooths fine lines",
-                "Plumps and re-energises skin",
-                "Calms redness",
-                "Restores radiance",
-                "Strengthens barrier health"
+                "Adequate microcirculation",
+                "Oxygen delivery to cells",
+                "Efficient nutrient transport",
+                "Balanced inflammatory signalling",
+                "Effective waste removal"
               ],
-              "highlightBox": {
-                "text1": "Ideally suited for perimenopause and menopause skin prone to dryness, dullness and fatigue.",
-                "text2": "This treatment boosts circulation, hydration, glow and cellular energy."
-              },
               image: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
               placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             },
-            "internalSupport": {
-              "title": "Why ULANDA Clients Choose",
-              "titleSuffix": "This Facial",
-              image: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
-              placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp",
-              "points": [
+            "detailedBenefits": {
+              "title": "What Is the Oxygen Glow Facial?",
+              "sections": [
                 {
-                  "title": "Hormone-ready formulations",
-                  "description": "(perimenopause/menopause)."
-                },
-                {
-                  "title": "Custom vitamin blends",
-                  "description": "Based on skin needs."
-                },
-                {
-                  "title": "Antioxidant-rich infusion",
-                  "description": "For stressed skin."
-                },
-                {
-                  "title": "Regenerative LED therapy",
-                  "description": "Included enhancement."
-                },
-                {
-                  "title": "Barrier-strengthening finishing steps",
-                  "description": "Seals in results."
-                },
-                {
-                  "title": "Suitable for sensitive or reactive skin",
-                  "description": "Gentle yet effective."
+                  "title": "Vitality Focus",
+                  "items": [
+                    "Stimulate superficial circulation",
+                    "Improve oxygen delivery",
+                    "Enhance hydration retention",
+                    "Support detoxification pathways",
+                    "Improve light reflection"
+                  ],
+                  "description": "At ULANDA in Ware, Hertfordshire, oxygenation is treated as a functional process, not a cosmetic add-on. It is frequently integrated within Refresh or Renew sequencing when tissue fatigue is present."
                 }
-              ]
-            },
-            "ingredients": {
-              "title": "The Science",
-              "highlight": "Behind",
-              "titleSuffix": "Oxygen & Vitamin Infusion",
-              "subtitle": "The Oxygen Infusion Facial boosts essential systems:",
-              "items": [
-                {
-                  "title": "Oxygenation",
-                  "description": "Increases blood flow - better nutrient delivery and tissue repair."
-                },
-                {
-                  "title": "Vitamin Penetration",
-                  "description": "Supports collagen synthesis, brightening and cell turnover."
-                },
-                {
-                  "title": "Hydration Saturation",
-                  "description": "Hyaluronic acid infusion plumps and restores elasticity."
-                },
-                {
-                  "title": "Antioxidant Defence",
-                  "description": "Neutralises free radicals and environmental damage."
-                },
-                {
-                  "title": "Barrier Support",
-                  "description": "Peptides and ceramides strengthen menopausal skin."
-                }
-              ],
-              "footer": "Clinical Evidence: Improved hydration levels (International Journal of Cosmetic Science, 2021), Increased radiance and elasticity (Journal of Dermatologic Therapy, 2020), Significant reduction in oxidative stress (Skin Pharmacology 2022)"
-            },
-            "treatmentAreas": {
-              "title": "Treatment Areas",
-              "items": [
-                "Face",
-                "Neck",
-                "Décolletage",
-                "Under-eye (safe & gentle)",
-                "Hands (optional)"
               ]
             },
             "process": {
-              "title": "What Happens During the Treatment?",
+              "title": "How the Treatment Works",
               "steps": [
                 {
-                  "title": "1. Clinical Skin Analysis",
-                  "description": "We tailor vitamin blends based on hydration, pigmentation and hormonal status."
+                  "title": "1. Oxygenating cleanse",
+                  "description": "Prepares the skin without aggressive acids."
                 },
                 {
-                  "title": "2. Oxygen Cleanse & Prep",
-                  "description": "Removes impurities and oxygenates tissue."
+                  "title": "2. Targeted oxygen infusion or activation phase",
+                  "description": "Supports oxygen delivery and circulation."
                 },
                 {
-                  "title": "3. Vitamin & Antioxidant Infusion",
-                  "description": "Delivered using pressurised oxygen for deeper penetration."
+                  "title": "3. Circulation-stimulating massage",
+                  "description": "Encourages microcirculation and responsiveness."
                 },
                 {
-                  "title": "4. Hydration Plumping Layer",
-                  "description": "Hyaluronic acid saturates the skin with moisture."
+                  "title": "4. Hydration support",
+                  "description": "Improves hydration retention and comfort."
                 },
                 {
-                  "title": "5. Vitamin Boost Mask",
-                  "description": "Seals in nutrients."
+                  "title": "5. LED therapy where indicated",
+                  "description": "Supports additional recovery and regulation."
                 },
                 {
-                  "title": "6. LED Therapy (Optional Included Enhancement)",
-                  "description": "Supports regeneration, anti-inflammatory repair and glow."
-                },
-                {
-                  "title": "7. Barrier Reinforcement",
-                  "description": "Ceramide, peptide and lipid-based finishing."
+                  "title": "6. Barrier-protective finishing products",
+                  "description": "Seals in results without irritation."
                 }
               ]
             },
             "resultsTimeline": {
-              "title": "Results Timeline",
+              "title": "Results",
               "items": [
                 {
-                  "title": "Immediately",
-                  "description": "Radiant glow, Deep hydration, Plump, soft skin, Even tone"
+                  "title": "Treatment Time",
+                  "description": "45-60 minutes"
                 },
                 {
-                  "title": "24–72 hours",
-                  "description": "More even texture, Reduced dullness and fatigue, Brighter complexion"
+                  "title": "Downtime",
+                  "description": "No downtime. Skin may appear lightly flushed immediately after treatment due to increased circulation."
                 },
                 {
-                  "title": "1–2 weeks",
-                  "description": "Progressive improvement with cumulative sessions, Better barrier resilience"
+                  "title": "Results",
+                  "description": [
+                    "Brighter complexion",
+                    "Improved skin luminosity",
+                    "Enhanced hydration",
+                    "Smoother texture",
+                    "Reduced tired appearance",
+                    "Improved responsiveness to skincare",
+                    "Results are immediate but best maintained when repeated monthly or integrated into a structured pathway"
+                  ]
                 }
               ]
             },
             "frequency": {
               "title": "How Often Should I Have It?",
               "items": [
-                "Single session: perfect for events",
-                "Every 2–4 weeks: hydration & radiance maintenance",
-                "Every 7–14 days: during menopause dullness or stress flare-ups",
-                "Combined with PN/Boosters: optimal regenerative outcome"
+                "Every 4-6 weeks depending on skin condition and pathway integration",
+                "Immediate results are best maintained with monthly sessions"
               ]
             },
             "idealFor": {
-              "title": "Who Is It",
-              "highlight": "For?",
+              "title": "Who This Treatment Is",
+              "highlight": "For",
               "titleSuffix": "",
               "items": [
-                "Dull, tired skin",
-                "Menopause-related dryness",
-                "Dehydration & tightness",
-                "Fine lines & superficial wrinkles",
-                "Uneven tone",
-                "Sensitivity",
+                "Dull or lacklustre skin",
+                "Sleep-deprivation skin impact",
                 "Stress-related skin fatigue",
-                "Post-travel dehydration",
-                "Early pigmentation",
-                "Event prep (pre-wedding, photoshoots, holidays)",
-                "This treatment is especially beneficial for women 35–65, where hormonal shifts reduce skin oxygenation and hydration."
+                "Reduced tissue oxygenation",
+                "Mild dehydration",
+                "Early collagen decline",
+                "Pre-event skin preparation",
+                "Recovery between regenerative sessions"
               ]
             },
             "ulandaConnection": {
-              "title": "Perfect Pairings",
-              "subtitle": "Oxygen infusion enhances:",
+              "title": "Often Used Before or Alongside",
+              "subtitle": "Circulation support enhances regenerative readiness.",
               "sections": [
                 {
-                  "title": "RENEW",
-                  "description": "Polynucleotides (PN), Microneedling, PRP, Profhilo, Definisse Hydrobooster. Oxygen infusion prepares the skin exceptionally well for PN and biostimulator treatment plans.",
-                  "points": [],
-                  "conclusion": "",
-                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                },
-                {
-                  "title": "REFRESH",
-                  "description": "Regenerative Facial, Vital Glow Facial, LED, Enzyme Therapy, Chemical Peel.",
-                  "points": [],
-                  "conclusion": "",
-                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                },
-                {
-                  "title": "RADIATE",
-                  "description": "NAD+ IV (oxygenation + energy), Glutathione IM (brightening), Vitamin B12 (cell energy).",
-                  "points": [],
-                  "conclusion": "",
+                  "title": "Treatment Pairings",
+                  "description": "Often used before or alongside:",
+                  "points": [
+                    "Microneedling",
+                    "Polynucleotides",
+                    "Profhilo",
+                    "Biostimulators",
+                    "Skin conditioning programmes"
+                  ],
+                  "conclusion": "Circulation support enhances regenerative readiness.",
                   image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                   placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 }
               ]
             },
             "safetyOversight": {
-              "title": "Downtime & Safety",
+              "title": "Downtime and Safety",
               "items": [
                 {
-                  "title": "No Downtime",
-                  "description": "No peeling, non-invasive, and painless.",
+                  "title": "No downtime",
+                  "description": "No aggressive acids or mechanical resurfacing used.",
                   "icon": "cqc"
                 },
                 {
-                  "title": "Safe For All",
-                  "description": "Safe for all skin tones, menopausal, perimenopausal and sensitive skin.",
+                  "title": "Sensitive-skin friendly",
+                  "description": "Barrier stability is protected and techniques are adjusted to skin sensitivity.",
                   "icon": "clinician"
                 },
                 {
-                  "title": "Soothing",
-                  "description": "Ideal during stressed/irritated skin periods.",
+                  "title": "Mild flush possible",
+                  "description": "Temporary light flushing may occur due to increased circulation.",
                   "icon": "prescribed"
                 }
               ]
             },
             "faq": {
-              "title": "FAQ",
+              "title": "Frequently Asked Questions",
               "items": [
                 {
-                  "question": "Does this replace a regular facial?",
-                  "answer": "It is more advanced — delivering deeper hydration and brighter results."
+                  "question": "Is an oxygen facial good for dull skin?",
+                  "answer": "Yes. It supports circulation and hydration, improving light reflection and vitality."
                 },
                 {
-                  "question": "Is it safe for menopause skin?",
-                  "answer": "Yes, especially for dryness, dullness and sensitivity."
+                  "question": "Is this suitable for sensitive skin?",
+                  "answer": "Yes. It does not rely on strong acids or aggressive resurfacing."
                 },
                 {
-                  "question": "Does it hurt?",
-                  "answer": "No — the treatment is cool, soothing and relaxing."
+                  "question": "Can this help hormonally tired skin?",
+                  "answer": "Yes. Reduced circulation and hydration retention are common during hormonal shifts."
                 },
                 {
-                  "question": "Will it clog pores?",
-                  "answer": "No — formulations are lightweight and non-comedogenic."
+                  "question": "Will I see results immediately?",
+                  "answer": "Most clients notice immediate brightness and improved hydration."
                 },
                 {
-                  "question": "How soon before an event should I book?",
-                  "answer": "24–48 hours before for peak glow."
+                  "question": "How often should I have an oxygen facial?",
+                  "answer": "Every 4-6 weeks depending on skin condition and pathway integration."
                 },
                 {
-                  "question": "Can I combine this with chemical peels or PN?",
-                  "answer": "Yes — it enhances penetration and speeds healing."
+                  "question": "Is there downtime?",
+                  "answer": "No. Temporary mild flushing may occur due to increased circulation."
+                },
+                {
+                  "question": "What do people search for this treatment as?",
+                  "answer": "Clients often search for: Oxygen facial Ware; Glow facial near me; Facial for tired skin; Brightening facial Hertfordshire; Skin revitalisation treatment."
+                },
+                {
+                  "question": "Can I book without consultation?",
+                  "answer": "Yes, though clinical sequencing advice may be provided if barrier instability or inflammation is present."
+                },
+                {
+                  "question": "Where is ULANDA located?",
+                  "answer": "ULANDA is based in Ware SG12, Hertfordshire, serving Hertford, Hoddesdon, Broxbourne, Bishop's Stortford and surrounding areas."
                 }
               ]
             },
             "cta": {
-              "title": "Oxygenate, Brighten &",
-              "highlight": "Re-Energise Your Skin",
-              "description": "Book your Oxygen & Vitamin Infusion Facial at ULANDA in Ware SG12 and experience luminous, hydrated, revitalised skin with zero downtime.",
-              "buttonText": "Book Consultation"
+              "title": "Ready to restore skin vitality",
+              "highlight": "and glow?",
+              "description": "ULANDA Ware, Hertfordshire — Nurse-led aesthetic clinic supporting skin vitality, oxygenation and regenerative sequencing.",
+              "buttonText": "Book Now"
             }
           },
           "lymphatic-drainage-facial": {
             "id": "lymphatic-drainage-facial",
-            "title": "Lymphatic Drainage Facial",
-            "subtitle": "De-puff • Sculpt • Reduce inflammation",
+            "title": "Lymphatic Detox Facial",
+            "subtitle": "Fluid Drainage • Puffiness Reduction • Circulation Support",
             "category": "Refresh",
-            "description": "A gentle, rhythmic technique that removes stagnant fluid, improves circulation and reduces inflammation — essential for tired, puffy or stressed skin.",
+            "description": "The Lymphatic Detox Facial is a nurse-led treatment designed to improve facial lymphatic flow, reduce fluid congestion and support inflammatory regulation.",
             image: "https://plus.unsplash.com/premium_photo-1666264200752-b7a7807d2b1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHltcGhhdGljJTIwZHJhaW5hZ2UlMjBmYWNpYWx8ZW58MHwxfDB8fHww",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1666264200752-b7a7807d2b1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHltcGhhdGljJTIwZHJhaW5hZ2UlMjBmYWNpYWx8ZW58MHwxfDB8fHww",
             "booking": {
               "price": 30,
               "duration": 15,
-              "treatmentType": "im",
-              "bookingType": "consultation"
+              "treatmentType": "facial",
+              "bookingType": "treatment"
             },
-            "introduction": {
-              "title": "What is Lymphatic Drainage?",
-              "content": [
-                "A gentle, rhythmic technique that removes stagnant fluid, improves circulation and reduces inflammation — essential for tired, puffy or stressed skin."
-              ],
-              "goals": [
-                "Remove stagnant fluid",
-                "Improve circulation",
-                "Reduce inflammation",
-                "Sculpt and lift"
-              ]
+            "seo": {
+              "title": "Lymphatic Detox Facial in Ware | Facial Lymphatic Drainage Hertfordshire",
+              "description": "Nurse-led lymphatic detox facial in Ware SG12 to reduce puffiness, congestion and inflammatory skin stress. Supports circulation, fluid movement and post-treatment recovery."
             },
-            "idealFor": {
-              "title": "Best",
-              "highlight": "For",
-              "items": [
-                "Puffiness",
-                "Poor circulation",
-                "Fluid retention",
-                "Menopause facial swelling",
-                "Under-eye bags"
+            "seoHeadings": {
+              "h1": "Lymphatic Detox Facial in Ware SG12",
+              "h2": [
+                "What Is the Lymphatic System?",
+                "What Is the Lymphatic Detox Facial?",
+                "Who This Treatment Is For",
+                "How the Treatment Works",
+                "Treatment Time and Downtime",
+                "Results",
+                "Why Choose ULANDA for Lymphatic Facial in Ware",
+                "Frequently Asked Questions"
               ]
             },
             "benefits": [
-              "Immediate de-puffing",
-              "Lifted, sculpted appearance",
-              "Supports immune & lymphatic health",
-              "Enhances facial definition"
+              "Fluid Drainage",
+              "Puffiness Reduction",
+              "Circulation Support"
             ],
+            "locations": [
+              "Ware SG12",
+              "Hertford",
+              "Hoddesdon",
+              "Broxbourne",
+              "Hertfordshire"
+            ],
+            "introduction": {
+              "title": "What Is the Lymphatic System?",
+              "content": [
+                "The lymphatic system is responsible for removing cellular waste, regulating fluid balance, supporting immune function, reducing inflammatory load and assisting tissue recovery.",
+                "When lymphatic flow becomes sluggish, the skin may appear puffy, dull, congested, uneven in tone and slow to recover after treatments.",
+                "Supporting drainage improves tissue environment and regenerative response."
+              ],
+              "goals": [
+                "Removing cellular waste",
+                "Regulating fluid balance",
+                "Supporting immune function",
+                "Reducing inflammatory load",
+                "Assisting tissue recovery"
+              ]
+            },
             "detailedBenefits": {
-              "title": "Benefits",
+              "title": "What Is the Lymphatic Detox Facial?",
               "sections": [
                 {
-                  "title": "Why Choose Lymphatic Drainage?",
+                  "title": "Clinical Focus",
                   "items": [
-                    "✔ Immediate de-puffing",
-                    "✔ Lifted, sculpted appearance",
-                    "✔ Supports immune & lymphatic health",
-                    "✔ Enhances facial definition"
+                    "Gentle manual lymphatic techniques",
+                    "Controlled pressure drainage",
+                    "Circulatory stimulation",
+                    "Barrier-aware hydration support"
+                  ],
+                  "description": "At ULANDA in Ware, Hertfordshire, lymphatic support is integrated as part of structured regenerative sequencing, particularly where puffiness, treatment fatigue or hormonal inflammation is present. No aggressive massage or forceful sculpting is performed."
+                }
+              ]
+            },
+            "idealFor": {
+              "title": "Who This Treatment Is",
+              "highlight": "For",
+              "items": [
+                "Facial puffiness",
+                "Jawline or under-eye swelling",
+                "Hormonal fluid retention",
+                "Dull, heavy-looking skin",
+                "Post-treatment inflammation",
+                "Slowed recovery",
+                "Inflammatory skin states",
+                "Treatment fatigue",
+                "Menopause-related stagnation",
+                "Postpartum fluid retention"
+              ]
+            },
+            "process": {
+              "title": "How the Treatment Works",
+              "steps": [
+                {
+                  "title": "1. Gentle enzymatic cleanse",
+                  "description": "Prepares the skin without disruption."
+                },
+                {
+                  "title": "2. Structured manual lymphatic drainage",
+                  "description": "Guided movements follow anatomical drainage pathways."
+                },
+                {
+                  "title": "3. Pressure-point fluid release",
+                  "description": "Controlled technique to encourage drainage."
+                },
+                {
+                  "title": "4. Circulation stimulation techniques",
+                  "description": "Supports fluid movement and tissue recovery."
+                },
+                {
+                  "title": "5. LED support (where indicated)",
+                  "description": "Used when additional inflammation control is needed."
+                },
+                {
+                  "title": "6. Barrier-support hydration finishing",
+                  "description": "Calms and protects the skin." 
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results",
+              "items": [
+                {
+                  "title": "Treatment Time",
+                  "description": "15 minutes"
+                },
+                {
+                  "title": "Downtime",
+                  "description": "No downtime. Clients often notice immediate lightness and reduced puffiness."
+                },
+                {
+                  "title": "Results",
+                  "description": [
+                    "Reduced facial puffiness",
+                    "Improved jawline definition (fluid-related)",
+                    "Brighter, clearer skin tone",
+                    "Faster post-treatment recovery",
+                    "Reduced inflammatory tightness",
+                    "A lighter, less congested facial feeling",
+                    "A short structured series may be recommended for ongoing congestion"
                   ]
                 }
               ]
             },
+            "ulandaConnection": {
+              "title": "Frequently Used Before or After",
+              "subtitle": "Fluid balance influences regenerative success.",
+              "sections": [
+                {
+                  "title": "Treatment Pairings",
+                  "description": "Frequently used before or after:",
+                  "points": [
+                    "Microneedling",
+                    "Polynucleotides",
+                    "Chemical Peels",
+                    "Thread Lifts",
+                    "Biostimulators",
+                    "Barrier Repair protocols"
+                  ],
+                  "conclusion": "Fluid balance influences regenerative success."
+                }
+              ]
+            },
+            "internalSupport": {
+              "title": "Why Choose ULANDA for Lymphatic Facial in Ware",
+              "titleSuffix": "",
+              "points": [
+                {
+                  "title": "Nurse-led, anatomically informed drainage",
+                  "description": "Techniques are clinically guided."
+                },
+                {
+                  "title": "Hormonal context considered",
+                  "description": "Supports hormonally reactive fluid retention."
+                },
+                {
+                  "title": "Sequencing supports recovery",
+                  "description": "Integrated within regenerative pathways."
+                },
+                {
+                  "title": "Private, appointment-only setting",
+                  "description": "Clinically structured delivery."
+                },
+                {
+                  "title": "Not a sculpting trend",
+                  "description": "Focuses on functional fluid regulation."
+                }
+              ]
+            },
+            "faq": {
+              "title": "Frequently Asked Questions",
+              "items": [
+                {
+                  "question": "Is this the same as a sculpting or contouring facial?",
+                  "answer": "No. This treatment focuses on lymphatic drainage and fluid regulation, not cosmetic contouring."
+                },
+                {
+                  "question": "Can this help under-eye puffiness?",
+                  "answer": "Yes. Lymphatic support can reduce fluid-related swelling in the under-eye area."
+                },
+                {
+                  "question": "Is it suitable during menopause?",
+                  "answer": "Yes. Hormonal transitions often affect fluid retention and circulation."
+                },
+                {
+                  "question": "Does it hurt?",
+                  "answer": "No. Pressure is gentle and controlled."
+                },
+                {
+                  "question": "How often should it be done?",
+                  "answer": "This depends on fluid retention patterns. Some clients benefit from periodic sessions integrated into a structured pathway."
+                },
+                {
+                  "question": "What do people search for this treatment as?",
+                  "answer": "Clients often search for: Lymphatic facial Ware; Facial lymphatic drainage Hertfordshire; De-puffing facial near me; Jawline drainage facial; Detox facial Ware."
+                },
+                {
+                  "question": "Where is ULANDA located?",
+                  "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and surrounding Hertfordshire areas."
+                }
+              ]
+            },
             "cta": {
-              "title": "De-puff.",
-              "highlight": "Sculpt.",
-              "description": "Book your Lymphatic Drainage Facial today.",
+              "title": "Ready to reduce puffiness",
+              "highlight": "and support circulation?",
+              "description": "ULANDA Ware, Hertfordshire — Nurse-led skin care clinic supporting circulation, recovery and regenerative readiness.",
               "buttonText": "Book Now"
             }
           }
@@ -1017,35 +1363,36 @@ export const treatments = {
               placeholderUrl: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
             "id": "led-light-therapy",
             "booking": {
-              "price": 20,
-              "duration": 15,
+              "price": 55,
+              "duration": "20-30",
+              "addOnPrice": 30,
+              "addOnDuration": "10-20",
               "treatmentType": "device",
-              "bookingType": "consultation"
+              "bookingType": "treatment"
             },
             "seo": {
-              "title": "LED Light Therapy Ware SG12 | Collagen, Acne & Inflammation | ULANDA",
-              "description": "Dermalux LED Light Therapy in Ware. Clinically proven wavelengths for acne, anti-ageing & inflammation. Boost collagen & calm redness."
+              "title": "LED Light Therapy in Ware | Medical LED Facial Hertfordshire",
+              "description": "Nurse-led LED light therapy in Ware SG12 for acne, inflammation, barrier repair and post-procedure recovery. Supports collagen stimulation and skin healing at our Hertfordshire skin clinic."
             },
             "seoHeadings": {
-              "h1": "LED Light Therapy in Ware SG12 — Collagen Repair, Glow & Inflammation Control",
+              "h1": "LED Light Therapy in Ware SG12",
               "h2": [
-                "What LED Treats (Ageing • Acne • Inflammation • Rosacea • Sensitivity)",
-                "Red vs Blue LED — What’s the Difference",
-                "LED for Menopause Skin + Sleep Dysregulation",
-                "LED + PN / LED + HydraFacial",
-                "LED for Barrier Repair (Perfect for Retinol Users)",
-                "Linked Conditions (Inflammation, Redness, Sensitivity)",
-                "Book LED Therapy in Ware"
+                "What Is LED Light Therapy?",
+                "Why ULANDA Uses LED as a Clinical Tool",
+                "Who This Treatment Is For",
+                "How the Treatment Works",
+                "Treatment Time and Downtime",
+                "Results and Recovery",
+                "FAQ"
               ]
             },
             "title": "LED Light",
             "highlight": "Therapy",
             "titleSuffix": "",
             "benefits": [
-              "Collagen Stimulation",
-              "Calms Inflammation",
-              "Accelerates Regeneration",
-              "Midlife Skin Support"
+              "Inflammation Control",
+              "Collagen Support",
+              "Recovery Acceleration"
             ],
             "detailedBenefits": {
               "title": "Benefits of LED Light Therapy",
@@ -1053,17 +1400,13 @@ export const treatments = {
                 {
                   "title": "Benefits",
                   "items": [
-                    "Boosts collagen & elastin",
-                    "Improves firmness & elasticity",
-                    "Reduces fine lines",
-                    "Strengthens thinning menopausal skin",
-                    "Calms redness & inflammation",
-                    "Helps with rosacea & sensitivity",
-                    "Brightens dull complexion",
-                    "Improves hydration",
-                    "Reduces acne & congestion",
-                    "Accelerates healing after peels/injectables",
-                    "Supports long-term regenerative results"
+                    "Regulates inflammation and redness",
+                    "Supports collagen signalling over time",
+                    "Calms breakouts and reactive skin",
+                    "Supports barrier repair and tolerance",
+                    "Improves post-procedure recovery",
+                    "Enhances skin comfort and glow",
+                    "Non-invasive with no heat or trauma"
                   ]
                 }
               ]
@@ -1075,86 +1418,82 @@ export const treatments = {
               "Hertfordshire"
             ],
             "category": "Refresh",
-            "description": "Clinically proven light therapy that stimulates collagen, calms inflammation and accelerates regeneration — ideal for midlife and menopausal skin.",
+            "description": "Nurse-led, non-invasive LED light therapy designed to regulate inflammation, support collagen activity and accelerate tissue recovery.",
             "introduction": {
               "title": "What Is LED Light Therapy?",
               "content": [
-                "LED (Light Emitting Diode) therapy uses clinically validated wavelengths of light to target different layers of the skin, promoting regeneration without pain or downtime.",
-                "In simple terms: It helps your skin repair itself faster, look younger, and behave healthier.",
-                "Scientifically: Different wavelengths penetrate the skin to:\nstimulate fibroblasts (collagen production)\nreduce inflammation\naccelerate wound healing\nimprove circulation\nregulate oil production\ncalm redness\nenhance hydration pathways"
+                "LED (Light Emitting Diode) therapy uses specific wavelengths of medical-grade light to stimulate cellular processes within the skin.",
+                "Different wavelengths target different functions, and light penetrates the skin without heat damage or trauma.",
+                "Often searched as \"LED facial Ware\", \"light therapy for acne near me\", or \"red light therapy Hertfordshire\", this treatment supports skin biology without exfoliation, injection or surface disruption."
               ],
               "goals": [
-                "Boosts collagen & elastin",
-                "Improves firmness & elasticity",
-                "Reduces fine lines",
-                "Strengthens thinning menopausal skin",
-                "Calms redness & inflammation",
-                "Helps with rosacea & sensitivity",
-                "Brightens dull complexion",
-                "Improves hydration"
+                "Blue light: reduces acne-causing bacteria and inflammatory breakouts",
+                "Red light: supports collagen production and tissue repair",
+                "Near-infrared light: enhances circulation and cellular energy",
+                "Yellow/amber light: supports redness reduction and lymphatic flow"
               ],
               "highlightBox": {
-                "text1": "ULANDA uses medical-grade LED, which penetrates deeper and produces stronger regenerative effects than beauty salon devices."
+                "text1": "Delivered at our skin clinic in Ware SG12, LED therapy is used as a recovery and regulation modality, not a cosmetic trend."
               },
               image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             },
             "internalSupport": {
-              "title": "Why ULANDA Clients Choose",
-              "titleSuffix": "LED Therapy",
+              "title": "Why ULANDA Uses LED",
+              "titleSuffix": "as a Clinical Tool",
               image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "points": [
                 {
-                  "title": "Medical-grade wavelengths",
-                  "description": "(red, near-infrared, blue, amber)"
+                  "title": "Stabilise inflammatory skin states",
+                  "description": "Targets flare phases without exfoliation or disruption."
                 },
                 {
-                  "title": "Hormone-smart skin assessment",
-                  "description": "Tailored for midlife skin needs."
+                  "title": "Support barrier repair",
+                  "description": "Calms reactive skin and rebuilds tolerance."
                 },
                 {
-                  "title": "Regenerative protocol integration",
-                  "description": "Pairing LED with PN, facials or peels."
+                  "title": "Improve post-procedure healing",
+                  "description": "Used after peels, microneedling or injectables."
                 },
                 {
-                  "title": "Enhanced recovery",
-                  "description": "Post-injectables support."
+                  "title": "Enhance collagen signalling",
+                  "description": "Supports regenerative response over time."
                 },
                 {
-                  "title": "LED as a collagen-supporting maintenance tool",
-                  "description": "Long-term skin health."
+                  "title": "Reduce recovery time",
+                  "description": "Accelerates tissue recovery and comfort."
                 },
                 {
-                  "title": "Anti-inflammatory protocols",
-                  "description": "For sensitive skin."
+                  "title": "Support hormonally reactive skin",
+                  "description": "Guided by clinical assessment and skin history."
                 }
               ]
             },
             "ingredients": {
-              "title": "The Science",
-              "highlight": "Behind",
-              "titleSuffix": "LED Therapy",
-              "subtitle": "Different wavelengths target specific skin concerns:",
+              "title": "Wavelengths",
+              "highlight": "Used",
+              "titleSuffix": "",
+              "subtitle": "Each wavelength supports a specific biological response:",
               "items": [
                 {
-                  "title": "RED LIGHT (630–660 nm)",
-                  "description": "Stimulates fibroblasts - increases collagen + elastin. Improves texture, firmness, and fine lines."
+                  "title": "BLUE LIGHT",
+                  "description": "Reduces acne-causing bacteria and inflammatory breakouts."
                 },
                 {
-                  "title": "NEAR-INFRARED (830–850 nm)",
-                  "description": "Deep tissue repair - reduces inflammation + supports healing. Ideal for mature, thin or menopausal skin."
+                  "title": "RED LIGHT",
+                  "description": "Supports collagen production and tissue repair."
                 },
                 {
-                  "title": "BLUE LIGHT (415 nm)",
-                  "description": "Targets acne-causing bacteria - reduces breakouts. Regulates sebum + calms congestion."
+                  "title": "NEAR-INFRARED LIGHT",
+                  "description": "Enhances circulation and cellular energy."
                 },
                 {
-                  "title": "AMBER LIGHT (590 nm)",
-                  "description": "Boosts radiance - brightens dull or tired skin. Improves circulation."
+                  "title": "YELLOW/AMBER LIGHT",
+                  "description": "Supports redness reduction and lymphatic flow."
                 }
               ],
-              "footer": "Clinical Evidence: LED increases collagen by 31–36% (JAMA Dermatology, 2020), Red + NIR light reduces inflammation and accelerates healing (Journal of Photomedicine, 2021), Blue light significantly reduces bacterial load (British Journal of Dermatology, 2022), LED improves menopausal skin density and elasticity (Women’s Dermatology Research, 2023)"
+              "footer": "Light penetrates the skin without heat damage or trauma."
             },
             "treatmentAreas": {
               "title": "Treatment Areas",
@@ -1168,55 +1507,49 @@ export const treatments = {
               ]
             },
             "process": {
-              "title": "What Happens During the Treatment?",
+              "title": "How the Treatment Works",
               "steps": [
                 {
-                  "title": "1. Skin Assessment",
-                  "description": "We identify the right wavelengths for your goals."
+                  "title": "1. Skin assessment and wavelength selection",
+                  "description": "We choose the LED protocol based on your skin needs."
                 },
                 {
-                  "title": "2. Cleanse & Prep",
-                  "description": "Ensures optimal light penetration."
+                  "title": "2. Eye protection placement",
+                  "description": "Comfortable protection is placed before treatment starts."
                 },
                 {
-                  "title": "3. LED Treatment (10–20 mins)",
-                  "description": "Medical-grade LED light penetrates deep into the skin."
+                  "title": "3. LED treatment (20-30 minutes)",
+                  "description": "Medical-grade light stimulates cellular recovery without heat or discomfort."
                 },
                 {
-                  "title": "4. Hydration & Protection",
-                  "description": "We apply regenerative serums and barrier protection."
-                },
-                {
-                  "title": "5. Optional Add-Ons",
-                  "description": "PN infusion, Enzyme therapy, Post-peel recovery, Anti-inflammatory mask"
+                  "title": "4. Barrier-supporting finishing products",
+                  "description": "We finish with calming, recovery-focused skincare."
                 }
               ]
             },
             "resultsTimeline": {
-              "title": "Results Timeline",
+              "title": "Results",
               "items": [
                 {
-                  "title": "Immediately",
-                  "description": "Brighter skin, Reduced redness, Calmer complexion"
+                  "title": "After treatment",
+                  "description": "Reduced redness and irritation. Calmer breakout activity. Increased skin comfort."
                 },
                 {
-                  "title": "1–2 weeks",
-                  "description": "Improved elasticity, Smoother texture, Fewer breakouts"
+                  "title": "Short-term recovery",
+                  "description": "Improved healing speed and reduced sensitivity in reactive cases."
                 },
                 {
-                  "title": "4–8 weeks (with regular sessions)",
-                  "description": "Increased collagen, Firmer, more youthful skin, Long-term anti-aging benefits, Significant improvement in menopausal thinning"
+                  "title": "With a structured series",
+                  "description": "Enhanced glow over time. Collagen stimulation builds gradually."
                 }
               ]
             },
             "frequency": {
-              "title": "How Many Sessions Do I Need?",
+              "title": "Treatment Time",
               "items": [
-                "Single session: radiance + healing",
-                "6 sessions: noticeable improvement in tone & texture",
-                "12 sessions: collagen + anti-aging optimisation",
-                "Maintenance: once weekly or every facial",
-                "ULANDA offers monthly and 8-week LED protocols for clients on regenerative journeys."
+                "£55 (Standalone) - 20-30 minutes",
+                "£30 (Add-On)",
+                "No downtime. Mild flushing may last 30-60 minutes in reactive skin."
               ]
             },
             "idealFor": {
@@ -1224,106 +1557,101 @@ export const treatments = {
               "highlight": "For?",
               "titleSuffix": "",
               "items": [
-                "Fine lines",
-                "Dull or tired skin",
-                "Reduced elasticity",
-                "Menopause-related thinning",
-                "Inflammation",
-                "Rosacea or sensitivity",
-                "Redness or irritation",
-                "Acne or congestion",
-                "Pigmentation",
-                "Slow healing",
-                "Post-peel or post-injectable recovery",
-                "Stress skin",
-                "Chronic dryness",
-                "LED is especially powerful for midlife skin, where cellular repair naturally slows."
+                "Hormonal breakouts",
+                "Acne flare phases",
+                "Skin sensitivity and reactivity",
+                "Post-inflammatory pigmentation (support phase)",
+                "Post-procedure recovery",
+                "Treatment fatigue",
+                "Menopause-related inflammation",
+                "Delayed healing",
+                "Dull, low-energy skin"
               ]
             },
             "ulandaConnection": {
-              "title": "Perfect Pairings",
-              "subtitle": "LED enhances the results of:",
+              "title": "Common Pairings",
+              "subtitle": "LED is often used alongside:",
               "sections": [
                 {
-                  "title": "RENEW",
-                  "description": "PN (Polynucleotides), PRP, Profhilo, Definisse Hydrobooster, Microneedling. LED is essential post-PN and post-biostimulators to maximise collagen stimulation.",
-                  "points": [],
-                  "conclusion": "",
-                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                },
-                {
-                  "title": "REFRESH",
-                  "description": "Regenerative Facial, Enzyme Therapy, Chemical Peel, BioRePeel.",
-                  "points": [],
-                  "conclusion": "",
-                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                },
-                {
-                  "title": "RADIATE",
-                  "description": "NAD+ IV (cell repair + energy), Glutathione (anti-inflammatory + brightening).",
-                  "points": [],
-                  "conclusion": "",
+                  "title": "Treatment Pairings",
+                  "description": "LED therapy is commonly integrated with structured pathways and post-procedure recovery protocols.",
+                  "points": [
+                    "Barrier Support Facial",
+                    "Chemical Peels",
+                    "Microneedling",
+                    "Polynucleotides",
+                    "Profhilo",
+                    "Biostimulators",
+                    "Post-procedure recovery protocols"
+                  ],
+                  "conclusion": "Inflammation regulation improves regenerative response.",
                   image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                   placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 }
               ]
             },
             "safetyOversight": {
-              "title": "Downtime & Safety",
+              "title": "Downtime and Safety",
               "items": [
                 {
-                  "title": "Zero Downtime",
-                  "description": "Pain-free.",
+                  "title": "No downtime",
+                  "description": "Return to normal activities immediately.",
                   "icon": "cqc"
                 },
                 {
-                  "title": "Safe For All",
-                  "description": "Suitable for all skin tones, safe during menopause, gentle for sensitive or reactive skin, and safe post-pregnancy (light only).",
+                  "title": "Mild flush possible",
+                  "description": "Skin can appear slightly flushed for 30-60 minutes in reactive cases.",
                   "icon": "clinician"
                 },
                 {
-                  "title": "Synergistic",
-                  "description": "Works synergistically with injectables and peels.",
+                  "title": "Non-invasive",
+                  "description": "No heat, peeling or surface disruption.",
                   "icon": "prescribed"
                 }
               ]
             },
             "faq": {
-              "title": "FAQ",
+              "title": "Frequently Asked Questions",
               "items": [
                 {
-                  "question": "Is LED therapy painful?",
-                  "answer": "Not at all — it is warm, relaxing and comfortable."
+                  "question": "Is LED Light Therapy safe?",
+                  "answer": "Yes. It is non-invasive, pain-free and suitable for most skin types."
                 },
                 {
-                  "question": "Is it safe for menopausal skin?",
-                  "answer": "Yes — it supports healing and collagen, which decline during menopause."
+                  "question": "Can LED help acne?",
+                  "answer": "Yes. Blue light supports bacterial reduction and inflammation control."
                 },
                 {
-                  "question": "Can LED help with redness or rosacea?",
-                  "answer": "Yes — red + NIR wavelengths reduce inflammation and sensitivity."
+                  "question": "Does red light stimulate collagen?",
+                  "answer": "Yes. Red and near-infrared wavelengths support collagen signalling and repair activity over time."
                 },
                 {
-                  "question": "Can I use LED after injectables?",
-                  "answer": "Yes — it accelerates healing and reduces swelling."
+                  "question": "Is there downtime?",
+                  "answer": "No. You can return to normal activities immediately."
                 },
                 {
-                  "question": "Does LED replace microneedling or PN?",
-                  "answer": "No — it enhances their results and supports healing."
+                  "question": "How many sessions are needed?",
+                  "answer": "A short series of 4-6 sessions often produces the most noticeable results, depending on the concern."
                 },
                 {
-                  "question": "How soon can I see results?",
-                  "answer": "Many clients see a glow immediately, with long-term benefits after consistent sessions."
+                  "question": "Is LED suitable during menopause?",
+                  "answer": "Yes. It supports inflammation control, collagen function and recovery during hormonal transitions."
+                },
+                {
+                  "question": "What do people search for this treatment as?",
+                  "answer": "Clients often search for: LED facial Ware; Red light therapy Hertfordshire; Light therapy for acne; LED treatment near me; Acne light therapy Ware."
+                },
+                {
+                  "question": "Where is ULANDA located?",
+                  "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop's Stortford and surrounding Hertfordshire areas."
                 }
               ]
             },
             "cta": {
-              "title": "Heal, Repair & Transform",
-              "highlight": "Your Skin From Within",
-              "description": "Book LED Light Therapy at ULANDA in Ware SG12 and experience healthier, stronger, brighter skin — powered by science and regeneration.",
-              "buttonText": "Book Consultation"
+              "title": "Ready to support skin recovery",
+              "highlight": "and regulation?",
+              "description": "ULANDA Ware, Hertfordshire - Nurse-led skin care clinic delivering inflammation-aware and regeneration-supportive therapies.",
+              "buttonText": "Book Now"
             }
           }
         }
@@ -3354,10 +3682,12 @@ export const treatments = {
           "led-light-therapy": {
             "id": "led-light-therapy",
             "booking": {
-              "price": 20,
-              "duration": 15,
+              "price": 55,
+              "duration": "20-30",
+              "addOnPrice": 30,
+              "addOnDuration": "10-20",
               "treatmentType": "device",
-              "bookingType": "consultation"
+              "bookingType": "treatment"
             },
             "seo": {
               "title": "LED Light Therapy Ware SG12 | Collagen, Acne & Inflammation | ULANDA",
@@ -3676,93 +4006,121 @@ export const treatments = {
           "barrier-repair-facial": {
             "id": "barrier-repair-facial",
             "booking": {
-              "price": 120,
+              "price": 110,
               "duration": 60,
               "treatmentType": "facial",
               "bookingType": "Book Now"
             },
             "seo": {
-              "title": "Barrier Repair Facial in Ware SG12 | Restore | ULANDA",
-              "description": "Barrier Repair Facial in Ware SG12, Hertfordshire. Calms inflammation and restores resilience for sensitive or compromised skin. Expert regenerative aesthetics."
+              "title": "Barrier Support Facial in Ware | Skin Barrier Repair Treatment Hertfordshire",
+              "description": "Nurse-led barrier repair facial in Ware SG12 for sensitive, reactive or hormonally dry skin. Designed to restore hydration, reduce inflammation and stabilise compromised skin function."
             },
             "seoHeadings": {
-              "h1": "Barrier Repair Facial in Ware SG12",
+              "h1": "Skin Barrier Support Facial",
               "h2": [
-                "What is Barrier Repair Facial?",
-                "Best For",
-                "Benefits",
-                "ULANDA-Enhanced Protocol",
-                "Often Paired With"
+                "What Is the Skin Barrier?",
+                "What is the Barrier Support Facial?",
+                "Why ULANDA prioritises barrier support before correction",
+                "Who This Treatment Is For",
+                "How the Treatment Works",
+                "Results & Timing",
+                "Frequently Asked Questions"
               ]
             },
-            "title": "Barrier Repair Facial",
-            "subtitle": "Restore resilience • Calm sensitivity • Strengthen the skin",
+            "title": "Skin Barrier Support Facial",
+            "subtitle": "Calm Skin Reset • Hydration Rebuild • Barrier Stabilisation",
             "category": "Restore",
-            "description": "Restore resilience • Calm sensitivity • Strengthen the skin",
             "locations": [
               "Ware SG12",
               "Hertfordshire"
             ],
             image: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
+            "description": "Calm Skin Reset • Hydration Rebuild • Barrier Stabilisation",
             "introduction": {
-              "title": "What is the Barrier Repair Facial?",
+              "title": "What is the Barrier Support Facial?",
               "content": [
-                "The Barrier Repair Facial in Ware (SG12) is a medical-grade treatment designed to strengthen the skin barrier, reduce inflammation and restore comfort in sensitive or compromised skin.",
-                "This facial is commonly chosen by clients from Ware, Hertford, Bishops Stortford, Cheshunt and the wider Hertfordshire area who are experiencing sensitivity related to retinol use, over-exfoliation, environmental stress or hormonal changes.",
-                "The treatment focuses on restoring skin resilience and is often recommended before or after advanced aesthetic treatments to protect long-term skin health."
-              ],
-              "goals": [
-                "Strengthens the skin barrier",
-                "Reduces redness and irritation",
-                "Improves skin comfort",
-                "Supports long-term skin health"
-              ],
-            image: "/assets/img/treatments/Skin barrier and repair/Skin barrier and repair.webp",
-            placeholderUrl: "/assets/img/treatments/Skin barrier and repair/Skin barrier and repair.webp",
-            },
-            "idealFor": {
-              "title": "Best",
-              "highlight": "For",
-              "items": [
-                "Sensitive or reactive skin",
-                "Impaired skin barrier",
-                "Redness or irritation",
-                "Over-exfoliated or over-treated skin",
-                "Retinol or active-related sensitivity"
+                "The Skin Barrier Support Facial is a nurse-led treatment designed to stabilise and restore compromised skin function.",
+                "Often searched as a “sensitive skin facial near me” or “skin barrier repair treatment in Ware,” this facial focuses on rebuilding tolerance, hydration retention and inflammatory control rather than exfoliation or stimulation.",
+                "Delivered at our skin clinic in Ware SG12, this treatment supports skin experiencing:\nBarrier dysfunction\nSensitivity and reactivity\nOver-exfoliation or treatment fatigue\nHormonal dryness (perimenopause / menopause)\nPost-procedure recovery",
+                "This is not a glow-focused facial. It is a biological reset intervention."
               ]
             },
             "benefits": [
-              "Strengthens the skin barrier",
-              "Reduces redness and irritation",
-              "Improves skin comfort and resilience",
-              "Supports long-term skin health",
-              "Ideal reset before or after advanced treatments"
+              "Calm Skin Reset",
+              "Hydration Rebuild",
+              "Barrier Stabilisation"
             ],
             "detailedBenefits": {
-              "title": "Benefits",
+              "title": "Understanding Your Skin",
               "sections": [
                 {
-                  "title": "Benefits",
+                  "title": "What Is the Skin Barrier?",
                   "items": [
-                    "✔ Strengthens the skin barrier",
-                    "✔ Reduces redness and irritation",
-                    "✔ Improves skin comfort and resilience",
-                    "✔ Supports long-term skin health",
-                    "✔ Ideal reset before or after advanced treatments"
-                  ]
+                    "Prevents transepidermal water loss (TEWL)",
+                    "Protects against environmental irritants",
+                    "Regulates inflammation",
+                    "Supports microbial balance"
+                  ],
+                  "description": "It is the outer lipid-rich layer. When compromised, skin becomes tight, red, stinging, flaky, or prone to breakouts. Repair requires structured support, not stronger products."
+                },
+                {
+                  "title": "Why ULANDA Prioritises Barrier Support",
+                  "items": [
+                    "Redness and flare cycles",
+                    "Burning or stinging after products",
+                    "Pigmentation rebound",
+                    "Prolonged recovery after treatments",
+                    "Dryness and tightness that returns quickly",
+                    "Sensitivity to active skincare",
+                    "Uneven tone and dullness"
+                  ],
+                  "description": "Most skin concerns fail because the barrier is unstable, making the skin vulnerable to these issues."
+                },
+                {
+                  "title": "How the Treatment Works",
+                  "items": [
+                    "Gentle enzymatic cleansing",
+                    "Barrier-safe hydration infusion",
+                    "Anti-inflammatory serum application",
+                    "LED support for inflammation regulation",
+                    "Occlusive lipid restoration",
+                    "Lymphatic circulation support where indicated"
+                  ],
+                  "description": "No aggressive exfoliation is performed. The objective is functional recalibration, not cosmetic brightness."
                 }
               ]
             },
+            "idealFor": {
+              "title": "Who This Treatment Is For",
+              "items": [
+                "Sensitive or reactive skin",
+                "Skin barrier dysfunction",
+                "Rosacea-prone skin (stabilisation phase)",
+                "Dehydrated and lipid-depleted skin",
+                "Treatment fatigue (over-exfoliated or over-treated skin)",
+                "Menopause-related dryness and sensitivity",
+                "Redness flare behaviour",
+                "Tightness after cleansing",
+                "Post-procedure irritation",
+                "Dull skin with poor hydration retention"
+              ]
+            },
             "ulandaConnection": {
-              "title": "ULANDA-Enhanced",
-              "highlight": "Protocol",
-              "subtitle": "Our signature approach includes:",
+              "title": "Why Choose ULANDA for Barrier Repair in Ware",
+              "description": "Barrier care is frequently underdiagnosed and over-treated.",
               "sections": [
                 {
-                  "title": "Protocol",
-                  "description": "Barrier and sensitivity assessment. Lipid-replenishing and anti-inflammatory actives. Optional LED therapy for repair support. Often recommended before entering Renew or Radiate.",
-                  "points": []
+                  "title": "Our Approach",
+                  "items": [
+                    "Barrier tolerance review assessment is nurse-led before treatment",
+                    "Hormonal context is considered",
+                    "Treatment sequencing protects long-term outcomes",
+                    "Products are selected for lipid restoration, not stimulation",
+                    "Personalised home support guidance where required",
+                    "Care is delivered in a private, appointment-only setting"
+                  ],
+                  "description": "This is structured skin stabilisation and why many clients choose ULANDA when their skin has become too reactive for standard facials."
                 }
               ]
             },
@@ -3775,25 +4133,61 @@ export const treatments = {
                 },
                 {
                   "title": "Downtime",
-                  "description": "None"
+                  "description": "No downtime. Mild warmth may be present for 1–2 hours in highly reactive skin."
                 },
                 {
                   "title": "Results",
-                  "description": "Immediate comfort with ongoing barrier improvement over 1–2 weeks"
+                  "description": "Following treatment, clients typically notice reduced tightness and discomfort within 24–48 hours, improved hydration retention, decreased redness, better tolerance to home skincare routines, and improved response to future treatments. Barrier repair often requires a short series depending on severity and works best when repeated as part of a structured pathway."
+                }
+              ]
+            },
+            "faq": {
+              "title": "Frequently Asked Questions",
+              "items": [
+                {
+                  "question": "Is the Barrier Support Facial good for sensitive skin?",
+                  "answer": "Yes. This facial is specifically designed for sensitive and reactive skin by supporting hydration retention and reducing inflammation behaviour."
+                },
+                {
+                  "question": "Is this suitable for rosacea-prone skin?",
+                  "answer": "Yes, when inflammation control and barrier stabilisation are the priority."
+                },
+                {
+                  "question": "Do you offer barrier repair facials near me in Ware, Hertfordshire?",
+                  "answer": "Yes. ULANDA offers barrier support facials in Ware, Hertfordshire, supporting clients from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and surrounding areas."
+                },
+                {
+                  "question": "Will this help hormonal dryness during menopause?",
+                  "answer": "Yes. Barrier lipid depletion is common in perimenopause and menopause."
+                },
+                {
+                  "question": "How many sessions are required?",
+                  "answer": "This depends on severity. Some require one stabilisation session, others benefit from 2–3 sessions spaced 2–4 weeks apart."
+                },
+                {
+                  "question": "What do people search for this facial as?",
+                  "answer": "Clients often search for: barrier repair facial, calming facial for sensitive skin, facial for redness and irritation, hydration facial near me, skin barrier treatment near me, sensitive skin facial Ware, reactive skin facial Hertfordshire."
+                },
+                {
+                  "question": "Can I book this facial without a consultation?",
+                  "answer": "Yes, but ULANDA may still recommend barrier stabilisation or consultation-based sequencing if your skin shows signs of inflammation, rosacea flare behaviour, or treatment fatigue."
+                },
+                {
+                  "question": "Is there any downtime after this facial?",
+                  "answer": "No. Most clients return to normal activity immediately."
+                },
+                {
+                  "question": "Where is ULANDA located?",
+                  "answer": "ULANDA is based in Ware, Hertfordshire, serving clients across Hertford, Hoddesdon, Broxbourne, Stanstead Abbotts and surrounding areas."
                 }
               ]
             },
             "cta": {
-              "title": "Calm.",
-              "highlight": "Repair.",
-              "description": "Restore your skin's resilience with a Barrier Repair Facial.",
-              "buttonText": "Book Consultation"
-            },
-            "oftenPairedWith": [
-              "Post-Procedure Recovery Facial",
-              "LED Light Therapy (Restore)",
-              "Renew treatments"
-            ]
+              "title": "Ready to calm your skin and rebuild stability?",
+              "highlight": "",
+              "description": "Barrier Support Facial. £110 • 45–60 minutes. ULANDA Ware, Hertfordshire — Nurse-led facial therapy designed for barrier repair, sensitivity reduction and long-term skin resilience.",
+              "buttonText": "Book Now"
+            }
           }
 
         }
@@ -8554,3 +8948,4 @@ export const treatmentsPageData = {
     subtitle: "A simple, intelligent way to understand your regenerative journey."
   }
 };
+

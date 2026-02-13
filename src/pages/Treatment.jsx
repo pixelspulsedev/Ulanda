@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, Navigate, Link, useNavigate } from 'react-router-dom';
 import { Head } from 'vite-react-ssg';
-import { getTreatment } from '../data/pageContents/treatments/treatments';
+import { getTreatment, getTreatmentById } from '../data/pageContents/treatments/treatments';
 import { tools } from '../data/pageContents/tools/tools';
 import { getConditionsForTreatment, getConditionUrl } from '../data/crosslinks';
 import Breadcrumbs from '../components/Breadcrumbs';
@@ -84,7 +84,7 @@ const Treatment = () => {
   const id = rawId?.toLowerCase();
 
   // Using new call signature: (categoryId, subId, treatmentId)
-  const treatment = getTreatment(category, subcategory, id);
+  const treatment = getTreatment(category, subcategory, id) || (id ? getTreatmentById(id) : null);
   // relatedConditions expects ID, which corresponds to treatmentId
   const relatedConditions = getConditionsForTreatment(id);
   const [isStickyVisible, setIsStickyVisible] = useState(false);
@@ -123,7 +123,9 @@ const Treatment = () => {
     '';
 
   // Canonical URL for the treatment page
-  const canonicalUrl = `https://www.ulanda.co.uk/treatments/${category}/${subcategory}/${id}`.toLowerCase();
+  const canonicalUrl = subcategory
+    ? `https://www.ulanda.co.uk/treatments/${category}/${subcategory}/${id}`.toLowerCase()
+    : `https://www.ulanda.co.uk/treatments/${category}/${id}`.toLowerCase();
 
   const Book = () => {
     const label = treatment.booking ? getBookingButtonLabel(treatment.booking) : 'Book Consultation';
@@ -189,6 +191,21 @@ const Treatment = () => {
                           </span>
                         )}
                         £{treatment.booking.price}
+                      </span>
+                    </div>
+                  )}
+                  {treatment.booking.addOnPrice && (
+                    <div className="flex flex-col items-start leading-none border-l border-secondary/30 pl-6">
+                      <span className="text-[10px] uppercase tracking-widest opacity-60">
+                        Add-On
+                      </span>
+                      <span className="font-serif text-primary text-lg">
+                        £{treatment.booking.addOnPrice}
+                        {treatment.booking.addOnDuration && (
+                          <span className="text-xs font-sans font-light text-base-content/60 ml-2">
+                            {treatment.booking.addOnDuration} min
+                          </span>
+                        )}
                       </span>
                     </div>
                   )}
@@ -283,7 +300,22 @@ const Treatment = () => {
                               From
                             </span>
                           )}
-                          £{treatment.booking.price}
+                          {treatment.booking.price}
+                        </span>
+                      </div>
+                    )}
+                    {treatment.booking.addOnPrice && (
+                      <div className="flex items-center flex-col gap-1">
+                        <span className="text-xs uppercase tracking-widest text-base-content/60">
+                          Add-On
+                        </span>
+                        <span className="text-2xl font-serif text-primary">
+                          £{treatment.booking.addOnPrice}
+                          {treatment.booking.addOnDuration && (
+                            <span className="text-sm font-sans font-light text-base-content/60 ml-2">
+                              {treatment.booking.addOnDuration} min
+                            </span>
+                          )}
                         </span>
                       </div>
                     )}
@@ -584,6 +616,72 @@ const Treatment = () => {
           </section>
         )}
 
+        {/* Not Suitable For Section */}
+        {treatment.notSuitableFor && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24 bg-base-100">
+            <div className="max-w-4xl mx-auto">
+              <div className="space-y-8">
+                <h2 className="text-3xl md:text-5xl font-serif text-base-content leading-tight text-center">
+                  {treatment.notSuitableFor.title}{' '}
+                  <span className="italic text-primary font-serif">
+                    {treatment.notSuitableFor.highlight}
+                  </span>
+                </h2>
+
+                <ul className="grid md:grid-cols-2 gap-4">
+                  {treatment.notSuitableFor.items.map((item, idx) => (
+                    <li
+                      key={idx}
+                      className="flex items-start gap-3 text-lg text-base-content/80 font-light"
+                    >
+                      <span className="text-error mt-1">✕</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                
+                {treatment.notSuitableFor.footer && (
+                    <p className="text-center text-lg text-base-content/70 italic mt-8">
+                        {treatment.notSuitableFor.footer}
+                    </p>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Results & Timeline Section */}
+        {treatment.resultsTimeline && (
+            <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24">
+                <h2 className="text-3xl md:text-5xl font-serif text-base-content text-center mb-12">
+                    {treatment.resultsTimeline.title}
+                </h2>
+                <div className="grid md:grid-cols-3 gap-8">
+                    {treatment.resultsTimeline.items.map((item, idx) => (
+                        <div key={idx} className="bg-secondary/30 p-8 rounded-lg text-center space-y-4 flex flex-col items-center">
+                             <h3 className="text-xl font-serif text-primary uppercase tracking-wide">
+                                {item.title}
+                             </h3>
+                             {Array.isArray(item.description) ? (
+                                <ul className="text-base-content/80 font-light space-y-2 text-left w-full">
+                                    {item.description.map((desc, i) => (
+                                        <li key={i} className="flex gap-2 items-start">
+                                            <span className="text-primary mt-1.5">•</span>
+                                            <span>{desc}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                             ) : (
+                                <p className="text-lg text-base-content/80 font-light leading-relaxed">
+                                    {item.description}
+                                </p>
+                             )}
+                        </div>
+                    ))}
+                </div>
+            </section>
+        )}
+
         {/* Safety & Medical Oversight Section */}
         {treatment.safetyOversight && (
           <section className="bg-base-100 py-12 md:py-24">
@@ -671,35 +769,7 @@ const Treatment = () => {
           </section>
         )}
 
-        {/* Results Timeline Section */}
-        {treatment.resultsTimeline && (
-          <section className="max-w-5xl mx-auto px-4 md:px-8 py-12 md:py-24">
-            <h2 className="text-3xl md:text-5xl font-serif text-base-content text-center mb-16">
-              {treatment.resultsTimeline.title}
-            </h2>
-            <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-primary/20 before:to-transparent">
-              {treatment.resultsTimeline.items?.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group select-none"
-                >
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full border-2 border-primary bg-base-100 text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-sm z-10">
-                    <span className="w-2.5 h-2.5 bg-primary rounded-full"></span>
-                  </div>
 
-                  <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-base-100 p-6 rounded-lg border border-base-200 shadow-sm md:hover:shadow-md transition-shadow">
-                    <h3 className="text-xl font-serif text-primary mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-base-content/80 font-light leading-relaxed">
-                      {item.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
 
         {/* Frequency Section */}
         {treatment.frequency && (
@@ -793,6 +863,21 @@ const Treatment = () => {
                           </span>
                         )}
                         £{treatment.booking.price}
+                      </span>
+                    </span>
+                  )}
+                  {treatment.booking.addOnPrice && (
+                    <span className="flex flex-col items-center gap-1">
+                      <span className="uppercase text-xs tracking-widest opacity-70">
+                        Add-On
+                      </span>
+                      <span className="text-2xl font-serif text-primary">
+                        £{treatment.booking.addOnPrice}
+                        {treatment.booking.addOnDuration && (
+                          <span className="text-sm font-sans font-light text-base-content/60 ml-2">
+                            {treatment.booking.addOnDuration} min
+                          </span>
+                        )}
                       </span>
                     </span>
                   )}

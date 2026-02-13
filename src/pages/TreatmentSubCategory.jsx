@@ -5,6 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import { getTreatmentSubCategory, getTreatmentCategory } from '../data/pageContents/treatments/treatments';
 import { ArrowRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
+import { FAQSchema } from '../components/Schema';
 
 // Sub-category SEO mapping following locked format: [Treatment Focus] in Ware SG12 | [Pathway] | ULANDA
 const subCategorySEO = {
@@ -56,6 +57,41 @@ export default function TreatmentSubCategory() {
     title: `${subCategory.title} in Ware SG12 | ${category.title} | ULANDA`,
     description: subCategory.description
   };
+
+  // FAQ data for signature-facials subcategory
+  const signatureFacialsFAQs = [
+    {
+      question: "What are medical facials and how are they different from spa facials?",
+      answer: "Medical facials are clinical-grade skin treatments delivered in a medically supervised environment. Unlike spa facials, they use professional-strength actives, are tailored to hormonal and barrier health, and target functional skin issues — not just short-term relaxation."
+    },
+    {
+      question: "Which facial treatment is best for menopausal or hormonally stressed skin?",
+      answer: "Lymphatic Detox Facial, Enzyme Renewal Facial and Oxygen Glow Facial are ideal for menopausal skin. They support circulation, lymphatic drainage and barrier function — addressing puffiness, dullness and reactivity linked to hormonal transitions."
+    },
+    {
+      question: "Can I get a HydraFacial in Ware?",
+      answer: "Yes. Our Advanced Cleansing & Hydration Therapy follows the HydraFacial method but is delivered with a clinical, barrier-first approach tailored to your skin's tolerance and hormonal context."
+    },
+    {
+      question: "Where can I get professional facial treatments near me in Hertfordshire?",
+      answer: "ULANDA is a nurse-led skin clinic located in Ware SG12, just minutes from Hertford, Hoddesdon, Broxbourne, Bishops Stortford and surrounding areas. We offer medical-grade facial treatments with flexible consultation and booking."
+    },
+    {
+      question: "Are these facials safe for sensitive or reactive skin?",
+      answer: "Yes. All treatments are designed with barrier health in mind. Enzyme Renewal Facial, Lymphatic Detox Facial and Barrier Repair Facial are especially gentle and restorative for sensitive, inflamed or hormonally reactive skin."
+    },
+    {
+      question: "How often should I get a facial treatment?",
+      answer: "Most clients benefit from treatments every 4–6 weeks. During hormonal transitions (perimenopause, post-pregnancy, cycle shifts), every 3–4 weeks may provide better support for barrier function and skin stability."
+    },
+    {
+      question: "Do you offer skin consultations before facial treatments?",
+      answer: "Yes. Every client begins with a comprehensive Skin Behaviour Consultation to assess your skin pattern, hormonal context, and treatment tolerance. This ensures your facial is functional, not reactive."
+    }
+  ];
+
+  // Show FAQ and CTA only for signature-facials subcategory
+  const showFAQAndCTA = categoryId === 'refresh' && subId === 'signature-facials';
 
   return (
     <>
@@ -122,6 +158,50 @@ export default function TreatmentSubCategory() {
                 ))}
             </div>
         </section>
+
+        {/* FAQ Section - Only for signature-facials */}
+        {showFAQAndCTA && (
+          <>
+            <FAQSchema faqs={signatureFacialsFAQs} />
+            <section className="py-16 px-4 md:px-8 max-w-4xl mx-auto bg-base-100">
+              <h2 className="text-3xl md:text-4xl font-serif mb-12 text-center text-primary">
+                Frequently Asked Questions
+              </h2>
+              <div className="space-y-6">
+                {signatureFacialsFAQs.map((faq, index) => (
+                  <details key={index} className="group bg-white rounded-lg border border-base-200 overflow-hidden">
+                    <summary className="px-6 py-4 cursor-pointer font-medium text-lg text-stone-900 group-open:text-primary transition-colors flex justify-between items-center">
+                      <span>{faq.question}</span>
+                      <span className="ml-4 text-primary transform group-open:rotate-180 transition-transform">▼</span>
+                    </summary>
+                    <div className="px-6 pb-4 text-stone-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </section>
+
+            {/* Final CTA Section */}
+            <section className="py-16 px-4 md:px-8 max-w-4xl mx-auto text-center bg-secondary/30 rounded-2xl my-12">
+              <h2 className="text-3xl md:text-4xl font-serif mb-6 text-primary">
+                Ready to Choose the Right Facial for Your Skin?
+              </h2>
+              <p className="text-lg text-stone-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Every treatment at ULANDA begins with a comprehensive Skin Behaviour Consultation. We assess your skin pattern, hormonal context, and treatment tolerance to create a clinical plan that works—without disruption, guesswork or reactive outcomes.
+              </p>
+              <Link 
+                to="/book-consultation" 
+                className="inline-block bg-primary text-white px-8 py-4 rounded-lg font-medium hover:bg-primary-focus transition-colors shadow-md hover:shadow-lg"
+              >
+                Book Your Skin Behaviour Consultation
+              </Link>
+              <p className="text-sm text-stone-500 mt-8 italic">
+                ULANDA is a nurse-led skin clinic in Ware, Hertfordshire — serving Hertford, Hoddesdon, Broxbourne, Bishops Stortford and surrounding East Herts areas with medical-grade facial treatments rooted in hormonal skin science.
+              </p>
+            </section>
+          </>
+        )}
       </div>
     </>
   );

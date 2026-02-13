@@ -122,6 +122,19 @@ export default function TreatmentDraft() {
                       </span>
                     </div>
                   )}
+                  {treatment.booking.addOnPrice && (
+                    <div className="flex flex-col items-start leading-none border-l border-secondary/30 pl-6">
+                      <span className="text-[10px] uppercase tracking-widest opacity-60">Add-On</span>
+                      <span className="font-serif text-primary text-lg">
+                        £{treatment.booking.addOnPrice}
+                        {treatment.booking.addOnDuration && (
+                          <span className="text-xs font-sans font-light text-base-content/60 ml-2">
+                            {treatment.booking.addOnDuration} min
+                          </span>
+                        )}
+                      </span>
+                    </div>
+                  )}
                   {treatment.booking.duration && (
                     <div className="hidden sm:flex flex-col items-start leading-none border-l border-secondary/30 pl-6">
                       <span className="text-[10px] uppercase tracking-widest opacity-60">Duration</span>
@@ -175,6 +188,19 @@ export default function TreatmentDraft() {
                         <span className="text-2xl font-serif text-primary">
                           {treatment.booking.starting && <span className="text-lg font-sans font-light text-base-content/60 mr-1">From</span>}
                           £{treatment.booking.price}
+                        </span>
+                      </div>
+                    )}
+                    {treatment.booking.addOnPrice && (
+                      <div className="flex items-center flex-col gap-1">
+                        <span className="text-xs uppercase tracking-widest text-base-content/60">Add-On</span>
+                        <span className="text-2xl font-serif text-primary">
+                          £{treatment.booking.addOnPrice}
+                          {treatment.booking.addOnDuration && (
+                            <span className="text-sm font-sans font-light text-base-content/60 ml-2">
+                              {treatment.booking.addOnDuration} min
+                            </span>
+                          )}
                         </span>
                       </div>
                     )}
@@ -440,6 +466,19 @@ export default function TreatmentDraft() {
                       <span className="text-2xl font-serif text-primary">
                         {treatment.booking.starting && <span className="text-lg font-sans font-light text-base-content/60 mr-1">From</span>}
                         £{treatment.booking.price}
+                      </span>
+                    </span>
+                  )}
+                  {treatment.booking.addOnPrice && (
+                    <span className="flex flex-col items-center gap-1">
+                      <span className="uppercase text-xs tracking-widest opacity-70">Add-On</span>
+                      <span className="text-2xl font-serif text-primary">
+                        £{treatment.booking.addOnPrice}
+                        {treatment.booking.addOnDuration && (
+                          <span className="text-sm font-sans font-light text-base-content/60 ml-2">
+                            {treatment.booking.addOnDuration} min
+                          </span>
+                        )}
                       </span>
                     </span>
                   )}

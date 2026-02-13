@@ -56,6 +56,8 @@ const skinHealthFacialTherapies = {
   treatments: {
     // HydraFacial
     "hydrafacial": getOriginalTreatment("refresh", "signature-facials", "hydrafacial"),
+    // Deep Hydration Facial
+    "deep-hydration-facial": getOriginalTreatment("refresh", "signature-facials", "deep-hydration-facial"),
     // Enzyme Facial (also known as Advanced Rejuvenating Facial / Vital Glow)
     "enzyme-therapy": getOriginalTreatment("refresh", "signature-facials", "enzyme-therapy"),
     // Oxygen Facial
