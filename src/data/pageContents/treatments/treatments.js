@@ -202,7 +202,7 @@ export const treatments = {
           "hydrafacial": {
             "id": "hydrafacial",
             "booking": {
-              "price": 125,
+              "price": 145,
               "duration": 60,
               "treatmentType": "facial",
               "bookingType": "Book Now"
@@ -226,7 +226,7 @@ export const treatments = {
             "title": "Advanced Cleansing & Hydration Therapy",
             "subtitle": "Deep Pore Detox • Barrier-Safe Hydration • Skin Function Reset",
             "pricing": {
-              "singlePrice": "125",
+              "singlePrice": "145",
               "bookingType": "Book Now"
             },
             "benefits": [
@@ -389,7 +389,7 @@ export const treatments = {
             "cta": {
               "title": "Ready to restore clarity and hydration safely?",
               "highlight": "",
-              "description": "Advanced Cleansing & Hydration Therapy. £125 • 45–60 minutes. ULANDA Ware, Hertfordshire — Nurse-led skin care clinic providing medical-grade cleansing, hydration and regenerative sequencing.",
+              "description": "Advanced Cleansing & Hydration Therapy. £145 • 45–60 minutes. ULANDA Ware, Hertfordshire — Nurse-led skin care clinic providing medical-grade cleansing, hydration and regenerative sequencing.",
               "buttonText": "Book Now"
             }
           },
