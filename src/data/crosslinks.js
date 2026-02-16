@@ -788,6 +788,9 @@ export const getConditionUrl = (slug) => {
     "volume-loss": "age-and-regeneration",
     "uneven-texture": "age-and-regeneration",
     "enlarged-pores": "age-and-regeneration",
+    "fine-lines-wrinkles": "age-and-regeneration",
+    "acne-scarring": "age-and-regeneration",
+    "non-responsive-skin": "age-and-regeneration",
 
     // 5) Hormonal Skin Conditions
     "hormonal-breakouts": "hormonal-skin",
@@ -800,6 +803,7 @@ export const getConditionUrl = (slug) => {
     "cellulite": "body-skin-structural",
     "stretch-marks": "body-skin-structural",
     "post-weightloss-postpartum": "body-skin-structural",
+    "pelvic-intimate-regeneration": "body-skin-structural",
 
     // 7) Internal Wellness Conditions
     "fatigue-low-energy": "internal-wellness",

@@ -54,7 +54,7 @@ function generateStaticPaths() {
   // Condition category pages: /conditions/age-and-regeneration
   conditions.forEach(condition => {
     paths.push(`/conditions/${condition.id}`);
-    
+
     // Add individual condition links from subConditions.items
     if (condition.subConditions?.items) {
       condition.subConditions.items.forEach(subCondition => {
@@ -66,9 +66,9 @@ function generateStaticPaths() {
   });
 
   // Individual condition pages (fallback to catch any /conditions/:id route)
-  individualConditions.forEach(condition => {
-    paths.push(`/conditions/${condition.id}`);
-  });
+  // individualConditions.forEach(condition => {
+  //   paths.push(`/conditions/${condition.id}`);
+  // });
 
   // Blog pages
   blogs.forEach(blog => {

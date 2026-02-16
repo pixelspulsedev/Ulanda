@@ -247,11 +247,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/fine-lines-wrinkles</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/skin-laxity</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -283,21 +278,6 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/loss-of-definition</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/acne-scarring</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/non-responsive-skin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/pelvic-intimate-regeneration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
