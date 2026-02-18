@@ -27,13 +27,20 @@ export default function ConditionDetail() {
   }
 
   const condition = getIndividualCondition(conditionId);
-  const relatedTreatmentIds = getTreatmentsForCondition(conditionId);
-  const relatedTreatments = relatedTreatmentIds.map(tid => {
-    // try to resolve full object to get proper casing title
-    const tObj = getTreatmentById(tid);
-    // fallback to id if object not found (though object is preferred)
-    return tObj || tid;
-  });
+  
+  let relatedTreatments = [];
+
+  if (condition?.relatedTreatments) {
+    relatedTreatments = condition.relatedTreatments;
+  } else {
+    const relatedTreatmentIds = getTreatmentsForCondition(conditionId);
+    relatedTreatments = relatedTreatmentIds.map(tid => {
+      // try to resolve full object to get proper casing title
+      const tObj = getTreatmentById(tid);
+      // fallback to id if object not found (though object is preferred)
+      return tObj || tid;
+    });
+  }
 
   if (!condition) {
     return <div className="text-center py-20">Condition not found</div>;
@@ -126,6 +133,24 @@ export default function ConditionDetail() {
           </div>
         </section>
 
+        {/* Content Section */}
+        {condition.content && (
+        <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {condition.content.map((item, index) => (
+              <div key={index} className="flex flex-col gap-4">
+                <h3 className="text-2xl font-serif text-primary">
+                  {item.title}
+                </h3>
+                <p className="text-lg font-sans font-light text-base-content/80 leading-relaxed">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+        )}
+
         {/* Science Section */}
         {condition.science && (
         <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
@@ -178,6 +203,7 @@ export default function ConditionDetail() {
         />
 
         {/* Why Choose Section */}
+        {condition.whyChoose && (
         <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto overflow-hidden">
           <div className="flex flex-col md:flex-row items-center gap-16">
             {/* Text Content */}
@@ -203,6 +229,34 @@ export default function ConditionDetail() {
             </div>
           </div>
         </section>
+        )}
+
+        {/* FAQs Section */}
+        {((condition.faq && condition.faq.items && condition.faq.items.length > 0) || (condition.faqs && condition.faqs.length > 0)) && (
+          <section className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-serif text-center mb-12 text-[#2A2A2A]">
+              Frequently Asked <span className="italic font-light text-primary">Questions</span>
+            </h2>
+            <div className="space-y-4">
+              {(condition.faq?.items || condition.faqs).map((faq, index) => (
+                <div key={index} className="collapse collapse-plus bg-base-100 border border-base-200 rounded-lg">
+                  <input type="radio" name="my-accordion-3" defaultChecked={index === 0} /> 
+                  <div className="collapse-title text-xl font-medium font-sans text-primary">
+                    {faq.question}
+                  </div>
+                  <div className="collapse-content">
+                    <p className="font-sans font-light text-base-content/80 text-left">{faq.answer}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            {condition.faq?.footer && (
+              <p className="mt-8 text-center text-base-content/80 font-sans max-w-2xl mx-auto">
+                {condition.faq.footer}
+              </p>
+            )}
+          </section>
+        )}
 
         {/* CTA Section */}
         <section className="py-40 px-4 bg-secondary">

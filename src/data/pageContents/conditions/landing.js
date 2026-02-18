@@ -1,3 +1,4 @@
+
 export const conditionsLandingData = {
   hero: {
     title: "Conditions",
@@ -12,35 +13,33 @@ export const conditionsLandingData = {
   },
   categories: [
     {
-      title: 'Pigmentation &',
-      subtitle: 'Skin Tone',
-      highlight: 'Hyperpigmentation • Melasma • Dullness • Uneven Tone',
-      description:
-        'Uneven skin tone, sun damage and pigmentation are often the first signs of cellular ageing. ULANDA restores clarity and brightness through targeted regenerative protocols.',
+      title: 'Dehydration, Dullness &',
+      subtitle: 'Skin Recovery',
+      highlight: 'Chronic Dehydration • Loss of Glow • Rough Texture',
+      description: 'Restoring hydration, glow and barrier strength safely for tired, tight or reactive skin.',
       concerns: [
-        'Hyperpigmentation (Sun Damage)',
-        'Melasma',
-        'Post-Inflammatory Hyperpigmentation',
-        'Uneven Skin Tone / Discolouration',
-        'Dull, Dehydrated Skin',
+        'Chronic Dehydration',
+        'Loss of Glow & Radiance',
+        'Rough / Flaky Texture'
       ],
       solutions: [
-        'BioRePeel & Chemical Peels',
-        'Polynucleotides (PN)',
-        'Meso-Tox & Skin Boosters',
-        'Regenerative Facials',
-        'Home-care Pigmentation Protocols',
+        'Skin Boosters',
+        'Hydration IV',
+        'BioRePeel',
+        'Glow Facials',
+        'LED Therapy',
+        'Polynucleotides (PN)'
       ],
-      link: '/conditions/pigmentation-and-skin-tone',
-      linkText: 'Explore Pigmentation',
+      link: '/conditions/dehydration-dullness-skin-recovery',
+      linkText: 'Explore Skin Recovery',
       color: 'bg-blue-50/50',
-      dot: '🔵',
-      image: '/assets/img/conditions/landing/pigmentation_skin_tone.jpg',
-      placeholderUrl: 'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=800',
+      dot: '💧',
+      image: 'https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww',
+      placeholderUrl: 'https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww',
     },
     {
       title: 'Menopause &',
-      subtitle: 'Hormone-Linked Changes',
+      subtitle: 'Hormonal Skin Change',
       highlight: 'Sagginess • Jowls • Neck Crepiness • Texture Decline',
       description:
         'Menopause accelerates collagen loss by up to 30% in the first 5 years. We specialise in hormone-aware skin regeneration to restore density, firmness and lift.',
@@ -66,8 +65,59 @@ export const conditionsLandingData = {
       placeholderUrl: 'https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
-      title: 'Eye Area',
-      subtitle: 'Conditions',
+      title: 'Redness, Sensitivity &',
+      subtitle: 'Reactive Skin',
+      highlight: 'Rosacea • Flushing • Sensitive Skin',
+      description: 'Calming inflammatory triggers and restoring barrier stability for skin that is easily irritated.',
+      concerns: [
+        'Rosacea-Prone Skin',
+        'Facial Redness',
+        'Reactive & Sensitive Skin'
+      ],
+      solutions: [
+        'LED Therapy',
+        'Polynucleotides (PN)',
+        'Gentle Peels',
+        'Calming Facials',
+        'Barrier Repair'
+      ],
+      link: '/conditions/redness-sensitivity-reactive-skin',
+      linkText: 'Explore Redness & Sensitivity',
+      color: 'bg-red-50/50',
+      dot: '🔴',
+      image: 'https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww',
+      placeholderUrl: 'https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww',
+    },
+    {
+      title: 'Pigmentation, Melasma &',
+      subtitle: 'Uneven Tone',
+      highlight: 'Hyperpigmentation • Melasma • Age Spots • Discolouration',
+      description:
+        'Uneven skin tone, sun damage and pigmentation are often the first signs of cellular ageing. ULANDA restores clarity and brightness through targeted regenerative protocols.',
+      concerns: [
+        'Hyperpigmentation (Sun Damage)',
+        'Melasma',
+        'Post-Inflammatory Hyperpigmentation',
+        'Uneven Skin Tone / Discolouration',
+        'Dull, Dehydrated Skin',
+      ],
+      solutions: [
+        'BioRePeel & Chemical Peels',
+        'Polynucleotides (PN)',
+        'Meso-Tox & Skin Boosters',
+        'Regenerative Facials',
+        'Home-care Pigmentation Protocols',
+      ],
+      link: '/conditions/pigmentation-and-skin-tone',
+      linkText: 'Explore Pigmentation',
+      color: 'bg-blue-50/50',
+      dot: '🔵',
+      image: '/assets/img/conditions/landing/pigmentation_skin_tone.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=800',
+    },
+    {
+      title: 'Under-Eye Concerns',
+      subtitle: '(Dark Circles, Hollows & Fragility)',
       highlight: 'Dark Circles • Hollows • Crepiness • Puffiness',
       description:
         'The eye area ages faster than the rest of the face. Our specialised eye regeneration protocols treat the root cause: thin skin, poor circulation and volume loss.',
@@ -92,9 +142,34 @@ export const conditionsLandingData = {
       placeholderUrl: 'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
-      title: 'Skin Texture &',
-      subtitle: 'Quality',
-      highlight: 'Fine Lines • Texture • Pores • Dullness',
+      title: 'Body Skin &',
+      subtitle: 'Structural Conditions',
+      highlight: 'Laxity • Cellulite • Stretch Marks • Postpartum',
+      description:
+        'Body skin requires a different approach. We focus on thickening the collagen matrix, tightening connective tissue and smoothing surface texture.',
+      concerns: [
+        'Body Skin Laxity',
+        'Cellulite',
+        'Stretch Marks',
+        'Post-Weight Loss / Postpartum',
+        'Pelvic & Intimate Regeneration'
+      ],
+      solutions: [
+        'Body RF Microneedling',
+        'Body Biostimulators (Lanluma)',
+        'Polynucleotides for Body',
+      ],
+      link: '/conditions/body-skin-structural',
+      linkText: 'Explore Body',
+      color: 'bg-green-50/50',
+      dot: '🟢',
+      image: '/assets/img/conditions/landing/body_skin_structural.jpg',
+      placeholderUrl: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=800',
+    },
+    {
+      title: 'Acne, Breakouts &',
+      subtitle: 'Texture Irregularity',
+      highlight: 'Fine Lines • Texture • Pores • Acne Scarring',
       description:
         'True anti-ageing is about biological regeneration. We stimulate your body to produce its own collagen, elastin and fresh cells for natural, long-term rejuvenation.',
       concerns: [
@@ -102,6 +177,7 @@ export const conditionsLandingData = {
         'Dull, Dehydrated Skin',
         'Rough / Uneven Texture',
         'Enlarged Pores',
+        'Acne Scarring'
       ],
       solutions: [
         'Biostimulators (Sculptra / Ellansé)',
@@ -117,30 +193,6 @@ export const conditionsLandingData = {
       placeholderUrl: 'https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D',
     },
     {
-      title: 'Body Skin &',
-      subtitle: 'Structural Conditions',
-      highlight: 'Laxity • Cellulite • Stretch Marks • Postpartum',
-      description:
-        'Body skin requires a different approach. We focus on thickening the collagen matrix, tightening connective tissue and smoothing surface texture.',
-      concerns: [
-        'Body Skin Laxity',
-        'Cellulite',
-        'Stretch Marks',
-        'Post-Weight Loss / Postpartum',
-      ],
-      solutions: [
-        'Body RF Microneedling',
-        'Body Biostimulators (Lanluma)',
-        'Polynucleotides for Body',
-      ],
-      link: '/conditions/body-skin-structural',
-      linkText: 'Explore Body',
-      color: 'bg-green-50/50',
-      dot: '🟢',
-      image: '/assets/img/conditions/landing/body_skin_structural.jpg',
-      placeholderUrl: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-    {
       title: 'Internal',
       subtitle: 'Wellness Conditions',
       highlight: 'Fatigue • Immunity • Metabolism • Stress',
@@ -151,7 +203,7 @@ export const conditionsLandingData = {
         'Low Immunity / Frequent Illness',
         'Slow Metabolism',
         'Stress & Inflammation',
-        'Nutrient Dificiency Skin',
+        'Nutrient Deficiency Skin',
       ],
       solutions: [
         'NAD+ IV Drip',
@@ -166,33 +218,6 @@ export const conditionsLandingData = {
       dot: '🟠',
       image: '/assets/img/conditions/landing/internal_wellness.jpg',
       placeholderUrl: 'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-    {
-      title: 'Non-Responsive Skin &',
-      subtitle: 'Treatment Fatigue',
-      highlight: 'Diminishing Results • Recovery Decline • Plateau',
-      description:
-        "When treatments stop delivering — not because they're wrong, but because the skin is no longer responding. A signal that the skin's biology requires reassessment.",
-      concerns: [
-        'Results that fade quickly',
-        'Treatments that no longer work',
-        'Increasing downtime, diminishing benefit',
-        'Skin that reacts unpredictably',
-        'Sense that "nothing works anymore"',
-      ],
-      solutions: [
-        'Regenerative pause protocols',
-        'Barrier & recovery support',
-        'Biological reassessment',
-        'Sequenced care planning',
-        'Hormone-aware skin audit',
-      ],
-      link: '/conditions/non-responsive-skin',
-      linkText: 'Explore Treatment Fatigue',
-      color: 'bg-gray-50/50',
-      dot: '⚪',
-      image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=500&auto=format&fit=crop',
-      placeholderUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=500&auto=format&fit=crop',
     },
   ]
 };

@@ -29,9 +29,9 @@ export default function Conditions() {
   }
 
   // Generate proper SEO title following locked format
-  const seoTitle = `${condition.hero.title} ${condition.hero.highlight || ''} Treatment in Ware SG12 | ULANDA`.trim();
+  const seoTitle = condition.seo?.title || `${condition.hero.title} ${condition.hero.highlight || ''} Treatment in Ware SG12 | ULANDA`.trim();
   const canonicalUrl = `https://www.ulanda.co.uk/conditions/${id}`;
-  const seoDescription = condition.hero.description[0];
+  const seoDescription = condition.seo?.description || condition.hero.description[0];
 
   return (
     <>
