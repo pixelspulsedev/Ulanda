@@ -83,14 +83,14 @@ export default function Footer() {
             <div>
               <h3 className="font-medium font-sans text-primary mb-4">Skin Conditions</h3>
                 <ul className="space-y-3 text-base-content/80 font-sans">
+                  <li><Link to="/conditions/dehydration-dullness-skin-recovery" className="hover:text-primary transition-colors ">Dehydration & Dullness</Link></li>
+                  <li><Link to="/conditions/menopause-hormone-skin-changes" className="hover:text-primary transition-colors ">Menopause & Hormonal Change</Link></li>
+                  <li><Link to="/conditions/redness-sensitivity-reactive-skin" className="hover:text-primary transition-colors ">Redness & Sensitivity</Link></li>
+                  <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors ">Pigmentation & Skin Tone</Link></li>
+                  <li><Link to="/conditions/eye-area" className="hover:text-primary transition-colors ">Eye Area</Link></li>
+                  <li><Link to="/conditions/body-skin-structural" className="hover:text-primary transition-colors ">Body Skin Structural</Link></li>
+                  <li><Link to="/conditions/acne-texture" className="hover:text-primary transition-colors ">Acne & Texture</Link></li>
                   <li><Link to="/conditions/internal-wellness" className="hover:text-primary transition-colors ">Internal Wellness</Link></li>
-                  <li><Link to="/conditions/internal-wellness/stress-cortisol-skin-imbalance" className="hover:text-primary transition-colors ">Stress & Cortisol</Link></li>
-                  <li><Link to="/conditions/internal-wellness/poor-sleep-skin-ageing" className="hover:text-primary transition-colors ">Poor Sleep & Skin Ageing</Link></li>
-                  <li><Link to="/conditions/internal-wellness/pelvic-intimate-regeneration" className="hover:text-primary transition-colors ">Pelvic & Intimate Regeneration</Link></li>
-                  <li><Link to="/conditions/internal-wellness/inflammation-driven-ageing" className="hover:text-primary transition-colors ">Inflammation-Driven Ageing</Link></li>
-                  <li><Link to="/conditions/internal-wellness/gut-skin-imbalance" className="hover:text-primary transition-colors ">Gut-Skin Imbalance</Link></li>
-                  <li><Link to="/conditions/internal-wellness/fatigue-low-energy-affecting-skin" className="hover:text-primary transition-colors ">Fatigue & Low Energy</Link></li>
-                  <li><Link to="/conditions" className="hover:text-primary transition-colors ">All Conditions</Link></li>
                 </ul>
             </div>
 

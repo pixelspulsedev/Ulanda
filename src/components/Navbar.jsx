@@ -201,20 +201,14 @@ export default function Navbar() {
             </NavLink>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-64 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {[
-                { name: 'Skin Laxity', path: '/conditions/menopause-hormone-skin-changes' },
-                { name: 'Uneven Tone & Pigmentation', path: '/conditions/pigmentation-and-skin-tone' },
-                { name: 'Texture & Pores', path: '/conditions/age-and-regeneration' },
-                { name: 'Post-Inflammatory Pigmentation', path: '/conditions/pigmentation-and-skin-tone/post-inflammatory-hyperpigmentation' },
-                { name: 'Dark Circles', path: '/conditions/eye-area/dark-circles' },
-                // Internal Wellness group
-                { name: 'Internal Wellness', path: '/conditions/internal-wellness' },
-                { name: '• Stress & Cortisol', path: '/conditions/internal-wellness/stress-cortisol-skin-imbalance' },
-                { name: '• Poor Sleep & Skin Ageing', path: '/conditions/internal-wellness/poor-sleep-skin-ageing' },
-                { name: '• Pelvic & Intimate Regeneration', path: '/conditions/internal-wellness/pelvic-intimate-regeneration' },
-                { name: '• Inflammation-Driven Ageing', path: '/conditions/internal-wellness/inflammation-driven-ageing' },
-                { name: '• Gut-Skin Imbalance', path: '/conditions/internal-wellness/gut-skin-imbalance' },
-                { name: '• Fatigue & Low Energy', path: '/conditions/internal-wellness/fatigue-low-energy-affecting-skin' },
-                { name: 'All Conditions', path: '/conditions' }
+                { name: 'Dehydration & Dullness', path: '/conditions/dehydration-dullness-skin-recovery' },
+                { name: 'Menopause & Hormonal Change', path: '/conditions/menopause-hormone-skin-changes' },
+                { name: 'Redness & Sensitivity', path: '/conditions/redness-sensitivity-reactive-skin' },
+                { name: 'Pigmentation & Skin Tone', path: '/conditions/pigmentation-and-skin-tone' },
+                { name: 'Eye Area', path: '/conditions/eye-area' },
+                { name: 'Body Skin Structural', path: '/conditions/body-skin-structural' },
+                { name: 'Acne & Texture', path: '/conditions/acne-texture' },
+                { name: 'Internal Wellness', path: '/conditions/internal-wellness' }
               ].map((item) => (
                 <li key={item.name}>
                   <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
@@ -361,21 +355,14 @@ export default function Navbar() {
                       Skin Conditions
                     </summary>
                       <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-                      <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
-                      <li><Link to="/conditions/menopause-hormone-skin-changes" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin Laxity</Link></li>
-                      <li><Link to="/conditions/pigmentation-and-skin-tone" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Uneven Tone & Pigmentation</Link></li>
-                      <li><Link to="/conditions/age-and-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Texture & Pores</Link></li>
-                      <li><Link to="/conditions/pigmentation-and-skin-tone/post-inflammatory-hyperpigmentation" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Post-Inflammatory Pigmentation</Link></li>
-                      <li><Link to="/conditions/eye-area/dark-circles" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Dark Circles</Link></li>
-                      {/* Internal Wellness Links */}
+                      <li><Link to="/conditions/dehydration-dullness-skin-recovery" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Dehydration & Dullness</Link></li>
+                      <li><Link to="/conditions/menopause-hormone-skin-changes" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Menopause & Hormonal Change</Link></li>
+                      <li><Link to="/conditions/redness-sensitivity-reactive-skin" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Redness & Sensitivity</Link></li>
+                      <li><Link to="/conditions/pigmentation-and-skin-tone" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Pigmentation & Skin Tone</Link></li>
+                      <li><Link to="/conditions/eye-area" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Eye Area</Link></li>
+                      <li><Link to="/conditions/body-skin-structural" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Body Skin Structural</Link></li>
+                      <li><Link to="/conditions/acne-texture" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Acne & Texture</Link></li>
                       <li><Link to="/conditions/internal-wellness" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Internal Wellness</Link></li>
-                      <li><Link to="/conditions/internal-wellness/stress-cortisol-skin-imbalance" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Stress & Cortisol</Link></li>
-                      <li><Link to="/conditions/internal-wellness/poor-sleep-skin-ageing" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Poor Sleep & Skin Ageing</Link></li>
-                      <li><Link to="/conditions/internal-wellness/pelvic-intimate-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Pelvic & Intimate Regeneration</Link></li>
-                      <li><Link to="/conditions/internal-wellness/inflammation-driven-ageing" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Inflammation-Driven Ageing</Link></li>
-                      <li><Link to="/conditions/internal-wellness/gut-skin-imbalance" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Gut-Skin Imbalance</Link></li>
-                      <li><Link to="/conditions/internal-wellness/fatigue-low-energy-affecting-skin" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Fatigue & Low Energy</Link></li>
-                      <li><Link to="/conditions" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">All Conditions</Link></li>
                     </ul>
                   </details>
                 </li>
