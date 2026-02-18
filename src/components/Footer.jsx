@@ -82,13 +82,16 @@ export default function Footer() {
             {/* Conditions */}
             <div>
               <h3 className="font-medium font-sans text-primary mb-4">Skin Conditions</h3>
-              <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/conditions/menopause-hormone-skin-changes" className="hover:text-primary transition-colors ">Skin laxity</Link></li>
-                <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors ">Uneven tone & pigmentation</Link></li>
-                <li><Link to="/conditions/age-and-regeneration" className="hover:text-primary transition-colors ">Skin Texture</Link></li>
-                <li><Link to="/conditions/eye-area/dark-circles" className="hover:text-primary transition-colors ">Dark circles</Link></li>
-                <li><Link to="/conditions" className="hover:text-primary transition-colors ">All Conditions</Link></li>
-              </ul>
+                <ul className="space-y-3 text-base-content/80 font-sans">
+                  <li><Link to="/conditions/internal-wellness" className="hover:text-primary transition-colors ">Internal Wellness</Link></li>
+                  <li><Link to="/conditions/internal-wellness/stress-cortisol-skin-imbalance" className="hover:text-primary transition-colors ">Stress & Cortisol</Link></li>
+                  <li><Link to="/conditions/internal-wellness/poor-sleep-skin-ageing" className="hover:text-primary transition-colors ">Poor Sleep & Skin Ageing</Link></li>
+                  <li><Link to="/conditions/internal-wellness/pelvic-intimate-regeneration" className="hover:text-primary transition-colors ">Pelvic & Intimate Regeneration</Link></li>
+                  <li><Link to="/conditions/internal-wellness/inflammation-driven-ageing" className="hover:text-primary transition-colors ">Inflammation-Driven Ageing</Link></li>
+                  <li><Link to="/conditions/internal-wellness/gut-skin-imbalance" className="hover:text-primary transition-colors ">Gut-Skin Imbalance</Link></li>
+                  <li><Link to="/conditions/internal-wellness/fatigue-low-energy-affecting-skin" className="hover:text-primary transition-colors ">Fatigue & Low Energy</Link></li>
+                  <li><Link to="/conditions" className="hover:text-primary transition-colors ">All Conditions</Link></li>
+                </ul>
             </div>
 
             {/* Identity */}
