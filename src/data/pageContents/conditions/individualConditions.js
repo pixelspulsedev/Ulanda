@@ -1303,7 +1303,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, stretch marks are supported through collagen stimulation and regeneration protocols designed to improve skin texture gradually.",
       items: [
         {
@@ -1325,8 +1325,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment focused on collagen disruption and skin regeneration potential",
         "Regenerative-first approach designed for long-term texture improvement",
@@ -1842,7 +1842,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, under-eye fine lines are supported through hydration rebuilding, collagen stimulation and structured sequencing designed for fragile under-eye skin.",
       items: [
         {
@@ -1864,8 +1864,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led under-eye assessment with clinical precision",
         "Barrier-first planning to protect delicate eye-area skin",
@@ -1957,7 +1957,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, under-eye darkness is improved through a structured combination of hydration rebuilding, pigmentation control and skin architecture support.",
       items: [
         {
@@ -1979,8 +1979,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led under-eye assessment with structural and pigment mapping",
         "Barrier-first approach to protect fragile eye-area tissue",
@@ -2071,7 +2071,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, tear trough shadowing is approached through structural assessment, collagen support and safe sequencing designed specifically for the fragile under-eye area.",
       items: [
         {
@@ -2093,8 +2093,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led under-eye assessment with structural intelligence",
         "Calm, premium environment with strong clinical governance and safety standards",
@@ -2185,7 +2185,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, under-eye fragility is supported through gentle collagen stimulation, barrier strengthening and hydration rebuilding, using careful sequencing designed for safety.",
       items: [
         {
@@ -2207,8 +2207,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led under-eye assessment with clinical precision",
         "Barrier-first approach designed to protect fragile, thinning skin",
@@ -2300,7 +2300,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, under-eye puffiness is supported through fluid management, inflammation reduction and skin resilience support, using structured sequencing.",
       items: [
         {
@@ -2322,8 +2322,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led under-eye assessment with clinical precision",
         "Structured approach that separates puffiness from hollows, pigmentation and vascular darkness",
@@ -3360,7 +3360,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, pigmentation is treated through structured tone correction, skin renewal and barrier-safe sequencing to reduce rebound pigmentation risk.",
       items: [
         {
@@ -3381,8 +3381,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led pigmentation assessment and clinical decision-making",
         "Barrier-first planning to reduce inflammation-triggered pigmentation risk",
@@ -3472,7 +3472,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, melasma is treated through barrier-safe pigment correction and structured sequencing designed to reduce recurrence and avoid over-stimulation.",
       items: [
         {
@@ -3493,8 +3493,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led melasma assessment and clinical decision-making",
         "Barrier-first planning to reduce rebound pigmentation risk",
@@ -3584,7 +3584,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, post-acne pigmentation is treated through controlled skin renewal, inflammation control and structured correction to improve tone safely.",
       items: [
         {
@@ -3606,8 +3606,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment focused on acne behaviour and pigment risk",
         "Barrier-first planning to prevent over-treatment and rebound pigmentation",
@@ -3696,7 +3696,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, uneven tone is corrected through controlled skin renewal, pigment-safe treatment sequencing and barrier-aware skin planning.",
       items: [
         {
@@ -3718,8 +3718,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment with structured skin tone mapping",
         "Barrier-first planning to prevent rebound pigmentation and irritation",
@@ -3808,7 +3808,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, sun damage is corrected through structured tone correction, controlled skin renewal and long-term regenerative sequencing.",
       items: [
         {
@@ -3830,8 +3830,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment focused on pigment behaviour and skin ageing patterns",
         "Barrier-first planning to prevent rebound pigmentation and irritation",
@@ -5663,7 +5663,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, hormonal pigmentation is managed through tyrosinase inhibition (pigment suppression), safe exfoliation and vascular calming.",
       items: [
         {
@@ -5683,8 +5683,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led diagnosis of hormonal vs. sun-damage pigment",
         "Safe, heat-free strategies that avoid the risk of rebound hyperpigmentation",
@@ -5800,7 +5800,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, adult acne is treated through structured congestion control, inflammation reduction and safe skin renewal — without over-stripping or triggering rebound sensitivity.",
       items: [
         {
@@ -5821,8 +5821,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment with structured acne behaviour mapping",
         "Barrier-first decision-making to avoid acne over-treatment and irritation cycles",
@@ -5947,7 +5947,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, inflamed skin is supported through calm barrier repair, hydration rebuilding and inflammation reduction — with careful sequencing to avoid flare-ups.",
       items: [
         {
@@ -5968,8 +5968,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led consultation with structured inflammation assessment",
         "Barrier-first clinical decision-making to prevent flare-ups and skin fatigue",
@@ -6090,7 +6090,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, sensitive skin is supported through calm stabilisation, hydration rebuilding and inflammation reduction before introducing corrective treatments.",
       items: [
         {
@@ -6111,8 +6111,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led consultation with structured sensitivity assessment",
         "Barrier-first decision-making designed to prevent flare-ups and treatment fatigue",
@@ -6233,7 +6233,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, rosacea support focuses on calming inflammation, rebuilding barrier strength and improving redness patterns without triggering flare-ups.",
       items: [
         {
@@ -6254,8 +6254,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment with structured rosacea behaviour mapping",
         "Barrier-first clinical planning to reduce flare-ups and over-treatment risk",
@@ -6376,7 +6376,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
+      highlight: "",
       description: "At ULANDA, redness is supported through inflammation reduction, barrier stabilisation and treatment sequencing designed to calm skin safely without triggering flare-ups.",
       items: [
         {
@@ -6397,8 +6397,8 @@
       ]
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment focused on redness triggers and skin stability",
         "Barrier-first planning designed to reduce flare-ups and sensitivity cycles",
@@ -7251,8 +7251,8 @@
       footer: "Primary Recommended Programme Pathway: Structural Skin Regeneration Programme (Secondary: Skin Barrier Repair & Recovery if sensitivity dominates)"
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment linking inflammation biology to ageing patterns",
         "Barrier-first planning to reduce flare cycles and sensitivity-driven collagen loss",
@@ -7381,8 +7381,8 @@
       footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme (Secondary: Photoaging & Skin Architecture if acne/pigmentation dominates)"
     },
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA ",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment linking internal inflammation to skin behaviour",
         "Barrier-first planning designed to calm reactive, unstable skin",
@@ -7512,7 +7512,7 @@
     },
     treatmentModel: {
       title: "Recommended Treatments –",
-      highlight: "Please use the current website format.",
+      highlight: ".",
       description: "At ULANDA, fatigue-related skin dullness and instability is supported through hydration rebuilding, inflammation reduction and regenerative sequencing.",
       items: [
         {
@@ -7535,7 +7535,7 @@
     },
     whyChoose: {
       title: "Why Clients Choose ULANDA.",
-      highlight: "Please use the current website format",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment linking fatigue biology to skin behaviour",
         "Calm premium environment designed to restore balance and reduce overstimulation",

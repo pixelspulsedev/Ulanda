@@ -283,9 +283,9 @@ export default function ConditionDetail() {
             <div className="flex-1">
               <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">
                 {condition.whyChoose.title}{' '}
-                <span className="italic font-light text-primary">
+                {/* <span className="italic font-light text-primary">
                   {condition.whyChoose.highlight}
-                </span>
+                </span> */}
               </h2>
 
               {condition.whyChoose.description && (
