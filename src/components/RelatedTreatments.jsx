@@ -37,6 +37,8 @@ export default function RelatedTreatments({
           const displayName = isObject && item.title 
             ? item.title 
             : slug.replace(/-/g, ' ');
+          
+          const description = isObject ? item.description : null;
 
           return (
             <Link 
@@ -44,12 +46,17 @@ export default function RelatedTreatments({
               to={getTreatmentUrl(slug)}
               className="group block p-6 bg-base-100 border border-base-200 rounded-lg hover:shadow-lg transition-all duration-300 hover:border-primary/20"
             >
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mb-2">
                 <h3 className="text-xl font-sans font-medium text-primary capitalize group-hover:text-primary-focus transition-colors">
                   {displayName}
                 </h3>
-                <ChevronRight className="w-5 h-5 text-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+                <ChevronRight className="w-5 h-5 text-primary opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
               </div>
+              {description && (
+                <p className="text-sm font-sans text-base-content/70 leading-relaxed">
+                  {description}
+                </p>
+              )}
             </Link>
           );
         })}

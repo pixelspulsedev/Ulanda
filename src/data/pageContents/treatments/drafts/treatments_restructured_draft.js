@@ -48,8 +48,8 @@ const skinHealthFacialTherapies = {
   placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp",
   hidden: false,
   linkedConditions: [
-    { id: "dull-dehydrated-skin", title: "Dull skin", url: "/conditions/pigmentation-and-skin-tone/dull-dehydrated-skin" },
-    { id: "dull-dehydrated-skin", title: "Dehydration", url: "/conditions/pigmentation-and-skin-tone/dull-dehydrated-skin" },
+    { id: "dull-dehydrated-skin", title: "Dull skin", url: "/conditions/dehydration-dullness-skin-recovery/dull-dehydrated-skin" },
+    { id: "dull-dehydrated-skin", title: "Dehydration", url: "/conditions/dehydration-dullness-skin-recovery/dull-dehydrated-skin" },
     { id: "dryness-sensitivity", title: "Sensitivity", url: "/conditions/dryness-sensitivity" },
     { id: "non-responsive-skin", title: "Non-Responsive Skin & Treatment Fatigue", url: "/conditions/non-responsive-skin" }
   ],
@@ -145,7 +145,7 @@ const injectableSkinOptimisation = {
   placeholderUrl: "/assets/img/treatments/renew/Renew.webp",
   hidden: false,
   linkedConditions: [
-    { id: "dull-dehydrated-skin", title: "Dehydrated skin", url: "/conditions/pigmentation-and-skin-tone/dull-dehydrated-skin" },
+    { id: "dull-dehydrated-skin", title: "Dehydrated skin", url: "/conditions/dehydration-dullness-skin-recovery/dull-dehydrated-skin" },
     { id: "crepey-skin-general", title: "Crepey skin", url: "/conditions/crepey-skin" },
     { id: "menopause-skin-decline", title: "Menopause skin thinning", url: "/conditions/menopause-skin" },
     { id: "loss-of-elasticity", title: "Loss of elasticity", url: "/conditions/loss-of-elasticity" },

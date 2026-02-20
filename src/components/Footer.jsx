@@ -133,6 +133,11 @@ export default function Footer() {
               </a>
             </div>
 
+        {/* SEO Footer */}
+        <div className="text-center text-base-content/60 font-sans text-sm max-w-2xl mx-auto mb-8">
+          <p>ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.</p>
+        </div>
+
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-base-200 flex flex-col md:flex-row justify-between items-center text-base-content/40 text-sm font-sans">
           <p>© Ulanda, 2025</p>

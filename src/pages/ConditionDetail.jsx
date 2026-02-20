@@ -48,19 +48,18 @@ export default function ConditionDetail() {
 
   const preferredPath = getConditionUrl(conditionId);
   const canonicalUrl = `https://www.ulanda.co.uk${preferredPath}`.toLowerCase();
-  const seoDescription = condition.hero.description;
+  const seoDescription = condition.seo?.description || (Array.isArray(condition.hero.description) ? condition.hero.description.join(' ') : condition.hero.description);
+  const seoTitle = condition.seo?.title || `${condition.hero.title} ${condition.hero.highlight} Treatment | ULANDA Ware SG12`;
 
   return (
     <>
       <Head>
-        <title>
-          {condition.hero.title} {condition.hero.highlight} Treatment | ULANDA Ware SG12
-        </title>
+        <title>{seoTitle}</title>
         <meta name="description" content={seoDescription} />
         <link rel="canonical" href={canonicalUrl} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${condition.hero.title} ${condition.hero.highlight} Treatment | ULANDA`} />
-        <meta name="twitter:description" content={condition.hero.description} />
+        <meta name="twitter:title" content={seoTitle} />
+        <meta name="twitter:description" content={seoDescription} />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
@@ -82,8 +81,14 @@ export default function ConditionDetail() {
                 </HeroText>
               </h1>
 
-              <div className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed">
-                <HeroText delay={0.2}>{condition.hero.description}</HeroText>
+              <div className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed space-y-4">
+                {Array.isArray(condition.hero.description) ? (
+                  condition.hero.description.map((desc, index) => (
+                    <HeroText key={index} delay={0.2 + (index * 0.1)}>{desc}</HeroText>
+                  ))
+                ) : (
+                  <HeroText delay={0.2}>{condition.hero.description}</HeroText>
+                )}
               </div>
 
               <FadeInWhenVisible delay={0.4}>
@@ -202,6 +207,74 @@ export default function ConditionDetail() {
           subtitle="Based on your condition, we recommend the following treatments."
         />
 
+        {/* Content Sections */}
+        {condition.contentSections && condition.contentSections.map((section, index) => (
+          <section key={index} className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center gap-16">
+              <div className="flex-1">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">
+                  {section.title}{' '}
+                  {section.highlight && (
+                    <span className="italic font-light text-primary">
+                      {section.highlight}
+                    </span>
+                  )}
+                </h2>
+
+                {section.description && (
+                  <div className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed space-y-4">
+                    {Array.isArray(section.description) ? (
+                        section.description.map((desc, i) => (
+                          <p key={i}>{desc}</p>
+                        ))
+                      ) : (
+                        <p>{section.description}</p>
+                      )}
+                  </div>
+                )}
+
+                {section.items && (
+                  <ul className="space-y-4">
+                    {section.items.map((item, i) => (
+                      <li key={i} className="flex items-start gap-3 text-lg font-sans font-light text-base-content/80">
+                        <span className="text-primary font-bold mt-1">●</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                 
+                 {section.link && (
+                    <div className="mt-8">
+                      <Link to={section.link.url} className="text-primary hover:text-primary/80 transition-colors font-medium">
+                        {section.link.text}
+                      </Link>
+                    </div>
+                  )}
+              </div>
+            </div>
+          </section>
+        ))}
+
+        {/* Programme Pathway Section */}
+        {condition.programmePathway && (
+             <section className="py-12 px-4 md:px-8 max-w-4xl mx-auto text-center">
+                <h3 className="text-2xl font-serif text-base-content mb-2">{condition.programmePathway.title}:</h3>
+                {condition.programmePathway.pathwayLink ? (
+                  <Link to={condition.programmePathway.pathwayLink} className="text-xl text-primary font-medium italic mb-2 hover:underline block">{condition.programmePathway.pathway}</Link>
+                ) : (
+                  <p className="text-xl text-primary font-medium italic mb-2">{condition.programmePathway.pathway}</p>
+                )}
+                {condition.programmePathway.secondary && (
+                    condition.programmePathway.secondaryLink ? (
+                      <Link to={condition.programmePathway.secondaryLink} className="text-base text-base-content/60 hover:underline block">{condition.programmePathway.secondary}</Link>
+                    ) : (
+                      <p className="text-base text-base-content/60">{condition.programmePathway.secondary}</p>
+                    )
+                )}
+             </section>
+        )}
+
         {/* Why Choose Section */}
         {condition.whyChoose && (
         <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto overflow-hidden">
@@ -215,6 +288,12 @@ export default function ConditionDetail() {
                 </span>
               </h2>
 
+              {condition.whyChoose.description && (
+                <div className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed space-y-4">
+                  {condition.whyChoose.description}
+                </div>
+              )}
+
               <ul className="space-y-4">
                 {condition.whyChoose.items.map((item, index) => (
                   <li
@@ -226,10 +305,66 @@ export default function ConditionDetail() {
                   </li>
                 ))}
               </ul>
+              {condition.whyChoose.link && (
+                    <div className="mt-8">
+                      <Link to={condition.whyChoose.link.url} className="text-primary hover:text-primary/80 transition-colors font-medium">
+                        {condition.whyChoose.link.text}
+                      </Link>
+                    </div>
+                  )}
             </div>
           </div>
         </section>
         )}
+
+        {/* Content Sections 2 */}
+        {condition.contentSections2 && condition.contentSections2.map((section, index) => (
+          <section key={`cs2-${index}`} className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center gap-16">
+              <div className="flex-1">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">
+                  {section.title}{' '}
+                  {section.highlight && (
+                    <span className="italic font-light text-primary">
+                      {section.highlight}
+                    </span>
+                  )}
+                </h2>
+
+                {section.description && (
+                  <div className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed space-y-4">
+                    {Array.isArray(section.description) ? (
+                        section.description.map((desc, i) => (
+                          <p key={i}>{desc}</p>
+                        ))
+                      ) : (
+                        <p>{section.description}</p>
+                      )}
+                  </div>
+                )}
+
+                {section.items && (
+                  <ul className="space-y-4">
+                    {section.items.map((item, i) => (
+                      <li key={i} className="flex items-start gap-3 text-lg font-sans font-light text-base-content/80">
+                        <span className="text-primary font-bold mt-1">●</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                 
+                 {section.link && (
+                    <div className="mt-8">
+                      <Link to={section.link.url} className="text-primary hover:text-primary/80 transition-colors font-medium">
+                        {section.link.text}
+                      </Link>
+                    </div>
+                  )}
+              </div>
+            </div>
+          </section>
+        ))}
 
         {/* FAQs Section */}
         {((condition.faq && condition.faq.items && condition.faq.items.length > 0) || (condition.faqs && condition.faqs.length > 0)) && (
@@ -253,6 +388,11 @@ export default function ConditionDetail() {
             {condition.faq?.footer && (
               <p className="mt-8 text-center text-base-content/80 font-sans max-w-2xl mx-auto">
                 {condition.faq.footer}
+              </p>
+            )}
+            {condition.seoFooter && (
+              <p className="mt-8 text-center text-base-content/60 font-sans text-sm max-w-2xl mx-auto italic">
+                {condition.seoFooter}
               </p>
             )}
           </section>

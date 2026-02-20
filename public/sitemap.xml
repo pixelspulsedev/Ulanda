@@ -317,7 +317,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/pigmentation-and-skin-tone/dull-dehydrated-skin</loc>
+    <loc>https://www.ulanda.co.uk/conditions/dehydration-dullness-skin-recovery/dull-dehydrated-skin</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -427,11 +427,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/sun-damage-photo-pigmentation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/conditions/internal-wellness/fatigue-low-energy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -458,41 +453,6 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/acne-scarring</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/non-responsive-skin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/body-skin-structural/pelvic-intimate-regeneration</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/skin-recovery-repair</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/dull-skin-loss-of-glow</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/dry-skin-chronic-dryness</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/dehydrated-skin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/compromised-skin-barrier</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -558,6 +518,11 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/conditions/poor-sleep-skin-ageing</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/conditions/body-skin-structural/pelvic-intimate-regeneration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

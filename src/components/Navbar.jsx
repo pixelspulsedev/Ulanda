@@ -24,11 +24,17 @@ export default function Navbar() {
     
     // Add master conditions
     conditions.forEach(condition => {
+      // Handle description being either string or array (for search)
+      let description = condition.hero.description || '';
+      if (Array.isArray(description)) {
+        description = description.join(' ');
+      }
+
       allConditions.push({
         ...condition,
         type: 'condition',
         title: `${condition.hero.title} ${condition.hero.highlight || ''}`.trim(),
-        description: condition.hero.description?.[0] || '',
+        description: description,
         image: condition.hero.image,
         placeholderUrl: condition.hero.placeholderUrl,
         url: `/conditions/${condition.id}`
@@ -37,11 +43,17 @@ export default function Navbar() {
     
     // Add individual conditions
     individualConditions.forEach(condition => {
+      // Handle description being either string or array (for search)
+      let description = condition.hero.description || '';
+      if (Array.isArray(description)) {
+        description = description.join(' ');
+      }
+
       allConditions.push({
         ...condition,
         type: 'condition',
         title: `${condition.hero.title} ${condition.hero.highlight || ''}`.trim(),
-        description: condition.hero.description || '',
+        description: description,
         image: condition.hero.image,
         placeholderUrl: condition.hero.placeholderUrl,
         url: getConditionUrl(condition.id)
@@ -67,10 +79,15 @@ export default function Navbar() {
       Object.entries(category.treatments || {}).forEach(([treatmentKey, treatment]) => {
         if (!treatment) return;
         
+        let description = treatment.description || '';
+        if (Array.isArray(description)) {
+          description = description.join(' ');
+        }
+        
         const matchesSearch = 
           treatment.title?.toLowerCase().includes(query) ||
           treatment.subtitle?.toLowerCase().includes(query) ||
-          treatment.description?.toLowerCase().includes(query) ||
+          description.toLowerCase().includes(query) ||
           category.title?.toLowerCase().includes(query);
 
         if (matchesSearch) {

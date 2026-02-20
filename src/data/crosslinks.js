@@ -767,7 +767,16 @@ export const getConditionUrl = (slug) => {
     "melasma": "pigmentation-and-skin-tone",
     "post-inflammatory-hyperpigmentation": "pigmentation-and-skin-tone",
     "uneven-skin-tone": "pigmentation-and-skin-tone",
-    "dull-dehydrated-skin": "pigmentation-and-skin-tone",
+    "sun-damage-photo-pigmentation": "pigmentation-and-skin-tone",
+
+    // 1a) Dehydration, Dullness & Skin Recovery
+    "dull-dehydrated-skin": "dehydration-dullness-skin-recovery",
+    "skin-recovery-repair": "dehydration-dullness-skin-recovery",
+    "non-responsive-skin": "dehydration-dullness-skin-recovery",
+    "dull-skin-loss-of-glow": "dehydration-dullness-skin-recovery",
+    "dry-skin-chronic-dryness": "dehydration-dullness-skin-recovery",
+    "dehydrated-skin": "dehydration-dullness-skin-recovery",
+    "compromised-skin-barrier": "dehydration-dullness-skin-recovery",
 
     // 2) Menopause & Hormone-Linked Skin Changes
     "menopause-skin-decline": "menopause-hormone-skin-changes",
@@ -790,7 +799,6 @@ export const getConditionUrl = (slug) => {
     "enlarged-pores": "age-and-regeneration",
     "fine-lines-wrinkles": "age-and-regeneration",
     "acne-scarring": "age-and-regeneration",
-    "non-responsive-skin": "age-and-regeneration",
 
     // 5) Hormonal Skin Conditions
     "hormonal-breakouts": "hormonal-skin",

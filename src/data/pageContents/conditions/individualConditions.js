@@ -895,73 +895,97 @@
     id: 'body-skin-laxity',
     seo: {
       title: "Body Skin Tightening Ware SG12 | Arm & Thigh Lift | ULANDA",
-      description: "Tighten loose body skin on stomach, arms & thighs. RF microneedling, PN & biostimulators for firmer body contours."
+      description: "Tighten loose body skin on stomach, arms & thighs. RF microneedling, PN & biostimulators for firmer body contours.",
+      keywords: "Body skin tightening, loose skin treatment Ware, skin laxity Hertfordshire, crepey skin treatment, collagen stimulation body"
     },
     hero: {
-      title: "Regenerative Treatments for",
-      highlight: "Body Skin Laxity / Loose Skin",
-      description: "Body skin laxity refers to the gradual loosening of skin firmness and elasticity, often seen across the abdomen, arms, thighs, knees, neck or décolletage. Many clients describe this as “crepey skin,” sagging, or skin that no longer feels tight and supported — even when they are fit and healthy.\\n\\nAt ULANDA, body laxity is treated as a structural skin health concern, not a surface texture issue. Loose skin reflects changes in collagen, elastin, hydration retention and skin thickness over time. Your Skin Health Consultation helps us assess the cause of laxity, whether it is linked to weight changes, pregnancy, menopause, ageing, sun damage or reduced collagen production — so your plan is safe, sequenced and designed for long-term tightening and regeneration.",
+      title: "Body Skin Laxity /",
+      highlight: "Loose Skin",
+      description: "Body skin laxity refers to the gradual loosening of skin firmness and elasticity, often seen across the abdomen, arms, thighs, knees, neck or décolletage. Many clients describe this as “crepey skin,” sagging, or skin that no longer feels tight and supported — even when they are fit and healthy.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww"
     },
-    science_removed: {
-      title: "Common Triggers & Drivers -",
-      highlight: "Why Body Skin Becomes Loose",
-      description: "Body laxity stems from deep changes, not surface dryness:",
-      items: [
-        { number: '01', title: 'Collagen and elastin decline with age', description: 'Skin loses its snap and structural support.' },
-        { number: '02', title: 'Rapid weight loss or weight fluctuation', description: 'Skin cannot retract fast enough.' },
-        { number: '03', title: 'Pregnancy and postpartum skin stretching', description: 'Dermal micro-tears and loss of elasticity.' },
-        { number: '04', title: 'Menopause-related collagen decline', description: 'Estrogen loss leads to thinner, crepier skin.' },
-        { number: '05', title: 'Sun damage affecting body skin quality', description: 'Long-term UV damage breaks down dermal strength.' }
-      ],
-      footer: "Creams, gym or home devices cannot rebuild dermal collagen; regeneration can."
+    intro: {
+      title: "Loss of Firmness & Elasticity",
+      text: "Many clients describe this as “crepey skin,” sagging, or skin that no longer feels tight and supported — even when they are fit and healthy.",
+      consultationText: "At ULANDA, body laxity is treated as a structural skin health concern, not a surface texture issue. Loose skin reflects changes in collagen, elastin, hydration retention and skin thickness over time. Your Skin Health Consultation helps us assess the cause of laxity, whether it is linked to weight changes, pregnancy, menopause, ageing, sun damage or reduced collagen production — so your plan is safe, sequenced and designed for long-term tightening and regeneration."
     },
-    treatmentModel: {
-      title: "How ULANDA Treats Body Skin Laxity -",
-      highlight: "The Regenerative Model",
+    science: {
+      title: "Scientific Drivers",
       items: [
         {
-          title: "Renew",
-          subtitle: "(Cellular Skin Quality)",
-          description: "Strengthen building blocks first:",
-          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Microneedling / Collagen Induction Therapy (Body Protocols)", desc: "Improves firmness, texture and skin density." },
-            { name: "Medical-Grade Body Skincare Planning", desc: "Supports collagen behaviour and long-term skin resilience." },
-            { name: "Skin Regeneration & Collagen Support Treatments", desc: "Structured programme-based tightening support." }
-          ]
+          number: "01",
+          title: "Collagen and elastin decline with age",
+          description: "Skin loses its snap and structural support as these proteins degrade."
         },
         {
-          title: "Restore",
-          subtitle: "(Structural Tightening)",
-          description: "Addresses core structural causes:",
-          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Radiofrequency Skin Tightening Therapy", desc: "Supports tightening and elasticity improvement (where appropriate)." },
-            { name: "Structural Regeneration Programme Sequencing", desc: "Long-term tightening plan aligned to your body skin behaviour." },
-            { name: "Chemical Peel Therapy (Body-Suitable Protocols)", desc: "Improves crepey texture and uneven tone where appropriate." }
-          ]
+          number: "02",
+          title: "Rapid weight loss or weight fluctuation",
+          description: "Skin cannot retract fast enough to match the volume loss."
         },
         {
-          title: "Radiate Wellness",
-          subtitle: "(Recovery Support)",
-          description: "Internal support accelerates firmness:",
-          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "LED Light Therapy", desc: "Supports recovery, inflammation reduction and tissue repair." }
-          ]
+          number: "03",
+          title: "Pregnancy and postpartum skin stretching",
+          description: "Dermal micro-tears and loss of elasticity from stretching."
+        },
+        {
+          number: "04",
+          title: "Menopause-related collagen decline and skin thinning",
+          description: "Estrogen loss leads to thinner, crepier skin and reduced firmness."
+        },
+        {
+          number: "05",
+          title: "Sun damage affecting body skin quality and elasticity",
+          description: "Long-term UV damage breaks down dermal strength and elasticity."
         }
       ]
     },
+    relatedTreatments: [
+      { 
+        id: 'structural-regeneration', 
+        title: 'Structural Skin Regeneration Programme',
+        description: 'Primary Recommended Programme Pathway' 
+      },
+      {
+        id: 'microneedling',
+        title: 'Microneedling / Collagen Induction Therapy (Body Protocols)',
+        description: 'Improves firmness, texture and skin density.'
+      },
+      {
+        id: 'radiofrequency',
+        title: 'Radiofrequency Skin Tightening Therapy',
+        description: 'Supports tightening and elasticity improvement (where available/appropriate).'
+      },
+      {
+        id: 'skin-regeneration',
+        title: 'Skin Regeneration & Collagen Support Treatments',
+        description: 'Structured programme-based tightening support.'
+      },
+      {
+        id: 'led-light-therapy',
+        title: 'LED Light Therapy',
+        description: 'Supports recovery, inflammation reduction and tissue repair.'
+      },
+      {
+        id: 'chemical-peels',
+        title: 'Chemical Peel Therapy (Body-Suitable Protocols)',
+        description: 'Improves crepey texture and uneven tone where appropriate.'
+      },
+      {
+        id: 'medical-grade-skincare',
+        title: 'Medical-Grade Body Skincare Planning',
+        description: 'Supports collagen behaviour and long-term skin resilience.'
+      },
+      {
+        id: 'structural-sequencing',
+        title: 'Structural Regeneration Programme Sequencing',
+        description: 'Long-term tightening plan aligned to your body skin behaviour.'
+      }
+    ],
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA",
       items: [
         "Advanced Nurse Practitioner-led assessment focused on body skin structure and collagen behaviour",
         "Regenerative-first approach designed for natural tightening and long-term firmness",
@@ -973,30 +997,60 @@
       image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    faq: {
-      title: "Frequently Asked Questions",
-      items: [
-        { question: "What causes loose skin and body laxity?", answer: "Body skin laxity is usually caused by collagen and elastin decline, skin thinning, hormonal changes, weight fluctuation, pregnancy and ageing. Over time, the skin loses its ability to “snap back” and maintain firm structure." },
-        { question: "Can body skin laxity be improved without surgery?", answer: "Yes. Many clients improve firmness through collagen stimulation treatments, tightening protocols and structured regeneration programmes. Results depend on severity, skin quality and consistency of treatment sequencing." },
-        { question: "How long does it take to tighten loose skin?", answer: "Most clients begin to notice improvements within 8–12 weeks, with progressive tightening over several months. Collagen regeneration is gradual, which is why programme-led treatment is the most effective approach." },
-        { question: "Does menopause make body skin laxity worse?", answer: "Yes. Menopause accelerates collagen decline and reduces skin thickness, making laxity more noticeable. Many women see changes around the arms, abdomen, thighs and neck during perimenopause and menopause." },
-        { question: "Can weight loss cause loose skin even if I lose weight slowly?", answer: "Yes. Weight loss can reduce volume under the skin, and if collagen support is low, the skin may not tighten fully. Structured regeneration can improve firmness and texture, especially when started early." },
-        { question: "Is crepey skin the same as skin laxity?", answer: "Crepey skin often overlaps with laxity but also includes dehydration, thinning skin and surface texture changes. Many clients experience both, which is why ULANDA assesses structure and skin quality together." },
-        { question: "Which areas respond best to tightening treatments?", answer: "Many clients see improvement in the arms, abdomen, thighs, knees and décolletage. Results depend on skin thickness, age, hormonal influence and treatment consistency." },
-        { question: "Can body skin laxity be linked to cellulite changes?", answer: "Yes. Laxity can worsen the appearance of cellulite because the skin loses structural support. Many clients benefit from a combined tightening and texture improvement plan." },
-        { question: "Can loose body skin be linked to stretch marks?", answer: "Yes. Stretch marks often occur alongside laxity, especially after pregnancy or weight changes. While stretch marks and laxity are different conditions, collagen stimulation treatments may support both over time." },
-        { question: "Can body skin laxity overlap with skin thinning and fragility?", answer: "Yes. Skin thinning reduces elasticity and makes laxity more noticeable. This is why ULANDA focuses on improving collagen density and long-term structural resilience rather than only surface tightening." },
-        { question: "Where can I get Body Skin Laxity / Loose Skin treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
-      ],
-      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
-    },
+    faqs: [
+      {
+        question: "What causes loose skin and body laxity?",
+        answer: "Body skin laxity is usually caused by collagen and elastin decline, skin thinning, hormonal changes, weight fluctuation, pregnancy and ageing. Over time, the skin loses its ability to “snap back” and maintain firm structure."
+      },
+      {
+        question: "Can body skin laxity be improved without surgery?",
+        answer: "Yes. Many clients improve firmness through collagen stimulation treatments, tightening protocols and structured regeneration programmes. Results depend on severity, skin quality and consistency of treatment sequencing."
+      },
+      {
+        question: "How long does it take to tighten loose skin?",
+        answer: "Most clients begin to notice improvements within 8–12 weeks, with progressive tightening over several months. Collagen regeneration is gradual, which is why programme-led treatment is the most effective approach."
+      },
+      {
+        question: "Does menopause make body skin laxity worse?",
+        answer: "Yes. Menopause accelerates collagen decline and reduces skin thickness, making laxity more noticeable. Many women see changes around the arms, abdomen, thighs and neck during perimenopause and menopause."
+      },
+      {
+        question: "Can weight loss cause loose skin even if I lose weight slowly?",
+        answer: "Yes. Weight loss can reduce volume under the skin, and if collagen support is low, the skin may not tighten fully. Structured regeneration can improve firmness and texture, especially when started early."
+      },
+      {
+        question: "Is crepey skin the same as skin laxity?",
+        answer: "Crepey skin often overlaps with laxity but also includes dehydration, thinning skin and surface texture changes. Many clients experience both, which is why ULANDA assesses structure and skin quality together."
+      },
+      {
+        question: "Which areas respond best to tightening treatments?",
+        answer: "Many clients see improvement in the arms, abdomen, thighs, knees and décolletage. Results depend on skin thickness, age, hormonal influence and treatment consistency."
+      },
+      {
+        question: "Can body skin laxity be linked to cellulite changes?",
+        answer: "Yes. Laxity can worsen the appearance of cellulite because the skin loses structural support. Many clients benefit from a combined tightening and texture improvement plan."
+      },
+      {
+        question: "Can loose body skin be linked to stretch marks?",
+        answer: "Yes. Stretch marks often occur alongside laxity, especially after pregnancy or weight changes. While stretch marks and laxity are different conditions, collagen stimulation treatments may support both over time."
+      },
+      {
+        question: "Can body skin laxity overlap with skin thinning and fragility?",
+        answer: "Yes. Skin thinning reduces elasticity and makes laxity more noticeable. This is why ULANDA focuses on improving collagen density and long-term structural resilience rather than only surface tightening."
+      },
+      {
+        question: "Where can I get Body Skin Laxity / Loose Skin treatment near me in Ware, Hertfordshire?",
+        answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
+      }
+    ],
     cta: {
       title: "Ready for",
       highlight: "firmer",
       titleSuffix: "body skin?",
       description: "Book your ULANDA Body Regeneration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
@@ -1204,74 +1258,75 @@
   {
     id: 'stretch-marks',
     seo: {
-      title: "Stretch Mark Removal Ware SG12 | Mark Repair | ULANDA",
-      description: "Fade stretch marks on stomach, hips & breasts. Microneedling & RF treatments to repair texture and blend colour."
+      title: "Stretch Marks (Striae) Treatment Ware | ULANDA",
+      description: "Improve stretch marks and skin texture. Collagen induction, regenerative sequencing & skin resilience support in Ware, Hertfordshire."
     },
     hero: {
-      title: "Regenerative Treatments for",
-      highlight: "Stretch Marks (Striae)",
-      description: "Stretch marks, also known as striae, occur when the skin stretches faster than the underlying collagen and elastin fibres can adapt. This creates fine linear marks that may appear red, purple, pink or silvery-white depending on their stage and how long they have been present. Stretch marks commonly affect the abdomen, hips, thighs, breasts, buttocks and arms.\\n\\nAt ULANDA, stretch marks are treated as a structural skin behaviour concern. They are not simply “surface marks” — they reflect collagen disruption within the dermis. Your Skin Health Consultation helps us assess the stage of your stretch marks, skin thickness, healing capacity and regeneration potential, so your plan is safe, sequenced and designed to improve skin texture, firmness and long-term resilience.",
-      buttonText: "Book Consultation",
+      title: "Stretch Marks",
+      highlight: "(Striae)",
+      subtitle: "Stretch Marks / Striae Distensae",
+      description: "Stretch marks, also known as striae, occur when the skin stretches faster than the underlying collagen and elastin fibres can adapt. This creates fine linear marks that may appear red, purple, pink or silvery-white depending on their stage and how long they have been present. Stretch marks commonly affect the abdomen, hips, thighs, breasts, buttocks and arms.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
-      placeholderUrl: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D"
+      image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D"
     },
-    science_removed: {
-      title: "Common Triggers & Drivers -",
-      highlight: "Why Stretch Marks Form",
-      description: "Dermal tearing happens when stretch exceeds collagen strength:",
-      items: [
-        { number: '01', title: 'Pregnancy and postpartum body changes', description: 'Rapid expansion weakens the dermis.' },
-        { number: '02', title: 'Weight gain, weight loss or rapid body fluctuation', description: 'Elasticity cannot keep up with volume change.' },
-        { number: '03', title: 'Puberty-related growth changes', description: 'Growth spurts outpace skin production.' },
-        { number: '04', title: 'Menopause-related collagen decline', description: 'Thinner skin tears more easily.' },
-        { number: '05', title: 'Genetics and reduced skin elasticity', description: 'Predisposition to lower collagen density.' }
-      ],
-      footer: "Creams stay in the epidermis; stretch marks are deep in the dermis and need regeneration."
+    intro: {
+      content: "At ULANDA, stretch marks are treated as a structural skin behaviour concern. They are not simply “surface marks” — they reflect collagen disruption within the dermis. Your Skin Health Consultation helps us assess the stage of your stretch marks, skin thickness, healing capacity and regeneration potential, so your plan is safe, sequenced and designed to improve skin texture, firmness and long-term resilience."
     },
-    treatmentModel: {
-      title: "How ULANDA Treats Stretch Marks -",
-      highlight: "The Regenerative Model",
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Renew",
-          subtitle: "(Collagen Stimulation)",
-          description: "Stimulates collagen rebuilding:",
+          title: "Body Changes",
+          description: "pregnancy and postpartum body changes"
+        },
+        {
+          title: "Rapid Fluctuation",
+          description: "weight gain, weight loss or rapid body fluctuation"
+        },
+        {
+          title: "Growth Patterns",
+          description: "puberty-related growth changes"
+        },
+        {
+          title: "Collagen Decline",
+          description: "menopause-related collagen decline and skin thinning"
+        },
+        {
+          title: "Reduced Elasticity",
+          description: "genetics and reduced skin resilience"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Structural Skin Regeneration Programme"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, stretch marks are supported through collagen stimulation and regeneration protocols designed to improve skin texture gradually.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Regenerate & Smooth)",
+          description: "Targeted treatments for stretch marks:",
           image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
           placeholderUrl: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
           points: [
-            { name: "Microneedling / Collagen Induction Therapy (Body Protocols)", desc: "Improves texture and supports collagen rebuilding." },
-            { name: "Skin Regeneration Treatments", desc: "Structured programmes designed to strengthen dermal support." }
-          ]
-        },
-        {
-          title: "Restore",
-          subtitle: "(Healing & Recovery)",
-          description: "Supports tissue recovery:",
-          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "LED Light Therapy", desc: "Supports healing and tissue recovery post-treatment." },
-            { name: "Hydration & Barrier Support Therapy", desc: "Supports elasticity and reduces fragility risk." }
-          ]
-        },
-        {
-          title: "Refine",
-          subtitle: "(Surface Texture)",
-          description: "Improves tone and smoothness:",
-          image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Chemical Peel Therapy (Body-Suitable Protocols)", desc: "Improves tone and surface smoothness where appropriate." },
-            { name: "Medical-Grade Body Skincare Planning", desc: "Supports skin repair and collagen behaviour." },
-            { name: "Structural Regeneration Programme Sequencing", desc: "Long-term plan for skin quality improvement." }
+             { name: "Microneedling / Collagen Induction Therapy (Body Protocols)", desc: "improves texture and supports collagen rebuilding" },
+             { name: "Skin Regeneration Treatments", desc: "structured programmes designed to strengthen dermal support" },
+             { name: "LED Light Therapy", desc: "supports healing and tissue recovery post-treatment" },
+             { name: "Chemical Peel Therapy (Body-Suitable Protocols)", desc: "improves tone and surface smoothness where appropriate" },
+             { name: "Medical-Grade Body Skincare Planning", desc: "supports skin repair and collagen behaviour" },
+             { name: "Structural Regeneration Programme Sequencing", desc: "long-term plan for skin quality improvement" },
+             { name: "Hydration & Barrier Support Therapy", desc: "supports elasticity and reduces fragility risk" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
         "Advanced Nurse Practitioner-led assessment focused on collagen disruption and skin regeneration potential",
         "Regenerative-first approach designed for long-term texture improvement",
@@ -1283,211 +1338,284 @@
       image: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    faq: {
-      title: "Frequently Asked Questions",
-      items: [
-        { question: "What causes stretch marks (striae)?", answer: "Stretch marks occur when the skin stretches rapidly and collagen fibres within the dermis tear. This can happen during pregnancy, puberty, rapid weight change, muscle gain or hormonal shifts that affect skin elasticity." },
-        { question: "Can stretch marks be improved without surgery?", answer: "Yes. Stretch marks can improve significantly through collagen stimulation treatments such as microneedling and structured regeneration programmes. While they may not disappear completely, they often become smoother, lighter and less visible." },
-        { question: "How long does it take to improve stretch marks?", answer: "Stretch mark improvement typically occurs over several months. Most clients begin to see visible changes after 8–12 weeks, with continued improvement as collagen regeneration develops." },
-        { question: "Are new stretch marks easier to treat than older ones?", answer: "Yes. Red or purple stretch marks are often more responsive because they are newer and have more active healing potential. Older white stretch marks can still improve, but usually require longer sequencing and multiple treatment phases." },
-        { question: "Can stretch marks appear even if I’m not overweight?", answer: "Yes. Stretch marks are not always linked to weight. They can occur due to pregnancy, hormonal change, genetics, puberty or rapid muscle growth, even in clients with a healthy body weight." },
-        { question: "Does menopause make stretch marks or skin texture worse?", answer: "Menopause can reduce collagen production and skin thickness, which may make existing stretch marks more visible and slow skin repair. Regenerative support can improve skin resilience during this stage." },
-        { question: "Is microneedling effective for stretch marks?", answer: "Yes. Microneedling is one of the most effective non-surgical options for improving stretch marks because it stimulates collagen rebuilding and improves skin texture gradually. Treatment must be structured and sequenced for best results." },
-        { question: "Can stretch marks occur alongside loose skin or body laxity?", answer: "Yes. Stretch marks often appear alongside laxity, especially after pregnancy or weight change. Many clients benefit from a combined approach that improves texture and supports skin tightening." },
-        { question: "Can stretch marks overlap with crepey skin texture?", answer: "Yes. Crepey texture often reflects dehydration and collagen thinning, which can make stretch marks appear more visible. Strengthening skin structure improves overall body skin quality." },
-        { question: "Can stretch marks be linked to cellulite changes?", answer: "They can. While cellulite and stretch marks are different conditions, they often coexist in areas where skin structure has been stretched and collagen support is reduced. Structural regeneration treatments may support overall skin firmness and texture." },
-        { question: "Where can I get Stretch Marks (Striae) treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
-      ],
-      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
-    },
+    relatedTreatments: [
+      "microneedling",
+      "led-light-therapy",
+      "chemical-peels",
+      "medical-grade-skincare",
+      "body-regeneration"
+    ],
+    faqs: [
+      { question: "What causes stretch marks (striae)?", answer: "Stretch marks occur when the skin stretches rapidly and collagen fibres within the dermis tear. This can happen during pregnancy, puberty, rapid weight change, muscle gain or hormonal shifts that affect skin elasticity." },
+      { question: "Can stretch marks be improved without surgery?", answer: "Yes. Stretch marks can improve significantly through collagen stimulation treatments such as microneedling and structured regeneration programmes. While they may not disappear completely, they often become smoother, lighter and less visible." },
+      { question: "How long does it take to improve stretch marks?", answer: "Stretch mark improvement typically occurs over several months. Most clients begin to see visible changes after 8–12 weeks, with continued improvement as collagen regeneration develops." },
+      { question: "Are new stretch marks easier to treat than older ones?", answer: "Yes. Red or purple stretch marks are often more responsive because they are newer and have more active healing potential. Older white stretch marks can still improve, but usually require longer sequencing and multiple treatment phases." },
+      { question: "Can stretch marks appear even if I’m not overweight?", answer: "Yes. Stretch marks are not always linked to weight. They can occur due to pregnancy, hormonal change, genetics, puberty or rapid muscle growth, even in clients with a healthy body weight." },
+      { question: "Does menopause make stretch marks or skin texture worse?", answer: "Menopause can reduce collagen production and skin thickness, which may make existing stretch marks more visible and slow skin repair. Regenerative support can improve skin resilience during this stage." },
+      { question: "Is microneedling effective for stretch marks?", answer: "Yes. Microneedling is one of the most effective non-surgical options for improving stretch marks because it stimulates collagen rebuilding and improves skin texture gradually. Treatment must be structured and sequenced for best results." },
+      { question: "Can stretch marks occur alongside loose skin or body laxity?", answer: "Yes. Stretch marks often appear alongside laxity, especially after pregnancy or weight change. Many clients benefit from a combined approach that improves texture and supports skin tightening." },
+      { question: "Can stretch marks overlap with crepey skin texture?", answer: "Yes. Crepey texture often reflects dehydration and collagen thinning, which can make stretch marks appear more visible. Strengthening skin structure improves overall body skin quality." },
+      { question: "Can stretch marks be linked to cellulite changes?", answer: "They can. While cellulite and stretch marks are different conditions, they often coexist in areas where skin structure has been stretched and collagen support is reduced. Structural regeneration treatments may support overall skin firmness and texture." },
+      { question: "Where can I get Stretch Marks (Striae) treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
+    ],
     cta: {
-      title: "Ready to",
-      highlight: "renew",
-      titleSuffix: "stretch-marked skin?",
-      description: "Restore skin confidence through true regeneration.",
+      title: "Renew",
+      highlight: "stretch-marked skin",
+      titleSuffix: "safely.",
+      description: "Book your body skin health consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
     id: 'keratosis-pilaris',
     seo: {
-      title: "Keratosis Pilaris Treatment Ware SG12 | Chicken Skin | ULANDA",
-      description: "Smooth keratosis pilaris and rough skin. Gentle enzyme therapy and hydration treatments."
+      title: "Keratosis Pilaris Treatment Hertfordshire | Rough Skin & Bumps | ULANDA",
+      description: "Treat Keratosis Pilaris (Chicken Skin) in Ware, Hertfordshire. Advanced nurse-led care for rough bumps, dry skin, and texture. Book your consultation.",
+      keywords: "Keratosis Pilaris treatment Hertfordshire, chicken skin treatment Ware, rough skin bumps treatment, KP treatment, exfoliating treatments for KP"
     },
     hero: {
-      title: "Regenerative Treatments for",
-      highlight: "Keratosis Pilaris",
-      description: "Keratosis Pilaris (KP), often called “chicken skin,” is a common skin condition that causes small rough bumps and uneven texture, most frequently on the upper arms, thighs, buttocks and sometimes the cheeks. Many clients describe it as persistent dryness, rough patches, or tiny bumps that never fully clear — even with regular exfoliation.\\n\\nAt ULANDA, keratosis pilaris is treated as a texture and barrier behaviour concern. KP occurs when keratin builds up and blocks hair follicles, creating raised bumps and roughness. It can also be worsened by dryness, sensitivity and inflammation, meaning harsh scrubs and aggressive treatments often make it worse. Your Skin Health Consultation helps us assess your KP pattern, inflammation risk and barrier stability so your plan is safe, sequenced and designed for long-term smoothness.",
-      buttonText: "Book Consultation",
-      buttonLink: "https://ulanda-100633.square.site/",
+      title: "Keratosis Pilaris",
+      subtitle: "Smoothing Treatment & Barrier Restoration for 'Chicken Skin' and Rough Texture.",
+      description: "Keratosis Pilaris (KP), often called “chicken skin,” is a common skin condition that causes small rough bumps and uneven texture, most frequently on the upper arms, thighs, buttocks and sometimes the cheeks.",
       image: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D"
+      buttonText: "Book Consultation",
+      buttonLink: "https://ulanda-100633.square.site/"
     },
-    science_removed: {
-      title: "Common Triggers & Drivers -",
-      highlight: "Why Keratosis Pilaris Happens",
-      description: "KP is driven by keratin build-up and barrier issues:",
-      items: [
-        { number: '01', title: 'Keratin build-up blocking hair follicles', description: 'Creates the characteristic rough bumps.' },
-        { number: '02', title: 'Genetically dry skin behaviour', description: 'Reduced natural exfoliation turnover.' },
-        { number: '03', title: 'Dehydration and barrier weakness', description: 'Increases roughness and texture visibility.' },
-        { number: '04', title: 'Inflammation and irritation', description: 'Often from harsh exfoliation.' },
-        { number: '05', title: 'Seasonal flare-ups', description: 'Often worsens in winter due to low humidity.' }
-      ],
-      footer: "Scrubbing often makes it worse; controlled renewal makes it better."
+    intro: {
+      title: "Persistent Dryness & Rough Texture",
+      text: "Many clients describe it as persistent dryness, rough patches, or tiny bumps that never fully clear — even with regular exfoliation.",
+      consultationText: "At ULANDA, keratosis pilaris is treated as a texture and barrier behaviour concern. KP occurs when keratin builds up and blocks hair follicles, creating raised bumps and roughness. It can also be worsened by dryness, sensitivity and inflammation, meaning harsh scrubs and aggressive treatments often make it worse. Your Skin Health Consultation helps us assess your KP pattern, inflammation risk and barrier stability so your plan is safe, sequenced and designed for long-term smoothness."
     },
-    treatmentModel: {
-      title: "How ULANDA Treats Keratosis Pilaris -",
-      highlight: "The Regenerative Model",
+    science: {
+      title: "Scientific Drivers",
       items: [
         {
-          title: "Renew",
-          subtitle: "(Surface Renewal)",
-          description: "Controlled exfoliation and clearing:",
-          image: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "Chemical Peel Therapy (Body-Suitable Protocols)", desc: "Supports follicle clearing and texture smoothing." },
-            { name: "Enzyme Renewal Therapy (Body Adaptation)", desc: "Gentle exfoliation without over-irritation." }
-          ]
+          number: "01",
+          title: "Keratin build-up blocking hair follicles",
+          description: "KP occurs when excess keratin clogs the hair follicles, leading to the formation of small, hard bumps on the skin surface."
         },
         {
-          title: "Restore",
-          subtitle: "(Hydration & Barrier)",
-          description: "Rebuilds essential moisture:",
-          image: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "Advanced Cleansing & Hydration Therapy (Targeted Body Protocols)", desc: "Improves clarity and hydration balance." },
-            { name: "Medical-Grade Body Skincare Planning", desc: "Supports long-term follicle clarity and hydration retention." },
-            { name: "Barrier Support & Recovery Planning", desc: "Essential for KP that is inflamed, red or reactive." }
-          ]
+          number: "02",
+          title: "Genetically dry skin behaviour",
+          description: "A genetic predisposition to dry skin behaviour results in reduced natural exfoliation turnover, exacerbating the texture issues."
         },
         {
-          title: "Radiate Wellness",
-          subtitle: "(Recovery)",
-          description: "Reduces inflammation:",
-          image: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "LED Light Therapy", desc: "Supports inflammation reduction and recovery." },
-            { name: "Microneedling / Collagen Induction Therapy", desc: "Improves texture and skin quality in stubborn areas (where appropriate)." }
-          ]
+          number: "03",
+          title: "Dehydration and barrier weakness",
+          description: "When the skin barrier is compromised and lacks hydration, roughness increases and the bumps become more visible and persistent."
+        },
+        {
+          number: "04",
+          title: "Inflammation and irritation",
+          description: "Harsh exfoliation or friction can cause inflammation, turning the bumps red and making the condition more noticeable."
+        },
+        {
+          number: "05",
+          title: "Seasonal flare-ups",
+          description: "KP often worsens in winter due to low humidity and central heating, which dry out the skin further."
         }
       ]
     },
+    treatmentModel: {
+      title: "Recommended Treatments",
+      description: "At ULANDA, keratosis pilaris is treated through controlled skin renewal, hydration rebuilding and barrier-safe texture correction.",
+      items: [
+        {
+          title: "Chemical Peel Therapy",
+          description: "Supports follicle clearing and texture smoothing (Body-Suitable Protocols)."
+        },
+        {
+          title: "Enzyme Renewal Therapy",
+          description: "Gentle exfoliation without over-irritation (Body Adaptation)."
+        },
+        {
+          title: "Advanced Cleansing & Hydration Therapy",
+          description: "Improves clarity and hydration balance (Targeted Body Protocols)."
+        },
+        {
+          title: "LED Light Therapy",
+          description: "Supports inflammation reduction and recovery."
+        },
+        {
+          title: "Microneedling / Collagen Induction Therapy",
+          description: "Improves texture and skin quality in stubborn areas (where appropriate)."
+        },
+        {
+          title: "Medical-Grade Body Skincare Planning",
+          description: "Supports long-term follicle clarity and hydration retention."
+        },
+        {
+          title: "Barrier Support & Recovery Planning",
+          description: "Essential for KP that is inflamed, red or reactive."
+        }
+      ]
+    },
+    relatedTreatments: [
+      { id: 'photoaging', label: 'Photoaging & Skin Architecture Programme' },
+      { id: 'skin-barrier', label: 'Skin Barrier Repair & Recovery' }
+    ],
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Hertfordshire Women Choose ULANDA for Body Regeneration",
       items: [
         "Advanced Nurse Practitioner-led assessment focused on texture behaviour and barrier stability",
         "Barrier-first planning to prevent over-exfoliation and worsening sensitivity",
         "Nurse Independent Prescriber oversight where clinically appropriate",
         "Structured sequencing to improve KP gradually and safely",
-        "Calm premium environment with clinical safety standards",
+        "Calm premium environment with strong clinical governance and skin safety standards",
         "Trusted by clients across Ware, Hertfordshire and surrounding areas"
-      ],
-      image: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D"
+      ]
     },
-    faq: {
-      title: "Frequently Asked Questions",
-      items: [
-        { question: "What is keratosis pilaris and why does it happen?", answer: "Keratosis pilaris occurs when keratin builds up and blocks hair follicles, creating small rough bumps and uneven texture. It is often linked to dry skin behaviour and can be genetic, meaning it may run in families." },
-        { question: "Is keratosis pilaris harmful or contagious?", answer: "No. KP is harmless and not contagious. However, it can be persistent and frustrating because it often does not respond well to harsh scrubs or random skincare." },
-        { question: "How long does it take to improve keratosis pilaris?", answer: "Most clients begin to see improvement within 6–12 weeks with a structured plan. Long-term improvement usually requires consistent treatment sequencing and ongoing barrier support." },
-        { question: "Why do exfoliating scrubs make my KP worse?", answer: "Many scrubs cause micro-irritation, inflammation and barrier damage, which can worsen redness and roughness. KP responds best to controlled exfoliation and hydration rebuilding rather than aggressive friction." },
-        { question: "Can keratosis pilaris be linked to very dry skin?", answer: "Yes. KP is strongly associated with dry skin behaviour and reduced natural exfoliation turnover. Improving hydration retention is often a key part of long-term KP smoothing." },
-        { question: "Does keratosis pilaris get worse in winter?", answer: "Yes. Many clients notice KP worsens in colder months due to reduced humidity, increased dehydration and barrier weakness. Winter flare-ups are very common." },
-        { question: "Are chemical peels effective for keratosis pilaris?", answer: "Yes, when body-suitable peels are selected and applied correctly. Controlled peel therapy can help smooth rough bumps and improve follicle congestion safely without over-irritation." },
-        { question: "Can keratosis pilaris overlap with body pigmentation concerns?", answer: "Yes. KP can leave patchy redness or pigmentation, especially if the skin is inflamed or repeatedly irritated. Many clients benefit from a combined plan that improves both texture and tone." },
-        { question: "Can keratosis pilaris be confused with body acne or folliculitis?", answer: "Yes. KP can resemble acne bumps, but it is usually not caused by infection or excess oil. ULANDA assesses whether bumps are keratin-driven KP, acne-driven congestion or folliculitis-related inflammation." },
-        { question: "Can KP be linked to body skin laxity or texture thinning?", answer: "KP often becomes more noticeable when the skin is dehydrated, thinning or lacking smooth surface structure. Supporting skin architecture alongside texture correction can improve overall body skin appearance." },
-        { question: "Where can I get Keratosis Pilaris (“Chicken Skin”) treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
-      ],
-      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
-    },
+    faqs: [
+      {
+        question: "What is keratosis pilaris and why does it happen?",
+        answer: "Keratosis pilaris occurs when keratin builds up and blocks hair follicles, creating small rough bumps and uneven texture. It is often linked to dry skin behaviour and can be genetic, meaning it may run in families."
+      },
+      {
+        question: "Is keratosis pilaris harmful or contagious?",
+        answer: "No. KP is harmless and not contagious. However, it can be persistent and frustrating because it often does not respond well to harsh scrubs or random skincare."
+      },
+      {
+        question: "How long does it take to improve keratosis pilaris?",
+        answer: "Most clients begin to see improvement within 6–12 weeks with a structured plan. Long-term improvement usually requires consistent treatment sequencing and ongoing barrier support."
+      },
+      {
+        question: "Why do exfoliating scrubs make my KP worse?",
+        answer: "Many scrubs cause micro-irritation, inflammation and barrier damage, which can worsen redness and roughness. KP responds best to controlled exfoliation and hydration rebuilding rather than aggressive friction."
+      },
+      {
+        question: "Can keratosis pilaris be linked to very dry skin?",
+        answer: "Yes. KP is strongly associated with dry skin behaviour and reduced natural exfoliation turnover. Improving hydration retention is often a key part of long-term KP smoothing."
+      },
+      {
+        question: "Does keratosis pilaris get worse in winter?",
+        answer: "Yes. Many clients notice KP worsens in colder months due to reduced humidity, increased dehydration and barrier weakness. Winter flare-ups are very common."
+      },
+      {
+        question: "Are chemical peels effective for keratosis pilaris?",
+        answer: "Yes, when body-suitable peels are selected and applied correctly. Controlled peel therapy can help smooth rough bumps and improve follicle congestion safely without over-irritation."
+      },
+      {
+        question: "Can keratosis pilaris overlap with body pigmentation concerns?",
+        answer: "Yes. KP can leave patchy redness or pigmentation, especially if the skin is inflamed or repeatedly irritated. Many clients benefit from a combined plan that improves both texture and tone."
+      },
+      {
+        question: "Can keratosis pilaris be confused with body acne or folliculitis?",
+        answer: "Yes. KP can resemble acne bumps, but it is usually not caused by infection or excess oil. ULANDA assesses whether bumps are keratin-driven KP, acne-driven congestion or folliculitis-related inflammation."
+      },
+      {
+        question: "Can KP be linked to body skin laxity or texture thinning?",
+        answer: "KP often becomes more noticeable when the skin is dehydrated, thinning or lacking smooth surface structure. Supporting skin architecture alongside texture correction can improve overall body skin appearance."
+      },
+      {
+        question: "Where can I get Keratosis Pilaris (“Chicken Skin”) treatment near me in Ware, Hertfordshire?",
+        answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
+      }
+    ],
     cta: {
-      title: "Ready to",
-      highlight: "smooth",
-      titleSuffix: "rough skin?",
+      title: "Ready to smooth rough skin?",
       description: "Book your ULANDA Skin Health Consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
     id: 'body-pigmentation',
     seo: {
       title: "Body Pigmentation Treatment Ware SG12 | Underarms & Knees | ULANDA",
-      description: "Treat dark underarms, knees & bikini line pigmentation. Safe, effective body pigmentation correction."
+      description: "Treat dark underarms, knees & bikini line pigmentation. Safe, effective body pigmentation correction.",
+      keywords: "Body pigmentation, hyperpigmentation body, dark knees treatment Ware, underarm whitening safe, bikini line pigmentation Hertfordshire"
     },
     hero: {
-      title: "Regenerative Treatments for",
-      highlight: "Body Pigmentation (Underarms, Knees, Inner Thighs)",
-      description: "Body pigmentation is a common concern, particularly in areas exposed to friction, shaving, hormonal changes and inflammation. Many clients notice darker patches around the underarms, inner thighs, knees, elbows or bikini line. This can affect confidence, especially when wearing sleeveless clothing, swimwear or fitted outfits.\\n\\nAt ULANDA, body pigmentation is treated as a skin behaviour concern influenced by both pigmentation biology and inflammation triggers. Darkening in body areas is often caused by friction, post-inflammatory pigmentation, hormonal influence, or skin barrier irritation from shaving, waxing or product sensitivity. Your Skin Health Consultation helps us assess the pigment pattern and identify the drivers so your treatment plan is safe, sequenced and designed for long-term tone stability.",
+      title: "Body Pigmentation (Underarms, Knees, Inner Thighs)",
+      highlight: "",
+      description: "Body pigmentation is a common concern, particularly in areas exposed to friction, shaving, hormonal changes and inflammation. Many clients notice darker patches around the underarms, inner thighs, knees, elbows or bikini line. This can affect confidence, especially when wearing sleeveless clothing, swimwear or fitted outfits.",
       buttonText: "Book Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D"
     },
-    science_removed: {
-      title: "Common Triggers & Drivers -",
-      highlight: "Why Body Pigmentation Occurs",
-      description: "Pigmentation on the body is often reactive:",
-      items: [
-        { number: '01', title: 'Friction and skin rubbing', description: 'Chronic irritation stimulates pigment cells.' },
-        { number: '02', title: 'Shaving, waxing or irritation', description: 'Inflammation triggers post-inflammatory hyperpigmentation (PIH).' },
-        { number: '03', title: 'Hormonal pigmentation behaviour', description: 'Melanocytes become overactive due to hormonal shifts.' },
-        { number: '04', title: 'Post-inflammatory pigmentation', description: 'Dark marks left after acne or folliculitis.' },
-        { number: '05', title: 'Sun exposure', description: 'Affects exposed areas like knees and elbows.' }
-      ],
-      footer: "Scrubbing often increases inflammation and pigment; calming it is key."
+    intro: {
+      title: "Darker Patches & Uneven Tone",
+      text: "Many clients notice darker patches around the underarms, inner thighs, knees, elbows or bikini line.",
+      consultationText: "At ULANDA, body pigmentation is treated as a skin behaviour concern influenced by both pigmentation biology and inflammation triggers. Darkening in body areas is often caused by friction, post-inflammatory pigmentation, hormonal influence, or skin barrier irritation from shaving, waxing or product sensitivity. Your Skin Health Consultation helps us assess the pigment pattern and identify the drivers so your treatment plan is safe, sequenced and designed for long-term tone stability."
     },
-    treatmentModel: {
-      title: "How ULANDA Treats Body Pigmentation -",
-      highlight: "The Regenerative Model",
+    science: {
+      title: "Scientific Drivers",
       items: [
         {
-          title: "Renew",
-          subtitle: "(Correction & Renewal)",
-          description: "Safe pigment correction:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "Chemical Peel Therapy (Body-Suitable Protocols)", desc: "Improves tone and pigmentation where clinically appropriate." },
-            { name: "Enzyme Renewal Facial (Body Adaptation Protocols)", desc: "Gentle resurfacing support for uneven body tone." },
-            { name: "Microneedling / Collagen Induction Therapy", desc: "Supports tone improvement and skin regeneration." }
-          ]
+          number: "01",
+          title: "Friction and skin rubbing (inner thighs, underarms)",
+          description: "Chronic irritation stimulates pigment cells."
         },
         {
-          title: "Restore",
-          subtitle: "(Barrier Support)",
-          description: "Vital for pigment stability:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "Barrier Support & Recovery Planning", desc: "Essential when pigmentation is friction or irritation driven." },
-            { name: "Medical-Grade Body Skincare Planning", desc: "Supports pigmentation prevention and long-term clarity." }
-          ]
+          number: "02",
+          title: "Shaving, waxing or irritation-triggered inflammation",
+          description: "Inflammation triggers post-inflammatory hyperpigmentation (PIH)."
         },
         {
-          title: "Radiate Wellness",
-          subtitle: "(Inflammation Control)",
-          description: "Calms reactivity:",
-          image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "LED Light Therapy", desc: "Supports inflammation reduction and recovery." },
-            { name: "Advanced Cleansing & Hydration Therapy (targeted body zones)", desc: "Supports clarity and skin renewal in selected areas." }
-          ]
+          number: "03",
+          title: "Hormonal pigmentation behaviour and melanin sensitivity",
+          description: "Melanocytes become overactive due to hormonal shifts."
+        },
+        {
+          number: "04",
+          title: "Post-inflammatory pigmentation from acne or folliculitis",
+          description: "Dark marks left after acne or folliculitis."
+        },
+        {
+          number: "05",
+          title: "Sun exposure on exposed areas such as knees and elbows",
+          description: "UV/Light exposure can darken existing pigmentation."
         }
       ]
     },
+    relatedTreatments: [
+      { 
+        id: 'photoaging', 
+        title: 'Photoaging & Skin Architecture Programme',
+        description: 'Primary Recommended Programme Pathway' 
+      },
+      {
+        id: 'chemical-peels',
+        title: 'Chemical Peel Therapy (Body-Suitable Protocols)',
+        description: 'Improves tone and pigmentation where clinically appropriate.'
+      },
+      {
+        id: 'enzyme-therapy',
+        title: 'Enzyme Renewal Facial (Body Adaptation Protocols)',
+        description: 'Gentle resurfacing support for uneven body tone.'
+      },
+      {
+        id: 'microneedling',
+        title: 'Microneedling / Collagen Induction Therapy (Body Protocols)',
+        description: 'Supports tone improvement and skin regeneration.'
+      },
+      {
+        id: 'led-light-therapy',
+        title: 'LED Light Therapy',
+        description: 'Supports inflammation reduction and recovery.'
+      },
+      {
+        id: 'advanced-cleansing',
+        title: 'Advanced Cleansing & Hydration Therapy (targeted body zones)',
+        description: 'Supports clarity and skin renewal in selected areas.'
+      },
+      {
+        id: 'medical-grade-skincare',
+        title: 'Medical-Grade Body Skincare Planning',
+        description: 'Supports pigmentation prevention and long-term clarity.'
+      },
+      {
+        id: 'barrier-support',
+        title: 'Barrier Support & Recovery Planning',
+        description: 'Essential when pigmentation is friction or irritation driven.'
+      }
+    ],
     whyChoose: {
-      title: "Why",
-      highlight: "Hertfordshire Women Choose ULANDA for Body Regeneration",
+      title: "Why Clients Choose ULANDA",
       items: [
         "Advanced Nurse Practitioner-led assessment focused on pigmentation drivers and skin behaviour",
         "Barrier-first planning to prevent rebound pigmentation and irritation",
@@ -1511,7 +1639,7 @@
         { question: "Are chemical peels safe for body pigmentation?", answer: "Yes, when the correct peel is selected and the skin is assessed properly. ULANDA uses controlled protocols to improve pigmentation safely without causing irritation or rebound darkening." },
         { question: "Can body pigmentation overlap with stretch marks or skin texture changes?", answer: "Yes. Many clients experience pigmentation alongside stretch marks, particularly on thighs and hips. Treatment sequencing may include both tone correction and collagen support." },
         { question: "Can body pigmentation appear worse if there is loose skin or laxity?", answer: "It can. Skin laxity affects light reflection and can make uneven tone more visible. Supporting skin architecture alongside pigmentation correction often produces better overall results." },
-        { question: "Can body pigmentation be confused with sun damage or photo-pigmentation?", answer: "Yes. Knees, elbows and exposed body areas may develop photo-pigmentation, while inner thighs and underarms are usually friction-driven. ULANDA identifies the pigment pattern so the plan is targeted correctly." },
+        { question: "Can body pigmentation be confused with sun damage or photo-pigmentation?", answer: "Yes. Knees, elbows and exposed body areas may develop photo-pigmentation from UV exposure, while inner thighs and underarms are usually friction-driven. ULANDA identifies the pigment pattern so the plan is targeted correctly." },
         { question: "Where can I get Body Pigmentation (Underarms, Knees, Inner Thighs) treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
       ],
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
@@ -1522,88 +1650,110 @@
       titleSuffix: "body pigmentation?",
       description: "Book your ULANDA Skin Health Consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
     id: 'body-acne',
     seo: {
       title: "Body Acne Treatment Ware SG12 | Back & Chest Acne | ULANDA",
-      description: "Clear body acne on back and chest. Medical-grade treatments for breakouts and scarring."
+      description: "Clear body acne on back and chest. Medical-grade treatments for breakouts and scarring.",
+      keywords: "Body acne treatment Ware, back acne solutions Hertfordshire, chest acne treatment, bacne removal, hormonal body acne"
     },
     hero: {
-      title: "Regenerative Treatments for",
-      highlight: "Body Acne (Back / Chest Acne)",
-      description: "Body acne, often referred to as “bacne” (back acne) or chest acne, is a common concern that can affect confidence, clothing choices and comfort. Unlike facial acne, body acne is often influenced by sweat, friction, tight clothing, hormonal shifts, inflammation patterns and blocked follicles across the back, shoulders, chest and upper arms.\\n\\nAt ULANDA, body acne is treated as a skin behaviour concern, not simply a hygiene issue. Persistent breakouts often reflect underlying inflammation, barrier disruption, congestion behaviour or hormonal triggers. Your Skin Health Consultation helps us identify what is driving your body acne so your plan is safe, sequenced and designed for long-term clarity — not temporary flare control.",
-      buttonText: "Book Consultation",
+      title: "Body Acne (Back / Chest Acne)",
+      highlight: "",
+      description: "Body acne, often referred to as “bacne” (back acne) or chest acne, is a common concern that can affect confidence, clothing choices and comfort. Unlike facial acne, body acne is often influenced by sweat, friction, tight clothing, hormonal shifts, inflammation patterns and blocked follicles across the back, shoulders, chest and upper arms.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
     },
-    science_removed: {
+    intro: {
+      title: "Targeted Body Acne Treatments",
+      text: "Persistent breakouts often reflect underlying inflammation, barrier disruption, congestion behaviour or hormonal triggers.",
+      consultationText: "At ULANDA, body acne is treated as a skin behaviour concern, not simply a hygiene issue. Persistent breakouts often reflect underlying inflammation, barrier disruption, congestion behaviour or hormonal triggers. Your Skin Health Consultation helps us identify what is driving your body acne so your plan is safe, sequenced and designed for long-term clarity — not temporary flare control."
+    },
+    science: {
       title: "Common Triggers & Drivers -",
       highlight: "Why Body Acne Happens",
-      description: "Body acne is driven by occlusion and inflammation:",
-      items: [
-        { number: '01', title: 'Sweat build-up and occlusion', description: 'Trap bacteria, especially from tight clothing.' },
-        { number: '02', title: 'Blocked follicles and excess sebum', description: 'Creates congestion and breakouts.' },
-        { number: '03', title: 'Hormonal acne patterns', description: 'Affects the chest, jawline and back.' },
-        { number: '04', title: 'Inflammation and skin sensitivity', description: 'Increases redness and reactivity.' },
-        { number: '05', title: 'Folliculitis or ingrown hairs', description: 'Often mistaken for acne; requires different care.' }
-      ],
-      footer: "Harsh scrubbing inflames the barrier; targeted clearing heals it."
-    },
-    treatmentModel: {
-      title: "How ULANDA Treats Body Acne -",
-      highlight: "The Regenerative Model",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Clear",
-          subtitle: "(Congestion Control)",
-          description: "Removes blockages safely:",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "Advanced Cleansing & Hydration Therapy (Targeted Body Protocols)", desc: "Supports congestion removal and clarity." },
-            { name: "Enzyme Renewal Therapy (Body Adaptation)", desc: "Gentle exfoliation without barrier disruption." }
-          ]
+          number: "01",
+          title: "Sweat build-up and occlusion",
+          description: "from tight clothing or gym wear."
         },
         {
-          title: "Calm",
-          subtitle: "(Inflammation & Healing)",
-          description: "Reduces redness and infection:",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "LED Light Therapy", desc: "Reduces inflammation and supports healing stability." },
-            { name: "Skin Recovery & Barrier Support Therapy", desc: "Essential if the skin is inflamed or sensitised." },
-            { name: "Medical-Grade Skincare Planning", desc: "Supports oil regulation and reduces flare recurrence." }
-          ]
+          number: "02",
+          title: "Blocked follicles and excess sebum production",
+          description: "Creates congestion and breakouts."
         },
         {
-          title: "Renew",
-          subtitle: "(Texture & Scarring)",
-          description: "Improves marks and scars:",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "Chemical Peel Therapy (Body-Suitable Protocols)", desc: "Improves breakouts, texture and post-acne marks." },
-            { name: "Microneedling / Collagen Induction Therapy", desc: "Improves scarring and texture (when acne is controlled)." }
-          ]
+          number: "03",
+          title: "Hormonal acne patterns",
+          description: "affecting the chest, jawline and back."
         },
         {
-          title: "Radiate Wellness",
-          subtitle: "(Recovery)",
-          description: "Reduces inflammation:",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "LED Light Therapy", desc: "Supports inflammation reduction and recovery." },
-            { name: "Microneedling / Collagen Induction Therapy", desc: "Improves texture and skin quality in stubborn areas (where appropriate)." }
-          ]
+          number: "04",
+          title: "Inflammation-driven breakouts",
+          description: "and skin sensitivity."
+        },
+        {
+          number: "05",
+          title: "Folliculitis, ingrown hairs or bacterial imbalance",
+          description: "Required separate diagnosis from acne."
         }
       ]
     },
+    relatedTreatments: [
+      {
+        id: 'photoaging',
+        title: 'Photoaging & Skin Architecture Programme',
+        description: 'Primary Recommended Programme Pathway'
+      },
+      {
+        id: 'skin-recovery',
+        title: 'Skin Barrier Repair & Recovery',
+        description: 'Secondary Pathway (if inflammated/reactive)'
+      },
+      {
+        id: 'advanced-cleansing',
+        title: 'Advanced Cleansing & Hydration Therapy (Targeted Body Protocols)',
+        description: 'Supports congestion removal and clarity.'
+      },
+      {
+        id: 'chemical-peels',
+        title: 'Chemical Peel Therapy (Body-Suitable Protocols)',
+        description: 'Improves breakouts, texture and post-acne marks.'
+      },
+      {
+        id: 'led-light-therapy',
+        title: 'LED Light Therapy',
+        description: 'Reduces inflammation and supports healing stability.'
+      },
+      {
+        id: 'enzyme-therapy',
+        title: 'Enzyme Renewal Therapy (Body Adaptation)',
+        description: 'Gentle exfoliation without barrier disruption.'
+      },
+      {
+        id: 'microneedling',
+        title: 'Microneedling / Collagen Induction Therapy',
+        description: 'Improves scarring and texture (when acne is controlled).'
+      },
+      {
+        id: 'medical-grade-skincare',
+        title: 'Medical-Grade Skincare Planning',
+        description: 'Supports oil regulation and reduces flare recurrence.'
+      },
+      {
+        id: 'skin-recovery-therapy',
+        title: 'Skin Recovery & Barrier Support Therapy',
+        description: 'Essential if the skin is inflamed or sensitised.'
+      }
+    ],
     whyChoose: {
       title: "Why",
       highlight: "Hertfordshire Women Choose ULANDA for Body Regeneration",
@@ -1647,243 +1797,323 @@
   {
     id: 'crepey-under-eye',
     seo: {
-      title: "Under-Eye Lines Treatment Ware SG12 | Crepey Skin Repair | ULANDA",
-      description: "Smooth under-eye fine lines and creasing. Medical microneedling, PN & hydration treatments to restore elasticity and smoothness."
+      title: "Under-Eye Fine Lines & Creasing Treatment Ware | ULANDA",
+      description: "Smooth under-eye fine lines and creasing. Regenerative treatments, collagen stimulation & hydration for smoother, fresher eyes."
     },
     hero: {
-      title: "Under-Eye Fine Lines &",
+      title: "Under-Eye Fine Lines & /",
       highlight: "Creasing",
-      description: "Early ageing often starts here. We smooth texture and restore elasticity through hydration rebuilding and collagen stimulation.",
-      buttonText: "Book Consultation",
+      subtitle: "Fine Lines / Texture Issues",
+      description: "Under-eye fine lines and creasing are often the earliest signs of structural ageing in the face. Many clients notice their concealer begins to crease, the under-eye area looks more textured, or fine lines become visible even when the rest of the skin appears smooth. This can be caused by dehydration, collagen decline, repeated facial movement, and thinning under-eye tissue.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww"
+      image: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww"
     },
-    treatmentModel: {
-      title: "How ULANDA Smooths Fine Lines -",
-      highlight: "Smooth - Firm - Hydrate",
+    intro: {
+      content: "At ULANDA, under-eye lines are treated as a regeneration and barrier behaviour concern. The eye area is delicate and often over-treated with harsh actives or unsuitable procedures. Your Skin Health Consultation includes dedicated under-eye assessment to determine whether your lines are driven by dehydration, collagen loss, skin thinning, structural hollows or inflammation — so your plan is safe, sequenced and designed for long-term improvement."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Smooth",
-          subtitle: "(Texture Correction)",
-          description: "Softens static lines and roughness.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Microneedling (Eye)", desc: "Precision collagen induction." },
-            { name: "Enzyme Therapy", desc: "Gentle exfoliation for smoothness." }
-          ]
+          title: "Dehydration",
+          description: "and reduced under-eye plumpness"
         },
         {
-          title: "Firm",
-          subtitle: "(Elasticity Restoration)",
-          description: "Tightens loose, crepey skin.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Radiofrequency (RF)", desc: "Stimulates elastin production." },
-            { name: "Polynucleotides", desc: "Repairs cellular ageing structure." }
-          ]
+          title: "Collagen Decline",
+          description: "and thinning tissue with age"
         },
         {
-          title: "Hydrate",
-          subtitle: "(Plumping)",
-          description: "Fills fine lines with moisture.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          title: "Repetitive Movement",
+          description: "facial expression and muscle movement"
+        },
+        {
+          title: "Menopause Fragility",
+          description: "related skin fragility and loss of elasticity"
+        },
+        {
+          title: "Weakened Barrier",
+          description: "and irritation from strong skincare products"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Under-Eye Regeneration Blueprint"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, under-eye fine lines are supported through hydration rebuilding, collagen stimulation and structured sequencing designed for fragile under-eye skin.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Smooth & Firm)",
+          description: "Targeted treatments for under-eye fine lines:",
+          image: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww",
+          placeholderUrl: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww",
           points: [
-            { name: "Skin Boosters", desc: "Injectable hydration to smooth creasing." }
+             { name: "LED Light Therapy", desc: "supports collagen activity and improves skin recovery safely" },
+             { name: "Microneedling (Under-Eye Suitable Protocols)", desc: "improves collagen behaviour and under-eye texture where clinically appropriate" },
+             { name: "Deep Hydration Facial", desc: "supports hydration retention and skin plumpness" },
+             { name: "Oxygen Glow Facial", desc: "improves radiance and tissue vitality without irritation" },
+             { name: "Skin Renewal & Regeneration Treatments", desc: "introduced only when under-eye barrier stability is confirmed" },
+             { name: "Medical-Grade Eye Skincare Planning", desc: "supports collagen, hydration and texture improvement" },
+             { name: "Lymphatic Detox Facial", desc: "supports under-eye puffiness reduction where fluid retention worsens creasing" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Precision eye protocols",
-        "Natural smoothing results",
-        "Holistic dehydration support",
-        "Serving Ware, Hertford & Broxbourne"
+        "Advanced Nurse Practitioner-led under-eye assessment with clinical precision",
+        "Barrier-first planning to protect delicate eye-area skin",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Structured sequencing for natural improvement, not harsh stimulation",
+        "Calm premium environment with strong clinical governance and safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
-      image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww"
     },
+    relatedTreatments: [
+      "led-light-therapy",
+      "microneedling",
+      "deep-hydration-facial",
+      "oxygen-vitamin-infusion-facial",
+      "medical-grade-skincare",
+      "lymphatic-drainage-facial",
+      "under-eye-regeneration"
+    ],
     faqs: [
-      { question: "What causes under-eye fine lines and creasing?", answer: "Fine lines are caused by a breakdown of collagen and elastin, repetitive movement (squinting/smiling) and dehydration. As the skin thins with age, these lines become more permanent and crepey." },
-      { question: "Is crepey skin the same as wrinkles?", answer: "Not exactly. Wrinkles are deeper folds, while crepey skin looks like thin, crinkled paper. Crepiness is primarily due to thinning skin and lack of elastin, which makes it look fragile and textured." },
-      { question: "Can under-eye creasing be treated without Botox?", answer: "Yes. While anti-wrinkle injections reduce movement lines, they don’t fix skin quality. To treat creasing, we must strengthen the skin itself using Polynucleotides, microneedling or hydration boosters." },
-      { question: "Does eye cream actually help fine lines?", answer: "Eye creams hydrate the surface, which temporarily softens lines, but they cannot restore lost collagen deep in the skin. Regenerative treatments work below the surface to thicken and smooth the skin long-term." },
-      { question: "Can dehydration make my under-eye lines look worse?", answer: "Yes. Dehydration exaggerates fine lines immediately. Many clients notice their eyes look older when they are tired or dehydrated, which is why hydration restoration is a key part of treatment." },
-      { question: "Is microneedling safe for under the eyes?", answer: "Yes, when performed by a specialist. We use specific depths and protocols to safely stimulate collagen in the delicate eye area without causing damage." },
-      { question: "Will fillers help with under-eye lines?", answer: "Not usually. Fillers replace volume (hollows), but they don’t smooth surface texture. In fact, placing filler under crepey skin can sometimes make it look uneven. Skin boosters or Polynucleotides are better for smoothing lines." },
-      { question: "How long does it take to see smoother under-eye skin?", answer: "Skin quality improves over 3–6 months as new collagen forms. Most clients see initial hydration improvements quickly, but structural smoothing takes time to rebuild." },
-      { question: "Can menopause make under-eye creasing worse?", answer: "Yes. Estrogen loss during menopause reduces collagen and skin thickness rapidly, making the under-eye area look thinner and more wrinkled." },
-      { question: "Can I treat under-eye lines if I have sensitive eyes?", answer: "Yes. We use gentle, restorative protocols suitable for sensitive skins, avoiding harsh acids or aggressive lasers that could trigger irritation." },
-      { question: "Where can I get Under-Eye Fine Lines treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
+      { question: "What causes fine lines and creasing under the eyes?", answer: "Under-eye fine lines are most commonly caused by dehydration, collagen decline, skin thinning and repetitive facial movement. The eye area is naturally delicate, so changes often appear earlier here than elsewhere on the face." },
+      { question: "Are under-eye lines always a sign of ageing?", answer: "Not always. Under-eye creasing can appear at any age due to dehydration, barrier weakness or lifestyle stress. However, collagen decline and tissue thinning do increase with age, which can make lines more visible over time." },
+      { question: "How long does it take to improve under-eye fine lines?", answer: "Many clients notice improvement within 6–12 weeks when hydration and collagen support are introduced correctly. Long-term improvement is strongest when treatments are sequenced safely and supported by suitable homecare." },
+      { question: "Why does my concealer crease under my eyes?", answer: "Creasing often occurs when the under-eye skin is dehydrated, textured or lacking elasticity. Improving hydration retention and under-eye smoothness usually improves makeup performance as well." },
+      { question: "Can dehydration cause under-eye wrinkles?", answer: "Yes. Dehydration makes fine lines appear deeper because the skin loses plumpness. Many early under-eye lines soften significantly once hydration and barrier stability are restored." },
+      { question: "Do under-eye fine lines get worse during menopause?", answer: "Yes. Menopause can accelerate collagen decline and reduce skin thickness, making under-eye creasing more noticeable. Many women see rapid changes during perimenopause and menopause due to reduced skin recovery capacity." },
+      { question: "Is microneedling safe under the eyes?", answer: "It can be safe when performed using appropriate under-eye protocols and clinical screening. At ULANDA, microneedling suitability is assessed carefully because the under-eye area requires gentler sequencing than the rest of the face." },
+      { question: "What is the difference between under-eye fine lines and tear trough hollows?", answer: "Fine lines relate to texture and collagen thinning, while tear trough hollows are a structural volume issue that creates shadowing. Many clients have both, which is why under-eye assessment includes structure and skin quality." },
+      { question: "Can under-eye fine lines be linked to dark circles?", answer: "Yes. Thin under-eye skin and collagen decline can make blood vessels more visible, contributing to vascular dark circles. Improving collagen behaviour and hydration often supports both concerns together." },
+      { question: "Can under-eye puffiness make creasing look worse?", answer: "Yes. Puffiness can stretch under-eye skin unevenly and create texture distortion, making lines appear deeper. Supporting fluid balance and skin strength can improve the overall under-eye contour." },
+      { question: "Where can I get Under-Eye Fine Lines & Creasing treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
     ],
     cta: {
-      title: "Smooth",
-      highlight: "fine lines",
-      titleSuffix: "away.",
-      description: "Book your consultation for smoother eyes.",
+      title: "Smoother",
+      highlight: "under-eyes",
+      titleSuffix: "safely.",
+      description: "Book your fine line consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
     id: 'dark-circles',
     seo: {
-      title: "Dark Circles Treatment Ware SG12 | Pigment & Vascular | ULANDA",
+      title: "Dark Circles Treatment Ware | Pigment & Vascular | ULANDA",
       description: "Correct dark circles. Treat pigmentation, vascular shadowing & hollows. Expert assessment for brighter, fresher eyes."
     },
     hero: {
       title: "Dark Circles",
       highlight: "(Pigment / Vascular)",
-      description: "Dark circles can be brown (pigment) or blue (vascular). We identify the cause to treat it correctly—whether it’s melatonin inhibition, strengthening thin skin, or restoring volume.",
-      buttonText: "Book Consultation",
+      subtitle: "Pigment / Vascular / Shadowing",
+      description: "Dark circles are one of the most common under-eye concerns and one of the most misunderstood. Some clients experience brown-toned pigmentation under the eyes, while others notice a blue, purple or shadowed appearance caused by vascular visibility, thinning skin or structural volume loss.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww"
+      image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww"
     },
-    treatmentModel: {
-      title: "How ULANDA Brightens Dark Circles -",
-      highlight: "Correct - Strengthen - Brighten",
+    intro: {
+      content: "At ULANDA, dark circles are treated as an under-eye behaviour issue, not simply a “tired look.” Your Skin Health Consultation includes dedicated under-eye assessment to identify whether your dark circles are primarily pigment-based, vascular, structural (hollows), inflammation-driven, or linked to lifestyle factors such as sleep disruption and stress. This structured approach ensures your plan is safe, sequenced and designed to improve under-eye brightness without damaging fragile eye-area skin."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Correct",
-          subtitle: "(Pigment & Veins)",
-          description: "Targets the source of colour.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Chemical Peels", desc: "Lifts superficial brown pigment." },
-            { name: "Polynucleotides", desc: "Improves vascular micro-circulation." }
-          ]
+          title: "Pigmentation Activity",
+          description: "pigmentation build-up and melanin activity under the eyes"
         },
         {
-          title: "Strengthen",
-          subtitle: "(Thicken Skin)",
-          description: "Masks vascular visibility.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Microneedling", desc: "Builds collagen to hide blue veins." },
-            { name: "PRP", desc: "Regenerates tissue thickness." }
-          ]
+          title: "Vascular Visibility",
+          description: "due to thin under-eye skin"
         },
         {
-          title: "Brighten",
-          subtitle: "(Luminosity)",
-          description: "Restores radiance.",
+          title: "Structural Shadows",
+          description: "under-eye hollows creating shadowing and darkness"
+        },
+        {
+          title: "Dehydration",
+          description: "and barrier fragility worsening creasing and dullness"
+        },
+        {
+          title: "Inflammation",
+          description: "allergy patterns or chronic eye rubbing"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Under-Eye Regeneration Blueprint"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, under-eye darkness is improved through a structured combination of hydration rebuilding, pigmentation control and skin architecture support.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Correct & Brighten)",
+          description: "Targeted treatments for dark circles:",
           image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Mesotherapy", desc: "Infuses brighteners directly." },
-            { name: "Vitamin C", desc: "Topical and IV brightening." }
+             { name: "Under-Eye Regeneration Blueprint", desc: "structured planning for dark circles, hollows and fragility" },
+             { name: "LED Light Therapy", desc: "supports inflammation reduction and collagen stimulation safely" },
+             { name: "Deep Hydration Facial", desc: "improves hydration retention and reduces under-eye dullness" },
+             { name: "Oxygen Glow Facial", desc: "improves radiance and tissue oxygenation support" },
+             { name: "Microneedling (Under-Eye Suitable Protocols)", desc: "improves pigmentation and collagen behaviour where clinically appropriate" },
+             { name: "Medical-Grade Eye Skincare Planning", desc: "pigment and fragility support through safe formulations" },
+             { name: "Skin Renewal & Regeneration Treatments", desc: "introduced only when under-eye stability is confirmed" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Diagnosis of Pigment vs Vascular",
-        "Safe for delicate eye skin",
-        "Multi-modal approach",
-        "Serving Ware, Hertford & Broxbourne"
+        "Advanced Nurse Practitioner-led under-eye assessment with structural and pigment mapping",
+        "Barrier-first approach to protect fragile eye-area tissue",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Sequenced treatment planning rather than random eye creams or aggressive correction",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
       image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
+    relatedTreatments: [
+      "under-eye-regeneration",
+      "led-light-therapy",
+      "deep-hydration-facial",
+      "oxygen-vitamin-infusion-facial",
+      "microneedling",
+      "medical-grade-skincare"
+    ],
     faqs: [
-      { question: "What causes under-eye dark circles?", answer: "Dark circles are usually caused by one of three things (or a mix of them): pigmentation (brown melanin), vascular congestion (blue/purple veins showing through thin skin) or structural shadowing (hollows)." },
-      { question: "Are dark circles just due to lack of sleep?", answer: "No. While tiredness can make venous congestion (blue circles) worse, chronic dark circles are usually genetic, structural or pigment-based." },
-      { question: "Can under-eye dark circles be cured?", answer: "They can be significantly improved, but 'cured' depends on the cause. Pigment can be faded, thin skin can be thickened, and hollows can be lifted. Maintenance is key." },
-      { question: "Will drinking more water fix dark circles?", answer: "Hydration helps if your circles are due to dehydration thinning the skin, but it won't fix genetic pigmentation or vascular leaking." },
-      { question: "Can I use retinol for dark circles?", answer: "Retinol can thicken skin and help pigment, but eye skin is very sensitive. It’s best to use a specific eye retinal or have professional treatments like Polynucleotides to thicken skin without irritation." },
-      { question: "Is it safe to have chemical peels near the eyes?", answer: "Yes, provided the right peel is used. We use specialised eye-safe peels (like mild lactic or mandelic) that do not travel into the eye but effectively lift pigment." },
-      { question: "What if my dark circles are hollows?", answer: "If your darkness is a shadow caused by a hollow (tear trough), we treat the volume loss. This might involve Polynucleotides, deep structural filler or skin strengthening to reflect light better." },
-      { question: "Are 'dark circle' creams effective?", answer: "They can help with mild hydration and temporary brightening (caffeine/vitamin C), but they cannot change the anatomical structure or fade deep dermal pigment like a clinic treatment can." },
-      { question: "Can allergies cause dark circles?", answer: "Yes. 'Allergic shiners' are caused by congestion in the sinus and nose area, which dilates veins under the eyes, creating a purple/blue darkness. Managing allergies helps considerably." },
-      { question: "Are Polynucleotides good for dark circles?", answer: "Excellent. They are currently the gold-standard treatment because they thicken the skin (masking blue veins), hydrate deeply and help regulate pigmentation cells simultaneously." },
-      { question: "Where can I get Dark Circle treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
+      { question: "What causes dark circles under the eyes?", answer: "Dark circles can be caused by pigmentation, vascular visibility (blue/purple tone), under-eye hollows, thin skin, dehydration, inflammation, allergies or lifestyle stress. Most clients have more than one contributing factor, which is why structured assessment is important." },
+      { question: "Are dark circles always caused by lack of sleep?", answer: "Not always. While fatigue can worsen under-eye appearance, dark circles are often structural or pigment-driven. Even clients with good sleep can have dark circles due to genetics, collagen thinning or vascular visibility." },
+      { question: "How long does it take to improve dark circles?", answer: "Improvement depends on the cause. Some clients notice visible changes within 6–12 weeks, but deeper under-eye regeneration may take longer. Results are strongest when treatments are sequenced and supported by correct homecare." },
+      { question: "What is the difference between pigmented and vascular dark circles?", answer: "Pigmented dark circles appear brown and are caused by melanin activity. Vascular dark circles appear blue or purple and are caused by visible blood vessels beneath thin under-eye skin. ULANDA assesses which type is dominant before treatment selection." },
+      { question: "Can allergies or rubbing my eyes make dark circles worse?", answer: "Yes. Chronic rubbing and inflammation can trigger pigmentation and worsen vascular visibility. Allergy-driven under-eye irritation is a common cause of worsening darkness over time." },
+      { question: "Can dehydration make dark circles look worse?", answer: "Yes. Dehydration makes under-eye skin look thinner, creasier and more shadowed. Hydration rebuilding is often one of the first steps in improving under-eye brightness and texture." },
+      { question: "Are dark circles linked to under-eye hollows?", answer: "Very often. Under-eye hollows create shadowing that looks like darkness, even if pigmentation is minimal. Structural assessment is essential to determine whether the darkness is pigment-based or shadow-based." },
+      { question: "What is the difference between dark circles and under-eye hollows?", answer: "Dark circles refer to pigmentation or vascular darkness, while hollows are a structural volume issue that creates shadowing. Many clients have both, which is why ULANDA assesses structure and pigmentation together." },
+      { question: "Can under-eye darkness be linked to crepey under-eye skin or fragility?", answer: "Yes. Under-eye fragility and thinning skin make vessels more visible and reduce light reflection, worsening darkness. Supporting collagen and barrier stability is key for long-term improvement." },
+      { question: "Can pigmentation under the eyes be treated the same way as facial pigmentation?", answer: "Not always. The under-eye area is thinner and more sensitive, so pigmentation correction must be gentler and more controlled. ULANDA uses under-eye safe sequencing to improve tone without triggering irritation." },
+      { question: "Where can I get Dark Circles (Pigmented or Vascular) treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
     ],
     cta: {
       title: "Wake up",
       highlight: "brighter",
       titleSuffix: "every day.",
       description: "Book your dark circle consultation.",
-      buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
     id: 'tear-troughs',
     seo: {
-      title: "Under-Eye Hollows Treatment Ware SG12 | Tear Trough Repair | ULANDA",
-      description: "Correct under-eye hollows & tear trough shadowing. Structural regeneration using PN, threads & collagen stimulation. Non-surgical eye rejuvenation."
+      title: "Under-Eye Hollows / Tear Trough Shadowing Treatment Ware | ULANDA",
+      description: "Correct under-eye hollows & shadowing. Structural assessment and safe, filler-free regeneration for tired eyes in Ware, Hertfordshire."
     },
     hero: {
       title: "Under-Eye Hollows /",
       highlight: "Tear Trough Shadowing",
-      description: "Under-eye hollows create a sunken, tired appearance often mistaken for dark circles. We treat the structural cause — restoring volume support and collagen density without over-filling.",
-      buttonText: "Book Consultation",
+      subtitle: "Tear Trough Shadowing",
+      description: "Under-eye hollows, often referred to as tear trough shadowing, occur when volume loss or structural changes beneath the eyes create a sunken appearance. This can make the face look tired, drawn or older — even when you feel well-rested. Many clients describe this concern as “darkness,” but in reality, the darkness is often a shadow created by structure rather than pigmentation alone.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVuZGVyJTIwZXllJTIwaG9sbG93c3xlbnwwfHwwfHx8MA%3D%3D",
-      // placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVuZGVyJTIwZXllJTIwaG9sbG93c3xlbnwwfHwwfHx8MA%3D%3D"
     },
-    treatmentModel: {
-      title: "How ULANDA Treats Hollows -",
-      highlight: "Structure - Support - Strength",
+    intro: {
+      content: "At ULANDA, under-eye hollows are treated as a structural skin behaviour concern. Your Skin Health Consultation includes dedicated under-eye assessment to identify whether your concern is driven by volume loss, skin thinning, collagen decline, fluid retention, pigmentation, or a combination of factors. This ensures your plan is safe, sequenced and designed for long-term under-eye regeneration rather than temporary camouflage."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Structure",
-          subtitle: "(Volume Support)",
-          description: "Restores deep support to lift shadowing.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Biostimulators", desc: "Restores natural volume bio-structurally." },
-            { name: "Threads", desc: "Lifts and supports the tear trough ligament." }
-          ]
+          title: "Volume Loss",
+          description: "natural facial volume loss and fat pad shifting with age"
         },
         {
-          title: "Strengthen",
-          subtitle: "(Dermal Thickness)",
-          description: "Thickens thin skin to reduce transparency.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Polynucleotides (PN)", desc: "Though-skin regeneration to rebuild density." },
-            { name: "Microneedling", desc: "Collagen induction for stronger skin." }
-          ]
+          title: "Collagen Decline",
+          description: "and tissue thinning around the eye area"
         },
         {
-          title: "Smooth",
-          subtitle: "(Surface Hydration)",
-          description: "Plumps and hydrates the surface.",
+          title: "Orbital Anatomy",
+          description: "genetics and natural structural depth"
+        },
+        {
+          title: "Dehydration",
+          description: "and reduced skin plumpness"
+        },
+        {
+          title: "Fluid Retention",
+          description: "or inflammation creating uneven under-eye contours"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Under-Eye Regeneration Blueprint"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, tear trough shadowing is approached through structural assessment, collagen support and safe sequencing designed specifically for the fragile under-eye area.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Structural & Regenerative)",
+          description: "Targeted treatments for under-eye hollows:",
           image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-            { name: "Deep Hydration", desc: "Reduces crepey texture that worsens hollows." }
+            { name: "Under-Eye Structural Assessment", desc: "identifies whether darkness is hollow, pigment or vascular (within Consultation)" },
+            { name: "LED Light Therapy", desc: "supports collagen activity and repair without irritation" },
+            { name: "Microneedling (Under-Eye Protocols)", desc: "improves collagen quality and tissue thickness where clinically appropriate" },
+            { name: "Skin Regeneration Treatments", desc: "introduced based on barrier readiness and under-eye fragility" },
+            { name: "Medical-Grade Eye Skincare Planning", desc: "supports hydration, pigment control and barrier strength" },
+            { name: "Deep Hydration Facial", desc: "supports skin plumpness and under-eye comfort" },
+            { name: "Lymphatic Detox Facial", desc: "supports fluid movement where puffiness contributes to shadowing" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Advanced Nurse Practitioner-led assessment",
-        "Structural vs Pigment analysis",
-        "Safe, conservative approaches",
-        "Serving Ware, Hertford & Broxbourne"
+        "Advanced Nurse Practitioner-led under-eye assessment with structural intelligence",
+        "Calm, premium environment with strong clinical governance and safety standards",
+        "Barrier-first approach designed for fragile under-eye skin",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Structured sequencing rather than rushed correction or over-treatment",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
       image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
+    relatedTreatments: [
+      "under-eye-regeneration",
+      "led-light-therapy",
+      "microneedling",
+      "deep-hydration-facial",
+      "lymphatic-drainage-facial",
+      "medical-grade-skincare"
+    ],
     faqs: [
       { question: "What causes under-eye hollows and tear trough shadowing?", answer: "Under-eye hollows are usually caused by natural volume loss, collagen decline and structural changes around the orbital area. This creates a sunken contour that produces shadowing, often mistaken for pigmentation." },
       { question: "Are under-eye hollows the same as dark circles?", answer: "Not always. Dark circles can be pigment-based or vascular (blue/purple), while hollows create shadowing due to structure. Many clients experience both, which is why assessment is essential before choosing treatments." },
@@ -1898,162 +2128,221 @@
       { question: "Where can I get Under-Eye Hollows / Tear Trough Shadowing treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
     ],
     cta: {
-      title: "Restore",
-      highlight: "tired eyes",
-      titleSuffix: "naturally.",
-      description: "Book your structural eye assessment.",
+      title: "Ready to restore",
+      highlight: "tired eyes?",
+      titleSuffix: "",
+      description: "Book your specialist under-eye consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
     id: 'under-eye-fragility',
     seo: {
-      title: "Thin Under-Eye Skin Treatment Ware SG12 | Eye Fragility | ULANDA",
-      description: "Strengthen fragile, thin under-eye skin. Collagen regeneration & barrier support for translucent, bruising-prone eyes."
+      title: "Under-Eye Fragility / Thin Skin Treatment Ware | ULANDA",
+      description: "Strengthen fragile, thin under-eye skin. Safe sequencing, collagen stimulation, and hydration rebuilding in Ware, Hertfordshire."
     },
     hero: {
       title: "Under-Eye Fragility /",
       highlight: "Thin Skin",
-      description: "The under-eye area is 40% thinner than the rest of the face. We treat fragility by rebuilding collagen density and barrier strength to reduce translucency and bruising.",
-      buttonText: "Book Consultation",
+      subtitle: "Thin Skin / Crepey Texture",
+      description: "Under-eye fragility and thin skin is one of the most delicate concerns to treat because the eye area naturally has less collagen, fewer oil glands and reduced barrier strength compared to the rest of the face. Many clients notice their under-eye area looks crepey, translucent, more prone to bruising, darker in tone, or increasingly sensitive to skincare products and treatments.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D"
     },
-    treatmentModel: {
-      title: "How ULANDA Strengthens Thin Skin -",
-      highlight: "Regenerate - Protect - Hydrate",
+    intro: {
+      content: "At ULANDA, under-eye fragility is treated as a combined barrier and regeneration concern. Your Skin Health Consultation includes dedicated under-eye assessment to determine whether your thin skin is driven by dehydration, inflammation, collagen decline, hormonal change, over-treatment or structural ageing. This ensures your plan is safe, sequenced and designed to strengthen the under-eye tissue gradually."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Regenerate",
-          subtitle: "(Collagen Building)",
-          description: "Stimulates new collagen to thicken the dermis.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Polynucleotides (PN)", desc: "Increases skin thickness and elasticity." },
-            { name: "LED Therapy", desc: "Energises cells to repair and build strength." }
-          ]
+          title: "Collagen Decline",
+          description: "and thinning tissue with age"
         },
         {
-          title: "Protect",
-          subtitle: "(Barrier Support)",
-          description: "Reduces sensitivity and TEWL.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Barrier Repair Protocols", desc: "Soothing lipids to stop irritation." }
-          ]
+          title: "Menopause-Related Fragility",
+          description: "and reduced skin repair capacity"
         },
         {
-          title: "Hydrate",
-          subtitle: "(Deep Moisture)",
-          description: "Plumps the tissue to reduce creasing.",
-          image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          title: "Dehydration",
+          description: "and increased transepidermal water loss (TEWL)"
+        },
+        {
+          title: "Product Irritation",
+          description: "from unsuitable eye products or harsh actives"
+        },
+        {
+          title: "Chronic Inflammation",
+          description: "rubbing or allergy-driven sensitivity"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Under-Eye Regeneration Blueprint (Secondary: Skin Barrier Repair & Recovery if barrier breakdown dominates)"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, under-eye fragility is supported through gentle collagen stimulation, barrier strengthening and hydration rebuilding, using careful sequencing designed for safety.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Strengthen & Repair)",
+          description: "Targeted treatments for under-eye fragility:",
+          image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
+          placeholderUrl: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
           points: [
-            { name: "Hyaluronic Acid Boosters", desc: "Restores water retention capacity." }
+             { name: "LED Light Therapy", desc: "supports repair and collagen stimulation safely for fragile skin" },
+             { name: "Deep Hydration Facial", desc: "improves hydration retention and under-eye comfort" },
+             { name: "Oxygen Glow Facial", desc: "supports tissue vitality without aggressive stimulation" },
+             { name: "Microneedling (Under-Eye Protocols)", desc: "improves collagen density where clinically appropriate" },
+             { name: "Medical-Grade Eye Skincare Planning", desc: "supports barrier strength and tissue resilience" },
+             { name: "Skin Recovery & Regeneration Treatments", desc: "introduced only once stability is confirmed" },
+             { name: "Barrier Support Facial", desc: "beneficial where under-eye fragility is linked to wider barrier breakdown" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Barrier-first approach",
-        "Safe for sensitive eyes",
-        "Collagen banking focus",
-        "Serving Ware, Hertford & St Albans"
+        "Advanced Nurse Practitioner-led under-eye assessment with clinical precision",
+        "Barrier-first approach designed to protect fragile, thinning skin",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Structured sequencing that avoids over-treatment and irritation cycles",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
-      image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
+      placeholderUrl: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D"
     },
+    relatedTreatments: [
+      "led-light-therapy",
+      "deep-hydration-facial",
+      "oxygen-vitamin-infusion-facial",
+      "microneedling",
+      "medical-grade-skincare",
+      "under-eye-regeneration",
+      "barrier-repair-facial"
+    ],
     faqs: [
-      { question: "Why is the skin under my eyes so thin?", answer: "The eyelid skin is naturally the thinnest on the body (0.5mm vs 2mm elsewhere). It has fewer oil glands and less collagen, making it prone to dehydration, transparency and early ageing." },
-      { question: "Can you actually thicken under-eye skin?", answer: "Yes. By stimulating collagen and elastin production using Polynucleotides or controlled regeneration, we can increase dermal density. Thicker skin is less transparent and more resilient." },
-      { question: "Why can I see blue veins under my eyes?", answer: "When the skin is thin or translucent, the underlying vascular network (veins) shows through, creating a blue or purple dark circle. Thickening the skin helps mask these vessels." },
-      { question: "Does thin skin cause wrinkles?", answer: "Yes. Thin skin has less structural support and 'snap', so it creases easily when you blink or smile. Over time, these creases become static lines." },
-      { question: "Can menopause make under-eye skin thinner?", answer: "Yes. Menopause causes a rapid decline in estrogen, which is essential for collagen and skin thickness. Many women notice sudden fragility and crepey texture during perimenopause." },
-      { question: "Is it safe to treat fragile eye skin?", answer: "Yes, but it requires specialist protocols. We avoid harsh resurfacing and focus on strengthening the barrier and dermis first to prevent irritation or damage." },
-      { question: "Does rubbing my eyes make the skin thinner?", answer: "Yes. Chronic rubbing (often due to allergies or contact lenses) causes mechanical stress that stretches the thin skin and can break capillaries, leading to darkness and laxity." },
-      { question: "Can dehydration make thin skin look worse?", answer: "Yes. When thin skin is dehydrated, it looks papery and wrinkles appear deeper. Hydration boosters can temporarily 'plump' the area while collagen builds long-term strength." },
-      { question: "What is the best treatment for thin under-eye skin?", answer: "Polynucleotides are currently the most effective choice because they signal cells to repair and thicken the tissue without the risk of puffiness that fillers can sometimes cause." },
-      { question: "Where can I get Thin Under-Eye Skin treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
+      { question: "What causes thin under-eye skin and fragility?", answer: "Thin under-eye skin is often caused by collagen decline, dehydration, hormonal changes and reduced tissue support with age. The under-eye area naturally has less structural strength, so fragility often becomes more noticeable over time." },
+      { question: "Why does my under-eye area look more translucent or bluish?", answer: "When under-eye skin becomes thinner, blood vessels underneath become more visible, creating a blue or purple tone. This is common in vascular dark circles and in clients with reduced collagen thickness." },
+      { question: "How long does it take to strengthen fragile under-eye skin?", answer: "Under-eye regeneration is gradual. Many clients notice improvement within 6–12 weeks, but building long-term tissue resilience often takes several months depending on severity, age and hormonal influence." },
+      { question: "Can menopause cause thinning under-eye skin?", answer: "Yes. Menopause accelerates collagen decline and reduces skin thickness, making the under-eye area more fragile and prone to creasing, hollows and vascular visibility." },
+      { question: "Can overusing retinol or acids damage the under-eye area?", answer: "Yes. Strong actives used too frequently can disrupt the barrier and worsen under-eye dryness, irritation and thinning appearance. Under-eye skin requires gentler, controlled product selection." },
+      { question: "Why does my under-eye area sting when I apply skincare?", answer: "Stinging often indicates barrier disruption or active inflammation. Fragile under-eye skin becomes more reactive when the barrier is compromised, which is why ULANDA focuses on stabilisation and repair before introducing corrective stimulation." },
+      { question: "Can under-eye fragility be improved without harsh treatments?", answer: "Yes. Treatments such as LED Light Therapy, hydration rebuilding and structured under-eye regeneration protocols can improve collagen behaviour gradually without aggressive stimulation." },
+      { question: "Can thin under-eye skin contribute to dark circles?", answer: "Yes. Thin skin makes blood vessels more visible, which increases vascular darkness under the eyes. Improving collagen density and hydration can reduce the intensity of this appearance over time." },
+      { question: "Can under-eye fragility worsen fine lines and creasing?", answer: "Yes. When the under-eye tissue is thin and dehydrated, fine lines become deeper and creasing becomes more visible. Strengthening the skin barrier and collagen support improves texture gradually." },
+      { question: "Can tear trough hollows look worse when the under-eye skin is thin", answer: "Yes. Thin skin reduces light reflection and makes hollows appear deeper. Many clients benefit from a combined approach that supports both structural contour and tissue strength." },
+      { question: "Where can I get Under-Eye Fragility / Thin Skin treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
     ],
     cta: {
       title: "Strengthen",
-      highlight: "delicate",
-      titleSuffix: "skin.",
-      description: "Book your eye regeneration consultation.",
+      highlight: "fragile skin",
+      titleSuffix: "safely.",
+      description: "Book your under-eye health consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
     id: 'puffy-under-eyes',
     seo: {
-      title: "Puffy Eyes Treatment Ware SG12 | Eye Bags & Fluid | ULANDA",
+      title: "Puffy Under-Eyes / Fluid Retention Treatment Ware | ULANDA",
       description: "Reduce under-eye puffiness & fluid retention. Lymphatic drainage, LED & tear trough support to refresh tired eyes."
     },
     hero: {
       title: "Puffy Under-Eyes /",
       highlight: "Fluid Retention",
-      description: "Puffy under-eyes are a common concern that can make the face look tired, swollen or heavier around the eye area. We treat puffiness as a structural and fluid-behaviour issue, stimulating drainage and reducing inflammation to restore a rested contour.",
-      buttonText: "Book Your Consultation",
+      subtitle: "Fluid Retention / Swelling",
+      description: "Puffy under-eyes are a common concern that can make the face look tired, swollen or heavier around the eye area — even when you feel well-rested. Some clients experience puffiness only in the morning, while others notice persistent under-eye swelling that fluctuates depending on sleep, stress, hormones, diet or inflammation.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
-    treatmentModel: {
-      title: "How ULANDA Reduces Puffiness -",
-      highlight: "Drain - Calm - Strengthen",
+    intro: {
+      content: "At ULANDA, puffy under-eyes are treated as a structural and fluid-behaviour issue, not simply a cosmetic concern. Your Skin Health Consultation includes dedicated under-eye assessment to determine whether puffiness is linked to lymphatic stagnation, inflammation, fluid retention, allergies, skin fragility, or deeper structural imbalance. This ensures your plan is safe, sequenced and designed for long-term improvement rather than temporary quick fixes."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Drain",
-          subtitle: "(Lymphatic Support)",
-          description: "Moves stagnant fluid.",
-          image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "Lymphatic Detox Facial", desc: "Supports fluid movement and reduces under-eye stagnation." },
-            { name: "Manual Massage", desc: "Specialised techniques to clear oedema." }
-          ]
+          title: "Lymphatic Congestion",
+          description: "and reduced fluid drainage"
         },
         {
-          title: "Calm",
-          subtitle: "(Anti-Inflammatory)",
-          description: "Reduces inflammation-driven swelling.",
-          image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-          points: [
-            { name: "LED Light Therapy", desc: "Supports skin recovery and reduces redness." },
-            { name: "Barrier Repair", desc: "Calms allergic or reactive puffiness." }
-          ]
+          title: "Circulation Patterns",
+          description: "salt intake, dehydration and poor circulation"
         },
         {
-          title: "Strengthen",
-          subtitle: "(Structure)",
-          description: "Supports skin to hold back potential fat pads.",
+          title: "Inflammatory Triggers",
+          description: "allergies, sinus congestion or eye rubbing"
+        },
+        {
+          title: "Hormonal Fluctuation",
+          description: "affecting fluid retention"
+        },
+        {
+          title: "Systemic Inflammation",
+          description: "poor sleep quality and stress"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Under-Eye Regeneration Blueprint (Secondary: Internal Wellness Conditions if systemic fluid retention dominates)"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, under-eye puffiness is supported through fluid management, inflammation reduction and skin resilience support, using structured sequencing.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Drain & Calm)",
+          description: "Targeted treatments for under-eye puffiness:",
           image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
           placeholderUrl: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
           points: [
-            { name: "Polynucleotides", desc: "Thickens skin to improve contour control." }
+             { name: "Lymphatic Detox Facial", desc: "supports fluid movement and reduces under-eye stagnation" },
+             { name: "LED Light Therapy", desc: "supports inflammation reduction and skin recovery" },
+             { name: "Deep Hydration Facial", desc: "supports hydration balance and reduces dehydration-driven swelling patterns" },
+             { name: "Oxygen Glow Facial", desc: "improves radiance and tissue vitality without irritation" },
+             { name: "Under-Eye Regeneration Blueprint Planning", desc: "structured under-eye pathway for puffiness, fragility and shadowing" },
+             { name: "Medical-Grade Skincare Planning", desc: "supports under-eye inflammation reduction and barrier stability" },
+             { name: "Internal Wellness Screening", desc: "supports systemic inflammation and fluid retention behaviour" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Advanced Nurse Practitioner-led under-eye assessment",
-        "Differentiation between fluid and fat",
-        "Lymphatic-focused treatments",
-        "Serving Ware, Hertford & St Albans"
+        "Advanced Nurse Practitioner-led under-eye assessment with clinical precision",
+        "Structured approach that separates puffiness from hollows, pigmentation and vascular darkness",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Barrier-first planning to protect fragile under-eye tissue",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
       image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
+    relatedTreatments: [
+      "lymphatic-drainage-facial",
+      "led-light-therapy",
+      "deep-hydration-facial",
+      "oxygen-vitamin-infusion-facial",
+      "under-eye-regeneration",
+      "medical-grade-skincare"
+    ],
     faqs: [
       { question: "What causes puffy under-eyes and fluid retention?", answer: "Puffy under-eyes are often caused by fluid retention, lymphatic congestion, inflammation, allergies, poor sleep quality or dehydration. Some clients also experience puffiness due to hormonal fluctuation or systemic inflammation patterns." },
       { question: "Why are my under-eyes puffy in the morning but better later in the day?", answer: "Morning puffiness is often linked to overnight fluid pooling and reduced lymphatic drainage while lying down. This can be worsened by salt intake, alcohol, dehydration, poor sleep quality or sinus congestion." },
@@ -2073,7 +2362,8 @@
       titleSuffix: "effectively.",
       description: "Book your lymphatic eye consultation.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
@@ -3025,65 +3315,92 @@
   {
     id: 'hyperpigmentation',
     seo: {
-      title: "Hyperpigmentation Treatment Ware SG12 | Dark Spots | ULANDA",
-      description: "Treat dark spots & excessive pigmentation. Regenerative protocols to normalise melanin and restore clear, even skin."
+      title: "Hyperpigmentation / Dark Spots Treatment Ware | ULANDA",
+      description: "Treat dark spots & irregular pigmentation. Structured correction and barrier-safe sequencing for long-term clarity in Ware, Hertfordshire."
     },
     hero: {
-      title: "Regenerative Solutions for",
-      highlight: "Hyperpigmentation",
-      description: "Pigmentation signals deep cellular damage from sun, hormones or inflammation. We don’t just bleach it; we repair the melanocytes and strengthen the skin barrier for long-term clarity.",
+      title: "Hyperpigmentation",
+      highlight: "/ Dark Spots",
+      subtitle: "Irregular Pigmentation",
+      description: "Hyperpigmentation is one of the most common skin concerns and one of the most misunderstood. Dark spots can appear gradually over time or suddenly after inflammation, acne, sun exposure or hormonal change. Many clients find that pigmentation becomes more noticeable with age, and often feels difficult to treat because it can return if the skin is not managed correctly.",
       image: "https://plus.unsplash.com/premium_photo-1664203068076-c95b2d3054a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
-    treatmentModel: {
-      title: "How ULANDA Treats Pigmentation -",
-      highlight: "Correct - Repair - Protect",
+    intro: {
+      content: "At ULANDA, we treat pigmentation as a skin behaviour pattern — meaning we assess what is triggering pigment production, whether inflammation is present, and how stable your skin barrier is before introducing corrective treatments. This ensures pigmentation correction is safe, structured and designed for long-term clarity."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Refresh",
-          subtitle: "(Surface Correction)",
-          description: "Lifts dark spots and sun damage:",
-          image: "/assets/img/conditions/hyperpigmentation-hero.webp",
-          points: [
-            { name: "BioRePeel", desc: "Sheds pigmented cells and promotes fresh skin." },
-            { name: "Chemical Peels", desc: "Targeted acids to break down melanin clusters." }
-          ]
+          title: "UV Exposure",
+          description: "driving biological pigmentation"
         },
         {
-          title: "Renew",
-          subtitle: "(Dermal Repair)",
-          description: "Strengthens skin to prevent recurrence:",
-          image: "/assets/img/conditions/hyperpigmentation-hero.webp",
-          points: [
-            { name: "Microneedling", desc: "Normalises cell function and turnover." },
-            { name: "Polynucleotides (PN)", desc: "Repairs the DNA damage driving pigmentation." },
-            { name: "PRP", desc: "Uses your own growth factors to heal tissue." }
-          ]
+          title: "Post-Inflammatory Pigmentation (PIH)",
+          description: "following acne or irritation"
         },
         {
-          title: "Radiate",
-          subtitle: "(Internal Control)",
-          description: "Inhibits pigment from within:",
+          title: "Hormonal Pigmentation",
+          description: "patterns and melasma flare risk"
+        },
+        {
+          title: "Inflammation",
+          description: "and barrier dysfunction increasing pigment sensitivity"
+        },
+        {
+          title: "Ageing-Related Pigmentation",
+          description: "and uneven tone development"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, pigmentation is treated through structured tone correction, skin renewal and barrier-safe sequencing to reduce rebound pigmentation risk.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Structured Tone Correction)",
+          description: "Targeted treatments for hyperpigmentation:",
           image: "/assets/img/conditions/hyperpigmentation-hero.webp",
+          placeholderUrl: "/assets/img/conditions/hyperpigmentation-hero.webp",
           points: [
-            { name: "Glutathione IV", desc: "The 'Master Antioxidant' for skin brightening." },
-            { name: "Vitamin C IV", desc: "Protects against UV damage and builds collagen." }
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "supports skin clarity and tone through cleansing and hydration infusion" },
+            { name: "Enzyme Renewal Facial", desc: "gentle resurfacing to improve dullness and uneven tone safely" },
+            { name: "Chemical Peel Therapy", desc: "targeted pigmentation correction through structured peeling protocols (where clinically appropriate)" },
+            { name: "LED Light Therapy", desc: "supports inflammation reduction and recovery to stabilise pigment behaviour" },
+            { name: "Microneedling / Collagen Induction Therapy", desc: "improves tone and skin architecture when pigment stability allows" },
+            { name: "Medical-Grade Pigmentation Skincare Planning", desc: "structured skincare guidance to improve tone and prevent recurrence" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Cellular repair, not just bleaching",
-        "Safe for all skin types",
-        "Long-term management strategies",
-        "Serving Ware, Hertford, Broxbourne & St Albans"
+        "Advanced Nurse Practitioner-led pigmentation assessment and clinical decision-making",
+        "Barrier-first planning to reduce inflammation-triggered pigmentation risk",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Treatment sequencing designed for long-term tone correction, not quick fixes",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
-      image: "/assets/img/conditions/hyperpigmentation-hero.webp"
+      image: "/assets/img/conditions/hyperpigmentation-hero.webp",
+      placeholderUrl: "/assets/img/conditions/hyperpigmentation-hero.webp"
     },
+    relatedTreatments: [
+      "hydrafacial",
+      "enzyme-therapy",
+      "chemical-peels",
+      "led-light-therapy",
+      "microneedling"
+    ],
     faqs: [
       { question: "What causes hyperpigmentation and dark spots on the face?", answer: "Hyperpigmentation occurs when the skin produces excess melanin in response to triggers such as sun exposure, inflammation, acne, hormonal change, irritation or ageing. At ULANDA, we identify the pigment behaviour type so correction is structured and safe." },
       { question: "Are dark spots always caused by sun damage?", answer: "Not always. Sun exposure is a major cause, but dark spots can also result from acne marks, irritation, hormonal fluctuation or inflammation. Many clients have mixed pigmentation patterns, which is why assessment matters." },
@@ -3103,71 +3420,99 @@
       titleSuffix: "brighter skin?",
       description: "Book your pigmentation consultation and start your journey to clarity.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
     id: 'melasma',
     seo: {
-      title: "Melasma Treatment Ware SG12 | Hormonal Pigmentation | ULANDA",
-      description: "Expert Melasma management. Safe, non-laser, heat-free treatments for hormonal pigmentation. Polynucleotides, peels & nutritional support."
+      title: "Melasma (Hormonal Pigmentation) Treatment Ware | ULANDA",
+      description: "Melasma is a complex and often stubborn form of pigmentation. ULANDA offers structured, barrier-safe pigment correction and long-term stability planning in Ware, Hertfordshire."
     },
     hero: {
-      title: "Expert Management for",
-      highlight: "Melasma",
-      description: "Melasma is hormonal and heat-sensitive. Lasers often make it worse. We use a 'Cold & Calm' regenerative approach to suppress pigment without inflammation.",
+      title: "Melasma",
+      highlight: "(Hormonal Pigmentation)",
+      subtitle: "Hormonal Pigmentation",
+      description: "Melasma is a complex and often stubborn form of pigmentation that commonly appears as symmetrical patches of brown or grey-brown discolouration across the cheeks, forehead, upper lip or jawline. Many women notice melasma develop or worsen during pregnancy, postpartum recovery, perimenopause or menopause — and it can become increasingly reactive to heat, sun exposure and inflammation.",
       image: "https://plus.unsplash.com/premium_photo-1664203068076-c95b2d3054a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
-    treatmentModel: {
-      title: "How ULANDA Manages Melasma -",
-      highlight: "Suppress - Strengthen - Stabilise",
+    intro: {
+      content: "At ULANDA, melasma is treated as a long-term skin behaviour pattern, not a quick “dark spot” issue. Your Skin Behaviour Consultation helps us assess pigment triggers, barrier stability, inflammation patterns and your risk of rebound pigmentation — so your plan is safe, structured and designed for long-term tone stability."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Refresh",
-          subtitle: "(Heat-Free Resurfacing)",
-          description: "Lifts pigment without thermal trauma:",
-          image: "/assets/img/conditions/melasma-hero.webp",
-          points: [
-            { name: "BioRePeel", desc: "Cold peel technology; safe for melasma." },
-            { name: "Mandelic Peels", desc: "Gentle, large-molecule acid that doesn't irritate." },
-            { name: "Enzyme Therapy", desc: "Non-acid resurfacing to keep skin calm." }
-          ]
+          title: "Hormonal Fluctuation",
+          description: "pregnancy, postpartum, perimenopause, menopause"
         },
         {
-          title: "Renew",
-          subtitle: "(Cellular Suppression)",
-          description: "Calms hyperactive melanocytes:",
-          image: "/assets/img/conditions/melasma-hero.webp",
-          points: [
-            { name: "Polynucleotides (PN)", desc: "The Gold Standard for melasma; repairs cells so they stop over-reacting." },
-            { name: "Microneedling (Cold)", desc: "Used gently to deliver pigment-inhibitors (mesotherapy)." }
-          ]
+          title: "UV Exposure",
+          description: "and increased pigment sensitivity"
         },
         {
-          title: "Radiate",
-          subtitle: "(Hormonal Balance)",
-          description: "Internal regulation is key:",
+          title: "Heat Stimulation",
+          description: "and inflammation-triggered pigment activation"
+        },
+        {
+          title: "Barrier Dysfunction",
+          description: "reducing pigment stability and recovery"
+        },
+        {
+          title: "Skin Over-Treatment",
+          description: "leading to rebound pigmentation flare"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, melasma is treated through barrier-safe pigment correction and structured sequencing designed to reduce recurrence and avoid over-stimulation.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for melasma:",
           image: "/assets/img/conditions/melasma-hero.webp",
+          placeholderUrl: "/assets/img/conditions/melasma-hero.webp",
           points: [
-            { name: "Women's Longevity IV", desc: "Supports hormonal health." },
-            { name: "Glutathione IV", desc: "Inhibits melanin production systemically." }
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "supports skin clarity and hydration while improving surface congestion" },
+            { name: "Enzyme Renewal Facial", desc: "gentle resurfacing to improve tone without aggressive stimulation" },
+            { name: "LED Light Therapy", desc: "supports inflammation reduction and recovery for pigment stability" },
+            { name: "Chemical Peel Therapy", desc: "targeted pigmentation correction using controlled protocols (where clinically appropriate)" },
+            { name: "Microneedling / Collagen Induction Therapy", desc: "improves tone and skin architecture when pigment behaviour is stable" },
+            { name: "Medical-Grade Pigmentation Skincare Planning", desc: "structured skincare and prevention strategy to reduce melasma flare risk" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Melasma-safe 'Cold' protocols",
-        "No aggressive lasers (risk of rebound)",
-        "Focus on Polynucleotides & Repair",
-        "Serving Ware, Hertford, Broxbourne & St Albans"
+        "Advanced Nurse Practitioner-led melasma assessment and clinical decision-making",
+        "Barrier-first planning to reduce rebound pigmentation risk",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Structured treatment sequencing designed for long-term pigment stability",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by women across Ware, Hertfordshire and surrounding areas"
       ],
-      image: "/assets/img/conditions/melasma-hero.webp"
+      image: "/assets/img/conditions/melasma-hero.webp",
+      placeholderUrl: "/assets/img/conditions/melasma-hero.webp"
     },
+    relatedTreatments: [
+      "hydrafacial",
+      "enzyme-therapy",
+      "led-light-therapy",
+      "chemical-peels",
+      "microneedling"
+    ],
     faqs: [
       { question: "What is melasma and why does it behave differently from other pigmentation?", answer: "Melasma is a hormonally influenced pigmentation pattern that is highly reactive to UV exposure, heat and inflammation. It often appears symmetrically across the cheeks, forehead or upper lip and can flare easily if treated too aggressively." },
       { question: "Why does melasma keep returning even after treatment?", answer: "Melasma tends to recur because the triggers remain active. UV exposure, heat stimulation, hormonal fluctuation and inflammation can all reactivate melanin production. Long-term stability requires both correction and prevention." },
@@ -3187,7 +3532,8 @@
       titleSuffix: "your melasma?",
       description: "Book your specialist melasma consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://ulanda-100633.square.site/",
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
   },
   {
@@ -3197,60 +3543,89 @@
       description: "Fade post-acne marks (PIH) safely. Specialist treatments for dark spots left by breakouts. Suitable for all skin tones."
     },
     hero: {
-      title: "Clear Dark Marks with",
-      highlight: "PIH Treatment",
-      description: "Post-Inflammatory Hyperpigmentation (PIH) is a stain left by inflammation. We fade these marks safely without using harsh bleaches that can cause more damage.",
+      title: "Post-Acne",
+      highlight: "Pigmentation (PIH)",
+      subtitle: "Acne Marks & Pigmentation",
+      description: "Post-acne pigmentation, also known as PIH (post-inflammatory hyperpigmentation), refers to the dark marks that remain after acne breakouts have healed. Many clients find that even when active breakouts reduce, their skin still looks uneven, patchy or “stained,” particularly across the cheeks, jawline or forehead.",
       image: "https://plus.unsplash.com/premium_photo-1664203068366-f3387be92fb9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
-    treatmentModel: {
-      title: "How ULANDA Fades PIH -",
-      highlight: "Calm - Fade - Prevent",
+    intro: {
+      content: "At ULANDA, PIH is treated as an inflammation-driven pigment behaviour. It is not simply a surface “dark spot” issue — it is the result of inflammatory activity triggering excess melanin production during the healing process. Your Skin Behaviour Consultation helps us assess whether your pigmentation is acne-linked, barrier-linked or hormonally influenced, so your treatment plan is safe, sequenced and designed to reduce recurrence."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Refresh",
-          subtitle: "(Gentle Exfoliation)",
-          description: "Speeds up the shedding of stained cells:",
-          image: "/assets/img/conditions/pih-hero.webp",
-          points: [
-            { name: "BioRePeel", desc: "Effective but gentle; safe for acne-prone skin." },
-            { name: "Salicylic/Mandelic Peels", desc: "Anti-inflammatory acids that fade marks." }
-          ]
+          title: "Inflammatory Acne",
+          description: "causing pigment activation during healing"
         },
         {
-          title: "Renew",
-          subtitle: "(Heal & Regulate)",
-          description: "Stops the skin from over-producing pigment:",
-          image: "/assets/img/conditions/pih-hero.webp",
-          points: [
-            { name: "Microneedling", desc: "Breaks pigment up mechanically to be cleared." },
-            { name: "Polynucleotides (PN)", desc: "Heals the inflammation causing the pigment." },
-            { name: "LED Therapy", desc: "Calms redness and speeds healing." }
-          ]
+          title: "Picking & Squeezing",
+          description: "or skin trauma increasing pigmentation depth"
         },
         {
-          title: "Radiate",
-          subtitle: "(Internal Support)",
-          description: "Clears inflammation from within:",
+          title: "Ongoing Breakouts",
+          description: "continuously re-triggering pigment behaviour"
+        },
+        {
+          title: "UV Exposure",
+          description: "darkening PIH marks and prolonging healing"
+        },
+        {
+          title: "Barrier Disruption",
+          description: "from harsh acne products increasing inflammation"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, post-acne pigmentation is treated through controlled skin renewal, inflammation control and structured correction to improve tone safely.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for post-acne pigmentation:",
           image: "/assets/img/conditions/pih-hero.webp",
+          placeholderUrl: "/assets/img/conditions/pih-hero.webp",
           points: [
-            { name: "Glutathione IV", desc: "Powerful anti-inflammatory and brightener." }
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "supports clarity, hydration and congestion control" },
+            { name: "Enzyme Renewal Facial", desc: "gentle resurfacing to improve tone and brighten marks" },
+            { name: "Chemical Peel Therapy", desc: "structured PIH correction where clinically appropriate" },
+            { name: "Microneedling / Collagen Induction Therapy", desc: "improves pigmentation depth and skin architecture" },
+            { name: "LED Light Therapy", desc: "reduces inflammation and supports healing stability" },
+            { name: "Oxygen Glow Facial", desc: "improves radiance and recovery without over-stimulation" },
+            { name: "Medical-Grade Skincare Planning", desc: "supports pigment control and reduces breakout recurrence" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Safe for darker skin tones (avoiding rebound)",
-        "Acne-safe protocols",
-        "Focus on healing inflammation first",
-        "Serving Ware, Hertford, Broxbourne & St Albans"
+        "Advanced Nurse Practitioner-led assessment focused on acne behaviour and pigment risk",
+        "Barrier-first planning to prevent over-treatment and rebound pigmentation",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Structured sequencing that treats both acne triggers and pigmentation outcomes",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
-      image: "/assets/img/conditions/pih-hero.webp"
+      image: "/assets/img/conditions/pih-hero.webp",
+      placeholderUrl: "/assets/img/conditions/pih-hero.webp"
     },
+    relatedTreatments: [
+      "hydrafacial",
+      "chemical-peels",
+      "microneedling",
+      "led-light-therapy",
+      "oxygen-glow-facial"
+    ],
     faqs: [
       { question: "What is post-acne pigmentation (PIH) and why does it happen?", answer: "PIH happens when inflammation from acne triggers excess melanin production during healing. The result is dark marks that can remain long after the breakout clears. PIH is common in inflammatory acne and in skin that has been irritated or over-treated." },
       { question: "How long does PIH take to fade naturally?", answer: "PIH can fade naturally, but it often takes several months depending on depth, skin tone, inflammation levels and UV exposure. Many clients choose structured treatment because PIH can remain visible for a long time without intervention." },
@@ -3265,11 +3640,11 @@
       { question: "Where can I get Post-Acne Pigmentation (PIH) treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
     ],
     cta: {
-      title: "Ready to",
-      highlight: "clear",
-      titleSuffix: "acne marks?",
-      description: "Book your PIH consultation and regain confidence in your skin.",
-      buttonText: "Book Your Consultation",
+      title: "Clear Post-Acne",
+      highlight: "Pigmentation",
+      titleSuffix: "",
+      description: "Book a consultation to fade marks and restore skin clarity.",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3280,62 +3655,89 @@
       description: "Correct uneven skin tone, blotchiness & dullness. Medical facials, peels & boosters to restore clarity and radiance."
     },
     hero: {
-      title: "Medical Brightening for",
-      highlight: "Uneven Skin Tone",
-      description: "Patchy, dull or irregular tone makes skin look aged and tired. We restore luminosity by exfoliating dead cells, regulating pigment and hydrating deeply.",
+      title: "Uneven",
+      highlight: "Skin Tone",
+      subtitle: "Tone, Texture & Pigmentation",
+      description: "Uneven skin tone is one of the most common concerns clients bring to ULANDA — often described as patchy colour, dullness, sun spots, post-acne marks or a complexion that no longer looks clear and consistent. Some clients notice uneven tone gradually over time, while others experience sudden changes following inflammation, hormonal transition or skin barrier fatigue.",
       image: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZSUyMGNsZWFuc2luZyUyMHNwYXxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
-    treatmentModel: {
-      title: "How ULANDA Evens Skin Tone -",
-      highlight: "Exfoliate - Hydrate - Regenerate",
+    intro: {
+      content: "At ULANDA, uneven skin tone is treated as a skin behaviour pattern, not a single surface issue. Your Skin Behaviour Consultation allows us to identify whether your uneven tone is pigment-driven, inflammation-driven, hormonal or linked to barrier instability — so your plan is safe, sequenced and designed for long-term clarity."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Refresh",
-          subtitle: "(Surface Brightening)",
-          description: "Removes dull, dead cells to reveal fresh skin:",
-          image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
-          points: [
-            { name: "BioRePeel", desc: "Dissolves dead cells and pigment without downtime." },
-            { name: "Enzyme Therapy", desc: "Digests surface debris for an immediate glow." },
-            { name: "Chemical Peels", desc: "Targeted acids (Lactic, Mandelic) for deep clarity." }
-          ]
+          title: "Sun Exposure",
+          description: "and UV-triggered pigmentation"
         },
         {
-          title: "Renew",
-          subtitle: "(Cellular Repair)",
-          description: "Normalises cell turnover and pigment production:",
-          image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
-          points: [
-            { name: "Microneedling", desc: "Breaks up pigment clusters and stimulates new healthy cells." },
-            { name: "Polynucleotides (PN)", desc: "Reduces inflammation that causes blotchiness." },
-            { name: "Skin Boosters", desc: "Deep hydration (e.g. Profhilo) reflects light for evenness." }
-          ]
+          title: "Post-Inflammatory Pigmentation",
+          description: "after acne or irritation (PIH)"
         },
         {
-          title: "Radiate",
-          subtitle: "(Internal Glow)",
-          description: "Nutrients to brighten from within:",
+          title: "Hormonal Pigmentation",
+          description: "patterns including melasma risk"
+        },
+        {
+          title: "Inflammation & Redness",
+          description: "causing tone imbalance"
+        },
+        {
+          title: "Dehydration",
+          description: "and slowed cell turnover reducing radiance"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, uneven tone is corrected through controlled skin renewal, pigment-safe treatment sequencing and barrier-aware skin planning.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for uneven skin tone:",
           image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
+          placeholderUrl: "/assets/img/conditions/uneven-skin-tone-hero.webp",
           points: [
-            { name: "Glutathione IV", desc: "Master antioxidant that inhibits melanin production." },
-            { name: "Vitamin C IV", desc: "Brightens skin and builds collagen." }
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "supports clarity, hydration and brightness" },
+            { name: "Enzyme Renewal Facial", desc: "gentle resurfacing to improve dullness and uneven tone" },
+            { name: "Chemical Peel Therapy", desc: "structured pigment correction where clinically appropriate" },
+            { name: "Microneedling / Collagen Induction Therapy", desc: "improves tone and skin architecture when suitable" },
+            { name: "LED Light Therapy", desc: "supports recovery and inflammation control" },
+            { name: "Oxygen Glow Facial", desc: "improves vitality and radiance without over-stimulation" },
+            { name: "Medical-Grade Skincare Planning", desc: "supports long-term tone stability and prevention" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Safe, non-bleaching brightening",
-        "Treatments for sensitive & menopausal skin",
-        "Holistic approach (topical + internal)",
-        "Serving Ware, Hertford, Broxbourne & St Albans"
+        "Advanced Nurse Practitioner-led assessment with structured skin tone mapping",
+        "Barrier-first planning to prevent rebound pigmentation and irritation",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Sequenced treatment strategy rather than random “brightening” treatments",
+        "Calm premium environment with strong clinical governance and safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
-      image: "/assets/img/conditions/uneven-skin-tone-hero.webp"
+      image: "/assets/img/conditions/uneven-skin-tone-hero.webp",
+      placeholderUrl: "/assets/img/conditions/uneven-skin-tone-hero.webp"
     },
+    relatedTreatments: [
+      "hydrafacial",
+      "chemical-peels",
+      "microneedling",
+      "led-light-therapy",
+      "oxygen-glow-facial"
+    ],
     faqs: [
       { question: "What causes uneven skin tone?", answer: "Uneven skin tone is usually caused by pigmentation, sun exposure, inflammation, post-acne marks, hormonal change or dehydration. Many clients have more than one cause at the same time, which is why structured assessment is essential." },
       { question: "Is uneven skin tone always pigmentation?", answer: "Not always. Uneven tone can also be driven by redness, sensitivity flare-ups and barrier dysfunction. At ULANDA, we assess whether tone imbalance is pigment-based or inflammation-based so treatment selection is correct." },
@@ -3354,7 +3756,7 @@
       highlight: "radiant,",
       titleSuffix: "even skin?",
       description: "Book your brightening consultation and reveal your natural glow.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3365,60 +3767,89 @@
       description: "Repair sun damage & photo-ageing. Medical treatments to reverse UV spots, leatheriness and elastosis. Restoring skin health."
     },
     hero: {
-      title: "Regenerative Repair for",
-      highlight: "Sun Damage",
-      description: "UV exposure breaks down DNA, collagen and pigment control. We don’t just peel it away; we repair the DNA damage and rebuild the dermis.",
+      title: "Sun Damage /",
+      highlight: "Photo-Pigmentation",
+      subtitle: "Sun Damage & Photo-Aging",
+      description: "Sun damage, also known as photo-pigmentation, occurs when repeated UV exposure triggers uneven melanin production and accelerates structural ageing within the skin. Many clients notice sun damage as patchy tone, scattered brown spots, freckles becoming darker, rough texture, dullness and an overall loss of skin clarity.",
       image: "https://plus.unsplash.com/premium_photo-1664203067963-889814407b46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHN1biUyMHByb3RlY3Rpb258ZW58MHwxfDB8fHww",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
-    treatmentModel: {
-      title: "How ULANDA Repairs Sun Damage -",
-      highlight: "Repair - Rebuild - Protect",
+    intro: {
+      content: "At ULANDA, sun damage is treated as both a pigmentation issue and a skin architecture concern. UV exposure does not only affect surface colour — it also breaks down collagen, reduces elasticity and disrupts the skin’s long-term regenerative behaviour. Your Skin Behaviour Consultation helps us assess pigment type, barrier stability and structural ageing so your correction plan is safe, sequenced and designed for long-term improvement.",
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Refresh",
-          subtitle: "(Surface Correction)",
-          description: "Lifts visible sun spots and roughness:",
-          image: "/assets/img/conditions/sun-damage-hero.webp",
-          points: [
-            { name: "BioRePeel", desc: "biphasic peel to lift pigment and smooth texture." },
-            { name: "Chemical Peels", desc: "TCA or Jessner's for deeper photo-damage." }
-          ]
+          title: "Cumulative UV Exposure",
+          description: "over years (even without sunburn)"
         },
         {
-          title: "Renew",
-          subtitle: "(DNA & Dermal Repair)",
-          description: "Reverses cellular UV damage:",
-          image: "/assets/img/conditions/sun-damage-hero.webp",
-          points: [
-            { name: "Polynucleotides (PN)", desc: "Clinically proven to repair DNA damage from UV." },
-            { name: "Microneedling / RF", desc: "Rebuilds collagen destroyed by the sun (elastosis)." },
-            { name: "Exosomes", desc: "Potent growth factors to reverse cellular ageing." }
-          ]
+          title: "Pigmentation Activation",
+          description: "from holidays, tanning or outdoor work"
         },
         {
-          title: "Radiate",
-          subtitle: "(Antioxidant Defence)",
-          description: "Neutralises free radicals:",
+          title: "Uneven Melanin Distribution",
+          description: "and age spot formation"
+        },
+        {
+          title: "Collagen Breakdown",
+          description: "and loss of firmness due to photoaging"
+        },
+        {
+          title: "Inflammation & Barrier Fatigue",
+          description: "increasing pigmentation sensitivity"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, sun damage is corrected through structured tone correction, controlled skin renewal and long-term regenerative sequencing.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for sun damage:",
           image: "/assets/img/conditions/sun-damage-hero.webp",
+          placeholderUrl: "/assets/img/conditions/sun-damage-hero.webp",
           points: [
-            { name: "Glutathione + Vit C IV", desc: "Scavenges free radicals and brightens tone." },
-            { name: "NAD+ IV", desc: "Restores cellular energy drained by repair processes." }
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "supports clarity, brightness and hydration balance" },
+            { name: "Enzyme Renewal Facial", desc: "gentle resurfacing to improve dullness and uneven pigmentation" },
+            { name: "Chemical Peel Therapy", desc: "targeted pigment correction where clinically appropriate" },
+            { name: "Microneedling / Collagen Induction Therapy", desc: "improves tone and strengthens skin architecture" },
+            { name: "LED Light Therapy", desc: "supports inflammation reduction and post-treatment recovery" },
+            { name: "Dermaplaning (Clinical Dermaplaning Therapy)", desc: "improves surface smoothness and glow safely" },
+            { name: "Medical-Grade Skincare Planning", desc: "long-term pigment prevention and tone stabilisation support" }
           ]
         }
       ]
     },
     whyChoose: {
-      title: "Why",
-      highlight: "Clients Choose ULANDA",
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
       items: [
-        "Treatment of leatheriness (Elastosis)",
-        "Whole-skin restoration, not just spot removal",
-        "Serving Ware, Hertford, Hoddesdon & Great Amwell"
+        "Advanced Nurse Practitioner-led assessment focused on pigment behaviour and skin ageing patterns",
+        "Barrier-first planning to prevent rebound pigmentation and irritation",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Structured sequencing to correct pigmentation safely while supporting collagen health",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
       ],
-      image: "/assets/img/conditions/sun-damage-hero.webp"
+      image: "/assets/img/conditions/sun-damage-hero.webp",
+      placeholderUrl: "/assets/img/conditions/sun-damage-hero.webp"
     },
+    relatedTreatments: [
+      "hydrafacial",
+      "chemical-peels",
+      "microneedling",
+      "led-light-therapy",
+      "dermaplaning"
+    ],
     faqs: [
       { question: "What is photo-pigmentation and how is it different from normal pigmentation?", answer: "Photo-pigmentation is pigmentation caused primarily by UV exposure over time. It often appears as scattered sun spots, uneven tone and patchy brown areas. Unlike some hormonal pigmentation types, photo-pigmentation is typically driven by cumulative sun damage and ageing patterns." },
       { question: "Can sun damage affect skin texture and firmness as well as skin tone?", answer: "Yes. UV exposure not only increases pigmentation but also breaks down collagen and elastin, leading to rough texture, enlarged pores, fine lines and firmness loss. This is why ULANDA treats sun damage as both a tone and architecture issue." },
@@ -3433,11 +3864,11 @@
       { question: "Where can I get Sun Damage / Photo-Pigmentation treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
     ],
     cta: {
-      title: "Ready to",
-      highlight: "reverse",
-      titleSuffix: "sun damage?",
-      description: "Book your sun-repair consultation and restore healthy skin.",
-      buttonText: "Book Your Consultation",
+      title: "Reverse",
+      highlight: "Sun Damage",
+      titleSuffix: "",
+      description: "Book a consultation to identify your skin's UV damage and recovery needs.",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4102,175 +4533,6 @@
     }
   },
   {
-    id: 'non-responsive-skin',
-    seo: {
-      title: "Non-Responsive Skin & Treatment Fatigue | Regenerative Skin Aesthetics | Skin Clinic Ware SG12",
-      description: "Non-responsive skin and treatment fatigue occur when results plateau despite repeated treatments. Learn how ULANDA Skin Clinic identifies underlying barriers and guides care through its regenerative skin treatment."
-    },
-    hero: {
-      title: "Non-Responsive Skin &",
-      highlight: "Treatment Fatigue",
-      description: "Non-responsive skin, sometimes referred to as treatment fatigue, describes a state in which the skin no longer delivers consistent or lasting results, despite appropriate treatments being performed. At ULANDA, this is understood not as a failure of treatment — but as a signal that the skin’s biology, recovery capacity or structure requires reassessment.",
-      buttonText: "Book Consultation",
-      buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
-    },
-    science: {
-      title: "Why Treatment Fatigue Develops -",
-      highlight: "The Biology",
-      description: "Treatment fatigue is rarely caused by a single factor. It often reflects a combination of:",
-      items: [
-        { number: '01', title: 'Cumulative Inflammation', description: 'Chronic inflammation hinders response.' },
-        { number: '02', title: 'Reduced Collagen Response', description: 'Cells become less responsive to stimulation.' },
-        { number: '03', title: 'Impaired Barrier Function', description: 'A weak barrier prevents effective treatment.' },
-        { number: '04', title: 'Hormonal Transition', description: 'Changes in hormones affect repair capacity.' },
-        { number: '05', title: 'Structural Change', description: 'Deeper changes masked by surface treatments.' },
-        { number: '06', title: 'Insufficient Recovery', description: 'Lack of downtime prevents healing.' }
-      ],
-      footer: "As the skin changes biologically, repeating the same treatments can lead to diminishing returns rather than progress."
-    },
-    treatmentModel: {
-      title: "How Non-Responsive Skin Is Addressed at ULANDA -",
-      highlight: "The Regenerative Model",
-      items: [
-        {
-          title: "Assess",
-          subtitle: "(Understanding the Cause)",
-          description: "Care begins with understanding why the skin has stopped responding:",
-          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Collagen Quality", desc: "Evaluating the health of your collagen." },
-            { name: "Structural Support", desc: "Checking for deeper structural issues." },
-            { name: "Hormonal Context", desc: "How hormones are affecting repair." }
-          ]
-        },
-        {
-          title: "Radiate",
-          subtitle: "(Regenerative Pathway)",
-          description: "Moving from isolated treatments to a structured pathway:",
-          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Pathway Planning", desc: "A comprehensive plan rather than a series of treatments." },
-            { name: "Sequencing", desc: "Ordering treatments for maximum impact." },
-            { name: "Recovery Focus", desc: "Prioritising barrier health and recovery." }
-          ]
-        }
-      ]
-    },
-    whyChoose: {
-      title: "Why",
-      highlight: "Choose ULANDA",
-      items: [
-        "We identify biological barriers to repair",
-        "We clarify whether regeneration is appropriate now",
-        "We discuss realistic outcomes and timelines",
-        "We avoid unnecessary or premature intervention"
-      ],
-      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
-    },
-    cta: {
-      title: "Ready to",
-      highlight: "reassess",
-      titleSuffix: "your skin?",
-      description: "When skin stops responding, the answer is not more treatment — it is better interpretation.",
-      buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
-    }
-  },
-  {
-    id: 'pelvic-intimate-regeneration',
-    seo: {
-      title: "Pelvic & Intimate Regeneration in Ware SG12 | Radiate Pathway | ULANDA",
-      description: "Clinician-led pelvic and intimate regeneration in Ware, Hertfordshire. A consultation-first Radiate pathway supporting tissue health, comfort and recovery across life stages."
-    },
-    hero: {
-      title: "Pelvic & Intimate",
-      highlight: "Regeneration",
-      description: "Pelvic and intimate tissue changes are a biological reality across a woman’s life course — particularly following childbirth, during perimenopause, and through menopause. These changes are rarely cosmetic in nature. They are functional, structural and deeply embodied. This pathway exists to support tissue quality, resilience and comfort.",
-      buttonText: "Request a Radiate Consultation",
-      buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
-    },
-    science: {
-      title: "Hormonal Context & Life-Stage Awareness -",
-      highlight: "The Science",
-      description: "Pelvic and intimate tissues are highly hormone-responsive. Changes in oestrogen, progesterone and androgen balance influence:",
-      items: [
-        { number: '01', title: 'Tissue Hydration', description: 'Essential for comfort and resilience.' },
-        { number: '02', title: 'Collagen Integrity', description: 'Critical for structural support.' },
-        { number: '03', title: 'Elasticity', description: 'Allows for flexibility and movement.' },
-        { number: '04', title: 'Vascularity', description: 'Blood flow supports healing and health.' },
-        { number: '05', title: 'Recovery Capacity', description: 'Hormones drive how well tissues repair.' }
-      ],
-      footer: "Hormonal status is understood as biological context, not a standalone intervention."
-    },
-    treatmentModel: {
-      title: "How Care Is Approached -",
-      highlight: "The Radiate Method",
-      items: [
-        {
-          title: "Assess",
-          subtitle: "(Tissue Readiness)",
-          description: "Tissue readiness is assessed before intervention:",
-          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Assessment", desc: "Detailed evaluation of tissue health." },
-            { name: "Inflammation Check", desc: "Ensuring sensitivity is respected." }
-          ]
-        },
-        {
-          title: "Assess",
-          subtitle: "(Tissue Readiness)",
-          description: "Tissue readiness is assessed before intervention:",
-          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Assessment", desc: "Detailed evaluation of tissue health." },
-            { name: "Inflammation Check", desc: "Ensuring sensitivity is respected." }
-          ]
-        },
-        {
-          title: "Treat",
-          subtitle: "(Conservative & Progressive)",
-          description: "Intervention intensity is conservative and progressive:",
-          image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Regenerative Energy", desc: "Supportive energy-based support." },
-            { name: "Tissue Stimulation", desc: "Techniques appropriate to intimate anatomy." },
-            { name: "Recovery Protocols", desc: "Focus on healing and comfort." }
-          ]
-        }
-      ]
-    },
-    whyChoose: {
-      title: "Why",
-      highlight: "Choose ULANDA",
-      items: [
-        "Clinician-led pelvic and intimate regeneration",
-        "Consultation-first Radiate pathway",
-        "Supports tissue health, comfort and recovery",
-        "Life-stage awareness (postpartum, perimenopause, menopause)"
-      ],
-      image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      placeholderUrl: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1200"
-    },
-    cta: {
-      title: "When Comfort,",
-      highlight: "Identity and Biology",
-      titleSuffix: "Intersect",
-      description: "If you are seeking clarity rather than correction, a Radiate consultation offers space to explore whether regenerative support is appropriate for you.",
-      buttonText: "Request a Radiate Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
-    }
-  },
-  {
     id: 'skin-recovery-repair',
     seo: {
       title: "Skin Recovery & Repair | Post-Treatment Skin | ULANDA Ware",
@@ -4336,6 +4598,15 @@
       ],
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
     },
+    relatedTreatments: [
+      { id: "barrier-support-facial", title: "Barrier Support Facial", description: "Stabilises sensitised skin and restores comfort and resilience." },
+      { id: "deep-hydration-facial", title: "Deep Hydration Facial", description: "Replenishes hydration and improves tightness and dryness." },
+      { id: "led-light-therapy", title: "LED Light Therapy", description: "Reduces inflammation and supports repair and recovery pathways." },
+      { id: "oxygen-glow-facial", title: "Oxygen Glow Facial", description: "Restores vitality and improves glow without irritation." },
+      { id: "lymphatic-detox-facial", title: "Lymphatic Detox Facial", description: "Reduces stagnation and supports calmer skin behaviour." },
+      { id: "hydrafacial", title: "Advanced Cleansing & Hydration Therapy (HydraFacial)", description: "Safe hydration therapy once the barrier is stable enough." }
+    ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     faqs: [
       {
         question: "What does “sensitised skin” actually mean?",
@@ -4396,11 +4667,12 @@
     hero: {
       title: "Non-Responsive Skin &",
       highlight: "Treatment Fatigue",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "When treatments stop delivering not because they’re wrong, but because the skin is no longer responding",
       description: [
-        "When treatments stop delivering not because they’re wrong, but because the skin is no longer responding.",
         "Non-responsive skin, sometimes referred to as treatment fatigue, describes a state in which the skin no longer delivers consistent or lasting results, despite appropriate treatments being performed.",
-        "At ULANDA, this is understood not as a failure of treatment but as a signal that the skin’s biology, recovery capacity or structure requires reassessment."
+        "At ULANDA, this is understood not as a failure of treatment but as a signal that the skin’s biology, recovery capacity or structure requires reassessment.",
+        "Non-responsive skin is a functional skin state where expected improvements plateau, regress or become unpredictable. It often emerges after years of repeated treatments delivered without adequate recovery, reassessment or sequencing.",
+        "It may look like: Results that fade quickly, skin that reacts differently to the same treatment, increasing downtime with diminishing benefit, or a sense that “nothing works anymore”."
       ],
       buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
@@ -4421,19 +4693,117 @@
       ],
       footer: "As the skin changes biologically, repeating the same treatments can lead to diminishing returns rather than progress."
     },
+    contentSections: [
+      {
+        title: "How Non-Responsive Skin Differs From",
+        highlight: "Sensitivity or Barrier Dysfunction",
+        description: [
+          "Although they may overlap, these are not the same states:",
+          "Skin Sensitivity & Recovery describes reactivity and delayed healing.",
+          "Barrier Dysfunction reflects impaired skin protection.",
+          "Non-Responsive Skin reflects reduced regenerative response.",
+          "Understanding this distinction is critical because pushing stimulation when regeneration has stalled often worsens outcomes."
+        ],
+        link: { text: "Related guidance: Skin Sensitivity & Recovery →", url: "/conditions/redness-sensitivity-reactive-skin" }
+      },
+      {
+        title: "Common Signs of",
+        highlight: "Treatment Fatigue",
+        description: "You may be experiencing non-responsive skin if:",
+        items: [
+           "Treatments that once worked no longer do",
+           "Results are short-lived or inconsistent",
+           "Downtime feels longer than before",
+           "Texture or firmness no longer improves",
+           "Skin appears “tired” rather than inflamed",
+           "This often marks a transition point in a client’s skin aesthetic journey."
+        ]
+      },
+      {
+        title: "Why Repeating Treatments Is",
+        highlight: "Not the Answer",
+        description: "Increasing frequency, intensity or layering treatments rarely resolves non-responsive skin. Instead, this can:",
+        items: [
+           "Increase inflammatory load",
+           "Exhaust collagen response",
+           "Compromise recovery capacity",
+           "Mask deeper structural or hormonal drivers",
+           "At this stage, strategy matters more than modality."
+        ]
+      },
+      {
+         title: "A Regenerative Interpretation of",
+         highlight: "Non-Responsive Skin",
+         description: [
+            "Within the Radiate Method™, non-responsive skin is viewed as a signal to:",
+            "Pause repetitive stimulation",
+            "Reassess tissue behaviour",
+            "Identify biological or structural barriers",
+            "Adjust sequencing and treatment focus",
+            "This transition from doing more to thinking differently is where regeneration begins."
+         ],
+         link: { text: "Learn more: The Radiate Method →", url: "/treatments/radiate/radiate-method/" }
+      }
+    ],
     whyChoose: {
       title: "How Non-Responsive Skin Is Addressed",
       highlight: "at ULANDA",
+      description: "Care begins with understanding why the skin has stopped responding. This may involve exploring:",
       items: [
         "Collagen quality rather than quantity",
         "Structural support beneath the skin",
         "Hormonal context affecting repair",
-        "Cumulative treatment history analysis",
-        "Recovery and resilience capacity assessment",
-        "Radiate methodology for plateaued results"
+        "Cumulative treatment history",
+        "Recovery and resilience capacity",
+        "In many cases, this assessment leads into a Radiate consultation, where care is planned as a pathway rather than a series of isolated treatments."
       ],
+      link: { text: "Radiate Overview →", url: "/treatments/radiate/" },
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
+    relatedTreatments: [
+      { 
+        id: "skin-sensitivity-recovery", 
+        title: "Skin Sensitivity vs. Fatigue",
+        description: "Sensitivity reflects reactivity; fatigue reflects reduced regenerative response. Understand the difference."
+      },
+      { 
+        id: "radiate-method", 
+        title: "The Radiate Method™", 
+        description: "A regenerative framework for non-responsive skin, shifting from repetitive treatments to planned pathways." 
+      },
+      { 
+        id: "menopause-regeneration", 
+        title: "Hormonal Skin Support", 
+        description: "Address biological changes that stall skin response during perimenopause and menopause." 
+      }
+    ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
+    contentSections2: [
+        {
+            title: "When Radiate Is the",
+            highlight: "Right Next Step",
+            description: "Radiate may be appropriate when:",
+            items: [
+                "Results plateau despite varied treatments",
+                 "Skin concerns feel interconnected",
+                 "Structural or life-stage changes are present",
+                 "A plan is needed rather than another procedure",
+                 "Not all clients require Radiate — but when non-responsive skin is present, regenerative planning often becomes essential."
+            ]
+        },
+        {
+             title: "What to Expect From",
+             highlight: "a Consultation",
+             description: "A consultation for non-responsive skin focuses on:",
+             items: [
+                 "Understanding tissue response patterns",
+                 "Identifying barriers to regeneration",
+                 "Clarifying whether recovery, renewal or Radiate-level care is appropriate",
+                 "Avoiding unnecessary or premature intervention",
+                 "For many clients, this clarity alone restores confidence in their skin journey."
+             ]
+        }
+    ],
     faqs: [
       {
         question: "What is non-responsive skin?",
@@ -4490,13 +4860,20 @@
       highlight: "Drivers",
       description: "Dullness is often caused by:",
       items: [
-        { number: "01", title: "Dehydration", description: "Reduced skin water retention." },
-        { number: "02", title: "Slowed Cell Turnover", description: "Build-up of dead skin cells." },
-        { number: "03", title: "Barrier Fatigue", description: "Over-exfoliation or excessive active ingredients." },
-        { number: "04", title: "Pigmentation & Sun Damage", description: "Uneven light reflection." },
-        { number: "05", title: "Lifestyle Factors", description: "Stress, poor sleep and inflammation patterns affecting skin function." }
+        { title: "Dehydration", description: "Reduced skin water retention." },
+        { title: "Slowed Cell Turnover", description: "Build-up of dead skin cells." },
+        { title: "Barrier Fatigue", description: "Over-exfoliation or excessive active ingredients." },
+        { title: "Pigmentation & Sun Damage", description: "Uneven light reflection." },
+        { title: "Lifestyle Factors", description: "Stress, poor sleep and inflammation patterns affecting skin function." }
       ],
-      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme"
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme. (Secondary: Skin Barrier Repair & Recovery if dullness is barrier-fatigue driven)"
+    },
+    programmePathway: {
+      title: "Primary Recommended Programme Pathway",
+      pathway: "Photoaging & Skin Architecture Programme",
+      pathwayLink: "/treatments/radiate/programmes/collagen-reset",
+      secondary: "(Secondary: Skin Barrier Repair & Recovery if dullness is barrier-fatigue driven)",
+      secondaryLink: "/treatments/refresh"
     },
     whyChoose: {
       title: "Why",
@@ -4511,6 +4888,15 @@
       ],
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
+    relatedTreatments: [
+      { id: "hydrafacial", title: "Advanced Cleansing & Hydration Therapy (HydraFacial)", description: "Deep cleanse, gentle exfoliation and hydration infusion for immediate brightness." },
+      { id: "oxygen-glow-facial", title: "Oxygen Glow Facial", description: "Boosts radiance and improves skin vitality safely." },
+      { id: "enzyme-renewal-facial", title: "Enzyme Renewal Facial", description: "Supports smoother texture and skin turnover without aggressive peeling." },
+      { id: "led-light-therapy", title: "LED Light Therapy", description: "Improves inflammation patterns and supports repair for brighter skin." },
+      { id: "dermaplaning", title: "Clinical Dermaplaning Therapy", description: "Removes surface build-up to reveal smoother, fresher skin tone." },
+      { id: "lymphatic-detox-facial", title: "Lymphatic Detox Facial", description: "Reduces stagnation and supports clearer, more energised skin appearance." }
+    ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     faqs: [
       {
         question: "What is the main cause of dull skin and loss of glow?",
@@ -4588,12 +4974,19 @@
       description: "Chronic dryness is often driven by:",
       items: [
         { number: "01", title: "Lipid Depletion", description: "Weakened skin barrier losing natural oils." },
-        { number: "02", title: "Hormonal Shifts", description: "Menopause or hormonal skin shifts affecting hydration." },
-        { number: "03", title: "Harsh Routines", description: "Cleansing routines and overuse of exfoliating acids." },
+        { number: "02", title: "Hormonal Shifts", description: "Menopause or hormonal skin shifts affecting hydration and collagen." },
+        { number: "03", title: "Harsh Routines", description: "Harsh cleansing routines and overuse of exfoliating acids." },
         { number: "04", title: "Environmental Factors", description: "Cold weather, wind, indoor heating." },
-        { number: "05", title: "Inflammation", description: "Patterns of inflammation reducing recovery capacity." }
+        { number: "05", title: "Inflammation", description: "Inflammation patterns and reduced skin recovery capacity." }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme"
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme. Secondary: Menopause Skin Rebuild Programme if menopause-linked."
+    },
+    programmePathway: {
+      title: "Primary Recommended Programme Pathway",
+      pathway: "Skin Barrier Repair & Recovery Programme",
+      pathwayLink: "/treatments/refresh",
+      secondary: "(Secondary: Menopause Skin Rebuild Programme if menopause-linked)",
+      secondaryLink: "/treatments/radiate/programmes/menopause-regeneration"
     },
     whyChoose: {
       title: "Why",
@@ -4608,6 +5001,15 @@
       ],
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
+    relatedTreatments: [
+      { id: "barrier-support-facial", title: "Barrier Support Facial", description: "Stabilises dryness, irritation and compromised barrier function." },
+      { id: "deep-hydration-facial", title: "Deep Hydration Facial", description: "Intensive hydration infusion for tight, depleted skin." },
+      { id: "hydrafacial", title: "Advanced Cleansing & Hydration Therapy (HydraFacial)", description: "Deep cleanse and hydration delivery without stripping the skin." },
+      { id: "led-light-therapy", title: "LED Light Therapy", description: "Reduces inflammation and supports skin recovery and healing." },
+      { id: "oxygen-glow-facial", title: "Oxygen Glow Facial", description: "Restores radiance and improves skin vitality safely." },
+      { id: "enzyme-renewal-facial", title: "Enzyme Renewal Facial", description: "Gentle resurfacing to improve texture without over-exfoliation." }
+    ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     faqs: [
       {
         question: "What is the difference between dry skin and dehydrated skin?",
@@ -4691,6 +5093,11 @@
       ],
       footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme"
     },
+    programmePathway: {
+      title: "Primary Recommended Programme Pathway",
+      pathway: "Skin Barrier Repair & Recovery Programme",
+      pathwayLink: "/treatments/refresh"
+    },
     whyChoose: {
       title: "Why",
       highlight: "Clients Choose ULANDA",
@@ -4704,6 +5111,15 @@
       ],
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
+    relatedTreatments: [
+      { id: "hydrafacial", title: "Advanced Cleansing & Hydration Therapy (HydraFacial)", description: "Deep cleanse, extract and infuse hydration safely." },
+      { id: "deep-hydration-facial", title: "Deep Hydration Facial", description: "Intensive hydration rebuild for tight, depleted skin." },
+      { id: "barrier-support-facial", title: "Barrier Support Facial", description: "Stabilises sensitivity and strengthens skin resilience." },
+      { id: "led-light-therapy", title: "LED Light Therapy", description: "Reduces inflammation and supports skin recovery." },
+      { id: "lymphatic-detox-facial", title: "Lymphatic Detox Facial", description: "Improves congestion, dullness and fluid stagnation." },
+      { id: "oxygen-glow-facial", title: "Oxygen Glow Facial", description: "Boosts radiance and improves skin vitality without irritation." }
+    ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     faqs: [
       {
         question: "What is the difference between dehydrated skin and dry skin?",
@@ -4787,6 +5203,11 @@
       ],
       footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme"
     },
+    programmePathway: {
+      title: "Primary Recommended Programme Pathway",
+      pathway: "Skin Barrier Repair & Recovery Programme",
+      pathwayLink: "/treatments/refresh"
+    },
     whyChoose: {
       title: "Why",
       highlight: "Clients Choose ULANDA",
@@ -4800,6 +5221,15 @@
       ],
       image: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww"
     },
+    relatedTreatments: [
+      { id: "barrier-support-facial", title: "Barrier Support Facial", description: "Restores stability and reduces sensitivity and irritation." },
+      { id: "deep-hydration-facial", title: "Deep Hydration Facial", description: "Replenishes hydration and improves skin comfort." },
+      { id: "led-light-therapy", title: "LED Light Therapy", description: "Reduces inflammation and supports skin repair and recovery." },
+      { id: "oxygen-glow-facial", title: "Oxygen Glow Facial", description: "Supports healing and glow without aggressive stimulation." },
+      { id: "lymphatic-detox-facial", title: "Lymphatic Detox Facial", description: "Reduces congestion and inflammatory stagnation patterns." },
+      { id: "hydrafacial", title: "Advanced Cleansing & Hydration Therapy (HydraFacial)", description: "Safe cleansing and hydration infusion once the barrier is stable." }
+    ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     faqs: [
       {
         question: "What is the skin barrier and what happens when it breaks down?",
@@ -4853,55 +5283,109 @@
   },
   {
     id: "postpartum-skin-changes",
+    seo: {
+      title: "Postpartum Skin Treatment Ware SG12 | Hormonal Skin Support | ULANDA",
+      description: "Treat postpartum dryness, melasma & breakouts. Nurse-led hormonal skin support for safe, structured recovery."
+    },
     hero: {
       title: "Postpartum",
       highlight: "Skin Changes",
-      subtitle: "Menopause & Hormonal Skin Change",
-      description: "Hormonal shifts after pregnancy can trigger sudden dryness, melasma, or breakouts. ULANDA helps rebalance and restore skin health safely.",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      description: [
+        "Postpartum skin changes are common and often unexpected. Many women notice that after pregnancy their skin becomes drier, more sensitive, more reactive, prone to breakouts, or affected by pigmentation changes. Even if your skin was stable before pregnancy, the postpartum period can trigger a shift in skin behaviour due to hormonal fluctuation, inflammation patterns, stress, sleep disruption and reduced recovery capacity.",
+        "At ULANDA, we understand postpartum skin as a transition phase. Your Skin Behaviour Consultation helps us identify what has changed in your barrier function, hydration retention and skin stability — so your plan is calm, safe, and aligned to long-term recovery rather than quick fixes."
+      ],
+      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/Postpartum.webp",
-      placeholderUrl: "/assets/img/conditions/Postpartum.webp",
-      buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      placeholderUrl: "/assets/img/conditions/Postpartum.webp"
     },
-    category: "Menopause & Hormonal Skin Change",
-    content: [
-      {
-        title: "Hormonal Depletion & Dryness",
-        description: "After delivery, estrogen and progesterone levels drop sharply. This reduces natural oil production and hydration, leaving skin feeling tight, rough, or flaky."
-      },
-      {
-        title: "Post-Pregnancy Melasma (The Mask of Pregnancy)",
-        description: "Melasma often appears during pregnancy due to high estrogen but can persist postpartum. Pigment settles into stubborn patches on the forehead, cheeks, or upper lip."
-      },
-      {
-        title: "Postpartum Acne & Texture",
-        description: "Fluctuating hormones and stress (cortisol) can trigger breakouts, even if skin was clear during pregnancy. Texture often becomes uneven due to slower cell turnover."
-      },
-      {
-        title: "Sensitivity & Barrier Instability",
-        description: "Sleeplessness and internal depletion weaken the skin barrier, making it more reactive to products that were previously tolerated."
-      }
+    science: {
+      title: "Common Triggers &",
+      highlight: "Drivers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        { title: "Hormonal Fluctuation", description: "Changes following pregnancy and breastfeeding." },
+        { title: "Barrier Instability", description: "Increased dryness, dehydration and sensitivity." },
+        { title: "Pigmentation Changes", description: "Melasma or uneven tone driven by hormones." },
+        { title: "Congestion Patterns", description: "Postpartum breakouts and texture changes." },
+        { title: "Lifestyle Factors", description: "Stress, fatigue and reduced sleep affecting skin recovery." }
+      ],
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme. (Secondary: Photoaging & Skin Architecture if pigmentation dominates)"
+    },
+    programmePathway: {
+      title: "Primary Recommended Programme Pathway",
+      pathway: "Skin Barrier Repair & Recovery Programme",
+      pathwayLink: "/treatments/refresh",
+      secondary: "(Secondary: Photoaging & Skin Architecture if pigmentation dominates)",
+      secondaryLink: "/treatments/radiate/programmes/collagen-reset"
+    },
+    whyChoose: {
+      title: "Why",
+      highlight: "Clients Choose ULANDA",
+      items: [
+        "Advanced Nurse Practitioner-led consultation with structured postpartum skin assessment",
+        "Barrier-first decision-making to prevent flare-ups and over-treatment",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Calm treatment sequencing designed for sensitive or hormonally shifting skin",
+        "Premium environment with strong clinical governance and safety standards",
+        "Trusted by women across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "/assets/img/conditions/Postpartum.webp"
+    },
+    relatedTreatments: [
+      { id: "barrier-support-facial", title: "Barrier Support Facial", description: "Stabilises sensitivity and supports barrier recovery postpartum." },
+      { id: "deep-hydration-facial", title: "Deep Hydration Facial", description: "Restores hydration and comfort for dry, depleted skin." },
+      { id: "led-light-therapy", title: "LED Light Therapy", description: "Supports repair, reduces inflammation and calms reactive patterns." },
+      { id: "hydrafacial", title: "Advanced Cleansing & Hydration Therapy (HydraFacial)", description: "Safe cleansing and hydration infusion once skin is stable." },
+      { id: "oxygen-glow-facial", title: "Oxygen Glow Facial", description: "Improves dullness and restores radiance without irritation." },
+      { id: "enzyme-renewal-facial", title: "Enzyme Renewal Facial", description: "Gentle skin renewal for texture and glow when appropriate." }
     ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     faqs: [
       {
-        question: "Why is my skin so dry after giving birth?",
-        answer: "Estrogen drops rapidly, reducing hydration and oil production, which leads to immediate dryness and loss of glow."
+        question: "Why does postpartum skin feel so different from pregnancy skin?",
+        answer: "After pregnancy, hormone levels shift rapidly, and the skin may lose the glow and stability it had during pregnancy. Many women experience dryness, sensitivity, breakouts or pigmentation changes as the body transitions hormonally and recovery capacity is reduced."
       },
       {
-        question: "Will postpartum melasma fade on its own?",
-        answer: "It often improves but can linger without targeted treatment and sun protection. Persistent pigment requires a structured approach to fade safely."
+        question: "Is postpartum skin change temporary or long-term?",
+        answer: "Some changes improve naturally over time, but many women continue to experience dryness, pigmentation and breakouts for months. Structured support can significantly speed up recovery and stabilisation."
       },
       {
-        question: "Is it safe to treat skin while breastfeeding?",
-        answer: "Yes. ULANDA customises safe, effective plans that avoid contraindicated ingredients like high-dose retinol or salicylic acid."
+        question: "Can postpartum skin become more reactive or sensitive?",
+        answer: "Yes. Postpartum skin often becomes more sensitive due to barrier disruption, dehydration and inflammation patterns. Stress and sleep disruption also reduce repair capacity."
       },
       {
-        question: "Why am I breaking out now if I didn’t during pregnancy?",
-        answer: "Postpartum hormone fluctuations and elevated arachidonic acid (inflammation) can trigger delayed acne flare-ups."
+        question: "Can postpartum hormones cause acne even if I never had acne before?",
+        answer: "Yes. Many women experience postpartum breakouts, particularly around the jawline and lower face. These breakouts can be inflammation-driven and may need a gentle, barrier-safe approach."
       },
       {
-        question: "Can sleeplessness affect my skin?",
-        answer: "Yes. Lack of sleep increases cortisol, which degrades collagen and impairs the skin’s ability to repair itself overnight."
+        question: "Why do I have pigmentation or dark patches after pregnancy?",
+        answer: "Pregnancy-related pigmentation such as melasma can persist postpartum, especially if UV exposure continues. Hormonal influence combined with inflammation can make pigmentation more stubborn."
+      },
+      {
+        question: "Is it safe to have treatments postpartum?",
+        answer: "Many treatments are safe, but suitability depends on skin stability, healing capacity and breastfeeding considerations. At ULANDA, treatment selection is guided through consultation and clinical screening."
+      },
+      {
+        question: "What is the best way to restore glow postpartum?",
+        answer: "Postpartum glow is best restored through hydration rebuilding, barrier stabilisation and gentle renewal rather than harsh peels or aggressive exfoliation."
+      },
+      {
+        question: "Can postpartum skin changes overlap with perimenopause-type skin behaviour?",
+        answer: "Some postpartum clients experience skin patterns similar to hormonal transition, including dryness, sensitivity and breakouts. The key is structured assessment to determine the dominant drivers."
+      },
+      {
+        question: "Can postpartum skin changes trigger melasma flare?",
+        answer: "Yes. Melasma is highly hormone-linked and can persist or flare postpartum. Prevention and controlled correction are essential."
+      },
+      {
+        question: "Can postpartum breakouts lead to long-term hormonal acne patterns?",
+        answer: "Yes. Some clients develop ongoing adult breakout behaviour postpartum. Early barrier stabilisation and inflammation control can reduce long-term recurrence."
+      },
+      {
+        question: "Where can I book a postpartum skin consultation near me in Ware, Hertfordshire?",
+        answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Behaviour Consultations and postpartum recovery skin programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and St Albans for calm, expert postpartum skin support."
       }
     ],
     cta: {
@@ -4915,55 +5399,103 @@
   },
   {
     id: "perimenopause-skin-changes",
+    seo: {
+      title: "Perimenopause Skin Treatment Ware SG12 | Hormonal Skin Support | ULANDA",
+      description: "Treat perimenopause dryness, sensitivity & collagen loss. Nurse-led hormonal skin support for stability & resilience."
+    },
     hero: {
       title: "Perimenopause",
       highlight: "Skin Changes",
-      subtitle: "Menopause & Hormonal Skin Change",
-      description: "As hormones fluctuate before menopause, skin becomes drier, more sensitive, and prone to unexpected breakouts. We stabilise these changes.",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      description: [
+        "Perimenopause is one of the most common times women notice sudden and unexpected changes in their skin. Many clients describe their skin as becoming drier, more sensitive, less firm, more reactive, and harder to manage — even if they have never struggled with skin issues before.",
+        "At ULANDA, we understand that perimenopause skin changes are not “just ageing.” They are often driven by hormonal fluctuation, collagen decline, reduced hydration retention and increased inflammation patterns. Your Skin Behaviour Consultation helps us identify what is shifting in your skin biology and how to rebuild stability and resilience safely."
+      ],
+      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp"
     },
-    category: "Menopause & Hormonal Skin Change",
-    content: [
-      {
-        title: "Erratic Estrogen & Hydration Loss",
-        description: "In perimenopause, estrogen levels swing unpredictably. This disrupts the skin’s ability to hold water, leading to days of intense dryness followed by sudden oiliness."
-      },
-      {
-        title: "Collagen Decline & Early Laxity",
-        description: "Collagen production begins to slow down, leading to finer skin texture, less bounce, and the beginning of visible laxity around the jawline and eyes."
-      },
-      {
-        title: "Adult Acne Flare-Ups",
-        description: "Sudden hormonal shifts can trigger acne along the jawline and chin, even in those who haven’t had breakouts for years."
-      },
-      {
-        title: "Increased Sensitivity & Redness",
-        description: "As the skin barrier weakens from hormonal variability, the skin becomes more reactive to heat, stress, and active ingredients."
-      }
+    science: {
+      title: "Common Triggers &",
+      highlight: "Drivers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        { title: "Hormonal Fluctuation", description: "Unpredictable oestrogen levels affecting hydration." },
+        { title: "Collagen Decline", description: "Early firmness loss and fine lines." },
+        { title: "Increased Sensitivity", description: "Inflammation and redness flare patterns." },
+        { title: "Hormonal Breakouts", description: "Congestion changes along the jawline." },
+        { title: "Reduced Recovery", description: "Slower skin healing and regenerative capacity." }
+      ],
+      footer: "Primary Recommended Programme Pathway: Menopause Skin Rebuild Programme"
+    },
+    programmePathway: {
+      title: "Primary Recommended Programme Pathway",
+      pathway: "Menopause Skin Rebuild Programme",
+      pathwayLink: "/treatments/radiate/programmes/menopause-regeneration"
+    },
+    whyChoose: {
+      title: "Why",
+      highlight: "Clients Choose ULANDA",
+      items: [
+        "Advanced Nurse Practitioner-led consultation with hormonal skin understanding",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Barrier-first and regenerative-first planning for long-term skin resilience",
+        "Structured sequencing designed specifically for hormonal transition skin",
+        "Calm premium environment with strong clinical governance and safety standards",
+        "Trusted by women across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp"
+    },
+    relatedTreatments: [
+      { id: "deep-hydration-facial", title: "Deep Hydration Facial", description: "Restores hydration and comfort as skin becomes drier and tighter." },
+      { id: "barrier-support-facial", title: "Barrier Support Facial", description: "Strengthens barrier function and reduces sensitivity flare-ups." },
+      { id: "led-light-therapy", title: "LED Light Therapy", description: "Supports repair, inflammation control and skin resilience." },
+      { id: "profhilo", title: "Skin Booster Treatments", description: "Improves hydration retention and skin plumpness (where clinically appropriate)." },
+      { id: "polynucleotides", title: "Polynucleotide Regenerative Therapy", description: "Supports repair, elasticity and tissue quality (where clinically appropriate)." },
+      { id: "microneedling", title: "Microneedling / Collagen Induction Therapy", description: "Improves texture, firmness and collagen stimulation when barrier-ready." }
     ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     faqs: [
       {
-        question: "How do I know if my skin changes are from perimenopause?",
-        answer: "If you are in your 40s (or late 30s) and notice sudden dryness, new sensitivity, or cyclical breakouts, perimenopause is a likely factor."
+        question: "Why does skin suddenly change during perimenopause?",
+        answer: "Perimenopause causes hormonal fluctuation that affects hydration retention, collagen activity, barrier resilience and inflammation behaviour. This can make skin feel drier, more reactive, duller and less firm — often within a short time period."
       },
       {
-        question: "Why is my skin suddenly so dry?",
-        answer: "Estrogen supports hyaluronic acid production. As estrogen fluctuates, the skin struggles to retain moisture, leading to dehydration."
+        question: "Is perimenopause skin change the same as normal ageing?",
+        answer: "Not exactly. While ageing is gradual, perimenopause often triggers rapid skin shifts due to oestrogen instability. This is why many women feel their skin has “changed overnight,” even if they have always cared for it well."
       },
       {
-        question: "Can I still prevent collagen loss during perimenopause?",
-        answer: "Yes. This is the critical window to support collagen before the sharper decline of menopause. Ingredients like peptides and retinoids are key."
+        question: "Can perimenopause skin become more sensitive to skincare products?",
+        answer: "Yes. Barrier resilience can reduce during hormonal transition, meaning products that once worked may start stinging, drying or irritating the skin. ULANDA assesses whether this is barrier fatigue, inflammation or hormonal sensitivity."
       },
       {
-        question: "Why am I getting acne now?",
-        answer: "Androgens may become relatively higher as estrogen dips, stimulating oil glands and causing deep, cystic breakouts."
+        question: "Why does perimenopause skin feel drier even when I moisturise?",
+        answer: "Oestrogen supports hydration retention and barrier lipid production. As levels fluctuate, the skin loses moisture faster and becomes harder to keep comfortable, especially if the barrier is already weakened."
       },
       {
-        question: "Will my skincare need to change?",
-        answer: "Likely, yes. What worked in your 30s may now be too harsh or not hydrating enough. Adjusting to a supportive routine is essential."
+        question: "Can perimenopause cause sudden breakouts or congestion?",
+        answer: "Yes. Many women experience hormonal breakouts due to oil imbalance, inflammation and stress patterns. These breakouts often behave differently from teenage acne and require structured sequencing."
+      },
+      {
+        question: "Does perimenopause affect collagen and skin firmness?",
+        answer: "Yes. Collagen decline often accelerates during hormonal transition, contributing to laxity, fine lines, thinning skin and reduced elasticity."
+      },
+      {
+        question: "Should I change my skincare routine during perimenopause?",
+        answer: "In many cases, yes. Perimenopause skin often needs more barrier support, hydration stability and inflammation control. ULANDA reviews what is helping versus what may be silently triggering sensitivity."
+      },
+      {
+        question: "Is perimenopause skin linked to menopause skin changes later on?",
+        answer: "Yes. Perimenopause is often the early stage of menopause-related skin decline. Addressing dryness, sensitivity and collagen fatigue early can reduce the severity of later menopause skin fragility."
+      },
+      {
+        question: "Can perimenopause trigger pigmentation or melasma flare-ups?",
+        answer: "It can. Hormonal fluctuation can increase pigmentation risk, especially if sun exposure or inflammation is present. This is why pigment behaviour is assessed during consultation."
+      },
+      {
+        question: "If I’m breaking out in my 40s, could it be hormonal acne rather than skincare-related?",
+        answer: "Yes. Many women develop hormonal acne patterns during perimenopause. Correct diagnosis is essential because harsh acne products can worsen sensitivity and barrier dryness."
       }
     ],
     cta: {
@@ -4977,55 +5509,103 @@
   },
   {
     id: "menopause-skin-changes",
+    seo: {
+      title: "Menopause Skin Treatment Ware SG12 | Hormonal Skin Support | ULANDA",
+      description: "Treat menopause skin dryness, fragility & collagen loss. Nurse-led hormonal skin support for stability, hydration & long-term resilience."
+    },
     hero: {
       title: "Menopause",
       highlight: "Skin Changes",
-      subtitle: "Menopause & Hormonal Skin Change",
-      description: "Post-menopause, collagen loss accelerates and skin thins. We focus on intense hydration, lipid replacement, and structural support.",
+      subtitle: "Dryness, Fragility & Collagen Decline",
+      description: [
+        "Menopause can transform how the skin behaves. Many women notice sudden dryness, thinning, increased sensitivity, loss of firmness, dullness, deeper lines, and a feeling that their skin has become fragile or “less responsive” to skincare and treatments that used to work.",
+        "At ULANDA, we understand menopause skin changes as a biological transition — not simply ageing. As oestrogen declines, collagen production reduces, hydration retention drops, the barrier becomes weaker, and inflammation can increase. Your Skin Behaviour Consultation allows us to assess how menopause is influencing your skin and design a structured plan focused on stability, regeneration and long-term resilience."
+      ],
+      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/Menopausal skin condition.webp",
-      placeholderUrl: "/assets/img/conditions/Menopausal skin condition.webp",
-      buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      placeholderUrl: "/assets/img/conditions/Menopausal skin condition.webp"
     },
-    category: "Menopause & Hormonal Skin Change",
-    content: [
-      {
-        title: "Rapid Collagen Loss (30% in 5 Years)",
-        description: "Studies show skin loses up to 30% of its collagen in the first five years of menopause. This leads to thinner, more fragile skin and deeper wrinkles."
-      },
-      {
-        title: "Severe Dryness & Lipid Deficiency",
-        description: "Oil glands slow down significantly. Without natural lipids, the skin barrier becomes compromised, leading to chronic dryness and itching."
-      },
-      {
-        title: "Thinning & Crepey Texture",
-        description: "As the dermis thins, skin can look like ‘crepe paper,’ especially on the neck and cheeks. It loses its density and resilience."
-      },
-      {
-        title: "Impaired Healing & Sensitivity",
-        description: "Menopausal skin heals slower and is more prone to bruising or irritation because the structural support is weaker."
-      }
+    science: {
+      title: "Common Triggers &",
+      highlight: "Drivers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        { title: "Reduced Oestrogen", description: "Leading to collagen and elastin decline." },
+        { title: "Weakened Barrier Function", description: "Increased water loss (TEWL) and dryness." },
+        { title: "Skin Thinning", description: "Reduced repair capacity and fragility." },
+        { title: "Increased Inflammation", description: "Sensitivity and flushing patterns." },
+        { title: "Hormonal Changes", description: "Affecting pigmentation, texture and elasticity." }
+      ],
+      footer: "Primary Recommended Programme Pathway: Menopause Skin Rebuild Programme"
+    },
+    programmePathway: {
+      title: "Primary Recommended Programme Pathway",
+      pathway: "Menopause Skin Rebuild Programme",
+      pathwayLink: "/treatments/radiate/programmes/menopause-regeneration"
+    },
+    whyChoose: {
+      title: "Why",
+      highlight: "Clients Choose ULANDA",
+      items: [
+        "Advanced Nurse Practitioner-led consultation with menopause-specific skin understanding",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Regenerative-first approach focused on collagen rebuilding and skin longevity",
+        "Barrier-first decision-making to reduce fragility and treatment risk",
+        "Calm premium environment with strong clinical governance and safety standards",
+        "Trusted by women across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "/assets/img/conditions/Menopausal skin condition.webp"
+    },
+    relatedTreatments: [
+      { id: "deep-hydration-facial", title: "Deep Hydration Facial", description: "Restores hydration and comfort in hormonally dry skin." },
+      { id: "barrier-repair-facial", title: "Barrier Support Facial", description: "Strengthens barrier stability and reduces sensitivity flare-ups." },
+      { id: "led-light-therapy", title: "LED Light Therapy", description: "Supports repair, inflammation control and skin resilience." },
+      { id: "profhilo", title: "Skin Booster Treatments", description: "Improves hydration retention and skin plumpness (where clinically appropriate)." },
+      { id: "polynucleotides", title: "Polynucleotide Regenerative Therapy", description: "Supports tissue repair, elasticity and skin quality (where clinically appropriate)." },
+      { id: "microneedling", title: "Microneedling / Collagen Induction Therapy", description: "Stimulates collagen rebuilding and improves texture when barrier-ready." }
     ],
+    seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     faqs: [
       {
-        question: "Why does skin age so fast after menopause?",
-        answer: "Estrogen is a key protector of collagen. When it drops permanently, collagen degrades faster than the body can replace it."
+        question: "Why does menopause make skin suddenly dry and uncomfortable?",
+        answer: "Oestrogen supports hydration retention and barrier integrity. During menopause, oestrogen declines significantly, reducing moisture retention and weakening the barrier. This often leads to tightness, dryness, sensitivity and rough texture."
       },
       {
-        question: "Can I reverse thinning skin?",
-        answer: "You can improve density and thickness with collagen-stimulating treatments and proper hydration, though complete reversal is difficult."
+        question: "Is menopause skin change reversible?",
+        answer: "Menopause skin changes can be improved significantly with the right approach. While the biology changes, skin quality, comfort, hydration and collagen behaviour can be strengthened through structured treatment sequencing and regenerative support."
       },
       {
-        question: "What is the best ingredient for menopausal skin?",
-        answer: "It varies, but peptides, growth factors, and rich lipid moisturisers (ceramides, fatty acids) are crucial for restoring strength."
+        question: "Why does my skin feel thinner or more fragile during menopause?",
+        answer: "Menopause can reduce dermal thickness and slow repair capacity. This makes skin more prone to irritation, bruising, crepey texture and sensitivity. Barrier-first planning is essential during this stage."
       },
       {
-        question: "Why does my skin feel itchy?",
-        answer: "Low oil production leads to a dry, impaired barrier, which triggers nerve endings and causes itching (pruritus)."
+        question: "Can menopause cause sagging and deeper facial lines?",
+        answer: "Yes. Collagen decline accelerates during menopause, contributing to firmness loss, laxity and deepening lines. ULANDA focuses on regenerative support that strengthens skin architecture over time."
       },
       {
-        question: "Does HRT help with skin changes?",
-        answer: "It can help maintain some hydration and collagen, but a targeted topical routine is still necessary for optimal skin health."
+        question: "Does menopause affect the under-eye area?",
+        answer: "Yes. Under-eye hollows, creasing and fragility often become more noticeable during menopause due to collagen loss, thinning tissue and reduced hydration retention."
+      },
+      {
+        question: "Can menopause trigger redness or flushing?",
+        answer: "Yes. Hot flushes and increased inflammation patterns are common. Many women notice their skin becomes more reactive and redness becomes more persistent during menopause."
+      },
+      {
+        question: "What is the best treatment approach for menopause skin?",
+        answer: "Menopause skin responds best to structured programmes that rebuild hydration, strengthen the barrier and support collagen regeneration. This may include hydration therapy, LED support, and regenerative treatments where clinically appropriate."
+      },
+      {
+        question: "Can menopause skin dryness overlap with chronic dry skin and barrier breakdown?",
+        answer: "Yes. Many menopause clients experience chronic dryness due to reduced barrier lipids and hydration retention. This often requires a structured barrier-first recovery phase before advanced correction."
+      },
+      {
+        question: "Can menopause worsen pigmentation or hormonal melasma?",
+        answer: "It can. Hormonal shifts can increase pigmentation sensitivity, especially when combined with sun exposure or inflammation. Pigment stability must be managed carefully."
+      },
+      {
+        question: "If I’m breaking out during menopause, could this be hormonal acne?",
+        answer: "Yes. Adult hormonal breakouts are common during menopause. The skin often becomes both acne-prone and dry, which is why treatment must be balanced and barrier-safe."
       }
     ],
     cta: {
@@ -5039,130 +5619,290 @@
   },
   {
     id: "hormonal-skin-pigmentation",
+    seo: {
+      title: "Hormonal Pigmentation & Melasma Treatment Ware | ULANDA",
+      description: "Manage hormonal pigmentation and melasma in Ware. Safe, effective treatments for uneven skin tone caused by hormonal changes, pregnancy or menopause."
+    },
     hero: {
       title: "Hormonal Skin Pigmentation /",
       highlight: "Melasma Flare",
       subtitle: "Menopause & Hormonal Skin Change",
-      description: "Hormonal shifts can trigger melasma and irregular pigment. We manage this with safe, long-term strategies to calm melanocytes.",
+      description: "Hormonal pigmentation (often called melasma or chloasma) is distinct from ordinary sun damage. It appears as symmetrical, map-like patches on the forehead, cheeks or upper lip and is driven by internal hormonal shifts—such as pregnancy, the contraceptive pill, perimenopause or menopause. Because it is heat-sensitive and inflammatory, aggressive lasers often make it worse. At ULANDA, we treat it with suppression, calm and safe correction.",
       image: "/assets/img/conditions/Melisma.webp",
       placeholderUrl: "/assets/img/conditions/Melisma.webp",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Menopause & Hormonal Skin Change",
-    content: [
-      {
-        title: "Melasma (Chloasma)",
-        description: "Symmetrical patches of pigment on the face, often triggered by hormonal contraceptives, pregnancy, or HRT. It is driven by internal inflammation and heat."
-      },
-      {
-        title: "Estrogen-Driven Dark Spots",
-        description: "Hormones stimulate melanocytes (pigment cells) to overproduce melanin, even with minimal sun exposure. These spots are deeper than standard sun damage."
-      },
-      {
-        title: "Heat & Stress Triggers",
-        description: "Unlike sun spots, hormonal pigment can flare up due to internal heat (hot flashes) or stress, making it more stubborn to treat."
-      },
-      {
-        title: "Safe Correction Without Rebound",
-        description: "Aggressive lasers can worsen hormonal pigment. We use suppressive ingredients and calm the skin to fade pigment without causing a rebound effect."
-      }
+    intro: {
+      content: "At ULANDA, hormonal pigmentation is treated as a chronic, inflammatory skin condition rather than a surface stain. Your Skin Health Consultation helps us identify your specific triggers—whether they are estrogen-driven, stress-related or heat-induced—so your plan effectively suppresses pigment production without causing rebound darkening or inflammation."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        {
+          title: "Estrogen Fluctuations",
+          description: "pregnancy, pill, HRT or perimenopause stimulating melanocytes"
+        },
+        {
+          title: "Heat Sensitivity",
+          description: "hot weather, saunas or exercise flaring pigment"
+        },
+        {
+          title: "Inflammation",
+          description: "underlying skin inflammation worsening pigment depth"
+        },
+        {
+          title: "Sun Exposure",
+          description: "even minimal UV exposure darkening the patches instantly"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Radiate Hormone-Smart Skin Programme (Secondary: Chemical Peel Therapy)"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, hormonal pigmentation is managed through tyrosinase inhibition (pigment suppression), safe exfoliation and vascular calming.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for hormonal pigmentation:",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Medical Chemical Peels (BioRePeel)", desc: "lifts pigment without heat or downtime" },
+            { name: "Microneedling + Depigmenting Mesotherapy", desc: "breaks down pigment clusters deeply" },
+            { name: "LED Light Therapy (Green/Near-Infrared)", desc: "calms the inflammation driving the pigment" },
+            { name: "Oxygen Glow Facial", desc: "brightens without irritation" },
+            { name: "Medical-Grade Skincare (Tyrosinase Inhibitors)", desc: "e.g. tranexamic acid, kojic acid, cysteamine for daily suppression" }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
+      items: [
+        "Advanced Nurse Practitioner-led diagnosis of hormonal vs. sun-damage pigment",
+        "Safe, heat-free strategies that avoid the risk of rebound hyperpigmentation",
+        "Nurse Independent Prescriber oversight for prescription-strength pigment control",
+        "Structured sequencing combining clinic treatment with home suppression",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    relatedTreatments: [
+      "chemical-peel",
+      "microneedling",
+      "led-light-therapy",
+      "oxygen-glow-facial",
+      "medical-grade-skincare"
     ],
     faqs: [
       {
-        question: "Can melasma be cured?",
-        answer: "It is a chronic condition that can be managed and faded significantly, but it requires ongoing maintenance to prevent recurrence."
+        question: "Is hormonal pigmentation the same as sun damage?",
+        answer: "No. Sun damage is cumulative ageing from UV rays. Hormonal pigmentation (melasma) is driven by internal hormonal signals and is often symmetrical and heat-sensitive. Treating it like sun damage (e.g. with IPL) can sometimes make it worse."
       },
       {
-        question: "Does the contraceptive pill cause pigmentation?",
-        answer: "Yes, hormonal birth control mimics pregnancy hormones, which can trigger melasma in susceptible individuals."
+        question: "Why does my pigmentation get darker in summer even with sunscreen?",
+        answer: "Hormonal pigment is sensitive to heat as well as light. Even if you block UV rays, the heat from the sun (infrared) can stimulate melanocytes to produce more pigment. Physical cooling and heat avoidance are key."
       },
       {
-        question: "Why do my spots get darker in summer even with sunscreen?",
-        answer: "Heat alone can stimulate hormonal pigment. Sunscreen protects from UV, but staying cool is also important."
+        question: "Can I use lasers on melasma?",
+        answer: "We are very cautious with lasers on melasma because the heat can trigger inflammation and cause 'rebound pigmentation'. We prefer chemical peels and microneedling which manage pigment without thermal risk."
       },
       {
-        question: "Are lasers safe for hormonal pigmentation?",
-        answer: "Only specific, gentle types. Aggressive heat can trigger inflammation and make melasma worse."
+        question: "Will my pigmentation come back?",
+        answer: "Hormonal pigmentation is a chronic condition, meaning it can be managed and cleared, but it requires maintenance. If you stop suppression or have a hormonal shift, it can return. ULANDA focuses on long-term management strategies."
       },
       {
-        question: "How long does it take to fade melasma?",
-        answer: "Typically 3–6 months of consistent home care and treatments. Patience and sun avoidance are key."
+        question: "Can the contraceptive pill cause pigmentation?",
+        answer: "Yes. The combined contraceptive pill mimics pregnancy hormones, which can trigger melasma in susceptible women. If this is a driver, we may discuss this during your consultation."
+      },
+      {
+        question: "Can stress make pigmentation worse?",
+        answer: "Yes. Stress increases cortisol and inflammation, which stimulates pigment cells. Many clients notice their melasma darkens during stressful periods."
+      },
+      {
+        question: "Is hydroquinone safe for long-term use?",
+        answer: "Hydroquinone is a prescription agent that is effective but should not be used continuously for long periods. ULANDA prescribes it (where appropriate) in structured cycles with safe breaks to prevent resistance or side effects."
+      },
+      {
+        question: "How long does it take to see results?",
+        answer: "Pigment correction takes time because we are working with the skin’s renewal cycle. Most clients see significant brightening within 6–12 weeks of combined home care and treatment."
+      },
+      {
+        question: "Where can I get Hormonal Pigmentation & Melasma treatment near me in Ware, Hertfordshire?",
+        answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided pigment management."
       }
     ],
     cta: {
-      title: "Clear Hormonal",
-      highlight: "Pigmentation",
+      title: "Book Your",
+      highlight: "Skin Health Consultation",
       titleSuffix: "",
-      description: "Book a consultation to fade melasma safely and effectively.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
     id: "hormonal-acne-adult-breakouts",
+    seo: {
+      title: "Hormonal Acne & Adult Breakouts Ware | ULANDA",
+      description: "Treat hormonal acne in Ware with ULANDA’s barrier-first approach. Safe, effective plans for adult breakouts, perimenopause acne & jawline congestion."
+    },
     hero: {
       title: "Hormonal Acne /",
       highlight: "Adult Breakouts",
       subtitle: "Menopause & Hormonal Skin Change",
-      description: "Breakouts along the jawline and chin are often hormonal. We treat the root cause—inflammation and oil balance—without stripping the skin.",
+      description: "Hormonal acne is one of the most frustrating skin concerns because it often appears suddenly, persists despite good skincare, and tends to flare in cycles. Many women experience adult breakouts during perimenopause, menopause, postpartum recovery or periods of stress—even if they never struggled with acne as a teenager.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Menopause & Hormonal Skin Change",
-    content: [
-      {
-        title: "Cyclical Jawline Breakouts",
-        description: "Adult acne often flares before a period or during ovulation, concentrating on the lower face. It is deep, inflamed, and often painful."
-      },
-      {
-        title: "Androgen Sensitivity",
-        description: "Hormonal acne is driven by sensitivity to androgens (male hormones), which increase oil thickness and trap bacteria in the pore."
-      },
-      {
-        title: "Post-Inflammatory Hyperpigmentation (PIH)",
-        description: "Adult skin heals slower than teen skin. Breakouts often leave behind dark red or brown marks that last for months."
-      },
-      {
-        title: "Barrier-First Approach",
-        description: "Harsh acne products damage adult skin. We prioritise barrier health while using targeted actives to clear congestion without drying."
-      }
+    intro: {
+      content: "At ULANDA, we do not treat breakouts as a surface problem alone. We assess skin behaviour patterns, inflammation levels, barrier stability and hormonal influence to determine why your skin is breaking out and what treatment sequencing will improve congestion safely without damaging the barrier."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        {
+          title: "Hormonal Fluctuation",
+          description: "perimenopause, menopause, postpartum changes"
+        },
+        {
+          title: "Increased Oil Imbalance",
+          description: "and pore congestion"
+        },
+        {
+          title: "Inflammation",
+          description: "inflammation-driven breakouts and sensitivity overlap"
+        },
+        {
+          title: "Barrier Disruption",
+          description: "from overuse of acne products or harsh actives"
+        },
+        {
+          title: "Stress & Cortisol",
+          description: "imbalance affecting skin behaviour"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme (Secondary: Skin Barrier Repair & Recovery if acne is inflamed/reactive)"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, adult acne is treated through structured congestion control, inflammation reduction and safe skin renewal — without over-stripping or triggering rebound sensitivity.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for hormonal acne:",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "deep cleanse and extraction support while maintaining hydration" },
+            { name: "Enzyme Renewal Facial", desc: "gentle resurfacing to improve congestion and texture safely" },
+            { name: "LED Light Therapy", desc: "supports inflammation control and acne recovery" },
+            { name: "Lymphatic Detox Facial", desc: "reduces inflammatory stagnation and congestion build-up" },
+            { name: "Dermaplaning (Clinical Dermaplaning Therapy)", desc: "supports smoother texture and clearer skin surface when suitable" },
+            { name: "Chemical Peel Therapy", desc: "improves congestion, breakouts and post-acne marks through safe sequencing (where clinically appropriate)" }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
+      items: [
+        "Advanced Nurse Practitioner-led assessment with structured acne behaviour mapping",
+        "Barrier-first decision-making to avoid acne over-treatment and irritation cycles",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Sequenced treatment planning designed for long-term clarity and skin stability",
+        "Calm premium environment with strong clinical governance and safety standards",
+        "Trusted by women across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    relatedTreatments: [
+      "hydrafacial",
+      "enzyme-therapy",
+      "led-light-therapy",
+      "lymphatic-drainage",
+      "dermaplaning",
+      "chemical-peel"
     ],
     faqs: [
       {
-        question: "Why am I getting acne in my 30s/40s?",
-        answer: "Hormonal fluctuations, stress, and lifestyle factors can trigger adult acne, even if you never had it as a teenager."
+        question: "What makes hormonal acne different from normal breakouts?",
+        answer: "Hormonal acne often follows cyclical patterns and commonly affects the chin, jawline and lower face. It is usually inflammation-driven and can persist even with good skincare, especially during hormonal transition or stress."
       },
       {
-        question: "Is diet related to hormonal acne?",
-        answer: "Often, yes. High sugar and dairy intake can spike insulin, which in turn stimulates oil production and inflammation."
+        question: "Why do adult breakouts often feel deeper and more painful?",
+        answer: "Adult breakouts are often inflammatory and can form deeper congestion under the skin. This is why they may feel sore, slow to heal and more likely to leave marks."
       },
       {
-        question: "Should I use strong benzoyl peroxide?",
-        answer: "Usually no. It can be too drying for adult skin. Gentler anti-inflammatories and retinoids are often more effective."
+        question: "Can hormonal acne be linked to a weakened skin barrier?",
+        answer: "Yes. Many clients use strong acne products that strip the barrier, leading to dehydration, sensitivity and increased inflammation. At ULANDA, acne is treated with barrier-safe sequencing to avoid rebound irritation."
       },
       {
-        question: "How do I treat acne without wrinkles getting worse?",
-        answer: "We use ingredients like retinaldehyde that treat both acne and aging simultaneously, avoiding the 'drying out' strategy."
+        question: "Why do I break out around my chin and jawline?",
+        answer: "Chin and jawline acne is commonly associated with hormonal influence. This is why ULANDA assesses hormonal skin behaviour patterns as part of the consultation."
       },
       {
-        question: "Is hormonal acne related to Polycystic Ovary Syndrome (PCOS)?",
-        answer: "It can be. If acne is accompanied by irregular periods or hair growth, we may recommend speaking to a doctor alongside skin treatment."
+        question: "Can perimenopause or menopause trigger acne even if I never had it before?",
+        answer: "Yes. Hormonal transition can create oil imbalance, inflammation and congestion, leading to breakouts in women who previously had clear skin."
+      },
+      {
+        question: "Can adult acne leave pigmentation marks even after the breakout clears?",
+        answer: "Yes. Post-inflammatory hyperpigmentation (PIH) is common after breakouts, especially if inflammation is active or the skin is repeatedly irritated."
+      },
+      {
+        question: "Should I avoid heavy moisturiser if I have hormonal acne?",
+        answer: "Not always. Many acne-prone clients are dehydrated underneath. The key is choosing barrier-supportive hydration rather than clogging formulations. ULANDA reviews your routine to ensure balance."
+      },
+      {
+        question: "Can hormonal acne overlap with menopause dryness and skin fragility?",
+        answer: "Yes. Many women experience the frustrating combination of breakouts and dryness during menopause. This requires careful sequencing so acne is treated without stripping the barrier further."
+      },
+      {
+        question: "Can postpartum skin changes cause hormonal breakouts?",
+        answer: "Yes. Postpartum hormonal fluctuation often triggers congestion and inflammation-driven breakouts, even if acne was not present before pregnancy."
+      },
+      {
+        question: "Can hormonal pigmentation or melasma worsen after acne flare-ups?",
+        answer: "It can. Inflammation increases pigment activation risk, meaning acne flare-ups can worsen uneven tone and pigmentation behaviour if not managed correctly."
+      },
+      {
+        question: "Where can I book a hormonal acne consultation near me in Ware, Hertfordshire?",
+        answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Behaviour Consultations and acne-focused treatment programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and St Albans for safe adult acne treatment planning."
       }
     ],
     cta: {
-      title: "Control Adult",
-      highlight: "Breakouts",
+      title: "Book Your",
+      highlight: "Skin Health Consultation",
       titleSuffix: "",
-      description: "Book a consultation to clear hormonal acne without irritation.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
+      buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
   {
     id: "skin-inflammation",
+    seo: {
+      title: "Skin Inflammation Treatment Ware | Burning & Redness | ULANDA",
+      description: "Treat skin inflammation, burning & stinging in Ware. ULANDA offers barrier repair & calming treatments for reactive, sensitive skin."
+    },
     hero: {
       title: "Skin Inflammation",
       highlight: "(Burning, Stinging, Flare-Ups)",
@@ -5174,23 +5914,80 @@
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Redness, Sensitivity & Reactive Skin",
-    content: [
-      {
-        title: "Barrier Breakdown & TEWL",
-        description: "Inflammation often stems from a compromised barrier, leading to increased transepidermal water loss (TEWL) and dehydration."
-      },
-      {
-        title: "Overuse of Actives",
-        description: "Overuse of acids, retinoids, scrubs or strong active skincare can strip the barrier and trigger chronic inflammation."
-      },
-      {
-        title: "Rosacea-Type Patterns",
-        description: "Rosacea-type inflammation and flushing patterns can drive persistent burning and stinging sensations."
-      },
-      {
-        title: "Environmental & Hormonal Triggers",
-        description: "Environmental triggers like cold, wind, heat, pollution, and hormonal transitions (perimenopause/menopause) affect skin recovery capacity."
-      }
+    intro: {
+      content: "At ULANDA, we do not treat inflammation as something to cover up. We assess what is driving the flare pattern, whether the barrier is compromised, and how to stabilise the skin before introducing any advanced treatments. This structured approach protects your skin long-term and prevents chronic sensitivity cycles."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        {
+          title: "Barrier Breakdown",
+          description: "and increased transepidermal water loss (TEWL)"
+        },
+        {
+          title: "Overuse of Actives",
+          description: "acids, retinoids, scrubs or strong active skincare"
+        },
+        {
+          title: "Rosacea-Type Patterns",
+          description: "inflammation and flushing patterns"
+        },
+        {
+          title: "Environmental Triggers",
+          description: "cold weather, wind, heat, pollution"
+        },
+        {
+          title: "Hormonal Transition",
+          description: "affecting skin recovery capacity (perimenopause/menopause)"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme (Secondary: Rosacea & Redness Control if rosacea-type patterns present)"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, inflamed skin is supported through calm barrier repair, hydration rebuilding and inflammation reduction — with careful sequencing to avoid flare-ups.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for skin inflammation:",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Barrier Support Facial", desc: "stabilises the skin barrier and reduces burning and irritation patterns" },
+            { name: "Deep Hydration Facial", desc: "restores hydration and improves comfort and tightness" },
+            { name: "LED Light Therapy", desc: "reduces inflammation and supports skin repair pathways" },
+            { name: "Oxygen Glow Facial", desc: "supports healing and restores vitality without over-stimulation" },
+            { name: "Lymphatic Detox Facial", desc: "reduces inflammatory stagnation and congestion patterns" },
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "introduced only when the skin is stable enough for safe cleansing and hydration support" }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
+      items: [
+        "Advanced Nurse Practitioner-led consultation with structured inflammation assessment",
+        "Barrier-first clinical decision-making to prevent flare-ups and skin fatigue",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Treatment sequencing designed for long-term stability, not temporary calming",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    relatedTreatments: [
+      "barrier-support-facial",
+      "deep-hydration-facial",
+      "led-light-therapy",
+      "oxygen-glow-facial",
+      "lymphatic-drainage",
+      "hydrafacial"
     ],
     faqs: [
       {
@@ -5245,34 +6042,95 @@
   },
   {
     id: "reactive-skin",
+    seo: {
+      title: "Sensitive & Reactive Skin Treatment Ware | Calm & Restore | ULANDA",
+      description: "Treat sensitive, reactive skin in Ware. ULANDA specialises in barrier repair and calming treatments for unpredictable, easily irritated skin behaviours."
+    },
     hero: {
       title: "Sensitive /",
       highlight: "Reactive Skin",
       subtitle: "Redness, Sensitivity & Reactive Skin",
-      description: "Sensitive skin is not a skin type — it is a skin behaviour pattern. Many clients describe their skin as unpredictable, easily irritated, and constantly reacting to products, weather changes, stress or treatments.",
+      description: "Sensitive skin is not a skin type — it is a skin behaviour pattern. Many clients describe their skin as unpredictable, easily irritated, and constantly reacting to products, weather changes, stress or treatments. Sensitive or reactive skin often stings, burns, flushes, breaks out or becomes inflamed without clear warning.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Redness, Sensitivity & Reactive Skin",
-    content: [
-      {
-        title: "Compromised Skin Barrier",
-        description: "Increased transepidermal water loss (TEWL) and barrier instability make skin less protected and more reactive."
-      },
-      {
-        title: "Inflammation Patterns",
-        description: "Patterns including redness, stinging and burning sensations indicate underlying inflammatory responses."
-      },
-      {
-        title: "Environmental Exposure",
-        description: "Cold weather, wind, pollution, and indoor heating can trigger reactive episodes."
-      },
-      {
-        title: "Hormonal & Lifestyle Factors",
-        description: "Hormonal change and reduced skin recovery capacity, along with overuse of acids or scrubs, drive sensitivity."
-      }
+    intro: {
+      content: "At ULANDA, we treat sensitivity as a barrier and inflammation issue first. Your Skin Behaviour Consultation helps us identify what is driving your skin reactivity, whether your barrier is stable enough for active treatments, and how to rebuild calm resilience before progressing into advanced correction."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        {
+          title: "Compromised Skin Barrier",
+          description: "and increased water loss (TEWL)"
+        },
+        {
+          title: "Overuse of Actives",
+          description: "acids, retinoids, scrubs or active skincare"
+        },
+        {
+          title: "Inflammation Patterns",
+          description: "redness, stinging and burning sensations"
+        },
+        {
+          title: "Environmental Exposure",
+          description: "cold weather, wind, pollution, indoor heating"
+        },
+        {
+          title: "Hormonal Change",
+          description: "and reduced skin recovery capacity"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme (Secondary: Rosacea & Redness Control if flushing dominates)"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, sensitive skin is supported through calm stabilisation, hydration rebuilding and inflammation reduction before introducing corrective treatments.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for sensitive skin:",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Barrier Support Facial", desc: "strengthens barrier stability and reduces irritation patterns" },
+            { name: "Deep Hydration Facial", desc: "restores hydration and improves tightness and discomfort" },
+            { name: "LED Light Therapy", desc: "reduces inflammation and supports repair and recovery" },
+            { name: "Oxygen Glow Facial", desc: "improves vitality and glow without aggressive stimulation" },
+            { name: "Lymphatic Detox Facial", desc: "reduces inflammatory stagnation and congestion patterns" },
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "introduced only when the skin is stable enough for safe cleansing and hydration support" }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
+      items: [
+        "Advanced Nurse Practitioner-led consultation with structured sensitivity assessment",
+        "Barrier-first decision-making designed to prevent flare-ups and treatment fatigue",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Treatment sequencing that avoids over-treatment and irritation cycles",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    relatedTreatments: [
+      "barrier-support-facial",
+      "deep-hydration-facial",
+      "led-light-therapy",
+      "oxygen-glow-facial",
+      "lymphatic-drainage",
+      "hydrafacial"
     ],
     faqs: [
       {
@@ -5327,34 +6185,95 @@
   },
   {
     id: "rosacea",
+    seo: {
+      title: "Rosacea Treatment Ware | Redness & Flushing | ULANDA",
+      description: "Manage rosacea and facial redness in Ware. ULANDA specialises in calming inflammation, reducing flushing, and strengthening the skin barrier."
+    },
     hero: {
-      title: "Rosacea",
-      highlight: "(Redness, Flushing & Sensitivity)",
-      subtitle: "Redness, Sensitivity & Reactive Skin",
-      description: "Rosacea is a chronic skin condition that often presents as persistent redness, flushing, sensitivity and inflammation that can worsen over time if the skin barrier is not stabilised.",
+      title: "Rosacea /",
+      highlight: "Redness, Flushing & Sensitivity",
+      subtitle: "Redness, Flushing & Sensitivity",
+      description: "Rosacea is a chronic skin condition that often presents as persistent redness, flushing, sensitivity and inflammation that can worsen over time if the skin barrier is not stabilised. Many clients describe their skin as constantly reactive — stinging easily, flaring suddenly, and becoming difficult to manage despite trying multiple products and treatments.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Redness, Sensitivity & Reactive Skin",
-    content: [
-      {
-        title: "Chronic Inflammation & Barrier Instability",
-        description: "Persistent inflammation undermines the skin barrier, making it more susceptible to irritants and environmental stressors."
-      },
-      {
-        title: "Flushing Triggers",
-        description: "Heat, alcohol, stress, spicy foods, and other lifestyle factors can trigger immediate flushing episodes."
-      },
-      {
-        title: "Sensitised Skin & Intolerance",
-        description: "Skin becomes intolerant to active ingredients and reacts intensely to treatments that were previously tolerated."
-      },
-      {
-        title: "Environmental & Hormonal Drivers",
-        description: "Wind, cold weather, pollution, and hormonal shifts reduce the skin's capacity to recover and stay calm."
-      }
+    intro: {
+      content: "At ULANDA, we approach rosacea as a skin behaviour pattern that requires calm clinical structure. Your Skin Behaviour Consultation allows us to assess barrier integrity, inflammation triggers, redness patterns and treatment suitability so that your plan is stabilising, safe and designed for long-term skin resilience."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        {
+          title: "Chronic Inflammation",
+          description: "and barrier instability"
+        },
+        {
+          title: "Flushing Triggers",
+          description: "such as heat, stress, alcohol or spicy foods"
+        },
+        {
+          title: "Sensitised Skin",
+          description: "and intolerance to active ingredients"
+        },
+        {
+          title: "Environmental Exposure",
+          description: "wind, cold weather, pollution"
+        },
+        {
+          title: "Hormonal Shifts",
+          description: "and reduced skin recovery capacity"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Rosacea & Redness Control Programme"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, rosacea support focuses on calming inflammation, rebuilding barrier strength and improving redness patterns without triggering flare-ups.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for rosacea:",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Barrier Support Facial", desc: "stabilises sensitivity and strengthens barrier resilience" },
+            { name: "LED Light Therapy", desc: "supports inflammation reduction and calmer skin behaviour" },
+            { name: "Deep Hydration Facial", desc: "restores hydration and reduces tightness and discomfort" },
+            { name: "Oxygen Glow Facial", desc: "supports repair and improves radiance without irritation" },
+            { name: "Lymphatic Detox Facial", desc: "reduces inflammatory stagnation and congestion patterns" },
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "introduced only when skin is stable enough for safe cleansing and hydration support" }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
+      items: [
+        "Advanced Nurse Practitioner-led assessment with structured rosacea behaviour mapping",
+        "Barrier-first clinical planning to reduce flare-ups and over-treatment risk",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Treatment sequencing designed for long-term stability, not temporary calming",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    relatedTreatments: [
+      "barrier-support-facial",
+      "led-light-therapy",
+      "deep-hydration-facial",
+      "oxygen-glow-facial",
+      "lymphatic-drainage",
+      "hydrafacial"
     ],
     faqs: [
       {
@@ -5363,7 +6282,7 @@
       },
       {
         question: "Why does my face flush suddenly or feel hot?",
-        answer: "Flushing is a common rosacea pattern and is often triggered by heat, stress, alcohol, spicy foods, exercise or hormonal changes. When the barrier is weak and inflammation is active, the skin becomes more reactive and flushes more easily."
+        answer: "Flushing is a common rosacea pattern and is often triggered by heat, stress, alcohol, spicy foods, exercise or hormonal changes. When the barrier is weak and inflammation is active, the skin becomes more reactive and flushes more easily. "
       },
       {
         question: "Can rosacea be caused by a damaged skin barrier?",
@@ -5409,34 +6328,95 @@
   },
   {
     id: "facial-redness",
+    seo: {
+      title: "Facial Redness Treatment Ware | Persistent Redness | ULANDA",
+      description: "Treat persistent facial redness in Ware. ULANDA focuses on inflammation reduction, flushing control, and long-term skin barrier stabilisation."
+    },
     hero: {
       title: "Persistent",
       highlight: "Facial Redness",
       subtitle: "Redness, Sensitivity & Reactive Skin",
-      description: "Persistent facial redness can be subtle or intense, but it often signals underlying inflammation, barrier dysfunction or chronic sensitivity patterns.",
+      description: "Persistent facial redness can be subtle or intense, but it often signals underlying inflammation, barrier dysfunction or chronic sensitivity patterns. Many clients notice redness across the cheeks, nose or chin that never fully settles, and may worsen with heat, stress, skincare products or hormonal change.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Redness, Sensitivity & Reactive Skin",
-    content: [
-      {
-        title: "Rosacea-Type Behaviour",
-        description: "Chronic inflammation and rosacea-type patterns often manifest as persistent redness."
-      },
-      {
-        title: "Weakened Skin Barrier",
-        description: "A compromised barrier causes sensitivity and reactive flare-ups, contributing to ongoing redness."
-      },
-      {
-        title: "Flushing Triggers",
-        description: "Common lifestyle factors like heat, alcohol, stress, and spicy foods can exacerbate redness."
-      },
-      {
-        title: "Product Irritation & Hormones",
-        description: "Overuse of exfoliating actives or hormonal transitions can reduce skin recovery capacity and increase redness."
-      }
+    intro: {
+      content: "At ULANDA, we treat persistent redness as a skin behaviour issue, not a surface cosmetic concern. Your Skin Behaviour Consultation helps us identify whether redness is linked to rosacea patterns, barrier instability, flushing triggers, inflammation or sensitivity — so your plan is calm, structured and designed for long-term skin resilience."
+    },
+    science: {
+      title: "Scientific Drivers /",
+      highlight: "Common Triggers",
+      description: "Common triggers and drivers may include:",
+      items: [
+        {
+          title: "Rosacea-Type Behaviour",
+          description: "and chronic inflammation patterns"
+        },
+        {
+          title: "Weakened Skin Barrier",
+          description: "causing sensitivity and reactive flare-ups"
+        },
+        {
+          title: "Flushing Triggers",
+          description: "such as heat, alcohol, stress and spicy foods"
+        },
+        {
+          title: "Product Irritation",
+          description: "or overuse of exfoliating actives"
+        },
+        {
+          title: "Hormonal Transition",
+          description: "and reduced skin recovery capacity"
+        }
+      ],
+      footer: "Primary Recommended Programme Pathway: Rosacea & Redness Control Programme"
+    },
+    treatmentModel: {
+      title: "Recommended Treatments –",
+      highlight: "Please use the current website format",
+      description: "At ULANDA, redness is supported through inflammation reduction, barrier stabilisation and treatment sequencing designed to calm skin safely without triggering flare-ups.",
+      items: [
+        {
+          title: "Recommended Treatments",
+          subtitle: "(Comprehensive Care)",
+          description: "Targeted treatments for facial redness:",
+          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          points: [
+            { name: "Barrier Support Facial", desc: "stabilises sensitivity and strengthens barrier resilience" },
+            { name: "LED Light Therapy", desc: "supports inflammation reduction and calmer skin behaviour" },
+            { name: "Deep Hydration Facial", desc: "restores hydration and reduces tightness and discomfort" },
+            { name: "Oxygen Glow Facial", desc: "improves radiance while supporting repair without irritation" },
+            { name: "Lymphatic Detox Facial", desc: "reduces inflammatory stagnation and supports clearer skin behaviour" },
+            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "introduced only when the skin is stable enough for safe cleansing and hydration support" }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why Clients Choose ULANDA –",
+      highlight: "Please use the current website format",
+      items: [
+        "Advanced Nurse Practitioner-led assessment focused on redness triggers and skin stability",
+        "Barrier-first planning designed to reduce flare-ups and sensitivity cycles",
+        "Nurse Independent Prescriber oversight where clinically appropriate",
+        "Structured treatment sequencing rather than trial-and-error facials",
+        "Calm premium environment with strong clinical governance and skin safety standards",
+        "Trusted by clients across Ware, Hertfordshire and surrounding areas"
+      ],
+      image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    relatedTreatments: [
+      "barrier-support-facial",
+      "led-light-therapy",
+      "deep-hydration-facial",
+      "oxygen-glow-facial",
+      "lymphatic-drainage",
+      "hydrafacial"
     ],
     faqs: [
       {
@@ -5481,10 +6461,10 @@
       }
     ],
     cta: {
-      title: "Reduce Facial",
+      title: "Control Facial",
       highlight: "Redness",
       titleSuffix: "",
-      description: "Book a consultation to calm persistent redness and restore an even tone.",
+      description: "Book a consultation to identify your redness drivers.",
       buttonText: "Book Your Skin Behaviour Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
@@ -5783,8 +6763,8 @@
       description: "Manage stress-related skin issues like acne and inflammation in Ware. Our holistic approach balances cortisol effects for clearer, calmer skin."
     },
     hero: {
-      title: "Stress & Cortisol",
-      highlight: "Skin Imbalance",
+      title: "Stress & Cortisol Skin Imbalance",
+      highlight: "",
       description: "Stress and cortisol imbalance can dramatically affect how your skin behaves. Many clients notice that during stressful periods their skin becomes more reactive, more inflamed, more acne-prone, duller, drier or suddenly more sensitive to products that previously worked well. Others experience flare-ups of pigmentation, redness, eczema-type irritation or increased under-eye fatigue.",
       buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
@@ -5792,7 +6772,9 @@
       placeholderUrl: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN0cmVzcyUyMHNraW58ZW58MHwxfDB8fHww"
     },
     intro: {
-      content: "At ULANDA, stress-related skin change is treated as a full skin behaviour disruption, not simply a “breakout problem.” Cortisol influences inflammation, barrier repair, hydration retention and collagen function. When stress becomes chronic, the skin can enter a state of instability where healing slows and sensitivity increases. Your Skin Health Consultation helps us identify whether cortisol-related skin imbalance is driving your symptoms, so your plan is safe, sequenced and designed to restore stability from the inside out."
+      title: "Understanding Stress-Related Skin Imbalance",
+      text: "Chronic stress influences inflammation, barrier repair, hydration retention and collagen function.",
+      consultationText: "At ULANDA, stress-related skin change is treated as a full skin behaviour disruption, not simply a “breakout problem.” Cortisol influences inflammation, barrier repair, hydration retention and collagen function. When stress becomes chronic, the skin can enter a state of instability where healing slows and sensitivity increases. Your Skin Health Consultation helps us identify whether cortisol-related skin imbalance is driving your symptoms, so your plan is safe, sequenced and designed to restore stability from the inside out."
     },
     science: {
       title: "Scientific Drivers /",
@@ -5800,54 +6782,82 @@
       description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Chronic Stress",
-          description: "increasing cortisol and inflammatory signalling"
+          number: "01",
+          title: "Chronic stress increasing cortisol",
+          description: "Increases inflammatory signalling."
         },
         {
-          title: "Disrupted Sleep",
-          description: "affecting skin repair and hydration balance"
+          number: "02",
+          title: "Disrupted sleep",
+          description: "Affects skin repair and hydration balance."
         },
         {
-          title: "Increased Breakouts",
-          description: "due to hormonal and sebum changes"
+          number: "03",
+          title: "Increased breakouts",
+          description: "Due to hormonal and sebum changes."
         },
         {
-          title: "Inflammation Flare-ups",
-          description: "causing redness and sensitivity"
+          number: "04",
+          title: "Inflammation flare-ups",
+          description: "Causing redness and sensitivity."
         },
         {
-          title: "Accelerated Collagen Decline",
-          description: "and dullness during prolonged stress"
-        }
-      ],
-      footer: "Primary Recommended Programme Pathway: Menopause Skin Rebuild Programme (Secondary: Skin Barrier Repair & Recovery if sensitivity dominates)"
-    },
-    treatmentModel: {
-      title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
-      description: "At ULANDA, stress-driven skin imbalance is supported through inflammation reduction, hydration rebuilding, barrier stabilisation and regenerative sequencing.",
-      items: [
-        {
-          title: "Recommended Treatments",
-          subtitle: "(Comprehensive Care)",
-          description: "Targeted treatments for stress-related skin:",
-          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Lymphatic Detox Facial", desc: "supports inflammation reduction and skin recovery" },
-            { name: "Deep Hydration Facial", desc: "restores hydration retention and reduces stress-driven dryness" },
-            { name: "LED Light Therapy", desc: "supports repair, collagen behaviour and inflammation calming" },
-            { name: "Barrier Support Facial", desc: "stabilisation-first support for sensitised, reactive skin" },
-            { name: "Oxygen Glow Facial", desc: "supports radiance and skin vitality during fatigue and stress" },
-            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "improves clarity and reduces congestion stress flare-ups" },
-            { name: "Medical-Grade Skincare Planning", desc: "barrier-safe routine designed for resilience and stability" }
-          ]
+          number: "05",
+          title: "Accelerated collagen decline",
+          description: "And dullness during prolonged stress."
         }
       ]
     },
+    relatedTreatments: [
+      {
+        id: 'menopause-skin-rebuild',
+        title: 'Menopause Skin Rebuild Programme',
+        description: 'Primary Recommended Programme Pathway'
+      },
+      {
+        id: 'skin-recovery',
+        title: 'Skin Barrier Repair & Recovery',
+        description: 'Secondary Pathway (if sensitivity dominates)'
+      },
+      {
+        id: 'lymphatic-detox-facial',
+        title: 'Lymphatic Detox Facial',
+        description: 'Supports inflammation reduction and skin recovery.'
+      },
+      {
+        id: 'deep-hydration-facial',
+        title: 'Deep Hydration Facial',
+        description: 'Restores hydration retention and reduces stress-driven dryness.'
+      },
+      {
+        id: 'led-light-therapy',
+        title: 'LED Light Therapy',
+        description: 'Supports repair, collagen behaviour and inflammation calming.'
+      },
+      {
+        id: 'barrier-support-facial',
+        title: 'Barrier Support Facial',
+        description: 'Stabilisation-first support for sensitised, reactive skin.'
+      },
+      {
+        id: 'oxygen-glow-facial',
+        title: 'Oxygen Glow Facial',
+        description: 'Supports radiance and skin vitality during fatigue and stress.'
+      },
+      {
+        id: 'advanced-cleansing',
+        title: 'Advanced Cleansing & Hydration Therapy (HydraFacial)',
+        description: 'Improves clarity and reduces congestion stress flare-ups.'
+      },
+      {
+        id: 'medical-grade-skincare',
+        title: 'Medical-Grade Skincare Planning',
+        description: 'Barrier-safe routine designed for resilience and stability.'
+      }
+    ],
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format.",
+      title: "Why Clients Choose ULANDA",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment that links stress biology to skin behaviour",
         "Calm premium environment designed to reduce overstimulation and inflammation triggers",
@@ -5859,66 +6869,22 @@
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    relatedTreatments: [
-      "lymphatic-detox-facial",
-      "deep-hydration-facial",
-      "led-light-therapy",
-      "barrier-support-facial",
-      "oxygen-glow-facial",
-      "hydrafacial",
-      "medical-grade-skincare"
-    ],
     faq: {
-      title: "",
-      highlight: "Frequently Asked Questions",
-      titleSuffix: "",
-      description: "",
+      title: "Frequently Asked Questions",
       items: [
-        {
-          question: "Can stress really affect my skin?",
-          answer: "Yes. Stress increases cortisol, which can disrupt the skin barrier, increase inflammation, worsen breakouts, trigger sensitivity and slow healing. Many clients notice their skin becomes unpredictable during stressful periods."
-        },
-        {
-          question: "What does cortisol do to the skin?",
-          answer: "Cortisol affects inflammation, oil production, hydration retention and collagen behaviour. Chronic cortisol elevation can lead to dullness, dryness, breakouts, redness and accelerated skin ageing."
-        },
-        {
-          question: "How long does it take for stress-related skin to stabilise?",
-          answer: "Many clients see improvements within 4–8 weeks when the barrier is stabilised and inflammation is reduced. Long-term resilience often takes 8–12 weeks depending on lifestyle stress patterns and skin sensitivity."
-        },
-        {
-          question: "Can stress cause acne flare-ups even if I don’t normally get acne?",
-          answer: "Yes. Stress can increase oil production and inflammatory signalling, leading to congestion and breakouts. Some clients experience stress acne for the first time during high-pressure periods."
-        },
-        {
-          question: "Can stress cause redness and skin sensitivity?",
-          answer: "Yes. Stress can increase inflammatory pathways and weaken barrier function, making skin more reactive, sting-prone and redness-prone. This is especially common in clients already prone to sensitivity."
-        },
-        {
-          question: "Why does my skin look dull and tired when I’m stressed?",
-          answer: "Stress disrupts circulation, sleep quality and skin repair. This can slow cell turnover, reduced hydration retention and make the skin appear dull, uneven and fatigued."
-        },
-        {
-          question: "Is stress-related skin imbalance common during perimenopause and menopause?",
-          answer: "Yes. Many women experience heightened stress sensitivity during hormonal transition, and cortisol imbalance can worsen dryness, breakouts, inflammation and collagen decline. This is why stress biology is part of ULANDA’s structured approach."
-        },
-        {
-          question: "Can stress worsen hormonal acne and jawline breakouts?",
-          answer: "Yes. Stress can worsen hormonal acne patterns by increasing inflammatory signalling and disrupting hormonal balance. Many clients notice jawline acne flare-ups during stressful periods."
-        },
-        {
-          question: "Can stress make pigmentation or melasma flare up?",
-          answer: "Yes. Chronic inflammation and hormonal imbalance can increase pigmentation risk, and stress may worsen melasma patterns in pigment-prone clients. ULANDA often addresses both inflammation and pigment stability together."
-        },
-        {
-          question: "Can stress lead to barrier breakdown and dehydration?",
-          answer: "Yes. Stress reduces the skin’s repair capacity and can weaken the barrier, leading to dehydration, tightness and increased sensitivity. Stabilising the barrier is often the first phase of recovery."
-        },
-        {
-          question: "Where can I get Stress & Cortisol Skin Imbalance treatment near me in Ware, Hertfordshire?",
-          answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
-        }
-      ]
+        { question: "Can stress really affect my skin?", answer: "Yes. Stress increases cortisol, which can disrupt the skin barrier, increase inflammation, worsen breakouts, trigger sensitivity and slow healing. Many clients notice their skin becomes unpredictable during stressful periods." },
+        { question: "What does cortisol do to the skin?", answer: "Cortisol affects inflammation, oil production, hydration retention and collagen behaviour. Chronic cortisol elevation can lead to dullness, dryness, breakouts, redness and accelerated skin ageing." },
+        { question: "How long does it take for stress-related skin to stabilise?", answer: "Many clients see improvements within 4–8 weeks when the barrier is stabilised and inflammation is reduced. Long-term resilience often takes 8–12 weeks depending on lifestyle stress patterns and skin sensitivity." },
+        { question: "Can stress cause acne flare-ups even if I don’t normally get acne?", answer: "Yes. Stress can increase oil production and inflammatory signalling, leading to congestion and breakouts. Some clients experience stress acne for the first time during high-pressure periods." },
+        { question: "Can stress cause redness and skin sensitivity?", answer: "Yes. Stress can increase inflammatory pathways and weaken barrier function, making skin more reactive, sting-prone and redness-prone. This is especially common in clients already prone to sensitivity." },
+        { question: "Why does my skin look dull and tired when I’m stressed?", answer: "Stress disrupts circulation, sleep quality and skin repair. This can slow cell turnover, reduce hydration retention and make the skin appear dull, uneven and fatigued." },
+        { question: "Is stress-related skin imbalance common during perimenopause and menopause?", answer: "Yes. Many women experience heightened stress sensitivity during hormonal transition, and cortisol imbalance can worsen dryness, breakouts, inflammation and collagen decline. This is why stress biology is part of ULANDA’s structured approach." },
+        { question: "Can stress worsen hormonal acne and jawline breakouts?", answer: "Yes. Stress can worsen hormonal acne patterns by increasing inflammatory signalling and disrupting hormonal balance. Many clients notice jawline acne flare-ups during stressful periods." },
+        { question: "Can stress make pigmentation or melasma flare up?", answer: "Yes. Chronic inflammation and hormonal imbalance can increase pigmentation risk, and stress may worsen melasma patterns in pigment-prone clients. ULANDA often addresses both inflammation and pigment stability together." },
+        { question: "Can stress lead to barrier breakdown and dehydration?", answer: "Yes. Stress reduces the skin’s repair capacity and can weaken the barrier, leading to dehydration, tightness and increased sensitivity. Stabilising the barrier is often the first phase of recovery." },
+        { question: "Where can I get Stress & Cortisol Skin Imbalance treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
+      ],
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     },
     cta: {
       title: "Book Your",
@@ -5933,11 +6899,12 @@
     id: 'poor-sleep-skin-ageing',
     seo: {
       title: "Sleep Deprivation Skin Treatment Ware | Tired Skin Recovery | ULANDA",
-      description: "Revitalise tired, sleep-deprived skin in Ware. We treat dark circles, dullness, and premature ageing caused by poor sleep with hydration and regeneration."
+      description: "Revitalise tired, sleep-deprived skin in Ware. We treat dark circles, dullness, and premature ageing caused by poor sleep with hydration and regeneration.",
+      keywords: "Sleep deprivation skin treatment Ware, tired skin recovery Hertfordshire, dark circles sleep, dull skin remedies, sleep and skin ageing"
     },
     hero: {
-      title: "Poor Sleep &",
-      highlight: "Skin Ageing Impact",
+      title: "Poor Sleep & Skin Ageing Impact",
+      highlight: "",
       description: "Poor sleep can accelerate skin ageing faster than most people realise. Many clients notice that when sleep quality declines, their skin becomes dull, dry, more sensitive, more inflamed and less able to recover. Fine lines become more visible, under-eye darkness worsens, breakouts increase and the skin begins to look “tired” even when skincare routines remain unchanged.",
       buttonText: "Book Your Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
@@ -5945,62 +6912,87 @@
       placeholderUrl: "https://images.unsplash.com/photo-1541781777621-af13032da66f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjB3b21hbnxlbnwwfDF8MHx8fDA%3D"
     },
     intro: {
-      content: "At ULANDA, sleep-related skin ageing is treated as a structural and regenerative concern. Sleep is when collagen repair, barrier recovery and skin renewal occur. When sleep is disrupted, inflammation rises, hydration retention drops, and collagen breakdown can accelerate. Your Skin Health Consultation helps us assess how poor sleep is influencing your skin behaviour, so your plan is safe, sequenced and designed to rebuild long-term resilience and structural skin strength."
+      title: "Sleep-Related Skin Ageing",
+      text: "Sleep is when collagen repair, barrier recovery and skin renewal occur.",
+      consultationText: "At ULANDA, sleep-related skin ageing is treated as a structural and regenerative concern. Sleep is when collagen repair, barrier recovery and skin renewal occur. When sleep is disrupted, inflammation rises, hydration retention drops, and collagen breakdown can accelerate. Your Skin Health Consultation helps us assess how poor sleep is influencing your skin behaviour, so your plan is safe, sequenced and designed to rebuild long-term resilience and structural skin strength."
     },
     science: {
-      title: "Scientific Drivers /",
-      highlight: "Common Triggers",
+      title: "Common Triggers & Drivers -",
+      highlight: "Impact of Poor Sleep",
       description: "Common triggers and drivers may include:",
       items: [
         {
-          title: "Reduced Collagen Repair",
-          description: "reduced overnight collagen repair and slower skin regeneration"
+          number: "01",
+          title: "Reduced overnight collagen repair",
+          description: "and slower skin regeneration."
         },
         {
-          title: "Increased Inflammation",
-          description: "and oxidative stress from poor sleep cycles"
+          number: "02",
+          title: "Increased inflammation",
+          description: "and oxidative stress from poor sleep cycles."
         },
         {
-          title: "Dehydration & Weakness",
-          description: "dehydration and barrier weakness leading to tightness and sensitivity"
+          number: "03",
+          title: "Dehydration and barrier weakness",
+          description: "leading to tightness and sensitivity."
         },
         {
-          title: "Increased Cortisol",
-          description: "levels triggering breakouts and dullness"
+          number: "04",
+          title: "Increased cortisol levels",
+          description: "triggering breakouts and dullness."
         },
         {
-          title: "Visible Signs",
-          description: "under-eye pigmentation, puffiness and hollowing becoming more visible"
-        }
-      ],
-      footer: "Primary Recommended Programme Pathway: Structural Skin Regeneration Programme"
-    },
-    treatmentModel: {
-      title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
-      description: "At ULANDA, sleep-related skin ageing is supported through hydration rebuilding, inflammation reduction and collagen regeneration sequencing.",
-      items: [
-        {
-          title: "Recommended Treatments",
-          subtitle: "(Comprehensive Care)",
-          description: "Targeted treatments for sleep-deprived skin:",
-          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "LED Light Therapy", desc: "supports repair, collagen behaviour and inflammation reduction" },
-            { name: "Deep Hydration Facial", desc: "restores hydration retention and reduces dryness fatigue" },
-            { name: "Oxygen Glow Facial", desc: "improves radiance and skin vitality during exhaustion" },
-            { name: "Lymphatic Detox Facial", desc: "supports circulation and reduces inflammatory congestion" },
-            { name: "Microneedling / Collagen Induction Therapy", desc: "supports collagen regeneration when barrier stability is confirmed" },
-            { name: "Barrier Support Facial", desc: "stabilisation-first treatment for tiredness, reactive or sensitised skin" },
-            { name: "Medical-Grade Skincare Planning", desc: "supports long-term repair and anti-inflammatory skin resilience" }
-          ]
+          number: "05",
+          title: "Under-eye pigmentation",
+          description: "puffiness and hollowing becoming more visible."
         }
       ]
     },
+    relatedTreatments: [
+      {
+        id: 'structural-skin-regeneration',
+        title: 'Structural Skin Regeneration Programme',
+        description: 'Primary Recommended Programme Pathway'
+      },
+      {
+        id: 'led-light-therapy',
+        title: 'LED Light Therapy',
+        description: 'Supports repair, collagen behaviour and inflammation reduction.'
+      },
+      {
+        id: 'deep-hydration-facial',
+        title: 'Deep Hydration Facial',
+        description: 'Restores hydration retention and reduces dryness fatigue.'
+      },
+      {
+        id: 'oxygen-glow-facial',
+        title: 'Oxygen Glow Facial',
+        description: 'Improves radiance and skin vitality during exhaustion.'
+      },
+      {
+        id: 'lymphatic-detox-facial',
+        title: 'Lymphatic Detox Facial',
+        description: 'Supports circulation and reduces inflammatory congestion.'
+      },
+      {
+        id: 'microneedling',
+        title: 'Microneedling / Collagen Induction Therapy',
+        description: 'Supports collagen regeneration when barrier stability is confirmed.'
+      },
+      {
+        id: 'barrier-support-facial',
+        title: 'Barrier Support Facial',
+        description: 'Stabilisation-first treatment for tired, reactive or sensitised skin.'
+      },
+      {
+        id: 'medical-grade-skincare',
+        title: 'Medical-Grade Skincare Planning',
+        description: 'Supports long-term repair and anti-inflammatory skin resilience.'
+      }
+    ],
     whyChoose: {
-      title: "Why Clients Choose ULANDA –",
-      highlight: "Please use the current website format",
+      title: "Why Clients Choose ULANDA",
+      highlight: "",
       items: [
         "Advanced Nurse Practitioner-led assessment linking sleep biology to skin ageing behaviour",
         "Regenerative-first approach focused on collagen preservation and long-term skin resilience",
@@ -6012,66 +7004,22 @@
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
-    relatedTreatments: [
-      "led-light-therapy",
-      "deep-hydration-facial",
-      "oxygen-glow-facial",
-      "lymphatic-drainage",
-      "microneedling",
-      "barrier-support-facial",
-      "medical-grade-skincare"
-    ],
     faq: {
-      title: "",
-      highlight: "Frequently Asked Questions",
-      titleSuffix: "",
-      description: "",
+      title: "Frequently Asked Questions",
       items: [
-        {
-          question: "Can poor sleep really affect my skin?",
-          answer: "Yes. Sleep is essential for skin repair, collagen regeneration and barrier recovery. Poor sleep increases inflammation, slows healing and accelerates ageing, which can lead to dullness, dryness and deeper fine lines."
-        },
-        {
-          question: "Why does my skin look older when I don’t sleep well?",
-          answer: "Poor sleep reduces collagen repair and increases oxidative stress. This weakens skin elasticity, increases dehydration and makes fine lines, pigmentation and under-eye fatigue more visible."
-        },
-        {
-          question: "How long does it take for skin to recover after sleep disruption?",
-          answer: "Many clients notice improvement in glow and hydration within 4–8 weeks once skin repair is supported. Structural improvements such as firmness and collagen regeneration typically take 8–16 weeks with correct sequencing."
-        },
-        {
-          question: "Can poor sleep cause breakouts and congestion?",
-          answer: "Yes. Poor sleep increases cortisol and inflammatory signalling, which can increase oil production and trigger breakouts. Many clients experience stress-related acne flare-ups when sleep quality declines."
-        },
-        {
-          question: "Can poor sleep worsen under-eye dark circles and puffiness?",
-          answer: "Yes. Poor sleep affects circulation and fluid balance, making puffiness, hollows and dark circles more visible. Under-eye concerns often become one of the first visible signs of chronic sleep disruption."
-        },
-        {
-          question: "Does poor sleep affect collagen and skin firmness?",
-          answer: "Yes. Collagen regeneration occurs during deep sleep phases. When sleep is disrupted, collagen repair slows and firmness can decline faster, especially during perimenopause and menopause."
-        },
-        {
-          question: "Is poor sleep linked to skin inflammation and sensitivity?",
-          answer: "Yes. Poor sleep increases inflammatory markers and weakens barrier recovery. This often leads to sensitivity, redness, dehydration and flare-prone skin behaviour."
-        },
-        {
-          question: "Can poor sleep contribute to inflammation-driven ageing (“inflammaging”)?",
-          answer: "Yes. Poor sleep increases systemic inflammation, which accelerates collagen breakdown and worsens skin ageing patterns. Many clients with chronic fatigue develop inflammaging-type skin behaviour."
-        },
-        {
-          question: "Can poor sleep worsen hormonal skin changes during perimenopause and menopause?",
-          answer: "Yes. Sleep disruption is common during hormonal transition and can worsen dryness, sensitivity, collagen decline and breakouts. This is why ULANDA assesses both hormonal and lifestyle-driven skin ageing patterns."
-        },
-        {
-          question: "Can poor sleep contribute to under-eye hollows and tear trough shadowing?",
-          answer: "Yes. Poor sleep can worsen fluid retention and increase shadowing, making hollows appear deeper. Over time, sleep-related stress and inflammation can contribute to under-eye ageing changes."
-        },
-        {
-          question: "Where can I get Poor Sleep & Skin Ageing Impact treatment near me in Ware, Hertfordshire?",
-          answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
-        }
-      ]
+        { question: "Can poor sleep really affect my skin?", answer: "Yes. Sleep is essential for skin repair, collagen regeneration and barrier recovery. Poor sleep increases inflammation, slows healing and accelerates ageing, which can lead to dullness, dryness and deeper fine lines." },
+        { question: "Why does my skin look older when I don’t sleep well?", answer: "Poor sleep reduces collagen repair and increases oxidative stress. This weakens skin elasticity, increases dehydration and makes fine lines, pigmentation and under-eye fatigue more visible." },
+        { question: "How long does it take for skin to recover after sleep disruption?", answer: "Many clients notice improvement in glow and hydration within 4–8 weeks once skin repair is supported. Structural improvements such as firmness and collagen regeneration typically take 8–16 weeks with correct sequencing." },
+        { question: "Can poor sleep cause breakouts and congestion?", answer: "Yes. Poor sleep increases cortisol and inflammatory signalling, which can increase oil production and trigger breakouts. Many clients experience stress-related acne flare-ups when sleep quality declines." },
+        { question: "Can poor sleep worsen under-eye dark circles and puffiness?", answer: "Yes. Poor sleep affects circulation and fluid balance, making puffiness, hollows and dark circles more visible. Under-eye concerns often become one of the first visible signs of chronic sleep disruption." },
+        { question: "Does poor sleep affect collagen and skin firmness?", answer: "Yes. Collagen regeneration occurs during deep sleep phases. When sleep is disrupted, collagen repair slows and firmness can decline faster, especially during perimenopause and menopause." },
+        { question: "Is poor sleep linked to skin inflammation and sensitivity?", answer: "Yes. Poor sleep increases inflammatory markers and weakens barrier recovery. This often leads to sensitivity, redness, dehydration and flare-prone skin behaviour." },
+        { question: "Can poor sleep contribute to inflammation-driven ageing (“inflammaging”)?", answer: "Yes. Poor sleep increases systemic inflammation, which accelerates collagen breakdown and worsens skin ageing patterns. Many clients with chronic fatigue develop inflammaging-type skin behaviour." },
+        { question: "Can poor sleep worsen hormonal skin changes during perimenopause and menopause?", answer: "Yes. Sleep disruption is common during hormonal transition and can worsen dryness, sensitivity, collagen decline and breakouts. This is why ULANDA assesses both hormonal and lifestyle-driven skin ageing patterns." },
+        { question: "Can poor sleep contribute to under-eye hollows and tear trough shadowing?", answer: "Yes. Poor sleep can worsen fluid retention and increase shadowing, making hollows appear deeper. Over time, sleep-related stress and inflammation can contribute to under-eye ageing changes." },
+        { question: "Where can I get Poor Sleep & Skin Ageing Impact treatment near me in Ware, Hertfordshire?", answer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and programme-led treatment pathways. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability." }
+      ],
+      footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     },
     cta: {
       title: "Book Your",
@@ -6091,120 +7039,165 @@
     hero: {
       title: "Pelvic & Intimate",
       highlight: "Regeneration",
-      description: "A Radiate Pathway for Tissue Integrity, Comfort & Functional Confidence. Pelvic and intimate tissue changes are a biological reality across a woman’s life course — particularly following childbirth, during perimenopause, and through menopause. These changes are rarely cosmetic in nature. They are functional, structural and deeply embodied. The Pelvic & Intimate Regeneration pathway exists to support tissue quality, resilience and comfort in areas where biology, identity and recovery capacity intersect — using regenerative principles, clinical restraint and life-stage awareness.",
+      description: [
+        "A Radiate Pathway for Tissue Integrity, Comfort & Functional Confidence.",
+        "Pelvic and intimate tissue changes are a biological reality across a woman’s life course — particularly following childbirth, during perimenopause, and through menopause.",
+        "These changes are rarely cosmetic in nature. They are functional, structural and deeply embodied.",
+        "The Pelvic & Intimate Regeneration pathway exists to support tissue quality, resilience and comfort in areas where biology, identity and recovery capacity intersect — using regenerative principles, clinical restraint and life-stage awareness.",
+        "This pathway is not about enhancement or correction. It is about restoring tissue conditions that allow women to feel at ease in their bodies again."
+      ],
       buttonText: "Request a Radiate Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tYW4lMjByZWxheGluZ3xlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tYW4lMjByZWxheGluZ3xlbnwwfDF8MHx8fDA%3D"
     },
-    intro: {
-      content: "This pathway is not about enhancement or correction. It is about restoring tissue conditions that allow women to feel at ease in their bodies again."
-    },
+    content: [
+      {
+        title: "What This Pathway Addresses",
+        description: "This Radiate pathway may be appropriate for women experiencing: Tissue laxity following childbirth, Changes in tissue quality associated with hormonal transition, Pelvic or intimate discomfort linked to tissue integrity, Reduced tissue resilience, hydration or elasticity, A sense that the body “does not feel the same” despite time and recovery. Importantly, this pathway recognises that many intimate concerns are not visible, and often go unspoken — yet have a meaningful impact on comfort, confidence and wellbeing."
+      },
+      {
+        title: "What Makes This a Radiate Pathway (Not a Treatment)",
+        description: "Pelvic & Intimate Regeneration sits firmly within Radiate because it: Requires high anatomical and biological judgement, Involves micro-architecture and tissue behaviour, not surface aesthetics, Is strongly influenced by hormonal context, Demands sequencing, restraint and proportionality, Must never be approached as a standalone or cosmetic service. Care within this pathway is planned, reviewed and adapted — not booked from a menu."
+      }
+    ],
     science: {
-      title: "What This Pathway",
-      highlight: "Addresses",
-      description: "This Radiate pathway may be appropriate for women experiencing:",
+      title: "Hormonal Context &",
+      highlight: "Life-Stage Awareness",
+      description: "Pelvic and intimate tissues are highly hormone-responsive. Changes in oestrogen, progesterone and androgen balance influence:",
       items: [
         {
-          title: "Tissue Laxity",
-          description: "following childbirth"
+          number: "01",
+          title: "Tissue Hydration",
+          description: "Essential for comfort and resilience."
         },
         {
-          title: "Tissue Quality Changes",
-          description: "associated with hormonal transition"
+          number: "02",
+          title: "Collagen Integrity",
+          description: "Critical for structural support."
         },
         {
-          title: "Discomfort",
-          description: "Pelvic or intimate discomfort linked to tissue integrity"
+          number: "03",
+          title: "Elasticity",
+          description: "Allows for flexibility and movement."
         },
         {
-          title: "Reduced Resilience",
-          description: "reduced tissue resilience, hydration or elasticity"
+          number: "04",
+          title: "Vascularity",
+          description: "Blood flow supports healing and health."
         },
         {
-          title: "Sensory Changes",
-          description: "A sense that the body “does not feel the same” despite time and recovery"
+          number: "05",
+          title: "Recovery Capacity",
+          description: "Hormones drive how well tissues repair."
         }
       ],
-      footer: "Importantly, this pathway recognises that many intimate concerns are not visible, and often go unspoken — yet have a meaningful impact on comfort, confidence and wellbeing."
+      footer: "Hormonal status is understood as biological context, not a standalone intervention — ensuring care remains safe, ethical and appropriate within the UK clinical landscape."
     },
-    treatmentModel: {
-      title: "How Care Is Approached -",
-      highlight: "The Radiate Method™",
-      description: "Care within this pathway follows the Radiate Method™, meaning: Tissue readiness is assessed before intervention, Inflammation, sensitivity and recovery capacity are respected, Intervention intensity is conservative and progressive, Outcomes are reviewed over time, not assumed. The aim is not to “do more”, but to support tissue conditions that allow the body to respond naturally and sustainably.",
-      items: [
-        {
-          title: "Guidance",
-          subtitle: "(Assessment & Planning)",
-          description: "Pelvic & Intimate Regeneration is accessed only via the Radiate Consultation.",
-          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Radiate Consultation", desc: "For proper assessment, expectation setting, and ethical decision-making." },
-            { name: "Hormonal Context", desc: "Hormonal status is understood as biological context, not a standalone intervention. Related: Hormones & Regeneration, Hormone-Smart Skin Programme" }
-          ]
-        },
-        {
-          title: "Modalities",
-          subtitle: "(Not Exhaustive)",
-          description: "Depending on assessment and readiness, this pathway may draw from:",
-          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Regenerative energy-based support", desc: "" },
-            { name: "Tissue stimulation techniques", desc: "appropriate to intimate anatomy" },
-            { name: "Supportive regenerative adjuncts", desc: "" },
-            { name: "Recovery-focused protocols", desc: "" },
-            { name: "Integration with wider Radiate or Restore pathways", desc: "where required" }
-          ]
-        }
-      ]
-    },
+    contentSections: [
+      {
+        title: "How Care Is",
+        highlight: "Approached",
+        description: [
+          "Care within this pathway follows the Radiate Method™, meaning:",
+          "● Tissue readiness is assessed before intervention",
+          "● Inflammation, sensitivity and recovery capacity are respected",
+          "● Intervention intensity is conservative and progressive",
+          "● Outcomes are reviewed over time, not assumed",
+          "The aim is not to “do more”, but to support tissue conditions that allow the body to respond naturally and sustainably."
+        ],
+        items: []
+      },
+       {
+        title: "Modalities This Pathway",
+        highlight: "May Draw From (Not Exhaustive)",
+        description: [
+          "Depending on assessment and readiness, this pathway may draw from:",
+          "● Regenerative energy-based support",
+          "● Tissue stimulation techniques appropriate to intimate anatomy",
+          "● Supportive regenerative adjuncts",
+          "● Recovery-focused protocols",
+          "● Integration with wider Radiate or Restore pathways where required",
+          "Specific modalities are never pre-selected and are discussed only within a consultation context."
+        ],
+        items: []
+      },
+      {
+         title: "What You",
+         highlight: "Leave With",
+         description: [
+           "Women progressing through this pathway typically leave with:",
+           "● Improved tissue comfort and resilience",
+           "● A clearer understanding of bodily changes",
+           "● Reduced self-consciousness or uncertainty",
+           "● Confidence that care has been proportionate and safe",
+           "● A sense of being supported, not sold to",
+           "Outcomes are functional, embodied and personal — not cosmetic promises."
+         ],
+         items: []
+      }
+    ],
     whyChoose: {
-      title: "What Makes This a",
-      highlight: "Radiate Pathway (Not a Treatment)",
-      items: [
-        "Requires high anatomical and biological judgement",
-        "Involves micro-architecture and tissue behaviour, not surface aesthetics",
-        "Is strongly influenced by hormonal context",
-        "Demands sequencing, restraint and proportionality",
-        "Must never be approached as a standalone or cosmetic service",
-        "Care within this pathway is planned, reviewed and adapted — not booked from a menu."
+      title: "Guardrails &",
+      highlight: "Safety",
+      description: "This pathway is NOT appropriate where:",
+       items: [
+        "Concerns are purely aesthetic or enhancement-driven",
+        "A quick-fix or one-off intervention is expected",
+        "Clinical readiness has not been established",
+        "Alternative medical care is more appropriate",
+        "ULANDA prioritises long-term tissue health over short-term intervention."
       ],
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     relatedTreatments: [
-      "radiate-consultation",
-      "hormones-and-regeneration"
+      {
+        id: 'radiate-consultation',
+        title: 'The Radiate Consultation',
+        description: 'Vitality, Longevity & Regenerative Assessment (Primary Access Point)'
+      },
+      {
+        id: 'hormones-regeneration',
+        title: 'Hormones & Regeneration',
+        description: 'Hormonal status is understood as biological context.'
+      },
+      {
+        id: 'hormone-smart-skin',
+        title: 'Hormone-Smart Skin Programme',
+        description: 'Supporting skin resilience during hormonal transition.'
+      },
+      {
+        id: 'structural-lift-facial-architecture',
+        title: 'Structural Lift & Facial Architecture',
+        description: 'May sit alongside or intersect with this pathway.'
+      },
+      {
+        id: 'shape-regenerate',
+        title: 'Shape & Regenerate',
+        description: 'May sit alongside or intersect with this pathway.'
+      },
+      {
+        id: 'collagen-reset',
+        title: 'Collagen Reset',
+        description: 'May sit alongside or intersect with this pathway.'
+      }
     ],
     faq: {
-      title: "",
-      highlight: "Common Questions",
-      titleSuffix: "",
-      description: "",
+      title: "Frequently Asked Questions",
       items: [
-        {
-          question: "Is this the same as vaginal rejuvenation?",
-          answer: "No. This pathway focuses on tissue health, comfort and regeneration — not cosmetic enhancement."
-        },
-        {
-          question: "Is hormonal treatment included?",
-          answer: "Hormonal status is assessed as biological context. Where appropriate, referral or collaboration with hormone specialists may be advised."
-        },
-        {
-          question: "Is this suitable postpartum or during menopause?",
-          answer: "Yes — when assessed and approached appropriately within a life-stage context."
-        },
-        {
-          question: "Is treatment always required?",
-          answer: "Not necessarily. Some consultations result in reassurance, monitoring or alternative guidance."
-        }
-      ]
+        { question: "Is this the same as vaginal rejuvenation?", answer: "No. This pathway focuses on tissue health, comfort and regeneration — not cosmetic enhancement." },
+        { question: "Is hormonal treatment included?", answer: "Hormonal status is assessed as biological context. Where appropriate, referral or collaboration with hormone specialists may be advised." },
+        { question: "Is this suitable postpartum or during menopause?", answer: "Yes — when assessed and approached appropriately within a life-stage context." },
+        { question: "Is treatment always required?", answer: "Not necessarily. Some consultations result in reassurance, monitoring or alternative guidance." },
+        { question: "What do women leave with?", answer: "Typically: improved tissue comfort and resilience, a clearer understanding of bodily changes, reduced self-consciousness, and confidence that care has been proportionate and safe." },
+        { question: "Is this pathway safe?", answer: "Yes. ULANDA prioritises long-term tissue health. It is not appropriate where concerns are purely aesthetic, quick-fix driven, or where clinical readiness is not established." }
+      ],
+      footer: "Outcomes are functional, embodied and personal — not cosmetic promises."
     },
     cta: {
-      title: "When Comfort, Identity and Biology",
-      highlight: "Intersect",
+      title: "When Comfort, Identity And",
+      highlight: "Biology Intersect",
       titleSuffix: "",
       description: "Care in intimate areas deserves time, expertise and restraint. If you are seeking clarity rather than correction, a Radiate consultation offers space to explore whether regenerative support is appropriate for you.",
       buttonText: "Request a Radiate Consultation",
@@ -6256,29 +7249,6 @@
         }
       ],
       footer: "Primary Recommended Programme Pathway: Structural Skin Regeneration Programme (Secondary: Skin Barrier Repair & Recovery if sensitivity dominates)"
-    },
-    treatmentModel: {
-      title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
-      description: "At ULANDA, inflammaging is addressed through inflammation calming, barrier stabilisation and structured collagen regeneration.",
-      items: [
-        {
-          title: "Recommended Treatments",
-          subtitle: "(Comprehensive Care)",
-          description: "Targeted treatments for inflammaging:",
-          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "LED Light Therapy", desc: "supports inflammation reduction, repair and collagen behaviour" },
-            { name: "Deep Hydration Facial", desc: "restores hydration retention and supports skin recovery" },
-            { name: "Lymphatic Detox Facial", desc: "supports circulation and inflammatory congestion reduction" },
-            { name: "Oxygen Glow Facial", desc: "improves radiance and tissue vitality during inflammatory fatigue" },
-            { name: "Microneedling / Collagen Induction Therapy", desc: "supports collagen rebuilding where barrier stability is confirmed" },
-            { name: "Barrier Support Facial", desc: "stabilisation-first support for inflamed, reactive skin" },
-            { name: "Medical-Grade Skincare Planning", desc: "supports anti-inflammatory skin behaviour and long-term resilience" }
-          ]
-        }
-      ]
     },
     whyChoose: {
       title: "Why Clients Choose ULANDA –",
@@ -6393,11 +7363,11 @@
         },
         {
           title: "Digestive Disruption",
-          description: "contributing to acne and congestion flare-ups"
+          description: "digestive disruption contributing to acne and congestion flare-ups"
         },
         {
           title: "Food Sensitivity",
-          description: "patterns increasing redness or breakouts"
+          description: "food sensitivity patterns increasing redness or breakouts"
         },
         {
           title: "Stress-Related Disruption",
@@ -6405,33 +7375,10 @@
         },
         {
           title: "Reduced Nutrient Absorption",
-          description: "affecting collagen behaviour and skin healing"
+          description: "reduced nutrient absorption affecting collagen behaviour and skin healing"
         }
       ],
       footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme (Secondary: Photoaging & Skin Architecture if acne/pigmentation dominates)"
-    },
-    treatmentModel: {
-      title: "Recommended Treatments –",
-      highlight: "Please use the current website format",
-      description: "At ULANDA, gut-skin imbalance is supported through inflammation calming, barrier stabilisation and structured skin recovery planning.",
-      items: [
-        {
-          title: "Recommended Treatments",
-          subtitle: "(Comprehensive Care)",
-          description: "Targeted treatments for gut-skin issues:",
-          image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          points: [
-            { name: "Barrier Support Facial", desc: "stabilisation-first treatment for inflamed, reactive skin" },
-            { name: "Deep Hydration Facial", desc: "restores hydration retention and reduces dryness flare-ups" },
-            { name: "LED Light Therapy", desc: "supports inflammation reduction and tissue repair" },
-            { name: "Lymphatic Detox Facial", desc: "supports inflammatory congestion and detox pathways" },
-            { name: "Oxygen Glow Facial", desc: "improves vitality and reduces fatigue-driven dullness" },
-            { name: "Advanced Cleansing & Hydration Therapy (HydraFacial)", desc: "supports congestion control in acne-prone clients" },
-            { name: "Medical-Grade Skincare Planning", desc: "structured barrier-safe routine to reduce flare cycles" }
-          ]
-        }
-      ]
     },
     whyChoose: {
       title: "Why Clients Choose ULANDA –",
@@ -6558,7 +7505,7 @@
         },
         {
           title: "Dehydration & Depletion",
-          description: "dehydration and nutrient depletion reducing skin recovery capacity"
+          description: "reducing skin recovery capacity"
         }
       ],
       footer: "Primary Recommended Programme Pathway: Menopause Skin Rebuild Programme (Secondary: Skin Barrier Repair & Recovery if sensitivity dominates)"

@@ -24,10 +24,15 @@ export default function Treatments() {
     treatmentList.forEach(category => {
       Object.entries(category.subCategories || {}).forEach(([subKey, subCategory]) => {
         Object.entries(subCategory.treatments || {}).forEach(([treatmentKey, treatment]) => {
+          let description = treatment.description || '';
+          if (Array.isArray(description)) {
+            description = description.join(' ');
+          }
+          
           const matchesSearch = 
             treatment.title?.toLowerCase().includes(query) ||
             treatment.subtitle?.toLowerCase().includes(query) ||
-            treatment.description?.toLowerCase().includes(query) ||
+            description.toLowerCase().includes(query) ||
             category.title?.toLowerCase().includes(query) ||
             subCategory.title?.toLowerCase().includes(query);
 
@@ -65,10 +70,15 @@ export default function Treatments() {
         const filteredTreatments = {};
         
         Object.entries(subCategory.treatments || {}).forEach(([treatmentKey, treatment]) => {
+          let description = treatment.description || '';
+          if (Array.isArray(description)) {
+            description = description.join(' ');
+          }
+
           const matchesSearch = 
             treatment.title?.toLowerCase().includes(query) ||
             treatment.subtitle?.toLowerCase().includes(query) ||
-            treatment.description?.toLowerCase().includes(query) ||
+            description.toLowerCase().includes(query) ||
             category.title?.toLowerCase().includes(query) ||
             subCategory.title?.toLowerCase().includes(query);
 
