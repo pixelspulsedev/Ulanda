@@ -48,6 +48,116 @@
       "permanent": true
     },
     {
+      "source": "/conditions/breakouts-congestion",
+      "destination": "/conditions/acne-texture/breakouts-congestion",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/adult-acne",
+      "destination": "/conditions/acne-texture/adult-acne",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/puffy-under-eyes",
+      "destination": "/conditions/eye-area/puffy-under-eyes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/under-eye-fragility",
+      "destination": "/conditions/eye-area/under-eye-fragility",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/stress-cortisol-skin-imbalance",
+      "destination": "/conditions/internal-wellness/stress-cortisol-skin-imbalance",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/poor-sleep-skin-ageing",
+      "destination": "/conditions/internal-wellness/poor-sleep-skin-ageing",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/inflammation-driven-ageing",
+      "destination": "/conditions/internal-wellness/inflammation-driven-ageing",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/gut-skin-imbalance",
+      "destination": "/conditions/internal-wellness/gut-skin-imbalance",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/fatigue-low-energy-affecting-skin",
+      "destination": "/conditions/internal-wellness/fatigue-low-energy-affecting-skin",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/menopause-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/menopause-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/postpartum-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/postpartum-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/perimenopause-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/perimenopause-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/hormonal-skin-pigmentation",
+      "destination": "/conditions/menopause-hormone-skin-changes/hormonal-skin-pigmentation",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/hormonal-acne-adult-breakouts",
+      "destination": "/conditions/menopause-hormone-skin-changes/hormonal-acne-adult-breakouts",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/facial-redness",
+      "destination": "/conditions/redness-sensitivity-reactive-skin/facial-redness",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/reactive-skin",
+      "destination": "/conditions/redness-sensitivity-reactive-skin/reactive-skin",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/rosacea",
+      "destination": "/conditions/redness-sensitivity-reactive-skin/rosacea",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/skin-inflammation",
+      "destination": "/conditions/redness-sensitivity-reactive-skin/skin-inflammation",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/body-acne",
+      "destination": "/conditions/body-skin-structural/body-acne",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/body-pigmentation",
+      "destination": "/conditions/body-skin-structural/body-pigmentation",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/keratosis-pilaris",
+      "destination": "/conditions/body-skin-structural/keratosis-pilaris",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/signature-facials",
+      "destination": "/treatments/skin-health-facial-therapies",
+      "permanent": true
+    },
+    {
       "source": "/programmes/menopause-regeneration",
       "destination": "/treatments/radiate/pathways/menopause-regeneration",
       "permanent": true
@@ -76,6 +186,12 @@
       "source": "/programmes/:path*",
       "destination": "/treatments/radiate/pathways",
       "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [

@@ -783,6 +783,11 @@ export const getConditionUrl = (slug) => {
     "jawline-softening": "menopause-hormone-skin-changes",
     "neck-crepiness": "menopause-hormone-skin-changes",
     "texture-decline": "menopause-hormone-skin-changes",
+    "postpartum-skin-changes": "menopause-hormone-skin-changes",
+    "perimenopause-skin-changes": "menopause-hormone-skin-changes",
+    "menopause-skin-changes": "menopause-hormone-skin-changes",
+    "hormonal-skin-pigmentation": "menopause-hormone-skin-changes",
+    "hormonal-acne-adult-breakouts": "menopause-hormone-skin-changes",
 
     // 3) Eye Area Conditions
     "dark-circles": "eye-area",
@@ -790,6 +795,8 @@ export const getConditionUrl = (slug) => {
     "crepey-under-eye": "eye-area",
     "under-eye-pigmentation": "eye-area",
     "under-eye-puffiness": "eye-area",
+    "under-eye-fragility": "eye-area",
+    "puffy-under-eyes": "eye-area",
 
     // 4) Age & Skin Regeneration
     "crepey-skin": "age-and-regeneration",
@@ -812,13 +819,31 @@ export const getConditionUrl = (slug) => {
     "stretch-marks": "body-skin-structural",
     "post-weightloss-postpartum": "body-skin-structural",
     "pelvic-intimate-regeneration": "body-skin-structural",
+    "keratosis-pilaris": "body-skin-structural",
+    "body-pigmentation": "body-skin-structural",
+    "body-acne": "body-skin-structural",
 
-    // 7) Internal Wellness Conditions
+    // 7) Redness, Sensitivity & Reactive Skin
+    "skin-inflammation": "redness-sensitivity-reactive-skin",
+    "reactive-skin": "redness-sensitivity-reactive-skin",
+    "rosacea": "redness-sensitivity-reactive-skin",
+    "facial-redness": "redness-sensitivity-reactive-skin",
+
+    // 8) Acne & Texture
+    "breakouts-congestion": "acne-texture",
+    "adult-acne": "acne-texture",
+
+    // 9) Internal Wellness Conditions
     "fatigue-low-energy": "internal-wellness",
     "low-immunity": "internal-wellness",
     "slow-metabolism": "internal-wellness",
     "stress-inflammation": "internal-wellness",
-    "nutrient-deficiency-skin": "internal-wellness"
+    "nutrient-deficiency-skin": "internal-wellness",
+    "stress-cortisol-skin-imbalance": "internal-wellness",
+    "poor-sleep-skin-ageing": "internal-wellness",
+    "inflammation-driven-ageing": "internal-wellness",
+    "gut-skin-imbalance": "internal-wellness",
+    "fatigue-low-energy-affecting-skin": "internal-wellness"
   };
 
   const category = conditionCategories[slug];
