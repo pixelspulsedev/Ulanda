@@ -7,6 +7,7 @@ import { programmes } from '../src/data/pageContents/programmes/programmes.js';
 import { treatments } from '../src/data/pageContents/treatments/treatments.js';
 import { getAllTreatmentCategories } from '../src/data/pageContents/treatments/drafts/treatments_restructured_draft.js';
 import { blogs } from '../src/data/pageContents/blogs/blogs.js';
+import { signaturePathways } from '../src/data/pageContents/signature/signatureData.js';
 import { getConditionUrl } from '../src/data/crosslinks.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -62,6 +63,12 @@ const generateSitemap = () => {
   urls.push('/treatments/radiate/pathways');
   programmes.forEach(programme => {
     urls.push(`/treatments/radiate/pathways/${programme.id}`);
+  });
+
+  // Add Signature Pages
+  urls.push('/signature');
+  signaturePathways.forEach(sig => {
+    urls.push(`/signature/${sig.id}`);
   });
 
   // Add Blog Pages
