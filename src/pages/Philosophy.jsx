@@ -458,7 +458,7 @@ export default function Philosophy() {
                 personalised consultation.
               </p>
               <Link to="/book-consultation" className="btn btn-primary text-white px-8 py-3 h-auto rounded-lg">
-                Book Your Consultation
+                Book Skin Health Consultation
               </Link>
             </FadeInWhenVisible>
           </div>

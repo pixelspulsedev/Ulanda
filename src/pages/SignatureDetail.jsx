@@ -679,7 +679,7 @@ export default function SignatureDetail() {
             className="btn btn-primary text-white px-6 py-3 rounded-full shadow-2xl hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2"
           >
             <span className="hidden sm:inline">Book Skin Health Consultation</span>
-            <span className="sm:hidden">Book Consultation</span>
+            <span className="sm:hidden">Book Skin Health Consultation</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

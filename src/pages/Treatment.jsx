@@ -71,7 +71,7 @@ const SafetyIcon = ({ type }) => {
 
 const getBookingButtonLabel = (booking) => {
   if (booking?.bookingType?.toLowerCase().includes('consultation')) {
-    return 'Book Consultation';
+    return 'Book Skin Health Consultation';
   }
   return 'Book Now';
 };
@@ -128,8 +128,8 @@ const Treatment = () => {
     : `https://www.ulanda.co.uk/treatments/${category}/${id}`.toLowerCase();
 
   const Book = () => {
-    const label = treatment.booking ? getBookingButtonLabel(treatment.booking) : 'Book Consultation';
-    if (label === 'Book Consultation') {
+    const label = treatment.booking ? getBookingButtonLabel(treatment.booking) : 'Book Skin Health Consultation';
+    if (label === 'Book Skin Health Consultation') {
       navigate('/book-consultation');
     } else {
       window.open('https://ulanda-100633.square.site/', '_blank');
@@ -225,11 +225,11 @@ const Treatment = () => {
             {treatment.booking ? (
               <button onClick={() => Book()} className="ml-4 btn btn-primary">
                 {getBookingButtonLabel(treatment.booking) ||
-                  'Book Consultation'}
+                  'Book Skin Health Consultation'}
               </button>
             ) : (
               <button onClick={() => Book()} className="ml-4 btn btn-primary">
-                Book Consultation
+                Book Skin Health Consultation
               </button>
             )}
           </div>
@@ -900,7 +900,7 @@ const Treatment = () => {
               >
                 {treatment.booking
                   ? getBookingButtonLabel(treatment.booking)
-                  : "Book Consultation"}
+                  : "Book Skin Health Consultation"}
               </button>
             </div>
           </section>

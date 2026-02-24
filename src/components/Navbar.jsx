@@ -301,7 +301,7 @@ export default function Navbar() {
           to="/book-consultation"
           className={`btn btn-primary hidden lg:flex items-center font-sans text-white px-8 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 `}
         >
-          Book Consultation
+          Book Skin Health Consultation
         </Link>
         
         {/* Mobile Menu Button - Drawer Toggle */}
@@ -435,7 +435,7 @@ export default function Navbar() {
               
               <div className="mt-8 mb-8 px-2">
                  <Link to="/book-consultation" onClick={() => setIsDrawerOpen(false)} className="btn btn-primary text-white w-full rounded-xl shadow-md min-h-[3rem] font-sans tracking-wide">
-                   Book Consultation
+                   Book Skin Health Consultation
                  </Link>
               </div>
            </div>

@@ -148,7 +148,7 @@ export const signaturePathways = [
     credential: "Led by an Advanced Nurse Practitioner & Nurse Independent Prescriber \u2022 NMC Registered \u2022 Ware, Hertfordshire",
     concerns: "sensitivity, dryness, stinging, barrier breakdown, post-treatment irritation",
     url: "/signature/skin-barrier-repair-recovery",
-    image: "/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp",
+    image: "/assets/img/treatments/radiate/Collagen reset journey.webp",
     seo: {
       title: "Skin Barrier Repair & Recovery in Ware | ULANDA Signature Hertfordshire",
       description: "A nurse-led skin barrier repair Signature treatment in Ware, Hertfordshire designed to calm sensitivity, restore hydration and rebuild skin resilience. Structured sequencing for long-term recovery and stable, healthy skin behaviour.",
@@ -720,7 +720,7 @@ export const signaturePathways = [
     credential: "Led by an Advanced Nurse Practitioner & Nurse Independent Prescriber \u2022 NMC Registered \u2022 Ware, Hertfordshire",
     concerns: "dark spots, uneven tone, sun damage, rough texture, dull skin, enlarged pores",
     url: "/signature/photoaging-skin-architecture",
-    image: "/assets/img/treatments/radiate/Collagen reset journey.webp",
+    image: "/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp",
     seo: {
       title: "Photoaging & Skin Architecture in Ware | ULANDA Signature Hertfordshire",
       description: "A nurse-led photoaging and pigmentation correction Signature in Ware, Hertfordshire designed to improve sun damage, uneven tone, texture and skin quality. Structured sequencing for long-term skin architecture and refined regeneration.",
@@ -1089,7 +1089,7 @@ export const signaturePathways = [
     description: "A targeted eye-area Signature designed to improve hollows, pigmentation, fine lines and fragile under-eye skin behaviour.",
     concerns: "tear trough shadowing, dark circles, thin under-eye skin, creasing, puffiness",
     url: "/signature/under-eye-renewal",
-    image: "/assets/img/treatments/radiate/Under eye regeneration treatment.webp",
+    image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
     seo: {
       title: "Under-Eye Renewal | Signature | Ware SG12 | ULANDA",
       description: "A targeted eye-area Signature designed to improve hollows, pigmentation, fine lines and fragile under-eye skin behaviour. Ware, Hertfordshire.",

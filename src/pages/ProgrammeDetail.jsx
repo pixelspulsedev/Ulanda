@@ -82,7 +82,7 @@ export default function ProgrammeDetail() {
 
               <FadeInWhenVisible delay={0.4}>
                 <Link to="/book-consultation" className="btn btn-primary text-white">
-                  Book Consultation
+                  Book Skin Health Consultation
                 </Link>
               </FadeInWhenVisible>
             </div>
@@ -440,7 +440,7 @@ export default function ProgrammeDetail() {
               </h2>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Link to="/book-consultation" className="btn btn-primary">
-                  Book Consultation
+                  Book Skin Health Consultation
                 </Link>
                 {/* <button className="btn btn-outline border border-primary text-primary shadow-none hover:bg-primary/10 hover:text-primary"> 
                   Speak to a Practitioner

@@ -251,7 +251,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 text-center max-w-4xl">
           <FadeInWhenVisible>
             <h2 className="text-3xl md:text-5xl font-serif text-primary mb-6">
-              Book a Consultation
+              Book Skin Health Consultation
             </h2>
             <p className="text-lg text-base-content/80 mb-8 max-w-2xl mx-auto">
               Ready to start your journey? Contact us directly or book a

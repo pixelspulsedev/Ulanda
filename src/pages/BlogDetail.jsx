@@ -369,7 +369,7 @@ export default function BlogDetail() {
             </p>
             <div className="flex gap-4 justify-center">
               <Link to="/book-consultation" className="btn btn-primary text-white px-8">
-                Book Consultation
+                Book Skin Health Consultation
               </Link>
             </div>
           </div>

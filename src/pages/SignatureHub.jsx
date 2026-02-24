@@ -168,7 +168,7 @@ export default function SignatureHub() {
           </div>
         </section>
 
-        {/* Book Consultation Section */}
+        {/* Book Skin Health Consultation Section */}
         <section className="py-20 md:py-28 px-4 md:px-8">
           <div className="max-w-4xl mx-auto">
             <FadeInWhenVisible>
@@ -353,7 +353,7 @@ export default function SignatureHub() {
             className="btn btn-primary text-white px-6 py-3 rounded-full shadow-2xl hover:shadow-3xl hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2"
           >
             <span className="hidden sm:inline">{data.stickyCta.label}</span>
-            <span className="sm:hidden">Book Consultation</span>
+            <span className="sm:hidden">Book Skin Health Consultation</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

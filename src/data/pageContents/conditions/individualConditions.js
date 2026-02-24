@@ -9,7 +9,7 @@
       title: "Regenerative Treatments for",
       highlight: "Dehydrated, Lacklustre Skin",
       description: "Dull, dehydrated skin is one of the most common concerns for women 30+, often becoming more noticeable during perimenopause and menopause. The skin looks tired, flat, uneven or \"grey,\" makeup doesn't sit well, and fine lines appear more defined.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
@@ -134,7 +134,7 @@
       highlight: "Smoother",
       titleSuffix: "Skin",
       description: "Book your consultation to reduce enlarged pores.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -153,7 +153,7 @@
         "Pores often enlarge due to a loss of collagen (laxity), excess oil production, or sun damage.",
         "At ULANDA, we don't just treat the surface. We strengthen the collagen structure 'scaffolding' around the pore to tighten it back up, while refining the skin’s tone."
       ],
-      buttonText: "Book Your Sensitivity Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
@@ -282,7 +282,7 @@
       highlight: "Skin Texture",
       titleSuffix: "Today",
       description: "Book your consultation to tighten pores and smooth your skin.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -296,7 +296,7 @@
       title: "Regenerative Treatments for",
       highlight: "Fine Lines & Wrinkles",
       description: "Fine lines and wrinkles are one of the earliest signs of ageing - often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-anti-wrinkes-botox.webp"
     },
@@ -395,7 +395,7 @@
       highlight: "soften",
       titleSuffix: "fine lines?",
       description: "Explore your regenerative options with a personalised consultation.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -409,7 +409,7 @@
       title: "Regenerative Treatments for",
       highlight: "Skin Laxity",
       description: "Skin laxity - sagging of the face, jawline and neck - is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/skin-laxity-hero.webp"
     },
@@ -506,7 +506,7 @@
       highlight: "lift",
       titleSuffix: "without surgery?",
       description: "Book your regenerative lifting consultation for jawline, face or neck.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -520,7 +520,7 @@
       title: "Regenerative Treatments for",
       highlight: "Thin, Crepey Menopause Skin",
       description: "Crepey, thinning skin on the face, neck, under-eyes and body is a hallmark of menopause. We rebuild thickness, elasticity and density at the source.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.pexels.com/photos/7480267/pexels-photo-7480267.jpeg"
     },
@@ -619,7 +619,7 @@
       highlight: "rebuild",
       titleSuffix: "crepey skin?",
       description: "Book your regenerative menopause skin consultation.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -638,7 +638,7 @@
         "Instead of shedding effectively, dead cells accumulate on the surface, trapping congestion and creating a dull, uneven appearance.",
         "At ULANDA, we don't just scrub this away. We retrain the skin's turnover cycle using controlled resurfacing and barrier repair to reveal a softer, smoother and healthier surface."
       ],
-      buttonText: "Book Your Skin Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
@@ -776,7 +776,7 @@
       highlight: "Skin Starts",
       titleSuffix: "Here",
       description: "Book your consultation to restore softness and clarity to your skin.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -790,7 +790,7 @@
       title: "Regenerative Treatments for",
       highlight: "Facial Volume Loss",
       description: "Hollow cheeks, flat midface and sunken temples are key signs of midlife ageing. We restore natural contour with regenerative volume strategies.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/volume-loss-hero.webp"
     },
@@ -887,7 +887,7 @@
       highlight: "restore",
       titleSuffix: "natural volume?",
       description: "Book your personalised regenerative contouring consultation.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -902,7 +902,7 @@
       title: "Body Skin Laxity /",
       highlight: "Loose Skin",
       description: "Body skin laxity refers to the gradual loosening of skin firmness and elasticity, often seen across the abdomen, arms, thighs, knees, neck or décolletage. Many clients describe this as “crepey skin,” sagging, or skin that no longer feels tight and supported — even when they are fit and healthy.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww"
@@ -1048,7 +1048,7 @@
       highlight: "firmer",
       titleSuffix: "body skin?",
       description: "Book your ULANDA Body Regeneration consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -1063,7 +1063,7 @@
       title: "Regenerative Treatments for",
       highlight: "Cellulite",
       description: "Cellulite is structural and hormonal, not a fat problem. We smooth dimples by repairing collagen, releasing tethering and improving tissue health.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1661389208879-cef356e2497d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsbHVsaXRlJTIwdHJlYXRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1661389208879-cef356e2497d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsbHVsaXRlJTIwdHJlYXRtZW50fGVufDB8MXwwfHx8MA%3D%3D"
@@ -1150,7 +1150,7 @@
       highlight: "smooth",
       titleSuffix: "cellulite?",
       description: "Book your ULANDA Body Consultation for regenerative cellulite care.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -1164,7 +1164,7 @@
       title: "Regenerative Treatments for",
       highlight: "Post-Weight Loss & Postpartum Skin",
       description: "After pregnancy or weight loss, skin can feel loose, soft or crepey. We restore firmness and contour through non-surgical regeneration.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1746192629710-cdbc5ec17830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9zdC1XZWlnaHQlMjBMb3NzfGVufDB8MXwwfHx8MA%3D%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1746192629710-cdbc5ec17830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9zdC1XZWlnaHQlMjBMb3NzfGVufDB8MXwwfHx8MA%3D%3D"
@@ -1251,7 +1251,7 @@
       highlight: "restore",
       titleSuffix: "post-weight loss/postpartum skin?",
       description: "Rebuild firmness and tone with ULANDA's regenerative body treatments.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -1266,7 +1266,7 @@
       highlight: "(Striae)",
       subtitle: "Stretch Marks / Striae Distensae",
       description: "Stretch marks, also known as striae, occur when the skin stretches faster than the underlying collagen and elastin fibres can adapt. This creates fine linear marks that may appear red, purple, pink or silvery-white depending on their stage and how long they have been present. Stretch marks commonly affect the abdomen, hips, thighs, breasts, buttocks and arms.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D"
     },
@@ -1363,7 +1363,7 @@
       highlight: "stretch-marked skin",
       titleSuffix: "safely.",
       description: "Book your body skin health consultation.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -1380,7 +1380,7 @@
       subtitle: "Smoothing Treatment & Barrier Restoration for 'Chicken Skin' and Rough Texture.",
       description: "Keratosis Pilaris (KP), often called “chicken skin,” is a common skin condition that causes small rough bumps and uneven texture, most frequently on the upper arms, thighs, buttocks and sometimes the cheeks.",
       image: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     intro: {
@@ -1516,7 +1516,7 @@
     cta: {
       title: "Ready to smooth rough skin?",
       description: "Book your ULANDA Skin Health Consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -1532,7 +1532,7 @@
       title: "Body Pigmentation (Underarms, Knees, Inner Thighs)",
       highlight: "",
       description: "Body pigmentation is a common concern, particularly in areas exposed to friction, shaving, hormonal changes and inflammation. Many clients notice darker patches around the underarms, inner thighs, knees, elbows or bikini line. This can affect confidence, especially when wearing sleeveless clothing, swimwear or fitted outfits.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMHBpZ21lbnRhdGlvbnxlbnwwfDF8MHx8fDA%3D"
@@ -1649,7 +1649,7 @@
       highlight: "brighten",
       titleSuffix: "body pigmentation?",
       description: "Book your ULANDA Skin Health Consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -1665,7 +1665,7 @@
       title: "Body Acne (Back / Chest Acne)",
       highlight: "",
       description: "Body acne, often referred to as “bacne” (back acne) or chest acne, is a common concern that can affect confidence, clothing choices and comfort. Unlike facial acne, body acne is often influenced by sweat, friction, tight clothing, hormonal shifts, inflammation patterns and blocked follicles across the back, shoulders, chest and upper arms.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
@@ -1790,7 +1790,7 @@
       highlight: "clear",
       titleSuffix: "body acne?",
       description: "Book your ULANDA Skin Health Consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -1805,7 +1805,7 @@
       highlight: "Creasing",
       subtitle: "Fine Lines / Texture Issues",
       description: "Under-eye fine lines and creasing are often the earliest signs of structural ageing in the face. Many clients notice their concealer begins to crease, the under-eye area looks more textured, or fine lines become visible even when the rest of the skin appears smooth. This can be caused by dehydration, collagen decline, repeated facial movement, and thinning under-eye tissue.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww"
     },
@@ -1904,7 +1904,7 @@
       highlight: "under-eyes",
       titleSuffix: "safely.",
       description: "Book your fine line consultation.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -1920,7 +1920,7 @@
       highlight: "(Pigment / Vascular)",
       subtitle: "Pigment / Vascular / Shadowing",
       description: "Dark circles are one of the most common under-eye concerns and one of the most misunderstood. Some clients experience brown-toned pigmentation under the eyes, while others notice a blue, purple or shadowed appearance caused by vascular visibility, thinning skin or structural volume loss.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww"
     },
@@ -2018,7 +2018,7 @@
       highlight: "brighter",
       titleSuffix: "every day.",
       description: "Book your dark circle consultation.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -2034,7 +2034,7 @@
       highlight: "Tear Trough Shadowing",
       subtitle: "Tear Trough Shadowing",
       description: "Under-eye hollows, often referred to as tear trough shadowing, occur when volume loss or structural changes beneath the eyes create a sunken appearance. This can make the face look tired, drawn or older — even when you feel well-rested. Many clients describe this concern as “darkness,” but in reality, the darkness is often a shadow created by structure rather than pigmentation alone.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVuZGVyJTIwZXllJTIwaG9sbG93c3xlbnwwfHwwfHx8MA%3D%3D"
     },
@@ -2132,7 +2132,7 @@
       highlight: "tired eyes?",
       titleSuffix: "",
       description: "Book your specialist under-eye consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -2148,7 +2148,7 @@
       highlight: "Thin Skin",
       subtitle: "Thin Skin / Crepey Texture",
       description: "Under-eye fragility and thin skin is one of the most delicate concerns to treat because the eye area naturally has less collagen, fewer oil glands and reduced barrier strength compared to the rest of the face. Many clients notice their under-eye area looks crepey, translucent, more prone to bruising, darker in tone, or increasingly sensitive to skincare products and treatments.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D"
     },
@@ -2247,7 +2247,7 @@
       highlight: "fragile skin",
       titleSuffix: "safely.",
       description: "Book your under-eye health consultation.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -2263,7 +2263,7 @@
       highlight: "Fluid Retention",
       subtitle: "Fluid Retention / Swelling",
       description: "Puffy under-eyes are a common concern that can make the face look tired, swollen or heavier around the eye area — even when you feel well-rested. Some clients experience puffiness only in the morning, while others notice persistent under-eye swelling that fluctuates depending on sleep, stress, hormones, diet or inflammation.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
     },
@@ -2361,7 +2361,7 @@
       highlight: "puffiness",
       titleSuffix: "effectively.",
       description: "Book your lymphatic eye consultation.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -2376,7 +2376,7 @@
       title: "Regenerative Treatments for",
       highlight: "Dryness & Sensitivity",
       description: "Dry, tight, reactive skin is one of the earliest menopause signals. We rebuild strength, hydration and resilience so skin feels calm again.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
@@ -2481,7 +2481,7 @@
       highlight: "restore",
       titleSuffix: "comfort and hydration?",
       description: "Book your ULANDA Skin Comfort & Hydration consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -2500,7 +2500,7 @@
         "This type of breakout is driven by internal fluctuations (perimenopause, cycle changes, stress) that increase oil thickness and inflammation deep within the pore.",
         "At ULANDA, we stop the cycle of 'breakout-react-scar'. We treat the root cause by calming inflammation, repairing the barrier and regulating skin function—without harsh stripping."
       ],
-      buttonText: "Book Your Sensitivity Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
@@ -2629,7 +2629,7 @@
       highlight: "Calmer",
       titleSuffix: "Skin",
       description: "Book your consultation to take control of hormonal breakouts.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -2643,7 +2643,7 @@
       title: "Regenerative Treatments for",
       highlight: "Hormonal Pigmentation",
       description: "Hormone-driven pigmentation needs calm, regenerative brightening - not lasers or harsh bleaching. We repair melanocyte balance safely.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1575779977884-f1069c45cbf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1575779977884-f1069c45cbf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
@@ -2748,7 +2748,7 @@
       highlight: "clear",
       titleSuffix: "hormonal pigmentation?",
       description: "Book your Hormonal Pigmentation consultation for safe, long-term clarity.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -2762,7 +2762,7 @@
       title: "Regenerative Treatments for",
       highlight: "Loss of Facial Definition",
       description: "Menopause-driven contour loss is structural - collagen, ligaments and fat pads weaken. We lift and rebuild definition without heaviness.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1682965699603-81ccb5965576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1682965699603-81ccb5965576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMHNraW58ZW58MHwxfDB8fHww"
@@ -2866,7 +2866,7 @@
       highlight: "restore",
       titleSuffix: "your natural contours?",
       description: "Book your Facial Definition consultation and lift without heaviness.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -2880,7 +2880,7 @@
       title: "Regenerative Treatments for",
       highlight: "Menopause Jawline Softening / Jowls",
       description: "Jawline softening is a structural, hormone-driven change - not a volume problem. We lift jawlines naturally with regeneration, not heavy filler.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://media.istockphoto.com/id/1317818764/photo/close-up-portrait-of-mature-blonde-woman-in-white-underwear-looking-away-posing-isolated-over.jpg?s=612x612&w=0&k=20&c=IvprcjEhcGmiLNUgTgPv2pIJBhUTJTOL-cfdU3tNYkE=",
       // placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
@@ -2971,7 +2971,7 @@
       highlight: "sharpen",
       titleSuffix: "your jawline?",
       description: "Book your Jawline Regeneration consultation and lift naturally.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -2985,7 +2985,7 @@
       title: "Regenerative Treatments for",
       highlight: "Menopause Neck Crepiness / Neck Laxity",
       description: "Menopause neck ageing is rapid and delicate. We thicken, smooth and tighten the neck with regeneration, not overfilling or harsh resurfacing.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-neck-skin.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-neck-skin.webp"
@@ -3076,7 +3076,7 @@
       highlight: "restore",
       titleSuffix: "a smoother neck?",
       description: "Book your Neck Regeneration consultation and rebuild firmness.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3090,7 +3090,7 @@
       title: "Regenerative Treatments for",
       highlight: "Menopause Skin Decline",
       description: "Menopause triggers the most dramatic skin shift of a woman's life. ULANDA rebuilds collagen, hydration, barrier strength and contour through regeneration.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1659531412263-bf2b9e1abf6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2tpbiUyMGRlY2xpbmV8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://images.unsplash.com/photo-1659531412263-bf2b9e1abf6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2tpbiUyMGRlY2xpbmV8ZW58MHwxfDB8fHww"
@@ -3195,7 +3195,7 @@
       highlight: "rebuild",
       titleSuffix: "menopause skin?",
       description: "Book your Menopause Skin Regeneration consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3209,7 +3209,7 @@
       title: "Regenerative Treatments for",
       highlight: "Menopause Skin Texture Decline",
       description: "Rough, uneven, crepey texture in menopause needs stacked regeneration - collagen renewal, hydration rebuilding and dermal strengthening.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp"
     },
@@ -3308,7 +3308,7 @@
       highlight: "smooth",
       titleSuffix: "menopause texture?",
       description: "Book your Texture Regeneration consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3324,7 +3324,7 @@
       subtitle: "Irregular Pigmentation",
       description: "Hyperpigmentation is one of the most common skin concerns and one of the most misunderstood. Dark spots can appear gradually over time or suddenly after inflammation, acne, sun exposure or hormonal change. Many clients find that pigmentation becomes more noticeable with age, and often feels difficult to treat because it can return if the skin is not managed correctly.",
       image: "https://plus.unsplash.com/premium_photo-1664203068076-c95b2d3054a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     intro: {
@@ -3419,7 +3419,7 @@
       highlight: "clearer,",
       titleSuffix: "brighter skin?",
       description: "Book your pigmentation consultation and start your journey to clarity.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -3436,7 +3436,7 @@
       subtitle: "Hormonal Pigmentation",
       description: "Melasma is a complex and often stubborn form of pigmentation that commonly appears as symmetrical patches of brown or grey-brown discolouration across the cheeks, forehead, upper lip or jawline. Many women notice melasma develop or worsen during pregnancy, postpartum recovery, perimenopause or menopause — and it can become increasingly reactive to heat, sun exposure and inflammation.",
       image: "https://plus.unsplash.com/premium_photo-1664203068076-c95b2d3054a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     intro: {
@@ -3531,7 +3531,7 @@
       highlight: "calm",
       titleSuffix: "your melasma?",
       description: "Book your specialist melasma consultation today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       footer: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience."
     }
@@ -3548,7 +3548,7 @@
       subtitle: "Acne Marks & Pigmentation",
       description: "Post-acne pigmentation, also known as PIH (post-inflammatory hyperpigmentation), refers to the dark marks that remain after acne breakouts have healed. Many clients find that even when active breakouts reduce, their skin still looks uneven, patchy or “stained,” particularly across the cheeks, jawline or forehead.",
       image: "https://plus.unsplash.com/premium_photo-1664203068366-f3387be92fb9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     intro: {
@@ -3644,7 +3644,7 @@
       highlight: "Pigmentation",
       titleSuffix: "",
       description: "Book a consultation to fade marks and restore skin clarity.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3660,7 +3660,7 @@
       subtitle: "Tone, Texture & Pigmentation",
       description: "Uneven skin tone is one of the most common concerns clients bring to ULANDA — often described as patchy colour, dullness, sun spots, post-acne marks or a complexion that no longer looks clear and consistent. Some clients notice uneven tone gradually over time, while others experience sudden changes following inflammation, hormonal transition or skin barrier fatigue.",
       image: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZSUyMGNsZWFuc2luZyUyMHNwYXxlbnwwfDF8MHx8fDA%3D",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     intro: {
@@ -3756,7 +3756,7 @@
       highlight: "radiant,",
       titleSuffix: "even skin?",
       description: "Book your brightening consultation and reveal your natural glow.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3772,7 +3772,7 @@
       subtitle: "Sun Damage & Photo-Aging",
       description: "Sun damage, also known as photo-pigmentation, occurs when repeated UV exposure triggers uneven melanin production and accelerates structural ageing within the skin. Many clients notice sun damage as patchy tone, scattered brown spots, freckles becoming darker, rough texture, dullness and an overall loss of skin clarity.",
       image: "https://plus.unsplash.com/premium_photo-1664203067963-889814407b46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHN1biUyMHByb3RlY3Rpb258ZW58MHwxfDB8fHww",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     intro: {
@@ -3868,7 +3868,7 @@
       highlight: "Sun Damage",
       titleSuffix: "",
       description: "Book a consultation to identify your skin's UV damage and recovery needs.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3882,7 +3882,7 @@
       title: "Internal Wellness for",
       highlight: "Fatigue / Low Energy",
       description: "Energy decline after 30-40 is biological - mitochondria slow, hormones fluctuate, nutrients deplete. ULANDA restores cellular energy so skin, mind and body perform again.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1561539207-46fec82a333c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RmF0aWd1ZSUyMCUyNiUyMExvdyUyMEVuZXJneXxlbnwwfDF8MHx8fDA%3D"
     },
@@ -3978,7 +3978,7 @@
       highlight: "restore",
       titleSuffix: "your energy?",
       description: "Begin your ULANDA Fatigue & Energy Regeneration Consultation in Ware, Hertford & SG12.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -3992,7 +3992,7 @@
       title: "Internal Wellness for",
       highlight: "Low Immunity / Frequent Illness",
       description: "If you catch colds easily or recover slowly, immunity is signalling nutrient depletion, cortisol shifts or mitochondrial decline. We rebuild resilience from within.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://www.drtatiana.co.uk/wp-content/smush-webp/2019/03/low-immunity-548x794.jpg.webp"
     },
@@ -4089,7 +4089,7 @@
       highlight: "strengthen",
       titleSuffix: "your immunity?",
       description: "Begin your ULANDA Immunity & Longevity Consultation in Ware, Hertford & SG12.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4103,7 +4103,7 @@
       title: "Internal Wellness for",
       highlight: "Nutrient Deficiency - Linked Skin Issues",
       description: "Dullness, pigmentation, roughness or hair shedding often trace back to Vitamin D, B12, antioxidant and amino-acid deficits. We correct inside first, then regenerate skin.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1643576493776-296ae3e0ca53?q=80&w=855&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -4198,7 +4198,7 @@
       highlight: "restore",
       titleSuffix: "your nutrients & glow?",
       description: "Book your ULANDA Nutrient & Skin Regeneration Consultation in Ware, Hertford & SG12 today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4212,7 +4212,7 @@
       title: "Internal Wellness for",
       highlight: "Slow Metabolism / Weight Gain",
       description: "Midlife weight gain is hormonal and metabolic, not willpower. ULANDA resets metabolism with regenerative, longevity-led support.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1664884164827-4ba4247f3bdb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2xvdyUyMG1ldGFib2xpc218ZW58MHx8MHx8fDA%3D"
     },
@@ -4309,7 +4309,7 @@
       highlight: "reset",
       titleSuffix: "your metabolism?",
       description: "Begin your ULANDA Metabolic & Weight Consultation in Ware, Hertford & SG12 today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4323,7 +4323,7 @@
       title: "Internal Wellness for",
       highlight: "Stress & Inflammation Impacting Skin",
       description: "Chronic stress is a hormonal and inflammatory storm that accelerates ageing. We calm cortisol, rebuild barrier and regenerate skin at every layer.",
-      buttonText: "Book Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1728915175711-c7bf6c398396?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -4421,7 +4421,7 @@
       highlight: "calm",
       titleSuffix: "stress-ageing?",
       description: "Book your ULANDA Stress & Inflammation Consultation in Ware, Hertford, SG12 today.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4440,7 +4440,7 @@
         "True scar revision requires more than just surface polishing. We need to break down old, tethered collagen and stimulate the production of new, smoother tissue.",
         "At ULANDA, we use a multi-layer approach to fade marks, lift indentations and restore even skin texture."
       ],
-      buttonText: "Book Your Sensitivity Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
@@ -4528,7 +4528,7 @@
       highlight: "Refine",
       titleSuffix: "Restore",
       description: "Book your consultation to start your scar revision journey.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4547,7 +4547,7 @@
         "Many clients experience tightness, redness, burning, peeling, dryness or sudden breakouts after using strong actives, having frequent treatments, or trying too many products too quickly.",
         "At ULANDA, we treat recovery as a structured phase — not a quick soothing facial. We assess what has disrupted your barrier, whether inflammation is present, and how to restore stability before progressing into advanced correction safely."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
@@ -4654,7 +4654,7 @@
       highlight: "Skin Recovery",
       titleSuffix: "Journey",
       description: "Restore stability and comfort with a professional consultation.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4674,7 +4674,7 @@
         "Non-responsive skin is a functional skin state where expected improvements plateau, regress or become unpredictable. It often emerges after years of repeated treatments delivered without adequate recovery, reassessment or sequencing.",
         "It may look like: Results that fade quickly, skin that reacts differently to the same treatment, increasing downtime with diminishing benefit, or a sense that “nothing works anymore”."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
@@ -4831,7 +4831,7 @@
       highlight: "the answer is better interpretation.",
       titleSuffix: "",
       description: "Book a consultation to reassess your skin's journey.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4850,7 +4850,7 @@
         "Many clients describe their skin as looking “grey,” tired, uneven, or lifeless, even when they are using high-quality skincare.",
         "At ULANDA, we assess why your glow has reduced and whether your skin is stable enough for renewal treatments, or whether it first needs hydration rebuilding and barrier recovery to restore skin vitality safely."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
@@ -4944,7 +4944,7 @@
       highlight: "restore your glow?",
       titleSuffix: "",
       description: "Book your personalised regenerative hydration consultation today.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -4963,7 +4963,7 @@
         "Chronic dryness can leave the skin feeling tight, rough, flaky, irritated, and increasingly reactive, especially when the skin is being over-cleansed or exposed to harsh active ingredients.",
         "At ULANDA, we assess whether your dryness is barrier-driven, hormone-linked, inflammation-related, or caused by long-term skin fatigue — so your treatment plan restores stability first, then improves texture and long-term skin resilience."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
@@ -5057,7 +5057,7 @@
       highlight: "Skin Comfort",
       titleSuffix: "",
       description: "Book your consultation to rebuild your skin's barrier and hydration.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -5075,7 +5075,7 @@
         "Dehydrated skin is one of the most common reasons skin feels tight, uncomfortable, dull, and unpredictable — even when you are using good skincare. Unlike dry skin (which lacks oil), dehydrated skin lacks water and often shows early signs of barrier instability, sensitivity and poor skin function.",
         "At ULANDA, we assess why your skin is losing hydration and whether your barrier is stable enough to progress into active treatments safely — without over-treating or triggering inflammation."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
       placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
@@ -5167,7 +5167,7 @@
       highlight: "Skin's Thirst",
       titleSuffix: "",
       description: "Book your consultation for deep hydration restoration.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -5185,7 +5185,7 @@
         "A compromised skin barrier is one of the most common hidden reasons skin becomes dry, reactive, inflamed, and unpredictable. When the barrier is weakened, the skin loses hydration faster, becomes more sensitive to products, and struggles to regulate inflammation — often leading to redness, stinging, breakouts, rough texture and long-term skin fatigue.",
         "At ULANDA, we assess barrier stability before recommending advanced treatments. If the barrier is compromised, we stabilise first — because long-term results require resilience, not aggressive correction."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1689298470390-7f58f3471f93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVoeWRyYXRlZCUyMFNraW58ZW58MHwxfDB8fHww"
@@ -5277,7 +5277,7 @@
       highlight: "Skin's Shield",
       titleSuffix: "",
       description: "Book a consultation to restore your skin barrier's strength.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -5295,7 +5295,7 @@
         "Postpartum skin changes are common and often unexpected. Many women notice that after pregnancy their skin becomes drier, more sensitive, more reactive, prone to breakouts, or affected by pigmentation changes. Even if your skin was stable before pregnancy, the postpartum period can trigger a shift in skin behaviour due to hormonal fluctuation, inflammation patterns, stress, sleep disruption and reduced recovery capacity.",
         "At ULANDA, we understand postpartum skin as a transition phase. Your Skin Behaviour Consultation helps us identify what has changed in your barrier function, hydration retention and skin stability — so your plan is calm, safe, and aligned to long-term recovery rather than quick fixes."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/Postpartum.webp",
       placeholderUrl: "/assets/img/conditions/Postpartum.webp"
@@ -5393,7 +5393,7 @@
       highlight: "After Baby",
       titleSuffix: "",
       description: "Book a consultation to calm and rejuvenate postpartum skin.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -5411,7 +5411,7 @@
         "Perimenopause is one of the most common times women notice sudden and unexpected changes in their skin. Many clients describe their skin as becoming drier, more sensitive, less firm, more reactive, and harder to manage — even if they have never struggled with skin issues before.",
         "At ULANDA, we understand that perimenopause skin changes are not “just ageing.” They are often driven by hormonal fluctuation, collagen decline, reduced hydration retention and increased inflammation patterns. Your Skin Behaviour Consultation helps us identify what is shifting in your skin biology and how to rebuild stability and resilience safely."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp"
@@ -5503,7 +5503,7 @@
       highlight: "Perimenopause",
       titleSuffix: "",
       description: "Book a consultation to adapt your skincare to your changing hormones.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -5521,7 +5521,7 @@
         "Menopause can transform how the skin behaves. Many women notice sudden dryness, thinning, increased sensitivity, loss of firmness, dullness, deeper lines, and a feeling that their skin has become fragile or “less responsive” to skincare and treatments that used to work.",
         "At ULANDA, we understand menopause skin changes as a biological transition — not simply ageing. As oestrogen declines, collagen production reduces, hydration retention drops, the barrier becomes weaker, and inflammation can increase. Your Skin Behaviour Consultation allows us to assess how menopause is influencing your skin and design a structured plan focused on stability, regeneration and long-term resilience."
       ],
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "/assets/img/conditions/Menopausal skin condition.webp",
       placeholderUrl: "/assets/img/conditions/Menopausal skin condition.webp"
@@ -5613,7 +5613,7 @@
       highlight: "Skin's Strength",
       titleSuffix: "",
       description: "Book a consultation to nourish and firm menopausal skin.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -5630,7 +5630,7 @@
       description: "Hormonal pigmentation (often called melasma or chloasma) is distinct from ordinary sun damage. It appears as symmetrical, map-like patches on the forehead, cheeks or upper lip and is driven by internal hormonal shifts—such as pregnancy, the contraceptive pill, perimenopause or menopause. Because it is heat-sensitive and inflammatory, aggressive lasers often make it worse. At ULANDA, we treat it with suppression, calm and safe correction.",
       image: "/assets/img/conditions/Melisma.webp",
       placeholderUrl: "/assets/img/conditions/Melisma.webp",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Menopause & Hormonal Skin Change",
@@ -5746,7 +5746,7 @@
       highlight: "Skin Health Consultation",
       titleSuffix: "",
       description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -5763,7 +5763,7 @@
       description: "Hormonal acne is one of the most frustrating skin concerns because it often appears suddenly, persists despite good skincare, and tends to flare in cycles. Many women experience adult breakouts during perimenopause, menopause, postpartum recovery or periods of stress—even if they never struggled with acne as a teenager.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Menopause & Hormonal Skin Change",
@@ -5893,7 +5893,7 @@
       highlight: "Skin Health Consultation",
       titleSuffix: "",
       description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -5910,7 +5910,7 @@
       description: "Skin inflammation is one of the clearest signs that the skin barrier is struggling. Many clients describe their skin as burning, stinging, hot, irritated or constantly flaring — often with redness, tightness and discomfort that makes even basic skincare feel unbearable.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Redness, Sensitivity & Reactive Skin",
@@ -6036,7 +6036,7 @@
       highlight: "To Inflamed Skin",
       titleSuffix: "",
       description: "Book a consultation to calm inflammation and rebuild your skin barrier.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -6053,7 +6053,7 @@
       description: "Sensitive skin is not a skin type — it is a skin behaviour pattern. Many clients describe their skin as unpredictable, easily irritated, and constantly reacting to products, weather changes, stress or treatments. Sensitive or reactive skin often stings, burns, flushes, breaks out or becomes inflamed without clear warning.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Redness, Sensitivity & Reactive Skin",
@@ -6179,7 +6179,7 @@
       highlight: "Sensitive Skin",
       titleSuffix: "",
       description: "Book a consultation to identify triggers and rebuild barrier resilience.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -6196,7 +6196,7 @@
       description: "Rosacea is a chronic skin condition that often presents as persistent redness, flushing, sensitivity and inflammation that can worsen over time if the skin barrier is not stabilised. Many clients describe their skin as constantly reactive — stinging easily, flaring suddenly, and becoming difficult to manage despite trying multiple products and treatments.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Redness, Sensitivity & Reactive Skin",
@@ -6322,7 +6322,7 @@
       highlight: "Rosacea",
       titleSuffix: "",
       description: "Book a consultation to stabilise redness and flushing patterns.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -6339,7 +6339,7 @@
       description: "Persistent facial redness can be subtle or intense, but it often signals underlying inflammation, barrier dysfunction or chronic sensitivity patterns. Many clients notice redness across the cheeks, nose or chin that never fully settles, and may worsen with heat, stress, skincare products or hormonal change.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
     category: "Redness, Sensitivity & Reactive Skin",
@@ -6465,7 +6465,7 @@
       highlight: "Redness",
       titleSuffix: "",
       description: "Book a consultation to identify your redness drivers.",
-      buttonText: "Book Your Skin Behaviour Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -6484,7 +6484,7 @@
         "It happens when oil mixes with dead skin cells and gets stuck in the pore lining, creating a plug.",
         "We don't just squeeze spots. We use advanced exfoliation and deep-cleaning protocols to dissolve the blockage and regulate oil flow for lasting clarity."
       ],
-      buttonText: "Book Your Skin Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
@@ -6613,7 +6613,7 @@
       highlight: "Purify",
       titleSuffix: "Your Skin",
       description: "Book your consultation to clear congestion and reveal fresh skin.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -6632,7 +6632,7 @@
         "Over-treating it with harsh teenage products often makes it worse, leading to dryness, sensitivity and more redness.",
         "We treat adult acne with a 'calm and clear' philosophy—reducing inflammation, repairing the barrier and regulating oil without stripping the skin."
       ],
-      buttonText: "Book Your Sensitivity Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
@@ -6752,7 +6752,7 @@
       highlight: "Calmer",
       titleSuffix: "Skin",
       description: "Book your consultation to take control of adult acne.",
-      buttonText: "Book Your Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -6766,7 +6766,7 @@
       title: "Stress & Cortisol Skin Imbalance",
       highlight: "",
       description: "Stress and cortisol imbalance can dramatically affect how your skin behaves. Many clients notice that during stressful periods their skin becomes more reactive, more inflamed, more acne-prone, duller, drier or suddenly more sensitive to products that previously worked well. Others experience flare-ups of pigmentation, redness, eczema-type irritation or increased under-eye fatigue.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN0cmVzcyUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN0cmVzcyUyMHNraW58ZW58MHwxfDB8fHww"
@@ -6891,7 +6891,7 @@
       highlight: "Skin Health Consultation",
       titleSuffix: "",
       description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -6906,7 +6906,7 @@
       title: "Poor Sleep & Skin Ageing Impact",
       highlight: "",
       description: "Poor sleep can accelerate skin ageing faster than most people realise. Many clients notice that when sleep quality declines, their skin becomes dull, dry, more sensitive, more inflamed and less able to recover. Fine lines become more visible, under-eye darkness worsens, breakouts increase and the skin begins to look “tired” even when skincare routines remain unchanged.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1541781777621-af13032da66f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjB3b21hbnxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1541781777621-af13032da66f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjB3b21hbnxlbnwwfDF8MHx8fDA%3D"
@@ -7026,7 +7026,7 @@
       highlight: "Skin Health Consultation",
       titleSuffix: "",
       description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -7214,7 +7214,7 @@
       title: "Inflammation-Driven Ageing",
       highlight: "(“Inflammaging”)",
       description: "Inflammation-driven ageing, often called “inflammaging,” is one of the most important but overlooked causes of accelerated skin ageing. Many clients notice that their skin appears to age rapidly during periods of stress, hormonal transition, poor sleep, gut imbalance or chronic inflammation. The skin may become more reactive, more sensitive, duller, drier, and less able to repair itself. Fine lines deepen, redness increases and collagen decline becomes more noticeable.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww"
@@ -7330,7 +7330,7 @@
       highlight: "Skin Health Consultation",
       titleSuffix: "",
       description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -7344,7 +7344,7 @@
       title: "Gut-Skin",
       highlight: "Imbalance",
       description: "Gut-skin imbalance refers to the way internal digestive and inflammatory health can influence how your skin behaves. Many clients notice persistent breakouts, redness, sensitivity, eczema-type flare-ups, dullness, bloating-related puffiness or unpredictable skin reactions that do not improve with skincare alone. In these cases, the skin is often reacting to internal inflammation, gut disruption or immune imbalance rather than simply surface triggers.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMGZvb2R8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMGZvb2R8ZW58MHwxfDB8fHww"
@@ -7460,7 +7460,7 @@
       highlight: "Skin Health Consultation",
       titleSuffix: "",
       description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },
@@ -7474,7 +7474,7 @@
       title: "Fatigue & Low Energy",
       highlight: "Affecting Skin",
       description: "Fatigue and low energy can change the way your skin behaves more than most people realise. Many clients notice that when they are run down, their skin becomes dull, dry, inflamed, more sensitive, or suddenly prone to breakouts and uneven tone. Under-eye darkness often becomes more pronounced, healing slows down, and the skin loses its natural glow and resilience.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
       image: "https://images.unsplash.com/photo-1515023677547-593d9647e6be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjBmYWNlfGVufDB8MXwwfHx8MA%3D%3D",
       placeholderUrl: "https://images.unsplash.com/photo-1515023677547-593d9647e6be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjBmYWNlfGVufDB8MXwwfHx8MA%3D%3D"
@@ -7613,7 +7613,7 @@
       highlight: "Skin Health Consultation",
       titleSuffix: "",
       description: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
-      buttonText: "Book Your Skin Health Consultation",
+      buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     }
   },,

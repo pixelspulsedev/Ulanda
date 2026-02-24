@@ -92,7 +92,7 @@ export default function ConditionDetail() {
               </div>
 
               <FadeInWhenVisible delay={0.4}>
-                {condition.hero.buttonText === 'Book Consultation' ? (
+                {condition.hero.buttonText === 'Book Skin Health Consultation' ? (
                   <Link to="/book-consultation" className="btn btn-primary">
                     {condition.hero.buttonText}
                   </Link>
@@ -413,7 +413,7 @@ export default function ConditionDetail() {
               {condition.cta.description}
             </p>
 
-            {condition.cta.buttonText === 'Book Consultation' ? (
+            {condition.cta.buttonText === 'Book Skin Health Consultation' ? (
               <Link
                 to="/book-consultation"
                 className="inline-block bg-primary text-white px-8 py-4 rounded text-lg font-medium hover:bg-[#4A3024] transition-colors duration-300"

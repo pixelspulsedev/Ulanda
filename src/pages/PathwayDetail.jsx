@@ -146,7 +146,7 @@ export default function PathwayDetail() {
                     Book a consultation to see if the {pathway.title} pathway is right for you.
                 </p>
                 <Link to="/book-consultation" className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-lg hover:bg-primary-focus transition-colors duration-300">
-                    Book Consultation
+                    Book Skin Health Consultation
                     {/* <ArrowRight size={18} /> */}
                 </Link>
             </div>

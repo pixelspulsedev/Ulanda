@@ -324,7 +324,7 @@ export default function Pathways() {
               to="/contact"
               className="btn btn-primary text-white border-none px-10 py-3 h-auto text-lg rounded-full"
             >
-              Book Your Consultation
+              Book Skin Health Consultation
             </Link>
           </div>
         </section>

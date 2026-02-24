@@ -462,7 +462,7 @@ export default function Programme() {
             </p>
 
             <Link to="/book-consultation" className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
-              Book Your Consultation
+              Book Skin Health Consultation
             </Link>
           </FadeInWhenVisible>
         </div>

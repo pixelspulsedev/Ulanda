@@ -186,7 +186,7 @@ export const treatments = {
               "title": "Ready to refine skin texture safely?",
               "highlight": "Clinical Dermaplaning Therapy",
               "description": "ULANDA Ware, Hertfordshire — Nurse-led skin care clinic delivering precision exfoliation within regenerative sequencing.",
-              "buttonText": "Book Consultation",
+              "buttonText": "Book Skin Health Consultation",
               "booking": {
                   "price": 95,
                   "duration": 45
@@ -879,7 +879,7 @@ export const treatments = {
               "title": "Restore Skin Health",
               "highlight": "From the Inside Out",
               "description": "Book your Enzyme Therapy session at ULANDA in Ware SG12 and experience firmer, brighter, healthier skin that radiates natural vitality.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "oxygen-vitamin-infusion-facial": {
@@ -1974,7 +1974,7 @@ export const treatments = {
               "title": "Reveal Bright, Refreshed,",
               "highlight": "Youthful Skin",
               "description": "Book your BioRePeel treatment at ULANDA in Ware SG12 for instant clarity, smoother texture and long-lasting radiance.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "chemical-peel": {
@@ -2292,7 +2292,7 @@ export const treatments = {
               "title": "Reveal Brighter, Smoother,",
               "highlight": "Healthier Skin",
               "description": "Book your Chemical Peel at ULANDA in Ware SG12 for refined texture, renewed radiance and long-lasting clarity.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           }
         }
@@ -2402,7 +2402,7 @@ export const treatments = {
               "title": "Deep",
               "highlight": "Hydration",
               "description": "Book your Profhilo consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "definisse-hydrobooster": {
@@ -2483,7 +2483,7 @@ export const treatments = {
               "title": "Hydrate &",
               "highlight": "Soften",
               "description": "Book your Definisse Hydrobooster consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "jalupro": {
@@ -2561,7 +2561,7 @@ export const treatments = {
               "title": "Revitalise &",
               "highlight": "Nourish",
               "description": "Book your Jalupro consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "seventy-hyal": {
@@ -2638,7 +2638,7 @@ export const treatments = {
               "title": "Instant",
               "highlight": "Radiance",
               "description": "Book your Seventy Hyal consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "lemon-bottle": {
@@ -2715,7 +2715,7 @@ export const treatments = {
               "title": "Boost Your",
               "highlight": "Glow",
               "description": "Book your Lemon Bottle Skin Booster consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "lumi-eyes": {
@@ -2794,7 +2794,7 @@ export const treatments = {
               "title": "Brighten Your",
               "highlight": "Eyes",
               "description": "Book your Lumi Eyes consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           }
         }
@@ -2882,7 +2882,7 @@ export const treatments = {
               "title": "Boost Your",
               "highlight": "Collagen",
               "description": "Book your Microneedling consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           }
         }
@@ -2979,7 +2979,7 @@ export const treatments = {
               "title": "Repair at the",
               "highlight": "Cellular Level",
               "description": "Book your Polynucleotides consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "plenhyage": {
@@ -3049,7 +3049,7 @@ export const treatments = {
               "title": "Deep",
               "highlight": "Regeneration",
               "description": "Book your Plenhyage PN consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "nucleofill": {
@@ -3118,7 +3118,7 @@ export const treatments = {
               "title": "Lift &",
               "highlight": "Firm",
               "description": "Book your Nucleofill PN consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "prp-skin-regeneration": {
@@ -3205,7 +3205,7 @@ export const treatments = {
               "title": "Natural",
               "highlight": "Regeneration",
               "description": "Book your PRP Skin Regeneration consultation at ULANDA.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           }
         }
@@ -3545,7 +3545,7 @@ export const treatments = {
               "title": "Oxygenate, Brighten &",
               "highlight": "Re-Energise Your Skin",
               "description": "Book your Oxygen & Vitamin Infusion Facial at ULANDA in Ware SG12 and experience luminous, hydrated, revitalised skin with zero downtime.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           },
           "post-procedure-recovery-facial": {
@@ -3661,7 +3661,7 @@ export const treatments = {
               "title": "Calm.",
               "highlight": "Recover.",
               "description": "Support your skin's healing with our Post-Procedure Recovery Facial.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             },
             "oftenPairedWith": [
               "Anti-Wrinkle Injections",
@@ -3992,7 +3992,7 @@ export const treatments = {
               "title": "Heal, Repair & Transform",
               "highlight": "Your Skin From Within",
               "description": "Book LED Light Therapy at ULANDA in Ware SG12 and experience healthier, stronger, brighter skin — powered by science and regeneration.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           }
         }
@@ -4311,7 +4311,7 @@ export const treatments = {
               "title": "De-puff.",
               "highlight": "Decongest.",
               "description": "Experience the benefits of Facial Lymphatic Drainage.",
-              "buttonText": "Book Consultation"
+              "buttonText": "Book Skin Health Consultation"
             },
             "oftenPairedWith": [
               "Post-Procedure Recovery",
@@ -7850,7 +7850,7 @@ export const treatments = {
               "title": "Ready to reveal your",
               "highlight": "glow?",
               "description": "Book your consultation today to start your journey to healthier, more radiant skin.",
-              "buttonText": "Book Your Consultation"
+              "buttonText": "Book Skin Health Consultation"
             }
           }
         }
