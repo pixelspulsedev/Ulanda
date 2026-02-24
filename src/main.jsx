@@ -89,7 +89,7 @@ const routes = [
       },
       {
         path: 'conditions/non-responsive-skin',
-        element: <NonResponsiveSkin />,
+        element: <Navigate to="/conditions/dehydration-dullness-skin-recovery/non-responsive-skin" replace />,
       },
       {
         path: 'conditions/:category/:id',
