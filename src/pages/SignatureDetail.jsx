@@ -112,7 +112,7 @@ export default function SignatureDetail() {
 
             {/* Image */}
             <div className="flex-1 relative w-full flex justify-center md:justify-end">
-              <div className="relative w-full max-w-md aspect-[4/5] rounded-2xl overflow-hidden">
+              <div className="relative w-full max-w-md aspect-[4/5] rounded-none overflow-hidden">
                 <img
                   src={image}
                   alt={title}
