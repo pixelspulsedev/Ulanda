@@ -4871,7 +4871,7 @@
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
       pathway: "Photoaging & Skin Architecture Programme",
-      pathwayLink: "/treatments/radiate/programmes/collagen-reset",
+      pathwayLink: "/signature/structural-skin-regeneration",
       secondary: "(Secondary: Skin Barrier Repair & Recovery if dullness is barrier-fatigue driven)",
       secondaryLink: "/treatments/refresh"
     },
@@ -4986,7 +4986,7 @@
       pathway: "Skin Barrier Repair & Recovery Programme",
       pathwayLink: "/treatments/refresh",
       secondary: "(Secondary: Menopause Skin Rebuild Programme if menopause-linked)",
-      secondaryLink: "/treatments/radiate/programmes/menopause-regeneration"
+      secondaryLink: "/signature/menopause-skin-rebuild"
     },
     whyChoose: {
       title: "Why",
@@ -5318,7 +5318,7 @@
       pathway: "Skin Barrier Repair & Recovery Programme",
       pathwayLink: "/treatments/refresh",
       secondary: "(Secondary: Photoaging & Skin Architecture if pigmentation dominates)",
-      secondaryLink: "/treatments/radiate/programmes/collagen-reset"
+      secondaryLink: "/signature/structural-skin-regeneration"
     },
     whyChoose: {
       title: "Why",
@@ -5432,7 +5432,7 @@
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
       pathway: "Menopause Skin Rebuild Programme",
-      pathwayLink: "/treatments/radiate/programmes/menopause-regeneration"
+      pathwayLink: "/signature/menopause-skin-rebuild"
     },
     whyChoose: {
       title: "Why",
@@ -5542,7 +5542,7 @@
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
       pathway: "Menopause Skin Rebuild Programme",
-      pathwayLink: "/treatments/radiate/programmes/menopause-regeneration"
+      pathwayLink: "/signature/menopause-skin-rebuild"
     },
     whyChoose: {
       title: "Why",

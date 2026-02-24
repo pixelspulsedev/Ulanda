@@ -65,17 +65,18 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Radiate Pathways (formerly Programs) */}
+            {/* Signature */}
             <div>
               <h3 className="font-medium font-sans text-primary mb-4">
-                <Link to="/treatments/radiate" className="hover:text-primary transition-colors text-primary">Radiate Pathways</Link>
+                <Link to="/signature" className="hover:text-primary transition-colors text-primary">Signature</Link>
               </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/treatments/radiate/pathways/menopause-regeneration" className="hover:text-primary transition-colors ">Menopause Regeneration</Link></li>
-                <li><Link to="/treatments/radiate/pathways/under-eye-regeneration" className="hover:text-primary transition-colors ">Under-Eye Regeneration</Link></li>
-                <li><Link to="/treatments/radiate/pathways/collagen-reset" className="hover:text-primary transition-colors ">Collagen Reset</Link></li>
-                <li><Link to="/treatments/radiate/pathways/hormone-smart-skin" className="hover:text-primary transition-colors ">Hormone-Smart Skin</Link></li>
-                <li><Link to="/treatments/radiate/pathways/shape-and-regenerate" className="hover:text-primary transition-colors ">Shape & Regenerate</Link></li>
+                <li><Link to="/signature/skin-barrier-repair-recovery" className="hover:text-primary transition-colors ">Skin Barrier Repair & Recovery</Link></li>
+                <li><Link to="/signature/rosacea-redness-control" className="hover:text-primary transition-colors ">Rosacea & Redness Control</Link></li>
+                <li><Link to="/signature/menopause-skin-rebuild" className="hover:text-primary transition-colors ">Menopause Skin Rebuild</Link></li>
+                <li><Link to="/signature/photoaging-skin-architecture" className="hover:text-primary transition-colors ">Photoaging & Skin Architecture</Link></li>
+                <li><Link to="/signature/structural-skin-regeneration" className="hover:text-primary transition-colors ">Structural Skin Regeneration</Link></li>
+                <li><Link to="/signature/under-eye-renewal" className="hover:text-primary transition-colors ">Under-Eye Renewal</Link></li>
               </ul>
             </div>
 

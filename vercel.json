@@ -3,13 +3,138 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/treatments/radiate/pathways/12-week-menopause-regeneration-plan",
+      "destination": "/signature/menopause-skin-rebuild",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/radiate-hormone-smart-skin-programme",
+      "destination": "/signature/menopause-skin-rebuild",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/collagen-reset-journey",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/rebuild-strengthen-restore",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/ulanda-shape-and-regenerate",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/under-eye-regeneration-blueprint",
+      "destination": "/signature/under-eye-renewal",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/menopause-regeneration",
+      "destination": "/signature/menopause-skin-rebuild",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/under-eye-regeneration",
+      "destination": "/signature/under-eye-renewal",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/collagen-reset",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/hormone-smart-skin",
+      "destination": "/signature/menopause-skin-rebuild",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/shape-and-regenerate",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways/:path*",
+      "destination": "/signature",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/pathways",
+      "destination": "/signature",
+      "permanent": true
+    },
+    {
       "source": "/treatments/radiate/programmes/:path*",
-      "destination": "/treatments/radiate/pathways/:path*",
+      "destination": "/signature",
       "permanent": true
     },
     {
       "source": "/treatments/radiate/programmes",
-      "destination": "/treatments/radiate/pathways",
+      "destination": "/signature",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/skin-barrier-repair-recovery",
+      "destination": "/signature/skin-barrier-repair-recovery",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/rosacea-redness-control",
+      "destination": "/signature/rosacea-redness-control",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/menopause-skin-rebuild",
+      "destination": "/signature/menopause-skin-rebuild",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/photoaging-skin-architecture",
+      "destination": "/signature/photoaging-skin-architecture",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/structural-skin-regeneration",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/under-eye-regeneration-blueprint",
+      "destination": "/signature/under-eye-renewal",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/menopause-regeneration",
+      "destination": "/signature/menopause-skin-rebuild",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/under-eye-regeneration",
+      "destination": "/signature/under-eye-renewal",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/collagen-reset",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/hormone-smart-skin",
+      "destination": "/signature/menopause-skin-rebuild",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/shape-and-regenerate",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/programmes/:path*",
+      "destination": "/signature",
       "permanent": true
     },
     {
@@ -143,31 +268,6 @@
       "permanent": true
     },
     {
-      "source": "/conditions/non-responsive-skin",
-      "destination": "/conditions/dehydration-dullness-skin-recovery/non-responsive-skin",
-      "permanent": true
-    },
-    {
-      "source": "/conditions/internal-wellness/pelvic-intimate-regeneration",
-      "destination": "/conditions/body-skin-structural/pelvic-intimate-regeneration",
-      "permanent": true
-    },
-    {
-      "source": "/treatments/radiate/wellness/vitamin-b12-im",
-      "destination": "/treatments/wellness-regenerative-recovery/vitamin-b12-im",
-      "permanent": true
-    },
-    {
-      "source": "/treatments/radiate/wellness/skin-glow-iv",
-      "destination": "/treatments/wellness-regenerative-recovery/skin-glow-iv",
-      "permanent": true
-    },
-    {
-      "source": "/treatments/refresh/skin-resurfacing/chemical-peel",
-      "destination": "/treatments/skin-renewal-regeneration/chemical-peel",
-      "permanent": true
-    },
-    {
       "source": "/conditions/body-pigmentation",
       "destination": "/conditions/body-skin-structural/body-pigmentation",
       "permanent": true
@@ -183,33 +283,28 @@
       "permanent": true
     },
     {
-      "source": "/programmes/menopause-regeneration",
-      "destination": "/treatments/radiate/pathways/menopause-regeneration",
+      "source": "/conditions/non-responsive-skin",
+      "destination": "/conditions/dehydration-dullness-skin-recovery/non-responsive-skin",
       "permanent": true
     },
     {
-      "source": "/programmes/under-eye-regeneration",
-      "destination": "/treatments/radiate/pathways/under-eye-regeneration",
+      "source": "/conditions/body-skin-structural/pelvic-intimate-regeneration",
+      "destination": "/conditions/internal-wellness/pelvic-intimate-regeneration",
       "permanent": true
     },
     {
-      "source": "/programmes/collagen-reset",
-      "destination": "/treatments/radiate/pathways/collagen-reset",
+      "source": "/treatments/radiate/wellness/vitamin-b12-im",
+      "destination": "/treatments/wellness-regenerative-recovery/vitamin-b12-im",
       "permanent": true
     },
     {
-      "source": "/programmes/hormone-smart-skin",
-      "destination": "/treatments/radiate/pathways/hormone-smart-skin",
+      "source": "/treatments/radiate/wellness/skin-glow-iv",
+      "destination": "/treatments/wellness-regenerative-recovery/skin-glow-iv",
       "permanent": true
     },
     {
-      "source": "/programmes/shape-and-regenerate",
-      "destination": "/treatments/radiate/pathways/shape-and-regenerate",
-      "permanent": true
-    },
-    {
-      "source": "/programmes/:path*",
-      "destination": "/treatments/radiate/pathways",
+      "source": "/treatments/refresh/skin-resurfacing/chemical-peel",
+      "destination": "/treatments/skin-renewal-regeneration/chemical-peel",
       "permanent": true
     }
   ],

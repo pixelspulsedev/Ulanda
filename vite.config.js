@@ -7,6 +7,7 @@ import { conditions } from './src/data/pageContents/conditions/conditions.js'
 import { individualConditions } from './src/data/pageContents/conditions/individualConditions.js'
 import { programmes } from './src/data/pageContents/programmes/programmes.js'
 import { blogs } from './src/data/pageContents/blogs/blogs.js'
+import { signaturePathways } from './src/data/pageContents/signature/signatureData.js'
 
 // Generate all static paths for SSG
 function generateStaticPaths() {
@@ -45,7 +46,13 @@ function generateStaticPaths() {
     });
   });
 
-  // Radiate pathways pages (programmes redirect to pathways)
+  // Signature pathways (canonical)
+  paths.push('/signature');
+  signaturePathways.forEach(pathway => {
+    paths.push(`/signature/${pathway.id}`);
+  });
+
+  // Legacy Radiate pathways pages (programmes redirect to signature)
   paths.push('/treatments/radiate/pathways');
   programmes.forEach(programme => {
     paths.push(`/treatments/radiate/pathways/${programme.id}`);

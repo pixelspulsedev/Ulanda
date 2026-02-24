@@ -1,10 +1,10 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import { signaturePathways } from '../data/pageContents/signature/signatureData';
 import { philosophyData } from '../data/pageContents/philosophy/philosophy';
 
 const regenerativeSystems = philosophyData.regenerativeSystems.list;
@@ -27,137 +27,6 @@ const respectPoints = [
 ];
 
 export default function Philosophy() {
-  const [activeTab, setActiveTab] = useState('refresh');
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY + 300; // Offset for trigger point
-      const sections = Object.keys(pathwaysMap);
-      for (const section of sections) {
-        const element = document.getElementById(section);
-        if (element) {
-          const { offsetTop, offsetHeight } = element;
-          if (
-            scrollPosition >= offsetTop &&
-            scrollPosition < offsetTop + offsetHeight
-          ) {
-            setActiveTab(section);
-          }
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const pathwaysMap = {
-    refresh: {
-      title: (
-        <>
-          Healthy,{' '}
-          <span className="italic font-serif text-primary">Glowing</span> Skin
-          Starts Here
-        </>
-      ),
-      description:
-        'Gently renews the surface of your skin for instant brightness and hydration.',
-      includes: [
-        'HydraFacial',
-        'Enzyme Therapy',
-        'Oxygen Facials',
-        'BioRePeel',
-        'Chemical Peels',
-        'LED',
-        'Body Peels',
-      ],
-      perfectFor:
-        'Dullness, dryness, uneven tone, postpartum fatigue skin, perimenopause dehydration.',
-      image:
-        '/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp',
-    },
-    renew: {
-      title: (
-        <>
-          Strengthen Your Skin{' '}
-          <span className="italic font-serif text-primary">From Within</span>
-        </>
-      ),
-      description:
-        'Boosts your skin’s natural ability to repair, firm and glow over time.',
-      includes: [
-        'Polynucleotides (PN)',
-        'PRP',
-        'Microneedling',
-        'RF Microneedling',
-        'Profhilo',
-        'Hydrobooster',
-        'Jalupro',
-        'Lumi Eyes',
-      ],
-      perfectFor:
-        'Fine lines, thinning skin, early collagen loss, tired-looking eyes, long-term glow.',
-      image:
-        'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    },
-    restore: {
-      title: (
-        <>
-          Lift, Firm &{' '}
-          <span className="italic font-serif text-primary">Define</span>{' '}
-          Naturally
-        </>
-      ),
-      description:
-        'Subtle enhancements that support your structure without looking “done.”',
-      includes: [
-        'Biostimulators',
-        'Thread Lifts',
-        'Natural Fillers',
-        'Collagen Therapy',
-        'Jawline Contouring',
-        'Neck Tightening',
-        'Body Tightening',
-      ],
-      perfectFor:
-        'Jawline softening, mid-face changes, neck laxity, postpartum body changes.',
-      image:
-        'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=2070',
-    },
-    radiate: {
-      title: (
-        <>
-          Support Your Energy,{' '}
-          <span className="italic font-serif text-primary">Hormones</span> &
-          Wellness
-        </>
-      ),
-      description: (
-        <>
-          Because when you feel balanced on the inside, your skin shows it on
-          the outside.
-          <br />
-          <span className="text-sm mt-2 block opacity-80">
-            Delivered in collaboration with 360Medicx Harley Street Clinic
-            (Longevity Partners).
-          </span>
-        </>
-      ),
-      includes: [
-        'NAD+ IV/IM',
-        'Glutathione IV/IM',
-        'Energy IV',
-        'Immunity IV',
-        'Women’s Longevity IV',
-        'Vitamin D & B12 IM',
-        'Weight Management',
-      ],
-      perfectFor:
-        'Fatigue, poor sleep, slow metabolism, inflammation, hormone-transition symptoms.',
-      image:
-        'https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=2069',
-    },
-  };
 
   return (
     <>
@@ -411,132 +280,64 @@ export default function Philosophy() {
           </div>
         </section>
 
-        {/* Pathways Section */}
+        {/* Signatures Section */}
         <section className="py-24 px-4 md:px-8 bg-base-100">
           <div className="max-w-7xl mx-auto">
-            {/* Header */}
-            <div className="mb-16">
-              <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-6">
-                The{' '}
-                <span className="italic font-light text-primary">
-                  Four Pathways
-                </span>{' '}
-                to your <br />
-                Ulanda Journey
-              </h2>
-              <p className="font-light text-base-content/80 font-sans max-w-2xl">
-                We’ve made regeneration easy to understand. <br />
-                Every treatment you receive sits within one of four simple
-                pathways:
-              </p>
-            </div>
-
-            {/* Tabs */}
-            <div className="sticky pt-4 top-16 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
-              <div className="flex items-center justify-between max-w-7xl mx-auto">
-                {Object.keys(pathwaysMap).map((key) => (
-                  <button
-                    key={key}
-                    onClick={() => {
-                      const el = document.getElementById(key);
-                      if (el) {
-                        const offset = 100;
-                        const bodyRect =
-                          document.body.getBoundingClientRect().top;
-                        const elementRect = el.getBoundingClientRect().top;
-                        const elementPosition = elementRect - bodyRect;
-                        const offsetPosition = elementPosition - offset;
-
-                        window.scrollTo({
-                          top: offsetPosition,
-                          behavior: 'smooth',
-                        });
-                      }
-                      setActiveTab(key);
-                    }}
-                    className={`flex-1 pb-4 text-lg font-sans transition-all duration-300 ${
-                      activeTab === key
-                        ? 'border-b-2 border-primary text-primary font-medium'
-                        : 'text-base-content/60 hover:text-primary'
-                    }`}
-                  >
-                    {key.charAt(0).toUpperCase() + key.slice(1)}
-                  </button>
-                ))}
+            <FadeInWhenVisible className="mb-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div>
+                <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-6">
+                  ULANDA{' '}
+                  <span className="italic font-light text-primary">
+                    Signatures
+                  </span>
+                </h2>
+                <p className="text-lg text-base-content/80 font-sans max-w-2xl">
+                  Structured, nurse-led programmes designed around your skin
+                  behaviour, biology and long-term goals.
+                </p>
               </div>
-            </div>
+              <Link to="/signature" className="btn btn-primary whitespace-nowrap">
+                Explore All Signatures
+              </Link>
+            </FadeInWhenVisible>
 
-            {/* Content */}
-            <div className="space-y-24">
-              {Object.entries(pathwaysMap).map(([key, pathway]) => (
-                <FadeInWhenVisible
-                  key={key}
-                  id={key}
-                  className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center scroll-mt-32"
-                >
-                  {/* Left Image */}
-                  <div className="relative hidden md:flex justify-center md:justify-start">
-                    {/* Background decorative element */}
-                    <div className="absolute bottom-10 left-10 w-3/4 max-w-xs h-full">
-                      <RevealImage className="w-full h-full">
-                        <img
-                          src="/assets/img/ui/accent.webp"
-                          alt="Decorative shadow"
-                          className="w-full h-full object-cover"
-                        />
-                      </RevealImage>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {signaturePathways.map((sig) => (
+                <FadeInWhenVisible key={sig.id}>
+                  <Link
+                    to={sig.url}
+                    className="group block bg-secondary/30 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                  >
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img
+                        src={sig.image}
+                        alt={sig.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
                     </div>
-
-                    {/* Main Image */}
-                    <div className="relative rounded-t-full overflow-hidden shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
-                      <RevealImage className="w-full h-full">
-                        <img
-                          src={pathway.image}
-                          alt={pathway.title}
-                          className="w-full h-full object-cover transition-opacity duration-500"
-                          loading="lazy"
-                        />
-                      </RevealImage>
-                    </div>
-                  </div>
-
-                  {/* Right Content */}
-                  <div>
-                    <h3 className="text-3xl md:text-4xl font-serif text-base-content mb-4 leading-tight">
-                      {pathway.title}
-                    </h3>
-                    <p className="text-lg text-base-content/80 font-sans mb-8">
-                      {pathway.description}
-                    </p>
-
-                    <div className="grid grid-cols-1 gap-8 mb-8">
-                      <div>
-                        <h4 className="font-medium font-sans text-base-content mb-2">
-                          Includes:
-                        </h4>
-                        <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-base-content/80">
-                          {pathway.includes.map((item) => (
-                            <li key={item}>{item}</li>
-                          ))}
-                        </ul>
+                    <div className="p-6">
+                      <h3 className="text-xl font-serif text-base-content mb-1">
+                        {sig.title}
+                      </h3>
+                      <p className="text-sm text-primary font-sans mb-3">
+                        {sig.subtitle}
+                      </p>
+                      <div className="flex flex-wrap gap-2 mb-4">
+                        {sig.concerns.split(', ').slice(0, 3).map((c) => (
+                          <span
+                            key={c}
+                            className="text-xs bg-secondary px-3 py-1 rounded-full text-base-content/70"
+                          >
+                            {c}
+                          </span>
+                        ))}
                       </div>
-                      <div>
-                        <h4 className="font-medium font-sans text-base-content mb-2">
-                          Perfect for:
-                        </h4>
-                        <p className="text-base-content/80">
-                          {pathway.perfectFor}
-                        </p>
-                      </div>
+                      <span className="inline-flex items-center text-primary text-sm font-medium group-hover:gap-2 transition-all">
+                        Learn More <span className="ml-1">&rarr;</span>
+                      </span>
                     </div>
-
-                    <Link
-                      to={`/treatments/${key}`}
-                      className="btn btn-primary text-white px-8"
-                    >
-                      Explore
-                    </Link>
-                  </div>
+                  </Link>
                 </FadeInWhenVisible>
               ))}
             </div>

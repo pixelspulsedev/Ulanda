@@ -4,7 +4,8 @@ import { fileURLToPath } from 'url';
 import { conditions } from '../src/data/pageContents/conditions/conditions.js';
 import { individualConditions } from '../src/data/pageContents/conditions/individualConditions.js';
 import { programmes } from '../src/data/pageContents/programmes/programmes.js';
-import { treatmentCategories } from '../src/data/pageContents/treatments/drafts/treatments_restructured_draft.js';
+import { treatments } from '../src/data/pageContents/treatments/treatments.js';
+import { getAllTreatmentCategories } from '../src/data/pageContents/treatments/drafts/treatments_restructured_draft.js';
 import { blogs } from '../src/data/pageContents/blogs/blogs.js';
 import { getConditionUrl } from '../src/data/crosslinks.js';
 
@@ -68,22 +69,47 @@ const generateSitemap = () => {
     urls.push(`/blogs/${blog.id}`);
   });
 
-  // Add Treatments Pages (restructured current URL format)
-  Object.values(treatmentCategories).forEach(category => {
-    if (category.hidden) {
-      return;
-    }
+  // Add Treatment Pages (From Restructured Draft)
+  const treatmentCategories = getAllTreatmentCategories();
+  Object.keys(treatmentCategories).forEach(catKey => {
+    const category = treatmentCategories[catKey];
+    
+    // Category Page
+    // Only add if not hidden/gated (or explicitly included) ?
+    // Assuming we want all category landing pages
+    urls.push(`/treatments/${catKey}`);
 
-    // Category Page: /treatments/:category
-    urls.push(`/treatments/${category.id}`);
-
-    // Treatment Detail Page: /treatments/:category/:id
     if (category.treatments) {
-      Object.keys(category.treatments).forEach(treatmentId => {
-        urls.push(`/treatments/${category.id}/${treatmentId}`);
+      Object.keys(category.treatments).forEach(treatmentKey => {
+         // Treatment Detail Page
+         urls.push(`/treatments/${catKey}/${treatmentKey}`);
       });
     }
   });
+
+  /*
+  // Add Treatments Pages (Old Structure - Deprecated)
+  Object.keys(treatments).forEach(catKey => {
+    const category = treatments[catKey];
+    // Category Page
+    urls.push(`/treatments/${catKey}`);
+
+    if (category.subCategories) {
+      Object.keys(category.subCategories).forEach(subCatKey => {
+         // Subcategory Page
+         urls.push(`/treatments/${catKey}/${subCatKey}`);
+         
+         const subCategory = category.subCategories[subCatKey];
+         if (subCategory.treatments) {
+             Object.keys(subCategory.treatments).forEach(treatmentKey => {
+                 // Treatment Detail Page
+                 urls.push(`/treatments/${catKey}/${subCatKey}/${treatmentKey}`);
+             });
+         }
+      });
+    }
+  });
+  */
 
   const uniqueUrls = [...new Set(urls)];
 

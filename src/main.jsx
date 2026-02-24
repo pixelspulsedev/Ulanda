@@ -30,6 +30,9 @@ const Programme = lazy(() => import('./pages/Programme.jsx'))
 const ProgrammeDetail = lazy(() => import('./pages/ProgrammeDetail.jsx'))
 const ToolDetail = lazy(() => import('./pages/ToolDetail.jsx'))
 const PathwayDetail = lazy(() => import('./pages/PathwayDetail.jsx'))
+// Signature
+const SignatureHub = lazy(() => import('./pages/SignatureHub.jsx'))
+const SignatureDetail = lazy(() => import('./pages/SignatureDetail.jsx'))
 // General pages
 const HelpAndSupport = lazy(() => import('./pages/HelpAndSupport.jsx'))
 const Contact = lazy(() => import('./pages/Contact.jsx'))
@@ -41,7 +44,7 @@ const Disclaimer = lazy(() => import('./pages/Disclaimer.jsx'))
 
 const RedirectToProgramme = () => {
   const { id } = useParams();
-  return <Navigate to={`/treatments/radiate/pathways/${id ? id.toLowerCase() : ''}`} replace />;
+  return <Navigate to={`/signature`} replace />;
 };
 
 const routes = [
@@ -53,6 +56,15 @@ const routes = [
       {
         index: true,
         element: <Home />,
+      },
+      // Signature routes (canonical)
+      {
+        path: 'signature',
+        element: <SignatureHub />,
+      },
+      {
+        path: 'signature/:id',
+        element: <SignatureDetail />,
       },
       {
         path: 'treatments',
@@ -66,14 +78,18 @@ const routes = [
         path: 'treatments/:category/:id',
         element: <Treatment />,
       },
-      // Legacy pathway routes
+      // Legacy pathway routes - redirect to Signature
       {
         path: 'treatments/radiate/programmes/:id',
-        element: <ProgrammeDetail />,
+        element: <Navigate to="/signature" replace />,
       },
       {
         path: 'treatments/radiate/pathways/:id',
-        element: <ProgrammeDetail />,
+        element: <Navigate to="/signature" replace />,
+      },
+      {
+        path: 'treatments/radiate/pathways',
+        element: <Navigate to="/signature" replace />,
       },
       {
         path: 'tools/:id',
@@ -87,10 +103,10 @@ const routes = [
         path: 'conditions',
         element: <Conditions />,
       },
-      {
-        path: 'conditions/non-responsive-skin',
-        element: <Navigate to="/conditions/dehydration-dullness-skin-recovery/non-responsive-skin" replace />,
-      },
+      // {
+      //   path: 'conditions/non-responsive-skin',
+      //   element: <NonResponsiveSkin />,
+      // },
       {
         path: 'conditions/:category/:id',
         element: <ConditionDetail />,
@@ -109,11 +125,11 @@ const routes = [
       },
       {
         path: 'programmes',
-        element: <Navigate to="/treatments/radiate/pathways" replace />,
+        element: <Navigate to="/signature" replace />,
       },
       {
         path: 'programmes/:id',
-        element: <RedirectToProgramme />,
+        element: <Navigate to="/signature" replace />,
       },
       {
         path: 'help-and-support',

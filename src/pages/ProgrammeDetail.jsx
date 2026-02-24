@@ -24,7 +24,7 @@ export default function ProgrammeDetail() {
   });
 
   if (!programme) {
-    return <Navigate to="/treatments/radiate/pathways" replace />;
+    return <Navigate to="/signature" replace />;
   }
 
   const { title, subtitle, content = {}, summary = {} } = programme;
@@ -34,9 +34,9 @@ export default function ProgrammeDetail() {
   const framework = content.framework;
   const summaryImage = summary.placeholderUrl || summary.image || '';
 
-  // Generate SEO following locked Radiate Pathway format: [Outcome-Led Pathway Name] | Radiate | Ware SG12 | ULANDA
-  const seoTitle = `${title} | Radiate | Ware SG12 | ULANDA`;
-  const canonicalUrl = `https://www.ulanda.co.uk/treatments/radiate/pathways/${id}`;
+  // Generate SEO following Signature format: [Outcome-Led Pathway Name] | Signature | Ware SG12 | ULANDA
+  const seoTitle = `${title} | Signature | Ware SG12 | ULANDA`;
+  const canonicalUrl = `https://www.ulanda.co.uk/signature/${id}`;
 
   return (
     <>
@@ -448,7 +448,7 @@ export default function ProgrammeDetail() {
               </div>
               <div className="pt-4">
                 <Link
-                  to="/treatments/radiate/pathways"
+                  to="/signature"
                   className="hover:underline font-sans font-light inline-flex items-center gap-2"
                 >
                   Explore Other Signature Programmes{' '}

@@ -110,10 +110,10 @@ const trainingAreas = [
   <>
     Body contouring &{' '}
     <Link
-      to="/treatments/radiate"
+      to="/signature"
       className="text-primary font-bold hover:underline inline-flex items-center gap-0.5"
     >
-      postpartum / menopause programmes{' '}
+      Signature pathways{' '}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"

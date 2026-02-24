@@ -236,6 +236,33 @@ export default function Navbar() {
             </ul>
           </div>
 
+          {/* Signature Dropdown */}
+          <div className="dropdown dropdown-hover group px-2">
+            <NavLink 
+              to="/signature" 
+              onClick={closeDropdown}
+              className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
+            >
+              Signature <ChevronDown />
+            </NavLink>
+            <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-72 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
+              {[
+                { name: 'Skin Barrier Repair & Recovery', path: '/signature/skin-barrier-repair-recovery' },
+                { name: 'Rosacea & Redness Control', path: '/signature/rosacea-redness-control' },
+                { name: 'Menopause Skin Rebuild', path: '/signature/menopause-skin-rebuild' },
+                { name: 'Photoaging & Skin Architecture', path: '/signature/photoaging-skin-architecture' },
+                { name: 'Structural Skin Regeneration', path: '/signature/structural-skin-regeneration' },
+                { name: 'Under-Eye Renewal', path: '/signature/under-eye-renewal' }
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Company Dropdown */}
           <div className="dropdown dropdown-hover group px-2">
             <div role="button" className={`flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 text-base-content/80 cursor-pointer`}>
@@ -340,23 +367,24 @@ export default function Navbar() {
                   </details>
                 </li>
                  <li>
-                  <details open={activeMobileMenu === 'programs'}>
+                  <details open={activeMobileMenu === 'signature'}>
                     <summary 
                       className="font-medium text-lg py-3 text-base-content/90 font-sans"
                       onClick={(e) => {
                         e.preventDefault();
-                        setActiveMobileMenu(activeMobileMenu === 'programs' ? null : 'programs');
+                        setActiveMobileMenu(activeMobileMenu === 'signature' ? null : 'signature');
                       }}
                     >
-                      Pathways
+                      Signature
                     </summary>
                     <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-
-                      <li><Link to="/treatments/radiate/pathways/menopause-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Menopause Regeneration</Link></li>
-                      <li><Link to="/treatments/radiate/pathways/under-eye-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Under-Eye Regeneration</Link></li>
-                      <li><Link to="/treatments/radiate/pathways/collagen-reset" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Collagen Reset</Link></li>
-                      <li><Link to="/treatments/radiate/pathways/hormone-smart-skin" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Hormone-Smart Skin</Link></li>
-                      <li><Link to="/treatments/radiate/pathways/shape-and-regenerate" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Shape & Regenerate™</Link></li>
+                      <li><Link to="/signature" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
+                      <li><Link to="/signature/skin-barrier-repair-recovery" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin Barrier Repair & Recovery</Link></li>
+                      <li><Link to="/signature/rosacea-redness-control" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Rosacea & Redness Control</Link></li>
+                      <li><Link to="/signature/menopause-skin-rebuild" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Menopause Skin Rebuild</Link></li>
+                      <li><Link to="/signature/photoaging-skin-architecture" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Photoaging & Skin Architecture</Link></li>
+                      <li><Link to="/signature/structural-skin-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Structural Skin Regeneration</Link></li>
+                      <li><Link to="/signature/under-eye-renewal" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Under-Eye Renewal</Link></li>
                     </ul>
                   </details>
                 </li>

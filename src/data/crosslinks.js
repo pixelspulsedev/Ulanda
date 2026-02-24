@@ -818,7 +818,6 @@ export const getConditionUrl = (slug) => {
     "cellulite": "body-skin-structural",
     "stretch-marks": "body-skin-structural",
     "post-weightloss-postpartum": "body-skin-structural",
-    "pelvic-intimate-regeneration": "body-skin-structural",
     "keratosis-pilaris": "body-skin-structural",
     "body-pigmentation": "body-skin-structural",
     "body-acne": "body-skin-structural",
@@ -843,7 +842,8 @@ export const getConditionUrl = (slug) => {
     "poor-sleep-skin-ageing": "internal-wellness",
     "inflammation-driven-ageing": "internal-wellness",
     "gut-skin-imbalance": "internal-wellness",
-    "fatigue-low-energy-affecting-skin": "internal-wellness"
+    "fatigue-low-energy-affecting-skin": "internal-wellness",
+    "pelvic-intimate-regeneration": "internal-wellness"
   };
 
   const category = conditionCategories[slug];
@@ -881,10 +881,10 @@ export const getTreatmentUrl = (slug) => {
 };
 
 export const getProgrammeUrl = (slug) => {
-   // Assuming programmes are under radiate/programmes (or check lookup)
+   // Programmes are now under /signature/ pathways
    const url = getTreatmentUrl(slug);
    if (url && !url.includes('other/other')) return url;
-   return `/treatments/radiate/programmes/${slug}`;
+   return `/signature/${slug}`;
 };
 
 // ───────────────────────────────────────────────────────────────

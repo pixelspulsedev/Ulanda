@@ -5,41 +5,15 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { homeFaqs } from '../data/faqs';
 import { homePageData } from '../data/pageContents/home/home';
+import { signaturePathways } from '../data/pageContents/signature/signatureData';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState('refresh');
   const [activeFaq, setActiveFaq] = useState(null);
 
-  const { pathways, hero, introduction } = homePageData;
-
-  useEffect(() => {
-    const observerOptions = {
-        root: null,
-        rootMargin: '-50% 0px -50% 0px', 
-        threshold: 0
-    };
-
-    const observerCallback = (entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                setActiveTab(entry.target.id);
-            }
-        });
-    };
-
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
-    const sections = Object.keys(pathways);
-    
-    sections.forEach(section => {
-        const element = document.getElementById(section);
-        if (element) observer.observe(element);
-    });
-
-    return () => observer.disconnect();
-  }, []);
+  const { hero, introduction } = homePageData;
 
   return (
     <>
@@ -208,161 +182,79 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pathways Section */}
+      {/* Signatures Section */}
       <section className="py-24 px-4 md:px-8 bg-base-100">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <FadeInWhenVisible className="mb-16 flex items-center justify-between">
+          <FadeInWhenVisible className="mb-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
               <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-6">
-                The{' '}
+                ULANDA{' '}
                 <span className="italic font-light text-primary">
-                  Four Pathways
-                </span>{' '}
-                to your <br />
-                Ulanda Journey
+                  Signatures
+                </span>
               </h2>
               <p className="text-lg text-base-content/80 font-sans max-w-2xl">
-                We’ve made regeneration easy to understand. <br />
-                Every treatment you receive sits within one of four simple
-                pathways:
+                Structured, nurse-led programmes designed around your skin
+                behaviour, biology and long-term goals.
               </p>
             </div>
             <div className='hidden md:flex'>
               <Link
-              to='/pathways'
+              to='/signature'
               className='btn btn-primary'>
-                Learn More About Our Pathways
+                Explore All Signatures
               </Link>
             </div>
           </FadeInWhenVisible>
 
-          {/* Tabs */}
-          <div className="sticky top-16 z-30 bg-base-100 mb-16 border-b border-base-300 transition-all duration-300">
-            <div className="pt-4 flex items-center justify-between max-w-7xl mx-auto">
-              {Object.keys(pathways).map((key) => (
-                <button
-                  key={key}
-                  onClick={() => {
-                    const el = document.getElementById(key);
-                    if (el) {
-                      const offset = 150;
-                      const bodyRect =
-                        document.body.getBoundingClientRect().top;
-                      const elementRect = el.getBoundingClientRect().top;
-                      const elementPosition = elementRect - bodyRect;
-                      const offsetPosition = elementPosition - offset;
-
-                      window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth',
-                      });
-                    }
-                    setActiveTab(key);
-                  }}
-                  className={`flex-1 pb-4 text-lg font-sans transition-all duration-300 ${
-                    activeTab === key
-                      ? 'border-b-2 border-primary text-primary font-medium'
-                      : 'text-base-content/60 hover:text-primary'
-                  }`}
+          {/* Signature Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {signaturePathways.map((sig, i) => (
+              <FadeInWhenVisible key={sig.id} delay={0.1 * i}>
+                <Link
+                  to={sig.url}
+                  className="group block bg-white border border-secondary/50 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full"
                 >
-                  {key.charAt(0).toUpperCase() + key.slice(1)}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Content */}
-          <div className="space-y-24">
-            {Object.entries(pathways).map(([key, pathway]) => (
-              <motion.div
-                // initial={{ opacity: 0.5 }}
-                // whileInView={{ opacity: 1 }}
-                // viewport={{ amount: 0.8, once: false }}
-                // transition={{ duration: 0.4, ease: 'easeIn' }}
-                key={key}
-                id={key}
-                className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center scroll-mt-32"
-              >
-                {/* Left Image */}
-                <div className="relative hidden md:flex justify-center md:justify-start">
-                  {/* Background decorative element */}
-                  <div className="absolute bottom-10 left-10 w-3/4 max-w-xs h-full">
-                    <RevealImage className="w-full h-full">
-                        <img
-                        src="/assets/img/ui/accent.webp"
-                        alt="Decorative shadow"
-                        className="w-full h-full object-cover"
-                        />
-                    </RevealImage>
-                  </div>
-
-                  {/* Main Image */}
-                  <RevealImage className="relative rounded-t-full shadow-xl w-full max-w-xs max-h-xs aspect-[3/4]">
+                  <div className="aspect-[4/3] overflow-hidden">
                     <img
-                      src={pathway.placeholderUrl || pathway.image}
-                      alt={`${pathway.titlePrefix} ${pathway.highlight} ${pathway.titleSuffix}`}
-                      className="w-full h-full object-cover transition-opacity duration-500"
+                      src={sig.image}
+                      alt={sig.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
                     />
-                  </RevealImage>
-                </div>
-
-                {/* Right Content */}
-                <FadeInWhenVisible>
-                  <h3 className="text-3xl md:text-4xl font-serif text-base-content mb-4 leading-tight">
-                    {pathway.titlePrefix}{' '}
-                    <span className="italic font-serif text-primary">
-                      {pathway.highlight}
-                    </span>{' '}
-                    {pathway.titleSuffix}
-                  </h3>
-                  <p className="text-lg text-base-content/80 font-sans mb-8">
-                    {pathway.description}
-                  </p>
-
-                  <div className="grid grid-cols-1 gap-8 mb-8">
-                    <div>
-                      <h4 className="font-medium font-sans text-base-content mb-2">
-                        Includes:
-                      </h4>
-                      <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-base-content/80">
-                        {pathway.includes.map((item) => (
-                          <li key={item}>{item}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="font-medium font-sans text-base-content mb-2">
-                        Perfect for:
-                      </h4>
-                      <p className="text-base-content/80">
-                        {pathway.perfectFor}
-                      </p>
-                    </div>
                   </div>
-
-                  <Link
-                    to={`/treatments/${key}`}
-                    className="btn btn-primary text-white px-8"
-                  >
-                    Explore
-                  </Link>
-                </FadeInWhenVisible>
-              </motion.div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-serif text-base-content mb-2 group-hover:text-primary transition-colors">
+                      {sig.title}
+                    </h3>
+                    {sig.subtitle && (
+                      <p className="text-sm text-primary/80 font-light mb-3">{sig.subtitle}</p>
+                    )}
+                    <p className="text-sm text-base-content/70 font-light leading-relaxed mb-4 line-clamp-3">
+                      {sig.concerns}
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-primary text-sm font-medium group-hover:gap-2 transition-all">
+                      Learn More
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                      </svg>
+                    </span>
+                  </div>
+                </Link>
+              </FadeInWhenVisible>
             ))}
           </div>
 
           <div className='md:hidden flex mt-8'>
-              <Link
-              to='/pathways'
+            <Link
+              to='/signature'
               className='btn btn-primary'>
-                Learn More About Our Pathways
-              </Link>
-            </div>
+              Explore All Signatures
+            </Link>
+          </div>
         </div>
       </section>
-
       {/* Who We Help Section */}
       <section className="py-24 px-4 md:px-8 bg-base-100">
         <div className="max-w-7xl mx-auto">
@@ -447,37 +339,37 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Programs Section */}
+      {/* Signature Section */}
       <section className="py-24 px-4 md:px-8 bg-base-100">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center w-full mb-12">
             <div>
               <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-4">
                 <span className="italic font-light text-primary">Ulanda</span>{' '}
-                Programs
+                Signatures
               </h2>
               <p className="text-lg text-base-content/80 font-sans">
                 For women who want real, lasting transformation.
               </p>
             </div>
             <Link
-              to="/treatments/radiate/pathways"
+              to="/signature"
               className="btn hidden md:flex btn-primary text-white px-8 mt-6 md:mt-0"
             >
               Explore
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-            {/* Program 1 */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+            {/* Signature 1 */}
             <Link
-              to="/treatments/radiate/pathways/menopause-regeneration"
+              to="/signature/skin-barrier-repair-recovery"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp"
-                alt="12-Week Menopause Regeneration Plan"
+                alt="Skin Barrier Repair & Recovery"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
@@ -485,22 +377,20 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
-                  12-Week Menopause Regeneration Plan
+                  Skin Barrier Repair & Recovery
                 </h3>
               </div>
             </Link>
 
-            {/* Program 2 */}
+            {/* Signature 2 */}
             <Link
-              to="/treatments/radiate/pathways/under-eye-regeneration"
+              to="/signature/rosacea-redness-control"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="/assets/img/treatments/radiate/Under eye regeneration treatment.webp"
-                alt="Under-Eye Regeneration Blueprint"
-                width="1200"
-                height="1600"
+                alt="Rosacea & Redness Control"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
@@ -508,20 +398,41 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
-                  Under-Eye Regeneration Blueprint
+                  Rosacea & Redness Control
                 </h3>
               </div>
             </Link>
 
-            {/* Program 3 */}
+            {/* Signature 3 */}
             <Link
-              to="/treatments/radiate/pathways/collagen-reset"
+              to="/signature/menopause-skin-rebuild"
+              className="group relative h-[400px] overflow-hidden cursor-pointer block"
+            >
+              <RevealImage className="absolute inset-0 w-full h-full">
+              <img
+                src="/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp"
+                alt="Menopause Skin Rebuild"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy"
+              />
+              </RevealImage>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="text-xl font-medium font-sans leading-tight">
+                  Menopause Skin Rebuild
+                </h3>
+              </div>
+            </Link>
+
+            {/* Signature 4 */}
+            <Link
+              to="/signature/photoaging-skin-architecture"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="/assets/img/treatments/radiate/Collagen reset journey.webp"
-                alt="Collagen Reset Journey"
+                alt="Photoaging & Skin Architecture"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
@@ -529,41 +440,20 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
-                  Collagen Reset Journey
+                  Photoaging & Skin Architecture
                 </h3>
               </div>
             </Link>
 
-            {/* Program 4 */}
+            {/* Signature 5 */}
             <Link
-              to="/treatments/radiate/pathways/hormone-smart-skin"
-              className="group relative h-[400px] overflow-hidden cursor-pointer block"
-            >
-              <RevealImage className="absolute inset-0 w-full h-full">
-              <img
-                src="/assets/img/treatments/radiate/Radiate hormone smart skin programme.webp"
-                alt="Radiate Hormone-Smart Skin Programme"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy"
-              />
-              </RevealImage>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-              <div className="absolute bottom-0 left-0 p-6 text-white">
-                <h3 className="text-xl font-medium font-sans leading-tight">
-                  Radiate Hormone-Smart Skin Programme
-                </h3>
-              </div>
-            </Link>
-
-            {/* Program 5 */}
-            <Link
-              to="/treatments/radiate/pathways/shape-and-regenerate"
+              to="/signature/structural-skin-regeneration"
               className="group relative h-[400px] overflow-hidden cursor-pointer block"
             >
               <RevealImage className="absolute inset-0 w-full h-full">
               <img
                 src="/assets/img/treatments/radiate/Ulanda shape regenerate.webp"
-                alt="ULANDA Shape & Regenerate™"
+                alt="Structural Skin Regeneration"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
@@ -571,10 +461,28 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-medium font-sans leading-tight">
-                  ULANDA Shape & Regenerate™ <br />
-                  <span className="text-sm font-light opacity-90">
-                    (Body + Weight + Longevity)
-                  </span>
+                  Structural Skin Regeneration
+                </h3>
+              </div>
+            </Link>
+
+            {/* Signature 6 */}
+            <Link
+              to="/signature/under-eye-renewal"
+              className="group relative h-[400px] overflow-hidden cursor-pointer block"
+            >
+              <RevealImage className="absolute inset-0 w-full h-full">
+              <img
+                src="/assets/img/treatments/radiate/Under eye regeneration treatment.webp"
+                alt="Under-Eye Renewal"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy"
+              />
+              </RevealImage>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="text-xl font-medium font-sans leading-tight">
+                  Under-Eye Renewal
                 </h3>
               </div>
             </Link>

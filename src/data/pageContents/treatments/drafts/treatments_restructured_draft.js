@@ -51,7 +51,7 @@ const skinHealthFacialTherapies = {
     { id: "dull-dehydrated-skin", title: "Dull skin", url: "/conditions/dehydration-dullness-skin-recovery/dull-dehydrated-skin" },
     { id: "dull-dehydrated-skin", title: "Dehydration", url: "/conditions/dehydration-dullness-skin-recovery/dull-dehydrated-skin" },
     { id: "dryness-sensitivity", title: "Sensitivity", url: "/conditions/dryness-sensitivity" },
-    { id: "non-responsive-skin", title: "Non-Responsive Skin & Treatment Fatigue", url: "/conditions/dehydration-dullness-skin-recovery/non-responsive-skin" }
+    { id: "non-responsive-skin", title: "Non-Responsive Skin & Treatment Fatigue", url: "/conditions/non-responsive-skin" }
   ],
   treatments: {
     // HydraFacial
@@ -392,7 +392,7 @@ const pelvicIntimateRegeneration = {
     note: "For this reason, Pelvic & Intimate Regeneration is closely aligned with ULANDA's Hormones & Regeneration framework. Hormonal status is understood as biological context, not a standalone intervention — ensuring care remains safe, ethical and appropriate within the UK clinical landscape.",
     relatedPages: [
       { title: "Hormones & Regeneration", url: "/pathways/hormones-regeneration" },
-      { title: "Hormone-Smart Skin Programme", url: "/treatments/radiate/programmes/hormone-smart-skin" }
+      { title: "Hormone-Smart Skin Programme", url: "/signature/menopause-skin-rebuild" }
     ]
   },
   howCareIsApproached: {
@@ -460,7 +460,7 @@ const pelvicIntimateRegeneration = {
     title: "Relationship to Other Radiate Pathways",
     description: "This pathway may sit alongside or intersect with:",
     items: [
-      { title: "Hormone-Smart Skin Programme", url: "/treatments/radiate/programmes/hormone-smart-skin" },
+      { title: "Hormone-Smart Skin Programme", url: "/signature/menopause-skin-rebuild" },
       { title: "Structural Lift & Facial Architecture", url: "/treatments/structural-collagen-support" },
       { title: "Shape & Regenerate", url: "/treatments/body-regeneration-tissue-support/shape-and-regenerate" },
       { title: "Collagen Reset", url: "/treatments/structural-collagen-support/biostimulators" }
