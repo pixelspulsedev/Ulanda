@@ -8,6 +8,7 @@ import { individualConditions } from './src/data/pageContents/conditions/individ
 import { programmes } from './src/data/pageContents/programmes/programmes.js'
 import { blogs } from './src/data/pageContents/blogs/blogs.js'
 import { signaturePathways } from './src/data/pageContents/signature/signatureData.js'
+import { journalArticles } from './src/data/pageContents/journal/journalArticles.js'
 
 // Generate all static paths for SSG
 function generateStaticPaths() {
@@ -81,6 +82,14 @@ function generateStaticPaths() {
   blogs.forEach(blog => {
     paths.push(`/blogs/${blog.id}`);
   });
+
+  // Authority Journal pages
+  paths.push('/journal');
+  journalArticles
+    .filter(a => a.status === 'published')
+    .forEach(article => {
+      paths.push(`/journal/${article.id}`);
+    });
 
   // Remove duplicates
   return [...new Set(paths)];

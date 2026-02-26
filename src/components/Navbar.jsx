@@ -274,7 +274,7 @@ export default function Navbar() {
                 { name: 'Founder', path: '/about/our-founder' },
                 { name: 'Philosophy', path: '/about/our-philosophy' },
                 { name: 'Manifesto', path: '/about/manifesto' },
-                { name: 'Articles', path: '/blogs' }
+                { name: 'Journal', path: '/journal' }
               ].map((item) => (
                 <li key={item.name}>
                   <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
@@ -427,7 +427,7 @@ export default function Navbar() {
                       <li><Link to="/about/our-founder" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Founder</Link></li>
                       <li><Link to="/about/our-philosophy" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Philosophy</Link></li>
                       <li><Link to="/about/manifesto" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Manifesto</Link></li>
-                      <li><Link to="/blogs" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Articles</Link></li>
+                      <li><Link to="/journal" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Journal</Link></li>
                     </ul>
                   </details>
                 </li>

@@ -8,7 +8,9 @@ import { getTreatmentsForCondition, getTreatmentUrl, getConditionUrl } from '../
 import Conditions from './Conditions';
 import { ChevronRight } from 'lucide-react';
 import RelatedTreatments from '../components/RelatedTreatments';
+import RelatedJournals from '../components/RelatedJournals';
 import { getTreatmentById } from '../data/pageContents/treatments/treatments';
+import { getJournalsForCondition } from '../data/pageContents/journal/journalArticles';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
@@ -206,6 +208,18 @@ export default function ConditionDetail() {
           title="Recommended Treatments"
           subtitle="Based on your condition, we recommend the following treatments."
         />
+
+        {/* Clinical Insight — Bidirectional Journal Links */}
+        {(() => {
+          const relatedJournals = getJournalsForCondition(conditionId);
+          return relatedJournals.length > 0 ? (
+            <RelatedJournals
+              journals={relatedJournals}
+              title="Clinical Insight"
+              subtitle="Evidence-based clinical context from the ULANDA Authority Journal."
+            />
+          ) : null;
+        })()}
 
         {/* Content Sections */}
         {condition.contentSections && condition.contentSections.map((section, index) => (

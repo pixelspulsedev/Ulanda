@@ -90,6 +90,52 @@ export const LocalBusinessSchema = () => {
 };
 
 /**
+ * Article Schema for Authority Journal pages
+ * Implements Article + MedicalWebPage structured data
+ * @param {Object} article - Journal article data object
+ */
+export const ArticleSchema = ({ article }) => {
+  if (!article) return null;
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.seo?.description || article.subtitle,
+    "url": article.seo?.canonical || `https://www.ulanda.co.uk/journal/${article.id}`,
+    "datePublished": article.date,
+    "dateModified": article.dateModified || article.date,
+    "author": {
+      "@type": "Person",
+      "name": article.author || "Helen Balogun",
+      "jobTitle": article.authorCredential || "Advanced Nurse Practitioner",
+      "worksFor": {
+        "@type": "MedicalBusiness",
+        "@id": "https://www.ulanda.co.uk/#medicalbusiness"
+      }
+    },
+    "publisher": {
+      "@type": "MedicalBusiness",
+      "@id": "https://www.ulanda.co.uk/#medicalbusiness"
+    },
+    ...(article.image && {
+      "image": `https://www.ulanda.co.uk${article.image}`
+    }),
+    "mainEntityOfPage": {
+      "@type": "MedicalWebPage",
+      "url": article.seo?.canonical || `https://www.ulanda.co.uk/journal/${article.id}`
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
+
+/**
  * Service Schema for individual treatment pages
  * @param {Object} treatment - Treatment data object
  * @param {string} pathway - Pathway name (refresh, renew, restore, radiate)
@@ -164,7 +210,7 @@ export const BreadcrumbSchema = ({ items }) => {
   );
 };
 
-export default { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema };
+export default { LocalBusinessSchema, ArticleSchema, ServiceSchema, BreadcrumbSchema };
 
 /**
  * FAQ Schema for frequently asked questions sections

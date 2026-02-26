@@ -25,6 +25,9 @@ const Founder = lazy(() => import('./pages/Founder.jsx'))
 // Blogs & Articles
 const Blogs = lazy(() => import('./pages/Blogs.jsx'))
 const BlogDetail = lazy(() => import('./pages/BlogDetail.jsx'))
+// Authority Journal
+const JournalLanding = lazy(() => import('./pages/JournalLanding.jsx'))
+const JournalDetail = lazy(() => import('./pages/JournalDetail.jsx'))
 // Programmes & Tools
 const Programme = lazy(() => import('./pages/Programme.jsx'))
 const ProgrammeDetail = lazy(() => import('./pages/ProgrammeDetail.jsx'))
@@ -122,6 +125,15 @@ const routes = [
       {
         path: 'blogs/:id',
         element: <BlogDetail />,
+      },
+      // Authority Journal (non-menu, indexed, crawlable)
+      {
+        path: 'journal',
+        element: <JournalLanding />,
+      },
+      {
+        path: 'journal/:slug',
+        element: <JournalDetail />,
       },
       {
         path: 'programmes',

@@ -926,6 +926,13 @@ export const getBlogCategoryLinks = (category) => {
   return blogCategories[category] || { conditions: [], treatments: [] };
 };
 
+/**
+ * Get journal article URL
+ * @param {string} slug - Journal article slug/id
+ * @returns {string} URL path
+ */
+export const getJournalUrl = (slug) => `/journal/${slug}`;
+
 export default {
   conditionToTreatments,
   treatmentToConditions,
@@ -935,6 +942,7 @@ export default {
   getConditionUrl,
   getTreatmentUrl,
   getProgrammeUrl,
+  getJournalUrl,
   getTreatmentsForCondition,
   getConditionsForTreatment,
   getConditionsForProgramme,

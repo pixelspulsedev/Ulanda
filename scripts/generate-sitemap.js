@@ -8,6 +8,7 @@ import { treatments } from '../src/data/pageContents/treatments/treatments.js';
 import { getAllTreatmentCategories } from '../src/data/pageContents/treatments/drafts/treatments_restructured_draft.js';
 import { blogs } from '../src/data/pageContents/blogs/blogs.js';
 import { signaturePathways } from '../src/data/pageContents/signature/signatureData.js';
+import { journalArticles } from '../src/data/pageContents/journal/journalArticles.js';
 import { getConditionUrl } from '../src/data/crosslinks.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -93,6 +94,14 @@ const generateSitemap = () => {
       });
     }
   });
+
+  // Add Authority Journal Pages
+  urls.push('/journal');
+  journalArticles
+    .filter(a => a.status === 'published')
+    .forEach(article => {
+      urls.push(`/journal/${article.id}`);
+    });
 
   /*
   // Add Treatments Pages (Old Structure - Deprecated)

@@ -17,6 +17,8 @@ import {
 import { tools } from '../../tools/tools';
 import { getConditionsForTreatment } from '../../../crosslinks';
 import RelatedConditions from '../../../../components/RelatedConditions';
+import RelatedJournals from '../../../../components/RelatedJournals';
+import { getJournalsForTreatment } from '../../journal/journalArticles';
 import HeroText from '../../../../components/animations/HeroText';
 import RevealImage from '../../../../components/animations/RevealImage';
 import FadeInWhenVisible from '../../../../components/animations/FadeInWhenVisible';
@@ -449,6 +451,18 @@ export default function TreatmentDraft() {
 
         {/* Related Conditions Section */}
         <RelatedConditions conditions={relatedConditions} title="Treats Conditions" subtitle="This treatment is effective for the following conditions." />
+
+        {/* When Is This Appropriate? — Bidirectional Journal Links */}
+        {(() => {
+          const relatedJournals = getJournalsForTreatment(treatmentId);
+          return relatedJournals.length > 0 ? (
+            <RelatedJournals
+              journals={relatedJournals}
+              title="When Is This Appropriate?"
+              subtitle="Read the clinical context behind this treatment approach."
+            />
+          ) : null;
+        })()}
 
         {/* CTA Section */}
         {treatment.cta && (

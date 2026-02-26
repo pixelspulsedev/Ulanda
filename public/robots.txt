@@ -3,6 +3,7 @@ Allow: /
 Allow: /treatments/
 Allow: /conditions/
 Allow: /blogs/
+Allow: /journal/
 Allow: /about/
 Allow: /contact
 

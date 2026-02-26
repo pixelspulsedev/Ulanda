@@ -1,8 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import React from 'react';
 import { commonData } from '../data/common';
 
 export default function Footer() {
+  const { pathname } = useLocation();
+  const isJournal = pathname.startsWith('/journal');
+
   return (
     <footer className="bg-white pt-20 pb-8 border-t border-base-200">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
@@ -103,7 +106,7 @@ export default function Footer() {
                 <li><Link to="/about/our-philosophy" className="hover:text-primary transition-colors ">Our Philosophy</Link></li>
                 <li><Link to="/about/our-founder" className="hover:text-primary transition-colors ">Our Founder</Link></li>
                 <li><Link to="/about/manifesto" className="hover:text-primary transition-colors ">The Manifesto</Link></li>
-                <li><Link to="/blogs" className="hover:text-primary transition-colors ">Articles</Link></li>
+                <li><Link to="/journal" className="hover:text-primary transition-colors ">Journal</Link></li>
                 <li><Link to="/contact" className="hover:text-primary transition-colors ">Contact</Link></li>
               </ul>
             </div>
@@ -133,6 +136,17 @@ export default function Footer() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
               </a>
             </div>
+
+        {/* Journal Local Authority Footer */}
+        {isJournal && (
+          <div className="border-t border-base-200 pt-10 pb-6 mb-6">
+            <div className="max-w-3xl mx-auto text-center">
+              <p className="text-sm text-base-content/60 font-light leading-relaxed">
+                ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Skin Health Consultations and clinically sequenced Signature treatments including Skin Barrier Repair &amp; Recovery, Menopause Skin Rebuild and Structural Skin Regeneration. Our approach ensures safe stabilisation before introducing advanced treatments such as Hydrobooster, chemical peels and collagen-support therapies.
+              </p>
+            </div>
+          </div>
+        )}
 
         {/* SEO Footer */}
         <div className="text-center text-base-content/60 font-sans text-sm max-w-2xl mx-auto mb-8">

@@ -5,6 +5,8 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import { getSignaturePathway, signaturePathways } from '../data/pageContents/signature/signatureData';
+import { getJournalsForSignature } from '../data/pageContents/journal/journalArticles';
+import RelatedJournals from '../components/RelatedJournals';
 import { Check, ArrowRight, ArrowLeft, ChevronDown, ChevronUp } from 'lucide-react';
 
 export default function SignatureDetail() {
@@ -597,6 +599,18 @@ export default function SignatureDetail() {
             </div>
           </section>
         )}
+
+        {/* Evidence & Clinical Insight — Bidirectional Journal Links */}
+        {(() => {
+          const relatedJournals = getJournalsForSignature(id);
+          return relatedJournals.length > 0 ? (
+            <RelatedJournals
+              journals={relatedJournals}
+              title="Evidence & Clinical Insight"
+              subtitle="Related clinical authority from the ULANDA Authority Journal."
+            />
+          ) : null;
+        })()}
 
         {/* Other Signatures */}
         <section className="py-16 md:py-24 px-4 md:px-8 bg-secondary">
