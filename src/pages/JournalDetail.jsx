@@ -264,7 +264,7 @@ export default function JournalDetail() {
             {/* Text Content */}
             <div className="flex-1">
               <div className="hidden md:inline-block text-primary px-4 py-1 mb-8 border border-primary/30 rounded-full bg-secondary/30">
-                Authority Journal
+                Journal
               </div>
               <h1 className="text-3xl w-full md:text-5xl font-serif leading-tight mb-2 text-[#2A2A2A]">
                 <HeroText className="w-full">{article.title}</HeroText>

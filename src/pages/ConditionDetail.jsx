@@ -209,14 +209,14 @@ export default function ConditionDetail() {
           subtitle="Based on your condition, we recommend the following treatments."
         />
 
-        {/* Clinical Insight — Bidirectional Journal Links */}
+        {/* Clinical Insights — Bidirectional Journal Links */}
         {(() => {
           const relatedJournals = getJournalsForCondition(conditionId);
           return relatedJournals.length > 0 ? (
             <RelatedJournals
               journals={relatedJournals}
-              title="Clinical Insight"
-              subtitle="Evidence-based clinical context from the ULANDA Authority Journal."
+              title="Clinical Insights"
+              subtitle="ULANDA Clinical Perspectives."
             />
           ) : null;
         })()}

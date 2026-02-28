@@ -600,14 +600,14 @@ export default function SignatureDetail() {
           </section>
         )}
 
-        {/* Evidence & Clinical Insight — Bidirectional Journal Links */}
+        {/* Evidence & Clinical Insights — Bidirectional Journal Links */}
         {(() => {
           const relatedJournals = getJournalsForSignature(id);
           return relatedJournals.length > 0 ? (
             <RelatedJournals
               journals={relatedJournals}
-              title="Evidence & Clinical Insight"
-              subtitle="Related clinical authority from the ULANDA Authority Journal."
+              title="Evidence & Clinical Insights"
+              subtitle="ULANDA Clinical Perspectives."
             />
           ) : null;
         })()}
