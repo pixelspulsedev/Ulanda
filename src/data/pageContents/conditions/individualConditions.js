@@ -411,7 +411,7 @@
       description: "Skin laxity - sagging of the face, jawline and neck - is one of the most common concerns for women 35+. We lift without surgery by rebuilding collagen and structure.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "/assets/img/conditions/skin-laxity-hero.webp"
+      image: "/assets/img/conditions/ulanda skin condition skin laxity (1) resized.jpg"
     },
     science_removed: {
       title: "What's Really Happening -",
@@ -640,8 +640,8 @@
       ],
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
+      image: "/assets/img/conditions/ulanda skin condition uneven texture (1) resized.webp",
+      placeholderUrl: "/assets/img/conditions/ulanda skin condition uneven texture (1) resized.webp"
     },
     treatmentModel: {
       title: "How We Treat",
@@ -1379,7 +1379,7 @@
       title: "Keratosis Pilaris",
       subtitle: "Smoothing Treatment & Barrier Restoration for 'Chicken Skin' and Rough Texture.",
       description: "Keratosis Pilaris (KP), often called “chicken skin,” is a common skin condition that causes small rough bumps and uneven texture, most frequently on the upper arms, thighs, buttocks and sometimes the cheeks.",
-      image: "https://plus.unsplash.com/premium_photo-1663126639591-627c2f10b784?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpa2VuJTIwU2tpbnxlbnwwfDF8MHx8fDA%3D",
+      image: "/assets/img/conditions/ulanda skin condition keratosis pilaris (1) resized.jpg",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
@@ -1807,7 +1807,7 @@
       description: "Under-eye fine lines and creasing are often the earliest signs of structural ageing in the face. Many clients notice their concealer begins to crease, the under-eye area looks more textured, or fine lines become visible even when the rest of the skin appears smooth. This can be caused by dehydration, collagen decline, repeated facial movement, and thinning under-eye tissue.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww"
+      image: "/assets/img/conditions/Ulanda skin condition screpey under eye (1) resized.jpg"
     },
     intro: {
       content: "At ULANDA, under-eye lines are treated as a regeneration and barrier behaviour concern. The eye area is delicate and often over-treated with harsh actives or unsuitable procedures. Your Skin Health Consultation includes dedicated under-eye assessment to determine whether your lines are driven by dehydration, collagen loss, skin thinning, structural hollows or inflammation — so your plan is safe, sequenced and designed for long-term improvement."
@@ -2265,7 +2265,7 @@
       description: "Puffy under-eyes are a common concern that can make the face look tired, swollen or heavier around the eye area — even when you feel well-rested. Some clients experience puffiness only in the morning, while others notice persistent under-eye swelling that fluctuates depending on sleep, stress, hormones, diet or inflammation.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/ulanda skin conditions puffy under eye (1) resized.jpg"
     },
     intro: {
       content: "At ULANDA, puffy under-eyes are treated as a structural and fluid-behaviour issue, not simply a cosmetic concern. Your Skin Health Consultation includes dedicated under-eye assessment to determine whether puffiness is linked to lymphatic stagnation, inflammation, fluid retention, allergies, skin fragility, or deeper structural imbalance. This ensures your plan is safe, sequenced and designed for long-term improvement rather than temporary quick fixes."
@@ -2378,8 +2378,8 @@
       description: "Dry, tight, reactive skin is one of the earliest menopause signals. We rebuild strength, hydration and resilience so skin feels calm again.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1675869589440-8b3f38dc5fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ5JTIwc2tpbnxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/ulanda skin conditions  sensitivity and redness (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin conditions  sensitivity and redness (1) resized.jpg"
     },
     science_removed: {
       title: "Why Midlife Skin Becomes Dry & Reactive -",
@@ -3323,7 +3323,7 @@
       highlight: "/ Dark Spots",
       subtitle: "Irregular Pigmentation",
       description: "Hyperpigmentation is one of the most common skin concerns and one of the most misunderstood. Dark spots can appear gradually over time or suddenly after inflammation, acne, sun exposure or hormonal change. Many clients find that pigmentation becomes more noticeable with age, and often feels difficult to treat because it can return if the skin is not managed correctly.",
-      image: "https://plus.unsplash.com/premium_photo-1664203068076-c95b2d3054a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D",
+      image: "/assets/img/conditions/ulanda skin condition hyperpigmentation and uneven skin tone (1) resized.jpg",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
@@ -3659,7 +3659,7 @@
       highlight: "Skin Tone",
       subtitle: "Tone, Texture & Pigmentation",
       description: "Uneven skin tone is one of the most common concerns clients bring to ULANDA — often described as patchy colour, dullness, sun spots, post-acne marks or a complexion that no longer looks clear and consistent. Some clients notice uneven tone gradually over time, while others experience sudden changes following inflammation, hormonal transition or skin barrier fatigue.",
-      image: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZSUyMGNsZWFuc2luZyUyMHNwYXxlbnwwfDF8MHx8fDA%3D",
+      image: "/assets/img/conditions/ulanda skin condition uneven skin sun damage (1) resized.jpg",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
@@ -3771,7 +3771,7 @@
       highlight: "Photo-Pigmentation",
       subtitle: "Sun Damage & Photo-Aging",
       description: "Sun damage, also known as photo-pigmentation, occurs when repeated UV exposure triggers uneven melanin production and accelerates structural ageing within the skin. Many clients notice sun damage as patchy tone, scattered brown spots, freckles becoming darker, rough texture, dullness and an overall loss of skin clarity.",
-      image: "https://plus.unsplash.com/premium_photo-1664203067963-889814407b46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHN1biUyMHByb3RlY3Rpb258ZW58MHwxfDB8fHww",
+      image: "/assets/img/conditions/ulanda skin condition sun damage skin damage (1) resized.jpg",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
@@ -3884,7 +3884,7 @@
       description: "Energy decline after 30-40 is biological - mitochondria slow, hormones fluctuate, nutrients deplete. ULANDA restores cellular energy so skin, mind and body perform again.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1561539207-46fec82a333c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RmF0aWd1ZSUyMCUyNiUyMExvdyUyMEVuZXJneXxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/ulanda skin conditions fatigue affecting skin (1) resized.jpg"
     },
     science_removed: {
       title: "Why Energy Drops -",
@@ -4442,8 +4442,8 @@
       ],
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/ulanda skin condition acne scarring.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin condition acne scarring.jpg"
     },
     treatmentModel: {
       title: "How We Treat",
@@ -4454,32 +4454,32 @@
           title: "Microneedling",
           subtitle: "Remodelling",
           description: "Breaks down old scar tissue and triggers smoother collagen repair.",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
+          image: "/assets/img/conditions/ulanda skin condition acne scarring.jpg",
+          placeholderUrl: "/assets/img/conditions/ulanda skin condition acne scarring.jpg",
           points: []
         },
         {
           title: "Polynucleotides",
           subtitle: "Regeneration",
           description: "Regenerates skin quality and improves healing capacity.",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
+          image: "/assets/img/conditions/ulanda skin condition acne scarring (1) resized.jpg",
+          placeholderUrl: "/assets/img/conditions/ulanda skin condition acne scarring (1) resized.jpg",
           points: []
         },
         {
           title: "BioRePeel",
           subtitle: "Surface",
           description: "Exfoliates rough skin and fades pigmentation.",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
+          image: "/assets/img/conditions/ulanda skin condition acne scarring 2 resized.jpg",
+          placeholderUrl: "/assets/img/conditions/ulanda skin condition acne scarring 2 resized.jpg",
           points: []
         },
         {
           title: "Resurfacing",
           subtitle: "Smoothing",
           description: "Targets unevenness and redness (PIE/PIH).",
-          image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-          placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
+          image: "/assets/img/conditions/ulanda skin condition acne scarring.jpg",
+          placeholderUrl: "/assets/img/conditions/ulanda skin condition acne scarring.jpg",
           points: []
         }
       ]
@@ -4494,8 +4494,8 @@
         "Treatment for All Scar Types – From indentations to red marks (PIE).",
         "Patience & Results – We support you through the remodelling process."
       ],
-      image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/ulanda skin condition acne scarring (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin condition acne scarring (1) resized.jpg"
     },
     relatedTreatments: [
       "microneedling",
@@ -4549,8 +4549,8 @@
       ],
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
+      image: "/assets/img/conditions/ulanda skin condition skin damage skin burn (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin condition skin damage skin burn (1) resized.jpg"
     },
     science: {
       title: "Common Triggers &",
@@ -6337,8 +6337,8 @@
       highlight: "Facial Redness",
       subtitle: "Redness, Sensitivity & Reactive Skin",
       description: "Persistent facial redness can be subtle or intense, but it often signals underlying inflammation, barrier dysfunction or chronic sensitivity patterns. Many clients notice redness across the cheeks, nose or chin that never fully settles, and may worsen with heat, stress, skincare products or hormonal change.",
-      image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
-      placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
+      image: "/assets/img/conditions/ulanda skin condition redness and sensitivity facial redness (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin condition redness and sensitivity facial redness (1) resized.jpg",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/"
     },
@@ -6486,8 +6486,8 @@
       ],
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/ulanda skin condition breakout congestion (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin condition breakout congestion (1) resized.jpg"
     },
     treatmentModel: {
       title: "How We Treat",
@@ -6546,8 +6546,8 @@
         "Hydration Balance – We clear oil without drying out your skin.",
         "Prevention Focus – We help you maintain clear skin long-term."
       ],
-      image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/Ulanda skin condition breakouts congestion (1) resized.webp",
+      placeholderUrl: "/assets/img/conditions/Ulanda skin condition breakouts congestion (1) resized.webp"
     },
     relatedTreatments: [
       "biorepeel",
@@ -6768,8 +6768,8 @@
       description: "Stress and cortisol imbalance can dramatically affect how your skin behaves. Many clients notice that during stressful periods their skin becomes more reactive, more inflamed, more acne-prone, duller, drier or suddenly more sensitive to products that previously worked well. Others experience flare-ups of pigmentation, redness, eczema-type irritation or increased under-eye fatigue.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN0cmVzcyUyMHNraW58ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN0cmVzcyUyMHNraW58ZW58MHwxfDB8fHww"
+      image: "/assets/img/conditions/ulanda skin conditions stress cortisol skin imbalance (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin conditions stress cortisol skin imbalance (1) resized.jpg"
     },
     intro: {
       title: "Understanding Stress-Related Skin Imbalance",
@@ -6908,8 +6908,8 @@
       description: "Poor sleep can accelerate skin ageing faster than most people realise. Many clients notice that when sleep quality declines, their skin becomes dull, dry, more sensitive, more inflamed and less able to recover. Fine lines become more visible, under-eye darkness worsens, breakouts increase and the skin begins to look “tired” even when skincare routines remain unchanged.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1541781777621-af13032da66f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjB3b21hbnxlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://images.unsplash.com/photo-1541781777621-af13032da66f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjB3b21hbnxlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/Ulanda skin conditions Poor sleep and skin againg (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/Ulanda skin conditions Poor sleep and skin againg (1) resized.jpg"
     },
     intro: {
       title: "Sleep-Related Skin Ageing",
@@ -7048,8 +7048,8 @@
       ],
       buttonText: "Request a Radiate Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tYW4lMjByZWxheGluZ3xlbnwwfDF8MHx8fDA%3D",
-      placeholderUrl: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tYW4lMjByZWxheGluZ3xlbnwwfDF8MHx8fDA%3D"
+      image: "/assets/img/conditions/ulanda skin conditions pelvic intimate regeration resized.webp",
+      placeholderUrl: "/assets/img/conditions/ulanda skin conditions pelvic intimate regeration resized.webp"
     },
     content: [
       {
@@ -7216,8 +7216,8 @@
       description: "Inflammation-driven ageing, often called “inflammaging,” is one of the most important but overlooked causes of accelerated skin ageing. Many clients notice that their skin appears to age rapidly during periods of stress, hormonal transition, poor sleep, gut imbalance or chronic inflammation. The skin may become more reactive, more sensitive, duller, drier, and less able to repair itself. Fine lines deepen, redness increases and collagen decline becomes more noticeable.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww"
+      image: "/assets/img/conditions/ulanda skin condition inflammation linked aging resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin condition inflammation linked aging resized.jpg"
     },
     intro: {
       content: "At ULANDA, inflammaging is treated as a biological skin behaviour shift, not simply a cosmetic concern. Chronic low-grade inflammation disrupts collagen production, weakens barrier function, increases pigmentation risk and slows tissue regeneration. Your Skin Health Consultation helps us assess whether inflammation is driving your skin ageing pattern so your plan is safe, sequenced and designed to rebuild resilience and structural strength."
@@ -7346,8 +7346,8 @@
       description: "Gut-skin imbalance refers to the way internal digestive and inflammatory health can influence how your skin behaves. Many clients notice persistent breakouts, redness, sensitivity, eczema-type flare-ups, dullness, bloating-related puffiness or unpredictable skin reactions that do not improve with skincare alone. In these cases, the skin is often reacting to internal inflammation, gut disruption or immune imbalance rather than simply surface triggers.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMGZvb2R8ZW58MHwxfDB8fHww",
-      placeholderUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMGZvb2R8ZW58MHwxfDB8fHww"
+      image: "/assets/img/conditions/ulanda skin conditions gut skin imbalance (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin conditions gut skin imbalance (1) resized.jpg"
     },
     intro: {
       content: "At ULANDA, gut-skin imbalance is treated as an internal wellness-driven skin behaviour concern. Your Skin Health Consultation helps us assess whether inflammation, barrier breakdown, stress, food sensitivity patterns or hormonal shifts may be contributing to your skin instability. This ensures your plan is safe, structured and focused on long-term skin resilience — not just temporary symptom control."
@@ -7476,8 +7476,8 @@
       description: "Fatigue and low energy can change the way your skin behaves more than most people realise. Many clients notice that when they are run down, their skin becomes dull, dry, inflamed, more sensitive, or suddenly prone to breakouts and uneven tone. Under-eye darkness often becomes more pronounced, healing slows down, and the skin loses its natural glow and resilience.",
       buttonText: "Book Skin Health Consultation",
       buttonLink: "https://ulanda-100633.square.site/",
-      image: "https://images.unsplash.com/photo-1515023677547-593d9647e6be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjBmYWNlfGVufDB8MXwwfHx8MA%3D%3D",
-      placeholderUrl: "https://images.unsplash.com/photo-1515023677547-593d9647e6be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlyZWQlMjBmYWNlfGVufDB8MXwwfHx8MA%3D%3D"
+      image: "/assets/img/conditions/ulanda skin conditions fatigue affecting skin (1) resized.jpg",
+      placeholderUrl: "/assets/img/conditions/ulanda skin conditions fatigue affecting skin (1) resized.jpg"
     },
     intro: {
       content: "At ULANDA, fatigue-related skin change is treated as an internal wellness-driven skin behaviour shift. Low energy is often linked to disrupted sleep, chronic stress, hormonal transition, inflammation patterns, nutritional depletion or reduced circulation. Your Skin Health Consultation helps us identify how fatigue is impacting your skin’s hydration, barrier stability, collagen behaviour and pigmentation risk — so your plan is safe, sequenced and designed to restore vitality, not just appearance."

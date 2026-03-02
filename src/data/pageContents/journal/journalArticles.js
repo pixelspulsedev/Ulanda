@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ULANDA Authority Journal Articles
  * Non-menu indexed clinical content for SEO authority building
  * 
@@ -71,7 +71,7 @@ export const journalArticles = [
       {
         type: "button",
         text: "Book Skin Health Consultation",
-        link: "/skin-consultation"
+        link: "/book-consultation"
       },
       {
         type: "shoutout",
@@ -172,7 +172,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "shoutout", title: "Sequencing Framework", content: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "shoutout", title: "Sequencing Framework", content: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -409,7 +409,7 @@ export const journalArticles = [
           {
             type: "button",
             text: "Book Skin Health Consultation",
-            link: "/skin-consultation"
+            link: "/book-consultation"
           },
           { type: "shoutout", title: "Why Start Here?", content: "This is the safest starting point if you\u2019ve tried multiple products or treatments without lasting improvement." },
           "Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear."
@@ -622,7 +622,7 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Recommended Starting Point" },
           { type: "list", style: "dict", items: [
-            { label: "Skin Health Consultation", text: "Your safest, most informed first step", link: "/skin-consultation" }
+            { label: "Skin Health Consultation", text: "Your safest, most informed first step", link: "/book-consultation" }
           ]}
         ]
       },
@@ -751,7 +751,7 @@ export const journalArticles = [
           {
             type: "button",
             text: "Book Skin Health Consultation",
-            link: "/skin-consultation"
+            link: "/book-consultation"
           },
           { type: "shoutout", title: "Why Start Here?", content: "This is the safest starting point if you\u2019ve tried multiple products or treatments without lasting improvement." },
           "Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear."
@@ -963,7 +963,7 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Recommended Starting Point" },
           { type: "list", style: "dict", items: [
-            { label: "Skin Health Consultation", text: "Your safest, most informed first step", link: "/skin-consultation" }
+            { label: "Skin Health Consultation", text: "Your safest, most informed first step", link: "/book-consultation" }
           ]}
         ]
       },
@@ -1093,7 +1093,7 @@ export const journalArticles = [
           {
             type: "button",
             text: "Book Skin Health Consultation",
-            link: "/skin-consultation"
+            link: "/book-consultation"
           },
           { type: "shoutout", title: "Why Start Here?", content: "This is the safest starting point if you\u2019ve tried multiple products or treatments without lasting improvement." },
           "Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear."
@@ -1303,7 +1303,7 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Recommended Starting Point" },
           { type: "list", style: "dict", items: [
-            { label: "Skin Health Consultation", text: "Your safest, most informed first step", link: "/skin-consultation" }
+            { label: "Skin Health Consultation", text: "Your safest, most informed first step", link: "/book-consultation" }
           ]}
         ]
       },
@@ -1523,7 +1523,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "heading", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "heading", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -1593,7 +1593,7 @@ export const journalArticles = [
             title: "Primary Signature",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Photoaging & Skin Architecture", text: "Structured pigment correction and collagen environment restoration.", link: "/signatures/photoaging-skin-architecture" }
+                { label: "Photoaging & Skin Architecture", text: "Structured pigment correction and collagen environment restoration.", link: "/signature/photoaging-skin-architecture" }
               ]}
             ]
           },
@@ -1602,8 +1602,8 @@ export const journalArticles = [
             title: "Possible Overlap",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Rosacea & Redness Control", text: "Where redness is the primary inflammatory driver.", link: "/signatures/rosacea-redness-control" },
-                { label: "Skin Barrier Repair & Recovery", text: "Where barrier instability is prolonging pigmentation.", link: "/signatures/skin-barrier-repair-recovery" }
+                { label: "Rosacea & Redness Control", text: "Where redness is the primary inflammatory driver.", link: "/signature/rosacea-redness-control" },
+                { label: "Skin Barrier Repair & Recovery", text: "Where barrier instability is prolonging pigmentation.", link: "/signature/skin-barrier-repair-recovery" }
               ]}
             ]
           }
@@ -1657,9 +1657,9 @@ export const journalArticles = [
             title: "Signatures",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Photoaging & Skin Architecture", text: "Primary pathway for structured pigment correction.", link: "/signatures/photoaging-skin-architecture" },
-                { label: "Rosacea & Redness Control", text: "For inflammation-dominant presentations.", link: "/signatures/rosacea-redness-control" },
-                { label: "Skin Barrier Repair & Recovery", text: "Where barrier compromise is the primary driver.", link: "/signatures/skin-barrier-repair-recovery" }
+                { label: "Photoaging & Skin Architecture", text: "Primary pathway for structured pigment correction.", link: "/signature/photoaging-skin-architecture" },
+                { label: "Rosacea & Redness Control", text: "For inflammation-dominant presentations.", link: "/signature/rosacea-redness-control" },
+                { label: "Skin Barrier Repair & Recovery", text: "Where barrier compromise is the primary driver.", link: "/signature/skin-barrier-repair-recovery" }
               ]}
             ]
           },
@@ -1886,7 +1886,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "heading", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "heading", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -1956,7 +1956,7 @@ export const journalArticles = [
             title: "Primary Signature",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Skin Barrier Repair & Recovery", text: "Structured barrier stabilisation and inflammation control.", link: "/signatures/skin-barrier-repair-recovery" }
+                { label: "Skin Barrier Repair & Recovery", text: "Structured barrier stabilisation and inflammation control.", link: "/signature/skin-barrier-repair-recovery" }
               ]}
             ]
           },
@@ -1965,8 +1965,8 @@ export const journalArticles = [
             title: "Possible Overlap",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Rosacea & Redness Control", text: "Where rosacea is the primary inflammatory driver.", link: "/signatures/rosacea-redness-control" },
-                { label: "Menopause Skin Rebuild", text: "Where hormonal lipid decline compounds hard water damage.", link: "/signatures/menopause-skin-rebuild" }
+                { label: "Rosacea & Redness Control", text: "Where rosacea is the primary inflammatory driver.", link: "/signature/rosacea-redness-control" },
+                { label: "Menopause Skin Rebuild", text: "Where hormonal lipid decline compounds hard water damage.", link: "/signature/menopause-skin-rebuild" }
               ]}
             ]
           }
@@ -2020,9 +2020,9 @@ export const journalArticles = [
             title: "Signatures",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Skin Barrier Repair & Recovery", text: "Primary pathway for barrier stabilisation.", link: "/signatures/skin-barrier-repair-recovery" },
-                { label: "Rosacea & Redness Control", text: "For inflammation-dominant presentations.", link: "/signatures/rosacea-redness-control" },
-                { label: "Menopause Skin Rebuild", text: "Where hormonal changes compound environmental damage.", link: "/signatures/menopause-skin-rebuild" }
+                { label: "Skin Barrier Repair & Recovery", text: "Primary pathway for barrier stabilisation.", link: "/signature/skin-barrier-repair-recovery" },
+                { label: "Rosacea & Redness Control", text: "For inflammation-dominant presentations.", link: "/signature/rosacea-redness-control" },
+                { label: "Menopause Skin Rebuild", text: "Where hormonal changes compound environmental damage.", link: "/signature/menopause-skin-rebuild" }
               ]}
             ]
           },
@@ -2160,7 +2160,7 @@ export const journalArticles = [
       {
         type: "button",
         text: "Book Skin Health Consultation",
-        link: "/skin-consultation"
+        link: "/book-consultation"
       },
       {
         type: "shoutout",
@@ -2268,7 +2268,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "shoutout", title: "Sequencing Framework", content: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "shoutout", title: "Sequencing Framework", content: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -2395,7 +2395,7 @@ export const journalArticles = [
             title: "Recommended Starting Point",
             content: [
               { type: "list", style: "check", items: [
-                { label: "Skin Health Consultation", text: "Structured nurse-led assessment", link: "/skin-consultation" }
+                { label: "Skin Health Consultation", text: "Structured nurse-led assessment", link: "/book-consultation" }
               ]}
             ]
           }
@@ -2498,7 +2498,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -2610,7 +2610,7 @@ export const journalArticles = [
       {
         type: "section",
         title: "The ULANDA Sequencing Model",
-        subtitle: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)",
+        subtitle: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)",
         content: [
           {
             type: "subsection",
@@ -2678,15 +2678,15 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Under-Eye Renewal", link: "/signatures/under-eye-renewal" }
+              { label: "Under-Eye Renewal", link: "/signature/under-eye-renewal" }
             ]
           },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" },
-              { label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" }
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" },
+              { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" }
             ]
           }
         ]
@@ -2721,7 +2721,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Skin Health Consultation", link: "/skin-consultation" }
+          { type: "button", text: "Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -2766,9 +2766,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Dark Circles Explained
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "dark-circles-explained",
     title: "Dark Circles Explained: Pigment vs Vascular Shadowing vs Hollowing",
@@ -2832,7 +2832,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly."
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
       {
         type: "reference",
         text: "\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\""
@@ -2951,7 +2951,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -3014,13 +3014,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Under-Eye Renewal", link: "/signatures/under-eye-renewal" }] },
+          { type: "list", items: [{ label: "Under-Eye Renewal", link: "/signature/under-eye-renewal" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" },
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }
+              { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }
             ]
           }
         ]
@@ -3059,7 +3059,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -3104,9 +3104,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Menopause and Collagen Loss
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "menopause-collagen-loss",
     title: "Menopause and Collagen Loss: Why Structural Ageing Accelerates in Midlife",
@@ -3170,7 +3170,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -3283,7 +3283,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -3347,13 +3347,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }] },
+          { type: "list", items: [{ label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" },
-              { label: "Under-Eye Renewal", link: "/signatures/under-eye-renewal" }
+              { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
+              { label: "Under-Eye Renewal", link: "/signature/under-eye-renewal" }
             ]
           }
         ]
@@ -3392,7 +3392,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -3437,9 +3437,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Inflammaging
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "inflammaging-skin-ageing",
     title: "Inflammaging: The Silent Driver Behind Premature Skin Ageing",
@@ -3503,7 +3503,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -3615,7 +3615,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -3679,13 +3679,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" }] },
+          { type: "list", items: [{ label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" },
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }
+              { label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" },
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }
             ]
           }
         ]
@@ -3719,12 +3719,12 @@ export const journalArticles = [
             type: "list",
             items: [
               { label: "Collagen Decline Explained", link: "/journal/collagen-decline-explained" },
-              { label: "Photoaging Explained", link: "/journal/photoaging-skin-architecture" },
+              { label: "Photoaging Explained", link: "/journal/photoaging-explained" },
               { label: "Menopause and Collagen Loss", link: "/journal/menopause-collagen-loss" }
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -3769,9 +3769,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Crepey Skin and Elasticity Loss
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "crepey-skin-elasticity-loss",
     title: "Crepey Skin and Elasticity Loss: What It Means and How to Treat It Safely",
@@ -3835,7 +3835,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -3946,7 +3946,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -4010,13 +4010,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" }] },
+          { type: "list", items: [{ label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" },
-              { label: "Under-Eye Renewal", link: "/signatures/under-eye-renewal" }
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" },
+              { label: "Under-Eye Renewal", link: "/signature/under-eye-renewal" }
             ]
           }
         ]
@@ -4051,11 +4051,11 @@ export const journalArticles = [
             items: [
               { label: "Collagen Decline Explained", link: "/journal/collagen-decline-explained" },
               { label: "Menopause and Collagen Loss", link: "/journal/menopause-collagen-loss" },
-              { label: "Photoaging Explained", link: "/journal/photoaging-skin-architecture" }
+              { label: "Photoaging Explained", link: "/journal/photoaging-explained" }
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -4100,9 +4100,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Collagen Decline Explained
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "collagen-decline-explained",
     title: "Collagen Decline Explained: Why Skin Loses Firmness Over Time",
@@ -4166,7 +4166,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -4279,7 +4279,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -4343,13 +4343,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" }] },
+          { type: "list", items: [{ label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" },
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }
+              { label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" },
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }
             ]
           }
         ]
@@ -4388,7 +4388,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -4433,9 +4433,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Rosacea Triggers — Flushing
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "rosacea-triggers-flushing",
     title: "Rosacea Triggers: Heat, Stress, Hormones and Why Flushing Becomes Chronic",
@@ -4499,7 +4499,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -4600,7 +4600,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -4656,13 +4656,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Rosacea & Redness Control", link: "/signatures/rosacea-redness-control" }] },
+          { type: "list", items: [{ label: "Rosacea & Redness Control", link: "/signature/rosacea-redness-control" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" },
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }
+              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" },
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }
             ]
           }
         ]
@@ -4701,7 +4701,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -4774,9 +4774,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Redness vs Sensitivity
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "redness-vs-sensitivity",
     title: "Redness vs Sensitivity: How to Tell If Your Skin Is Inflamed or Barrier-Damaged",
@@ -4840,7 +4840,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -4931,7 +4931,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -4987,13 +4987,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" }] },
+          { type: "list", items: [{ label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Rosacea & Redness Control", link: "/signatures/rosacea-redness-control" },
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }
+              { label: "Rosacea & Redness Control", link: "/signature/rosacea-redness-control" },
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }
             ]
           }
         ]
@@ -5032,7 +5032,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -5105,9 +5105,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Inflammation-Driven Pigmentation
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "inflammation-driven-pigmentation",
     title: "Inflammation-Driven Pigmentation: Why Red Skin Often Develops Dark Spots",
@@ -5171,7 +5171,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -5271,7 +5271,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -5327,13 +5327,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" }] },
+          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Rosacea & Redness Control", link: "/signatures/rosacea-redness-control" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" }
+              { label: "Rosacea & Redness Control", link: "/signature/rosacea-redness-control" },
+              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -5372,7 +5372,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -5445,9 +5445,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Inflammation-Driven Pigmentation — Uneven Tone
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "inflammation-pigmentation-uneven-tone",
     title: "Inflammation-Driven Pigmentation: The Hidden Trigger Behind Uneven Tone",
@@ -5511,7 +5511,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -5624,7 +5624,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -5681,13 +5681,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" }] },
+          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Rosacea & Redness Control", link: "/signatures/rosacea-redness-control" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" }
+              { label: "Rosacea & Redness Control", link: "/signature/rosacea-redness-control" },
+              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -5726,7 +5726,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -5800,9 +5800,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Melasma vs Sun Damage
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "melasma-vs-sun-damage",
     title: "Melasma vs Sun Damage: How to Identify the Difference",
@@ -5866,7 +5866,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -5983,7 +5983,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -6040,13 +6040,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" }] },
+          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" }
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" },
+              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -6085,7 +6085,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -6159,9 +6159,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Photoaging Explained
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "photoaging-explained",
     title: "Photoaging Explained: How UV Exposure Changes Skin Structure Over Time",
@@ -6225,7 +6225,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -6328,7 +6328,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -6385,13 +6385,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" }] },
+          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" }
+              { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
+              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -6430,7 +6430,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -6504,9 +6504,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Pigmentation Behaviour — Dark Spots Return
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "pigmentation-behaviour-dark-spots-return",
     title: "Pigmentation Behaviour: Why Dark Spots Return After Treatment",
@@ -6570,7 +6570,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -6671,7 +6671,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -6728,13 +6728,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" }] },
+          { type: "list", items: [{ label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" }
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" },
+              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -6773,7 +6773,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -6847,9 +6847,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Under-Eye Ageing in Menopause
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "under-eye-ageing-menopause",
     title: "Under-Eye Ageing in Menopause: Why Hollowness and Creasing Accelerate",
@@ -6913,7 +6913,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -7023,7 +7023,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -7080,13 +7080,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Under-Eye Renewal", link: "/signatures/under-eye-renewal" }] },
+          { type: "list", items: [{ label: "Under-Eye Renewal", link: "/signature/under-eye-renewal" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" },
-              { label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" }
+              { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" },
+              { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" }
             ]
           }
         ]
@@ -7125,7 +7125,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -7199,9 +7199,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Oestrogen, Collagen and Elasticity
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "oestrogen-collagen-elasticity",
     title: "Oestrogen, Collagen and Elasticity: Why Skin Changes Rapidly in Midlife",
@@ -7265,7 +7265,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -7367,7 +7367,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -7424,13 +7424,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }] },
+          { type: "list", items: [{ label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" },
-              { label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" }
+              { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
+              { label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" }
             ]
           }
         ]
@@ -7469,7 +7469,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -7543,9 +7543,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Menopause and Skin Biology
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "menopause-skin-biology",
     title: "Menopause and Skin Biology: How Hormonal Shifts Change Skin Behaviour",
@@ -7609,7 +7609,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -7711,7 +7711,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -7768,13 +7768,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }] },
+          { type: "list", items: [{ label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Structural Skin Regeneration", link: "/signatures/structural-skin-regeneration" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" }
+              { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
+              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -7813,7 +7813,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -7887,9 +7887,9 @@ export const journalArticles = [
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Menopause Pigmentation Patterns
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "menopause-pigmentation-patterns",
     title: "Menopause Pigmentation Patterns: Why Dark Spots Can Suddenly Worsen",
@@ -7953,7 +7953,7 @@ export const journalArticles = [
           text: "If you're not sure what your skin needs, your safest starting point is a Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs — so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
-      { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" },
+      { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" },
 
       // ── Search Terms ──
       {
@@ -8063,7 +8063,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -8120,13 +8120,13 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Menopause Skin Rebuild", link: "/signatures/menopause-skin-rebuild" }] },
+          { type: "list", items: [{ label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
             items: [
-              { label: "Photoaging & Skin Architecture", link: "/signatures/photoaging-skin-architecture" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signatures/skin-barrier-repair-recovery" }
+              { label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" },
+              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -8165,7 +8165,7 @@ export const journalArticles = [
             ]
           },
           { type: "paragraph", text: "Recommended Starting Point:" },
-          { type: "button", text: "Book Skin Health Consultation", link: "/skin-consultation/" }
+          { type: "button", text: "Book Skin Health Consultation", link: "/book-consultation" }
         ]
       },
 
@@ -8239,9 +8239,9 @@ export const journalArticles = [
   }
 ];
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // HELPER FUNCTIONS
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 /**
  * Get a single published journal article by slug
