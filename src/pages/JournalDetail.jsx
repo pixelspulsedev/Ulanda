@@ -285,6 +285,12 @@ export default function JournalDetail() {
                   By {article.author}{article.authorCredential ? ` — ${article.authorCredential}` : ''}
                 </div>
               )}
+
+              <div className="mt-4">
+                <Link to="/book-consultation" className="btn btn-primary btn-sm text-white">
+                  Book Skin Health Consultation
+                </Link>
+              </div>
             </div>
 
             {/* Image Content */}

@@ -201,8 +201,11 @@ export default function Founder() {
                   and fuelled by a lifelong dedication to supporting women through
                   every stage of life.
                 </p>
-              </HeroText>
-            </div>
+              </HeroText>              <FadeInWhenVisible delay={0.4}>
+                <Link to="/book-consultation" className="btn btn-primary text-white mt-4">
+                  Book Skin Health Consultation
+                </Link>
+              </FadeInWhenVisible>            </div>
 
             <div className="w-full flex justify-center">
               <RevealImage className="max-w-sm aspect-[3/4] w-full">

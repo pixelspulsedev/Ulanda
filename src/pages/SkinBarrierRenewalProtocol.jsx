@@ -190,6 +190,11 @@ export default function SkinBarrierRenewalProtocol() {
                 </div>
               </FadeInWhenVisible>
             </div>
+            <FadeInWhenVisible delay={0.6}>
+              <Link to="/book-consultation" className="btn btn-primary text-white mt-6 shadow-md">
+                Book Skin Health Consultation
+              </Link>
+            </FadeInWhenVisible>
           </div>
         </section>
 

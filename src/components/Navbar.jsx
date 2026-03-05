@@ -203,30 +203,11 @@ export default function Navbar() {
                   Advanced Skin Health Consultation
                 </Link>
               </li>
-              {/* Barrier Protocol with nested submenu */}
+              {/* Barrier Protocol - flat link like other categories */}
               <li>
-                <details>
-                  <summary className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4">
-                    <Link to="/treatments/skin-barrier-renewal-protocol" onClick={(e) => e.stopPropagation()} className="hover:text-primary">
-                      Skin Barrier Renewal Protocol
-                    </Link>
-                  </summary>
-                  <ul className="bg-base-100 rounded-lg p-1 before:hidden">
-                    {[
-                      { name: 'Skin Barrier Deep Cleanse', path: '/treatments/skin-barrier-renewal-protocol/skin-barrier-deep-cleanse' },
-                      { name: 'Skin Barrier Hydration', path: '/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration' },
-                      { name: 'Skin Barrier Enzyme Renewal', path: '/treatments/skin-barrier-renewal-protocol/skin-barrier-enzyme-renewal' },
-                      { name: 'Skin Barrier Oxygenation', path: '/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation' },
-                      { name: 'Skin Barrier Restore', path: '/treatments/skin-barrier-renewal-protocol/skin-barrier-restore' },
-                    ].map((item) => (
-                      <li key={item.name}>
-                        <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-4 text-sm active:bg-secondary/30">
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </details>
+                <Link to="/treatments/skin-barrier-renewal-protocol" onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  Skin Barrier Renewal Protocol
+                </Link>
               </li>
               {/* Divider */}
               <li className="my-1 border-t border-secondary/15"></li>
@@ -339,6 +320,14 @@ export default function Navbar() {
         >
           Book Skin Health Consultation
         </Link>
+
+        {/* Mobile CTA - compact version always visible */}
+        <Link 
+          to="/book-consultation"
+          className="btn btn-primary btn-sm lg:hidden font-sans text-white px-4 rounded-full shadow-md text-xs"
+        >
+          Book Now
+        </Link>
         
         {/* Mobile Menu Button - Drawer Toggle */}
         <button 
@@ -398,22 +387,8 @@ export default function Navbar() {
                         <li><Link to="/treatments" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
                         {/* Consultation */}
                         <li><Link to="/treatments/advanced-skin-health-consultation" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 font-medium">Advanced Skin Health Consultation</Link></li>
-                        {/* Barrier Protocol with nested accordion */}
-                        <li>
-                          <details>
-                            <summary className="py-2 cursor-pointer hover:text-primary font-medium">
-                              Skin Barrier Renewal Protocol
-                            </summary>
-                            <ul className="pl-4 border-l border-secondary/15 mt-1 space-y-1">
-                              <li><Link to="/treatments/skin-barrier-renewal-protocol" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 text-sm">Overview</Link></li>
-                              <li><Link to="/treatments/skin-barrier-renewal-protocol/skin-barrier-deep-cleanse" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 text-sm">Skin Barrier Deep Cleanse</Link></li>
-                              <li><Link to="/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 text-sm">Skin Barrier Hydration</Link></li>
-                              <li><Link to="/treatments/skin-barrier-renewal-protocol/skin-barrier-enzyme-renewal" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 text-sm">Skin Barrier Enzyme Renewal</Link></li>
-                              <li><Link to="/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 text-sm">Skin Barrier Oxygenation</Link></li>
-                              <li><Link to="/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 text-sm">Skin Barrier Restore</Link></li>
-                            </ul>
-                          </details>
-                        </li>
+                        {/* Barrier Protocol - flat link like other categories */}
+                        <li><Link to="/treatments/skin-barrier-renewal-protocol" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin Barrier Renewal Protocol</Link></li>
                         {/* Remaining categories */}
                         {treatmentCategories
                           .filter(cat => cat.id !== 'skin-barrier-renewal-protocol')

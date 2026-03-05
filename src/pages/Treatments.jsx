@@ -6,6 +6,7 @@ import { getAllTreatments, treatmentsPageData } from '../data/pageContents/treat
 import { ArrowRight, Search, X } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
+import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function Treatments() {
   const treatments = getAllTreatments();
@@ -161,6 +162,11 @@ export default function Treatments() {
                 </p>
                 </HeroText>
               </div>
+              <FadeInWhenVisible delay={0.5}>
+                <Link to="/book-consultation" className="btn btn-primary text-white mt-8">
+                  Book Skin Health Consultation
+                </Link>
+              </FadeInWhenVisible>
             </div>
           </div>
         </section>

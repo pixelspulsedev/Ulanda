@@ -64,6 +64,11 @@ export default function ConditionsLanding() {
                   </HeroText>
                 ))}
               </div>
+              <FadeInWhenVisible delay={0.6}>
+                <Link to="/book-consultation" className="btn btn-primary text-white mt-8">
+                  Book Skin Health Consultation
+                </Link>
+              </FadeInWhenVisible>
             </div>
           </div>
         </section>

@@ -168,6 +168,11 @@ export default function AdvancedSkinHealthConsultation() {
                 <p className="text-sm text-base-content/60">ULANDA operates as a nurse-led Skin Clinic in Ware and Medical Aesthetic Clinic serving Hertfordshire with structured, barrier-first assessment.</p>
               </FadeInWhenVisible>
             </div>
+            <FadeInWhenVisible delay={0.7}>
+              <Link to="/book-consultation" className="btn btn-primary text-white mt-6 shadow-md">
+                Book Skin Health Consultation — £175
+              </Link>
+            </FadeInWhenVisible>
           </div>
         </section>
 

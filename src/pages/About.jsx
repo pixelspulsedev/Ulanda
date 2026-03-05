@@ -171,6 +171,11 @@ export default function About() {
               radiant in her own skin, at every stage of her life.
             </p>
             </FadeInWhenVisible>
+            <FadeInWhenVisible delay={0.5}>
+              <Link to="/book-consultation" className="btn btn-primary text-white mt-4">
+                Book Skin Health Consultation
+              </Link>
+            </FadeInWhenVisible>
           </div>
           <div className="aspect-video w-full overflow-hidden">
             <img
