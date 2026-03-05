@@ -59,7 +59,8 @@ export default function Footer() {
                 <Link to="/treatments" className="hover:text-primary transition-colors text-primary">Treatments</Link>
               </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/treatments/skin-health-facial-therapies" className="hover:text-primary transition-colors ">Skin Health & Facials</Link></li>
+                <li><Link to="/treatments/advanced-skin-health-consultation" className="hover:text-primary transition-colors ">Skin Health Consultation</Link></li>
+                <li><Link to="/treatments/skin-barrier-renewal-protocol" className="hover:text-primary transition-colors ">Skin Barrier Renewal</Link></li>
                 <li><Link to="/treatments/skin-renewal-regeneration" className="hover:text-primary transition-colors ">Skin Renewal</Link></li>
                 <li><Link to="/treatments/injectable-skin-optimisation" className="hover:text-primary transition-colors ">Injectable Treatments</Link></li>
                 <li><Link to="/treatments/structural-collagen-support" className="hover:text-primary transition-colors ">Structural Support</Link></li>

@@ -12,6 +12,41 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/treatments/advanced-skin-health-consultation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol/skin-barrier-deep-cleanse</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol/skin-barrier-enzyme-renewal</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol/skin-barrier-restore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/conditions</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

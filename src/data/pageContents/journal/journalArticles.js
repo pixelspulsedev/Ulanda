@@ -29,7 +29,7 @@ export const journalArticles = [
       canonical: "https://www.ulanda.co.uk/journal/why-treatments-fail-barrier-instability"
     },
     relatedConditions: ["rosacea", "acne", "photoaging"],
-    relatedTreatments: ["led-light-therapy", "chemical-peels", "definisse-hydrobooster", "barrier-repair-facial"],
+    relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "skin-barrier-hydration"],
     relatedSignatures: ["skin-barrier-repair-recovery"],
     faqs: [
       { question: "Why do my facials stop working?", answer: "Because barrier instability prevents sustained results." },
@@ -367,7 +367,7 @@ export const journalArticles = [
       canonical: "https://www.ulanda.co.uk/journal/skin-barrier-function"
     },
     relatedConditions: ["rosacea", "acne-texture", "pigmentation-and-skin-tone"],
-    relatedTreatments: ["led-light-therapy", "chemical-peel", "definisse-hydrobooster", "barrier-repair-facial"],
+    relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "skin-barrier-hydration"],
     relatedSignatures: ["skin-barrier-repair-recovery"],
     faqs: [
       { question: "Can a damaged barrier heal completely?", answer: "Yes, if inflammation is controlled and actives are introduced correctly." },
@@ -709,7 +709,7 @@ export const journalArticles = [
       canonical: "https://www.ulanda.co.uk/journal/over-exfoliated-skin-repair"
     },
     relatedConditions: ["rosacea", "acne-texture", "redness-sensitivity-reactive-skin"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster"],
+    relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "skin-barrier-hydration"],
     relatedSignatures: ["skin-barrier-repair-recovery"],
     faqs: [
       { question: "How do I know if I\u2019ve over-exfoliated?", answer: "Burning, tightness and sudden sensitivity are common signs." },
@@ -1051,7 +1051,7 @@ export const journalArticles = [
       canonical: "https://www.ulanda.co.uk/journal/dehydrated-vs-dry-skin"
     },
     relatedConditions: ["menopause-skin-changes", "rosacea", "sun-damage-photo-pigmentation"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster"],
+    relatedTreatments: ["skin-barrier-restore", "skin-barrier-hydration", "definisse-hydrobooster"],
     relatedSignatures: ["skin-barrier-repair-recovery"],
     faqs: [
       { question: "Can oily skin be dehydrated?", answer: "Yes, oil and water balance are separate functions." },
@@ -1399,7 +1399,7 @@ export const journalArticles = [
       "Skin Health Consultation Ware"
     ],
     relatedConditions: ["melasma", "rosacea", "acne-texture"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster"],
+    relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster"],
     relatedSignatures: ["skin-barrier-repair-recovery"],
     faqs: [
       { question: "Why do dark spots appear after acne?", answer: "Inflammation stimulates excess melanin production." },
@@ -1763,7 +1763,7 @@ export const journalArticles = [
       "nurse-led skin clinic"
     ],
     relatedConditions: ["rosacea", "menopause-skin-changes", "redness-sensitivity-reactive-skin"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster"],
+    relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "skin-barrier-hydration"],
     relatedSignatures: ["skin-barrier-repair-recovery"],
     faqs: [
       { question: "Is Hertfordshire a hard water area?", answer: "Yes, Hertfordshire has high mineral content water." },
@@ -2118,7 +2118,7 @@ export const journalArticles = [
       canonical: "https://www.ulanda.co.uk/journal/tear-trough-shadowing"
     },
     relatedConditions: ["dark-circles", "tear-troughs", "crepey-under-eye", "under-eye-fragility", "volume-loss"],
-    relatedTreatments: ["definisse-hydrobooster", "profhilo", "led-light-therapy", "barrier-repair-facial"],
+    relatedTreatments: ["definisse-hydrobooster", "profhilo", "lumi-eyes"],
     relatedSignatures: ["under-eye-renewal"],
     faqs: [
       { question: "Are tear troughs genetic?", answer: "Genetics influence facial structure, but ageing accelerates change." },
@@ -2452,7 +2452,7 @@ export const journalArticles = [
       canonical: "https://www.ulanda.co.uk/journal/menopause-under-eye-ageing"
     },
     relatedConditions: ["dark-circles", "tear-troughs", "crepey-under-eye", "under-eye-fragility", "volume-loss"],
-    relatedTreatments: ["definisse-hydrobooster", "polynucleotides", "lumi-eyes", "led-light-therapy", "barrier-repair-facial"],
+    relatedTreatments: ["definisse-hydrobooster", "polynucleotides", "lumi-eyes"],
     relatedSignatures: ["under-eye-renewal"],
     faqs: [
       { question: "Does menopause affect under-eye skin first?", answer: "It often becomes noticeable early due to thinner tissue." },
@@ -2780,7 +2780,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/dark-circles-explained.webp",
     relatedSignatures: ["under-eye-renewal"],
-    relatedTreatments: ["led-light-therapy", "barrier-repair-facial", "definisse-hydrobooster", "profhilo", "lumi-eyes"],
+    relatedTreatments: ["definisse-hydrobooster", "profhilo", "lumi-eyes"],
     relatedConditions: ["dark-circles"],
     seo: {
       title: "Dark Circles Explained: Pigment vs Vascular Shadowing vs Hollowing | ULANDA Ware SG12",
@@ -3118,7 +3118,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/menopause-collagen-loss.webp",
     relatedSignatures: ["structural-skin-regeneration"],
-    relatedTreatments: ["polynucleotides", "definisse-hydrobooster", "led-light-therapy", "barrier-repair-facial", "biostimulators", "dermal-fillers"],
+    relatedTreatments: ["polynucleotides", "definisse-hydrobooster", "biostimulators", "dermal-fillers", "profhilo"],
     relatedConditions: ["volume-loss", "skin-laxity"],
     seo: {
       title: "Menopause and Collagen Loss: Why Structural Ageing Accelerates in Midlife | ULANDA Ware SG12",
@@ -3451,7 +3451,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/inflammaging-skin-ageing.webp",
     relatedSignatures: ["structural-skin-regeneration"],
-    relatedTreatments: ["led-light-therapy", "barrier-repair-facial", "profhilo", "biorepeel"],
+    relatedTreatments: ["skin-barrier-restore", "profhilo", "biorepeel"],
     relatedConditions: ["rosacea", "sensitive-skin", "skin-laxity"],
     seo: {
       title: "Inflammaging Explained: The Silent Driver Behind Premature Skin Ageing | ULANDA Ware SG12",
@@ -3783,7 +3783,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/crepey-skin-elasticity-loss.webp",
     relatedSignatures: ["structural-skin-regeneration"],
-    relatedTreatments: ["profhilo", "definisse-hydrobooster", "led-light-therapy", "barrier-repair-facial"],
+    relatedTreatments: ["profhilo", "definisse-hydrobooster", "polynucleotides"],
     relatedConditions: ["skin-laxity", "crepey-under-eye", "volume-loss"],
     seo: {
       title: "Crepey Skin and Elasticity Loss: What It Means & Safe Treatment | ULANDA Ware SG12",
@@ -4114,7 +4114,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/collagen-decline-explained.webp",
     relatedSignatures: ["structural-skin-regeneration"],
-    relatedTreatments: ["led-light-therapy", "biostimulators", "definisse-hydrobooster", "biorepeel"],
+    relatedTreatments: ["biostimulators", "definisse-hydrobooster", "biorepeel", "profhilo"],
     relatedConditions: ["volume-loss", "skin-laxity"],
     seo: {
       title: "Collagen Decline Explained: Why Skin Loses Firmness Over Time | ULANDA Ware SG12",
@@ -4447,7 +4447,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/rosacea-triggers-flushing.webp",
     relatedSignatures: ["rosacea-redness-control"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster"],
+    relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "skin-barrier-hydration"],
     relatedConditions: ["rosacea", "sensitive-skin"],
     seo: {
       title: "Rosacea Triggers: Heat, Stress, Hormones and Why Flushing Becomes Chronic | ULANDA Ware SG12",
@@ -4788,7 +4788,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/redness-vs-sensitivity.webp",
     relatedSignatures: ["rosacea-redness-control"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster"],
+    relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "skin-barrier-hydration"],
     relatedConditions: ["rosacea", "sensitive-skin"],
     seo: {
       title: "Redness vs Sensitivity: How to Tell If Your Skin Is Inflamed or Barrier-Damaged | ULANDA Ware SG12",
@@ -5119,7 +5119,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/inflammation-driven-pigmentation.webp",
     relatedSignatures: ["rosacea-redness-control"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster"],
+    relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster"],
     relatedConditions: ["rosacea", "hyperpigmentation", "acne"],
     seo: {
       title: "Inflammation-Driven Pigmentation: Why Red Skin Often Develops Dark Spots | ULANDA Ware SG12",
@@ -5459,7 +5459,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/inflammation-pigmentation-uneven-tone.webp",
     relatedSignatures: ["photoaging-skin-architecture"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster", "profhilo"],
+    relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["hyperpigmentation", "rosacea"],
     seo: {
       title: "Inflammation-Driven Pigmentation: The Hidden Trigger Behind Uneven Tone | ULANDA Ware SG12",
@@ -5814,7 +5814,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/melasma-vs-sun-damage.webp",
     relatedSignatures: ["photoaging-skin-architecture"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster", "profhilo"],
+    relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["hyperpigmentation"],
     seo: {
       title: "Melasma vs Sun Damage: How to Identify the Difference | ULANDA Ware SG12",
@@ -6173,7 +6173,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/photoaging-explained.webp",
     relatedSignatures: ["photoaging-skin-architecture"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster", "profhilo"],
+    relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["hyperpigmentation"],
     seo: {
       title: "Photoaging Explained: How UV Exposure Changes Skin Structure Over Time | ULANDA Ware SG12",
@@ -6518,7 +6518,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/pigmentation-behaviour-dark-spots-return.webp",
     relatedSignatures: ["photoaging-skin-architecture"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster", "profhilo"],
+    relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["hyperpigmentation"],
     seo: {
       title: "Pigmentation Behaviour: Why Dark Spots Return After Treatment | ULANDA Ware SG12",
@@ -6861,7 +6861,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/under-eye-ageing-menopause.webp",
     relatedSignatures: ["menopause-skin-rebuild"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "definisse-hydrobooster", "biostimulators", "lumi-eyes"],
+    relatedTreatments: ["definisse-hydrobooster", "biostimulators", "lumi-eyes", "polynucleotides"],
     relatedConditions: ["menopause-skin-changes"],
     seo: {
       title: "Under-Eye Ageing in Menopause: Why Hollowness and Creasing Accelerate | ULANDA Ware SG12",
@@ -7213,7 +7213,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/oestrogen-collagen-elasticity.webp",
     relatedSignatures: ["menopause-skin-rebuild"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "definisse-hydrobooster", "polynucleotides", "chemical-peel"],
+    relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "polynucleotides", "profhilo"],
     relatedConditions: ["menopause-skin-changes"],
     seo: {
       title: "Oestrogen, Collagen and Elasticity: Why Skin Changes Rapidly in Midlife | ULANDA Ware SG12",
@@ -7557,7 +7557,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/menopause-skin-biology.webp",
     relatedSignatures: ["menopause-skin-rebuild"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster", "polynucleotides"],
+    relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "polynucleotides", "profhilo"],
     relatedConditions: ["menopause-skin-changes", "rosacea"],
     seo: {
       title: "Menopause and Skin Biology: How Hormonal Shifts Change Skin Behaviour | ULANDA Ware SG12",
@@ -7901,7 +7901,7 @@ export const journalArticles = [
     status: "published",
     image: "/assets/img/journal/menopause-pigmentation-patterns.webp",
     relatedSignatures: ["menopause-skin-rebuild"],
-    relatedTreatments: ["barrier-repair-facial", "led-light-therapy", "chemical-peel", "definisse-hydrobooster", "biostimulators"],
+    relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["menopause-skin-changes", "hyperpigmentation"],
     seo: {
       title: "Menopause Pigmentation Patterns: Why Dark Spots Can Suddenly Worsen | ULANDA Ware SG12",

@@ -13,6 +13,9 @@ const Home = lazy(() => import('./pages/Home.jsx'))
 const Treatments = lazy(() => import('./data/pageContents/treatments/drafts/Treatments_draft.jsx'))
 const TreatmentCategory = lazy(() => import('./data/pageContents/treatments/drafts/TreatmentCategory_draft.jsx'))
 const Treatment = lazy(() => import('./data/pageContents/treatments/drafts/Treatment_draft.jsx'))
+// Dedicated barrier protocol pages
+const AdvancedSkinHealthConsultation = lazy(() => import('./pages/AdvancedSkinHealthConsultation.jsx'))
+const SkinBarrierRenewalProtocol = lazy(() => import('./pages/SkinBarrierRenewalProtocol.jsx'))
 // Conditions
 const Conditions = lazy(() => import('./pages/Conditions.jsx'))
 const ConditionDetail = lazy(() => import('./pages/ConditionDetail.jsx'))
@@ -72,6 +75,15 @@ const routes = [
       {
         path: 'treatments',
         element: <Treatments />,
+      },
+      // Dedicated barrier protocol pages (must come before :category catch-all)
+      {
+        path: 'treatments/advanced-skin-health-consultation',
+        element: <AdvancedSkinHealthConsultation />,
+      },
+      {
+        path: 'treatments/skin-barrier-renewal-protocol',
+        element: <SkinBarrierRenewalProtocol />,
       },
       {
         path: 'treatments/:category',

@@ -22,7 +22,7 @@ import { getJournalsForTreatment } from '../../journal/journalArticles';
 import HeroText from '../../../../components/animations/HeroText';
 import RevealImage from '../../../../components/animations/RevealImage';
 import FadeInWhenVisible from '../../../../components/animations/FadeInWhenVisible';
-import { ServiceSchema } from '../../../../components/Schema';
+import { ServiceSchema, BreadcrumbSchema } from '../../../../components/Schema';
 
 const SafetyIcon = ({ type }) => {
   switch (type) {
@@ -56,6 +56,29 @@ const getBookingButtonLabel = (booking) => {
   return 'Book Now';
 };
 
+// CTA block for barrier modality pages (replaces booking)
+const BarrierModalityCTA = () => (
+  <section className="py-24 md:py-40 px-4 md:px-8 bg-secondary text-center">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl md:text-4xl font-serif text-primary mb-8 leading-tight">
+        How This Treatment Is Delivered
+      </h2>
+      <div className="space-y-4 text-lg md:text-xl text-base-content/80 font-sans mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p>This treatment is delivered as part of our structured <Link to="/treatments/skin-barrier-renewal-protocol" className="text-primary hover:underline">Barrier Renewal Protocol</Link>.</p>
+        <p>First-time clients begin with an <Link to="/treatments/advanced-skin-health-consultation" className="text-primary hover:underline font-medium">Advanced Skin Health Consultation</Link> to determine the most appropriate stabilisation pathway and ensure treatment is biologically suitable.</p>
+        <p>Barrier support may be introduced during your consultation where indicated.</p>
+      </div>
+      <Link 
+        to="/treatments/advanced-skin-health-consultation"
+        className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+      >
+        Begin With an Advanced Skin Health Consultation →
+      </Link>
+      <p className="text-sm text-base-content/50 mt-6">Immediate visible refinement. Structured long-term plan.</p>
+    </div>
+  </section>
+);
+
 export default function TreatmentDraft() {
   const navigate = useNavigate();
   const { category: categoryId, id: treatmentId } = useParams();
@@ -80,11 +103,26 @@ export default function TreatmentDraft() {
     return <Navigate to="/treatments" replace />;
   }
 
+  // Check if this is a barrier modality page (non-bookable)
+  const isBarrierModality = treatment.nonBookable === true || categoryId === 'skin-barrier-renewal-protocol';
+
   const seoTitle = treatment.seo?.title || `Ulanda - ${treatment.title} ${treatment.highlight || ''}`;
   const seoDescription = treatment.seo?.description || treatment.description || '';
   const canonicalUrl = `https://www.ulanda.co.uk/treatments/${categoryId}/${treatmentId}`;
 
+  // Breadcrumb items for schema
+  const breadcrumbItems = [
+    { name: "Home", url: "/" },
+    { name: "Treatments", url: "/treatments" },
+    { name: category.title, url: `/treatments/${categoryId}` },
+    { name: treatment.title, url: `/treatments/${categoryId}/${treatmentId}` }
+  ];
+
   const Book = () => {
+    if (isBarrierModality) {
+      navigate('/treatments/advanced-skin-health-consultation');
+      return;
+    }
     const label = treatment.booking ? getBookingButtonLabel(treatment.booking) : 'Book Consultation';
     if (label === 'Book Consultation') {
       navigate('/book-consultation');
@@ -101,12 +139,14 @@ export default function TreatmentDraft() {
         <link rel="canonical" href={canonicalUrl} />
       </Head>
       
-      <ServiceSchema treatment={treatment} pathway={categoryId} subcategory={categoryId} />
+      {!isBarrierModality && <ServiceSchema treatment={treatment} pathway={categoryId} subcategory={categoryId} />}
+      <BreadcrumbSchema items={breadcrumbItems} />
 
       <div className="bg-base-100 min-h-screen">
         <Breadcrumbs />
 
-        {/* Sticky Booking Details Header */}
+        {/* Sticky Booking Details Header - hidden for barrier modalities */}
+        {!isBarrierModality && (
         <div className={`fixed left-0 w-full bg-base-100/95 backdrop-blur-md z-40 transition-all duration-300 transform bottom-0 border-t border-secondary/20 md:top-[65px] md:bottom-auto md:border-t-0 md:border-b ${isStickyVisible ? 'translate-y-0 opacity-100 shadow-[0_-4px_10px_-1px_rgba(0,0,0,0.1)] md:shadow-sm' : 'translate-y-full opacity-0 pointer-events-none md:-translate-y-full'}`}>
           <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-3 flex items-center justify-between">
             <div className="hidden md:block text-lg font-serif text-base-content leading-tight">
@@ -151,6 +191,7 @@ export default function TreatmentDraft() {
             </button>
           </div>
         </div>
+        )}
 
         {/* Hero Section */}
         <section ref={heroRef} className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
@@ -180,13 +221,13 @@ export default function TreatmentDraft() {
                 ))}
               </FadeInWhenVisible>
             </div>
-            {treatment.booking && (
+            {!isBarrierModality && treatment.booking && (
               <FadeInWhenVisible delay={0.5}>
                 <div className="pt-6 flex flex-wrap justify items-center gap-12 mt-8 border-t border-secondary/50">
                   <div className="flex items-center flex-wrap gap-8">
                     {treatment.booking.price && (
                       <div className="flex items-center flex-col gap-1">
-                        <span className="text-xs uppercase tracking-widest text-base-content/60">Price</span>
+                        <span className="text-xs uppercase tracking-widest text-base-content/60">Investment</span>
                         <span className="text-2xl font-serif text-primary">
                           {treatment.booking.starting && <span className="text-lg font-sans font-light text-base-content/60 mr-1">From</span>}
                           £{treatment.booking.price}
@@ -464,8 +505,10 @@ export default function TreatmentDraft() {
           ) : null;
         })()}
 
-        {/* CTA Section */}
-        {treatment.cta && (
+        {/* CTA Section - show BarrierModalityCTA for barrier pages, else standard CTA */}
+        {isBarrierModality ? (
+          <BarrierModalityCTA />
+        ) : treatment.cta ? (
           <section className="py-40 px-4 md:px-8 bg-secondary text-center">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-serif text-primary mb-8 leading-tight">
@@ -509,7 +552,7 @@ export default function TreatmentDraft() {
               </button>
             </div>
           </section>
-        )}
+        ) : null}
 
         {/* FAQ Section */}
         {treatment.faq && (

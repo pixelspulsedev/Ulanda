@@ -26,24 +26,40 @@ const getOriginalTreatment = (categoryId, subCategoryId, treatmentId) => {
 };
 
 // ═══════════════════════════════════════════════════════════════
-// CATEGORY 1: Skin Health & Facial Therapies
+// CATEGORY 1: Skin Barrier Renewal Protocol
 // ═══════════════════════════════════════════════════════════════
-// Medical-grade facial and skin optimisation treatments designed to 
-// support barrier health, circulation, hydration and skin function.
-// Often searched as: advanced facial, skin clinic Ware, skin care clinic near me
+// A clinician-led stabilisation framework prescribing the appropriate 
+// skin barrier treatment modality following consultation.
+// Replaces the former "Skin Health & Facial Therapies" category.
 // 
+// Enhancement treatments (Dermaplaning, LED, Lymphatic) are now
+// integrated only when clinically indicated — not standalone bookable.
+//
 // Conditions linked:
 // - Dull skin (dull-dehydrated-skin)
 // - Dehydration (dull-dehydrated-skin)
 // - Sensitivity (dryness-sensitivity)
-// - Treatment fatigue (non-responsive-skin) - NEW CONDITION
+// - Treatment fatigue (non-responsive-skin)
 // ═══════════════════════════════════════════════════════════════
 
-const skinHealthFacialTherapies = {
-  id: "skin-health-facial-therapies",
-  title: "Skin Health & Facial Therapies",
-  subtitle: "Medical-grade facial and skin optimisation treatments designed to support barrier health, circulation, hydration and skin function.",
-  description: "Often searched as advanced facial, skin clinic Ware or skin care clinic near me.",
+// Helper to override fields on original treatment for barrier modality pages
+const createBarrierModality = (originalCat, originalSub, originalId, overrides) => {
+  const original = getOriginalTreatment(originalCat, originalSub, originalId);
+  if (!original) return null;
+  return {
+    ...original,
+    ...overrides,
+    nonBookable: true,
+    seo: { ...original.seo, ...overrides.seo },
+    seoHeadings: { ...original.seoHeadings, ...overrides.seoHeadings },
+  };
+};
+
+const skinBarrierRenewalProtocol = {
+  id: "skin-barrier-renewal-protocol",
+  title: "Skin Barrier Renewal Protocol",
+  subtitle: "A clinician-led stabilisation framework prescribing the appropriate skin barrier treatment modality following consultation. Used to restore barrier integrity before advanced regenerative treatment.",
+  description: "Clinical skin barrier repair in Ware, Hertford & Broxbourne. A structured protocol restoring barrier integrity before advanced treatment.",
   image: "/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp",
   placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-Facials-Refresh.webp",
   hidden: false,
@@ -54,22 +70,61 @@ const skinHealthFacialTherapies = {
     { id: "non-responsive-skin", title: "Non-Responsive Skin & Treatment Fatigue", url: "/conditions/non-responsive-skin" }
   ],
   treatments: {
-    // HydraFacial
-    "hydrafacial": getOriginalTreatment("refresh", "signature-facials", "hydrafacial"),
-    // Deep Hydration Facial
-    "deep-hydration-facial": getOriginalTreatment("refresh", "signature-facials", "deep-hydration-facial"),
-    // Enzyme Facial (also known as Advanced Rejuvenating Facial / Vital Glow)
-    "enzyme-therapy": getOriginalTreatment("refresh", "signature-facials", "enzyme-therapy"),
-    // Oxygen Facial
-    "oxygen-vitamin-infusion-facial": getOriginalTreatment("refresh", "signature-facials", "oxygen-vitamin-infusion-facial"),
-    // Dermaplaning
-    "dermaplaning": getOriginalTreatment("refresh", "signature-facials", "dermaplaning"),
-    // LED Light Therapy
-    "led-light-therapy": getOriginalTreatment("refresh", "light-based", "led-light-therapy"),
-    // Lymphatic Drainage Facial
-    "lymphatic-drainage-facial": getOriginalTreatment("refresh", "signature-facials", "lymphatic-drainage-facial"),
-    // Barrier Repair Facial
-    "barrier-repair-facial": getOriginalTreatment("restore", "skin-barrier-repair", "barrier-repair-facial"),
+    // Skin Barrier Deep Cleanse (was: Advanced Cleansing & Hydration Therapy / HydraFacial)
+    "skin-barrier-deep-cleanse": createBarrierModality("refresh", "signature-facials", "hydrafacial", {
+      title: "Skin Barrier Deep Cleanse",
+      highlight: "",
+      titleSuffix: "",
+      seoHeadings: { h1: "Skin Barrier Deep Cleanse in Ware, Hertfordshire" },
+      seo: {
+        title: "Skin Barrier Deep Cleanse | Ware Hertfordshire",
+        description: "Clinical deep cleanse for congestion-dominant skin in Ware, Hertford & Broxbourne. Barrier-safe debris removal without stripping protective lipids."
+      },
+    }),
+    // Skin Barrier Hydration (was: Deep Hydration Facial)
+    "skin-barrier-hydration": createBarrierModality("refresh", "signature-facials", "deep-hydration-facial", {
+      title: "Skin Barrier Hydration",
+      highlight: "",
+      titleSuffix: "",
+      seoHeadings: { h1: "Skin Barrier Hydration in Ware, Hertfordshire" },
+      seo: {
+        title: "Skin Barrier Hydration | Ware Hertfordshire",
+        description: "Structured multi-level hydration restoration in Ware, Hertford & Broxbourne. Clinical barrier hydration for dehydration-dominant presentations."
+      },
+    }),
+    // Skin Barrier Enzyme Renewal (was: Enzyme Renewal Facial)
+    "skin-barrier-enzyme-renewal": createBarrierModality("refresh", "signature-facials", "enzyme-therapy", {
+      title: "Skin Barrier Enzyme Renewal",
+      highlight: "",
+      titleSuffix: "",
+      seoHeadings: { h1: "Skin Barrier Enzyme Renewal in Ware, Hertfordshire" },
+      seo: {
+        title: "Skin Barrier Enzyme Renewal | Ware Hertfordshire",
+        description: "Controlled enzymatic barrier support in Ware, Hertford & Broxbourne. Gentle resurfacing for dull, uneven or turnover-impaired skin."
+      },
+    }),
+    // Skin Barrier Oxygenation (was: Oxygen Glow Facial)
+    "skin-barrier-oxygenation": createBarrierModality("refresh", "signature-facials", "oxygen-vitamin-infusion-facial", {
+      title: "Skin Barrier Oxygenation",
+      highlight: "",
+      titleSuffix: "",
+      seoHeadings: { h1: "Skin Barrier Oxygenation in Ware, Hertfordshire" },
+      seo: {
+        title: "Skin Barrier Oxygenation | Ware Hertfordshire",
+        description: "Clinical oxygenation support for environmentally stressed skin in Ware, Hertford & Broxbourne. Barrier-safe circulation and oxygen restoration."
+      },
+    }),
+    // Skin Barrier Restore (was: Skin Barrier Support Facial)
+    "skin-barrier-restore": createBarrierModality("restore", "skin-barrier-repair", "barrier-repair-facial", {
+      title: "Skin Barrier Restore",
+      highlight: "",
+      titleSuffix: "",
+      seoHeadings: { h1: "Skin Barrier Restore in Ware, Hertfordshire" },
+      seo: {
+        title: "Skin Barrier Restore | Ware Hertfordshire",
+        description: "Intensive barrier rebuilding in Ware, Hertford & Broxbourne. For highly reactive, compromised or over-treated skin requiring clinical restoration."
+      },
+    }),
   }
 };
 
@@ -501,7 +556,7 @@ const pelvicIntimateRegeneration = {
 // ═══════════════════════════════════════════════════════════════
 
 export const treatmentCategories = {
-  "skin-health-facial-therapies": skinHealthFacialTherapies,
+  "skin-barrier-renewal-protocol": skinBarrierRenewalProtocol,
   "skin-renewal-regeneration": skinRenewalRegeneration,
   "injectable-skin-optimisation": injectableSkinOptimisation,
   "structural-collagen-support": structuralCollagenSupport,
@@ -515,9 +570,9 @@ export const treatmentCategories = {
 // ═══════════════════════════════════════════════════════════════
 
 export const categorySEO = {
-  "skin-health-facial-therapies": {
-    title: "Skin Health & Facial Therapies in Ware SG12 | ULANDA",
-    description: "Medical-grade facial treatments at ULANDA in Ware SG12. HydraFacial, dermaplaning, LED therapy and barrier repair. Professional skin optimisation for healthy, radiant skin."
+  "skin-barrier-renewal-protocol": {
+    title: "Skin Barrier Renewal Protocol | Ware Hertfordshire",
+    description: "Clinical skin barrier repair in Ware, Hertford & Broxbourne. A structured protocol restoring barrier integrity before advanced treatment."
   },
   "skin-renewal-regeneration": {
     title: "Skin Renewal & Regeneration Treatments in Ware SG12 | ULANDA",

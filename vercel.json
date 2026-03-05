@@ -279,7 +279,52 @@
     },
     {
       "source": "/treatments/refresh/signature-facials",
-      "destination": "/treatments/skin-health-facial-therapies",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies/hydrafacial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-deep-cleanse",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies/deep-hydration-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies/enzyme-therapy",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-enzyme-renewal",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies/oxygen-vitamin-infusion-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies/barrier-repair-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies/dermaplaning",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies/led-light-therapy",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-health-facial-therapies/lymphatic-drainage-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
       "permanent": true
     },
     {
