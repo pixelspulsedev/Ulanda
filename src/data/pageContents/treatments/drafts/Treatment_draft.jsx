@@ -74,7 +74,7 @@ const BarrierModalityCTA = () => (
       >
         Begin With an Advanced Skin Health Consultation →
       </Link>
-      <p className="text-sm text-base-content/50 mt-6">Immediate visible refinement. Structured long-term plan.</p>
+      <p className="text-sm font-medium text-primary/80 mt-6 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
     </div>
   </section>
 );

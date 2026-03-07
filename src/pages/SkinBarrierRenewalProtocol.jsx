@@ -1,6 +1,7 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
@@ -122,27 +123,32 @@ const barrierModalities = [
   {
     title: "Skin Barrier Deep Cleanse",
     slug: "skin-barrier-deep-cleanse",
-    description: "For congestion-dominant presentations requiring careful removal of debris without stripping protective lipids."
+    description: "For congestion-dominant presentations requiring careful removal of debris without stripping protective lipids.",
+    image: "https://media.istockphoto.com/id/1755416967/photo/close-up-shot-of-a-young-beautiful-woman-lying-on-a-couch-in-a-cosmetology-center-young-woman.jpg?s=612x612&w=0&k=20&c=50Pk3m1CtnfKvvUA64-Qzc6amy9pvKpJZtphtRYL3mI="
   },
   {
     title: "Skin Barrier Hydration",
     slug: "skin-barrier-hydration",
-    description: "For dehydration-dominant presentations requiring structured multi-level hydration restoration."
+    description: "For dehydration-dominant presentations requiring structured multi-level hydration restoration.",
+    image: "/assets/img/treatments/refresh/skin-clinic-ware-deep-hydration.webp"
   },
   {
     title: "Skin Barrier Enzyme Renewal",
     slug: "skin-barrier-enzyme-renewal",
-    description: "For dull, uneven or turnover-impaired presentations requiring controlled enzymatic support."
+    description: "For dull, uneven or turnover-impaired presentations requiring controlled enzymatic support.",
+    image: "https://images.unsplash.com/photo-1761718210055-e83ca7e2c9ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW56eW1lJTIwZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D"
   },
   {
     title: "Skin Barrier Oxygenation",
     slug: "skin-barrier-oxygenation",
-    description: "For environmentally stressed or circulation-compromised skin requiring oxygenation support."
+    description: "For environmentally stressed or circulation-compromised skin requiring oxygenation support.",
+    image: "/assets/img/treatments/refresh/aesthetic-treatment-anti-aging-oxygen-facials.webp"
   },
   {
     title: "Skin Barrier Restore",
     slug: "skin-barrier-restore",
-    description: "For highly reactive, compromised or over-treated skin requiring intensive barrier rebuilding."
+    description: "For highly reactive, compromised or over-treated skin requiring intensive barrier rebuilding.",
+    image: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D"
   }
 ];
 
@@ -198,12 +204,73 @@ export default function SkinBarrierRenewalProtocol() {
           </div>
         </section>
 
+        {/* Clinician-Selected Variations */}
+        <section className="py-12 md:py-16 bg-base-100">
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <div className="text-center mb-10 max-w-4xl mx-auto">
+              <FadeInWhenVisible>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">Clinician-Selected Variations Within the Protocol</h2>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-6">Following your consultation, your clinician selects the most appropriate variation based on your dominant biological presentation. Possible prescribed variations include:</p>
+              </FadeInWhenVisible>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {barrierModalities.map((mod, idx) => (
+                  <FadeInWhenVisible key={idx} delay={idx * 0.1}>
+                    <Link 
+                      to={`/treatments/skin-barrier-renewal-protocol/${mod.slug}`}
+                      className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-secondary flex flex-col h-full"
+                    >
+                      <div className="relative h-56 overflow-hidden">
+                        {mod.image ? (
+                          <img
+                            src={mod.image}
+                            alt={mod.title}
+                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                            loading="lazy"
+                          />
+                        ) : (
+                          <div className="w-full h-full bg-secondary flex items-center justify-center text-primary/30">
+                            <span className="text-4xl font-serif italic">Ulanda</span>
+                          </div>
+                        )}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                      </div>
+                      <div className="p-6 flex flex-col flex-1">
+                        <h3 className="text-xl font-serif font-medium mb-3 group-hover:text-primary transition-colors">
+                          {mod.title}
+                        </h3>
+                        <p className="text-base-content/70 text-sm font-light leading-relaxed mb-4 flex-1">
+                          {mod.description}
+                        </p>
+                        <div className="btn btn-primary text-white w-full rounded-full group-hover:shadow-md transition-all mt-4">
+                          View Details
+                          <ArrowRight className="w-4 h-4 ml-2 inline-block transition-transform group-hover:translate-x-1" />
+                        </div>
+                      </div>
+                    </Link>
+                  </FadeInWhenVisible>
+                ))}
+            </div>
+            
+            <div className="max-w-4xl mx-auto">
+              <FadeInWhenVisible delay={0.6}>
+                <div className="mt-12 space-y-2 text-base-content/60 text-center">
+                  <p>Each variation links to its dedicated page for deeper explanation.</p>
+                  <p className="font-medium text-base-content">Selection is clinician-determined.</p>
+                  <p className="font-medium text-base-content">It is never chosen from a menu.</p>
+                </div>
+              </FadeInWhenVisible>
+            </div>
+          </div>
+        </section>
+
         {/* What Is the Protocol */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">What Is the Skin Barrier Renewal Protocol?</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">What Is the Skin Barrier Renewal Protocol?</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-4">The Skin Barrier Renewal Protocol is a structured clinical pathway delivered following your <Link to="/treatments/advanced-skin-health-consultation" className="text-primary hover:underline">Advanced Skin Health Consultation</Link>.</p>
@@ -240,51 +307,12 @@ export default function SkinBarrierRenewalProtocol() {
           </div>
         </section>
 
-        {/* Begin With Assessment CTA */}
-        <section className="py-16 md:py-24 bg-secondary">
-          <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
-            <FadeInWhenVisible>
-              <h2 className="text-3xl md:text-4xl font-serif text-primary mb-6">Begin With Assessment</h2>
-              <p className="text-base-content/70 text-lg leading-relaxed mb-4">Barrier instability cannot be diagnosed visually alone.</p>
-              <p className="text-base-content/80 text-lg leading-relaxed mb-8">All first-time clients begin with an <Link to="/treatments/advanced-skin-health-consultation" className="text-primary hover:underline font-medium">Advanced Skin Health Consultation</Link> to determine:</p>
-            </FadeInWhenVisible>
-            <FadeInWhenVisible delay={0.1}>
-              <ul className="space-y-3 text-left max-w-md mx-auto mb-10">
-                {[
-                  "Whether stabilisation is required",
-                  "Which barrier modality is appropriate",
-                  "When progression into Signature treatment is safe"
-                ].map((item, idx) => (
-                  <li key={idx} className="flex items-start gap-3 text-base-content/80 text-lg">
-                    <span className="text-primary mt-1">•</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </FadeInWhenVisible>
-            <FadeInWhenVisible delay={0.2}>
-              <div className="bg-base-100 rounded-2xl p-10 shadow-sm max-w-lg mx-auto">
-                <h3 className="text-xl font-serif text-base-content mb-2">Advanced Skin Health Consultation</h3>
-                <p className="text-4xl font-serif text-primary mb-2">£175</p>
-                <p className="text-base-content/60 mb-6">60–90 Minutes</p>
-                <Link 
-                  to="/book-consultation"
-                  className="btn btn-primary text-white px-10 py-3 h-auto text-lg rounded-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
-                >
-                  Begin With an Advanced Skin Health Consultation →
-                </Link>
-                <p className="text-sm text-base-content/50 mt-4">Immediate visible refinement. Structured long-term plan.</p>
-              </div>
-            </FadeInWhenVisible>
-          </div>
-        </section>
-
         {/* What Is the Skin Barrier */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">What Is the Skin Barrier?</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">What Is the Skin Barrier?</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-4">The skin barrier is the outermost protective layer of the epidermis responsible for:</p>
@@ -317,14 +345,17 @@ export default function SkinBarrierRenewalProtocol() {
         </section>
 
         {/* Why Barrier Stabilisation Comes First */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">Why Barrier Stabilisation Comes Before Advanced Treatments</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">Why Barrier Stabilisation Comes Before Advanced Treatments</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
-                <p className="text-base-content/80 text-lg leading-relaxed mb-6">Injectables, polynucleotides, bio-remodelling and regenerative therapies rely on controlled inflammatory signalling and cellular responsiveness.</p>
+                <h3 className="text-2xl font-serif text-base-content mb-4 mt-2">Improving Treatment Readiness</h3>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">Barrier stabilisation does more than improve skin comfort.</p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">By restoring hydration balance and regulating inflammatory signalling, the Skin Barrier Renewal Protocol helps prepare the skin for future regenerative treatments.</p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">Improved barrier integrity enhances treatment readiness, allowing procedures such as polynucleotides, bio-remodelling and regenerative therapies, injectables or collagen-support therapies to be introduced with greater predictability and tolerance.</p>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-4">If the barrier is compromised:</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.2}>
@@ -354,51 +385,51 @@ export default function SkinBarrierRenewalProtocol() {
           </div>
         </section>
 
-        {/* Clinician-Selected Variations */}
-        <section className="py-16 md:py-24">
-          <div className="max-w-7xl mx-auto px-4 md:px-8">
-            <div className="max-w-4xl mx-auto">
-              <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">Clinician-Selected Variations Within the Protocol</h2>
-                <p className="text-base-content/80 text-lg leading-relaxed mb-10">Following your consultation, your clinician selects the most appropriate variation based on your dominant biological presentation.</p>
-                <p className="text-base-content/70 mb-8">Possible prescribed variations include:</p>
-              </FadeInWhenVisible>
-              <div className="space-y-4">
-                {barrierModalities.map((mod, idx) => (
-                  <FadeInWhenVisible key={idx} delay={idx * 0.1}>
-                    <Link 
-                      to={`/treatments/skin-barrier-renewal-protocol/${mod.slug}`}
-                      className="block bg-secondary hover:bg-secondary/80 rounded-lg p-8 transition-all duration-300 hover:shadow-md group border border-transparent hover:border-primary/20"
-                    >
-                      <div className="flex items-start justify-between">
-                        <div>
-                          <span className="text-primary text-sm mb-2 block">→</span>
-                          <h3 className="text-xl font-serif text-primary mb-2 group-hover:underline">{mod.title}</h3>
-                          <p className="text-base-content/70 leading-relaxed">{mod.description}</p>
-                        </div>
-                        <span className="text-primary opacity-0 group-hover:opacity-100 transition-opacity ml-4 mt-6">→</span>
-                      </div>
-                    </Link>
-                  </FadeInWhenVisible>
+        {/* Begin With Assessment CTA */}
+        <section className="py-12 md:py-16 bg-secondary">
+          <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
+            <FadeInWhenVisible>
+              <h2 className="text-3xl md:text-4xl font-serif text-primary mb-6">Begin With Assessment</h2>
+              <p className="text-base-content/70 text-lg leading-relaxed mb-4">Barrier instability cannot be diagnosed visually alone.</p>
+              <p className="text-base-content/80 text-lg leading-relaxed mb-8">All first-time clients begin with an <Link to="/treatments/advanced-skin-health-consultation" className="text-primary hover:underline font-medium">Advanced Skin Health Consultation</Link> to determine:</p>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible delay={0.1}>
+              <ul className="space-y-3 text-left max-w-md mx-auto mb-10">
+                {[
+                  "Whether stabilisation is required",
+                  "Which barrier modality is appropriate",
+                  "When progression into Signature treatment is safe"
+                ].map((item, idx) => (
+                  <li key={idx} className="flex items-start gap-3 text-base-content/80 text-lg">
+                    <span className="text-primary mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
                 ))}
+              </ul>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible delay={0.2}>
+              <div className="bg-base-100 rounded-2xl p-10 shadow-sm max-w-lg mx-auto">
+                <h3 className="text-xl font-serif text-base-content mb-2">Advanced Skin Health Consultation</h3>
+                <p className="text-4xl font-serif text-primary mb-2">£175</p>
+                <p className="text-base-content/60 mb-6">60–90 Minutes</p>
+                <Link 
+                  to="/book-consultation"
+                  className="btn btn-primary text-white px-10 py-3 h-auto text-lg rounded-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  Begin With an Advanced Skin Health Consultation →
+                </Link>
+                <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
               </div>
-              <FadeInWhenVisible delay={0.6}>
-                <div className="mt-8 space-y-2 text-base-content/60">
-                  <p>Each variation links to its dedicated page for deeper explanation.</p>
-                  <p className="font-medium text-base-content">Selection is clinician-determined.</p>
-                  <p className="font-medium text-base-content">It is never chosen from a menu.</p>
-                </div>
-              </FadeInWhenVisible>
-            </div>
+            </FadeInWhenVisible>
           </div>
         </section>
 
         {/* Progression Into Signature */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">Progression Into Signature Treatment</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">Progression Into Signature Treatment</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <div className="space-y-4 text-base-content/80 text-lg leading-relaxed">
@@ -418,7 +449,7 @@ export default function SkinBarrierRenewalProtocol() {
         </section>
 
         {/* Clinical Enhancements */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
@@ -444,11 +475,11 @@ export default function SkinBarrierRenewalProtocol() {
         </section>
 
         {/* Who Benefits */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">Who Benefits From Barrier Renewal?</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">Who Benefits From Barrier Renewal?</h2>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">Barrier stabilisation may be appropriate for clients in Ware, Hertford, Broxbourne, Hoddesdon and surrounding Hertfordshire areas presenting with:</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
@@ -474,11 +505,11 @@ export default function SkinBarrierRenewalProtocol() {
         </section>
 
         {/* What to Expect */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-12">What to Expect</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-6">What to Expect</h2>
               </FadeInWhenVisible>
               <div className="grid md:grid-cols-3 gap-8">
                 <FadeInWhenVisible delay={0.1}>
@@ -523,9 +554,9 @@ export default function SkinBarrierRenewalProtocol() {
         </section>
 
         {/* FAQ Section */}
-        <section className="max-w-3xl mx-auto px-4 md:px-8 py-16 md:py-24">
+        <section className="max-w-3xl mx-auto px-4 md:px-8 py-12 md:py-16">
           <FadeInWhenVisible>
-            <h2 className="text-3xl md:text-4xl font-serif text-base-content text-center mb-12">Frequently Asked Questions</h2>
+            <h2 className="text-3xl md:text-4xl font-serif text-base-content text-center mb-8">Frequently Asked Questions</h2>
           </FadeInWhenVisible>
           <div className="space-y-4">
             {[
@@ -550,11 +581,11 @@ export default function SkinBarrierRenewalProtocol() {
         </section>
 
         {/* Clinical Journey */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-12">How This Fits Within Your Clinical Journey</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">How This Fits Within Your Clinical Journey</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <div className="space-y-4">
@@ -589,7 +620,7 @@ export default function SkinBarrierRenewalProtocol() {
         </section>
 
         {/* Investment */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
             <FadeInWhenVisible>
               <h2 className="text-3xl md:text-4xl font-serif text-primary mb-6">Investment</h2>

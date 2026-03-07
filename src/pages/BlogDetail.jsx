@@ -273,8 +273,8 @@ export default function BlogDetail() {
   return (
     <>
       <Head>
-        <title>{blog.title} | ULANDA Journal</title>
-        <meta name="description" content={blog.subtitle} />
+        <title>{blog.seo?.title || blog.title} | ULANDA Journal</title>
+        <meta name="description" content={blog.seo?.description || blog.subtitle} />
         <link rel="canonical" href={`https://www.ulanda.co.uk/blogs/${blog.id}`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${blog.title} | ULANDA`} />
@@ -356,6 +356,40 @@ export default function BlogDetail() {
             title="Mentioned Treatments"
             subtitle="Explore the treatments discussed in this article"
           />
+        )}
+
+        {/* FAQs Section */}
+        {blog.faqs && blog.faqs.length > 0 && (
+          <section className="py-12 px-4 md:px-8 max-w-5xl mx-auto">
+            <FadeInWhenVisible threshold={0.1}>
+              <h2 className="text-3xl font-serif text-base-content mb-8">Frequently Asked Questions</h2>
+              <div className="space-y-4">
+                {blog.faqs.map((faq, index) => (
+                  <div key={index} className="collapse collapse-arrow bg-secondary/30 border border-primary/10 rounded-lg">
+                    <input type="radio" name={`blog-faq-${blog.id}`} defaultChecked={index === 0} />
+                    <div className="collapse-title text-lg font-medium font-sans text-base-content">
+                      {faq.question}
+                    </div>
+                    <div className="collapse-content">
+                      <p className="text-base-content/80 font-light leading-relaxed">{faq.answer}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </FadeInWhenVisible>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": blog.faqs.map(faq => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": faq.answer
+                }
+              }))
+            })}} />
+          </section>
         )}
 
         {/* CTA Section */}

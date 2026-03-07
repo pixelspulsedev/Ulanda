@@ -119,6 +119,14 @@ const consultationSchema = [
           "@type": "Answer",
           "text": "New clients begin with consultation to ensure clinical appropriateness and correct sequencing."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Will I receive treatment during the consultation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Where barrier instability is identified, targeted stabilisation may be introduced during the consultation itself. Many clients leave with visible improvement in hydration balance and skin comfort."
+        }
       }
     ]
   }
@@ -170,18 +178,47 @@ export default function AdvancedSkinHealthConsultation() {
             </div>
             <FadeInWhenVisible delay={0.7}>
               <Link to="/book-consultation" className="btn btn-primary text-white mt-6 shadow-md">
-                Book Skin Health Consultation — £175
+                Book Your Advanced Skin Health Consultation
               </Link>
+              <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
             </FadeInWhenVisible>
           </div>
         </section>
 
-        {/* What Is the Consultation */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        {/* What Most Clients Notice */}
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">What Is the Advanced Skin Health Consultation?</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">What Most Clients Notice Before They Leave</h2>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.1}>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-6">Although the Advanced Skin Health Consultation is primarily designed to assess your skin and develop a personalised treatment strategy, many clients notice visible improvement before they leave the clinic.</p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.2}>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">Where appropriate, targeted barrier stabilisation may be introduced during the consultation itself, helping to:</p>
+                <ul className="space-y-3 mb-8">
+                  {["Calm visible redness", "Restore hydration balance", "Improve skin comfort", "Enhance natural luminosity"].map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-base-content/80 text-lg">
+                      <span className="text-primary mt-1">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.3}>
+                <p className="text-base-content/80 text-lg leading-relaxed">This immediate refinement allows clients to leave their consultation with both clear understanding and visibly healthier-looking skin.</p>
+              </FadeInWhenVisible>
+            </div>
+          </div>
+        </section>
+
+        {/* What Is the Consultation */}
+        <section className="py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <div className="max-w-4xl mx-auto">
+              <FadeInWhenVisible>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">What Is the Advanced Skin Health Consultation?</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">The Advanced Skin Health Consultation is a comprehensive medical skin consultation that:</p>
@@ -216,10 +253,10 @@ export default function AdvancedSkinHealthConsultation() {
         </section>
 
         {/* Investment Section */}
-        <section className="py-16 md:py-24 bg-secondary">
+        <section className="py-12 md:py-16 bg-secondary">
           <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
             <FadeInWhenVisible>
-              <h2 className="text-3xl md:text-4xl font-serif text-primary mb-8">Investment</h2>
+              <h2 className="text-3xl md:text-4xl font-serif text-primary mb-5">Investment</h2>
             </FadeInWhenVisible>
             <FadeInWhenVisible delay={0.1}>
               <div className="bg-base-100 rounded-2xl p-10 md:p-14 shadow-sm max-w-2xl mx-auto">
@@ -227,26 +264,28 @@ export default function AdvancedSkinHealthConsultation() {
                 <p className="text-base-content/60 mb-2">Including AI Skin Analysis</p>
                 <p className="text-base-content/60 mb-6">Including Skin Barrier Renewal Protocol where clinically indicated</p>
                 <p className="text-5xl font-serif text-primary mb-2">£175</p>
-                <p className="text-lg text-base-content/70 mb-4">Duration: 60–90 Minutes</p>
-                <p className="text-base-content/60 mb-8">Fully redeemable against your personalised treatment plan.</p>
+                <p className="text-lg text-base-content/70 mb-2">Duration: 60–90 Minutes</p>
+                <p className="text-base-content/80 font-medium mb-4">Immediate visible refinement where appropriate.</p>
+                <p className="text-base-content/60 mb-6">Fully redeemable against your personalised treatment plan.</p>
                 <p className="text-sm text-base-content/50 mb-8">Consultations are intentionally limited each week to ensure unhurried, clinician-led care.</p>
                 <Link 
                   to="/book-consultation"
                   className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                 >
-                  Begin With Clinical Clarity
+                  Book Your Advanced Skin Health Consultation
                 </Link>
+                <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
               </div>
             </FadeInWhenVisible>
           </div>
         </section>
 
         {/* What Is AI Skin Analysis */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">What Is AI Skin Analysis?</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">What Is AI Skin Analysis?</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">AI Skin Analysis is a diagnostic imaging system that uses artificial intelligence to measure skin parameters beyond visible inspection.</p>
@@ -282,14 +321,23 @@ export default function AdvancedSkinHealthConsultation() {
         </section>
 
         {/* What Is the Skin Barrier */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">What Is the Skin Barrier — And Why Is It Assessed?</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">What Is the Skin Barrier — And Why Is It Assessed?</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
-                <p className="text-base-content/80 text-lg leading-relaxed mb-6">The skin barrier is the outermost protective layer of the epidermis responsible for retaining moisture and regulating inflammatory signalling.</p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-8">The skin barrier is the outermost protective layer of the epidermis responsible for retaining moisture and regulating inflammatory signalling.</p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.15}>
+                <h3 className="text-2xl font-serif text-base-content mb-4">Treatment Readiness</h3>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">Understanding barrier behaviour is essential before introducing corrective procedures.</p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">When the skin barrier is stable, the skin is typically more responsive to regenerative treatments and aesthetic procedures.</p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">Where instability is identified, targeted stabilisation may be introduced first to restore hydration balance, regulate inflammatory signalling and improve overall treatment readiness.</p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-8">This ensures treatments are introduced when the skin is biologically prepared to respond well.</p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.2}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-4">Barrier dysfunction contributes to:</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.2}>
@@ -304,18 +352,19 @@ export default function AdvancedSkinHealthConsultation() {
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.3}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-2">If instability is identified, your <Link to="/treatments/skin-barrier-renewal-protocol" className="text-primary hover:underline">Skin Barrier Renewal Protocol</Link> may begin during the same appointment.</p>
-                <p className="text-base-content font-medium">Barrier-first sequencing improves safety and long-term treatment performance.</p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-2">Stabilising the barrier improves skin comfort and supports healthier inflammatory regulation.</p>
+                <p className="text-base-content font-medium">This also improves treatment readiness, ensuring the skin is better prepared to tolerate regenerative procedures and respond predictably to clinical intervention.</p>
               </FadeInWhenVisible>
             </div>
           </div>
         </section>
 
         {/* How This Differs */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">How This Differs From a Standard Aesthetic Consultation</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">How This Differs From a Standard Aesthetic Consultation</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-4">Most aesthetic consultations are treatment-led.</p>
@@ -354,7 +403,7 @@ export default function AdvancedSkinHealthConsultation() {
         </section>
 
         {/* What Happens During Appointment */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
@@ -383,11 +432,11 @@ export default function AdvancedSkinHealthConsultation() {
         </section>
 
         {/* Treatment Pathway */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-12">How This Fits Into Your Treatment Pathway</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">How This Fits Into Your Treatment Pathway</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <div className="space-y-4">
@@ -422,11 +471,11 @@ export default function AdvancedSkinHealthConsultation() {
         </section>
 
         {/* Who Is This For */}
-        <section className="bg-secondary/20 py-16 md:py-24">
+        <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">Who Is This Consultation For?</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">Who Is This Consultation For?</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <div className="grid md:grid-cols-2 gap-8">
@@ -463,9 +512,9 @@ export default function AdvancedSkinHealthConsultation() {
         </section>
 
         {/* FAQ Section */}
-        <section className="max-w-3xl mx-auto px-4 md:px-8 py-16 md:py-24">
+        <section className="max-w-3xl mx-auto px-4 md:px-8 py-12 md:py-16">
           <FadeInWhenVisible>
-            <h2 className="text-3xl md:text-4xl font-serif text-base-content text-center mb-12">Frequently Asked Questions</h2>
+            <h2 className="text-3xl md:text-4xl font-serif text-base-content text-center mb-8">Frequently Asked Questions</h2>
           </FadeInWhenVisible>
           <div className="space-y-4">
             {[
@@ -474,6 +523,7 @@ export default function AdvancedSkinHealthConsultation() {
               { q: "How long does a medical skin consultation take?", a: "The consultation lasts between 60 and 90 minutes to allow comprehensive assessment and discussion." },
               { q: "Is AI skin analysis accurate?", a: "AI imaging provides objective measurement of skin parameters and supports clinical diagnosis. It improves treatment planning precision." },
               { q: "Can I book injectables without a consultation?", a: "New clients begin with consultation to ensure clinical appropriateness and correct sequencing." },
+              { q: "Will I receive treatment during the consultation?", a: "Where barrier instability is identified, targeted stabilisation may be introduced during the consultation itself. Many clients leave with visible improvement in hydration balance and skin comfort." },
               { q: "Do I need a consultation before anti-wrinkle or fillers?", a: "Yes. Consultation ensures medical suitability, appropriate dosing strategy and correct treatment sequencing." },
               { q: "What should I bring to my consultation?", a: "Bring details of your skincare routine, medications and previous aesthetic treatments." }
             ].map((faq, idx) => (
@@ -503,7 +553,7 @@ export default function AdvancedSkinHealthConsultation() {
         </section>
 
         {/* Final CTA */}
-        <section className="py-24 md:py-40 px-4 md:px-8 bg-secondary text-center">
+        <section className="py-16 md:py-24 px-4 md:px-8 bg-secondary text-center">
           <div className="max-w-4xl mx-auto">
             <FadeInWhenVisible>
               <h2 className="text-3xl md:text-5xl font-serif text-primary mb-8 leading-tight">Ready to Begin?</h2>
@@ -525,9 +575,9 @@ export default function AdvancedSkinHealthConsultation() {
                 to="/book-consultation"
                 className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
-                Book Advanced Skin Health Consultation
+                Book Your Advanced Skin Health Consultation
               </Link>
-              <p className="text-sm text-base-content/50 mt-6">Immediate visible refinement. Structured long-term plan.</p>
+              <p className="text-sm font-medium text-primary/80 mt-6 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
             </FadeInWhenVisible>
           </div>
         </section>
