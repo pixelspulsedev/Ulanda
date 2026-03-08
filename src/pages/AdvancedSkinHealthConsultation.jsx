@@ -1,6 +1,7 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
+import { BookOpen } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
@@ -537,6 +538,53 @@ export default function AdvancedSkinHealthConsultation() {
                 </div>
               </FadeInWhenVisible>
             ))}
+          </div>
+        </section>
+
+        {/* Clinical Insight */}
+        <section className="py-12 md:py-16 bg-base-100">
+          <div className="max-w-4xl mx-auto px-4 md:px-8">
+            <FadeInWhenVisible>
+              <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-3">Clinical Insight</h2>
+              <p className="text-base-content/60 text-lg mb-8">Evidence-based reading from the ULANDA clinical journal exploring consultation, barrier assessment and regenerative treatment planning.</p>
+            </FadeInWhenVisible>
+            <div className="grid md:grid-cols-2 gap-6">
+              {[
+                {
+                  title: "Do You Need a Consultation Before Botox?",
+                  slug: "consultation-before-botox-ware",
+                  description: "Why structured medical assessment protects safety, dosing precision and long-term results before anti-wrinkle treatment."
+                },
+                {
+                  title: "Where to Get a Medical Skin Consultation in Ware",
+                  slug: "medical-skin-consultation-ware",
+                  description: "What to expect from a clinician-led assessment of barrier integrity, inflammatory load and treatment suitability."
+                },
+                {
+                  title: "Why Barrier Repair Is Essential Before Structural Regeneration",
+                  slug: "barrier-repair-before-skin-regeneration",
+                  description: "Collagen stimulation depends on stable inflammatory signalling. Learn why barrier-first sequencing improves predictability."
+                },
+                {
+                  title: "How to Repair a Damaged Skin Barrier Professionally",
+                  slug: "how-to-repair-damaged-skin-barrier",
+                  description: "A clinical guide to restoring lipid matrix integrity, reducing inflammatory instability and improving treatment tolerance."
+                }
+              ].map((article, idx) => (
+                <FadeInWhenVisible key={idx} delay={idx * 0.1}>
+                  <Link
+                    to={`/blogs/${article.slug}`}
+                    className="group block bg-secondary/30 rounded-xl p-6 border border-primary/10 hover:border-primary/30 hover:shadow-md transition-all duration-300 h-full"
+                  >
+                    <div className="flex items-start gap-3 mb-3">
+                      <BookOpen className="w-5 h-5 text-primary mt-1 shrink-0" />
+                      <h3 className="font-serif text-lg text-base-content group-hover:text-primary transition-colors leading-snug">{article.title}</h3>
+                    </div>
+                    <p className="text-sm text-base-content/60 leading-relaxed pl-8">{article.description}</p>
+                  </Link>
+                </FadeInWhenVisible>
+              ))}
+            </div>
           </div>
         </section>
 

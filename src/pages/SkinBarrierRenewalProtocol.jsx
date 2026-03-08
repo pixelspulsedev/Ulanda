@@ -1,7 +1,7 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, BookOpen } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
@@ -639,8 +639,56 @@ export default function SkinBarrierRenewalProtocol() {
                 >
                   Begin With an Advanced Skin Health Consultation →
                 </Link>
+                <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
               </div>
             </FadeInWhenVisible>
+          </div>
+        </section>
+
+        {/* Clinical Insight */}
+        <section className="py-12 md:py-16 bg-base-100">
+          <div className="max-w-4xl mx-auto px-4 md:px-8">
+            <FadeInWhenVisible>
+              <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-3">Clinical Insight</h2>
+              <p className="text-base-content/60 text-lg mb-8">Evidence-based reading from the ULANDA clinical journal exploring barrier science, stabilisation and regenerative sequencing.</p>
+            </FadeInWhenVisible>
+            <div className="grid md:grid-cols-2 gap-6">
+              {[
+                {
+                  title: "Barrier Breakdown: The Science Behind Compromised Skin — And How Regeneration Restores It Naturally",
+                  slug: "barrier-breakdown-science-regenerative-restoration",
+                  description: "A clinician's guide to understanding barrier dysfunction and the regenerative approach to restoring your skin's first line of defence."
+                },
+                {
+                  title: "The Skin Barrier Breakdown After 40 — A Regenerative Guide",
+                  slug: "skin-barrier-breakdown-after-40",
+                  description: "A clinical, menopause-aware explanation of why barrier collapse accelerates ageing and how regeneration rebuilds protection."
+                },
+                {
+                  title: "Why Barrier Repair Is Essential Before Structural Regeneration",
+                  slug: "barrier-repair-before-skin-regeneration",
+                  description: "Collagen stimulation and bio-remodelling depend on stable inflammatory signalling. Barrier-first sequencing improves predictability."
+                },
+                {
+                  title: "How to Repair a Damaged Skin Barrier Professionally",
+                  slug: "how-to-repair-damaged-skin-barrier",
+                  description: "A clinical guide to restoring lipid matrix integrity, reducing inflammatory instability and improving treatment tolerance."
+                }
+              ].map((article, idx) => (
+                <FadeInWhenVisible key={idx} delay={idx * 0.1}>
+                  <Link
+                    to={`/blogs/${article.slug}`}
+                    className="group block bg-secondary/30 rounded-xl p-6 border border-primary/10 hover:border-primary/30 hover:shadow-md transition-all duration-300 h-full"
+                  >
+                    <div className="flex items-start gap-3 mb-3">
+                      <BookOpen className="w-5 h-5 text-primary mt-1 shrink-0" />
+                      <h3 className="font-serif text-lg text-base-content group-hover:text-primary transition-colors leading-snug">{article.title}</h3>
+                    </div>
+                    <p className="text-sm text-base-content/60 leading-relaxed pl-8">{article.description}</p>
+                  </Link>
+                </FadeInWhenVisible>
+              ))}
+            </div>
           </div>
         </section>
 

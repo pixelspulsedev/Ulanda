@@ -8,7 +8,7 @@ import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import RelatedTreatments from '../components/RelatedTreatments';
-import { Crown, Check, X, Bookmark, ExternalLink } from 'lucide-react';
+import { Crown, Check, X, Bookmark, ExternalLink, BookOpen } from 'lucide-react';
 import { getTreatmentById } from '../data/pageContents/treatments/treatments';
 
 const BlogContent = ({ content }) => {
@@ -392,6 +392,40 @@ export default function BlogDetail() {
           </section>
         )}
 
+        {/* Clinical Insight — Internal Link Loop */}
+        <section className="py-12 px-4 md:px-8 max-w-5xl mx-auto">
+          <FadeInWhenVisible threshold={0.1}>
+            <h2 className="text-3xl font-serif text-base-content mb-3">Clinical Insight</h2>
+            <p className="text-base-content/60 text-lg mb-8">Explore the clinical pathways referenced in this article.</p>
+          </FadeInWhenVisible>
+          <div className="grid md:grid-cols-2 gap-6">
+            <FadeInWhenVisible delay={0.1} threshold={0.1}>
+              <Link
+                to="/treatments/advanced-skin-health-consultation"
+                className="group block bg-secondary/30 rounded-xl p-6 border border-primary/10 hover:border-primary/30 hover:shadow-md transition-all duration-300 h-full"
+              >
+                <div className="flex items-start gap-3 mb-3">
+                  <BookOpen className="w-5 h-5 text-primary mt-1 shrink-0" />
+                  <h3 className="font-serif text-lg text-base-content group-hover:text-primary transition-colors leading-snug">Advanced Skin Health Consultation</h3>
+                </div>
+                <p className="text-sm text-base-content/60 leading-relaxed pl-8">The required first step for all new clients. Includes AI Skin Analysis, barrier assessment and personalised treatment roadmap.</p>
+              </Link>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible delay={0.2} threshold={0.1}>
+              <Link
+                to="/treatments/skin-barrier-renewal-protocol"
+                className="group block bg-secondary/30 rounded-xl p-6 border border-primary/10 hover:border-primary/30 hover:shadow-md transition-all duration-300 h-full"
+              >
+                <div className="flex items-start gap-3 mb-3">
+                  <BookOpen className="w-5 h-5 text-primary mt-1 shrink-0" />
+                  <h3 className="font-serif text-lg text-base-content group-hover:text-primary transition-colors leading-snug">Skin Barrier Renewal Protocol</h3>
+                </div>
+                <p className="text-sm text-base-content/60 leading-relaxed pl-8">A clinician-led stabilisation framework restoring barrier integrity before advanced regenerative treatment begins.</p>
+              </Link>
+            </FadeInWhenVisible>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="py-20 px-4 flex justify-center bg-secondary/10 mt-12 border-t border-primary/5">
           <div className="max-w-2xl text-center">
@@ -401,10 +435,11 @@ export default function BlogDetail() {
             <p className="mb-8 font-light text-base-content/80 text-lg">
               Book a consultation with our specialists at ULANDA to discuss a personalized treatment plan for your skin needs.
             </p>
-            <div className="flex gap-4 justify-center">
+            <div className="flex flex-col items-center gap-4">
               <Link to="/book-consultation" className="btn btn-primary text-white px-8">
                 Book Skin Health Consultation
               </Link>
+              <p className="text-sm font-medium text-primary/80 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
             </div>
           </div>
         </section>
