@@ -3,7 +3,10 @@ import React from 'react';
 import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Search, X } from 'lucide-react';
-import { getVisibleTreatmentCategories, findTreatmentById } from '../data/pageContents/treatments/drafts/treatments_restructured_draft';
+import {
+  getVisibleTreatmentCategories,
+  findTreatmentById,
+} from '../data/pageContents/treatments/drafts/treatments_restructured_draft';
 import { conditions } from '../data/pageContents/conditions/conditions';
 import { individualConditions } from '../data/pageContents/conditions/individualConditions';
 import { getConditionUrl } from '../data/crosslinks';
@@ -21,9 +24,9 @@ export default function Navbar() {
   // Get all conditions for search
   const getAllConditions = () => {
     const allConditions = [];
-    
+
     // Add master conditions
-    conditions.forEach(condition => {
+    conditions.forEach((condition) => {
       // Handle description being either string or array (for search)
       let description = condition.hero.description || '';
       if (Array.isArray(description)) {
@@ -33,16 +36,17 @@ export default function Navbar() {
       allConditions.push({
         ...condition,
         type: 'condition',
-        title: `${condition.hero.title} ${condition.hero.highlight || ''}`.trim(),
+        title:
+          `${condition.hero.title} ${condition.hero.highlight || ''}`.trim(),
         description: description,
         image: condition.hero.image,
         placeholderUrl: condition.hero.placeholderUrl,
-        url: `/conditions/${condition.id}`
+        url: `/conditions/${condition.id}`,
       });
     });
-    
+
     // Add individual conditions
-    individualConditions.forEach(condition => {
+    individualConditions.forEach((condition) => {
       // Handle description being either string or array (for search)
       let description = condition.hero.description || '';
       if (Array.isArray(description)) {
@@ -52,14 +56,15 @@ export default function Navbar() {
       allConditions.push({
         ...condition,
         type: 'condition',
-        title: `${condition.hero.title} ${condition.hero.highlight || ''}`.trim(),
+        title:
+          `${condition.hero.title} ${condition.hero.highlight || ''}`.trim(),
         description: description,
         image: condition.hero.image,
         placeholderUrl: condition.hero.placeholderUrl,
-        url: getConditionUrl(condition.id)
+        url: getConditionUrl(condition.id),
       });
     });
-    
+
     return allConditions;
   };
 
@@ -75,36 +80,38 @@ export default function Navbar() {
     const results = [];
 
     // Search treatments (new flattened structure)
-    treatmentCategories.forEach(category => {
-      Object.entries(category.treatments || {}).forEach(([treatmentKey, treatment]) => {
-        if (!treatment) return;
-        
-        let description = treatment.description || '';
-        if (Array.isArray(description)) {
-          description = description.join(' ');
-        }
-        
-        const matchesSearch = 
-          treatment.title?.toLowerCase().includes(query) ||
-          treatment.subtitle?.toLowerCase().includes(query) ||
-          description.toLowerCase().includes(query) ||
-          category.title?.toLowerCase().includes(query);
+    treatmentCategories.forEach((category) => {
+      Object.entries(category.treatments || {}).forEach(
+        ([treatmentKey, treatment]) => {
+          if (!treatment) return;
 
-        if (matchesSearch) {
-          results.push({
-            ...treatment,
-            type: 'treatment',
-            categoryId: category.id,
-            categoryTitle: category.title,
-            treatmentKey: treatmentKey
-          });
-        }
-      });
+          let description = treatment.description || '';
+          if (Array.isArray(description)) {
+            description = description.join(' ');
+          }
+
+          const matchesSearch =
+            treatment.title?.toLowerCase().includes(query) ||
+            treatment.subtitle?.toLowerCase().includes(query) ||
+            description.toLowerCase().includes(query) ||
+            category.title?.toLowerCase().includes(query);
+
+          if (matchesSearch) {
+            results.push({
+              ...treatment,
+              type: 'treatment',
+              categoryId: category.id,
+              categoryTitle: category.title,
+              treatmentKey: treatmentKey,
+            });
+          }
+        },
+      );
     });
 
     // Search conditions
-    allConditions.forEach(condition => {
-      const matchesSearch = 
+    allConditions.forEach((condition) => {
+      const matchesSearch =
         condition.title?.toLowerCase().includes(query) ||
         condition.description?.toLowerCase().includes(query) ||
         condition.seo?.title?.toLowerCase().includes(query) ||
@@ -121,7 +128,7 @@ export default function Navbar() {
   const handleSearchClick = (result) => {
     setIsSearchOpen(false);
     setSearchQuery('');
-    
+
     if (result.type === 'treatment') {
       navigate(`/treatments/${result.categoryId}/${result.treatmentKey}`);
     } else if (result.type === 'condition') {
@@ -152,26 +159,30 @@ export default function Navbar() {
   }, []);
 
   const ChevronDown = () => (
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      className="h-3 w-3 opacity-50 group-hover:opacity-100 group-hover:rotate-180 transition-all duration-300 mt-0.5" 
-      fill="none" 
-      viewBox="0 0 24 24" 
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-3 w-3 opacity-50 group-hover:opacity-100 group-hover:rotate-180 transition-all duration-300 mt-0.5"
+      fill="none"
+      viewBox="0 0 24 24"
       stroke="currentColor"
     >
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M19 9l-7 7-7-7"
+      />
     </svg>
   );
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
       className={`navbar bg-base-100 border border-b border-secondary sticky top-0 w-full z-50 transition-all duration-300 px-4 md:px-8 
      `}
     >
-      
       <div className="navbar-start">
         <Link to="/" className="flex items-center group">
           <img
@@ -189,23 +200,33 @@ export default function Navbar() {
         <div className="flex gap-1 p-1 rounded-full px-4">
           {/* Treatments Dropdown */}
           <div className="dropdown dropdown-hover group px-2">
-            <NavLink 
-              to="/treatments" 
+            <NavLink
+              to="/treatments"
               onClick={closeDropdown}
-              className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
+              className={({ isActive }) =>
+                `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`
+              }
             >
               Treatments <ChevronDown />
             </NavLink>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-72 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {/* Consultation */}
               <li>
-                <Link to="/treatments/advanced-skin-health-consultation" onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30 font-medium">
+                <Link
+                  to="/treatments/advanced-skin-health-consultation"
+                  onClick={closeDropdown}
+                  className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30 font-medium"
+                >
                   Advanced Skin Health Consultation
                 </Link>
               </li>
               {/* Barrier Protocol - flat link like other categories */}
               <li>
-                <Link to="/treatments/skin-barrier-renewal-protocol" onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                <Link
+                  to="/treatments/skin-barrier-renewal-protocol"
+                  onClick={closeDropdown}
+                  className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
+                >
                   Skin Barrier Renewal Protocol
                 </Link>
               </li>
@@ -213,39 +234,67 @@ export default function Navbar() {
               <li className="my-1 border-t border-secondary/15"></li>
               {/* Remaining categories */}
               {treatmentCategories
-                .filter(cat => cat.id !== 'skin-barrier-renewal-protocol')
+                .filter((cat) => cat.id !== 'skin-barrier-renewal-protocol')
                 .map((category) => (
-                <li key={category.id}>
-                  <Link to={`/treatments/${category.id}`} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
-                    {category.title}
-                  </Link>
-                </li>
-              ))}
+                  <li key={category.id}>
+                    <Link
+                      to={`/treatments/${category.id}`}
+                      onClick={closeDropdown}
+                      className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
+                    >
+                      {category.title}
+                    </Link>
+                  </li>
+                ))}
             </ul>
           </div>
 
           {/* Conditions Dropdown */}
           <div className="dropdown dropdown-hover group px-2">
-            <NavLink 
+            <NavLink
               to="/conditions"
               onClick={closeDropdown}
-              className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
+              className={({ isActive }) =>
+                `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`
+              }
             >
               Skin Conditions <ChevronDown />
             </NavLink>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-64 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {[
-                { name: 'Dehydration & Dullness', path: '/conditions/dehydration-dullness-skin-recovery' },
-                { name: 'Menopause & Hormonal Change', path: '/conditions/menopause-hormone-skin-changes' },
-                { name: 'Redness & Sensitivity', path: '/conditions/redness-sensitivity-reactive-skin' },
-                { name: 'Pigmentation & Skin Tone', path: '/conditions/pigmentation-and-skin-tone' },
+                {
+                  name: 'Dehydration & Dullness',
+                  path: '/conditions/dehydration-dullness-skin-recovery',
+                },
+                {
+                  name: 'Menopause & Hormonal Change',
+                  path: '/conditions/menopause-hormone-skin-changes',
+                },
+                {
+                  name: 'Redness & Sensitivity',
+                  path: '/conditions/redness-sensitivity-reactive-skin',
+                },
+                {
+                  name: 'Pigmentation & Skin Tone',
+                  path: '/conditions/pigmentation-and-skin-tone',
+                },
                 { name: 'Eye Area', path: '/conditions/eye-area' },
-                { name: 'Body Skin Structural', path: '/conditions/body-skin-structural' },
+                {
+                  name: 'Body Skin Structural',
+                  path: '/conditions/body-skin-structural',
+                },
                 { name: 'Acne & Texture', path: '/conditions/acne-texture' },
-                { name: 'Internal Wellness', path: '/conditions/internal-wellness' }
+                {
+                  name: 'Internal Wellness',
+                  path: '/conditions/internal-wellness',
+                },
               ].map((item) => (
                 <li key={item.name}>
-                  <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link
+                    to={item.path}
+                    onClick={closeDropdown}
+                    className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
+                  >
                     {item.name}
                   </Link>
                 </li>
@@ -255,24 +304,48 @@ export default function Navbar() {
 
           {/* Signature Dropdown */}
           <div className="dropdown dropdown-hover group px-2">
-            <NavLink 
-              to="/signature" 
+            <NavLink
+              to="/signature"
               onClick={closeDropdown}
-              className={({ isActive }) => `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`}
+              className={({ isActive }) =>
+                `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`
+              }
             >
               Signature <ChevronDown />
             </NavLink>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-72 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {[
-                { name: 'Skin Barrier Repair & Recovery', path: '/signature/skin-barrier-repair-recovery' },
-                { name: 'Rosacea & Redness Control', path: '/signature/rosacea-redness-control' },
-                { name: 'Menopause Skin Rebuild', path: '/signature/menopause-skin-rebuild' },
-                { name: 'Photoaging & Skin Architecture', path: '/signature/photoaging-skin-architecture' },
-                { name: 'Structural Skin Regeneration', path: '/signature/structural-skin-regeneration' },
-                { name: 'Under-Eye Renewal', path: '/signature/under-eye-renewal' }
+                {
+                  name: 'Skin Barrier Repair & Recovery',
+                  path: '/signature/skin-barrier-repair-recovery',
+                },
+                {
+                  name: 'Rosacea & Redness Control',
+                  path: '/signature/rosacea-redness-control',
+                },
+                {
+                  name: 'Menopause Skin Rebuild',
+                  path: '/signature/menopause-skin-rebuild',
+                },
+                {
+                  name: 'Photoaging & Skin Architecture',
+                  path: '/signature/photoaging-skin-architecture',
+                },
+                {
+                  name: 'Structural Skin Regeneration',
+                  path: '/signature/structural-skin-regeneration',
+                },
+                {
+                  name: 'Under-Eye Renewal',
+                  path: '/signature/under-eye-renewal',
+                },
               ].map((item) => (
                 <li key={item.name}>
-                  <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link
+                    to={item.path}
+                    onClick={closeDropdown}
+                    className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
+                  >
                     {item.name}
                   </Link>
                 </li>
@@ -282,7 +355,10 @@ export default function Navbar() {
 
           {/* Company Dropdown */}
           <div className="dropdown dropdown-hover group px-2">
-            <div role="button" className={`flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 text-base-content/80 cursor-pointer`}>
+            <div
+              role="button"
+              className={`flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 text-base-content/80 cursor-pointer`}
+            >
               Who We Are <ChevronDown />
             </div>
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-48 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
@@ -291,10 +367,14 @@ export default function Navbar() {
                 { name: 'Founder', path: '/about/our-founder' },
                 { name: 'Philosophy', path: '/about/our-philosophy' },
                 { name: 'Manifesto', path: '/about/manifesto' },
-                { name: 'Blog', path: '/blogs' }
+                { name: 'Blog', path: '/blogs' },
               ].map((item) => (
                 <li key={item.name}>
-                  <Link to={item.path} onClick={closeDropdown} className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30">
+                  <Link
+                    to={item.path}
+                    onClick={closeDropdown}
+                    className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
+                  >
                     {item.name}
                   </Link>
                 </li>
@@ -314,7 +394,7 @@ export default function Navbar() {
           <Search className="h-5 w-5" />
         </button>
 
-        <Link 
+        <Link
           to="/book-consultation"
           className={`btn btn-primary hidden lg:flex items-center font-sans text-white px-8 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 `}
         >
@@ -322,155 +402,386 @@ export default function Navbar() {
         </Link>
 
         {/* Mobile CTA - compact version always visible */}
-        <Link 
+        <button
+          as={Link}
           to="/book-consultation"
-          className="btn btn-primary btn-sm lg:hidden font-sans text-white px-4 rounded-full shadow-md text-xs"
+          className="rounded-lg btn bg-primary  lg:hidden font-sans text-white p-4  shadow-md text-xs"
         >
           Book Now
-        </Link>
-        
+        </button>
+
         {/* Mobile Menu Button - Drawer Toggle */}
-        <button 
+        <button
           className="btn btn-ghost btn-circle lg:hidden hover:bg-secondary/20"
           onClick={() => setIsDrawerOpen(true)}
           aria-label="Open menu"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h7"
+            />
           </svg>
         </button>
 
         {/* Mobile Drawer Overlay & Content */}
         {/* Overlay */}
-        <div 
+        <div
           className={`fixed inset-0 bg-black/20 backdrop-blur-sm z-[100] transition-opacity duration-300 lg:hidden ${
-            isDrawerOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+            isDrawerOpen
+              ? 'opacity-100 pointer-events-auto'
+              : 'opacity-0 pointer-events-none'
           }`}
           onClick={() => setIsDrawerOpen(false)}
         />
-        
+
         {/* Drawer Side */}
-        <div 
+        <div
           className={`fixed top-0 right-0 h-full w-[85vw] max-w-sm bg-base-100 shadow-2xl z-[101] transform transition-transform duration-300 ease-in-out lg:hidden flex flex-col ${
             isDrawerOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
-           {/* Header with Close Button */}
-           <div className="p-4 border-b border-secondary/20 flex justify-between items-center bg-base-100/50 backdrop-blur-sm sticky top-0 z-10">
-              {/* <span className="text-xl font-serif text-primary">Menu</span> */}
-              <button 
-                onClick={() => setIsDrawerOpen(false)} 
-                aria-label="Close menu"
-                className="btn btn-ghost btn-sm btn-circle hover:bg-secondary/20"
+          {/* Header with Close Button */}
+          <div className="p-4 border-b border-secondary/20 flex justify-between items-center bg-base-100/50 backdrop-blur-sm sticky top-0 z-10">
+            {/* <span className="text-xl font-serif text-primary">Menu</span> */}
+            <button
+              onClick={() => setIsDrawerOpen(false)}
+              aria-label="Close menu"
+              className="btn btn-ghost btn-sm btn-circle hover:bg-secondary/20"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-           </div>
-           
-           {/* Scrollable Content */}
-           <div className="overflow-y-auto flex-1 p-4">
-              <ul className="menu menu-lg w-full p-0">
-                <li>
-                  <details open={activeMobileMenu === 'treatments'}>
-                    <summary 
-                      className="font-medium text-lg py-3 text-base-content/90 font-sans"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setActiveMobileMenu(activeMobileMenu === 'treatments' ? null : 'treatments');
-                      }}
-                    >
-                      Treatments
-                    </summary>
-                    <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-                        <li><Link to="/treatments" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
-                        {/* Consultation */}
-                        <li><Link to="/treatments/advanced-skin-health-consultation" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 font-medium">Advanced Skin Health Consultation</Link></li>
-                        {/* Barrier Protocol - flat link like other categories */}
-                        <li><Link to="/treatments/skin-barrier-renewal-protocol" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin Barrier Renewal Protocol</Link></li>
-                        {/* Remaining categories */}
-                        {treatmentCategories
-                          .filter(cat => cat.id !== 'skin-barrier-renewal-protocol')
-                          .map((category) => (
-                          <li key={category.id}><Link to={`/treatments/${category.id}`} onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">{category.title}</Link></li>
-                        ))}
-                    </ul>
-                  </details>
-                </li>
-                 <li>
-                  <details open={activeMobileMenu === 'signature'}>
-                    <summary 
-                      className="font-medium text-lg py-3 text-base-content/90 font-sans"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setActiveMobileMenu(activeMobileMenu === 'signature' ? null : 'signature');
-                      }}
-                    >
-                      Signature
-                    </summary>
-                    <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-                      <li><Link to="/signature" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Overview</Link></li>
-                      <li><Link to="/signature/skin-barrier-repair-recovery" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Skin Barrier Repair & Recovery</Link></li>
-                      <li><Link to="/signature/rosacea-redness-control" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Rosacea & Redness Control</Link></li>
-                      <li><Link to="/signature/menopause-skin-rebuild" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Menopause Skin Rebuild</Link></li>
-                      <li><Link to="/signature/photoaging-skin-architecture" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Photoaging & Skin Architecture</Link></li>
-                      <li><Link to="/signature/structural-skin-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Structural Skin Regeneration</Link></li>
-                      <li><Link to="/signature/under-eye-renewal" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Under-Eye Renewal</Link></li>
-                    </ul>
-                  </details>
-                </li>
-                <li>
-                  <details open={activeMobileMenu === 'conditions'}>
-                    <summary 
-                      className="font-medium text-lg py-3 text-base-content/90 font-sans"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setActiveMobileMenu(activeMobileMenu === 'conditions' ? null : 'conditions');
-                      }}
-                    >
-                      Skin Conditions
-                    </summary>
-                      <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-                      <li><Link to="/conditions/dehydration-dullness-skin-recovery" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Dehydration & Dullness</Link></li>
-                      <li><Link to="/conditions/menopause-hormone-skin-changes" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Menopause & Hormonal Change</Link></li>
-                      <li><Link to="/conditions/redness-sensitivity-reactive-skin" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Redness & Sensitivity</Link></li>
-                      <li><Link to="/conditions/pigmentation-and-skin-tone" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Pigmentation & Skin Tone</Link></li>
-                      <li><Link to="/conditions/eye-area" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Eye Area</Link></li>
-                      <li><Link to="/conditions/body-skin-structural" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Body Skin Structural</Link></li>
-                      <li><Link to="/conditions/acne-texture" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Acne & Texture</Link></li>
-                      <li><Link to="/conditions/internal-wellness" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Internal Wellness</Link></li>
-                    </ul>
-                  </details>
-                </li>
-                <li>
-                  <details open={activeMobileMenu === 'company'}>
-                     <summary 
-                      className="font-medium text-lg py-3 text-base-content/90 font-sans"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setActiveMobileMenu(activeMobileMenu === 'company' ? null : 'company');
-                      }}
-                    >
-                      Who We Are
-                    </summary>
-                    <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-                      <li><Link to="/about/our-story" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">About</Link></li>
-                      <li><Link to="/about/our-founder" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Founder</Link></li>
-                      <li><Link to="/about/our-philosophy" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Philosophy</Link></li>
-                      <li><Link to="/about/manifesto" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Manifesto</Link></li>
-                      <li><Link to="/blogs" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20">Blog</Link></li>
-                    </ul>
-                  </details>
-                </li>
-              </ul>
-              
-              <div className="mt-8 mb-8 px-2">
-                 <Link to="/book-consultation" onClick={() => setIsDrawerOpen(false)} className="btn btn-primary text-white w-full rounded-xl shadow-md min-h-[3rem] font-sans tracking-wide">
-                   Book Skin Health Consultation
-                 </Link>
-              </div>
-           </div>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+
+          {/* Scrollable Content */}
+          <div className="overflow-y-auto flex-1 p-4">
+            <ul className="menu menu-lg w-full p-0">
+              <li>
+                <details open={activeMobileMenu === 'treatments'}>
+                  <summary
+                    className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setActiveMobileMenu(
+                        activeMobileMenu === 'treatments' ? null : 'treatments',
+                      );
+                    }}
+                  >
+                    Treatments
+                  </summary>
+                  <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
+                    <li>
+                      <Link
+                        to="/treatments"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Overview
+                      </Link>
+                    </li>
+                    {/* Consultation */}
+                    <li>
+                      <Link
+                        to="/treatments/advanced-skin-health-consultation"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20 font-medium"
+                      >
+                        Advanced Skin Health Consultation
+                      </Link>
+                    </li>
+                    {/* Barrier Protocol - flat link like other categories */}
+                    <li>
+                      <Link
+                        to="/treatments/skin-barrier-renewal-protocol"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Skin Barrier Renewal Protocol
+                      </Link>
+                    </li>
+                    {/* Remaining categories */}
+                    {treatmentCategories
+                      .filter(
+                        (cat) => cat.id !== 'skin-barrier-renewal-protocol',
+                      )
+                      .map((category) => (
+                        <li key={category.id}>
+                          <Link
+                            to={`/treatments/${category.id}`}
+                            onClick={() => setIsDrawerOpen(false)}
+                            className="py-2 active:bg-secondary/20"
+                          >
+                            {category.title}
+                          </Link>
+                        </li>
+                      ))}
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details open={activeMobileMenu === 'signature'}>
+                  <summary
+                    className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setActiveMobileMenu(
+                        activeMobileMenu === 'signature' ? null : 'signature',
+                      );
+                    }}
+                  >
+                    Signature
+                  </summary>
+                  <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
+                    <li>
+                      <Link
+                        to="/signature"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Overview
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/signature/skin-barrier-repair-recovery"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Skin Barrier Repair & Recovery
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/signature/rosacea-redness-control"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Rosacea & Redness Control
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/signature/menopause-skin-rebuild"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Menopause Skin Rebuild
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/signature/photoaging-skin-architecture"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Photoaging & Skin Architecture
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/signature/structural-skin-regeneration"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Structural Skin Regeneration
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/signature/under-eye-renewal"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Under-Eye Renewal
+                      </Link>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details open={activeMobileMenu === 'conditions'}>
+                  <summary
+                    className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setActiveMobileMenu(
+                        activeMobileMenu === 'conditions' ? null : 'conditions',
+                      );
+                    }}
+                  >
+                    Skin Conditions
+                  </summary>
+                  <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
+                    <li>
+                      <Link
+                        to="/conditions/dehydration-dullness-skin-recovery"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Dehydration & Dullness
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/conditions/menopause-hormone-skin-changes"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Menopause & Hormonal Change
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/conditions/redness-sensitivity-reactive-skin"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Redness & Sensitivity
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/conditions/pigmentation-and-skin-tone"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Pigmentation & Skin Tone
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/conditions/eye-area"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Eye Area
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/conditions/body-skin-structural"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Body Skin Structural
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/conditions/acne-texture"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Acne & Texture
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/conditions/internal-wellness"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Internal Wellness
+                      </Link>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details open={activeMobileMenu === 'company'}>
+                  <summary
+                    className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setActiveMobileMenu(
+                        activeMobileMenu === 'company' ? null : 'company',
+                      );
+                    }}
+                  >
+                    Who We Are
+                  </summary>
+                  <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
+                    <li>
+                      <Link
+                        to="/about/our-story"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        About
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/our-founder"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Founder
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/our-philosophy"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Philosophy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/manifesto"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Manifesto
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/blogs"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Blog
+                      </Link>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+
+            <div className="mt-8 mb-8 px-2">
+              <Link
+                to="/book-consultation"
+                onClick={() => setIsDrawerOpen(false)}
+                className="btn btn-primary text-white w-full rounded-xl shadow-md min-h-[3rem] font-sans tracking-wide"
+              >
+                Book Skin Health Consultation
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -478,14 +789,14 @@ export default function Navbar() {
       {isSearchOpen && (
         <>
           {/* Overlay */}
-          <div 
+          <div
             className="fixed inset-0 bg-black/40 backdrop-blur-sm z-[200] transition-opacity"
             onClick={() => {
               setIsSearchOpen(false);
               setSearchQuery('');
             }}
           />
-          
+
           {/* Modal */}
           <div className="fixed top-20 left-1/2 transform -translate-x-1/2 w-full max-w-2xl z-[201] px-4">
             <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
@@ -523,7 +834,8 @@ export default function Navbar() {
                 {searchQuery && searchResults.length > 0 && (
                   <div className="p-2">
                     <div className="px-4 py-2 text-sm text-base-content/60">
-                      Found {searchResults.length} result{searchResults.length !== 1 ? 's' : ''}
+                      Found {searchResults.length} result
+                      {searchResults.length !== 1 ? 's' : ''}
                     </div>
                     {searchResults.map((result, index) => (
                       <button
@@ -544,7 +856,9 @@ export default function Navbar() {
                           <div className="flex-1 min-w-0">
                             <div className="flex items-center gap-2 mb-1">
                               <span className="text-xs px-2 py-0.5 bg-primary/10 text-primary rounded capitalize">
-                                {result.type === 'treatment' ? result.categoryTitle : 'Condition'}
+                                {result.type === 'treatment'
+                                  ? result.categoryTitle
+                                  : 'Condition'}
                               </span>
                               {result.subCategoryTitle && (
                                 <span className="text-xs text-base-content/60">
@@ -557,7 +871,9 @@ export default function Navbar() {
                             </h4>
                             {result.description && (
                               <p className="text-sm text-base-content/60 truncate mt-1">
-                                {result.type === 'treatment' ? result.subtitle || result.description : result.description}
+                                {result.type === 'treatment'
+                                  ? result.subtitle || result.description
+                                  : result.description}
                               </p>
                             )}
                           </div>

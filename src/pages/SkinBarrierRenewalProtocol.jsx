@@ -200,6 +200,7 @@ export default function SkinBarrierRenewalProtocol() {
               <Link to="/book-consultation" className="btn btn-primary text-white mt-6 shadow-md">
                 Book Skin Health Consultation
               </Link>
+              <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
             </FadeInWhenVisible>
           </div>
         </section>
