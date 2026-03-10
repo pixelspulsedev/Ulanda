@@ -8878,7 +8878,7 @@ export const blogs = [
             ["Reactive corrections", "Predictable sequencing"],
             ["Short-term mindset", "Long-term strategy"]
           ]},
-          "Structured skin health consultation protects long-term outcomes."
+          "An Advanced Skin Health Consultation protects long-term outcomes."
         ]
       },
       {
@@ -9469,7 +9469,7 @@ export const blogs = [
             "Prolonged recovery",
             "Inconsistent outcomes"
           ]},
-          "A structured skin health consultation improves predictability.",
+          "An Advanced Skin Health Consultation improves predictability.",
           { type: "shoutout", title: "Clinician-Led Aesthetic Consultation", content: "→ Advanced Skin Health Consultation" },
           { type: "button", text: "Book Your Advanced Skin Health Consultation", link: "/treatments/advanced-skin-health-consultation" }
         ]

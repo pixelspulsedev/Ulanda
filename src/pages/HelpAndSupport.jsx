@@ -138,9 +138,9 @@ const HelpAndSupport = () => {
                 <h3 className="text-3xl md:text-5xl text-primary font-serif mb-4">Still have questions?</h3>
                 <p className="mb-8 opacity-80">We're here to help guide you on your wellness journey.</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Link to="/book-consultation" className="btn btn-primary px-8">
-                        Book Skin Health Consultation
-                    </Link>
+                    <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary px-8">
+                        Book Advanced Skin Health Consultation
+                    </a>
                     <Link to="/contact" className="btn btn-outline px-8 border-primary text-primary hover:bg-primary hover:text-white">
                         Contact Us
                     </Link>

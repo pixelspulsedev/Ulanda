@@ -6,12 +6,12 @@ const BookConsultation = () => {
   return (
     <>
       <Head>
-        <title>Book Consultation | ULANDA Regenerative Aesthetics</title>
-        <meta name="description" content="Book your consultation at ULANDA. Start your journey to regenerated skin and holistic wellness in Ware, Hertfordshire." />
+        <title>Contact Us | ULANDA Regenerative Aesthetics</title>
+        <meta name="description" content="Get in touch with ULANDA. Send us a message, ask a question or share your skin concerns. We're here to help in Ware, Hertfordshire." />
         <link rel="canonical" href="https://www.ulanda.co.uk/book-consultation" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Book Consultation | ULANDA" />
-        <meta name="twitter:description" content="Book your consultation at ULANDA. Start your journey to regenerated skin and holistic wellness." />
+        <meta name="twitter:title" content="Contact Us | ULANDA" />
+        <meta name="twitter:description" content="Get in touch with ULANDA. Send us a message, ask a question or share your skin concerns." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
@@ -24,10 +24,10 @@ const BookConsultation = () => {
           <div className="max-w-3xl">
             <HeroText>
               <h1 className="text-4xl md:text-6xl font-serif text-base-content mb-6 leading-tight">
-                Book Your <span className="italic text-primary">Consultation</span>
+                <span className="italic text-primary">Contact</span> Us
               </h1>
               <p className="text-lg md:text-xl text-base-content/80 font-light leading-relaxed max-w-2xl">
-                Ready to transform your skin health? Fill out the form below to request a consultation with our specialists.
+                Have a question or want to get in touch? Fill out the form below and we'll get back to you.
               </p>
             </HeroText>
           </div>
@@ -42,7 +42,7 @@ const BookConsultation = () => {
                 <div className="relative w-full" style={{ minHeight: '1000px' }}>
                   <iframe
                     id="JotFormIFrame-260183295758063"
-                    title="Book Consultation Form"
+                    title="Contact Form"
                     src="https://form.jotform.com/260183295758063"
                     className="w-full h-full border-0"
                     style={{ minHeight: '1000px' }}

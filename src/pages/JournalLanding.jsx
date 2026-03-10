@@ -124,12 +124,12 @@ export default function JournalLanding() {
               Questions about your skin?
             </h2>
             <p className="mb-8 font-light text-base-content/80 text-lg">
-              Book a Skin Health Consultation with our Advanced Nurse Practitioner to discuss a personalised clinical plan.
+              Book a Advanced Skin Health Consultation with our Advanced Nurse Practitioner to discuss a personalised clinical plan.
             </p>
             <div className="flex gap-4 justify-center">
-              <Link to="/book-consultation" className="btn btn-primary text-white px-8">
-                Book Skin Health Consultation
-              </Link>
+              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-8">
+                Book Advanced Skin Health Consultation
+              </a>
             </div>
           </div>
         </section>

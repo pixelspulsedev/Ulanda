@@ -457,9 +457,9 @@ export default function Philosophy() {
                 Your journey to natural, long-lasting transformation starts with a
                 personalised consultation.
               </p>
-              <Link to="/book-consultation" className="btn btn-primary text-white px-8 py-3 h-auto rounded-lg">
-                Book Skin Health Consultation
-              </Link>
+              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-8 py-3 h-auto rounded-lg">
+                Book Advanced Skin Health Consultation
+              </a>
             </FadeInWhenVisible>
           </div>
         </section>

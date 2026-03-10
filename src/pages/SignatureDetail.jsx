@@ -106,9 +106,9 @@ export default function SignatureDetail() {
               </FadeInWhenVisible>
 
               <FadeInWhenVisible delay={0.4}>
-                <Link to="/book-consultation" className="btn btn-primary text-white px-8 rounded-full">
-                  Book Skin Health Consultation
-                </Link>
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-8 rounded-full">
+                  Book Advanced Skin Health Consultation
+                </a>
               </FadeInWhenVisible>
             </div>
 
@@ -587,14 +587,16 @@ export default function SignatureDetail() {
               <FadeInWhenVisible>
                 <h2 className="text-3xl font-serif mb-6">Ready to Begin?</h2>
                 <p className="text-lg text-base-content/70 font-light leading-relaxed mb-8">
-                  The most effective way to start your {title} Signature is with a Skin Health Consultation so your plan is personalised, safe and sequenced correctly.
+                  The most effective way to start your {title} Signature is with an Advanced Skin Health Consultation so your plan is personalised, safe and sequenced correctly.
                 </p>
-                <Link
-                  to="/book-consultation"
+                <a
+                  href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary btn-lg text-white px-10 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
                 >
-                  Book Skin Health Consultation
-                </Link>
+                  Book Advanced Skin Health Consultation
+                </a>
               </FadeInWhenVisible>
             </div>
           </section>
@@ -688,14 +690,16 @@ export default function SignatureDetail() {
             showSticky ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
           }`}
         >
-          <Link
-            to="/book-consultation"
+          <a
+            href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-primary text-white px-6 py-3 rounded-full shadow-2xl hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2"
           >
-            <span className="hidden sm:inline">Book Skin Health Consultation</span>
-            <span className="sm:hidden">Book Skin Health Consultation</span>
+            <span className="hidden sm:inline">Book Advanced Skin Health Consultation</span>
+            <span className="sm:hidden">Book Advanced Skin Health Consultation</span>
             <ArrowRight className="w-4 h-4" />
-          </Link>
+          </a>
         </div>
       </div>
     </>

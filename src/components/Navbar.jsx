@@ -394,21 +394,24 @@ export default function Navbar() {
           <Search className="h-5 w-5" />
         </button>
 
-        <Link
-          to="/book-consultation"
+        <a
+          href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+          target="_blank"
+          rel="noopener noreferrer"
           className={`btn btn-primary hidden lg:flex items-center font-sans text-white px-8 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 `}
         >
-          Book Skin Health Consultation
-        </Link>
+          Book Advanced Skin Health Consultation
+        </a>
 
         {/* Mobile CTA - compact version always visible */}
-        <button
-          as={Link}
-          to="/book-consultation"
+        <a
+          href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-lg btn bg-primary  lg:hidden font-sans text-white p-4  shadow-md text-xs"
         >
           Book Now
-        </button>
+        </a>
 
         {/* Mobile Menu Button - Drawer Toggle */}
         <button
@@ -773,13 +776,15 @@ export default function Navbar() {
             </ul>
 
             <div className="mt-8 mb-8 px-2">
-              <Link
-                to="/book-consultation"
+              <a
+                href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsDrawerOpen(false)}
                 className="btn btn-primary text-white w-full rounded-xl shadow-md min-h-[3rem] font-sans tracking-wide"
               >
-                Book Skin Health Consultation
-              </Link>
+                Book Advanced Skin Health Consultation
+              </a>
             </div>
           </div>
         </div>

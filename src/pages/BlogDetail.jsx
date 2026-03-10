@@ -436,9 +436,9 @@ export default function BlogDetail() {
               Book a consultation with our specialists at ULANDA to discuss a personalized treatment plan for your skin needs.
             </p>
             <div className="flex flex-col items-center gap-4">
-              <Link to="/book-consultation" className="btn btn-primary text-white px-8">
-                Book Skin Health Consultation
-              </Link>
+              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-8">
+                Book Advanced Skin Health Consultation
+              </a>
               <p className="text-sm font-medium text-primary/80 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
             </div>
           </div>

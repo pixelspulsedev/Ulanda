@@ -1,4 +1,4 @@
-Ôªø
+
 export const treatments = {
   "refresh": {
     "id": "refresh",
@@ -40,11 +40,11 @@ export const treatments = {
               ]
             },
             "title": "Clinical Dermaplaning Therapy",
-            "subtitle": "Precision Exfoliation ‚Ä¢ Texture Refinement ‚Ä¢ Skin Clarity Reset",
+            "subtitle": "Precision Exfoliation ï Texture Refinement ï Skin Clarity Reset",
             "highlight": "",
             "titleSuffix": "",
             "category": "Refresh",
-            "description": "Precision Exfoliation ‚Ä¢ Texture Refinement ‚Ä¢ Skin Clarity Reset",
+            "description": "Precision Exfoliation ï Texture Refinement ï Skin Clarity Reset",
             "locations": [
               "Ware SG12"
             ],
@@ -54,8 +54,8 @@ export const treatments = {
               "title": "What Is Dermaplaning?",
               "content": [
                 "Clinical Dermaplaning Therapy is a nurse-led exfoliation treatment designed to remove compacted dead skin cells and fine vellus hair, improving skin clarity, texture and light reflection.",
-                "Often searched as ‚Äúdermaplaning Ware,‚Äù ‚Äúdermaplaning facial near me,‚Äù or ‚Äúfacial for dull skin Hertfordshire,‚Äù this treatment supports smoother skin surface function without chemical resurfacing.",
-                "Delivered at our skin clinic in Ware SG12, dermaplaning is used as a controlled reset ‚Äî not an aggressive peel.",
+                "Often searched as ìdermaplaning Ware,î ìdermaplaning facial near me,î or ìfacial for dull skin Hertfordshire,î this treatment supports smoother skin surface function without chemical resurfacing.",
+                "Delivered at our skin clinic in Ware SG12, dermaplaning is used as a controlled reset ó not an aggressive peel.",
                 "Dermaplaning is a manual exfoliation technique using a sterile surgical blade to gently remove:"
               ],
               "goals": [
@@ -130,7 +130,7 @@ export const treatments = {
                     "Treatment fatigue is not present",
                     "Tissue tolerance allows safe exfoliation"
                   ],
-                  "conclusion": "This protects against over-exfoliation and barrier disruption. Dermaplaning is often used as a preparation step before regenerative treatments ‚Äî not as an isolated cosmetic service."
+                  "conclusion": "This protects against over-exfoliation and barrier disruption. Dermaplaning is often used as a preparation step before regenerative treatments ó not as an isolated cosmetic service."
                 },
                 {
                    "title": "Why Choose ULANDA for Dermaplaning in Ware",
@@ -142,7 +142,7 @@ export const treatments = {
                       "Sequencing protects long-term skin resilience",
                       "Treatment is delivered in a private, appointment-only setting"
                    ],
-                   "conclusion": "Clients searching for ‚Äúdermaplaning Ware‚Äù or ‚Äúdermaplaning near me‚Äù often choose ULANDA for structured, clinically guided exfoliation rather than beauty-led surface treatments."
+                   "conclusion": "Clients searching for ìdermaplaning Wareî or ìdermaplaning near meî often choose ULANDA for structured, clinically guided exfoliation rather than beauty-led surface treatments."
                 }
               ]
             },
@@ -155,7 +155,7 @@ export const treatments = {
                 },
                 {
                   "title": "Downtime",
-                  "description": "No downtime. Skin may appear slightly pink immediately after treatment for 1‚Äì2 hours."
+                  "description": "No downtime. Skin may appear slightly pink immediately after treatment for 1ñ2 hours."
                 },
                 {
                   "title": "Results",
@@ -176,17 +176,17 @@ export const treatments = {
                   { "question": "Is dermaplaning safe for sensitive skin?", "answer": "Only when barrier stability is confirmed. It is not suitable during active flare phases." },
                   { "question": "Can dermaplaning help pigmentation?", "answer": "It can improve surface tone and enhance treatment absorption but does not treat deeper melasma alone." },
                   { "question": "Is there downtime?", "answer": "No. Mild pinkness may occur for a few hours." },
-                  { "question": "How often can I have dermaplaning?", "answer": "Every 4‚Äì6 weeks depending on skin tolerance." },
+                  { "question": "How often can I have dermaplaning?", "answer": "Every 4ñ6 weeks depending on skin tolerance." },
                   { "question": "Can it be combined with other treatments?", "answer": "Yes. It is often paired with hydration therapy or used before regenerative treatments." },
                   { "question": "What do people search for this treatment as?", "answer": "Clients often search for: Dermaplaning Ware, Dermaplaning facial near me, Facial for dull skin, Exfoliation treatment Hertfordshire, Smooth skin facial." },
-                  { "question": "Where is ULANDA located?", "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop‚Äôs Stortford and surrounding Hertfordshire areas." }
+                  { "question": "Where is ULANDA located?", "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishopís Stortford and surrounding Hertfordshire areas." }
                ]
             },
             "cta": {
               "title": "Ready to refine skin texture safely?",
               "highlight": "Clinical Dermaplaning Therapy",
-              "description": "ULANDA Ware, Hertfordshire ‚Äî Nurse-led skin care clinic delivering precision exfoliation within regenerative sequencing.",
-              "buttonText": "Book Skin Health Consultation",
+              "description": "ULANDA Ware, Hertfordshire ó Nurse-led skin care clinic delivering precision exfoliation within regenerative sequencing.",
+              "buttonText": "Book Advanced Skin Health Consultation",
               "booking": {
                   "price": 95,
                   "duration": 45
@@ -216,7 +216,7 @@ export const treatments = {
               "h2": [
                 "What Is Advanced Cleansing & Hydration Therapy?",
                 "What Does Congested, Dull Skin Really Indicate?",
-                "Why ULANDA Prioritises Function Over ‚ÄúInstant Glow‚Äù",
+                "Why ULANDA Prioritises Function Over ìInstant Glowî",
                 "Who This Treatment Is For",
                 "How the Treatment Works",
                 "Results & Timing",
@@ -224,7 +224,7 @@ export const treatments = {
               ]
             },
             "title": "Advanced Cleansing & Hydration Therapy",
-            "subtitle": "Deep Pore Detox ‚Ä¢ Barrier-Safe Hydration ‚Ä¢ Skin Function Reset",
+            "subtitle": "Deep Pore Detox ï Barrier-Safe Hydration ï Skin Function Reset",
             "pricing": {
               "singlePrice": "145",
               "bookingType": "Book Now"
@@ -241,12 +241,12 @@ export const treatments = {
             image: "https://media.istockphoto.com/id/1755416967/photo/close-up-shot-of-a-young-beautiful-woman-lying-on-a-couch-in-a-cosmetology-center-young-woman.jpg?s=612x612&w=0&k=20&c=50Pk3m1CtnfKvvUA64-Qzc6amy9pvKpJZtphtRYL3mI=",
             placeholderUrl: "https://media.istockphoto.com/id/1755416967/photo/close-up-shot-of-a-young-beautiful-woman-lying-on-a-couch-in-a-cosmetology-center-young-woman.jpg?s=612x612&w=0&k=20&c=50Pk3m1CtnfKvvUA64-Qzc6amy9pvKpJZtphtRYL3mI=",
             "category": "Refresh",
-            "description": "Deep Pore Detox ‚Ä¢ Barrier-Safe Hydration ‚Ä¢ Skin Function Reset",
+            "description": "Deep Pore Detox ï Barrier-Safe Hydration ï Skin Function Reset",
             "introduction": {
               "title": "What Is Advanced Cleansing & Hydration Therapy?",
               "content": [
-                "Advanced Cleansing & Hydration Therapy is ULANDA‚Äôs clinical-grade resurfacing and hydration treatment designed to deeply cleanse, infuse hydration and restore skin function without disrupting the barrier.",
-                "Often searched as ‚ÄúHydraFacial Ware,‚Äù ‚Äúdeep cleansing facial near me,‚Äù or ‚Äúhydrating facial Hertfordshire,‚Äù this treatment goes beyond surface glow. It is delivered at our nurse-led skin clinic in Ware SG12 and structured around skin biology, congestion patterns and hormonal context.",
+                "Advanced Cleansing & Hydration Therapy is ULANDAís clinical-grade resurfacing and hydration treatment designed to deeply cleanse, infuse hydration and restore skin function without disrupting the barrier.",
+                "Often searched as ìHydraFacial Ware,î ìdeep cleansing facial near me,î or ìhydrating facial Hertfordshire,î this treatment goes beyond surface glow. It is delivered at our nurse-led skin clinic in Ware SG12 and structured around skin biology, congestion patterns and hormonal context.",
                 "This is not a spa facial. It is a controlled, medical-grade skin reconditioning treatment."
               ],
               "goals": [
@@ -300,7 +300,7 @@ export const treatments = {
               ]
             },
             "ulandaConnection": {
-              "title": "Why ULANDA Prioritises Function Over ‚ÄúInstant Glow‚Äù",
+              "title": "Why ULANDA Prioritises Function Over ìInstant Glowî",
               "description": "Many clients seek quick brightness before events or after periods of skin instability. However, skin that is hormonally dry, perimenopause-influenced, postpartum reactive, acne-prone or treatment fatigued requires stabilised cleansing rather than harsh resurfacing.",
               "sections": [
                 {
@@ -324,7 +324,7 @@ export const treatments = {
                     "Treatment sequencing protects long-term outcomes",
                     "Care is delivered in a private, appointment-only setting"
                   ],
-                  "description": "This is why clients searching for ‚ÄúHydraFacial near me in Ware‚Äù often choose ULANDA when previous facials have caused sensitivity or short-lived results."
+                  "description": "This is why clients searching for ìHydraFacial near me in Wareî often choose ULANDA when previous facials have caused sensitivity or short-lived results."
                 }
               ]
             },
@@ -333,15 +333,15 @@ export const treatments = {
               "items": [
                 {
                   "title": "Treatment Time",
-                  "description": "45‚Äì60 minutes"
+                  "description": "45ñ60 minutes"
                 },
                 {
                   "title": "Downtime",
-                  "description": "No downtime. Mild pinkness may occur for 1‚Äì2 hours in reactive skin."
+                  "description": "No downtime. Mild pinkness may occur for 1ñ2 hours in reactive skin."
                 },
                 {
                   "title": "Results",
-                  "description": "Clients typically notice immediate clarity, improved hydration retention, reduced pore congestion, smoother texture, more even tone, and improved tolerance to active skincare. Best results occur when repeated every 4‚Äì6 weeks or integrated within a structured clinical pathway."
+                  "description": "Clients typically notice immediate clarity, improved hydration retention, reduced pore congestion, smoother texture, more even tone, and improved tolerance to active skincare. Best results occur when repeated every 4ñ6 weeks or integrated within a structured clinical pathway."
                 }
               ]
             },
@@ -350,7 +350,7 @@ export const treatments = {
               "items": [
                 {
                   "question": "Is this the same as HydraFacial?",
-                  "answer": "This treatment uses similar deep cleansing and hydration principles but is delivered within ULANDA‚Äôs clinical model, focusing on barrier protection and hormonal context."
+                  "answer": "This treatment uses similar deep cleansing and hydration principles but is delivered within ULANDAís clinical model, focusing on barrier protection and hormonal context."
                 },
                 {
                   "question": "Is it suitable for sensitive skin?",
@@ -366,7 +366,7 @@ export const treatments = {
                 },
                 {
                   "question": "How often should I have this treatment?",
-                  "answer": "Typically every 4‚Äì6 weeks depending on skin behaviour and regenerative goals."
+                  "answer": "Typically every 4ñ6 weeks depending on skin behaviour and regenerative goals."
                 },
                 {
                   "question": "Is there downtime?",
@@ -382,14 +382,14 @@ export const treatments = {
                 },
                 {
                   "question": "Where is ULANDA located?",
-                  "answer": "ULANDA is based in Ware SG12, Hertfordshire, serving clients from Hertford, Hoddesdon, Broxbourne, Bishop‚Äôs Stortford and surrounding areas."
+                  "answer": "ULANDA is based in Ware SG12, Hertfordshire, serving clients from Hertford, Hoddesdon, Broxbourne, Bishopís Stortford and surrounding areas."
                 }
               ]
             },
             "cta": {
               "title": "Ready to restore clarity and hydration safely?",
               "highlight": "",
-              "description": "Advanced Cleansing & Hydration Therapy. ¬£145 ‚Ä¢ 45‚Äì60 minutes. ULANDA Ware, Hertfordshire ‚Äî Nurse-led skin care clinic providing medical-grade cleansing, hydration and regenerative sequencing.",
+              "description": "Advanced Cleansing & Hydration Therapy. £145 ï 45ñ60 minutes. ULANDA Ware, Hertfordshire ó Nurse-led skin care clinic providing medical-grade cleansing, hydration and regenerative sequencing.",
               "buttonText": "Book Now"
             }
           },
@@ -419,11 +419,11 @@ export const treatments = {
               ]
             },
             "title": "Deep Hydration Facial",
-            "subtitle": "Intensive Moisture Infusion ‚Ä¢ Barrier Support ‚Ä¢ Skin Replenishment",
+            "subtitle": "Intensive Moisture Infusion ï Barrier Support ï Skin Replenishment",
             "highlight": "",
             "titleSuffix": "",
             "category": "Refresh",
-            "description": "Intensive Moisture Infusion ‚Ä¢ Barrier Support ‚Ä¢ Skin Replenishment",
+            "description": "Intensive Moisture Infusion ï Barrier Support ï Skin Replenishment",
             "locations": [
               "Ware SG12",
               "Hertfordshire"
@@ -434,10 +434,10 @@ export const treatments = {
               "title": "What Is the Deep Hydration Facial?",
               "content": [
                 "The Deep Hydration Facial is a nurse-led treatment designed to restore water balance, improve hydration retention and support lipid barrier integrity.",
-                "Often searched as ‚Äúhydrating facial near me,‚Äù ‚Äúdeep hydration facial Ware,‚Äù or ‚Äúfacial for dry skin Hertfordshire,‚Äù this treatment focuses on restoring functional moisture levels rather than temporary surface glow.",
+                "Often searched as ìhydrating facial near me,î ìdeep hydration facial Ware,î or ìfacial for dry skin Hertfordshire,î this treatment focuses on restoring functional moisture levels rather than temporary surface glow.",
                 "Delivered at our skin clinic in Ware SG12, this facial supports skin experiencing: Chronic dehydration, Tightness after cleansing, Hormonal dryness (perimenopause / menopause), Seasonal skin instability, Reduced elasticity linked to moisture loss, Dull, fatigued skin.",
                 "This is structured hydration correction, not a cosmetic refresh.",
-                "The Deep Hydration Facial is ULANDA‚Äôs intensive moisture restoration therapy designed to improve water-binding capacity and reduce transepidal water loss (TEWL)."
+                "The Deep Hydration Facial is ULANDAís intensive moisture restoration therapy designed to improve water-binding capacity and reduce transepidal water loss (TEWL)."
               ],
               "goals": [
                 "Immediate moisture replenishment",
@@ -522,7 +522,7 @@ export const treatments = {
               "items": [
                 {
                   "title": "Treatment Time",
-                  "description": "50‚Äì60 minutes"
+                  "description": "50ñ60 minutes"
                 },
                 {
                   "title": "Downtime",
@@ -546,8 +546,8 @@ export const treatments = {
                 { "question": "Is this suitable for menopausal dryness?", "answer": "Yes. Hormonal shifts commonly reduce sebum and hydration retention. This facial supports both water balance and lipid barrier stability." },
                 { "question": "Is this the same as a HydraFacial?", "answer": "No. While HydraFacial focuses on cleansing and infusion, this treatment prioritises layered hydration stability and barrier recalibration." },
                 { "question": "Will this help fine lines?", "answer": "Yes. Fine dehydration lines often soften significantly once water balance improves." },
-                { "question": "Do you offer deep hydration facials near me in Ware?", "answer": "Yes. ULANDA provides nurse-led hydration facials in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop‚Äôs Stortford and surrounding areas." },
-                { "question": "How often should I have this treatment?", "answer": "For maintenance, every 6‚Äì8 weeks. For correction, 2‚Äì3 sessions may be advised." },
+                { "question": "Do you offer deep hydration facials near me in Ware?", "answer": "Yes. ULANDA provides nurse-led hydration facials in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishopís Stortford and surrounding areas." },
+                { "question": "How often should I have this treatment?", "answer": "For maintenance, every 6ñ8 weeks. For correction, 2ñ3 sessions may be advised." },
                 { "question": "What do people search for this treatment as?", "answer": "Clients often search for: hydrating facial near me, facial for dry skin Ware, deep hydration facial Hertfordshire, menopause facial Ware, facial for tight skin." },
                 { "question": "Can I book this without consultation?", "answer": "Yes. However, if dehydration is linked to barrier dysfunction or hormonal transition, clinical sequencing may be advised." },
                 { "question": "Is there any downtime?", "answer": "No. Most clients return to normal activity immediately." },
@@ -557,7 +557,7 @@ export const treatments = {
             "cta": {
               "title": "Ready to restore deep hydration and improve skin resilience?",
               "highlight": "Deep Hydration Facial",
-              "description": "ULANDA Ware, Hertfordshire ‚Äî Nurse-led skin therapy designed to restore hydration, support barrier function and improve long-term tissue resilience.",
+              "description": "ULANDA Ware, Hertfordshire ó Nurse-led skin therapy designed to restore hydration, support barrier function and improve long-term tissue resilience.",
               "buttonText": "Book Now"
             }
           },
@@ -576,9 +576,9 @@ export const treatments = {
               "description": "Enzyme therapy facial in Ware. Gentle exfoliation for sensitive skin, rosacea & pregnancy. Repair the barrier & restore natural glow."
             },
             "seoHeadings": {
-              "h1": "Enzyme Facial in Ware SG12 ‚Äî Skin Barrier Repair & Gentle Resurfacing",
+              "h1": "Enzyme Facial in Ware SG12 ó Skin Barrier Repair & Gentle Resurfacing",
               "h2": [
-                "What Enzyme Therapy Treats (Sensitivity ‚Ä¢ Dullness ‚Ä¢ Early Ageing)",
+                "What Enzyme Therapy Treats (Sensitivity ï Dullness ï Early Ageing)",
                 "Perfect for Retinol Users, Menopause Skin & Breakouts",
                 "Why Enzymes Repair the Skin Barrier",
                 "Enzyme Facial vs Chemical Peel",
@@ -627,8 +627,8 @@ export const treatments = {
             "introduction": {
               "title": "What Is Enzyme Therapy?",
               "content": [
-                "Enzyme Therapy is a biofunctional facial treatment that uses transfer messenger enzymes to:\nincrease oxygenation\nstimulate lymphatic flow\nsupport cellular detoxification\nenhance microcirculation\ntighten and lift the skin\nrebuild the skin‚Äôs protective barrier",
-                "In simple terms: It ‚Äúwakes up‚Äù the skin ‚Äî restoring firmness, clarity and glow.",
+                "Enzyme Therapy is a biofunctional facial treatment that uses transfer messenger enzymes to:\nincrease oxygenation\nstimulate lymphatic flow\nsupport cellular detoxification\nenhance microcirculation\ntighten and lift the skin\nrebuild the skinís protective barrier",
+                "In simple terms: It ìwakes upî the skin ó restoring firmness, clarity and glow.",
                 "Scientifically: Enzyme therapy works by stimulating:\nlymphatic drainage\nvascular supply\noxygen uptake\nkeratinocyte renewal\nintercellular communication\nstructural protein synthesis\nThis creates a visibly firmer, brighter and healthier complexion."
               ],
               "goals": [
@@ -644,7 +644,7 @@ export const treatments = {
                 "Restores healthy skin function"
               ],
               "highlightBox": {
-                "text1": "ULANDA‚Äôs Enzyme Therapy is a regenerative, skin-strengthening treatment designed to restore vital circulation, enhance lymphatic drainage, firm the skin and support barrier repair.",
+                "text1": "ULANDAís Enzyme Therapy is a regenerative, skin-strengthening treatment designed to restore vital circulation, enhance lymphatic drainage, firm the skin and support barrier repair.",
                 "text2": "It is particularly effective for midlife and menopausal clients whose skin has become dull, reactive, sluggish or prone to dehydration due to declining cellular activity."
               },
             },
@@ -692,7 +692,7 @@ export const treatments = {
               "items": [
                 {
                   "title": "1. Oxygenation",
-                  "description": "Improves circulation and boosts tissue oxygen levels ‚Äî essential for energy production in ageing skin."
+                  "description": "Improves circulation and boosts tissue oxygen levels ó essential for energy production in ageing skin."
                 },
                 {
                   "title": "2. Lymphatic Stimulation",
@@ -704,21 +704,21 @@ export const treatments = {
                 },
                 {
                   "title": "4. Cellular Communication",
-                  "description": "Enhances intercellular signaling ‚Äî which declines during menopause."
+                  "description": "Enhances intercellular signaling ó which declines during menopause."
                 },
                 {
                   "title": "5. Protein Synthesis Support",
                   "description": "Improves collagen, elastin and keratin formation."
                 }
               ],
-              "footer": "Clinical Evidence: Improved microcirculation, Reduced sensitivity, Better moisture retention, Enhanced firmness, Reduced inflammation (Journal of Cosmetic Science, 2020‚Äì2023)"
+              "footer": "Clinical Evidence: Improved microcirculation, Reduced sensitivity, Better moisture retention, Enhanced firmness, Reduced inflammation (Journal of Cosmetic Science, 2020ñ2023)"
             },
             "treatmentAreas": {
               "title": "Treatment Areas",
               "items": [
                 "Face",
                 "Neck",
-                "D√©colletage",
+                "DÈcolletage",
                 "Under-eye (modified)",
                 "Scalp (optional detox upgrade)"
               ]
@@ -735,8 +735,8 @@ export const treatments = {
                   "description": "A customised enzyme formulation is applied to the skin."
                 },
                 {
-                  "title": "3. Tightening Phase (The ‚ÄúPulsing‚Äù)",
-                  "description": "Enzymes activate lymphatics and circulation ‚Äî creating a tightening sensation."
+                  "title": "3. Tightening Phase (The ìPulsingî)",
+                  "description": "Enzymes activate lymphatics and circulation ó creating a tightening sensation."
                 },
                 {
                   "title": "4. Removal + Rinse Phase",
@@ -760,11 +760,11 @@ export const treatments = {
                   "description": "Lifted, firmer appearance, Brighter complexion, Reduced puffiness, Healthier glow"
                 },
                 {
-                  "title": "24‚Äì72 hours",
+                  "title": "24ñ72 hours",
                   "description": "Improved elasticity, Balanced hydration, Softer texture"
                 },
                 {
-                  "title": "1‚Äì2 weeks",
+                  "title": "1ñ2 weeks",
                   "description": "Enhanced barrier function, Long-lasting radiance"
                 }
               ]
@@ -775,7 +775,7 @@ export const treatments = {
                 "Single session: circulation boost & radiance",
                 "3 sessions: barrier repair & firmness",
                 "6 sessions: significant improvement in texture & tone",
-                "Maintenance: every 4‚Äì6 weeks"
+                "Maintenance: every 4ñ6 weeks"
               ]
             },
             "idealFor": {
@@ -793,7 +793,7 @@ export const treatments = {
                 "Hormonal skin changes",
                 "Stressed, fatigued skin",
                 "Reduced elasticity",
-                "Perfect for women aged 35‚Äì65 who need deep repair without aggression."
+                "Perfect for women aged 35ñ65 who need deep repair without aggression."
               ]
             },
             "ulandaConnection": {
@@ -841,7 +841,7 @@ export const treatments = {
                 },
                 {
                   "title": "Comfortable",
-                  "description": "No ‚Äî you‚Äôll feel tightening and pulsation, which indicates increased circulation.",
+                  "description": "No ó youíll feel tightening and pulsation, which indicates increased circulation.",
                   "icon": "prescribed"
                 }
               ]
@@ -851,23 +851,23 @@ export const treatments = {
               "items": [
                 {
                   "question": "Does Enzyme Therapy hurt?",
-                  "answer": "No ‚Äî you‚Äôll feel tightening and pulsation, which indicates increased circulation."
+                  "answer": "No ó youíll feel tightening and pulsation, which indicates increased circulation."
                 },
                 {
                   "question": "Is this good for menopausal skin?",
-                  "answer": "Yes ‚Äî especially for dullness, dryness and loss of vitality."
+                  "answer": "Yes ó especially for dullness, dryness and loss of vitality."
                 },
                 {
                   "question": "Will my skin peel?",
-                  "answer": "No ‚Äî this is not an exfoliating treatment."
+                  "answer": "No ó this is not an exfoliating treatment."
                 },
                 {
                   "question": "Can it reduce puffiness?",
-                  "answer": "Yes ‚Äî it targets lymphatic stagnation."
+                  "answer": "Yes ó it targets lymphatic stagnation."
                 },
                 {
                   "question": "Is it suitable for sensitive skin?",
-                  "answer": "Yes ‚Äî enzymes are gentle and non-abrasive."
+                  "answer": "Yes ó enzymes are gentle and non-abrasive."
                 },
                 {
                   "question": "How soon can I wear makeup?",
@@ -879,7 +879,7 @@ export const treatments = {
               "title": "Restore Skin Health",
               "highlight": "From the Inside Out",
               "description": "Book your Enzyme Therapy session at ULANDA in Ware SG12 and experience firmer, brighter, healthier skin that radiates natural vitality.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "oxygen-vitamin-infusion-facial": {
@@ -1118,14 +1118,14 @@ export const treatments = {
             "cta": {
               "title": "Ready to restore skin vitality",
               "highlight": "and glow?",
-              "description": "ULANDA Ware, Hertfordshire ‚Äî Nurse-led aesthetic clinic supporting skin vitality, oxygenation and regenerative sequencing.",
+              "description": "ULANDA Ware, Hertfordshire ó Nurse-led aesthetic clinic supporting skin vitality, oxygenation and regenerative sequencing.",
               "buttonText": "Book Now"
             }
           },
           "lymphatic-drainage-facial": {
             "id": "lymphatic-drainage-facial",
             "title": "Lymphatic Detox Facial",
-            "subtitle": "Fluid Drainage ‚Ä¢ Puffiness Reduction ‚Ä¢ Circulation Support",
+            "subtitle": "Fluid Drainage ï Puffiness Reduction ï Circulation Support",
             "category": "Refresh",
             "description": "The Lymphatic Detox Facial is a nurse-led treatment designed to improve facial lymphatic flow, reduce fluid congestion and support inflammatory regulation.",
             image: "https://plus.unsplash.com/premium_photo-1666264200752-b7a7807d2b1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHltcGhhdGljJTIwZHJhaW5hZ2UlMjBmYWNpYWx8ZW58MHwxfDB8fHww",
@@ -1339,14 +1339,14 @@ export const treatments = {
                 },
                 {
                   "question": "Where is ULANDA located?",
-                  "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop‚Äôs Stortford and surrounding Hertfordshire areas."
+                  "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishopís Stortford and surrounding Hertfordshire areas."
                 }
               ]
             },
             "cta": {
               "title": "Ready to reduce puffiness",
               "highlight": "and support circulation?",
-              "description": "ULANDA Ware, Hertfordshire ‚Äî Nurse-led skin care clinic supporting circulation, recovery and regenerative readiness.",
+              "description": "ULANDA Ware, Hertfordshire ó Nurse-led skin care clinic supporting circulation, recovery and regenerative readiness.",
               "buttonText": "Book Now"
             }
           }
@@ -1500,7 +1500,7 @@ export const treatments = {
               "items": [
                 "Face",
                 "Neck",
-                "D√©colletage",
+                "DÈcolletage",
                 "Scalp (optional)",
                 "Back (acne protocols)",
                 "Hands"
@@ -1547,8 +1547,8 @@ export const treatments = {
             "frequency": {
               "title": "Treatment Time",
               "items": [
-                "¬£55 (Standalone) - 20-30 minutes",
-                "¬£30 (Add-On)",
+                "£55 (Standalone) - 20-30 minutes",
+                "£30 (Add-On)",
                 "No downtime. Mild flushing may last 30-60 minutes in reactive skin."
               ]
             },
@@ -1677,12 +1677,12 @@ export const treatments = {
               "description": "BioRePeel in Ware. The no-downtime, biostimulating peel for pigmentation, acne & texture. Instant glow without the shedding."
             },
             "seoHeadings": {
-              "h1": "BioRePeel in Ware SG12 ‚Äî No-Peel, No-Downtime Regeneration Peel",
+              "h1": "BioRePeel in Ware SG12 ó No-Peel, No-Downtime Regeneration Peel",
               "h2": [
-                "What BioRePeel Treats (Pigmentation ‚Ä¢ Texture ‚Ä¢ Acne ‚Ä¢ Dullness)",
+                "What BioRePeel Treats (Pigmentation ï Texture ï Acne ï Dullness)",
                 "Why BioRePeel Is Different (Biostimulation + Peel in One)",
                 "BioRePeel for Menopause Skin & Barrier Weakness",
-                "Body BioRePeel Options (Back ‚Ä¢ Arms ‚Ä¢ Chest)",
+                "Body BioRePeel Options (Back ï Arms ï Chest)",
                 "BioRePeel vs Chemical Peels vs Enzyme Peels",
                 "Crosslinked Treatments (PN, LED, Skin Boosters)",
                 "Linked Conditions (Melasma, PIH, Rough Texture)",
@@ -1732,7 +1732,7 @@ export const treatments = {
               "content": [
                 "BioRePeel is a biphasic, medical-grade peel from Italy that resurfaces and revitalises the skin without visible exfoliation.",
                 "It contains a 35% TCA blend supported by amino acids, vitamins and GABA (a dermal relaxant), making it effective yet comfortable.",
-                "In simple terms: BioRePeel renews your skin‚Äôs surface, brightens dullness and targets fine lines ‚Äî without peeling or downtime."
+                "In simple terms: BioRePeel renews your skinís surface, brightens dullness and targets fine lines ó without peeling or downtime."
               ],
               "goals": [
                 "Keratolysis (controlled skin shedding)",
@@ -1742,7 +1742,7 @@ export const treatments = {
                 "Antioxidant protection"
               ],
               "highlightBox": {
-                "text1": "Unlike standard peeling clinics, we use BioRePeel within a regenerative protocol ‚Äî strengthening the skin barrier, not simply resurfacing it.",
+                "text1": "Unlike standard peeling clinics, we use BioRePeel within a regenerative protocol ó strengthening the skin barrier, not simply resurfacing it.",
                 "text2": ""
               },
             },
@@ -1808,7 +1808,7 @@ export const treatments = {
               "items": [
                 "Face",
                 "Neck",
-                "D√©colletage",
+                "DÈcolletage",
                 "Back or shoulders (optional)",
                 "Hands (optional)"
               ]
@@ -1818,7 +1818,7 @@ export const treatments = {
               "steps": [
                 {
                   "title": "1. Consultation & Skin Assessment",
-                  "description": "We evaluate your skin‚Äôs barrier, hydration and hormonal pattern."
+                  "description": "We evaluate your skinís barrier, hydration and hormonal pattern."
                 },
                 {
                   "title": "2. Cleansing & Degreasing",
@@ -1826,7 +1826,7 @@ export const treatments = {
                 },
                 {
                   "title": "3. BioRePeel Application",
-                  "description": "Applied in layers depending on your skin‚Äôs resilience."
+                  "description": "Applied in layers depending on your skinís resilience."
                 },
                 {
                   "title": "4. Neutralisation",
@@ -1850,15 +1850,15 @@ export const treatments = {
                   "description": "Brighter skin, Clearer complexion, Smoother texture"
                 },
                 {
-                  "title": "24‚Äì72 hours",
+                  "title": "24ñ72 hours",
                   "description": "Pores refined, Congestion reduced, Glow intensifies"
                 },
                 {
-                  "title": "1‚Äì2 weeks",
+                  "title": "1ñ2 weeks",
                   "description": "Improved pigmentation, Collagen stimulation begins"
                 },
                 {
-                  "title": "4‚Äì6 weeks (with a course)",
+                  "title": "4ñ6 weeks (with a course)",
                   "description": "Visible rejuvenation, Reduced signs of ageing, More even tone and firmness"
                 }
               ]
@@ -1888,7 +1888,7 @@ export const treatments = {
                 "Enlarged pores",
                 "Rough or dehydrated skin",
                 "Loss of glow",
-                "Suitable for all Fitzpatrick skin types (I‚ÄìVI)."
+                "Suitable for all Fitzpatrick skin types (IñVI)."
               ]
             },
             "ulandaConnection": {
@@ -1931,7 +1931,7 @@ export const treatments = {
                 },
                 {
                   "title": "Mild tingling",
-                  "description": "Most clients experience mild tingling or light flushing (15‚Äì30 mins).",
+                  "description": "Most clients experience mild tingling or light flushing (15ñ30 mins).",
                   "icon": "clinician"
                 },
                 {
@@ -1946,11 +1946,11 @@ export const treatments = {
               "items": [
                 {
                   "question": "Will I peel?",
-                  "answer": "No ‚Äî BioRePeel resurfaces the skin without physical peeling."
+                  "answer": "No ó BioRePeel resurfaces the skin without physical peeling."
                 },
                 {
                   "question": "Is it painful?",
-                  "answer": "No ‚Äî slight tingling only."
+                  "answer": "No ó slight tingling only."
                 },
                 {
                   "question": "Can it treat pigmentation?",
@@ -1958,15 +1958,15 @@ export const treatments = {
                 },
                 {
                   "question": "Is it safe for menopausal skin?",
-                  "answer": "Yes ‚Äî we customise strength based on barrier health."
+                  "answer": "Yes ó we customise strength based on barrier health."
                 },
                 {
                   "question": "Can it treat acne or congestion?",
-                  "answer": "Yes ‚Äî salicylic acid assists in clearing the pores."
+                  "answer": "Yes ó salicylic acid assists in clearing the pores."
                 },
                 {
                   "question": "Can I combine with injectables?",
-                  "answer": "Yes ‚Äî it is a perfect prep treatment for PN and biostimulators."
+                  "answer": "Yes ó it is a perfect prep treatment for PN and biostimulators."
                 }
               ]
             },
@@ -1974,7 +1974,7 @@ export const treatments = {
               "title": "Reveal Bright, Refreshed,",
               "highlight": "Youthful Skin",
               "description": "Book your BioRePeel treatment at ULANDA in Ware SG12 for instant clarity, smoother texture and long-lasting radiance.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "chemical-peel": {
@@ -1993,10 +1993,10 @@ export const treatments = {
               "description": "Medical chemical peels in Ware. Treat pigmentation, acne scarring & sun damage. Reveal smoother, brighter, younger-looking skin."
             },
             "seoHeadings": {
-              "h1": "Chemical Peels in Ware SG12 ‚Äî Smooth, Brighten & Renew Your Skin",
+              "h1": "Chemical Peels in Ware SG12 ó Smooth, Brighten & Renew Your Skin",
               "h2": [
-                "What Chemical Peels Treat (Pigmentation ‚Ä¢ Ageing ‚Ä¢ Roughness ‚Ä¢ Scarring)",
-                "Types of Peels (Superficial ‚Ä¢ Medium ‚Ä¢ TCA ‚Ä¢ Brightening Peels)",
+                "What Chemical Peels Treat (Pigmentation ï Ageing ï Roughness ï Scarring)",
+                "Types of Peels (Superficial ï Medium ï TCA ï Brightening Peels)",
                 "Peels for Menopause Skin",
                 "Acne, PIH & Pigmentation Peel Options",
                 "Peels + Regeneration (PN, Boosters, LED)",
@@ -2042,7 +2042,7 @@ export const treatments = {
               "Hertfordshire"
             ],
             "category": "Refresh",
-            "description": "Medical-grade peeling for brighter skin, smoother texture and targeted correction ‚Äî tailored for midlife and menopausal skin.",
+            "description": "Medical-grade peeling for brighter skin, smoother texture and targeted correction ó tailored for midlife and menopausal skin.",
             "introduction": {
               "title": "What Is a Chemical Peel?",
               "content": [
@@ -2109,7 +2109,7 @@ export const treatments = {
                 },
                 {
                   "title": "Regenerative Peels",
-                  "description": "Designed specifically for menopausal & sensitive skin. Less aggressive ‚Äî more restorative."
+                  "description": "Designed specifically for menopausal & sensitive skin. Less aggressive ó more restorative."
                 },
                 {
                   "title": "Brightening Peels",
@@ -2127,7 +2127,7 @@ export const treatments = {
               "items": [
                 "Face",
                 "Neck",
-                "D√©colletage",
+                "DÈcolletage",
                 "Hands",
                 "Back / shoulders (optional)"
               ]
@@ -2145,7 +2145,7 @@ export const treatments = {
                 },
                 {
                   "title": "3. Chemical Peel Application",
-                  "description": "Layered according to your skin‚Äôs tolerance."
+                  "description": "Layered according to your skinís tolerance."
                 },
                 {
                   "title": "4. Neutralisation / Removal",
@@ -2169,16 +2169,16 @@ export const treatments = {
                   "description": "Radiance, Smoother texture, Brighter complexion"
                 },
                 {
-                  "title": "1‚Äì3 days",
+                  "title": "1ñ3 days",
                   "description": "Refined pores, Reduced congestion, Even tone"
                 },
                 {
-                  "title": "4‚Äì7 days",
+                  "title": "4ñ7 days",
                   "description": "Healthy, renewed glow, More youthful appearance"
                 },
                 {
                   "title": "For medium-depth peels",
-                  "description": "Light flaking may occur 48‚Äì72 hours after treatment."
+                  "description": "Light flaking may occur 48ñ72 hours after treatment."
                 }
               ]
             },
@@ -2188,7 +2188,7 @@ export const treatments = {
                 "Single session: glow and clarity",
                 "3 sessions: resurfacing and texture improvement",
                 "6 sessions: pigmentation correction & anti-aging effect",
-                "Maintenance: every 4‚Äì6 weeks"
+                "Maintenance: every 4ñ6 weeks"
               ]
             },
             "idealFor": {
@@ -2264,7 +2264,7 @@ export const treatments = {
               "items": [
                 {
                   "question": "Will my skin peel?",
-                  "answer": "Sometimes ‚Äî mostly mild flaking depending on peel type."
+                  "answer": "Sometimes ó mostly mild flaking depending on peel type."
                 },
                 {
                   "question": "Is it painful?",
@@ -2272,11 +2272,11 @@ export const treatments = {
                 },
                 {
                   "question": "Can chemical peels treat pigmentation?",
-                  "answer": "Yes ‚Äî they are excellent for early pigmentation and sun damage."
+                  "answer": "Yes ó they are excellent for early pigmentation and sun damage."
                 },
                 {
                   "question": "Is it safe for menopausal skin?",
-                  "answer": "Yes ‚Äî we adjust strength based on your barrier health."
+                  "answer": "Yes ó we adjust strength based on your barrier health."
                 },
                 {
                   "question": "Can I combine it with other treatments?",
@@ -2284,7 +2284,7 @@ export const treatments = {
                 },
                 {
                   "question": "Is it good for acne or congestion?",
-                  "answer": "Yes ‚Äî salicylic and mandelic peels are perfect for this."
+                  "answer": "Yes ó salicylic and mandelic peels are perfect for this."
                 }
               ]
             },
@@ -2292,7 +2292,7 @@ export const treatments = {
               "title": "Reveal Brighter, Smoother,",
               "highlight": "Healthier Skin",
               "description": "Book your Chemical Peel at ULANDA in Ware SG12 for refined texture, renewed radiance and long-lasting clarity.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           }
         }
@@ -2302,7 +2302,7 @@ export const treatments = {
   "renew": {
     "id": "renew",
     "title": "Renew",
-    "subtitle": "Boosts your skin‚Äôs natural ability to repair, firm and glow over time.",
+    "subtitle": "Boosts your skinís natural ability to repair, firm and glow over time.",
     "description": "The Renew pathway is about biological stimulation. We use advanced regenerative tools to wake up your fibroblasts, stimulating collagen, elastin, and hydration from within. This is for long-term skin quality and resilience.",
     image: "/assets/img/treatments/renew/Renew.webp",
     "subCategories": {
@@ -2329,7 +2329,7 @@ export const treatments = {
               "h1": "Profhilo in Ware SG12",
               "h2": [
                 "What Profhilo Treats: Dehydration, Crepey Skin, Fine Lines",
-                "How Profhilo Works ‚Äî HA Hybrid Complex & Bio-Remodeling",
+                "How Profhilo Works ó HA Hybrid Complex & Bio-Remodeling",
                 "Profhilo vs Hydrobooster vs SeventyHyal",
                 "Treatment Protocol & Results Timeline",
                 "Best Combination Treatments",
@@ -2402,7 +2402,7 @@ export const treatments = {
               "title": "Deep",
               "highlight": "Hydration",
               "description": "Book your Profhilo consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "definisse-hydrobooster": {
@@ -2422,11 +2422,11 @@ export const treatments = {
               "description": "Definisse Hydrobooster in Ware. Specialized hydration + fine line smoothing. Ideal for upper lip lines, cheeks & crepey skin."
             },
             "seoHeadings": {
-              "h1": "Definisse Hydrobooster in Ware SG12 ‚Äî Hydration + Fine Line Smoothing for Aging Skin",
+              "h1": "Definisse Hydrobooster in Ware SG12 ó Hydration + Fine Line Smoothing for Aging Skin",
               "h2": [
                 "What It Treats: Crepey Skin, Fine Lines, Texture Decline",
-                "How It Works ‚Äî HA + Regenerative Complex",
-                "Hydrobooster vs Profhilo ‚Äî Which Is Best for You?",
+                "How It Works ó HA + Regenerative Complex",
+                "Hydrobooster vs Profhilo ó Which Is Best for You?",
                 "Treatment Experience",
                 "Best Combinations (PN, Microneedling)",
                 "Conditions Hydrobooster Improves",
@@ -2474,7 +2474,7 @@ export const treatments = {
               "titleSuffix": "",
               "items": [
                 "Fine lines",
-                "Smokers‚Äô lines",
+                "Smokersí lines",
                 "Perioral crepiness",
                 "Menopause texture decline"
               ]
@@ -2483,7 +2483,7 @@ export const treatments = {
               "title": "Hydrate &",
               "highlight": "Soften",
               "description": "Book your Definisse Hydrobooster consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "jalupro": {
@@ -2500,10 +2500,10 @@ export const treatments = {
               "description": "Jalupro Amino Acid replacement therapy in Ware. Feed collagen at the source. Treat dark circles, fine lines & crepey skin."
             },
             "seoHeadings": {
-              "h1": "Jalupro in Ware SG12 ‚Äî Amino Acid Bio-Revitalisation for Aging, Dehydrated Skin",
+              "h1": "Jalupro in Ware SG12 ó Amino Acid Bio-Revitalisation for Aging, Dehydrated Skin",
               "h2": [
                 "What Jalupro Treats: Fine Lines, Crepey Skin, Dullness",
-                "How It Works ‚Äî Amino Acid + HA Regeneration",
+                "How It Works ó Amino Acid + HA Regeneration",
                 "Jalupro vs PN vs Skin Boosters",
                 "Treatment Protocol",
                 "Best Combinations",
@@ -2561,7 +2561,7 @@ export const treatments = {
               "title": "Revitalise &",
               "highlight": "Nourish",
               "description": "Book your Jalupro consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "seventy-hyal": {
@@ -2577,10 +2577,10 @@ export const treatments = {
               "description": "Seventy Hyal 2000 in Ware. Achieve glass-skin radiance and deep hydration. The perfect pre-event glow treatment."
             },
             "seoHeadings": {
-              "h1": "Seventy Hyal in Ware SG12 ‚Äî High-Glow Hyaluronic Booster for Dull, Dehydrated Skin",
+              "h1": "Seventy Hyal in Ware SG12 ó High-Glow Hyaluronic Booster for Dull, Dehydrated Skin",
               "h2": [
                 "What It Treats: Dullness, Dehydration, Texture",
-                "How It Works ‚Äî HA Glow Hydration",
+                "How It Works ó HA Glow Hydration",
                 "SeventyHyal vs Profhilo vs Hydrobooster",
                 "Treatment Protocol",
                 "Ideal Combinations",
@@ -2638,7 +2638,7 @@ export const treatments = {
               "title": "Instant",
               "highlight": "Radiance",
               "description": "Book your Seventy Hyal consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "lemon-bottle": {
@@ -2654,10 +2654,10 @@ export const treatments = {
               "description": "Lemon Bottle Skin Booster in Ware. High-dose Vitamin C + Tyrosinase inhibitors for instant brightness, glow and pigmentation control."
             },
             "seoHeadings": {
-              "h1": "Lemon Bottle Skin Booster in Ware SG12 ‚Äî Brightening & Glow Revitalisation Treatment",
+              "h1": "Lemon Bottle Skin Booster in Ware SG12 ó Brightening & Glow Revitalisation Treatment",
               "h2": [
                 "What It Treats: Dullness, Uneven Tone, Fine Texture Issues",
-                "How It Works ‚Äî Antioxidant + HA Blend",
+                "How It Works ó Antioxidant + HA Blend",
                 "Lemon Bottle vs Jalupro vs SeventyHyal",
                 "Treatment Timeline",
                 "Ideal Combinations",
@@ -2715,7 +2715,7 @@ export const treatments = {
               "title": "Boost Your",
               "highlight": "Glow",
               "description": "Book your Lemon Bottle Skin Booster consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "lumi-eyes": {
@@ -2731,10 +2731,10 @@ export const treatments = {
               "description": "Lumi Eyes PN treatment in Ware. Specifically for dark circles, hollows & under-eye signs of aging. Safe, effective regeneration."
             },
             "seoHeadings": {
-              "h1": "Lumi Eyes in Ware SG12 ‚Äî Brighten, Tighten & Regenerate Under-Eye Skin (PN-Based)",
+              "h1": "Lumi Eyes in Ware SG12 ó Brighten, Tighten & Regenerate Under-Eye Skin (PN-Based)",
               "h2": [
                 "What Lumi Eyes Treats: Dark Circles, Hollows, Crepey Skin",
-                "How Lumi Works ‚Äî PN Cellular Regeneration",
+                "How Lumi Works ó PN Cellular Regeneration",
                 "Lumi Eyes vs Plenhyage vs Nucleofill",
                 "Treatment Plan",
                 "Best Combinations (Microneedling, LED)",
@@ -2794,7 +2794,7 @@ export const treatments = {
               "title": "Brighten Your",
               "highlight": "Eyes",
               "description": "Book your Lumi Eyes consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           }
         }
@@ -2818,11 +2818,11 @@ export const treatments = {
               "description": "Medical Microneedling in Ware. Reduce pore size, smooth texture, and treat acne scars. Natural collagen induction for clearer, firmer skin."
             },
             "seoHeadings": {
-              "h1": "Microneedling in Ware SG12 ‚Äî Collagen Induction for Pores, Texture, Scars & Aging Skin",
+              "h1": "Microneedling in Ware SG12 ó Collagen Induction for Pores, Texture, Scars & Aging Skin",
               "h2": [
                 "What Microneedling Treats: Pores, Texture, Fine Lines, Pigmentation",
-                "How Microneedling Works ‚Äî Controlled Micro-Injuries & Collagen Remodeling",
-                "Microneedling vs RF Microneedling ‚Äî Which Do You Need?",
+                "How Microneedling Works ó Controlled Micro-Injuries & Collagen Remodeling",
+                "Microneedling vs RF Microneedling ó Which Do You Need?",
                 "Your Your Treatment Experience (Before, During, After)",
                 "Best Treatment Combos (PN, PRP, Skin Boosters)",
                 "Conditions Microneedling Improves",
@@ -2847,7 +2847,7 @@ export const treatments = {
         image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
         placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
             "category": "Renew",
-            "description": "Collagen induction ‚Ä¢ Texture rejuvenation ‚Ä¢ Glow boosting",
+            "description": "Collagen induction ï Texture rejuvenation ï Glow boosting",
             "introduction": {
               "title": "What Is Microneedling?",
               "content": [
@@ -2882,7 +2882,7 @@ export const treatments = {
               "title": "Boost Your",
               "highlight": "Collagen",
               "description": "Book your Microneedling consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           }
         }
@@ -2900,11 +2900,11 @@ export const treatments = {
               "description": "Advanced Polynucleotides (PN) treatment in Ware. Repair thinning skin, dark circles & laxity. Ideal for postpartum & menopause skin regeneration."
             },
             "seoHeadings": {
-              "h1": "Polynucleotides (PN) in Ware SG12 ‚Äî Advanced Regenerative Skin Repair for Postpartum & Menopause Skin",
+              "h1": "Polynucleotides (PN) in Ware SG12 ó Advanced Regenerative Skin Repair for Postpartum & Menopause Skin",
               "h2": [
                 "What PN Treats: Laxity, Crepey Skin, Dullness, Dark Circles & Inflammation",
-                "How Polynucleotides Work ‚Äî Cellular Repair, Fibroblast Activation & DNA Fragment Regeneration",
-                "PN vs Skin Boosters vs PRP ‚Äî Which Is Best for Your Skin Stage?",
+                "How Polynucleotides Work ó Cellular Repair, Fibroblast Activation & DNA Fragment Regeneration",
+                "PN vs Skin Boosters vs PRP ó Which Is Best for Your Skin Stage?",
                 "PN Treatment Journey at ULANDA (Week-by-Week Outcome Timeline)",
                 "Best Combined Treatments (Microneedling, Skin Boosters, Biostimulators)",
                 "Conditions PN Improves (Crosslinks)",
@@ -2928,7 +2928,7 @@ export const treatments = {
         image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
         placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Renew",
-            "description": "Cellular repair ‚Ä¢ Collagen stimulation ‚Ä¢ Elasticity revival",
+            "description": "Cellular repair ï Collagen stimulation ï Elasticity revival",
             "introduction": {
               "title": "What Are Polynucleotides?",
               "content": [
@@ -2967,9 +2967,9 @@ export const treatments = {
               "sections": [
                 {
                   "title": "Protocol",
-                  "description": "AI skin analysis to identify thinning zones. Course of 2‚Äì4 sessions. Often combined with microneedling or PRP.",
+                  "description": "AI skin analysis to identify thinning zones. Course of 2ñ4 sessions. Often combined with microneedling or PRP.",
                   "points": [],
-                  "conclusion": "Results: 2‚Äì12 weeks, progressive. Downtime: Minimal.",
+                  "conclusion": "Results: 2ñ12 weeks, progressive. Downtime: Minimal.",
                   image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
@@ -2979,7 +2979,7 @@ export const treatments = {
               "title": "Repair at the",
               "highlight": "Cellular Level",
               "description": "Book your Polynucleotides consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "plenhyage": {
@@ -3049,7 +3049,7 @@ export const treatments = {
               "title": "Deep",
               "highlight": "Regeneration",
               "description": "Book your Plenhyage PN consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "nucleofill": {
@@ -3083,7 +3083,7 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1671717725132-5eacbfd6abd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717725132-5eacbfd6abd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2tpbnxlbnwwfDF8MHx8fDA%3D",
             "category": "Renew",
-            "description": "Bio-stimulation ‚Ä¢ Lifting effect ‚Ä¢ Deep hydration + firming",
+            "description": "Bio-stimulation ï Lifting effect ï Deep hydration + firming",
             "introduction": {
               "title": "What Is Nucleofill?",
               "content": [
@@ -3118,7 +3118,7 @@ export const treatments = {
               "title": "Lift &",
               "highlight": "Firm",
               "description": "Book your Nucleofill PN consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "prp-skin-regeneration": {
@@ -3128,11 +3128,11 @@ export const treatments = {
               "description": "PRP Skin Regeneration in Ware. 100% natural collagen boosting using your own growth factors. Improve texture, hollows & healing."
             },
             "seoHeadings": {
-              "h1": "PRP Skin Regeneration in Ware SG12 ‚Äî Natural Collagen Boosting for Aging, Postpartum & Menopause Skin",
+              "h1": "PRP Skin Regeneration in Ware SG12 ó Natural Collagen Boosting for Aging, Postpartum & Menopause Skin",
               "h2": [
                 "What PRP Treats: Texture, Pores, Fine Lines, Crepey Skin, Dullness",
-                "The Science of PRP ‚Äî Growth Factors, Healing & Regeneration",
-                "PRP vs PN ‚Äî When PRP Is the Better Choice",
+                "The Science of PRP ó Growth Factors, Healing & Regeneration",
+                "PRP vs PN ó When PRP Is the Better Choice",
                 "PRP Treatment Experience at ULANDA",
                 "Most Effective Combinations (Microneedling, PN, LED)",
                 "Conditions PRP Improves",
@@ -3161,7 +3161,7 @@ export const treatments = {
             "introduction": {
               "title": "What Is PRP?",
               "content": [
-                "Platelet-Rich Plasma uses your own blood‚Äôs healing cells to stimulate collagen, elastin and tissue repair."
+                "Platelet-Rich Plasma uses your own bloodís healing cells to stimulate collagen, elastin and tissue repair."
               ],
               "goals": [
                 "100% natural",
@@ -3205,7 +3205,7 @@ export const treatments = {
               "title": "Natural",
               "highlight": "Regeneration",
               "description": "Book your PRP Skin Regeneration consultation at ULANDA.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           }
         }
@@ -3242,9 +3242,9 @@ export const treatments = {
               "description": "Oxygen & Vitamin Infusion Facial in Ware. Instantly brighten, hydrate & re-energise tired skin. Perfect for events & menopause dullness."
             },
             "seoHeadings": {
-              "h1": "Oxygen Facial in Ware SG12 ‚Äî Brightening, Hydration & Cellular Repair",
+              "h1": "Oxygen Facial in Ware SG12 ó Brightening, Hydration & Cellular Repair",
               "h2": [
-                "What Oxygen Infusions Treat (Dullness ‚Ä¢ Dehydration ‚Ä¢ Tired Skin)",
+                "What Oxygen Infusions Treat (Dullness ï Dehydration ï Tired Skin)",
                 "Vitamin Infusion Options (C, B-Complex, Brightening Blends)",
                 "Why Oxygen Improves Cell Regeneration",
                 "Oxygen Facial vs HydraFacial vs Peels",
@@ -3380,7 +3380,7 @@ export const treatments = {
               "items": [
                 "Face",
                 "Neck",
-                "D√©colletage",
+                "DÈcolletage",
                 "Under-eye (safe & gentle)",
                 "Hands (optional)"
               ]
@@ -3426,11 +3426,11 @@ export const treatments = {
                   "description": "Radiant glow, Deep hydration, Plump, soft skin, Even tone"
                 },
                 {
-                  "title": "24‚Äì72 hours",
+                  "title": "24ñ72 hours",
                   "description": "More even texture, Reduced dullness and fatigue, Brighter complexion"
                 },
                 {
-                  "title": "1‚Äì2 weeks",
+                  "title": "1ñ2 weeks",
                   "description": "Progressive improvement with cumulative sessions, Better barrier resilience"
                 }
               ]
@@ -3439,8 +3439,8 @@ export const treatments = {
               "title": "How Often Should I Have It?",
               "items": [
                 "Single session: perfect for events",
-                "Every 2‚Äì4 weeks: hydration & radiance maintenance",
-                "Every 7‚Äì14 days: during menopause dullness or stress flare-ups",
+                "Every 2ñ4 weeks: hydration & radiance maintenance",
+                "Every 7ñ14 days: during menopause dullness or stress flare-ups",
                 "Combined with PN/Boosters: optimal regenerative outcome"
               ]
             },
@@ -3459,7 +3459,7 @@ export const treatments = {
                 "Post-travel dehydration",
                 "Early pigmentation",
                 "Event prep (pre-wedding, photoshoots, holidays)",
-                "This treatment is especially beneficial for women 35‚Äì65, where hormonal shifts reduce skin oxygenation and hydration."
+                "This treatment is especially beneficial for women 35ñ65, where hormonal shifts reduce skin oxygenation and hydration."
               ]
             },
             "ulandaConnection": {
@@ -3517,7 +3517,7 @@ export const treatments = {
               "items": [
                 {
                   "question": "Does this replace a regular facial?",
-                  "answer": "It is more advanced ‚Äî delivering deeper hydration and brighter results."
+                  "answer": "It is more advanced ó delivering deeper hydration and brighter results."
                 },
                 {
                   "question": "Is it safe for menopause skin?",
@@ -3525,19 +3525,19 @@ export const treatments = {
                 },
                 {
                   "question": "Does it hurt?",
-                  "answer": "No ‚Äî the treatment is cool, soothing and relaxing."
+                  "answer": "No ó the treatment is cool, soothing and relaxing."
                 },
                 {
                   "question": "Will it clog pores?",
-                  "answer": "No ‚Äî formulations are lightweight and non-comedogenic."
+                  "answer": "No ó formulations are lightweight and non-comedogenic."
                 },
                 {
                   "question": "How soon before an event should I book?",
-                  "answer": "24‚Äì48 hours before for peak glow."
+                  "answer": "24ñ48 hours before for peak glow."
                 },
                 {
                   "question": "Can I combine this with chemical peels or PN?",
-                  "answer": "Yes ‚Äî it enhances penetration and speeds healing."
+                  "answer": "Yes ó it enhances penetration and speeds healing."
                 }
               ]
             },
@@ -3545,7 +3545,7 @@ export const treatments = {
               "title": "Oxygenate, Brighten &",
               "highlight": "Re-Energise Your Skin",
               "description": "Book your Oxygen & Vitamin Infusion Facial at ULANDA in Ware SG12 and experience luminous, hydrated, revitalised skin with zero downtime.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
           "post-procedure-recovery-facial": {
@@ -3570,9 +3570,9 @@ export const treatments = {
               ]
             },
             "title": "Post-Procedure Recovery Facial",
-            "subtitle": "Calm inflammation ‚Ä¢ Accelerate healing ‚Ä¢ Optimise results",
+            "subtitle": "Calm inflammation ï Accelerate healing ï Optimise results",
             "category": "Restore",
-            "description": "Calm inflammation ‚Ä¢ Accelerate healing ‚Ä¢ Optimise results",
+            "description": "Calm inflammation ï Accelerate healing ï Optimise results",
             "locations": [
               "Ware SG12",
               "Hertfordshire"
@@ -3619,11 +3619,11 @@ export const treatments = {
                 {
                   "title": "Benefits",
                   "items": [
-                    "‚úî Calms inflammation and reduces redness",
-                    "‚úî Supports faster, safer healing",
-                    "‚úî Helps optimise outcomes from Renew or Radiate treatments",
-                    "‚úî Strengthens the skin barrier",
-                    "‚úî Reassuring, clinically led aftercare"
+                    "? Calms inflammation and reduces redness",
+                    "? Supports faster, safer healing",
+                    "? Helps optimise outcomes from Renew or Radiate treatments",
+                    "? Strengthens the skin barrier",
+                    "? Reassuring, clinically led aftercare"
                   ]
                 }
               ]
@@ -3645,7 +3645,7 @@ export const treatments = {
               "items": [
                 {
                   "title": "Treatment Time",
-                  "description": "45‚Äì60 minutes"
+                  "description": "45ñ60 minutes"
                 },
                 {
                   "title": "Downtime",
@@ -3661,7 +3661,7 @@ export const treatments = {
               "title": "Calm.",
               "highlight": "Recover.",
               "description": "Support your skin's healing with our Post-Procedure Recovery Facial.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             },
             "oftenPairedWith": [
               "Anti-Wrinkle Injections",
@@ -3694,10 +3694,10 @@ export const treatments = {
               "description": "Dermalux LED Light Therapy in Ware. Clinically proven wavelengths for acne, anti-ageing & inflammation. Boost collagen & calm redness."
             },
             "seoHeadings": {
-              "h1": "LED Light Therapy in Ware SG12 ‚Äî Collagen Repair, Glow & Inflammation Control",
+              "h1": "LED Light Therapy in Ware SG12 ó Collagen Repair, Glow & Inflammation Control",
               "h2": [
-                "What LED Treats (Ageing ‚Ä¢ Acne ‚Ä¢ Inflammation ‚Ä¢ Rosacea ‚Ä¢ Sensitivity)",
-                "Red vs Blue LED ‚Äî What‚Äôs the Difference",
+                "What LED Treats (Ageing ï Acne ï Inflammation ï Rosacea ï Sensitivity)",
+                "Red vs Blue LED ó Whatís the Difference",
                 "LED for Menopause Skin + Sleep Dysregulation",
                 "LED + PN / LED + HydraFacial",
                 "LED for Barrier Repair (Perfect for Retinol Users)",
@@ -3744,7 +3744,7 @@ export const treatments = {
             image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "category": "Refresh",
-            "description": "Clinically proven light therapy that stimulates collagen, calms inflammation and accelerates regeneration ‚Äî ideal for midlife and menopausal skin.",
+            "description": "Clinically proven light therapy that stimulates collagen, calms inflammation and accelerates regeneration ó ideal for midlife and menopausal skin.",
             "introduction": {
               "title": "What Is LED Light Therapy?",
               "content": [
@@ -3807,11 +3807,11 @@ export const treatments = {
               "subtitle": "Different wavelengths target specific skin concerns:",
               "items": [
                 {
-                  "title": "RED LIGHT (630‚Äì660 nm)",
+                  "title": "RED LIGHT (630ñ660 nm)",
                   "description": "Stimulates fibroblasts - increases collagen + elastin. Improves texture, firmness, and fine lines."
                 },
                 {
-                  "title": "NEAR-INFRARED (830‚Äì850 nm)",
+                  "title": "NEAR-INFRARED (830ñ850 nm)",
                   "description": "Deep tissue repair - reduces inflammation + supports healing. Ideal for mature, thin or menopausal skin."
                 },
                 {
@@ -3823,14 +3823,14 @@ export const treatments = {
                   "description": "Boosts radiance - brightens dull or tired skin. Improves circulation."
                 }
               ],
-              "footer": "Clinical Evidence: LED increases collagen by 31‚Äì36% (JAMA Dermatology, 2020), Red + NIR light reduces inflammation and accelerates healing (Journal of Photomedicine, 2021), Blue light significantly reduces bacterial load (British Journal of Dermatology, 2022), LED improves menopausal skin density and elasticity (Women‚Äôs Dermatology Research, 2023)"
+              "footer": "Clinical Evidence: LED increases collagen by 31ñ36% (JAMA Dermatology, 2020), Red + NIR light reduces inflammation and accelerates healing (Journal of Photomedicine, 2021), Blue light significantly reduces bacterial load (British Journal of Dermatology, 2022), LED improves menopausal skin density and elasticity (Womenís Dermatology Research, 2023)"
             },
             "treatmentAreas": {
               "title": "Treatment Areas",
               "items": [
                 "Face",
                 "Neck",
-                "D√©colletage",
+                "DÈcolletage",
                 "Scalp (optional)",
                 "Back (acne protocols)",
                 "Hands"
@@ -3848,7 +3848,7 @@ export const treatments = {
                   "description": "Ensures optimal light penetration."
                 },
                 {
-                  "title": "3. LED Treatment (10‚Äì20 mins)",
+                  "title": "3. LED Treatment (10ñ20 mins)",
                   "description": "Medical-grade LED light penetrates deep into the skin."
                 },
                 {
@@ -3869,11 +3869,11 @@ export const treatments = {
                   "description": "Brighter skin, Reduced redness, Calmer complexion"
                 },
                 {
-                  "title": "1‚Äì2 weeks",
+                  "title": "1ñ2 weeks",
                   "description": "Improved elasticity, Smoother texture, Fewer breakouts"
                 },
                 {
-                  "title": "4‚Äì8 weeks (with regular sessions)",
+                  "title": "4ñ8 weeks (with regular sessions)",
                   "description": "Increased collagen, Firmer, more youthful skin, Long-term anti-aging benefits, Significant improvement in menopausal thinning"
                 }
               ]
@@ -3964,23 +3964,23 @@ export const treatments = {
               "items": [
                 {
                   "question": "Is LED therapy painful?",
-                  "answer": "Not at all ‚Äî it is warm, relaxing and comfortable."
+                  "answer": "Not at all ó it is warm, relaxing and comfortable."
                 },
                 {
                   "question": "Is it safe for menopausal skin?",
-                  "answer": "Yes ‚Äî it supports healing and collagen, which decline during menopause."
+                  "answer": "Yes ó it supports healing and collagen, which decline during menopause."
                 },
                 {
                   "question": "Can LED help with redness or rosacea?",
-                  "answer": "Yes ‚Äî red + NIR wavelengths reduce inflammation and sensitivity."
+                  "answer": "Yes ó red + NIR wavelengths reduce inflammation and sensitivity."
                 },
                 {
                   "question": "Can I use LED after injectables?",
-                  "answer": "Yes ‚Äî it accelerates healing and reduces swelling."
+                  "answer": "Yes ó it accelerates healing and reduces swelling."
                 },
                 {
                   "question": "Does LED replace microneedling or PN?",
-                  "answer": "No ‚Äî it enhances their results and supports healing."
+                  "answer": "No ó it enhances their results and supports healing."
                 },
                 {
                   "question": "How soon can I see results?",
@@ -3991,8 +3991,8 @@ export const treatments = {
             "cta": {
               "title": "Heal, Repair & Transform",
               "highlight": "Your Skin From Within",
-              "description": "Book LED Light Therapy at ULANDA in Ware SG12 and experience healthier, stronger, brighter skin ‚Äî powered by science and regeneration.",
-              "buttonText": "Book Skin Health Consultation"
+              "description": "Book LED Light Therapy at ULANDA in Ware SG12 and experience healthier, stronger, brighter skin ó powered by science and regeneration.",
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           }
         }
@@ -4028,7 +4028,7 @@ export const treatments = {
               ]
             },
             "title": "Skin Barrier Support Facial",
-            "subtitle": "Calm Skin Reset ‚Ä¢ Hydration Rebuild ‚Ä¢ Barrier Stabilisation",
+            "subtitle": "Calm Skin Reset ï Hydration Rebuild ï Barrier Stabilisation",
             "category": "Restore",
             "locations": [
               "Ware SG12",
@@ -4036,12 +4036,12 @@ export const treatments = {
             ],
             image: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
-            "description": "Calm Skin Reset ‚Ä¢ Hydration Rebuild ‚Ä¢ Barrier Stabilisation",
+            "description": "Calm Skin Reset ï Hydration Rebuild ï Barrier Stabilisation",
             "introduction": {
               "title": "What is the Barrier Support Facial?",
               "content": [
                 "The Skin Barrier Support Facial is a nurse-led treatment designed to stabilise and restore compromised skin function.",
-                "Often searched as a ‚Äúsensitive skin facial near me‚Äù or ‚Äúskin barrier repair treatment in Ware,‚Äù this facial focuses on rebuilding tolerance, hydration retention and inflammatory control rather than exfoliation or stimulation.",
+                "Often searched as a ìsensitive skin facial near meî or ìskin barrier repair treatment in Ware,î this facial focuses on rebuilding tolerance, hydration retention and inflammatory control rather than exfoliation or stimulation.",
                 "Delivered at our skin clinic in Ware SG12, this treatment supports skin experiencing:\nBarrier dysfunction\nSensitivity and reactivity\nOver-exfoliation or treatment fatigue\nHormonal dryness (perimenopause / menopause)\nPost-procedure recovery",
                 "This is not a glow-focused facial. It is a biological reset intervention."
               ]
@@ -4129,15 +4129,15 @@ export const treatments = {
               "items": [
                 {
                   "title": "Treatment Time",
-                  "description": "45‚Äì60 minutes"
+                  "description": "45ñ60 minutes"
                 },
                 {
                   "title": "Downtime",
-                  "description": "No downtime. Mild warmth may be present for 1‚Äì2 hours in highly reactive skin."
+                  "description": "No downtime. Mild warmth may be present for 1ñ2 hours in highly reactive skin."
                 },
                 {
                   "title": "Results",
-                  "description": "Following treatment, clients typically notice reduced tightness and discomfort within 24‚Äì48 hours, improved hydration retention, decreased redness, better tolerance to home skincare routines, and improved response to future treatments. Barrier repair often requires a short series depending on severity and works best when repeated as part of a structured pathway."
+                  "description": "Following treatment, clients typically notice reduced tightness and discomfort within 24ñ48 hours, improved hydration retention, decreased redness, better tolerance to home skincare routines, and improved response to future treatments. Barrier repair often requires a short series depending on severity and works best when repeated as part of a structured pathway."
                 }
               ]
             },
@@ -4154,7 +4154,7 @@ export const treatments = {
                 },
                 {
                   "question": "Do you offer barrier repair facials near me in Ware, Hertfordshire?",
-                  "answer": "Yes. ULANDA offers barrier support facials in Ware, Hertfordshire, supporting clients from Hertford, Hoddesdon, Broxbourne, Bishop‚Äôs Stortford and surrounding areas."
+                  "answer": "Yes. ULANDA offers barrier support facials in Ware, Hertfordshire, supporting clients from Hertford, Hoddesdon, Broxbourne, Bishopís Stortford and surrounding areas."
                 },
                 {
                   "question": "Will this help hormonal dryness during menopause?",
@@ -4162,7 +4162,7 @@ export const treatments = {
                 },
                 {
                   "question": "How many sessions are required?",
-                  "answer": "This depends on severity. Some require one stabilisation session, others benefit from 2‚Äì3 sessions spaced 2‚Äì4 weeks apart."
+                  "answer": "This depends on severity. Some require one stabilisation session, others benefit from 2ñ3 sessions spaced 2ñ4 weeks apart."
                 },
                 {
                   "question": "What do people search for this facial as?",
@@ -4185,7 +4185,7 @@ export const treatments = {
             "cta": {
               "title": "Ready to calm your skin and rebuild stability?",
               "highlight": "",
-              "description": "Barrier Support Facial. ¬£110 ‚Ä¢ 45‚Äì60 minutes. ULANDA Ware, Hertfordshire ‚Äî Nurse-led facial therapy designed for barrier repair, sensitivity reduction and long-term skin resilience.",
+              "description": "Barrier Support Facial. £110 ï 45ñ60 minutes. ULANDA Ware, Hertfordshire ó Nurse-led facial therapy designed for barrier repair, sensitivity reduction and long-term skin resilience.",
               "buttonText": "Book Now"
             }
           }
@@ -4269,11 +4269,11 @@ export const treatments = {
                 {
                   "title": "Benefits",
                   "items": [
-                    "‚úî Reduces puffiness and fluid retention",
-                    "‚úî Supports faster post-procedure recovery",
-                    "‚úî Enhances skin clarity and comfort",
-                    "‚úî Promotes a lighter, refreshed appearance",
-                    "‚úî Calming for the nervous system"
+                    "? Reduces puffiness and fluid retention",
+                    "? Supports faster post-procedure recovery",
+                    "? Enhances skin clarity and comfort",
+                    "? Promotes a lighter, refreshed appearance",
+                    "? Calming for the nervous system"
                   ]
                 }
               ]
@@ -4295,7 +4295,7 @@ export const treatments = {
               "items": [
                 {
                   "title": "Treatment Time",
-                  "description": "30‚Äì45 minutes"
+                  "description": "30ñ45 minutes"
                 },
                 {
                   "title": "Downtime",
@@ -4311,7 +4311,7 @@ export const treatments = {
               "title": "De-puff.",
               "highlight": "Decongest.",
               "description": "Experience the benefits of Facial Lymphatic Drainage.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             },
             "oftenPairedWith": [
               "Post-Procedure Recovery",
@@ -4348,16 +4348,16 @@ export const treatments = {
             ],
             "seo": {
               "title": "Biostimulators Ware SG12 | Collagen Regeneration | ULANDA",
-              "description": "Rebuild lost collagen with Biostimulators (PLLA/CaHA). ULANDA‚Äôs regenerative injections restore facial volume & structure naturally over time."
+              "description": "Rebuild lost collagen with Biostimulators (PLLA/CaHA). ULANDAís regenerative injections restore facial volume & structure naturally over time."
             },
             "seoHeadings": {
-              "h1": "Biostimulators in Ware SG12 ‚Äî Long-Lasting Collagen Regeneration for Midlife & Postpartum Skin",
+              "h1": "Biostimulators in Ware SG12 ó Long-Lasting Collagen Regeneration for Midlife & Postpartum Skin",
               "h2": [
                 "What Biostimulators Treat: Laxity, Volume Loss, Crepey Skin, Jawline Softening",
-                "How Biostimulators Work ‚Äî Collagen Stimulation vs Filler Volume",
-                "Biostimulators vs Fillers ‚Äî Which Is Right for You?",
-                "Biostimulator Types (PLLA, Ellans√©, Radiesse, PDLLA)",
-                "Treatment Experience & Results Timeline (12‚Äì24 Months)",
+                "How Biostimulators Work ó Collagen Stimulation vs Filler Volume",
+                "Biostimulators vs Fillers ó Which Is Right for You?",
+                "Biostimulator Types (PLLA, EllansÈ, Radiesse, PDLLA)",
+                "Treatment Experience & Results Timeline (12ñ24 Months)",
                 "Best Combinations (Threads, PN, Collagen Therapy)",
                 "Conditions Biostimulators Improve",
                 "Book Biostimulators in Ware SG12"
@@ -4381,25 +4381,25 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1682096423780-41ca1b04af68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1682096423780-41ca1b04af68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZSUyMHRyZWF0bWVudHxlbnwwfDF8MHx8fDA%3D",
             "category": "Restore",
-            "description": "PLLA ‚Ä¢ PDLLA ‚Ä¢ CaHA ‚Äî The Structural Foundation of Natural Aesthetics",
+            "description": "PLLA ï PDLLA ï CaHA ó The Structural Foundation of Natural Aesthetics",
             "introduction": {
               "title": "The Structural Foundation of Natural Aesthetics",
               "content": [
                 "Not filler. Not volume. True structural regeneration.",
                 "Biostimulators are the deepest level of regenerative aesthetic treatment, designed to restore the architecture, firmness and support your face naturally loses with age, hormonal change and collagen decline.",
-                "Unlike fillers‚Äîwhich simply add volume‚Äîbiostimulators rebuild your skin‚Äôs own collagen and elastin, giving:",
-                "‚Ä¢ lifted contours",
-                "‚Ä¢ firmer jawline",
-                "‚Ä¢ improved elasticity",
-                "‚Ä¢ reduced crepiness",
-                "‚Ä¢ long-term structural support",
-                "‚Ä¢ natural, refined rejuvenation",
-                "‚Ä¢ menopausal collagen restoration",
-                "Biostimulators are ideal for women seeking authentic, regenerative, long-term results without the ‚Äúfiller look.‚Äù",
+                "Unlike fillersówhich simply add volumeóbiostimulators rebuild your skinís own collagen and elastin, giving:",
+                "ï lifted contours",
+                "ï firmer jawline",
+                "ï improved elasticity",
+                "ï reduced crepiness",
+                "ï long-term structural support",
+                "ï natural, refined rejuvenation",
+                "ï menopausal collagen restoration",
+                "Biostimulators are ideal for women seeking authentic, regenerative, long-term results without the ìfiller look.î",
                 "At ULANDA, we specialise in the three most scientifically validated biostimulators:",
-                "PLLA ‚Äî (e.g., Sculptra¬Æ)",
-                "PDLLA ‚Äî next-gen collagen stimulator",
-                "CaHA ‚Äî Calcium Hydroxyapatite",
+                "PLLA ó (e.g., SculptraÆ)",
+                "PDLLA ó next-gen collagen stimulator",
+                "CaHA ó Calcium Hydroxyapatite",
                 "Each delivers unique structural, lifting and collagen-building benefits."
               ],
               "goals": [
@@ -4424,15 +4424,15 @@ export const treatments = {
               "items": [
                 {
                   "title": "PLLA (Poly-L-Lactic Acid)",
-                  "description": "Ideal for:\n‚Ä¢ facial volume restoration\n‚Ä¢ menopausal collagen collapse\n‚Ä¢ overall skin firmness\n‚Ä¢ long-term regeneration (24+ months)\nBenefits:\n‚Ä¢ strongest collagen stimulation\n‚Ä¢ exceptional for lower-face laxity\n‚Ä¢ excellent for cheeks, temples, jawline\n‚Ä¢ best for full-face structural support\nPLLA works gradually and naturally ‚Äî perfect for subtle rejuvenation."
+                  "description": "Ideal for:\nï facial volume restoration\nï menopausal collagen collapse\nï overall skin firmness\nï long-term regeneration (24+ months)\nBenefits:\nï strongest collagen stimulation\nï exceptional for lower-face laxity\nï excellent for cheeks, temples, jawline\nï best for full-face structural support\nPLLA works gradually and naturally ó perfect for subtle rejuvenation."
                 },
                 {
                   "title": "PDLLA (Poly-D,L-Lactic Acid)",
-                  "description": "Ideal for:\n‚Ä¢ contour refinement\n‚Ä¢ lifting effect\n‚Ä¢ moderate volume + collagen\n‚Ä¢ improving facial architecture\nBenefits:\n‚Ä¢ immediate support + long-term collagen\n‚Ä¢ excellent for midface and jawline\n‚Ä¢ highly versatile structural tool\n‚Ä¢ beautiful, natural outcomes"
+                  "description": "Ideal for:\nï contour refinement\nï lifting effect\nï moderate volume + collagen\nï improving facial architecture\nBenefits:\nï immediate support + long-term collagen\nï excellent for midface and jawline\nï highly versatile structural tool\nï beautiful, natural outcomes"
                 },
                 {
                   "title": "CaHA (Calcium Hydroxyapatite)",
-                  "description": "Ideal for:\n‚Ä¢ jawline sculpting\n‚Ä¢ neck rejuvenation\n‚Ä¢ skin tightening\n‚Ä¢ improving texture + elasticity\nBenefits:\n‚Ä¢ strong collagen stimulation\n‚Ä¢ immediate firmness + lift\n‚Ä¢ exceptional for neck crepiness\n‚Ä¢ smoothes fine lines + texture\nCaHA is also used as a dilute ‚Äúskin strengthening‚Äù treatment for menopause-related thinning."
+                  "description": "Ideal for:\nï jawline sculpting\nï neck rejuvenation\nï skin tightening\nï improving texture + elasticity\nBenefits:\nï strong collagen stimulation\nï immediate firmness + lift\nï exceptional for neck crepiness\nï smoothes fine lines + texture\nCaHA is also used as a dilute ìskin strengtheningî treatment for menopause-related thinning."
                 }
               ],
               "footer": "Biostimulators outperform fillers for structural rejuvenation."
@@ -4462,11 +4462,11 @@ export const treatments = {
               "highlight": "Biostimulation",
               "content": [
                 "Clinical research shows biostimulators:",
-                "‚Ä¢ increase collagen types I & III",
-                "‚Ä¢ reorganise collagen fibres",
-                "‚Ä¢ increase dermal thickness",
-                "‚Ä¢ stimulate fibroblast proliferation",
-                "‚Ä¢ support long-term structural remodeling",
+                "ï increase collagen types I & III",
+                "ï reorganise collagen fibres",
+                "ï increase dermal thickness",
+                "ï stimulate fibroblast proliferation",
+                "ï support long-term structural remodeling",
                 "Aesthetic Surgery Journal (2023), JDD (2024) and Clinical Medicine (2024) all confirm: Biostimulators outperform fillers for structural rejuvenation."
               ]
             },
@@ -4478,19 +4478,19 @@ export const treatments = {
                   "description": "subtle firmness, improved contour (depending on product)"
                 },
                 {
-                  "title": "4‚Äì6 Weeks",
+                  "title": "4ñ6 Weeks",
                   "description": "early collagen activation, improved texture"
                 },
                 {
-                  "title": "8‚Äì12 Weeks",
+                  "title": "8ñ12 Weeks",
                   "description": "visible firmness, smoother contour, more lifted appearance"
                 },
                 {
-                  "title": "3‚Äì6 Months",
+                  "title": "3ñ6 Months",
                   "description": "peak collagen regeneration, structural improvement"
                 },
                 {
-                  "title": "18‚Äì36 Months",
+                  "title": "18ñ36 Months",
                   "description": "long-lasting results depending on product type"
                 }
               ]
@@ -4500,7 +4500,7 @@ export const treatments = {
               "items": [
                 {
                   "question": "How Many Sessions?",
-                  "answer": "ULANDA protocol:\nPLLA: 2‚Äì3 sessions, 6‚Äì8 weeks apart\nPDLLA: 1‚Äì2 sessions\nCaHA: 1‚Äì2 sessions depending on dilution\nMaintenance every 12‚Äì18 months."
+                  "answer": "ULANDA protocol:\nPLLA: 2ñ3 sessions, 6ñ8 weeks apart\nPDLLA: 1ñ2 sessions\nCaHA: 1ñ2 sessions depending on dilution\nMaintenance every 12ñ18 months."
                 }
               ]
             },
@@ -4593,7 +4593,7 @@ export const treatments = {
             "cta": {
               "title": "Restore Your Collagen.",
               "highlight": "Restore Your Confidence.",
-              "description": "Biostimulators are the cornerstone of natural, structural rejuvenation ‚Äî especially for midlife and menopausal women seeking long-term transformation.",
+              "description": "Biostimulators are the cornerstone of natural, structural rejuvenation ó especially for midlife and menopausal women seeking long-term transformation.",
               "buttonText": "Book Restore Consultation"
             }
           },
@@ -4606,14 +4606,14 @@ export const treatments = {
             "title": "Thread Lifts",
             "subtitle": "Restorative Lifting & Collagen Remodelling",
             "category": "Radiate",
-            "description": "The artistry of lifting without surgery‚Äîrestoring structure, contour and youthful support.",
+            "description": "The artistry of lifting without surgeryórestoring structure, contour and youthful support.",
             image: "https://images.unsplash.com/photo-1596944887702-d0a38db968c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhY2UlMjBsaWZ0fGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://images.unsplash.com/photo-1596944887702-d0a38db968c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhY2UlMjBsaWZ0fGVufDB8MXwwfHx8MA%3D%3D",
             "introduction": {
               "title": "What are Thread Lifts?",
               "content": [
-                "The artistry of lifting without surgery‚Äîrestoring structure, contour and youthful support.",
-                "Thread lifts are one of the most advanced non-surgical techniques for lifting, firming and redefining facial contours‚Äîwithout adding volume or altering your natural features."
+                "The artistry of lifting without surgeryórestoring structure, contour and youthful support.",
+                "Thread lifts are one of the most advanced non-surgical techniques for lifting, firming and redefining facial contoursówithout adding volume or altering your natural features."
               ],
               "goals": [
                 "Lift sagging skin",
@@ -4650,11 +4650,11 @@ export const treatments = {
                 {
                   "title": "Benefits",
                   "items": [
-                    "‚úî Gentle lift",
-                    "‚úî Improved firmness",
-                    "‚úî Collagen stimulation",
-                    "‚úî Refined contour",
-                    "‚úî Natural outcomes"
+                    "? Gentle lift",
+                    "? Improved firmness",
+                    "? Collagen stimulation",
+                    "? Refined contour",
+                    "? Natural outcomes"
                   ]
                 }
               ]
@@ -4667,15 +4667,15 @@ export const treatments = {
                   "description": "Visible lift, improved contour, defined jawline"
                 },
                 {
-                  "title": "4‚Äì6 Weeks",
+                  "title": "4ñ6 Weeks",
                   "description": "Collagen activation, firmer skin, smoother texture"
                 },
                 {
-                  "title": "8‚Äì12 Weeks",
+                  "title": "8ñ12 Weeks",
                   "description": "Peak lift, long-lasting definition"
                 },
                 {
-                  "title": "6‚Äì12 Months",
+                  "title": "6ñ12 Months",
                   "description": "Sustained collagen remodelling"
                 }
               ]
@@ -4695,10 +4695,10 @@ export const treatments = {
               "description": "Smooth fine lines & prevent wrinkles with precision Anti-Wrinkle Injections. ULANDA prioritises natural movement & refreshed results."
             },
             "seoHeadings": {
-              "h1": "Anti-Wrinkle Injections in Ware SG12 ‚Äî Natural, Refreshed Expression for All Life Stages",
+              "h1": "Anti-Wrinkle Injections in Ware SG12 ó Natural, Refreshed Expression for All Life Stages",
               "h2": [
                 "What Anti-Wrinkle Injections Treat",
-                "How They Work ‚Äî Muscle Relaxation & Expression Reset",
+                "How They Work ó Muscle Relaxation & Expression Reset",
                 "Anti-Wrinkle vs Threads vs Fillers",
                 "Menopause & Postpartum Considerations",
                 "Best Combinations",
@@ -4728,7 +4728,7 @@ export const treatments = {
             "introduction": {
               "title": "Smooth, Soft & Natural",
               "content": [
-                "ULANDA anti-wrinkle treatments are designed for harmony ‚Äî never heaviness.",
+                "ULANDA anti-wrinkle treatments are designed for harmony ó never heaviness.",
                 "At ULANDA, Anti-Wrinkle Injections are used as a precision tool to soften expression lines while maintaining natural movement.",
                 "This ensures smoother skin without freezing, flattening or changing your natural expression.",
                 "We use a hormone-aware, age-specific approach ideal for women in their mid-30s, 40s, 50s and beyond."
@@ -4764,15 +4764,15 @@ export const treatments = {
               "title": "Results Timeline",
               "items": [
                 {
-                  "title": "Day 3‚Äì5",
+                  "title": "Day 3ñ5",
                   "description": "Initial smoothing"
                 },
                 {
-                  "title": "Day 10‚Äì14",
+                  "title": "Day 10ñ14",
                   "description": "Full results"
                 },
                 {
-                  "title": "3‚Äì4 Months",
+                  "title": "3ñ4 Months",
                   "description": "Duration (varies by dose, muscle strength, lifestyle)"
                 }
               ]
@@ -4780,7 +4780,7 @@ export const treatments = {
             "cta": {
               "title": "Smooth. Soft. Natural.",
               "highlight": "Never Frozen.",
-              "description": "ULANDA Anti-Wrinkle Injections are designed to complement your regenerative journey ‚Äî enhancing expression while keeping every result refined, subtle and authentically you.",
+              "description": "ULANDA Anti-Wrinkle Injections are designed to complement your regenerative journey ó enhancing expression while keeping every result refined, subtle and authentically you.",
               "buttonText": "Book Anti-Wrinkle Consultation"
             }
           },
@@ -4794,7 +4794,7 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seoHeadings": {
-              "h1": "Dermal Fillers in Ware SG12 ‚Äî Natural, Balanced Enhancement",
+              "h1": "Dermal Fillers in Ware SG12 ó Natural, Balanced Enhancement",
               "h2": [
                 "Why Fillers Behave Differently in Midlife",
                 "Regeneration-First Philosophy: Structure Before Volume",
@@ -4825,7 +4825,7 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVybWFsJTIwZmlsbGVyc3xlbnwwfDF8MHx8fDA%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVybWFsJTIwZmlsbGVyc3xlbnwwfDF8MHx8fDA%3D",
             "category": "Restore",
-            "description": "Subtle volume ‚Ä¢ Contour refinement ‚Ä¢ Balance",
+            "description": "Subtle volume ï Contour refinement ï Balance",
             "introduction": {
               "title": "Natural Results Approach",
               "content": [
@@ -4835,7 +4835,7 @@ export const treatments = {
                 "Our philosophy is Regeneration-First:",
                 "1. We rebuild the skin's structure with biostimulators or energy devices.",
                 "2. We use Dermal Fillers only for what they do best: precise contouring, restoring deep volume loss, and refining shadows.",
-                "The result is a face that looks rested, lifted, and fresh ‚Äî never distorted."
+                "The result is a face that looks rested, lifted, and fresh ó never distorted."
               ],
               "goals": [
                 "Restores deep volume support",
@@ -4944,7 +4944,7 @@ export const treatments = {
                   "scaling": "product integrates fully with tissue (result softens)"
                 },
                 {
-                  "time": "6‚Äì12+ Months",
+                  "time": "6ñ12+ Months",
                   "scaling": "long-lasting enhancement (depending on product)"
                 }
               ]
@@ -4985,7 +4985,7 @@ export const treatments = {
                 },
                 {
                   "title": "Barely-There Results",
-                  "description": "We specialise in non-obvious results. ‚ÄúYou look refreshed ‚Äî but I can‚Äôt tell what you‚Äôve had done.‚Äù",
+                  "description": "We specialise in non-obvious results. ìYou look refreshed ó but I canít tell what youíve had done.î",
                   "icon": "smile"
                 }
               ]
@@ -4993,14 +4993,14 @@ export const treatments = {
             "cta": {
               "title": "Refresh.",
               "highlight": "Don't Change.",
-              "description": "Restoring volume should look like you, just fresher. Trust ULANDA‚Äôs natural approach.",
+              "description": "Restoring volume should look like you, just fresher. Trust ULANDAís natural approach.",
               "buttonText": "Book Fillers Consultation"
             }
           },
           "collagen-therapy": {
             "id": "collagen-therapy",
             "seoHeadings": {
-              "h1": "Collagen Therapy in Ware SG12 ‚Äî Rebuild Firmness & Density",
+              "h1": "Collagen Therapy in Ware SG12 ó Rebuild Firmness & Density",
               "h2": [
                 "Why You Lose Collagen in Midlife",
                 "Regenerative Science: How We Rebuild It",
@@ -5010,7 +5010,7 @@ export const treatments = {
             },
             "seo": {
               "title": "Collagen Therapy Ware SG12 | Restore Skin Architecture | ULANDA",
-              "description": "Rebuild lost collagen & restore skin firmness with ULANDA‚Äôs regenerative therapies. The foundation of long-term youthful skin structure."
+              "description": "Rebuild lost collagen & restore skin firmness with ULANDAís regenerative therapies. The foundation of long-term youthful skin structure."
             },
             "title": "Collagen Therapy",
             "highlight": "Restore Your Skin's Architecture",
@@ -5031,11 +5031,11 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1661578356704-903bacf893d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW4lMjB0aGVyYXB5fGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1661578356704-903bacf893d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW4lMjB0aGVyYXB5fGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Restore",
-            "description": "Rebuild ‚Ä¢ Strengthen ‚Ä¢ Firm",
+            "description": "Rebuild ï Strengthen ï Firm",
             "introduction": {
               "title": "Rebuilding, Not Just Filling",
               "content": [
-                "Your skin doesn't just need more volume ‚Äî it needs more collagen.",
+                "Your skin doesn't just need more volume ó it needs more collagen.",
                 "From the age of 30, we lose 1% of our collagen every year. During the first 5 years of menopause, we lose 30%.",
                 "This structural collapse leads to sagging, jowls, thinning skin, and hollowing.",
                 "Collagen Therapy at ULANDA isn't a single product. It is a regenerative philosophy.",
@@ -5086,7 +5086,7 @@ export const treatments = {
               "items": [
                 {
                   "title": "1. Biostimulators (PLLA/PDLLA/CaHA)",
-                  "description": "Injectable seeds that grow new structural collagen over 12‚Äì24 months."
+                  "description": "Injectable seeds that grow new structural collagen over 12ñ24 months."
                 },
                 {
                   "title": "2. Polynucleotides (PN)",
@@ -5109,7 +5109,7 @@ export const treatments = {
                 "Full Face: Global structural strengthening.",
                 "Cheeks & Midface: Restoring the 'triangle of youth'.",
                 "Lower Face: Preventing jowls and marionette lines.",
-                "Neck & D√©colletage: Thickening crepey skin.",
+                "Neck & DÈcolletage: Thickening crepey skin.",
                 "Hands: Restoring volume and hiding tendons/veins."
               ]
             },
@@ -5128,7 +5128,7 @@ export const treatments = {
               "title": "Results Timeline",
               "items": [
                 {
-                  "title": "Weeks 1‚Äì4",
+                  "title": "Weeks 1ñ4",
                   "description": "initial glow, skin quality repair"
                 },
                 {
@@ -5136,7 +5136,7 @@ export const treatments = {
                   "description": "visible firmness, thicker skin, lifting effect"
                 },
                 {
-                  "title": "Months 6‚Äì18",
+                  "title": "Months 6ñ18",
                   "description": "peak structural improvement (results last years)"
                 }
               ]
@@ -5211,8 +5211,8 @@ export const treatments = {
             "introduction": {
               "title": "What is Jawline Sculpting?",
               "content": [
-                "A defined jawline is not created with filler ‚Äî it is restored with regeneration.",
-                "ULANDA‚Äôs Jawline Shaping focuses on rebuilding the structural support that weakens with age, hormones, stress, and collagen decline."
+                "A defined jawline is not created with filler ó it is restored with regeneration.",
+                "ULANDAís Jawline Shaping focuses on rebuilding the structural support that weakens with age, hormones, stress, and collagen decline."
               ],
               "goals": [
                 "Lifted jawline",
@@ -5224,7 +5224,7 @@ export const treatments = {
             "cta": {
               "title": "Lift. Define.",
               "highlight": "Refine. Naturally.",
-              "description": "ULANDA Jawline Shaping restores the natural elegance of your lower face ‚Äî without heaviness, distortion or over-filling.",
+              "description": "ULANDA Jawline Shaping restores the natural elegance of your lower face ó without heaviness, distortion or over-filling.",
               "buttonText": "Book Jawline Consultation"
             },
             "idealFor": {
@@ -5249,10 +5249,10 @@ export const treatments = {
                 {
                   "title": "Benefits",
                   "items": [
-                    "‚úî Lifted contour",
-                    "‚úî No lateral bulk",
-                    "‚úî Soft angles",
-                    "‚úî Long-term structure"
+                    "? Lifted contour",
+                    "? No lateral bulk",
+                    "? Soft angles",
+                    "? Long-term structure"
                   ]
                 }
               ]
@@ -5273,7 +5273,7 @@ export const treatments = {
             "introduction": {
               "title": "What is Structural Lift?",
               "content": [
-                "The lower face and neck are the first to fall ‚Äî and the last to respond to superficial treatments.",
+                "The lower face and neck are the first to fall ó and the last to respond to superficial treatments.",
                 "This treatment is NOT a filler-heavy attempt to 'inflate' sagging skin. It uses threads, biostimulators, and PN to lift and rebuild."
               ],
               "goals": [
@@ -5286,7 +5286,7 @@ export const treatments = {
             "cta": {
               "title": "A Tighter Neck.",
               "highlight": "A Cleaner Jawline.",
-              "description": "ULANDA‚Äôs Neck & Lower Face Structural Lift is the most advanced regenerative protocol for powerful lifting with natural results.",
+              "description": "ULANDAís Neck & Lower Face Structural Lift is the most advanced regenerative protocol for powerful lifting with natural results.",
               "buttonText": "Book Neck & Lower Face Consultation"
             },
             "idealFor": {
@@ -5311,10 +5311,10 @@ export const treatments = {
                 {
                   "title": "Benefits",
                   "items": [
-                    "‚úî Lift instead of filling",
-                    "‚úî Collagen rebuilding",
-                    "‚úî Elasticity improvement",
-                    "‚úî Natural results"
+                    "? Lift instead of filling",
+                    "? Collagen rebuilding",
+                    "? Elasticity improvement",
+                    "? Natural results"
                   ]
                 }
               ]
@@ -5334,7 +5334,7 @@ export const treatments = {
               "description": "Tighten loose skin & improve texture with ULANDA's Body Tightening treatments. Non-surgical solutions for firmer, smoother body contours."
             },
             "seoHeadings": {
-              "h1": "Body Skin Tightening in Ware SG12 ‚Äî Lift, Firm & Regenerate Body Skin After Weight Change & Hormones",
+              "h1": "Body Skin Tightening in Ware SG12 ó Lift, Firm & Regenerate Body Skin After Weight Change & Hormones",
               "h2": [
                 "What It Treats",
                 "How RF & Collagen Therapy Work",
@@ -5367,12 +5367,12 @@ export const treatments = {
               "content": [
                 "Tightening the body in midlife requires more than \"fat reduction.\" It requires regeneration.",
                 "ULANDA Body Tightening is designed for women whose bodies are changing through:",
-                "‚Ä¢ perimenopause",
-                "‚Ä¢ menopause",
-                "‚Ä¢ weight fluctuation",
-                "‚Ä¢ postpartum changes",
-                "‚Ä¢ natural collagen decline",
-                "This treatment pathway focuses on lifting, firming, smoothing and strengthening the skin using regenerative science ‚Äî not invasive surgery or aggressive filler techniques.",
+                "ï perimenopause",
+                "ï menopause",
+                "ï weight fluctuation",
+                "ï postpartum changes",
+                "ï natural collagen decline",
+                "This treatment pathway focuses on lifting, firming, smoothing and strengthening the skin using regenerative science ó not invasive surgery or aggressive filler techniques.",
                 "Our approach restores body confidence through collagen rebuilding, skin thickening, elasticity improvement, contour refinement, and structural tightening, while respecting natural curves and hormonal changes."
               ],
               "goals": [
@@ -5413,12 +5413,12 @@ export const treatments = {
             "ingredients": {
               "title": "The ULANDA",
               "highlight": "Body Regeneration",
-              "titleSuffix": "Method‚Ñ¢",
+              "titleSuffix": "Methodô",
               "subtitle": "A multi-layer, structural approach designed for midlife bodies. ULANDA doesn't use a single treatment. We rebuild your skin using three tightening pillars:",
               "items": [
                 {
                   "title": "1. Collagen Biostimulators (PLLA, CaHA)",
-                  "description": "Deep Structural Tightening. Ideal for crepey arms, abdomen laxity, thigh/buttock softness. Rebuilds collagen from inside out (12‚Äì36 months)."
+                  "description": "Deep Structural Tightening. Ideal for crepey arms, abdomen laxity, thigh/buttock softness. Rebuilds collagen from inside out (12ñ36 months)."
                 },
                 {
                   "title": "2. RF & Regenerative Microneedling",
@@ -5448,7 +5448,7 @@ export const treatments = {
               "points": [
                 {
                   "title": "Upper Body",
-                  "description": "upper arms, triceps, chest, d√©colletage, bra-line area"
+                  "description": "upper arms, triceps, chest, dÈcolletage, bra-line area"
                 },
                 {
                   "title": "Midsection",
@@ -5473,19 +5473,19 @@ export const treatments = {
                   "scaling": "subtle firmness, improved texture"
                 },
                 {
-                  "time": "6‚Äì8 Weeks",
+                  "time": "6ñ8 Weeks",
                   "scaling": "tightening begins, elasticity improves"
                 },
                 {
-                  "time": "12‚Äì16 Weeks",
+                  "time": "12ñ16 Weeks",
                   "scaling": "visible smoothing, firmer tighter skin, reduced crepiness"
                 },
                 {
-                  "time": "3‚Äì6 Months",
+                  "time": "3ñ6 Months",
                   "scaling": "full collagen activation"
                 },
                 {
-                  "time": "12‚Äì36 Months",
+                  "time": "12ñ36 Months",
                   "scaling": "long-term regeneration (biostimulators)"
                 }
               ]
@@ -5538,7 +5538,7 @@ export const treatments = {
             "cta": {
               "title": "Tighter. Stronger.",
               "highlight": "Smoother. Confident.",
-              "description": "ULANDA Body Tightening restores firmness and elasticity naturally ‚Äî using regenerative science to support your midlife body, not fight it.",
+              "description": "ULANDA Body Tightening restores firmness and elasticity naturally ó using regenerative science to support your midlife body, not fight it.",
               "buttonText": "Book Body Consultation"
             }
           }
@@ -5557,7 +5557,7 @@ export const treatments = {
               "description": "Refine your shape with non-invasive Body Contouring. ULANDA targets stubborn areas to sculpt, define & enhance your natural silhouette."
             },
             "seoHeadings": {
-              "h1": "Body Contouring in Ware SG12 ‚Äî Sculpt, Smooth & Re-Define Postpartum & Midlife Bodies",
+              "h1": "Body Contouring in Ware SG12 ó Sculpt, Smooth & Re-Define Postpartum & Midlife Bodies",
               "h2": [
                 "What Body Contouring Treats",
                 "How It Works (Fat Reduction + Lymphatic Drainage)",
@@ -5588,10 +5588,10 @@ export const treatments = {
             "introduction": {
               "title": "Sculpt, Refine & Shape",
               "content": [
-                "Contouring at ULANDA is not about shrinking you ‚Äî it's about sculpting you.",
+                "Contouring at ULANDA is not about shrinking you ó it's about sculpting you.",
                 "At ULANDA, Body Contouring focuses on reshaping areas where fat persists despite exercise, nutrition and lifestyle changes.",
                 "Unlike fad treatments that promise dramatic change without substance, our approach is grounded in fat reduction science, hormone-aware weight distribution, body architecture mapping, regenerative skin tightening, and personalised metabolic balance.",
-                "Body Contouring here is body-positive, feminine, subtle, and regenerative ‚Äî not extreme."
+                "Body Contouring here is body-positive, feminine, subtle, and regenerative ó not extreme."
               ],
               "goals": [
                 "Reduce stubborn fat",
@@ -5651,13 +5651,13 @@ export const treatments = {
               "h1": "NAD+ IV Therapy in Ware SG12",
               "h2": [
                 "What NAD+ IV Treats (Fatigue, Brain Fog, Slow Metabolism, Ageing)",
-                "How NAD+ Works ‚Äî Mitochondria, Longevity Pathways & Repair",
+                "How NAD+ Works ó Mitochondria, Longevity Pathways & Repair",
                 "NAD+ IV vs Oral Supplements",
                 "Results Timeline (Energy, Focus, Metabolism)",
-                "Who NAD+ Is Ideal For (Menopause ‚Ä¢ Perimenopause ‚Ä¢ Burnout ‚Ä¢ Over 40)",
-                "NAD+ + Aesthetics ‚Äî Why Regeneration Needs Cellular Energy",
+                "Who NAD+ Is Ideal For (Menopause ï Perimenopause ï Burnout ï Over 40)",
+                "NAD+ + Aesthetics ó Why Regeneration Needs Cellular Energy",
                 "Linked Treatments (PN, Microneedling, Biostimulators)",
-                "Book NAD+ IV Therapy ‚Äî In Partnership with 360Medicx Harley Street"
+                "Book NAD+ IV Therapy ó In Partnership with 360Medicx Harley Street"
               ]
             },
             "title": "NAD+",
@@ -5684,7 +5684,7 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1683121409041-076759249d56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFkKyUyMGl2fGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1683121409041-076759249d56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFkKyUyMGl2fGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
-            "description": "Cellular Energy ‚Ä¢ Brain Function ‚Ä¢ Longevity ‚Ä¢ Metabolic Support",
+            "description": "Cellular Energy ï Brain Function ï Longevity ï Metabolic Support",
             "collaboration": {
               "partner": "360Medicx",
               "subtitle": "CQC Registered Harley Street Clinic",
@@ -5693,15 +5693,15 @@ export const treatments = {
                 "Medically Overseen",
                 "Clinician-Delivered"
               ],
-              "description": "ULANDA‚Äôs RADIATE Wellness IV & IM therapies are provided in collaboration with 360Medicx, a CQC-registered Harley Street medical clinic specialising in longevity, preventive medicine and advanced IV infusion therapy. This partnership ensures regulated, medically overseen, clinician-delivered care for every internal wellness service."
+              "description": "ULANDAís RADIATE Wellness IV & IM therapies are provided in collaboration with 360Medicx, a CQC-registered Harley Street medical clinic specialising in longevity, preventive medicine and advanced IV infusion therapy. This partnership ensures regulated, medically overseen, clinician-delivered care for every internal wellness service."
             },
             "introduction": {
               "title": "Introduction",
               "content": [
-                "Regeneration begins at the cellular level ‚Äî and NAD+ is at the heart of it.",
-                "Your energy, hormones, metabolism, clarity, skin regeneration and longevity all depend on one essential molecule: NAD+ ‚Äî the master coenzyme for energy, repair and cellular resilience.",
-                "By your mid-30s, NAD+ levels drop sharply ‚Äî up to 50% by age 40, and up to 80% by menopause ‚Äî affecting: chronic fatigue, brain fog, metabolism + weight, mood + stress tolerance, sleep quality, collagen formation, skin elasticity, inflammation, healing capacity.",
-                "ULANDA‚Äôs NAD+ IV Therapy ‚Äî delivered under the clinical governance of 360Medicx (CQC Registered Harley Street Clinic) ‚Äî restores NAD+ directly into the bloodstream for immediate cellular uptake and deep regenerative impact."
+                "Regeneration begins at the cellular level ó and NAD+ is at the heart of it.",
+                "Your energy, hormones, metabolism, clarity, skin regeneration and longevity all depend on one essential molecule: NAD+ ó the master coenzyme for energy, repair and cellular resilience.",
+                "By your mid-30s, NAD+ levels drop sharply ó up to 50% by age 40, and up to 80% by menopause ó affecting: chronic fatigue, brain fog, metabolism + weight, mood + stress tolerance, sleep quality, collagen formation, skin elasticity, inflammation, healing capacity.",
+                "ULANDAís NAD+ IV Therapy ó delivered under the clinical governance of 360Medicx (CQC Registered Harley Street Clinic) ó restores NAD+ directly into the bloodstream for immediate cellular uptake and deep regenerative impact."
               ],
               "goals": [
                 "Rapid cellular repair",
@@ -5722,18 +5722,18 @@ export const treatments = {
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
-              "title": "The Science of NAD+ ‚Äî",
+              "title": "The Science of NAD+ ó",
               "titleSuffix": "Simple, Clear, Powerful",
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
                 {
                   "title": "Energy (ATP Production)",
-                  "description": "Powers your mitochondria ‚Äî giving you stamina, focus and vitality."
+                  "description": "Powers your mitochondria ó giving you stamina, focus and vitality."
                 },
                 {
                   "title": "Longevity (Sirtuin Activation)",
-                  "description": "Switches on ‚Äúanti-ageing genes‚Äù responsible for DNA repair and inflammation control."
+                  "description": "Switches on ìanti-ageing genesî responsible for DNA repair and inflammation control."
                 },
                 {
                   "title": "Brain Function",
@@ -5773,7 +5773,7 @@ export const treatments = {
                 {
                   "title": "Client Experience",
                   "items": [
-                    "Clients often describe a feeling of ‚Äúreset, clarity and deep calm‚Äù within days."
+                    "Clients often describe a feeling of ìreset, clarity and deep calmî within days."
                   ]
                 }
               ]
@@ -5786,18 +5786,18 @@ export const treatments = {
               "items": [
                 {
                   "title": "Loading Phase (for depleted or first-time clients)",
-                  "description": "2 IVs per week √ó 2 weeks - restores depleted NAD+ stores."
+                  "description": "2 IVs per week ◊ 2 weeks - restores depleted NAD+ stores."
                 },
                 {
                   "title": "Stabilisation Phase",
-                  "description": "1 IV per week √ó 4 weeks - metabolic + cognitive optimisation."
+                  "description": "1 IV per week ◊ 4 weeks - metabolic + cognitive optimisation."
                 },
                 {
                   "title": "Maintenance",
-                  "description": "Every 2‚Äì4 weeks - longevity, clarity and vitality preserved."
+                  "description": "Every 2ñ4 weeks - longevity, clarity and vitality preserved."
                 }
               ],
-              "footer": "Sessions last 90‚Äì120 minutes, allowing a restorative, calming wellness experience for Hertfordshire women balancing work, family and midlife transitions. 360Medicx provides full medical assessment and dosing governance."
+              "footer": "Sessions last 90ñ120 minutes, allowing a restorative, calming wellness experience for Hertfordshire women balancing work, family and midlife transitions. 360Medicx provides full medical assessment and dosing governance."
             },
             "idealFor": {
               "title": "Who Benefits",
@@ -5856,8 +5856,8 @@ export const treatments = {
             "cta": {
               "title": "Elevate Your Energy.",
               "highlight": "Restore Your Clarity.",
-              "description": "Radiate From Within. ULANDA‚Äôs NAD+ IV Therapy ‚Äî delivered in clinical partnership with 360Medicx, a CQC-registered Harley Street Longevity Clinic ‚Äî supports your internal vitality, hormonal health and skin regeneration from the inside out. Because true beauty starts at the cellular level.",
-              "buttonText": "Book NAD+ Consultation (ULANDA √ó 360Medicx Harley Street)"
+              "description": "Radiate From Within. ULANDAís NAD+ IV Therapy ó delivered in clinical partnership with 360Medicx, a CQC-registered Harley Street Longevity Clinic ó supports your internal vitality, hormonal health and skin regeneration from the inside out. Because true beauty starts at the cellular level.",
+              "buttonText": "Book NAD+ Consultation (ULANDA ◊ 360Medicx Harley Street)"
             }
           },
           "glutathione-iv": {
@@ -5873,13 +5873,13 @@ export const treatments = {
               "description": "The ultimate antioxidant infusion. Glutathione IV brightens skin, reduces pigmentation & supports total body detoxification."
             },
             "seoHeadings": {
-              "h1": "Glutathione IV in Ware SG12 ‚Äî Brighten, Detox & Reduce Oxidative Stress",
+              "h1": "Glutathione IV in Ware SG12 ó Brighten, Detox & Reduce Oxidative Stress",
               "h2": [
                 "What Glutathione IV Treats (Pigmentation, Dullness, Toxin Load)",
-                "How Glutathione IV Works ‚Äî The Master Antioxidant",
+                "How Glutathione IV Works ó The Master Antioxidant",
                 "Glutathione IV vs Oral Glutathione",
                 "Linked Treatments (Peels, Skin Boosters, PN)",
-                "Book Glutathione IV ‚Äî Provided with 360Medicx Harley Street"
+                "Book Glutathione IV ó Provided with 360Medicx Harley Street"
               ]
             },
             "title": "Glutathione IV",
@@ -5905,7 +5905,7 @@ export const treatments = {
             image: "/assets/img/treatments/radiate/nurse-led-aesthetic-clinic-Ware-glutathione-IV_png.webp",
             placeholderUrl: "/assets/img/treatments/radiate/nurse-led-aesthetic-clinic-Ware-glutathione-IV_png.webp",
             "category": "Radiate",
-            "description": "Detox ‚Ä¢ Brighten ‚Ä¢ Regenerate",
+            "description": "Detox ï Brighten ï Regenerate",
             "collaboration": {
               "partner": "360Medicx",
               "subtitle": "CQC Registered Harley Street Longevity Clinic",
@@ -5914,14 +5914,14 @@ export const treatments = {
                 "Safety Protocols",
                 "Medical Oversight"
               ],
-              "description": "At ULANDA, all IV and IM therapies are delivered under the medical governance of 360Medicx ‚Äî Harley Street‚Äôs longevity and infusion therapy specialists."
+              "description": "At ULANDA, all IV and IM therapies are delivered under the medical governance of 360Medicx ó Harley Streetís longevity and infusion therapy specialists."
             },
             "introduction": {
               "title": "Introduction",
               "content": [
-                "Glutathione is the body‚Äôs master antioxidant ‚Äî a molecule essential for detoxification, cellular repair, immune strength, pigmentation control and long-term skin health.",
+                "Glutathione is the bodyís master antioxidant ó a molecule essential for detoxification, cellular repair, immune strength, pigmentation control and long-term skin health.",
                 "But stress, ageing, hormones (especially perimenopause/menopause), poor sleep and inflammation all rapidly deplete glutathione levels.",
-                "ULANDA‚Äôs Glutathione IV restores this vital antioxidant directly into your bloodstream for immediate, deep, systemic benefits that cannot be achieved through topical skincare or supplements alone."
+                "ULANDAís Glutathione IV restores this vital antioxidant directly into your bloodstream for immediate, deep, systemic benefits that cannot be achieved through topical skincare or supplements alone."
               ],
               "goals": [],
               "highlightBox": {
@@ -5933,7 +5933,7 @@ export const treatments = {
             },
             "internalSupport": {
               "title": "Why Glutathione IV Matters for",
-              "titleSuffix": "Women 35‚Äì65+",
+              "titleSuffix": "Women 35ñ65+",
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "points": [
@@ -5951,7 +5951,7 @@ export const treatments = {
                 },
                 {
                   "title": "Glutathione declines naturally with age",
-                  "description": "Natural stores drop by 30‚Äì40% after age 40."
+                  "description": "Natural stores drop by 30ñ40% after age 40."
                 },
                 {
                   "title": "It controls cellular detox & melanin regulation",
@@ -5960,14 +5960,14 @@ export const treatments = {
               ]
             },
             "ingredients": {
-              "title": "What‚Äôs",
+              "title": "Whatís",
               "highlight": "Inside",
               "titleSuffix": "the Glutathione IV",
               "subtitle": "A clinically prescribed blend delivered via slow IV infusion:",
               "items": [
                 {
                   "title": "Pure Glutathione (Reduced Form)",
-                  "description": "The biologically active ‚Äúmaster antioxidant‚Äù"
+                  "description": "The biologically active ìmaster antioxidantî"
                 },
                 {
                   "title": "Optional Add-Ons",
@@ -6025,7 +6025,7 @@ export const treatments = {
               ]
             },
             "ulandaConnection": {
-              "title": "The Ulanda Connection ‚Äî How Glutathione IV Supercharges All Skin Treatments",
+              "title": "The Ulanda Connection ó How Glutathione IV Supercharges All Skin Treatments",
               "subtitle": "How Glutathione IV Supercharges All Skin Treatments",
               "sections": [
                 {
@@ -6103,8 +6103,8 @@ export const treatments = {
             "cta": {
               "title": "Brighter. Clearer.",
               "highlight": "Healthier From Within.",
-              "description": "ULANDA‚Äôs Glutathione IV ‚Äî delivered through our partnership with 360Medicx, the CQC-registered Harley Street Longevity Clinic ‚Äî supports deep detoxification, clear glowing skin, and midlife vitality. Because your glow starts inside.",
-              "buttonText": "Book Glutathione IV (ULANDA √ó 360Medicx Harley Street)"
+              "description": "ULANDAís Glutathione IV ó delivered through our partnership with 360Medicx, the CQC-registered Harley Street Longevity Clinic ó supports deep detoxification, clear glowing skin, and midlife vitality. Because your glow starts inside.",
+              "buttonText": "Book Glutathione IV (ULANDA ◊ 360Medicx Harley Street)"
             }
           },
           "energy-iv": {
@@ -6120,7 +6120,7 @@ export const treatments = {
               "description": "Recharge with the classic Myers Cocktail. Packed with B vitamins, magnesium & amino acids to fight fatigue, boost metabolism & restore mental clarity."
             },
             "seoHeadings": {
-              "h1": "Myers Cocktail in Ware SG12 ‚Äî The Gold Standard for Fatigue & Low Mood",
+              "h1": "Myers Cocktail in Ware SG12 ó The Gold Standard for Fatigue & Low Mood",
               "h2": [
                 "What Myers Cocktail Treats",
                 "What's Inside the Infusion",
@@ -6128,7 +6128,7 @@ export const treatments = {
                 "Menopause & Postpartum Fatigue",
                 "Myers Cocktail + Regenerative Skin Plan",
                 "Linked Conditions (Low Energy, Stress Skin, Dullness)",
-                "Book Myers Cocktail ‚Äî Partnered with 360Medicx Harley Street"
+                "Book Myers Cocktail ó Partnered with 360Medicx Harley Street"
               ]
             },
             "title": "Myers Cocktail",
@@ -6155,7 +6155,7 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1683121005130-ca80485aaf1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aXYlMjBkcmlwfGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1683121005130-ca80485aaf1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aXYlMjBkcmlwfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
-            "description": "Metabolic Reset ‚Ä¢ Fatigue Recovery ‚Ä¢ Hormone Support ‚Ä¢ Mitochondrial Boost",
+            "description": "Metabolic Reset ï Fatigue Recovery ï Hormone Support ï Mitochondrial Boost",
             "collaboration": {
               "partner": "360Medicx",
               "subtitle": "CQC Registered Harley Street Longevity Clinic",
@@ -6164,26 +6164,26 @@ export const treatments = {
                 "Prescribing",
                 "Clinical Safety"
               ],
-              "description": "ULANDA‚Äôs RADIATE IV & IM therapies are provided in collaboration with 360Medicx, a CQC-registered Harley Street medical clinic specialising in longevity, preventive medicine and advanced IV infusions. This ensures that every Energy IV treatment is clinician-delivered, medically overseen, and CQC-governed."
+              "description": "ULANDAís RADIATE IV & IM therapies are provided in collaboration with 360Medicx, a CQC-registered Harley Street medical clinic specialising in longevity, preventive medicine and advanced IV infusions. This ensures that every Energy IV treatment is clinician-delivered, medically overseen, and CQC-governed."
             },
             "introduction": {
               "title": "Introduction",
               "content": [
                 "When energy drops, life feels heavier. This is your reset.",
                 "Whether due to stress, hormones, work, parenting, chronic fatigue, burnout or perimenopause, many women experience: low stamina, constant tiredness, mental heaviness, difficulty concentrating, slow metabolism, reliance on caffeine, broken sleep, low motivation, afternoon crashes",
-                "ULANDA‚Äôs Energy IV Drip, delivered under the medical oversight of 360Medicx, floods your body with high-dose vitamins, essential minerals, metabolic co-factors and hydration ‚Äî restoring optimal biochemical function and lifting you out of fatigue."
+                "ULANDAís Energy IV Drip, delivered under the medical oversight of 360Medicx, floods your body with high-dose vitamins, essential minerals, metabolic co-factors and hydration ó restoring optimal biochemical function and lifting you out of fatigue."
               ],
               "goals": [
-                "Stable, clean, clear energy ‚Äî No jittery highs",
-                "Mental clarity & focus ‚Äî Enhanced concentration, alertness and productivity",
-                "Improved mood & stress resilience ‚Äî Nervous system support",
-                "Reduced inflammation ‚Äî Antioxidant and micronutrient support",
-                "Metabolic activation ‚Äî Supports glucose utilisation, fat metabolism & mitochondrial function",
-                "Better skin & hair vitality ‚Äî Improved nutrient availability",
-                "Superior hydration ‚Äî IV delivery restores deep cellular hydration"
+                "Stable, clean, clear energy ó No jittery highs",
+                "Mental clarity & focus ó Enhanced concentration, alertness and productivity",
+                "Improved mood & stress resilience ó Nervous system support",
+                "Reduced inflammation ó Antioxidant and micronutrient support",
+                "Metabolic activation ó Supports glucose utilisation, fat metabolism & mitochondrial function",
+                "Better skin & hair vitality ó Improved nutrient availability",
+                "Superior hydration ó IV delivery restores deep cellular hydration"
               ],
               "highlightBox": {
-                "text1": "This is not a ‚Äúquick pick-me-up.‚Äù",
+                "text1": "This is not a ìquick pick-me-up.î",
                 "text2": "This is cellular-level energy regeneration."
               },
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -6218,7 +6218,7 @@ export const treatments = {
               ]
             },
             "ingredients": {
-              "title": "What‚Äôs",
+              "title": "Whatís",
               "highlight": "Inside",
               "titleSuffix": "the Energy IV",
               "subtitle": "A clinically formulated blend designed for mitochondrial support, stress recovery and metabolic function:",
@@ -6324,8 +6324,8 @@ export const treatments = {
             "cta": {
               "title": "Recharge Your Energy.",
               "highlight": "Revive Your Mind.",
-              "description": "Restore Your Balance. ULANDA‚Äôs Energy IV Drip ‚Äî delivered in clinical collaboration with 360Medicx ‚Äî gives your cells the nutrients they need to lift fatigue, clear the mind, and restore natural vitality. This is energy that lasts ‚Äî powered by science.",
-              "buttonText": "Book Energy IV Consultation (ULANDA √ó 360Medicx Harley Street)"
+              "description": "Restore Your Balance. ULANDAís Energy IV Drip ó delivered in clinical collaboration with 360Medicx ó gives your cells the nutrients they need to lift fatigue, clear the mind, and restore natural vitality. This is energy that lasts ó powered by science.",
+              "buttonText": "Book Energy IV Consultation (ULANDA ◊ 360Medicx Harley Street)"
             }
           },
           "immunity-iv": {
@@ -6341,13 +6341,13 @@ export const treatments = {
               "description": "Strengthen your immune system, speed up recovery & restore resilience with our clinician-delivered Immune Resilience Support IV Drip. In partnership with 360Medicx Harley Street."
             },
             "seoHeadings": {
-              "h1": "Immune Resilience Support IV Drip in Ware SG12 ‚Äî Strengthen, Defend & Recover",
+              "h1": "Immune Resilience Support IV Drip in Ware SG12 ó Strengthen, Defend & Recover",
               "h2": [
                 "What Immune Resilience Support IV Treats (Recurrent Infections, Low Immunity)",
                 "What's Inside (High-Dose Vitamin C, Zinc, B-Complex)",
                 "Immunity in Perimenopause & Postpartum",
                 "Why IV Immunity is Stronger Than Supplements",
-                "Book Immune Resilience Support IV ‚Äî With 360Medicx Harley Street"
+                "Book Immune Resilience Support IV ó With 360Medicx Harley Street"
               ]
             },
             "title": "Immune Resilience",
@@ -6374,7 +6374,7 @@ export const treatments = {
             image: "https://images.unsplash.com/photo-1577746838851-816a43ca8733?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpdGFtaW4lMjBjfGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://images.unsplash.com/photo-1577746838851-816a43ca8733?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpdGFtaW4lMjBjfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Radiate",
-            "description": "Strengthen ‚Ä¢ Defend ‚Ä¢ Recover ‚Ä¢ Restore",
+            "description": "Strengthen ï Defend ï Recover ï Restore",
             "collaboration": {
               "partner": "360Medicx",
               "subtitle": "CQC Registered Harley Street Clinic",
@@ -6383,12 +6383,12 @@ export const treatments = {
                 "Clinician-Delivered",
                 "Safety-Governed"
               ],
-              "description": "ULANDA‚Äôs RADIATE Wellness IV & IM therapies are provided in collaboration with 360Medicx, a CQC-regulated Harley Street medical clinic specialising in longevity, immune optimisation and advanced IV infusion therapy. This ensures your Immune IV is clinician-delivered, medically overseen and safety-governed under UK clinical standards."
+              "description": "ULANDAís RADIATE Wellness IV & IM therapies are provided in collaboration with 360Medicx, a CQC-regulated Harley Street medical clinic specialising in longevity, immune optimisation and advanced IV infusion therapy. This ensures your Immune IV is clinician-delivered, medically overseen and safety-governed under UK clinical standards."
             },
             "introduction": {
               "title": "Introduction",
               "content": [
-                "Your immunity is not just a defence system ‚Äî it is your body‚Äôs frontline regenerative engine.",
+                "Your immunity is not just a defence system ó it is your bodyís frontline regenerative engine.",
                 "Modern life, seasonal viruses, chronic stress, poor sleep, perimenopause, and even aesthetic recovery all place demands on your immune system that supplements alone cannot fill.",
                 "The ULANDA Immune Resilience Support IV Drip, delivered under full medical oversight of 360Medicx, provides high-dose vitamins, minerals, antioxidants and hydration directly into your bloodstream to strengthen immune resilience from the inside out."
               ],
@@ -6402,8 +6402,8 @@ export const treatments = {
                 "Hormone-aware immune support"
               ],
               "highlightBox": {
-                "text1": "This isn‚Äôt a ‚Äúquick boost.‚Äù",
-                "text2": "It‚Äôs a biological upgrade to your immune function, energy, recovery and inflammatory balance."
+                "text1": "This isnít a ìquick boost.î",
+                "text2": "Itís a biological upgrade to your immune function, energy, recovery and inflammatory balance."
               },
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -6414,7 +6414,7 @@ export const treatments = {
                 {
                   "title": "Stronger immune defence",
                   "items": [
-                    "Supporting your body‚Äôs ability to fight infection"
+                    "Supporting your bodyís ability to fight infection"
                   ]
                 },
                 {
@@ -6475,7 +6475,7 @@ export const treatments = {
                 },
                 {
                   "title": "Rapid results",
-                  "description": "Many clients feel clearer, lighter, and stronger within 24‚Äì48 hours."
+                  "description": "Many clients feel clearer, lighter, and stronger within 24ñ48 hours."
                 },
                 {
                   "title": "Fully personalised",
@@ -6488,7 +6488,7 @@ export const treatments = {
               ]
             },
             "ingredients": {
-              "title": "What‚Äôs",
+              "title": "Whatís",
               "highlight": "Inside",
               "titleSuffix": "the Immune Resilience Support IV",
               "subtitle": "Our clinically formulated Immune Resilience Support IV contains a powerful combination of:",
@@ -6595,7 +6595,7 @@ export const treatments = {
                 },
                 {
                   "title": "Comfort & Safety",
-                  "description": "Slow-infused for comfort and safety. Customised to your immune status and lifestyle. Sessions last 45‚Äì60 minutes.",
+                  "description": "Slow-infused for comfort and safety. Customised to your immune status and lifestyle. Sessions last 45ñ60 minutes.",
                   "icon": "prescribed"
                 }
               ]
@@ -6603,8 +6603,8 @@ export const treatments = {
             "cta": {
               "title": "Strengthen Your Defence.",
               "highlight": "Boost Your Energy.",
-              "description": "Protect Your Wellness. ULANDA‚Äôs Immune Resilience Support IV Therapy ‚Äî powered by our clinical collaboration with 360Medicx, the CQC-registered Harley Street Longevity Clinic ‚Äî restores immune balance, reduces inflammation and supports your recovery from the inside out. Because resilience is the foundation of radiance.",
-              "buttonText": "Book Immune Resilience Support IV Consultation (ULANDA √ó 360Medicx Harley Street)"
+              "description": "Protect Your Wellness. ULANDAís Immune Resilience Support IV Therapy ó powered by our clinical collaboration with 360Medicx, the CQC-registered Harley Street Longevity Clinic ó restores immune balance, reduces inflammation and supports your recovery from the inside out. Because resilience is the foundation of radiance.",
+              "buttonText": "Book Immune Resilience Support IV Consultation (ULANDA ◊ 360Medicx Harley Street)"
             }
           },
           "womens-longevity-iv": {
@@ -6622,13 +6622,13 @@ export const treatments = {
               "description": "Targeted IV therapy for women's longevity. Supports hormonal balance, energy & skin health during perimenopause & menopause."
             },
             "seoHeadings": {
-              "h1": "Hormone Harmony IV in Ware SG12 ‚Äî Hormone-Smart Energy, Skin & Metabolism Support",
+              "h1": "Hormone Harmony IV in Ware SG12 ó Hormone-Smart Energy, Skin & Metabolism Support",
               "h2": [
                 "What This Infusion Treats (Menopause, Perimenopause, Stress Ageing)",
                 "Why Hormonal Skin Responds Better to IV Support",
                 "Who This Is Ideal For",
                 "IV + Aesthetics (Radiate - Restore - Renew Pathway)",
-                "Book Hormone Harmony IV ‚Äî Via 360Medicx Harley Street"
+                "Book Hormone Harmony IV ó Via 360Medicx Harley Street"
               ]
             },
             "title": "Hormone Harmony",
@@ -6695,7 +6695,7 @@ export const treatments = {
               "Hertfordshire"
             ],
             "category": "Radiate",
-            "description": "Hormone Support ‚Ä¢ Energy ‚Ä¢ Metabolism ‚Ä¢ Skin Repair",
+            "description": "Hormone Support ï Energy ï Metabolism ï Skin Repair",
             "collaboration": {
               "partner": "360Medicx",
               "subtitle": "CQC Registered Harley Street Longevity Clinic",
@@ -6704,13 +6704,13 @@ export const treatments = {
                 "Prescribing",
                 "Hormone-led infusion protocols"
               ],
-              "description": "ULANDA‚Äôs Women‚Äôs Longevity IV is co-designed and clinically delivered under the governance of 360Medicx, Harley Street specialists in women‚Äôs metabolic, hormonal and preventive health."
+              "description": "ULANDAís Womenís Longevity IV is co-designed and clinically delivered under the governance of 360Medicx, Harley Street specialists in womenís metabolic, hormonal and preventive health."
             },
             "introduction": {
               "title": "Introduction",
               "content": [
-                "Midlife changes everything ‚Äî energy, hormones, metabolism, sleep, mood, skin, stress resilience and cellular repair.",
-                "The Women‚Äôs Longevity IV is ULANDA‚Äôs most advanced internal treatment designed specifically for perimenopause, menopause, postpartum recovery, midlife stress & burnout, metabolic resistance, hormonal depletion, chronic fatigue, and slow regeneration.",
+                "Midlife changes everything ó energy, hormones, metabolism, sleep, mood, skin, stress resilience and cellular repair.",
+                "The Womenís Longevity IV is ULANDAís most advanced internal treatment designed specifically for perimenopause, menopause, postpartum recovery, midlife stress & burnout, metabolic resistance, hormonal depletion, chronic fatigue, and slow regeneration.",
                 "It delivers a comprehensive blend of vitamins, minerals, antioxidants and amino acids that support hormone regulation, cellular energy production, detoxification and collagen repair."
               ],
               "goals": [
@@ -6725,13 +6725,13 @@ export const treatments = {
               ],
               "highlightBox": {
                 "text1": "This is not just an IV.",
-                "text2": "It is the internal engine behind ULANDA‚Äôs regeneration philosophy."
+                "text2": "It is the internal engine behind ULANDAís regeneration philosophy."
               },
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "internalSupport": {
-              "title": "Why Women 35‚Äì65 Need a",
+              "title": "Why Women 35ñ65 Need a",
               "titleSuffix": "Longevity IV",
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -6759,7 +6759,7 @@ export const treatments = {
               ]
             },
             "ingredients": {
-              "title": "What‚Äôs",
+              "title": "Whatís",
               "highlight": "Inside",
               "titleSuffix": "the Longevity IV",
               "subtitle": "Clinically tailored formulation may include:",
@@ -6803,7 +6803,7 @@ export const treatments = {
               ]
             },
             "ulandaConnection": {
-              "title": "The Ulanda Connection ‚Äî How the Longevity IV Supercharges Refresh, Renew & Restore",
+              "title": "The Ulanda Connection ó How the Longevity IV Supercharges Refresh, Renew & Restore",
               "subtitle": "This section cements Radiate as the core of the ecosystem.",
               "sections": [
                 {
@@ -6868,13 +6868,13 @@ export const treatments = {
               ]
             },
             "localSeo": {
-              "content": "Women‚Äôs Longevity IV available in: Ware (SG12), Hertford, Broxbourne, Hoddesdon, Great Amwell, Stanstead Abbotts, Hunsdon, Much Hadham, Brickendon, and neighbouring Hertfordshire villages."
+              "content": "Womenís Longevity IV available in: Ware (SG12), Hertford, Broxbourne, Hoddesdon, Great Amwell, Stanstead Abbotts, Hunsdon, Much Hadham, Brickendon, and neighbouring Hertfordshire villages."
             },
             "cta": {
               "title": "A New Era of",
-              "highlight": "Women‚Äôs Health",
-              "description": "Starts Here. ULANDA‚Äôs Women‚Äôs Longevity IV ‚Äî powered by 360Medicx ‚Äî is the ultimate midlife internal regeneration therapy. For women who want to thrive, not just cope, through hormonal change.",
-              "buttonText": "Book Women‚Äôs Longevity IV"
+              "highlight": "Womenís Health",
+              "description": "Starts Here. ULANDAís Womenís Longevity IV ó powered by 360Medicx ó is the ultimate midlife internal regeneration therapy. For women who want to thrive, not just cope, through hormonal change.",
+              "buttonText": "Book Womenís Longevity IV"
             }
           },
           "vitamin-b12-im": {
@@ -6892,13 +6892,13 @@ export const treatments = {
               "description": "Combat fatigue & brain fog with a Vitamin B12 Injection. A quick, effective boost for energy levels, mood & metabolism."
             },
             "seoHeadings": {
-              "h1": "Vitamin B12 Injection in Ware SG12 ‚Äî Energy, Metabolism & Cognitive Support",
+              "h1": "Vitamin B12 Injection in Ware SG12 ó Energy, Metabolism & Cognitive Support",
               "h2": [
                 "Symptoms of B12 Depletion",
                 "Why B12 IM Works Faster",
                 "Postpartum + Menopause Fatigue Link",
                 "Linked Skin Improvements",
-                "Book B12 IM ‚Äî Delivered by 360Medicx Harley Street"
+                "Book B12 IM ó Delivered by 360Medicx Harley Street"
               ]
             },
             "title": "Vitamin B12",
@@ -6926,7 +6926,7 @@ export const treatments = {
                   "title": "COGNITION & NERVOUS SYSTEM",
                   "items": [
                     "Improved focus and mental clarity",
-                    "Reduction in ‚Äúbrain fog‚Äù",
+                    "Reduction in ìbrain fogî",
                     "Enhanced memory and concentration"
                   ]
                 },
@@ -6963,7 +6963,7 @@ export const treatments = {
               "Hertfordshire"
             ],
             "category": "Radiate",
-            "description": "Energy ‚Ä¢ Cognition ‚Ä¢ Metabolism ‚Ä¢ Hormone Support",
+            "description": "Energy ï Cognition ï Metabolism ï Hormone Support",
             "collaboration": {
               "partner": "360Medicx",
               "subtitle": "CQC Registered Harley Street Longevity Clinic",
@@ -6972,13 +6972,13 @@ export const treatments = {
                 "Protocols",
                 "Medical Oversight"
               ],
-              "description": "ULANDA‚Äôs RADIATE Vitamin B12 injections are delivered under the medical governance of 360Medicx, our Harley Street longevity partner specialising in metabolic optimisation, hormone balance and IV/IM therapies."
+              "description": "ULANDAís RADIATE Vitamin B12 injections are delivered under the medical governance of 360Medicx, our Harley Street longevity partner specialising in metabolic optimisation, hormone balance and IV/IM therapies."
             },
             "introduction": {
               "title": "Introduction",
               "content": [
                 "Vitamin B12 is one of the most essential nutrients for energy production, nervous system function, mood regulation, cognitive clarity, red blood cell production and metabolic efficiency.",
-                "Yet deficiencies are extremely common ‚Äî especially in women aged 30‚Äì65 due to stress, hormonal shifts, gut absorption issues, dietary changes, perimenopause and menopause, and increased metabolic demand.",
+                "Yet deficiencies are extremely common ó especially in women aged 30ñ65 due to stress, hormonal shifts, gut absorption issues, dietary changes, perimenopause and menopause, and increased metabolic demand.",
                 "A B12 IM booster bypasses digestion and delivers an instant, high-absorption dose that recharges your mind, metabolism and overall vitality."
               ],
               "goals": [
@@ -6987,12 +6987,12 @@ export const treatments = {
                 "Improved mood and emotional regulation",
                 "Better stress resilience",
                 "Improved focus and mental clarity",
-                "Reduction in ‚Äúbrain fog‚Äù",
+                "Reduction in ìbrain fogî",
                 "Supports fat metabolism",
                 "Supports collagen formation"
               ],
               "highlightBox": {
-                "text1": "It forms a core part of ULANDA‚Äôs RADIATE Internal Wellness pathway.",
+                "text1": "It forms a core part of ULANDAís RADIATE Internal Wellness pathway.",
                 "text2": "The foundation supporting REFRESH, RENEW and RESTORE."
               },
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -7027,7 +7027,7 @@ export const treatments = {
               ]
             },
             "ingredients": {
-              "title": "What‚Äôs",
+              "title": "Whatís",
               "highlight": "Inside",
               "titleSuffix": "the Vitamin B12 IM",
               "subtitle": "Formulation is chosen during your clinical consultation:",
@@ -7038,7 +7038,7 @@ export const treatments = {
                 },
                 {
                   "title": "OR Hydroxocobalamin",
-                  "description": "Long-acting clinical form ‚Äî depending on your needs."
+                  "description": "Long-acting clinical form ó depending on your needs."
                 }
               ],
               "footer": "A B12 IM booster is one of the fastest ways to restore energy, clarity and metabolic balance."
@@ -7061,7 +7061,7 @@ export const treatments = {
               "subtitle": "How B12 Boosts All Skin & Regenerative Treatments",
               "sections": [
                 {
-                  "title": "1. REFRESH ‚Äî Facials, Chemical Peels, BioRePeel, LED",
+                  "title": "1. REFRESH ó Facials, Chemical Peels, BioRePeel, LED",
                   "description": "B12 enhances:",
                   "points": [
                     "Skin recovery after peels",
@@ -7074,7 +7074,7 @@ export const treatments = {
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
-                  "title": "2. RENEW ‚Äî PN, PRP, Microneedling, Skin Boosters",
+                  "title": "2. RENEW ó PN, PRP, Microneedling, Skin Boosters",
                   "description": "B12 is essential for:",
                   "points": [
                     "DNA synthesis - stronger PN & PRP response",
@@ -7087,7 +7087,7 @@ export const treatments = {
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 },
                 {
-                  "title": "3. RESTORE ‚Äî Biostimulators, Threads, Natural Fillers",
+                  "title": "3. RESTORE ó Biostimulators, Threads, Natural Fillers",
                   "description": "B12 improves structural outcomes by:",
                   "points": [
                     "Supporting fibroblast activity",
@@ -7124,7 +7124,7 @@ export const treatments = {
             "cta": {
               "title": "Energy You Can Feel.",
               "highlight": "Clarity You Can See.",
-              "description": "Glow That Starts Within. ULANDA‚Äôs Vitamin B12 IM ‚Äî in partnership with 360Medicx ‚Äî restores energy, cognitive clarity and metabolic balance, supporting your skin and body at every stage of midlife.",
+              "description": "Glow That Starts Within. ULANDAís Vitamin B12 IM ó in partnership with 360Medicx ó restores energy, cognitive clarity and metabolic balance, supporting your skin and body at every stage of midlife.",
               "buttonText": "Book Vitamin B12 IM"
             }
           },
@@ -7141,10 +7141,10 @@ export const treatments = {
               "description": "Master antioxidant injection for detox, radiance, liver support and skin brightening. ULANDA Glutathione IM boosts cellular health from within."
             },
             "seoHeadings": {
-              "h1": "Glutathione IM Injection in Ware SG12 ‚Äî Master Antioxidant for Detox, Radiance & Liver Support",
+              "h1": "Glutathione IM Injection in Ware SG12 ó Master Antioxidant for Detox, Radiance & Liver Support",
               "h2": [
                 "What Glutathione IM Does",
-                "How It Works ‚Äî Cellular Detox & Oxidative Defence",
+                "How It Works ó Cellular Detox & Oxidative Defence",
                 "Skin Brightening & Pigmentation",
                 "Menopause & Postpartum Considerations",
                 "Best Combinations",
@@ -7176,7 +7176,7 @@ export const treatments = {
               "content": [
                 "ULANDA Glutathione IM delivers the body's master antioxidant directly into your system for maximum absorption.",
                 "Glutathione is essential for detoxification, liver function, immune support and skin radiance.",
-                "This treatment supports those recovering from hormonal stress, environmental toxin exposure or metabolic strain ‚Äî especially during midlife transitions."
+                "This treatment supports those recovering from hormonal stress, environmental toxin exposure or metabolic strain ó especially during midlife transitions."
               ],
               "goals": [
                 "Cellular detoxification",
@@ -7214,11 +7214,11 @@ export const treatments = {
                   "description": "Improved energy and clarity"
                 },
                 {
-                  "title": "1‚Äì2 Weeks",
+                  "title": "1ñ2 Weeks",
                   "description": "Visible skin brightening"
                 },
                 {
-                  "title": "4‚Äì6 Weeks",
+                  "title": "4ñ6 Weeks",
                   "description": "Cumulative detox and radiance benefits"
                 }
               ]
@@ -7226,7 +7226,7 @@ export const treatments = {
             "cta": {
               "title": "Detox From Within.",
               "highlight": "Glow on the Outside.",
-              "description": "ULANDA's Glutathione IM supports your body's natural detoxification and skin brightness from the cellular level ‚Äî ideal for midlife wellness and regenerative care.",
+              "description": "ULANDA's Glutathione IM supports your body's natural detoxification and skin brightness from the cellular level ó ideal for midlife wellness and regenerative care.",
               "buttonText": "Book Glutathione IM"
             }
           },
@@ -7243,10 +7243,10 @@ export const treatments = {
               "description": "Restore Vitamin D levels with direct IM injection. ULANDA Vitamin D IM supports bone health, mood stability, immune function and hormonal balance."
             },
             "seoHeadings": {
-              "h1": "Vitamin D IM Injection in Ware SG12 ‚Äî Essential Support for Bones, Mood & Immunity",
+              "h1": "Vitamin D IM Injection in Ware SG12 ó Essential Support for Bones, Mood & Immunity",
               "h2": [
                 "What Vitamin D IM Does",
-                "How It Works ‚Äî Direct Absorption & Hormonal Support",
+                "How It Works ó Direct Absorption & Hormonal Support",
                 "Menopause & Postpartum Considerations",
                 "Best Combinations",
                 "Conditions Treated",
@@ -7275,7 +7275,7 @@ export const treatments = {
             "introduction": {
               "title": "Restore Your Sunshine Vitamin",
               "content": [
-                "ULANDA Vitamin D IM provides direct, high-absorption delivery of Vitamin D ‚Äî essential for bone health, mood stability and immune function.",
+                "ULANDA Vitamin D IM provides direct, high-absorption delivery of Vitamin D ó essential for bone health, mood stability and immune function.",
                 "Vitamin D deficiency is extremely common, especially in the UK, and becomes more pronounced during perimenopause, menopause and postpartum recovery.",
                 "This treatment supports those with low levels, seasonal depression risk or those preparing for regenerative treatments that require optimal nutrient status."
               ],
@@ -7311,11 +7311,11 @@ export const treatments = {
               "title": "Results Timeline",
               "items": [
                 {
-                  "title": "1‚Äì2 Weeks",
+                  "title": "1ñ2 Weeks",
                   "description": "Improved energy and mood"
                 },
                 {
-                  "title": "4‚Äì6 Weeks",
+                  "title": "4ñ6 Weeks",
                   "description": "Optimal levels restored"
                 },
                 {
@@ -7327,7 +7327,7 @@ export const treatments = {
             "cta": {
               "title": "Essential Support.",
               "highlight": "Optimal Wellness.",
-              "description": "ULANDA's Vitamin D IM restores essential nutrient levels to support your bones, mood and immune system ‚Äî especially important during midlife transitions.",
+              "description": "ULANDA's Vitamin D IM restores essential nutrient levels to support your bones, mood and immune system ó especially important during midlife transitions.",
               "buttonText": "Book Vitamin D IM"
             }
           },
@@ -7345,14 +7345,14 @@ export const treatments = {
               "description": "A medically supervised metabolic reset programme for midlife weight changes, hormonal balance & body confidence. In partnership with 360Medicx Harley Street."
             },
             "seoHeadings": {
-              "h1": "Integrated Weight Management Support in Ware SG12 ‚Äî Hormone-Smart Metabolic Reset",
+              "h1": "Integrated Weight Management Support in Ware SG12 ó Hormone-Smart Metabolic Reset",
               "h2": [
                 "What the Programme Treats (Menopause Weight, Insulin Resistance)",
                 "Why Midlife Weight Gain is Hormonal",
                 "GLP-1 & Metabolic Medication Support",
                 "The 6-Step Clinical Pathway",
                 "Integrating Weight Loss with Skin & Body Contouring",
-                "Book Integrated Weight Management Support ‚Äî With 360Medicx Harley Street"
+                "Book Integrated Weight Management Support ó With 360Medicx Harley Street"
               ]
             },
             "title": "Integrated Weight",
@@ -7378,7 +7378,7 @@ export const treatments = {
             image: "https://images.unsplash.com/photo-1470167290877-7d5d3446de4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VpZ2h0JTIwbG9zc3xlbnwwfDF8MHx8fDA%3D",
             placeholderUrl: "https://images.unsplash.com/photo-1470167290877-7d5d3446de4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VpZ2h0JTIwbG9zc3xlbnwwfDF8MHx8fDA%3D",
             "category": "Radiate",
-            "description": "Metabolic Reset ‚Ä¢ Hormone Support ‚Ä¢ Body Confidence",
+            "description": "Metabolic Reset ï Hormone Support ï Body Confidence",
             "collaboration": {
               "partner": "360Medicx",
               "subtitle": "CQC Registered Harley Street Longevity Clinic",
@@ -7387,13 +7387,13 @@ export const treatments = {
                 "Medical Oversight",
                 "Safety-Driven Protocols"
               ],
-              "description": "ULANDA‚Äôs Medical Weight Management programme is delivered under full medical governance through 360Medicx, Harley Street specialists in metabolic medicine, longevity and women‚Äôs hormonal health."
+              "description": "ULANDAís Medical Weight Management programme is delivered under full medical governance through 360Medicx, Harley Street specialists in metabolic medicine, longevity and womenís hormonal health."
             },
             "introduction": {
               "title": "Introduction",
               "content": [
-                "Weight changes in midlife are not about willpower ‚Äî they‚Äôre about hormones, metabolism, stress, inflammation, sleep and cellular signalling.",
-                "ULANDA‚Äôs Medical Weight Management programme is a science-led, hormone-smart, regenerative solution, designed for women experiencing:",
+                "Weight changes in midlife are not about willpower ó theyíre about hormones, metabolism, stress, inflammation, sleep and cellular signalling.",
+                "ULANDAís Medical Weight Management programme is a science-led, hormone-smart, regenerative solution, designed for women experiencing:",
                 "perimenopause weight gain, menopause belly fat, metabolic slowdown, insulin resistance, stress-induced weight changes, stubborn fat despite dieting, fatigue & inflammation, poor sleep, muscle loss with age"
               ],
               "goals": [
@@ -7405,8 +7405,8 @@ export const treatments = {
                 "Maintaining muscle"
               ],
               "highlightBox": {
-                "text1": "This is not a ‚Äúslimming programme.‚Äù",
-                "text2": "It is a medically supervised metabolic restoration pathway ‚Äî part of ULANDA‚Äôs radiance-from-within philosophy."
+                "text1": "This is not a ìslimming programme.î",
+                "text2": "It is a medically supervised metabolic restoration pathway ó part of ULANDAís radiance-from-within philosophy."
               },
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -7423,7 +7423,7 @@ export const treatments = {
                 },
                 {
                   "title": "Insulin resistance",
-                  "description": "More common after age 35‚Äì45, especially with stress."
+                  "description": "More common after age 35ñ45, especially with stress."
                 },
                 {
                   "title": "High cortisol (stress hormone)",
@@ -7431,7 +7431,7 @@ export const treatments = {
                 },
                 {
                   "title": "Slower metabolism",
-                  "description": "Muscle mass decreases 3‚Äì8% per decade."
+                  "description": "Muscle mass decreases 3ñ8% per decade."
                 },
                 {
                   "title": "Poor sleep & mood disruption",
@@ -7439,12 +7439,12 @@ export const treatments = {
                 },
                 {
                   "title": "Thyroid instability",
-                  "description": "Often subtle, frequently undiagnosed. This programme identifies and treats root causes ‚Äî not symptoms."
+                  "description": "Often subtle, frequently undiagnosed. This programme identifies and treats root causes ó not symptoms."
                 }
               ]
             },
             "ingredients": {
-              "title": "What‚Äôs",
+              "title": "Whatís",
               "highlight": "Included",
               "titleSuffix": "in the Programme",
               "subtitle": "A complete clinical pathway delivered with 360Medicx:",
@@ -7487,11 +7487,11 @@ export const treatments = {
                 "Low energy, cravings, mood swings",
                 "Slower metabolism or insulin imbalance",
                 "Those preparing for contouring treatments",
-                "Anyone seeking a complete mind‚Äìbody reset"
+                "Anyone seeking a complete mindñbody reset"
               ]
             },
             "ulandaConnection": {
-              "title": "Integrating Medical Weight Management into ULANDA‚Äôs 4-Pillar Regenerative Ecosystem",
+              "title": "Integrating Medical Weight Management into ULANDAís 4-Pillar Regenerative Ecosystem",
               "subtitle": "The Ulanda Connection",
               "sections": [
                 {
@@ -7540,7 +7540,7 @@ export const treatments = {
                     "Glutathione IV/IM",
                     "Vitamin D IM",
                     "B12 IM",
-                    "Women‚Äôs Longevity IV"
+                    "Womenís Longevity IV"
                   ],
                   "conclusion": "Together, they form a holistic metabolic-hormonal-skin optimisation system.",
                   image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -7555,7 +7555,7 @@ export const treatments = {
                     "Cellulite regeneration programmes",
                     "Abdomen tightening (postpartum, perimenopause)"
                   ],
-                  "conclusion": "This creates a 360¬∞ physical + metabolic transformation.",
+                  "conclusion": "This creates a 360∞ physical + metabolic transformation.",
                   image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
                 }
@@ -7584,8 +7584,8 @@ export const treatments = {
             "cta": {
               "title": "The Future of Weight Loss is",
               "highlight": "Hormone-Smart",
-              "description": "Metabolic & Medical ‚Äî Not Restrictive. ULANDA‚Äôs Medical Weight Management, in clinical partnership with 360Medicx, CQC-Registered Harley Street Clinic, is a regenerative, holistic, feminine-focused approach that supports your body inside and out. Healthy. Sustainable. Science-led. Tailored to the way women actually live. ",
-              "buttonText": "Book Medical Weight Management Consultation (ULANDA √ó 360Medicx)"
+              "description": "Metabolic & Medical ó Not Restrictive. ULANDAís Medical Weight Management, in clinical partnership with 360Medicx, CQC-Registered Harley Street Clinic, is a regenerative, holistic, feminine-focused approach that supports your body inside and out. Healthy. Sustainable. Science-led. Tailored to the way women actually live. ",
+              "buttonText": "Book Medical Weight Management Consultation (ULANDA ◊ 360Medicx)"
             }
           },
           "skin-glow-iv": {
@@ -7601,13 +7601,13 @@ export const treatments = {
               "description": "Nourish your beauty from within. Our Skin, Hair & Nails IV Drip delivers essential nutrients for a glowing complexion & stronger hair/nails."
             },
             "seoHeadings": {
-              "h1": "Skin Radiance IV in Ware SG12 ‚Äî Brighten, Hydrate & Boost Collagen From Within",
+              "h1": "Skin Radiance IV in Ware SG12 ó Brighten, Hydrate & Boost Collagen From Within",
               "h2": [
                 "What Glow IV Treats (Pigmentation, Dullness, Dryness)",
                 "What's Inside (Vitamin C, Glutathione, Biotin, Collagen Boosters)",
                 "Glow IV vs Skin Boosters vs PN",
                 "For Brides, Events, Menopause Radiance Loss",
-                "Book Glow IV ‚Äî With 360Medicx Harley Street"
+                "Book Glow IV ó With 360Medicx Harley Street"
               ]
             },
             "title": "Skin Radiance",
@@ -7648,8 +7648,8 @@ export const treatments = {
             "introduction": {
               "title": "Introduction",
               "content": [
-                "Skincare works from the outside in ‚Äî but true radiance starts from within.",
-                "The Skin Radiance IV is ULANDA‚Äôs signature internal skin infusion, designed to:"
+                "Skincare works from the outside in ó but true radiance starts from within.",
+                "The Skin Radiance IV is ULANDAís signature internal skin infusion, designed to:"
               ],
               "goals": [
                 "brighten dull or uneven skin",
@@ -7660,8 +7660,8 @@ export const treatments = {
                 "enhance glow, smoothness & firmness"
               ],
               "highlightBox": {
-                "text1": "Using targeted antioxidants, vitamins and amino acids, this IV delivers the internal foundation required for ULANDA‚Äôs regenerative skin pathways.",
-                "text2": "Perfect for women 30‚Äì65+, especially during perimenopause & menopause when collagen, hydration and antioxidative capacity naturally decline."
+                "text1": "Using targeted antioxidants, vitamins and amino acids, this IV delivers the internal foundation required for ULANDAís regenerative skin pathways.",
+                "text2": "Perfect for women 30ñ65+, especially during perimenopause & menopause when collagen, hydration and antioxidative capacity naturally decline."
               },
               image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -7695,7 +7695,7 @@ export const treatments = {
               ]
             },
             "ingredients": {
-              "title": "What‚Äôs",
+              "title": "Whatís",
               "highlight": "Inside",
               "titleSuffix": "the Skin Radiance IV",
               "subtitle": "A carefully designed skin-focused formulation that may include:",
@@ -7850,7 +7850,7 @@ export const treatments = {
               "title": "Ready to reveal your",
               "highlight": "glow?",
               "description": "Book your consultation today to start your journey to healthier, more radiant skin.",
-              "buttonText": "Book Skin Health Consultation"
+              "buttonText": "Book Advanced Skin Health Consultation"
             }
           }
         }
@@ -7867,10 +7867,10 @@ export const treatments = {
             placeholderUrl: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
             "seo": {
               "title": "Menopause Regeneration Plan Ware SG12 | Collagen Revival | ULANDA",
-              "description": "ULANDA‚Äôs 12-Week Menopause Regeneration Plan restores collagen, hydration & firmness for midlife skin. A hormone-smart, regenerative pathway for perimenopause & menopause."
+              "description": "ULANDAís 12-Week Menopause Regeneration Plan restores collagen, hydration & firmness for midlife skin. A hormone-smart, regenerative pathway for perimenopause & menopause."
             },
             "title": "12-Week Menopause Regeneration Plan",
-            "subtitle": "Hormone-Smart Skin ‚Ä¢ Collagen Revival ‚Ä¢ Radiance Restored",
+            "subtitle": "Hormone-Smart Skin ï Collagen Revival ï Radiance Restored",
             "summary": {
               "description": "A complete midlife skin and collagen renewal system.",
               "idealFor": [
@@ -7886,10 +7886,10 @@ export const treatments = {
             },
             "content": {
               "intro": [
-                "Menopause and perimenopause bring profound changes to a woman‚Äôs skin ‚Äî dryness, thinning, loss of firmness, dullness, pigmentation, inflammation and accelerated collagen decline.",
-                "This 12-week programme is ULANDA‚Äôs most comprehensive, science-led regenerative journey, designed specifically for midlife women who want natural, long-lasting, graceful rejuvenation.",
+                "Menopause and perimenopause bring profound changes to a womanís skin ó dryness, thinning, loss of firmness, dullness, pigmentation, inflammation and accelerated collagen decline.",
+                "This 12-week programme is ULANDAís most comprehensive, science-led regenerative journey, designed specifically for midlife women who want natural, long-lasting, graceful rejuvenation.",
                 "Rather than chasing symptoms, we address the root causes: declining estrogen, disrupted collagen signalling, increased inflammation, slower cellular turnover and reduced hydration.",
-                "This is not cosmetic ‚Äúanti-ageing.‚Äù",
+                "This is not cosmetic ìanti-ageing.î",
                 "This is regenerative midlife restoration."
               ],
               "whoIsItFor": {
@@ -7901,7 +7901,7 @@ export const treatments = {
                   "Jawline softening or early sagging",
                   "Pigmentation or melasma",
                   "Inflammation or sensitivity",
-                  "Collagen loss after age 40‚Äì55",
+                  "Collagen loss after age 40ñ55",
                   "Fatigued, tired-looking skin"
                 ],
                 "note": "Ideal for women who want natural, refined, elegant rejuvenation without fillers or drastic changes."
@@ -7927,14 +7927,14 @@ export const treatments = {
                     "description": "Internal wellness, hormone-aware & metabolic balance"
                   }
                 ],
-                "note": "This is why the results are powerful ‚Äî the transformation is multi-layered, not superficial."
+                "note": "This is why the results are powerful ó the transformation is multi-layered, not superficial."
               },
               "structure": {
                 "title": "The 12-Week Menopause Regeneration Structure",
                 "subtitle": "A finely sequenced plan for midlife skin healing.",
                 "phases": [
                   {
-                    "weeks": "Weeks 1‚Äì2",
+                    "weeks": "Weeks 1ñ2",
                     "title": "Reset the Surface + Calm Inflammation",
                     "goals": [
                       "repair the barrier",
@@ -7948,10 +7948,10 @@ export const treatments = {
                       "Light chemical peel",
                       "LED regeneration session"
                     ],
-                    "description": "You begin the journey by refreshing the canvas ‚Äî essential for menopausal skin that has become reactive and sluggish."
+                    "description": "You begin the journey by refreshing the canvas ó essential for menopausal skin that has become reactive and sluggish."
                   },
                   {
-                    "weeks": "Weeks 3‚Äì6",
+                    "weeks": "Weeks 3ñ6",
                     "title": "Deep Cellular Regeneration (PN + Boosters)",
                     "goals": [
                       "activate fibroblasts",
@@ -7960,15 +7960,15 @@ export const treatments = {
                       "restore elasticity"
                     ],
                     "treatments": [
-                      "Polynucleotides (PN) ‚Äî Plenhyage / Nucleofill",
+                      "Polynucleotides (PN) ó Plenhyage / Nucleofill",
                       "Skin boosters (e.g., Profhilo, Hydrobooster)",
                       "Microneedling (if indicated)",
                       "LED for healing"
                     ],
-                    "description": "This phase reactivates the very cells that menopause suppresses. Your skin becomes thicker, stronger, brighter, more hydrated, and more resilient. This is where the ‚Äúmenopause glow‚Äù begins."
+                    "description": "This phase reactivates the very cells that menopause suppresses. Your skin becomes thicker, stronger, brighter, more hydrated, and more resilient. This is where the ìmenopause glowî begins."
                   },
                   {
-                    "weeks": "Weeks 6‚Äì10",
+                    "weeks": "Weeks 6ñ10",
                     "title": "Structural Collagen Rebuild (Biostimulators)",
                     "goals": [
                       "replace lost collagen",
@@ -7981,10 +7981,10 @@ export const treatments = {
                       "CaHA for both collagen and definition",
                       "Optional lower-face support threads (if indicated)"
                     ],
-                    "description": "Menopausal collagen drops by 30% in the first five years (scientifically established). This phase reverses the decline. Your face does not change shape ‚Äî it simply looks rested, lifted, supported and youthful again."
+                    "description": "Menopausal collagen drops by 30% in the first five years (scientifically established). This phase reverses the decline. Your face does not change shape ó it simply looks rested, lifted, supported and youthful again."
                   },
                   {
-                    "weeks": "Weeks 10‚Äì12",
+                    "weeks": "Weeks 10ñ12",
                     "title": "Radiate & Maintain",
                     "goals": [
                       "cellular healing",
@@ -7998,7 +7998,7 @@ export const treatments = {
                       "Targeted peel",
                       "LED collagen boost"
                     ],
-                    "description": "This is where the transformation consolidates. Your skin stops ‚Äúfighting against‚Äù menopause and begins working with your new hormonal phase."
+                    "description": "This is where the transformation consolidates. Your skin stops ìfighting againstî menopause and begins working with your new hormonal phase."
                   }
                 ]
               },
@@ -8017,7 +8017,7 @@ export const treatments = {
                   "softer fine lines & early wrinkles",
                   "restored glow and vitality"
                 ],
-                "note": "Your skin looks years fresher, not ‚Äúdone.‚Äù"
+                "note": "Your skin looks years fresher, not ìdone.î"
               },
               "whyItWorks": {
                 "title": "Why This Programme Works",
@@ -8051,18 +8051,18 @@ export const treatments = {
                 "ideal": {
                   "title": "This programme IS ideal if you:",
                   "list": [
-                    "are 38‚Äì65",
+                    "are 38ñ65",
                     "are peri- or post-menopause",
                     "want natural results",
                     "prefer regenerative science over fillers",
                     "want long-term, not temporary improvements",
-                    "want your face to look like you ‚Äî just fresher"
+                    "want your face to look like you ó just fresher"
                   ]
                 },
                 "notIdeal": {
                   "title": "This programme is NOT suitable if you:",
                   "list": [
-                    "want an immediate ‚Äúdone‚Äù or ‚Äúfilled‚Äù appearance",
+                    "want an immediate ìdoneî or ìfilledî appearance",
                     "want a single treatment",
                     "are not ready for commitment to a transformation plan"
                   ]
@@ -8080,10 +8080,10 @@ export const treatments = {
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
             "seo": {
               "title": "Under-Eye Regeneration Ware SG12 | Filler-Free Treatment | ULANDA",
-              "description": "Restore tired eyes naturally with ULANDA‚Äôs Under-Eye Regeneration Blueprint. A filler-free, regenerative programme for dark circles, hollowing & crepey skin."
+              "description": "Restore tired eyes naturally with ULANDAís Under-Eye Regeneration Blueprint. A filler-free, regenerative programme for dark circles, hollowing & crepey skin."
             },
             "title": "Under-Eye Regeneration Blueprint",
-            "subtitle": "Strengthen ‚Ä¢ Brighten ‚Ä¢ Smooth ‚Ä¢ Restore",
+            "subtitle": "Strengthen ï Brighten ï Smooth ï Restore",
             "summary": {
               "description": "A targeted programme for tired eyes and dark circles.",
               "idealFor": [
@@ -8098,9 +8098,9 @@ export const treatments = {
             },
             "content": {
               "intro": [
-                "The under-eye area is the fastest to show ageing ‚Äî especially for women entering their late 30s, 40s and 50s.",
+                "The under-eye area is the fastest to show ageing ó especially for women entering their late 30s, 40s and 50s.",
                 "Thinning skin, crepiness, darkness, hollowing, and textural changes all accelerate due to declining estrogen, loss of collagen, reduced microcirculation, chronic stress, lack of sleep, and perimenopausal inflammation.",
-                "This programme is ULANDA‚Äôs complete solution ‚Äî targeting every layer of under-eye ageing using regenerative science.",
+                "This programme is ULANDAís complete solution ó targeting every layer of under-eye ageing using regenerative science.",
                 "Not filler. Not masking. Not volume overcorrection.",
                 "Just pure, controlled, layered regeneration."
               ],
@@ -8110,13 +8110,13 @@ export const treatments = {
                   "dark circles",
                   "thin, fragile, crepey under-eye skin",
                   "early hollowing / tear trough shadow",
-                  "under-eye wrinkles or ‚Äúcrinkling‚Äù",
+                  "under-eye wrinkles or ìcrinklingî",
                   "menopausal thinning",
                   "tired or fatigued appearance",
                   "under-eye inflammation or dullness",
                   "loss of elasticity"
                 ],
-                "note": "Treatment is suitable for ages 30‚Äì65, especially perimenopausal and menopausal women."
+                "note": "Treatment is suitable for ages 30ñ65, especially perimenopausal and menopausal women."
               },
               "scientificContext": {
                 "title": "THE SCIENCE OF UNDER-EYE AGEING",
@@ -8153,11 +8153,11 @@ export const treatments = {
                 "note": "This makes it the most comprehensive under-eye programme in Hertfordshire."
               },
               "structure": {
-                "title": "PROGRAMME STRUCTURE: 6‚Äì12 WEEKS",
+                "title": "PROGRAMME STRUCTURE: 6ñ12 WEEKS",
                 "subtitle": "A carefully sequenced, layered, regenerative journey.",
                 "phases": [
                   {
-                    "weeks": "Weeks 1‚Äì2",
+                    "weeks": "Weeks 1ñ2",
                     "title": "Reset + Surface Renewal",
                     "goals": [
                       "calm inflammation",
@@ -8174,7 +8174,7 @@ export const treatments = {
                     "description": "This stage restores a healthier baseline."
                   },
                   {
-                    "weeks": "Weeks 2‚Äì6",
+                    "weeks": "Weeks 2ñ6",
                     "title": "Cellular Regeneration (PN / PRP / Combo)",
                     "goals": [
                       "strengthen thin menopausal skin",
@@ -8184,14 +8184,14 @@ export const treatments = {
                       "restore under-eye density"
                     ],
                     "treatments": [
-                      "Polynucleotides (PN) ‚Äî Plenhyage / Nucleofill / Lumi Eyes",
+                      "Polynucleotides (PN) ó Plenhyage / Nucleofill / Lumi Eyes",
                       "PRP (optional for dark circles)",
                       "PN + PRP Hybrid Treatment (for deeply compromised skin)"
                     ],
                     "description": "This is the core of the Blueprint. Benefits include fibroblast activation, tissue thickening, hydration improvement, vascular improvement, and smoother surface."
                   },
                   {
-                    "weeks": "Weeks 6‚Äì10",
+                    "weeks": "Weeks 6ñ10",
                     "title": "Collagen + Structural Support (If Needed)",
                     "goals": [
                       "reinforce under-eye integrity",
@@ -8202,12 +8202,12 @@ export const treatments = {
                     "treatments": [
                       "Collagen therapies",
                       "Micro-collagen biostimulation",
-                      "Optional periorbital threads (if clinically indicated ‚Äî NOT tear trough fillers)"
+                      "Optional periorbital threads (if clinically indicated ó NOT tear trough fillers)"
                     ],
-                    "description": "These are regenerative supports ‚Äî not volumising or filling."
+                    "description": "These are regenerative supports ó not volumising or filling."
                   },
                   {
-                    "weeks": "Weeks 10‚Äì12",
+                    "weeks": "Weeks 10ñ12",
                     "title": "Radiate & Maintain",
                     "goals": [
                       "brighten the complexion",
@@ -8233,14 +8233,14 @@ export const treatments = {
                   "smoother under-eye texture",
                   "firmer, stronger and thicker skin",
                   "brighter tone and reduced darkness",
-                  "less ‚Äútired‚Äù appearance",
+                  "less ìtiredî appearance",
                   "softened fine lines and creases",
                   "reduced inflammation",
                   "improved hydration and elasticity",
                   "natural, rested look without fillers",
                   "increased confidence in photos"
                 ],
-                "note": "These are natural, elegant, subtle improvements ‚Äî not obvious or artificial."
+                "note": "These are natural, elegant, subtle improvements ó not obvious or artificial."
               },
               "whyItWorks": {
                 "title": "WHY THIS PROGRAMME WORKS",
@@ -8263,7 +8263,7 @@ export const treatments = {
                   "look unnatural in motion",
                   "accelerate long-term tissue weakening"
                 ],
-                "note": "For midlife women, regeneration is safer and more effective. ULANDA‚Äôs approach is filler-free, regenerative-first."
+                "note": "For midlife women, regeneration is safer and more effective. ULANDAís approach is filler-free, regenerative-first."
               },
               "suitability": {
                 "notIdeal": {
@@ -8277,7 +8277,7 @@ export const treatments = {
               },
               "investment": {
                 "title": "INVESTMENT",
-                "description": "Pricing depends on your personalised plan, but most clients choose 6‚Äì12 week plans, PN/PRP cycles, structural collagen support, and maintenance every 6 months. All customised following assessment."
+                "description": "Pricing depends on your personalised plan, but most clients choose 6ñ12 week plans, PN/PRP cycles, structural collagen support, and maintenance every 6 months. All customised following assessment."
               }
             }
           },
@@ -8287,18 +8287,18 @@ export const treatments = {
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
             "seo": {
               "title": "Collagen Reset Journey Ware SG12 | Skin Rebuild | ULANDA",
-              "description": "Rebuild your skin‚Äôs structure with ULANDA‚Äôs Collagen Reset Journey. A multi-layered regenerative programme to restore firmness, elasticity & natural lift."
+              "description": "Rebuild your skinís structure with ULANDAís Collagen Reset Journey. A multi-layered regenerative programme to restore firmness, elasticity & natural lift."
             },
             "title": "Collagen Reset Journey",
-            "subtitle": "ULANDA‚Äôs Structural + Cellular Regeneration Programme",
+            "subtitle": "ULANDAís Structural + Cellular Regeneration Programme",
             "summary": {
-              "description": "Rebuild ‚Ä¢ Strengthen ‚Ä¢ Restore. When collagen collapses, regeneration begins.",
+              "description": "Rebuild ï Strengthen ï Restore. When collagen collapses, regeneration begins.",
               "idealFor": [
                 "early or moderate facial sagging",
                 "jawline softening",
                 "thinning skin",
                 "loss of elasticity",
-                "‚Äútired‚Äù facial structure",
+                "ìtiredî facial structure",
                 "menopausal collagen decline",
                 "crepey texture on cheeks or lower face",
                 "lack of definition",
@@ -8310,12 +8310,12 @@ export const treatments = {
             },
             "content": {
               "intro": [
-                "Ware SG12 ‚Ä¢ Hertford ‚Ä¢ Broxbourne ‚Ä¢ Hertfordshire",
+                "Ware SG12 ï Hertford ï Broxbourne ï Hertfordshire",
                 "When collagen collapses, regeneration begins.",
                 "After age 30, women lose approximately 1% of collagen per year.",
-                "After age 40‚Äì45 (especially in perimenopause), collagen loss can accelerate to 1‚Äì2% per month due to estrogen decline, increased inflammation, glycation (sugar damage), reduced fibroblast activity, slower cellular turnover, stress, and poor sleep.",
+                "After age 40ñ45 (especially in perimenopause), collagen loss can accelerate to 1ñ2% per month due to estrogen decline, increased inflammation, glycation (sugar damage), reduced fibroblast activity, slower cellular turnover, stress, and poor sleep.",
                 "The result? Sagging, jowling, thinning, texture roughness, lack of definition, crepey skin, early hollowing, drooping cheeks, and a weak jawline.",
-                "The Collagen Reset Journey is ULANDA‚Äôs complete advanced regeneration system to rebuild the structural integrity of the face naturally, without heaviness or overfilling.",
+                "The Collagen Reset Journey is ULANDAís complete advanced regeneration system to rebuild the structural integrity of the face naturally, without heaviness or overfilling.",
                 "This is the antidote to midlife collagen collapse."
               ],
               "whoIsItFor": {
@@ -8325,13 +8325,13 @@ export const treatments = {
                   "jawline softening",
                   "thinning skin",
                   "loss of elasticity",
-                  "‚Äútired‚Äù facial structure",
+                  "ìtiredî facial structure",
                   "menopausal collagen decline",
                   "crepey texture on cheeks or lower face",
                   "lack of definition",
                   "early folds forming (nasolabial, marionette)"
                 ],
-                "note": "Perfect for ages 35‚Äì65."
+                "note": "Perfect for ages 35ñ65."
               },
               "scientificContext": {
                 "title": "WHY COLLAGEN DECLINES SO RAPIDLY",
@@ -8365,14 +8365,14 @@ export const treatments = {
                     "description": "cellular energy & antioxidant support"
                   }
                 ],
-                "note": "This is why the results are not simply cosmetic ‚Äî they‚Äôre biological."
+                "note": "This is why the results are not simply cosmetic ó theyíre biological."
               },
               "structure": {
-                "title": "THE COLLAGEN RESET SEQUENCE (10‚Äì16 WEEKS)",
+                "title": "THE COLLAGEN RESET SEQUENCE (10ñ16 WEEKS)",
                 "subtitle": "A layered, clinically sequenced journey.",
                 "phases": [
                   {
-                    "weeks": "Weeks 1‚Äì2",
+                    "weeks": "Weeks 1ñ2",
                     "title": "PHASE 1: RESET THE CANVAS",
                     "goals": [
                       "remove damaged cells",
@@ -8389,7 +8389,7 @@ export const treatments = {
                     "description": "This phase ensures the skin can respond optimally to regeneration."
                   },
                   {
-                    "weeks": "Weeks 2‚Äì6",
+                    "weeks": "Weeks 2ñ6",
                     "title": "PHASE 2: IGNITE CELLULAR ACTIVITY",
                     "goals": [
                       "activate fibroblasts",
@@ -8398,14 +8398,14 @@ export const treatments = {
                       "restore resilience"
                     ],
                     "treatments": [
-                      "Polynucleotides (PN) ‚Äî Plenhyage / Nucleofill",
-                      "Skin Boosters ‚Äî Profhilo / Hydrobooster",
+                      "Polynucleotides (PN) ó Plenhyage / Nucleofill",
+                      "Skin Boosters ó Profhilo / Hydrobooster",
                       "Microneedling (if indicated)"
                     ],
                     "description": "This stage primes your cells to produce new collagen."
                   },
                   {
-                    "weeks": "Weeks 6‚Äì12",
+                    "weeks": "Weeks 6ñ12",
                     "title": "PHASE 3: REBUILD THE STRUCTURE",
                     "goals": [
                       "reinforce facial scaffolding",
@@ -8415,14 +8415,14 @@ export const treatments = {
                       "soften folds"
                     ],
                     "treatments": [
-                      "Biostimulators ‚Äî PLLA / PDLLA / CaHA",
+                      "Biostimulators ó PLLA / PDLLA / CaHA",
                       "Perimeter-support threads (if clinically appropriate)",
                       "Deep collagen therapy"
                     ],
-                    "description": "Biostimulators stimulate months of collagen rebuilding ‚Äî the foundation for midlife rejuvenation."
+                    "description": "Biostimulators stimulate months of collagen rebuilding ó the foundation for midlife rejuvenation."
                   },
                   {
-                    "weeks": "Weeks 10‚Äì16",
+                    "weeks": "Weeks 10ñ16",
                     "title": "PHASE 4: RADIATE & OPTIMISE",
                     "goals": [
                       "enhance glow",
@@ -8454,7 +8454,7 @@ export const treatments = {
                   "youthful, natural face shape",
                   "long-lasting regenerative benefits"
                 ],
-                "note": "Your face looks rested, supported and naturally refreshed ‚Äî never filled or artificial."
+                "note": "Your face looks rested, supported and naturally refreshed ó never filled or artificial."
               },
               "whyItWorks": {
                 "title": "WHY THIS PROGRAMME WORKS",
@@ -8492,7 +8492,7 @@ export const treatments = {
               },
               "investment": {
                 "title": "INVESTMENT",
-                "description": "Because each client‚Äôs collagen decline is different, plans are fully bespoke following consultation."
+                "description": "Because each clientís collagen decline is different, plans are fully bespoke following consultation."
               }
             }
           },
@@ -8502,12 +8502,12 @@ export const treatments = {
             placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
             "seo": {
               "title": "Hormone-Smart Skin Programme Ware SG12 | Radiate | ULANDA",
-              "description": "Balance hormonal skin from within. ULANDA‚Äôs Radiate Hormone-Smart Skin Programme targets breakouts, sensitivity & dullness through internal & external regeneration."
+              "description": "Balance hormonal skin from within. ULANDAís Radiate Hormone-Smart Skin Programme targets breakouts, sensitivity & dullness through internal & external regeneration."
             },
             "title": "Radiate Hormone-Smart Skin Programme",
-            "subtitle": "Internal Balance ‚Ä¢ Cellular Repair ‚Ä¢ Hormone-Aware Regeneration",
+            "subtitle": "Internal Balance ï Cellular Repair ï Hormone-Aware Regeneration",
             "summary": {
-              "description": "This is one of ULANDA‚Äôs most powerful identity-defining programmes ‚Äî where internal wellness meets advanced regenerative skin science.",
+              "description": "This is one of ULANDAís most powerful identity-defining programmes ó where internal wellness meets advanced regenerative skin science.",
               "idealFor": [
                 "hormonal breakouts",
                 "sensitivity or inflammation",
@@ -8525,12 +8525,12 @@ export const treatments = {
             },
             "content": {
               "intro": [
-                "Ware SG12 ‚Ä¢ Hertford ‚Ä¢ Broxbourne ‚Ä¢ Hertfordshire",
-                "Your hormones shape your skin ‚Äî we regenerate both.",
+                "Ware SG12 ï Hertford ï Broxbourne ï Hertfordshire",
+                "Your hormones shape your skin ó we regenerate both.",
                 "Hormones influence every layer of the skin.",
                 "As women transition through their 30s, 40s and 50s, hormonal shifts cause inflammation, breakouts, sensitivity, dullness, dryness, pigmentation, delayed healing, collagen loss, accelerated fatigue, and peri- and post-menopausal thinning.",
                 "Topicals alone cannot correct hormone-driven skin decline.",
-                "The Radiate Hormone-Smart Skin Programme is ULANDA‚Äôs complete internal‚Äìexternal regeneration pathway ‚Äî supporting hormone balance, cellular repair, metabolic resilience, skin regeneration, and longevity.",
+                "The Radiate Hormone-Smart Skin Programme is ULANDAís complete internalñexternal regeneration pathway ó supporting hormone balance, cellular repair, metabolic resilience, skin regeneration, and longevity.",
                 "This is the programme for women who want their skin, energy and inner systems to work together, not against each other."
               ],
               "whoIsItFor": {
@@ -8546,7 +8546,7 @@ export const treatments = {
                   "poor healing or irritation",
                   "disrupted sleep + low vitality"
                 ],
-                "note": "Perfect for ages 28‚Äì65, particularly during: PMS, post-pregnancy, perimenopause, menopause, stressful life phases."
+                "note": "Perfect for ages 28ñ65, particularly during: PMS, post-pregnancy, perimenopause, menopause, stressful life phases."
               },
               "scientificContext": {
                 "title": "WHY HORMONES AFFECT YOUR SKIN",
@@ -8586,11 +8586,11 @@ export const treatments = {
                 "note": "This multi-layered approach delivers powerful, long-lasting harmony."
               },
               "structure": {
-                "title": "PROGRAMME STRUCTURE: 8‚Äì12 WEEKS",
+                "title": "PROGRAMME STRUCTURE: 8ñ12 WEEKS",
                 "subtitle": "Sequenced to calm, repair and rebalance.",
                 "phases": [
                   {
-                    "weeks": "Weeks 1‚Äì2",
+                    "weeks": "Weeks 1ñ2",
                     "title": "PHASE 1: RESET & SOOTHE",
                     "goals": [
                       "calm hormonal inflammation",
@@ -8608,7 +8608,7 @@ export const treatments = {
                     "description": "This phase stabilises the hormonal skin storm."
                   },
                   {
-                    "weeks": "Weeks 2‚Äì6",
+                    "weeks": "Weeks 2ñ6",
                     "title": "PHASE 2: HORMONE-SMART REGENERATION",
                     "goals": [
                       "improve cellular repair",
@@ -8625,7 +8625,7 @@ export const treatments = {
                     "description": "During this phase, the skin begins to behave like it did before hormonal fluctuation."
                   },
                   {
-                    "weeks": "Weeks 4‚Äì10",
+                    "weeks": "Weeks 4ñ10",
                     "title": "PHASE 3: BALANCE FROM WITHIN",
                     "goals": [
                       "reduce inflammation",
@@ -8640,10 +8640,10 @@ export const treatments = {
                       "B12 IM",
                       "Hydration IV"
                     ],
-                    "description": "These IM/IV therapies are not branded by your medical partner ‚Äî they sit cleanly under ‚ÄúRadiate Wellness‚Äù as ULANDA‚Äôs internal support offerings. The goal here is to create internal harmony, reducing the hormonal triggers that disrupt skin."
+                    "description": "These IM/IV therapies are not branded by your medical partner ó they sit cleanly under ìRadiate Wellnessî as ULANDAís internal support offerings. The goal here is to create internal harmony, reducing the hormonal triggers that disrupt skin."
                   },
                   {
-                    "weeks": "Weeks 8‚Äì12",
+                    "weeks": "Weeks 8ñ12",
                     "title": "PHASE 4: GLOW & MAINTAIN",
                     "goals": [
                       "fade pigmentation",
@@ -8677,7 +8677,7 @@ export const treatments = {
                   "softer lines and improved elasticity",
                   "renewed confidence"
                 ],
-                "note": "Your skin looks balanced ‚Äî not reactive. Your energy feels aligned ‚Äî not depleted."
+                "note": "Your skin looks balanced ó not reactive. Your energy feels aligned ó not depleted."
               },
               "whyItWorks": {
                 "title": "WHY THIS PROGRAMME WORKS",
@@ -8704,7 +8704,7 @@ export const treatments = {
               },
               "investment": {
                 "title": "INVESTMENT",
-                "description": "Your plan is bespoke following consultation. Options range from 8‚Äì12 weeks depending on skin severity and internal goals."
+                "description": "Your plan is bespoke following consultation. Options range from 8ñ12 weeks depending on skin severity and internal goals."
               }
             }
           },
@@ -8714,12 +8714,12 @@ export const treatments = {
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
             "seo": {
               "title": "Shape & Regenerate Ware SG12 | Body Transformation | ULANDA",
-              "description": "ULANDA Shape & Regenerate‚Ñ¢ combines metabolic health, body contouring & skin tightening for a complete midlife body transformation. Regenerative, not restrictive."
+              "description": "ULANDA Shape & Regenerateô combines metabolic health, body contouring & skin tightening for a complete midlife body transformation. Regenerative, not restrictive."
             },
-            "title": "ULANDA Shape & Regenerate‚Ñ¢",
-            "subtitle": "Body ‚Ä¢ Weight ‚Ä¢ Metabolism ‚Ä¢ Longevity",
+            "title": "ULANDA Shape & Regenerateô",
+            "subtitle": "Body ï Weight ï Metabolism ï Longevity",
             "summary": {
-              "description": "This is ULANDA‚Äôs most comprehensive body transformation pathway ‚Äî regenerative, hormonal, aesthetic and metabolic combined.",
+              "description": "This is ULANDAís most comprehensive body transformation pathway ó regenerative, hormonal, aesthetic and metabolic combined.",
               "idealFor": [
                 "stubborn fat pockets (abdomen, hips, thighs, back)",
                 "perimenopause or menopause weight changes",
@@ -8737,13 +8737,13 @@ export const treatments = {
             },
             "content": {
               "intro": [
-                "Ware SG12 ‚Ä¢ Hertford ‚Ä¢ Broxbourne ‚Ä¢ Hertfordshire",
-                "Not weight loss. Not body contouring. A complete metabolic‚Äìhormonal‚Äìskin regeneration system.",
-                "Midlife changes ‚Äî perimenopause, menopause, postpartum, high-stress periods ‚Äî shift a woman‚Äôs metabolism dramatically.",
+                "Ware SG12 ï Hertford ï Broxbourne ï Hertfordshire",
+                "Not weight loss. Not body contouring. A complete metabolicñhormonalñskin regeneration system.",
+                "Midlife changes ó perimenopause, menopause, postpartum, high-stress periods ó shift a womanís metabolism dramatically.",
                 "Fat distribution changes, muscle mass declines, skin laxity increases, energy drops, and inflammation rises.",
                 "Traditional approaches like dieting or isolated fat-freezing treatments cannot fix hormone-driven, metabolic, collagen-based changes.",
-                "ULANDA Shape & Regenerate‚Ñ¢ is a complete inside‚Äìout transformation system built on three pillars: Body Definition & Contouring, Metabolic & Weight Reset, and Longevity & Internal Regeneration.",
-                "This is the next evolution of body confidence ‚Äî powered by regeneration, not restriction."
+                "ULANDA Shape & Regenerateô is a complete insideñout transformation system built on three pillars: Body Definition & Contouring, Metabolic & Weight Reset, and Longevity & Internal Regeneration.",
+                "This is the next evolution of body confidence ó powered by regeneration, not restriction."
               ],
               "whoIsItFor": {
                 "title": "WHO THIS PROGRAMME IS FOR",
@@ -8758,23 +8758,23 @@ export const treatments = {
                   "cellulite or crepey skin",
                   "fluid retention or bloating"
                 ],
-                "note": "Suitable for ages 30‚Äì65, especially midlife women undergoing hormonal transitions."
+                "note": "Suitable for ages 30ñ65, especially midlife women undergoing hormonal transitions."
               },
               "scientificContext": {
                 "title": "WHY MIDLIFE BODY CHANGES ARE DIFFERENT",
                 "description": "Scientific studies show:",
                 "list": [
-                  "Estrogen decline ‚Üí increased abdominal fat",
-                  "Progesterone shifts ‚Üí fluid retention & bloating",
-                  "Reduced testosterone ‚Üí muscle loss",
+                  "Estrogen decline ? increased abdominal fat",
+                  "Progesterone shifts ? fluid retention & bloating",
+                  "Reduced testosterone ? muscle loss",
                   "Insulin resistance rises after 40",
-                  "Collagen decreases ‚Üí skin laxity increases"
+                  "Collagen decreases ? skin laxity increases"
                 ],
-                "note": "Your body is not ‚Äúfighting you.‚Äù Your biology has changed ‚Äî so the approach must change. This is why Shape & Regenerate‚Ñ¢ is fundamentally regenerative, not cosmetic."
+                "note": "Your body is not ìfighting you.î Your biology has changed ó so the approach must change. This is why Shape & Regenerateô is fundamentally regenerative, not cosmetic."
               },
               "framework": {
-                "title": "THE ULANDA SHAPE & REGENERATE‚Ñ¢ SYSTEM",
-                "description": "A 360¬∞ approach combining Refresh ‚Üí Renew ‚Üí Restore ‚Üí Radiate across the whole body.",
+                "title": "THE ULANDA SHAPE & REGENERATEô SYSTEM",
+                "description": "A 360∞ approach combining Refresh ? Renew ? Restore ? Radiate across the whole body.",
                 "pillars": [
                   {
                     "name": "METABOLIC & WEIGHT RESET",
@@ -8793,14 +8793,14 @@ export const treatments = {
                     "description": "Improve energy, reduce inflammation, support recovery and cellular health."
                   }
                 ],
-                "note": "All approaches are regenerative and supportive ‚Äî never extreme, never aggressive."
+                "note": "All approaches are regenerative and supportive ó never extreme, never aggressive."
               },
               "structure": {
-                "title": "PROGRAMME TIMELINE (12‚Äì20 WEEKS)",
-                "subtitle": "A complete metabolic‚Äìhormonal‚Äìskin regeneration system.",
+                "title": "PROGRAMME TIMELINE (12ñ20 WEEKS)",
+                "subtitle": "A complete metabolicñhormonalñskin regeneration system.",
                 "phases": [
                   {
-                    "weeks": "Weeks 1‚Äì2",
+                    "weeks": "Weeks 1ñ2",
                     "title": "PHASE 1: Reset & Diagnose",
                     "goals": [
                       "metabolic & lifestyle review",
@@ -8816,7 +8816,7 @@ export const treatments = {
                     "description": "This is the foundation of sustainable body transformation."
                   },
                   {
-                    "weeks": "Weeks 2‚Äì8",
+                    "weeks": "Weeks 2ñ8",
                     "title": "PHASE 2: Regenerate & Reshape",
                     "goals": [
                       "start body contouring",
@@ -8832,7 +8832,7 @@ export const treatments = {
                     "description": "Visible changes become noticeable during this phase."
                   },
                   {
-                    "weeks": "Weeks 8‚Äì16",
+                    "weeks": "Weeks 8ñ16",
                     "title": "PHASE 3: Lift, Tighten, Define",
                     "goals": [
                       "deeper collagen rebuild",
@@ -8849,7 +8849,7 @@ export const treatments = {
                     "description": "This ensures the skin tightens as the body reshapes, avoiding sagging or uneven texture."
                   },
                   {
-                    "weeks": "Weeks 12‚Äì20",
+                    "weeks": "Weeks 12ñ20",
                     "title": "PHASE 4: Maintain & Radiate",
                     "goals": [
                       "hormonal alignment",
@@ -8882,7 +8882,7 @@ export const treatments = {
                   "more youthful silhouette",
                   "long-term, maintainable results"
                 ],
-                "note": "This is not a temporary fix. It is a metabolic‚Äìaesthetic reset."
+                "note": "This is not a temporary fix. It is a metabolicñaesthetic reset."
               },
               "whyItWorks": {
                 "title": "WHY THIS PROGRAMME WORKS",
@@ -8896,7 +8896,7 @@ export const treatments = {
                   "sleep & stress",
                   "energy pathways"
                 ],
-                "note": "Cosmetic-only approaches fail because they focus only on fat ‚Äî not the whole system. ULANDA treats the body as a biological ecosystem, not a collection of isolated areas."
+                "note": "Cosmetic-only approaches fail because they focus only on fat ó not the whole system. ULANDA treats the body as a biological ecosystem, not a collection of isolated areas."
               },
               "suitability": {
                 "notIdeal": {
@@ -8911,7 +8911,7 @@ export const treatments = {
               },
               "investment": {
                 "title": "INVESTMENT",
-                "description": "Plans are fully personalised based on metabolic needs, goals and body analysis. Most journeys last between 12‚Äì20 weeks."
+                "description": "Plans are fully personalised based on metabolic needs, goals and body analysis. Most journeys last between 12ñ20 weeks."
               }
             }
           }

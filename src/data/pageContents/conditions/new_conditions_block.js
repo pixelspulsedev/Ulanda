@@ -9,8 +9,8 @@
       title: "Regenerative Treatments for",
       highlight: "Dull Skin & Loss of Glow",
       description: "Dull skin often looks tired, flat, or grey, lacking the natural reflection of light that defines healthy skin. At ULANDA, we restore luminosity by improving hydration, circulation, and cellular turnover — ensuring your skin glows from within, without reliance on highlighters or aggressive exfoliation.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/",
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
@@ -52,8 +52,8 @@
       highlight: "restore",
       titleSuffix: "your glow?",
       description: "Book your personalised regenerative hydration consultation today.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
 
@@ -68,8 +68,8 @@
       title: "Regenerative Treatments for",
       highlight: "Dry Skin & Chronic Dryness",
       description: "Dry skin lacks oil (lipids), leading to a rough beaty texture, flaky patches, and a feeling of tightness. Unlike dehydration, which is a lack of water, dry skin requires the restoration of the skin's lipid barrier to retain moisture and maintain softness.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/",
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
@@ -110,8 +110,8 @@
       highlight: "replenish",
       titleSuffix: "your skin?",
       description: "Book your consultation to restore comfort and softness.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
 
@@ -126,8 +126,8 @@
       title: "Regenerative Treatments for",
       highlight: "Dehydrated Skin",
       description: "Dehydrated skin is a condition where the skin lacks water, resulting in surface tightness, fine lines (crepiness), and a dull appearance. It can affect any skin type, including oily skin. Our goal is to flood the skin with hydration and lock it in.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/",
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
@@ -168,8 +168,8 @@
       highlight: "quench",
       titleSuffix: "your skin?",
       description: "Book your consultation for immediate and lasting hydration.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
 
@@ -184,8 +184,8 @@
       title: "Regenerative Treatments for",
       highlight: "Skin Recovery & Repair (Post-Treatment / Sensitised Skin)",
       description: "Whether reacting to a harsh product, recovering from an aggressive procedure elsewhere, or dealing with chronic sensitivity, compromised skin requires a \"less is more\" approach. We focus on halting inflammation and rebuilding the skin's defence systems.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/",
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
@@ -226,8 +226,8 @@
       highlight: "heal",
       titleSuffix: "your skin?",
       description: "Book your consultation to begin your skin recovery journey.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
 
@@ -242,8 +242,8 @@
       title: "Regenerative Treatments for",
       highlight: "Compromised Skin Barrier / Barrier Breakdown",
       description: "A compromised barrier allows moisture to escape and bacteria to enter. Signs include stinging when applying products, redness, breakouts, and rough texture. Our priority is to seal and heal the skin before introducing any stimulation.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/",
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
@@ -283,7 +283,7 @@
       highlight: "protect",
       titleSuffix: "your skin?",
       description: "Book your consultation to restore your skin's natural defence.",
-      buttonText: "Book Skin Health Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonText: "Book Advanced Skin Health Consultation",
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },

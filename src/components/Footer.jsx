@@ -59,7 +59,7 @@ export default function Footer() {
                 <Link to="/treatments" className="hover:text-primary transition-colors text-primary">Treatments</Link>
               </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/treatments/advanced-skin-health-consultation" className="hover:text-primary transition-colors ">Skin Health Consultation</Link></li>
+                <li><Link to="/treatments/advanced-skin-health-consultation" className="hover:text-primary transition-colors ">Advanced Skin Health Consultation</Link></li>
                 <li><Link to="/treatments/skin-barrier-renewal-protocol" className="hover:text-primary transition-colors ">Skin Barrier Renewal</Link></li>
                 <li><Link to="/treatments/skin-renewal-regeneration" className="hover:text-primary transition-colors ">Skin Renewal</Link></li>
                 <li><Link to="/treatments/injectable-skin-optimisation" className="hover:text-primary transition-colors ">Injectable Treatments</Link></li>
@@ -143,7 +143,7 @@ export default function Footer() {
           <div className="border-t border-base-200 pt-10 pb-6 mb-6">
             <div className="max-w-3xl mx-auto text-center">
               <p className="text-sm text-base-content/60 font-light leading-relaxed">
-                ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Skin Health Consultations and clinically sequenced Signature treatments including Skin Barrier Repair &amp; Recovery, Menopause Skin Rebuild and Structural Skin Regeneration. Our approach ensures safe stabilisation before introducing advanced treatments such as Hydrobooster, chemical peels and collagen-support therapies.
+                ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Skin Barrier Repair &amp; Recovery, Menopause Skin Rebuild and Structural Skin Regeneration. Our approach ensures safe stabilisation before introducing advanced treatments such as Hydrobooster, chemical peels and collagen-support therapies.
               </p>
             </div>
           </div>

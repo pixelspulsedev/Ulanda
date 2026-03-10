@@ -7,7 +7,7 @@
 export const signatureHubData = {
   seo: {
     title: "ULANDA Signatures in Ware | Regenerative Skin & Women's Wellness Hertfordshire",
-    description: "ULANDA Signatures, regenerative aesthetics Ware, skin clinic Hertfordshire, nurse-led aesthetics Ware, Skin Health Consultation Ware, menopause skin programme Hertfordshire, rosacea treatment Ware, pigmentation correction Hertfordshire, collagen regeneration Ware, under-eye renewal Hertfordshire",
+    description: "ULANDA Signatures, regenerative aesthetics Ware, skin clinic Hertfordshire, nurse-led aesthetics Ware, Advanced Skin Health Consultation Ware, menopause skin programme Hertfordshire, rosacea treatment Ware, pigmentation correction Hertfordshire, collagen regeneration Ware, under-eye renewal Hertfordshire",
     canonical: "https://www.ulanda.co.uk/signature"
   },
   hero: {
@@ -16,8 +16,8 @@ export const signatureHubData = {
     credential: "Led by an Advanced Nurse Practitioner & Nurse Independent Prescriber \u2022 NMC Registered",
     location: "Ware, Hertfordshire (SG12)",
     cta: {
-      label: "Book Skin Health Consultation",
-      url: "/book-consultation"
+      label: "Book Advanced Skin Health Consultation",
+      url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   introduction: {
@@ -49,12 +49,12 @@ export const signatureHubData = {
     closing: "A Signature ensures you experience complete transformation not just a one-off treatment."
   },
   consultation: {
-    title: "Book Your Skin Health Consultation",
+    title: "Book Your Advanced Skin Health Consultation",
     intro: "Not sure which Signature is right for you?",
-    description: "Your Skin Health Consultation is the starting point. This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs so your Signature is safe, personalised and sequenced correctly.",
+    description: "Your Advanced Skin Health Consultation is the starting point. This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs so your Signature is safe, personalised and sequenced correctly.",
     cta: {
-      label: "Book Skin Health Consultation",
-      url: "/book-consultation"
+      label: "Book Advanced Skin Health Consultation",
+      url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     },
     points: [
       "Nurse-led, prescribing-qualified assessment not a sales-led consultation",
@@ -126,15 +126,15 @@ export const signatureHubData = {
   },
   finalCta: {
     title: "Start Your Regenerative Journey",
-    description: "If you\u2019re ready to begin, the most effective way to start is with a Skin Health Consultation so your Signature is chosen correctly and your results remain safe, elegant and long-term.",
+    description: "If you\u2019re ready to begin, the most effective way to start is with a Advanced Skin Health Consultation so your Signature is chosen correctly and your results remain safe, elegant and long-term.",
     cta: {
-      label: "Book Skin Health Consultation",
-      url: "/book-consultation"
+      label: "Book Advanced Skin Health Consultation",
+      url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   stickyCta: {
-    label: "Book Skin Health Consultation",
-    url: "/book-consultation"
+    label: "Book Advanced Skin Health Consultation",
+    url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
   }
 };
 
@@ -163,8 +163,8 @@ export const signaturePathways = [
           "This Signature provides a structured recovery programme that helps your skin regain comfort, strength and long-term resilience."
         ],
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         },
         note: "This is the safest starting point if you\u2019ve tried multiple products or treatments without lasting improvement."
       },
@@ -248,7 +248,7 @@ export const signaturePathways = [
         { title: "Rosacea (Redness, Flushing & Sensitivity)", url: "/conditions/redness-sensitivity-reactive-skin/rosacea" },
         { title: "Menopause Skin Changes (Dryness, Fragility & Collagen Decline)", url: "/conditions/menopause-hormone-skin-changes/menopause-skin-changes" }
       ],
-      relatedConditionsNote: "If multiple concerns overlap, your Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
+      relatedConditionsNote: "If multiple concerns overlap, your Advanced Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
       relatedJournal: {
         intro: "If you\u2019d like to understand the biology behind this Signature, explore our journal articles below. These are written for women who want deeper clarity around skin behaviour, inflammation patterns, hormonal shifts and long-term regenerative outcomes.",
         core: [
@@ -265,12 +265,12 @@ export const signaturePathways = [
       },
       bestNextStep: {
         title: "Your Best Next Step",
-        description: "The most accurate way to begin is with a Skin Health Consultation.",
+        description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
         detail: "This structured nurse-led assessment allows us to understand your barrier stability, inflammation triggers, hormonal influences and skin behaviour patterns.",
         closing: "From there, we can confirm whether Skin Barrier Repair & Recovery is the correct Signature for you, and what sequencing your skin will respond to best.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       },
       faqs: [
@@ -288,7 +288,7 @@ export const signaturePathways = [
         },
         {
           q: "Is this Signature suitable for rosacea-prone skin?",
-          a: "Yes. Many clients with rosacea-like redness patterns have underlying barrier instability. Your Skin Health Consultation helps us confirm whether your redness is barrier-driven, vascular, inflammatory, or a combination."
+          a: "Yes. Many clients with rosacea-like redness patterns have underlying barrier instability. Your Advanced Skin Health Consultation helps us confirm whether your redness is barrier-driven, vascular, inflammatory, or a combination."
         },
         {
           q: "Why does my skin feel dry but also oily or congested?",
@@ -311,21 +311,21 @@ export const signaturePathways = [
           a: "Barrier dysfunction commonly overlaps with sensitive skin, rosacea-prone redness, dehydration, hormonal dryness, stress-driven inflammation, and acne-like breakouts."
         },
         {
-          q: "Do I need a Skin Health Consultation before starting?",
-          a: "Yes. If your skin is reactive, sensitive, inflamed or easily triggered, the Skin Health Consultation is the safest way to confirm what is driving the instability and what your skin can tolerate."
+          q: "Do I need a Advanced Skin Health Consultation before starting?",
+          a: "Yes. If your skin is reactive, sensitive, inflamed or easily triggered, the Advanced Skin Health Consultation is the safest way to confirm what is driving the instability and what your skin can tolerate."
         },
         {
           q: "Where can I get Skin Barrier Repair treatment near me in Ware, Hertfordshire?",
-          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
+          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Advanced Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
         }
       ],
       finalCta: {
         title: "Ready to Begin?",
         description: "If your skin feels reactive, dry, inflamed or unpredictable, the most effective first step is not another product \u2014 it\u2019s clarity.",
-        closing: "Start with a Skin Health Consultation and we will guide you into the correct Signature programme based on your barrier stability, skin behaviour and long-term goals.",
+        closing: "Start with a Advanced Skin Health Consultation and we will guide you into the correct Signature programme based on your barrier stability, skin behaviour and long-term goals.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       }
     }
@@ -354,8 +354,8 @@ export const signaturePathways = [
           "The goal is not to temporarily mask redness, but to calm the drivers behind it so the skin behaves differently over time."
         ],
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         },
         note: "This is the safest starting point if you\u2019ve tried multiple products or treatments without lasting improvement."
       },
@@ -440,7 +440,7 @@ export const signaturePathways = [
         { title: "Compromised Skin Barrier / Barrier Breakdown", url: "/conditions/dehydration-dullness-skin-recovery/compromised-skin-barrier" },
         { title: "Menopause Skin Changes (Dryness, Fragility & Collagen Decline)", url: "/conditions/menopause-hormone-skin-changes/menopause-skin-changes" }
       ],
-      relatedConditionsNote: "If multiple concerns overlap, your Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
+      relatedConditionsNote: "If multiple concerns overlap, your Advanced Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
       relatedJournal: {
         intro: "If you\u2019d like to understand the biology behind this Signature, explore our journal articles below. These are written for women who want deeper clarity around skin behaviour, inflammation patterns, vascular sensitivity and long-term skin stability.",
         core: [
@@ -457,12 +457,12 @@ export const signaturePathways = [
       },
       bestNextStep: {
         title: "Your Best Next Step",
-        description: "The most accurate way to begin is with a Skin Health Consultation.",
+        description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
         detail: "This structured nurse-led assessment allows us to identify whether your redness is primarily barrier-driven, inflammation-driven, vascular, hormonal or mixed.",
         closing: "From there, we can confirm whether Rosacea & Redness Control is the correct Signature for you and what sequencing will be safest for long-term stability.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       },
       faqs: [
@@ -472,7 +472,7 @@ export const signaturePathways = [
         },
         {
           q: "How do I know if I have rosacea or just sensitive skin?",
-          a: "Rosacea often includes flushing episodes, warmth, persistent redness and inflammatory bumps, while sensitive skin may present more as stinging, dryness or product intolerance. Your Skin Health Consultation helps identify the pattern clearly."
+          a: "Rosacea often includes flushing episodes, warmth, persistent redness and inflammatory bumps, while sensitive skin may present more as stinging, dryness or product intolerance. Your Advanced Skin Health Consultation helps identify the pattern clearly."
         },
         {
           q: "Why do anti-redness products not work long-term?",
@@ -503,21 +503,21 @@ export const signaturePathways = [
           a: "Rosacea often overlaps with barrier dysfunction, dehydration, sensitivity, pigmentation risk, under-eye fragility and stress-driven skin inflammation patterns."
         },
         {
-          q: "Do I need a Skin Health Consultation before starting?",
+          q: "Do I need a Advanced Skin Health Consultation before starting?",
           a: "Yes. Rosacea and redness require structured assessment to identify triggers and confirm the safest sequencing. This prevents worsening flare cycles and ensures your plan is personalised."
         },
         {
           q: "Where can I get Rosacea skin treatment near me in Ware, Hertfordshire?",
-          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
+          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Advanced Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
         }
       ],
       finalCta: {
         title: "Ready to Begin?",
         description: "If your skin flushes easily, feels hot or inflamed, or you\u2019ve been stuck in cycles of redness and sensitivity, your best next step is clarity not trial and error.",
-        closing: "Start with a Skin Health Consultation and we will guide you into the correct Signature programme based on your redness behaviour, barrier stability and long-term goals.",
+        closing: "Start with a Advanced Skin Health Consultation and we will guide you into the correct Signature programme based on your redness behaviour, barrier stability and long-term goals.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       }
     }
@@ -546,8 +546,8 @@ export const signaturePathways = [
           "The goal is to restore comfort, strength and long-term skin resilience while maintaining natural-looking results."
         ],
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation",
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
           note: "This is the safest starting point if you\u2019ve tried multiple products or treatments without lasting improvement."
         }
       },
@@ -629,7 +629,7 @@ export const signaturePathways = [
         { title: "Skin Laxity & Elasticity Loss", url: "/conditions/body-skin-structural/body-skin-laxity" },
         { title: "Under-Eye Hollows / Tear Trough Shadowing", url: "/conditions/eye-area/tear-troughs" }
       ],
-      relatedConditionsNote: "If multiple concerns overlap, your Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
+      relatedConditionsNote: "If multiple concerns overlap, your Advanced Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
       relatedJournal: {
         intro: "If you\u2019d like to understand the science behind menopause skin change, explore our journal articles below. These are designed for women who want clarity around collagen decline, hydration loss and hormonally driven skin behaviour.",
         core: [
@@ -647,12 +647,12 @@ export const signaturePathways = [
       },
       bestNextStep: {
         title: "Your Best Next Step",
-        description: "The most accurate way to begin is with a Skin Health Consultation.",
+        description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
         detail: "This structured nurse-led assessment allows us to understand your hormonal skin behaviour, barrier stability, collagen patterns and pigmentation risks.",
         closing: "From there, we can confirm whether Menopause Skin Rebuild is the correct Signature for you and what sequencing will be safest for long-term skin strength and stability.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       },
       faqs: [
@@ -686,27 +686,27 @@ export const signaturePathways = [
         },
         {
           q: "What treatments are best for menopausal skin?",
-          a: "Menopausal skin often benefits from structured hydration rebuilding, barrier stabilisation, collagen-support therapies and regenerative sequencing. Your Skin Health Consultation confirms what your skin is ready for."
+          a: "Menopausal skin often benefits from structured hydration rebuilding, barrier stabilisation, collagen-support therapies and regenerative sequencing. Your Advanced Skin Health Consultation confirms what your skin is ready for."
         },
         {
           q: "What conditions commonly overlap with menopause skin change?",
           a: "Menopause skin change often overlaps with dehydration, barrier breakdown, pigmentation, redness flare-ups, laxity and under-eye ageing patterns."
         },
         {
-          q: "Do I need a Skin Health Consultation before starting?",
+          q: "Do I need a Advanced Skin Health Consultation before starting?",
           a: "Yes. Menopause skin requires structured assessment to confirm your barrier stability, collagen decline patterns and pigmentation risks, ensuring treatments are safe and sequenced correctly."
         },
         {
           q: "Where can I get menopause skin treatment near me in Ware, Hertfordshire?",
-          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
+          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Advanced Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
         }
       ],
       finalCta: {
         title: "Ready to Rebuild Your Skin in Midlife?",
-        description: "If your skin feels drier, thinner, more sensitive or suddenly unfamiliar, the most effective first step is clarity \u2014 not trial and error. Start with a Skin Health Consultation and we will guide you into the correct Signature programme based on your hormonal skin behaviour, barrier stability and long-term goals.",
+        description: "If your skin feels drier, thinner, more sensitive or suddenly unfamiliar, the most effective first step is clarity \u2014 not trial and error. Start with a Advanced Skin Health Consultation and we will guide you into the correct Signature programme based on your hormonal skin behaviour, barrier stability and long-term goals.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       }
     }
@@ -735,8 +735,8 @@ export const signaturePathways = [
           "The goal is not aggressive correction. It is clarity, refinement and long-term architectural improvement."
         ],
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation",
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
           note: "This is the safest starting point if you\u2019ve tried multiple products or treatments without lasting improvement."
         }
       },
@@ -808,7 +808,7 @@ export const signaturePathways = [
         { title: "Post-Acne Pigmentation (PIH)", url: "/conditions/pigmentation-and-skin-tone/post-inflammatory-hyperpigmentation" },
         { title: "Dull Skin & Loss of Glow", url: "/conditions/dehydration-dullness-skin-recovery/dull-skin-loss-of-glow" }
       ],
-      relatedConditionsNote: "If multiple concerns overlap, your Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
+      relatedConditionsNote: "If multiple concerns overlap, your Advanced Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
       relatedJournal: {
         heading: "Related Journal Reading",
         intro: "If you\u2019d like to understand why pigmentation behaves unpredictably and why some treatments fail, explore our journal articles below. These are written to support women seeking safe, structured correction.",
@@ -827,11 +827,11 @@ export const signaturePathways = [
       },
       bestNextStep: {
         title: "Your Best Next Step",
-        description: "The most accurate way to begin is with a Skin Health Consultation.",
+        description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
         detail: "This structured nurse-led assessment allows us to identify whether your pigmentation is sun-driven, hormonal, inflammation-driven, post-acne related or mixed. From there, we can confirm whether Photoaging & Skin Architecture is the correct Signature for you and what sequencing will deliver the safest long-term skin clarity.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       },
       faqs: [
@@ -872,20 +872,20 @@ export const signaturePathways = [
           a: "Photoaging often overlaps with dehydration, barrier dysfunction, inflammation-driven pigmentation, collagen decline and hormonal pigment instability."
         },
         {
-          q: "Do I need a Skin Health Consultation before starting?",
+          q: "Do I need a Advanced Skin Health Consultation before starting?",
           a: "Yes. Pigmentation correction requires accurate assessment of your pigment type, skin sensitivity and relapse risk to ensure treatments are safe and sequenced correctly."
         },
         {
           q: "Where can I get photoaging skin treatment near me in Ware, Hertfordshire?",
-          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
+          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Advanced Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
         }
       ],
       finalCta: {
         title: "Ready to Restore Skin Clarity and Quality?",
-        description: "If your skin feels uneven, dull or marked by sun damage, the most effective first step is clarity \u2014 not trial and error. Start with a Skin Health Consultation and we will guide you into the correct Signature programme based on your pigmentation behaviour, barrier stability and long-term goals.",
+        description: "If your skin feels uneven, dull or marked by sun damage, the most effective first step is clarity \u2014 not trial and error. Start with a Advanced Skin Health Consultation and we will guide you into the correct Signature programme based on your pigmentation behaviour, barrier stability and long-term goals.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       }
     }
@@ -914,8 +914,8 @@ export const signaturePathways = [
           "This Signature is a structured programme designed to strengthen the skin\u2019s framework safely and progressively, supporting firmness and elasticity while maintaining natural-looking results."
         ],
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         },
         note: "This is the safest starting point if you\u2019ve tried multiple products or treatments without lasting improvement."
       },
@@ -1000,7 +1000,7 @@ export const signaturePathways = [
         { title: "Body Skin Laxity / Loose Skin", url: "/conditions/body-skin-structural/body-skin-laxity" },
         { title: "Inflammation-Driven Ageing (\u201cInflammaging\u201d)", url: "/conditions/inflammation-driven-ageing" }
       ],
-      relatedConditionsNote: "If multiple concerns overlap, your Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
+      relatedConditionsNote: "If multiple concerns overlap, your Advanced Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
       relatedJournal: {
         intro: "If you\u2019d like to understand why firmness declines and why collagen support requires sequencing, explore our journal articles below. These are written for women who want clarity around structural ageing and long-term regenerative care.",
         core: [
@@ -1018,12 +1018,12 @@ export const signaturePathways = [
       },
       bestNextStep: {
         title: "Your Best Next Step",
-        description: "The most accurate way to begin is with a Skin Health Consultation.",
+        description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
         detail: "This structured nurse-led assessment allows us to understand your collagen decline patterns, facial structure changes, barrier stability and suitability for regenerative correction.",
         closing: "From there, we can confirm whether Structural Skin Regeneration is the correct Signature for you and what sequencing will support natural, long-term results.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       },
       faqs: [
@@ -1064,21 +1064,21 @@ export const signaturePathways = [
           a: "Collagen regeneration is gradual. Many clients notice improvement over several weeks to months, depending on the treatment plan and skin response."
         },
         {
-          q: "Do I need a Skin Health Consultation before starting?",
-          a: "Yes. A Skin Health Consultation confirms whether laxity is the dominant concern, what your skin can tolerate, and what sequencing will support the most natural long-term results."
+          q: "Do I need a Advanced Skin Health Consultation before starting?",
+          a: "Yes. A Advanced Skin Health Consultation confirms whether laxity is the dominant concern, what your skin can tolerate, and what sequencing will support the most natural long-term results."
         },
         {
           q: "Where can I get structural skin regeneration treatment near me in Ware, Hertfordshire?",
-          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
+          a: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire offering structured Advanced Skin Health Consultations and Signature programmes. Many clients travel from Hertford, Hoddesdon, Broxbourne, Bishop\u2019s Stortford, Cheshunt and St Albans for safe, clinically guided treatment and long-term skin stability."
         }
       ],
       finalCta: {
         title: "Ready to Strengthen and Rebuild Your Skin?",
         description: "If your skin feels less firm, less supported or structurally different than it used to, the most effective first step is clarity and not guesswork.",
-        closing: "Start with a Skin Health Consultation and we will guide you into the correct Signature programme based on your collagen behaviour, skin architecture and long-term goals.",
+        closing: "Start with a Advanced Skin Health Consultation and we will guide you into the correct Signature programme based on your collagen behaviour, skin architecture and long-term goals.",
         cta: {
-          label: "Book Skin Health Consultation",
-          url: "/book-consultation"
+          label: "Book Advanced Skin Health Consultation",
+          url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
         }
       }
     }

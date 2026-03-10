@@ -65,9 +65,9 @@ export default function ConditionsLanding() {
                 ))}
               </div>
               <FadeInWhenVisible delay={0.6}>
-                <Link to="/book-consultation" className="btn btn-primary text-white mt-8">
-                  Book Skin Health Consultation
-                </Link>
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-8">
+                  Book Advanced Skin Health Consultation
+                </a>
               </FadeInWhenVisible>
             </div>
           </div>
@@ -318,12 +318,14 @@ export default function ConditionsLanding() {
               A personalised, clinical assessment for skin, structure & internal
               wellness.
             </p>
-            <Link
-              to="/book-consultation"
+            <a
+              href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg"
             >
-              Book Skin Health Consultation
-            </Link>
+              Book Advanced Skin Health Consultation
+            </a>
           </div>
         </section>
       </div>

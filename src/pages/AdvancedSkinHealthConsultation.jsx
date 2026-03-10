@@ -178,9 +178,9 @@ export default function AdvancedSkinHealthConsultation() {
               </FadeInWhenVisible>
             </div>
             <FadeInWhenVisible delay={0.7}>
-              <Link to="/book-consultation" className="btn btn-primary text-white mt-6 shadow-md">
+              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-6 shadow-md">
                 Book Your Advanced Skin Health Consultation
-              </Link>
+              </a>
               <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
             </FadeInWhenVisible>
           </div>
@@ -269,12 +269,14 @@ export default function AdvancedSkinHealthConsultation() {
                 <p className="text-base-content/80 font-medium mb-4">Immediate visible refinement where appropriate.</p>
                 <p className="text-base-content/60 mb-6">Fully redeemable against your personalised treatment plan.</p>
                 <p className="text-sm text-base-content/50 mb-8">Consultations are intentionally limited each week to ensure unhurried, clinician-led care.</p>
-                <Link 
-                  to="/book-consultation"
+                <a 
+                  href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                 >
                   Book Your Advanced Skin Health Consultation
-                </Link>
+                </a>
                 <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
               </div>
             </FadeInWhenVisible>
@@ -619,12 +621,14 @@ export default function AdvancedSkinHealthConsultation() {
                   <span className="text-2xl font-serif text-base-content">60–90 Minutes</span>
                 </span>
               </div>
-              <Link 
-                to="/book-consultation"
+              <a 
+                href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
                 Book Your Advanced Skin Health Consultation
-              </Link>
+              </a>
               <p className="text-sm font-medium text-primary/80 mt-6 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
             </FadeInWhenVisible>
           </div>

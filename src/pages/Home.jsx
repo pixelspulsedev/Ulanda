@@ -78,7 +78,7 @@ export default function Home() {
               </HeroText>
             </div>
             <FadeInWhenVisible delay={0.6}>
-              <Link to="/book-consultation" className="btn btn-primary">Book Skin Health Consultation</Link>
+              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Book Advanced Skin Health Consultation</a>
             </FadeInWhenVisible>
           </div>
         </div>
@@ -870,8 +870,8 @@ export default function Home() {
             wellbeing at every stage, postpartum, perimenopause or menopause.
           </p>
 
-          <a href="https://ulanda-100633.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
-            Book Skin Health Consultation
+          <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg">
+            Book Advanced Skin Health Consultation
           </a>
         </div>
       </section>

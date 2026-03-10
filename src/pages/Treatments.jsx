@@ -163,9 +163,9 @@ export default function Treatments() {
                 </HeroText>
               </div>
               <FadeInWhenVisible delay={0.5}>
-                <Link to="/book-consultation" className="btn btn-primary text-white mt-8">
-                  Book Skin Health Consultation
-                </Link>
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-8">
+                  Book Advanced Skin Health Consultation
+                </a>
               </FadeInWhenVisible>
             </div>
           </div>

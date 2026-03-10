@@ -6,7 +6,7 @@ export const conditions = [
     id: 'dehydration-dullness-skin-recovery',
     seo: {
       title: "Dehydration & Dull Skin Treatment in Ware | Skin Recovery Clinic Hertfordshire",
-      description: "Dehydrated, dull or tired skin? ULANDA in Ware, Hertfordshire offers nurse-led Skin Health Consultations and structured recovery programmes to restore hydration, glow and barrier strength safely."
+      description: "Dehydrated, dull or tired skin? ULANDA in Ware, Hertfordshire offers nurse-led Advanced Skin Health Consultations and structured recovery programmes to restore hydration, glow and barrier strength safely."
     },
     hero: {
       title: "Dehydration, Dullness &",
@@ -150,7 +150,7 @@ export const conditions = [
       titleSuffix: "Journey",
       description: "Restore hydration, glow and barrier strength safely.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   {
@@ -346,14 +346,14 @@ export const conditions = [
       titleSuffix: "",
       description: "Your skin can thrive at every age. Begin your personalised menopause regeneration consultation today.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   {
     id: 'redness-sensitivity-reactive-skin',
     seo: {
       title: "Redness & Sensitive Skin Treatment in Ware | Reactive Skin Clinic Hertfordshire",
-      description: "Struggling with redness, flushing or reactive sensitive skin? ULANDA in Ware, Hertfordshire offers nurse-led Skin Health Consultations and structured calming programmes to restore stability."
+      description: "Struggling with redness, flushing or reactive sensitive skin? ULANDA in Ware, Hertfordshire offers nurse-led Advanced Skin Health Consultations and structured calming programmes to restore stability."
     },
     hero: {
       title: "Redness, Sensitivity &",
@@ -479,7 +479,7 @@ export const conditions = [
       titleSuffix: "Consultation",
       description: "Calm redness and restore your skin's peace.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   {
@@ -676,7 +676,7 @@ export const conditions = [
         titleSuffix: "",
         description: "Clarity comes from calm, balanced, regenerated skin. Begin your personalised ULANDA Pigmentation Pathway today.",
         buttonText: "Book Your Consultation",
-        buttonLink: "https://ulanda-100633.square.site/"
+        buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   {
@@ -877,7 +877,7 @@ export const conditions = [
       titleSuffix: "Journey",
       description: "Brighten, thicken, smooth and support the eye area naturally.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   {
@@ -1075,7 +1075,7 @@ export const conditions = [
       titleSuffix: "Consultation",
       description: "Smooth, firm and restore your body’s natural contours with true regenerative medicine.",
       buttonText: "Book Body Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   {
@@ -1276,7 +1276,7 @@ export const conditions = [
       titleSuffix: "Consultation",
       description: "Reverse visible ageing at every layer — cellular, dermal, structural and internal.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
   {
@@ -1460,7 +1460,7 @@ export const conditions = [
       titleSuffix: "Consultation",
       description: "True skin health starts within. Rebuild your internal foundation for brighter, firmer, more radiant skin — naturally.",
       buttonText: "Book Your Consultation",
-      buttonLink: "https://ulanda-100633.square.site/"
+      buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
   },
 ];

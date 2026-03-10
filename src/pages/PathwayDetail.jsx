@@ -145,10 +145,10 @@ export default function PathwayDetail() {
                 <p className="text-xl text-stone-600 mb-10">
                     Book a consultation to see if the {pathway.title} pathway is right for you.
                 </p>
-                <Link to="/book-consultation" className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-lg hover:bg-primary-focus transition-colors duration-300">
-                    Book Skin Health Consultation
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-lg hover:bg-primary-focus transition-colors duration-300">
+                    Book Advanced Skin Health Consultation
                     {/* <ArrowRight size={18} /> */}
-                </Link>
+                </a>
             </div>
         </section>
 

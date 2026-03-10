@@ -81,9 +81,9 @@ export default function ProgrammeDetail() {
               </div>
 
               <FadeInWhenVisible delay={0.4}>
-                <Link to="/book-consultation" className="btn btn-primary text-white">
-                  Book Skin Health Consultation
-                </Link>
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white">
+                  Book Advanced Skin Health Consultation
+                </a>
               </FadeInWhenVisible>
             </div>
 
@@ -439,9 +439,9 @@ export default function ProgrammeDetail() {
                 Your next decade of skin begins here.
               </h2>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Link to="/book-consultation" className="btn btn-primary">
-                  Book Skin Health Consultation
-                </Link>
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                  Book Advanced Skin Health Consultation
+                </a>
                 {/* <button className="btn btn-outline border border-primary text-primary shadow-none hover:bg-primary/10 hover:text-primary"> 
                   Speak to a Practitioner
                 </button> */}

@@ -94,23 +94,17 @@ export default function ConditionDetail() {
               </div>
 
               <FadeInWhenVisible delay={0.4}>
-                {condition.hero.buttonText === 'Book Skin Health Consultation' ? (
-                  <Link to="/book-consultation" className="btn btn-primary">
-                    {condition.hero.buttonText}
-                  </Link>
-                ) : (
-                  <a
-                    href={
-                      condition.hero.buttonLink ||
-                      'https://ulanda-100633.square.site/'
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary"
-                  >
-                    {condition.hero.buttonText}
-                  </a>
-                )}
+                <a
+                  href={
+                    condition.hero.buttonLink ||
+                    'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ'
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  {condition.hero.buttonText}
+                </a>
               </FadeInWhenVisible>
             </div>
 
@@ -427,23 +421,14 @@ export default function ConditionDetail() {
               {condition.cta.description}
             </p>
 
-            {condition.cta.buttonText === 'Book Skin Health Consultation' ? (
-              <Link
-                to="/book-consultation"
-                className="inline-block bg-primary text-white px-8 py-4 rounded text-lg font-medium hover:bg-[#4A3024] transition-colors duration-300"
-              >
-                {condition.cta.buttonText}
-              </Link>
-            ) : (
-              <a
-                href={condition.cta.buttonLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-primary text-white px-8 py-4 rounded text-lg font-medium hover:bg-[#4A3024] transition-colors duration-300"
-              >
-                {condition.cta.buttonText}
-              </a>
-            )}
+            <a
+              href={condition.cta.buttonLink || 'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ'}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-primary text-white px-8 py-4 rounded text-lg font-medium hover:bg-[#4A3024] transition-colors duration-300"
+            >
+              {condition.cta.buttonText}
+            </a>
           </div>
         </section>
       </div>

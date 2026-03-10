@@ -190,12 +190,14 @@ export default function TreatmentSubCategory() {
               <p className="text-lg text-stone-600 mb-8 max-w-2xl mx-auto leading-relaxed">
                 Every treatment at ULANDA begins with a comprehensive Skin Behaviour Consultation. We assess your skin pattern, hormonal context, and treatment tolerance to create a clinical plan that works—without disruption, guesswork or reactive outcomes.
               </p>
-              <Link 
-                to="/book-consultation" 
+              <a 
+                href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                target="_blank"
+                rel="noopener noreferrer" 
                 className="inline-block bg-primary text-white px-8 py-4 rounded-lg font-medium hover:bg-primary-focus transition-colors shadow-md hover:shadow-lg"
               >
-                Book Skin Health Consultation
-              </Link>
+                Book Advanced Skin Health Consultation
+              </a>
               <p className="text-sm text-stone-500 mt-8 italic">
                 ULANDA is a nurse-led skin clinic in Ware, Hertfordshire — serving Hertford, Hoddesdon, Broxbourne, Bishops Stortford and surrounding East Herts areas with medical-grade facial treatments rooted in hormonal skin science.
               </p>

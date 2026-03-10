@@ -251,18 +251,28 @@ const Contact = () => {
         <div className="container mx-auto px-4 text-center max-w-4xl">
           <FadeInWhenVisible>
             <h2 className="text-3xl md:text-5xl font-serif text-primary mb-6">
-              Book Skin Health Consultation
+              Book Advanced Skin Health Consultation
             </h2>
             <p className="text-lg text-base-content/80 mb-8 max-w-2xl mx-auto">
               Ready to start your journey? Contact us directly or book a
               consultation to discuss your personalized treatment plan.
             </p>
-            <a
-              href="tel:+447904336031"
-              className="inline-block bg-primary text-secondary px-10 py-4 rounded-md hover:bg-primary-focus transition-colors duration-300 font-medium"
-            >
-              Call to Book
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-primary text-secondary px-10 py-4 rounded-md hover:bg-primary-focus transition-colors duration-300 font-medium"
+              >
+                Book Online
+              </a>
+              <a
+                href="tel:+447904336031"
+                className="inline-block bg-transparent border border-primary text-primary px-10 py-4 rounded-md hover:bg-primary hover:text-white transition-colors duration-300 font-medium"
+              >
+                Call to Book
+              </a>
+            </div>
           </FadeInWhenVisible>
         </div>
       </section>

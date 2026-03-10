@@ -287,9 +287,9 @@ export default function JournalDetail() {
               )}
 
               <div className="mt-4">
-                <Link to="/book-consultation" className="btn btn-primary btn-sm text-white">
-                  Book Skin Health Consultation
-                </Link>
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm text-white">
+                  Book Advanced Skin Health Consultation
+                </a>
               </div>
             </div>
 
@@ -393,12 +393,12 @@ export default function JournalDetail() {
               Ready to restore your skin?
             </h2>
             <p className="mb-8 font-light text-base-content/80 text-lg">
-              Book a Skin Health Consultation with our Advanced Nurse Practitioner to discuss a personalised clinical plan for your skin.
+              Book a Advanced Skin Health Consultation with our Advanced Nurse Practitioner to discuss a personalised clinical plan for your skin.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
-              <Link to="/book-consultation" className="btn btn-primary text-white px-8">
-                Book Skin Health Consultation
-              </Link>
+              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white px-8">
+                Book Advanced Skin Health Consultation
+              </a>
               <Link to="/journal" className=" text-primary btn bg-transparent border-none shadow-none hover:bg-transparent px-8">
                 Back to Journal
               </Link>

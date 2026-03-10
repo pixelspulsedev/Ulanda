@@ -127,7 +127,7 @@ export default function TreatmentDraft() {
     if (label === 'Book Consultation') {
       navigate('/book-consultation');
     } else {
-      window.open('https://ulanda-100633.square.site/', '_blank');
+      window.open('https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ', '_blank');
     }
   };
 

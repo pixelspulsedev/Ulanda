@@ -197,9 +197,9 @@ export default function SkinBarrierRenewalProtocol() {
               </FadeInWhenVisible>
             </div>
             <FadeInWhenVisible delay={0.6}>
-              <Link to="/book-consultation" className="btn btn-primary text-white mt-6 shadow-md">
-                Book Skin Health Consultation
-              </Link>
+              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-6 shadow-md">
+                Book Advanced Skin Health Consultation
+              </a>
               <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
             </FadeInWhenVisible>
           </div>
@@ -413,12 +413,14 @@ export default function SkinBarrierRenewalProtocol() {
                 <h3 className="text-xl font-serif text-base-content mb-2">Advanced Skin Health Consultation</h3>
                 <p className="text-4xl font-serif text-primary mb-2">£175</p>
                 <p className="text-base-content/60 mb-6">60–90 Minutes</p>
-                <Link 
-                  to="/book-consultation"
+                <a 
+                  href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary text-white px-10 py-3 h-auto text-lg rounded-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
                 >
                   Begin With an Advanced Skin Health Consultation →
-                </Link>
+                </a>
                 <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
               </div>
             </FadeInWhenVisible>
@@ -634,12 +636,14 @@ export default function SkinBarrierRenewalProtocol() {
                 <p className="text-lg text-base-content/70 mb-4">60–90 minutes</p>
                 <p className="text-base-content/60 mb-8">Fully redeemable against your personalised treatment pathway.</p>
                 <p className="text-sm text-base-content/50 mb-6">All treatment planning is bespoke and sequenced according to biological presentation markers.</p>
-                <Link
-                  to="/book-consultation"
+                <a
+                  href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary text-white px-10 py-3 h-auto text-lg rounded-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
                 >
                   Begin With an Advanced Skin Health Consultation →
-                </Link>
+                </a>
                 <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
               </div>
             </FadeInWhenVisible>
