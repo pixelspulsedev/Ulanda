@@ -1,9 +1,9 @@
-/**
+﻿/**
  * ULANDA Authority Journal Articles
  * Non-menu indexed clinical content for SEO authority building
  * 
  * URL pattern: /journal/:slug
- * Navigation: NOT in primary menu � discoverable via internal links, sitemap, breadcrumbs
+ * Navigation: NOT in primary menu  -  discoverable via internal links, sitemap, breadcrumbs
  * 
  * Each article must include:
  * - relatedConditions, relatedTreatments, relatedSignatures for bidirectional linking
@@ -16,7 +16,7 @@ export const journalArticles = [
     status: "published",
     id: "why-treatments-fail-barrier-instability",
     title: "Why Treatments Fail: When Skin Is Not Ready for Correction",
-    subtitle: "Discover why skin treatments fail when barrier instability and inflammation are ignored � and how sequencing determines success.",
+    subtitle: "Discover why skin treatments fail when barrier instability and inflammation are ignored  -  and how sequencing determines success.",
     author: "Helen Balogun",
     authorCredential: "Advanced Nurse Practitioner & Nurse Independent Prescriber",
     date: "2026-02-26",
@@ -36,7 +36,7 @@ export const journalArticles = [
       { question: "Can damaged skin tolerate collagen treatments?", answer: "Only once stabilised." },
       { question: "Why did my peel make my skin worse?", answer: "It may have been introduced too early." },
       { question: "How do I know if my barrier is compromised?", answer: "Burning, tightness and regression are indicators." },
-      { question: "Should I stop all treatments?", answer: "Not necessarily � structured review is essential." },
+      { question: "Should I stop all treatments?", answer: "Not necessarily  -  structured review is essential." },
       { question: "Why don't my fillers last?", answer: "Inflammation and poor dermal support can reduce longevity." },
       { question: "Is this common in perimenopause?", answer: "Yes, hormonal decline affects stability." },
       { question: "Can LED help unstable skin?", answer: "Yes, when used appropriately." },
@@ -66,7 +66,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "Book Your Advanced Skin Health Consultation",
-        content: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation. This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly."
+        content: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation. This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly."
       },
       {
         type: "button",
@@ -172,7 +172,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "shoutout", title: "Sequencing Framework", content: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "shoutout", title: "Sequencing Framework", content: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -272,7 +272,7 @@ export const journalArticles = [
         type: "section",
         title: "Decision Logic Table",
         content: [
-          { type: "table", headers: ["If your skin shows�", "Likely driver", "Best first step"], rows: [
+          { type: "table", headers: ["If your skin shows - ", "Likely driver", "Best first step"], rows: [
             ["Treatments stop working quickly", "Barrier instability", "Skin Barrier Repair & Recovery Signature"],
             ["Redness after mild procedures", "Active inflammation", "LED Therapy + barrier stabilisation"],
             ["Fillers not lasting", "Poor collagen environment", "Structured Advanced Skin Health Consultation"],
@@ -296,7 +296,7 @@ export const journalArticles = [
             "Structural decline",
             "Treatment tolerance"
           ]},
-          "You will never be pressured into treatments � recommendations are based only on what your skin is ready for."
+          "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for."
         ]
       },
 
@@ -354,7 +354,7 @@ export const journalArticles = [
     status: "published",
     id: "skin-barrier-function",
     title: "Skin Barrier Function: Why Your Skin Reacts Even When Products Are \"Gentle\"",
-    subtitle: "Discover why your skin barrier reacts even to \"gentle\" products � and how nurse-led sequencing restores stability.",
+    subtitle: "Discover why your skin barrier reacts even to \"gentle\" products  -  and how nurse-led sequencing restores stability.",
     author: "Helen Balogun",
     authorCredential: "Advanced Nurse Practitioner & Nurse Independent Prescriber",
     date: "2026-02-26",
@@ -371,9 +371,9 @@ export const journalArticles = [
     relatedSignatures: ["skin-barrier-repair-recovery"],
     faqs: [
       { question: "Can a damaged barrier heal completely?", answer: "Yes, if inflammation is controlled and actives are introduced correctly." },
-      { question: "How long does barrier repair take?", answer: "Typically 4�8 weeks depending on severity." },
+      { question: "How long does barrier repair take?", answer: "Typically 4 - 8 weeks depending on severity." },
       { question: "Should I stop all actives?", answer: "Often temporarily, but assessment is important." },
-      { question: "Is sensitive skin permanent?", answer: "Not always � it is often functional, not fixed." },
+      { question: "Is sensitive skin permanent?", answer: "Not always  -  it is often functional, not fixed." },
       { question: "Can hormones affect my barrier?", answer: "Yes, especially during perimenopause and menopause." },
       { question: "Does retinol damage the barrier?", answer: "Improper use can." },
       { question: "Why does my skin react suddenly?", answer: "Barrier fatigue from cumulative stress." },
@@ -393,7 +393,7 @@ export const journalArticles = [
             "When compromised, even \"gentle\" products can sting, burn or trigger redness.",
             "Barrier damage is often caused by over-exfoliation, stress, hormonal shifts or incorrect treatment sequencing.",
             "Inflammation increases nerve sensitivity, making skin react more intensely.",
-            "Repair requires reduction before stimulation � calm first, then rebuild.",
+            "Repair requires reduction before stimulation  -  calm first, then rebuild.",
             "Correct sequencing prevents repeated flare cycles.",
             "A structured assessment ensures your skin is ready before active treatments are introduced."
           ]}
@@ -405,7 +405,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: [
           "If you\u2019re not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.",
-          "This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.",
+          "This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.",
           {
             type: "button",
             text: "Book Advanced Skin Health Consultation",
@@ -439,7 +439,7 @@ export const journalArticles = [
         type: "section",
         title: "What This Really Means (Definition + Clarity)",
         content: [
-          "The skin barrier refers to the outermost layer of the epidermis � often described as a brick-and-mortar system. The \u201Cbricks\u201D are corneocytes. The \u201Cmortar\u201D is made of lipids such as ceramides, cholesterol and fatty acids.",
+          "The skin barrier refers to the outermost layer of the epidermis  -  often described as a brick-and-mortar system. The \u201Cbricks\u201D are corneocytes. The \u201Cmortar\u201D is made of lipids such as ceramides, cholesterol and fatty acids.",
           "When intact, this structure:",
           { type: "list", style: "check", items: [
             "Maintains hydration",
@@ -447,7 +447,7 @@ export const journalArticles = [
             "Protects against bacteria and irritants",
             "Supports healthy collagen function beneath"
           ]},
-          "When disrupted, transepidermal water loss increases, inflammation rises, and nerve endings become hypersensitive � which is why even mild formulations can suddenly feel aggressive."
+          "When disrupted, transepidermal water loss increases, inflammation rises, and nerve endings become hypersensitive  -  which is why even mild formulations can suddenly feel aggressive."
         ]
       },
       // -- Why This Happens --
@@ -475,7 +475,7 @@ export const journalArticles = [
             type: "subsection",
             title: "Incorrect Treatment Sequencing",
             content: [
-              "Stimulating treatments introduced before barrier stability can lead to flare cycles � especially in clients across Ware SG12, Hertford and Broxbourne who have previously self-managed with online advice."
+              "Stimulating treatments introduced before barrier stability can lead to flare cycles  -  especially in clients across Ware SG12, Hertford and Broxbourne who have previously self-managed with online advice."
             ]
           }
         ]
@@ -561,10 +561,10 @@ export const journalArticles = [
           { type: "list", style: "dict", items: [
             { label: "Barrier Support Facial", text: "Medical-grade ceramide therapy", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
             { label: "LED Light Therapy", text: "Reduces inflammation and supports cellular repair", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
-            { label: "Gentle Enzyme Resurfacing", text: "When stable � promotes turnover without stripping", link: "/treatments/skin-health-facial-therapies/enzyme-therapy" },
+            { label: "Gentle Enzyme Resurfacing", text: "When stable  -  promotes turnover without stripping", link: "/treatments/skin-health-facial-therapies/enzyme-therapy" },
             { label: "Definisse Hydrobooster", text: "Only once barrier integrity is restored", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
           ]},
-          "All treatments are introduced based on readiness � not trend."
+          "All treatments are introduced based on readiness  -  not trend."
         ]
       },
       // -- Which Signature Aligns --
@@ -639,7 +639,7 @@ export const journalArticles = [
             "Lifestyle stressors",
             "Treatment readiness"
           ]},
-          "You will never be pressured into treatments � recommendations are based only on what your skin is ready for."
+          "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for."
         ]
       },
       // -- What Improvement Should Feel Like --
@@ -1378,7 +1378,7 @@ export const journalArticles = [
     status: "published",
     id: "inflammation-driven-pigmentation",
     title: "Inflammation-Driven Pigmentation: Why Sensitive Skin Develops Dark Spots",
-    subtitle: "Why inflammation triggers dark spots in sensitive skin � and how safe, sequenced correction at ULANDA prevents recurrence.",
+    subtitle: "Why inflammation triggers dark spots in sensitive skin  -  and how safe, sequenced correction at ULANDA prevents recurrence.",
     author: "Helen Balogun",
     authorCredential: "Advanced Nurse Practitioner & Nurse Independent Prescriber",
     date: "2026-02-26",
@@ -1435,7 +1435,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: [
           "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.",
-          "This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.",
+          "This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.",
           { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
           { type: "shoutout", title: "What to Expect", content: "This is the safest starting point if you've tried multiple products or treatments without lasting improvement. Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear." }
         ]
@@ -1523,7 +1523,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "heading", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "heading", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -1615,7 +1615,7 @@ export const journalArticles = [
         content: [
           {
             type: "table",
-            headers: ["If your skin shows�", "Likely driver", "Best first step"],
+            headers: ["If your skin shows - ", "Likely driver", "Best first step"],
             rows: [
               ["Dark spots after acne", "Post-inflammatory hyperpigmentation", "Skin Barrier Repair & Recovery Signature"],
               ["Brown marks after redness", "Persistent inflammation", "LED Therapy + barrier stabilisation"],
@@ -1686,7 +1686,7 @@ export const journalArticles = [
             "Hormonal influence",
             "Treatment tolerance"
           ]},
-          "You will never be pressured into treatments � recommendations are based only on what your skin is ready for."
+          "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for."
         ]
       },
       {
@@ -1741,7 +1741,7 @@ export const journalArticles = [
     status: "published",
     id: "hard-water-skin-barrier",
     title: "Hard Water, Inflammation & Skin Sensitivity: The Hidden Trigger in Hertfordshire",
-    subtitle: "How hard water in Hertfordshire may trigger inflammation, barrier damage and skin sensitivity � and when to book a Advanced Skin Health Consultation.",
+    subtitle: "How hard water in Hertfordshire may trigger inflammation, barrier damage and skin sensitivity  -  and when to book a Advanced Skin Health Consultation.",
     author: "Helen Balogun",
     authorCredential: "Advanced Nurse Practitioner & Nurse Independent Prescriber",
     date: "2026-02-26",
@@ -1799,7 +1799,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: [
           "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.",
-          "This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.",
+          "This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.",
           { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
           { type: "shoutout", title: "What to Expect", content: "This is the safest starting point if you've tried multiple products or treatments without lasting improvement. Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear." }
         ]
@@ -1886,7 +1886,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "heading", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "heading", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -1978,7 +1978,7 @@ export const journalArticles = [
         content: [
           {
             type: "table",
-            headers: ["If your skin shows�", "Likely driver", "Best first step"],
+            headers: ["If your skin shows - ", "Likely driver", "Best first step"],
             rows: [
               ["Tightness after shower", "Hard water residue", "Skin Barrier Repair & Recovery Signature"],
               ["Increased redness", "Mineral-triggered inflammation", "LED Therapy + barrier stabilisation"],
@@ -2050,7 +2050,7 @@ export const journalArticles = [
             "Treatment tolerance",
             "Environmental stress exposure"
           ]},
-          "You will never be pressured into treatments � recommendations are based only on what your skin is ready for."
+          "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for."
         ]
       },
       {
@@ -2155,7 +2155,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "Book Your Advanced Skin Health Consultation",
-        content: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation. This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly."
+        content: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation. This structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly."
       },
       {
         type: "button",
@@ -2268,7 +2268,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "shoutout", title: "Sequencing Framework", content: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "shoutout", title: "Sequencing Framework", content: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -2416,7 +2416,7 @@ export const journalArticles = [
             "Treatment tolerance",
             "Long-term structural goals"
           ]},
-          "You will never be pressured into treatments � recommendations are based only on what your skin is ready for."
+          "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for."
         ]
       },
 
@@ -2430,7 +2430,7 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Under-Eye Renewal, Structural Skin Regeneration and Menopause Skin Rebuild. Our approach ensures under-eye hollowing is accurately assessed before advanced regenerative treatments are introduced."
       }
     ]
@@ -2495,7 +2495,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -2610,7 +2610,7 @@ export const journalArticles = [
       {
         type: "section",
         title: "The ULANDA Sequencing Model",
-        subtitle: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)",
+        subtitle: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)",
         content: [
           {
             type: "subsection",
@@ -2743,7 +2743,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -2760,19 +2760,19 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Under-Eye Renewal, Menopause Skin Rebuild and Structural Skin Regeneration. Our approach ensures menopause-related under-eye changes are stabilised before advanced regenerative treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Dark Circles Explained
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "dark-circles-explained",
     title: "Dark Circles Explained: Pigment vs Vascular Shadowing vs Hollowing",
-    subtitle: "Discover the real cause of dark circles � pigment, vascular shadowing or hollowing. Nurse-led assessment at ULANDA in Ware, Hertfordshire.",
+    subtitle: "Discover the real cause of dark circles  -  pigment, vascular shadowing or hollowing. Nurse-led assessment at ULANDA in Ware, Hertfordshire.",
     date: "February 2026",
     readTime: "9 min read",
     author: "ULANDA Clinical Team",
@@ -2784,7 +2784,7 @@ export const journalArticles = [
     relatedConditions: ["dark-circles"],
     seo: {
       title: "Dark Circles Explained: Pigment vs Vascular Shadowing vs Hollowing | ULANDA Ware SG12",
-      description: "Discover the real cause of dark circles � pigment, vascular shadowing or hollowing. Nurse-led assessment at ULANDA in Ware, Hertfordshire.",
+      description: "Discover the real cause of dark circles  -  pigment, vascular shadowing or hollowing. Nurse-led assessment at ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/dark-circles-explained",
       keywords: ["dark circles causes", "under eye pigmentation", "vascular dark circles", "hollow under eyes", "tear trough shadowing", "under eye treatment Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
     },
@@ -2829,7 +2829,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly."
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly."
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -2951,7 +2951,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -3033,7 +3033,7 @@ export const journalArticles = [
         content: [
           {
             type: "table",
-            headers: ["If your skin shows�", "Likely driver", "Best first step"],
+            headers: ["If your skin shows - ", "Likely driver", "Best first step"],
             rows: [
               ["Brown under-eye tone", "Pigment", "Controlled pigment modulation"],
               ["Blue/purple tone", "Vascular visibility", "Barrier strengthening"],
@@ -3081,7 +3081,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -3098,15 +3098,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Under-Eye Renewal, Structural Skin Regeneration and Menopause Skin Rebuild. Our approach ensures under-eye concerns are accurately assessed before advanced regenerative treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Menopause and Collagen Loss
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "menopause-collagen-loss",
     title: "Menopause and Collagen Loss: Why Structural Ageing Accelerates in Midlife",
@@ -3167,7 +3167,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -3201,7 +3201,7 @@ export const journalArticles = [
         type: "section",
         title: "What This Really Means",
         content: [
-          { type: "paragraph", text: "During perimenopause and menopause, declining oestrogen levels directly affect fibroblast activity � the cells responsible for collagen production." },
+          { type: "paragraph", text: "During perimenopause and menopause, declining oestrogen levels directly affect fibroblast activity  -  the cells responsible for collagen production." },
           { type: "paragraph", text: "Research suggests women may lose a significant percentage of dermal collagen in the early postmenopausal years." },
           { type: "paragraph", text: "This results in:" },
           {
@@ -3283,7 +3283,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -3414,7 +3414,7 @@ export const journalArticles = [
               "Long-term regenerative goals"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -3431,15 +3431,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Structural Skin Regeneration and Under-Eye Renewal. Our approach ensures collagen decline in midlife is assessed and supported safely before advanced regenerative treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Inflammaging
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "inflammaging-skin-ageing",
     title: "Inflammaging: The Silent Driver Behind Premature Skin Ageing",
@@ -3500,7 +3500,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -3615,7 +3615,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -3746,7 +3746,7 @@ export const journalArticles = [
               "Treatment readiness"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -3763,15 +3763,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Structural Skin Regeneration, Photoaging & Skin Architecture and Menopause Skin Rebuild. Our approach ensures chronic inflammation is stabilised before advanced regenerative treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Crepey Skin and Elasticity Loss
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "crepey-skin-elasticity-loss",
     title: "Crepey Skin and Elasticity Loss: What It Means and How to Treat It Safely",
@@ -3832,7 +3832,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -3946,7 +3946,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -4077,7 +4077,7 @@ export const journalArticles = [
               "Long-term regenerative planning"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -4094,15 +4094,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Structural Skin Regeneration, Menopause Skin Rebuild and Under-Eye Renewal. Our approach ensures elasticity loss and dermal thinning are stabilised before advanced regenerative treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Collagen Decline Explained
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "collagen-decline-explained",
     title: "Collagen Decline Explained: Why Skin Loses Firmness Over Time",
@@ -4163,7 +4163,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -4279,7 +4279,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -4410,7 +4410,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -4427,15 +4427,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Structural Skin Regeneration, Photoaging & Skin Architecture and Menopause Skin Rebuild. Our approach ensures collagen decline is assessed and supported safely before advanced regenerative treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
-  // ARTICLE: Rosacea Triggers � Flushing
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+  // ARTICLE: Rosacea Triggers  -  Flushing
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "rosacea-triggers-flushing",
     title: "Rosacea Triggers: Heat, Stress, Hormones and Why Flushing Becomes Chronic",
@@ -4496,7 +4496,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -4600,7 +4600,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -4722,7 +4722,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -4768,15 +4768,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Rosacea & Redness Control, Skin Barrier Repair & Recovery and Menopause Skin Rebuild. Our approach ensures inflammation is stabilised before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Redness vs Sensitivity
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "redness-vs-sensitivity",
     title: "Redness vs Sensitivity: How to Tell If Your Skin Is Inflamed or Barrier-Damaged",
@@ -4837,7 +4837,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -4931,7 +4931,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -5053,7 +5053,7 @@ export const journalArticles = [
               "Hormonal influence"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -5099,15 +5099,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Skin Barrier Repair & Recovery, Rosacea & Redness Control and Menopause Skin Rebuild. Our approach ensures barrier stability and inflammation control before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Inflammation-Driven Pigmentation
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "inflammation-driven-pigmentation",
     title: "Inflammation-Driven Pigmentation: Why Red Skin Often Develops Dark Spots",
@@ -5168,7 +5168,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -5271,7 +5271,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -5393,7 +5393,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -5439,15 +5439,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Rosacea & Redness Control and Skin Barrier Repair & Recovery. Our approach ensures inflammation is stabilised before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
-  // ARTICLE: Inflammation-Driven Pigmentation � Uneven Tone
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+  // ARTICLE: Inflammation-Driven Pigmentation  -  Uneven Tone
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "inflammation-pigmentation-uneven-tone",
     title: "Inflammation-Driven Pigmentation: The Hidden Trigger Behind Uneven Tone",
@@ -5508,7 +5508,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -5624,7 +5624,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -5748,7 +5748,7 @@ export const journalArticles = [
               "Treatment readiness"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -5794,15 +5794,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Rosacea & Redness Control and Skin Barrier Repair & Recovery. Our approach ensures inflammation and barrier instability are stabilised before advanced pigment correction treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Melasma vs Sun Damage
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "melasma-vs-sun-damage",
     title: "Melasma vs Sun Damage: How to Identify the Difference",
@@ -5863,7 +5863,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -5983,7 +5983,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -6107,7 +6107,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -6153,15 +6153,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Menopause Skin Rebuild and Skin Barrier Repair & Recovery. Our approach ensures pigmentation is correctly identified and stabilised before introducing advanced corrective treatments."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Photoaging Explained
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "photoaging-explained",
     title: "Photoaging Explained: How UV Exposure Changes Skin Structure Over Time",
@@ -6222,7 +6222,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -6289,7 +6289,7 @@ export const journalArticles = [
             type: "subsection",
             title: "Elastin Disorganisation",
             content: [
-              { type: "paragraph", text: "Chronic UV exposure leads to elastosis � abnormal elastin accumulation that reduces skin elasticity and resilience." }
+              { type: "paragraph", text: "Chronic UV exposure leads to elastosis  -  abnormal elastin accumulation that reduces skin elasticity and resilience." }
             ]
           },
           {
@@ -6328,7 +6328,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -6452,7 +6452,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -6498,15 +6498,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Structural Skin Regeneration and Skin Barrier Repair & Recovery. Our approach ensures UV-induced structural change is stabilised before advanced corrective treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
-  // ARTICLE: Pigmentation Behaviour � Dark Spots Return
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+  // ARTICLE: Pigmentation Behaviour  -  Dark Spots Return
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "pigmentation-behaviour-dark-spots-return",
     title: "Pigmentation Behaviour: Why Dark Spots Return After Treatment",
@@ -6567,7 +6567,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -6671,7 +6671,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -6795,7 +6795,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -6841,15 +6841,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Menopause Skin Rebuild and Skin Barrier Repair & Recovery. Our approach ensures inflammation and hormonal triggers are stabilised before advanced pigment correction treatments are introduced."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Under-Eye Ageing in Menopause
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "under-eye-ageing-menopause",
     title: "Under-Eye Ageing in Menopause: Why Hollowness and Creasing Accelerate",
@@ -6910,7 +6910,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -7023,7 +7023,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -7147,7 +7147,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -7193,15 +7193,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Under-Eye Renewal, Menopause Skin Rebuild and Structural Skin Regeneration. Our approach ensures barrier stability and structural readiness before introducing advanced under-eye treatments."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Oestrogen, Collagen and Elasticity
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "oestrogen-collagen-elasticity",
     title: "Oestrogen, Collagen and Elasticity: Why Skin Changes Rapidly in Midlife",
@@ -7262,7 +7262,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -7367,7 +7367,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -7491,7 +7491,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -7537,15 +7537,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Structural Skin Regeneration and Photoaging & Skin Architecture. Our approach ensures barrier stability and structural readiness before introducing advanced collagen-supportive treatments."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Menopause and Skin Biology
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "menopause-skin-biology",
     title: "Menopause and Skin Biology: How Hormonal Shifts Change Skin Behaviour",
@@ -7606,7 +7606,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -7711,7 +7711,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -7835,7 +7835,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -7881,15 +7881,15 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Structural Skin Regeneration and Skin Barrier Repair & Recovery. Our approach ensures hormonal skin changes are stabilised before introducing advanced treatments such as Hydrobooster, collagen stimulation and renewal therapies."
       }
     ]
   },
 
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // ARTICLE: Menopause Pigmentation Patterns
-  // ═══════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   {
     id: "menopause-pigmentation-patterns",
     title: "Menopause Pigmentation Patterns: Why Dark Spots Can Suddenly Worsen",
@@ -7950,7 +7950,7 @@ export const journalArticles = [
         title: "Book Your Advanced Skin Health Consultation",
         content: {
           type: "paragraph",
-          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs � so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
+          text: "If you're not sure what your skin needs, your safest starting point is a Advanced Skin Health Consultation.\n\nThis structured nurse-led assessment allows us to understand your skin behaviour, barrier stability and long-term regenerative needs  -  so your plan is safe, personalised and sequenced correctly.\n\n\"This is the safest starting point if you've tried multiple products or treatments without lasting improvement.\"\n\n\"Once booked, our clinic team will confirm your appointment and guide you on how to prepare, so everything feels calm and clear.\""
         }
       },
       { type: "button", text: "Book Advanced Skin Health Consultation", link: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" },
@@ -8063,7 +8063,7 @@ export const journalArticles = [
         type: "section",
         title: "The ULANDA Sequencing Model",
         content: [
-          { type: "paragraph", text: "Refresh (Surface) → Renew (Cellular) → Restore (Structural) → Radiate (Internal)" },
+          { type: "paragraph", text: "Refresh (Surface) â†’ Renew (Cellular) â†’ Restore (Structural) â†’ Radiate (Internal)" },
           {
             type: "subsection",
             title: "Refresh (Surface)",
@@ -8186,7 +8186,7 @@ export const journalArticles = [
               "Treatment tolerance"
             ]
           },
-          { type: "paragraph", text: "You will never be pressured into treatments � recommendations are based only on what your skin is ready for." }
+          { type: "paragraph", text: "You will never be pressured into treatments  -  recommendations are based only on what your skin is ready for." }
         ]
       },
 
@@ -8232,16 +8232,16 @@ export const journalArticles = [
       // -- Local Authority Footer --
       {
         type: "shoutout",
-        title: "ULANDA � Ware SG12, Hertfordshire",
+        title: "ULANDA  -  Ware SG12, Hertfordshire",
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Photoaging & Skin Architecture and Skin Barrier Repair & Recovery. Our approach ensures hormonal pigmentation is stabilised before introducing advanced renewal and structural treatments."
       }
     ]
   }
 ];
 
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // HELPER FUNCTIONS
-// ═══════════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 /**
  * Get a single published journal article by slug
@@ -8290,3 +8290,5 @@ export const getJournalsForSignature = (signatureSlug) =>
   journalArticles.filter(a =>
     a.status === 'published' && a.relatedSignatures?.includes(signatureSlug)
   );
+
+
