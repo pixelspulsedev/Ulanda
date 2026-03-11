@@ -1,332 +1,492 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
-import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import { conditionsLandingData } from '../data/pageContents/conditions/landing';
+import { signaturePathways } from '../data/pageContents/signature/signatureData';
+import { FAQSchema } from '../components/Schema';
+
+const BOOKING_URL = "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ";
+
+const filteredSignatures = signaturePathways.filter(s =>
+  ['skin-barrier-repair-recovery', 'rosacea-redness-control', 'menopause-skin-rebuild', 'photoaging-skin-architecture', 'structural-skin-regeneration', 'under-eye-renewal'].includes(s.id)
+);
+
+const journalCards = [
+  { id: "menopause-skin-biology", title: "Menopause and Skin Biology", description: "How hormonal shifts change skin behaviour.", image: "/assets/img/journal/menopause-skin-biology.webp" },
+  { id: "hard-water-skin-barrier", title: "Hard Water, Inflammation & Skin Sensitivity", description: "The hidden trigger in Hertfordshire.", image: "/assets/img/journal/hard-water-skin-barrier.webp" },
+  { id: "regenerative-injectables-explained", title: "Regenerative Injectables Explained", description: "The science behind regenerative therapies.", image: "/assets/img/journal/regenerative-injectables-explained.webp" },
+];
+
+const faqs = [
+  {
+    question: "Do I need to know which treatment I need?",
+    answer: "No. Most clients begin with a Skin Health Consultation where clinicians assess skin behaviour and recommend the most appropriate treatment pathway."
+  },
+  {
+    question: "Can skin concerns be treated with one session?",
+    answer: "Many regenerative treatments are delivered as a course to support gradual improvement."
+  },
+  {
+    question: "Can multiple skin concerns be treated together?",
+    answer: "Yes. Treatment plans often address several concerns simultaneously."
+  },
+  {
+    question: "Are treatments suitable for sensitive skin?",
+    answer: "Treatments are always introduced following a Barrier & Skin Readiness Assessment to ensure suitability."
+  }
+];
 
 export default function ConditionsLanding() {
-  const { hero, categories } = conditionsLandingData;
+  const { categories } = conditionsLandingData;
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalBusiness",
+        "@id": "https://www.ulanda.co.uk/#medicalbusiness",
+        "name": "ULANDA",
+        "url": "https://www.ulanda.co.uk",
+        "telephone": "+44 7904 336031",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Uphaven, 6 Hampden Hill",
+          "addressLocality": "Ware",
+          "postalCode": "SG12 7JT",
+          "addressRegion": "Hertfordshire",
+          "addressCountry": "UK"
+        },
+        "medicalSpecialty": "https://schema.org/Dermatology"
+      },
+      {
+        "@type": "LocalBusiness",
+        "name": "ULANDA Skin Clinic",
+        "url": "https://www.ulanda.co.uk",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Uphaven, 6 Hampden Hill",
+          "addressLocality": "Ware",
+          "postalCode": "SG12 7JT",
+          "addressRegion": "Hertfordshire",
+          "addressCountry": "UK"
+        },
+        "areaServed": ["Ware", "Broxbourne", "Hoddesdon", "Hertford", "Bishop's Stortford"]
+      },
+      {
+        "@type": "MedicalWebPage",
+        "name": "Skin Concerns & Skin Conditions Treated | Skin Clinic in Ware Hertfordshire | ULANDA",
+        "url": "https://www.ulanda.co.uk/conditions",
+        "about": [
+          { "@type": "MedicalCondition", "name": "Dehydration & Dull Skin" },
+          { "@type": "MedicalCondition", "name": "Menopause Skin Changes" },
+          { "@type": "MedicalCondition", "name": "Rosacea & Redness" },
+          { "@type": "MedicalCondition", "name": "Pigmentation & Melasma" },
+          { "@type": "MedicalCondition", "name": "Acne Scarring" },
+          { "@type": "MedicalCondition", "name": "Under-Eye Concerns" }
+        ],
+        "mentions": [
+          { "@type": "MedicalProcedure", "name": "Skin Boosters" },
+          { "@type": "MedicalProcedure", "name": "Polynucleotides" },
+          { "@type": "MedicalProcedure", "name": "LED Light Therapy" },
+          { "@type": "MedicalProcedure", "name": "Chemical Peels" },
+          { "@type": "MedicalProcedure", "name": "Microneedling" },
+          { "@type": "MedicalProcedure", "name": "Biostimulators" }
+        ]
+      }
+    ]
+  };
 
   return (
     <>
       <Head>
-        <title>Skin Conditions We Treat | ULANDA Ware SG12</title>
+        <title>Skin Concerns &amp; Skin Conditions Treated | Skin Clinic in Ware Hertfordshire | ULANDA</title>
         <meta
           name="description"
-          content="Explore skin conditions treated at ULANDA in Ware SG12. A regenerative approach to women's skin, structure and internal wellness. Personalised, medically led care."
+          content="Explore skin concerns treated at ULANDA, a nurse-led skin clinic in Ware, Hertfordshire. Regenerative medical aesthetic treatments for ageing skin, pigmentation, acne scarring, and skin quality concerns."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/conditions" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Skin Conditions We Treat | ULANDA" />
-        <meta name="twitter:description" content="Explore skin conditions treated at ULANDA. A regenerative approach to women's skin, structure and wellness." />
+        <meta name="twitter:title" content="Skin Concerns & Skin Conditions Treated | Skin Clinic in Ware Hertfordshire | ULANDA" />
+        <meta name="twitter:description" content="Explore skin concerns treated at ULANDA, a nurse-led skin clinic in Ware, Hertfordshire. Regenerative medical aesthetic treatments for ageing skin, pigmentation, acne scarring, and skin quality concerns." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <FAQSchema faqs={faqs} />
 
       <div className="bg-base-100">
         <Breadcrumbs />
 
         {/* Hero Section */}
         <section className="relative min-h-[85vh] w-full flex items-center bg-secondary">
-          {/* <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
-            <img
-              src={hero.placeholderUrl || hero.image}
-              alt="Ulanda Conditions"
-              width="1200"
-              height="1600"
-              className="w-full h-full object-cover brightness-75"
-            />
-            <div className="absolute inset-0 bg-black/30"></div>
-          </div> */}
-
-          <div className=" relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-start w-full">
+          <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-start w-full">
             <div className="max-w-4xl">
               <h1 className="text-4xl text-primary md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
                 <HeroText>
-                  {hero.title}{' '}
-                  <span className="italic font-light">{hero.subtitle}</span>
+                  Skin Concerns & Skin Conditions Treated in{' '}
+                  <span className="italic font-light">Ware, Hertfordshire</span>
                 </HeroText>
               </h1>
 
-              <div className="text-xl md:text-2xl font-serif italic mb-8">
-                <h2 delay={0.2}>
-                  A regenerative approach to women’s skin, structure and
-                  internal wellness.
-                </h2>
+              <div className="space-y-4 text font-sans text-text/90 font-extralight leading-relaxed mx-auto">
+                <HeroText delay={0.2}>
+                  <p>Most clients visit ULANDA because of a specific skin concern rather than a particular treatment.</p>
+                </HeroText>
+                <HeroText delay={0.3}>
+                  <p>Instead of recommending treatments in isolation, clinicians evaluate the underlying skin behaviour, barrier stability, hydration levels, hormonal influences and tissue condition before determining the most appropriate regenerative pathway.</p>
+                </HeroText>
+                <HeroText delay={0.4}>
+                  <p>This approach ensures treatments are introduced at the correct stage of skin readiness, improving both safety and long-term outcomes.</p>
+                </HeroText>
+                <HeroText delay={0.5}>
+                  <p>Some concerns may be addressed with directly bookable treatments, while others benefit from consultation to ensure the correct sequencing within your skin&#39;s regenerative pathway.</p>
+                </HeroText>
               </div>
 
-              <div className="space-y-4 text font-sans text-text/90 font-extralight leading-relaxed mx-auto">
-                {hero.description.map((paragraph, index) => (
-                  <HeroText delay={0.4 + index * 0.1} key={index}>
-                    <p>{paragraph}</p>
-                  </HeroText>
-                ))}
-              </div>
               <FadeInWhenVisible delay={0.6}>
-                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-8">
-                  Book Advanced Skin Health Consultation
-                </a>
+                <div className="mt-10 space-y-4">
+                  <div>
+                    <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white">
+                      Book Skin Health Consultation
+                    </a>
+                    <p className="text-sm text-base-content/60 mt-2 font-sans">&pound;175 &mdash; Fully redeemable against your treatment plan</p>
+                    <p className="text-sm text-primary italic mt-1 font-serif">Refinement now. Regeneration ahead.</p>
+                  </div>
+                  <div>
+                    <Link to="/treatments" className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-focus transition-colors font-sans">
+                      Explore Skin Treatments <ArrowRight size={18} />
+                    </Link>
+                  </div>
+                </div>
+              </FadeInWhenVisible>
+
+              <FadeInWhenVisible delay={0.7}>
+                <div className="mt-8 p-4 bg-primary/5 border border-primary/10 rounded-lg">
+                  <p className="text-sm font-sans text-base-content/70">
+                    Every treatment begins with a Barrier &amp; Skin Readiness Assessment to ensure biological suitability.
+                  </p>
+                </div>
               </FadeInWhenVisible>
             </div>
           </div>
         </section>
 
-        {/* Categories Grid - REFACTORED TO MATCH AGE-RELATED STYLING */}
-        <section className="py-20 px-4 md:px-8 max-w-[1400px] mx-auto">
-          <div className="text-center mb-16">
-            <p className="text-lg text-base-content/80 font-sans max-w-2xl mx-auto">
-              This page helps you explore the concerns we treat, grouped into
-              six simple, intelligent categories to make your journey
-              effortless.
+        {/* Understanding Skin Behaviour */}
+        <section className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
+          <FadeInWhenVisible>
+            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-base-content">
+              Understanding{' '}
+              <span className="italic font-light text-primary">Skin Behaviour</span>
+            </h2>
+            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed mb-6">
+              Skin concerns rarely occur in isolation. Changes in skin quality are influenced by multiple biological factors including:
             </p>
-          </div>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+              {['Barrier stability', 'Hydration balance', 'Inflammation', 'Collagen decline', 'Hormonal changes', 'Environmental exposure'].map((item) => (
+                <li key={item} className="flex items-start gap-2 text-base-content/70 font-sans font-light">
+                  <span className="text-primary mt-1.5 w-1.5 h-1.5 rounded-full bg-primary/70 shrink-0"></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed">
+              Understanding these influences allows clinicians to recommend treatments that support long-term skin regeneration rather than temporary correction.
+            </p>
+          </FadeInWhenVisible>
+        </section>
 
-          <div className="flex flex-col gap-0 md:gap-0">
-            {categories.map((cat, idx) => {
-              const isEven = idx % 2 === 0;
-              return (
-                <section
-                  key={idx}
-                  className="py-12 md:py-24 flex items-center bg-base-100 overflow-hidden"
-                >
-                  <div
-                    className={`w-full flex flex-col ${
-                      isEven ? 'md:flex-row' : 'md:flex-row-reverse'
-                    } gap-12 md:gap-16 items-center justify-center`}
+        {/* Common Skin Concerns We Treat */}
+        <section className="py-20 px-4 md:px-8 bg-secondary">
+          <div className="max-w-7xl mx-auto">
+            <FadeInWhenVisible>
+              <div className="text-center mb-16">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">
+                  Common Skin Concerns{' '}
+                  <span className="italic font-light text-primary">We Treat</span>
+                </h2>
+              </div>
+            </FadeInWhenVisible>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {categories.map((cat, idx) => (
+                <FadeInWhenVisible key={idx} delay={idx * 0.1}>
+                  <Link
+                    to={cat.link}
+                    className="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-base-200 h-full"
                   >
-                    {/* Content Side */}
-                    <FadeInWhenVisible className="flex-1 flex justify-center w-full max-w-3xl">
-                      <div className="w-full px-4 md:px-0">
-                        <div className="flex items-center gap-3 mb-6">
-                          {/* <span className="text-2xl">{cat.dot}</span> */}
-                          {/* <span className="text-sm font-bold tracking-widest text-primary uppercase">
-                            {idx + 1}. CATEGORY
-                          </span> */}
-                        </div>
-
-                        <div className="mb-6 text-2xl font-serif text-base-content">
-                          <h2 className="font-serif text-3xl md:text-4xl leading-tight">
-                            {cat.title}{' '}
-                            <span className="italic text-primary block md:inline">
-                              {cat.subtitle}
-                            </span>
-                          </h2>
-                        </div>
-
-                        <p className="text-primary font-medium mb-6 font-sans tracking-wide">
-                          {cat.highlight}
-                        </p>
-
-                        <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed mb-8">
-                          {cat.description}
-                        </p>
-
-                        <div className="md:hidden flex-1 w-full max-w-sm mx-auto relative flex justify-center mb-16 md:mt-0">
-                          {/* Decorative Background Element */}
-                          <RevealImage className="w-full h-full">
-                            <div
-                              className={`absolute top-12 ${
-                                isEven
-                                  ? '-left-8 md:-left-12'
-                                  : '-right-8 md:-right-12'
-                              } w-3/4 h-full -z-10 bg-primary/5 rounded-3xl`}
-                            ></div>
-
-                            <div className="relative w-full max-w-sm mx-auto aspect-[4/5]">
-                              {/* Accent / shadow image (background) */}
-                              <div
-                                className={`absolute top-10 ${
-                                  isEven
-                                    ? 'right-6 md:right-10'
-                                    : 'left-6 md:left-10'
-                                } w-full h-full z-0 opacity-80`}
-                              >
-                                <img
-                                  src="/assets/img/ui/accent.webp"
-                                  alt="Decorative shadow"
-                                  className="w-full h-full object-cover rounded-sm"
-                                  // Fallback if accent doesn't exist? Assuming it does based on Conditions.jsx
-                                  onError={(e) => {
-                                    e.target.style.display = 'none';
-                                  }}
-                                />
-                              </div>
-
-                              {/* Main image (foreground) */}
-                              <div className="relative z-10 w-full h-full overflow-hidden shadow-2xl rounded-sm">
-                                <img
-                                  src={cat.placeholderUrl || cat.image}
-                                  alt={cat.title}
-                                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                                />
-                              </div>
-                            </div>
-                          </RevealImage>
-                        </div>
-
-                        {/* Lists Container - Styled to fit naturally in text block */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
-                          <div>
-                            <h3 className="font-sans text-xl mb-4 text-primary ">
-                              Common concerns:
-                            </h3>
-                            <ul className="space-y-2">
-                              {cat.concerns.length > 0 &&
-                                cat.concerns.map((item, i) => (
-                                  <li
-                                    key={i}
-                                    className="flex items-start gap-2 text-sm text-base-content/70 font-sans"
-                                  >
-                                    <span className="text-primary mt-1.5 w-1.5 h-1.5 rounded-full bg-primary/70 shrink-0"></span>
-                                    {item}
-                                  </li>
-                                ))}
-                            </ul>
-                          </div>
-                          <div>
-                            <h3 className="font-sans text-xl mb-4 text-primary">
-                              Solutions:
-                            </h3>
-                            <ul className="space-y-2">
-                              {cat.solutions.length > 0 &&
-                                cat.solutions.map((item, i) => (
-                                  <li
-                                    key={i}
-                                    className="flex items-start gap-2 text-sm text-base-content/70 font-sans"
-                                  >
-                                    <span className="text-primary mt-0.5">
-                                      ✓
-                                    </span>
-                                    {item}
-                                  </li>
-                                ))}
-                            </ul>
-                            {cat.note && (
-                              <p className="mt-4 text-xs text-base-content/50 italic">
-                                {cat.note}
-                              </p>
-                            )}
-                          </div>
-                        </div>
-
-                        <button
-                          onClick={() => (window.location.href = cat.link)}
-                          className="btn btn-primary px-8"
-                        >
-                          {cat.linkText}
-                        </button>
-                      </div>
-                    </FadeInWhenVisible>
-
-                    {/* Image Side */}
-                    <div className="hidden flex-1 w-full max-w-sm relative md:flex justify-center mt-8 md:mt-0">
-                      {/* Decorative Background Element */}
-                      <RevealImage className="w-full h-full">
-                        <div
-                          className={`absolute top-12 ${
-                            isEven
-                              ? '-left-8 md:-left-12'
-                              : '-right-8 md:-right-12'
-                          } w-3/4 h-full -z-10 bg-primary/5 rounded-3xl`}
-                        ></div>
-
-                        <div className="relative w-full max-w-sm aspect-[4/5]">
-                          {/* Accent / shadow image (background) */}
-                          <div
-                            className={`absolute top-10 ${
-                              isEven
-                                ? 'right-6 md:right-10'
-                                : 'left-6 md:left-10'
-                            } w-full h-full z-0 opacity-80`}
-                          >
-                            <img
-                              src="/assets/img/ui/accent.webp"
-                              alt="Decorative shadow"
-                              className="w-full h-full object-cover rounded-sm"
-                              // Fallback if accent doesn't exist? Assuming it does based on Conditions.jsx
-                              onError={(e) => {
-                                e.target.style.display = 'none';
-                              }}
-                            />
-                          </div>
-
-                          {/* Main image (foreground) */}
-                          <div className="relative z-10 w-full h-full overflow-hidden shadow-2xl rounded-sm">
-                            <img
-                              src={cat.placeholderUrl || cat.image}
-                              alt={cat.title}
-                              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                              fetchpriority={idx === 0 ? 'high' : undefined}
-                            />
-                          </div>
-                        </div>
-                      </RevealImage>
+                    <div className="h-56 overflow-hidden relative">
+                      <img
+                        src={cat.placeholderUrl || cat.image}
+                        alt={`${cat.title} ${cat.subtitle}`}
+                        className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                      />
+                      <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors" />
                     </div>
-                  </div>
-                </section>
-              );
-            })}
+                    <div className="p-6 flex flex-col flex-grow">
+                      <h3 className="text-xl font-serif mb-2 text-base-content group-hover:text-primary transition-colors">
+                        {cat.title} <span className="italic text-primary">{cat.subtitle}</span>
+                      </h3>
+                      <p className="text-sm text-base-content/70 mb-4 flex-grow font-light leading-relaxed">{cat.description}</p>
+                      <span className="inline-flex items-center gap-2 text-primary font-medium group-hover:translate-x-1 transition-transform text-sm">
+                        {cat.linkText} <ArrowRight size={16} />
+                      </span>
+                    </div>
+                  </Link>
+                </FadeInWhenVisible>
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* Guidance Section */}
-        <section className="max-w-4xl mx-auto px-6 py-12 md:py-20 text-center">
-          <FadeInWhenVisible className="max-w-4xl mx-auto text-center">
+        {/* How ULANDA Determines the Right Treatment */}
+        <section className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
+          <FadeInWhenVisible>
             <h2 className="text-3xl md:text-4xl font-serif mb-8 text-base-content">
-              The Ultra Simple way{' '}
-              <span className="italic font-light">Use This Page</span>
+              How ULANDA Determines the{' '}
+              <span className="italic font-light text-primary">Right Treatment</span>
             </h2>
+            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed mb-6">
+              Every skin journey begins with understanding the current condition of your skin. During consultation clinicians evaluate:
+            </p>
+            <ul className="space-y-3 mb-8">
+              {['Barrier stability', 'Hydration levels', 'Inflammation or sensitivity', 'Collagen decline', 'Hormonal influences', 'Previous treatment history'].map((item) => (
+                <li key={item} className="flex items-start gap-2 text-base-content/70 font-sans font-light">
+                  <span className="text-primary mt-1.5 w-1.5 h-1.5 rounded-full bg-primary/70 shrink-0"></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed mb-8">
+              For first-time clients, treatment suitability is confirmed during your Skin Health Consultation to ensure the most appropriate treatment pathway and the best possible outcome for your skin.
+            </p>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white">
+              Book Skin Health Consultation
+            </a>
+          </FadeInWhenVisible>
+        </section>
 
-            <div className="bg-white p-8 md:p-12 rounded-2xl shadow-sm mb-12 text-left md:text-center">
-              <p className="font-serif text-xl mb-6">
-                If you’re unsure where to start:
+        {/* Treatment Pathways */}
+        <section className="py-20 px-4 md:px-8 bg-base-200/30">
+          <div className="max-w-4xl mx-auto">
+            <FadeInWhenVisible>
+              <h2 className="text-3xl md:text-4xl font-serif mb-8 text-base-content">
+                Treatment{' '}
+                <span className="italic font-light text-primary">Pathways</span>
+              </h2>
+              <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed mb-6">
+                Skin concerns are often addressed through a combination of therapies delivered over time. These pathways may include:
               </p>
-              <ul className="space-y-4 inline-block text-left">
-                <li className="flex items-center gap-3 text-lg font-sans font-light">
-                  <span className="text-primary text-xl">✔</span> Identify your
-                  main concern above
-                </li>
-                <li className="flex items-center gap-3 text-lg font-sans font-light">
-                  <span className="text-primary text-xl">✔</span> Click the
-                  category that resonates most
-                </li>
-                <li className="flex items-center gap-3 text-lg font-sans font-light">
-                  <span className="text-primary text-xl">✔</span> Explore the
-                  regenerative solutions
-                </li>
-                <li className="flex items-center gap-3 text-lg font-sans font-light">
-                  <span className="text-primary text-xl">✔</span> Book your
-                  consultation for a personalised plan
-                </li>
+              <ul className="space-y-3 mb-6">
+                {['Barrier stabilisation protocols', 'Skin renewal therapies', 'Regenerative injectables', 'Structural support treatments'].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-base-content/70 font-sans font-light">
+                    <span className="text-primary mt-0.5">&#10003;</span>
+                    {item}
+                  </li>
+                ))}
               </ul>
-              <p className="mt-8 text-base-content/70 italic">
-                Every treatment plan at ULANDA is bespoke — guided by AI skin
-                analysis, hormonal stage assessment and your personal goals.
+              <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed">
+                This approach supports gradual improvement and long-term skin health.
               </p>
+            </FadeInWhenVisible>
+          </div>
+        </section>
+
+        {/* Signature Skin Health Programmes */}
+        <section className="py-20 px-4 md:px-8">
+          <div className="max-w-7xl mx-auto">
+            <FadeInWhenVisible>
+              <div className="text-center mb-4">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">
+                  Signature Skin Health{' '}
+                  <span className="italic font-light text-primary">Programmes</span>
+                </h2>
+                <p className="text-lg text-base-content/80 font-sans max-w-2xl mx-auto mb-2">
+                  For clients seeking a structured approach, ULANDA offers signature programmes designed to address specific skin concerns. These programmes combine treatments into regenerative pathways tailored to the skin&#39;s biological needs.
+                </p>
+              </div>
+            </FadeInWhenVisible>
+
+            <h3 className="text-2xl font-serif text-center mb-12 text-base-content">
+              <span className="italic font-light text-primary">Signature</span>
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+              {filteredSignatures.map((sig, idx) => (
+                <FadeInWhenVisible key={sig.id} delay={idx * 0.08}>
+                  <Link
+                    to={sig.url}
+                    className="group block bg-white border border-secondary/50 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full"
+                  >
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img
+                        src={sig.image}
+                        alt={sig.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h4 className="text-xl font-serif text-base-content mb-2 group-hover:text-primary transition-colors">
+                        {sig.title}
+                      </h4>
+                      {sig.subtitle && (
+                        <p className="text-sm text-primary/80 font-light mb-3">{sig.subtitle}</p>
+                      )}
+                      <p className="text-sm text-base-content/70 font-light leading-relaxed mb-4 line-clamp-3">
+                        {sig.concerns}
+                      </p>
+                      <span className="inline-flex items-center gap-2 text-primary text-sm font-medium group-hover:translate-x-1 transition-transform">
+                        Learn More <ArrowRight size={16} />
+                      </span>
+                    </div>
+                  </Link>
+                </FadeInWhenVisible>
+              ))}
+            </div>
+
+            <div className="text-center">
+              <Link to="/signature" className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-focus transition-colors font-sans">
+                Explore Signature Programmes <ArrowRight size={18} />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Clinical Insights & Skin Health Education */}
+        <section className="py-20 px-4 md:px-8 bg-secondary">
+          <div className="max-w-7xl mx-auto">
+            <FadeInWhenVisible>
+              <div className="text-center mb-4">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">
+                  Clinical Insights &amp; Skin Health{' '}
+                  <span className="italic font-light text-primary">Education</span>
+                </h2>
+                <p className="text-lg text-base-content/80 font-sans max-w-3xl mx-auto">
+                  ULANDA maintains a growing collection of clinical insights exploring the biological mechanisms behind common skin concerns and regenerative treatments. These articles provide deeper understanding of topics such as collagen decline, hormonal skin changes, pigmentation pathways, and the science behind regenerative therapies.
+                </p>
+                <p className="text-base text-base-content/70 font-sans max-w-3xl mx-auto mt-4">
+                  For clients interested in learning more about how skin behaviour influences treatment outcomes, the journal offers practical and evidence-informed guidance.
+                </p>
+              </div>
+            </FadeInWhenVisible>
+
+            <h3 className="text-2xl font-serif text-center mb-12 mt-8 text-base-content">
+              ULANDA Skin Health{' '}
+              <span className="italic font-light text-primary">Journal</span>
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+              {journalCards.map((journal, idx) => (
+                <FadeInWhenVisible key={journal.id} delay={idx * 0.08}>
+                  <Link
+                    to={`/journal/${journal.id}`}
+                    className="group block bg-white border border-secondary/50 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full"
+                  >
+                    <div className="aspect-[4/3] overflow-hidden bg-base-200">
+                      <img
+                        src={journal.image}
+                        alt={journal.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h4 className="text-xl font-serif text-base-content mb-2 group-hover:text-primary transition-colors">
+                        {journal.title}
+                      </h4>
+                      <p className="text-sm text-base-content/70 font-light leading-relaxed mb-4">
+                        {journal.description}
+                      </p>
+                      <span className="inline-flex items-center gap-2 text-primary text-sm font-medium group-hover:translate-x-1 transition-transform">
+                        Read Article <ArrowRight size={16} />
+                      </span>
+                    </div>
+                  </Link>
+                </FadeInWhenVisible>
+              ))}
+            </div>
+
+            <div className="text-center">
+              <Link to="/journal" className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-focus transition-colors font-sans">
+                Explore Clinical Insights <ArrowRight size={18} />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQs */}
+        <section className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
+          <FadeInWhenVisible>
+            <h2 className="text-3xl md:text-4xl font-serif mb-12 text-base-content text-center">
+              Frequently Asked{' '}
+              <span className="italic font-light text-primary">Questions</span>
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, idx) => (
+                <div key={idx} className="border-b border-base-200 pb-6">
+                  <h3 className="text-lg font-sans font-medium text-base-content mb-3">{faq.question}</h3>
+                  <p className="text-base-content/70 font-sans font-light leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
             </div>
           </FadeInWhenVisible>
         </section>
 
-        <section className="py-32 px-4 md:px-8 bg-secondary text-primary text-center">
-          <div className="max-w-3xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-serif mb-4">
-              Start Your Regenerative Journey
-            </h3>
-            <p className="font-sans font-light mb-8 ">
-              A personalised, clinical assessment for skin, structure & internal
-              wellness.
-            </p>
-            <a
-              href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg"
-            >
-              Book Advanced Skin Health Consultation
-            </a>
+        {/* Final CTA */}
+        <section className="py-24 px-4 md:px-8 bg-secondary text-primary">
+          <div className="max-w-3xl mx-auto text-center">
+            <FadeInWhenVisible>
+              <h2 className="text-3xl md:text-4xl font-serif mb-6">
+                Begin Your Personalised Skin{' '}
+                <span className="italic font-light">Regeneration Pathway</span>
+              </h2>
+              <p className="font-sans font-light mb-8 text-base-content/80 text-lg leading-relaxed">
+                Whether you are exploring treatment options for the first time or seeking targeted improvement for a specific concern, ULANDA clinicians will guide you through the most appropriate regenerative approach.
+              </p>
+              <div className="space-y-4">
+                <div>
+                  <a
+                    href={BOOKING_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary text-white px-10 py-4 h-auto text-lg rounded-lg"
+                  >
+                    Book Skin Health Consultation
+                  </a>
+                  <p className="text-sm text-base-content/60 mt-2 font-sans">&pound;175 &mdash; Fully redeemable against your treatment plan</p>
+                  <p className="text-sm text-primary italic mt-1 font-serif">Refinement now. Regeneration ahead.</p>
+                </div>
+                <div>
+                  <Link to="/treatments" className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-focus transition-colors font-sans">
+                    Explore Skin Treatments <ArrowRight size={18} />
+                  </Link>
+                </div>
+              </div>
+            </FadeInWhenVisible>
           </div>
+        </section>
+
+        {/* Visiting Our Skin Clinic */}
+        <section className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
+          <FadeInWhenVisible>
+            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-base-content">
+              Visiting Our Skin Clinic in{' '}
+              <span className="italic font-light text-primary">Ware</span>
+            </h2>
+            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed mb-4">
+              ULANDA is a nurse-led skin clinic providing regenerative medical aesthetic treatments in Ware, Hertfordshire.
+            </p>
+            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed">
+              Clients visit from Ware, Broxbourne, Hoddesdon, Hertford, and Bishop&#39;s Stortford for barrier-first skin treatments, regenerative injectables, and clinically guided aesthetic care.
+            </p>
+          </FadeInWhenVisible>
         </section>
       </div>
     </>

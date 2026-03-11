@@ -1470,5 +1470,5 @@ export const getCondition = (id) => {
   const condition = conditions.find(c => c.id === id);
   if (condition) return condition;
   
-  return individualConditions.find(c => c.id === id);
+  return individualConditions.find(c => c?.id === id);
 };

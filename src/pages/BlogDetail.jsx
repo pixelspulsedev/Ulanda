@@ -423,6 +423,18 @@ export default function BlogDetail() {
                 <p className="text-sm text-base-content/60 leading-relaxed pl-8">A clinician-led stabilisation framework restoring barrier integrity before advanced regenerative treatment begins.</p>
               </Link>
             </FadeInWhenVisible>
+            <FadeInWhenVisible delay={0.3} threshold={0.1}>
+              <Link
+                to="/treatments"
+                className="group block bg-secondary/30 rounded-xl p-6 border border-primary/10 hover:border-primary/30 hover:shadow-md transition-all duration-300 h-full"
+              >
+                <div className="flex items-start gap-3 mb-3">
+                  <BookOpen className="w-5 h-5 text-primary mt-1 shrink-0" />
+                  <h3 className="font-serif text-lg text-base-content group-hover:text-primary transition-colors leading-snug">Regenerative Treatments Landing Page</h3>
+                </div>
+                <p className="text-sm text-base-content/60 leading-relaxed pl-8">Explore the full ULANDA treatment framework, grouped by barrier support, skin renewal, injectables and structural pathways.</p>
+              </Link>
+            </FadeInWhenVisible>
           </div>
         </section>
 
