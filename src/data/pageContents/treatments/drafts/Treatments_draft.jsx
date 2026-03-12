@@ -3,7 +3,7 @@ import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import Breadcrumbs from '../../../../components/Breadcrumbs';
-import { treatmentCategories } from './treatments_restructured_draft';
+import { treatmentCategories, treatmentsPageDataDraft } from './treatments_restructured_draft';
 import { getCondition } from '../../conditions/conditions';
 import { getIndividualCondition } from '../../conditions/individualConditions';
 import { getBlog } from '../../blogs/blogs';
@@ -329,40 +329,57 @@ export default function TreatmentsDraft() {
       <div className="bg-base-100 text-base-content">
         <Breadcrumbs />
 
-        <section className="py-14 px-4 md:px-8 max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif mb-6">
-            Regenerative Skin Treatments in Ware, Hertfordshire
-          </h1>
-          <div className="space-y-4 text-base-content/80 leading-relaxed max-w-4xl">
-            <p>
-              At ULANDA, treatments are not presented as a simple menu. Each treatment is selected within a clinical framework that considers skin behaviour, barrier stability, hydration levels, hormonal context and tissue readiness.
-            </p>
-            <p>
-              Rather than offering isolated procedures, ULANDA uses a structured regenerative approach, where treatments are introduced at the correct stage of skin readiness to support long-term skin health.
-            </p>
-            <p>
-              Some treatments can be booked directly, while others are introduced following consultation to ensure the correct sequencing within your skin’s regenerative pathway.
-            </p>
-            <p>
-              Whether you are exploring treatments for the first time or already know the treatment you are considering, this page introduces the regenerative modalities used at ULANDA and how they fit within our treatment pathways.
-            </p>
+        <section className="relative min-h-[85vh] w-full flex items-center justify-center">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
+            <img
+              src={treatmentsPageDataDraft.hero.placeholderUrl || treatmentsPageDataDraft.hero.image}
+              alt={treatmentsPageDataDraft.hero.title}
+              className="w-full h-full object-cover brightness-75"
+              fetchpriority="high"
+            />
+            <div className="absolute inset-0 bg-black/40"></div>
           </div>
-          <div className="mt-8 flex flex-col sm:flex-row gap-4">
-            <a
-              href={squareBookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              Book Skin Health Consultation
-            </a>
-            <Link to="/conditions" className="btn btn-outline">
-              Explore Skin Conditions
-            </Link>
+
+          {/* Content */}
+          <div className="w-full relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-white">
+            <div className="max-w-3xl">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
+                Regenerative Skin Treatments in{' '}
+                <span className="italic font-extralight">Ware, Hertfordshire</span>
+              </h1>
+              <div className="space-y-4 text-white/90 font-light leading-relaxed max-w-4xl">
+                <p>
+                  At ULANDA, treatments are not presented as a simple menu. Each treatment is selected within a clinical framework that considers skin behaviour, barrier stability, hydration levels, hormonal context and tissue readiness.
+                </p>
+                <p>
+                  Rather than offering isolated procedures, ULANDA uses a structured regenerative approach, where treatments are introduced at the correct stage of skin readiness to support long-term skin health.
+                </p>
+                <p>
+                  Some treatments can be booked directly, while others are introduced following consultation to ensure the correct sequencing within your skin’s regenerative pathway.
+                </p>
+                <p>
+                  Whether you are exploring treatments for the first time or already know the treatment you are considering, this page introduces the regenerative modalities used at ULANDA and how they fit within our treatment pathways.
+                </p>
+              </div>
+              <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                <a
+                  href={squareBookingUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary text-white"
+                >
+                  Book Skin Health Consultation
+                </a>
+                <Link to="/conditions" className="btn btn-outline text-white border-white hover:bg-white/10">
+                  Explore Skin Conditions
+                </Link>
+              </div>
+              <p className="mt-4 text-sm italic text-white/70">
+                Every treatment begins with a Barrier & Skin Readiness Assessment to ensure biological suitability.
+              </p>
+            </div>
           </div>
-          <p className="mt-4 text-sm italic text-base-content/70">
-            Every treatment begins with a Barrier & Skin Readiness Assessment to ensure biological suitability.
-          </p>
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
@@ -387,7 +404,7 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Skin Renewal & Regeneration</h2>
+          <h2 className="text-3xl font-serif mb-4">Skin Renewal Treatments</h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
             Once the skin barrier is stable, treatments can stimulate epidermal renewal and collagen activity. These therapies improve skin texture, clarity, and resilience while encouraging natural regenerative processes.
           </p>
@@ -415,7 +432,7 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Structural & Collagen Support</h2>
+          <h2 className="text-3xl font-serif mb-4">Collagen & Injectable Treatments</h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
             Structural treatments support facial architecture and address deeper structural changes associated with ageing. Because these treatments influence tissue structure and facial balance, they are introduced through consultation to ensure appropriate treatment planning.
           </p>

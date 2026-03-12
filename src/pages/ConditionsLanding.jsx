@@ -125,17 +125,28 @@ export default function ConditionsLanding() {
         <Breadcrumbs />
 
         {/* Hero Section */}
-        <section className="relative min-h-[85vh] w-full flex items-center bg-secondary">
+        <section className="relative min-h-[85vh] w-full flex items-center">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
+            <img
+              src={conditionsLandingData.hero.placeholderUrl || conditionsLandingData.hero.image}
+              alt="ULANDA Skin Conditions"
+              className="w-full h-full object-cover brightness-75"
+              fetchpriority="high"
+            />
+            <div className="absolute inset-0 bg-black/30"></div>
+          </div>
+
           <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-start w-full">
             <div className="max-w-4xl">
-              <h1 className="text-4xl text-primary md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
+              <h1 className="text-4xl text-white md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
                 <HeroText>
                   Skin Concerns & Skin Conditions Treated in{' '}
                   <span className="italic font-light">Ware, Hertfordshire</span>
                 </HeroText>
               </h1>
 
-              <div className="space-y-4 text font-sans text-text/90 font-extralight leading-relaxed mx-auto">
+              <div className="space-y-4 text font-sans text-white/90 font-extralight leading-relaxed mx-auto">
                 <HeroText delay={0.2}>
                   <p>Most clients visit ULANDA because of a specific skin concern rather than a particular treatment.</p>
                 </HeroText>
@@ -156,11 +167,11 @@ export default function ConditionsLanding() {
                     <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white">
                       Book Skin Health Consultation
                     </a>
-                    <p className="text-sm text-base-content/60 mt-2 font-sans">&pound;175 &mdash; Fully redeemable against your treatment plan</p>
-                    <p className="text-sm text-primary italic mt-1 font-serif">Refinement now. Regeneration ahead.</p>
+                    <p className="text-sm text-white/60 mt-2 font-sans">&pound;175 &mdash; Fully redeemable against your treatment plan</p>
+                    <p className="text-sm text-white/80 italic mt-1 font-serif">Refinement now. Regeneration ahead.</p>
                   </div>
                   <div>
-                    <Link to="/treatments" className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-focus transition-colors font-sans">
+                    <Link to="/treatments" className="inline-flex items-center gap-2 text-white font-medium hover:text-white/80 transition-colors font-sans">
                       Explore Skin Treatments <ArrowRight size={18} />
                     </Link>
                   </div>
@@ -168,8 +179,8 @@ export default function ConditionsLanding() {
               </FadeInWhenVisible>
 
               <FadeInWhenVisible delay={0.7}>
-                <div className="mt-8 p-4 bg-primary/5 border border-primary/10 rounded-lg">
-                  <p className="text-sm font-sans text-base-content/70">
+                <div className="mt-8 p-4 bg-white/10 border border-white/20 rounded-lg">
+                  <p className="text-sm font-sans text-white/70">
                     Every treatment begins with a Barrier &amp; Skin Readiness Assessment to ensure biological suitability.
                   </p>
                 </div>

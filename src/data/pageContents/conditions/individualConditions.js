@@ -1856,7 +1856,7 @@ export const individualConditions = [
              { name: "Microneedling (Under-Eye Suitable Protocols)", desc: "improves collagen behaviour and under-eye texture where clinically appropriate" },
              { name: "Deep Hydration Facial", desc: "supports hydration retention and skin plumpness" },
              { name: "Oxygen Glow Facial", desc: "improves radiance and tissue vitality without irritation" },
-             { name: "Skin Renewal & Regeneration Treatments", desc: "introduced only when under-eye barrier stability is confirmed" },
+             { name: "Skin Renewal Treatments", desc: "introduced only when under-eye barrier stability is confirmed" },
              { name: "Medical-Grade Eye Skincare Planning", desc: "supports collagen, hydration and texture improvement" },
              { name: "Lymphatic Detox Facial", desc: "supports under-eye puffiness reduction where fluid retention worsens creasing" }
           ]
@@ -1973,7 +1973,7 @@ export const individualConditions = [
              { name: "Oxygen Glow Facial", desc: "improves radiance and tissue oxygenation support" },
              { name: "Microneedling (Under-Eye Suitable Protocols)", desc: "improves pigmentation and collagen behaviour where clinically appropriate" },
              { name: "Medical-Grade Eye Skincare Planning", desc: "pigment and fragility support through safe formulations" },
-             { name: "Skin Renewal & Regeneration Treatments", desc: "introduced only when under-eye stability is confirmed" }
+             { name: "Skin Renewal Treatments", desc: "introduced only when under-eye stability is confirmed" }
           ]
         }
       ]

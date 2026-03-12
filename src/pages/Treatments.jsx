@@ -124,7 +124,7 @@ export default function Treatments() {
         <Breadcrumbs />
 
         {/* Hero Section */}
-        <section className="relative min-h-[85vh] w-full flex items-center justify-center">
+        <section className="relative min-h-[85vh] w-full flex items-center justify-center bg-secondary">
           {/* Background Image */}
           <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img

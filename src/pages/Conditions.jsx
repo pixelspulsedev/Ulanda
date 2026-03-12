@@ -52,33 +52,47 @@ export default function Conditions() {
         <Breadcrumbs />
 
         {/* Hero Section */}
-        <section className="py-12 md:py-20 px-4 md:px-8 max-w-7xl mx-auto w-full">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight mb-4 text-[#2A2A2A]">
-              <HeroText>
-              {condition.hero.title}{' '}
-              <span className="italic font-light text-primary">{condition.hero.highlight}</span>
-              </HeroText>
-            </h1>
+        <section className="relative min-h-[70vh] w-full flex items-center">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
+            <img
+              src={condition.hero.placeholderUrl || condition.hero.image}
+              alt={`${condition.hero.title} ${condition.hero.highlight}`}
+              className="w-full h-full object-cover brightness-75"
+              fetchpriority="high"
+            />
+            <div className="absolute inset-0 bg-black/30"></div>
+          </div>
 
-            <div className="text-sm md:text-base font-sans font-light tracking-wide opacity-90 mb-8 text-base-content/80">
-              <HeroText delay={0.2}>
-              {condition.hero.subtitle}
-              </HeroText>
-            </div>
-
-            <div className="space-y-4 text-lg md:text-xl font-sans font-light text-base-content/80 leading-relaxed">
-              {condition.hero.description.map((paragraph, index) => (
-                <HeroText key={index} delay={0.4 + (index * 0.1)}>
-                <p>{paragraph}</p>
+          {/* Content */}
+          <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-white w-full">
+            <div className="max-w-3xl">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight mb-4">
+                <HeroText>
+                {condition.hero.title}{' '}
+                <span className="italic font-light">{condition.hero.highlight}</span>
                 </HeroText>
-              ))}
+              </h1>
+
+              <div className="text-sm md:text-base font-sans font-light tracking-wide opacity-90 mb-8">
+                <HeroText delay={0.2}>
+                {condition.hero.subtitle}
+                </HeroText>
+              </div>
+
+              <div className="space-y-4 text-lg md:text-xl font-sans font-light text-white/90 leading-relaxed">
+                {condition.hero.description.map((paragraph, index) => (
+                  <HeroText key={index} delay={0.4 + (index * 0.1)}>
+                  <p>{paragraph}</p>
+                  </HeroText>
+                ))}
+              </div>
+              <FadeInWhenVisible delay={0.6}>
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-8">
+                  Book Advanced Skin Health Consultation
+                </a>
+              </FadeInWhenVisible>
             </div>
-            <FadeInWhenVisible delay={0.6}>
-              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-8">
-                Book Advanced Skin Health Consultation
-              </a>
-            </FadeInWhenVisible>
           </div>
         </section>
 

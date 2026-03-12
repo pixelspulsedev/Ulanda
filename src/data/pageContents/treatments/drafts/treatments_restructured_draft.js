@@ -146,7 +146,7 @@ const skinBarrierRenewalProtocol = {
 
 const skinRenewalRegeneration = {
   id: "skin-renewal-regeneration",
-  title: "Skin Renewal & Regeneration",
+  title: "Skin Renewal Treatments",
   subtitle: "Treatments focused on collagen stimulation, texture refinement, pigmentation management and acne scarring.",
   description: "Treatments only introduced when the skin is biologically ready to respond. Often searched as microneedling Ware, acne scar treatment or skin rejuvenation treatment.",
   image: "https://images.unsplash.com/photo-1670201202784-ec638a82bca8?q=80&w=698&auto=format&fit=crop",
@@ -240,7 +240,7 @@ const injectableSkinOptimisation = {
 
 const structuralCollagenSupport = {
   id: "structural-collagen-support",
-  title: "Structural & Collagen Support",
+  title: "Collagen & Injectable Treatments",
   subtitle: "Nurse-Led clinical treatments addressing facial structure, jawline definition and tissue support using regenerative and anatomy-respecting techniques.",
   description: "Often searched as non-surgical facelift, jawline sculpting Ware or thread lift near me.",
   image: "https://plus.unsplash.com/premium_photo-1682096537666-3621cc51c4b8?w=500&auto=format&fit=crop",

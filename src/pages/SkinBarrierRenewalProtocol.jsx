@@ -176,32 +176,54 @@ export default function SkinBarrierRenewalProtocol() {
             >
               ← Back to All Treatments
             </Link>
-            <h1 className="text-3xl md:text-5xl font-serif text-base-content leading-tight mb-6">
-              <HeroText>Skin Barrier Renewal Protocol in Ware, Hertfordshire</HeroText>
+            <h1 className="text-3xl md:text-5xl font-serif text-base-content leading-tight mb-4">
+              <HeroText>Skin Barrier Renewal Protocol</HeroText>
             </h1>
+            <p className="text-xl md:text-2xl font-light text-primary mb-8 leading-relaxed">
+              Nurse-led barrier stabilisation — delivered within your Advanced Skin Health Consultation
+            </p>
             <div className="space-y-4 text-base-content/80 text-lg leading-relaxed max-w-3xl">
               <FadeInWhenVisible delay={0.2}>
-                <p>The Skin Barrier Renewal Protocol at ULANDA is a clinician-led stabilisation framework designed to repair and optimise compromised skin barrier function before advanced regenerative treatment begins.</p>
+                <p>Your skin barrier is not simply the surface of your skin. It is the biological foundation on which every regenerative treatment either succeeds or falls short. When it is compromised whether through hormonal change, environmental stress, over-treatment or incorrect product use, no treatment applied on top of it will deliver what it is capable of delivering in stable skin.</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.3}>
-                <p className="text-sm text-base-content/60">ULANDA operates as a clinician-led Skin Clinic in Ware and Medical Aesthetic Clinic serving Ware, Hertford, Broxbourne, Hoddesdon and surrounding Hertfordshire areas.</p>
+                <p>The Skin Barrier Renewal Protocol is how ULANDA begins addressing that foundation. It is not a standalone bookable treatment. It is a clinician-led clinical response which is delivered within your Advanced Skin Health Consultation, on the same day as your assessment, personalised entirely to what your skin needs on that day.</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.4}>
-                <p>If the barrier is unstable, no pigmentation correction, collagen stimulation, bio-remodelling or injectable treatment will perform as predictably as it should.</p>
-              </FadeInWhenVisible>
-              <FadeInWhenVisible delay={0.5}>
-                <div className="space-y-1 font-medium text-base-content">
-                  <p>Barrier integrity is never assumed.</p>
-                  <p>It is assessed, stabilised and strengthened first.</p>
-                </div>
+                <p className="font-medium text-base-content text-xl mt-6 italic">Your results begin before you leave.</p>
               </FadeInWhenVisible>
             </div>
-            <FadeInWhenVisible delay={0.6}>
-              <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-6 shadow-md">
-                Book Advanced Skin Health Consultation
-              </a>
-              <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
+            <FadeInWhenVisible delay={0.5}>
+              <div className="mt-8">
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white shadow-md">
+                  Book Your Advanced Skin Health Consultation →
+                </a>
+                <p className="text-base-content/60 mt-3 text-sm">£175 — fully redeemable against your treatment plan</p>
+                <p className="text-sm font-medium text-primary/80 mt-1 tracking-wide">Refinement now. Regeneration ahead.</p>
+              </div>
             </FadeInWhenVisible>
+          </div>
+        </section>
+
+        {/* How This Protocol Works Section */}
+        <section className="bg-secondary/20 py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <div className="max-w-4xl mx-auto">
+              <FadeInWhenVisible>
+                <h2 className="text-3xl md:text-3xl font-serif text-base-content mb-6">How This Protocol Works</h2>
+                <h3 className="text-2xl md:text-3xl font-serif text-primary mb-4">This Is Not a Treatment You Book. It Is a Clinical Response to What Your Skin Needs.</h3>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.1}>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-6">The Skin Barrier Renewal Protocol sits within the Advanced Skin Health Consultation, not after it and not separately from it. The same appointment that assesses your skin is the appointment that begins restoring it.</p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.2}>
+                <p className="font-medium text-base-content text-lg mb-4">Here is how that works in practice.</p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-6">When our clinicians evaluate your skin, they use a full clinical assessment which includes AI Skin Analysis, visual and tactile barrier evaluation, inflammatory marker assessment and internal health context to build a complete picture of what your skin barrier is doing and why. Where barrier compromise is identified, which is the case for most new clients, they begin addressing it immediately using the clinical components within this protocol that your specific findings indicate.</p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.3}>
+                <p className="text-base-content/80 text-lg leading-relaxed">You do not leave with a plan for future treatment and a skin that is no different to when you arrived. You leave with your skin already in a measurably better state and a clear, personalised roadmap for what comes next.</p>
+              </FadeInWhenVisible>
+            </div>
           </div>
         </section>
 
@@ -210,8 +232,9 @@ export default function SkinBarrierRenewalProtocol() {
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="text-center mb-10 max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">Clinician-Selected Variations Within the Protocol</h2>
-                <p className="text-base-content/80 text-lg leading-relaxed mb-6">Following your consultation, your clinician selects the most appropriate variation based on your dominant biological presentation. Possible prescribed variations include:</p>
+                <p className="uppercase tracking-widest text-sm font-semibold text-primary mb-2">THE CLINICAL COMPONENTS</p>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">The Tools Our Clinicians Draw From</h2>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-6">The sub-treatments listed below are the clinical components Our clinicians select from when building your personalised protocol. They are not a treatment menu. They are not available as individual direct bookings. They are the instruments in a clinician’s hands chosen based on your assessment findings, your skin’s dominant biological presentation and what your barrier needs on that specific day.</p>
               </FadeInWhenVisible>
             </div>
             
@@ -256,10 +279,17 @@ export default function SkinBarrierRenewalProtocol() {
             
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible delay={0.6}>
-                <div className="mt-12 space-y-2 text-base-content/60 text-center">
-                  <p>Each variation links to its dedicated page for deeper explanation.</p>
-                  <p className="font-medium text-base-content">Selection is clinician-determined.</p>
-                  <p className="font-medium text-base-content">It is never chosen from a menu.</p>
+                <div className="mt-12 space-y-4 text-center bg-secondary/10 p-8 rounded-2xl border border-secondary">
+                  <p className="font-serif text-xl text-base-content font-medium">Important — please read before booking:</p>
+                  <p className="text-base-content/80 text-lg leading-relaxed">The clinical components above are not available as individual direct bookings. Each is introduced within your Advanced Skin Health Consultation where your assessment findings indicate it. Booking your consultation is how you access this protocol.</p>
+                  
+                  <div className="mt-6">
+                    <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white shadow-md">
+                      Book Your Advanced Skin Health Consultation →
+                    </a>
+                    <p className="text-base-content/60 mt-3 text-sm">£175 — fully redeemable against your treatment plan</p>
+                    <p className="text-sm font-medium text-primary/80 mt-1 tracking-wide">Refinement now. Regeneration ahead.</p>
+                  </div>
                 </div>
               </FadeInWhenVisible>
             </div>
@@ -563,6 +593,12 @@ export default function SkinBarrierRenewalProtocol() {
           </FadeInWhenVisible>
           <div className="space-y-4">
             {[
+              { q: "Can I book the Skin Barrier Renewal Protocol directly?", a: "No — and this is a clinical decision, not an administrative one. The protocol is personalised to your assessment findings on the day. Without a clinical assessment of your barrier status, there is no basis for determining which components are appropriate for your skin. The components that are right for skin with significant inflammatory instability are different from those indicated for skin with dehydration-led compromise. The assessment makes that determination. Booking your consultation is how you access the protocol." },
+              { q: "I previously booked barrier treatments directly at ULANDA — why has this changed?", a: "The model has evolved because the evidence for assessment-led treatment is unambiguous. Delivering a barrier treatment without first evaluating the state of your barrier produces a generic response to an individual biological state. The change reflects a commitment to clinical integrity. Your results will be more precise, more appropriate and more durable because the treatment you receive will be based on what your skin specifically needs — not on what seemed reasonable without measurement." },
+              { q: "What is the difference between the protocol and the individual sub-treatments listed on this page?", a: "The Skin Barrier Renewal Protocol is the clinical framework — the structured approach our clinicians use to assess and begin restoring your barrier within your consultation. The sub-treatments listed — Skin Barrier Restore, Skin Barrier Deep Cleanse, Skin Barrier Hydration, Skin Barrier Enzyme Renewal and Skin Barrier Oxygenation — are the specific clinical components they draw from when building your personalised response. They are the tools within the protocol. Your assessment determines which of those tools your skin needs." },
+              { q: "Will I notice a difference on the day of my consultation?", a: "Most clients do. As barrier function begins to stabilise and inflammatory load reduces, the skin typically appears calmer, more even in tone and more hydrated in reflectivity. This is not a cosmetic surface effect — it is the visible result of improved biological stability. The degree of immediate change depends on your specific presentation and the components indicated by your assessment." },
+              { q: "How does the Skin Barrier Renewal Protocol relate to the Skin Barrier Repair & Recovery Signature programme?", a: "The protocol is the beginning — delivered at your consultation. The Skin Barrier Repair & Recovery Signature is the continuation — a structured multi-session programme for clients where significant barrier compromise is the dominant clinical presentation and a single protocol session is the first step in a longer restoration pathway. Our clinicians will advise at your consultation whether the Signature is indicated for you and what it would involve." },
+              { q: "Is the consultation fee separate from the protocol?", a: "No. Your Advanced Skin Health Consultation fee of £175 covers the full consultation including clinical assessment, AI Skin Analysis, barrier evaluation and the Skin Barrier Renewal Protocol where clinically indicated. The £175 is also fully redeemable against your Signature programme when you proceed — meaning it is an investment in your treatment plan, not an additional cost on top of it." },
               { q: "What is a skin barrier treatment?", a: "A skin barrier treatment is a clinician-led protocol designed to repair the outer protective layer of the skin, reduce inflammation and restore hydration balance before advanced treatments." },
               { q: "How do I know if my skin barrier is damaged?", a: "Common signs include persistent sensitivity, redness, dehydration, stinging, breakouts and poor tolerance to skincare. Clinical assessment confirms diagnosis." },
               { q: "Can I repair my skin barrier at home?", a: "Mild disruption may improve with correct homecare. Moderate to severe compromise often requires structured clinical stabilisation." },
