@@ -83,6 +83,38 @@ const consultationSchema = [
     "mainEntity": [
       {
         "@type": "Question",
+        "name": "Where is the ULANDA Skin Health Consultation available?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Advanced Skin Health Consultation is delivered at ULANDA Skin Clinic in Ware, Hertfordshire. Clients regularly visit ULANDA from across surrounding areas including Hertford, Broxbourne, Hoddesdon and Bishop's Stortford seeking clinician-led skin assessment and personalised treatment planning."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a consultation before treatment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. All new clients begin with a consultation so that barrier condition, hydration balance and treatment readiness can be properly assessed before treatments are introduced."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does the consultation take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The consultation typically lasts 60–90 minutes, allowing time for clinical assessment, AI imaging and development of a personalised treatment pathway."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the consultation fee redeemable?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The £175 consultation fee is fully redeemable against your treatment plan if you proceed with treatment at ULANDA within 3 months of the consultation date."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "What happens during a skin consultation in Ware?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -158,30 +190,24 @@ export default function AdvancedSkinHealthConsultation() {
               ← Back to All Treatments
             </Link>
             <h1 className="text-3xl md:text-5xl font-serif text-base-content leading-tight mb-6">
-              <HeroText>Advanced Skin Health Consultation in Ware, Hertfordshire</HeroText>
+              <HeroText>Advanced Skin Health Consultation</HeroText>
             </h1>
             <div className="space-y-4 text-base-content/80 text-lg leading-relaxed max-w-3xl">
               <FadeInWhenVisible delay={0.2}>
-                <p>The Advanced Skin Health Consultation at ULANDA is a 60–90 minute clinician-led medical skin assessment designed for clients in Ware, Hertford, Broxbourne, Hoddesdon, Bishop's Stortford and surrounding Hertfordshire villages.</p>
+                <p>A 60–90 minute clinician-led medical skin assessment including AI Skin Analysis, barrier evaluation and a personalised treatment roadmap.</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.3}>
-                <p>It includes AI Skin Analysis, barrier evaluation and a personalised treatment roadmap.</p>
+                <p>Where appropriate following assessment, the Skin Barrier Renewal Protocol is often the first clinical treatment within a client's programme and may be delivered during the same appointment.</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.4}>
-                <p className="font-medium text-base-content">This is the required first step for all new clients.</p>
-              </FadeInWhenVisible>
-              <FadeInWhenVisible delay={0.5}>
-                <p>Before any injectable, regenerative or structural treatment is recommended, your skin is clinically assessed, digitally analysed and biologically mapped to ensure safety, correct sequencing and predictable outcomes.</p>
-              </FadeInWhenVisible>
-              <FadeInWhenVisible delay={0.6}>
-                <p className="text-sm text-base-content/60">ULANDA operates as a nurse-led Skin Clinic in Ware and Medical Aesthetic Clinic serving Hertfordshire with structured, barrier-first assessment.</p>
+                <p className="font-medium text-base-content">£175 · Fully redeemable against your treatment plan</p>
               </FadeInWhenVisible>
             </div>
-            <FadeInWhenVisible delay={0.7}>
+            <FadeInWhenVisible delay={0.5}>
               <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-6 shadow-md">
-                Book Your Advanced Skin Health Consultation
+                Book Your Advanced Skin Health Consultation →
               </a>
-              <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Immediate visible refinement. Structured long-term plan.</p>
+              <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Refinement now. Regeneration ahead.</p>
             </FadeInWhenVisible>
           </div>
         </section>
@@ -405,31 +431,98 @@ export default function AdvancedSkinHealthConsultation() {
           </div>
         </section>
 
-        {/* What Happens During Appointment */}
+        {/* What Happens During Your Advanced Skin Health Consultation */}
         <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">What Happens During Your Appointment?</h2>
-                <p className="text-base-content/60 mb-10">Conducted personally by an Advanced Nurse Practitioner &amp; Independent Prescriber.</p>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-4">What Happens During Your Advanced Skin Health Consultation</h2>
+                <p className="text-base-content/70 text-lg leading-relaxed mb-10">During your first appointment at ULANDA, the Advanced Skin Health Consultation guides you through a three-stage clinical pathway designed to ensure treatments are introduced under the correct biological conditions.</p>
               </FadeInWhenVisible>
-              <div className="grid md:grid-cols-2 gap-6">
-                {[
-                  { title: "Clinical Examination", desc: "Hydration, laxity, pigmentation, inflammation and structural ageing are assessed." },
-                  { title: "AI Imaging", desc: "Objective digital mapping and baseline capture." },
-                  { title: "Medical & Lifestyle Review", desc: "Hormonal, medical and environmental influences are evaluated." },
-                  { title: "Immediate Barrier Stabilisation", desc: "The Skin Barrier Renewal Protocol is initiated if clinically indicated.", note: "Where Required" },
-                  { title: "Personalised Treatment Roadmap", desc: "Clear explanation of sequencing, timelines and realistic outcomes." }
-                ].map((step, idx) => (
-                  <FadeInWhenVisible key={idx} delay={idx * 0.1}>
-                    <div className="bg-base-100 rounded-lg p-8 shadow-sm h-full">
-                      <h3 className="font-serif text-xl text-primary mb-2">{step.title}</h3>
-                      {step.note && <span className="text-xs uppercase tracking-widest text-base-content/50 mb-2 block">{step.note}</span>}
-                      <p className="text-base-content/70 leading-relaxed">{step.desc}</p>
-                    </div>
-                  </FadeInWhenVisible>
-                ))}
-              </div>
+
+              {/* Stage 1 */}
+              <FadeInWhenVisible delay={0.1}>
+                <div className="bg-base-100 rounded-lg p-8 shadow-sm mb-2">
+                  <h3 className="font-serif text-xl text-primary mb-3">1. Clinical Skin Assessment</h3>
+                  <p className="text-base-content/70 leading-relaxed mb-4">A comprehensive clinician-led evaluation including:</p>
+                  <ul className="space-y-2 mb-4">
+                    {["AI skin imaging analysis", "barrier integrity assessment", "hydration balance and inflammatory mapping", "medical and treatment history review"].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-3 text-base-content/70">
+                        <span className="text-primary mt-1">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-base-content/80 font-medium">This establishes your baseline skin health and treatment readiness.</p>
+                </div>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.15}>
+                <div className="text-center text-primary text-2xl py-2">↓</div>
+              </FadeInWhenVisible>
+
+              {/* Stage 2 */}
+              <FadeInWhenVisible delay={0.2}>
+                <div className="bg-base-100 rounded-lg p-8 shadow-sm mb-2">
+                  <h3 className="font-serif text-xl text-primary mb-3">2. Barrier Stabilisation <span className="text-sm font-sans text-base-content/50">(When Required)</span></h3>
+                  <p className="text-base-content/70 leading-relaxed mb-4">If the consultation identifies barrier instability, dehydration imbalance or inflammatory activity, stabilisation may begin during the same appointment using the ULANDA Skin Barrier Renewal Protocol.</p>
+                  <p className="text-base-content/70 leading-relaxed mb-3">This personalised treatment supports:</p>
+                  <ul className="space-y-2">
+                    {["restoration of barrier integrity", "hydration balance", "inflammatory regulation", "improved tolerance for regenerative treatments"].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-3 text-base-content/70">
+                        <span className="text-primary mt-1">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.25}>
+                <div className="text-center text-primary text-2xl py-2">↓</div>
+              </FadeInWhenVisible>
+
+              {/* Stage 3 */}
+              <FadeInWhenVisible delay={0.3}>
+                <div className="bg-base-100 rounded-lg p-8 shadow-sm">
+                  <h3 className="font-serif text-xl text-primary mb-3">3. Personalised Treatment Plan</h3>
+                  <p className="text-base-content/70 leading-relaxed mb-4">Before you leave, you receive a structured treatment roadmap explaining:</p>
+                  <ul className="space-y-2 mb-4">
+                    {["the most appropriate treatments for your skin", "how treatments should be sequenced", "your recommended Signature Programme, where appropriate"].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-3 text-base-content/70">
+                        <span className="text-primary mt-1">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-base-content/80 font-medium">This ensures your treatment pathway is clear, predictable and aligned with long-term skin health.</p>
+                </div>
+              </FadeInWhenVisible>
+            </div>
+          </div>
+        </section>
+
+        {/* Consultation Outcome */}
+        <section className="py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <div className="max-w-4xl mx-auto">
+              <FadeInWhenVisible>
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-5">Consultation Outcome</h2>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.1}>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-6">By the end of your consultation you will leave with:</p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.2}>
+                <ul className="space-y-3 mb-8">
+                  {["a clear clinical understanding of your skin", "measurable baseline imaging insights", "improved comfort and stability where barrier treatment is delivered", "a structured treatment pathway aligned with your skin's biological behaviour"].map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-base-content/80 text-lg">
+                      <span className="text-primary mt-1">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.3}>
+                <p className="text-base-content/80 text-lg leading-relaxed font-medium">This first appointment provides clarity, stability and direction for the treatments that follow.</p>
+              </FadeInWhenVisible>
             </div>
           </div>
         </section>
@@ -521,6 +614,10 @@ export default function AdvancedSkinHealthConsultation() {
           </FadeInWhenVisible>
           <div className="space-y-4">
             {[
+              { q: "Where is the ULANDA Skin Health Consultation available?", a: "The Advanced Skin Health Consultation is delivered at ULANDA Skin Clinic in Ware, Hertfordshire. Clients regularly visit ULANDA from across surrounding areas including Hertford, Broxbourne, Hoddesdon and Bishop's Stortford seeking clinician-led skin assessment and personalised treatment planning." },
+              { q: "Do I need a consultation before treatment?", a: "Yes. All new clients begin with a consultation so that barrier condition, hydration balance and treatment readiness can be properly assessed before treatments are introduced." },
+              { q: "How long does the consultation take?", a: "The consultation typically lasts 60–90 minutes, allowing time for clinical assessment, AI imaging and development of a personalised treatment pathway." },
+              { q: "Is the consultation fee redeemable?", a: "Yes. The £175 consultation fee is fully redeemable against your treatment plan if you proceed with treatment at ULANDA within 3 months of the consultation date." },
               { q: "What happens during a skin consultation in Ware?", a: "A medical skin consultation at ULANDA includes clinical examination, AI Skin Analysis, barrier assessment and a personalised treatment roadmap. Where clinically indicated, stabilisation may begin the same day." },
               { q: "How much is a skin consultation in Hertfordshire?", a: "The Advanced Skin Health Consultation is £175 and fully redeemable against your treatment plan." },
               { q: "How long does a medical skin consultation take?", a: "The consultation lasts between 60 and 90 minutes to allow comprehensive assessment and discussion." },
