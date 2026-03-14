@@ -197,7 +197,7 @@ export default function AdvancedSkinHealthConsultation() {
                 <p>A 60–90 minute clinician-led medical skin assessment including AI Skin Analysis, barrier evaluation and a personalised treatment roadmap.</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.3}>
-                <p>Where appropriate following assessment, the <a href="/treatments/skin-barrier-renewal-protocol" className="text-primary font-bold hover:text-primary/80 underline">Skin Barrier Renewal Protocol</a> is often the first clinical treatment within a client's programme and may be delivered during the same appointment.</p>
+                <p>Where appropriate following assessment, the <Link to="/treatments/skin-barrier-renewal-protocol" className="text-primary font-bold hover:text-primary/80 underline">Skin Barrier Renewal Protocol</Link> is often the first clinical treatment within a client's programme and may be delivered during the same appointment.</p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.4}>
                 <p className="font-medium text-base-content">£175 · Fully redeemable against your treatment plan</p>
