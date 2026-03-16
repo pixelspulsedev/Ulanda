@@ -3,12 +3,14 @@ import react from '@vitejs/plugin-react'
 
 // Import data for static path generation
 import { treatments } from './src/data/pageContents/treatments/treatments.js'
+import { treatmentCategories as newTreatmentCategories } from './src/data/pageContents/treatments/drafts/treatments_restructured_draft.js'
 import { conditions } from './src/data/pageContents/conditions/conditions.js'
 import { individualConditions } from './src/data/pageContents/conditions/individualConditions.js'
 import { programmes } from './src/data/pageContents/programmes/programmes.js'
 import { blogs } from './src/data/pageContents/blogs/blogs.js'
 import { signaturePathways } from './src/data/pageContents/signature/signatureData.js'
 import { journalArticles } from './src/data/pageContents/journal/journalArticles.js'
+import { tools } from './src/data/pageContents/tools/tools.js'
 
 // Generate all static paths for SSG
 function generateStaticPaths() {
@@ -29,7 +31,7 @@ function generateStaticPaths() {
     '/disclaimer',
   ];
 
-  // Treatment category pages: /treatments/refresh, /treatments/renew, etc.
+  // Treatment category pages: /treatments/refresh, /treatments/renew, etc. (legacy structure)
   const treatmentCategories = Object.keys(treatments);
   treatmentCategories.forEach(category => {
     paths.push(`/treatments/${category}`);
@@ -45,6 +47,24 @@ function generateStaticPaths() {
         paths.push(`/treatments/${category}/${subCategory}/${treatment}`);
       });
     });
+  });
+
+  // New treatment structure: /treatments/skin-renewal-regeneration, etc.
+  Object.keys(newTreatmentCategories).forEach(categoryId => {
+    paths.push(`/treatments/${categoryId}`);
+    const categoryTreatments = newTreatmentCategories[categoryId]?.treatments || {};
+    Object.keys(categoryTreatments).forEach(treatmentId => {
+      paths.push(`/treatments/${categoryId}/${treatmentId}`);
+    });
+  });
+
+  // Dedicated treatment pages
+  paths.push('/treatments/advanced-skin-health-consultation');
+  paths.push('/treatments/skin-barrier-renewal-protocol');
+
+  // Tool pages
+  tools.forEach(tool => {
+    paths.push(`/tools/${tool.id}`);
   });
 
   // Signature pathways (canonical)
