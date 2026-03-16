@@ -130,7 +130,7 @@ const barrierModalities = [
     title: "Skin Barrier Hydration",
     slug: "skin-barrier-hydration",
     description: "For dehydration-dominant presentations requiring structured multi-level hydration restoration.",
-    image: "/assets/img/treatments/refresh/skin-clinic-ware-deep-hydration.webp"
+    image: "/assets/img/treatments/skin-barrier-hydration.webp"
   },
   {
     title: "Skin Barrier Enzyme Renewal",

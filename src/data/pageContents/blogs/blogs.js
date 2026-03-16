@@ -9116,7 +9116,10 @@ export const blogs = [
         content: [
           "Once barrier integrity is restored and inflammatory signalling regulated, progression into Signature programmes becomes safer and more effective.",
           "Sequencing protects investment.",
-          { type: "button", text: "Explore Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" }
+          { type: "button", text: "Explore Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
+          "Where appropriate, prescription-strength skincare such as Obagi Medical® may be introduced to support skin optimisation before regenerative treatments.",
+          { type: "shoutout", title: "Obagi Medical® Skincare", content: "Consultation-led prescription skincare within structured treatment planning." },
+          { type: "button", text: "Explore Obagi Prescription Skincare", link: "/treatments/obagi-prescription-skincare" }
         ]
       },
       {
@@ -9318,7 +9321,10 @@ export const blogs = [
             "Skin Barrier Restore"
           ]},
           "Selection depends on your dominant biological presentation.",
-          "It is never chosen from a menu."
+          "It is never chosen from a menu.",
+          "Where clinically appropriate, prescription-strength skincare including Obagi Medical® may be introduced alongside barrier stabilisation to regulate pigmentation, support collagen renewal or manage congestion.",
+          { type: "shoutout", title: "Obagi Medical® Skincare", content: "Medical-grade prescription skincare introduced within consultation-led treatment planning." },
+          { type: "button", text: "Explore Obagi Prescription Skincare", link: "/treatments/obagi-prescription-skincare" }
         ]
       },
       {
@@ -9504,7 +9510,10 @@ export const blogs = [
           ]},
           "Where instability is identified, skin stabilisation treatment may begin during the same appointment.",
           { type: "shoutout", title: "Repair the Skin Barrier Professionally", content: "→ Skin Barrier Renewal Protocol" },
-          { type: "button", text: "Explore Skin Barrier Renewal Protocol", link: "/treatments/skin-barrier-renewal-protocol" }
+          { type: "button", text: "Explore Skin Barrier Renewal Protocol", link: "/treatments/skin-barrier-renewal-protocol" },
+          "Where appropriate, prescription-strength skincare such as Obagi Medical® may be introduced as part of your personalised treatment plan.",
+          { type: "shoutout", title: "Obagi Medical® Skincare", content: "Prescription skincare within consultation-led clinical planning." },
+          { type: "button", text: "Explore Obagi Prescription Skincare", link: "/treatments/obagi-prescription-skincare" }
         ]
       },
       {

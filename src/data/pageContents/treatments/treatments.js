@@ -428,8 +428,8 @@ export const treatments = {
               "Ware SG12",
               "Hertfordshire"
             ],
-            "image": "/assets/img/treatments/refresh/skin-clinic-ware-deep-hydration.webp",
-            "placeholderUrl": "/assets/img/treatments/refresh/skin-clinic-ware-deep-hydration.webp",
+            "image": "/assets/img/treatments/skin-barrier-hydration.webp",
+            "placeholderUrl": "/assets/img/treatments/skin-barrier-hydration.webp",
             "introduction": {
               "title": "What Is the Deep Hydration Facial?",
               "content": [
@@ -4650,11 +4650,11 @@ export const treatments = {
                 {
                   "title": "Benefits",
                   "items": [
-                    "? Gentle lift",
-                    "? Improved firmness",
-                    "? Collagen stimulation",
-                    "? Refined contour",
-                    "? Natural outcomes"
+                    "Gentle lift",
+                    "Improved firmness",
+                    "Collagen stimulation",
+                    "Refined contour",
+                    "Natural outcomes"
                   ]
                 }
               ]
