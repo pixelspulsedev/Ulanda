@@ -9119,7 +9119,7 @@ export const blogs = [
           { type: "button", text: "Explore Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
           "Where appropriate, prescription-strength skincare such as Obagi Medical® may be introduced to support skin optimisation before regenerative treatments.",
           { type: "shoutout", title: "Obagi Medical® Skincare", content: "Consultation-led prescription skincare within structured treatment planning." },
-          { type: "button", text: "Explore Obagi Prescription Skincare", link: "/treatments/obagi-prescription-skincare" }
+          { type: "button", text: "Explore Obagi Medical Prescription Skincare", link: "/treatments/prescription-skincare/obagi-medical" }
         ]
       },
       {
@@ -9324,7 +9324,7 @@ export const blogs = [
           "It is never chosen from a menu.",
           "Where clinically appropriate, prescription-strength skincare including Obagi Medical® may be introduced alongside barrier stabilisation to regulate pigmentation, support collagen renewal or manage congestion.",
           { type: "shoutout", title: "Obagi Medical® Skincare", content: "Medical-grade prescription skincare introduced within consultation-led treatment planning." },
-          { type: "button", text: "Explore Obagi Prescription Skincare", link: "/treatments/obagi-prescription-skincare" }
+          { type: "button", text: "Explore Obagi Medical Prescription Skincare", link: "/treatments/prescription-skincare/obagi-medical" }
         ]
       },
       {
@@ -9513,7 +9513,7 @@ export const blogs = [
           { type: "button", text: "Explore Skin Barrier Renewal Protocol", link: "/treatments/skin-barrier-renewal-protocol" },
           "Where appropriate, prescription-strength skincare such as Obagi Medical® may be introduced as part of your personalised treatment plan.",
           { type: "shoutout", title: "Obagi Medical® Skincare", content: "Prescription skincare within consultation-led clinical planning." },
-          { type: "button", text: "Explore Obagi Prescription Skincare", link: "/treatments/obagi-prescription-skincare" }
+          { type: "button", text: "Explore Obagi Medical Prescription Skincare", link: "/treatments/prescription-skincare/obagi-medical" }
         ]
       },
       {

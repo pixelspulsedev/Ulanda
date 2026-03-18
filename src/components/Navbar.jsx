@@ -246,6 +246,16 @@ export default function Navbar() {
                     </Link>
                   </li>
                 ))}
+              {/* Prescription Skincare */}
+              <li>
+                <Link
+                  to="/treatments/prescription-skincare/obagi-medical"
+                  onClick={closeDropdown}
+                  className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
+                >
+                  Prescription Skincare
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -539,6 +549,16 @@ export default function Navbar() {
                           </Link>
                         </li>
                       ))}
+                    {/* Prescription Skincare */}
+                    <li>
+                      <Link
+                        to="/treatments/prescription-skincare/obagi-medical"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Prescription Skincare
+                      </Link>
+                    </li>
                   </ul>
                 </details>
               </li>
