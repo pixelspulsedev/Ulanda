@@ -263,6 +263,9 @@ export const signaturePathways = [
         ],
         closing: "These journal articles form part of ULANDA\u2019s authority layer and are designed to help you make informed, confident decisions about your skin journey."
       },
+      homecare: {
+        description: "Barrier-compatible hydration and gentle barrier-supportive systems prescribed to stabilise skin before corrective treatments begin. Prescription homecare is integrated into your programme and adjusted at each review appointment."
+      },
       bestNextStep: {
         title: "Your Best Next Step",
         description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
@@ -455,6 +458,9 @@ export const signaturePathways = [
         ],
         closing: "These journal articles form part of ULANDA\u2019s authority layer and are designed to help you make informed, confident decisions about your skin journey."
       },
+      homecare: {
+        description: "Obagi Rosaclear System prescribed to target inflammatory pathways and manage chronic redness alongside in-clinic anti-inflammatory protocols. The homecare protocol is adjusted at each review as your redness patterns stabilise."
+      },
       bestNextStep: {
         title: "Your Best Next Step",
         description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
@@ -645,6 +651,9 @@ export const signaturePathways = [
         ],
         closing: "These journal articles form part of ULANDA\u2019s authority layer and are designed to help you make informed, confident decisions about your skin journey."
       },
+      homecare: {
+        description: "Obagi Nu-Derm Fx transitioning to Rx as barrier stability allows, supporting pigmentation correction and cellular renewal through hormonal transition. The prescription is adjusted as your skin responds to treatment."
+      },
       bestNextStep: {
         title: "Your Best Next Step",
         description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
@@ -824,6 +833,9 @@ export const signaturePathways = [
           { title: "Photoaging Explained: How UV Exposure Changes Skin Structure Over Time", url: "/journal/photoaging-skin-architecture/" }
         ],
         closing: "These journal articles form part of ULANDA\u2019s authority layer and are designed to help you understand how to achieve stable, long-term skin clarity."
+      },
+      homecare: {
+        description: "Obagi-C Fx System and Professional-C Serums prescribed to support antioxidant protection, brightening and photoageing correction. Concentrations are selected based on your skin\u2019s tolerance and adjusted as your programme progresses."
       },
       bestNextStep: {
         title: "Your Best Next Step",
@@ -1016,6 +1028,9 @@ export const signaturePathways = [
         ],
         closing: "These journal articles form part of ULANDA\u2019s authority layer and are designed to support informed, confident decisions about long-term regeneration."
       },
+      homecare: {
+        description: "Obagi Elastiderm range prescribed to support collagen and elastin integrity alongside regenerative in-clinic treatments. The homecare protocol reinforces structural improvement between appointments."
+      },
       bestNextStep: {
         title: "Your Best Next Step",
         description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
@@ -1142,6 +1157,9 @@ export const signaturePathways = [
           "Thin, fragile skin under the lower lid",
           "Puffiness or fluid retention in the morning"
         ]
+      },
+      homecare: {
+        description: "Obagi Elastiderm Eye products prescribed to support periorbital skin firmness and resilience as part of the under-eye regenerative programme."
       }
     }
   }

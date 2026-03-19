@@ -495,6 +495,24 @@ export default function SignatureDetail() {
           </section>
         )} */}
 
+        {/* Prescription Skincare Homecare */}
+        {content.homecare && (
+          <section className="py-16 md:py-24 px-4 md:px-8">
+            <div className="max-w-3xl mx-auto">
+              <FadeInWhenVisible>
+                <h2 className="text-3xl font-serif mb-6">Prescription Skincare Homecare</h2>
+                <p className="text-lg text-base-content/80 font-light leading-relaxed mb-6">{content.homecare.description}</p>
+                <Link
+                  to="/treatments/prescription-skincare"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 underline underline-offset-2 transition-colors"
+                >
+                  View prescription skincare at ULANDA &rarr;
+                </Link>
+              </FadeInWhenVisible>
+            </div>
+          </section>
+        )}
+
         {/* Best Next Step */}
         {content.bestNextStep && (
           <section className="py-16 md:py-24 px-4 md:px-8 bg-secondary">

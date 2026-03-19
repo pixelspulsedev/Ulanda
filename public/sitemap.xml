@@ -784,6 +784,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/treatments/prescription-skincare</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/prescription-skincare/obagi-medical</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

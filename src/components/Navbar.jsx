@@ -249,7 +249,7 @@ export default function Navbar() {
               {/* Prescription Skincare */}
               <li>
                 <Link
-                  to="/treatments/prescription-skincare/obagi-medical"
+                  to="/treatments/prescription-skincare"
                   onClick={closeDropdown}
                   className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
                 >
@@ -552,7 +552,7 @@ export default function Navbar() {
                     {/* Prescription Skincare */}
                     <li>
                       <Link
-                        to="/treatments/prescription-skincare/obagi-medical"
+                        to="/treatments/prescription-skincare"
                         onClick={() => setIsDrawerOpen(false)}
                         className="py-2 active:bg-secondary/20"
                       >

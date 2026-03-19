@@ -61,6 +61,7 @@ function generateStaticPaths() {
   // Dedicated treatment pages
   paths.push('/treatments/advanced-skin-health-consultation');
   paths.push('/treatments/skin-barrier-renewal-protocol');
+  paths.push('/treatments/prescription-skincare');
   paths.push('/treatments/prescription-skincare/obagi-medical');
 
   // Tool pages

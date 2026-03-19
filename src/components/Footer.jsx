@@ -66,7 +66,7 @@ export default function Footer() {
                 <li><Link to="/treatments/structural-collagen-support" className="hover:text-primary transition-colors ">Collagen & Injectable Treatments</Link></li>
                 <li><Link to="/treatments/body-regeneration-tissue-support" className="hover:text-primary transition-colors ">Body Regeneration</Link></li>
                 <li><Link to="/treatments/wellness-regenerative-recovery" className="hover:text-primary transition-colors ">Wellness & Recovery</Link></li>
-                <li><Link to="/treatments/prescription-skincare/obagi-medical" className="hover:text-primary transition-colors ">Prescription Skincare</Link></li>
+                <li><Link to="/treatments/prescription-skincare" className="hover:text-primary transition-colors ">Prescription Skincare</Link></li>
               </ul>
             </div>
 

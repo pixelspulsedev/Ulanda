@@ -28,6 +28,12 @@ const obagiSchemas = {
         {
           "@type": "ListItem",
           "position": 3,
+          "name": "Prescription Skincare",
+          "item": "https://www.ulanda.co.uk/treatments/prescription-skincare"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
           "name": "Obagi Medical",
           "item": "https://www.ulanda.co.uk/treatments/prescription-skincare/obagi-medical"
         }
@@ -266,8 +272,16 @@ const faqs = [
 ];
 
 const areasServed = [
-  'Ware', 'Hertford', 'Hoddesdon', 'Broxbourne', "Bishop\u2019s Stortford",
-  'Stanstead Abbotts', 'Stevenage', 'Welwyn Garden City', 'St Albans', 'East Hertfordshire',
+  { name: 'Hertfordshire', link: '/contact/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Hertford', link: '/contact/locations/aesthetic-clinic-hertford' },
+  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Broxbourne', link: '/contact/locations/aesthetic-clinic-broxbourne' },
+  { name: "Bishop\u2019s Stortford", link: '/contact/locations/aesthetic-clinic-bishops-stortford' },
+  { name: 'Cheshunt', link: '/contact/locations/aesthetic-clinic-cheshunt' },
+  { name: 'Stevenage', link: '/contact/locations/aesthetic-clinic-stevenage' },
+  { name: 'Welwyn Garden City', link: '/contact/locations/aesthetic-clinic-welwyn-garden-city' },
+  { name: 'Sawbridgeworth', link: '/contact/locations/aesthetic-clinic-sawbridgeworth' },
+  { name: 'Harlow', link: '/contact/locations/aesthetic-clinic-harlow' },
 ];
 
 export default function ObagiMedical() {
@@ -288,14 +302,15 @@ export default function ObagiMedical() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <Link
-                to="/treatments"
+                to="/treatments/prescription-skincare"
                 className="inline-flex items-center gap-2 text-primary/70 hover:text-primary mb-6 transition-colors text-sm"
               >
-                &larr; Back to All Treatments
+                &larr; View all prescription skincare at ULANDA
               </Link>
               <h1 className="text-3xl md:text-5xl font-serif text-base-content leading-tight mb-4">
-                <HeroText>Obagi Medical Prescription Skincare</HeroText>
+                <HeroText>Obagi Medical — Prescription Skincare</HeroText>
               </h1>
+              <p className="text-lg text-base-content/60 mb-2">Ware, Hertfordshire</p>
               <p className="text-xl md:text-2xl font-light text-primary mb-8 leading-relaxed">
                 Skin Understood. Then Transformed.
               </p>
@@ -317,6 +332,15 @@ export default function ObagiMedical() {
         <section className="bg-secondary/20 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
+              <FadeInWhenVisible>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-3">
+                  Part of the ULANDA{' '}
+                  <Link to="/treatments/prescription-skincare" className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors">
+                    Prescription Skincare
+                  </Link>{' '}
+                  programme.
+                </p>
+              </FadeInWhenVisible>
               <FadeInWhenVisible>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
                   ULANDA is an authorised Obagi Medical Practitioner &amp; stockist in Ware, Hertfordshire &mdash; one of a limited number of clinics in East Hertfordshire with the prescribing authority required to dispense Obagi Medical&rsquo;s prescription skincare systems.
@@ -346,7 +370,6 @@ export default function ObagiMedical() {
                     Book Advanced Skin Health Consultation &rarr;
                   </Link>
                   <p className="text-base-content/60 text-sm mt-3">&pound;175 &mdash; Fully redeemable against treatment plan</p>
-                  <p className="text-sm font-medium text-primary/80 mt-2 tracking-wide">Refinement now. Regeneration ahead.</p>
                 </div>
               </FadeInWhenVisible>
             </div>
@@ -471,34 +494,12 @@ export default function ObagiMedical() {
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  Obagi Medical systems are prescribed following clinical assessment.
+                  Obagi Medical systems are prescribed following a full clinical assessment that establishes your barrier integrity, inflammatory patterns, pigmentation activity and hormonal context before any system is selected.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.2}>
-                <p className="text-base-content/80 text-lg leading-relaxed mb-4">This process includes:</p>
-                <ul className="space-y-2 mb-8">
-                  {['Skin barrier assessment', 'Inflammatory profile evaluation', 'Pigmentation activity review', 'Hormonal context consideration'].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3 text-base-content/80 text-lg">
-                      <span className="text-primary mt-1">&bull;</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </FadeInWhenVisible>
-              <FadeInWhenVisible delay={0.3}>
-                <p className="text-base-content/80 text-lg leading-relaxed mb-4">Your prescription includes:</p>
-                <ul className="space-y-2 mb-8">
-                  {['Selected Obagi system', 'Usage protocol', 'Adjustment timeline', 'Review schedule'].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3 text-base-content/80 text-lg">
-                      <span className="text-primary mt-1">&bull;</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </FadeInWhenVisible>
-              <FadeInWhenVisible delay={0.4}>
                 <p className="text-base-content/80 text-lg leading-relaxed">
-                  Prescriptions are reviewed during follow-up appointments to ensure the skin is responding appropriately.
+                  Your prescription is documented in a written treatment plan that specifies the system prescribed, the morning and evening protocol, the adjustment timeline and the review schedule. The prescription is reviewed and adjusted at programme appointments as your skin responds.
                 </p>
               </FadeInWhenVisible>
             </div>
@@ -514,21 +515,10 @@ export default function ObagiMedical() {
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  Prescription skincare is accessed through the Advanced Skin Health Consultation.
+                  Prescription skincare is accessed through the Advanced Skin Health Consultation. The consultation establishes your skin&rsquo;s current biological state &mdash; barrier integrity, inflammatory load, hormonal context and treatment readiness &mdash; and determines which Obagi system is appropriate, at what concentration, and at what point in your programme it is introduced.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.2}>
-                <p className="text-base-content/80 text-lg leading-relaxed mb-4">This consultation establishes:</p>
-                <ul className="space-y-2 mb-8">
-                  {['Skin condition', 'Treatment goals', 'Suitability for prescription skincare'].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3 text-base-content/80 text-lg">
-                      <span className="text-primary mt-1">&bull;</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </FadeInWhenVisible>
-              <FadeInWhenVisible delay={0.3}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-8">
                   Your Obagi prescription is documented within your personalised treatment plan.
                 </p>
@@ -539,7 +529,6 @@ export default function ObagiMedical() {
                   <Link to="/treatments/advanced-skin-health-consultation" className="btn btn-primary text-white">
                     Book Consultation &rarr;
                   </Link>
-                  <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Refinement now. Regeneration ahead.</p>
                 </div>
               </FadeInWhenVisible>
             </div>
@@ -634,11 +623,17 @@ export default function ObagiMedical() {
                 <h2 className="text-3xl md:text-3xl font-serif text-base-content mb-6">Areas Served</h2>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
-                <div className="flex flex-wrap gap-3 mb-8">
+                <div className="text-base-content/80 text-lg leading-relaxed mb-8">
                   {areasServed.map((area, i) => (
-                    <span key={i} className="bg-secondary/30 text-base-content/80 px-4 py-2 rounded-full text-sm border border-primary/10">
-                      {area}
-                    </span>
+                    <React.Fragment key={i}>
+                      {i > 0 && <span className="mx-2">&middot;</span>}
+                      <Link
+                        to={area.link}
+                        className="text-primary hover:text-primary/80 underline underline-offset-2 transition-colors"
+                      >
+                        {area.name}
+                      </Link>
+                    </React.Fragment>
                   ))}
                 </div>
               </FadeInWhenVisible>
@@ -668,7 +663,6 @@ export default function ObagiMedical() {
               >
                 Book Advanced Skin Health Consultation &rarr;
               </a>
-              <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Refinement now. Regeneration ahead.</p>
             </FadeInWhenVisible>
           </div>
         </section>
