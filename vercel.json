@@ -351,6 +351,11 @@
       "source": "/treatments/refresh/skin-resurfacing/chemical-peel",
       "destination": "/treatments/skin-renewal-regeneration/chemical-peel",
       "permanent": true
+    },
+    {
+      "source": "/treatments/obagi-prescription-skincare",
+      "destination": "/treatments/prescription-skincare/obagi-medical",
+      "permanent": true
     }
   ],
   "rewrites": [
