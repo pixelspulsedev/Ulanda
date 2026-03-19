@@ -3,6 +3,366 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/treatments/refresh/signature-facials/dermaplaning",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/signature-facials/hydrafacial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-deep-cleanse",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/signature-facials/deep-hydration-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/signature-facials/enzyme-therapy",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-enzyme-renewal",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/signature-facials/oxygen-vitamin-infusion-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/signature-facials/lymphatic-drainage-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/light-based/led-light-therapy",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/skin-resurfacing/biorepeel",
+      "destination": "/treatments/skin-renewal-regeneration/biorepeel",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/skin-boosters/profhilo",
+      "destination": "/treatments/injectable-skin-optimisation/profhilo",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/skin-boosters/jalupro",
+      "destination": "/treatments/injectable-skin-optimisation/jalupro",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/skin-boosters/seventy-hyal",
+      "destination": "/treatments/injectable-skin-optimisation/seventy-hyal",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/skin-boosters/definisse-hydrobooster",
+      "destination": "/treatments/injectable-skin-optimisation/definisse-hydrobooster",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/skin-boosters/lemon-bottle",
+      "destination": "/treatments/injectable-skin-optimisation/lemon-bottle",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/skin-boosters/lumi-eyes",
+      "destination": "/treatments/injectable-skin-optimisation/lumi-eyes",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/microneedling/microneedling",
+      "destination": "/treatments/skin-renewal-regeneration/microneedling",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/injectables/prp-skin-regeneration",
+      "destination": "/treatments/skin-renewal-regeneration/prp-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/injectables/polynucleotides",
+      "destination": "/treatments/skin-renewal-regeneration/polynucleotides",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/injectables/plenhyage",
+      "destination": "/treatments/skin-renewal-regeneration/polynucleotides",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/injectables/nucleofill",
+      "destination": "/treatments/skin-renewal-regeneration/polynucleotides",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/oxygen-healing-support/oxygen-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/oxygen-healing-support/post-procedure-recovery-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/light-based-recovery/led-light-therapy",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/skin-barrier-repair/barrier-repair-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/lymphatic-support/facial-lymphatic-drainage",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/anti-wrinkle",
+      "destination": "/treatments/structural-collagen-support/anti-wrinkle",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/dermal-fillers",
+      "destination": "/treatments/structural-collagen-support/dermal-fillers",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/biostimulators",
+      "destination": "/treatments/structural-collagen-support/biostimulators",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/thread-lifts",
+      "destination": "/treatments/structural-collagen-support/thread-lifts",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/collagen-therapy",
+      "destination": "/treatments/structural-collagen-support/biostimulators",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/jawline-sculpting",
+      "destination": "/treatments/structural-collagen-support/jawline-sculpting",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/neck-lower-face-lift",
+      "destination": "/treatments/structural-collagen-support/neck-lower-face-lift",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/body-tightening",
+      "destination": "/treatments/body-regeneration-tissue-support/body-tightening",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting/body-contouring",
+      "destination": "/treatments/body-regeneration-tissue-support/body-contouring",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness/nad-iv",
+      "destination": "/treatments/wellness-regenerative-recovery/nad-iv",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness/glutathione-iv",
+      "destination": "/treatments/wellness-regenerative-recovery/glutathione-iv",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness/glutathione-im",
+      "destination": "/treatments/wellness-regenerative-recovery/glutathione-im",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness/energy-iv",
+      "destination": "/treatments/wellness-regenerative-recovery/energy-iv",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness/immunity-iv",
+      "destination": "/treatments/wellness-regenerative-recovery/immunity-iv",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness/womens-longevity-iv",
+      "destination": "/treatments/wellness-regenerative-recovery/womens-longevity-iv",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness/vitamin-d-im",
+      "destination": "/treatments/wellness-regenerative-recovery/vitamin-d-im",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness/medical-weight-management",
+      "destination": "/treatments/wellness-regenerative-recovery/medical-weight-management",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/light-based",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh/skin-resurfacing",
+      "destination": "/treatments/skin-renewal-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/skin-boosters",
+      "destination": "/treatments/injectable-skin-optimisation",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/microneedling",
+      "destination": "/treatments/skin-renewal-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew/injectables",
+      "destination": "/treatments/skin-renewal-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/oxygen-healing-support",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/light-based-recovery",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/skin-barrier-repair",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore/lymphatic-support",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/structural-lifting",
+      "destination": "/treatments/structural-collagen-support",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate/wellness",
+      "destination": "/treatments/wellness-regenerative-recovery",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/refresh",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/renew",
+      "destination": "/treatments/skin-renewal-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/restore",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/radiate",
+      "destination": "/treatments/structural-collagen-support",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/enlarged-pores",
+      "destination": "/conditions/acne-texture/enlarged-pores",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/uneven-texture",
+      "destination": "/conditions/acne-texture/uneven-texture",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/acne-scarring",
+      "destination": "/conditions/acne-texture/acne-scarring",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/fine-lines-wrinkles",
+      "destination": "/conditions/menopause-hormone-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/skin-laxity",
+      "destination": "/conditions/menopause-hormone-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/crepey-skin",
+      "destination": "/conditions/menopause-hormone-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/volume-loss",
+      "destination": "/conditions/menopause-hormone-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/:path*",
+      "destination": "/conditions",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration",
+      "destination": "/conditions",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/hormonal-skin/hormonal-breakouts",
+      "destination": "/conditions/acne-texture/hormonal-breakouts",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/hormonal-skin/hormonal-pigmentation",
+      "destination": "/conditions/menopause-hormone-skin-changes/hormonal-skin-pigmentation",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/hormonal-skin/dryness-sensitivity",
+      "destination": "/conditions/menopause-hormone-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/hormonal-skin/loss-of-definition",
+      "destination": "/conditions/menopause-hormone-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/hormonal-skin/:path*",
+      "destination": "/conditions/menopause-hormone-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/hormonal-skin",
+      "destination": "/conditions/menopause-hormone-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/pigmentation-and-skin-tone/dull-dehydrated-skin",
+      "destination": "/conditions/dehydration-dullness-skin-recovery/dehydrated-skin",
+      "permanent": true
+    },
+    {
       "source": "/treatments/radiate/pathways/12-week-menopause-regeneration-plan",
       "destination": "/signature/menopause-skin-rebuild",
       "permanent": true
