@@ -42,6 +42,10 @@ const PathwayDetail = lazy(() => import('./pages/PathwayDetail.jsx'))
 // Signature
 const SignatureHub = lazy(() => import('./pages/SignatureHub.jsx'))
 const SignatureDetail = lazy(() => import('./pages/SignatureDetail.jsx'))
+// Location pages
+const AestheticClinicWelwynGardenCity = lazy(() => import('./pages/locations/AestheticClinicWelwynGardenCity.jsx'))
+const AestheticClinicStevenage = lazy(() => import('./pages/locations/AestheticClinicStevenage.jsx'))
+const AestheticClinicSawbridgeworth = lazy(() => import('./pages/locations/AestheticClinicSawbridgeworth.jsx'))
 // General pages
 const HelpAndSupport = lazy(() => import('./pages/HelpAndSupport.jsx'))
 const Contact = lazy(() => import('./pages/Contact.jsx'))
@@ -198,6 +202,18 @@ const routes = [
       {
         path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-welwyn-garden-city',
+        element: <AestheticClinicWelwynGardenCity />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-stevenage',
+        element: <AestheticClinicStevenage />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-sawbridgeworth',
+        element: <AestheticClinicSawbridgeworth />,
       },
       {
         path: 'book-consultation',

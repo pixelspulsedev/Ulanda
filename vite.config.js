@@ -105,6 +105,11 @@ function generateStaticPaths() {
     paths.push(`/blogs/${blog.id}`);
   });
 
+  // Location pages
+  paths.push('/contact/locations/aesthetic-clinic-welwyn-garden-city');
+  paths.push('/contact/locations/aesthetic-clinic-stevenage');
+  paths.push('/contact/locations/aesthetic-clinic-sawbridgeworth');
+
   // Authority Journal pages
   paths.push('/journal');
   journalArticles
