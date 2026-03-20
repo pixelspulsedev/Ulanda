@@ -46,6 +46,13 @@ const SignatureDetail = lazy(() => import('./pages/SignatureDetail.jsx'))
 const AestheticClinicWelwynGardenCity = lazy(() => import('./pages/locations/AestheticClinicWelwynGardenCity.jsx'))
 const AestheticClinicStevenage = lazy(() => import('./pages/locations/AestheticClinicStevenage.jsx'))
 const AestheticClinicSawbridgeworth = lazy(() => import('./pages/locations/AestheticClinicSawbridgeworth.jsx'))
+const AestheticClinicHertfordshire = lazy(() => import('./pages/locations/AestheticClinicHertfordshire.jsx'))
+const AestheticClinicHoddesdon = lazy(() => import('./pages/locations/AestheticClinicHoddesdon.jsx'))
+const AestheticClinicHertford = lazy(() => import('./pages/locations/AestheticClinicHertford.jsx'))
+const AestheticClinicHarlow = lazy(() => import('./pages/locations/AestheticClinicHarlow.jsx'))
+const AestheticClinicCheshunt = lazy(() => import('./pages/locations/AestheticClinicCheshunt.jsx'))
+const AestheticClinicBroxbourne = lazy(() => import('./pages/locations/AestheticClinicBroxbourne.jsx'))
+const AestheticClinicBishopsStortford = lazy(() => import('./pages/locations/AestheticClinicBishopsStortford.jsx'))
 // General pages
 const HelpAndSupport = lazy(() => import('./pages/HelpAndSupport.jsx'))
 const Contact = lazy(() => import('./pages/Contact.jsx'))
@@ -214,6 +221,38 @@ const routes = [
       {
         path: 'contact/locations/aesthetic-clinic-sawbridgeworth',
         element: <AestheticClinicSawbridgeworth />,
+      },
+      {
+        path: 'locations/aesthetic-clinic-hertfordshire',
+        element: <AestheticClinicHertfordshire />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-hertfordshire',
+        element: <AestheticClinicHertfordshire />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-hoddesdon',
+        element: <AestheticClinicHoddesdon />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-hertford',
+        element: <AestheticClinicHertford />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-harlow',
+        element: <AestheticClinicHarlow />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-cheshunt',
+        element: <AestheticClinicCheshunt />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-broxbourne',
+        element: <AestheticClinicBroxbourne />,
+      },
+      {
+        path: 'contact/locations/aesthetic-clinic-bishops-stortford',
+        element: <AestheticClinicBishopsStortford />,
       },
       {
         path: 'book-consultation',
