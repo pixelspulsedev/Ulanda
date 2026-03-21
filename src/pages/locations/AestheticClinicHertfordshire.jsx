@@ -172,13 +172,13 @@ const areasServed = [
   { name: 'Ware', link: null },
   { name: 'Hertford', link: null },
   { name: 'Broxbourne', link: null },
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: "Bishop's Stortford", link: null },
   { name: 'Harlow', link: null },
   { name: 'Cheshunt', link: null },
-  { name: 'Sawbridgeworth', link: '/contact/locations/aesthetic-clinic-sawbridgeworth' },
-  { name: 'Welwyn Garden City', link: '/contact/locations/aesthetic-clinic-welwyn-garden-city' },
-  { name: 'Stevenage', link: '/contact/locations/aesthetic-clinic-stevenage' },
+  { name: 'Sawbridgeworth', link: '/locations/aesthetic-clinic-sawbridgeworth' },
+  { name: 'Welwyn Garden City', link: '/locations/aesthetic-clinic-welwyn-garden-city' },
+  { name: 'Stevenage', link: '/locations/aesthetic-clinic-stevenage' },
 ];
 
 export default function AestheticClinicHertfordshire() {

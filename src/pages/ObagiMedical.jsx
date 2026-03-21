@@ -272,16 +272,16 @@ const faqs = [
 ];
 
 const areasServed = [
-  { name: 'Hertfordshire', link: '/contact/locations/aesthetic-clinic-hertfordshire' },
-  { name: 'Hertford', link: '/contact/locations/aesthetic-clinic-hertford' },
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
-  { name: 'Broxbourne', link: '/contact/locations/aesthetic-clinic-broxbourne' },
-  { name: "Bishop\u2019s Stortford", link: '/contact/locations/aesthetic-clinic-bishops-stortford' },
-  { name: 'Cheshunt', link: '/contact/locations/aesthetic-clinic-cheshunt' },
-  { name: 'Stevenage', link: '/contact/locations/aesthetic-clinic-stevenage' },
-  { name: 'Welwyn Garden City', link: '/contact/locations/aesthetic-clinic-welwyn-garden-city' },
-  { name: 'Sawbridgeworth', link: '/contact/locations/aesthetic-clinic-sawbridgeworth' },
-  { name: 'Harlow', link: '/contact/locations/aesthetic-clinic-harlow' },
+  { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
+  { name: "Bishop\u2019s Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
+  { name: 'Cheshunt', link: '/locations/aesthetic-clinic-cheshunt' },
+  { name: 'Stevenage', link: '/locations/aesthetic-clinic-stevenage' },
+  { name: 'Welwyn Garden City', link: '/locations/aesthetic-clinic-welwyn-garden-city' },
+  { name: 'Sawbridgeworth', link: '/locations/aesthetic-clinic-sawbridgeworth' },
+  { name: 'Harlow', link: '/locations/aesthetic-clinic-harlow' },
 ];
 
 export default function ObagiMedical() {

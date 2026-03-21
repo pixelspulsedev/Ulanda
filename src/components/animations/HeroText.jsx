@@ -38,11 +38,13 @@ export default function HeroText({ children, className = "", delay = 0 }) {
         animate="visible"
       >
         {children.split(" ").map((word, i) => (
-             <span key={i} className="inline-block overflow-hidden align-bottom mr-[0.25em] pb-[0.4em] -mb-[0.2em]">
-                <motion.span variants={wordVariants} className="inline-block">
-                    {word}
-                </motion.span>
-             </span>
+             <React.Fragment key={i}>
+               <span className="inline-block overflow-hidden align-bottom mr-[0.25em] pb-[0.4em] -mb-[0.2em]">
+                  <motion.span variants={wordVariants} className="inline-block">
+                      {word}
+                  </motion.span>
+               </span>{' '}
+             </React.Fragment>
         ))}
       </motion.span>
     );

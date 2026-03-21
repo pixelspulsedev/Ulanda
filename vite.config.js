@@ -106,17 +106,17 @@ function generateStaticPaths() {
   });
 
   // Location pages
+  paths.push('/locations');
   paths.push('/locations/aesthetic-clinic-hertfordshire');
-  paths.push('/contact/locations/aesthetic-clinic-hertfordshire');
-  paths.push('/contact/locations/aesthetic-clinic-hoddesdon');
-  paths.push('/contact/locations/aesthetic-clinic-hertford');
-  paths.push('/contact/locations/aesthetic-clinic-harlow');
-  paths.push('/contact/locations/aesthetic-clinic-cheshunt');
-  paths.push('/contact/locations/aesthetic-clinic-broxbourne');
-  paths.push('/contact/locations/aesthetic-clinic-bishops-stortford');
-  paths.push('/contact/locations/aesthetic-clinic-welwyn-garden-city');
-  paths.push('/contact/locations/aesthetic-clinic-stevenage');
-  paths.push('/contact/locations/aesthetic-clinic-sawbridgeworth');
+  paths.push('/locations/aesthetic-clinic-hoddesdon');
+  paths.push('/locations/aesthetic-clinic-hertford');
+  paths.push('/locations/aesthetic-clinic-harlow');
+  paths.push('/locations/aesthetic-clinic-cheshunt');
+  paths.push('/locations/aesthetic-clinic-broxbourne');
+  paths.push('/locations/aesthetic-clinic-bishops-stortford');
+  paths.push('/locations/aesthetic-clinic-welwyn-garden-city');
+  paths.push('/locations/aesthetic-clinic-stevenage');
+  paths.push('/locations/aesthetic-clinic-sawbridgeworth');
 
   // Authority Journal pages
   paths.push('/journal');

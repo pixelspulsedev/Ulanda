@@ -55,7 +55,7 @@ const locationSchema = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-welwyn-garden-city#breadcrumb",
+      "@id": "https://www.ulanda.co.uk/locations/aesthetic-clinic-welwyn-garden-city#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -73,7 +73,7 @@ const locationSchema = {
           "@type": "ListItem",
           "position": 3,
           "name": "Skin Clinic Near Welwyn Garden City",
-          "item": "https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-welwyn-garden-city"
+          "item": "https://www.ulanda.co.uk/locations/aesthetic-clinic-welwyn-garden-city"
         }
       ]
     }
@@ -176,16 +176,16 @@ const clientValues = [
 ];
 
 const areasServed = [
-  { name: 'Welwyn Garden City', link: '/contact/locations/aesthetic-clinic-welwyn-garden-city' },
+  { name: 'Welwyn Garden City', link: '/locations/aesthetic-clinic-welwyn-garden-city' },
   { name: 'Handside', link: null },
   { name: 'Panshanger', link: null },
   { name: 'Hatfield', link: null },
-  { name: 'Hertford', link: '/contact/locations/aesthetic-clinic-hertford' },
-  { name: 'Stevenage', link: '/contact/locations/aesthetic-clinic-stevenage' },
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
-  { name: 'Broxbourne', link: '/contact/locations/aesthetic-clinic-broxbourne' },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
+  { name: 'Stevenage', link: '/locations/aesthetic-clinic-stevenage' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'Ware', link: null },
-  { name: 'Hertfordshire', link: '/contact/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
 ];
 
 const BOOKING_URL = 'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ';
@@ -196,7 +196,7 @@ export default function AestheticClinicWelwynGardenCity() {
       <Head>
         <title>Skin Clinic Near Welwyn Garden City | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
         <meta name="description" content="ULANDA is a nurse-led skin clinic near Welwyn Garden City in Ware, Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 25 minutes from Welwyn Garden City. Free parking on site." />
-        <link rel="canonical" href="https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-welwyn-garden-city" />
+        <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-welwyn-garden-city" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>
 
@@ -224,7 +224,7 @@ export default function AestheticClinicWelwynGardenCity() {
                   Rather than selecting treatments in isolation, ULANDA begins with an Advanced Skin Health Consultation, where skin biology, barrier behaviour, hormonal context and treatment readiness are assessed before any treatment pathway is confirmed.
                 </p>
                 <p>
-                  Clients visiting from Welwyn Garden City often also explore ULANDA&rsquo;s wider <Link to="/contact/locations/aesthetic-clinic-hertfordshire" className="text-primary hover:text-primary/80 underline underline-offset-2 transition-colors">Hertfordshire skin clinic page</Link> for an overview of the conditions, programmes and treatment pathways available across the region.
+                  Clients visiting from Welwyn Garden City often also explore ULANDA&rsquo;s wider <Link to="/locations/aesthetic-clinic-hertfordshire" className="text-primary hover:text-primary/80 underline underline-offset-2 transition-colors">Hertfordshire skin clinic page</Link> for an overview of the conditions, programmes and treatment pathways available across the region.
                 </p>
                 <p>
                   Clients leave their first appointment with visible improvement in their skin and a complete written programme recommendation.

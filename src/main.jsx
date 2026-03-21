@@ -43,6 +43,7 @@ const PathwayDetail = lazy(() => import('./pages/PathwayDetail.jsx'))
 const SignatureHub = lazy(() => import('./pages/SignatureHub.jsx'))
 const SignatureDetail = lazy(() => import('./pages/SignatureDetail.jsx'))
 // Location pages
+const LocationsLanding = lazy(() => import('./pages/locations/LocationsLanding.jsx'))
 const AestheticClinicWelwynGardenCity = lazy(() => import('./pages/locations/AestheticClinicWelwynGardenCity.jsx'))
 const AestheticClinicStevenage = lazy(() => import('./pages/locations/AestheticClinicStevenage.jsx'))
 const AestheticClinicSawbridgeworth = lazy(() => import('./pages/locations/AestheticClinicSawbridgeworth.jsx'))
@@ -211,15 +212,19 @@ const routes = [
         element: <Contact />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-welwyn-garden-city',
+        path: 'locations',
+        element: <LocationsLanding />,
+      },
+      {
+        path: 'locations/aesthetic-clinic-welwyn-garden-city',
         element: <AestheticClinicWelwynGardenCity />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-stevenage',
+        path: 'locations/aesthetic-clinic-stevenage',
         element: <AestheticClinicStevenage />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-sawbridgeworth',
+        path: 'locations/aesthetic-clinic-sawbridgeworth',
         element: <AestheticClinicSawbridgeworth />,
       },
       {
@@ -227,31 +232,27 @@ const routes = [
         element: <AestheticClinicHertfordshire />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-hertfordshire',
-        element: <AestheticClinicHertfordshire />,
-      },
-      {
-        path: 'contact/locations/aesthetic-clinic-hoddesdon',
+        path: 'locations/aesthetic-clinic-hoddesdon',
         element: <AestheticClinicHoddesdon />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-hertford',
+        path: 'locations/aesthetic-clinic-hertford',
         element: <AestheticClinicHertford />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-harlow',
+        path: 'locations/aesthetic-clinic-harlow',
         element: <AestheticClinicHarlow />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-cheshunt',
+        path: 'locations/aesthetic-clinic-cheshunt',
         element: <AestheticClinicCheshunt />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-broxbourne',
+        path: 'locations/aesthetic-clinic-broxbourne',
         element: <AestheticClinicBroxbourne />,
       },
       {
-        path: 'contact/locations/aesthetic-clinic-bishops-stortford',
+        path: 'locations/aesthetic-clinic-bishops-stortford',
         element: <AestheticClinicBishopsStortford />,
       },
       {

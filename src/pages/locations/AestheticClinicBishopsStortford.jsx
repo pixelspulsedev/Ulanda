@@ -58,11 +58,11 @@ const locationSchema = {
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-bishops-stortford#breadcrumb',
+      '@id': 'https://www.ulanda.co.uk/locations/aesthetic-clinic-bishops-stortford#breadcrumb',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ulanda.co.uk/' },
         { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://www.ulanda.co.uk/contact' },
-        { '@type': 'ListItem', position: 3, name: "Skin Clinic Near Bishop's Stortford", item: 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-bishops-stortford' },
+        { '@type': 'ListItem', position: 3, name: "Skin Clinic Near Bishop's Stortford", item: 'https://www.ulanda.co.uk/locations/aesthetic-clinic-bishops-stortford' },
       ],
     },
   ],
@@ -175,14 +175,14 @@ const faqs = [
 ];
 
 const areasServed = [
-  { name: "Bishop's Stortford", link: '/contact/locations/aesthetic-clinic-bishops-stortford' },
+  { name: "Bishop's Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
   { name: 'Thorley', link: null },
   { name: "St Michael's Mead", link: null },
   { name: 'Stansted Mountfitchet', link: null },
-  { name: 'Sawbridgeworth', link: '/contact/locations/aesthetic-clinic-sawbridgeworth' },
-  { name: 'Hertford', link: '/contact/locations/aesthetic-clinic-hertford' },
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
-  { name: 'Broxbourne', link: '/contact/locations/aesthetic-clinic-broxbourne' },
+  { name: 'Sawbridgeworth', link: '/locations/aesthetic-clinic-sawbridgeworth' },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'East Hertfordshire', link: null },
 ];
 
@@ -192,7 +192,7 @@ export default function AestheticClinicBishopsStortford() {
       <Head>
         <title>Skin Clinic Near Bishop's Stortford | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
         <meta name="description" content="ULANDA is a nurse-led skin clinic near Bishop's Stortford in Ware, Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 20 minutes from Bishop's Stortford. Free parking on site." />
-        <link rel="canonical" href="https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-bishops-stortford" />
+        <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-bishops-stortford" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>
 

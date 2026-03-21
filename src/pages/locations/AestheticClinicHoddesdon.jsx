@@ -58,7 +58,7 @@ const locationSchema = {
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-hoddesdon#breadcrumb',
+      '@id': 'https://www.ulanda.co.uk/locations/aesthetic-clinic-hoddesdon#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
@@ -76,7 +76,7 @@ const locationSchema = {
           '@type': 'ListItem',
           position: 3,
           name: 'Skin Clinic Near Hoddesdon',
-          item: 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-hoddesdon',
+          item: 'https://www.ulanda.co.uk/locations/aesthetic-clinic-hoddesdon',
         },
       ],
     },
@@ -210,7 +210,7 @@ const faqs = [
 ];
 
 const areasServed = [
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Rye Park', link: null },
   { name: 'Broxbourne', link: null },
   { name: 'Wormley', link: null },
@@ -226,7 +226,7 @@ export default function AestheticClinicHoddesdon() {
       <Head>
         <title>Skin Clinic Near Hoddesdon | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
         <meta name="description" content="ULANDA is a nurse-led skin clinic near Hoddesdon in Ware, Hertfordshire — consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 10 minutes from Hoddesdon. Free parking on site." />
-        <link rel="canonical" href="https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-hoddesdon" />
+        <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-hoddesdon" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>
 

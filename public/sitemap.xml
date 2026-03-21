@@ -27,52 +27,57 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/locations</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-hertfordshire</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-hoddesdon</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-hoddesdon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-hertford</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-hertford</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-harlow</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-harlow</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-cheshunt</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-cheshunt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-broxbourne</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-broxbourne</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-bishops-stortford</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-bishops-stortford</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-welwyn-garden-city</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-welwyn-garden-city</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-stevenage</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-stevenage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-sawbridgeworth</loc>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-sawbridgeworth</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

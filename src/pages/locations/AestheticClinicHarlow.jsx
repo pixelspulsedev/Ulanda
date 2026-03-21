@@ -59,7 +59,7 @@ const locationSchema = {
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-harlow#breadcrumb',
+      '@id': 'https://www.ulanda.co.uk/locations/aesthetic-clinic-harlow#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
@@ -77,7 +77,7 @@ const locationSchema = {
           '@type': 'ListItem',
           position: 3,
           name: 'Skin Clinic Near Harlow',
-          item: 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-harlow',
+          item: 'https://www.ulanda.co.uk/locations/aesthetic-clinic-harlow',
         },
       ],
     },
@@ -226,14 +226,14 @@ const faqs = [
 ];
 
 const areasServed = [
-  { name: 'Harlow', link: '/contact/locations/aesthetic-clinic-harlow' },
+  { name: 'Harlow', link: '/locations/aesthetic-clinic-harlow' },
   { name: 'Old Harlow', link: null },
   { name: 'Church Langley', link: null },
   { name: 'Newhall', link: null },
-  { name: 'Sawbridgeworth', link: '/contact/locations/aesthetic-clinic-sawbridgeworth' },
+  { name: 'Sawbridgeworth', link: '/locations/aesthetic-clinic-sawbridgeworth' },
   { name: "Bishop's Stortford", link: null },
-  { name: 'Hertford', link: '/contact/locations/aesthetic-clinic-hertford' },
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Broxbourne', link: null },
   { name: 'East Hertfordshire', link: null },
   { name: 'West Essex', link: null },
@@ -248,7 +248,7 @@ export default function AestheticClinicHarlow() {
           name="description"
           content="ULANDA is a nurse-led skin clinic near Harlow in Ware, Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 15 minutes from Harlow. Free parking on site."
         />
-        <link rel="canonical" href="https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-harlow" />
+        <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-harlow" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>
 

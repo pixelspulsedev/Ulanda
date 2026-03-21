@@ -58,11 +58,11 @@ const locationSchema = {
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-broxbourne#breadcrumb',
+      '@id': 'https://www.ulanda.co.uk/locations/aesthetic-clinic-broxbourne#breadcrumb',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ulanda.co.uk/' },
         { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://www.ulanda.co.uk/contact' },
-        { '@type': 'ListItem', position: 3, name: 'Skin Clinic Near Broxbourne', item: 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-broxbourne' },
+        { '@type': 'ListItem', position: 3, name: 'Skin Clinic Near Broxbourne', item: 'https://www.ulanda.co.uk/locations/aesthetic-clinic-broxbourne' },
       ],
     },
   ],
@@ -175,14 +175,14 @@ const faqs = [
 ];
 
 const areasServed = [
-  { name: 'Broxbourne', link: '/contact/locations/aesthetic-clinic-broxbourne' },
+  { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'Wormley', link: null },
   { name: 'Turnford', link: null },
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
-  { name: 'Cheshunt', link: '/contact/locations/aesthetic-clinic-cheshunt' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Cheshunt', link: '/locations/aesthetic-clinic-cheshunt' },
   { name: 'Ware', link: null },
-  { name: 'Hertford', link: '/contact/locations/aesthetic-clinic-hertford' },
-  { name: "Bishop's Stortford", link: '/contact/locations/aesthetic-clinic-bishops-stortford' },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
+  { name: "Bishop's Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
   { name: 'Stanstead Abbotts', link: null },
   { name: 'East Hertfordshire', link: null },
 ];
@@ -193,7 +193,7 @@ export default function AestheticClinicBroxbourne() {
       <Head>
         <title>Skin Clinic Near Broxbourne | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
         <meta name="description" content="ULANDA is a nurse-led skin clinic near Broxbourne in Ware, Hertfordshire — consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 10 to 12 minutes from Broxbourne. Free parking on site." />
-        <link rel="canonical" href="https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-broxbourne" />
+        <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-broxbourne" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>
 

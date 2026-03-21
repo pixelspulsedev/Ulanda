@@ -716,6 +716,56 @@
       "source": "/treatments/obagi-prescription-skincare",
       "destination": "/treatments/prescription-skincare/obagi-medical",
       "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-hertfordshire",
+      "destination": "/locations/aesthetic-clinic-hertfordshire",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-hoddesdon",
+      "destination": "/locations/aesthetic-clinic-hoddesdon",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-hertford",
+      "destination": "/locations/aesthetic-clinic-hertford",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-harlow",
+      "destination": "/locations/aesthetic-clinic-harlow",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-cheshunt",
+      "destination": "/locations/aesthetic-clinic-cheshunt",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-broxbourne",
+      "destination": "/locations/aesthetic-clinic-broxbourne",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-bishops-stortford",
+      "destination": "/locations/aesthetic-clinic-bishops-stortford",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-welwyn-garden-city",
+      "destination": "/locations/aesthetic-clinic-welwyn-garden-city",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-stevenage",
+      "destination": "/locations/aesthetic-clinic-stevenage",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-sawbridgeworth",
+      "destination": "/locations/aesthetic-clinic-sawbridgeworth",
+      "permanent": true
     }
   ],
   "rewrites": [

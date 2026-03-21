@@ -58,7 +58,7 @@ const locationSchema = {
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-hertford#breadcrumb',
+      '@id': 'https://www.ulanda.co.uk/locations/aesthetic-clinic-hertford#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
@@ -76,7 +76,7 @@ const locationSchema = {
           '@type': 'ListItem',
           position: 3,
           name: 'Skin Clinic Near Hertford',
-          item: 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-hertford',
+          item: 'https://www.ulanda.co.uk/locations/aesthetic-clinic-hertford',
         },
       ],
     },
@@ -225,12 +225,12 @@ const faqs = [
 ];
 
 const areasServed = [
-  { name: 'Hertford', link: '/contact/locations/aesthetic-clinic-hertford' },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
   { name: 'Bengeo', link: null },
   { name: 'Hertford Heath', link: null },
   { name: 'Hertingfordbury', link: null },
   { name: 'Sele Farm', link: null },
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Broxbourne', link: null },
   { name: "Bishop's Stortford", link: null },
   { name: 'East Hertfordshire', link: null },
@@ -245,7 +245,7 @@ export default function AestheticClinicHertford() {
           name="description"
           content="ULANDA is a nurse-led skin clinic near Hertford in Ware, Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. 10 minutes from Hertford. Free parking on site."
         />
-        <link rel="canonical" href="https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-hertford" />
+        <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-hertford" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>
 

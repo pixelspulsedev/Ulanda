@@ -58,11 +58,11 @@ const locationSchema = {
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-cheshunt#breadcrumb',
+      '@id': 'https://www.ulanda.co.uk/locations/aesthetic-clinic-cheshunt#breadcrumb',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ulanda.co.uk/' },
         { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://www.ulanda.co.uk/contact' },
-        { '@type': 'ListItem', position: 3, name: 'Skin Clinic Near Cheshunt', item: 'https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-cheshunt' },
+        { '@type': 'ListItem', position: 3, name: 'Skin Clinic Near Cheshunt', item: 'https://www.ulanda.co.uk/locations/aesthetic-clinic-cheshunt' },
       ],
     },
   ],
@@ -156,13 +156,13 @@ const treatmentCategories = [
 ];
 
 const areasServed = [
-  { name: 'Cheshunt', link: '/contact/locations/aesthetic-clinic-cheshunt' },
+  { name: 'Cheshunt', link: '/locations/aesthetic-clinic-cheshunt' },
   { name: 'Goffs Oak', link: null },
   { name: 'Flamstead End', link: null },
   { name: 'Waltham Cross', link: null },
-  { name: 'Broxbourne', link: '/contact/locations/aesthetic-clinic-broxbourne' },
-  { name: 'Hoddesdon', link: '/contact/locations/aesthetic-clinic-hoddesdon' },
-  { name: 'Hertford', link: '/contact/locations/aesthetic-clinic-hertford' },
+  { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
+  { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
   { name: 'Ware', link: null },
   { name: 'East Hertfordshire', link: null },
   { name: 'Hertfordshire', link: null },
@@ -175,7 +175,7 @@ export default function AestheticClinicCheshunt() {
       <Head>
         <title>Skin Clinic Near Cheshunt | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
         <meta name="description" content="ULANDA is a nurse-led skin clinic near Cheshunt in Ware, Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 15 minutes from Cheshunt. Free parking on site." />
-        <link rel="canonical" href="https://www.ulanda.co.uk/contact/locations/aesthetic-clinic-cheshunt" />
+        <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-cheshunt" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>
 
