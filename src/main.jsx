@@ -43,7 +43,6 @@ const PathwayDetail = lazy(() => import('./pages/PathwayDetail.jsx'))
 const SignatureHub = lazy(() => import('./pages/SignatureHub.jsx'))
 const SignatureDetail = lazy(() => import('./pages/SignatureDetail.jsx'))
 // Location pages
-const LocationsLanding = lazy(() => import('./pages/locations/LocationsLanding.jsx'))
 const AestheticClinicWelwynGardenCity = lazy(() => import('./pages/locations/AestheticClinicWelwynGardenCity.jsx'))
 const AestheticClinicStevenage = lazy(() => import('./pages/locations/AestheticClinicStevenage.jsx'))
 const AestheticClinicSawbridgeworth = lazy(() => import('./pages/locations/AestheticClinicSawbridgeworth.jsx'))
@@ -213,7 +212,7 @@ const routes = [
       },
       {
         path: 'locations',
-        element: <LocationsLanding />,
+        element: <Navigate to="/locations/aesthetic-clinic-hertfordshire" replace />,
       },
       {
         path: 'locations/aesthetic-clinic-welwyn-garden-city',

@@ -237,6 +237,7 @@ const areasServed = [
   { name: 'Broxbourne', link: null },
   { name: 'East Hertfordshire', link: null },
   { name: 'West Essex', link: null },
+  { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
 ];
 
 export default function AestheticClinicHarlow() {
@@ -530,3 +531,4 @@ export default function AestheticClinicHarlow() {
     </>
   );
 }
+

@@ -106,7 +106,6 @@ function generateStaticPaths() {
   });
 
   // Location pages
-  paths.push('/locations');
   paths.push('/locations/aesthetic-clinic-hertfordshire');
   paths.push('/locations/aesthetic-clinic-hoddesdon');
   paths.push('/locations/aesthetic-clinic-hertford');

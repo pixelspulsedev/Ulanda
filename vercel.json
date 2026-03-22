@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/locations",
+      "destination": "/locations/aesthetic-clinic-hertfordshire",
+      "permanent": true
+    },
+    {
       "source": "/treatments/refresh/signature-facials/dermaplaning",
       "destination": "/treatments/skin-barrier-renewal-protocol",
       "permanent": true

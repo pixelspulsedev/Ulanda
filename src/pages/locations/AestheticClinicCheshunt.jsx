@@ -165,7 +165,7 @@ const areasServed = [
   { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
   { name: 'Ware', link: null },
   { name: 'East Hertfordshire', link: null },
-  { name: 'Hertfordshire', link: null },
+  { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
   { name: 'North London', link: null },
 ];
 
@@ -424,3 +424,4 @@ export default function AestheticClinicCheshunt() {
     </>
   );
 }
+

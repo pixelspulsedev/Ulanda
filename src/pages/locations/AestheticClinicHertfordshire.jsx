@@ -170,12 +170,12 @@ const faqs = [
 
 const areasServed = [
   { name: 'Ware', link: null },
-  { name: 'Hertford', link: null },
-  { name: 'Broxbourne', link: null },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
+  { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
-  { name: "Bishop's Stortford", link: null },
-  { name: 'Harlow', link: null },
-  { name: 'Cheshunt', link: null },
+  { name: "Bishop's Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
+  { name: 'Harlow', link: '/locations/aesthetic-clinic-harlow' },
+  { name: 'Cheshunt', link: '/locations/aesthetic-clinic-cheshunt' },
   { name: 'Sawbridgeworth', link: '/locations/aesthetic-clinic-sawbridgeworth' },
   { name: 'Welwyn Garden City', link: '/locations/aesthetic-clinic-welwyn-garden-city' },
   { name: 'Stevenage', link: '/locations/aesthetic-clinic-stevenage' },

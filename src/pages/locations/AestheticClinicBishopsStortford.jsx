@@ -184,6 +184,7 @@ const areasServed = [
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'East Hertfordshire', link: null },
+  { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
 ];
 
 export default function AestheticClinicBishopsStortford() {
