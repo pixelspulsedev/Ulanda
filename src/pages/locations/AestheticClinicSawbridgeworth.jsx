@@ -153,7 +153,7 @@ const treatmentCategories = [
       { name: 'RF microneedling', aka: 'Radiofrequency microneedling \u00b7 Morpheus8 \u00b7 skin tightening \u00b7 collagen remodelling', from: '\u00a3POA', link: '/treatments/skin-renewal-regeneration' },
       { name: 'Chemical peels', aka: 'Skin peel \u00b7 acid peel \u00b7 resurfacing treatment \u00b7 pigmentation peel \u00b7 acne peel', from: '\u00a3120', link: '/treatments/skin-renewal-regeneration/chemical-peel' },
       { name: 'BioRePeel', aka: 'TCA peel \u00b7 no-downtime peel \u00b7 biorevitalisation peel', from: '\u00a3150', link: '/treatments/skin-renewal-regeneration/biorepeel' },
-      { name: 'Obagi Medical prescription skincare', aka: 'Obagi Nu-Derm \u00b7 Obagi Rosaclear \u00b7 Obagi Elastiderm \u00b7 prescription skincare \u00b7 medical grade skincare \u00b7 Obagi stockist Hertfordshire', from: '\u00a3150', link: '/treatments/prescription-skincare/obagi-medical' },
+      { name: 'Obagi Medical prescription skincare', aka: 'Obagi Nu-Derm \u00b7 Obagi Rosaclear \u00b7 Obagi Elastiderm \u00b7 prescription skincare \u00b7 medical grade skincare \u00b7 Obagi stockist Hertfordshire', from: '\u00a3150', link: '/treatments/prescription-skincare' },
       { name: 'LED light therapy', aka: 'LED facial \u00b7 photobiomodulation \u00b7 red light therapy \u00b7 rosacea light treatment', from: '\u00a3POA', link: '/treatments/skin-barrier-renewal-protocol' },
     ],
   },

@@ -199,7 +199,7 @@ export default function SkinBarrierRenewalProtocol() {
                   Book Your Advanced Skin Health Consultation →
                 </a>
                 <p className="text-base-content/60 mt-3 text-sm">£175 — fully redeemable against your treatment plan</p>
-                <p className="text-sm font-medium text-primary/80 mt-1 tracking-wide">Refinement now. Regeneration ahead.</p>
+                <p className="text-sm font-medium text-primary/80 mt-1 tracking-wide">Skin Understood. Then Transformed.</p>
               </div>
             </FadeInWhenVisible>
           </div>
@@ -288,7 +288,7 @@ export default function SkinBarrierRenewalProtocol() {
                       Book Your Advanced Skin Health Consultation →
                     </a>
                     <p className="text-base-content/60 mt-3 text-sm">£175 — fully redeemable against your treatment plan</p>
-                    <p className="text-sm font-medium text-primary/80 mt-1 tracking-wide">Refinement now. Regeneration ahead.</p>
+                    <p className="text-sm font-medium text-primary/80 mt-1 tracking-wide">Skin Understood. Then Transformed.</p>
                   </div>
                 </div>
               </FadeInWhenVisible>

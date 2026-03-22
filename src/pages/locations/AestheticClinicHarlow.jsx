@@ -191,7 +191,7 @@ const treatmentCategories = [
       { name: 'RF microneedling', aka: 'Radiofrequency microneedling · Morpheus8 · skin tightening · collagen remodelling', from: '£POA', link: '/treatments/skin-renewal-regeneration' },
       { name: 'Chemical peels', aka: 'Skin peel · acid peel · resurfacing treatment · pigmentation peel · acne peel', from: '£120', link: '/treatments/skin-renewal-regeneration/chemical-peel' },
       { name: 'BioRePeel', aka: 'TCA peel · no-downtime peel · biorevitalisation peel', from: '£150', link: '/treatments/skin-renewal-regeneration/biorepeel' },
-      { name: 'Obagi Medical prescription skincare', aka: 'Obagi Nu-Derm · Obagi Rosaclear · Obagi Elastiderm · prescription skincare · medical grade skincare · Obagi stockist Hertfordshire', from: '£150', link: '/treatments/prescription-skincare/obagi-medical' },
+      { name: 'Obagi Medical prescription skincare', aka: 'Obagi Nu-Derm · Obagi Rosaclear · Obagi Elastiderm · prescription skincare · medical grade skincare · Obagi stockist Hertfordshire', from: '£150', link: '/treatments/prescription-skincare' },
       { name: 'LED light therapy', aka: 'LED facial · photobiomodulation · red light therapy · rosacea light treatment', from: '£POA', link: '/treatments/skin-barrier-renewal-protocol' },
     ],
   },
@@ -275,7 +275,7 @@ export default function AestheticClinicHarlow() {
               <div className="mt-8 bg-secondary/30 rounded-xl p-6 md:p-8 border border-primary/10">
                 <p className="text-base-content/70 text-sm mb-2">ULANDA is approximately 15 minutes from Harlow · Free parking on site</p>
                 <p className="text-3xl font-bold text-base-content mb-1">£175 fully redeemable</p>
-                <p className="text-base-content/60 mb-4">Refinement now. Regeneration ahead.</p>
+                <p className="text-base-content/60 mb-4">Skin Understood. Then Transformed.</p>
                 <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white">Book Your Advanced Skin Health Consultation →</a>
               </div>
             </FadeInWhenVisible>
@@ -425,7 +425,7 @@ export default function AestheticClinicHarlow() {
                   <p className="text-2xl font-bold text-base-content mb-2">£175 · Fully redeemable against your treatment plan when you proceed</p>
                   <p className="text-base-content/70 mb-4">Most clients notice a visible improvement in their skin before they leave their first appointment.</p>
                   <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white btn-lg mt-2">Book Your Advanced Skin Health Consultation →</a>
-                  <p className="text-base-content/70 mt-4">Refinement now. Regeneration ahead.</p>
+                  <p className="text-base-content/70 mt-4">Skin Understood. Then Transformed.</p>
                 </div>
               </FadeInWhenVisible>
             </div>

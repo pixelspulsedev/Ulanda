@@ -499,7 +499,7 @@ export default function TreatmentsDraft() {
               Book Skin Health Consultation
             </a>
             <p className="mt-3 text-sm text-base-content/70">£175 — Fully redeemable against your treatment plan</p>
-            <p className="text-sm font-medium text-primary">Refinement now. Regeneration ahead.</p>
+            <p className="text-sm font-medium text-primary">Skin Understood. Then Transformed.</p>
           </div>
         </section>
 
@@ -536,7 +536,7 @@ export default function TreatmentsDraft() {
               Browse Individual Treatments
             </a>
           </div>
-          <p className="mt-3 text-sm font-medium text-primary">Refinement now. Regeneration ahead.</p>
+          <p className="mt-3 text-sm font-medium text-primary">Skin Understood. Then Transformed.</p>
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">

@@ -168,7 +168,7 @@ export default function ConditionsLanding() {
                       Book Skin Health Consultation
                     </a>
                     <p className="text-sm text-white/60 mt-2 font-sans">&pound;175 &mdash; Fully redeemable against your treatment plan</p>
-                    <p className="text-sm text-white/80 italic mt-1 font-serif">Refinement now. Regeneration ahead.</p>
+                    <p className="text-sm text-white/80 italic mt-1 font-serif">Skin Understood. Then Transformed.</p>
                   </div>
                   <div>
                     <Link to="/treatments" className="inline-flex items-center gap-2 text-white font-medium hover:text-white/80 transition-colors font-sans">
@@ -472,7 +472,7 @@ export default function ConditionsLanding() {
                     Book Skin Health Consultation
                   </a>
                   <p className="text-sm text-base-content/60 mt-2 font-sans">&pound;175 &mdash; Fully redeemable against your treatment plan</p>
-                  <p className="text-sm text-primary italic mt-1 font-serif">Refinement now. Regeneration ahead.</p>
+                  <p className="text-sm text-primary italic mt-1 font-serif">Skin Understood. Then Transformed.</p>
                 </div>
                 <div>
                   <Link to="/treatments" className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-focus transition-colors font-sans">

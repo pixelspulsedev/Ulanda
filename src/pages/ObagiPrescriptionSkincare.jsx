@@ -531,7 +531,7 @@ export default function ObagiPrescriptionSkincare() {
               >
                 Begin With a Skin Health Consultation →
               </a>
-              <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Refinement now. Regeneration ahead.</p>
+              <p className="text-sm font-medium text-primary/80 mt-4 tracking-wide">Skin Understood. Then Transformed.</p>
               <p className="text-base-content/60 text-sm mt-6">ULANDA is a nurse-led skin clinic in Ware specialising in medical aesthetics and barrier-first skin health.</p>
             </FadeInWhenVisible>
           </div>

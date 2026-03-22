@@ -199,6 +199,9 @@ export default function AdvancedSkinHealthConsultation() {
               <FadeInWhenVisible delay={0.3}>
                 <p>Where appropriate following assessment, the <Link to="/treatments/skin-barrier-renewal-protocol" className="text-primary font-bold hover:text-primary/80 underline">Skin Barrier Renewal Protocol</Link> is often the first clinical treatment within a client's programme and may be delivered during the same appointment.</p>
               </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.35}>
+                <p>Where clinically indicated, <Link to="/treatments/prescription-skincare" className="text-primary font-bold hover:text-primary/80 underline">prescription skincare</Link> may be prescribed as part of your treatment plan to support and extend in-clinic results at home.</p>
+              </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.4}>
                 <p className="font-medium text-base-content">£175 · Fully redeemable against your treatment plan</p>
               </FadeInWhenVisible>
@@ -207,7 +210,7 @@ export default function AdvancedSkinHealthConsultation() {
               <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white mt-6 shadow-md">
                 Book Your Advanced Skin Health Consultation →
               </a>
-              <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Refinement now. Regeneration ahead.</p>
+              <p className="text-sm font-medium text-primary/80 mt-3 tracking-wide">Skin Understood. Then Transformed.</p>
             </FadeInWhenVisible>
           </div>
         </section>

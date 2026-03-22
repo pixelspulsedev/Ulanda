@@ -213,7 +213,7 @@ export default function AestheticClinicHertfordshire() {
               <div className="mt-8 bg-secondary/30 rounded-xl p-6 md:p-8 border border-primary/10">
                 <p className="text-base-content/70 text-sm mb-2">Free parking on site · Consultation £175 fully redeemable</p>
                 <p className="text-3xl font-bold text-base-content mb-1">£175</p>
-                <p className="text-base-content/60 mb-4">Refinement now. Regeneration ahead.</p>
+                <p className="text-base-content/60 mb-4">Skin Understood. Then Transformed.</p>
                 <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white">
                   Book Your Advanced Skin Health Consultation →
                 </a>
@@ -355,7 +355,7 @@ export default function AestheticClinicHertfordshire() {
                   <p className="text-3xl font-bold text-base-content mb-1">£175 · Fully redeemable against your treatment plan when you proceed</p>
                   <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white btn-lg mt-4">Book Your Advanced Skin Health Consultation →</a>
                   <p className="text-base-content/70 mt-4">Your consultation concludes with a specific homecare prescription. Where clinically indicated, ULANDA prescribes Obagi Medical as a formal component of your programme.</p>
-                  <Link to="/treatments/prescription-skincare/obagi-medical" className="inline-block mt-3 text-primary hover:text-primary/80 underline underline-offset-2">Learn about Obagi Medical at ULANDA</Link>
+                  <Link to="/treatments/prescription-skincare" className="inline-block mt-3 text-primary hover:text-primary/80 underline underline-offset-2">Learn about prescription skincare at ULANDA</Link>
                 </div>
               </FadeInWhenVisible>
             </div>

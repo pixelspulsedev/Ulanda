@@ -72,58 +72,58 @@ const prescriptionSchemas = {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is prescription skincare?",
+          "name": "What is prescription skincare and how is it different from over-the-counter products?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Prescription skincare contains active ingredients at concentrations that require clinical supervision. These formulations influence cellular skin behaviour rather than simply improving the surface appearance of the skin."
+            "text": "Prescription skincare contains active ingredients at concentrations that require a prescribing clinician to dispense — because their potency is real and clinically significant. Ingredients like hydroquinone, tretinoin and high-strength retinoids produce genuine cellular change at therapeutic concentrations. Over-the-counter products may contain the same ingredient names but at concentrations too low to replicate those effects. The prescription requirement exists because potency that is effective is also potency that requires clinical oversight."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does prescription skincare require a consultation?",
+          "name": "Can I access prescription skincare without a full consultation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Prescription-strength ingredients affect skin cell turnover, pigment regulation, collagen stimulation and inflammatory behaviour. Without proper assessment, there is a risk of barrier disruption, irritation and pigmentation rebound."
+            "text": "No. Prescription skincare at ULANDA requires the Advanced Skin Health Consultation — a full clinical assessment that establishes barrier integrity, inflammatory patterns, hormonal context and treatment readiness before any prescription is written."
           }
         },
         {
           "@type": "Question",
-          "name": "Which prescription skincare brands does ULANDA stock?",
+          "name": "I have been using prescription skincare from another clinic — can I replenish through ULANDA?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ULANDA currently stocks Obagi Medical, one of the world's most recognised physician-dispensed skincare ranges. Further brands will be introduced as the programme expands."
+            "text": "Possibly. Contact the clinic directly at info@ulanda.co.uk with details of your current prescription. Helen will review your protocol and confirm whether replenishment can be supported at ULANDA."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I buy prescription skincare without a consultation at ULANDA?",
+          "name": "How long does prescription skincare take to produce results?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. All prescription skincare at ULANDA is dispensed following clinical assessment and documented within a structured treatment plan."
+            "text": "This depends entirely on the system prescribed and the presenting concern. Barrier-supportive systems produce noticeable improvement within two to four weeks. Pigmentation correction systems typically show visible improvement from weeks six to eight, with significant transformation by weeks twelve to eighteen."
           }
         },
         {
           "@type": "Question",
-          "name": "How is prescription skincare integrated into my treatment programme?",
+          "name": "Is prescription skincare safe during pregnancy or breastfeeding?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Prescription skincare is prescribed as part of your overall treatment plan alongside in-clinic procedures. The homecare protocol is adjusted at each review appointment as your skin responds."
+            "text": "Some prescription skincare ingredients — including tretinoin and hydroquinone — are contraindicated during pregnancy and breastfeeding. Helen reviews contraindications at the consultation and adjusts the prescription accordingly."
           }
         },
         {
           "@type": "Question",
-          "name": "Is ULANDA a prescription skincare clinic?",
+          "name": "Are the products genuine?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. ULANDA is led by a Nurse Independent Prescriber with the authority to prescribe, dispense and supervise prescription skincare as part of structured clinical programmes."
+            "text": "Yes. All prescription skincare products dispensed through ULANDA are genuine and sourced directly from authorised UK distributors."
           }
         },
         {
           "@type": "Question",
-          "name": "How long before I see results from prescription skincare?",
+          "name": "Does ULANDA stock prescription skincare brands other than Obagi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Visible changes typically develop over 6 to 12 weeks depending on the system prescribed, the presenting condition and the skin's baseline barrier stability."
+            "text": "ULANDA currently stocks Obagi Medical as its primary prescription skincare range. If you are looking for a specific prescription skincare brand, contact the clinic to discuss whether it can be sourced or whether an equivalent system would be appropriate."
           }
         }
       ]
@@ -135,104 +135,105 @@ const signatureProgrammes = [
   {
     name: 'Skin Barrier Repair & Recovery',
     path: '/signature/skin-barrier-repair-recovery',
-    homecare: 'Barrier-compatible hydration and gentle barrier-supportive systems prescribed to stabilise skin before corrective treatments begin.',
+    homecare: 'Prescription homecare: barrier-compatible hydration and gentle barrier-supportive systems during stabilisation phase. Transition to active systems once barrier integrity is confirmed.',
   },
   {
     name: 'Rosacea & Redness Control',
     path: '/signature/rosacea-redness-control',
-    homecare: 'Obagi Rosaclear System prescribed to target inflammatory pathways and manage chronic redness alongside in-clinic anti-inflammatory protocols.',
+    homecare: 'Prescription homecare: Obagi Rosaclear System \u2014 addressing both visible redness and the inflammatory mechanism driving it alongside the clinical programme.',
   },
   {
     name: 'Menopause Skin Rebuild',
     path: '/signature/menopause-skin-rebuild',
-    homecare: 'Obagi Nu-Derm Fx transitioning to Rx as barrier stability allows, supporting pigmentation correction and cellular renewal through hormonal transition.',
+    homecare: 'Prescription homecare: Obagi Nu-Derm Fx transitioning to Rx where indicated \u2014 supporting cellular renewal and hormonal pigmentation correction in parallel with the regenerative programme.',
   },
   {
     name: 'Photoaging & Skin Architecture',
     path: '/signature/photoaging-skin-architecture',
-    homecare: 'Obagi-C Fx System and Professional-C Serums prescribed to support antioxidant protection, brightening and photoageing correction.',
+    homecare: 'Prescription homecare: Obagi-C Fx System and Professional-C Serums \u2014 antioxidant protection, pigmentation correction and collagen support matched to UV damage presentation.',
   },
   {
     name: 'Structural Skin Regeneration',
     path: '/signature/structural-skin-regeneration',
-    homecare: 'Obagi Elastiderm range prescribed to support collagen and elastin integrity alongside regenerative in-clinic treatments.',
+    homecare: 'Prescription homecare: Obagi Elastiderm range \u2014 supporting collagen and elastin architecture between regenerative injectable appointments.',
   },
   {
     name: 'Under-Eye Renewal',
     path: '/signature/under-eye-renewal',
-    homecare: 'Obagi Elastiderm Eye products prescribed to support periorbital skin firmness and resilience as part of the under-eye regenerative programme.',
+    homecare: 'Prescription homecare: Obagi Elastiderm Eye products \u2014 periorbital collagen support and under-eye resilience as the homecare complement to the clinical programme.',
   },
 ];
 
 const faqs = [
   {
-    question: 'What is prescription skincare?',
-    answer: 'Prescription skincare contains active ingredients at concentrations that require clinical supervision. These formulations influence cellular skin behaviour \u2014 cell turnover, pigment regulation, collagen stimulation and inflammatory response \u2014 rather than simply improving the surface appearance of the skin.',
+    question: 'What is prescription skincare and how is it different from over-the-counter products?',
+    answer: 'Prescription skincare contains active ingredients at concentrations that require a prescribing clinician to dispense \u2014 because their potency is real and clinically significant. Ingredients like hydroquinone, tretinoin and high-strength retinoids produce genuine cellular change at therapeutic concentrations. Over-the-counter products may contain the same ingredient names but at concentrations too low to replicate those effects. The prescription requirement exists because potency that is effective is also potency that requires clinical oversight.',
   },
   {
-    question: 'Why does prescription skincare require a consultation?',
-    answer: 'Prescription-strength ingredients affect skin cell turnover, pigment regulation, collagen stimulation and inflammatory behaviour. Without proper assessment of barrier stability, hormonal context and treatment readiness, there is a risk of barrier disruption, irritation and pigmentation rebound.',
+    question: 'Can I access prescription skincare without a full consultation?',
+    answer: 'No. Prescription skincare at ULANDA requires the Advanced Skin Health Consultation \u2014 a full clinical assessment that establishes barrier integrity, inflammatory patterns, hormonal context and treatment readiness before any prescription is written.',
   },
   {
-    question: 'Which prescription skincare brands does ULANDA stock?',
-    answer: 'ULANDA currently stocks Obagi Medical, one of the world\u2019s most recognised physician-dispensed skincare ranges. Further brands will be introduced as the programme expands.',
+    question: 'I have been using prescription skincare from another clinic \u2014 can I replenish through ULANDA?',
+    answer: 'Possibly. Contact the clinic directly at info@ulanda.co.uk with details of your current prescription. Helen will review your protocol and confirm whether replenishment can be supported at ULANDA.',
   },
   {
-    question: 'Can I buy prescription skincare without a consultation at ULANDA?',
-    answer: 'No. All prescription skincare at ULANDA is dispensed following clinical assessment and documented within a structured treatment plan. Products are not sold over the counter.',
+    question: 'How long does prescription skincare take to produce results?',
+    answer: 'This depends entirely on the system prescribed and the presenting concern. Barrier-supportive systems produce noticeable improvement within two to four weeks. Pigmentation correction systems typically show visible improvement from weeks six to eight, with significant transformation by weeks twelve to eighteen.',
   },
   {
-    question: 'How is prescription skincare integrated into my treatment programme?',
-    answer: 'Prescription skincare is prescribed as part of your overall treatment plan alongside in-clinic procedures. The homecare protocol supports and extends the results achieved during appointments and is adjusted at each review as your skin responds.',
+    question: 'Is prescription skincare safe during pregnancy or breastfeeding?',
+    answer: 'Some prescription skincare ingredients \u2014 including tretinoin and hydroquinone \u2014 are contraindicated during pregnancy and breastfeeding. Helen reviews contraindications at the consultation and adjusts the prescription accordingly.',
   },
   {
-    question: 'Is ULANDA a prescription skincare clinic?',
-    answer: 'Yes. ULANDA is led by a Nurse Independent Prescriber with the authority to prescribe, dispense and supervise prescription skincare as part of structured clinical programmes in Ware, Hertfordshire.',
+    question: 'Are the products genuine?',
+    answer: 'Yes. All prescription skincare products dispensed through ULANDA are genuine and sourced directly from authorised UK distributors.',
   },
   {
-    question: 'How long before I see results from prescription skincare?',
-    answer: 'Visible changes typically develop over 6 to 12 weeks depending on the system prescribed, the presenting condition and the skin\u2019s baseline barrier stability.',
+    question: 'Does ULANDA stock prescription skincare brands other than Obagi?',
+    answer: 'ULANDA currently stocks Obagi Medical as its primary prescription skincare range. If you are looking for a specific prescription skincare brand, contact the clinic to discuss whether it can be sourced or whether an equivalent system would be appropriate.',
   },
 ];
 
 const areasServed = [
-  { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Ware' },
   { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: "Bishop\u2019s Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
+  { name: 'Harlow', link: '/locations/aesthetic-clinic-harlow' },
   { name: 'Cheshunt', link: '/locations/aesthetic-clinic-cheshunt' },
   { name: 'Stevenage', link: '/locations/aesthetic-clinic-stevenage' },
   { name: 'Welwyn Garden City', link: '/locations/aesthetic-clinic-welwyn-garden-city' },
+  { name: 'St Albans' },
   { name: 'Sawbridgeworth', link: '/locations/aesthetic-clinic-sawbridgeworth' },
-  { name: 'Harlow', link: '/locations/aesthetic-clinic-harlow' },
 ];
 
 const prescriptionProcess = [
   {
     step: 1,
     title: 'Advanced Skin Health Consultation',
-    description: 'A nurse-led clinical assessment evaluates barrier integrity, inflammatory patterns, pigmentation activity, hormonal context and treatment readiness.',
+    description: 'Every prescription skincare client begins with the Advanced Skin Health Consultation \u2014 a full clinical assessment that establishes barrier integrity, inflammatory patterns, pigmentation activity, hormonal context and treatment readiness. The consultation determines whether prescription skincare is appropriate, which system is indicated, at what concentration and in what sequence within the programme.',
   },
   {
     step: 2,
-    title: 'Clinical Prescription',
-    description: 'The appropriate prescription skincare system is selected based on your assessment. The system, concentration, protocol and adjustment timeline are documented in your treatment plan.',
+    title: 'Prescription Documentation',
+    description: 'The prescription is documented in the written treatment plan \u2014 the system, the clinical rationale, the morning and evening protocol, the adjustment period, the review timeline and what the client should expect at each stage.',
   },
   {
     step: 3,
-    title: 'Dispensing & Protocol Guidance',
-    description: 'Products are dispensed directly through the clinic with detailed guidance on morning and evening application, expected responses and when to contact the clinic.',
+    title: 'Programme Integration',
+    description: 'The prescription skincare protocol is matched to the client\u2019s Signature programme \u2014 positioned in the correct phase and at the appropriate concentration for where the skin is in its clinical programme at that point.',
   },
   {
     step: 4,
-    title: 'Programme Integration',
-    description: 'Prescription skincare is sequenced alongside your in-clinic treatments. The homecare protocol supports and extends the clinical results achieved during appointments.',
+    title: 'Review and Adjustment',
+    description: 'The prescription is reviewed at programme appointments. As the skin responds the protocol is adjusted. A client who began Phase 1 on Obagi Hydrate Luxe may transition to Obagi Nu-Derm Fx in Phase 2 as her barrier stabilises.',
   },
   {
     step: 5,
-    title: 'Review & Adjustment',
-    description: 'Your prescription is reviewed at each programme appointment. Systems are adjusted, concentrations modified and protocols refined as your skin responds and strengthens.',
+    title: 'Replenishment',
+    description: 'Replenishment of prescription skincare products is managed through the clinic directly \u2014 not through third-party retailers. All products dispensed through ULANDA are genuine and sourced directly from authorised distributors.',
   },
 ];
 
@@ -260,7 +261,7 @@ export default function PrescriptionSkincare() {
                 &larr; Back to All Treatments
               </Link>
               <h1 className="text-3xl md:text-5xl font-serif text-base-content leading-tight mb-4">
-                <HeroText>Prescription Skincare &mdash; ULANDA Skin Clinic</HeroText>
+                <HeroText>Prescription Skincare &mdash; Medical Grade Skincare Prescribed by a Nurse Independent Prescriber in Ware, Hertfordshire</HeroText>
               </h1>
               <p className="text-lg text-base-content/60 mb-2">Ware, Hertfordshire</p>
               <p className="text-xl md:text-2xl font-light text-primary mb-8 leading-relaxed">
@@ -286,17 +287,17 @@ export default function PrescriptionSkincare() {
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  ULANDA is an authorised prescription skincare clinic in Ware, Hertfordshire. Prescription skincare is prescribed by a Nurse Independent Prescriber as part of a structured clinical programme &mdash; not sold over the counter.
+                  Prescription skincare is not a product category. It is a clinical discipline &mdash; one that requires assessment before prescribing, clinical oversight during use and review at regular intervals to adjust the protocol as the skin responds.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  Prescription-strength formulations contain active ingredients at concentrations that influence cellular skin behaviour &mdash; cell turnover, pigment regulation, collagen stimulation and inflammatory response. These ingredients require clinical assessment and supervision to ensure they are introduced safely and at the right stage of your programme.
+                  ULANDA is an authorised prescription skincare clinic in Ware, Hertfordshire &mdash; led by Helen Balogun MSc, RN, RM, NIP, Nurse Independent Prescriber with over 20 years of clinical experience across nursing, midwifery, women&rsquo;s health and medical aesthetics. Every prescription skincare protocol at ULANDA begins with a full clinical assessment and is documented in a written treatment plan that is reviewed and adjusted throughout the programme.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.2}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  At ULANDA, prescription skincare is never prescribed in isolation. It is integrated into your treatment plan alongside in-clinic procedures, with the homecare protocol supporting and extending the clinical results achieved during appointments. The prescription is reviewed and adjusted as your skin responds.
+                  Prescription skincare at ULANDA is not available as a retail purchase. It is prescribed &mdash; following assessment of your skin barrier, inflammatory patterns, pigmentation activity, hormonal context and treatment goals &mdash; as a clinical component of your programme.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.3}>
@@ -304,10 +305,15 @@ export default function PrescriptionSkincare() {
                   Authorised prescription skincare clinic &middot; Nurse Independent Prescriber &middot; Ware, Hertfordshire
                 </p>
                 <div className="text-center md:text-left">
-                  <Link to="/treatments/advanced-skin-health-consultation" className="btn btn-primary text-white">
-                    Book Advanced Skin Health Consultation &rarr;
-                  </Link>
-                  <p className="text-base-content/60 text-sm mt-3">&pound;175 &mdash; Fully redeemable against treatment plan</p>
+                  <a
+                    href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary text-white"
+                  >
+                    Book Your Advanced Skin Health Consultation &rarr;
+                  </a>
+                  <p className="text-base-content/60 text-sm mt-3">&pound;175 &middot; Fully redeemable against your treatment plan</p>
                 </div>
               </FadeInWhenVisible>
             </div>
@@ -323,26 +329,38 @@ export default function PrescriptionSkincare() {
               </FadeInWhenVisible>
 
               <FadeInWhenVisible delay={0.1}>
-                <h3 className="text-xl font-serif text-base-content mb-4">How Prescription Skincare Differs from Over-the-Counter Products</h3>
+                <h3 className="text-xl font-serif text-base-content mb-4">The Difference Between Medical Grade and Over the Counter</h3>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  Over-the-counter skincare products are formulated at concentrations that are safe for unsupervised use. Prescription skincare contains active ingredients &mdash; such as hydroquinone, tretinoin and high-strength retinoids &mdash; at concentrations that directly influence skin cell turnover, pigment production, collagen synthesis and inflammatory signalling.
+                  The skincare market is vast and the marketing language that surrounds it is frequently imprecise. Products described as &ldquo;clinical,&rdquo; &ldquo;professional&rdquo; or &ldquo;advanced&rdquo; may contain active ingredients at concentrations that are genuinely meaningful &mdash; or they may contain those same ingredients at concentrations too low to produce the cellular changes they claim.
+                </p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-6">
+                  Prescription skincare is different in a structurally important way. Certain ingredients &mdash; hydroquinone, tretinoin, high-strength retinoids, regulated acids &mdash; are restricted precisely because their potency is real. At therapeutic concentrations these ingredients produce genuine cellular change: they accelerate skin cell turnover, regulate melanin production, stimulate collagen synthesis and modulate inflammatory behaviour in ways that over-the-counter formulations cannot replicate.
                 </p>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-8">
-                  These formulations are designed to produce measurable biological change within the skin. That level of potency is where the clinical benefit lies &mdash; but it is also where the risk of adverse outcomes increases without appropriate assessment and monitoring.
+                  That potency is also why they require a prescribing clinician. Prescribing requires the authority and the clinical responsibility to assess whether an ingredient is appropriate for a specific client&rsquo;s skin, at a specific concentration, at a specific point in their clinical programme. It is not a transaction. It is a clinical decision.
                 </p>
               </FadeInWhenVisible>
 
               <FadeInWhenVisible delay={0.2}>
-                <h3 className="text-xl font-serif text-base-content mb-4">The Risks of Unsupervised Prescription Skincare</h3>
+                <h3 className="text-xl font-serif text-base-content mb-4">Why Assessment Before Prescribing Matters</h3>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  Introducing prescription-strength ingredients without assessment of barrier integrity, inflammatory load and hormonal context can result in barrier disruption, chronic irritation, pigmentation rebound and reduced tolerance for future treatments.
+                  Prescription skincare introduced without assessment carries specific clinical risks that are well-documented and entirely avoidable.
+                </p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">
+                  <strong>Barrier disruption.</strong> Prescription-strength actives introduced to barrier-compromised skin produce inflammatory responses that worsen the presenting condition rather than addressing it. The barrier must be assessed &mdash; and where necessary stabilised &mdash; before prescription actives are introduced.
+                </p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">
+                  <strong>Pigmentation rebound.</strong> Prescription pigmentation correction systems require consistent UV protection and appropriate use protocols. Without clinical guidance, incorrect application or premature discontinuation produces pigmentation rebound that is worse than the original presentation.
+                </p>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-4">
+                  <strong>Inflammatory escalation.</strong> Clients with inflammatory skin presentations &mdash; rosacea, reactive skin, hormonal sensitivity &mdash; require careful selection of prescription actives and gradual introduction protocols. Prescription skincare introduced at full strength to inflammatory skin escalates rather than resolves the presenting condition.
                 </p>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  At ULANDA, prescription skincare is introduced within a Skin Barrier Renewal Protocol to protect skin integrity and improve long-term treatment outcomes.
+                  <strong>Incorrect system selection.</strong> The appropriate prescription skincare system depends on the specific mechanism producing the presenting concern &mdash; not its visible appearance. A pigmentation presentation driven by UV damage requires a different clinical response from one driven by hormonal activity. Assessment establishes the mechanism. The prescription addresses the mechanism &mdash; not the surface.
                 </p>
-                <Link to="/treatments/skin-barrier-renewal-protocol" className="btn btn-primary text-white">
-                  Explore the Skin Barrier Renewal Protocol &rarr;
-                </Link>
+                <p className="text-base-content/80 text-lg leading-relaxed">
+                  At ULANDA, prescription skincare is introduced within a documented clinical programme following full assessment of barrier integrity, inflammatory load, hormonal context and treatment readiness. This is how prescription skincare produces the results it is capable of.
+                </p>
               </FadeInWhenVisible>
             </div>
           </div>
@@ -360,19 +378,19 @@ export default function PrescriptionSkincare() {
                 <div className="bg-base-100 rounded-xl p-6 md:p-8 border border-primary/10 shadow-sm mb-8">
                   <h3 className="text-xl font-serif text-base-content mb-3">Obagi Medical</h3>
                   <p className="text-base-content/80 leading-relaxed mb-4">
-                    Obagi Medical is widely recognised as one of the world&rsquo;s leading physician-dispensed skincare ranges. Its systems are designed to influence cellular skin behaviour &mdash; targeting pigmentation, barrier function, collagen stimulation and inflammatory regulation at concentrations that require clinical prescription and monitoring.
+                    Obagi Medical is the world&rsquo;s leading physician-dispensed skincare system &mdash; formulated to influence skin behaviour at the cellular level rather than improving surface appearance alone. ULANDA is an authorised Obagi Medical Practitioner and stockist, with prescribing authority for the full Obagi Medical range including the Rx systems that contain prescription-strength hydroquinone and tretinoin.
                   </p>
                   <p className="text-base-content/80 leading-relaxed mb-4">
-                    ULANDA is an authorised Obagi Medical Practitioner &amp; stockist in Ware, Hertfordshire. Obagi systems are prescribed following clinical assessment and dispensed as part of documented treatment plans.
+                    <strong>Systems available:</strong> Obagi Nu-Derm Fx and Rx &middot; Obagi Rosaclear &middot; Obagi-C Fx System &middot; Professional-C Serums &middot; Obagi Elastiderm Range &middot; Obagi Hydrate and Hydrate Luxe &middot; Obagi Sun Shield Matte SPF 50
                   </p>
                   <p className="text-base-content/80 leading-relaxed mb-6">
-                    Systems available include Obagi Nu-Derm, Rosaclear, Obagi-C Fx, Professional-C Serums, Elastiderm, Hydrate &amp; Hydrate Luxe and Sun Shield Matte SPF 50.
+                    <strong>Indicated for:</strong> pigmentation and uneven tone &middot; rosacea and redness &middot; photoageing &middot; structural skin ageing &middot; barrier-compromised skin &middot; hormonal skin changes
                   </p>
                   <Link
                     to="/treatments/prescription-skincare/obagi-medical"
                     className="btn btn-primary text-white"
                   >
-                    View Obagi Medical at ULANDA &rarr;
+                    Explore Obagi Medical at ULANDA &rarr;
                   </Link>
                 </div>
               </FadeInWhenVisible>
@@ -398,22 +416,27 @@ export default function PrescriptionSkincare() {
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  Prescription skincare at ULANDA is not a standalone purchase. It is prescribed as one component of a structured clinical programme that combines in-clinic procedures with a supervised homecare protocol.
+                  Prescription skincare at ULANDA functions as the homecare extension of the clinical programme &mdash; not as a standalone product purchase. The relationship between the in-clinic treatments and the at-home prescription protocol is clinical and intentional.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.2}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  The homecare protocol supports and extends the results achieved during appointments. Prescription products are selected to work alongside the specific treatments in your programme &mdash; preparing the skin before procedures, supporting recovery between appointments and maintaining results long-term.
+                  <strong>In clinic:</strong> treatments address the skin&rsquo;s biological mechanisms &mdash; barrier restoration, regenerative stimulation, structural support &mdash; in the controlled clinical environment where the full range of clinical tools is available.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.3}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  The prescription is reviewed and adjusted at each programme appointment. Systems may be stepped up in concentration, transitioned between formulations or paused depending on how your skin responds and what your treatment plan requires at each stage.
+                  <strong>At home:</strong> the prescription skincare protocol maintains and extends the biological changes produced in clinic between appointments &mdash; keeping the barrier in the state the clinic has worked to achieve, supporting the cellular turnover that clinical treatments stimulate, protecting against the inflammatory and UV drivers that would otherwise erode results.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.4}>
+                <p className="text-base-content/80 text-lg leading-relaxed mb-6">
+                  A client who attends every programme appointment but uses no prescription homecare protocol is working at reduced efficiency &mdash; because the clinical environment between appointments is returning the skin toward its baseline rather than maintaining the biological gains produced by treatment.
+                </p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.5}>
                 <p className="text-base-content/80 text-lg leading-relaxed">
-                  This integration ensures that the products you use at home are clinically aligned with the treatments you receive in clinic &mdash; producing more consistent, predictable and sustainable results than prescription skincare used in isolation.
+                  A client whose prescription homecare protocol is correctly matched to her clinical programme and her skin&rsquo;s presenting state compounds her in-clinic results at home, every day, between appointments.
                 </p>
               </FadeInWhenVisible>
             </div>
@@ -453,10 +476,7 @@ export default function PrescriptionSkincare() {
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="max-w-4xl mx-auto">
               <FadeInWhenVisible>
-                <h2 className="text-3xl md:text-3xl font-serif text-base-content mb-4">Prescription Skincare and the Signature Programmes</h2>
-                <p className="text-base-content/80 text-lg leading-relaxed mb-8">
-                  Prescription skincare is integrated into each of the six ULANDA Signature programmes. The homecare protocol is tailored to the clinical objectives of each Signature and adjusted as your programme progresses.
-                </p>
+                <h2 className="text-3xl md:text-3xl font-serif text-base-content mb-8">Prescription Skincare and the Signature Programmes</h2>
               </FadeInWhenVisible>
               <div className="grid md:grid-cols-2 gap-6">
                 {signatureProgrammes.map((programme, idx) => (
@@ -486,20 +506,25 @@ export default function PrescriptionSkincare() {
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.1}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-6">
-                  Prescription skincare is accessed through the Advanced Skin Health Consultation. This nurse-led clinical assessment evaluates your barrier integrity, inflammatory patterns, pigmentation activity, hormonal context and treatment goals to determine which prescription system is appropriate, at what concentration, and at what point in your programme it is introduced.
+                  Prescription skincare is accessed through the Advanced Skin Health Consultation. This is the clinical assessment that establishes what your skin actually needs &mdash; the system, the concentration, the phase timing and the integration with your clinical programme &mdash; before any prescription is written.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.2}>
                 <p className="text-base-content/80 text-lg leading-relaxed mb-8">
-                  You will never be pressured into purchasing products. Recommendations are based only on what your skin is clinically ready for.
+                  The consultation fee is &pound;175 and is fully redeemable against your treatment plan when you proceed &mdash; meaning for clients who begin a programme including prescription skincare, the consultation carries no net cost.
                 </p>
                 <div className="bg-base-100 rounded-xl p-6 md:p-8 border border-primary/10 shadow-sm text-center">
                   <h3 className="text-xl font-serif text-base-content mb-2">Advanced Skin Health Consultation</h3>
-                  <p className="text-3xl font-bold text-base-content mb-1">&pound;175</p>
-                  <p className="text-base-content/60 mb-4">Redeemable against treatment plan</p>
-                  <Link to="/treatments/advanced-skin-health-consultation" className="btn btn-primary text-white">
-                    Book Consultation &rarr;
-                  </Link>
+                  <p className="text-3xl font-bold text-base-content mb-1">&pound;175 &middot; Fully redeemable against your treatment plan</p>
+                  <p className="text-base-content/60 mb-4">Free parking on site &middot; Ware, Hertfordshire &middot; Consultations limited each week</p>
+                  <a
+                    href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary text-white"
+                  >
+                    Book Your Advanced Skin Health Consultation &rarr;
+                  </a>
                 </div>
               </FadeInWhenVisible>
             </div>
@@ -544,14 +569,20 @@ export default function PrescriptionSkincare() {
                   {areasServed.map((area, i) => (
                     <React.Fragment key={i}>
                       {i > 0 && <span className="mx-2">&middot;</span>}
-                      <Link
-                        to={area.link}
-                        className="text-primary hover:text-primary/80 underline underline-offset-2 transition-colors"
-                      >
-                        {area.name}
-                      </Link>
+                      {area.link ? (
+                        <Link
+                          to={area.link}
+                          className="text-primary hover:text-primary/80 underline underline-offset-2 transition-colors"
+                        >
+                          {area.name}
+                        </Link>
+                      ) : (
+                        <span>{area.name}</span>
+                      )}
                     </React.Fragment>
                   ))}
+                  <span className="mx-2">&middot;</span>
+                  <span>and the wider East Hertfordshire SG12 corridor</span>
                 </div>
               </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.2}>
