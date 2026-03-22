@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
 
           {/* Links Columns */}
-          <div className="md:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="md:col-span-9 grid grid-cols-2 md:grid-cols-5 gap-8">
             {/* Treatments */}
             <div>
               <h3 className="font-medium font-sans text-primary mb-4">
@@ -110,6 +110,25 @@ export default function Footer() {
                 <li><Link to="/about/manifesto" className="hover:text-primary transition-colors ">The Manifesto</Link></li>
                 <li><Link to="/blogs" className="hover:text-primary transition-colors ">Blog</Link></li>
                 <li><Link to="/contact" className="hover:text-primary transition-colors ">Contact</Link></li>
+              </ul>
+            </div>
+
+            {/* Locations */}
+            <div>
+              <h3 className="font-medium font-sans text-primary mb-4">
+                <Link to="/locations" className="hover:text-primary transition-colors text-primary">Locations</Link>
+              </h3>
+              <ul className="space-y-3 text-base-content/80 font-sans">
+                <li><Link to="/locations/aesthetic-clinic-hertfordshire" className="hover:text-primary transition-colors ">Hertfordshire</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-hoddesdon" className="hover:text-primary transition-colors ">Hoddesdon</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-hertford" className="hover:text-primary transition-colors ">Hertford</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-broxbourne" className="hover:text-primary transition-colors ">Broxbourne</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-cheshunt" className="hover:text-primary transition-colors ">Cheshunt</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-harlow" className="hover:text-primary transition-colors ">Harlow</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-bishops-stortford" className="hover:text-primary transition-colors ">Bishop's Stortford</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-welwyn-garden-city" className="hover:text-primary transition-colors ">Welwyn Garden City</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-stevenage" className="hover:text-primary transition-colors ">Stevenage</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-sawbridgeworth" className="hover:text-primary transition-colors ">Sawbridgeworth</Link></li>
               </ul>
             </div>
 
