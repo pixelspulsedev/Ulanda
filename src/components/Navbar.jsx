@@ -209,54 +209,70 @@ export default function Navbar() {
             >
               Treatments <ChevronDown />
             </NavLink>
-            <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-72 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
-              {/* Consultation */}
-              <li>
+            <div className="dropdown-content z-[1] shadow-xl bg-base-100 rounded-xl border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent p-4 w-[600px]">
+              {/* Primary CTA - full width */}
+              <div className="mb-3">
                 <Link
                   to="/treatments/advanced-skin-health-consultation"
                   onClick={closeDropdown}
-                  className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30 font-medium"
+                  className="block bg-primary hover:bg-primary/80 text-secondary font-semibold rounded-lg py-3 px-4 transition-colors"
                 >
-                  Advanced Skin Health Consultation
+                  Begin With a Consultation 
                 </Link>
-              </li>
-              {/* Barrier Protocol - flat link like other categories */}
-              <li>
-                <Link
-                  to="/treatments/skin-barrier-renewal-protocol"
-                  onClick={closeDropdown}
-                  className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
-                >
-                  Skin Barrier Renewal Protocol
+              </div>
+
+              {/* Two-column layout */}
+              <div className="grid grid-cols-2 gap-x-6 gap-y-0">
+                {/* LEFT COLUMN */}
+                <div>
+                  {/* THE FOUNDATION */}
+                  <div className="pt-2 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">The Foundation</div>
+                  <Link to="/treatments/skin-barrier-renewal-protocol" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Skin Barrier Renewal Protocol</Link>
+
+                  {/* SKIN RENEWAL */}
+                  <div className="pt-3 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Skin Renewal</div>
+                  <Link to="/treatments/skin-renewal-regeneration/chemical-peel" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Chemical Peels</Link>
+                  <Link to="/treatments/skin-renewal-regeneration/biorepeel" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">BioRePeel</Link>
+                  <Link to="/treatments/skin-renewal-regeneration/microneedling" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Microneedling</Link>
+
+                  {/* REGENERATIVE INJECTABLES */}
+                  <div className="pt-3 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Regenerative Injectables</div>
+                  <Link to="/treatments/injectable-skin-optimisation/profhilo" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Profhilo</Link>
+                  <Link to="/treatments/skin-renewal-regeneration/polynucleotides" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Polynucleotides</Link>
+                  <Link to="/treatments/injectable-skin-optimisation" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Skin Boosters</Link>
+                  <Link to="/treatments/skin-renewal-regeneration/prp-skin-regeneration" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">PRP</Link>
+                </div>
+
+                {/* RIGHT COLUMN */}
+                <div>
+                  {/* STRUCTURAL TREATMENTS */}
+                  <div className="pt-2 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Structural Treatments</div>
+                  <Link to="/treatments/structural-collagen-support/anti-wrinkle-injections" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Anti-Wrinkle Injections</Link>
+                  <Link to="/treatments/structural-collagen-support/dermal-fillers" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Dermal Fillers</Link>
+                  <Link to="/treatments/structural-collagen-support/jawline-sculpting" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Jawline Sculpting</Link>
+                  <Link to="/treatments/structural-collagen-support/thread-lifts" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Thread Lifts</Link>
+
+                  {/* BODY AND WELLNESS */}
+                  <div className="pt-3 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Body and Wellness</div>
+                  <Link to="/treatments/body-regeneration-tissue-support/body-tightening" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Body Skin Tightening</Link>
+                  <Link to="/treatments/body-regeneration-tissue-support/body-contouring" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Body Contouring</Link>
+                  <Link to="/conditions/internal-wellness/slow-metabolism" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Medical Weight Management</Link>
+                  <Link to="/treatments/wellness-regenerative-recovery" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">IV Therapy</Link>
+                  <Link to="/treatments/body-regeneration-tissue-support/minor-skin-lesion-removal" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Skin Lesion Removal</Link>
+
+                  {/* PRESCRIPTION SKINCARE */}
+                  <div className="pt-3 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Prescription Skincare</div>
+                  <Link to="/treatments/prescription-skincare/obagi-medical" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Obagi Medical</Link>
+                </div>
+              </div>
+
+              {/* Medical Aesthetics Clinic - visually separated */}
+              <div className="mt-3 pt-3 border-t border-secondary/15">
+                <Link to="/treatments/medical-aesthetics-clinic" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary/70 rounded-lg py-2 px-3 transition-colors text-sm text-base-content/50">
+                  Medical Aesthetics Clinic
                 </Link>
-              </li>
-              {/* Divider */}
-              <li className="my-1 border-t border-secondary/15"></li>
-              {/* Remaining categories */}
-              {treatmentCategories
-                .filter((cat) => cat.id !== 'skin-barrier-renewal-protocol')
-                .map((category) => (
-                  <li key={category.id}>
-                    <Link
-                      to={`/treatments/${category.id}`}
-                      onClick={closeDropdown}
-                      className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
-                    >
-                      {category.title}
-                    </Link>
-                  </li>
-                ))}
-              {/* Prescription Skincare */}
-              <li>
-                <Link
-                  to="/treatments/prescription-skincare"
-                  onClick={closeDropdown}
-                  className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
-                >
-                  Prescription Skincare
-                </Link>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
 
           {/* Conditions Dropdown */}
@@ -503,61 +519,57 @@ export default function Navbar() {
                   >
                     Treatments
                   </summary>
-                  <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
-                    <li>
-                      <Link
-                        to="/treatments"
-                        onClick={() => setIsDrawerOpen(false)}
-                        className="py-2 active:bg-secondary/20"
-                      >
-                        Overview
-                      </Link>
-                    </li>
-                    {/* Consultation */}
+                  <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-0">
+                    {/* Primary CTA */}
                     <li>
                       <Link
                         to="/treatments/advanced-skin-health-consultation"
                         onClick={() => setIsDrawerOpen(false)}
-                        className="py-2 active:bg-secondary/20 font-medium"
+                        className="py-3 active:bg-primary/20 font-semibold text-primary min-h-[44px]"
                       >
-                        Advanced Skin Health Consultation
+                        Begin With a Consultation →
                       </Link>
                     </li>
-                    {/* Barrier Protocol - flat link like other categories */}
-                    <li>
-                      <Link
-                        to="/treatments/skin-barrier-renewal-protocol"
-                        onClick={() => setIsDrawerOpen(false)}
-                        className="py-2 active:bg-secondary/20"
-                      >
-                        Skin Barrier Renewal Protocol
-                      </Link>
-                    </li>
-                    {/* Remaining categories */}
-                    {treatmentCategories
-                      .filter(
-                        (cat) => cat.id !== 'skin-barrier-renewal-protocol',
-                      )
-                      .map((category) => (
-                        <li key={category.id}>
-                          <Link
-                            to={`/treatments/${category.id}`}
-                            onClick={() => setIsDrawerOpen(false)}
-                            className="py-2 active:bg-secondary/20"
-                          >
-                            {category.title}
-                          </Link>
-                        </li>
-                      ))}
-                    {/* Prescription Skincare */}
-                    <li>
-                      <Link
-                        to="/treatments/prescription-skincare"
-                        onClick={() => setIsDrawerOpen(false)}
-                        className="py-2 active:bg-secondary/20"
-                      >
-                        Prescription Skincare
-                      </Link>
+
+                    {/* THE FOUNDATION */}
+                    <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">The Foundation</li>
+                    <li><Link to="/treatments/skin-barrier-renewal-protocol" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Skin Barrier Renewal Protocol</Link></li>
+
+                    {/* SKIN RENEWAL */}
+                    <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Skin Renewal</li>
+                    <li><Link to="/treatments/skin-renewal-regeneration/chemical-peel" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Chemical Peels</Link></li>
+                    <li><Link to="/treatments/skin-renewal-regeneration/biorepeel" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">BioRePeel</Link></li>
+                    <li><Link to="/treatments/skin-renewal-regeneration/microneedling" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Microneedling</Link></li>
+
+                    {/* REGENERATIVE INJECTABLES */}
+                    <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Regenerative Injectables</li>
+                    <li><Link to="/treatments/injectable-skin-optimisation/profhilo" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Profhilo</Link></li>
+                    <li><Link to="/treatments/skin-renewal-regeneration/polynucleotides" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Polynucleotides</Link></li>
+                    <li><Link to="/treatments/injectable-skin-optimisation" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Skin Boosters</Link></li>
+                    <li><Link to="/treatments/skin-renewal-regeneration/prp-skin-regeneration" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">PRP</Link></li>
+
+                    {/* STRUCTURAL TREATMENTS */}
+                    <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Structural Treatments</li>
+                    <li><Link to="/treatments/structural-collagen-support/anti-wrinkle-injections" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Anti-Wrinkle Injections</Link></li>
+                    <li><Link to="/treatments/structural-collagen-support/dermal-fillers" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Dermal Fillers</Link></li>
+                    <li><Link to="/treatments/structural-collagen-support/jawline-sculpting" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Jawline Sculpting</Link></li>
+                    <li><Link to="/treatments/structural-collagen-support/thread-lifts" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Thread Lifts</Link></li>
+
+                    {/* BODY AND WELLNESS */}
+                    <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Body and Wellness</li>
+                    <li><Link to="/treatments/body-regeneration-tissue-support/body-tightening" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Body Skin Tightening</Link></li>
+                    <li><Link to="/treatments/body-regeneration-tissue-support/body-contouring" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Body Contouring</Link></li>
+                    <li><Link to="/conditions/internal-wellness/slow-metabolism" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Medical Weight Management</Link></li>
+                    <li><Link to="/treatments/wellness-regenerative-recovery" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">IV Therapy</Link></li>
+                    <li><Link to="/treatments/body-regeneration-tissue-support/minor-skin-lesion-removal" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Skin Lesion Removal</Link></li>
+
+                    {/* PRESCRIPTION SKINCARE */}
+                    <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Prescription Skincare</li>
+                    <li><Link to="/treatments/prescription-skincare/obagi-medical" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Obagi Medical</Link></li>
+
+                    {/* Medical Aesthetics Clinic - separated */}
+                    <li className="mt-3 pt-3 border-t border-secondary/15">
+                      <Link to="/treatments/medical-aesthetics-clinic" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px] text-base-content/50">Medical Aesthetics Clinic</Link>
                     </li>
                   </ul>
                 </details>
