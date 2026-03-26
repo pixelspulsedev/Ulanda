@@ -127,7 +127,7 @@ const treatmentCategories = [
   {
     heading: 'Corrective and Structural Treatments',
     treatments: [
-      { name: 'Anti-wrinkle injections', aka: 'Botox \u00b7 frown lines \u00b7 forehead lines \u00b7 crow\u2019s feet \u00b7 brow lift \u00b7 lip flip', from: '\u00a3180', link: '/treatments/structural-collagen-support/anti-wrinkle-injection' },
+      { name: 'Anti-wrinkle injections', aka: 'Botox \u00b7 frown lines \u00b7 forehead lines \u00b7 crow\u2019s feet \u00b7 brow lift \u00b7 lip flip', from: '\u00a3180', link: '/treatments/structural-collagen-support/anti-wrinkle-injections' },
       { name: 'Dermal fillers', aka: 'Lip filler \u00b7 cheek filler \u00b7 jawline filler \u00b7 tear trough \u00b7 nasolabial folds \u00b7 marionette lines', from: '\u00a3140', link: '/treatments/structural-collagen-support/dermal-fillers' },
       { name: 'Jawline sculpting', aka: 'Jawline filler \u00b7 chin filler \u00b7 masseter Botox \u00b7 face slimming injection \u00b7 lower face contouring', from: '\u00a3140', link: '/treatments/structural-collagen-support/jawline-sculpting' },
       { name: 'Biostimulators', aka: 'Sculptra \u00b7 Radiesse \u00b7 collagen stimulator \u00b7 skin tightening injection \u00b7 volume restoration', from: '\u00a3POA', link: '/treatments/structural-collagen-support/biostimulators' },

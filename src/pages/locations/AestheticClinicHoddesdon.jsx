@@ -153,7 +153,7 @@ const treatmentCategories = [
   {
     heading: 'Corrective and Structural Treatments',
     treatments: [
-      { name: 'Anti-wrinkle injections', aka: 'Botox · frown lines · forehead lines · crow\'s feet · brow lift · lip flip', from: '£180', link: '/treatments/structural-collagen-support/anti-wrinkle-injection' },
+      { name: 'Anti-wrinkle injections', aka: 'Botox · frown lines · forehead lines · crow\'s feet · brow lift · lip flip', from: '£180', link: '/treatments/structural-collagen-support/anti-wrinkle-injections' },
       { name: 'Dermal fillers', aka: 'Lip filler · cheek filler · jawline filler · tear trough · nasolabial folds · marionette lines', from: '£140', link: '/treatments/structural-collagen-support/dermal-fillers' },
       { name: 'Jawline sculpting', aka: 'Jawline filler · chin filler · masseter Botox · face slimming injection · lower face contouring', from: '£140', link: '/treatments/structural-collagen-support/jawline-sculpting' },
       { name: 'Biostimulators', aka: 'Sculptra · Radiesse · collagen stimulator · skin tightening injection · volume restoration', from: '£POA', link: '/treatments/structural-collagen-support/biostimulators' },

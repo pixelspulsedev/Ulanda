@@ -247,7 +247,7 @@ export default function Navbar() {
                 <div>
                   {/* STRUCTURAL TREATMENTS */}
                   <div className="pt-2 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Structural Treatments</div>
-                  <Link to="/treatments/structural-collagen-support/anti-wrinkle-injection" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Anti-Wrinkle Injections</Link>
+                  <Link to="/treatments/structural-collagen-support/anti-wrinkle-injections" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Anti-Wrinkle Injections</Link>
                   <Link to="/treatments/structural-collagen-support/dermal-fillers" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Dermal Fillers</Link>
                   <Link to="/treatments/structural-collagen-support/jawline-sculpting" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Jawline Sculpting</Link>
                   <Link to="/treatments/structural-collagen-support/thread-lifts" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Thread Lifts</Link>
@@ -409,7 +409,7 @@ export default function Navbar() {
           </div>
 
           {/* Locations Dropdown */}
-          <div className="dropdown dropdown-hover group px-2">
+          {/* <div className="dropdown dropdown-hover group px-2">
             <NavLink
               to="/locations"
               onClick={closeDropdown}
@@ -443,7 +443,7 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -587,7 +587,7 @@ export default function Navbar() {
 
                     {/* STRUCTURAL TREATMENTS */}
                     <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Structural Treatments</li>
-                    <li><Link to="/treatments/structural-collagen-support/anti-wrinkle-injection" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Anti-Wrinkle Injections</Link></li>
+                    <li><Link to="/treatments/structural-collagen-support/anti-wrinkle-injections" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Anti-Wrinkle Injections</Link></li>
                     <li><Link to="/treatments/structural-collagen-support/dermal-fillers" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Dermal Fillers</Link></li>
                     <li><Link to="/treatments/structural-collagen-support/jawline-sculpting" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Jawline Sculpting</Link></li>
                     <li><Link to="/treatments/structural-collagen-support/thread-lifts" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Thread Lifts</Link></li>

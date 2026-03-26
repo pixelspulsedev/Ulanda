@@ -96,7 +96,7 @@ const pageSchema = {
           "@type": "ListItem",
           "position": 1,
           "name": "Anti-Wrinkle Injections",
-          "url": "https://www.ulanda.co.uk/treatments/structural-collagen-support/anti-wrinkle/"
+          "url": "https://www.ulanda.co.uk/treatments/structural-collagen-support/anti-wrinkle-injections/"
         },
         {
           "@type": "ListItem",
@@ -146,7 +146,7 @@ const treatments = [
     description: "Relaxation of targeted facial muscles softens dynamic expression lines while maintaining natural facial movement.",
     detail: "At ULANDA anti-wrinkle injections are introduced following barrier assessment because inflamed or barrier-compromised skin responds less predictably to injectable treatments.",
     linkText: "Anti-wrinkle injections at ULANDA",
-    linkUrl: "/treatments/structural-collagen-support/anti-wrinkle-injection"
+    linkUrl: "/treatments/structural-collagen-support/anti-wrinkle-injections"
   },
   {
     title: "Dermal Fillers",
@@ -244,8 +244,16 @@ const faqs = [
 ];
 
 const servingAreas = [
-  "Ware", "Hertford", "Hoddesdon", "Broxbourne", "Bishop\u2019s Stortford",
-  "Harlow", "Cheshunt", "Stevenage", "Welwyn Garden City", "Sawbridgeworth"
+  { name: "Ware", link: null },
+  { name: "Hertford", link: "/locations/aesthetic-clinic-hertford" },
+  { name: "Hoddesdon", link: "/locations/aesthetic-clinic-hoddesdon" },
+  { name: "Broxbourne", link: "/locations/aesthetic-clinic-broxbourne" },
+  { name: "Bishop\u2019s Stortford", link: "/locations/aesthetic-clinic-bishops-stortford" },
+  { name: "Harlow", link: "/locations/aesthetic-clinic-harlow" },
+  { name: "Cheshunt", link: "/locations/aesthetic-clinic-cheshunt" },
+  { name: "Stevenage", link: "/locations/aesthetic-clinic-stevenage" },
+  { name: "Welwyn Garden City", link: "/locations/aesthetic-clinic-welwyn-garden-city" },
+  { name: "Sawbridgeworth", link: "/locations/aesthetic-clinic-sawbridgeworth" },
 ];
 
 function BookingCTA() {
@@ -588,9 +596,15 @@ export default function MedicalAestheticsClinic() {
               <FadeInWhenVisible delay={0.1}>
                 <div className="flex flex-wrap gap-3">
                   {servingAreas.map((area, idx) => (
-                    <span key={idx} className="bg-white px-4 py-2 rounded-full text-base-content/70 border border-secondary/20 text-sm">
-                      {area}
-                    </span>
+                    area.link ? (
+                      <Link key={idx} to={area.link} className="bg-white px-4 py-2 rounded-full text-base-content/70 border border-secondary/20 text-sm hover:bg-primary hover:text-white transition-colors">
+                        {area.name}
+                      </Link>
+                    ) : (
+                      <span key={idx} className="bg-white px-4 py-2 rounded-full text-base-content/70 border border-secondary/20 text-sm">
+                        {area.name}
+                      </span>
+                    )
                   ))}
                   <span className="bg-white px-4 py-2 rounded-full text-base-content/70 border border-secondary/20 text-sm">
                     the wider East Hertfordshire region

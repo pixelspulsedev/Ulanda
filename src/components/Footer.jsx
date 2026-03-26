@@ -173,7 +173,7 @@ export default function Footer() {
         <div className="border-t border-base-200 pt-8 pb-8 mb-6">
           <div className="flex justify-center">
             <a
-              href="https://www.google.com/maps/place/ULANDA/@51.809,-0.0287,17z/"
+              href="https://g.page/r/CU-nYyGS8O9PEAE/review"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-secondary/50 hover:bg-secondary transition-colors border border-secondary"
