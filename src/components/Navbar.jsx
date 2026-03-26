@@ -247,7 +247,7 @@ export default function Navbar() {
                 <div>
                   {/* STRUCTURAL TREATMENTS */}
                   <div className="pt-2 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Structural Treatments</div>
-                  <Link to="/treatments/structural-collagen-support/anti-wrinkle-injections" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Anti-Wrinkle Injections</Link>
+                  <Link to="/treatments/structural-collagen-support/anti-wrinkle-injection" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Anti-Wrinkle Injections</Link>
                   <Link to="/treatments/structural-collagen-support/dermal-fillers" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Dermal Fillers</Link>
                   <Link to="/treatments/structural-collagen-support/jawline-sculpting" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Jawline Sculpting</Link>
                   <Link to="/treatments/structural-collagen-support/thread-lifts" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Thread Lifts</Link>
@@ -407,6 +407,43 @@ export default function Navbar() {
               ))}
             </ul>
           </div>
+
+          {/* Locations Dropdown */}
+          <div className="dropdown dropdown-hover group px-2">
+            <NavLink
+              to="/locations"
+              onClick={closeDropdown}
+              className={({ isActive }) =>
+                `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`
+              }
+            >
+              Locations <ChevronDown />
+            </NavLink>
+            <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-64 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
+              {[
+                { name: 'Hertfordshire', path: '/locations/aesthetic-clinic-hertfordshire' },
+                { name: 'Hoddesdon', path: '/locations/aesthetic-clinic-hoddesdon' },
+                { name: 'Hertford', path: '/locations/aesthetic-clinic-hertford' },
+                { name: 'Broxbourne', path: '/locations/aesthetic-clinic-broxbourne' },
+                { name: 'Cheshunt', path: '/locations/aesthetic-clinic-cheshunt' },
+                { name: 'Harlow', path: '/locations/aesthetic-clinic-harlow' },
+                { name: "Bishop's Stortford", path: '/locations/aesthetic-clinic-bishops-stortford' },
+                { name: 'Welwyn Garden City', path: '/locations/aesthetic-clinic-welwyn-garden-city' },
+                { name: 'Stevenage', path: '/locations/aesthetic-clinic-stevenage' },
+                { name: 'Sawbridgeworth', path: '/locations/aesthetic-clinic-sawbridgeworth' },
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link
+                    to={item.path}
+                    onClick={closeDropdown}
+                    className="hover:bg-secondary/20 hover:text-primary rounded-lg py-3 px-4 active:bg-secondary/30"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -550,7 +587,7 @@ export default function Navbar() {
 
                     {/* STRUCTURAL TREATMENTS */}
                     <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Structural Treatments</li>
-                    <li><Link to="/treatments/structural-collagen-support/anti-wrinkle-injections" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Anti-Wrinkle Injections</Link></li>
+                    <li><Link to="/treatments/structural-collagen-support/anti-wrinkle-injection" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Anti-Wrinkle Injections</Link></li>
                     <li><Link to="/treatments/structural-collagen-support/dermal-fillers" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Dermal Fillers</Link></li>
                     <li><Link to="/treatments/structural-collagen-support/jawline-sculpting" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Jawline Sculpting</Link></li>
                     <li><Link to="/treatments/structural-collagen-support/thread-lifts" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Thread Lifts</Link></li>
@@ -802,6 +839,45 @@ export default function Navbar() {
                         Blog
                       </Link>
                     </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details open={activeMobileMenu === 'locations'}>
+                  <summary
+                    className="font-medium text-lg py-3 text-base-content/90 font-sans"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setActiveMobileMenu(
+                        activeMobileMenu === 'locations' ? null : 'locations',
+                      );
+                    }}
+                  >
+                    Locations
+                  </summary>
+                  <ul className="pl-4 border-l-2 border-secondary/20 mt-2 space-y-1">
+                    {[
+                      { name: 'Hertfordshire', path: '/locations/aesthetic-clinic-hertfordshire' },
+                      { name: 'Hoddesdon', path: '/locations/aesthetic-clinic-hoddesdon' },
+                      { name: 'Hertford', path: '/locations/aesthetic-clinic-hertford' },
+                      { name: 'Broxbourne', path: '/locations/aesthetic-clinic-broxbourne' },
+                      { name: 'Cheshunt', path: '/locations/aesthetic-clinic-cheshunt' },
+                      { name: 'Harlow', path: '/locations/aesthetic-clinic-harlow' },
+                      { name: "Bishop's Stortford", path: '/locations/aesthetic-clinic-bishops-stortford' },
+                      { name: 'Welwyn Garden City', path: '/locations/aesthetic-clinic-welwyn-garden-city' },
+                      { name: 'Stevenage', path: '/locations/aesthetic-clinic-stevenage' },
+                      { name: 'Sawbridgeworth', path: '/locations/aesthetic-clinic-sawbridgeworth' },
+                    ].map((item) => (
+                      <li key={item.name}>
+                        <Link
+                          to={item.path}
+                          onClick={() => setIsDrawerOpen(false)}
+                          className="py-2 active:bg-secondary/20"
+                        >
+                          {item.name}
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 </details>
               </li>

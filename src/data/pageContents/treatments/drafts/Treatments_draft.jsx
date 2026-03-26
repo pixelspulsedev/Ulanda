@@ -37,7 +37,7 @@ const injectableLinks = [
 ];
 
 const structuralLinks = [
-  { title: 'Anti-Wrinkle Injections', to: '/treatments/structural-collagen-support/anti-wrinkle' },
+  { title: 'Anti-Wrinkle Injections', to: '/treatments/structural-collagen-support/anti-wrinkle-injection' },
   { title: 'Dermal Fillers', to: '/treatments/structural-collagen-support/dermal-fillers' },
   { title: 'Jawline Sculpting', to: '/treatments/structural-collagen-support/jawline-sculpting' },
   { title: 'Biostimulators', to: '/treatments/structural-collagen-support/biostimulators' },

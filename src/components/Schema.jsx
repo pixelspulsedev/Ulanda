@@ -1,10 +1,16 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
 /**
  * Site-wide LocalBusiness/MedicalBusiness Schema
  * Implements as per ULANDA SEO requirements - added once site-wide
+ * Skipped on homepage where a merged JSON-LD block is used instead
  */
 export const LocalBusinessSchema = () => {
+  const { pathname } = useLocation();
+  // Homepage has its own merged @graph schema — skip site-wide schema there
+  if (pathname === '/') return null;
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",

@@ -129,7 +129,12 @@
     },
     {
       "source": "/treatments/radiate/structural-lifting/anti-wrinkle",
-      "destination": "/treatments/structural-collagen-support/anti-wrinkle",
+      "destination": "/treatments/structural-collagen-support/anti-wrinkle-injection",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/structural-collagen-support/anti-wrinkle",
+      "destination": "/treatments/structural-collagen-support/anti-wrinkle-injection",
       "permanent": true
     },
     {

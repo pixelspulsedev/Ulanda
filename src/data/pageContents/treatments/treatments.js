@@ -4681,8 +4681,8 @@ export const treatments = {
               ]
             }
           },
-          "anti-wrinkle": {
-            "id": "anti-wrinkle",
+          "anti-wrinkle-injection": {
+            "id": "anti-wrinkle-injection",
             "booking": {
               "starting": true,
               "price": 180,

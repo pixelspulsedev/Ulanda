@@ -16,6 +16,7 @@ const Treatment = lazy(() => import('./data/pageContents/treatments/drafts/Treat
 // Dedicated barrier protocol pages
 const AdvancedSkinHealthConsultation = lazy(() => import('./pages/AdvancedSkinHealthConsultation.jsx'))
 const SkinBarrierRenewalProtocol = lazy(() => import('./pages/SkinBarrierRenewalProtocol.jsx'))
+const MedicalAestheticsClinic = lazy(() => import('./pages/MedicalAestheticsClinic.jsx'))
 const ObagiMedical = lazy(() => import('./pages/ObagiMedical.jsx'))
 const PrescriptionSkincare = lazy(() => import('./pages/PrescriptionSkincare.jsx'))
 const ObagiPrescriptionSkincare = lazy(() => import('./pages/ObagiPrescriptionSkincare.jsx'))
@@ -98,6 +99,10 @@ const routes = [
       {
         path: 'treatments/skin-barrier-renewal-protocol',
         element: <SkinBarrierRenewalProtocol />,
+      },
+      {
+        path: 'treatments/medical-aesthetics-clinic',
+        element: <MedicalAestheticsClinic />,
       },
       {
         path: 'treatments/prescription-skincare',

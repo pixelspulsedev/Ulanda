@@ -8798,7 +8798,7 @@ export const blogs = [
     heroImage: "/assets/img/treatments/correct/anti-wrinkle.webp",
     category: "Consultation",
     relatedTreatments: [
-      "anti-wrinkle-injections",
+      "anti-wrinkle-injection",
       "dermal-fillers",
       "profhilo",
       "biorepeel",
@@ -9431,7 +9431,7 @@ export const blogs = [
     heroImage: "/assets/img/treatments/renew/skin-consultation.webp",
     category: "Consultation",
     relatedTreatments: [
-      "anti-wrinkle-injections",
+      "anti-wrinkle-injection",
       "dermal-fillers",
       "profhilo",
       "biorepeel",

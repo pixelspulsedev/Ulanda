@@ -6399,7 +6399,7 @@ export const treatments = [
     }
   },
   {
-    id: 'anti-wrinkle',
+    id: 'anti-wrinkle-injection',
     booking: {
       price: 180,
       duration: 45,
