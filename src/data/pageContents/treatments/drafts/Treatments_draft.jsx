@@ -56,7 +56,7 @@ const conditionLinks = [
 ];
 
 const programmeLinks = [
-  { title: 'Skin Barrier Repair & Recovery', to: '/signature/skin-barrier-repair-recovery' },
+  { title: 'Skin Barrier Repair & Resilience', to: '/signature/skin-barrier-repair-recovery' },
   { title: 'Rosacea & Redness Control', to: '/signature/rosacea-redness-control' },
   { title: 'Menopause Skin Rebuild', to: '/signature/menopause-skin-rebuild' },
   { title: 'Photoaging Skin Architecture', to: '/signature/photoaging-skin-architecture' },

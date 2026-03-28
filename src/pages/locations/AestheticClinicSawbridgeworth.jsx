@@ -115,7 +115,7 @@ const skinConcerns = [
 ];
 
 const signatureProgrammes = [
-  { name: 'Skin Barrier Repair & Recovery', path: '/signature/skin-barrier-repair-recovery', description: 'For skin requiring foundational barrier restoration before more active treatments can be safely introduced.' },
+  { name: 'Skin Barrier Repair & Resilience', path: '/signature/skin-barrier-repair-recovery', description: 'For skin requiring foundational barrier restoration before more active treatments can be safely introduced.' },
   { name: 'Rosacea & Redness Control', path: '/signature/rosacea-redness-control', description: 'For chronic inflammatory redness, vascular reactivity and rosacea-spectrum presentations.' },
   { name: 'Menopause Skin Rebuild', path: '/signature/menopause-skin-rebuild', description: 'For skin navigating barrier thinning, collagen decline and the changes of hormonal transition.' },
   { name: 'Photoaging & Skin Architecture', path: '/signature/photoaging-skin-architecture', description: 'For cumulative UV damage, pigmentation irregularity and early architectural change.' },

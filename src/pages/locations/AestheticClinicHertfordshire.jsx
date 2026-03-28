@@ -107,7 +107,7 @@ const concerns = [
 ];
 
 const signatureProgrammes = [
-  { name: 'Skin Barrier Repair & Recovery', path: '/signature/skin-barrier-repair-recovery' },
+  { name: 'Skin Barrier Repair & Resilience', path: '/signature/skin-barrier-repair-recovery' },
   { name: 'Rosacea & Redness Control', path: '/signature/rosacea-redness-control' },
   { name: 'Menopause Skin Rebuild', path: '/signature/menopause-skin-rebuild' },
   { name: 'Photoaging & Skin Architecture', path: '/signature/photoaging-skin-architecture' },

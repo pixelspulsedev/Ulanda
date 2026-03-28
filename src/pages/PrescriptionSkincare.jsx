@@ -133,7 +133,7 @@ const prescriptionSchemas = {
 
 const signatureProgrammes = [
   {
-    name: 'Skin Barrier Repair & Recovery',
+    name: 'Skin Barrier Repair & Resilience',
     path: '/signature/skin-barrier-repair-recovery',
     homecare: 'Prescription homecare: barrier-compatible hydration and gentle barrier-supportive systems during stabilisation phase. Transition to active systems once barrier integrity is confirmed.',
   },

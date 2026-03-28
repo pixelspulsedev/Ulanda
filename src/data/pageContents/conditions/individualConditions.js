@@ -147,7 +147,7 @@ export const individualConditions = [
     hero: {
       title: "Enlarged",
       highlight: "Pores",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
         "Visible pores are natural, but when they stretch or become clogged, they can make the skin look tired, uneven and less youthful.",
         "Pores often enlarge due to a loss of collagen (laxity), excess oil production, or sun damage.",
@@ -210,10 +210,10 @@ export const individualConditions = [
       highlight: "Enlarged Pores",
       titleSuffix: "Treatment at ULANDA?",
       items: [
-        "Nurse-Led Safety — Expert assessment of your skin's structure.",
-        "Collagen-First Approach — We treat the cause (loss of elasticity), not just the symptom.",
-        "Advanced Technology — Combining microneedling and regenerative medicine for results.",
-        "Long-Term Refinement — Smoother, tighter skin that lasts."
+        "Nurse-Led Safety â€” Expert assessment of your skin's structure.",
+        "Collagen-First Approach â€” We treat the cause (loss of elasticity), not just the symptom.",
+        "Advanced Technology â€” Combining microneedling and regenerative medicine for results.",
+        "Long-Term Refinement â€” Smoother, tighter skin that lasts."
       ],
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
@@ -241,7 +241,7 @@ export const individualConditions = [
         },
         {
           question: "Is there downtime?",
-          answer: "Microneedling may cause 24–48 hours of redness, while peels like BioRePeel have zero social downtime."
+          answer: "Microneedling may cause 24â€“48 hours of redness, while peels like BioRePeel have zero social downtime."
         },
         {
           question: "Why do my pores look bigger as I age?",
@@ -632,7 +632,7 @@ export const individualConditions = [
     hero: {
       title: "Uneven Texture /",
       highlight: "Rough Skin",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
         "Rough, bumpy or sandpaper-like skin is a sign that your natural exfoliation process has slowed down.",
         "Instead of shedding effectively, dead cells accumulate on the surface, trapping congestion and creating a dull, uneven appearance.",
@@ -703,10 +703,10 @@ export const individualConditions = [
       highlight: "Uneven Skin Texture",
       titleSuffix: "Treatment at ULANDA?",
       items: [
-        "Nurse-Led Safety — All treatments are performed by a medical professional.",
-        "No Aggressive Scrubbing — We use science-backed resurfacing, not abrasion.",
-        "Barrier-First Approach — We smooth the skin without stripping its natural protection.",
-        "Long-Term Results — We focus on retraining your skin's renewal cycle."
+        "Nurse-Led Safety â€” All treatments are performed by a medical professional.",
+        "No Aggressive Scrubbing â€” We use science-backed resurfacing, not abrasion.",
+        "Barrier-First Approach â€” We smooth the skin without stripping its natural protection.",
+        "Long-Term Results â€” We focus on retraining your skin's renewal cycle."
       ],
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
@@ -743,7 +743,7 @@ export const individualConditions = [
         },
         {
           question: "Can I wear makeup after treatment?",
-          answer: "For most surface treatments like enzymes or mild peels, yes — usually the next day. For Microneedling, we recommend waiting 24-48 hours to minimize infection risk and let the channels close."
+          answer: "For most surface treatments like enzymes or mild peels, yes â€” usually the next day. For Microneedling, we recommend waiting 24-48 hours to minimize infection risk and let the channels close."
         },
         {
           question: "What causes uneven skin texture?",
@@ -901,7 +901,7 @@ export const individualConditions = [
     hero: {
       title: "Body Skin Laxity /",
       highlight: "Loose Skin",
-      description: "Body skin laxity refers to the gradual loosening of skin firmness and elasticity, often seen across the abdomen, arms, thighs, knees, neck or décolletage. Many clients describe this as \"crepey skin,\" sagging, or skin that no longer feels tight and supported — even when they are fit and healthy.",
+      description: "Body skin laxity refers to the gradual loosening of skin firmness and elasticity, often seen across the abdomen, arms, thighs, knees, neck or dÃ©colletage. Many clients describe this as \"crepey skin,\" sagging, or skin that no longer feels tight and supported â€” even when they are fit and healthy.",
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
       image: "https://plus.unsplash.com/premium_photo-1753028375570-2fc611309aff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMFNraW4lMjBMYXhpdHl8ZW58MHwxfDB8fHww",
@@ -909,8 +909,8 @@ export const individualConditions = [
     },
     intro: {
       title: "Loss of Firmness & Elasticity",
-      text: "Many clients describe this as \"crepey skin,\" sagging, or skin that no longer feels tight and supported — even when they are fit and healthy.",
-      consultationText: "At ULANDA, body laxity is treated as a structural skin health concern, not a surface texture issue. Loose skin reflects changes in collagen, elastin, hydration retention and skin thickness over time. Your Advanced Skin Health Consultation helps us assess the cause of laxity, whether it is linked to weight changes, pregnancy, menopause, ageing, sun damage or reduced collagen production — so your plan is safe, sequenced and designed for long-term tightening and regeneration."
+      text: "Many clients describe this as \"crepey skin,\" sagging, or skin that no longer feels tight and supported â€” even when they are fit and healthy.",
+      consultationText: "At ULANDA, body laxity is treated as a structural skin health concern, not a surface texture issue. Loose skin reflects changes in collagen, elastin, hydration retention and skin thickness over time. Your Advanced Skin Health Consultation helps us assess the cause of laxity, whether it is linked to weight changes, pregnancy, menopause, ageing, sun damage or reduced collagen production â€” so your plan is safe, sequenced and designed for long-term tightening and regeneration."
     },
     science: {
       title: "Scientific Drivers",
@@ -1008,7 +1008,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take to tighten loose skin?",
-        answer: "Most clients begin to notice improvements within 8–12 weeks, with progressive tightening over several months. Collagen regeneration is gradual, which is why programme-led treatment is the most effective approach."
+        answer: "Most clients begin to notice improvements within 8â€“12 weeks, with progressive tightening over several months. Collagen regeneration is gradual, which is why programme-led treatment is the most effective approach."
       },
       {
         question: "Does menopause make body skin laxity worse?",
@@ -1024,7 +1024,7 @@ export const individualConditions = [
       },
       {
         question: "Which areas respond best to tightening treatments?",
-        answer: "Many clients see improvement in the arms, abdomen, thighs, knees and décolletage. Results depend on skin thickness, age, hormonal influence and treatment consistency."
+        answer: "Many clients see improvement in the arms, abdomen, thighs, knees and dÃ©colletage. Results depend on skin thickness, age, hormonal influence and treatment consistency."
       },
       {
         question: "Can body skin laxity be linked to cellulite changes?",
@@ -1271,7 +1271,7 @@ export const individualConditions = [
       image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D"
     },
     intro: {
-      content: "At ULANDA, stretch marks are treated as a structural skin behaviour concern. They are not simply \"surface marks\" — they reflect collagen disruption within the dermis. Your Advanced Skin Health Consultation helps us assess the stage of your stretch marks, skin thickness, healing capacity and regeneration potential, so your plan is safe, sequenced and designed to improve skin texture, firmness and long-term resilience."
+      content: "At ULANDA, stretch marks are treated as a structural skin behaviour concern. They are not simply \"surface marks\" â€” they reflect collagen disruption within the dermis. Your Advanced Skin Health Consultation helps us assess the stage of your stretch marks, skin thickness, healing capacity and regeneration potential, so your plan is safe, sequenced and designed to improve skin texture, firmness and long-term resilience."
     },
     science: {
       title: "Scientific Drivers /",
@@ -1348,7 +1348,7 @@ export const individualConditions = [
     faqs: [
       { question: "What causes stretch marks (striae)?", answer: "Stretch marks occur when the skin stretches rapidly and collagen fibres within the dermis tear. This can happen during pregnancy, puberty, rapid weight change, muscle gain or hormonal shifts that affect skin elasticity." },
       { question: "Can stretch marks be improved without surgery?", answer: "Yes. Stretch marks can improve significantly through collagen stimulation treatments such as microneedling and structured regeneration programmes. While they may not disappear completely, they often become smoother, lighter and less visible." },
-      { question: "How long does it take to improve stretch marks?", answer: "Stretch mark improvement typically occurs over several months. Most clients begin to see visible changes after 8–12 weeks, with continued improvement as collagen regeneration develops." },
+      { question: "How long does it take to improve stretch marks?", answer: "Stretch mark improvement typically occurs over several months. Most clients begin to see visible changes after 8â€“12 weeks, with continued improvement as collagen regeneration develops." },
       { question: "Are new stretch marks easier to treat than older ones?", answer: "Yes. Red or purple stretch marks are often more responsive because they are newer and have more active healing potential. Older white stretch marks can still improve, but usually require longer sequencing and multiple treatment phases." },
       { question: "Can stretch marks appear even if I'm not overweight?", answer: "Yes. Stretch marks are not always linked to weight. They can occur due to pregnancy, hormonal change, genetics, puberty or rapid muscle growth, even in clients with a healthy body weight." },
       { question: "Does menopause make stretch marks or skin texture worse?", answer: "Menopause can reduce collagen production and skin thickness, which may make existing stretch marks more visible and slow skin repair. Regenerative support can improve skin resilience during this stage." },
@@ -1385,7 +1385,7 @@ export const individualConditions = [
     },
     intro: {
       title: "Persistent Dryness & Rough Texture",
-      text: "Many clients describe it as persistent dryness, rough patches, or tiny bumps that never fully clear — even with regular exfoliation.",
+      text: "Many clients describe it as persistent dryness, rough patches, or tiny bumps that never fully clear â€” even with regular exfoliation.",
       consultationText: "At ULANDA, keratosis pilaris is treated as a texture and barrier behaviour concern. KP occurs when keratin builds up and blocks hair follicles, creating raised bumps and roughness. It can also be worsened by dryness, sensitivity and inflammation, meaning harsh scrubs and aggressive treatments often make it worse. Your Advanced Skin Health Consultation helps us assess your KP pattern, inflammation risk and barrier stability so your plan is safe, sequenced and designed for long-term smoothness."
     },
     science: {
@@ -1454,7 +1454,7 @@ export const individualConditions = [
     },
     relatedTreatments: [
       { id: 'photoaging', label: 'Photoaging & Skin Architecture Programme' },
-      { id: 'skin-barrier', label: 'Skin Barrier Repair & Recovery' }
+      { id: 'skin-barrier', label: 'Skin Barrier Repair & Resilience' }
     ],
     whyChoose: {
       title: "Why Hertfordshire Women Choose ULANDA for Body Regeneration",
@@ -1478,7 +1478,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take to improve keratosis pilaris?",
-        answer: "Most clients begin to see improvement within 6–12 weeks with a structured plan. Long-term improvement usually requires consistent treatment sequencing and ongoing barrier support."
+        answer: "Most clients begin to see improvement within 6â€“12 weeks with a structured plan. Long-term improvement usually requires consistent treatment sequencing and ongoing barrier support."
       },
       {
         question: "Why do exfoliating scrubs make my KP worse?",
@@ -1632,7 +1632,7 @@ export const individualConditions = [
       items: [
         { question: "What causes dark pigmentation in underarms, knees and inner thighs?", answer: "Body pigmentation is often caused by friction, shaving irritation, inflammation, hormonal pigmentation behaviour and post-inflammatory marks. Areas like the inner thighs and underarms are especially prone to pigment activation due to rubbing and sensitivity." },
         { question: "Is body pigmentation always melasma or hormonal pigmentation?", answer: "Not always. While hormones can contribute, many cases are caused by inflammation from shaving, waxing, folliculitis, friction or skin barrier irritation. ULANDA assesses the dominant driver before treatment selection." },
-        { question: "How long does it take to lighten body pigmentation?", answer: "Most clients see improvement within 8–12 weeks depending on the depth of pigmentation and whether triggers such as friction or shaving irritation are controlled. Long-term stability often requires a structured programme approach." },
+        { question: "How long does it take to lighten body pigmentation?", answer: "Most clients see improvement within 8â€“12 weeks depending on the depth of pigmentation and whether triggers such as friction or shaving irritation are controlled. Long-term stability often requires a structured programme approach." },
         { question: "Can shaving make underarm pigmentation worse?", answer: "Yes. Shaving can trigger micro-inflammation and repeated irritation, which may cause post-inflammatory pigmentation over time. This is especially common in clients with sensitive or reactive skin behaviour." },
         { question: "Why do my inner thighs keep darkening even when I moisturise?", answer: "Moisturising alone may not stop pigment behaviour if friction, inflammation or barrier irritation continues. Inner thigh pigmentation often requires both treatment correction and trigger reduction." },
         { question: "Can body pigmentation be linked to acne or folliculitis?", answer: "Yes. Body breakouts, ingrown hairs and folliculitis can leave post-inflammatory pigmentation marks, especially on the bikini line, thighs and underarms. This is why inflammation control is part of pigmentation correction." },
@@ -1673,7 +1673,7 @@ export const individualConditions = [
     intro: {
       title: "Targeted Body Acne Treatments",
       text: "Persistent breakouts often reflect underlying inflammation, barrier disruption, congestion behaviour or hormonal triggers.",
-      consultationText: "At ULANDA, body acne is treated as a skin behaviour concern, not simply a hygiene issue. Persistent breakouts often reflect underlying inflammation, barrier disruption, congestion behaviour or hormonal triggers. Your Advanced Skin Health Consultation helps us identify what is driving your body acne so your plan is safe, sequenced and designed for long-term clarity — not temporary flare control."
+      consultationText: "At ULANDA, body acne is treated as a skin behaviour concern, not simply a hygiene issue. Persistent breakouts often reflect underlying inflammation, barrier disruption, congestion behaviour or hormonal triggers. Your Advanced Skin Health Consultation helps us identify what is driving your body acne so your plan is safe, sequenced and designed for long-term clarity â€” not temporary flare control."
     },
     science: {
       title: "Common Triggers & Drivers -",
@@ -1715,7 +1715,7 @@ export const individualConditions = [
       },
       {
         id: 'skin-recovery',
-        title: 'Skin Barrier Repair & Recovery',
+        title: 'Skin Barrier Repair & Resilience',
         description: 'Secondary Pathway (if inflammated/reactive)'
       },
       {
@@ -1773,7 +1773,7 @@ export const individualConditions = [
       items: [
         { question: "What causes body acne on the back and chest?", answer: "Body acne is commonly caused by blocked follicles, excess oil production, sweat build-up, friction from clothing, inflammation patterns and hormonal triggers. Many clients experience recurring breakouts due to ongoing congestion and skin irritation." },
         { question: "Is body acne the same as facial acne?", answer: "Not always. Body skin is thicker and more prone to sweat and friction-related inflammation. Body acne can also overlap with folliculitis, which may require a different treatment approach." },
-        { question: "How long does it take to clear body acne?", answer: "Many clients see improvement within 6–12 weeks depending on severity, lifestyle triggers and inflammation behaviour. Long-term clarity usually requires structured treatment sequencing and supportive homecare." },
+        { question: "How long does it take to clear body acne?", answer: "Many clients see improvement within 6â€“12 weeks depending on severity, lifestyle triggers and inflammation behaviour. Long-term clarity usually requires structured treatment sequencing and supportive homecare." },
         { question: "Why do I get back acne even though I shower daily?", answer: "Body acne is not always caused by hygiene. Sweat, tight clothing, hormonal changes and inflammation can cause breakouts even with good cleansing habits. Some clients also use products that clog follicles or irritate the barrier." },
         { question: "Can gym wear and sweating worsen body acne?", answer: "Yes. Tight clothing traps sweat and heat, increasing follicle blockage and inflammation. This is a common trigger for back and shoulder acne, especially when sweat remains on the skin after exercise." },
         { question: "Can body acne leave dark marks or pigmentation?", answer: "Yes. Post-inflammatory pigmentation is common after body acne, particularly on the back and chest. Structured acne treatment often includes tone correction and skin renewal once inflammation is controlled." },
@@ -1810,7 +1810,7 @@ export const individualConditions = [
       image: "/assets/img/conditions/Ulanda skin condition screpey under eye (1) resized.jpg"
     },
     intro: {
-      content: "At ULANDA, under-eye lines are treated as a regeneration and barrier behaviour concern. The eye area is delicate and often over-treated with harsh actives or unsuitable procedures. Your Advanced Skin Health Consultation includes dedicated under-eye assessment to determine whether your lines are driven by dehydration, collagen loss, skin thinning, structural hollows or inflammation — so your plan is safe, sequenced and designed for long-term improvement."
+      content: "At ULANDA, under-eye lines are treated as a regeneration and barrier behaviour concern. The eye area is delicate and often over-treated with harsh actives or unsuitable procedures. Your Advanced Skin Health Consultation includes dedicated under-eye assessment to determine whether your lines are driven by dehydration, collagen loss, skin thinning, structural hollows or inflammation â€” so your plan is safe, sequenced and designed for long-term improvement."
     },
     science: {
       title: "Scientific Drivers /",
@@ -1889,7 +1889,7 @@ export const individualConditions = [
     faqs: [
       { question: "What causes fine lines and creasing under the eyes?", answer: "Under-eye fine lines are most commonly caused by dehydration, collagen decline, skin thinning and repetitive facial movement. The eye area is naturally delicate, so changes often appear earlier here than elsewhere on the face." },
       { question: "Are under-eye lines always a sign of ageing?", answer: "Not always. Under-eye creasing can appear at any age due to dehydration, barrier weakness or lifestyle stress. However, collagen decline and tissue thinning do increase with age, which can make lines more visible over time." },
-      { question: "How long does it take to improve under-eye fine lines?", answer: "Many clients notice improvement within 6–12 weeks when hydration and collagen support are introduced correctly. Long-term improvement is strongest when treatments are sequenced safely and supported by suitable homecare." },
+      { question: "How long does it take to improve under-eye fine lines?", answer: "Many clients notice improvement within 6â€“12 weeks when hydration and collagen support are introduced correctly. Long-term improvement is strongest when treatments are sequenced safely and supported by suitable homecare." },
       { question: "Why does my concealer crease under my eyes?", answer: "Creasing often occurs when the under-eye skin is dehydrated, textured or lacking elasticity. Improving hydration retention and under-eye smoothness usually improves makeup performance as well." },
       { question: "Can dehydration cause under-eye wrinkles?", answer: "Yes. Dehydration makes fine lines appear deeper because the skin loses plumpness. Many early under-eye lines soften significantly once hydration and barrier stability are restored." },
       { question: "Do under-eye fine lines get worse during menopause?", answer: "Yes. Menopause can accelerate collagen decline and reduce skin thickness, making under-eye creasing more noticeable. Many women see rapid changes during perimenopause and menopause due to reduced skin recovery capacity." },
@@ -2003,7 +2003,7 @@ export const individualConditions = [
     faqs: [
       { question: "What causes dark circles under the eyes?", answer: "Dark circles can be caused by pigmentation, vascular visibility (blue/purple tone), under-eye hollows, thin skin, dehydration, inflammation, allergies or lifestyle stress. Most clients have more than one contributing factor, which is why structured assessment is important." },
       { question: "Are dark circles always caused by lack of sleep?", answer: "Not always. While fatigue can worsen under-eye appearance, dark circles are often structural or pigment-driven. Even clients with good sleep can have dark circles due to genetics, collagen thinning or vascular visibility." },
-      { question: "How long does it take to improve dark circles?", answer: "Improvement depends on the cause. Some clients notice visible changes within 6–12 weeks, but deeper under-eye regeneration may take longer. Results are strongest when treatments are sequenced and supported by correct homecare." },
+      { question: "How long does it take to improve dark circles?", answer: "Improvement depends on the cause. Some clients notice visible changes within 6â€“12 weeks, but deeper under-eye regeneration may take longer. Results are strongest when treatments are sequenced and supported by correct homecare." },
       { question: "What is the difference between pigmented and vascular dark circles?", answer: "Pigmented dark circles appear brown and are caused by melanin activity. Vascular dark circles appear blue or purple and are caused by visible blood vessels beneath thin under-eye skin. ULANDA assesses which type is dominant before treatment selection." },
       { question: "Can allergies or rubbing my eyes make dark circles worse?", answer: "Yes. Chronic rubbing and inflammation can trigger pigmentation and worsen vascular visibility. Allergy-driven under-eye irritation is a common cause of worsening darkness over time." },
       { question: "Can dehydration make dark circles look worse?", answer: "Yes. Dehydration makes under-eye skin look thinner, creasier and more shadowed. Hydration rebuilding is often one of the first steps in improving under-eye brightness and texture." },
@@ -2033,7 +2033,7 @@ export const individualConditions = [
       title: "Under-Eye Hollows /",
       highlight: "Tear Trough Shadowing",
       subtitle: "Tear Trough Shadowing",
-      description: "Under-eye hollows, often referred to as tear trough shadowing, occur when volume loss or structural changes beneath the eyes create a sunken appearance. This can make the face look tired, drawn or older — even when you feel well-rested. Many clients describe this concern as \"darkness,\" but in reality, the darkness is often a shadow created by structure rather than pigmentation alone.",
+      description: "Under-eye hollows, often referred to as tear trough shadowing, occur when volume loss or structural changes beneath the eyes create a sunken appearance. This can make the face look tired, drawn or older â€” even when you feel well-rested. Many clients describe this concern as \"darkness,\" but in reality, the darkness is often a shadow created by structure rather than pigmentation alone.",
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
       image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVuZGVyJTIwZXllJTIwaG9sbG93c3xlbnwwfHwwfHx8MA%3D%3D"
@@ -2117,7 +2117,7 @@ export const individualConditions = [
     faqs: [
       { question: "What causes under-eye hollows and tear trough shadowing?", answer: "Under-eye hollows are usually caused by natural volume loss, collagen decline and structural changes around the orbital area. This creates a sunken contour that produces shadowing, often mistaken for pigmentation." },
       { question: "Are under-eye hollows the same as dark circles?", answer: "Not always. Dark circles can be pigment-based or vascular (blue/purple), while hollows create shadowing due to structure. Many clients experience both, which is why assessment is essential before choosing treatments." },
-      { question: "How long does it take to improve tear trough shadowing?", answer: "Improvement depends on the cause and the chosen pathway. Most clients begin to see visible changes within 6–12 weeks with structured collagen support and under-eye regeneration planning." },
+      { question: "How long does it take to improve tear trough shadowing?", answer: "Improvement depends on the cause and the chosen pathway. Most clients begin to see visible changes within 6â€“12 weeks with structured collagen support and under-eye regeneration planning." },
       { question: "Why do my under-eyes look hollow even when I sleep well?", answer: "Sleep can influence puffiness, but hollows are usually structural. Genetics, collagen thinning and natural facial volume changes can create a tired appearance even in well-rested clients." },
       { question: "Can dehydration make under-eye hollows look worse?", answer: "Yes. Dehydration reduces skin plumpness and increases the appearance of creasing and shadowing. Hydration rebuilding is often part of the under-eye regeneration plan." },
       { question: "Can tear trough hollows get worse during menopause?", answer: "Yes. Menopause-related collagen decline and skin thinning can make hollows more visible. Many women notice under-eye changes accelerate during perimenopause and menopause." },
@@ -2181,7 +2181,7 @@ export const individualConditions = [
           description: "rubbing or allergy-driven sensitivity"
         }
       ],
-      footer: "Primary Recommended Programme Pathway: Under-Eye Regeneration Blueprint (Secondary: Skin Barrier Repair & Recovery if barrier breakdown dominates)"
+      footer: "Primary Recommended Programme Pathway: Under-Eye Regeneration Blueprint (Secondary: Skin Barrier Repair & Resilience if barrier breakdown dominates)"
     },
     treatmentModel: {
       title: "Recommended Treatments",
@@ -2232,7 +2232,7 @@ export const individualConditions = [
     faqs: [
       { question: "What causes thin under-eye skin and fragility?", answer: "Thin under-eye skin is often caused by collagen decline, dehydration, hormonal changes and reduced tissue support with age. The under-eye area naturally has less structural strength, so fragility often becomes more noticeable over time." },
       { question: "Why does my under-eye area look more translucent or bluish?", answer: "When under-eye skin becomes thinner, blood vessels underneath become more visible, creating a blue or purple tone. This is common in vascular dark circles and in clients with reduced collagen thickness." },
-      { question: "How long does it take to strengthen fragile under-eye skin?", answer: "Under-eye regeneration is gradual. Many clients notice improvement within 6–12 weeks, but building long-term tissue resilience often takes several months depending on severity, age and hormonal influence." },
+      { question: "How long does it take to strengthen fragile under-eye skin?", answer: "Under-eye regeneration is gradual. Many clients notice improvement within 6â€“12 weeks, but building long-term tissue resilience often takes several months depending on severity, age and hormonal influence." },
       { question: "Can menopause cause thinning under-eye skin?", answer: "Yes. Menopause accelerates collagen decline and reduces skin thickness, making the under-eye area more fragile and prone to creasing, hollows and vascular visibility." },
       { question: "Can overusing retinol or acids damage the under-eye area?", answer: "Yes. Strong actives used too frequently can disrupt the barrier and worsen under-eye dryness, irritation and thinning appearance. Under-eye skin requires gentler, controlled product selection." },
       { question: "Why does my under-eye area sting when I apply skincare?", answer: "Stinging often indicates barrier disruption or active inflammation. Fragile under-eye skin becomes more reactive when the barrier is compromised, which is why ULANDA focuses on stabilisation and repair before introducing corrective stimulation." },
@@ -2262,7 +2262,7 @@ export const individualConditions = [
       title: "Puffy Under-Eyes /",
       highlight: "Fluid Retention",
       subtitle: "Fluid Retention / Swelling",
-      description: "Puffy under-eyes are a common concern that can make the face look tired, swollen or heavier around the eye area — even when you feel well-rested. Some clients experience puffiness only in the morning, while others notice persistent under-eye swelling that fluctuates depending on sleep, stress, hormones, diet or inflammation.",
+      description: "Puffy under-eyes are a common concern that can make the face look tired, swollen or heavier around the eye area â€” even when you feel well-rested. Some clients experience puffiness only in the morning, while others notice persistent under-eye swelling that fluctuates depending on sleep, stress, hormones, diet or inflammation.",
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
       image: "/assets/img/conditions/ulanda skin conditions puffy under eye (1) resized.jpg"
@@ -2346,7 +2346,7 @@ export const individualConditions = [
     faqs: [
       { question: "What causes puffy under-eyes and fluid retention?", answer: "Puffy under-eyes are often caused by fluid retention, lymphatic congestion, inflammation, allergies, poor sleep quality or dehydration. Some clients also experience puffiness due to hormonal fluctuation or systemic inflammation patterns." },
       { question: "Why are my under-eyes puffy in the morning but better later in the day?", answer: "Morning puffiness is often linked to overnight fluid pooling and reduced lymphatic drainage while lying down. This can be worsened by salt intake, alcohol, dehydration, poor sleep quality or sinus congestion." },
-      { question: "How long does it take to reduce under-eye puffiness?", answer: "Some clients see immediate improvement after lymphatic and hydration-based treatments, but long-term reduction often takes 6–12 weeks depending on whether the cause is lifestyle-driven, hormonal or inflammation-based." },
+      { question: "How long does it take to reduce under-eye puffiness?", answer: "Some clients see immediate improvement after lymphatic and hydration-based treatments, but long-term reduction often takes 6â€“12 weeks depending on whether the cause is lifestyle-driven, hormonal or inflammation-based." },
       { question: "Can dehydration cause under-eye puffiness?", answer: "Yes. Dehydration can cause the body to hold onto fluid, leading to puffiness. It can also worsen under-eye skin texture and make swelling appear more pronounced." },
       { question: "Are puffy under-eyes linked to allergies or sinus congestion?", answer: "Very often. Allergies can trigger inflammation and fluid retention around the eyes. Chronic eye rubbing can also worsen puffiness and contribute to pigmentation over time." },
       { question: "Can menopause or hormonal change increase under-eye puffiness?", answer: "Yes. Hormonal transition can affect circulation, fluid balance and inflammation behaviour. Many women notice increased puffiness and heaviness around the eyes during perimenopause and menopause." },
@@ -2494,11 +2494,11 @@ export const individualConditions = [
     hero: {
       title: "Hormonal",
       highlight: "Breakouts",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
         "Period spots, chin congestion and deep, tender bumps are classic signs of hormonal acne.",
         "This type of breakout is driven by internal fluctuations (perimenopause, cycle changes, stress) that increase oil thickness and inflammation deep within the pore.",
-        "At ULANDA, we stop the cycle of 'breakout-react-scar'. We treat the root cause by calming inflammation, repairing the barrier and regulating skin function — without harsh stripping."
+        "At ULANDA, we stop the cycle of 'breakout-react-scar'. We treat the root cause by calming inflammation, repairing the barrier and regulating skin function â€” without harsh stripping."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
@@ -2557,10 +2557,10 @@ export const individualConditions = [
       highlight: "Treat Hormonal Acne",
       titleSuffix: "at ULANDA?",
       items: [
-        "Nurse-Led Understanding — We understand the link between hormones and skin.",
-        "No Aggressive Stripping — We treat inflammation with kindness, not harsh chemicals.",
-        "Scar Prevention — Our protocols are designed to clear acne while preventing marks.",
-        "Long-Term Control — We help you manage your skin through hormonal changes."
+        "Nurse-Led Understanding â€” We understand the link between hormones and skin.",
+        "No Aggressive Stripping â€” We treat inflammation with kindness, not harsh chemicals.",
+        "Scar Prevention â€” Our protocols are designed to clear acne while preventing marks.",
+        "Long-Term Control â€” We help you manage your skin through hormonal changes."
       ],
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
@@ -3328,7 +3328,7 @@ export const individualConditions = [
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     },
     intro: {
-      content: "At ULANDA, we treat pigmentation as a skin behaviour pattern — meaning we assess what is triggering pigment production, whether inflammation is present, and how stable your skin barrier is before introducing corrective treatments. This ensures pigmentation correction is safe, structured and designed for long-term clarity."
+      content: "At ULANDA, we treat pigmentation as a skin behaviour pattern â€” meaning we assess what is triggering pigment production, whether inflammation is present, and how stable your skin barrier is before introducing corrective treatments. This ensures pigmentation correction is safe, structured and designed for long-term clarity."
     },
     science: {
       title: "Scientific Drivers /",
@@ -3408,7 +3408,7 @@ export const individualConditions = [
       { question: "What is the difference between freckles, sun spots and hyperpigmentation?", answer: "Freckles are often genetic and sun-reactive, sun spots are typically UV-driven over time, and hyperpigmentation is a broader term that includes post-acne marks, hormonal pigmentation and inflammation-driven dark patches." },
       { question: "Can dark spots worsen with age?", answer: "Yes. Cumulative sun exposure and slower skin renewal can make pigmentation more visible as you age. Many clients notice dark spots increasing in their 30s, 40s and beyond." },
       { question: "Are chemical peels effective for dark spots?", answer: "Yes, when chosen correctly. Peels can help lift superficial pigmentation and improve tone, but they must be introduced carefully if the skin is sensitive or inflamed." },
-      { question: "How long does it take to reduce hyperpigmentation?", answer: "Most clients see improvement over 6–12 weeks depending on depth, trigger control and consistency. Deeper pigmentation may take longer and often requires structured sequencing." },
+      { question: "How long does it take to reduce hyperpigmentation?", answer: "Most clients see improvement over 6â€“12 weeks depending on depth, trigger control and consistency. Deeper pigmentation may take longer and often requires structured sequencing." },
       { question: "Is hyperpigmentation linked to melasma patterns?", answer: "Sometimes. Some dark patches are actually melasma, which behaves differently and can flare easily. ULANDA assesses whether pigmentation is sun-driven, inflammation-driven or hormonally reactive." },
       { question: "Can sun damage and photo-pigmentation be mistaken for dark spots?", answer: "Yes. Photo-pigmentation often appears as scattered tone changes and can blend with dark spots. Treatment sequencing may differ depending on whether the pigmentation is UV-driven or inflammation-based." },
       { question: "Can post-acne pigmentation (PIH) be treated the same way as dark spots?", answer: "Not always. PIH is inflammation-linked and often requires calming and barrier stabilisation alongside tone correction. ULANDA treats PIH with a structured approach to prevent recurrence." },
@@ -3434,13 +3434,13 @@ export const individualConditions = [
       title: "Melasma",
       highlight: "(Hormonal Pigmentation)",
       subtitle: "Hormonal Pigmentation",
-      description: "Melasma is a complex and often stubborn form of pigmentation that commonly appears as symmetrical patches of brown or grey-brown discolouration across the cheeks, forehead, upper lip or jawline. Many women notice melasma develop or worsen during pregnancy, postpartum recovery, perimenopause or menopause — and it can become increasingly reactive to heat, sun exposure and inflammation.",
+      description: "Melasma is a complex and often stubborn form of pigmentation that commonly appears as symmetrical patches of brown or grey-brown discolouration across the cheeks, forehead, upper lip or jawline. Many women notice melasma develop or worsen during pregnancy, postpartum recovery, perimenopause or menopause â€” and it can become increasingly reactive to heat, sun exposure and inflammation.",
       image: "https://plus.unsplash.com/premium_photo-1664203068076-c95b2d3054a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYXNtYXxlbnwwfDF8MHx8fDA%3D",
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     },
     intro: {
-      content: "At ULANDA, melasma is treated as a long-term skin behaviour pattern, not a quick \"dark spot\" issue. Your Skin Behaviour Consultation helps us assess pigment triggers, barrier stability, inflammation patterns and your risk of rebound pigmentation — so your plan is safe, structured and designed for long-term tone stability."
+      content: "At ULANDA, melasma is treated as a long-term skin behaviour pattern, not a quick \"dark spot\" issue. Your Skin Behaviour Consultation helps us assess pigment triggers, barrier stability, inflammation patterns and your risk of rebound pigmentation â€” so your plan is safe, structured and designed for long-term tone stability."
     },
     science: {
       title: "Scientific Drivers /",
@@ -3520,7 +3520,7 @@ export const individualConditions = [
       { question: "Can heat make melasma worse even without sun exposure?", answer: "Yes. Heat is a key melasma trigger. Saunas, steam exposure, intense exercise heat, and over-stimulating treatments can worsen pigment behaviour even if you avoid the sun." },
       { question: "Are chemical peels safe for melasma?", answer: "They can be helpful, but melasma requires careful peel selection and sequencing. Aggressive peels can inflame the skin and trigger rebound pigmentation. ULANDA introduces pigment correction only when barrier stability is strong." },
       { question: "Can over-exfoliation make melasma darker?", answer: "Yes. Over-exfoliation increases inflammation and barrier disruption, which can activate melanin production. Many clients worsen melasma by trying to \"scrub\" pigmentation away." },
-      { question: "How long does melasma correction take?", answer: "Melasma improvement typically takes 8–12 weeks and beyond. Stable fading requires consistency and ongoing prevention, especially with UV protection and barrier support." },
+      { question: "How long does melasma correction take?", answer: "Melasma improvement typically takes 8â€“12 weeks and beyond. Stable fading requires consistency and ongoing prevention, especially with UV protection and barrier support." },
       { question: "Is melasma part of uneven skin tone concerns?", answer: "Yes. Many clients experience melasma as patchy uneven tone rather than a single dark spot. ULANDA maps tone behaviour to determine whether the dominant issue is melasma, sun damage or inflammation-driven pigment." },
       { question: "Can sun damage make melasma appear worse?", answer: "Yes. UV exposure is one of the strongest triggers for melasma flare. Even low-level daily sun exposure can maintain pigment activity if not controlled." },
       { question: "Can acne-related inflammation cause melasma-type pigmentation?", answer: "Acne inflammation can cause post-inflammatory hyperpigmentation (PIH), which can overlap visually with melasma. ULANDA assesses pigment type carefully to avoid incorrect treatment selection." },
@@ -3552,7 +3552,7 @@ export const individualConditions = [
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     },
     intro: {
-      content: "At ULANDA, PIH is treated as an inflammation-driven pigment behaviour. It is not simply a surface \"dark spot\" issue — it is the result of inflammatory activity triggering excess melanin production during the healing process. Your Skin Behaviour Consultation helps us assess whether your pigmentation is acne-linked, barrier-linked or hormonally influenced, so your treatment plan is safe, sequenced and designed to reduce recurrence."
+      content: "At ULANDA, PIH is treated as an inflammation-driven pigment behaviour. It is not simply a surface \"dark spot\" issue â€” it is the result of inflammatory activity triggering excess melanin production during the healing process. Your Skin Behaviour Consultation helps us assess whether your pigmentation is acne-linked, barrier-linked or hormonally influenced, so your treatment plan is safe, sequenced and designed to reduce recurrence."
     },
     science: {
       title: "Scientific Drivers /",
@@ -3632,7 +3632,7 @@ export const individualConditions = [
       { question: "Can PIH be treated safely without making skin more sensitive?", answer: "Yes, but the approach must be sequenced correctly. Aggressive exfoliation can worsen inflammation and trigger further pigmentation. ULANDA uses barrier-safe correction to improve tone while protecting skin stability." },
       { question: "Why do my acne marks get darker after being in the sun?", answer: "UV exposure stimulates melanin production and can darken PIH significantly. Sun exposure is one of the most common reasons PIH persists longer than expected." },
       { question: "Does picking spots make PIH worse?", answer: "Yes. Picking, squeezing and skin trauma increases inflammation and deepens pigment activation. This often leads to darker marks that take longer to clear." },
-      { question: "Can harsh acne skincare cause pigmentation?", answer: "Yes. Overuse of strong acne products can damage the barrier, trigger irritation and increase inflammation — which can worsen both breakouts and pigmentation marks. This is why acne and pigmentation must be treated together." },
+      { question: "Can harsh acne skincare cause pigmentation?", answer: "Yes. Overuse of strong acne products can damage the barrier, trigger irritation and increase inflammation â€” which can worsen both breakouts and pigmentation marks. This is why acne and pigmentation must be treated together." },
       { question: "Is microneedling good for post-acne pigmentation?", answer: "It can be highly effective when the skin is stable enough. Microneedling supports skin renewal and pigment correction, but it must be sequenced properly and not introduced during active inflammation." },
       { question: "What is the difference between PIH and hyperpigmentation dark spots?", answer: "PIH is triggered by inflammation (such as acne), while general hyperpigmentation may be UV-driven or age-related. The treatment approach differs because PIH often requires inflammation control alongside pigment correction." },
       { question: "Can PIH be confused with melasma?", answer: "Yes. PIH can look similar to melasma, but melasma is hormonally reactive and often symmetrical. ULANDA assesses pigment type carefully to ensure the correct pathway is chosen." },
@@ -3658,13 +3658,13 @@ export const individualConditions = [
       title: "Uneven",
       highlight: "Skin Tone",
       subtitle: "Tone, Texture & Pigmentation",
-      description: "Uneven skin tone is one of the most common concerns clients bring to ULANDA — often described as patchy colour, dullness, sun spots, post-acne marks or a complexion that no longer looks clear and consistent. Some clients notice uneven tone gradually over time, while others experience sudden changes following inflammation, hormonal transition or skin barrier fatigue.",
+      description: "Uneven skin tone is one of the most common concerns clients bring to ULANDA â€” often described as patchy colour, dullness, sun spots, post-acne marks or a complexion that no longer looks clear and consistent. Some clients notice uneven tone gradually over time, while others experience sudden changes following inflammation, hormonal transition or skin barrier fatigue.",
       image: "/assets/img/conditions/ulanda skin condition uneven skin sun damage (1) resized.jpg",
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     },
     intro: {
-      content: "At ULANDA, uneven skin tone is treated as a skin behaviour pattern, not a single surface issue. Your Skin Behaviour Consultation allows us to identify whether your uneven tone is pigment-driven, inflammation-driven, hormonal or linked to barrier instability — so your plan is safe, sequenced and designed for long-term clarity."
+      content: "At ULANDA, uneven skin tone is treated as a skin behaviour pattern, not a single surface issue. Your Skin Behaviour Consultation allows us to identify whether your uneven tone is pigment-driven, inflammation-driven, hormonal or linked to barrier instability â€” so your plan is safe, sequenced and designed for long-term clarity."
     },
     science: {
       title: "Scientific Drivers /",
@@ -3741,7 +3741,7 @@ export const individualConditions = [
     faqs: [
       { question: "What causes uneven skin tone?", answer: "Uneven skin tone is usually caused by pigmentation, sun exposure, inflammation, post-acne marks, hormonal change or dehydration. Many clients have more than one cause at the same time, which is why structured assessment is essential." },
       { question: "Is uneven skin tone always pigmentation?", answer: "Not always. Uneven tone can also be driven by redness, sensitivity flare-ups and barrier dysfunction. At ULANDA, we assess whether tone imbalance is pigment-based or inflammation-based so treatment selection is correct." },
-      { question: "How long does it take to improve uneven skin tone?", answer: "Most clients see visible improvement within 6–12 weeks depending on the cause and severity. Stable tone correction usually requires treatment sequencing combined with prevention and skincare support." },
+      { question: "How long does it take to improve uneven skin tone?", answer: "Most clients see visible improvement within 6â€“12 weeks depending on the cause and severity. Stable tone correction usually requires treatment sequencing combined with prevention and skincare support." },
       { question: "Can uneven skin tone be caused by acne marks?", answer: "Yes. Post-acne pigmentation is one of the most common causes of uneven tone. Even after breakouts clear, marks may remain for months unless treated through structured pigment-safe renewal." },
       { question: "Can uneven skin tone be linked to hormonal changes?", answer: "Yes. Pregnancy, postpartum recovery, perimenopause and menopause can all trigger pigment instability, melasma flare-ups and uneven tone changes, particularly if the skin barrier is weakened." },
       { question: "Why does my skin look patchy even when I use skincare consistently?", answer: "If pigmentation triggers are still active (UV exposure, inflammation, hormonal sensitivity), uneven tone may persist despite good skincare. At ULANDA, we assess whether your routine is supporting tone stability or unintentionally triggering pigment behaviour." },
@@ -3776,7 +3776,7 @@ export const individualConditions = [
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     },
     intro: {
-      content: "At ULANDA, sun damage is treated as both a pigmentation issue and a skin architecture concern. UV exposure does not only affect surface colour — it also breaks down collagen, reduces elasticity and disrupts the skin's long-term regenerative behaviour. Your Skin Behaviour Consultation helps us assess pigment type, barrier stability and structural ageing so your correction plan is safe, sequenced and designed for long-term improvement.",
+      content: "At ULANDA, sun damage is treated as both a pigmentation issue and a skin architecture concern. UV exposure does not only affect surface colour â€” it also breaks down collagen, reduces elasticity and disrupts the skin's long-term regenerative behaviour. Your Skin Behaviour Consultation helps us assess pigment type, barrier stability and structural ageing so your correction plan is safe, sequenced and designed for long-term improvement.",
     },
     science: {
       title: "Scientific Drivers /",
@@ -3853,7 +3853,7 @@ export const individualConditions = [
     faqs: [
       { question: "What is photo-pigmentation and how is it different from normal pigmentation?", answer: "Photo-pigmentation is pigmentation caused primarily by UV exposure over time. It often appears as scattered sun spots, uneven tone and patchy brown areas. Unlike some hormonal pigmentation types, photo-pigmentation is typically driven by cumulative sun damage and ageing patterns." },
       { question: "Can sun damage affect skin texture and firmness as well as skin tone?", answer: "Yes. UV exposure not only increases pigmentation but also breaks down collagen and elastin, leading to rough texture, enlarged pores, fine lines and firmness loss. This is why ULANDA treats sun damage as both a tone and architecture issue." },
-      { question: "How long does it take to improve sun damage?", answer: "Many clients notice improvements within 6–12 weeks depending on severity, but deeper sun damage often requires a structured multi-phase programme to correct pigmentation and rebuild collagen behaviour." },
+      { question: "How long does it take to improve sun damage?", answer: "Many clients notice improvements within 6â€“12 weeks depending on severity, but deeper sun damage often requires a structured multi-phase programme to correct pigmentation and rebuild collagen behaviour." },
       { question: "Can sun damage occur even if I don't spend much time in the sun?", answer: "Yes. Daily incidental exposure (walking, driving, outdoor errands) accumulates over years. Many clients develop photo-pigmentation without ever experiencing significant sunburn." },
       { question: "Are freckles and sun spots the same thing?", answer: "Not always. Freckles are often genetic and become darker with sun exposure, while sun spots (solar lentigines) are typically age-related pigmentation caused by cumulative UV damage. Both may appear together and require structured assessment." },
       { question: "Can sun damage get worse after menopause?", answer: "Yes. Hormonal transition can reduce the skin's repair capacity and increase pigmentation visibility. Many women notice sun damage and uneven tone become more pronounced during perimenopause and menopause." },
@@ -4434,7 +4434,7 @@ export const individualConditions = [
     hero: {
       title: "Acne Scarring &",
       highlight: "Post-Acne Texture",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
         "Scarring is the skin's way of healing after inflammation, but it often leaves behind indentations, redness (PIE) or pigmentation (PIH).",
         "True scar revision requires more than just surface polishing. We need to break down old, tethered collagen and stimulate the production of new, smoother tissue.",
@@ -4489,10 +4489,10 @@ export const individualConditions = [
       highlight: "Treat Scarring",
       titleSuffix: "at ULANDA?",
       items: [
-        "Nurse-Led Protocols — Safe, effective treatments for scarred skin.",
-        "Collagen-Induction Focus — We rebuild the skin's structure naturaly.",
-        "Treatment for All Scar Types — From indentations to red marks (PIE).",
-        "Patience & Results — We support you through the remodelling process."
+        "Nurse-Led Protocols â€” Safe, effective treatments for scarred skin.",
+        "Collagen-Induction Focus â€” We rebuild the skin's structure naturaly.",
+        "Treatment for All Scar Types â€” From indentations to red marks (PIE).",
+        "Patience & Results â€” We support you through the remodelling process."
       ],
       image: "/assets/img/conditions/ulanda skin condition acne scarring (1) resized.jpg",
       placeholderUrl: "/assets/img/conditions/ulanda skin condition acne scarring (1) resized.jpg"
@@ -4519,7 +4519,7 @@ export const individualConditions = [
         },
         {
           question: "How many sessions will I need?",
-          answer: "Scar remodelling takes time. A course of 3–6 sessions is usually recommended for best results."
+          answer: "Scar remodelling takes time. A course of 3â€“6 sessions is usually recommended for best results."
         }
       ]
     },
@@ -4541,11 +4541,11 @@ export const individualConditions = [
     hero: {
       title: "Skin Recovery &",
       highlight: "Repair",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
         "Skin that feels sensitised, irritated or \"over-treated\" is often a sign that the skin barrier is exhausted and the skin's natural recovery function is no longer working efficiently.",
         "Many clients experience tightness, redness, burning, peeling, dryness or sudden breakouts after using strong actives, having frequent treatments, or trying too many products too quickly.",
-        "At ULANDA, we treat recovery as a structured phase — not a quick soothing facial. We assess what has disrupted your barrier, whether inflammation is present, and how to restore stability before progressing into advanced correction safely."
+        "At ULANDA, we treat recovery as a structured phase â€” not a quick soothing facial. We assess what has disrupted your barrier, whether inflammation is present, and how to restore stability before progressing into advanced correction safely."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
@@ -4583,7 +4583,7 @@ export const individualConditions = [
           description: "Reduced skin healing capacity due to hormonal shifts."
         }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme"
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Resilience Programme"
     },
     whyChoose: {
       title: "Why",
@@ -4634,7 +4634,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take for sensitised skin to settle?",
-        answer: "Many clients notice improvement within 2–4 weeks, but full barrier resilience often requires 6–12 weeks depending on severity and lifestyle triggers."
+        answer: "Many clients notice improvement within 2â€“4 weeks, but full barrier resilience often requires 6â€“12 weeks depending on severity and lifestyle triggers."
       },
       {
         question: "Can sensitised skin be linked to dehydration and tightness?",
@@ -4735,7 +4735,7 @@ export const individualConditions = [
          title: "A Regenerative Interpretation of",
          highlight: "Non-Responsive Skin",
          description: [
-            "Within the Radiate Method™, non-responsive skin is viewed as a signal to:",
+            "Within the Radiate Methodâ„¢, non-responsive skin is viewed as a signal to:",
             "Pause repetitive stimulation",
             "Reassess tissue behaviour",
             "Identify biological or structural barriers",
@@ -4768,7 +4768,7 @@ export const individualConditions = [
       },
       { 
         id: "radiate-method", 
-        title: "The Radiate Method™", 
+        title: "The Radiate Methodâ„¢", 
         description: "A regenerative framework for non-responsive skin, shifting from repetitive treatments to planned pathways." 
       },
       { 
@@ -4788,7 +4788,7 @@ export const individualConditions = [
                  "Skin concerns feel interconnected",
                  "Structural or life-stage changes are present",
                  "A plan is needed rather than another procedure",
-                 "Not all clients require Radiate — but when non-responsive skin is present, regenerative planning often becomes essential."
+                 "Not all clients require Radiate â€” but when non-responsive skin is present, regenerative planning often becomes essential."
             ]
         },
         {
@@ -4844,9 +4844,9 @@ export const individualConditions = [
     hero: {
       title: "Dull Skin &",
       highlight: "Loss of Glow",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
-        "Dull skin is often a sign that the skin is no longer functioning optimally — meaning hydration is low, cell turnover has slowed, circulation is reduced, or the barrier is fatigued from stress, hormones, inflammation or over-treatment.",
+        "Dull skin is often a sign that the skin is no longer functioning optimally â€” meaning hydration is low, cell turnover has slowed, circulation is reduced, or the barrier is fatigued from stress, hormones, inflammation or over-treatment.",
         "Many clients describe their skin as looking \"grey,\" tired, uneven, or lifeless, even when they are using high-quality skincare.",
         "At ULANDA, we assess why your glow has reduced and whether your skin is stable enough for renewal treatments, or whether it first needs hydration rebuilding and barrier recovery to restore skin vitality safely."
       ],
@@ -4866,13 +4866,13 @@ export const individualConditions = [
         { title: "Pigmentation & Sun Damage", description: "Uneven light reflection." },
         { title: "Lifestyle Factors", description: "Stress, poor sleep and inflammation patterns affecting skin function." }
       ],
-      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme. (Secondary: Skin Barrier Repair & Recovery if dullness is barrier-fatigue driven)"
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme. (Secondary: Skin Barrier Repair & Resilience if dullness is barrier-fatigue driven)"
     },
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
       pathway: "Photoaging & Skin Architecture Programme",
       pathwayLink: "/signature/structural-skin-regeneration",
-      secondary: "(Secondary: Skin Barrier Repair & Recovery if dullness is barrier-fatigue driven)",
+      secondary: "(Secondary: Skin Barrier Repair & Resilience if dullness is barrier-fatigue driven)",
       secondaryLink: "/treatments/refresh"
     },
     whyChoose: {
@@ -4920,11 +4920,11 @@ export const individualConditions = [
       },
       {
         question: "What is the fastest professional treatment for glow?",
-        answer: "Many clients see immediate improvement from Advanced Cleansing & Hydration Therapy (HydraFacial), Oxygen Glow Facials and Dermaplaning — but suitability depends on barrier stability."
+        answer: "Many clients see immediate improvement from Advanced Cleansing & Hydration Therapy (HydraFacial), Oxygen Glow Facials and Dermaplaning â€” but suitability depends on barrier stability."
       },
       {
         question: "How long does it take to restore glow properly?",
-        answer: "Many clients notice improvement within 2–4 weeks, but deeper tone and texture correction typically occurs over 6–12 weeks through structured treatment sequencing."
+        answer: "Many clients notice improvement within 2â€“4 weeks, but deeper tone and texture correction typically occurs over 6â€“12 weeks through structured treatment sequencing."
       },
       {
         question: "Can dullness be caused by a compromised skin barrier?",
@@ -4957,11 +4957,11 @@ export const individualConditions = [
     hero: {
       title: "Dry Skin &",
       highlight: "Chronic Dryness",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
-        "Dry skin is more than a temporary seasonal issue — it is often a sign that the skin barrier is no longer holding moisture and lipids effectively.",
+        "Dry skin is more than a temporary seasonal issue â€” it is often a sign that the skin barrier is no longer holding moisture and lipids effectively.",
         "Chronic dryness can leave the skin feeling tight, rough, flaky, irritated, and increasingly reactive, especially when the skin is being over-cleansed or exposed to harsh active ingredients.",
-        "At ULANDA, we assess whether your dryness is barrier-driven, hormone-linked, inflammation-related, or caused by long-term skin fatigue — so your treatment plan restores stability first, then improves texture and long-term skin resilience."
+        "At ULANDA, we assess whether your dryness is barrier-driven, hormone-linked, inflammation-related, or caused by long-term skin fatigue â€” so your treatment plan restores stability first, then improves texture and long-term skin resilience."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
@@ -4979,11 +4979,11 @@ export const individualConditions = [
         { number: "04", title: "Environmental Factors", description: "Cold weather, wind, indoor heating." },
         { number: "05", title: "Inflammation", description: "Inflammation patterns and reduced skin recovery capacity." }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme. Secondary: Menopause Skin Rebuild Programme if menopause-linked."
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Resilience Programme. Secondary: Menopause Skin Rebuild Programme if menopause-linked."
     },
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
-      pathway: "Skin Barrier Repair & Recovery Programme",
+      pathway: "Skin Barrier Repair & Resilience Programme",
       pathwayLink: "/treatments/refresh",
       secondary: "(Secondary: Menopause Skin Rebuild Programme if menopause-linked)",
       secondaryLink: "/signature/menopause-skin-rebuild"
@@ -5070,10 +5070,10 @@ export const individualConditions = [
     hero: {
       title: "Dehydrated",
       highlight: "Skin",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
-        "Dehydrated skin is one of the most common reasons skin feels tight, uncomfortable, dull, and unpredictable — even when you are using good skincare. Unlike dry skin (which lacks oil), dehydrated skin lacks water and often shows early signs of barrier instability, sensitivity and poor skin function.",
-        "At ULANDA, we assess why your skin is losing hydration and whether your barrier is stable enough to progress into active treatments safely — without over-treating or triggering inflammation."
+        "Dehydrated skin is one of the most common reasons skin feels tight, uncomfortable, dull, and unpredictable â€” even when you are using good skincare. Unlike dry skin (which lacks oil), dehydrated skin lacks water and often shows early signs of barrier instability, sensitivity and poor skin function.",
+        "At ULANDA, we assess why your skin is losing hydration and whether your barrier is stable enough to progress into active treatments safely â€” without over-treating or triggering inflammation."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
@@ -5091,11 +5091,11 @@ export const individualConditions = [
         { number: "04", title: "Hormonal Shifts", description: "Postpartum, perimenopause, menopause affects hydration." },
         { number: "05", title: "Chronic Inflammation", description: "Stress and reduced recovery capacity." }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme"
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Resilience Programme"
     },
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
-      pathway: "Skin Barrier Repair & Recovery Programme",
+      pathway: "Skin Barrier Repair & Resilience Programme",
       pathwayLink: "/treatments/refresh"
     },
     whyChoose: {
@@ -5147,7 +5147,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take to restore hydration properly?",
-        answer: "Many clients feel improvement within 2–4 weeks, but deeper barrier stabilisation typically takes 6–12 weeks depending on severity and routine damage."
+        answer: "Many clients feel improvement within 2â€“4 weeks, but deeper barrier stabilisation typically takes 6â€“12 weeks depending on severity and routine damage."
       },
       {
         question: "Is dehydrated skin linked to a compromised skin barrier?",
@@ -5180,10 +5180,10 @@ export const individualConditions = [
     hero: {
       title: "Compromised Skin Barrier /",
       highlight: "Barrier Breakdown",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
-        "A compromised skin barrier is one of the most common hidden reasons skin becomes dry, reactive, inflamed, and unpredictable. When the barrier is weakened, the skin loses hydration faster, becomes more sensitive to products, and struggles to regulate inflammation — often leading to redness, stinging, breakouts, rough texture and long-term skin fatigue.",
-        "At ULANDA, we assess barrier stability before recommending advanced treatments. If the barrier is compromised, we stabilise first — because long-term results require resilience, not aggressive correction."
+        "A compromised skin barrier is one of the most common hidden reasons skin becomes dry, reactive, inflamed, and unpredictable. When the barrier is weakened, the skin loses hydration faster, becomes more sensitive to products, and struggles to regulate inflammation â€” often leading to redness, stinging, breakouts, rough texture and long-term skin fatigue.",
+        "At ULANDA, we assess barrier stability before recommending advanced treatments. If the barrier is compromised, we stabilise first â€” because long-term results require resilience, not aggressive correction."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
@@ -5201,11 +5201,11 @@ export const individualConditions = [
         { number: "04", title: "Inflammation Patterns", description: "Redness and sensitivity flare-ups." },
         { number: "05", title: "Hormonal Shifts", description: "Reduced recovery capacity due to menopause/perimenopause." }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme"
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Resilience Programme"
     },
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
-      pathway: "Skin Barrier Repair & Recovery Programme",
+      pathway: "Skin Barrier Repair & Resilience Programme",
       pathwayLink: "/treatments/refresh"
     },
     whyChoose: {
@@ -5257,7 +5257,7 @@ export const individualConditions = [
       },
       {
         question: "How long does barrier repair take?",
-        answer: "Mild barrier damage can improve within 2–4 weeks, but deeper recovery often takes 6–12 weeks depending on the severity and how long the skin has been sensitised."
+        answer: "Mild barrier damage can improve within 2â€“4 weeks, but deeper recovery often takes 6â€“12 weeks depending on the severity and how long the skin has been sensitised."
       },
       {
         question: "Can barrier breakdown cause chronic dryness and flaking?",
@@ -5290,10 +5290,10 @@ export const individualConditions = [
     hero: {
       title: "Postpartum",
       highlight: "Skin Changes",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
         "Postpartum skin changes are common and often unexpected. Many women notice that after pregnancy their skin becomes drier, more sensitive, more reactive, prone to breakouts, or affected by pigmentation changes. Even if your skin was stable before pregnancy, the postpartum period can trigger a shift in skin behaviour due to hormonal fluctuation, inflammation patterns, stress, sleep disruption and reduced recovery capacity.",
-        "At ULANDA, we understand postpartum skin as a transition phase. Your Skin Behaviour Consultation helps us identify what has changed in your barrier function, hydration retention and skin stability — so your plan is calm, safe, and aligned to long-term recovery rather than quick fixes."
+        "At ULANDA, we understand postpartum skin as a transition phase. Your Skin Behaviour Consultation helps us identify what has changed in your barrier function, hydration retention and skin stability â€” so your plan is calm, safe, and aligned to long-term recovery rather than quick fixes."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
@@ -5311,11 +5311,11 @@ export const individualConditions = [
         { title: "Congestion Patterns", description: "Postpartum breakouts and texture changes." },
         { title: "Lifestyle Factors", description: "Stress, fatigue and reduced sleep affecting skin recovery." }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme. (Secondary: Photoaging & Skin Architecture if pigmentation dominates)"
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Resilience Programme. (Secondary: Photoaging & Skin Architecture if pigmentation dominates)"
     },
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
-      pathway: "Skin Barrier Repair & Recovery Programme",
+      pathway: "Skin Barrier Repair & Resilience Programme",
       pathwayLink: "/treatments/refresh",
       secondary: "(Secondary: Photoaging & Skin Architecture if pigmentation dominates)",
       secondaryLink: "/signature/structural-skin-regeneration"
@@ -5406,9 +5406,9 @@ export const individualConditions = [
     hero: {
       title: "Perimenopause",
       highlight: "Skin Changes",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
-        "Perimenopause is one of the most common times women notice sudden and unexpected changes in their skin. Many clients describe their skin as becoming drier, more sensitive, less firm, more reactive, and harder to manage — even if they have never struggled with skin issues before.",
+        "Perimenopause is one of the most common times women notice sudden and unexpected changes in their skin. Many clients describe their skin as becoming drier, more sensitive, less firm, more reactive, and harder to manage â€” even if they have never struggled with skin issues before.",
         "At ULANDA, we understand that perimenopause skin changes are not \"just ageing.\" They are often driven by hormonal fluctuation, collagen decline, reduced hydration retention and increased inflammation patterns. Your Skin Behaviour Consultation helps us identify what is shifting in your skin biology and how to rebuild stability and resilience safely."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
@@ -5459,7 +5459,7 @@ export const individualConditions = [
     faqs: [
       {
         question: "Why does skin suddenly change during perimenopause?",
-        answer: "Perimenopause causes hormonal fluctuation that affects hydration retention, collagen activity, barrier resilience and inflammation behaviour. This can make skin feel drier, more reactive, duller and less firm — often within a short time period."
+        answer: "Perimenopause causes hormonal fluctuation that affects hydration retention, collagen activity, barrier resilience and inflammation behaviour. This can make skin feel drier, more reactive, duller and less firm â€” often within a short time period."
       },
       {
         question: "Is perimenopause skin change the same as normal ageing?",
@@ -5519,7 +5519,7 @@ export const individualConditions = [
       subtitle: "Dryness, Fragility & Collagen Decline",
       description: [
         "Menopause can transform how the skin behaves. Many women notice sudden dryness, thinning, increased sensitivity, loss of firmness, dullness, deeper lines, and a feeling that their skin has become fragile or \"less responsive\" to skincare and treatments that used to work.",
-        "At ULANDA, we understand menopause skin changes as a biological transition — not simply ageing. As oestrogen declines, collagen production reduces, hydration retention drops, the barrier becomes weaker, and inflammation can increase. Your Skin Behaviour Consultation allows us to assess how menopause is influencing your skin and design a structured plan focused on stability, regeneration and long-term resilience."
+        "At ULANDA, we understand menopause skin changes as a biological transition â€” not simply ageing. As oestrogen declines, collagen production reduces, hydration retention drops, the barrier becomes weaker, and inflammation can increase. Your Skin Behaviour Consultation allows us to assess how menopause is influencing your skin and design a structured plan focused on stability, regeneration and long-term resilience."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
@@ -5627,7 +5627,7 @@ export const individualConditions = [
       title: "Hormonal Skin Pigmentation /",
       highlight: "Melasma Flare",
       subtitle: "Menopause & Hormonal Skin Change",
-      description: "Hormonal pigmentation (often called melasma or chloasma) is distinct from ordinary sun damage. It appears as symmetrical, map-like patches on the forehead, cheeks or upper lip and is driven by internal hormonal shifts — such as pregnancy, the contraceptive pill, perimenopause or menopause. Because it is heat-sensitive and inflammatory, aggressive lasers often make it worse. At ULANDA, we treat it with suppression, calm and safe correction.",
+      description: "Hormonal pigmentation (often called melasma or chloasma) is distinct from ordinary sun damage. It appears as symmetrical, map-like patches on the forehead, cheeks or upper lip and is driven by internal hormonal shifts â€” such as pregnancy, the contraceptive pill, perimenopause or menopause. Because it is heat-sensitive and inflammatory, aggressive lasers often make it worse. At ULANDA, we treat it with suppression, calm and safe correction.",
       image: "/assets/img/conditions/Melisma.webp",
       placeholderUrl: "/assets/img/conditions/Melisma.webp",
       buttonText: "Book Advanced Skin Health Consultation",
@@ -5635,7 +5635,7 @@ export const individualConditions = [
     },
     category: "Menopause & Hormonal Skin Change",
     intro: {
-      content: "At ULANDA, hormonal pigmentation is treated as a chronic, inflammatory skin condition rather than a surface stain. Your Advanced Skin Health Consultation helps us identify your specific triggers — whether they are estrogen-driven, stress-related or heat-induced — so your plan effectively suppresses pigment production without causing rebound darkening or inflammation."
+      content: "At ULANDA, hormonal pigmentation is treated as a chronic, inflammatory skin condition rather than a surface stain. Your Advanced Skin Health Consultation helps us identify your specific triggers â€” whether they are estrogen-driven, stress-related or heat-induced â€” so your plan effectively suppresses pigment production without causing rebound darkening or inflammation."
     },
     science: {
       title: "Scientific Drivers /",
@@ -5734,7 +5734,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take to see results?",
-        answer: "Pigment correction takes time because we are working with the skin's renewal cycle. Most clients see significant brightening within 6–12 weeks of combined home care and treatment."
+        answer: "Pigment correction takes time because we are working with the skin's renewal cycle. Most clients see significant brightening within 6â€“12 weeks of combined home care and treatment."
       },
       {
         question: "Where can I get Hormonal Pigmentation & Melasma treatment near me in Ware, Hertfordshire?",
@@ -5760,7 +5760,7 @@ export const individualConditions = [
       title: "Hormonal Acne /",
       highlight: "Adult Breakouts",
       subtitle: "Menopause & Hormonal Skin Change",
-      description: "Hormonal acne is one of the most frustrating skin concerns because it often appears suddenly, persists despite good skincare, and tends to flare in cycles. Many women experience adult breakouts during perimenopause, menopause, postpartum recovery or periods of stress — even if they never struggled with acne as a teenager.",
+      description: "Hormonal acne is one of the most frustrating skin concerns because it often appears suddenly, persists despite good skincare, and tends to flare in cycles. Many women experience adult breakouts during perimenopause, menopause, postpartum recovery or periods of stress â€” even if they never struggled with acne as a teenager.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       buttonText: "Book Advanced Skin Health Consultation",
@@ -5796,12 +5796,12 @@ export const individualConditions = [
           description: "imbalance affecting skin behaviour"
         }
       ],
-      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme (Secondary: Skin Barrier Repair & Recovery if acne is inflamed/reactive)"
+      footer: "Primary Recommended Programme Pathway: Photoaging & Skin Architecture Programme (Secondary: Skin Barrier Repair & Resilience if acne is inflamed/reactive)"
     },
     treatmentModel: {
       title: "Recommended Treatments",
       highlight: "",
-      description: "At ULANDA, adult acne is treated through structured congestion control, inflammation reduction and safe skin renewal — without over-stripping or triggering rebound sensitivity.",
+      description: "At ULANDA, adult acne is treated through structured congestion control, inflammation reduction and safe skin renewal â€” without over-stripping or triggering rebound sensitivity.",
       items: [
         {
           title: "Recommended Treatments",
@@ -5907,7 +5907,7 @@ export const individualConditions = [
       title: "Skin Inflammation",
       highlight: "(Burning, Stinging, Flare-Ups)",
       subtitle: "Redness, Sensitivity & Reactive Skin",
-      description: "Skin inflammation is one of the clearest signs that the skin barrier is struggling. Many clients describe their skin as burning, stinging, hot, irritated or constantly flaring — often with redness, tightness and discomfort that makes even basic skincare feel unbearable.",
+      description: "Skin inflammation is one of the clearest signs that the skin barrier is struggling. Many clients describe their skin as burning, stinging, hot, irritated or constantly flaring â€” often with redness, tightness and discomfort that makes even basic skincare feel unbearable.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       buttonText: "Book Advanced Skin Health Consultation",
@@ -5943,12 +5943,12 @@ export const individualConditions = [
           description: "affecting skin recovery capacity (perimenopause/menopause)"
         }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme (Secondary: Rosacea & Redness Control if rosacea-type patterns present)"
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Resilience Programme (Secondary: Rosacea & Redness Control if rosacea-type patterns present)"
     },
     treatmentModel: {
       title: "Recommended Treatments",
       highlight: "",
-      description: "At ULANDA, inflamed skin is supported through calm barrier repair, hydration rebuilding and inflammation reduction — with careful sequencing to avoid flare-ups.",
+      description: "At ULANDA, inflamed skin is supported through calm barrier repair, hydration rebuilding and inflammation reduction â€” with careful sequencing to avoid flare-ups.",
       items: [
         {
           title: "Recommended Treatments",
@@ -6024,7 +6024,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take for inflamed skin to calm down?",
-        answer: "Many clients see improvement within 2–4 weeks with correct stabilisation, but deeper barrier recovery can take 6–12 weeks depending on severity. Long-term improvement requires reducing triggers and following a structured recovery plan."
+        answer: "Many clients see improvement within 2â€“4 weeks with correct stabilisation, but deeper barrier recovery can take 6â€“12 weeks depending on severity. Long-term improvement requires reducing triggers and following a structured recovery plan."
       },
       {
         question: "Where can I get help for inflamed reactive skin near me in Ware, Hertfordshire?",
@@ -6050,7 +6050,7 @@ export const individualConditions = [
       title: "Sensitive /",
       highlight: "Reactive Skin",
       subtitle: "Redness, Sensitivity & Reactive Skin",
-      description: "Sensitive skin is not a skin type — it is a skin behaviour pattern. Many clients describe their skin as unpredictable, easily irritated, and constantly reacting to products, weather changes, stress or treatments. Sensitive or reactive skin often stings, burns, flushes, breaks out or becomes inflamed without clear warning.",
+      description: "Sensitive skin is not a skin type â€” it is a skin behaviour pattern. Many clients describe their skin as unpredictable, easily irritated, and constantly reacting to products, weather changes, stress or treatments. Sensitive or reactive skin often stings, burns, flushes, breaks out or becomes inflamed without clear warning.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       buttonText: "Book Advanced Skin Health Consultation",
@@ -6086,7 +6086,7 @@ export const individualConditions = [
           description: "and reduced skin recovery capacity"
         }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme (Secondary: Rosacea & Redness Control if flushing dominates)"
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Resilience Programme (Secondary: Rosacea & Redness Control if flushing dominates)"
     },
     treatmentModel: {
       title: "Recommended Treatments",
@@ -6167,7 +6167,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take to stabilise sensitive skin?",
-        answer: "Many clients feel improvement within 2–4 weeks, but deeper stabilisation often takes 6–12 weeks depending on severity. Long-term calm skin requires correct sequencing and barrier-first treatment planning."
+        answer: "Many clients feel improvement within 2â€“4 weeks, but deeper stabilisation often takes 6â€“12 weeks depending on severity. Long-term calm skin requires correct sequencing and barrier-first treatment planning."
       },
       {
         question: "Where can I book a sensitive skin consultation near me in Ware, Hertfordshire?",
@@ -6193,7 +6193,7 @@ export const individualConditions = [
       title: "Rosacea /",
       highlight: "Redness, Flushing & Sensitivity",
       subtitle: "Redness, Flushing & Sensitivity",
-      description: "Rosacea is a chronic skin condition that often presents as persistent redness, flushing, sensitivity and inflammation that can worsen over time if the skin barrier is not stabilised. Many clients describe their skin as constantly reactive — stinging easily, flaring suddenly, and becoming difficult to manage despite trying multiple products and treatments.",
+      description: "Rosacea is a chronic skin condition that often presents as persistent redness, flushing, sensitivity and inflammation that can worsen over time if the skin barrier is not stabilised. Many clients describe their skin as constantly reactive â€” stinging easily, flaring suddenly, and becoming difficult to manage despite trying multiple products and treatments.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       buttonText: "Book Advanced Skin Health Consultation",
@@ -6310,7 +6310,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take to calm rosacea flare-ups?",
-        answer: "Many clients notice improvement within a few weeks once triggers are controlled and the barrier is supported. However, long-term stability usually requires a structured plan over 8–12 weeks and ongoing maintenance depending on severity."
+        answer: "Many clients notice improvement within a few weeks once triggers are controlled and the barrier is supported. However, long-term stability usually requires a structured plan over 8â€“12 weeks and ongoing maintenance depending on severity."
       },
       {
         question: "Where can I get rosacea treatment near me in Ware, Hertfordshire?",
@@ -6344,7 +6344,7 @@ export const individualConditions = [
     },
     category: "Redness, Sensitivity & Reactive Skin",
     intro: {
-      content: "At ULANDA, we treat persistent redness as a skin behaviour issue, not a surface cosmetic concern. Your Skin Behaviour Consultation helps us identify whether redness is linked to rosacea patterns, barrier instability, flushing triggers, inflammation or sensitivity — so your plan is calm, structured and designed for long-term skin resilience."
+      content: "At ULANDA, we treat persistent redness as a skin behaviour issue, not a surface cosmetic concern. Your Skin Behaviour Consultation helps us identify whether redness is linked to rosacea patterns, barrier instability, flushing triggers, inflammation or sensitivity â€” so your plan is calm, structured and designed for long-term skin resilience."
     },
     science: {
       title: "Scientific Drivers /",
@@ -6453,7 +6453,7 @@ export const individualConditions = [
       },
       {
         question: "How long does it take to reduce persistent redness?",
-        answer: "Many clients see improvement within 4–6 weeks once triggers are controlled and the barrier is stabilised. Long-term reduction typically requires an 8–12 week structured programme depending on severity and underlying drivers."
+        answer: "Many clients see improvement within 4â€“6 weeks once triggers are controlled and the barrier is stabilised. Long-term reduction typically requires an 8â€“12 week structured programme depending on severity and underlying drivers."
       },
       {
         question: "Where can I book a redness consultation near me in Ware, Hertfordshire?",
@@ -6478,7 +6478,7 @@ export const individualConditions = [
     hero: {
       title: "Breakouts /",
       highlight: "Congestion",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
         "Congested skin feels bumpy, rough or gritty, often with blackheads and whiteheads trapped under the surface.",
         "It happens when oil mixes with dead skin cells and gets stuck in the pore lining, creating a plug.",
@@ -6541,10 +6541,10 @@ export const individualConditions = [
       highlight: "Treat Congestion",
       titleSuffix: "at ULANDA?",
       items: [
-        "Safe Extraction — No squeezing or damage to the skin.",
-        "Deep Purification — We clean out the pore, not just the surface.",
-        "Hydration Balance — We clear oil without drying out your skin.",
-        "Prevention Focus — We help you maintain clear skin long-term."
+        "Safe Extraction â€” No squeezing or damage to the skin.",
+        "Deep Purification â€” We clean out the pore, not just the surface.",
+        "Hydration Balance â€” We clear oil without drying out your skin.",
+        "Prevention Focus â€” We help you maintain clear skin long-term."
       ],
       image: "/assets/img/conditions/Ulanda skin condition breakouts congestion (1) resized.webp",
       placeholderUrl: "/assets/img/conditions/Ulanda skin condition breakouts congestion (1) resized.webp"
@@ -6626,11 +6626,11 @@ export const individualConditions = [
     hero: {
       title: "Adult",
       highlight: "Acne",
-      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
+      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
       description: [
         "Adult acne is distinct from teenage acne. It is often driven by inflammation, stress and barrier damage rather than just oily skin.",
         "Over-treating it with harsh teenage products often makes it worse, leading to dryness, sensitivity and more redness.",
-        "We treat adult acne with a 'calm and clear' philosophy — reducing inflammation, repairing the barrier and regulating oil without stripping the skin."
+        "We treat adult acne with a 'calm and clear' philosophy â€” reducing inflammation, repairing the barrier and regulating oil without stripping the skin."
       ],
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
@@ -6681,10 +6681,10 @@ export const individualConditions = [
       highlight: "Treat Adult Acne",
       titleSuffix: "at ULANDA?",
       items: [
-        "Specialist in Adult Skin — We understand that adult acne needs a different approach.",
-        "Focus on Barrier Repair — We treat the inflammation, not just the spot.",
-        "Scar Prevention — Early intervention prevents long-term marks.",
-        "Long-Term Management — We help you find a sustainable way to keep clear."
+        "Specialist in Adult Skin â€” We understand that adult acne needs a different approach.",
+        "Focus on Barrier Repair â€” We treat the inflammation, not just the spot.",
+        "Scar Prevention â€” Early intervention prevents long-term marks.",
+        "Long-Term Management â€” We help you find a sustainable way to keep clear."
       ],
       image: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1683140815244-7441fd002195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWNuZXxlbnwwfDF8MHx8fDA%3D"
@@ -6816,7 +6816,7 @@ export const individualConditions = [
       },
       {
         id: 'skin-recovery',
-        title: 'Skin Barrier Repair & Recovery',
+        title: 'Skin Barrier Repair & Resilience',
         description: 'Secondary Pathway (if sensitivity dominates)'
       },
       {
@@ -6874,7 +6874,7 @@ export const individualConditions = [
       items: [
         { question: "Can stress really affect my skin?", answer: "Yes. Stress increases cortisol, which can disrupt the skin barrier, increase inflammation, worsen breakouts, trigger sensitivity and slow healing. Many clients notice their skin becomes unpredictable during stressful periods." },
         { question: "What does cortisol do to the skin?", answer: "Cortisol affects inflammation, oil production, hydration retention and collagen behaviour. Chronic cortisol elevation can lead to dullness, dryness, breakouts, redness and accelerated skin ageing." },
-        { question: "How long does it take for stress-related skin to stabilise?", answer: "Many clients see improvements within 4–8 weeks when the barrier is stabilised and inflammation is reduced. Long-term resilience often takes 8–12 weeks depending on lifestyle stress patterns and skin sensitivity." },
+        { question: "How long does it take for stress-related skin to stabilise?", answer: "Many clients see improvements within 4â€“8 weeks when the barrier is stabilised and inflammation is reduced. Long-term resilience often takes 8â€“12 weeks depending on lifestyle stress patterns and skin sensitivity." },
         { question: "Can stress cause acne flare-ups even if I don't normally get acne?", answer: "Yes. Stress can increase oil production and inflammatory signalling, leading to congestion and breakouts. Some clients experience stress acne for the first time during high-pressure periods." },
         { question: "Can stress cause redness and skin sensitivity?", answer: "Yes. Stress can increase inflammatory pathways and weaken barrier function, making skin more reactive, sting-prone and redness-prone. This is especially common in clients already prone to sensitivity." },
         { question: "Why does my skin look dull and tired when I'm stressed?", answer: "Stress disrupts circulation, sleep quality and skin repair. This can slow cell turnover, reduce hydration retention and make the skin appear dull, uneven and fatigued." },
@@ -7009,7 +7009,7 @@ export const individualConditions = [
       items: [
         { question: "Can poor sleep really affect my skin?", answer: "Yes. Sleep is essential for skin repair, collagen regeneration and barrier recovery. Poor sleep increases inflammation, slows healing and accelerates ageing, which can lead to dullness, dryness and deeper fine lines." },
         { question: "Why does my skin look older when I don't sleep well?", answer: "Poor sleep reduces collagen repair and increases oxidative stress. This weakens skin elasticity, increases dehydration and makes fine lines, pigmentation and under-eye fatigue more visible." },
-        { question: "How long does it take for skin to recover after sleep disruption?", answer: "Many clients notice improvement in glow and hydration within 4–8 weeks once skin repair is supported. Structural improvements such as firmness and collagen regeneration typically take 8–16 weeks with correct sequencing." },
+        { question: "How long does it take for skin to recover after sleep disruption?", answer: "Many clients notice improvement in glow and hydration within 4â€“8 weeks once skin repair is supported. Structural improvements such as firmness and collagen regeneration typically take 8â€“16 weeks with correct sequencing." },
         { question: "Can poor sleep cause breakouts and congestion?", answer: "Yes. Poor sleep increases cortisol and inflammatory signalling, which can increase oil production and trigger breakouts. Many clients experience stress-related acne flare-ups when sleep quality declines." },
         { question: "Can poor sleep worsen under-eye dark circles and puffiness?", answer: "Yes. Poor sleep affects circulation and fluid balance, making puffiness, hollows and dark circles more visible. Under-eye concerns often become one of the first visible signs of chronic sleep disruption." },
         { question: "Does poor sleep affect collagen and skin firmness?", answer: "Yes. Collagen regeneration occurs during deep sleep phases. When sleep is disrupted, collagen repair slows and firmness can decline faster, especially during perimenopause and menopause." },
@@ -7041,9 +7041,9 @@ export const individualConditions = [
       highlight: "Regeneration",
       description: [
         "A Radiate Pathway for Tissue Integrity, Comfort & Functional Confidence.",
-        "Pelvic and intimate tissue changes are a biological reality across a woman's life course — particularly following childbirth, during perimenopause, and through menopause.",
+        "Pelvic and intimate tissue changes are a biological reality across a woman's life course â€” particularly following childbirth, during perimenopause, and through menopause.",
         "These changes are rarely cosmetic in nature. They are functional, structural and deeply embodied.",
-        "The Pelvic & Intimate Regeneration pathway exists to support tissue quality, resilience and comfort in areas where biology, identity and recovery capacity intersect — using regenerative principles, clinical restraint and life-stage awareness.",
+        "The Pelvic & Intimate Regeneration pathway exists to support tissue quality, resilience and comfort in areas where biology, identity and recovery capacity intersect â€” using regenerative principles, clinical restraint and life-stage awareness.",
         "This pathway is not about enhancement or correction. It is about restoring tissue conditions that allow women to feel at ease in their bodies again."
       ],
       buttonText: "Request a Radiate Consultation",
@@ -7054,11 +7054,11 @@ export const individualConditions = [
     content: [
       {
         title: "What This Pathway Addresses",
-        description: "This Radiate pathway may be appropriate for women experiencing: Tissue laxity following childbirth, Changes in tissue quality associated with hormonal transition, Pelvic or intimate discomfort linked to tissue integrity, Reduced tissue resilience, hydration or elasticity, A sense that the body \"does not feel the same\" despite time and recovery. Importantly, this pathway recognises that many intimate concerns are not visible, and often go unspoken — yet have a meaningful impact on comfort, confidence and wellbeing."
+        description: "This Radiate pathway may be appropriate for women experiencing: Tissue laxity following childbirth, Changes in tissue quality associated with hormonal transition, Pelvic or intimate discomfort linked to tissue integrity, Reduced tissue resilience, hydration or elasticity, A sense that the body \"does not feel the same\" despite time and recovery. Importantly, this pathway recognises that many intimate concerns are not visible, and often go unspoken â€” yet have a meaningful impact on comfort, confidence and wellbeing."
       },
       {
         title: "What Makes This a Radiate Pathway (Not a Treatment)",
-        description: "Pelvic & Intimate Regeneration sits firmly within Radiate because it: Requires high anatomical and biological judgement, Involves micro-architecture and tissue behaviour, not surface aesthetics, Is strongly influenced by hormonal context, Demands sequencing, restraint and proportionality, Must never be approached as a standalone or cosmetic service. Care within this pathway is planned, reviewed and adapted — not booked from a menu."
+        description: "Pelvic & Intimate Regeneration sits firmly within Radiate because it: Requires high anatomical and biological judgement, Involves micro-architecture and tissue behaviour, not surface aesthetics, Is strongly influenced by hormonal context, Demands sequencing, restraint and proportionality, Must never be approached as a standalone or cosmetic service. Care within this pathway is planned, reviewed and adapted â€” not booked from a menu."
       }
     ],
     science: {
@@ -7092,14 +7092,14 @@ export const individualConditions = [
           description: "Hormones drive how well tissues repair."
         }
       ],
-      footer: "Hormonal status is understood as biological context, not a standalone intervention — ensuring care remains safe, ethical and appropriate within the UK clinical landscape."
+      footer: "Hormonal status is understood as biological context, not a standalone intervention â€” ensuring care remains safe, ethical and appropriate within the UK clinical landscape."
     },
     contentSections: [
       {
         title: "How Care Is",
         highlight: "Approached",
         description: [
-          "Care within this pathway follows the Radiate Method™, meaning:",
+          "Care within this pathway follows the Radiate Methodâ„¢, meaning:",
           "? Tissue readiness is assessed before intervention",
           "? Inflammation, sensitivity and recovery capacity are respected",
           "? Intervention intensity is conservative and progressive",
@@ -7132,7 +7132,7 @@ export const individualConditions = [
            "? Reduced self-consciousness or uncertainty",
            "? Confidence that care has been proportionate and safe",
            "? A sense of being supported, not sold to",
-           "Outcomes are functional, embodied and personal — not cosmetic promises."
+           "Outcomes are functional, embodied and personal â€” not cosmetic promises."
          ],
          items: []
       }
@@ -7186,14 +7186,14 @@ export const individualConditions = [
     faq: {
       title: "Frequently Asked Questions",
       items: [
-        { question: "Is this the same as vaginal rejuvenation?", answer: "No. This pathway focuses on tissue health, comfort and regeneration — not cosmetic enhancement." },
+        { question: "Is this the same as vaginal rejuvenation?", answer: "No. This pathway focuses on tissue health, comfort and regeneration â€” not cosmetic enhancement." },
         { question: "Is hormonal treatment included?", answer: "Hormonal status is assessed as biological context. Where appropriate, referral or collaboration with hormone specialists may be advised." },
-        { question: "Is this suitable postpartum or during menopause?", answer: "Yes — when assessed and approached appropriately within a life-stage context." },
+        { question: "Is this suitable postpartum or during menopause?", answer: "Yes â€” when assessed and approached appropriately within a life-stage context." },
         { question: "Is treatment always required?", answer: "Not necessarily. Some consultations result in reassurance, monitoring or alternative guidance." },
         { question: "What do women leave with?", answer: "Typically: improved tissue comfort and resilience, a clearer understanding of bodily changes, reduced self-consciousness, and confidence that care has been proportionate and safe." },
         { question: "Is this pathway safe?", answer: "Yes. ULANDA prioritises long-term tissue health. It is not appropriate where concerns are purely aesthetic, quick-fix driven, or where clinical readiness is not established." }
       ],
-      footer: "Outcomes are functional, embodied and personal — not cosmetic promises."
+      footer: "Outcomes are functional, embodied and personal â€” not cosmetic promises."
     },
     cta: {
       title: "When Comfort, Identity And",
@@ -7248,7 +7248,7 @@ export const individualConditions = [
           description: "lifestyle-driven inflammation affecting skin clarity, tone and elasticity"
         }
       ],
-      footer: "Primary Recommended Programme Pathway: Structural Skin Regeneration Programme (Secondary: Skin Barrier Repair & Recovery if sensitivity dominates)"
+      footer: "Primary Recommended Programme Pathway: Structural Skin Regeneration Programme (Secondary: Skin Barrier Repair & Resilience if sensitivity dominates)"
     },
     whyChoose: {
       title: "Why Clients Choose ULANDA ",
@@ -7289,7 +7289,7 @@ export const individualConditions = [
         },
         {
           question: "How long does it take to improve inflammaging skin patterns?",
-          answer: "Many clients notice improvements in hydration, glow and sensitivity within 6–12 weeks. Longer-term collagen strengthening and structural improvement typically develops over several months with structured regeneration."
+          answer: "Many clients notice improvements in hydration, glow and sensitivity within 6â€“12 weeks. Longer-term collagen strengthening and structural improvement typically develops over several months with structured regeneration."
         },
         {
           question: "What are the signs that my skin ageing is inflammation-driven?",
@@ -7350,7 +7350,7 @@ export const individualConditions = [
       placeholderUrl: "/assets/img/conditions/ulanda skin conditions gut skin imbalance (1) resized.jpg"
     },
     intro: {
-      content: "At ULANDA, gut-skin imbalance is treated as an internal wellness-driven skin behaviour concern. Your Advanced Skin Health Consultation helps us assess whether inflammation, barrier breakdown, stress, food sensitivity patterns or hormonal shifts may be contributing to your skin instability. This ensures your plan is safe, structured and focused on long-term skin resilience — not just temporary symptom control."
+      content: "At ULANDA, gut-skin imbalance is treated as an internal wellness-driven skin behaviour concern. Your Advanced Skin Health Consultation helps us assess whether inflammation, barrier breakdown, stress, food sensitivity patterns or hormonal shifts may be contributing to your skin instability. This ensures your plan is safe, structured and focused on long-term skin resilience â€” not just temporary symptom control."
     },
     science: {
       title: "Scientific Drivers /",
@@ -7378,7 +7378,7 @@ export const individualConditions = [
           description: "reduced nutrient absorption affecting collagen behaviour and skin healing"
         }
       ],
-      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Recovery Programme (Secondary: Photoaging & Skin Architecture if acne/pigmentation dominates)"
+      footer: "Primary Recommended Programme Pathway: Skin Barrier Repair & Resilience Programme (Secondary: Photoaging & Skin Architecture if acne/pigmentation dominates)"
     },
     whyChoose: {
       title: "Why Clients Choose ULANDA ",
@@ -7419,7 +7419,7 @@ export const individualConditions = [
         },
         {
           question: "How long does it take to improve gut-related skin flare-ups?",
-          answer: "Many clients see improvements in sensitivity and inflammation within 6–12 weeks when barrier repair and inflammation reduction are introduced. Long-term stability depends on addressing both skin triggers and internal wellness patterns."
+          answer: "Many clients see improvements in sensitivity and inflammation within 6â€“12 weeks when barrier repair and inflammation reduction are introduced. Long-term stability depends on addressing both skin triggers and internal wellness patterns."
         },
         {
           question: "What skin symptoms are commonly linked to gut imbalance?",
@@ -7480,7 +7480,7 @@ export const individualConditions = [
       placeholderUrl: "/assets/img/conditions/ulanda skin conditions fatigue affecting skin (1) resized.jpg"
     },
     intro: {
-      content: "At ULANDA, fatigue-related skin change is treated as an internal wellness-driven skin behaviour shift. Low energy is often linked to disrupted sleep, chronic stress, hormonal transition, inflammation patterns, nutritional depletion or reduced circulation. Your Advanced Skin Health Consultation helps us identify how fatigue is impacting your skin's hydration, barrier stability, collagen behaviour and pigmentation risk — so your plan is safe, sequenced and designed to restore vitality, not just appearance."
+      content: "At ULANDA, fatigue-related skin change is treated as an internal wellness-driven skin behaviour shift. Low energy is often linked to disrupted sleep, chronic stress, hormonal transition, inflammation patterns, nutritional depletion or reduced circulation. Your Advanced Skin Health Consultation helps us identify how fatigue is impacting your skin's hydration, barrier stability, collagen behaviour and pigmentation risk â€” so your plan is safe, sequenced and designed to restore vitality, not just appearance."
     },
     science: {
       title: "Scientific Drivers /",
@@ -7508,7 +7508,7 @@ export const individualConditions = [
           description: "reducing skin recovery capacity"
         }
       ],
-      footer: "Primary Recommended Programme Pathway: Menopause Skin Rebuild Programme (Secondary: Skin Barrier Repair & Recovery if sensitivity dominates)"
+      footer: "Primary Recommended Programme Pathway: Menopause Skin Rebuild Programme (Secondary: Skin Barrier Repair & Resilience if sensitivity dominates)"
     },
     treatmentModel: {
       title: "Recommended Treatments",
@@ -7572,7 +7572,7 @@ export const individualConditions = [
         },
         {
           question: "How long does it take to restore glow after fatigue?",
-          answer: "Many clients see visible improvement within 4–8 weeks with hydration rebuilding, inflammation control and structured treatment sequencing. Long-term vitality depends on correcting the underlying skin behaviour triggers."
+          answer: "Many clients see visible improvement within 4â€“8 weeks with hydration rebuilding, inflammation control and structured treatment sequencing. Long-term vitality depends on correcting the underlying skin behaviour triggers."
         },
         {
           question: "Can poor sleep make my skin age faster?",

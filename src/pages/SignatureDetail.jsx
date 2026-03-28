@@ -268,6 +268,11 @@ export default function SignatureDetail() {
                   </FadeInWhenVisible>
                 ))}
               </ul>
+              {content.designedFor.proactiveNote && (
+                <FadeInWhenVisible delay={0.45}>
+                  <p className="text-base text-base-content/80 font-light leading-relaxed mb-4">{content.designedFor.proactiveNote}</p>
+                </FadeInWhenVisible>
+              )}
               {content.designedFor.note && (
                 <FadeInWhenVisible delay={0.5}>
                   <p className="text-base text-base-content/70 font-light italic">{content.designedFor.note}</p>

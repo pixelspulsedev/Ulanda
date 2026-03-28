@@ -539,9 +539,14 @@ export default function Home() {
                     {sig.subtitle && (
                       <p className="text-sm text-primary/80 font-light mb-3">{sig.subtitle}</p>
                     )}
-                    <p className="text-sm text-base-content/70 font-light leading-relaxed mb-4 line-clamp-3">
+                    <p className="text-sm text-base-content/70 font-light leading-relaxed mb-3 line-clamp-3">
                       {sig.concerns}
                     </p>
+                    {sig.homepageTeaser && (
+                      <p className="text-sm text-base-content/60 font-light leading-relaxed mb-4 line-clamp-3">
+                        {sig.homepageTeaser}
+                      </p>
+                    )}
                     <span className="inline-flex items-center gap-1 text-primary text-sm font-medium group-hover:gap-2 transition-all">
                       Learn More
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">

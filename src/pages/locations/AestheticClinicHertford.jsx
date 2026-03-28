@@ -123,7 +123,7 @@ const concerns = [
 
 const signatureProgrammes = [
   {
-    name: 'Skin Barrier Repair & Recovery',
+    name: 'Skin Barrier Repair & Resilience',
     path: '/signature/skin-barrier-repair-recovery',
     description:
       'For skin requiring foundational barrier restoration before more active treatments can be safely introduced.',

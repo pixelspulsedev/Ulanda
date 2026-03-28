@@ -241,7 +241,7 @@ const obagiSystems = [
     description: 'Barrier-support moisturisers designed for sensitive or compromised skin. Often prescribed during early barrier stabilisation phases.',
     indicatedFor: ['Barrier dysfunction', 'Reactive skin', 'Treatment fatigue'],
     integratedWith: [
-      { name: 'Skin Barrier Repair & Recovery programme', path: '/signature/skin-barrier-repair-recovery' },
+      { name: 'Skin Barrier Repair & Resilience programme', path: '/signature/skin-barrier-repair-recovery' },
     ],
   },
   {

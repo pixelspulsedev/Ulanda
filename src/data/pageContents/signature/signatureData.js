@@ -141,24 +141,25 @@ export const signatureHubData = {
 export const signaturePathways = [
   {
     id: "skin-barrier-repair-recovery",
-    title: "Skin Barrier Repair & Recovery",
-    subtitle: "Calm \u2022 Rebuild \u2022 Stabilise",
-    description: "Skin Barrier Repair & Recovery is an ULANDA Signature designed for women experiencing sensitivity, dehydration, irritation, redness or skin that feels persistently reactive. This Signature focuses on restoring barrier stability first so your skin becomes calm, resilient and responsive again.",
-    heroIntro: "This is not a quick \u201chydrating facial\u201d approach. It is a structured, nurse-led programme designed to support long-term skin recovery, reduce flare-ups and rebuild healthy skin behaviour over time.",
+    title: "Skin Barrier Repair & Resilience",
+    subtitle: "Calm \u2022 Rebuild \u2022 Resilience",
+    description: "Skin Barrier Repair & Resilience is ULANDA\u2019s signature programme for women whose skin feels sensitive, dehydrated, reactive or unpredictable \u2014 at any stage of life.",
+    heroIntro: "Whether you\u2019re in your 20s or early 30s proactively building biological foundation and long-term skin resilience, recovering from postpartum hormonal shifts, navigating the dryness and sensitivity of perimenopause, or addressing menopause-related barrier changes, we begin by restoring stability first.\n\nThis is not a quick \u201chydrating facial\u201d approach. It is a structured, nurse-led programme designed to support long-term skin recovery, reduce flare-ups and rebuild healthy skin behaviour over time.",
     credential: "Led by an Advanced Nurse Practitioner & Nurse Independent Prescriber \u2022 NMC Registered \u2022 Ware, Hertfordshire",
     concerns: "sensitivity, dryness, stinging, barrier breakdown, post-treatment irritation",
+    homepageTeaser: "Whether you\u2019re in your 20s or early 30s building long-term skin resilience, recovering from postpartum shifts, or navigating perimenopause and menopause-related dryness and reactivity, this signature restores barrier stability first so your skin becomes calm, responsive and ready for the years ahead.",
     url: "/signature/skin-barrier-repair-recovery",
     image: "/assets/img/treatments/radiate/Collagen reset journey.webp",
     seo: {
-      title: "Skin Barrier Repair & Recovery in Ware | ULANDA Signature Hertfordshire",
-      description: "A nurse-led skin barrier repair Signature treatment in Ware, Hertfordshire designed to calm sensitivity, restore hydration and rebuild skin resilience. Structured sequencing for long-term recovery and stable, healthy skin behaviour.",
+      title: "Skin Barrier Repair & Resilience Programme | Ware, Hertfordshire",
+      description: "Discover ULANDA\u2019s Skin Barrier Repair & Resilience programme in Ware, Hertfordshire. Our nurse-led signature restores barrier stability for sensitive, dehydrated or reactive skin \u2014 from proactive foundation-building in your 20s/30s to recovery in postpartum, perimenopause and menopause. Start with calm, resilient skin today.",
       canonical: "https://www.ulanda.co.uk/signature/skin-barrier-repair-recovery"
     },
     content: {
       whatThisIs: {
         title: "What This Signature Is",
         paragraphs: [
-          "The Skin Barrier Repair & Recovery Signature is designed for clients whose skin feels compromised, unpredictable or constantly \u201con edge.\u201d Whether your skin is reacting to skincare, hormonal change, stress, seasonal shifts or previous aesthetic treatments, this Signature focuses on restoring stability before correction.",
+          "The Skin Barrier Repair & Resilience Signature is designed for women whose skin feels compromised, unpredictable or constantly \u201con edge.\u201d Whether your skin is reacting to skincare, hormonal change, stress, seasonal shifts or previous aesthetic treatments, this Signature focuses on restoring stability before correction.",
           "At ULANDA, we treat barrier dysfunction as a clinical priority. Because when the barrier is damaged, the skin becomes more inflamed, more dehydrated, more reactive, and far more prone to pigmentation, redness and premature ageing.",
           "This Signature provides a structured recovery programme that helps your skin regain comfort, strength and long-term resilience."
         ],
@@ -182,7 +183,7 @@ export const signaturePathways = [
         closing: "You will never be pressured into treatments \u2014 recommendations are based only on what your skin is ready for."
       },
       whyExists: {
-        title: "Why Skin Barrier Repair & Recovery Exists",
+        title: "Why Skin Barrier Repair & Resilience Exists",
         paragraphs: [
           "Barrier dysfunction is not just \u201cdry skin.\u201d It is a breakdown in the skin\u2019s ability to retain hydration, regulate inflammation, and defend itself from irritation, allergens, bacteria and environmental stressors.",
           "When the barrier is compromised, the skin becomes more reactive and unstable. This often presents as stinging, burning, persistent redness, sensitivity to products, flaky texture, hormonal dryness, acne flare-ups or inflammation that doesn\u2019t fully settle.",
@@ -212,11 +213,12 @@ export const signaturePathways = [
           "eczema-like skin behaviour patterns (without diagnosis)",
           "skin that feels stuck despite trying multiple routines"
         ],
-        note: "If you\u2019re searching for a nurse-led skin clinic in Ware or barrier repair treatments in Hertfordshire, this Signature is designed for women who want clinical clarity and long-term results."
+        proactiveNote: "It is particularly suitable for women in their 20s and early 30s who want to build biological foundation and long-term resilience proactively, so future life-stage transitions feel more manageable.",
+        note: "If you\u2019re searching for a nurse-led skin clinic in Ware or barrier repair treatments in Hertfordshire, this Signature is designed for women who want clinical clarity and lasting results."
       },
       overlappingConditions: {
         intro: "Skin rarely behaves in isolation. Barrier breakdown often triggers secondary issues such as pigmentation, flushing, acne-like breakouts and accelerated ageing patterns. This is why ULANDA treats patterns, not isolated symptoms.",
-        title: "Skin Barrier Repair & Recovery Often Overlaps With:",
+        title: "Skin Barrier Repair & Resilience Often Overlaps With:",
         items: [
           "dehydrated skin and chronic dryness patterns",
           "sensitive skin and redness flare-ups",
@@ -264,13 +266,14 @@ export const signaturePathways = [
         closing: "These journal articles form part of ULANDA\u2019s authority layer and are designed to help you make informed, confident decisions about your skin journey."
       },
       homecare: {
-        description: "Barrier-compatible hydration and gentle barrier-supportive systems prescribed to stabilise skin before corrective treatments begin. Prescription homecare is integrated into your programme and adjusted at each review appointment."
+        description: "Barrier-compatible hydration and gentle barrier-supportive systems prescribed to stabilise skin before corrective treatments begin. Prescription homecare is integrated into your programme and adjusted at each review appointment.",
+        link: { label: "View prescription skincare at ULANDA \u2192", url: "/prescription-skincare" }
       },
       bestNextStep: {
         title: "Your Best Next Step",
         description: "The most accurate way to begin is with a Advanced Skin Health Consultation.",
         detail: "This structured nurse-led assessment allows us to understand your barrier stability, inflammation triggers, hormonal influences and skin behaviour patterns.",
-        closing: "From there, we can confirm whether Skin Barrier Repair & Recovery is the correct Signature for you, and what sequencing your skin will respond to best.",
+        closing: "From there, we can confirm whether Skin Barrier Repair & Resilience is the correct Signature for you and what sequencing your skin will respond to best \u2014 whether you are building foundation in your 20s and 30s or addressing later-stage changes.",
         cta: {
           label: "Book Advanced Skin Health Consultation",
           url: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"

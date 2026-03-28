@@ -76,7 +76,7 @@ export default function Footer() {
                 <Link to="/signature" className="hover:text-primary transition-colors text-primary">Signature</Link>
               </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
-                <li><Link to="/signature/skin-barrier-repair-recovery" className="hover:text-primary transition-colors ">Skin Barrier Repair & Recovery</Link></li>
+                <li><Link to="/signature/skin-barrier-repair-recovery" className="hover:text-primary transition-colors ">Skin Barrier Repair & Resilience</Link></li>
                 <li><Link to="/signature/rosacea-redness-control" className="hover:text-primary transition-colors ">Rosacea & Redness Control</Link></li>
                 <li><Link to="/signature/menopause-skin-rebuild" className="hover:text-primary transition-colors ">Menopause Skin Rebuild</Link></li>
                 <li><Link to="/signature/photoaging-skin-architecture" className="hover:text-primary transition-colors ">Photoaging & Skin Architecture</Link></li>

@@ -342,7 +342,7 @@ export default function Navbar() {
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-72 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {[
                 {
-                  name: 'Skin Barrier Repair & Recovery',
+                  name: 'Skin Barrier Repair & Resilience',
                   path: '/signature/skin-barrier-repair-recovery',
                 },
                 {
@@ -640,7 +640,7 @@ export default function Navbar() {
                         onClick={() => setIsDrawerOpen(false)}
                         className="py-2 active:bg-secondary/20"
                       >
-                        Skin Barrier Repair & Recovery
+                        Skin Barrier Repair & Resilience
                       </Link>
                     </li>
                     <li>

@@ -3998,7 +3998,7 @@ export const treatments = {
         }
       },
       "skin-barrier-repair": {
-        "title": "Skin Barrier Repair & Recovery",
+        "title": "Skin Barrier Repair & Resilience",
         "description": "Repairing the skin barrier, calming inflammation and restoring comfort.",
         image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",
         placeholderUrl: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNraW4lMjBiYXJyaWVyfGVufDB8MXwwfHx8MA%3D%3D",

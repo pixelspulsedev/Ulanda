@@ -250,7 +250,7 @@ export const journalArticles = [
             title: "Primary Signature",
             content: [
               { type: "list", style: "check", items: [
-                { label: "Skin Barrier Repair & Recovery", text: "Structured stabilisation before any corrective treatment", link: "/signature/skin-barrier-repair-recovery" }
+                { label: "Skin Barrier Repair & Resilience", text: "Structured stabilisation before any corrective treatment", link: "/signature/skin-barrier-repair-recovery" }
               ]}
             ]
           },
@@ -273,7 +273,7 @@ export const journalArticles = [
         title: "Decision Logic Table",
         content: [
           { type: "table", headers: ["If your skin shows - ", "Likely driver", "Best first step"], rows: [
-            ["Treatments stop working quickly", "Barrier instability", "Skin Barrier Repair & Recovery Signature"],
+            ["Treatments stop working quickly", "Barrier instability", "Skin Barrier Repair & Resilience Signature"],
             ["Redness after mild procedures", "Active inflammation", "LED Therapy + barrier stabilisation"],
             ["Fillers not lasting", "Poor collagen environment", "Structured Advanced Skin Health Consultation"],
             ["Flare-ups after peels", "Over-exfoliation", "Active withdrawal + barrier repair"],
@@ -574,7 +574,7 @@ export const journalArticles = [
         content: [
           "Primary alignment:",
           { type: "list", style: "dict", items: [
-            { label: "Skin Barrier Repair & Recovery", text: "Structured stabilisation and barrier restoration", link: "/signature/skin-barrier-repair-recovery" }
+            { label: "Skin Barrier Repair & Resilience", text: "Structured stabilisation and barrier restoration", link: "/signature/skin-barrier-repair-recovery" }
           ]},
           "Overlap possibilities:",
           { type: "list", style: "dict", items: [
@@ -616,7 +616,7 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Signatures" },
           { type: "list", style: "dict", items: [
-            { label: "Skin Barrier Repair & Recovery", text: "Calm & Strengthen Signature", link: "/signature/skin-barrier-repair-recovery" },
+            { label: "Skin Barrier Repair & Resilience", text: "Calm & Strengthen Signature", link: "/signature/skin-barrier-repair-recovery" },
             { label: "Photoaging & Skin Architecture", text: "Hydrate & Rebalance Signature", link: "/signature/photoaging-skin-architecture" },
             { label: "Structural Skin Regeneration", text: "Age-Intelligent Signature", link: "/signature/structural-skin-regeneration" }
           ]},
@@ -915,7 +915,7 @@ export const journalArticles = [
         content: [
           "Primary Signature:",
           { type: "list", style: "dict", items: [
-            { label: "Skin Barrier Repair & Recovery", text: "Structured stabilisation and barrier restoration", link: "/signature/skin-barrier-repair-recovery" }
+            { label: "Skin Barrier Repair & Resilience", text: "Structured stabilisation and barrier restoration", link: "/signature/skin-barrier-repair-recovery" }
           ]},
           "Possible overlap:",
           { type: "list", style: "dict", items: [
@@ -930,7 +930,7 @@ export const journalArticles = [
         title: "Decision Logic Table",
         content: [
           { type: "table", headers: ["If your skin shows\u2026", "Likely driver", "Best first step"], rows: [
-            ["Burning with moisturiser", "Lipid depletion", "Skin Barrier Repair & Recovery Signature"],
+            ["Burning with moisturiser", "Lipid depletion", "Skin Barrier Repair & Resilience Signature"],
             ["Sudden redness", "Inflammatory overload", "LED Therapy + barrier stabilisation"],
             ["Flaky but sensitive", "Over-exfoliation", "Withdraw actives + Barrier Support Facial"],
             ["Tight shiny appearance", "Stratum corneum thinning", "Structured Advanced Skin Health Consultation"],
@@ -957,7 +957,7 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Signatures" },
           { type: "list", style: "dict", items: [
-            { label: "Skin Barrier Repair & Recovery", text: "Calm & Strengthen Signature", link: "/signature/skin-barrier-repair-recovery" },
+            { label: "Skin Barrier Repair & Resilience", text: "Calm & Strengthen Signature", link: "/signature/skin-barrier-repair-recovery" },
             { label: "Rosacea & Redness Control", text: "Stabilise & Soothe Signature", link: "/signature/rosacea-redness-control" },
             { label: "Structural Skin Regeneration", text: "Age-Intelligent Signature", link: "/signature/structural-skin-regeneration" }
           ]},
@@ -1255,7 +1255,7 @@ export const journalArticles = [
         content: [
           "Primary Signature:",
           { type: "list", style: "dict", items: [
-            { label: "Skin Barrier Repair & Recovery", text: "Structured stabilisation and barrier restoration", link: "/signature/skin-barrier-repair-recovery" }
+            { label: "Skin Barrier Repair & Resilience", text: "Structured stabilisation and barrier restoration", link: "/signature/skin-barrier-repair-recovery" }
           ]},
           "Possible overlap:",
           { type: "list", style: "dict", items: [
@@ -1270,7 +1270,7 @@ export const journalArticles = [
         title: "Decision Logic Table",
         content: [
           { type: "table", headers: ["If your skin shows\u2026", "Likely driver", "Best first step"], rows: [
-            ["Tight but oily", "Dehydration", "Skin Barrier Repair & Recovery Signature"],
+            ["Tight but oily", "Dehydration", "Skin Barrier Repair & Resilience Signature"],
             ["Rough and flaky consistently", "Dry skin type", "Lipid restoration assessment"],
             ["Fine dehydration lines", "Water loss", "Barrier Support Facial"],
             ["Congestion after heavy creams", "Misdiagnosed dehydration", "Structured Advanced Skin Health Consultation"],
@@ -1297,7 +1297,7 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Signatures" },
           { type: "list", style: "dict", items: [
-            { label: "Skin Barrier Repair & Recovery", text: "Calm & Strengthen Signature", link: "/signature/skin-barrier-repair-recovery" },
+            { label: "Skin Barrier Repair & Resilience", text: "Calm & Strengthen Signature", link: "/signature/skin-barrier-repair-recovery" },
             { label: "Menopause Skin Rebuild", text: "Hormone-Aware Signature", link: "/signature/menopause-skin-rebuild" },
             { label: "Structural Skin Regeneration", text: "Age-Intelligent Signature", link: "/signature/structural-skin-regeneration" }
           ]},
@@ -1603,7 +1603,7 @@ export const journalArticles = [
             content: [
               { type: "list", style: "dict", items: [
                 { label: "Rosacea & Redness Control", text: "Where redness is the primary inflammatory driver.", link: "/signature/rosacea-redness-control" },
-                { label: "Skin Barrier Repair & Recovery", text: "Where barrier instability is prolonging pigmentation.", link: "/signature/skin-barrier-repair-recovery" }
+                { label: "Skin Barrier Repair & Resilience", text: "Where barrier instability is prolonging pigmentation.", link: "/signature/skin-barrier-repair-recovery" }
               ]}
             ]
           }
@@ -1617,7 +1617,7 @@ export const journalArticles = [
             type: "table",
             headers: ["If your skin shows - ", "Likely driver", "Best first step"],
             rows: [
-              ["Dark spots after acne", "Post-inflammatory hyperpigmentation", "Skin Barrier Repair & Recovery Signature"],
+              ["Dark spots after acne", "Post-inflammatory hyperpigmentation", "Skin Barrier Repair & Resilience Signature"],
               ["Brown marks after redness", "Persistent inflammation", "LED Therapy + barrier stabilisation"],
               ["Pigment worsening after peel", "Premature correction", "Structured Advanced Skin Health Consultation"],
               ["Uneven tone with sensitivity", "Barrier instability", "Inflammation control first"],
@@ -1659,7 +1659,7 @@ export const journalArticles = [
               { type: "list", style: "dict", items: [
                 { label: "Photoaging & Skin Architecture", text: "Primary pathway for structured pigment correction.", link: "/signature/photoaging-skin-architecture" },
                 { label: "Rosacea & Redness Control", text: "For inflammation-dominant presentations.", link: "/signature/rosacea-redness-control" },
-                { label: "Skin Barrier Repair & Recovery", text: "Where barrier compromise is the primary driver.", link: "/signature/skin-barrier-repair-recovery" }
+                { label: "Skin Barrier Repair & Resilience", text: "Where barrier compromise is the primary driver.", link: "/signature/skin-barrier-repair-recovery" }
               ]}
             ]
           },
@@ -1956,7 +1956,7 @@ export const journalArticles = [
             title: "Primary Signature",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Skin Barrier Repair & Recovery", text: "Structured barrier stabilisation and inflammation control.", link: "/signature/skin-barrier-repair-recovery" }
+                { label: "Skin Barrier Repair & Resilience", text: "Structured barrier stabilisation and inflammation control.", link: "/signature/skin-barrier-repair-recovery" }
               ]}
             ]
           },
@@ -1980,7 +1980,7 @@ export const journalArticles = [
             type: "table",
             headers: ["If your skin shows - ", "Likely driver", "Best first step"],
             rows: [
-              ["Tightness after shower", "Hard water residue", "Skin Barrier Repair & Recovery Signature"],
+              ["Tightness after shower", "Hard water residue", "Skin Barrier Repair & Resilience Signature"],
               ["Increased redness", "Mineral-triggered inflammation", "LED Therapy + barrier stabilisation"],
               ["Dry but oily surface", "pH disruption", "Structured Advanced Skin Health Consultation"],
               ["Eczema flare-ups", "Barrier compromise", "Barrier Support Facial"],
@@ -2020,7 +2020,7 @@ export const journalArticles = [
             title: "Signatures",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Skin Barrier Repair & Recovery", text: "Primary pathway for barrier stabilisation.", link: "/signature/skin-barrier-repair-recovery" },
+                { label: "Skin Barrier Repair & Resilience", text: "Primary pathway for barrier stabilisation.", link: "/signature/skin-barrier-repair-recovery" },
                 { label: "Rosacea & Redness Control", text: "For inflammation-dominant presentations.", link: "/signature/rosacea-redness-control" },
                 { label: "Menopause Skin Rebuild", text: "Where hormonal changes compound environmental damage.", link: "/signature/menopause-skin-rebuild" }
               ]}
@@ -4661,7 +4661,7 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" },
+              { label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" },
               { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" }
             ]
           }
@@ -4769,7 +4769,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Rosacea & Redness Control, Skin Barrier Repair & Recovery and Menopause Skin Rebuild. Our approach ensures inflammation is stabilised before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Rosacea & Redness Control, Skin Barrier Repair & Resilience and Menopause Skin Rebuild. Our approach ensures inflammation is stabilised before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
       }
     ]
   },
@@ -4987,7 +4987,7 @@ export const journalArticles = [
         title: "Which ULANDA Signature Typically Aligns With This Concern?",
         content: [
           { type: "paragraph", text: "Primary Signature:" },
-          { type: "list", items: [{ label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }] },
+          { type: "list", items: [{ label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" }] },
           { type: "paragraph", text: "Possible overlap:" },
           {
             type: "list",
@@ -5009,7 +5009,7 @@ export const journalArticles = [
             headers: ["If your skin shows\u2026", "Likely driver", "Best first step"],
             rows: [
               ["Redness with heat", "Vascular instability", "Rosacea & Redness Control Signature"],
-              ["Burning with products", "Barrier compromise", "Skin Barrier Repair & Recovery Signature"],
+              ["Burning with products", "Barrier compromise", "Skin Barrier Repair & Resilience Signature"],
               ["Tight shiny texture", "Lipid depletion", "Barrier Support Facial"],
               ["Flushing during stress", "Neurovascular trigger", "Structured Advanced Skin Health Consultation"],
               ["Redness + stinging", "Mixed inflammation + barrier damage", "Stabilisation before correction"]
@@ -5100,7 +5100,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Skin Barrier Repair & Recovery, Rosacea & Redness Control and Menopause Skin Rebuild. Our approach ensures barrier stability and inflammation control before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Skin Barrier Repair & Resilience, Rosacea & Redness Control and Menopause Skin Rebuild. Our approach ensures barrier stability and inflammation control before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
       }
     ]
   },
@@ -5333,7 +5333,7 @@ export const journalArticles = [
             type: "list",
             items: [
               { label: "Rosacea & Redness Control", link: "/signature/rosacea-redness-control" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
+              { label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -5348,7 +5348,7 @@ export const journalArticles = [
             type: "table",
             headers: ["If your skin shows\u2026", "Likely driver", "Best first step"],
             rows: [
-              ["Brown marks after redness", "Post-inflammatory hyperpigmentation", "Skin Barrier Repair & Recovery Signature"],
+              ["Brown marks after redness", "Post-inflammatory hyperpigmentation", "Skin Barrier Repair & Resilience Signature"],
               ["Pigment worsening after peel", "Active inflammation", "Structured Advanced Skin Health Consultation"],
               ["Dark spots after acne", "Inflammatory trigger", "Inflammation control before correction"],
               ["Redness + pigment overlap", "Barrier instability", "LED Therapy + stabilisation"],
@@ -5440,7 +5440,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Rosacea & Redness Control and Skin Barrier Repair & Recovery. Our approach ensures inflammation is stabilised before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Rosacea & Redness Control and Skin Barrier Repair & Resilience. Our approach ensures inflammation is stabilised before introducing advanced treatments such as LED therapy, chemical peels and structural hydration support."
       }
     ]
   },
@@ -5687,7 +5687,7 @@ export const journalArticles = [
             type: "list",
             items: [
               { label: "Rosacea & Redness Control", link: "/signature/rosacea-redness-control" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
+              { label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -5702,7 +5702,7 @@ export const journalArticles = [
             type: "table",
             headers: ["If your skin shows\u2026", "Likely driver", "Best first step"],
             rows: [
-              ["Brown marks after acne", "Post-inflammatory hyperpigmentation", "Skin Barrier Repair & Recovery Signature"],
+              ["Brown marks after acne", "Post-inflammatory hyperpigmentation", "Skin Barrier Repair & Resilience Signature"],
               ["Pigment after redness", "Inflammatory trigger", "Rosacea & Redness Control Signature"],
               ["Uneven tone + sensitivity", "Barrier instability", "Barrier Support Facial"],
               ["Pigment deepening midlife", "Hormonal amplification", "Structured Advanced Skin Health Consultation"],
@@ -5795,7 +5795,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Rosacea & Redness Control and Skin Barrier Repair & Recovery. Our approach ensures inflammation and barrier instability are stabilised before advanced pigment correction treatments are introduced."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Rosacea & Redness Control and Skin Barrier Repair & Resilience. Our approach ensures inflammation and barrier instability are stabilised before advanced pigment correction treatments are introduced."
       }
     ]
   },
@@ -6046,7 +6046,7 @@ export const journalArticles = [
             type: "list",
             items: [
               { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
+              { label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -6065,7 +6065,7 @@ export const journalArticles = [
               ["Isolated dark spots", "UV-induced sun damage", "Photoaging & Skin Architecture Signature"],
               ["Pigment worsening with stress", "Inflammation-driven", "Stabilisation before correction"],
               ["Brown patches after pregnancy", "Hormonal influence", "Structured Advanced Skin Health Consultation"],
-              ["Pigment recurring after peel", "Barrier instability", "Skin Barrier Repair & Recovery Signature"]
+              ["Pigment recurring after peel", "Barrier instability", "Skin Barrier Repair & Resilience Signature"]
             ]
           }
         ]
@@ -6154,7 +6154,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Menopause Skin Rebuild and Skin Barrier Repair & Recovery. Our approach ensures pigmentation is correctly identified and stabilised before introducing advanced corrective treatments."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Menopause Skin Rebuild and Skin Barrier Repair & Resilience. Our approach ensures pigmentation is correctly identified and stabilised before introducing advanced corrective treatments."
       }
     ]
   },
@@ -6391,7 +6391,7 @@ export const journalArticles = [
             type: "list",
             items: [
               { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
+              { label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -6499,7 +6499,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Structural Skin Regeneration and Skin Barrier Repair & Recovery. Our approach ensures UV-induced structural change is stabilised before advanced corrective treatments are introduced."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Structural Skin Regeneration and Skin Barrier Repair & Resilience. Our approach ensures UV-induced structural change is stabilised before advanced corrective treatments are introduced."
       }
     ]
   },
@@ -6734,7 +6734,7 @@ export const journalArticles = [
             type: "list",
             items: [
               { label: "Menopause Skin Rebuild", link: "/signature/menopause-skin-rebuild" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
+              { label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -6749,7 +6749,7 @@ export const journalArticles = [
             type: "table",
             headers: ["If your skin shows\u2026", "Likely driver", "Best first step"],
             rows: [
-              ["Pigment fading then returning", "Persistent inflammation", "Skin Barrier Repair & Recovery Signature"],
+              ["Pigment fading then returning", "Persistent inflammation", "Skin Barrier Repair & Resilience Signature"],
               ["Dark spots worsening in midlife", "Hormonal melanin dysregulation", "Menopause Skin Rebuild Signature"],
               ["Pigment after redness", "Inflammation-driven pigmentation", "Stabilisation before correction"],
               ["Pigment deepening after peel", "Barrier instability", "Barrier Support Facial"],
@@ -6842,7 +6842,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Menopause Skin Rebuild and Skin Barrier Repair & Recovery. Our approach ensures inflammation and hormonal triggers are stabilised before advanced pigment correction treatments are introduced."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Photoaging & Skin Architecture, Menopause Skin Rebuild and Skin Barrier Repair & Resilience. Our approach ensures inflammation and hormonal triggers are stabilised before advanced pigment correction treatments are introduced."
       }
     ]
   },
@@ -7774,7 +7774,7 @@ export const journalArticles = [
             type: "list",
             items: [
               { label: "Structural Skin Regeneration", link: "/signature/structural-skin-regeneration" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
+              { label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -7882,7 +7882,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Structural Skin Regeneration and Skin Barrier Repair & Recovery. Our approach ensures hormonal skin changes are stabilised before introducing advanced treatments such as Hydrobooster, collagen stimulation and renewal therapies."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Structural Skin Regeneration and Skin Barrier Repair & Resilience. Our approach ensures hormonal skin changes are stabilised before introducing advanced treatments such as Hydrobooster, collagen stimulation and renewal therapies."
       }
     ]
   },
@@ -8126,7 +8126,7 @@ export const journalArticles = [
             type: "list",
             items: [
               { label: "Photoaging & Skin Architecture", link: "/signature/photoaging-skin-architecture" },
-              { label: "Skin Barrier Repair & Recovery", link: "/signature/skin-barrier-repair-recovery" }
+              { label: "Skin Barrier Repair & Resilience", link: "/signature/skin-barrier-repair-recovery" }
             ]
           }
         ]
@@ -8233,7 +8233,7 @@ export const journalArticles = [
       {
         type: "shoutout",
         title: "ULANDA  -  Ware SG12, Hertfordshire",
-        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Photoaging & Skin Architecture and Skin Barrier Repair & Recovery. Our approach ensures hormonal pigmentation is stabilised before introducing advanced renewal and structural treatments."
+        content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Photoaging & Skin Architecture and Skin Barrier Repair & Resilience. Our approach ensures hormonal pigmentation is stabilised before introducing advanced renewal and structural treatments."
       }
     ]
   }

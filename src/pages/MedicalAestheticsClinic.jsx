@@ -219,7 +219,7 @@ const skinConcerns = [
 ];
 
 const signatureProgrammes = [
-  { title: "Skin Barrier Repair & Recovery", url: "/signature/skin-barrier-repair-recovery" },
+  { title: "Skin Barrier Repair & Resilience", url: "/signature/skin-barrier-repair-recovery" },
   { title: "Rosacea & Redness Control", url: "/signature/rosacea-redness-control" },
   { title: "Menopause Skin Rebuild", url: "/signature/menopause-skin-rebuild" },
   { title: "Photoaging & Skin Architecture", url: "/signature/photoaging-skin-architecture" },
