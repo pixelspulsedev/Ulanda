@@ -11,18 +11,18 @@ export const conditions = [
     hero: {
       title: "Dehydration, Dullness &",
       highlight: "Skin Recovery",
-      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
       description: [
-        "Dehydrated, dull or tired skin is rarely â€œjust dryness.â€",
+        "Dehydrated, dull or tired skin is rarely “just dryness.”",
         "For many clients, it is the result of a weakened skin barrier, chronic water loss, stress-driven inflammation, hormonal transition, or recovery fatigue after over-exfoliation, active skincare misuse, or aesthetic treatments.",
         "At ULANDA, we treat dehydration and dullness as a skin behaviour state, not a surface symptom. Our approach is structured, nurse-led and designed to rebuild hydration retention, restore barrier stability, and bring the skin back into a calm, resilient baseline before progressing into advanced regeneration.",
-        "If your skin feels tight, rough, flaky, reactive or permanently â€œstuck,â€ this is the starting point for safe recovery, glow restoration and long-term skin resilience."
+        "If your skin feels tight, rough, flaky, reactive or permanently “stuck,” this is the starting point for safe recovery, glow restoration and long-term skin resilience."
       ],
       image: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1677776518862-15fc946e5e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVsbCUyMHNraW58ZW58MHwxfDB8fHww"
     },
     science_removed: {
-      title: "Why Skin Becomes Dehydrated & Dull â€”",
+      title: "Why Skin Becomes Dehydrated & Dull —",
       highlight: "The Real Science",
       description: "Dehydration is a sign of barrier dysfunction, often caused by:",
       items: [
@@ -162,19 +162,19 @@ export const conditions = [
     hero: {
       title: "Menopause &",
       highlight: "Hormonal Skin Change",
-      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
       description: [
-        "Perimenopause, Menopause & Postmenopause Transform the Skin â€” ULANDA Restores Balance, Structure & Radiance Through Regeneration.",
-        "From the mid-30s onward, hormone levels start to shift â€” and the skin often shows the signs long before women feel them internally.",
-        "Many clients tell us: â€œMy skin changed suddenly and nothing I try works anymore.â€ â€œMy old skincare routine stopped working overnight.â€ â€œI look tired even when Iâ€™m rested.â€",
-        "This is the reality of oestrogen, progesterone, collagen and barrier decline â€” not bad skincare.",
+        "Perimenopause, Menopause & Postmenopause Transform the Skin — ULANDA Restores Balance, Structure & Radiance Through Regeneration.",
+        "From the mid-30s onward, hormone levels start to shift — and the skin often shows the signs long before women feel them internally.",
+        "Many clients tell us: “My skin changed suddenly and nothing I try works anymore.” “My old skincare routine stopped working overnight.” “I look tired even when I’m rested.”",
+        "This is the reality of oestrogen, progesterone, collagen and barrier decline — not bad skincare.",
         "At ULANDA, menopause skincare is NOT anti-wrinkle treatments. It is cellular regeneration, dermal rebuilding, internal support, and hormone-aware treatment mapping."
       ],
       image: "https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1664910040910-ae21f1294c3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     science_removed: {
-      title: "Why Menopause Changes the Skin â€”",
+      title: "Why Menopause Changes the Skin —",
       highlight: "The Scientific Truth",
       description: "When oestrogen declines, the skin loses:",
       items: [
@@ -204,7 +204,7 @@ export const conditions = [
           description: 'Creating jawline softening, jowls, neck laxity, mid-face flattening.',
         },
       ],
-      footer: "Menopause = the most dramatic skin shift of a womanâ€™s life. But it is also the most correctable â€” with regeneration."
+      footer: "Menopause = the most dramatic skin shift of a woman’s life. But it is also the most correctable — with regeneration."
     },
     subConditions: {
       titlePrefix: "Conditions We Treat Under",
@@ -262,7 +262,7 @@ export const conditions = [
       title: "The ULANDA Regenerative Approach to",
       highlight: "Menopause Skin",
       titleSuffix: "",
-      description: "We do not â€œpatchâ€ symptoms â€” we rebuild the whole system. Menopause changes collagen, elastin, hydration, fat distribution, bone support, healing speed, inflammation, pigmentation, metabolism, energy, and immunity. So ULANDA treats menopause skin through multi-layer regeneration:",
+      description: "We do not “patch” symptoms — we rebuild the whole system. Menopause changes collagen, elastin, hydration, fat distribution, bone support, healing speed, inflammation, pigmentation, metabolism, energy, and immunity. So ULANDA treats menopause skin through multi-layer regeneration:",
       items: [
         {
           highlight: "Renew",
@@ -312,7 +312,7 @@ export const conditions = [
           constent: ['Hormone shifts affect the skin more than any serum or cream.', 'When hormones shift internally, external results last longer with internal support.'],
           includes: [
             'NAD+ IV (collagen + energy)',
-            'Womenâ€™s Longevity IV (metabolism + inflammation + nutrients)',
+            'Women’s Longevity IV (metabolism + inflammation + nutrients)',
             'Glutathione IV (pigmentation + detox)',
             'Vitamin D IM',
             'B12 IM',
@@ -358,18 +358,18 @@ export const conditions = [
     hero: {
       title: "Redness, Sensitivity &",
       highlight: "Reactive Skin",
-      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
       description: [
-        "Redness, flushing and reactive skin are often signs of chronic inflammation and barrier instability â€” not simply â€œsensitive skin.â€",
+        "Redness, flushing and reactive skin are often signs of chronic inflammation and barrier instability — not simply “sensitive skin.”",
         "Many clients experience stinging, burning, heat flare-ups, persistent redness, rosacea-type patterns or unpredictable reactions to products that previously felt fine.",
-        "At ULANDA, we treat redness and sensitivity as a skin stability issue that requires clinical assessment, careful sequencing and barrier-first planning. Our nurse-led approach focuses on calming inflammatory triggers, restoring hydration balance and strengthening the skinâ€™s protective function before introducing active correction treatments.",
-        "If your skin is easily irritated, inflamed or constantly flaring, this category is designed to guide you toward safe stabilisation and long-term control â€” without over-treatment or guesswork."
+        "At ULANDA, we treat redness and sensitivity as a skin stability issue that requires clinical assessment, careful sequencing and barrier-first planning. Our nurse-led approach focuses on calming inflammatory triggers, restoring hydration balance and strengthening the skin’s protective function before introducing active correction treatments.",
+        "If your skin is easily irritated, inflamed or constantly flaring, this category is designed to guide you toward safe stabilisation and long-term control — without over-treatment or guesswork."
       ],
       image: "https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1664203068248-456f24b39e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluZSUyMExpbmVzJTIwJTI2JTIwV3JpbmtsZXN8ZW58MHwxfDB8fHww"
     },
     science_removed: {
-      title: "Why Skin Becomes Reactive â€”",
+      title: "Why Skin Becomes Reactive —",
       highlight: "The Real Science",
       description: "Reactive skin is a sign that your skin's alarm system is over-sensitive.",
       items: [
@@ -491,20 +491,20 @@ export const conditions = [
     hero: {
       title: "Pigmentation, Melasma &",
       highlight: "Uneven Tone",
-      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
       description: [
-        "Hyperpigmentation, Melasma, Uneven Tone & Dark Marks â€” Treated Through Regeneration, Not Harsh Correction.",
-        "Pigmentation is one of the most complex skin concerns â€” and one of the easiest to treat incorrectly.",
-        "Many clients come to ULANDA after years of harsh peels, ineffective lasers, high-strength acids, steroid creams or over-the-counter brightening productsâ€¦ only to discover their pigmentation came back darker, deeper, or more stubborn.",
-        "Why? Because pigmentation isnâ€™t simply a â€œcolourâ€ issue â€” itâ€™s a cellular regulation issue, driven by inflammation, hormones, sun exposure, melanocyte behaviour, and skin barrier health.",
+        "Hyperpigmentation, Melasma, Uneven Tone & Dark Marks — Treated Through Regeneration, Not Harsh Correction.",
+        "Pigmentation is one of the most complex skin concerns — and one of the easiest to treat incorrectly.",
+        "Many clients come to ULANDA after years of harsh peels, ineffective lasers, high-strength acids, steroid creams or over-the-counter brightening products… only to discover their pigmentation came back darker, deeper, or more stubborn.",
+        "Why? Because pigmentation isn’t simply a “colour” issue — it’s a cellular regulation issue, driven by inflammation, hormones, sun exposure, melanocyte behaviour, and skin barrier health.",
         "At ULANDA, we treat pigmentation through regeneration, repair and hormonal-awareness, not aggressive destruction that worsens sensitivity."
       ],
       image: "/assets/img/conditions/Uneven tone.webp"
     },
     science_removed: {
-      title: "Why Pigmentation Happens â€”",
+      title: "Why Pigmentation Happens —",
       highlight: "The Real Science",
-      description: "Pigmentation is produced by melanocytes â€” specialised cells that create melanin. When these cells become overstimulated or inflamed, they produce too much melanin, causing patches, dark marks, uneven tone, â€œmottledâ€ skin, melasma patterns.",
+      description: "Pigmentation is produced by melanocytes — specialised cells that create melanin. When these cells become overstimulated or inflamed, they produce too much melanin, causing patches, dark marks, uneven tone, “mottled” skin, melasma patterns.",
       items: [
         {
             number: '01',
@@ -537,7 +537,7 @@ export const conditions = [
             description: 'Dark marks left after injury or irritation.',
         },
         ],
-        footer: "Pigmentation can worsen with the wrong treatment â€” especially in women 30+ experiencing hormonal changes. Thatâ€™s why ULANDA focuses on calming, regulating and regenerating, not stripping or burning."
+        footer: "Pigmentation can worsen with the wrong treatment — especially in women 30+ experiencing hormonal changes. That’s why ULANDA focuses on calming, regulating and regenerating, not stripping or burning."
     },
     subConditions: {
         titlePrefix: "Conditions We Treat Under",
@@ -595,7 +595,7 @@ export const conditions = [
         title: "The ULANDA Regenerative Approach to",
         highlight: "Pigmentation",
         titleSuffix: "",
-        description: "Pigmentation is a sign of disturbance â€” not something to be attacked. Many clinics over-correct pigmentation, causing rebound pigmentation, skin thinning, sensitivity, chronic inflammation, melasma flare-ups, and long-term damage. ULANDAâ€™s model is different. We treat pigmentation at every layer of the skin:",
+        description: "Pigmentation is a sign of disturbance — not something to be attacked. Many clinics over-correct pigmentation, causing rebound pigmentation, skin thinning, sensitivity, chronic inflammation, melasma flare-ups, and long-term damage. ULANDA’s model is different. We treat pigmentation at every layer of the skin:",
         items: [
         {
             highlight: "Renew",
@@ -615,7 +615,7 @@ export const conditions = [
         {
             highlight: "Restore",
             titleSuffix: "(Structural & Dermal Renewal)",
-            constent: ['Pigmented skin looks worse when collagen is low â€” restoring the dermal matrix improves clarity and texture.'],
+            constent: ['Pigmented skin looks worse when collagen is low — restoring the dermal matrix improves clarity and texture.'],
             includes: [
             'Biostimulators',
             'Threads (selected cases)',
@@ -642,7 +642,7 @@ export const conditions = [
             titleSuffix: "(Internal Balance for Pigmentation Control)",
             constent: ['Hormonal + inflammatory triggers often sit at the root of pigmentation.', 'Hormonal pigmentation cannot be managed without internal stability.'],
             includes: [
-            'Womenâ€™s Longevity IV',
+            'Women’s Longevity IV',
             'Glutathione IV (master antioxidant for pigment regulation)',
             'Vitamin D IM',
             'NAD+ IV',
@@ -688,20 +688,20 @@ export const conditions = [
     hero: {
       title: "Under-Eye Concerns",
       highlight: "(Dark Circles, Hollows & Fragility)",
-      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
       description: [
-        "The delicate eye area is the first place to show ageing, stress and hormonal change â€” ULANDA restores it through true regeneration, not heavy filler.",
+        "The delicate eye area is the first place to show ageing, stress and hormonal change — ULANDA restores it through true regeneration, not heavy filler.",
         "The eye area is unique. Its skin is thinner, more fragile, and more reactive than anywhere else on the face.",
         "This makes it the first area to show: dark circles, crepiness, hollowness, pigmentation, puffiness, fine lines, early sagging.",
-        "But also the easiest place to over-treat or treat incorrectly. Many women arrive at ULANDA after being told: 'You just need filler', 'Nothing can be done for dark circles', 'Itâ€™s just genetics', 'Try a heavier eye cream', 'We can laser it'.",
-        "The truth: The under-eye area requires the most careful, regenerative, biologically intelligent treatment strategy â€” not heavy correction.",
+        "But also the easiest place to over-treat or treat incorrectly. Many women arrive at ULANDA after being told: 'You just need filler', 'Nothing can be done for dark circles', 'It’s just genetics', 'Try a heavier eye cream', 'We can laser it'.",
+        "The truth: The under-eye area requires the most careful, regenerative, biologically intelligent treatment strategy — not heavy correction.",
         "This is why ULANDA specialises in cellular & structural under-eye regeneration, combining PN, PRP, microneedling, boosters, threads and internal support to rebuild the tissues safely and naturally."
       ],
       image: "/assets/img/conditions/eye-area-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science_removed: {
-      title: "Why the Under-Eye Area Ages Faster â€”",
+      title: "Why the Under-Eye Area Ages Faster —",
       highlight: "The Real Science",
       description: "Science explains every under-eye concern:",
       items: [
@@ -713,17 +713,17 @@ export const conditions = [
         {
           number: '02',
           title: 'Poor Circulation',
-          description: 'This area naturally has slower blood flow â†’ dark circles, dullness, shadowing.',
+          description: 'This area naturally has slower blood flow → dark circles, dullness, shadowing.',
         },
         {
           number: '03',
           title: 'Faster Fat Pad Descent',
-          description: 'Ageing, hormones, and weight changes shift the under-eye fat pads â†’ hollowness, lines, tired appearance.',
+          description: 'Ageing, hormones, and weight changes shift the under-eye fat pads → hollowness, lines, tired appearance.',
         },
         {
           number: '04',
           title: 'High Movement',
-          description: 'Blinking + facial expression = mechanical stress â†’ fine lines.',
+          description: 'Blinking + facial expression = mechanical stress → fine lines.',
         },
         {
           number: '05',
@@ -733,7 +733,7 @@ export const conditions = [
         {
           number: '06',
           title: 'Barrier Fragility',
-          description: 'The eye area becomes irritated easily â†’ inflammation â†’ darkening.',
+          description: 'The eye area becomes irritated easily → inflammation → darkening.',
         },
       ],
       footer: "This is why creams rarely work, and why ULANDA focuses on deep and gentle regeneration."
@@ -782,7 +782,7 @@ export const conditions = [
         {
           title: "Dark Circles",
           highlight: "(Pigment / Vascular)",
-          description: "Brown (pigment) or Blue/Purple (vascular) darkness. Treated based on cause â€” not just covering it up.",
+          description: "Brown (pigment) or Blue/Purple (vascular) darkness. Treated based on cause — not just covering it up.",
           text: "Best treatments: Under-Eye Blueprint, LED, Peels (Pigment).",
           image: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww",
           placeholderUrl: "https://images.unsplash.com/photo-1612888295565-ef89a91e0afb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGV5ZSUyMGNpcmNsZXN8ZW58MHwxfDB8fHww",
@@ -794,7 +794,7 @@ export const conditions = [
       title: "The ULANDA Regenerative Approach to",
       highlight: "the Eye Area",
       titleSuffix: "",
-      description: "The most delicate area needs the most advanced regenerative science. Under-eye skin cannot be â€œfilled away.â€ It must be rebuilt. ULANDA uses a layered, precision strategy:",
+      description: "The most delicate area needs the most advanced regenerative science. Under-eye skin cannot be “filled away.” It must be rebuilt. ULANDA uses a layered, precision strategy:",
       items: [
         {
           highlight: "Renew",
@@ -849,7 +849,7 @@ export const conditions = [
             'B12 IM',
             'Hydration IV',
             'Vitamin D IM',
-            'Womenâ€™s Longevity IV',
+            'Women’s Longevity IV',
           ],
           image: '/assets/img/conditions/eye-area/pathway_4.jpg',
         }
@@ -889,10 +889,10 @@ export const conditions = [
     hero: {
       title: "Body Skin &",
       highlight: "Structural Conditions",
-      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
       description: [
-        "Loose skin, cellulite, stretch marks or postpartum changes? ULANDA restores firmness, elasticity and contour through true regeneration â€” not quick fixes.",
-        "Body concerns are among the most misunderstood areas in aesthetics. Most women are told: 'Just do more gym', 'Try a firming cream', 'Lose more weight', 'Nothing helps cellulite', 'Itâ€™s just ageing'.",
+        "Loose skin, cellulite, stretch marks or postpartum changes? ULANDA restores firmness, elasticity and contour through true regeneration — not quick fixes.",
+        "Body concerns are among the most misunderstood areas in aesthetics. Most women are told: 'Just do more gym', 'Try a firming cream', 'Lose more weight', 'Nothing helps cellulite', 'It’s just ageing'.",
         "But none of these address the real causes: collagen decline, connective tissue changes, hormonal shifts and structural weakening.",
         "At ULANDA, we specialise in regenerative body treatments that rebuild strength, elasticity and smoothness from the cellular and connective tissue levels, creating natural and long-lasting improvements.",
         "This category covers the four major body concerns most common in women 30+, postpartum, perimenopause and menopause."
@@ -901,7 +901,7 @@ export const conditions = [
       placeholderUrl: "https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science_removed: {
-      title: "Why Body Skin Changes Happen â€”",
+      title: "Why Body Skin Changes Happen —",
       highlight: "The Real Science",
       description: "The body ages differently from the face. It experiences:",
       items: [
@@ -913,7 +913,7 @@ export const conditions = [
         {
           number: '02',
           title: 'Hormonal shifts',
-          description: 'Perimenopause & menopause reduce collagen, elastin, and hydration â†’ worse laxity + cellulite + stretch marks.',
+          description: 'Perimenopause & menopause reduce collagen, elastin, and hydration → worse laxity + cellulite + stretch marks.',
         },
         {
           number: '03',
@@ -923,7 +923,7 @@ export const conditions = [
         {
           number: '04',
           title: 'Fat pad fluctuations',
-          description: 'From weight loss, pregnancy or hormonal changes â†’ structure changes â†’ sagging or dimpling.',
+          description: 'From weight loss, pregnancy or hormonal changes → structure changes → sagging or dimpling.',
         },
         {
           number: '05',
@@ -946,7 +946,7 @@ export const conditions = [
         {
           title: "Stretch Marks",
           highlight: "(Striae)",
-          description: "Collagen tears deep in the dermis â€” not a surface issue. Needs regenerative dermal repair, not creams.",
+          description: "Collagen tears deep in the dermis — not a surface issue. Needs regenerative dermal repair, not creams.",
           text: "Best solutions: Structural Skin Regeneration Programme.",
           image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
           placeholderUrl: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
@@ -1045,7 +1045,7 @@ export const conditions = [
             'Glutathione IV',
             'Hydration IV',
             'Vitamin D IM',
-            'Womenâ€™s Longevity IV',
+            'Women’s Longevity IV',
             'Medical weight management',
           ],
           image: '/assets/img/conditions/body-skin-structural/pathway_4.jpg',
@@ -1073,7 +1073,7 @@ export const conditions = [
       title: "Start Your",
       highlight: "Body Regeneration",
       titleSuffix: "Consultation",
-      description: "Smooth, firm and restore your bodyâ€™s natural contours with true regenerative medicine.",
+      description: "Smooth, firm and restore your body’s natural contours with true regenerative medicine.",
       buttonText: "Book Body Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
@@ -1087,17 +1087,17 @@ export const conditions = [
     hero: {
       title: "Acne, Breakouts &",
       highlight: "Texture Irregularity",
-      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
       description: [
         "Acne is not just a teenage issue, and texture issues often persist long after breakouts have cleared.",
         "Whether it is hormonal congestion, enlarged pores, rough texture or scarring, these conditions are signs of inflammation and barrier dysfunction.",
-        "At ULANDA, we move beyond harsh scrubbing or drying creams. We treat the root causeâ€”calming inflammation, regulating oil, and rebuilding the skinâ€™s structure for long-term clarity and smoothness."
+        "At ULANDA, we move beyond harsh scrubbing or drying creams. We treat the root cause—calming inflammation, regulating oil, and rebuilding the skin’s structure for long-term clarity and smoothness."
       ],
       image: "https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D",
       placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724834-5899e12a06f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjB0ZXh0dXJlfGVufDB8MXwwfHx8MA%3D%3D"
     },
     science_removed: {
-      title: "Why Breakouts & Texture Persist â€”",
+      title: "Why Breakouts & Texture Persist —",
       highlight: "The Real Science",
       description: "Clear skin relies on three things: shedding dead cells, regulating oil, and controlling inflammation. When these fail, you see:",
       items: [
@@ -1188,8 +1188,8 @@ export const conditions = [
     pathways_removed: {
       title: "How ULANDA",
       highlight: "Reverses Ageing",
-      titleSuffix: "â€” The Regenerative Pathways",
-      description: "ULANDAâ€™s anti-ageing philosophy is simple: Ageing is multi-layered â€” so solutions must be multi-layered too. Your results come from combining therapies across our four pillars:",
+      titleSuffix: "— The Regenerative Pathways",
+      description: "ULANDA’s anti-ageing philosophy is simple: Ageing is multi-layered — so solutions must be multi-layered too. Your results come from combining therapies across our four pillars:",
       items: [
         {
           highlight: "Refresh",
@@ -1226,7 +1226,7 @@ export const conditions = [
       ]
     },
     decades: {
-      title: "Ageing by Decade â€”",
+      title: "Ageing by Decade —",
       highlight: "What Your Skin Needs",
       items: [
         {
@@ -1274,7 +1274,7 @@ export const conditions = [
       title: "Start Your",
       highlight: "Regenerative Ageing",
       titleSuffix: "Consultation",
-      description: "Reverse visible ageing at every layer â€” cellular, dermal, structural and internal.",
+      description: "Reverse visible ageing at every layer — cellular, dermal, structural and internal.",
       buttonText: "Book Your Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
@@ -1288,19 +1288,19 @@ export const conditions = [
     hero: {
       title: "Internal Wellness",
       highlight: "Conditions",
-      subtitle: "Ware â€¢ Hertford â€¢ SG12 â€¢ Hertfordshire",
+      subtitle: "Ware • Hertford • SG12 • Hertfordshire",
       description: [
-        "When Your Internal Health Shifts, Your Skin, Energy & Confidence Shift With It â€” ULANDA Restores Balance From Within.",
-        "At ULANDA, we take a regenerative, whole-woman approach. Your skin doesnâ€™t age in isolation â€” it reflects whatâ€™s happening inside your body: Hormonal shifts, Stress, Nutrient depletion, Low immunity, Low energy, Metabolic slowdown.",
+        "When Your Internal Health Shifts, Your Skin, Energy & Confidence Shift With It — ULANDA Restores Balance From Within.",
+        "At ULANDA, we take a regenerative, whole-woman approach. Your skin doesn’t age in isolation — it reflects what’s happening inside your body: Hormonal shifts, Stress, Nutrient depletion, Low immunity, Low energy, Metabolic slowdown.",
         "When these internal systems change, your skin loses its ability to repair, regenerate, and stay radiant.",
-        "This is why the Radiate Wellness pillar is the foundation that supports every ULANDA treatment â€” from PN and biostimulators to microneedling and body contouring.",
+        "This is why the Radiate Wellness pillar is the foundation that supports every ULANDA treatment — from PN and biostimulators to microneedling and body contouring.",
         "When your internal health is optimised, your aesthetic results: Last longer, Look more natural, Heal faster, Build more collagen, Transform more visibly."
       ],
       image: "/assets/img/conditions/internal-wellness-hero.webp",
       placeholderUrl: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     science_removed: {
-      title: "Why Internal Wellness Matters for Regeneration â€”",
+      title: "Why Internal Wellness Matters for Regeneration —",
       highlight: "The Real Science",
       description: "The skin is a mirror of cellular health. If your:",
       items: [
@@ -1330,7 +1330,7 @@ export const conditions = [
           description: 'Cortisol breaks down collagen and accelerates ageing.',
         },
       ],
-      footer: "This is why your internal health must be supported before, during and after any facial or body regenerative treatment. ULANDAâ€™s Radiate Wellness pathway ensures your skin and body are working at their highest regenerative potential."
+      footer: "This is why your internal health must be supported before, during and after any facial or body regenerative treatment. ULANDA’s Radiate Wellness pathway ensures your skin and body are working at their highest regenerative potential."
     },
     subConditions: {
       titlePrefix: "Conditions We Treat Under",
@@ -1366,7 +1366,7 @@ export const conditions = [
         },
         {
           title: "Inflammation-Driven Ageing",
-          highlight: "(â€œInflammagingâ€)",
+          highlight: "(“Inflammaging”)",
           description: "Chronic low-grade inflammation accelerates collagen breakdown and weakens barrier function.",
           text: "Best treatments: Structural Skin Regeneration Programme.",
           image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
@@ -1395,9 +1395,9 @@ export const conditions = [
     },
     pathways_removed: {
       title: "How Internal Wellness Integrates With",
-      highlight: "ULANDAâ€™s Other Pathways",
+      highlight: "ULANDA’s Other Pathways",
       titleSuffix: "",
-      description: "This cross-integration is what makes ULANDAâ€™s regenerative approach unique in Hertfordshire.",
+      description: "This cross-integration is what makes ULANDA’s regenerative approach unique in Hertfordshire.",
       items: [
         {
           highlight: "Renew",
@@ -1443,7 +1443,7 @@ export const conditions = [
       highlight: "Hertfordshire",
       titleSuffix: "Women Choose ULANDA for Internal Wellness",
       items: [
-        'Womenâ€™s health focused',
+        'Women’s health focused',
         'Menopause & hormonal expertise',
         'Regeneration-first model',
         'Science-backed longevity treatments',
@@ -1458,7 +1458,7 @@ export const conditions = [
       title: "Start Your",
       highlight: "Radiate Wellness",
       titleSuffix: "Consultation",
-      description: "True skin health starts within. Rebuild your internal foundation for brighter, firmer, more radiant skin â€” naturally.",
+      description: "True skin health starts within. Rebuild your internal foundation for brighter, firmer, more radiant skin — naturally.",
       buttonText: "Book Your Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
     }
