@@ -2895,6 +2895,13 @@ export const treatments = {
         "treatments": {
           "polynucleotides": {
             "id": "polynucleotides",
+            "booking": {
+              "starting": true,
+              "price": 155,
+              "duration": 60,
+              "treatmentType": "injectable",
+              "bookingType": "consultation"
+            },
             "seo": {
               "title": "Polynucleotides Ware SG12 | Regenerative DNA Repair | ULANDA",
               "description": "Advanced Polynucleotides (PN) treatment in Ware. Repair thinning skin, dark circles & laxity. Ideal for postpartum & menopause skin regeneration."
@@ -3123,6 +3130,13 @@ export const treatments = {
           },
           "prp-skin-regeneration": {
             "id": "prp-skin-regeneration",
+            "booking": {
+              "starting": true,
+              "price": 250,
+              "duration": 75,
+              "treatmentType": "injectable",
+              "bookingType": "consultation"
+            },
             "seo": {
               "title": "PRP Therapy Ware SG12 | Natural Collagen Boost | ULANDA",
               "description": "PRP Skin Regeneration in Ware. 100% natural collagen boosting using your own growth factors. Improve texture, hollows & healing."
@@ -4599,6 +4613,13 @@ export const treatments = {
           },
           "thread-lifts": {
             "id": "thread-lifts",
+            "booking": {
+              "starting": true,
+              "price": 950,
+              "duration": 120,
+              "treatmentType": "injectable",
+              "bookingType": "consultation"
+            },
             "seo": {
               "title": "Thread Lifts Ware SG12 | Non-Surgical Lift | ULANDA",
               "description": "Natural lifting without surgery. Thread Lifts at ULANDA in Ware SG12 restore facial contours and stimulate collagen for long-lasting firmness."

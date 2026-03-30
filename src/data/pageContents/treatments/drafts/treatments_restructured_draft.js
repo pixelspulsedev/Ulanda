@@ -254,7 +254,7 @@ const structuralCollagenSupport = {
   ],
   treatments: {
     // Anti-Wrinkle Injections (Subtle / Natural)
-    "anti-wrinkle-injection": getOriginalTreatment("radiate", "structural-lifting", "anti-wrinkle-injection"),
+    "anti-wrinkle-injections": getOriginalTreatment("radiate", "structural-lifting", "anti-wrinkle-injections"),
     // Dermal Fillers (Conservative / Structural)
     "dermal-fillers": getOriginalTreatment("radiate", "structural-lifting", "dermal-fillers"),
     // Biostimulators (Collagen Therapy)
