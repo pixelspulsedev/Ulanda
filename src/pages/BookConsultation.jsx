@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useEffect, useCallback } from 'react';
 import { Head } from 'vite-react-ssg';
+import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import { HeroText, FadeInWhenVisible } from '../components/animations';
 
-const BookConsultation = () => {
+const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY || 'YOUR_RECAPTCHA_V3_SITE_KEY';
+
+const BookConsultationContent = () => {
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
+  const handleReCaptchaVerify = useCallback(async () => {
+    if (!executeRecaptcha) return;
+    const token = await executeRecaptcha('book_consultation');
+    // Send token to backend for server-side verification
+  }, [executeRecaptcha]);
+
+  useEffect(() => {
+    handleReCaptchaVerify();
+  }, [handleReCaptchaVerify]);
+
   return (
     <>
       <Head>
@@ -63,5 +78,11 @@ const BookConsultation = () => {
     </>
   );
 };
+
+const BookConsultation = () => (
+  <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_SITE_KEY}>
+    <BookConsultationContent />
+  </GoogleReCaptchaProvider>
+);
 
 export default BookConsultation;
