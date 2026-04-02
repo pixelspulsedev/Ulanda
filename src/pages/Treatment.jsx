@@ -128,7 +128,8 @@ const Treatment = () => {
     : `https://www.ulanda.co.uk/treatments/${category}/${id}`.toLowerCase();
 
   const Book = () => {
-    window.open('https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ', '_blank');
+    const url = treatment.booking?.bookingUrl || 'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ';
+    window.open(url, '_blank');
   };
 
   return (

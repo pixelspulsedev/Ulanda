@@ -1670,7 +1670,8 @@ export const treatments = {
               "price": 150,
               "duration": 50,
               "treatmentType": "resurfacing",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/Q6KPTZ5QOFCNFB43AUQXSVYO"
             },
             "seo": {
               "title": "BioRePeel Ware SG12 | No-Peel Regeneration Treatment | ULANDA",
@@ -2319,7 +2320,8 @@ export const treatments = {
               "price": 230,
               "duration": 45,
               "treatmentType": "skin-booster",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/DVS7MEQAXTUCGRUHSISLOFHF"
             },
             "seo": {
               "title": "Profhilo in Ware SG12 | Renew | ULANDA",
@@ -2412,7 +2414,8 @@ export const treatments = {
               "price": 210,
               "duration": 30,
               "treatmentType": "skin-booster",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/JTSCOKV2THKWK4ICKQ5PUOMI"
             },
             "relatedTools": [
               "definisse"
@@ -2493,7 +2496,8 @@ export const treatments = {
               "price": 160,
               "duration": 45,
               "treatmentType": "skin-booster",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/SBGSE4HNZ27GCIQFG3ML4LUI"
             },
             "seo": {
               "title": "Jalupro Ware SG12 | Amino Acid Therapy | ULANDA",
@@ -2570,7 +2574,8 @@ export const treatments = {
               "price": 185,
               "duration": 45,
               "treatmentType": "skin-booster",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/5FBKAIQY5BN7KQWPADNEUZZ6"
             },
             "seo": {
               "title": "SeventyHyal Ware SG12 | High-Glow Hydration | ULANDA",
@@ -2647,7 +2652,8 @@ export const treatments = {
               "price": 150,
               "duration": 45,
               "treatmentType": "skin-booster",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/QJAVYWJXFL6XFDGZVIC44O2I"
             },
             "seo": {
               "title": "Lemon Bottle Ware SG12 | Vitamin C Glow | ULANDA",
@@ -2724,7 +2730,8 @@ export const treatments = {
               "price": 130,
               "duration": 30,
               "treatmentType": "eye-pn",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/HYLDYLPEUQQBYLSOH3CU6M35"
             },
             "seo": {
               "title": "Lumi Eyes Ware SG12 | Under-Eye Brightening | ULANDA",
@@ -2811,7 +2818,8 @@ export const treatments = {
               "price": 75,
               "duration": 30,
               "treatmentType": "device",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/DZWP3TZT6V3ADFYYETJX7MV5"
             },
             "seo": {
               "title": "Microneedling in Ware SG12 | Collagen Induction | ULANDA",
@@ -3135,7 +3143,8 @@ export const treatments = {
               "price": 250,
               "duration": 75,
               "treatmentType": "injectable",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/6EAVNHG6HSYP6OZNBT34UNBT"
             },
             "seo": {
               "title": "PRP Therapy Ware SG12 | Natural Collagen Boost | ULANDA",
@@ -4709,7 +4718,8 @@ export const treatments = {
               "price": 180,
               "duration": 45,
               "treatmentType": "injectable",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/NKB56OXCH3X7S62HA5TJ2FGG"
             },
             "seo": {
               "title": "Anti-Wrinkle Injections Ware SG12 | Natural Expression | ULANDA",
@@ -5227,7 +5237,8 @@ export const treatments = {
               "price": 140,
               "duration": 90,
               "treatmentType": "injectable",
-              "bookingType": "consultation"
+              "bookingType": "Book Now",
+              "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/R3BTJKGLQ45X7YP37Q62OPAW"
             },
             "introduction": {
               "title": "What is Jawline Sculpting?",
