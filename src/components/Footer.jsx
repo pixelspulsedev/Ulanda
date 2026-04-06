@@ -199,7 +199,12 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-base-200 flex flex-col md:flex-row justify-between items-center text-base-content/40 text-sm font-sans">
-          <p>&copy; Ulanda, 2026</p>
+          <div className="text-center md:text-left">
+            <p>&copy; ULANDA 2026</p>
+            <p className="mt-1">ULANDA Skin Clinic is a trading name of Kovers Ltd.</p>
+            <p>Registered in England and Wales. Company number: 10272651</p>
+            <p>Registered office: 34 St. Andrews Close, London. SE28 8NZ</p>
+          </div>
           <div className="flex gap-6 mt-4 md:mt-0">
             <Link to="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link to="/terms-of-use" className="hover:text-primary transition-colors">Terms of Use</Link>
