@@ -182,15 +182,16 @@ export default function Home() {
               <div className="mb-4 font-sans text-white/90 text-base md:text-lg leading-relaxed max-w-xl">
                 <HeroText delay={0.2}>
                   <p>
-                    If your skin has changed in a way that feels unexplained and the products, treatments and advice you have tried have not produced the lasting results you were looking for. ULANDA begins where most clinics stop.
+                    If your skin has changed in a way that feels unexplained and the products, treatments and advice you have tried have not created the lasting results you were hoping for. ULANDA begins where most clinics stop.
                   </p>
                   <p className="mt-3">With a clinical understanding of what your skin is actually doing.</p>
                   <p>And why.</p>
+                  <p className="mt-3">So, we can help restore not just skin health, but a calm, healthy glow.</p>
                 </HeroText>
               </div>
               <div className="mb-6 text-sm font-sans font-light text-white/60 tracking-wide">
                 <HeroText delay={0.3}>
-                  Assessment-first &middot; Personalised care &middot; Regenerative &middot; Natural results.
+                  Assessment-first &middot; Personalised care &middot; Regenerative &middot; Natural glow
                 </HeroText>
               </div>
               <FadeInWhenVisible delay={0.5}>
@@ -247,7 +248,7 @@ export default function Home() {
 
           <FadeInWhenVisible delay={0.3}>
             <p className="text-lg text-base-content/80 font-sans max-w-4xl mb-8 leading-relaxed">
-              This framework reflects the direction modern evidence-based aesthetic medicine is moving: treatment sequencing that supports the skin&rsquo;s natural repair mechanisms rather than overriding them.
+              This framework reflects the direction modern evidence-based aesthetic medicine is moving: treatment sequencing that supports the skin&rsquo;s natural repair mechanisms rather than overriding them, so skin can recover, strengthen and return to a healthy glow.
             </p>
             <Link to="/treatments/skin-barrier-renewal-protocol" className="btn btn-primary">
               Explore the Skin Barrier Renewal Protocol &rarr;
@@ -346,13 +347,13 @@ export default function Home() {
                 The skin barrier determines how the skin responds to everything else &mdash; clinical treatments, homecare products and the environmental stressors it encounters daily.
               </p>
               <p>
-                When the barrier is compromised, even advanced aesthetic procedures may lead to irritation, poor treatment tolerance and unpredictable outcomes.
+                When the barrier is compromised, even advanced aesthetic procedures may lead to irritation, reduced tolerance and less predictable results.
               </p>
               <p>
-                For this reason, barrier stability is the foundation of treatment planning at ULANDA.
+                For this reason, barrier stability sits at the foundation of treatment planning at ULANDA.
               </p>
               <p>
-                Where instability is identified, stabilisation begins before more active therapies are introduced. This reduces inflammatory risk, improves treatment tolerance and ensures that the treatments which follow perform as they are designed to.
+                Where instability is identified, we begin with stabilisation before introducing more active therapies, supporting a calm, healthy glow.
               </p>
             </div>
             <Link to="/treatments/skin-barrier-renewal-protocol" className="btn btn-primary">
@@ -439,7 +440,7 @@ export default function Home() {
                 <li>Structural or adjunct support where required</li>
               </ol>
               <p>
-                Introducing treatments in the correct biological sequence improves treatment tolerance, increases predictability of outcomes and supports long-term skin resilience.
+                Introducing treatments in the correct biological sequence improves tolerance, increases predictability of outcomes, supports long-term skin resilience, and helps the skin recover its natural glow.
               </p>
             </div>
           </FadeInWhenVisible>
@@ -506,7 +507,7 @@ export default function Home() {
               </h2>
               <p className="text-lg text-base-content/80 font-sans max-w-2xl leading-relaxed">
                 Every client completing the Advanced Skin Health Consultation receives a recommendation for one of ULANDA&rsquo;s Signature programmes.
-                These structured clinical pathways address the most common skin presentations seen in practice and introduce treatments in the correct biological sequence.
+                These structured clinical pathways address the most common skin presentations seen in practice and introduce treatments in the correct biological sequence, helping the skin look brighter, healthier and more luminous.
               </p>
             </div>
             <div className="hidden md:flex">
