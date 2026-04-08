@@ -1,4 +1,4 @@
-import { getAllTreatments } from './pageContents/treatments/treatments.js';
+import { treatmentCategories } from './pageContents/treatments/drafts/treatments_restructured_draft.js';
 
 // ═══════════════════════════════════════════════════════════════
 // ULANDA INTERNAL CROSSLINKING SYSTEM (2025)
@@ -850,34 +850,30 @@ export const getConditionUrl = (slug) => {
   return category ? `/conditions/${category}/${slug}` : `/conditions/${slug}`;
 };
 
-// Dynamic Lookup Cache for Treatments
+// Dynamic Lookup Cache for Treatments (new 2-level structure)
 let treatmentLookupCache = null;
 
 export const getTreatmentUrl = (slug) => {
   if (!treatmentLookupCache) {
-    const treatments = getAllTreatments();
     const lookup = {};
-    for (const [catId, cat] of Object.entries(treatments)) {
-      if (cat.subCategories) {
-        for (const [subId, sub] of Object.entries(cat.subCategories)) {
-          if (sub.treatments) {
-            for (const tId of Object.keys(sub.treatments)) {
-              lookup[tId] = { catId, subId };
-            }
-          }
+    // Build from new restructured categories (2-level: /treatments/:category/:id)
+    for (const [catId, cat] of Object.entries(treatmentCategories)) {
+      if (cat.treatments) {
+        for (const tId of Object.keys(cat.treatments)) {
+          lookup[tId] = catId;
         }
       }
     }
     treatmentLookupCache = lookup;
   }
 
-  const info = treatmentLookupCache[slug];
-  if (info) {
-    return `/treatments/${info.catId}/${info.subId}/${slug}`;
+  const categoryId = treatmentLookupCache[slug];
+  if (categoryId) {
+    return `/treatments/${categoryId}/${slug}`;
   }
   
   // Fallback for non-migrated or missing items
-  return `/treatments/other/other/${slug}`;
+  return `/treatments/other/${slug}`;
 };
 
 export const getProgrammeUrl = (slug) => {

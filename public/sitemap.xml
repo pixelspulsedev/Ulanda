@@ -872,11 +872,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/medical-aesthetics-clinic/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -918,6 +913,11 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/treatments/skin-renewal-regeneration/biorepeel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/skin-renewal-regeneration/melanostatic-peel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

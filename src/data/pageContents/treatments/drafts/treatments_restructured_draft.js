@@ -164,6 +164,291 @@ const skinRenewalRegeneration = {
     "chemical-peel": getOriginalTreatment("refresh", "skin-resurfacing", "chemical-peel"),
     // BioRePeel
     "biorepeel": getOriginalTreatment("refresh", "skin-resurfacing", "biorepeel"),
+    // Melanostatic Peel (new — not from original treatments.js)
+    "melanostatic-peel": {
+      image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b8?q=80&w=700&auto=format&fit=crop",
+      placeholderUrl: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b8?q=80&w=700&auto=format&fit=crop",
+      id: "melanostatic-peel",
+      booking: {
+        starting: true,
+        price: 550,
+        duration: "45–60",
+        treatmentType: "pigmentation",
+        bookingType: "consultation",
+        bookingUrl: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+      },
+      seo: {
+        title: "Melanostatic Peel | Melasma & Pigmentation Treatment | ULANDA",
+        description: "ULANDA's Melanostatic Peel is a barrier-first, clinically structured approach to treating pigmentation and melasma safely. Consultation required."
+      },
+      seoHeadings: {
+        h1: "Melanostatic Peel — Precision Pigmentation Control",
+        h2: [
+          "What Is a Melanostatic Peel?",
+          "What the Treatment Does",
+          "Who This Treatment Is For",
+          "What to Expect",
+          "Treatment Course",
+          "What Happens During the Treatment?",
+          "Results Timeline",
+          "When Is This Appropriate?",
+          "Begin With Understanding, Not a Treatment",
+          "FAQ"
+        ]
+      },
+      title: "Melanostatic",
+      highlight: "Peel",
+      titleSuffix: "",
+      benefits: [
+        "Pigmentation Control",
+        "Melanocyte Regulation",
+        "Tone Refinement",
+        "Surface Smoothing"
+      ],
+      detailedBenefits: {
+        title: "What to Expect",
+        sections: [
+          {
+            title: "During Treatment",
+            items: [
+              "Mild tingling or warmth",
+              "Short application time",
+              "Clinically controlled process"
+            ]
+          },
+          {
+            title: "After Treatment",
+            items: [
+              "Minimal to mild flaking (not always visible)",
+              "Gradual improvement over days",
+              "Progressive clarity with a course"
+            ]
+          },
+          {
+            title: "Treatment Course",
+            items: [
+              "A series of peels spaced 2–4 weeks apart",
+              "Supportive skincare between sessions",
+              "Barrier maintenance between sessions",
+              "Pigmentation is treated as a programme, not a single session"
+            ]
+          }
+        ]
+      },
+      locations: [
+        "Ware SG12",
+        "Hertford",
+        "Broxbourne",
+        "Hertfordshire"
+      ],
+      category: "Skin Renewal",
+      description: "A medical-grade pigmentation treatment designed to regulate melanin production and improve uneven skin tone.",
+      introduction: {
+        title: "What Is a Melanostatic Peel?",
+        content: [
+          "Pigmentation is rarely just surface-level discolouration. It is often the visible result of inflammation, hormonal signalling and barrier disruption.",
+          "At ULANDA, the Melanostatic Peel is used as part of a structured pigmentation strategy, not as a standalone quick fix. Immediate refinement. Structured long-term clarity.",
+          "The Melanostatic Peel is a medical-grade pigmentation treatment designed to regulate melanin production and improve uneven skin tone.",
+          "It is specifically used for melasma, post-inflammatory pigmentation and hormonally influenced pigmentation.",
+          "Unlike general resurfacing peels, it works by controlling pigment behaviour, not aggressively removing the skin surface."
+        ],
+        goals: [
+          "Melasma",
+          "Post-inflammatory pigmentation",
+          "Hormonally influenced pigmentation"
+        ],
+        highlightBox: {
+          text1: "The Melanostatic Peel helps your skin produce pigment more evenly — while gently refining the surface.",
+          text2: ""
+        }
+      },
+      internalSupport: {
+        title: "What the Treatment",
+        titleSuffix: "Does",
+        image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b8?q=80&w=700&auto=format&fit=crop",
+        placeholderUrl: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b8?q=80&w=700&auto=format&fit=crop",
+        points: [
+          {
+            title: "Controlled Renewal",
+            description: "Gently accelerates skin turnover to lift excess pigment."
+          },
+          {
+            title: "Melanocyte Regulation",
+            description: "Helps reduce overproduction of pigment."
+          },
+          {
+            title: "Tone Refinement",
+            description: "Improves overall skin clarity and brightness."
+          },
+          {
+            title: "Surface Smoothing",
+            description: "Refines texture and enhances light reflection."
+          }
+        ]
+      },
+      treatmentAreas: {
+        title: "Who This Treatment Is For",
+        items: [
+          "Uneven skin tone",
+          "Melasma",
+          "Sun damage",
+          "Post-inflammatory hyperpigmentation",
+          "Dull, pigmented skin"
+        ]
+      },
+      process: {
+        title: "What Happens During the Treatment?",
+        steps: [
+          {
+            title: "1. Consultation & Skin Assessment",
+            description: "Barrier, pigmentation type and hormonal context are assessed."
+          },
+          {
+            title: "2. Cleansing & Skin Preparation",
+            description: "Prepares the skin for controlled penetration."
+          },
+          {
+            title: "3. Melanostatic Peel Application",
+            description: "Applied in layers based on skin tolerance and pigmentation depth."
+          },
+          {
+            title: "4. Controlled Neutralisation",
+            description: "Ensures safe, even treatment response."
+          },
+          {
+            title: "5. Regenerative Post-Treatment Protocol",
+            description: "Hydrating + calming infusion + LED therapy."
+          },
+          {
+            title: "6. Barrier Protection",
+            description: "Ceramides + antioxidants applied to support recovery."
+          }
+        ]
+      },
+      resultsTimeline: {
+        title: "Results Timeline",
+        items: [
+          {
+            title: "5–7 days",
+            description: "Subtle brightness and initial refinement"
+          },
+          {
+            title: "Over course",
+            description: "Progressive tone improvement"
+          },
+          {
+            title: "Over time",
+            description: "Reduced pigmentation visibility"
+          },
+          {
+            title: "With a series",
+            description: "Best results achieved through a structured course of treatments"
+          }
+        ]
+      },
+      idealFor: {
+        title: "Who Is This Treatment",
+        highlight: "For?",
+        titleSuffix: "",
+        items: [
+          "Uneven skin tone",
+          "Melasma",
+          "Sun damage",
+          "Post-inflammatory hyperpigmentation",
+          "Dull, pigmented skin",
+          "Hormonally influenced pigmentation"
+        ]
+      },
+      ulandaConnection: {
+        title: "When Is This Appropriate?",
+        subtitle: "Read the clinical context behind this treatment approach:",
+        sections: [
+          {
+            title: "Clinical Context",
+            description: "Read the clinical context behind this treatment approach:",
+            points: [
+              "Inflammation-Driven Pigmentation: Why Sensitive Skin Develops Dark Spots",
+              "Pigmentation Is an Inflammatory Response — Not Just Discolouration",
+              "Inflammaging: The Silent Driver Behind Skin Ageing"
+            ],
+            conclusion: ""
+          },
+          {
+            title: "Begin With Understanding, Not a Treatment",
+            description: "Your consultation includes:",
+            points: [
+              "AI Skin Analysis",
+              "Barrier Stability Assessment",
+              "Skin Behaviour Index",
+              "Personalised treatment plan"
+            ],
+            conclusion: "→ Book Skin Health Consultation"
+          },
+          {
+            title: "Internal Linking",
+            description: "Related pages within the ULANDA treatment architecture:",
+            points: [
+              "Skin Health Consultation",
+              "Pigmentation Condition Page",
+              "Rosacea & Redness Control Signature",
+              "Barrier Repair & Recovery Signature"
+            ],
+            conclusion: ""
+          }
+        ]
+      },
+      safetyOversight: {
+        title: "Downtime & Safety",
+        items: [
+          {
+            title: "Minimal Downtime",
+            description: "Most clients experience mild dryness or light flaking.",
+            icon: "cqc"
+          },
+          {
+            title: "Mild Sensation",
+            description: "Light tingling or warmth during treatment.",
+            icon: "clinician"
+          },
+          {
+            title: "Pigmentation-Safe Protocol",
+            description: "Designed to reduce risk of rebound pigmentation. This treatment is only performed when barrier is stable and inflammation is controlled.",
+            icon: "prescribed"
+          }
+        ]
+      },
+      faq: {
+        title: "FAQ",
+        items: [
+          {
+            question: "Does the Melanostatic Peel help melasma?",
+            answer: "Yes — when used within a structured protocol that controls inflammation and barrier health."
+          },
+          {
+            question: "Will my skin peel?",
+            answer: "You may experience mild flaking, but not all clients visibly peel."
+          },
+          {
+            question: "Is it safe for darker skin tones?",
+            answer: "Yes — when performed correctly and preceded by barrier stabilisation."
+          },
+          {
+            question: "How quickly will I see results?",
+            answer: "Visible improvement may begin after the first session, with progressive improvement over a course."
+          },
+          {
+            question: "Can I combine it with other treatments?",
+            answer: "Yes — but only when clinically appropriate and correctly sequenced."
+          }
+        ]
+      },
+      cta: {
+        title: "Reveal Clearer, More Even",
+        highlight: "Skin Tone",
+        description: "Book your Melanostatic Peel at ULANDA in Ware SG12 for safe, structured pigmentation correction and long-term clarity.",
+        buttonText: "Book Skin Health Consultation"
+      }
+    },
     // Microneedling
     "microneedling": getOriginalTreatment("renew", "microneedling", "microneedling"),
     // PRP (Skin)

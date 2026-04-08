@@ -25,6 +25,7 @@ const barrierSupportLinks = [
 const renewalLinks = [
   { title: 'Chemical Peels', to: '/treatments/skin-renewal-regeneration/chemical-peel' },
   { title: 'BioRePeel', to: '/treatments/skin-renewal-regeneration/biorepeel' },
+  { title: 'Melanostatic Peel', to: '/treatments/skin-renewal-regeneration/melanostatic-peel' },
   { title: 'Microneedling', to: '/treatments/skin-renewal-regeneration/microneedling' },
 ];
 
