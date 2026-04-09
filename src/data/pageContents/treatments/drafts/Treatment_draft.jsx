@@ -591,11 +591,21 @@ export default function TreatmentDraft() {
                         {section.points?.map((point, idx) => (
                           <li key={idx} className="text-base-content/80 font-light flex items-start gap-2">
                             <span className="text-primary mt-1.5 text-xs">●</span>
-                            <span>{point}</span>
+                            {typeof point === 'object' && point.link ? (
+                              <Link to={point.link} className="text-primary hover:underline">{point.text}</Link>
+                            ) : (
+                              <span>{point}</span>
+                            )}
                           </li>
                         ))}
                       </ul>
-                      <p className="text-lg font-medium text-primary font-serif italic">{section.conclusion}</p>
+                      {section.conclusion && (
+                        typeof section.conclusion === 'object' && section.conclusion.link ? (
+                          <Link to={section.conclusion.link} className="btn btn-primary text-white px-10 py-3 h-auto text-lg rounded-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 inline-block">{section.conclusion.text}</Link>
+                        ) : (
+                          <p className="text-lg font-medium text-primary font-serif italic">{section.conclusion}</p>
+                        )
+                      )}
                     </div>
                   </div>
                 </div>

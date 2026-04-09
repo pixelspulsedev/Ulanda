@@ -367,9 +367,9 @@ const skinRenewalRegeneration = {
             title: "Clinical Context",
             description: "Read the clinical context behind this treatment approach:",
             points: [
-              "Inflammation-Driven Pigmentation: Why Sensitive Skin Develops Dark Spots",
-              "Pigmentation Is an Inflammatory Response — Not Just Discolouration",
-              "Inflammaging: The Silent Driver Behind Skin Ageing"
+              { text: "Inflammation-Driven Pigmentation: Why Sensitive Skin Develops Dark Spots", link: "/journal/inflammation-driven-pigmentation" },
+              { text: "Pigmentation Is an Inflammatory Response — Not Just Discolouration", link: "/journal/inflammation-pigmentation-uneven-tone" },
+              { text: "Inflammaging: The Silent Driver Behind Skin Ageing", link: "/journal/inflammaging-skin-ageing" }
             ],
             conclusion: ""
           },
@@ -382,16 +382,16 @@ const skinRenewalRegeneration = {
               "Skin Behaviour Index",
               "Personalised treatment plan"
             ],
-            conclusion: "→ Book Skin Health Consultation"
+            conclusion: { text: "Book Skin Health Consultation →", link: "/treatments/advanced-skin-health-consultation" }
           },
           {
-            title: "Internal Linking",
-            description: "Related pages within the ULANDA treatment architecture:",
+            title: "Related Treatments & Conditions",
+            description: "Explore related pages within the ULANDA treatment architecture:",
             points: [
-              "Skin Health Consultation",
-              "Pigmentation Condition Page",
-              "Rosacea & Redness Control Signature",
-              "Barrier Repair & Recovery Signature"
+              { text: "Advanced Skin Health Consultation", link: "/treatments/advanced-skin-health-consultation" },
+              { text: "Pigmentation & Skin Tone", link: "/conditions/pigmentation-and-skin-tone" },
+              { text: "Rosacea & Redness Control Signature", link: "/signature/rosacea-redness-control" },
+              { text: "Skin Barrier Repair & Recovery Signature", link: "/signature/skin-barrier-repair-recovery" }
             ],
             conclusion: ""
           }
