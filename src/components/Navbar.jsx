@@ -233,6 +233,7 @@ export default function Navbar() {
                   <div className="pt-3 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Skin Renewal</div>
                   <Link to="/treatments/skin-renewal-regeneration/chemical-peel" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Chemical Peels</Link>
                   <Link to="/treatments/skin-renewal-regeneration/biorepeel" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">BioRePeel</Link>
+                  <Link to="/treatments/skin-renewal-regeneration/melanostatic-peel" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Melanostatic Peel</Link>
                   <Link to="/treatments/skin-renewal-regeneration/microneedling" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Microneedling</Link>
 
                   {/* REGENERATIVE INJECTABLES */}
@@ -576,6 +577,7 @@ export default function Navbar() {
                     <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Skin Renewal</li>
                     <li><Link to="/treatments/skin-renewal-regeneration/chemical-peel" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Chemical Peels</Link></li>
                     <li><Link to="/treatments/skin-renewal-regeneration/biorepeel" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">BioRePeel</Link></li>
+                    <li><Link to="/treatments/skin-renewal-regeneration/melanostatic-peel" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Melanostatic Peel</Link></li>
                     <li><Link to="/treatments/skin-renewal-regeneration/microneedling" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Microneedling</Link></li>
 
                     {/* REGENERATIVE INJECTABLES */}
