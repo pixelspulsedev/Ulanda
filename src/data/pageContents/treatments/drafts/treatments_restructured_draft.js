@@ -166,16 +166,16 @@ const skinRenewalRegeneration = {
     "biorepeel": getOriginalTreatment("refresh", "skin-resurfacing", "biorepeel"),
     // Melanostatic Peel (new — not from original treatments.js)
     "melanostatic-peel": {
-      image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b8?q=80&w=700&auto=format&fit=crop",
-      placeholderUrl: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b8?q=80&w=700&auto=format&fit=crop",
+      image: "/assets/img/treatments/melanostatic_peel.webp",
+      placeholderUrl: "/assets/img/treatments/melanostatic_peel.webp",
       id: "melanostatic-peel",
       booking: {
         starting: true,
         price: 550,
         duration: "45–60",
         treatmentType: "pigmentation",
-        bookingType: "consultation",
-        bookingUrl: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ"
+        bookingType: "Book Now",
+        bookingUrl: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/PAFSXDU3XEF5TZENI2OUSJDW"
       },
       seo: {
         title: "Melanostatic Peel | Melasma & Pigmentation Treatment | ULANDA",
@@ -265,8 +265,8 @@ const skinRenewalRegeneration = {
       internalSupport: {
         title: "What the Treatment",
         titleSuffix: "Does",
-        image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b8?q=80&w=700&auto=format&fit=crop",
-        placeholderUrl: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b8?q=80&w=700&auto=format&fit=crop",
+        image: "/assets/img/treatments/melanostatic_peel.webp",
+        placeholderUrl: "/assets/img/treatments/melanostatic_peel.webp",
         points: [
           {
             title: "Controlled Renewal",
