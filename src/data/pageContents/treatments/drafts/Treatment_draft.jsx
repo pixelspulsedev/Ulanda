@@ -263,12 +263,7 @@ export default function TreatmentDraft() {
             )}
           </div>
           <div className="relative mt-8 md:mt-0 flex justify-center">
-            <div className="absolute bottom-10 right-0 md:-right-2 w-3/4 h-full">
-              <RevealImage className="w-full h-full">
-                <img src="/assets/img/ui/accent.webp" alt="Decorative shadow" className="w-full h-full object-cover" />
-              </RevealImage>
-            </div>
-            <RevealImage className="relative w-full max-w-xs aspect-[3/4] overflow-hidden rounded-t-full">
+            <RevealImage className="relative w-full max-w-md aspect-[3/4] overflow-hidden rounded-t-full">
               <img src={treatment.placeholderUrl || treatment.image} alt={`${treatment.title} ${treatment.highlight}`} className="w-full h-full object-cover" fetchpriority="high" />
             </RevealImage>
           </div>
