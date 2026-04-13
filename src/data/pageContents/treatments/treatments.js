@@ -6142,7 +6142,7 @@ export const treatments = {
           "energy-iv": {
             "id": "energy-iv",
             "booking": {
-              "price": 170,
+              "price": 225,
               "duration": 90,
               "treatmentType": "iv",
               "bookingType": "consultation"
