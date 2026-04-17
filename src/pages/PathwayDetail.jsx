@@ -3,6 +3,7 @@ import { Head } from 'vite-react-ssg';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getPathway } from '../data/pageContents/pathways/pathways';
+import ConsultationCTA from '../components/ConsultationCTA';
 import { getTreatment } from '../data/pageContents/treatments/treatments';
 import { getTreatmentUrl } from '../data/crosslinks';
 import { Check, ArrowRight } from 'lucide-react';

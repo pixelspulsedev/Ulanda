@@ -27,6 +27,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.ulanda.co.uk/book-consultation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ulanda.co.uk/help-and-support</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -48,6 +53,31 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/about/our-founder</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/advanced-skin-health-consultation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/medical-aesthetics-clinic</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/prescription-skincare</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/treatments/prescription-skincare/obagi-medical</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -322,32 +352,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/enlarged-pores</loc>
+    <loc>https://www.ulanda.co.uk/conditions/menopause-hormone-skin-changes/fine-lines-wrinkles</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/fine-lines-wrinkles</loc>
+    <loc>https://www.ulanda.co.uk/conditions/menopause-hormone-skin-changes/skin-laxity</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/skin-laxity</loc>
+    <loc>https://www.ulanda.co.uk/conditions/menopause-hormone-skin-changes/crepey-skin</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/crepey-skin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/uneven-texture</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/volume-loss</loc>
+    <loc>https://www.ulanda.co.uk/conditions/menopause-hormone-skin-changes/volume-loss</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -362,22 +382,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/dryness-sensitivity</loc>
+    <loc>https://www.ulanda.co.uk/conditions/redness-sensitivity-reactive-skin/dryness-sensitivity</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/hormonal-breakouts</loc>
+    <loc>https://www.ulanda.co.uk/conditions/pigmentation-and-skin-tone/hormonal-pigmentation</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/hormonal-pigmentation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/hormonal-skin/loss-of-definition</loc>
+    <loc>https://www.ulanda.co.uk/conditions/menopause-hormone-skin-changes/loss-of-definition</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -423,41 +438,6 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/conditions/internal-wellness/stress-inflammation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/conditions/age-and-regeneration/acne-scarring</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/menopause-regeneration</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/under-eye-regeneration</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/collagen-reset</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/hormone-smart-skin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.ulanda.co.uk/treatments/radiate/pathways/shape-and-regenerate</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -872,11 +852,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol/skin-barrier-deep-cleanse</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1208,6 +1183,56 @@
   </url>
   <url>
     <loc>https://www.ulanda.co.uk/journal/menopause-pigmentation-patterns</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-hertfordshire</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-hoddesdon</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-hertford</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-harlow</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-cheshunt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-broxbourne</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-bishops-stortford</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-welwyn-garden-city</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-stevenage</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ulanda.co.uk/locations/aesthetic-clinic-sawbridgeworth</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

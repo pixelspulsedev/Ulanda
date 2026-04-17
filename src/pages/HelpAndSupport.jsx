@@ -3,6 +3,7 @@ import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import faqData from '../data/faqs';
 import { HeroText, FadeInWhenVisible } from '../components/animations';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 const HelpAndSupport = () => {
   // State to track which question is active in each section
@@ -42,7 +43,7 @@ const HelpAndSupport = () => {
   return (
     <>
       <Head>
-        <title>Help & Support | ULANDA Skin Clinic</title>
+        <title>Help &amp; Support | ULANDA Skin Clinic Ware</title>
         <meta
           name="description"
           content="Frequently asked questions about ULANDA's regenerative aesthetics, menopausal wellness treatments, safety protocols and booking process."
@@ -148,6 +149,7 @@ const HelpAndSupport = () => {
             </FadeInWhenVisible>
         </div>
       </div>
+      <ConsultationCTA />
     </>
   );
 };

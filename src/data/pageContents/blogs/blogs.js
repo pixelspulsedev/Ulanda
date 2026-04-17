@@ -8795,7 +8795,7 @@ export const blogs = [
     subtitle: "Why structured medical assessment protects safety, dosing precision and long-term results.",
     date: "2026-03-06",
     readTime: "6 min read",
-    heroImage: "/assets/img/treatments/correct/anti-wrinkle.webp",
+    heroImage: "/assets/img/blogs/do-you-need-a-consultation-before-detox-ulanda-medspaa-in-ware.jpg",
     category: "Consultation",
     relatedTreatments: [
       "anti-wrinkle-injections",
@@ -8990,7 +8990,7 @@ export const blogs = [
     subtitle: "Collagen stimulation, injectables and bio-remodelling rely on stable inflammatory signalling and healthy tissue response.",
     date: "2026-03-06",
     readTime: "7 min read",
-    heroImage: "/assets/img/treatments/renew/skin-barrier-renewal.webp",
+    heroImage: "/assets/img/blogs/Barrier-repair-ulandamedspa.webp",
     category: "Skin Barrier",
     relatedTreatments: [
       "biorepeel",
@@ -9207,7 +9207,7 @@ export const blogs = [
     subtitle: "A clinical guide to restoring lipid matrix integrity, reducing inflammatory instability and improving treatment tolerance.",
     date: "2026-03-06",
     readTime: "8 min read",
-    heroImage: "/assets/img/treatments/renew/skin-barrier-renewal.webp",
+    heroImage: "/assets/img/blogs/how-to-repair-a-damaged-skin-barrier-professionally.webp",
     category: "Skin Barrier",
     relatedTreatments: [
       "biorepeel",
@@ -9428,7 +9428,7 @@ export const blogs = [
     subtitle: "A clinician-led assessment of barrier integrity, inflammatory load and treatment suitability before any procedure.",
     date: "2026-03-06",
     readTime: "6 min read",
-    heroImage: "/assets/img/treatments/renew/skin-consultation.webp",
+    heroImage: "/assets/img/blogs/where-to-get-medical-skin-consultation-in-ware-hertsfordshire-ulanda.png",
     category: "Consultation",
     relatedTreatments: [
       "anti-wrinkle-injections",

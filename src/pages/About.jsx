@@ -3,7 +3,9 @@ import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
+import ConsultationCTA from '../components/ConsultationCTA';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import { BreadcrumbSchema } from '../components/Schema';
 import { signaturePathways } from '../data/pageContents/signature/signatureData';
 
 const differentiators = [
@@ -88,7 +90,7 @@ export default function About() {
         <title>About ULANDA | Regenerative Aesthetics Ware SG12 | Hertfordshire</title>
         <meta
           name="description"
-          content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Hormone-aware care, internal wellness, and women-first treatments for midlife skin regeneration."
+          content="ULANDA is a regenerative aesthetics clinic in Ware, Hertfordshire. Hormone-aware care and women-first treatments for midlife skin regeneration."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/about/our-story" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -96,6 +98,7 @@ export default function About() {
         <meta name="twitter:description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12. Hormone-aware care and women-first treatments for midlife skin regeneration." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about/our-story' }]} />
 
       <div className="bg-base-100 text-base-content">
         <section className="max-w-6xl mx-auto px-4 md:px-8 py-16 space-y-6">
@@ -429,6 +432,7 @@ export default function About() {
             </a>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

@@ -185,8 +185,8 @@ export default function AestheticClinicHertfordshire() {
   return (
     <>
       <Head>
-        <title>Skin Clinic Hertfordshire | Consultation-Led Skin Health | ULANDA Ware</title>
-        <meta name="description" content="ULANDA is a nurse-led skin clinic in Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Located in Ware with free parking on site." />
+        <title>Skin Clinic Hertfordshire | ULANDA Ware</title>
+        <meta name="description" content="Nurse-led skin clinic in Ware, Hertfordshire. Consultation-led barrier assessment, regenerative treatments and structured skin programmes. Free parking on site." />
         <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-hertfordshire" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

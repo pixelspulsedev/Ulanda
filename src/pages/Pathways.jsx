@@ -3,6 +3,7 @@ import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { pathways } from '../data/pageContents/pathways/pathways';
+import ConsultationCTA from '../components/ConsultationCTA';
 import { ArrowRight, ChevronRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
@@ -11,7 +12,7 @@ export default function Pathways() {
   return (
     <>
       <Head>
-        <title>Treatment Pathways | ULANDA Regenerative Aesthetics</title>
+        <title>Treatment Pathways | ULANDA Skin Clinic Ware</title>
         <meta
           name="description"
           content="Discover ULANDA's four treatment pathways: Refresh, Renew, Restore, Radiate. A simple, intelligent way to understand your regenerative skincare journey."
@@ -330,6 +331,7 @@ export default function Pathways() {
             </a>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

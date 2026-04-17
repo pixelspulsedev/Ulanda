@@ -6,6 +6,7 @@ import { getCondition } from '../data/pageContents/conditions/conditions';
 import ConditionsLanding from './ConditionsLanding';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
+import ConsultationCTA from '../components/ConsultationCTA';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 export default function Conditions() {
@@ -556,6 +557,7 @@ export default function Conditions() {
             </a>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

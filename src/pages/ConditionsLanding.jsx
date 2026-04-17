@@ -8,6 +8,7 @@ import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import { conditionsLandingData } from '../data/pageContents/conditions/landing';
 import { signaturePathways } from '../data/pageContents/signature/signatureData';
 import { FAQSchema } from '../components/Schema';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 const BOOKING_URL = "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ";
 
@@ -103,15 +104,15 @@ export default function ConditionsLanding() {
   return (
     <>
       <Head>
-        <title>Skin Concerns &amp; Skin Conditions Treated | Skin Clinic in Ware Hertfordshire | ULANDA</title>
+        <title>Skin Concerns &amp; Conditions | ULANDA Clinic Ware</title>
         <meta
           name="description"
-          content="Explore skin concerns treated at ULANDA, a nurse-led skin clinic in Ware, Hertfordshire. Regenerative medical aesthetic treatments for ageing skin, pigmentation, acne scarring, and skin quality concerns."
+          content="Skin concerns treated at ULANDA, a nurse-led clinic in Ware, Hertfordshire. Regenerative treatments for ageing, pigmentation, acne scarring and skin quality."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/conditions" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Skin Concerns & Skin Conditions Treated | Skin Clinic in Ware Hertfordshire | ULANDA" />
-        <meta name="twitter:description" content="Explore skin concerns treated at ULANDA, a nurse-led skin clinic in Ware, Hertfordshire. Regenerative medical aesthetic treatments for ageing skin, pigmentation, acne scarring, and skin quality concerns." />
+        <meta name="twitter:title" content="Skin Concerns & Conditions | ULANDA Clinic Ware" />
+        <meta name="twitter:description" content="Skin concerns treated at ULANDA, a nurse-led clinic in Ware, Hertfordshire. Regenerative treatments for ageing, pigmentation and acne scarring." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
@@ -499,6 +500,7 @@ export default function ConditionsLanding() {
             </p>
           </FadeInWhenVisible>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

@@ -29,7 +29,7 @@ export default function Footer() {
                  <p><a href="https://instagram.com/ulandamedspa" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">@ulandamedspa</a></p>
               </div>
               <a 
-                href="http://eepurl.com/jsdn42" 
+                href="https://eepurl.com/jsdn42" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="mt-6 p-6 flex items-center bg-primary rounded-lg text-secondary justify-center btn-sm"

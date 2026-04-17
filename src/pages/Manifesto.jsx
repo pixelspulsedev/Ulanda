@@ -2,6 +2,7 @@ import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import { HeroText, FadeInWhenVisible } from '../components/animations';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 const manifestoSections = [
   {
@@ -61,7 +62,7 @@ const manifestoSections = [
         <br />
         In strengthening cellular health, not masking decline.
         <br />
-        This is <Link to="/treatments/renew" className="text-primary font-bold hover:underline inline-flex items-center gap-0.5">regenerative aesthetics <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" /></svg></Link>,
+        This is <Link to="/treatments/skin-renewal-regeneration" className="text-primary font-bold hover:underline inline-flex items-center gap-0.5">regenerative aesthetics <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" /></svg></Link>,
         <br />
         the future of women’s ageing.
       </>
@@ -184,7 +185,7 @@ export default function Manifesto() {
   return (
     <>
       <Head>
-        <title>Our Manifesto | ULANDA Regenerative Aesthetics</title>
+        <title>Our Manifesto | ULANDA Skin Clinic Ware</title>
         <meta
           name="description"
           content="ULANDA Brand Manifesto. Where regeneration becomes a woman's birthright. We believe women deserve more than correction — they deserve regeneration."
@@ -262,6 +263,7 @@ export default function Manifesto() {
             </FadeInWhenVisible>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

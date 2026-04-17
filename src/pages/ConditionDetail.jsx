@@ -6,6 +6,7 @@ import { getIndividualCondition } from '../data/pageContents/conditions/individu
 import { conditions } from '../data/pageContents/conditions/conditions';
 import { getTreatmentsForCondition, getTreatmentUrl, getConditionUrl } from '../data/crosslinks';
 import Conditions from './Conditions';
+import ConsultationCTA from '../components/ConsultationCTA';
 import { ChevronRight } from 'lucide-react';
 import RelatedTreatments from '../components/RelatedTreatments';
 import RelatedJournals from '../components/RelatedJournals';
@@ -14,6 +15,7 @@ import { getJournalsForCondition } from '../data/pageContents/journal/journalArt
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import { BreadcrumbSchema } from '../components/Schema';
 
 export default function ConditionDetail() {
   const { id: rawId, category: rawCategory } = useParams();
@@ -53,6 +55,30 @@ export default function ConditionDetail() {
   const seoDescription = condition.seo?.description || (Array.isArray(condition.hero.description) ? condition.hero.description.join(' ') : condition.hero.description);
   const seoTitle = condition.seo?.title || `${condition.hero.title} ${condition.hero.highlight} Treatment | ULANDA Ware SG12`;
 
+  const conditionSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": seoTitle,
+    "description": seoDescription,
+    "url": canonicalUrl,
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": condition.hero.title + (condition.hero.highlight ? ` ${condition.hero.highlight}` : ''),
+      "alternateName": condition.hero.titleSuffix || undefined,
+      "description": seoDescription,
+      "possibleTreatment": relatedTreatments.slice(0, 5).map(t => ({
+        "@type": "MedicalProcedure",
+        "name": typeof t === 'string' ? t : (t.title || t.id)
+      }))
+    }
+  };
+
+  const breadcrumbItems = [
+    { name: 'Home', url: '/' },
+    { name: 'Conditions', url: '/conditions' },
+    { name: condition.hero.title + (condition.hero.highlight ? ` ${condition.hero.highlight}` : ''), url: preferredPath }
+  ];
+
   return (
     <>
       <Head>
@@ -64,6 +90,8 @@ export default function ConditionDetail() {
         <meta name="twitter:description" content={seoDescription} />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(conditionSchema) }} />
+      <BreadcrumbSchema items={breadcrumbItems} />
 
       <div className="bg-base-100">
         <Breadcrumbs />
@@ -431,6 +459,7 @@ export default function ConditionDetail() {
             </a>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

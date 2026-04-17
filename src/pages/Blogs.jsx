@@ -6,6 +6,8 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import HeroText from '../components/animations/HeroText'
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible'
 import RevealImage from '../components/animations/RevealImage'
+import ConsultationCTA from '../components/ConsultationCTA'
+import { BreadcrumbSchema } from '../components/Schema'
 
 export default function Blogs() {
   const publishedBlogs = blogs.filter(blog => blog.status === 'published');
@@ -21,6 +23,7 @@ export default function Blogs() {
         <meta name="twitter:description" content="Science-led insights on skin regeneration, menopause, hormone health and aesthetic medicine." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blogs' }]} />
 
       <div className="bg-[#FAF9F6] min-h-screen">
         {/* Hero Section */}
@@ -104,6 +107,7 @@ export default function Blogs() {
             </div>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </div>
   )

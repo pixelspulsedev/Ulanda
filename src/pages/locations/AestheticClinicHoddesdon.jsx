@@ -225,8 +225,8 @@ export default function AestheticClinicHoddesdon() {
   return (
     <>
       <Head>
-        <title>Skin Clinic Near Hoddesdon | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
-        <meta name="description" content="ULANDA is a nurse-led skin clinic near Hoddesdon in Ware, Hertfordshire — consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 10 minutes from Hoddesdon. Free parking on site." />
+        <title>Skin Clinic Near Hoddesdon | ULANDA Ware</title>
+        <meta name="description" content="Nurse-led skin clinic near Hoddesdon, based in Ware. Barrier assessment, regenerative treatments and structured skin programmes. About 10 min drive." />
         <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-hoddesdon" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>

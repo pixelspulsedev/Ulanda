@@ -7,6 +7,8 @@ import { ArrowRight, Search, X } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
+import { BreadcrumbSchema } from '../components/Schema';
 
 export default function Treatments() {
   const treatments = getAllTreatments();
@@ -111,7 +113,7 @@ export default function Treatments() {
         <title>Regenerative Treatments in Ware SG12 | ULANDA</title>
         <meta
           name="description"
-          content="Explore ULANDA's regenerative treatments in Ware SG12, Hertfordshire. Four pathways — Refresh, Renew, Restore, Radiate — designed for midlife skin regeneration and wellness."
+          content="Regenerative treatments in Ware, Hertfordshire. Four pathways — Refresh, Renew, Restore, Radiate — for midlife skin regeneration and wellness."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -119,6 +121,7 @@ export default function Treatments() {
         <meta name="twitter:description" content="Explore ULANDA's regenerative treatments. Four pathways — Refresh, Renew, Restore, Radiate — designed for midlife skin regeneration." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/treatments/treatments-hero.webp" />
       </Head>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Treatments', url: '/treatments' }]} />
 
       <div className="bg-base-100 font-sans text-base-content">
         <Breadcrumbs />
@@ -331,6 +334,7 @@ export default function Treatments() {
             </div>
           </section>
         ))}
+        <ConsultationCTA />
       </div>
     </>
   );

@@ -6,8 +6,8 @@
 
 export const signatureHubData = {
   seo: {
-    title: "ULANDA Signatures in Ware | Regenerative Skin & Women's Wellness Hertfordshire",
-    description: "ULANDA Signatures, regenerative aesthetics Ware, skin clinic Hertfordshire, nurse-led aesthetics Ware, Advanced Skin Health Consultation Ware, menopause skin programme Hertfordshire, rosacea treatment Ware, pigmentation correction Hertfordshire, collagen regeneration Ware, under-eye renewal Hertfordshire",
+    title: "ULANDA Signatures | Regenerative Skin Programmes Ware",
+    description: "Clinician-led regenerative programmes for barrier repair, rosacea, menopause skin decline, pigmentation and structural ageing. Nurse-led in Ware, Hertfordshire.",
     canonical: "https://www.ulanda.co.uk/signature"
   },
   hero: {
@@ -347,8 +347,8 @@ export const signaturePathways = [
     url: "/signature/rosacea-redness-control",
     image: "/assets/img/treatments/radiate/Under eye regeneration treatment.webp",
     seo: {
-      title: "Rosacea & Redness Control in Ware | ULANDA Signature Hertfordshire",
-      description: "A nurse-led rosacea and redness control Signature in Ware, Hertfordshire designed to calm flushing, reduce inflammation and stabilise reactive skin. Structured sequencing for long-term redness reduction and skin resilience.",
+      title: "Rosacea & Redness Control | ULANDA Ware",
+      description: "Nurse-led rosacea and redness control programme in Ware. Calms flushing, reduces inflammation and stabilises reactive skin for long-term resilience.",
       canonical: "https://www.ulanda.co.uk/signature/rosacea-redness-control"
     },
     content: {
@@ -542,8 +542,8 @@ export const signaturePathways = [
     url: "/signature/menopause-skin-rebuild",
     image: "/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp",
     seo: {
-      title: "Menopause Skin Rebuild in Ware | ULANDA Signature Hertfordshire",
-      description: "A nurse-led menopause skin rebuild Signature in Ware, Hertfordshire designed to restore hydration, reduce fragility and support collagen decline. Structured sequencing for hormonally changing skin and long-term skin resilience.",
+      title: "Menopause Skin Rebuild | ULANDA Ware",
+      description: "Nurse-led menopause skin rebuild programme in Ware. Restores hydration, reduces fragility and supports collagen in hormonally changing skin.",
       canonical: "https://www.ulanda.co.uk/signature/menopause-skin-rebuild"
     },
     content: {
@@ -734,8 +734,8 @@ export const signaturePathways = [
     url: "/signature/photoaging-skin-architecture",
     image: "/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp",
     seo: {
-      title: "Photoaging & Skin Architecture in Ware | ULANDA Signature Hertfordshire",
-      description: "A nurse-led photoaging and pigmentation correction Signature in Ware, Hertfordshire designed to improve sun damage, uneven tone, texture and skin quality. Structured sequencing for long-term skin architecture and refined regeneration.",
+      title: "Photoaging & Skin Architecture | ULANDA Ware",
+      description: "Nurse-led photoaging correction programme in Ware. Targets sun damage, uneven tone, texture and skin quality for refined skin architecture.",
       canonical: "https://www.ulanda.co.uk/signature/photoaging-skin-architecture"
     },
     content: {
@@ -916,8 +916,8 @@ export const signaturePathways = [
     url: "/signature/structural-skin-regeneration",
     image: "/assets/img/treatments/radiate/Ulanda shape regenerate.webp",
     seo: {
-      title: "Structural Skin Regeneration in Ware | ULANDA Signature Hertfordshire",
-      description: "A nurse-led structural skin regeneration Signature in Ware, Hertfordshire designed to support firmness, elasticity and collagen decline. Structured sequencing for skin laxity, ageing architecture and long-term regenerative strength.",
+      title: "Structural Skin Regeneration | ULANDA Ware",
+      description: "Nurse-led structural regeneration programme in Ware. Supports firmness, elasticity and collagen for long-term regenerative strength.",
       canonical: "https://www.ulanda.co.uk/signature/structural-skin-regeneration"
     },
     content: {

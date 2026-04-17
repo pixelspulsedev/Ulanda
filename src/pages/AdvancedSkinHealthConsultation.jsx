@@ -169,7 +169,7 @@ export default function AdvancedSkinHealthConsultation() {
   return (
     <>
       <Head>
-        <title>Advanced Skin Health Consultation | Ware &amp; Hertfordshire</title>
+        <title>Advanced Skin Health Consultation | ULANDA Ware</title>
         <meta name="description" content="Medical skin consultation in Ware, Hertford & Broxbourne including AI Skin Analysis, barrier assessment and structured regenerative planning at ULANDA." />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments/advanced-skin-health-consultation" />
         {consultationSchema.map((schema, i) => (

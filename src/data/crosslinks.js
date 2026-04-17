@@ -798,20 +798,20 @@ export const getConditionUrl = (slug) => {
     "under-eye-fragility": "eye-area",
     "puffy-under-eyes": "eye-area",
 
-    // 4) Age & Skin Regeneration
-    "crepey-skin": "age-and-regeneration",
-    "skin-laxity": "age-and-regeneration",
-    "volume-loss": "age-and-regeneration",
-    "uneven-texture": "age-and-regeneration",
-    "enlarged-pores": "age-and-regeneration",
-    "fine-lines-wrinkles": "age-and-regeneration",
-    "acne-scarring": "age-and-regeneration",
+    // 4) Structural Ageing & Skin Regeneration
+    "crepey-skin": "menopause-hormone-skin-changes",
+    "skin-laxity": "menopause-hormone-skin-changes",
+    "volume-loss": "menopause-hormone-skin-changes",
+    "uneven-texture": "acne-texture",
+    "enlarged-pores": "acne-texture",
+    "fine-lines-wrinkles": "menopause-hormone-skin-changes",
+    "acne-scarring": "acne-texture",
 
     // 5) Hormonal Skin Conditions
-    "hormonal-breakouts": "hormonal-skin",
-    "dryness-sensitivity": "hormonal-skin",
-    "hormonal-pigmentation": "hormonal-skin",
-    "loss-of-definition": "hormonal-skin",
+    "hormonal-breakouts": "acne-texture",
+    "dryness-sensitivity": "redness-sensitivity-reactive-skin",
+    "hormonal-pigmentation": "pigmentation-and-skin-tone",
+    "loss-of-definition": "menopause-hormone-skin-changes",
 
     // 6) Body Skin & Structural Conditions
     "body-skin-laxity": "body-skin-structural",

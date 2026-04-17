@@ -6,6 +6,7 @@ import { signaturePathways } from '../data/pageContents/signature/signatureData'
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 const BOOKING_URL = "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ";
 
@@ -17,8 +18,8 @@ const homepageSchema = {
       "@id": "https://www.ulanda.co.uk/#medicalbusiness",
       "name": "ULANDA Skin Clinic",
       "url": "https://www.ulanda.co.uk/",
-      "logo": "https://www.ulanda.co.uk/images/ulanda-logo.png",
-      "image": "https://www.ulanda.co.uk/images/ulanda-clinic.jpg",
+      "logo": "https://www.ulanda.co.uk/assets/img/ui/Logo.webp",
+      "image": "https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
       "description": "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire specialising in regenerative skin treatments, clinical skin health consultations and structured aesthetic care.",
       "telephone": "+44 7904 336031",
       "email": "info@ulanda.co.uk",
@@ -82,7 +83,7 @@ const homepageSchema = {
       "@id": "https://www.ulanda.co.uk/#organization",
       "name": "ULANDA Skin Clinic",
       "url": "https://www.ulanda.co.uk/",
-      "logo": "https://www.ulanda.co.uk/images/ulanda-logo.png",
+      "logo": "https://www.ulanda.co.uk/assets/img/ui/Logo.webp",
       "sameAs": [
         "https://www.instagram.com/ulandamedspa",
         "https://www.facebook.com/ulandamedspa",
@@ -129,8 +130,8 @@ export default function Home() {
     <>
       <Head>
         <title>Skin Clinic in Ware | Nurse-Led Medical Aesthetics | ULANDA</title>
-        <meta name="description" content="Nurse-led skin clinic in Ware, Hertfordshire delivering barrier-first skin restoration, advanced medical aesthetics and structured Skin Health Consultation. Assessment before treatment. Results that last." />
-        <link rel="canonical" href="https://www.ulanda.co.uk/treatments/medical-aesthetics-clinic/" />
+        <meta name="description" content="Nurse-led skin clinic in Ware, Hertfordshire. Barrier-first restoration, advanced medical aesthetics and structured Skin Health Consultation." />
+        <link rel="canonical" href="https://www.ulanda.co.uk/" />
         <meta name="robots" content="index, follow" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Skin Clinic in Ware | Nurse-Led Medical Aesthetics | ULANDA" />
@@ -906,6 +907,7 @@ export default function Home() {
           </FadeInWhenVisible>
         </div>
       </section>
+      <ConsultationCTA />
     </>
   );
 }

@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 export default function Programme() {
   const method = [
@@ -49,7 +50,7 @@ export default function Programme() {
   return (
     <>
       <Head>
-        <title>Signature Pathways | ULANDA Regenerative Wellness</title>
+        <title>Signature Programmes | ULANDA Skin Clinic Ware</title>
         <meta name="description" content="ULANDA Signature pathways combine regenerative science with personalised wellness. Multi-week treatment pathways for transformational skin and body results." />
         <link rel="canonical" href="https://www.ulanda.co.uk/signature" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -467,6 +468,7 @@ export default function Programme() {
           </FadeInWhenVisible>
         </div>
       </section>
+      <ConsultationCTA />
     </>
   );
 }

@@ -5,6 +5,7 @@ import { ArrowRight, BookOpen } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 const barrierSchemas = [
   {
@@ -156,7 +157,7 @@ export default function SkinBarrierRenewalProtocol() {
   return (
     <>
       <Head>
-        <title>Skin Barrier Renewal Protocol | Ware Hertfordshire</title>
+        <title>Skin Barrier Renewal Protocol | ULANDA Ware</title>
         <meta name="description" content="Clinical skin barrier repair in Ware, Hertford & Broxbourne. A structured protocol restoring barrier integrity before advanced treatment." />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol" />
         {barrierSchemas.map((schema, i) => (
@@ -743,6 +744,7 @@ export default function SkinBarrierRenewalProtocol() {
             </FadeInWhenVisible>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

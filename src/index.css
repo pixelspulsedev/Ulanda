@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Forced refresh */
+/* Ensure font-display: swap for all @font-face declarations to prevent FOIT */
+@font-face {
+  font-family: 'Inter';
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-display: swap;
+}
+
 @layer base {
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif;

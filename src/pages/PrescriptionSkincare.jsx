@@ -3,6 +3,7 @@ import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
+import ConsultationCTA from '../components/ConsultationCTA';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 
 const prescriptionSchemas = {
@@ -241,8 +242,8 @@ export default function PrescriptionSkincare() {
   return (
     <>
       <Head>
-        <title>Prescription Skincare Ware | Medical Grade Skincare Hertfordshire | ULANDA Skin Clinic</title>
-        <meta name="description" content="ULANDA is an authorised prescription skincare clinic in Ware, Hertfordshire. Medical grade prescription skincare prescribed by a Nurse Independent Prescriber as part of a structured clinical programme. Currently stocking Obagi Medical." />
+        <title>Prescription Skincare Ware | ULANDA Skin Clinic</title>
+        <meta name="description" content="Prescription skincare clinic in Ware, Hertfordshire. Medical-grade skincare prescribed by a Nurse Prescriber within a structured clinical programme." />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments/prescription-skincare" />
         <script type="application/ld+json">{JSON.stringify(prescriptionSchemas)}</script>
       </Head>
@@ -614,6 +615,7 @@ export default function PrescriptionSkincare() {
             </FadeInWhenVisible>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import RelatedConditions from '../components/RelatedConditions';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
+import ConsultationCTA from '../components/ConsultationCTA';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import { ServiceSchema } from '../components/Schema';
 
@@ -113,7 +114,7 @@ const Treatment = () => {
 
   const seoTitle =
     treatment.seo?.title ||
-    `Ulanda - ${heroData.title} ${heroData.highlight || ''}`;
+    `ULANDA | ${heroData.title} ${heroData.highlight || ''}`;
 
   const seoDescription =
     treatment.seo?.description ||
@@ -1033,6 +1034,7 @@ const Treatment = () => {
             ))}
           </>
         )}
+        <ConsultationCTA />
       </div>
     </>
   );

@@ -241,10 +241,10 @@ export default function AestheticClinicHertford() {
   return (
     <>
       <Head>
-        <title>Skin Clinic Near Hertford | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
+        <title>Skin Clinic Near Hertford | ULANDA Ware</title>
         <meta
           name="description"
-          content="ULANDA is a nurse-led skin clinic near Hertford in Ware, Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. 10 minutes from Hertford. Free parking on site."
+          content="Nurse-led skin clinic near Hertford, based in Ware. Barrier assessment, regenerative treatments and structured skin programmes. About 10 min drive."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-hertford" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>

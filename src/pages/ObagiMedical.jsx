@@ -5,6 +5,7 @@ import { BookOpen } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 const obagiSchemas = {
   "@context": "https://schema.org",
@@ -288,8 +289,8 @@ export default function ObagiMedical() {
   return (
     <>
       <Head>
-        <title>Obagi Medical Prescription Skincare Ware | Obagi Stockist Hertfordshire | ULANDA Skin Clinic</title>
-        <meta name="description" content="Authorised Obagi Medical stockist in Ware, Hertfordshire. Prescription Obagi skincare prescribed by a Nurse Independent Prescriber as part of personalised clinical skin programmes." />
+        <title>Obagi Medical Stockist Ware | ULANDA Skin Clinic</title>
+        <meta name="description" content="Authorised Obagi Medical stockist in Ware, Hertfordshire. Prescription skincare prescribed by a Nurse Prescriber within clinical skin programmes." />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments/prescription-skincare/obagi-medical" />
         <script type="application/ld+json">{JSON.stringify(obagiSchemas)}</script>
       </Head>
@@ -666,6 +667,7 @@ export default function ObagiMedical() {
             </FadeInWhenVisible>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

@@ -7,6 +7,7 @@ import { Check, Clock, Shield, ChevronRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 export default function ToolDetail() {
   const { id: rawId } = useParams();
@@ -209,6 +210,7 @@ export default function ToolDetail() {
                 </Link>
             </div>
          </section>
+         <ConsultationCTA />
       </div>
     </>
   );

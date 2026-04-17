@@ -192,8 +192,8 @@ export default function AestheticClinicBroxbourne() {
   return (
     <>
       <Head>
-        <title>Skin Clinic Near Broxbourne | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
-        <meta name="description" content="ULANDA is a nurse-led skin clinic near Broxbourne in Ware, Hertfordshire — consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 10 to 12 minutes from Broxbourne. Free parking on site." />
+        <title>Skin Clinic Near Broxbourne | ULANDA Ware</title>
+        <meta name="description" content="Nurse-led skin clinic near Broxbourne, based in Ware. Barrier assessment, regenerative treatments and structured skin programmes. About 10–12 min drive." />
         <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-broxbourne" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>

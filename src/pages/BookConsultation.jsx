@@ -21,12 +21,12 @@ const BookConsultationContent = () => {
   return (
     <>
       <Head>
-        <title>Contact Us | ULANDA Regenerative Aesthetics</title>
-        <meta name="description" content="Get in touch with ULANDA. Send us a message, ask a question or share your skin concerns. We're here to help in Ware, Hertfordshire." />
+        <title>Book a Consultation | ULANDA Skin Clinic Ware</title>
+        <meta name="description" content="Book your Advanced Skin Health Consultation at ULANDA in Ware, Hertfordshire. Share your skin concerns and start your regenerative journey." />
         <link rel="canonical" href="https://www.ulanda.co.uk/book-consultation" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact Us | ULANDA" />
-        <meta name="twitter:description" content="Get in touch with ULANDA. Send us a message, ask a question or share your skin concerns." />
+        <meta name="twitter:title" content="Book a Consultation | ULANDA" />
+        <meta name="twitter:description" content="Book your Advanced Skin Health Consultation at ULANDA in Ware, Hertfordshire." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 

@@ -6,6 +6,7 @@ import { getTreatmentSubCategory, getTreatmentCategory } from '../data/pageConte
 import { ArrowRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import { FAQSchema } from '../components/Schema';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 // Sub-category SEO mapping following locked format: [Treatment Focus] in Ware SG12 | [Pathway] | ULANDA
 const subCategorySEO = {
@@ -204,6 +205,7 @@ export default function TreatmentSubCategory() {
             </section>
           </>
         )}
+        <ConsultationCTA />
       </div>
     </>
   );

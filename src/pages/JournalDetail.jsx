@@ -6,6 +6,7 @@ import { getJournalArticle } from '../data/pageContents/journal/journalArticles'
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
 import RelatedTreatments from '../components/RelatedTreatments';
 import RelatedConditions from '../components/RelatedConditions';
 import RelatedSignatures from '../components/RelatedSignatures';
@@ -405,6 +406,7 @@ export default function JournalDetail() {
             </div>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

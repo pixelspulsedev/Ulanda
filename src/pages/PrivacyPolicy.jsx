@@ -1,6 +1,7 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { HeroText, FadeInWhenVisible } from '../components/animations';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 export default function PrivacyPolicy() {
   return (
@@ -107,6 +108,7 @@ export default function PrivacyPolicy() {
           </div>
         </section>
       </FadeInWhenVisible>
+      <ConsultationCTA compact />
     </div>
   );
 }

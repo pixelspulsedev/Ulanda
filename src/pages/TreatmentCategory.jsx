@@ -6,6 +6,7 @@ import { getTreatmentCategory } from '../data/pageContents/treatments/treatments
 import { ArrowRight } from 'lucide-react';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 // SEO metadata for pathway landing pages - LOCKED format
 const pathwaySEO = {
@@ -99,6 +100,7 @@ export default function TreatmentCategory() {
                 ))}
              </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

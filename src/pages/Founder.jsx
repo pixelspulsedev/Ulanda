@@ -2,6 +2,8 @@ import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import { HeroText, FadeInWhenVisible, RevealImage } from '../components/animations';
+import ConsultationCTA from '../components/ConsultationCTA';
+import { BreadcrumbSchema } from '../components/Schema';
 
 const qualifications = [
   'Registered Nurse & Registered Midwife',
@@ -153,7 +155,7 @@ export default function Founder() {
         <title>Meet Our Founder Helen Balogun | ULANDA</title>
         <meta
           name="description"
-          content="Meet Helen Balogun, Founder of ULANDA. Advanced Nurse Practitioner, Regenerative Aesthetics Specialist & Women's Health Advocate with 20+ years clinical experience."
+          content="Meet Helen Balogun, Founder of ULANDA. Advanced Nurse Practitioner and Regenerative Aesthetics Specialist with 20+ years clinical experience."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/about/our-founder" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -161,6 +163,7 @@ export default function Founder() {
         <meta name="twitter:description" content="Meet Helen Balogun, Advanced Nurse Practitioner and Regenerative Aesthetics Specialist with 20+ years clinical experience." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about/our-story' }, { name: 'Our Founder', url: '/about/our-founder' }]} />
 
       <div className="bg-base-100 text-base-content">
         {/* Hero Section */}
@@ -448,6 +451,7 @@ export default function Founder() {
             </div>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

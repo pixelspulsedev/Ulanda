@@ -5,6 +5,7 @@ import { ArrowRight, BookOpen, CheckCircle } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 const pageSchema = {
   "@context": "https://schema.org",
@@ -277,8 +278,8 @@ export default function MedicalAestheticsClinic() {
   return (
     <>
       <Head>
-        <title>Medical Aesthetics Clinic in Ware | Nurse-Led Skin Clinic | ULANDA</title>
-        <meta name="description" content="Nurse-led medical aesthetics clinic in Ware, Hertfordshire delivering regenerative injectables, skin boosters, microneedling and barrier-first skin treatments within a structured clinical programme. Consultation required. Free parking on site." />
+        <title>Medical Aesthetics Clinic Ware | Nurse-Led | ULANDA</title>
+        <meta name="description" content="Nurse-led medical aesthetics clinic in Ware, Hertfordshire. Regenerative injectables, skin boosters and microneedling within a structured clinical programme." />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments/medical-aesthetics-clinic/" />
         <meta name="robots" content="index, follow" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
@@ -637,6 +638,7 @@ export default function MedicalAestheticsClinic() {
             </div>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

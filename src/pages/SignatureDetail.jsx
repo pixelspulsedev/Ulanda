@@ -8,6 +8,7 @@ import { getSignaturePathway, signaturePathways } from '../data/pageContents/sig
 import { getJournalsForSignature } from '../data/pageContents/journal/journalArticles';
 import RelatedJournals from '../components/RelatedJournals';
 import { Check, ArrowRight, ArrowLeft, ChevronDown, ChevronUp } from 'lucide-react';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 export default function SignatureDetail() {
   const { id: rawId } = useParams();
@@ -725,6 +726,7 @@ export default function SignatureDetail() {
           </a>
         </div>
       </div>
+      <ConsultationCTA />
     </>
   );
 }

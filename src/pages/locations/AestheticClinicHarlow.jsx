@@ -244,10 +244,10 @@ export default function AestheticClinicHarlow() {
   return (
     <>
       <Head>
-        <title>Skin Clinic Near Harlow | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
+        <title>Skin Clinic Near Harlow | ULANDA Ware</title>
         <meta
           name="description"
-          content="ULANDA is a nurse-led skin clinic near Harlow in Ware, Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 15 minutes from Harlow. Free parking on site."
+          content="Nurse-led skin clinic near Harlow, based in Ware. Barrier assessment, regenerative treatments and structured skin programmes. About 15 min drive."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-harlow" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>

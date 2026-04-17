@@ -6,6 +6,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import RevealImage from '../components/animations/RevealImage';
+import ConsultationCTA from '../components/ConsultationCTA';
 import { BreadcrumbSchema } from '../components/Schema';
 
 export default function JournalLanding() {
@@ -133,6 +134,7 @@ export default function JournalLanding() {
             </div>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </div>
   );

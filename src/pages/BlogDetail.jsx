@@ -7,6 +7,8 @@ import { getTreatmentsForCondition } from '../data/crosslinks'; // repurpose or 
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
+import ConsultationCTA from '../components/ConsultationCTA';
+import { BreadcrumbSchema } from '../components/Schema';
 import RelatedTreatments from '../components/RelatedTreatments';
 import { Crown, Check, X, Bookmark, ExternalLink, BookOpen } from 'lucide-react';
 import { getTreatmentById } from '../data/pageContents/treatments/treatments';
@@ -270,6 +272,31 @@ export default function BlogDetail() {
     ? blog.relatedTreatments.map((tid) => getTreatmentById(tid)).filter(Boolean)
     : [];
 
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": blog.title,
+    "description": blog.seo?.description || blog.subtitle,
+    "url": `https://www.ulanda.co.uk/blogs/${blog.id}`,
+    "datePublished": blog.date,
+    "dateModified": blog.dateModified || blog.date,
+    ...(heroImage && { "image": heroImage.startsWith('http') ? heroImage : `https://www.ulanda.co.uk${heroImage}` }),
+    "author": {
+      "@type": "Person",
+      "name": blog.author || "Helen Balogun",
+      "jobTitle": "Advanced Nurse Practitioner",
+      "worksFor": { "@type": "MedicalBusiness", "@id": "https://www.ulanda.co.uk/#medicalbusiness" }
+    },
+    "publisher": { "@type": "MedicalBusiness", "@id": "https://www.ulanda.co.uk/#medicalbusiness" },
+    "mainEntityOfPage": { "@type": "MedicalWebPage", "url": `https://www.ulanda.co.uk/blogs/${blog.id}` }
+  };
+
+  const breadcrumbItems = [
+    { name: 'Home', url: '/' },
+    { name: 'Blog', url: '/blogs' },
+    { name: blog.title, url: `/blogs/${blog.id}` }
+  ];
+
   return (
     <>
       <Head>
@@ -281,6 +308,8 @@ export default function BlogDetail() {
         <meta name="twitter:description" content={blog.subtitle} />
         <meta name="twitter:image" content={blog.heroImage || "https://www.ulanda.co.uk/assets/img/ui/Logo.webp"} />
       </Head>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
+      <BreadcrumbSchema items={breadcrumbItems} />
 
       <div className="bg-base-100 min-h-screen">
         <Breadcrumbs />
@@ -455,6 +484,7 @@ export default function BlogDetail() {
             </div>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

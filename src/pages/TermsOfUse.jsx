@@ -2,6 +2,7 @@ import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import { HeroText, FadeInWhenVisible } from '../components/animations';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 export default function TermsOfUse() {
   return (
@@ -135,6 +136,7 @@ export default function TermsOfUse() {
           </div>
         </section>
       </FadeInWhenVisible>
+      <ConsultationCTA compact />
     </div>
   );
 }

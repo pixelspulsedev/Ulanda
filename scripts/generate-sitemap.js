@@ -22,11 +22,17 @@ const staticRoutes = [
   '/conditions',
   '/blogs',
   '/contact',
+  '/book-consultation',
   '/help-and-support',
   '/about/our-story',
   '/about/our-philosophy',
   '/about/manifesto',
   '/about/our-founder',
+  '/treatments/advanced-skin-health-consultation',
+  '/treatments/skin-barrier-renewal-protocol',
+  '/treatments/medical-aesthetics-clinic',
+  '/treatments/prescription-skincare',
+  '/treatments/prescription-skincare/obagi-medical',
   '/privacy-policy',
   '/terms-of-use',
   '/disclaimer'
@@ -60,13 +66,7 @@ const generateSitemap = () => {
     urls.push(getConditionUrl(condition.id));
   });
 
-  // Add Pathways Pages (Radiate category)
-  urls.push('/treatments/radiate/pathways');
-  programmes.forEach(programme => {
-    urls.push(`/treatments/radiate/pathways/${programme.id}`);
-  });
-
-  // Add Signature Pages
+  // Signature Pages (Pathways redirected to /signature)
   urls.push('/signature');
   signaturePathways.forEach(sig => {
     urls.push(`/signature/${sig.id}`);
@@ -102,6 +102,23 @@ const generateSitemap = () => {
     .forEach(article => {
       urls.push(`/journal/${article.id}`);
     });
+
+  // Add Location Pages
+  const locationSlugs = [
+    'aesthetic-clinic-hertfordshire',
+    'aesthetic-clinic-hoddesdon',
+    'aesthetic-clinic-hertford',
+    'aesthetic-clinic-harlow',
+    'aesthetic-clinic-cheshunt',
+    'aesthetic-clinic-broxbourne',
+    'aesthetic-clinic-bishops-stortford',
+    'aesthetic-clinic-welwyn-garden-city',
+    'aesthetic-clinic-stevenage',
+    'aesthetic-clinic-sawbridgeworth',
+  ];
+  locationSlugs.forEach(slug => {
+    urls.push(`/locations/${slug}`);
+  });
 
   /*
   // Add Treatments Pages (Old Structure - Deprecated)

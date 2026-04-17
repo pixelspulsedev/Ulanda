@@ -1,6 +1,7 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { HeroText, FadeInWhenVisible } from '../components/animations';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 export default function Disclaimer() {
   return (
@@ -80,6 +81,7 @@ export default function Disclaimer() {
           </div>
         </section>
       </FadeInWhenVisible>
+      <ConsultationCTA compact />
     </div>
   );
 }

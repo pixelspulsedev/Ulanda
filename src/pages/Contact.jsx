@@ -6,6 +6,8 @@ import {
   FadeInWhenVisible,
   RevealImage,
 } from '../components/animations';
+import ConsultationCTA from '../components/ConsultationCTA';
+import { BreadcrumbSchema } from '../components/Schema';
 
 const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY || 'YOUR_RECAPTCHA_V3_SITE_KEY';
 
@@ -28,7 +30,7 @@ const ContactContent = () => {
         <title>Contact ULANDA | Regenerative Aesthetics Clinic Ware SG12</title>
         <meta
           name="description"
-          content="Contact ULANDA in Ware SG12, Hertfordshire. Book a consultation for regenerative aesthetics, skin treatments and wellness therapies. Serving Ware, Hertford and surrounding areas."
+          content="Contact ULANDA in Ware, Hertfordshire. Book a consultation for regenerative skin treatments and wellness. Serving Ware, Hertford and surrounding areas."
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/contact" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -36,6 +38,7 @@ const ContactContent = () => {
         <meta name="twitter:description" content="Contact ULANDA in Ware SG12, Hertfordshire. Book a consultation for regenerative aesthetics and skin treatments." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Contact', url: '/contact' }]} />
 
       {/* Hero Section */}
       <section className="relative py-20 md:py-32 bg-secondary/10">
@@ -291,6 +294,7 @@ const ContactContent = () => {
           </FadeInWhenVisible>
         </div>
       </section>
+      <ConsultationCTA />
     </>
   );
 };

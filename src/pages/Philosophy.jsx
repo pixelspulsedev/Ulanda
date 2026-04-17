@@ -3,6 +3,7 @@ import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
+import ConsultationCTA from '../components/ConsultationCTA';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import { signaturePathways } from '../data/pageContents/signature/signatureData';
 import { philosophyData } from '../data/pageContents/philosophy/philosophy';
@@ -31,7 +32,7 @@ export default function Philosophy() {
   return (
     <>
       <Head>
-        <title>Our Philosophy | ULANDA Regenerative Aesthetics</title>
+        <title>Our Philosophy | ULANDA Skin Clinic Ware</title>
         <meta
           name="description"
           content="ULANDA philosophy: Regeneration, Hormone Intelligence & Personalised Care for every stage of womanhood. Treating root causes, not just symptoms."
@@ -275,7 +276,7 @@ export default function Philosophy() {
             </FadeInWhenVisible>
             <p className="text-base md:text-lg font-sans font-light text-base-content/90">
               We design your plan based on the physiology driving your skin —
-              not just what is visible on the surface. Learn more about <Link to="/conditions/age-and-regeneration" className="text-primary font-bold hover:underline inline-flex items-center gap-0.5">Age & Regeneration <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" /></svg></Link>.
+              not just what is visible on the surface. Learn more about <Link to="/conditions/menopause-hormone-skin-changes" className="text-primary font-bold hover:underline inline-flex items-center gap-0.5">Menopause & Hormone Skin Changes <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" /></svg></Link>.
             </p>
           </div>
         </section>
@@ -463,6 +464,7 @@ export default function Philosophy() {
             </FadeInWhenVisible>
           </div>
         </section>
+        <ConsultationCTA />
       </div>
     </>
   );

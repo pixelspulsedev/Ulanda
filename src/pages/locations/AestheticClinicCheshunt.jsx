@@ -173,8 +173,8 @@ export default function AestheticClinicCheshunt() {
   return (
     <>
       <Head>
-        <title>Skin Clinic Near Cheshunt | Consultation-Led Skin Health | ULANDA Ware Hertfordshire</title>
-        <meta name="description" content="ULANDA is a nurse-led skin clinic near Cheshunt in Ware, Hertfordshire offering consultation-led skin health, barrier assessment, regenerative treatments and structured skin programmes. Around 15 minutes from Cheshunt. Free parking on site." />
+        <title>Skin Clinic Near Cheshunt | ULANDA Ware</title>
+        <meta name="description" content="Nurse-led skin clinic near Cheshunt, based in Ware. Barrier assessment, regenerative treatments and structured skin programmes. About 15 min drive." />
         <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-cheshunt" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
       </Head>

@@ -6,6 +6,7 @@ import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import { signatureHubData, signaturePathways } from '../data/pageContents/signature/signatureData';
 import { Check, ArrowRight, Shield, Heart, Sparkles, Activity } from 'lucide-react';
+import ConsultationCTA from '../components/ConsultationCTA';
 
 export default function SignatureHub() {
   const data = signatureHubData;
@@ -358,6 +359,7 @@ export default function SignatureHub() {
           </Link>
         </div>
       </div>
+      <ConsultationCTA />
     </>
   );
 }
