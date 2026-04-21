@@ -456,7 +456,7 @@ const skinRenewalRegeneration = {
     // Polynucleotides
     "polynucleotides": getOriginalTreatment("renew", "injectables", "polynucleotides"),
     // Under-Eye Regeneration Treatments
-    "under-eye-regeneration": getOriginalTreatment("radiate", "programmes", "under-eye-regeneration"),
+    "under-eye-regeneration": getOriginalTreatment("radiate", "pathways", "under-eye-regeneration"),
   }
 };
 
@@ -584,7 +584,7 @@ const bodyRegenerationTissueSupport = {
     // Body Skin Tightening
     "body-tightening": getOriginalTreatment("radiate", "structural-lifting", "body-tightening"),
     // Shape & Regenerate Treatments
-    "shape-and-regenerate": getOriginalTreatment("radiate", "programmes", "shape-and-regenerate"),
+    "shape-and-regenerate": getOriginalTreatment("radiate", "pathways", "shape-and-regenerate"),
     // Body Contouring
     "body-contouring": getOriginalTreatment("radiate", "structural-lifting", "body-contouring"),
     // Stretch Mark Support (uses microneedling for textural regeneration)
