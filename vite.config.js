@@ -11,6 +11,7 @@ import { blogs } from './src/data/pageContents/blogs/blogs.js'
 import { signaturePathways } from './src/data/pageContents/signature/signatureData.js'
 import { journalArticles } from './src/data/pageContents/journal/journalArticles.js'
 import { tools } from './src/data/pageContents/tools/tools.js'
+import { getConditionUrl } from './src/data/crosslinks.js'
 
 // Generate all static paths for SSG
 function generateStaticPaths() {
@@ -95,10 +96,15 @@ function generateStaticPaths() {
     }
   });
 
-  // Individual condition pages (fallback to catch any /conditions/:id route)
-  // individualConditions.forEach(condition => {
-  //   paths.push(`/conditions/${condition.id}`);
-  // });
+  // Pre-render every individualCondition at its canonical /conditions/:category/:id
+  // URL (using getConditionUrl) so Google gets real HTML instead of an SPA shell.
+  // Also emit the bare /conditions/:id form — ConditionDetail sets a canonical
+  // <link> pointing back to the category-prefixed URL, so duplicates are handled.
+  individualConditions.forEach(condition => {
+    if (!condition?.id) return;
+    paths.push(getConditionUrl(condition.id));
+    paths.push(`/conditions/${condition.id}`);
+  });
 
   // Blog pages
   blogs.forEach(blog => {

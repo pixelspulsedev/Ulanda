@@ -703,6 +703,61 @@
       "permanent": true
     },
     {
+      "source": "/treatments/other/collagen-reset",
+      "destination": "/signature/structural-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/structural-lift-facial-architecture",
+      "destination": "/treatments/structural-collagen-support",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/oxygen-glow-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/deep-hydration-facial",
+      "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/:path*",
+      "destination": "/treatments",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-renewal-regeneration/skin-renewal-regeneration/:path*",
+      "destination": "/treatments/skin-renewal-regeneration/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/body-regeneration-tissue-support/body-regeneration-tissue-support/:path*",
+      "destination": "/treatments/body-regeneration-tissue-support/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/signatures/:path*",
+      "destination": "/signature/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/signatures",
+      "destination": "/signature",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/eye-area/under-eye-puffiness",
+      "destination": "/conditions/eye-area/puffy-under-eyes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/eye-area/under-eye-pigmentation",
+      "destination": "/conditions/pigmentation-and-skin-tone",
+      "permanent": true
+    },
+    {
       "source": "/conditions/non-responsive-skin",
       "destination": "/conditions/dehydration-dullness-skin-recovery/non-responsive-skin",
       "permanent": true
