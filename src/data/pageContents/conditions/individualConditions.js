@@ -6186,14 +6186,14 @@ export const individualConditions = [
   {
     id: "rosacea",
     seo: {
-      title: "Rosacea Treatment Ware | Redness & Flushing | ULANDA",
-      description: "Manage rosacea and facial redness in Ware. ULANDA specialises in calming inflammation, reducing flushing, and strengthening the skin barrier."
+      title: "Rosacea Treatment Hertfordshire | Redness, Flushing & Sensitivity | ULANDA Ware",
+      description: "Rosacea treatment in Hertfordshire at ULANDA Ware. Calm redness, reduce flushing & strengthen the skin barrier with regenerative protocols."
     },
     hero: {
       title: "Rosacea /",
       highlight: "Redness, Flushing & Sensitivity",
-      subtitle: "Redness, Flushing & Sensitivity",
-      description: "Rosacea is a chronic skin condition that often presents as persistent redness, flushing, sensitivity and inflammation that can worsen over time if the skin barrier is not stabilised. Many clients describe their skin as constantly reactive — stinging easily, flaring suddenly, and becoming difficult to manage despite trying multiple products and treatments.",
+      subtitle: "Rosacea Treatment in Hertfordshire — Redness, Flushing & Sensitivity",
+      description: "Rosacea is a chronic skin condition that often presents as persistent redness, flushing, sensitivity and inflammation that can worsen over time if the skin barrier is not stabilised. At ULANDA in Ware, Hertfordshire, many clients describe their skin as constantly reactive — stinging easily, flaring suddenly, and becoming difficult to manage despite trying multiple products and treatments.",
       image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       placeholderUrl: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp",
       buttonText: "Book Advanced Skin Health Consultation",

@@ -542,8 +542,8 @@ export const signaturePathways = [
     url: "/signature/menopause-skin-rebuild",
     image: "/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp",
     seo: {
-      title: "Menopause Skin Rebuild | ULANDA Ware",
-      description: "Nurse-led menopause skin rebuild programme in Ware. Restores hydration, reduces fragility and supports collagen in hormonally changing skin.",
+      title: "Menopause Clinic Ware SG12 | 12-Week Skin Regeneration Plan | ULANDA Hertfordshire",
+      description: "Menopause clinic in Ware, Hertfordshire. ULANDA's nurse-led 12-Week Menopause Regeneration Plan restores collagen, hydration & firmness for midlife skin.",
       canonical: "https://www.ulanda.co.uk/signature/menopause-skin-rebuild"
     },
     content: {

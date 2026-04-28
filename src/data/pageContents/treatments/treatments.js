@@ -1990,11 +1990,11 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Chemical Peels Ware SG12 | Smooth, Brighten & Renew | ULANDA",
-              "description": "Medical chemical peels in Ware. Treat pigmentation, acne scarring & sun damage. Reveal smoother, brighter, younger-looking skin."
+              "title": "Chemical Peels Hertfordshire | Medical-Grade Peels in Ware | ULANDA",
+              "description": "Medical chemical peels in Hertfordshire at ULANDA Ware. Treat pigmentation, acne scarring & sun damage with peels tailored to your skin type."
             },
             "seoHeadings": {
-              "h1": "Chemical Peels in Ware SG12 — Smooth, Brighten & Renew Your Skin",
+              "h1": "Chemical Peels in Hertfordshire — Smooth, Brighten & Renew Your Skin",
               "h2": [
                 "What Chemical Peels Treat (Pigmentation • Ageing • Roughness • Scarring)",
                 "Types of Peels (Superficial • Medium • TCA • Brightening Peels)",
@@ -2324,11 +2324,11 @@ export const treatments = {
               "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/DVS7MEQAXTUCGRUHSISLOFHF"
             },
             "seo": {
-              "title": "Profhilo in Ware SG12 | Renew | ULANDA",
-              "description": "Profhilo treatment in Ware SG12, Hertfordshire. Deep hydration and skin remodelling for crepey skin and fine lines. Bio-remodelling for lasting results."
+              "title": "Profhilo Treatment Hertfordshire | Bio-Remodelling Skin Booster | ULANDA Ware",
+              "description": "Profhilo treatment in Hertfordshire at ULANDA Ware SG12. Bio-remodelling skin booster for crepey skin, fine lines & deep hydration. Book a consultation."
             },
             "seoHeadings": {
-              "h1": "Profhilo in Ware SG12",
+              "h1": "Profhilo Treatment in Hertfordshire — Bio-Remodelling for Skin Quality",
               "h2": [
                 "What Profhilo Treats: Dehydration, Crepey Skin, Fine Lines",
                 "How Profhilo Works — HA Hybrid Complex & Bio-Remodeling",
@@ -2336,7 +2336,7 @@ export const treatments = {
                 "Treatment Protocol & Results Timeline",
                 "Best Combination Treatments",
                 "Conditions Profhilo Improves",
-                "Book Profhilo in Ware SG12"
+                "Book Profhilo in Hertfordshire (Ware SG12)"
               ]
             },
             "title": "Profhilo",
@@ -2421,19 +2421,20 @@ export const treatments = {
               "definisse"
             ],
             "seo": {
-              "title": "Definisse Hydrobooster Ware SG12 | Hydration & Fine Lines | ULANDA",
-              "description": "Definisse Hydrobooster in Ware. Specialized hydration + fine line smoothing. Ideal for upper lip lines, cheeks & crepey skin."
+              "title": "Definisse Hydrobooster Hertfordshire | HA Skin Booster (Skinvive Alternative) | ULANDA Ware",
+              "description": "Definisse Hydrobooster in Hertfordshire at ULANDA Ware. HA microbooster for hydration & fine line smoothing — a skin-booster alternative to Skinvive."
             },
             "seoHeadings": {
-              "h1": "Definisse Hydrobooster in Ware SG12 — Hydration + Fine Line Smoothing for Aging Skin",
+              "h1": "Definisse Hydrobooster in Hertfordshire — HA Microbooster for Hydration & Fine Lines",
               "h2": [
                 "What It Treats: Crepey Skin, Fine Lines, Texture Decline",
                 "How It Works — HA + Regenerative Complex",
+                "Definisse Hydrobooster vs Skinvive — How HA Microboosters Compare",
                 "Hydrobooster vs Profhilo — Which Is Best for You?",
                 "Treatment Experience",
                 "Best Combinations (PN, Microneedling)",
                 "Conditions Hydrobooster Improves",
-                "Book Hydrobooster in Ware SG12"
+                "Book Hydrobooster in Hertfordshire (Ware SG12)"
               ]
             },
             "title": "Definisse",
@@ -2457,7 +2458,8 @@ export const treatments = {
             "introduction": {
               "title": "What Is Definisse Hydrobooster?",
               "content": [
-                "A next-generation skin booster containing hyaluronic acid and crosslinked molecules that hydrate while improving dermal density."
+                "Definisse Hydrobooster at ULANDA in Ware, Hertfordshire is a next-generation HA microbooster containing hyaluronic acid and crosslinked molecules that hydrate while improving dermal density — particularly around fine lines, the upper lip and cheek area.",
+                "Definisse Hydrobooster vs Skinvive: Skinvive is a hyaluronic acid microbooster designed to improve skin smoothness on the cheeks. Definisse Hydrobooster delivers a comparable HA-microbooster outcome with the addition of a crosslinked complex that supports longer-lasting hydration and works across a wider treatment area, including perioral fine lines. For Hertfordshire clients searching for Skinvive, Definisse Hydrobooster is the closest regenerative equivalent in our protocol."
               ],
               "goals": [
                 "Smoother texture",
@@ -2465,8 +2467,8 @@ export const treatments = {
                 "Excellent for upper lip & cheeks"
               ],
               "highlightBox": {
-                "text1": "Next-generation skin booster.",
-                "text2": "Hydration and elasticity improvement."
+                "text1": "Next-generation HA microbooster.",
+                "text2": "A skin-booster alternative to Skinvive — hydration & elasticity improvement."
               },
               image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
               placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -2822,19 +2824,20 @@ export const treatments = {
               "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/DZWP3TZT6V3ADFYYETJX7MV5"
             },
             "seo": {
-              "title": "Microneedling in Ware SG12 | Collagen Induction | ULANDA",
-              "description": "Medical Microneedling in Ware. Reduce pore size, smooth texture, and treat acne scars. Natural collagen induction for clearer, firmer skin."
+              "title": "Microneedling Hertfordshire | Collagen Induction (Morpheus8 Alternative) | ULANDA Ware",
+              "description": "Medical microneedling in Hertfordshire at ULANDA Ware. Collagen induction for pores, texture & scars — a regenerative alternative to Morpheus8."
             },
             "seoHeadings": {
-              "h1": "Microneedling in Ware SG12 — Collagen Induction for Pores, Texture, Scars & Aging Skin",
+              "h1": "Microneedling in Hertfordshire — Collagen Induction for Pores, Texture & Scars",
               "h2": [
                 "What Microneedling Treats: Pores, Texture, Fine Lines, Pigmentation",
                 "How Microneedling Works — Controlled Micro-Injuries & Collagen Remodeling",
+                "Microneedling vs Morpheus8 — Why We Chose Regenerative Microneedling",
                 "Microneedling vs RF Microneedling — Which Do You Need?",
-                "Your Your Treatment Experience (Before, During, After)",
+                "Your Treatment Experience (Before, During, After)",
                 "Best Treatment Combos (PN, PRP, Skin Boosters)",
                 "Conditions Microneedling Improves",
-                "Book Microneedling in Ware SG12"
+                "Book Microneedling in Hertfordshire (Ware SG12)"
               ]
             },
             "title": "Microneedling",
@@ -2859,7 +2862,9 @@ export const treatments = {
             "introduction": {
               "title": "What Is Microneedling?",
               "content": [
-                "A controlled micro-injury treatment that stimulates fibroblasts to create new collagen and elastin."
+                "Microneedling at ULANDA in Ware, Hertfordshire is a controlled micro-injury treatment that stimulates fibroblasts to create new collagen and elastin — naturally remodelling skin texture, pores, fine lines and acne scarring.",
+                "Microneedling vs Morpheus8: Morpheus8 combines microneedling with radiofrequency energy for deeper dermal heating. At ULANDA we have chosen a regenerative microneedling pathway — paired where appropriate with Polynucleotides, PRP or Skin Boosters — because it delivers comparable collagen-induction outcomes for most clients with significantly less downtime and a gentler experience for menopausal and reactive skin. Clients searching for Morpheus8 in Hertfordshire often find that a regenerative microneedling protocol is the better-suited starting point.",
+                "If you specifically require radiofrequency-driven dermal contraction, our team will discuss RF microneedling options at your consultation."
               ],
               "goals": [
                 "Smooths texture",
@@ -2869,7 +2874,7 @@ export const treatments = {
               ],
               "highlightBox": {
                 "text1": "Collagen induction therapy.",
-                "text2": "Texture rejuvenation and glow boosting."
+                "text2": "A regenerative alternative to Morpheus8 for most skin concerns."
               },
               image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
               placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",

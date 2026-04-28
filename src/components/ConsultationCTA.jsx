@@ -52,9 +52,9 @@ export default function ConsultationCTA({
               href={BOOKING_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-primary px-8"
+              className="btn btn-primary px-8"
             >
-              Book Now →
+              Book Now 
             </a>
           </div>
         </div>

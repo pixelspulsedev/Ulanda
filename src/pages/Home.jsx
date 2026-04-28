@@ -494,6 +494,93 @@ export default function Home() {
       </section>
 
       {/* ============================================================
+          SECTION 7B — FEATURED TREATMENTS (SEO anchor links)
+          ============================================================ */}
+      <section className="py-24 px-4 md:px-8 bg-secondary/10">
+        <div className="max-w-7xl mx-auto">
+          <FadeInWhenVisible className="mb-12">
+            <div className="inline-block px-4 py-1 mb-6 border border-primary/30 rounded-full bg-secondary/30">
+              <span className="text-xs font-bold tracking-widest text-primary uppercase">Featured Treatments in Hertfordshire</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-4">
+              Most-Requested <span className="italic font-light text-primary">Regenerative Treatments</span>
+            </h2>
+            <p className="text-lg text-base-content/80 font-sans max-w-2xl leading-relaxed">
+              The treatments our clients across Hertfordshire ask for most — each one delivered as part of a structured, regenerative protocol at our Ware SG12 clinic.
+            </p>
+          </FadeInWhenVisible>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                title: "Profhilo Treatment Hertfordshire",
+                description: "Bio-remodelling skin booster for hydration, fine lines and crepey skin.",
+                url: "/treatments/injectable-skin-optimisation/profhilo",
+                image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?q=80&w=2070&auto=format&fit=crop"
+              },
+              {
+                title: "Chemical Peels Hertfordshire",
+                description: "Medical-grade peels for pigmentation, acne scarring and sun damage.",
+                url: "/treatments/skin-renewal-regeneration/chemical-peel",
+                image: "https://images.unsplash.com/photo-1580564591877-3a6578d09f5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlbWljYWwlMjBmYWNlJTIwdHJlYXRtZW50fGVufDB8fDB8fHww"
+              },
+              {
+                title: "Microneedling Hertfordshire",
+                description: "Collagen induction for pores, texture and scars — a regenerative alternative to Morpheus8.",
+                url: "/treatments/skin-renewal-regeneration/microneedling",
+                image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D"
+              },
+              {
+                title: "Rosacea Treatment Hertfordshire",
+                description: "Calm redness, reduce flushing and rebuild barrier resilience.",
+                url: "/conditions/redness-sensitivity-reactive-skin/rosacea",
+                image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-skin-texture_png.webp"
+              },
+              {
+                title: "Menopause Clinic in Ware",
+                description: "Our 12-Week Menopause Regeneration Plan — collagen, hydration and firmness for midlife skin.",
+                url: "/signature/menopause-skin-rebuild",
+                image: "/assets/img/treatments/radiate/12 weeks menopause regeneration plan.webp"
+              },
+              {
+                title: "Definisse Hydrobooster (Skinvive Alternative)",
+                description: "HA microbooster for hydration and fine lines — a skin-booster alternative to Skinvive.",
+                url: "/treatments/injectable-skin-optimisation/definisse-hydrobooster",
+                image: "https://images.unsplash.com/photo-1555820585-c5ae44394b79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXR5fGVufDB8fDB8fHww"
+              }
+            ].map((t, i) => (
+              <FadeInWhenVisible key={t.url} delay={0.05 * i}>
+                <Link
+                  to={t.url}
+                  className="group block bg-white border border-secondary/50 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full"
+                >
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img
+                      src={t.image}
+                      alt={t.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-serif text-base-content mb-2 group-hover:text-primary transition-colors">
+                      {t.title}
+                    </h3>
+                    <p className="text-sm text-base-content/70 font-sans leading-relaxed">
+                      {t.description}
+                    </p>
+                    <span className="inline-block mt-4 text-sm text-primary font-sans">
+                      Learn more &rarr;
+                    </span>
+                  </div>
+                </Link>
+              </FadeInWhenVisible>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================
           SECTION 8 — SIGNATURE PROGRAMMES
           ============================================================ */}
       <section className="py-24 px-4 md:px-8 bg-base-100">
