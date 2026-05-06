@@ -66,8 +66,8 @@ const skinBarrierRenewalProtocol = {
   linkedConditions: [
     { id: "dull-dehydrated-skin", title: "Dull skin", url: "/conditions/dehydration-dullness-skin-recovery/dull-dehydrated-skin" },
     { id: "dull-dehydrated-skin", title: "Dehydration", url: "/conditions/dehydration-dullness-skin-recovery/dull-dehydrated-skin" },
-    { id: "dryness-sensitivity", title: "Sensitivity", url: "/conditions/dryness-sensitivity" },
-    { id: "non-responsive-skin", title: "Non-Responsive Skin & Treatment Fatigue", url: "/conditions/non-responsive-skin" }
+    { id: "dryness-sensitivity", title: "Sensitivity", url: "/conditions/redness-sensitivity-reactive-skin/dryness-sensitivity" },
+    { id: "non-responsive-skin", title: "Non-Responsive Skin & Treatment Fatigue", url: "/conditions/dehydration-dullness-skin-recovery/non-responsive-skin" }
   ],
   treatments: {
     // Skin Barrier Deep Cleanse (was: Advanced Cleansing & Hydration Therapy / HydraFacial)

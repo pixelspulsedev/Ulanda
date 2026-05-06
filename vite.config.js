@@ -2,11 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // Import data for static path generation
-import { treatments } from './src/data/pageContents/treatments/treatments.js'
 import { treatmentCategories as newTreatmentCategories } from './src/data/pageContents/treatments/drafts/treatments_restructured_draft.js'
 import { conditions } from './src/data/pageContents/conditions/conditions.js'
 import { individualConditions } from './src/data/pageContents/conditions/individualConditions.js'
-import { programmes } from './src/data/pageContents/programmes/programmes.js'
 import { blogs } from './src/data/pageContents/blogs/blogs.js'
 import { signaturePathways } from './src/data/pageContents/signature/signatureData.js'
 import { journalArticles } from './src/data/pageContents/journal/journalArticles.js'
@@ -32,23 +30,13 @@ function generateStaticPaths() {
     '/disclaimer',
   ];
 
-  // Treatment category pages: /treatments/refresh, /treatments/renew, etc. (legacy structure)
-  const treatmentCategories = Object.keys(treatments);
-  treatmentCategories.forEach(category => {
-    paths.push(`/treatments/${category}`);
-    
-    // Subcategory pages: /treatments/refresh/signature-facials
-    const subCategories = treatments[category]?.subCategories || {};
-    Object.keys(subCategories).forEach(subCategory => {
-      paths.push(`/treatments/${category}/${subCategory}`);
-      
-      // Individual treatment pages: /treatments/refresh/signature-facials/dermaplaning
-      const treatmentList = subCategories[subCategory]?.treatments || {};
-      Object.keys(treatmentList).forEach(treatment => {
-        paths.push(`/treatments/${category}/${subCategory}/${treatment}`);
-      });
-    });
-  });
+  // NOTE: legacy treatment paths (/treatments/refresh, /treatments/renew,
+  // /treatments/restore, /treatments/radiate and their subcategories/treatments)
+  // are intentionally NOT pre-rendered. Every legacy path is permanently
+  // redirected in vercel.json to its canonical destination — emitting static
+  // HTML for them creates duplicate-content signals and unnecessary build
+  // bloat. The treatments.js export remains in use as the data source for
+  // getOriginalTreatment() in the restructured category data only.
 
   // New treatment structure: /treatments/skin-renewal-regeneration, etc.
   Object.keys(newTreatmentCategories).forEach(categoryId => {
@@ -76,11 +64,9 @@ function generateStaticPaths() {
     paths.push(`/signature/${pathway.id}`);
   });
 
-  // Legacy Radiate pathways pages (programmes redirect to signature)
-  paths.push('/treatments/radiate/pathways');
-  programmes.forEach(programme => {
-    paths.push(`/treatments/radiate/pathways/${programme.id}`);
-  });
+  // NOTE: legacy /treatments/radiate/pathways/* and /programmes/* paths are
+  // permanently redirected to /signature/* in vercel.json — do not pre-render
+  // them. The signaturePathways above are the canonical replacement.
 
   // Condition category pages: /conditions/age-and-regeneration
   conditions.forEach(condition => {

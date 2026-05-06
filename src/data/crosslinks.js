@@ -871,15 +871,18 @@ export const getTreatmentUrl = (slug) => {
   if (categoryId) {
     return `/treatments/${categoryId}/${slug}`;
   }
-  
-  // Fallback for non-migrated or missing items
-  return `/treatments/other/${slug}`;
+
+  // Fallback when slug isn't in the new structure — point to treatments hub
+  // (the legacy /treatments/other/* path is permanently redirected to /treatments).
+  return `/treatments`;
 };
 
 export const getProgrammeUrl = (slug) => {
-   // Programmes are now under /signature/ pathways
+   // Programmes are now under /signature/ pathways. Only return the treatment
+   // URL when the slug actually maps to a real treatment page; otherwise fall
+   // through to the signature pathway.
    const url = getTreatmentUrl(slug);
-   if (url && !url.includes('other/other')) return url;
+   if (url && url !== '/treatments') return url;
    return `/signature/${slug}`;
 };
 

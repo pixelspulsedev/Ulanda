@@ -101,7 +101,7 @@ export const nonResponsiveSkinCondition = {
       "Adjust sequencing and treatment focus"
     ],
     note: "This transition from doing more to thinking differently is where regeneration begins.",
-    relatedPage: { title: "The Radiate Method", url: "/treatments/radiate/radiate-method" }
+    relatedPage: { title: "Signature Pathways", url: "/signature" }
   },
   howAddressed: {
     title: "How Non-Responsive Skin Is Addressed at ULANDA",
@@ -114,7 +114,7 @@ export const nonResponsiveSkinCondition = {
       "Recovery and resilience capacity"
     ],
     note: "In many cases, this assessment leads into a Radiate consultation, where care is planned as a pathway rather than a series of isolated treatments.",
-    relatedPage: { title: "Radiate Overview", url: "/treatments/radiate" }
+    relatedPage: { title: "Signature Pathways", url: "/signature" }
   },
   whenRadiateIsRight: {
     title: "When Radiate Is the Right Next Step",

@@ -314,22 +314,27 @@
     },
     {
       "source": "/conditions/age-and-regeneration/fine-lines-wrinkles",
-      "destination": "/conditions/menopause-hormone-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/fine-lines-wrinkles",
       "permanent": true
     },
     {
       "source": "/conditions/age-and-regeneration/skin-laxity",
-      "destination": "/conditions/menopause-hormone-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/skin-laxity",
       "permanent": true
     },
     {
       "source": "/conditions/age-and-regeneration/crepey-skin",
-      "destination": "/conditions/menopause-hormone-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/crepey-skin",
       "permanent": true
     },
     {
       "source": "/conditions/age-and-regeneration/volume-loss",
-      "destination": "/conditions/menopause-hormone-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/volume-loss",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/age-and-regeneration/non-responsive-skin",
+      "destination": "/conditions/dehydration-dullness-skin-recovery/non-responsive-skin",
       "permanent": true
     },
     {
@@ -354,12 +359,12 @@
     },
     {
       "source": "/conditions/hormonal-skin/dryness-sensitivity",
-      "destination": "/conditions/menopause-hormone-skin-changes",
+      "destination": "/conditions/redness-sensitivity-reactive-skin/dryness-sensitivity",
       "permanent": true
     },
     {
       "source": "/conditions/hormonal-skin/loss-of-definition",
-      "destination": "/conditions/menopause-hormone-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/loss-of-definition",
       "permanent": true
     },
     {
@@ -514,7 +519,7 @@
     },
     {
       "source": "/conditions/skin-laxity",
-      "destination": "/conditions/menopause-hormone-skin-changes",
+      "destination": "/conditions/menopause-hormone-skin-changes/skin-laxity",
       "permanent": true
     },
     {
@@ -720,6 +725,31 @@
     {
       "source": "/treatments/other/deep-hydration-facial",
       "destination": "/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/chemical-peel",
+      "destination": "/treatments/skin-renewal-regeneration/chemical-peel",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/chemical-peels",
+      "destination": "/treatments/skin-renewal-regeneration/chemical-peel",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/biorepeel",
+      "destination": "/treatments/skin-renewal-regeneration/biorepeel",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/microneedling",
+      "destination": "/treatments/skin-renewal-regeneration/microneedling",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/other/dermaplaning",
+      "destination": "/treatments/skin-barrier-renewal-protocol",
       "permanent": true
     },
     {

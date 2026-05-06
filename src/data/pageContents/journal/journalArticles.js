@@ -230,8 +230,8 @@ export const journalArticles = [
         title: "Treatments Commonly Used for This Concern (When Appropriate)",
         content: [
           { type: "list", style: "check", items: [
-            { label: "Barrier Support Facial", text: "Surface stabilisation and hydration", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-            { label: "LED Therapy", text: "Anti-inflammatory light therapy for cellular repair", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+            { label: "Barrier Support Facial", text: "Surface stabilisation and hydration", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+            { label: "LED Therapy", text: "Anti-inflammatory light therapy for cellular repair", link: "/treatments/skin-barrier-renewal-protocol" },
             { label: "Chemical Peels (only once stable)", text: "Controlled renewal when barrier is ready", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
             { label: "Definisse Hydrobooster", text: "Deep dermal hydration support", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
             { label: "Collagen Stimulation Treatments", text: "Structural support when skin can tolerate it", link: "/treatments/structural-collagen-support/biostimulators" }
@@ -559,9 +559,9 @@ export const journalArticles = [
         content: [
           "Educational examples include:",
           { type: "list", style: "dict", items: [
-            { label: "Barrier Support Facial", text: "Medical-grade ceramide therapy", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-            { label: "LED Light Therapy", text: "Reduces inflammation and supports cellular repair", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
-            { label: "Gentle Enzyme Resurfacing", text: "When stable  -  promotes turnover without stripping", link: "/treatments/skin-health-facial-therapies/enzyme-therapy" },
+            { label: "Barrier Support Facial", text: "Medical-grade ceramide therapy", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+            { label: "LED Light Therapy", text: "Reduces inflammation and supports cellular repair", link: "/treatments/skin-barrier-renewal-protocol" },
+            { label: "Gentle Enzyme Resurfacing", text: "When stable  -  promotes turnover without stripping", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-enzyme-renewal" },
             { label: "Definisse Hydrobooster", text: "Only once barrier integrity is restored", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
           ]},
           "All treatments are introduced based on readiness  -  not trend."
@@ -610,7 +610,7 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Treatments" },
           { type: "list", style: "dict", items: [
-            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-barrier-renewal-protocol" },
             { label: "Chemical Peel", text: "Controlled resurfacing when barrier permits", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
             { label: "Definisse Hydrobooster", text: "Deep hydration for dermal resilience", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
           ]},
@@ -900,8 +900,8 @@ export const journalArticles = [
         title: "Treatments Commonly Used for This Concern (When Appropriate)",
         content: [
           { type: "list", style: "dict", items: [
-            { label: "Barrier Support Facial", text: "Ceramide and lipid restoration therapy", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+            { label: "Barrier Support Facial", text: "Ceramide and lipid restoration therapy", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-barrier-renewal-protocol" },
             { label: "Gentle Chemical Peels", text: "Only after recovery \u2014 controlled resurfacing when stable", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
             { label: "Definisse Hydrobooster", text: "For structural dehydration once barrier permits", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
           ]},
@@ -951,8 +951,8 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Treatments" },
           { type: "list", style: "dict", items: [
-            { label: "Barrier Support Facial", text: "Lipid and ceramide barrier restoration", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+            { label: "Barrier Support Facial", text: "Lipid and ceramide barrier restoration", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-barrier-renewal-protocol" },
             { label: "Definisse Hydrobooster", text: "Deep hydration for dermal resilience", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
           ]},
           { type: "h3", content: "Signatures" },
@@ -1240,8 +1240,8 @@ export const journalArticles = [
         title: "Treatments Commonly Used for This Concern (When Appropriate)",
         content: [
           { type: "list", style: "dict", items: [
-            { label: "Barrier Support Facial", text: "Ceramide and lipid restoration therapy", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+            { label: "Barrier Support Facial", text: "Ceramide and lipid restoration therapy", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-barrier-renewal-protocol" },
             { label: "Chemical Peels", text: "For texture once stable \u2014 controlled resurfacing", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
             { label: "Definisse Hydrobooster", text: "Deep dermal hydration when barrier permits", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
           ]},
@@ -1291,9 +1291,9 @@ export const journalArticles = [
           ]},
           { type: "h3", content: "Treatments" },
           { type: "list", style: "dict", items: [
-            { label: "Barrier Support Facial", text: "Lipid and ceramide barrier restoration", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
+            { label: "Barrier Support Facial", text: "Lipid and ceramide barrier restoration", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
             { label: "Definisse Hydrobooster", text: "Deep hydration for dermal resilience", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
-            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-health-facial-therapies/led-light-therapy" }
+            { label: "LED Light Therapy", text: "Anti-inflammatory wavelengths for barrier support", link: "/treatments/skin-barrier-renewal-protocol" }
           ]},
           { type: "h3", content: "Signatures" },
           { type: "list", style: "dict", items: [
@@ -1576,8 +1576,8 @@ export const journalArticles = [
         title: "Treatments Commonly Used for This Concern (When Appropriate)",
         content: [
           { type: "list", style: "dict", items: [
-            { label: "Barrier Support Facial", text: "Calms inflammation and restores barrier integrity.", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-            { label: "LED Therapy", text: "Reduces inflammatory signalling and supports healing.", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+            { label: "Barrier Support Facial", text: "Calms inflammation and restores barrier integrity.", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+            { label: "LED Therapy", text: "Reduces inflammatory signalling and supports healing.", link: "/treatments/skin-barrier-renewal-protocol" },
             { label: "Chemical Peels", text: "Controlled renewal once inflammation is stabilised.", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
             { label: "Definisse Hydrobooster", text: "Structural hydration support if dermal instability contributes.", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
           ]},
@@ -1646,8 +1646,8 @@ export const journalArticles = [
             title: "Treatments",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Barrier Support Facial", text: "First-line intervention for barrier and inflammation stabilisation.", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-                { label: "LED Therapy", text: "Anti-inflammatory light therapy to calm melanocyte activity.", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+                { label: "Barrier Support Facial", text: "First-line intervention for barrier and inflammation stabilisation.", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+                { label: "LED Therapy", text: "Anti-inflammatory light therapy to calm melanocyte activity.", link: "/treatments/skin-barrier-renewal-protocol" },
                 { label: "Chemical Peels", text: "Controlled exfoliation introduced only after inflammation is resolved.", link: "/treatments/skin-renewal-regeneration/chemical-peel" }
               ]}
             ]
@@ -1939,8 +1939,8 @@ export const journalArticles = [
         title: "Treatments Commonly Used for This Concern (When Appropriate)",
         content: [
           { type: "list", style: "dict", items: [
-            { label: "Barrier Support Facial", text: "First-line intervention for barrier and inflammation stabilisation.", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-            { label: "LED Therapy", text: "Reduces inflammatory signalling and supports healing.", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+            { label: "Barrier Support Facial", text: "First-line intervention for barrier and inflammation stabilisation.", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+            { label: "LED Therapy", text: "Reduces inflammatory signalling and supports healing.", link: "/treatments/skin-barrier-renewal-protocol" },
             { label: "Gentle Chemical Peels", text: "Controlled renewal introduced only after barrier stability is achieved.", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
             { label: "Definisse Hydrobooster", text: "Structural hydration support when dermal dehydration is present.", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
           ]},
@@ -2009,8 +2009,8 @@ export const journalArticles = [
             title: "Treatments",
             content: [
               { type: "list", style: "dict", items: [
-                { label: "Barrier Support Facial", text: "First-line intervention for barrier and inflammation stabilisation.", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-                { label: "LED Therapy", text: "Anti-inflammatory light therapy to calm reactive signalling.", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+                { label: "Barrier Support Facial", text: "First-line intervention for barrier and inflammation stabilisation.", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+                { label: "LED Therapy", text: "Anti-inflammatory light therapy to calm reactive signalling.", link: "/treatments/skin-barrier-renewal-protocol" },
                 { label: "Definisse Hydrobooster", text: "Structural hydration support for dermal dehydration.", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
               ]}
             ]
@@ -2325,8 +2325,8 @@ export const journalArticles = [
           { type: "list", style: "check", items: [
             { label: "Definisse Hydrobooster", text: "Deep dermal hydration support", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
             { label: "Collagen Stimulation Treatments", text: "Structural collagen support", link: "/treatments/injectable-skin-optimisation/profhilo" },
-            { label: "LED Therapy", text: "Anti-inflammatory light therapy for cellular repair", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
-            { label: "Barrier Support Facial", text: "Surface stabilisation and hydration", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" }
+            { label: "LED Therapy", text: "Anti-inflammatory light therapy for cellular repair", link: "/treatments/skin-barrier-renewal-protocol" },
+            { label: "Barrier Support Facial", text: "Surface stabilisation and hydration", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" }
           ]},
           { type: "shoutout", title: "Important", content: "Treatment selection depends on structural depth and skin readiness." }
         ]
@@ -2384,7 +2384,7 @@ export const journalArticles = [
             title: "Related Reading",
             content: [
               { type: "list", style: "check", items: [
-                { label: "Dark Circles Explained", text: "Understanding pigmentation vs structural hollowing", link: "/conditions/dark-circles" },
+                { label: "Dark Circles Explained", text: "Understanding pigmentation vs structural hollowing", link: "/conditions/eye-area/dark-circles" },
                 { label: "Crepey Under-Eye", text: "When thinning skin compounds hollowing", link: "/conditions/crepey-under-eye" },
                 { label: "Tear Troughs", text: "Structural assessment of under-eye hollows", link: "/conditions/tear-troughs" }
               ]}
@@ -2661,8 +2661,8 @@ export const journalArticles = [
             items: [
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/skin-renewal-regeneration/polynucleotides" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" }
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" }
             ]
           },
           { type: "paragraph", text: "Treatment selection depends on under-eye anatomy and readiness." }
@@ -2998,8 +2998,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/injectable-skin-optimisation/profhilo" }
             ]
@@ -3333,8 +3333,8 @@ export const journalArticles = [
             items: [
               { label: "Collagen Stimulation Treatments", link: "/treatments/skin-renewal-regeneration/polynucleotides" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" }
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" }
             ]
           },
           { type: "paragraph", text: "All treatments are introduced based on readiness and tolerance." }
@@ -3663,8 +3663,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/injectable-skin-optimisation/profhilo" },
               { label: "Chemical Peels (once stable)", link: "/treatments/skin-renewal-regeneration/biorepeel" }
             ]
@@ -3996,8 +3996,8 @@ export const journalArticles = [
             items: [
               { label: "Collagen Stimulation Treatments", link: "/treatments/injectable-skin-optimisation/profhilo" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" }
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" }
             ]
           },
           { type: "paragraph", text: "Treatment choice depends on skin thickness, hormonal context and tolerance." }
@@ -4327,7 +4327,7 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/structural-collagen-support/biostimulators" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Chemical Peels (when appropriate)", link: "/treatments/skin-renewal-regeneration/biorepeel" }
@@ -4640,8 +4640,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Gentle Chemical Peels (once stable)", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster (if structural dehydration present)", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
             ]
@@ -4971,8 +4971,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Chemical Peels (only once stable)", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
             ]
@@ -5311,8 +5311,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Chemical Peels (once inflammation controlled)", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" }
             ]
@@ -5664,8 +5664,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Chemical Peels (after stabilisation)", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/injectable-skin-optimisation/profhilo" }
@@ -6023,8 +6023,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Chemical Peels (once stabilised)", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/injectable-skin-optimisation/profhilo" }
@@ -6368,8 +6368,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Chemical Peels", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/injectable-skin-optimisation/profhilo" }
@@ -6711,8 +6711,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Chemical Peels (once stabilised)", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/injectable-skin-optimisation/profhilo" }
@@ -7063,8 +7063,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/structural-collagen-support/biostimulators" },
               { label: "Under-Eye Focused Treatments", link: "/treatments/injectable-skin-optimisation/lumi-eyes" }
@@ -7407,8 +7407,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/skin-renewal-regeneration/polynucleotides" },
               { label: "Chemical Peels (once stable)", link: "/treatments/skin-renewal-regeneration/chemical-peel" }
@@ -7751,8 +7751,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Chemical Peels (once stable)", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/skin-renewal-regeneration/polynucleotides" }
@@ -8103,8 +8103,8 @@ export const journalArticles = [
           {
             type: "list",
             items: [
-              { label: "Barrier Support Facial", link: "/treatments/skin-health-facial-therapies/barrier-repair-facial" },
-              { label: "LED Therapy", link: "/treatments/skin-health-facial-therapies/led-light-therapy" },
+              { label: "Barrier Support Facial", link: "/treatments/skin-barrier-renewal-protocol/skin-barrier-restore" },
+              { label: "LED Therapy", link: "/treatments/skin-barrier-renewal-protocol" },
               { label: "Chemical Peels (once stable)", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
               { label: "Definisse Hydrobooster", link: "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
               { label: "Collagen Stimulation Treatments", link: "/treatments/structural-collagen-support/biostimulators" }

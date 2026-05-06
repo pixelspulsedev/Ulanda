@@ -246,7 +246,7 @@ export const signaturePathways = [
         { title: "Compromised Skin Barrier / Barrier Breakdown", url: "/conditions/dehydration-dullness-skin-recovery/compromised-skin-barrier" },
         { title: "Dehydrated Skin", url: "/conditions/dehydration-dullness-skin-recovery" },
         { title: "Sensitive / Reactive Skin", url: "/conditions/redness-sensitivity-reactive-skin/reactive-skin" },
-        { title: "Skin Inflammation (Burning, Stinging, Flare-Ups)", url: "/conditions/skin-inflammation" },
+        { title: "Skin Inflammation (Burning, Stinging, Flare-Ups)", url: "/conditions/redness-sensitivity-reactive-skin/skin-inflammation" },
         { title: "Rosacea (Redness, Flushing & Sensitivity)", url: "/conditions/redness-sensitivity-reactive-skin/rosacea" },
         { title: "Menopause Skin Changes (Dryness, Fragility & Collagen Decline)", url: "/conditions/menopause-hormone-skin-changes/menopause-skin-changes" }
       ],
@@ -1013,7 +1013,7 @@ export const signaturePathways = [
         { title: "Menopause Skin Changes (Dryness, Fragility & Collagen Decline)", url: "/conditions/menopause-hormone-skin-changes" },
         { title: "Under-Eye Hollows / Tear Trough Shadowing", url: "/conditions/eye-area/tear-troughs" },
         { title: "Body Skin Laxity / Loose Skin", url: "/conditions/body-skin-structural/body-skin-laxity" },
-        { title: "Inflammation-Driven Ageing (\u201cInflammaging\u201d)", url: "/conditions/inflammation-driven-ageing" }
+        { title: "Inflammation-Driven Ageing (\u201cInflammaging\u201d)", url: "/conditions/internal-wellness/inflammation-driven-ageing" }
       ],
       relatedConditionsNote: "If multiple concerns overlap, your Advanced Skin Health Consultation will confirm the safest sequencing and the most appropriate Signature to begin with.",
       relatedJournal: {

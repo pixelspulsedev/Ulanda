@@ -4742,7 +4742,7 @@ export const individualConditions = [
             "Adjust sequencing and treatment focus",
             "This transition from doing more to thinking differently is where regeneration begins."
          ],
-         link: { text: "Learn more: The Radiate Method ?", url: "/treatments/radiate/radiate-method/" }
+         link: { text: "Learn more: Signature Pathways ?", url: "/signature" }
       }
     ],
     whyChoose: {
@@ -4757,7 +4757,7 @@ export const individualConditions = [
         "Recovery and resilience capacity",
         "In many cases, this assessment leads into a Radiate consultation, where care is planned as a pathway rather than a series of isolated treatments."
       ],
-      link: { text: "Radiate Overview ?", url: "/treatments/radiate/" },
+      link: { text: "Signature Pathways ?", url: "/signature" },
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     relatedTreatments: [
@@ -4873,7 +4873,7 @@ export const individualConditions = [
       pathway: "Photoaging & Skin Architecture Programme",
       pathwayLink: "/signature/structural-skin-regeneration",
       secondary: "(Secondary: Skin Barrier Repair & Resilience if dullness is barrier-fatigue driven)",
-      secondaryLink: "/treatments/refresh"
+      secondaryLink: "/signature/skin-barrier-repair-recovery"
     },
     whyChoose: {
       title: "Why",
@@ -4984,7 +4984,7 @@ export const individualConditions = [
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
       pathway: "Skin Barrier Repair & Resilience Programme",
-      pathwayLink: "/treatments/refresh",
+      pathwayLink: "/signature/skin-barrier-repair-recovery",
       secondary: "(Secondary: Menopause Skin Rebuild Programme if menopause-linked)",
       secondaryLink: "/signature/menopause-skin-rebuild"
     },
@@ -5096,7 +5096,7 @@ export const individualConditions = [
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
       pathway: "Skin Barrier Repair & Resilience Programme",
-      pathwayLink: "/treatments/refresh"
+      pathwayLink: "/signature/skin-barrier-repair-recovery"
     },
     whyChoose: {
       title: "Why",
@@ -5206,7 +5206,7 @@ export const individualConditions = [
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
       pathway: "Skin Barrier Repair & Resilience Programme",
-      pathwayLink: "/treatments/refresh"
+      pathwayLink: "/signature/skin-barrier-repair-recovery"
     },
     whyChoose: {
       title: "Why",
@@ -5316,7 +5316,7 @@ export const individualConditions = [
     programmePathway: {
       title: "Primary Recommended Programme Pathway",
       pathway: "Skin Barrier Repair & Resilience Programme",
-      pathwayLink: "/treatments/refresh",
+      pathwayLink: "/signature/skin-barrier-repair-recovery",
       secondary: "(Secondary: Photoaging & Skin Architecture if pigmentation dominates)",
       secondaryLink: "/signature/structural-skin-regeneration"
     },

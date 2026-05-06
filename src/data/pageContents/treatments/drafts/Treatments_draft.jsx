@@ -47,12 +47,12 @@ const structuralLinks = [
 ];
 
 const conditionLinks = [
-  { title: 'Skin Ageing', to: '/conditions/age-and-regeneration/fine-lines-wrinkles' },
+  { title: 'Skin Ageing', to: '/conditions/menopause-hormone-skin-changes/fine-lines-wrinkles' },
   { title: 'Pigmentation', to: '/conditions/pigmentation-and-skin-tone/hyperpigmentation' },
   { title: 'Hormonal Skin Changes', to: '/conditions/menopause-hormone-skin-changes/menopause-skin-decline' },
-  { title: 'Acne Scarring', to: '/conditions/age-and-regeneration/acne-scarring' },
-  { title: 'Loss of Elasticity', to: '/conditions/age-and-regeneration/skin-laxity' },
-  { title: 'Enlarged Pores', to: '/conditions/age-and-regeneration/enlarged-pores' },
+  { title: 'Acne Scarring', to: '/conditions/acne-texture/acne-scarring' },
+  { title: 'Loss of Elasticity', to: '/conditions/menopause-hormone-skin-changes/skin-laxity' },
+  { title: 'Enlarged Pores', to: '/conditions/acne-texture/enlarged-pores' },
   { title: 'Under-Eye Skin Quality', to: '/conditions/eye-area/crepey-under-eye' },
 ];
 
