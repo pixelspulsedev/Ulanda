@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { Head } from 'vite-react-ssg';
 import { Dna, ClipboardList, Lock } from 'lucide-react';
+import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import './SkinShiftGuide.css';
 
-const SkinShiftGuide = () => {
+const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY || 'YOUR_RECAPTCHA_V3_SITE_KEY';
+
+const SkinShiftGuideContent = () => {
   const [success, setSuccess] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({ firstName: '', email: '' });
   const [errors, setErrors] = useState({ firstName: false, email: false });
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
   useEffect(() => {
     /* Subtle parallax on diagram */
@@ -53,6 +57,11 @@ const SkinShiftGuide = () => {
 
     setIsSubmitting(true);
 
+    let token = '';
+    if (executeRecaptcha) {
+      token = await executeRecaptcha('skin_shift_guide_submit');
+    }
+
     try {
       const response = await fetch('https://formspree.io/f/xbdwnvvn', {
         method: 'POST',
@@ -63,6 +72,7 @@ const SkinShiftGuide = () => {
         body: JSON.stringify({
           firstName: nameVal,
           email: emailVal,
+          'g-recaptcha-response': token,
         })
       });
 
@@ -411,5 +421,11 @@ const SkinShiftGuide = () => {
     </div>
   );
 };
+
+const SkinShiftGuide = () => (
+  <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_SITE_KEY}>
+    <SkinShiftGuideContent />
+  </GoogleReCaptchaProvider>
+);
 
 export default SkinShiftGuide;
