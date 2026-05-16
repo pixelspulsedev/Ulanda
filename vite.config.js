@@ -21,6 +21,7 @@ function generateStaticPaths() {
     '/contact',
     '/book-consultation',
     '/help-and-support',
+    '/downloads/skin-health',
     '/about/our-story',
     '/about/our-philosophy',
     '/about/manifesto',
