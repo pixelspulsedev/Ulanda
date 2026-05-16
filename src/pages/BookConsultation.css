@@ -1,0 +1,168 @@
+.consultation-form-wrapper {
+  /* ULANDA warm ivory palette */
+  --ivory:        #F7F2EB;
+  --ivory-deep:   #EDE5D8;
+  --ivory-mid:    #F2EBE0;
+  --brown-rich:   #2C1A0E;
+  --brown-mid:    #5C3D26;
+  --brown-warm:   #8B6247;
+  --brown-light:  #C4A882;
+  --brown-muted:  #A68B6E;
+  --blush:        #D4A89A;
+  --blush-lt:     #E8C5BB;
+  --sage:         #8A9E8C;
+  --sage-lt:      #B5C8B7;
+  --terracotta:   #B5644A;
+  --text-dark:    #2C1A0E;
+  --text-mid:     #5C3D26;
+  --text-body:    #6B4F38;
+  --text-muted:   #A68B6E;
+  --border:       rgba(139,98,71,0.18);
+  --serif:        'Cormorant Garamond', Georgia, serif;
+  --sans:         'DM Sans', sans-serif;
+  
+  font-family: var(--sans);
+  color: var(--text-dark);
+}
+
+.consultation-form-wrapper .form-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 36px 32px 32px;
+  position: relative;
+  box-shadow: 0 2px 16px rgba(44,26,14,0.07);
+  max-width: 600px;
+  margin: 0 auto;
+}
+.consultation-form-wrapper .form-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--brown-warm), var(--blush), var(--sage));
+}
+.consultation-form-wrapper .form-pretitle {
+  font-size: 9px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--brown-warm);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.consultation-form-wrapper .form-title {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--brown-rich);
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+.consultation-form-wrapper .form-subtitle {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* form fields */
+.consultation-form-wrapper .field-wrap { margin-bottom: 16px; text-align: left; }
+.consultation-form-wrapper .field-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brown-mid);
+  margin-bottom: 7px;
+  font-weight: 400;
+}
+.consultation-form-wrapper .field-input,
+.consultation-form-wrapper .field-textarea {
+  width: 100%;
+  background: var(--ivory);
+  border: 1px solid rgba(139,98,71,0.22);
+  color: var(--brown-rich);
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 12px 15px;
+  outline: none;
+  transition: border-color 0.25s, background 0.25s;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+.consultation-form-wrapper .field-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.consultation-form-wrapper .field-input:focus,
+.consultation-form-wrapper .field-textarea:focus {
+  border-color: var(--brown-warm);
+  background: #fff;
+}
+.consultation-form-wrapper .field-input::placeholder,
+.consultation-form-wrapper .field-textarea::placeholder { 
+  color: rgba(139,98,71,0.38); 
+}
+
+.consultation-form-wrapper .submit-btn {
+  width: 100%;
+  background: var(--brown-rich);
+  color: var(--ivory);
+  border: none;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  cursor: pointer;
+  margin-top: 6px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+.consultation-form-wrapper .submit-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+.consultation-form-wrapper .submit-btn:hover { background: var(--brown-mid); }
+.consultation-form-wrapper .submit-btn:hover::after { transform: translateX(100%); }
+.consultation-form-wrapper .submit-btn:active { transform: scale(0.995); }
+
+/* success */
+.consultation-form-wrapper .success-state {
+  display: none;
+  text-align: center;
+  padding: 40px 20px;
+}
+.consultation-form-wrapper .success-ring {
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  border: 1.5px solid var(--brown-warm);
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 22px;
+  font-size: 24px;
+  color: var(--brown-warm);
+  animation: popIn 0.4s cubic-bezier(0.175,0.885,0.32,1.275);
+}
+@keyframes popIn {
+  from { transform: scale(0); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+.consultation-form-wrapper .success-title {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--brown-rich);
+  margin-bottom: 10px;
+}
+.consultation-form-wrapper .success-body {
+  font-size: 14px;
+  color: var(--text-body);
+  line-height: 1.8;
+}

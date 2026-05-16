@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Skin Shift Guide — ULANDA Skin Clinic</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Free clinical guide from ULANDA Skin Clinic. Why your skin has changed — and what to do about it. Written by a Nurse Independent Prescriber.">
+<link rel="preconnect" href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffonts.googleapis.com%2F&data=05%7C02%7C%7C6c595333b45f44dbd7d108deaffea5f8%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639141705411327657%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=XLv71zUPXEfjZ%2F2AlvlPx%2F%2BuTZjItI5N0HlTX1MzXys%3D&reserved=0">
+<link rel="preconnect" href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffonts.gstatic.com%2F&data=05%7C02%7C%7C6c595333b45f44dbd7d108deaffea5f8%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639141705411346144%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=sqGvlAkPm8BsXpnYrM3zkWMcBpP%2FEqPHJPwsF2kiqiE%3D&reserved=0" crossorigin>
+<link href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DCormorant%2BGaramond%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C500%3B1%2C300%3B1%2C400%3B1%2C500%26family%3DDM%2BSans%3Awght%40300%3B400%3B500%26display%3Dswap&data=05%7C02%7C%7C6c595333b45f44dbd7d108deaffea5f8%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639141705411357129%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=O7uG2o5vuf67%2FM93OVqqxttbhXlq%2Fiuwg%2Ftl2Le6ma8%3D&reserved=0" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* ULANDA warm ivory palette */
+  --ivory:        #F7F2EB;
+  --ivory-deep:   #EDE5D8;
+  --ivory-mid:    #F2EBE0;
+  --brown-rich:   #2C1A0E;
+  --brown-mid:    #5C3D26;
+  --brown-warm:   #8B6247;
+  --brown-light:  #C4A882;
+  --brown-muted:  #A68B6E;
+  --blush:        #D4A89A;
+  --blush-lt:     #E8C5BB;
+  --sage:         #8A9E8C;
+  --sage-lt:      #B5C8B7;
+  --terracotta:   #B5644A;
+  --text-dark:    #2C1A0E;
+  --text-mid:     #5C3D26;
+  --text-body:    #6B4F38;
+  --text-muted:   #A68B6E;
+  --border:       rgba(139,98,71,0.18);
+  --serif:        'Cormorant Garamond', Georgia, serif;
+  --sans:         'DM Sans', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--ivory);
+  color: var(--text-dark);
+  font-family: var(--sans);
+  font-weight: 300;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ── SUBTLE PAPER TEXTURE ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(ellipse at 20% 0%, rgba(196,168,130,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 100%, rgba(181,100,74,0.05) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── WARM ACCENT STRIPE — left ── */
+.stripe {
+  position: fixed;
+  left: 0; top: 0;
+  width: 4px;
+  height: 100vh;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    var(--brown-light) 15%,
+    var(--blush) 50%,
+    var(--brown-light) 85%,
+    transparent 100%);
+  z-index: 100;
+  opacity: 0;
+  animation: reveal 1s ease forwards 0.2s;
+}
+@keyframes reveal { to { opacity: 1; } }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── PAGE WRAP ── */
+.page-wrap {
+  position: relative;
+  z-index: 1;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+@media (max-width: 520px) { .page-wrap { padding: 0 22px; } }
+
+/* ── HEADER ── */
+header {
+  padding: 36px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.4s;
+}
+.logo-lockup {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.logo-ring {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid var(--brown-warm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--brown-warm);
+  font-weight: 400;
+}
+.logo-name {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--brown-mid);
+  font-weight: 400;
+}
+.header-tag {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
+  font-weight: 300;
+  border: 1px solid var(--border);
+  padding: 5px 14px;
+  border-radius: 20px;
+}
+@media (max-width: 480px) { .header-tag { display: none; } }
+
+/* ── SKIN LAYER DIAGRAM ── */
+.diagram-wrap {
+  margin: 56px 0 0;
+  opacity: 0;
+  animation: fadeUp 1s ease forwards 0.6s;
+  position: relative;
+  height: 140px;
+  overflow: hidden;
+}
+.diagram-wrap svg { width: 100%; height: 100%; }
+
+/* ── HERO ── */
+.hero { padding: 52px 0 0; }
+
+.eyebrow {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--blush);
+  font-weight: 500;
+  margin-bottom: 22px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.8s;
+}
+
+.hero-h1 {
+  font-family: var(--serif);
+  font-size: clamp(42px, 6.5vw, 76px);
+  font-weight: 300;
+  line-height: 1.08;
+  color: var(--brown-rich);
+  max-width: 700px;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 0.95s;
+}
+.hero-h1 em {
+  font-style: italic;
+  color: var(--brown-warm);
+}
+
+.hero-sub {
+  font-family: var(--serif);
+  font-size: clamp(18px, 2.4vw, 23px);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--brown-muted);
+  max-width: 580px;
+  margin-bottom: 38px;
+  line-height: 1.5;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 1.1s;
+}
+
+.divider-rule {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 1.2s;
+}
+.divider-rule::before {
+  content: '';
+  display: block;
+  width: 48px; height: 1px;
+  background: var(--brown-light);
+}
+.divider-tag {
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brown-muted);
+  font-weight: 400;
+  white-space: nowrap;
+}
+.divider-rule::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+
+.hero-body {
+  font-size: 15.5px;
+  color: var(--text-body);
+  max-width: 540px;
+  line-height: 1.9;
+  margin-bottom: 60px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 1.3s;
+}
+
+/* ── TWO COLUMN ── */
+.two-col {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 72px;
+  align-items: start;
+  padding-bottom: 72px;
+}
+@media (max-width: 720px) {
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 52px;
+  }
+}
+
+/* ── LEARN COLUMN ── */
+.learn-col {
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 1.45s;
+}
+.col-label {
+  font-size: 9px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--sage);
+  font-weight: 500;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.col-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--sage-lt);
+  opacity: 0.5;
+}
+
+.learn-item {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 16px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(139,98,71,0.1);
+  align-items: start;
+}
+.learn-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.learn-num {
+  font-family: var(--serif);
+  font-size: 30px;
+  font-weight: 300;
+  color: var(--brown-light);
+  line-height: 1;
+  text-align: right;
+  padding-top: 2px;
+}
+.learn-content strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--brown-rich);
+  margin-bottom: 5px;
+  font-family: var(--sans);
+  letter-spacing: -0.01em;
+}
+.learn-content p {
+  font-size: 13.5px;
+  color: var(--text-body);
+  line-height: 1.75;
+}
+
+/* ── FORM COLUMN ── */
+.form-col {
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 1.6s;
+}
+
+/* Guide mockup */
+.guide-mockup {
+  position: relative;
+  margin-bottom: 28px;
+}
+.guide-card {
+  background: var(--ivory-deep);
+  border: 1px solid rgba(139,98,71,0.22);
+  padding: 34px 30px 30px;
+  position: relative;
+  transform: perspective(700px) rotateY(-3deg) rotateX(1deg);
+  transition: transform 0.6s ease;
+  box-shadow:
+    4px 8px 24px rgba(44,26,14,0.12),
+    0 2px 6px rgba(44,26,14,0.06);
+}
+.guide-card:hover {
+  transform: perspective(700px) rotateY(0deg) rotateX(0deg);
+}
+.guide-card-edge {
+  position: absolute;
+  right: -7px; top: 6px; bottom: -6px;
+  width: 9px;
+  background: linear-gradient(180deg, var(--ivory-mid), var(--ivory-deep));
+  border: 1px solid rgba(139,98,71,0.15);
+  border-left: none;
+}
+.guide-top-rule {
+  width: 100%; height: 3px;
+  background: linear-gradient(90deg, var(--brown-warm), var(--blush));
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  border-radius: 0;
+}
+.guide-eyebrow {
+  font-size: 8px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--brown-muted);
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+.guide-title {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 300;
+  color: var(--brown-rich);
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+.guide-title em { font-style: italic; color: var(--brown-warm); }
+.guide-subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--brown-muted);
+  margin-bottom: 22px;
+  line-height: 1.5;
+}
+.guide-rule {
+  width: 36px; height: 1px;
+  background: var(--brown-light);
+  margin-bottom: 18px;
+  opacity: 0.7;
+}
+.guide-chapters {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.guide-chapter {
+  font-size: 10px;
+  color: var(--brown-muted);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.4;
+}
+.guide-chapter-dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--blush);
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.guide-logo-foot {
+  position: absolute;
+  bottom: 16px; right: 20px;
+  font-size: 8px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brown-muted);
+  opacity: 0.45;
+}
+.free-badge {
+  position: absolute;
+  top: -14px; right: 16px;
+  background: var(--terracotta);
+  color: #fff;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 2px;
+  animation: badgePulse 2.8s ease-in-out infinite;
+  box-shadow: 0 3px 12px rgba(181,100,74,0.35);
+}
+@keyframes badgePulse {
+  0%, 100% { box-shadow: 0 3px 12px rgba(181,100,74,0.35); }
+  50%       { box-shadow: 0 3px 20px rgba(181,100,74,0.55); }
+}
+
+/* ── FORM CARD ── */
+.form-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 36px 32px 32px;
+  position: relative;
+  box-shadow: 0 2px 16px rgba(44,26,14,0.07);
+}
+.form-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--brown-warm), var(--blush), var(--sage));
+}
+.form-pretitle {
+  font-size: 9px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--brown-warm);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.form-title {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--brown-rich);
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+.form-subtitle {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* form fields */
+.field-wrap { margin-bottom: 13px; }
+.field-label {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brown-mid);
+  margin-bottom: 7px;
+  font-weight: 400;
+}
+.field-input {
+  width: 100%;
+  background: var(--ivory);
+  border: 1px solid rgba(139,98,71,0.22);
+  color: var(--brown-rich);
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 12px 15px;
+  outline: none;
+  transition: border-color 0.25s, background 0.25s;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+.field-input:focus {
+  border-color: var(--brown-warm);
+  background: #fff;
+}
+.field-input::placeholder { color: rgba(139,98,71,0.38); }
+
+.submit-btn {
+  width: 100%;
+  background: var(--brown-rich);
+  color: var(--ivory);
+  border: none;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  cursor: pointer;
+  margin-top: 6px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+.submit-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+.submit-btn:hover { background: var(--brown-mid); }
+.submit-btn:hover::after { transform: translateX(100%); }
+.submit-btn:active { transform: scale(0.995); }
+
+/* trust row */
+.trust-row {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(139,98,71,0.12);
+}
+.trust-block { flex: 1; }
+.trust-stars {
+  color: var(--brown-warm);
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 3px;
+}
+.trust-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--brown-rich);
+  display: block;
+}
+.trust-sub {
+  font-size: 10.5px;
+  color: var(--text-muted);
+}
+.trust-sep {
+  width: 1px;
+  background: rgba(139,98,71,0.15);
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.no-spam {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 12px;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+}
+
+/* success */
+.success-state {
+  display: none;
+  text-align: center;
+  padding: 40px 20px;
+}
+.success-ring {
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  border: 1.5px solid var(--brown-warm);
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 22px;
+  font-size: 24px;
+  color: var(--brown-warm);
+  animation: popIn 0.4s cubic-bezier(0.175,0.885,0.32,1.275);
+}
+@keyframes popIn {
+  from { transform: scale(0); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+.success-title {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--brown-rich);
+  margin-bottom: 10px;
+}
+.success-body {
+  font-size: 13px;
+  color: var(--text-body);
+  line-height: 1.8;
+}
+.success-body a { color: var(--brown-warm); }
+
+/* ── STATS STRIP ── */
+.stats-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 36px 0;
+  margin-bottom: 76px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 1.75s;
+}
+@media (max-width: 580px) {
+  .stats-strip { grid-template-columns: 1fr; }
+}
+.stat-item {
+  text-align: center;
+  position: relative;
+}
+.stat-item + .stat-item::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 15%; bottom: 15%;
+  width: 1px;
+  background: var(--border);
+}
+@media (max-width: 580px) {
+  .stat-item + .stat-item::before { display: none; }
+  .stat-item { padding: 16px 0; border-bottom: 1px solid var(--border); }
+  .stat-item:last-child { border-bottom: none; }
+}
+.stat-value {
+  display: block;
+  font-family: var(--serif);
+  font-size: 42px;
+  font-weight: 300;
+  color: var(--brown-warm);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.stat-label {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ── TESTIMONIAL ── */
+.testimonial-section {
+  padding-bottom: 80px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 1.9s;
+}
+.testimonial-wrap {
+  display: grid;
+  grid-template-columns: 4px 1fr;
+  gap: 32px;
+  align-items: stretch;
+}
+.t-bar {
+  background: linear-gradient(180deg, var(--brown-warm), var(--blush));
+  border-radius: 2px;
+}
+.t-body {}
+.t-stars {
+  color: var(--brown-warm);
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+.t-quote {
+  font-family: var(--serif);
+  font-size: clamp(18px, 2.4vw, 22px);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--brown-rich);
+  line-height: 1.65;
+  margin-bottom: 18px;
+}
+.t-attr {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ── CLINICAL NOTES BAND ── */
+.notes-band {
+  background: var(--ivory-deep);
+  border: 1px solid var(--border);
+  padding: 40px 48px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 2.05s;
+}
+@media (max-width: 640px) {
+  .notes-band { grid-template-columns: 1fr; gap: 28px; padding: 28px 24px; }
+}
+.note-item {}
+.note-icon {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  filter: grayscale(0.3);
+}
+.note-title {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--brown-rich);
+  margin-bottom: 6px;
+  letter-spacing: -0.01em;
+}
+.note-text {
+  font-size: 12.5px;
+  color: var(--text-body);
+  line-height: 1.7;
+}
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 32px 0 40px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 2.2s;
+}
+.footer-logo {
+  font-size: 10px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--brown-mid);
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.footer-tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--brown-warm);
+  margin-bottom: 14px;
+  opacity: 0.8;
+}
+.footer-links {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+}
+.footer-links a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--brown-mid); }
+</style>
+</head>
+<body>
+
+<div class="stripe"></div>
+
+<div class="page-wrap">
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo-lockup">
+      <div class="logo-ring">U</div>
+      <span class="logo-name">ULANDA Skin Clinic</span>
+    </div>
+    <span class="header-tag">Free Clinical Guide</span>
+  </header>
+
+  <!-- SKIN ANATOMY DIAGRAM -->
+  <div class="diagram-wrap" aria-hidden="true">
+    <svg viewBox="0 0 1020 140" preserveAspectRatio="none" xmlns="https://emea01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&data=05%7C02%7C%7C6c595333b45f44dbd7d108deaffea5f8%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639141705411367331%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=jEyCBTF4wuCRnbjuj4lbAwNveFJNbaVSQCmNMfqioD0%3D&reserved=0">
+      <defs>
+        <linearGradient id="fadeH1" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#C4A882" stop-opacity="0"/>
+          <stop offset="12%" stop-color="#C4A882" stop-opacity="0.14"/>
+          <stop offset="88%" stop-color="#C4A882" stop-opacity="0.14"/>
+          <stop offset="100%" stop-color="#C4A882" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="fadeH2" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#8A9E8C" stop-opacity="0"/>
+          <stop offset="12%" stop-color="#8A9E8C" stop-opacity="0.1"/>
+          <stop offset="88%" stop-color="#8A9E8C" stop-opacity="0.1"/>
+          <stop offset="100%" stop-color="#8A9E8C" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="fadeH3" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#D4A89A" stop-opacity="0"/>
+          <stop offset="12%" stop-color="#D4A89A" stop-opacity="0.08"/>
+          <stop offset="88%" stop-color="#D4A89A" stop-opacity="0.08"/>
+          <stop offset="100%" stop-color="#D4A89A" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Three skin layers -->
+      <rect x="0" y="12" width="1020" height="30" fill="url(#fadeH1)"/>
+      <rect x="0" y="56" width="1020" height="38" fill="url(#fadeH2)"/>
+      <rect x="0" y="108" width="1020" height="32" fill="url(#fadeH3)"/>
+
+      <!-- Organic boundary lines -->
+      <path d="M0,42 Q100,36 200,44 Q320,52 460,40 Q580,30 700,44 Q820,56 920,42 Q970,38 1020,42"
+            fill="none" stroke="#C4A882" stroke-width="0.8" stroke-opacity="0.35"/>
+      <path d="M0,94 Q140,88 280,96 Q420,106 560,90 Q700,76 840,94 Q940,108 1020,94"
+            fill="none" stroke="#8A9E8C" stroke-width="0.8" stroke-opacity="0.28"/>
+      <path d="M0,140 Q200,132 400,140 Q600,148 800,136 Q900,130 1020,140"
+            fill="none" stroke="#D4A89A" stroke-width="0.8" stroke-opacity="0.22"/>
+
+      <!-- Collagen fibres in dermis -->
+      <path d="M60,72 C78,65 96,79 114,72 C132,65 150,77 168,70" fill="none" stroke="#C4A882" stroke-width="0.7" stroke-opacity="0.22"/>
+      <path d="M240,68 C260,61 280,75 300,68 C320,61 340,73 360,66" fill="none" stroke="#C4A882" stroke-width="0.7" stroke-opacity="0.2"/>
+      <path d="M460,74 C480,67 500,81 520,74 C540,67 560,79 580,72" fill="none" stroke="#C4A882" stroke-width="0.7" stroke-opacity="0.18"/>
+      <path d="M680,70 C700,63 720,77 740,70 C760,63 780,75 800,68" fill="none" stroke="#C4A882" stroke-width="0.7" stroke-opacity="0.16"/>
+
+      <!-- Fibroblast dots -->
+      <circle cx="190" cy="75" r="2" fill="#8A9E8C" fill-opacity="0.32"/>
+      <circle cx="360" cy="82" r="1.5" fill="#8A9E8C" fill-opacity="0.25"/>
+      <circle cx="530" cy="70" r="2.2" fill="#8A9E8C" fill-opacity="0.28"/>
+      <circle cx="700" cy="80" r="1.5" fill="#8A9E8C" fill-opacity="0.22"/>
+      <circle cx="870" cy="74" r="2" fill="#8A9E8C" fill-opacity="0.26"/>
+
+      <!-- Layer labels — right aligned -->
+      <text x="820" y="32" font-family="'DM Sans', sans-serif" font-size="7.5"
+            letter-spacing="2.5" fill="#8B6247" fill-opacity="0.45" text-anchor="start">EPIDERMIS</text>
+      <text x="820" y="80" font-family="'DM Sans', sans-serif" font-size="7.5"
+            letter-spacing="2.5" fill="#8A9E8C" fill-opacity="0.45" text-anchor="start">DERMIS</text>
+      <text x="820" y="128" font-family="'DM Sans', sans-serif" font-size="7.5"
+            letter-spacing="2.5" fill="#D4A89A" fill-opacity="0.45" text-anchor="start">HYPODERMIS</text>
+
+      <!-- Bracket line -->
+      <line x1="812" y1="28" x2="818" y2="28" stroke="#8B6247" stroke-width="0.8" stroke-opacity="0.4"/>
+      <line x1="812" y1="76" x2="818" y2="76" stroke="#8A9E8C" stroke-width="0.8" stroke-opacity="0.4"/>
+      <line x1="812" y1="124" x2="818" y2="124" stroke="#D4A89A" stroke-width="0.8" stroke-opacity="0.35"/>
+      <line x1="811" y1="24" x2="811" y2="128" stroke="#C4A882" stroke-width="0.5" stroke-opacity="0.22"/>
+    </svg>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <p class="eyebrow">Free clinical guide · ULANDA Skin Clinic</p>
+
+    <h1 class="hero-h1">
+      Why your skin<br>
+      has <em>changed</em> —<br>
+      and what to do<br>
+      about it
+    </h1>
+
+    <p class="hero-sub">
+      The biological explanation most clinics have never given you.
+    </p>
+
+    <div class="divider-rule">
+      <span class="divider-tag">Written by a Nurse Independent Prescriber</span>
+    </div>
+
+    <p class="hero-body">
+      If your skin has shifted in the last few years — and the products, treatments and advice
+      you have tried have not produced the lasting results you were hoping for — this guide explains
+      why at the biological level. No sales pitch. No product push. Clinical science, explained clearly.
+    </p>
+  </section>
+
+  <!-- TWO COLUMN: LEARN + FORM -->
+  <div class="two-col">
+
+    <!-- WHAT YOU LEARN -->
+    <div class="learn-col">
+      <p class="col-label">What the guide covers</p>
+
+      <div class="learn-item">
+        <span class="learn-num">01</span>
+        <div class="learn-content">
+          <strong>Why skin changes are biological, not cosmetic</strong>
+          <p>The hormonal and cellular mechanisms driving skin shift from the late 30s — and why surface treatments fail to address them at the root.</p>
+        </div>
+      </div>
+
+      <div class="learn-item">
+        <span class="learn-num">02</span>
+        <div class="learn-content">
+          <strong>What the skin barrier actually is</strong>
+          <p>Why barrier integrity determines how every product and every treatment performs — and what silently compromises it.</p>
+        </div>
+      </div>
+
+      <div class="learn-item">
+        <span class="learn-num">03</span>
+        <div class="learn-content">
+          <strong>The four biological drivers of skin change</strong>
+          <p>Hormonal transition, barrier compromise, inflammatory load and cellular senescence — and why identifying the right driver changes the response entirely.</p>
+        </div>
+      </div>
+
+      <div class="learn-item">
+        <span class="learn-num">04</span>
+        <div class="learn-content">
+          <strong>What the evidence actually says works</strong>
+          <p>An honest clinical assessment of the skincare ingredients with strong evidence — and those where the evidence is far thinner than the marketing suggests.</p>
+        </div>
+      </div>
+
+      <div class="learn-item">
+        <span class="learn-num">05</span>
+        <div class="learn-content">
+          <strong>Why assessment before treatment changes everything</strong>
+          <p>The clinical philosophy ULANDA was built on — and why understanding your skin before treating it produces consistently better outcomes.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORM COLUMN -->
+    <div class="form-col">
+
+      <!-- Guide mockup -->
+      <div class="guide-mockup">
+        <div class="guide-card">
+          <div class="guide-top-rule"></div>
+          <div class="guide-card-edge"></div>
+          <div class="free-badge">Free</div>
+
+          <p class="guide-eyebrow">ULANDA Skin Clinic · Clinical Resource</p>
+          <h2 class="guide-title">The Skin<br><em>Shift</em> Guide</h2>
+          <p class="guide-subtitle">Why your skin has changed —<br>and what to do about it</p>
+          <div class="guide-rule"></div>
+          <div class="guide-chapters">
+            <span class="guide-chapter"><span class="guide-chapter-dot"></span>The biology of skin change</span>
+            <span class="guide-chapter"><span class="guide-chapter-dot"></span>The skin barrier explained</span>
+            <span class="guide-chapter"><span class="guide-chapter-dot"></span>Four biological drivers</span>
+            <span class="guide-chapter"><span class="guide-chapter-dot"></span>What the evidence says works</span>
+            <span class="guide-chapter"><span class="guide-chapter-dot"></span>Assessment before treatment</span>
+          </div>
+          <span class="guide-logo-foot">ulanda.co.uk</span>
+        </div>
+      </div>
+
+      <!-- Subscription form -->
+      <div class="form-card">
+        <p class="form-pretitle">Download the free guide</p>
+        <h3 class="form-title">Begin with understanding your skin</h3>
+        <p class="form-subtitle">Written by a Nurse Independent Prescriber. No marketing copy — clinical content only.</p>
+
+        <form id="skinGuideForm" novalidate>
+          <div class="field-wrap">
+            <label class="field-label" for="firstName">First name</label>
+            <input class="field-input" type="text" id="firstName" name="firstName"
+                   placeholder="Your first name" autocomplete="given-name" required>
+          </div>
+          <div class="field-wrap">
+            <label class="field-label" for="emailAddr">Email address</label>
+            <input class="field-input" type="email" id="emailAddr" name="email"
+                   placeholder="your@email.com" autocomplete="email" required>
+          </div>
+          <button class="submit-btn" type="submit" id="submitBtn">
+            Download the Free Guide →
+          </button>
+        </form>
+
+        <div class="success-state" id="successState">
+          <div class="success-ring">✓</div>
+          <h3 class="success-title">Your guide is on its way</h3>
+          <p class="success-body">
+            Check your inbox — it will arrive within a few minutes.<br><br>
+            While you wait, read the
+            <a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ulanda.co.uk%2Fjournal&data=05%7C02%7C%7C6c595333b45f44dbd7d108deaffea5f8%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639141705411378183%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=8I3jU2z5HXqOfqBWoDVl%2B%2BpT4CQ2v9bjEKGwueFcN%2BA%3D&reserved=0" target="_blank">ULANDA clinical journal →</a>
+          </p>
+        </div>
+
+        <div class="trust-row">
+          <div class="trust-block">
+            <div class="trust-stars">★★★★★</div>
+            <span class="trust-label">4.9 on Google</span>
+            <span class="trust-sub">26 verified reviews</span>
+          </div>
+          <div class="trust-sep"></div>
+          <div class="trust-block">
+            <div class="trust-stars" style="color: var(--sage); letter-spacing:0">NIP</div>
+            <span class="trust-label">Nurse Independent</span>
+            <span class="trust-sub">Prescriber-led clinic</span>
+          </div>
+        </div>
+
+        <p class="no-spam">No spam · Unsubscribe at any time · Your data is never shared</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- STATS STRIP -->
+  <div class="stats-strip">
+    <div class="stat-item">
+      <span class="stat-value">4.9★</span>
+      <span class="stat-label">Google Reviews</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value">20+</span>
+      <span class="stat-label">Years Clinical Practice</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value">NIP</span>
+      <span class="stat-label">Nurse Independent Prescriber</span>
+    </div>
+  </div>
+
+  <!-- TESTIMONIAL -->
+  <div class="testimonial-section">
+    <div class="testimonial-wrap">
+      <div class="t-bar"></div>
+      <div class="t-body">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-quote">
+          "I had been to several aesthetic clinics over the years and always felt like I was
+          selecting from a menu rather than receiving clinical guidance. ULANDA was immediately
+          different — from the consultation to the written treatment plan to the programme structure.
+          The clinical team knew exactly what my skin needed and why, and the programme produced
+          results that are genuinely cumulative rather than temporary."
+        </p>
+        <p class="t-attr">Client · Hertfordshire</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTES BAND -->
+  <div class="notes-band">
+    <div class="note-item">
+      <span class="note-icon">🧬</span>
+      <div class="note-title">Clinically grounded</div>
+      <p class="note-text">Written by a Nurse Independent Prescriber with over 20 years of clinical practice. Not marketing copy — biological science explained clearly.</p>
+    </div>
+    <div class="note-item">
+      <span class="note-icon">📋</span>
+      <div class="note-title">No sales pitch</div>
+      <p class="note-text">No product recommendations. No treatment menus. Just clinical understanding of what is happening in your skin and why — before anything else is considered.</p>
+    </div>
+    <div class="note-item">
+      <span class="note-icon">🔒</span>
+      <div class="note-title">Your data is private</div>
+      <p class="note-text">Your email is used only to deliver the guide and share relevant clinical insights from ULANDA. Unsubscribe at any time. Never shared with third parties.</p>
+    </div>
+  </div>
+
+</div><!-- /page-wrap -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="page-wrap">
+    <p class="footer-logo">ULANDA Skin Clinic</p>
+    <p class="footer-tagline">Skin Understood. Then Transformed.</p>
+    <p class="footer-links">
+      <a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ulanda.co.uk%2F&data=05%7C02%7C%7C6c595333b45f44dbd7d108deaffea5f8%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639141705411387501%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=o1HVwPa4rYVaN%2Bd8VVdAxhvtbB0kJUJ1oOdq3wN4hyo%3D&reserved=0">ulanda.co.uk</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ulanda.co.uk%2Fprivacy-policy&data=05%7C02%7C%7C6c595333b45f44dbd7d108deaffea5f8%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639141705411401425%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=W4Gkpe%2Bma3bp5T3FaOdfpHXTazab%2FHPsgQFZOrvlrfg%3D&reserved=0">Privacy Policy</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ulanda.co.uk%2F&data=05%7C02%7C%7C6c595333b45f44dbd7d108deaffea5f8%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639141705411413626%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=p%2FETybI6gHQnLJS54849%2FkvYEwG0S8z5pKaSOMOISww%3D&reserved=0">Find Your Nearest Clinic</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+(function() {
+  var form      = document.getElementById('skinGuideForm');
+  var success   = document.getElementById('successState');
+  var submitBtn = document.getElementById('submitBtn');
+  var fname     = document.getElementById('firstName');
+  var email     = document.getElementById('emailAddr');
+
+  function setError(el, isErr) {
+    el.style.borderColor = isErr ? '#B5644A' : '';
+  }
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var nameVal  = fname.value.trim();
+    var emailVal = email.value.trim();
+    var valid    = true;
+
+    setError(fname, false);
+    setError(email, false);
+
+    if (!nameVal) { setError(fname, true); fname.focus(); valid = false; }
+    else if (!emailVal || !emailVal.includes('@') || !emailVal.includes('.')) {
+      setError(email, true); email.focus(); valid = false;
+    }
+
+    if (!valid) return;
+
+    submitBtn.textContent = 'Sending your guide…';
+    submitBtn.disabled    = true;
+    submitBtn.style.opacity = '0.65';
+
+    /* ── Replace the setTimeout below with your real form POST ──
+       e.g. Mailchimp AJAX / Netlify Forms / Formspree
+       On success: show the success state as below.            */
+    setTimeout(function() {
+      form.style.display          = 'none';
+      success.style.display       = 'block';
+
+      /* Google Ads conversion — replace IDs */
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'conversion', { send_to: 'AW-CONVERSION_ID/LABEL' });
+      }
+      /* Meta Pixel lead event */
+      if (typeof fbq !== 'undefined') {
+        fbq('track', 'Lead');
+      }
+    }, 1300);
+  });
+
+  [fname, email].forEach(function(el) {
+    el.addEventListener('focus', function() { setError(el, false); });
+  });
+
+  /* Subtle parallax on diagram */
+  var diagram = document.querySelector('.diagram-wrap');
+  if (diagram && window.matchMedia('(min-width: 768px)').matches) {
+    window.addEventListener('scroll', function() {
+      diagram.style.transform = 'translateY(' + (window.scrollY * 0.06) + 'px)';
+    }, { passive: true });
+  }
+})();
+</script>
+
+</body>
+</html>

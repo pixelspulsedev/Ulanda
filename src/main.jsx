@@ -56,6 +56,7 @@ const AestheticClinicBroxbourne = lazy(() => import('./pages/locations/Aesthetic
 const AestheticClinicBishopsStortford = lazy(() => import('./pages/locations/AestheticClinicBishopsStortford.jsx'))
 // General pages
 const HelpAndSupport = lazy(() => import('./pages/HelpAndSupport.jsx'))
+const SkinShiftGuide = lazy(() => import('./pages/SkinShiftGuide.jsx'))
 const Contact = lazy(() => import('./pages/Contact.jsx'))
 const BookConsultation = lazy(() => import('./pages/BookConsultation.jsx'))
 const NotFound = lazy(() => import('./pages/NotFound.jsx'))
@@ -189,6 +190,10 @@ const routes = [
       {
         path: 'help-and-support',
         element: <HelpAndSupport />,
+      },
+      {
+        path: 'downloads/skin-health',
+        element: <SkinShiftGuide />,
       },
 
       {
