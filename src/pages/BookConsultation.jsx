@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Head } from 'vite-react-ssg';
 import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import { HeroText, FadeInWhenVisible } from '../components/animations';
+import { trackEvent } from '../lib/analytics';
 import './BookConsultation.css';
 
 const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY || 'YOUR_RECAPTCHA_V3_SITE_KEY';
@@ -66,12 +67,15 @@ const BookConsultationContent = () => {
 
       if (response.ok) {
         setSuccess(true);
-        if (typeof window.gtag !== 'undefined') {
-          window.gtag('event', 'conversion', { send_to: 'AW-CONVERSION_ID/LABEL' });
-        }
-        if (typeof window.fbq !== 'undefined') {
-          window.fbq('track', 'Lead');
-        }
+        // Privacy: no name/email/phone/message passed into analytics.
+        trackEvent('contact_form_submit', {
+          form_id: 'book_consultation',
+          consultation_stage: 'enquiry',
+        });
+        trackEvent('booking_started', {
+          cta_text: 'Book Consultation Form Submitted',
+          booking_destination: 'enquiry_form',
+        });
       } else {
         alert('There was a problem submitting your form. Please try again.');
       }

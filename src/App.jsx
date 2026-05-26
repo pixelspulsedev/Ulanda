@@ -9,6 +9,8 @@ import './index.css'
 import ScrollToTop from './components/ScrollToTop'
 import PageTransition from './components/animations/PageTransition'
 import { LocalBusinessSchema } from './components/Schema'
+import AnalyticsProvider from './components/AnalyticsProvider'
+import ConsentBanner from './components/ConsentBanner'
 
 function App() {
   const location = useLocation()
@@ -26,6 +28,9 @@ function App() {
       {/* Site-wide LocalBusiness Schema - added once */}
       <LocalBusinessSchema />
 
+      {/* Phase 1 analytics: page views, UTMs, click + scroll tracking. */}
+      <AnalyticsProvider />
+
       <Navbar />
 
       {/* Main Content */}
@@ -41,6 +46,7 @@ function App() {
       </main>
 
       <Footer />
+      <ConsentBanner />
     </div>
   )
 }

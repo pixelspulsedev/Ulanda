@@ -28,9 +28,34 @@
     <meta name="geo.placename" content="Ware, Hertfordshire" />
     <meta name="geo.position" content="51.8094;-0.0316" />
     <meta name="ICBM" content="51.8094, -0.0316" />
+
+    <!--
+      Phase 1 analytics: Consent Mode v2 defaults + dataLayer shim.
+      All marketing/analytics signals start DENIED. The consent banner
+      (src/components/ConsentBanner.jsx) updates these via gtag('consent','update', ...).
+      GTM itself is loaded by src/lib/analytics.js once VITE_GTM_ID is configured.
+    -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ window.dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        functionality_storage: 'granted',
+        security_storage: 'granted',
+        wait_for_update: 500
+      });
+      gtag('set', 'ads_data_redaction', true);
+      gtag('set', 'url_passthrough', true);
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <!-- GTM noscript fallback. The container id is injected by analytics.js when present. -->
+    <noscript id="gtm-noscript"></noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

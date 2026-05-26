@@ -1,10 +1,19 @@
 import { Link, useLocation } from 'react-router-dom'
 import React from 'react';
 import { commonData } from '../data/common';
+import { resetConsent } from '../lib/analytics';
 
 export default function Footer() {
   const { pathname } = useLocation();
   const isJournal = pathname.startsWith('/journal');
+
+  const handleOpenConsent = (e) => {
+    e.preventDefault();
+    resetConsent();
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new Event('ulanda:open-consent'));
+    }
+  };
 
   return (
     <footer className="bg-white pt-20 pb-8 border-t border-base-200">
@@ -32,6 +41,8 @@ export default function Footer() {
                 href="https://eepurl.com/jsdn42" 
                 target="_blank" 
                 rel="noopener noreferrer"
+                data-track="email_signup"
+                data-signup-source="footer_newsletter"
                 className="mt-6 p-6 flex items-center bg-primary rounded-lg text-secondary justify-center btn-sm"
               >
                 Subscribe to our Newsletter
@@ -209,6 +220,13 @@ export default function Footer() {
             <Link to="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link to="/terms-of-use" className="hover:text-primary transition-colors">Terms of Use</Link>
             <Link to="/disclaimer" className="hover:text-primary transition-colors">Disclaimer</Link>
+            <button
+              type="button"
+              onClick={handleOpenConsent}
+              className="hover:text-primary transition-colors"
+            >
+              Cookie preferences
+            </button>
           </div>
         </div>
       </div>
