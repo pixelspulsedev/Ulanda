@@ -113,7 +113,7 @@ export default function ConsentBanner() {
             <button
               type="button"
               onClick={() => apply({ analytics: true, marketing: true })}
-              className="btn btn-primary btn-sm text-white"
+              className="btn bg-primary rounded-lg text-white btn-sm px-4 "
             >
               Accept all
             </button>

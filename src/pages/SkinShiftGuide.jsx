@@ -111,7 +111,7 @@ const SkinShiftGuideContent = () => {
 
       <div className="page-wrap">
         {/* SKIN ANATOMY DIAGRAM */}
-        <div className="diagram-wrap" aria-hidden="true">
+        {/* <div className="diagram-wrap" aria-hidden="true">
           <svg viewBox="0 0 1020 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="fadeH1" x1="0" y1="0" x2="1" y2="0">
@@ -134,55 +134,53 @@ const SkinShiftGuideContent = () => {
               </linearGradient>
             </defs>
 
-            {/* Three skin layers */}
+            
             <rect x="0" y="12" width="1020" height="30" fill="url(#fadeH1)"/>
             <rect x="0" y="56" width="1020" height="38" fill="url(#fadeH2)"/>
             <rect x="0" y="108" width="1020" height="32" fill="url(#fadeH3)"/>
 
-            {/* Organic boundary lines */}
+            
             <path d="M0,42 Q100,36 200,44 Q320,52 460,40 Q580,30 700,44 Q820,56 920,42 Q970,38 1020,42" fill="none" stroke="#C4A882" strokeWidth="0.8" strokeOpacity="0.35"/>
             <path d="M0,94 Q140,88 280,96 Q420,106 560,90 Q700,76 840,94 Q940,108 1020,94" fill="none" stroke="#8A9E8C" strokeWidth="0.8" strokeOpacity="0.28"/>
             <path d="M0,140 Q200,132 400,140 Q600,148 800,136 Q900,130 1020,140" fill="none" stroke="#D4A89A" strokeWidth="0.8" strokeOpacity="0.22"/>
 
-            {/* Collagen fibres in dermis */}
+            
             <path d="M60,72 C78,65 96,79 114,72 C132,65 150,77 168,70" fill="none" stroke="#C4A882" strokeWidth="0.7" strokeOpacity="0.22"/>
             <path d="M240,68 C260,61 280,75 300,68 C320,61 340,73 360,66" fill="none" stroke="#C4A882" strokeWidth="0.7" strokeOpacity="0.2"/>
             <path d="M460,74 C480,67 500,81 520,74 C540,67 560,79 580,72" fill="none" stroke="#C4A882" strokeWidth="0.7" strokeOpacity="0.18"/>
             <path d="M680,70 C700,63 720,77 740,70 C760,63 780,75 800,68" fill="none" stroke="#C4A882" strokeWidth="0.7" strokeOpacity="0.16"/>
 
-            {/* Fibroblast dots */}
+            
             <circle cx="190" cy="75" r="2" fill="#8A9E8C" fillOpacity="0.32"/>
             <circle cx="360" cy="82" r="1.5" fill="#8A9E8C" fillOpacity="0.25"/>
             <circle cx="530" cy="70" r="2.2" fill="#8A9E8C" fillOpacity="0.28"/>
             <circle cx="700" cy="80" r="1.5" fill="#8A9E8C" fillOpacity="0.22"/>
             <circle cx="870" cy="74" r="2" fill="#8A9E8C" fillOpacity="0.26"/>
 
-            {/* Layer labels — right aligned */}
+            
             <text x="820" y="32" fontFamily="'DM Sans', sans-serif" fontSize="7.5" letterSpacing="2.5" fill="#8B6247" fillOpacity="0.45" textAnchor="start">EPIDERMIS</text>
             <text x="820" y="80" fontFamily="'DM Sans', sans-serif" fontSize="7.5" letterSpacing="2.5" fill="#8A9E8C" fillOpacity="0.45" textAnchor="start">DERMIS</text>
             <text x="820" y="128" fontFamily="'DM Sans', sans-serif" fontSize="7.5" letterSpacing="2.5" fill="#D4A89A" fillOpacity="0.45" textAnchor="start">HYPODERMIS</text>
 
-            {/* Bracket line */}
+            
             <line x1="812" y1="28" x2="818" y2="28" stroke="#8B6247" strokeWidth="0.8" strokeOpacity="0.4"/>
             <line x1="812" y1="76" x2="818" y2="76" stroke="#8A9E8C" strokeWidth="0.8" strokeOpacity="0.4"/>
             <line x1="812" y1="124" x2="818" y2="124" stroke="#D4A89A" strokeWidth="0.8" strokeOpacity="0.35"/>
             <line x1="811" y1="24" x2="811" y2="128" stroke="#C4A882" strokeWidth="0.5" strokeOpacity="0.22"/>
           </svg>
-        </div>
+        </div> */}
 
         {/* HERO SECTION */}
         <section className="guide-hero">
           <p className="eyebrow">Free clinical guide · ULANDA Skin Clinic</p>
 
           <h1 className="hero-h1">
-            Why your skin<br/>
-            has <em>changed</em> —<br/>
-            and what to do<br/>
-            about it
+            Why your skin has <em>changed</em><br/>
+            and what to do about it
           </h1>
 
           <p className="hero-sub">
-            The biological explanation most clinics have never given you.
+            The biological explanation most clinics never give you.
           </p>
 
           <div className="divider-rule">
@@ -190,9 +188,7 @@ const SkinShiftGuideContent = () => {
           </div>
 
           <p className="hero-body">
-            If your skin has shifted in the last few years — and the products, treatments and advice
-            you have tried have not produced the lasting results you were hoping for — this guide explains
-            why at the biological level. No sales pitch. No product push. Clinical science, explained clearly.
+            <em>No cosmetic marketing. No product push. Just clinical insight.</em>
           </p>
         </section>
 
@@ -201,45 +197,40 @@ const SkinShiftGuideContent = () => {
 
           {/* WHAT YOU LEARN */}
           <div className="learn-col">
-            <p className="col-label">What the guide covers</p>
+            <p className="col-label">This clinical guide explains</p>
 
             <div className="learn-item">
               <span className="learn-num">01</span>
               <div className="learn-content">
-                <strong>Why skin changes are biological, not cosmetic</strong>
-                <p>The hormonal and cellular mechanisms driving skin shift from the late 30s — and why surface treatments fail to address them at the root.</p>
+                <strong>Why your skin changes with age</strong>
               </div>
             </div>
 
             <div className="learn-item">
               <span className="learn-num">02</span>
               <div className="learn-content">
-                <strong>What the skin barrier actually is</strong>
-                <p>Why barrier integrity determines how every product and every treatment performs — and what silently compromises it.</p>
+                <strong>What damages the skin barrier</strong>
               </div>
             </div>
 
             <div className="learn-item">
               <span className="learn-num">03</span>
               <div className="learn-content">
-                <strong>The four biological drivers of skin change</strong>
-                <p>Hormonal transition, barrier compromise, inflammatory load and cellular senescence — and why identifying the right driver changes the response entirely.</p>
+                <strong>The 4 biological drivers behind skin decline</strong>
               </div>
             </div>
 
             <div className="learn-item">
               <span className="learn-num">04</span>
               <div className="learn-content">
-                <strong>What the evidence actually says works</strong>
-                <p>An honest clinical assessment of the skincare ingredients with strong evidence — and those where the evidence is far thinner than the marketing suggests.</p>
+                <strong>Which skincare ingredients are evidence-based</strong>
               </div>
             </div>
 
             <div className="learn-item">
               <span className="learn-num">05</span>
               <div className="learn-content">
-                <strong>Why assessment before treatment changes everything</strong>
-                <p>The clinical philosophy ULANDA was built on — and why understanding your skin before treating it produces consistently better outcomes.</p>
+                <strong>Why assessment changes treatment outcomes</strong>
               </div>
             </div>
           </div>
@@ -329,10 +320,10 @@ const SkinShiftGuideContent = () => {
               )}
 
               <div className="trust-row">
-                <div class="trust-block">
+                <div className="trust-block">
                   <div className="trust-stars">★★★★★</div>
                   <span className="trust-label">4.9 on Google</span>
-                  <span className="trust-sub">26 verified reviews</span>
+                  <span className="trust-sub">Verified client reviews</span>
                 </div>
                 <div className="trust-sep"></div>
                 <div className="trust-block">
@@ -363,6 +354,28 @@ const SkinShiftGuideContent = () => {
             <span className="stat-label">Nurse Independent Prescriber</span>
           </div>
         </div>
+
+        {/* WHO THIS GUIDE IS FOR */}
+        <section className="who-section">
+          <p className="who-eyebrow">Who this guide is for</p>
+          <h2 className="who-heading">
+            If you have noticed changes in your skin that feel
+            <em> sudden or difficult to explain</em>, this guide is for you.
+          </h2>
+          <ul className="who-list">
+            <li>Skin becoming thinner or more reactive</li>
+            <li>Ongoing dryness or sensitivity</li>
+            <li>Loss of firmness or elasticity</li>
+            <li>Breakouts appearing later in life</li>
+            <li>Products that no longer seem to work</li>
+            <li>Skin that looks tired even with good care</li>
+          </ul>
+          <p className="who-footnote">
+            These changes are usually biological, not just cosmetic. This guide
+            helps you understand what is actually driving them — so you can
+            respond correctly rather than guessing.
+          </p>
+        </section>
 
         {/* TESTIMONIAL */}
         <div className="testimonial-section">
