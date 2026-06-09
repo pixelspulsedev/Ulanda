@@ -111,7 +111,7 @@ const SkinShiftGuideContent = () => {
 
       <div className="page-wrap">
         {/* SKIN ANATOMY DIAGRAM */}
-        {/* <div className="diagram-wrap" aria-hidden="true">
+        <div className="diagram-wrap" aria-hidden="true">
           <svg viewBox="0 0 1020 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="fadeH1" x1="0" y1="0" x2="1" y2="0">
@@ -134,41 +134,41 @@ const SkinShiftGuideContent = () => {
               </linearGradient>
             </defs>
 
-            
+            {/* Three skin layers */}
             <rect x="0" y="12" width="1020" height="30" fill="url(#fadeH1)"/>
             <rect x="0" y="56" width="1020" height="38" fill="url(#fadeH2)"/>
             <rect x="0" y="108" width="1020" height="32" fill="url(#fadeH3)"/>
 
-            
+            {/* Organic boundary lines */}
             <path d="M0,42 Q100,36 200,44 Q320,52 460,40 Q580,30 700,44 Q820,56 920,42 Q970,38 1020,42" fill="none" stroke="#C4A882" strokeWidth="0.8" strokeOpacity="0.35"/>
             <path d="M0,94 Q140,88 280,96 Q420,106 560,90 Q700,76 840,94 Q940,108 1020,94" fill="none" stroke="#8A9E8C" strokeWidth="0.8" strokeOpacity="0.28"/>
             <path d="M0,140 Q200,132 400,140 Q600,148 800,136 Q900,130 1020,140" fill="none" stroke="#D4A89A" strokeWidth="0.8" strokeOpacity="0.22"/>
 
-            
+            {/* Collagen fibres in dermis */}
             <path d="M60,72 C78,65 96,79 114,72 C132,65 150,77 168,70" fill="none" stroke="#C4A882" strokeWidth="0.7" strokeOpacity="0.22"/>
             <path d="M240,68 C260,61 280,75 300,68 C320,61 340,73 360,66" fill="none" stroke="#C4A882" strokeWidth="0.7" strokeOpacity="0.2"/>
             <path d="M460,74 C480,67 500,81 520,74 C540,67 560,79 580,72" fill="none" stroke="#C4A882" strokeWidth="0.7" strokeOpacity="0.18"/>
             <path d="M680,70 C700,63 720,77 740,70 C760,63 780,75 800,68" fill="none" stroke="#C4A882" strokeWidth="0.7" strokeOpacity="0.16"/>
 
-            
+            {/* Fibroblast dots */}
             <circle cx="190" cy="75" r="2" fill="#8A9E8C" fillOpacity="0.32"/>
             <circle cx="360" cy="82" r="1.5" fill="#8A9E8C" fillOpacity="0.25"/>
             <circle cx="530" cy="70" r="2.2" fill="#8A9E8C" fillOpacity="0.28"/>
             <circle cx="700" cy="80" r="1.5" fill="#8A9E8C" fillOpacity="0.22"/>
             <circle cx="870" cy="74" r="2" fill="#8A9E8C" fillOpacity="0.26"/>
 
-            
+            {/* Layer labels — right aligned */}
             <text x="820" y="32" fontFamily="'DM Sans', sans-serif" fontSize="7.5" letterSpacing="2.5" fill="#8B6247" fillOpacity="0.45" textAnchor="start">EPIDERMIS</text>
             <text x="820" y="80" fontFamily="'DM Sans', sans-serif" fontSize="7.5" letterSpacing="2.5" fill="#8A9E8C" fillOpacity="0.45" textAnchor="start">DERMIS</text>
             <text x="820" y="128" fontFamily="'DM Sans', sans-serif" fontSize="7.5" letterSpacing="2.5" fill="#D4A89A" fillOpacity="0.45" textAnchor="start">HYPODERMIS</text>
 
-            
+            {/* Bracket line */}
             <line x1="812" y1="28" x2="818" y2="28" stroke="#8B6247" strokeWidth="0.8" strokeOpacity="0.4"/>
             <line x1="812" y1="76" x2="818" y2="76" stroke="#8A9E8C" strokeWidth="0.8" strokeOpacity="0.4"/>
             <line x1="812" y1="124" x2="818" y2="124" stroke="#D4A89A" strokeWidth="0.8" strokeOpacity="0.35"/>
             <line x1="811" y1="24" x2="811" y2="128" stroke="#C4A882" strokeWidth="0.5" strokeOpacity="0.22"/>
           </svg>
-        </div> */}
+        </div>
 
         {/* HERO SECTION */}
         <section className="guide-hero">

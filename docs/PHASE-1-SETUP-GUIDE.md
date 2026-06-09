@@ -159,15 +159,14 @@ copy update).
 ## Step 6 — Install the GA4 configuration + event tags
 
 1. **Tags → New → Google Tag (GA4 configuration)**
-   - Tag ID: paste the `G-XXXXXXXXXX` from step 3.
+   - Tag ID: paste the `G-XXXXXXXXXX` from step 3. 
    - Configuration parameters (Add row):
      - `send_page_view` → `false`  *(we send page views manually)*
    - **Advanced → Consent Settings → Require additional consent for tag to
      fire** → tick `analytics_storage`.
    - Trigger: **Consent Initialization – All Pages** (built-in).
 2. **Tags → New → Google Analytics: GA4 Event** — create one per event name.
-   Use this naming convention: `GA4 – <event_name>`.
-
+   Use this naming convention: `GA4 – <event_name>`
    For each tag:
    - Configuration tag: select the GA4 config from step 6.1.
    - Event name: the literal ULANDA event name (e.g. `consultation_cta_click`).

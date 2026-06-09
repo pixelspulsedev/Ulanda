@@ -141,7 +141,10 @@ export function updateConsent({ analytics = false, marketing = false } = {}) {
   persistConsent({ analytics, marketing });
 
   // Tell tags inside GTM that consent has been resolved.
-  gtag({ event: 'consent_update', analytics_consent: analytics, marketing_consent: marketing });
+  trackEvent('consent_update', { 
+    analytics_consent: analytics, 
+    marketing_consent: marketing 
+  });
 
   if (analytics || marketing) loadGTM();
 }
