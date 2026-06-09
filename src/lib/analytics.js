@@ -31,10 +31,25 @@ const getDataLayer = () => {
   return window.dataLayer;
 };
 
-const gtag = (...args) => {
+/**
+ * Push a gtag-style command (e.g. `gtag('consent', 'update', {...})`).
+ *
+ * Google Consent Mode / gtag.js only recognises consent commands when they
+ * arrive on the dataLayer as an `arguments` object — NOT as a plain Array.
+ * We therefore delegate to the canonical `window.gtag` defined in index.html
+ * (which does `dataLayer.push(arguments)`), and only fall back to pushing a
+ * real `arguments` object ourselves if it is unavailable. Using a regular
+ * function (not an arrow) is required so `arguments` is available.
+ */
+function gtag() {
+  if (!isBrowser()) return;
+  if (typeof window.gtag === 'function') {
+    window.gtag.apply(window, arguments);
+    return;
+  }
   const dl = getDataLayer();
-  if (dl) dl.push(args);
-};
+  if (dl) dl.push(arguments);
+}
 
 /* ------------------------------------------------------------------ */
 /* GTM loader                                                          */
