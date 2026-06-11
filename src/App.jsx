@@ -11,6 +11,7 @@ import PageTransition from './components/animations/PageTransition'
 import { LocalBusinessSchema } from './components/Schema'
 import AnalyticsProvider from './components/AnalyticsProvider'
 import ConsentBanner from './components/ConsentBanner'
+import FloatingWhatsAppButton from './components/FloatingWhatsAppButton'
 
 function App() {
   const location = useLocation()
@@ -46,6 +47,7 @@ function App() {
       </main>
 
       <Footer />
+      <FloatingWhatsAppButton />
       <ConsentBanner />
     </div>
   )
