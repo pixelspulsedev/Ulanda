@@ -710,7 +710,7 @@ export default function SignatureDetail() {
 
         {/* Sticky CTA */}
         <div
-          className={`fixed bottom-6 right-6 z-50 transition-all duration-500 ${
+          className={`fixed bottom-24 right-6 md:bottom-28 md:right-8 z-50 transition-all duration-500 ${
             showSticky ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
           }`}
         >

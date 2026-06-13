@@ -32,12 +32,36 @@ export default function PrivacyPolicy() {
             <li><strong>Personal information you provide:</strong> Name, email address, phone number, date of birth, and payment details</li>
             <li><strong>Health or medical information:</strong> necessary for treatments or consultations</li>
             <li><strong>Technical information automatically collected:</strong> IP address, browser type, device information, pages visited, and interaction with the Website</li>
-            <li><strong>Cookies and tracking technologies:</strong> We use cookies to improve user experience, analyze website traffic, and deliver relevant content</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-2xl font-serif mb-4">2. How We Use Your Information</h2>
+          <h2 className="text-2xl font-serif mb-4">2. Cookies and Tracking Technologies</h2>
+          <p className="mb-4">
+            We use cookies to improve user experience, analyze website traffic, and deliver relevant content.
+          </p>
+          
+          <h3 className="text-xl font-serif mb-2">Google Analytics 4 & Google Tag Manager</h3>
+          <p className="mb-2">
+            We use Google Analytics 4 (GA4) for behavioral analytics. GA4 sets cookies such as <code>_ga</code> and <code>_ga_&lt;container&gt;</code>. These remain for up to 14 months. The data processor is Google Ireland Ltd.
+          </p>
+
+          <h3 className="text-xl font-serif mb-2">Meta Pixel</h3>
+          <p className="mb-2">
+            We use the Meta Pixel for ad measurement and retargeting. It sets cookies such as <code>_fbp</code> and <code>_fbc</code>. The data processor is Meta Platforms Ireland Ltd.
+          </p>
+
+          <p className="italic mb-4">
+            <strong>Important:</strong> No personally identifiable information (PII) or health-related information is sent to Google or Meta.
+          </p>
+
+          <p className="mb-4">
+            The legal basis for processing analytics and marketing cookies is your <strong>consent</strong> (UK GDPR Article 6(1)(a)). You can withdraw or change your consent at any time by clicking <strong>‘Cookie preferences’</strong> at the bottom of any page on our Website.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-serif mb-4">3. How We Use Your Information</h2>
           <p className="mb-4">We use your information to:</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Provide and manage our services, bookings, and consultations</li>

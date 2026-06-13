@@ -255,15 +255,14 @@ In GA4 → **Admin → Events → Key events**, toggle these ON (you may need to
 wait 24 h after first event ingestion for them to appear):
 
 - `booking_started`                *(Phase 1 primary conversion)*
-- `consultation_cta_click`
+- `consultation_cta_click` done
 - `contact_form_submit`
-- `phone_click`
-- `whatsapp_click`
-- `email_signup`
+- `phone_click` done
+- `whatsapp_click` done
+- `email_signup` done
 - `consultation_booking_completed` *(only once Phase 2 Square integration ships)*
 
-Then **Admin → Property settings → Default reporting identity** → choose
-**Blended**.
+Then **Admin → Data display → Reporting identity** → choose **Blended**.
 
 ## Step 9 — Build audiences
 
@@ -273,20 +272,27 @@ GA4 → **Admin → Audiences → New audience → Create a custom audience** fo
 
 | Audience name                          | Condition                                                                                          |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| All website visitors                   | `session_start` is any value (or use the built-in "All Users")                                      |
-| Consultation page visitors             | Event `consultation_page_view` count ≥ 1 in 30 days                                                 |
+| All website visitors  done                 | `session_start` is any value (or use the built-in "All Users")                                      |
+| Consultation page visitors   done          | Event `consultation_page_view` count ≥ 1 in 30 days                                                 |
 | Booking starters who did not complete  | `booking_started` ≥ 1 AND `consultation_booking_completed` = 0 in 30 days                           |
-| Regenerative treatment interest         | `regenerative_treatment_view` ≥ 1 in 30 days                                                        |
-| Barrier / sensitivity interest         | `barrier_skin_stability_view` ≥ 1 in 30 days                                                        |
-| Hormonal skin interest                 | `page_path` contains `hormonal` OR `menopause` OR `peri` in 30 days                                 |
-| Deep authority readers                 | `deep_authority_engagement` ≥ 1 in 30 days                                                          |
-| Repeat visitors                        | Sessions > 1 in 30 days                                                                              |
-| Ware / Hertford / Broxbourne / Hoddesdon / Bishop’s Stortford / St Albans | `page_path` contains `aesthetic-clinic-<town>` in 30 days  *(one audience per town)* |
+| Regenerative treatment interest    done     | `regenerative_treatment_view` ≥ 1 in 30 days                                                        |
+| Barrier / sensitivity interest done        | `barrier_skin_stability_view` ≥ 1 in 30 days                                                        |
+| Hormonal skin interest   done              | `page_path` contains `hormonal` OR `menopause` OR `peri` in 30 days                                 |
+| Deep authority readers    done             | `deep_authority_engagement` ≥ 1 in 30 days                                                          |
+| Repeat visitors   done                     | Sessions > 1 in 30 days                                                                              |
+| Ware / Hertford / Broxbourne / Hoddesdon / Bishop’s Stortford / St Albans | `page_path` contains `aesthetic-clinic-<town>` in 30 days  *(one audience per town)* | done
 
 ### 9b. Meta audiences
 
 Meta Business → **Audiences → Create a Custom Audience → Website**. Repeat for
-each behaviour, choosing the matching Pixel event:
+each behaviour, choosing the matching Pixel event.
+
+**Note on "Source" error:** If you see an error in the Source field or the
+Pixel is missing:
+1. Go to **Business Settings → Data Sources → Pixels (or Datasets)**.
+2. Select the Pixel → **Add People** → add yourself with "Full control".
+3. Select the Pixel → **Connected Assets** → add your Ad Account.
+4. Refresh the audience creator page.
 
 - All website visitors → "All website visitors", 180 days.
 - Consultation page visitors → Event `ViewContent` where
@@ -345,7 +351,7 @@ to every event, so you can segment GA4 reports by `utm_campaign` and
 
 1. In GTM, click **Preview** (top right). Enter
    `https://www.ulanda.co.uk?gtm_debug=1` and connect.
-2. With Consent Banner showing, click **Reject non-essential** —
+2. With Consent Banner showing, click **Reject non-essential** — 
    confirm in the GTM tag-assistant pane:
    - GA4 config tag: **Not fired** (consent denied).
    - Meta Pixel Base: **Not fired** (consent denied).
@@ -370,7 +376,7 @@ to every event, so you can segment GA4 reports by `utm_campaign` and
 9. Once all green: **Submit → Publish** the GTM container with a clear
    version name like `Phase 1 – tracking foundation`.
 
-## Step 12 — Update the Privacy Policy
+## Step 12 — Update the Privacy Policy done
 
 Edit [src/pages/PrivacyPolicy.jsx](../src/pages/PrivacyPolicy.jsx) (or have
 the copy approved and the developer commit it) to include:
