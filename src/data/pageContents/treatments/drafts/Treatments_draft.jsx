@@ -213,7 +213,7 @@ const PopularPathwayCards = ({ items }) => (
           className="group flex flex-col bg-white border border-base-200 rounded-xl overflow-hidden hover:shadow-md transition-all"
         >
           {thumbnail && (
-            <div className="aspect-[16/10] overflow-hidden bg-base-200">
+            <div className="aspect-[16/5] overflow-hidden bg-base-200">
               <img
                 src={thumbnail}
                 alt={item.title}
@@ -221,16 +221,16 @@ const PopularPathwayCards = ({ items }) => (
               />
             </div>
           )}
-          <div className="flex flex-1 flex-col p-5">
+          <div className="flex flex-1 flex-col p-4">
             <h3 className="font-serif text-xl mb-2 group-hover:text-primary transition-colors">
               {item.title}
             </h3>
-            <p className="text-base-content/70 text-sm leading-relaxed mb-4">
+            <p className="text-base-content/70 text-sm leading-relaxed">
               {item.descriptor}
             </p>
-            <div className="mt-auto inline-flex items-center gap-2 text-primary font-medium text-sm">
+            {/* <div className="mt-auto inline-flex items-center gap-2 text-primary font-medium text-sm">
               View Treatment <ArrowRight size={15} />
-            </div>
+            </div> */}
           </div>
         </Link>
       );
@@ -416,11 +416,11 @@ export default function TreatmentsDraft() {
           </div>
 
           {/* Content */}
-          <div className="w-full relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-14 text-white">
+          <div className="w-full relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-6 text-white">
             <div className="max-w-3xl">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-3">
+              {/* <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-3">
                 Treatments &amp; Treatment Pathways
-              </h1>
+              </h1> */}
               <p className="text-lg md:text-xl italic font-extralight text-white/90 mb-5">
                 Understanding Before Treatment
               </p>
@@ -452,7 +452,7 @@ export default function TreatmentsDraft() {
           </div>
         </section>
 
-        <section id="popular-pathways" className="py-12 px-4 md:px-8 max-w-8xl mx-auto">
+        <section id="popular-pathways" className="py-4 px-4 md:px-8 max-w-8xl mx-auto">
           {/* <h2 className="text-3xl font-serif mb-4">Popular Treatment Pathways</h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
             A selection of ULANDA's most requested regenerative treatments. Each supports a specific skin outcome and can be explored in detail below.
