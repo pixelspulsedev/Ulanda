@@ -37,6 +37,34 @@ const injectableLinks = [
   { title: 'Definisse Hydrobooster', to: '/treatments/injectable-skin-optimisation/definisse-hydrobooster' },
 ];
 
+const popularPathways = [
+  {
+    title: 'Profhilo',
+    descriptor: 'Hydration, skin quality and resilience.',
+    to: '/treatments/injectable-skin-optimisation/profhilo',
+  },
+  {
+    title: 'Polynucleotides',
+    descriptor: 'Regenerative support and tissue quality.',
+    to: '/treatments/skin-renewal-regeneration/polynucleotides',
+  },
+  {
+    title: 'Microneedling',
+    descriptor: 'Texture refinement and collagen stimulation.',
+    to: '/treatments/skin-renewal-regeneration/microneedling',
+  },
+  {
+    title: 'Anti-Wrinkle Injections',
+    descriptor: 'Natural facial refinement and healthy ageing.',
+    to: '/treatments/structural-collagen-support/anti-wrinkle-injections',
+  },
+  {
+    title: 'Chemical Peels',
+    descriptor: 'Skin renewal, clarity and texture improvement.',
+    to: '/treatments/skin-renewal-regeneration/chemical-peel',
+  },
+];
+
 const structuralLinks = [
   { title: 'Anti-Wrinkle Injections', to: '/treatments/structural-collagen-support/anti-wrinkle-injections' },
   { title: 'Dermal Fillers', to: '/treatments/structural-collagen-support/dermal-fillers' },
@@ -173,6 +201,43 @@ const getHeroImageForItem = (item) => {
   return null;
 };
 
+const PopularPathwayCards = ({ items }) => (
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-6">
+    {items.map((item) => {
+      const thumbnail = getHeroImageForItem(item);
+
+      return (
+        <Link
+          key={item.to}
+          to={item.to}
+          className="group flex flex-col bg-white border border-base-200 rounded-xl overflow-hidden hover:shadow-md transition-all"
+        >
+          {thumbnail && (
+            <div className="aspect-[16/10] overflow-hidden bg-base-200">
+              <img
+                src={thumbnail}
+                alt={item.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          )}
+          <div className="flex flex-1 flex-col p-5">
+            <h3 className="font-serif text-xl mb-2 group-hover:text-primary transition-colors">
+              {item.title}
+            </h3>
+            <p className="text-base-content/70 text-sm leading-relaxed mb-4">
+              {item.descriptor}
+            </p>
+            <div className="mt-auto inline-flex items-center gap-2 text-primary font-medium text-sm">
+              View Treatment <ArrowRight size={15} />
+            </div>
+          </div>
+        </Link>
+      );
+    })}
+  </div>
+);
+
 const LinkCards = ({ items }) => (
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
     {items.map((item) => {
@@ -273,6 +338,14 @@ export default function TreatmentsDraft() {
         '@type': 'MedicalProcedure',
         name: 'Microneedling Treatment',
       },
+      {
+        '@type': 'MedicalProcedure',
+        name: 'Anti-Wrinkle Treatment',
+      },
+      {
+        '@type': 'MedicalProcedure',
+        name: 'Chemical Peels Treatment',
+      },
     ],
   };
 
@@ -330,7 +403,7 @@ export default function TreatmentsDraft() {
       <div className="bg-base-100 text-base-content">
         <Breadcrumbs />
 
-        <section className="relative min-h-[85vh] w-full flex items-center justify-center">
+        <section className="relative min-h-[30vh] w-full flex items-center justify-center">
           {/* Background Image */}
           <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
@@ -343,27 +416,23 @@ export default function TreatmentsDraft() {
           </div>
 
           {/* Content */}
-          <div className="w-full relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20 text-white">
+          <div className="w-full relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-14 text-white">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
-                Regenerative Skin Treatments in{' '}
-                <span className="italic font-extralight">Ware, Hertfordshire</span>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-3">
+                Treatments &amp; Treatment Pathways
               </h1>
-              <div className="space-y-4 text-white/90 font-light leading-relaxed max-w-4xl">
+              <p className="text-lg md:text-xl italic font-extralight text-white/90 mb-5">
+                Understanding Before Treatment
+              </p>
+              <div className="space-y-3 text-white/90 font-light leading-relaxed max-w-3xl">
                 <p>
                   At ULANDA, treatments are not presented as a simple menu. Each treatment is selected within a clinical framework that considers skin behaviour, barrier stability, hydration levels, hormonal context and tissue readiness.
                 </p>
                 <p>
-                  Rather than offering isolated procedures, ULANDA uses a structured regenerative approach, where treatments are introduced at the correct stage of skin readiness to support long-term skin health.
-                </p>
-                <p>
                   Some treatments can be booked directly, while others are introduced following consultation to ensure the correct sequencing within your skin’s regenerative pathway.
                 </p>
-                <p>
-                  Whether you are exploring treatments for the first time or already know the treatment you are considering, this page introduces the regenerative modalities used at ULANDA and how they fit within our treatment pathways.
-                </p>
               </div>
-              <div className="mt-8 flex flex-col sm:flex-row gap-4">
+              <div className="mt-6 flex flex-col sm:flex-row gap-4">
                 <a
                   href={squareBookingUrl}
                   target="_blank"
@@ -383,6 +452,14 @@ export default function TreatmentsDraft() {
           </div>
         </section>
 
+        <section id="popular-pathways" className="py-12 px-4 md:px-8 max-w-8xl mx-auto">
+          {/* <h2 className="text-3xl font-serif mb-4">Popular Treatment Pathways</h2>
+          <p className="text-base-content/80 leading-relaxed max-w-4xl">
+            A selection of ULANDA's most requested regenerative treatments. Each supports a specific skin outcome and can be explored in detail below.
+          </p> */}
+          <PopularPathwayCards items={popularPathways} />
+        </section>
+
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
           <h2 className="text-3xl font-serif mb-4">The ULANDA Regenerative Treatment Framework</h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
@@ -391,7 +468,8 @@ export default function TreatmentsDraft() {
         </section>
 
         <section id="barrier-support" className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Skin Barrier Support & Stability</h2>
+          <h2 className="text-3xl font-serif mb-2">Restore Skin Stability</h2>
+          <p className="text-primary font-medium mb-4">Barrier support for sensitive, reactive and compromised skin.</p>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
             Healthy skin begins with a stable barrier. Barrier-focused therapies restore hydration balance, calm inflammation, and strengthen the skin’s protective function. These treatments are often introduced as foundational protocols before regenerative treatments or used as part of ongoing skin maintenance.
           </p>
@@ -405,7 +483,8 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Skin Renewal Treatments</h2>
+          <h2 className="text-3xl font-serif mb-2">Renew Skin Texture &amp; Clarity</h2>
+          <p className="text-primary font-medium mb-4">For texture concerns, congestion and skin revitalisation.</p>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
             Once the skin barrier is stable, treatments can stimulate epidermal renewal and collagen activity. These therapies improve skin texture, clarity, and resilience while encouraging natural regenerative processes.
           </p>
@@ -419,7 +498,8 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Regenerative Injectables</h2>
+          <h2 className="text-3xl font-serif mb-2">Regenerate Skin Quality</h2>
+          <p className="text-primary font-medium mb-4">For hydration, resilience, collagen support and skin quality.</p>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
             Regenerative injectable treatments support dermal hydration, collagen signalling, and tissue repair. ULANDA allows direct booking for selected regenerative injectables while confirming treatment suitability through a Barrier & Skin Readiness Assessment before treatment begins.
           </p>
@@ -433,7 +513,8 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Collagen & Injectable Treatments</h2>
+          <h2 className="text-3xl font-serif mb-2">Refine Facial Balance</h2>
+          <p className="text-primary font-medium mb-4">For healthy ageing and subtle rejuvenation.</p>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
             Structural treatments support facial architecture and address deeper structural changes associated with ageing. Because these treatments influence tissue structure and facial balance, they are introduced through consultation to ensure appropriate treatment planning.
           </p>
