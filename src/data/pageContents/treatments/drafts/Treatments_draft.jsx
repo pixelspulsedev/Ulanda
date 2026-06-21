@@ -58,11 +58,11 @@ const popularPathways = [
     descriptor: 'Natural facial refinement and healthy ageing.',
     to: '/treatments/structural-collagen-support/anti-wrinkle-injections',
   },
-  {
-    title: 'Chemical Peels',
-    descriptor: 'Skin renewal, clarity and texture improvement.',
-    to: '/treatments/skin-renewal-regeneration/chemical-peel',
-  },
+  // {
+  //   title: 'Chemical Peels',
+  //   descriptor: 'Skin renewal, clarity and texture improvement.',
+  //   to: '/treatments/skin-renewal-regeneration/chemical-peel',
+  // },
 ];
 
 const structuralLinks = [
@@ -228,9 +228,9 @@ const PopularPathwayCards = ({ items }) => (
             <p className="text-base-content/70 text-sm leading-relaxed">
               {item.descriptor}
             </p>
-            {/* <div className="mt-auto inline-flex items-center gap-2 text-primary font-medium text-sm">
+            <div className="mt-auto inline-flex items-center gap-2 text-primary font-medium text-sm">
               View Treatment <ArrowRight size={15} />
-            </div> */}
+            </div>
           </div>
         </Link>
       );
