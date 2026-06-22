@@ -54,6 +54,10 @@ const AestheticClinicHarlow = lazy(() => import('./pages/locations/AestheticClin
 const AestheticClinicCheshunt = lazy(() => import('./pages/locations/AestheticClinicCheshunt.jsx'))
 const AestheticClinicBroxbourne = lazy(() => import('./pages/locations/AestheticClinicBroxbourne.jsx'))
 const AestheticClinicBishopsStortford = lazy(() => import('./pages/locations/AestheticClinicBishopsStortford.jsx'))
+const AestheticClinicWare = lazy(() => import('./pages/locations/AestheticClinicWare.jsx'))
+const AestheticClinicStansteadAbbotts = lazy(() => import('./pages/locations/AestheticClinicStansteadAbbotts.jsx'))
+const AestheticClinicGreatAmwell = lazy(() => import('./pages/locations/AestheticClinicGreatAmwell.jsx'))
+const AestheticClinicBuntingford = lazy(() => import('./pages/locations/AestheticClinicBuntingford.jsx'))
 // General pages
 const HelpAndSupport = lazy(() => import('./pages/HelpAndSupport.jsx'))
 const SkinShiftGuide = lazy(() => import('./pages/SkinShiftGuide.jsx'))
@@ -263,6 +267,22 @@ const routes = [
       {
         path: 'locations/aesthetic-clinic-bishops-stortford',
         element: <AestheticClinicBishopsStortford />,
+      },
+      {
+        path: 'locations/aesthetic-clinic-ware',
+        element: <AestheticClinicWare />,
+      },
+      {
+        path: 'locations/aesthetic-clinic-stanstead-abbotts',
+        element: <AestheticClinicStansteadAbbotts />,
+      },
+      {
+        path: 'locations/aesthetic-clinic-great-amwell',
+        element: <AestheticClinicGreatAmwell />,
+      },
+      {
+        path: 'locations/aesthetic-clinic-buntingford',
+        element: <AestheticClinicBuntingford />,
       },
       {
         path: 'book-consultation',
