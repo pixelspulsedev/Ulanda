@@ -169,7 +169,7 @@ const faqs = [
 ];
 
 const areasServed = [
-  { name: 'Ware', link: null },
+  { name: 'Ware', link: '/locations/aesthetic-clinic-ware' },
   { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
   { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
@@ -179,6 +179,9 @@ const areasServed = [
   { name: 'Sawbridgeworth', link: '/locations/aesthetic-clinic-sawbridgeworth' },
   { name: 'Welwyn Garden City', link: '/locations/aesthetic-clinic-welwyn-garden-city' },
   { name: 'Stevenage', link: '/locations/aesthetic-clinic-stevenage' },
+  { name: 'Stanstead Abbotts', link: '/locations/aesthetic-clinic-stanstead-abbotts' },
+  { name: 'Great Amwell', link: '/locations/aesthetic-clinic-great-amwell' },
+  { name: 'Buntingford', link: '/locations/aesthetic-clinic-buntingford' },
 ];
 
 export default function AestheticClinicHertfordshire() {

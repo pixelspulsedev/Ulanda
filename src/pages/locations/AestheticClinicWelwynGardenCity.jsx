@@ -184,8 +184,11 @@ const areasServed = [
   { name: 'Stevenage', link: '/locations/aesthetic-clinic-stevenage' },
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
-  { name: 'Ware', link: null },
+  { name: 'Ware', link: '/locations/aesthetic-clinic-ware' },
   { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Stanstead Abbotts', link: '/locations/aesthetic-clinic-stanstead-abbotts' },
+  { name: 'Great Amwell', link: '/locations/aesthetic-clinic-great-amwell' },
+  { name: 'Buntingford', link: '/locations/aesthetic-clinic-buntingford' },
 ];
 
 const BOOKING_URL = 'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ';

@@ -180,12 +180,14 @@ const areasServed = [
   { name: 'Turnford', link: null },
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Cheshunt', link: '/locations/aesthetic-clinic-cheshunt' },
-  { name: 'Ware', link: null },
+  { name: 'Ware', link: '/locations/aesthetic-clinic-ware' },
   { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
   { name: "Bishop's Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
-  { name: 'Stanstead Abbotts', link: null },
+  { name: 'Stanstead Abbotts', link: '/locations/aesthetic-clinic-stanstead-abbotts' },
   { name: 'East Hertfordshire', link: null },
   { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Great Amwell', link: '/locations/aesthetic-clinic-great-amwell' },
+  { name: 'Buntingford', link: '/locations/aesthetic-clinic-buntingford' },
 ];
 
 export default function AestheticClinicBroxbourne() {

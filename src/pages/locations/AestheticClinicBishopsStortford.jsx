@@ -185,6 +185,10 @@ const areasServed = [
   { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'East Hertfordshire', link: null },
   { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Ware', link: '/locations/aesthetic-clinic-ware' },
+  { name: 'Stanstead Abbotts', link: '/locations/aesthetic-clinic-stanstead-abbotts' },
+  { name: 'Great Amwell', link: '/locations/aesthetic-clinic-great-amwell' },
+  { name: 'Buntingford', link: '/locations/aesthetic-clinic-buntingford' },
 ];
 
 export default function AestheticClinicBishopsStortford() {

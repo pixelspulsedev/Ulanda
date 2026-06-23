@@ -212,13 +212,16 @@ const faqs = [
 const areasServed = [
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Rye Park', link: null },
-  { name: 'Broxbourne', link: null },
+  { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'Wormley', link: null },
-  { name: 'Stanstead Abbotts', link: null },
-  { name: 'Hertford', link: null },
-  { name: "Bishop's Stortford", link: null },
+  { name: 'Stanstead Abbotts', link: '/locations/aesthetic-clinic-stanstead-abbotts' },
+  { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
+  { name: "Bishop's Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
   { name: 'East Hertfordshire', link: null },
   { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Ware', link: '/locations/aesthetic-clinic-ware' },
+  { name: 'Great Amwell', link: '/locations/aesthetic-clinic-great-amwell' },
+  { name: 'Buntingford', link: '/locations/aesthetic-clinic-buntingford' },
 ];
 
 export default function AestheticClinicHoddesdon() {

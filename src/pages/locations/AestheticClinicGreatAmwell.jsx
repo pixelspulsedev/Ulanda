@@ -175,7 +175,7 @@ const faqs = [
 ];
 
 const areasServed = [
-  { name: "Great Amwell", link: '/locations/aesthetic-clinic-great-amwell' },
+  { name: 'Great Amwell', link: '/locations/aesthetic-clinic-great-amwell' },
   { name: 'Thorley', link: null },
   { name: "St Michael's Mead", link: null },
   { name: 'Stansted Mountfitchet', link: null },
@@ -185,6 +185,9 @@ const areasServed = [
   { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'East Hertfordshire', link: null },
   { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Ware', link: '/locations/aesthetic-clinic-ware' },
+  { name: 'Stanstead Abbotts', link: '/locations/aesthetic-clinic-stanstead-abbotts' },
+  { name: 'Buntingford', link: '/locations/aesthetic-clinic-buntingford' },
 ];
 
 export default function AestheticClinicGreatAmwell() {

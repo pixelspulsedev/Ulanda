@@ -182,13 +182,16 @@ const areasServed = [
   { name: 'High Wych', link: null },
   { name: 'Harlow', link: '/locations/aesthetic-clinic-harlow' },
   { name: "Bishop's Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
-  { name: 'Ware', link: null },
+  { name: 'Ware', link: '/locations/aesthetic-clinic-ware' },
   { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
   { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'East Hertfordshire', link: null },
   { name: 'Essex', link: null },
   { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Stanstead Abbotts', link: '/locations/aesthetic-clinic-stanstead-abbotts' },
+  { name: 'Great Amwell', link: '/locations/aesthetic-clinic-great-amwell' },
+  { name: 'Buntingford', link: '/locations/aesthetic-clinic-buntingford' },
 ];
 
 const BOOKING_URL = 'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ';

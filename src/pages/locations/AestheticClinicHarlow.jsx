@@ -231,13 +231,17 @@ const areasServed = [
   { name: 'Church Langley', link: null },
   { name: 'Newhall', link: null },
   { name: 'Sawbridgeworth', link: '/locations/aesthetic-clinic-sawbridgeworth' },
-  { name: "Bishop's Stortford", link: null },
+  { name: "Bishop's Stortford", link: '/locations/aesthetic-clinic-bishops-stortford' },
   { name: 'Hertford', link: '/locations/aesthetic-clinic-hertford' },
   { name: 'Hoddesdon', link: '/locations/aesthetic-clinic-hoddesdon' },
-  { name: 'Broxbourne', link: null },
+  { name: 'Broxbourne', link: '/locations/aesthetic-clinic-broxbourne' },
   { name: 'East Hertfordshire', link: null },
   { name: 'West Essex', link: null },
   { name: 'Hertfordshire', link: '/locations/aesthetic-clinic-hertfordshire' },
+  { name: 'Ware', link: '/locations/aesthetic-clinic-ware' },
+  { name: 'Stanstead Abbotts', link: '/locations/aesthetic-clinic-stanstead-abbotts' },
+  { name: 'Great Amwell', link: '/locations/aesthetic-clinic-great-amwell' },
+  { name: 'Buntingford', link: '/locations/aesthetic-clinic-buntingford' },
 ];
 
 export default function AestheticClinicHarlow() {
