@@ -130,8 +130,9 @@ export default function Footer() {
                 <Link to="/locations" className="hover:text-primary transition-colors text-primary">Locations</Link>
               </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
+                <li><Link to="/locations/aesthetic-clinic-ware" className="hover:text-primary transition-colors ">Ware</Link></li>
                 <li><Link to="/locations/aesthetic-clinic-hertfordshire" className="hover:text-primary transition-colors ">Hertfordshire</Link></li>
-                <li><Link to="/locations/aesthetic-clinic-hoddesdon" className="hover:text-primary transition-colors ">Hoddesdon</Link></li>
+                {/* <li><Link to="/locations/aesthetic-clinic-hoddesdon" className="hover:text-primary transition-colors ">Hoddesdon</Link></li>
                 <li><Link to="/locations/aesthetic-clinic-hertford" className="hover:text-primary transition-colors ">Hertford</Link></li>
                 <li><Link to="/locations/aesthetic-clinic-broxbourne" className="hover:text-primary transition-colors ">Broxbourne</Link></li>
                 <li><Link to="/locations/aesthetic-clinic-cheshunt" className="hover:text-primary transition-colors ">Cheshunt</Link></li>
@@ -139,7 +140,7 @@ export default function Footer() {
                 <li><Link to="/locations/aesthetic-clinic-bishops-stortford" className="hover:text-primary transition-colors ">Bishop's Stortford</Link></li>
                 <li><Link to="/locations/aesthetic-clinic-welwyn-garden-city" className="hover:text-primary transition-colors ">Welwyn Garden City</Link></li>
                 <li><Link to="/locations/aesthetic-clinic-stevenage" className="hover:text-primary transition-colors ">Stevenage</Link></li>
-                <li><Link to="/locations/aesthetic-clinic-sawbridgeworth" className="hover:text-primary transition-colors ">Sawbridgeworth</Link></li>
+                <li><Link to="/locations/aesthetic-clinic-sawbridgeworth" className="hover:text-primary transition-colors ">Sawbridgeworth</Link></li> */}
               </ul>
             </div>
 
