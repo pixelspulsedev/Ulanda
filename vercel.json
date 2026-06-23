@@ -853,6 +853,26 @@
       "permanent": true
     },
     {
+      "source": "/contact/locations/aesthetic-clinic-ware",
+      "destination": "/locations/aesthetic-clinic-ware",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-stanstead-abbotts",
+      "destination": "/locations/aesthetic-clinic-stanstead-abbotts",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-great-amwell",
+      "destination": "/locations/aesthetic-clinic-great-amwell",
+      "permanent": true
+    },
+    {
+      "source": "/contact/locations/aesthetic-clinic-buntingford",
+      "destination": "/locations/aesthetic-clinic-buntingford",
+      "permanent": true
+    },
+    {
       "source": "/contact/locations/aesthetic-clinic-welwyn-garden-city",
       "destination": "/locations/aesthetic-clinic-welwyn-garden-city",
       "permanent": true

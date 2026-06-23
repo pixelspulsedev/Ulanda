@@ -106,6 +106,10 @@ function generateStaticPaths() {
   paths.push('/locations/aesthetic-clinic-cheshunt');
   paths.push('/locations/aesthetic-clinic-broxbourne');
   paths.push('/locations/aesthetic-clinic-bishops-stortford');
+  paths.push('/locations/aesthetic-clinic-ware');
+  paths.push('/locations/aesthetic-clinic-stanstead-abbotts');
+  paths.push('/locations/aesthetic-clinic-great-amwell');
+  paths.push('/locations/aesthetic-clinic-buntingford');
   paths.push('/locations/aesthetic-clinic-welwyn-garden-city');
   paths.push('/locations/aesthetic-clinic-stevenage');
   paths.push('/locations/aesthetic-clinic-sawbridgeworth');
