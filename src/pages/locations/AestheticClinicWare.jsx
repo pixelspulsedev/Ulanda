@@ -527,7 +527,7 @@ export default function AestheticClinicWare() {
                   rel="noopener noreferrer"
                   className="btn btn-primary text-white btn-wide btn-lg h-16 text-lg rounded-full shadow-lg shadow-primary/20 no-animation"
                 >
-                  Book Your Consultation <ArrowRight className="w-5 h-5 ml-2" />
+                  Book Your Consultation
                 </a>
               </div>
             </FadeInWhenVisible>
