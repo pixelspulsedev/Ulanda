@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/conditions/facial-balance-Vitality",
+      "destination": "/conditions/facial-balance-vitality",
+      "permanent": true
+    },
+    {
       "source": "/locations",
       "destination": "/locations/aesthetic-clinic-hertfordshire",
       "permanent": true

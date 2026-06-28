@@ -114,7 +114,7 @@ function generateStaticPaths() {
   paths.push('/locations/aesthetic-clinic-stevenage');
   paths.push('/locations/aesthetic-clinic-sawbridgeworth');
 
-  paths.push('/conditions/facial-balance-Vitality');
+  paths.push('/conditions/facial-balance-vitality');
 
   // Authority Journal pages
   paths.push('/journal');

@@ -1,7 +1,7 @@
 export const individualConditions = [
   {
     id: 'facial-balance-vitality',
-    url: '/conditions/facial-balance-Vitality',
+    url: '/conditions/facial-balance-vitality',
     seo: {
       title: "Facial Balance & Vitality | Healthy Ageing Hertfordshire | ULANDA",
       description: "Facial balance, healthy ageing & natural anti-wrinkle treatments in Hertfordshire. Profhilo, Polynucleotides & Botox guidance from ULANDA's nurse-led clinic."
@@ -498,7 +498,7 @@ export const individualConditions = [
       breadcrumb: [
         { "name": "Home", "url": "https://www.ulanda.co.uk/" },
         { "name": "Conditions", "url": "https://www.ulanda.co.uk/conditions" },
-        { "name": "Facial Balance & Vitality", "url": "https://www.ulanda.co.uk/conditions/facial-balance-Vitality" }
+        { "name": "Facial Balance & Vitality", "url": "https://www.ulanda.co.uk/conditions/facial-balance-vitality" }
       ],
       localBusiness: {
         name: "ULANDA",

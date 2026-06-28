@@ -299,7 +299,7 @@ export default function Navbar() {
                 },
                 {
                   name: 'Facial Balance & Vitality',
-                  path: '/conditions/facial-balance-Vitality',
+                  path: '/conditions/facial-balance-vitality',
                 },
                 {
                   name: 'Redness & Sensitivity',
@@ -731,7 +731,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <Link
-                        to="/conditions/facial-balance-Vitality"
+                        to="/conditions/facial-balance-vitality"
                         onClick={() => setIsDrawerOpen(false)}
                         className="py-2 active:bg-secondary/20"
                       >
