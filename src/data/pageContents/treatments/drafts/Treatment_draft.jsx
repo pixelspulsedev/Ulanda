@@ -49,6 +49,12 @@ const SafetyIcon = ({ type }) => {
   }
 };
 
+const CheckIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+    <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z" clipRule="evenodd" />
+  </svg>
+);
+
 const getBookingButtonLabel = (booking) => {
   if (booking?.bookingType?.toLowerCase().includes('consultation')) {
     return 'Book Consultation';
@@ -117,6 +123,15 @@ export default function TreatmentDraft() {
     { name: category.title, url: `/treatments/${categoryId}` },
     { name: treatment.title, url: `/treatments/${categoryId}/${treatmentId}` }
   ];
+
+  // Support both legacy "atAGlance" and new "at-a-glance" keys
+  const atAGlance = treatment['at-a-glance'] || treatment.atAGlance;
+  const whatAre = treatment['what-are'] || treatment.whatAre;
+  const smoothSoftNatural = treatment['smooth-soft-natural'] || treatment.smoothSoftNatural;
+  // Support both the "conditios" typo key and the corrected "conditions" key
+  const conditionsBlock = treatment.conditios || treatment.conditions;
+  // Support both "faq" and "faqs" keys
+  const faqData = treatment.faq || treatment.faqs;
 
   const Book = () => {
     if (isBarrierModality) {
@@ -281,8 +296,126 @@ export default function TreatmentDraft() {
                     {treatment.introduction.goals?.map((goal, idx) => <li key={idx}>{goal}</li>)}
                   </ul>
                 </div>
+                {treatment.introduction.highlightBox && (
+                  <div className="bg-secondary p-6 rounded-lg border-l-4 border-primary">
+                    <p className="font-serif text-xl text-primary leading-snug">{treatment.introduction.highlightBox.text1}</p>
+                    <p className="font-serif text-xl italic text-base-content/80 leading-snug">{treatment.introduction.highlightBox.text2}</p>
+                  </div>
+                )}
               </FadeInWhenVisible>
+              {(treatment.introduction.placeholderUrl || treatment.introduction.image) && (
+                <RevealImage className="relative w-full aspect-[4/5] overflow-hidden rounded-lg">
+                  <img
+                    src={treatment.introduction.placeholderUrl || treatment.introduction.image}
+                    alt={treatment.introduction.title}
+                    className="w-full h-full object-cover"
+                  />
+                </RevealImage>
+              )}
             </div>
+          </section>
+        )}
+
+        {/* At A Glance Section */}
+        {atAGlance && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
+            <div className="bg-secondary/40 rounded-lg p-8 md:p-12">
+              <h2 className="text-2xl md:text-3xl font-serif text-base-content text-center mb-6 tracking-wide uppercase">{atAGlance.title}</h2>
+              <p className="text-base-content/80 leading-relaxed max-w-3xl mx-auto text-center mb-10">{atAGlance.description}</p>
+              <div className="grid md:grid-cols-2 gap-8">
+                {atAGlance['commonly-used-for'] && (
+                  <div className="bg-base-100 p-6 rounded-lg">
+                    <h3 className="text-sm uppercase tracking-widest text-primary font-medium mb-4">Commonly Used For</h3>
+                    <ul className="space-y-2">
+                      {atAGlance['commonly-used-for'].map((item, idx) => (
+                        <li key={idx} className="flex items-start gap-2 text-base-content/80 font-light">
+                          <span className="text-primary mt-1">✔</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {atAGlance['commonly-combined-with'] && (
+                  <div className="bg-base-100 p-6 rounded-lg">
+                    <h3 className="text-sm uppercase tracking-widest text-primary font-medium mb-4">Commonly Combined With</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {atAGlance['commonly-combined-with'].map((item, idx) => (
+                        <span key={idx} className="px-4 py-2 bg-secondary border border-primary/20 rounded-full text-sm text-base-content/80">
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* What Are [Treatment]? Section */}
+        {whatAre && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
+              <FadeInWhenVisible className="space-y-4">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content leading-tight">{whatAre.title}</h2>
+                <p className="text-base-content/80 leading-relaxed">{whatAre.description}</p>
+                {whatAre['additional-info'] && (
+                  <p className="text-base-content/70 leading-relaxed italic border-l-2 border-primary/40 pl-4">{whatAre['additional-info']}</p>
+                )}
+              </FadeInWhenVisible>
+              <div className="space-y-6">
+                {whatAre.items && (
+                  <div>
+                    <h3 className="text-sm uppercase tracking-widest text-primary font-medium mb-3">Frequently Addressed</h3>
+                    <ul className="space-y-2">
+                      {whatAre.items.map((item, idx) => (
+                        <li key={idx} className="flex items-start gap-2 text-base-content/80 font-light">
+                          <span className="text-primary mt-1">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {whatAre.aka && (
+                  <div>
+                    <h3 className="text-sm uppercase tracking-widest text-primary font-medium mb-3">Also Known As</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {whatAre.aka.map((item, idx) => (
+                        <span key={idx} className="px-3 py-1.5 bg-secondary rounded-full text-sm text-base-content/70">
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Smooth, Soft, Natural — Feature Highlight Section */}
+        {smoothSoftNatural && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20 bg-secondary/30">
+            <div className="max-w-4xl mx-auto text-center mb-12">
+              <h2 className="text-3xl md:text-5xl font-serif text-base-content mb-6">{smoothSoftNatural.title}</h2>
+              <div className="text-base-content/80 leading-relaxed space-y-3">
+                {smoothSoftNatural.description?.split('\n').map((line, idx) => (
+                  line.trim() && <p key={idx}>{line.trim()}</p>
+                ))}
+              </div>
+            </div>
+            {smoothSoftNatural.benefits && (
+              <ul className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+                {smoothSoftNatural.benefits.map((benefit, idx) => (
+                  <li key={idx} className="flex items-start gap-3 text-base-content/80 font-light bg-base-100 p-4 rounded-lg">
+                    <span className="text-primary mt-1 shrink-0"><CheckIcon /></span>
+                    <span>{benefit}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
           </section>
         )}
 
@@ -324,9 +457,7 @@ export default function TreatmentDraft() {
                 {treatment.internalSupport.points.map((point, idx) => (
                   <div key={idx} className="flex items-start">
                     <div className="mt-1 text-primary shrink-0">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
-                        <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z" clipRule="evenodd" />
-                      </svg>
+                      <CheckIcon />
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-medium font-sans text-base-content text-lg">{point.title}</h3>
@@ -355,6 +486,25 @@ export default function TreatmentDraft() {
                   <p className="leading-relaxed">{item.description}</p>
                 </div>
               ))}
+            </div>
+          </section>
+        )}
+
+        {/* Treatment Areas Section */}
+        {treatment.treatmentAreas && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
+            <h2 className="text-3xl md:text-5xl font-serif text-base-content text-center mb-12">{treatment.treatmentAreas.title}</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {treatment.treatmentAreas.items?.map((item, idx) => {
+                const [areaTitle, ...rest] = typeof item === 'string' ? item.split(':') : [item.title, item.description];
+                const areaDescription = typeof item === 'string' ? rest.join(':').trim() : item.description;
+                return (
+                  <div key={idx} className="bg-secondary p-8 rounded-lg space-y-2">
+                    <h3 className="font-medium font-sans text-primary text-lg">{areaTitle}</h3>
+                    <p className="text-base-content/70 leading-relaxed">{areaDescription}</p>
+                  </div>
+                );
+              })}
             </div>
           </section>
         )}
@@ -407,6 +557,64 @@ export default function TreatmentDraft() {
           </section>
         )}
 
+        {/* Conditions Section (supports "conditios"/"conditions" key) */}
+        {conditionsBlock && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20 bg-secondary/20">
+            <div className="text-center max-w-3xl mx-auto mb-12">
+              <h2 className="text-3xl md:text-5xl font-serif text-base-content mb-4">May Be Appropriate For</h2>
+              <p className="text-base-content/70 text-lg">{conditionsBlock.description}</p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {conditionsBlock.items?.map((item, idx) => (
+                <div key={idx} className="bg-base-100 p-8 rounded-lg space-y-1 border border-secondary/40">
+                  <h3 className="font-medium font-sans text-primary">{item.title}</h3>
+                  <p className="leading-relaxed text-base-content/80">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Commonly Considered For Section */}
+        {treatment.commonlyConsideredFor && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24">
+            <h2 className="text-3xl md:text-5xl font-serif text-base-content text-center mb-16">{treatment.commonlyConsideredFor.title}</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              {treatment.commonlyConsideredFor.categories?.map((cat, idx) => (
+                <div key={idx} className="bg-secondary/30 p-8 rounded-lg space-y-4">
+                  <h3 className="text-xl font-serif text-primary">{cat.title}</h3>
+                  <p className="text-base-content/80 leading-relaxed">{cat.description}</p>
+                  {cat.commonPairings && (
+                    <div className="flex flex-wrap gap-2">
+                      {cat.commonPairings.map((pairing, i) => (
+                        <span key={i} className="px-3 py-1.5 bg-base-100 border border-primary/20 rounded-full text-sm text-base-content/70">
+                          {pairing}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  {cat.educationalInsight && (
+                    <div className="bg-base-100 p-6 rounded-lg border-l-4 border-primary mt-2">
+                      <h4 className="font-serif text-lg text-base-content mb-2">{cat.educationalInsight.headline}</h4>
+                      <p className="text-base-content/70 leading-relaxed mb-4">{cat.educationalInsight.text}</p>
+                      {cat.educationalInsight.internalLink && (
+                        <Link to={cat.educationalInsight.internalLink.url} className="text-primary hover:underline font-medium">
+                          {cat.educationalInsight.internalLink.anchorText}
+                        </Link>
+                      )}
+                    </div>
+                  )}
+                  {cat.internalLink && (
+                    <Link to={cat.internalLink.url} className="inline-block text-primary hover:underline font-medium pt-2">
+                      {cat.internalLink.anchorText}
+                    </Link>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Safety & Medical Oversight Section */}
         {treatment.safetyOversight && (
           <section className="bg-base-100 py-12 md:py-24">
@@ -453,12 +661,99 @@ export default function TreatmentDraft() {
                     <span className="w-2.5 h-2.5 bg-primary rounded-full"></span>
                   </div>
                   <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-base-100 p-6 rounded-lg border border-base-200 shadow-sm md:hover:shadow-md transition-shadow">
-                    <h3 className="text-xl font-serif text-primary mb-2">{item.title}</h3>
+                    <h3 className="text-xl font-serif text-primary mb-1">{item.title}</h3>
+                    {item.subtitle && (
+                      <p className="text-sm uppercase tracking-widest text-base-content/50 mb-2">{item.subtitle}</p>
+                    )}
                     <p className="text-base-content/80 font-light leading-relaxed">{item.description}</p>
+                    {item.observations && (
+                      <ul className="mt-3 space-y-1.5">
+                        {item.observations.map((obs, i) => (
+                          <li key={i} className="flex items-start gap-2 text-sm text-base-content/70 font-light">
+                            <span className="text-primary mt-1">•</span>
+                            <span>{obs}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
               ))}
             </div>
+          </section>
+        )}
+
+        {/* Facial Balance & Vitality Section */}
+        {treatment.facialBalanceVitality && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <FadeInWhenVisible className="space-y-6">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content leading-tight">{treatment.facialBalanceVitality.title}</h2>
+                <p className="text-base-content/80 leading-relaxed">{treatment.facialBalanceVitality.description}</p>
+                {treatment.facialBalanceVitality.considerations && (
+                  <ul className="grid grid-cols-2 gap-2">
+                    {treatment.facialBalanceVitality.considerations.map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-2 text-base-content/80 font-light">
+                        <span className="text-primary mt-1">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </FadeInWhenVisible>
+              <div className="bg-secondary p-10 rounded-lg text-center space-y-4">
+                {treatment.facialBalanceVitality.philosophy?.map((line, idx) => (
+                  <p key={idx} className={idx === 0 ? "text-xl font-serif text-base-content/70" : "text-2xl font-serif italic text-primary"}>
+                    {line}
+                  </p>
+                ))}
+                {treatment.facialBalanceVitality.internalLink && (
+                  <Link to={treatment.facialBalanceVitality.internalLink.url} className="inline-block text-primary hover:underline font-medium pt-4">
+                    {treatment.facialBalanceVitality.internalLink.anchorText}
+                  </Link>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Perfect Treatment Pairings Section */}
+        {treatment.perfectTreatmentPairings && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24 bg-secondary/20">
+            <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
+              <h2 className="text-3xl md:text-5xl font-serif text-base-content">{treatment.perfectTreatmentPairings.title}</h2>
+              <p className="text-base-content/70 leading-relaxed">{treatment.perfectTreatmentPairings.introduction}</p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+              {treatment.perfectTreatmentPairings.pairings?.map((pairing, idx) => (
+                <div key={idx} className="bg-base-100 p-8 rounded-lg space-y-3 border-t-4 border-primary">
+                  <h3 className="text-xl font-serif text-primary">{pairing.name}</h3>
+                  <p className="text-base-content/80 leading-relaxed">{pairing.description}</p>
+                  {pairing.idealFor && (
+                    <div className="flex flex-wrap gap-2">
+                      {pairing.idealFor.map((item, i) => (
+                        <span key={i} className="px-3 py-1 bg-secondary rounded-full text-xs text-base-content/70">{item}</span>
+                      ))}
+                    </div>
+                  )}
+                  <p className="text-sm text-base-content/60 italic">{pairing.whyItPairsWell}</p>
+                  {pairing.url && (
+                    <Link to={pairing.url} className="inline-block text-primary text-sm hover:underline font-medium pt-1">Learn More →</Link>
+                  )}
+                </div>
+              ))}
+            </div>
+            {treatment.perfectTreatmentPairings.tripleCombination && (
+              <div className="max-w-3xl mx-auto bg-base-100 p-10 rounded-lg text-center space-y-4">
+                <h3 className="text-2xl font-serif text-primary">{treatment.perfectTreatmentPairings.tripleCombination.title}</h3>
+                <p className="text-base-content/80 leading-relaxed">{treatment.perfectTreatmentPairings.tripleCombination.description}</p>
+                <div className="flex flex-wrap justify-center gap-2">
+                  {treatment.perfectTreatmentPairings.tripleCombination.benefits?.map((benefit, i) => (
+                    <span key={i} className="px-4 py-2 bg-secondary rounded-full text-sm text-base-content/80">{benefit}</span>
+                  ))}
+                </div>
+              </div>
+            )}
           </section>
         )}
 
@@ -486,6 +781,24 @@ export default function TreatmentDraft() {
           </section>
         )}
 
+        {/* Why These Changes Happen — Clinical Insights Section */}
+        {treatment.whyTheseChangesHappen && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24">
+            <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
+              <h2 className="text-3xl md:text-5xl font-serif text-base-content">{treatment.whyTheseChangesHappen.title}</h2>
+              <p className="text-base-content/70 leading-relaxed">{treatment.whyTheseChangesHappen.introduction}</p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {treatment.whyTheseChangesHappen.insights?.map((insight, idx) => (
+                <div key={idx} className="bg-secondary p-8 rounded-lg space-y-2">
+                  <h3 className="font-medium font-sans text-primary text-lg">{insight.title}</h3>
+                  <p className="text-base-content/80 leading-relaxed">{insight.summary}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Related Conditions Section */}
         <RelatedConditions conditions={relatedConditions} title="Treats Conditions" subtitle="This treatment is effective for the following conditions." />
 
@@ -500,6 +813,23 @@ export default function TreatmentDraft() {
             />
           ) : null;
         })()}
+
+        {/* Important Information Section */}
+        {treatment.importantInformation && (
+          <section className="max-w-4xl mx-auto px-4 md:px-8 py-12">
+            <div className="bg-secondary/30 border border-primary/20 rounded-lg p-8">
+              <h3 className="text-sm uppercase tracking-widest text-primary font-medium mb-4">Important Information</h3>
+              <ul className="space-y-2">
+                {treatment.importantInformation.items?.map((item, idx) => (
+                  <li key={idx} className="flex items-start gap-2 text-base-content/70 text-sm leading-relaxed">
+                    <span className="text-primary mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
 
         {/* CTA Section - show BarrierModalityCTA for barrier pages, else standard CTA */}
         {isBarrierModality ? (
@@ -550,12 +880,45 @@ export default function TreatmentDraft() {
           </section>
         ) : null}
 
-        {/* FAQ Section */}
-        {treatment.faq && (
+        {/* Advanced Skin Health Consultation Section */}
+        {treatment.advancedSkinHealthConsultation && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24">
+            <div className="max-w-3xl mx-auto bg-secondary/30 rounded-lg p-8 md:p-12 text-center space-y-6">
+              <span className="text-xs uppercase tracking-widest text-primary font-medium">{treatment.advancedSkinHealthConsultation.subtitle}</span>
+              <h2 className="text-3xl md:text-4xl font-serif text-base-content">{treatment.advancedSkinHealthConsultation.title}</h2>
+              <p className="text-base-content/80 leading-relaxed max-w-xl mx-auto">{treatment.advancedSkinHealthConsultation.description}</p>
+              {treatment.advancedSkinHealthConsultation.includes && (
+                <ul className="grid sm:grid-cols-2 gap-2 text-left max-w-md mx-auto">
+                  {treatment.advancedSkinHealthConsultation.includes.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-2 text-base-content/80 font-light">
+                      <span className="text-primary mt-1">✔</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <p className="text-lg font-serif text-primary">{treatment.advancedSkinHealthConsultation.investment}</p>
+              {treatment.advancedSkinHealthConsultation.url && (
+                <Link
+                  to={treatment.advancedSkinHealthConsultation.url}
+                  className="inline-block btn btn-primary text-white px-10 py-3 h-auto text-lg rounded-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  Book Skin Health Consultation
+                </Link>
+              )}
+              {treatment.advancedSkinHealthConsultation.tagline && (
+                <p className="text-sm font-medium text-primary/80 tracking-wide">{treatment.advancedSkinHealthConsultation.tagline}</p>
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* FAQ Section (supports "faq"/"faqs" key) */}
+        {faqData && (
           <section className="max-w-3xl mx-auto px-4 md:px-8 py-12 md:py-24">
-            <h2 className="text-3xl md:text-5xl font-serif text-base-content text-center mb-12">{treatment.faq.title}</h2>
+            <h2 className="text-3xl md:text-5xl font-serif text-base-content text-center mb-12">{faqData.title}</h2>
             <div className="space-y-4">
-              {treatment.faq.items?.map((item, idx) => (
+              {faqData.items?.map((item, idx) => (
                 <div key={idx} className="collapse collapse-plus bg-secondary/20 border border-base-200 rounded-lg">
                   <input type="radio" name="treatment-faq" defaultChecked={idx === 0} />
                   <div className="collapse-title text-xl font-medium font-sans text-base-content py-6 text-primary">{item.question}</div>
@@ -580,6 +943,8 @@ export default function TreatmentDraft() {
                 </h1>
               </div>
             </section>
+
+            {/* Legacy "sections" shape */}
             {treatment.ulandaConnection.sections?.map((section, index) => (
               <section key={index} className="py-12 md:py-24 flex items-center bg-base-100">
                 <div className="w-full flex flex-col items-center justify-center max-w-7xl mx-auto px-4 md:px-8">
@@ -611,6 +976,20 @@ export default function TreatmentDraft() {
                 </div>
               </section>
             ))}
+
+            {/* New "content" + "tagline" shape */}
+            {treatment.ulandaConnection.content && (
+              <section className="py-12 md:py-24 bg-base-100">
+                <div className="max-w-3xl mx-auto px-4 md:px-8 text-center space-y-4">
+                  {treatment.ulandaConnection.content.map((paragraph, idx) => (
+                    <p key={idx} className="text-lg text-base-content/80 font-sans font-light leading-relaxed">{paragraph}</p>
+                  ))}
+                  {treatment.ulandaConnection.tagline && (
+                    <p className="text-xl font-serif italic text-primary pt-4">{treatment.ulandaConnection.tagline}</p>
+                  )}
+                </div>
+              </section>
+            )}
           </>
         )}
       </div>

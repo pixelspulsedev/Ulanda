@@ -82,22 +82,22 @@ export const treatments = {
               "footer": "It may be integrated before: Microneedling, Polynucleotides, Profhilo, Biostimulators. Surface clarity improves regenerative response."
             },
             "notSuitableFor": {
-               "title": "Who It Is Not Suitable For",
-               "highlight": "",
-               "items": [
-                  "Active inflammatory acne",
-                  "Severe rosacea flare",
-                  "Compromised barrier function",
-                  "Severe skin sensitivity",
-                  "Open lesions or infection"
-               ],
-               "footer": "Barrier stability precedes exfoliation."
+              "title": "Who It Is Not Suitable For",
+              "highlight": "",
+              "items": [
+                "Active inflammatory acne",
+                "Severe rosacea flare",
+                "Compromised barrier function",
+                "Severe skin sensitivity",
+                "Open lesions or infection"
+              ],
+              "footer": "Barrier stability precedes exfoliation."
             },
             "benefits": [
-               "Improved product penetration",
-               "Enhanced skin luminosity",
-               "Smoother makeup application",
-               "More even texture"
+              "Improved product penetration",
+              "Enhanced skin luminosity",
+              "Smoother makeup application",
+              "More even texture"
             ],
             "detailedBenefits": {
               "title": "Treatment Details",
@@ -133,16 +133,16 @@ export const treatments = {
                   "conclusion": "This protects against over-exfoliation and barrier disruption. Dermaplaning is often used as a preparation step before regenerative treatments — not as an isolated cosmetic service."
                 },
                 {
-                   "title": "Why Choose ULANDA for Dermaplaning in Ware",
-                   "points": [
-                      "Dermaplaning is nurse-led",
-                      "Skin tolerance is assessed before treatment",
-                      "Hormonal context is considered",
-                      "Over-exfoliation risk is avoided",
-                      "Sequencing protects long-term skin resilience",
-                      "Treatment is delivered in a private, appointment-only setting"
-                   ],
-                   "conclusion": "Clients searching for “dermaplaning Ware” or “dermaplaning near me” often choose ULANDA for structured, clinically guided exfoliation rather than beauty-led surface treatments."
+                  "title": "Why Choose ULANDA for Dermaplaning in Ware",
+                  "points": [
+                    "Dermaplaning is nurse-led",
+                    "Skin tolerance is assessed before treatment",
+                    "Hormonal context is considered",
+                    "Over-exfoliation risk is avoided",
+                    "Sequencing protects long-term skin resilience",
+                    "Treatment is delivered in a private, appointment-only setting"
+                  ],
+                  "conclusion": "Clients searching for “dermaplaning Ware” or “dermaplaning near me” often choose ULANDA for structured, clinically guided exfoliation rather than beauty-led surface treatments."
                 }
               ]
             },
@@ -160,27 +160,27 @@ export const treatments = {
                 {
                   "title": "Results",
                   "description": [
-                     "Smoother skin texture",
-                     "Improved brightness",
-                     "Better skincare absorption",
-                     "Enhanced makeup finish",
-                     "More even skin tone"
+                    "Smoother skin texture",
+                    "Improved brightness",
+                    "Better skincare absorption",
+                    "Enhanced makeup finish",
+                    "More even skin tone"
                   ]
                 }
               ]
             },
             "faq": {
-               "title": "Frequently Asked Questions",
-               "items": [
-                  { "question": "Will dermaplaning make my hair grow back thicker?", "answer": "No. Vellus hair grows back at the same rate and texture." },
-                  { "question": "Is dermaplaning safe for sensitive skin?", "answer": "Only when barrier stability is confirmed. It is not suitable during active flare phases." },
-                  { "question": "Can dermaplaning help pigmentation?", "answer": "It can improve surface tone and enhance treatment absorption but does not treat deeper melasma alone." },
-                  { "question": "Is there downtime?", "answer": "No. Mild pinkness may occur for a few hours." },
-                  { "question": "How often can I have dermaplaning?", "answer": "Every 4–6 weeks depending on skin tolerance." },
-                  { "question": "Can it be combined with other treatments?", "answer": "Yes. It is often paired with hydration therapy or used before regenerative treatments." },
-                  { "question": "What do people search for this treatment as?", "answer": "Clients often search for: Dermaplaning Ware, Dermaplaning facial near me, Facial for dull skin, Exfoliation treatment Hertfordshire, Smooth skin facial." },
-                  { "question": "Where is ULANDA located?", "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and surrounding Hertfordshire areas." }
-               ]
+              "title": "Frequently Asked Questions",
+              "items": [
+                { "question": "Will dermaplaning make my hair grow back thicker?", "answer": "No. Vellus hair grows back at the same rate and texture." },
+                { "question": "Is dermaplaning safe for sensitive skin?", "answer": "Only when barrier stability is confirmed. It is not suitable during active flare phases." },
+                { "question": "Can dermaplaning help pigmentation?", "answer": "It can improve surface tone and enhance treatment absorption but does not treat deeper melasma alone." },
+                { "question": "Is there downtime?", "answer": "No. Mild pinkness may occur for a few hours." },
+                { "question": "How often can I have dermaplaning?", "answer": "Every 4–6 weeks depending on skin tolerance." },
+                { "question": "Can it be combined with other treatments?", "answer": "Yes. It is often paired with hydration therapy or used before regenerative treatments." },
+                { "question": "What do people search for this treatment as?", "answer": "Clients often search for: Dermaplaning Ware, Dermaplaning facial near me, Facial for dull skin, Exfoliation treatment Hertfordshire, Smooth skin facial." },
+                { "question": "Where is ULANDA located?", "answer": "ULANDA is based in Ware SG12, serving Hertford, Hoddesdon, Broxbourne, Bishop’s Stortford and surrounding Hertfordshire areas." }
+              ]
             },
             "cta": {
               "title": "Ready to refine skin texture safely?",
@@ -188,8 +188,8 @@ export const treatments = {
               "description": "ULANDA Ware, Hertfordshire — Nurse-led skin care clinic delivering precision exfoliation within regenerative sequencing.",
               "buttonText": "Book Advanced Skin Health Consultation",
               "booking": {
-                  "price": 95,
-                  "duration": 45
+                "price": 95,
+                "duration": 45
               }
             },
             "oftenPairedWith": [
@@ -311,7 +311,7 @@ export const treatments = {
                     "As a stabilisation phase before microneedling or polynucleotides",
                     "To reduce inflammatory load before structural intervention"
                   ],
-                   "description": "Barrier integrity determines regenerative success."
+                  "description": "Barrier integrity determines regenerative success."
                 },
                 {
                   "title": "Why Choose ULANDA",
@@ -1236,7 +1236,7 @@ export const treatments = {
                 },
                 {
                   "title": "6. Barrier-support hydration finishing",
-                  "description": "Calms and protects the skin." 
+                  "description": "Calms and protects the skin."
                 }
               ]
             },
@@ -1359,8 +1359,8 @@ export const treatments = {
         placeholderUrl: "/assets/img/treatments/refresh/aesthetic-treatment-light-based-theraphy.png.webp",
         "treatments": {
           "led-light-therapy": {
-              image: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
-              placeholderUrl: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
+            image: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1661768548751-d2312e47a315?q=80&w=2070&auto=format&fit=crop",
             "id": "led-light-therapy",
             "booking": {
               "price": 55,
@@ -1663,8 +1663,8 @@ export const treatments = {
         placeholderUrl: "https://plus.unsplash.com/premium_photo-1732737781525-1cd8ddaefab5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjByZXN1cmZhY2luZ3xlbnwwfDB8MHx8fDA%3D",
         "treatments": {
           "biorepeel": {
-              image: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              placeholderUrl: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1663040173266-4d41d3736cc9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "id": "biorepeel",
             "booking": {
               "price": 150,
@@ -2373,7 +2373,7 @@ export const treatments = {
                 "text1": "Not a filler.",
                 "text2": "A bio-remodeling treatment for hydration and elasticity."
               },
-            image: "/assets/img/treatments/Skin boosters/Profhilo.webp",
+              image: "/assets/img/treatments/Skin boosters/Profhilo.webp",
               placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "idealFor": {
@@ -2549,8 +2549,8 @@ export const treatments = {
                 "text1": "Bio-revitalisation.",
                 "text2": "Amino acids for collagen stimulation."
               },
-            image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
-            placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
+              image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
+              placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2627,8 +2627,8 @@ export const treatments = {
                 "text1": "Instant radiance.",
                 "text2": "High-intensity hydration."
               },
-            image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-seventy-hyal.png.webp",
-            placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-seventy-hyal.png.webp",
+              image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-seventy-hyal.png.webp",
+              placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-seventy-hyal.png.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2705,8 +2705,8 @@ export const treatments = {
                 "text1": "Revitalising glow.",
                 "text2": "Brightening peptides and antioxidants."
               },
-            image: "/assets/img/treatments/Skin boosters/Lemon bottle.webp",
-            placeholderUrl: "/assets/img/treatments/Skin boosters/Lemon bottle.webp",
+              image: "/assets/img/treatments/Skin boosters/Lemon bottle.webp",
+              placeholderUrl: "/assets/img/treatments/Skin boosters/Lemon bottle.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2785,8 +2785,8 @@ export const treatments = {
                 "text1": "Specialised eye treatment.",
                 "text2": "Polynucleotides for the delicate under-eye area."
               },
-            image: "/assets/img/treatments/Skin boosters/Lumi-eye.webp",
-            placeholderUrl: "/assets/img/treatments/Skin boosters/Lumi-eye.webp",
+              image: "/assets/img/treatments/Skin boosters/Lumi-eye.webp",
+              placeholderUrl: "/assets/img/treatments/Skin boosters/Lumi-eye.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -2855,8 +2855,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-        image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
-        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
+            image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
             "category": "Renew",
             "description": "Collagen induction • Texture rejuvenation • Glow boosting",
             "introduction": {
@@ -2945,8 +2945,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-        image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
-        placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
+            image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Renew",
             "description": "Cellular repair • Collagen stimulation • Elasticity revival",
             "introduction": {
@@ -2966,8 +2966,8 @@ export const treatments = {
                 "text1": "Deep regeneration for thinning skin.",
                 "text2": "Activates your body's own repair mechanisms."
               },
-        image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
-        placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
+              image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
             },
             "idealFor": {
               "title": "Best",
@@ -3254,9 +3254,9 @@ export const treatments = {
         image: "https://images.unsplash.com/photo-1599847987657-881f11b92a75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvY3RvciUyMGFwcG9pbnRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
         placeholderUrl: "https://images.unsplash.com/photo-1599847987657-881f11b92a75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvY3RvciUyMGFwcG9pbnRtZW50fGVufDB8MXwwfHx8MA%3D%3D",
         "treatments": {
-            "oxygen-facial": { // Renaming from oxygen-vitamin-infusion-facial to match sitemap if needed, but sitemap says oxygen-facial. 
-              image: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
-              placeholderUrl: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+          "oxygen-facial": { // Renaming from oxygen-vitamin-infusion-facial to match sitemap if needed, but sitemap says oxygen-facial. 
+            image: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
+            placeholderUrl: "/assets/img/treatments/restore/aesthetic-treatment-anti-aging-oxygen-facials.webp",
             // However, the restore page content has Oxygen Facial (recovery-focused use).
             "id": "oxygen-facial",
             "booking": {
@@ -3620,8 +3620,8 @@ export const treatments = {
                 "Support skin healing",
                 "Restore skin barrier"
               ],
-            image: "/assets/img/treatments/oxygenation and healing/Post procedure recovery facial.webp",
-            placeholderUrl: "/assets/img/treatments/oxygenation and healing/Post procedure recovery facial.webp",
+              image: "/assets/img/treatments/oxygenation and healing/Post procedure recovery facial.webp",
+              placeholderUrl: "/assets/img/treatments/oxygenation and healing/Post procedure recovery facial.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -4270,8 +4270,8 @@ export const treatments = {
                 "Supports lymphatic flow",
                 "Supports recovery"
               ],
-            image: "/assets/img/treatments/Lymphatic and decongestive support/Lymphatic and decongestive support.webp",
-            placeholderUrl: "/assets/img/treatments/Lymphatic and decongestive support/Lymphatic and decongestive support.webp",
+              image: "/assets/img/treatments/Lymphatic and decongestive support/Lymphatic and decongestive support.webp",
+              placeholderUrl: "/assets/img/treatments/Lymphatic and decongestive support/Lymphatic and decongestive support.webp",
             },
             "idealFor": {
               "title": "Best",
@@ -4761,27 +4761,80 @@ export const treatments = {
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1675034823520-01a8784605ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym90b3h8ZW58MHwxfDB8fHww",
             "category": "Renew",
             "description": "Subtle Expression Refinement That Supports Your Regeneration Journey",
-            "introduction": {
-              "title": "Smooth, Soft & Natural",
-              "content": [
-                "ULANDA anti-wrinkle treatments are designed for harmony — never heaviness.",
-                "At ULANDA, Anti-Wrinkle Injections are used as a precision tool to soften expression lines while maintaining natural movement.",
-                "This ensures smoother skin without freezing, flattening or changing your natural expression.",
-                "We use a hormone-aware, age-specific approach ideal for women in their mid-30s, 40s, 50s and beyond."
+            // "introduction": {
+            //   "title": "Smooth, Soft & Natural",
+            //   "content": [
+            //     "ULANDA anti-wrinkle treatments are designed for harmony — never heaviness.",
+            //     "At ULANDA, Anti-Wrinkle Injections are used as a precision tool to soften expression lines while maintaining natural movement.",
+            //     "This ensures smoother skin without freezing, flattening or changing your natural expression.",
+            //     "We use a hormone-aware, age-specific approach ideal for women in their mid-30s, 40s, 50s and beyond."
+            //   ],
+            //   "goals": [
+            //     "Soften fine lines & dynamic wrinkles",
+            //     "Prevent deeper creasing",
+            //     "Smooth expression-heavy zones",
+            //     "Refresh the upper face without altering shape",
+            //     "Support long-term skin quality"
+            //   ],
+            //   "highlightBox": {
+            //     "text1": "Designed for harmony.",
+            //     "text2": "Never heaviness or frozen."
+            //   },
+            //   image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            //   placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            // },
+            "at-a-glance": {
+              "title": "ANTI-WRINKLE TREATMENTS AT A GLANCE",
+              "description": "Anti-wrinkle injections are prescription-only treatments used to soften expression lines and help prevent deeper creasing while preserving natural facial movement. At ULANDA, anti-wrinkle treatments form part of a broader facial balance and healthy ageing approach designed to maintain natural expression, confidence and facial harmony at every stage of life.",
+              "commonly-used-for": [
+                "Forehead lines",
+                "Frown lines",
+                "Crow's feet",
+                "Eyebrow heaviness",
+                "Expression fatigue",
+                "Looking tired",
+                "Early facial ageing"
               ],
-              "goals": [
-                "Soften fine lines & dynamic wrinkles",
+              "commonly-combined-with": [
+                "Profhilo",
+                "Polynucleotides",
+                "Microneedling",
+                "Healthy Ageing Programmes"
+              ],
+
+            },
+            "what-are": {
+              "title": "What Are Anti-Wrinkle Injections?",
+              "description": "Anti-wrinkle injections are prescription-only treatments used to temporarily relax targeted facial muscles, helping to soften expression lines while maintaining natural movement and facial harmony.",
+              "items": [
+                "Forehead lines",
+                "Frown lines",
+                "Crow's feet",
+                "Eyebrow heaviness",
+                "Expression fatigue",
+              ],
+              "additional-info": "At ULANDA, anti-wrinkle treatments are never viewed simply as wrinkle treatments. They form part of a broader healthy ageing strategy designed to help your appearance reflect how you feel while preserving natural facial expression.",
+              "aka": [
+                "Botox®",
+                "Forehead line treatment",
+                "Frown line treatment",
+                "Crow's feet treatment",
+                "Preventative Botox®",
+                "Natural Botox®",
+              ],
+            },
+            "smooth-soft-natural": {
+              "title": "Smooth. Soft. Natural.",
+              "description": "ULANDA anti-wrinkle treatments are designed for harmony and never heaviness. \n At ULANDA, Anti-Wrinkle Injections are used as a precision tool to soften expression lines while maintaining natural movement. \n This ensures smoother skin without freezing, flattening or changing your natural expression. \n We use a hormone-aware, age-specific approach suitable for women in their late twenties, thirties, forties, fifties and beyond.",
+              "benefits": [
+                "Soften fine lines and dynamic wrinkles",
                 "Prevent deeper creasing",
                 "Smooth expression-heavy zones",
-                "Refresh the upper face without altering shape",
-                "Support long-term skin quality"
+                " Refresh the upper face without altering shape",
+                "Maintain natural facial movement",
+                "Support preventative healthy ageing strategies",
+                "Complement regenerative treatment programmes",
               ],
-              "highlightBox": {
-                "text1": "Designed for harmony.",
-                "text2": "Never heaviness or frozen."
-              },
-              image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
-              placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
             },
             "idealFor": {
               "title": "Who This Treatment",
@@ -4793,31 +4846,264 @@ export const treatments = {
                 "Crow's feet",
                 "Eyebrow heaviness",
                 "Tired-looking eyes",
-                "Early upper-face age markers"
+                "Early upper-face age markers",
+                "Preventative healthy ageing",
+                "Women seeking natural-looking results",
+                "Menopause-related facial change",
+              ],
+
+            },
+            "treatmentAreas": {
+              "title": "Treatment Areas",
+              "items": [
+                "Forehead Lines: Horizontal lines created through repeated eyebrow movement.",
+                "Frown Lines: Vertical lines between the eyebrows that can create a tired, stressed or serious appearance.",
+                "Crow's Feet: Fine lines around the outer corners of the eyes created by smiling and facial expression.",
+                "Brow Heaviness: Supporting a lighter, fresher and more open appearance.",
+                "Upper Face Refresh: Subtle softening of expression-heavy areas while preserving natural movement."
+              ]
+            },
+            "conditios": {
+              "description": "This treatment may be appropriate for the following concerns.",
+              "items": [
+                { "title": "Expression Lines & Dynamic Wrinkles", "description": "Repeated facial movement gradually creates visible forehead lines, frown lines and crow's feet." },
+                { "title": "Looking Tired & Facial Fatigue", "description": "When facial expression patterns contribute to a tired, stressed or heavy appearance despite feeling well." },
+                { "title": "Early Facial Ageing", "description": "Supporting healthy ageing by softening expression-dominant ageing patterns before deeper creasing develops." },
+                { "title": "Menopause Facial Change", "description": "Helping manage expression-heavy areas as part of a broader healthy ageing strategy during hormonal transition." },
+                { "title": "Crow's Feet", "description": "Fine lines around the eyes associated with smiling and repeated facial movement." },
+                { "title": "Forehead Lines", "description": "Horizontal lines created through repeated eyebrow movement over time." },
+                { "title": "Frown Lines (11s)", "description": "Vertical lines between the eyebrows that may create a tired, serious or stressed appearance." },
+                { "title": "Eyebrow Heaviness", "description": "Supporting a lighter and more refreshed upper-face appearance." },
+                { "title": "Healthy Ageing Support", "description": "Often incorporated into broader facial balance and skin quality programmes." }
+              ]
+            },
+            "commonlyConsideredFor": {
+              "title": "Commonly Considered For",
+              "categories": [
+                {
+                  "title": "Expression Lines",
+                  "description": "Repeated facial movement can gradually create visible forehead lines, frown lines and crow's feet.",
+                  "commonPairings": ["Profhilo", "Microneedling"]
+                },
+                {
+                  "title": "Looking Tired",
+                  "description": "Many women feel well but notice their appearance no longer reflects how they feel.",
+                  "commonPairings": ["Profhilo", "Under-Eye Renewal"],
+                  "educationalInsight": {
+                    "headline": "Looking Tired Is Not Always Caused By Expression Lines",
+                    "text": "Sometimes a tired appearance is influenced by expression patterns around the eyes and forehead. In other cases, under-eye hollowness, pigmentation, skin thinning or changes in facial volume may play a larger role. This is why treatment recommendations at ULANDA begin with assessment rather than assumptions.",
+                    "internalLink": {
+                      "anchorText": "Explore Under-Eye Concerns →",
+                      "url": "/concerns/under-eye-concerns"
+                    }
+                  }
+                },
+                {
+                  "title": "Facial Fatigue",
+                  "description": "Expression-heavy areas can contribute to a tired appearance despite good health and energy levels.",
+                  "commonPairings": ["Profhilo", "Polynucleotides"]
+                },
+                {
+                  "title": "Menopause-Related Facial Change",
+                  "description": "Hormonal changes can influence skin quality, collagen production and facial ageing patterns. Anti-wrinkle treatments are often incorporated into broader healthy ageing programmes during perimenopause and menopause. Many women notice that changes in facial appearance during menopause are influenced by more than expression lines alone. Declining oestrogen levels can affect collagen production, skin thickness, elasticity, hydration and overall skin resilience. For this reason, anti-wrinkle treatments are often combined with regenerative treatments such a Profhilo and Polynucleotides integrated with skin quality programmes as part of a broader menopause skin strategy.",
+                  "internalLink": {
+                    "anchorText": "Explore Menopause & Hormonal Skin Change →",
+                    "url": "/concerns/menopause-hormonal-skin-change"
+                  }
+                },
+                {
+                  "title": "Preventative Healthy Ageing",
+                  "description": "Some women choose anti-wrinkle treatments before lines become deeply established.",
+                  "commonPairings": ["Profhilo", "Microneedling"]
+                }
               ]
             },
             "resultsTimeline": {
               "title": "Results Timeline",
               "items": [
                 {
+                  "title": "Day 0–2",
+                  "subtitle": "Treatment Settling Phase",
+                  "description": "Immediately after treatment, small injection points may be visible for a short period. Most clients return to normal daily activities immediately. At this stage, visible changes are usually minimal."
+                },
+                {
                   "title": "Day 3–5",
-                  "description": "Initial smoothing"
+                  "subtitle": "Early Softening",
+                  "description": "The treated muscles begin responding.",
+                  "observations": ["Reduced movement", "Softer expression lines", "A fresher appearance"]
+                },
+                {
+                  "title": "Day 7–10",
+                  "subtitle": "Visible Improvement",
+                  "description": "Natural movement remains while expression-heavy areas begin to soften.",
+                  "observations": ["Softer forehead lines", "Reduced frown lines", "Smoother crow's feet", "A more relaxed appearance"]
                 },
                 {
                   "title": "Day 10–14",
-                  "description": "Full results"
+                  "subtitle": "Full Treatment Effect",
+                  "description": "Results are typically fully established.",
+                  "observations": ["Smoother skin", "Softer expression lines", "Reduced creasing", "Refreshed appearance", "Natural facial movement"]
                 },
                 {
-                  "title": "3–4 Months",
-                  "description": "Duration (varies by dose, muscle strength, lifestyle)"
+                  "title": "Month 2–3",
+                  "subtitle": "Maintenance Phase",
+                  "description": "Most clients continue enjoying:",
+                  "observations": ["Smoother expression", "Reduced line formation", "Prevention of deeper creasing"]
+                },
+                {
+                  "title": "Month 3–4",
+                  "subtitle": "Gradual Return Of Movement",
+                  "description": "Treatment effects gradually reduce over time. Many clients choose maintenance appointments every 3–4 months."
                 }
               ]
             },
+            "facialBalanceVitality": {
+              "title": "Facial Balance & Vitality",
+              "description": "At ULANDA, anti-wrinkle treatments form part of a broader facial balance approach focused on maintaining natural expression, healthy ageing and long-term facial harmony. Rather than attempting to remove all movement, treatment planning considers:",
+              "considerations": [
+                "Skin quality",
+                "Hydration",
+                "Collagen support",
+                "Hormonal influences",
+                "Facial expression patterns",
+                "Individual ageing behaviour"
+              ],
+              "philosophy": [
+                "The goal is not to look different.",
+                "The goal is to help your appearance reflect how you feel."
+              ],
+              "internalLink": {
+                "anchorText": "Facial Balance & Vitality →",
+                "url": "/treatments/facial-balance-healthy-ageing"
+              }
+            },
+            "perfectTreatmentPairings": {
+              "title": "Perfect Treatment Pairings",
+              "introduction": "Many women assume anti-wrinkle treatments and skin quality treatments achieve the same outcome. In reality, they address different aspects of facial ageing. Anti-wrinkle treatments primarily soften expression-driven lines and help prevent deeper creasing. Skin quality treatments focus on hydration, collagen support, elasticity, tissue repair and overall skin resilience. The most natural and long-lasting results are often achieved when both are considered together.",
+              "pairings": [
+                {
+                  "name": "Profhilo",
+                  "description": "Supports hydration, elasticity and overall skin quality.",
+                  "idealFor": ["Skin quality decline", "Menopause skin", "Elasticity loss", "Dehydration"],
+                  "whyItPairsWell": "One improves skin quality. One improves expression management.",
+                  "url": "/treatments/structural-collagen-support/profhilo"
+                },
+                {
+                  "name": "Polynucleotides",
+                  "description": "Supports regeneration, collagen production and tissue repair.",
+                  "idealFor": ["Under-eye ageing", "Skin thinning", "Crepey skin", "Menopause skin"],
+                  "whyItPairsWell": "Polynucleotides improve tissue quality while anti-wrinkle treatments soften expression-heavy areas.",
+                  "url": "/treatments/structural-collagen-support/polynucleotides"
+                },
+                {
+                  "name": "Microneedling",
+                  "description": "Supports collagen stimulation and skin renewal.",
+                  "idealFor": ["Texture concerns", "Enlarged pores", "Early ageing", "Skin quality support"],
+                  "whyItPairsWell": "Microneedling improves skin quality while anti-wrinkle treatments improve facial expression balance.",
+                  "url": "/treatments/skin-regeneration/microneedling"
+                }
+              ],
+              "tripleCombination": {
+                "title": "Profhilo + Polynucleotides + Anti-Wrinkle Treatments",
+                "description": "For many women, healthy ageing is best approached through combination treatment planning. Together these treatments support:",
+                "benefits": ["Expression lines", "Hydration", "Skin quality", "Collagen support", "Regeneration"]
+              }
+            },
+            "whyTheseChangesHappen": {
+              "title": "Why These Changes Happen",
+              "introduction": "Many women begin exploring anti-wrinkle treatments after noticing changes they cannot quite explain. Expression lines, facial fatigue, skin quality decline and visible signs of ageing rarely appear overnight. They are often influenced by a combination of facial movement, collagen decline, hormonal change, lifestyle factors and the natural ageing process. These clinical insights explain some of the most common reasons these changes occur and how understanding the cause often leads to better treatment decisions.",
+              "insights": [
+                { "title": "Why Expression Lines Form", "summary": "Understand how repeated facial movement contributes to forehead lines, frown lines and crow's feet over time." },
+                { "title": "Why Do I Look Tired Even When I'm Not?", "summary": "Discover how facial expression patterns, under-eye changes and skin quality influence how refreshed you appear." },
+                { "title": "Menopause & Facial Ageing", "summary": "Understand how hormonal changes influence collagen production, skin quality and facial appearance." },
+                { "title": "Can You Soften Lines Without Looking Frozen?", "summary": "Explore modern anti-wrinkle treatment approaches focused on natural movement and facial harmony." },
+                { "title": "Menopause and Collagen Loss: Why Structural Ageing Accelerates in Midlife", "summary": "Understand how expression, skin quality, hydration and collagen support work together to influence healthy ageing." },
+                { "title": "Profhilo vs Polynucleotides: Which Is Right For Me?", "summary": "Understanding the difference between hydration-focused and regenerative treatment approaches." }
+              ]
+            },
+            "faqs": {
+              "title": "Questions Women Commonly Ask About Anti-Wrinkle Treatments",
+              "items": [
+                { "question": "What are anti-wrinkle injections?", "answer": "Anti-wrinkle injections are prescription-only treatments used to temporarily relax targeted facial muscles, helping soften expression lines while maintaining natural movement and facial harmony." },
+                { "question": "Is Botox the same as anti-wrinkle treatment?", "answer": "Botox® is a brand name for a prescription anti-wrinkle treatment. Many people use Botox to describe anti-wrinkle treatments generally." },
+                { "question": "Will Botox make me look frozen?", "answer": "No. Modern treatment planning focuses on preserving natural movement while softening expression-heavy areas." },
+                { "question": "Can anti-wrinkle treatments still look natural?", "answer": "Yes. The goal is refinement, not removing expression." },
+                { "question": "What is preventative Botox?", "answer": "Treatment performed before lines become permanently established to help reduce future creasing." },
+                { "question": "Am I too young for Botox?", "answer": "There is no specific age. Recommendations should be based on facial movement patterns rather than age alone." },
+                { "question": "Are anti-wrinkle treatments suitable during menopause?", "answer": "Yes. They are frequently incorporated into broader healthy ageing programmes." },
+                { "question": "What is better for healthy ageing: Botox, Profhilo or Polynucleotides?", "answer": "They address different concerns and are often complementary." },
+                { "question": "Can anti-wrinkle treatments be combined with Profhilo?", "answer": "Yes. This is one of the most common healthy ageing combinations." },
+                { "question": "What is the difference between Profhilo and Polynucleotides?", "answer": "Profhilo focuses on hydration and elasticity. Polynucleotides focus on regeneration and collagen stimulation." },
+                { "question": "How long do anti-wrinkle treatment results last?", "answer": "Typically around 3–4 months, although results vary." },
+                { "question": "How often are treatments needed?", "answer": "Many clients choose maintenance treatments three to four times per year." },
+                { "question": "How do I know if anti-wrinkle treatments are right for me?", "answer": "This is determined during consultation after assessing facial movement, skin quality and treatment goals." }
+              ]
+            },
+            "ulandaConnection": {
+              "title": "The ULANDA Connection — How Anti-Wrinkle Treatments Support Facial Balance",
+              "content": [
+                "Anti-wrinkle treatments are rarely used in isolation at ULANDA.",
+                "While highly effective for managing expression lines and preventing deeper creasing, facial ageing is rarely driven by expression alone.",
+                "Skin quality, hydration, collagen production, hormonal influences and facial structure all contribute to how the face changes over time.",
+                "For this reason, anti-wrinkle treatments are often incorporated into broader healthy ageing programmes that may also include Profhilo, Polynucleotides, Microneedling and personalised skin health strategies.",
+                "The goal is not simply smoother lines. The goal is helping your appearance reflect how you feel while preserving natural expression, confidence and facial harmony."
+              ],
+              "tagline": "Understanding Before Treatment."
+            },
+            "importantInformation": {
+              "items": [
+                "Anti-wrinkle injections are prescription-only medicines.",
+                "Suitability can only be determined following consultation and clinical assessment by an appropriately qualified prescriber.",
+                "Individual results vary."
+              ]
+            },
+            "advancedSkinHealthConsultation": {
+              "title": "Advanced Skin Health Consultation",
+              "subtitle": "Start With Understanding",
+              "description": "Every face ages differently. Every expression pattern is different. Every treatment recommendation should therefore begin with understanding.",
+              "investment": "£175 Fully Redeemable Against Your Treatment Plan",
+              "includes": [
+                "AI Skin Analysis",
+                "Facial Ageing Assessment",
+                "Hormonal Review",
+                "Expression Pattern Assessment",
+                "Personalised Treatment Planning"
+              ],
+              "tagline": "Understanding Before Treatment.",
+              "url": "/consultation/skin-health-consultation"
+            },
+
             "cta": {
               "title": "Smooth. Soft. Natural.",
               "highlight": "Never Frozen.",
               "description": "ULANDA Anti-Wrinkle Injections are designed to complement your regenerative journey — enhancing expression while keeping every result refined, subtle and authentically you.",
-              "buttonText": "Book Anti-Wrinkle Consultation"
+              "buttonText": "Book Skin Health Consultation",
+              "investment": "From £180",
+              "duration": "45 Minutes"
+            },
+            "developerSchemaMapping": {
+              "breadcrumb": [
+                { "name": "Home", "url": "https://www.ulanda.co.uk/" },
+                { "name": "Treatments", "url": "https://www.ulanda.co.uk/treatments" },
+                { "name": "Structural Collagen Support", "url": "https://www.ulanda.co.uk/treatments/structural-collagen-support" },
+                { "name": "Anti-Wrinkle Injections", "url": "https://www.ulanda.co.uk/treatments/structural-collagen-support/anti-wrinkle-injections" }
+              ],
+              "localBusiness": {
+                "name": "ULANDA",
+                "location": "Ware SG12, Hertfordshire"
+              },
+              "medicalWebPage": {
+                "about": "Anti-Wrinkle Injections Medical Aesthetics",
+                "audience": "Women in Late Twenties, 30s, 40s, 50s and Beyond"
+              },
+              "service": {
+                "serviceType": "Anti-Wrinkle Injections / Injectable Treatment",
+                "provider": "ULANDA",
+                "offers": {
+                  "price": "180.00",
+                  "priceCurrency": "GBP"
+                }
+              }
             }
           },
           "dermal-fillers": {
@@ -5091,8 +5377,8 @@ export const treatments = {
                 "text1": "Wake up your own cells.",
                 "text2": "Thicker, firmer, resilient skin."
               },
-            image: "/assets/img/treatments/Structural lifting/Collagen therapy.webp",
-            placeholderUrl: "/assets/img/treatments/Structural lifting/Collagen therapy.webp",
+              image: "/assets/img/treatments/Structural lifting/Collagen therapy.webp",
+              placeholderUrl: "/assets/img/treatments/Structural lifting/Collagen therapy.webp",
             },
             "internalSupport": {
               "title": "Why Collagen Therapy",
@@ -5579,8 +5865,8 @@ export const treatments = {
               "buttonText": "Book Body Consultation"
             }
           }
-        ,
-        "body-contouring": {
+          ,
+          "body-contouring": {
             "id": "body-contouring",
             "booking": {
               "starting": true,
@@ -5618,8 +5904,8 @@ export const treatments = {
               "Broxbourne",
               "Hertfordshire"
             ],
-        image: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
-        placeholderUrl: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
+            image: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
+            placeholderUrl: "https://plus.unsplash.com/premium_photo-1661386043944-b61605f9f972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qm9keSUyMHRpZ2h0ZW5pbmd8ZW58MHwxfDB8fHww",
             "category": "Renew",
             "description": "Sculpt, Refine & Shape Your Body Using Regenerative Aesthetic Science",
             "introduction": {
@@ -5664,7 +5950,8 @@ export const treatments = {
               "description": "ULANDA Body Contouring uses regenerative science to reshape your body naturally.",
               "buttonText": "Book Body Consultation"
             }
-          }}
+          }
+        }
       },
       "wellness": {
         "title": "Wellness & IVs",
@@ -7918,8 +8205,8 @@ export const treatments = {
                 "inflammation & barrier breakdown"
               ],
               "includes": "PN, PRP (optional), Skin Boosters, peels, biostimulators, microneedling, LED, and Radiate internal support.",
-            image: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
-            placeholderUrl: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+              image: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+              placeholderUrl: "https://images.unsplash.com/photo-1686485238490-368d939fb1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVub3BhdXNlfGVufDB8MXwwfHx8MA%3D%3D",
             },
             "content": {
               "intro": [
@@ -8130,8 +8417,8 @@ export const treatments = {
                 "crepey skin"
               ],
               "includes": "Polynucleotides, Mesotherapy, specialized peels.",
-            image: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
+              image: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1678399877473-0285d8d831ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwY2FyZXxlbnwwfDF8MHx8fDA%3D",
             },
             "content": {
               "intro": [
@@ -8342,8 +8629,8 @@ export const treatments = {
                 "early folds forming (nasolabial, marionette)"
               ],
               "includes": "Biostimulators, Threads, Polynucleotides, Skin Boosters, LED, Medical Facials",
-            image: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
+              image: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1671717724080-b31452cad3fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sbGFnZW58ZW58MHwxfDB8fHww",
             },
             "content": {
               "intro": [
@@ -8557,8 +8844,8 @@ export const treatments = {
                 "disrupted sleep + low vitality"
               ],
               "includes": "PN, Skin Boosters, Microneedling, LED, Peels, Internal Radiate Support (IV/IM)",
-            image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
-            placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
+              image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
+              placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHwxfDB8fHww",
             },
             "content": {
               "intro": [
@@ -8769,8 +9056,8 @@ export const treatments = {
                 "fluid retention or bloating"
               ],
               "includes": "Body Contouring, Metabolic Reset, Skin Tightening, Biostimulators, Radiate IM Support",
-            image: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
-            placeholderUrl: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
+              image: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
+              placeholderUrl: "https://plus.unsplash.com/premium_photo-1664884884700-f907416d7b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9keSUyMHNoYXBlfGVufDB8MXwwfHx8MA%3D%3D",
             },
             "content": {
               "intro": [

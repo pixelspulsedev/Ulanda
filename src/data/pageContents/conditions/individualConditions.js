@@ -1,5 +1,519 @@
 export const individualConditions = [
   {
+    id: 'facial-balance-vitality',
+    url: '/conditions/facial-balance-Vitality',
+    seo: {
+      title: "Facial Balance & Vitality | Healthy Ageing Hertfordshire | ULANDA",
+      description: "Facial balance, healthy ageing & natural anti-wrinkle treatments in Hertfordshire. Profhilo, Polynucleotides & Botox guidance from ULANDA's nurse-led clinic."
+    },
+    seoTargets: [
+      "Facial Balance",
+      "Healthy Ageing",
+      "Facial Ageing",
+      "Natural Anti-Wrinkle Treatments",
+      "Looking Tired",
+      "Looking Older Than You Feel",
+      "Profhilo Hertfordshire",
+      "Polynucleotides Hertfordshire",
+      "Botox Hertfordshire",
+      "Anti-Wrinkle Treatments Hertfordshire",
+      "Menopause Facial Ageing",
+      "Under-Eye Ageing",
+      "Skin Quality Decline",
+      "Facial Rejuvenation"
+    ],
+    hero: {
+      title: "Facial Balance &",
+      highlight: "Vitality",
+      subheading: "Look Like Yourself. Feel Like Yourself.",
+      description: [
+        "You want your appearance to reflect how you feel.",
+        "Sometimes the first sign of change isn't a wrinkle. It's simply the feeling that you no longer look quite like yourself.",
+        "Whether your goal is prevention, maintenance, regeneration or healthy ageing, every journey begins with understanding what is changing and why."
+      ],
+      buttonText: "Book Skin Health Consultation",
+      buttonLink: "/consultation/skin-health-consultation",
+      secondaryButtonText: "Explore Treatment Pathways",
+      secondaryButtonLink: "#treatments-recommended",
+      anchorLinks: [
+        { label: "Conditions We Treat", anchor: "#conditions-we-treat" },
+        { label: "Treatments", anchor: "#treatments-recommended" },
+        { label: "Q&A", anchor: "#faq" }
+      ],
+      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    atAGlance: {
+      title: "FACIAL BALANCE & VITALITY AT A GLANCE",
+      description: "Facial balance refers to the relationship between skin quality, facial structure, hydration, collagen support and natural facial expression.",
+      commonConcerns: [
+        "Looking tired",
+        "Looking older than you feel",
+        "Under-eye ageing",
+        "Fine lines",
+        "Wrinkles",
+        "Crow's feet",
+        "Forehead lines",
+        "Skin laxity",
+        "Loss of firmness",
+        "Menopause facial change"
+      ],
+      commonTreatments: [
+        { name: "Profhilo", url: "/treatments/injectable-skin-optimisation/profhilo" },
+        { name: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+        { name: "Anti-Wrinkle Treatments", url: "/treatments/structural-collagen-support/anti-wrinkle-injections" },
+        { name: "Microneedling", url: "/treatments/skin-renewal-regeneration/microneedling" },
+        { name: "Skin Regeneration Programmes", url: "/treatments/injectable-skin-optimisation" }
+      ],
+      footer: "Every recommendation begins with a consultation-led assessment."
+    },
+    introduction: {
+      title: "Look Like Yourself. Feel Like Yourself.",
+      content: [
+        "You want your appearance to reflect how you feel.",
+        "Sometimes the first sign of change isn't a wrinkle. It's simply the feeling that you no longer look quite like yourself.",
+        "These changes are rarely caused by one factor alone. Skin quality, hydration, collagen support, facial structure and hormonal change all play a role — and the right approach depends on what is actually driving the change in your face.",
+        "Whether your goal is prevention, maintenance, regeneration or healthy ageing, every journey at ULANDA begins with understanding what is changing and why."
+      ],
+      goals: [
+        "Understand what is genuinely changing in your skin and face",
+        "Preserve natural expression and identity",
+        "Support long-term skin health, not just short-term correction",
+        "Build a personalised, hormone-aware treatment pathway"
+      ],
+      highlightBox: {
+        text1: "Understanding Before Treatment.",
+        text2: "Never assumption. Never one-size-fits-all."
+      },
+      image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    conditionsWeTreat: {
+      title: "Conditions We Treat Under",
+      highlight: "Facial Balance & Vitality",
+      cards: [
+        {
+          title: "Looking Tired & Facial Fatigue",
+          summary: "A tired appearance despite feeling well-rested is one of the most common reasons women first explore facial balance treatments.",
+          commonSigns: [
+            "Tired appearance",
+            "Darker under-eyes",
+            "Reduced glow",
+            "Heavy eye area",
+            "Facial fatigue"
+          ],
+          bestTreatments: [
+            { name: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { name: "Profhilo", url: "/treatments/injectable-skin-optimisation/profhilo" },
+            { name: "Under-Eye Renewal", url: "/treatments/skin-renewal-regeneration/under-eye-regeneration" }
+          ],
+          // exploreLink: { text: "Explore Looking Tired & Facial Fatigue →", url: "/concerns/looking-tired" }
+        },
+        {
+          title: "Under-Eye Ageing, Hollows & Crepiness",
+          summary: "Changes around the eyes are often the first visible sign of facial ageing, influenced by hollowing, thinning skin and shadowing.",
+          commonSigns: [
+            "Dark circles",
+            "Hollow eyes",
+            "Crepiness",
+            "Thin skin",
+            "Shadowing"
+          ],
+          bestTreatments: [
+            { name: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { name: "Under-Eye Renewal", url: "/treatments/skin-renewal-regeneration/under-eye-regeneration" },
+            // { name: "Skin Boosters", url: "/treatments/skin-boosters" }
+          ],
+          // exploreLink: { text: "Explore Under-Eye Concerns →", url: "/concerns/under-eye-concerns" }
+        },
+        {
+          title: "Expression Lines & Dynamic Wrinkles",
+          summary: "Repeated facial movement gradually creates visible forehead lines, frown lines and crow's feet.",
+          commonSigns: [
+            "Forehead lines",
+            "Crow's feet",
+            "Frown lines",
+            "Bunny lines"
+          ],
+          bestTreatments: [
+            { name: "Anti-Wrinkle Treatments", url: "/treatments/structural-collagen-support/anti-wrinkle-injections" },
+            { name: "Profhilo", url: "/treatments/injectable-skin-optimisation/profhilo" }
+          ],
+          // exploreLink: { text: "Explore Anti-Wrinkle Treatments →", url: "/treatments/structural-collagen-support/anti-wrinkle-injections" }
+        },
+        {
+          title: "Skin Quality Decline & Loss Of Glow",
+          summary: "Dullness, fine creasing and reduced elasticity often reflect changes in hydration and collagen rather than ageing alone.",
+          commonSigns: [
+            "Dull skin",
+            "Fine creasing",
+            "Reduced elasticity",
+            "Rough texture"
+          ],
+          bestTreatments: [
+            { name: "Profhilo", url: "/treatments/injectable-skin-optimisation/profhilo" },
+            { name: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { name: "Microneedling", url: "/treatments/skin-regeneration/microneedling" }
+          ],
+          // exploreLink: { text: "Explore Skin Quality Decline →", url: "/concerns/dull-dehydrated-skin" }
+        },
+        {
+          title: "Menopause Facial Change",
+          summary: "Hormonal changes can influence collagen production, skin thickness, elasticity and overall facial appearance.",
+          commonSigns: [
+            "Skin thinning",
+            "Collagen decline",
+            "Loss of firmness",
+            "Increased creasing"
+          ],
+          bestTreatments: [
+            { name: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { name: "Profhilo", url: "/treatments/injectable-skin-optimisation/profhilo" },
+            { name: "Regenerative Programmes", url: "/treatments/injectable-skin-optimisation" }
+          ],
+          // exploreLink: { text: "Explore Menopause & Hormonal Skin Change →", url: "/concerns/menopause-hormonal-skin-change" }
+        },
+        {
+          title: "Jawline Softening & Lower Face Changes",
+          summary: "Reduced definition along the jawline is often linked to structural support loss rather than weight change alone.",
+          commonSigns: [
+            "Reduced definition",
+            "Lower-face heaviness",
+            "Loss of support"
+          ],
+          bestTreatments: [
+            { name: "Profhilo", url: "/treatments/injectable-skin-optimisation/profhilo" },
+            { name: "Regenerative Programmes", url: "/treatments/injectable-skin-optimisation" }
+          ],
+          // exploreLink: { text: "Explore Jawline & Lower Face Concerns →", url: "/concerns/skin-laxity" }
+        },
+        {
+          title: "Looking Older Than You Feel",
+          summary: "A combination of facial fatigue, skin quality decline, under-eye change and expression dominance can create a gap between how you look and how you feel.",
+          commonSigns: [
+            "Facial tiredness",
+            "Skin quality decline",
+            "Under-eye change",
+            "Expression dominance"
+          ],
+          bestTreatments: [
+            { name: "Profhilo", url: "/treatments/injectable-skin-optimisation/profhilo" },
+            { name: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { name: "Anti-Wrinkle Treatments", url: "/treatments/injectable-skin-optimisation/anti-wrinkle-injections" }
+          ],
+          // exploreLink: { text: "Book a Skin Health Consultation →", url: "/consultation/skin-health-consultation" }
+        }
+      ]
+    },
+    treatmentsRecommended: {
+      title: "Treatments Commonly Recommended For",
+      highlight: "Facial Balance & Vitality",
+      items: [
+        {
+          name: "Profhilo",
+          description: "Bio-remodelling hydration treatment that improves elasticity and overall skin quality.",
+          url: "/treatments/injectable-skin-optimisation/profhilo"
+        },
+        {
+          name: "Polynucleotides",
+          description: "Supports tissue repair, collagen production and cellular regeneration.",
+          url: "/treatments/skin-renewal-regeneration/polynucleotides"
+        },
+        {
+          name: "Anti-Wrinkle Treatments",
+          description: "Softens expression-heavy areas while preserving natural facial movement.",
+          url: "/treatments/structural-collagen-support/anti-wrinkle-injections"
+        },
+        {
+          name: "Microneedling",
+          description: "Stimulates collagen production to improve tone, texture and firmness.",
+          url: "/treatments/skin-renewal-regeneration/microneedling"
+        },
+        {
+          name: "Skin Regeneration Programmes",
+          description: "Personalised, combination-led pathways for long-term skin health.",
+          url: "/treatments/skin-renewal-regeneration"
+        }
+      ]
+    },
+    faq: {
+      title: "Questions Women Commonly Ask About",
+      highlight: "Facial Balance & Vitality",
+      schema: true,
+      items: [
+        {
+          question: "Why do I look tired even when I am sleeping well?",
+          answer: "Looking tired is not always caused by fatigue. Many women notice a tired appearance despite feeling healthy and well-rested. Common contributors include under-eye hollowing, skin thinning, collagen decline, reduced skin quality, dehydration and changes in facial expression patterns over time. Hormonal changes, stress, inflammation and natural collagen loss can also affect how refreshed the face appears. At ULANDA, we assess the biological factors contributing to facial fatigue before recommending treatment. Depending on your individual needs, treatment pathways may include Polynucleotides, Profhilo, Under-Eye Renewal or regenerative skin health programmes designed to improve skin quality and support healthy ageing.",
+          internalLinks: [
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { text: "Profhilo", url: "/treatments/injectable-skin-optimisation/profhilo" },
+            { text: "Under-Eye Concerns", url: "/conditions/eye-area" }
+          ]
+        },
+        {
+          question: "Why do I suddenly look older in photographs?",
+          answer: "Many women first notice facial changes in photographs before they notice them in the mirror. This often happens because photographs highlight subtle changes in skin quality, facial volume, elasticity, under-eye shadowing and facial structure that are less obvious during everyday interactions. Changes in collagen production, hydration, skin thickness and hormonal activity can all contribute to the appearance of ageing. Looking older in photographs does not necessarily mean you have aged rapidly. It often reflects gradual biological changes that become more visible under different lighting conditions and camera angles. The first step is understanding what has changed and why.",
+          internalLinks: [
+            { text: "Skin Health Consultation", url: "/treatments/advanced-skin-health-consultation" }
+          ]
+        },
+        {
+          question: "Why has my face changed during menopause?",
+          answer: "Menopause influences multiple biological processes that affect the face. Declining oestrogen levels can reduce collagen production, skin thickness, elasticity and hydration while increasing skin fragility and slowing repair processes. Many women notice increased creasing, under-eye ageing, skin thinning, loss of firmness, reduced glow and increased dryness. These changes are normal but often feel sudden. At ULANDA, menopause facial change is approached through a combination of skin quality assessment, hormonal context and regenerative treatment planning. Depending on individual needs, Profhilo, Polynucleotides and regenerative skin programmes may be considered as part of a healthy ageing strategy.",
+          internalLinks: [
+            { text: "Menopause & Hormonal Skin Change", url: "/concerns/menopause-hormonal-skin-change" },
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" }
+          ]
+        },
+        {
+          question: "What causes facial ageing?",
+          answer: "Facial ageing is influenced by a combination of biological, environmental and lifestyle factors, including collagen decline, elastin reduction, hydration loss, hormonal change, UV exposure, stress, inflammation, facial volume redistribution and natural structural change. Wrinkles are only one part of the picture. Many women are more affected by changes in skin quality, under-eye appearance, facial fatigue, loss of elasticity and reduced firmness than by wrinkles alone. Understanding which factors are driving change is often more important than focusing on age itself."
+        },
+        {
+          question: "What is facial balance?",
+          answer: "Facial balance refers to the harmony between facial features, skin quality, facial structure, hydration and natural expression. Healthy facial balance allows the face to appear refreshed, rested and proportionate without looking artificial or over-treated. At ULANDA, facial balance is not about changing how you look. It is about understanding what has changed and supporting healthy ageing in a way that preserves natural identity and expression. This approach often combines skin quality treatments, regenerative therapies and personalised treatment planning rather than focusing on one concern in isolation."
+        },
+        {
+          question: "Can I improve facial ageing without looking unnatural?",
+          answer: "Yes. Modern healthy ageing focuses on improving skin quality, hydration, collagen support and facial harmony rather than creating dramatic change. Many women are concerned about looking frozen, overfilled or obviously treated. At ULANDA, treatment recommendations are designed to support natural refinement while preserving expression and individuality. Depending on your goals, treatment pathways may include Profhilo, Polynucleotides, Anti-Wrinkle Treatments, Microneedling and regenerative skin programmes. The aim is not to look different. The aim is to look like yourself — refreshed, confident and well.",
+          internalLinks: [
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" }
+          ]
+        },
+        {
+          question: "Is Botox the same as Anti-Wrinkle Treatment?",
+          answer: "Botox® is a brand name for a prescription anti-wrinkle treatment. Many people use the word Botox to describe anti-wrinkle treatments generally, although several licensed products are available that work in a similar way. Anti-wrinkle treatments temporarily relax specific facial muscles responsible for dynamic expression lines such as forehead lines, frown lines and crow's feet. At ULANDA, anti-wrinkle treatments are used to support facial balance and healthy ageing while preserving natural facial movement. The goal is not to remove expression but to soften expression-heavy areas in a way that looks natural and appropriate to the individual.",
+          internalLinks: [
+            { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" }
+          ]
+        },
+        {
+          question: "Will Botox make me look frozen?",
+          answer: "No. A frozen appearance is usually the result of treatment choices rather than the treatment itself. Modern anti-wrinkle treatments can be tailored to soften lines while preserving natural facial movement and expression. At ULANDA, treatment planning focuses on facial harmony, balance and natural refinement rather than complete muscle immobilisation. The objective is for people to notice that you look refreshed and well rather than noticing the treatment itself. This approach aligns with ULANDA's philosophy of helping your appearance reflect how you feel while maintaining natural identity and expression."
+        },
+        {
+          question: "Am I too young for Botox?",
+          answer: "There is no specific age at which anti-wrinkle treatments become appropriate. Some women explore preventative anti-wrinkle treatments in their late twenties or thirties when expression lines begin to persist after movement. Others choose treatment later as lines become more established. The most important factor is not age but how your skin and facial movement patterns are behaving. At ULANDA, recommendations are based on individual assessment rather than age-based treatment plans. For some women, skincare, skin quality treatments or regenerative approaches may be more appropriate than anti-wrinkle treatment.",
+          internalLinks: [
+            { text: "Skin Health Consultation", url: "/treatments/advanced-skin-health-consultation" }
+          ]
+        },
+        {
+          question: "What is better for healthy ageing: Botox, Profhilo or Polynucleotides?",
+          answer: "These treatments support different aspects of healthy ageing. Anti-wrinkle treatments help manage expression lines and dynamic wrinkles. Profhilo focuses on hydration, elasticity and overall skin quality through bio-remodelling. Polynucleotides support tissue repair, collagen production and skin regeneration at a cellular level. One treatment is not necessarily better than another. Many women benefit from combining approaches depending on their concerns, goals and stage of healthy ageing. The most appropriate option depends on what is driving change within the skin and face.",
+          internalLinks: [
+            { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" },
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" }
+          ]
+        },
+        {
+          question: "Can Anti-Wrinkle Treatments be combined with Profhilo?",
+          answer: "Yes. Anti-wrinkle treatments and Profhilo are commonly combined because they address different aspects of facial ageing. Anti-wrinkle treatments focus on expression management and line formation. Profhilo focuses on hydration, elasticity and skin quality. Together, they can support a refreshed appearance while maintaining natural facial movement. For some women, treatment programmes may also include Polynucleotides or Microneedling to further support collagen production and regenerative skin health.",
+          internalLinks: [
+            { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" },
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" }
+          ]
+        },
+        {
+          question: "When should I start thinking about collagen support?",
+          answer: "Collagen production begins to decline gradually from the mid-twenties onwards. However, the effects are not immediately visible. Many women first notice changes in their thirties and forties through reduced skin bounce, fine creasing, dullness, under-eye changes or loss of firmness. Thinking about collagen support does not necessarily mean pursuing injectable treatments. It can include lifestyle factors, skincare, regenerative therapies and healthy ageing strategies designed to support long-term skin resilience. The most appropriate approach depends on your skin quality, goals and stage of life."
+        },
+        {
+          question: "What treatments improve skin quality rather than facial shape?",
+          answer: "Skin quality treatments focus on hydration, collagen support, elasticity and overall skin health rather than altering facial shape or volume. Common examples include Profhilo, Polynucleotides, Microneedling, Skin Boosters and regenerative skin programmes. These treatments are often chosen by women who want to look fresher, healthier and more rested without changing their facial features. Improving skin quality is one of the most effective ways to support healthy ageing while maintaining a natural appearance.",
+          internalLinks: [
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { text: "Microneedling", url: "/treatments/skin-regeneration/microneedling" }
+          ]
+        },
+        {
+          question: "What is the difference between Profhilo and Polynucleotides?",
+          answer: "Although Profhilo and Polynucleotides are both commonly used within healthy ageing programmes, they work in different ways and address different biological processes. Profhilo is a bio-remodelling treatment made from highly concentrated hyaluronic acid, primarily improving hydration, elasticity and overall skin quality. Polynucleotides support tissue repair and regeneration at a cellular level by encouraging fibroblast activity, collagen production and improved skin resilience, and are often used when concerns include skin thinning, under-eye ageing, crepiness, inflammation or menopause-related skin change. In simple terms, Profhilo focuses on hydration, elasticity and skin quality, while Polynucleotides focus on repair, regeneration and collagen support. Many women benefit from both treatments as part of a structured healthy ageing programme. At ULANDA, treatment recommendations are based on what is driving change within the skin rather than selecting treatments in isolation.",
+          internalLinks: [
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" }
+          ]
+        },
+        {
+          question: "What is preventative Botox and when should you start?",
+          answer: "Preventative Botox refers to the use of anti-wrinkle treatments before expression lines become permanently established in the skin. When we smile, frown or raise our eyebrows, repeated muscle movement creates temporary lines that can begin to remain visible even when the face is at rest. Preventative anti-wrinkle treatment aims to soften excessive muscle activity before deeper lines develop. There is no specific age at which preventative treatment becomes appropriate; the decision should be based on facial movement patterns, skin quality, family history, lifestyle factors and individual goals. At ULANDA, preventative anti-wrinkle treatment is approached as one potential component of a wider healthy ageing strategy that may also include Profhilo, Polynucleotides, Microneedling and skin health optimisation. The goal is not to freeze movement or change appearance — it is to help your appearance reflect how you feel while preserving natural expression and facial harmony.",
+          internalLinks: [
+            { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" },
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" }
+          ]
+        },
+        {
+          question: "How do I know which treatment is right for me?",
+          answer: "Because Profhilo, Polynucleotides, Anti-Wrinkle Treatments, Microneedling and regenerative therapies all address different biological processes, the most appropriate treatment depends on what is driving change within your skin and face. Two women of the same age may require completely different treatment pathways. At ULANDA, treatment recommendations begin with the Advanced Skin Health Consultation, where skin quality, facial ageing patterns, barrier function, hormonal influences and treatment goals are assessed before any treatment is recommended. This consultation-first approach helps ensure that treatment decisions are based on understanding rather than trends, assumptions or isolated concerns.",
+          internalLinks: [
+            { text: "Skin Health Consultation", url: "/treatments/skin-renewal-regeneration/skin-health-consultation" }
+          ]
+        }
+      ]
+    },
+    whyChoose: {
+      title: "Why Hertfordshire Women",
+      highlight: "Choose ULANDA",
+      items: [
+        "Nurse-led expertise",
+        "Consultation-first approach",
+        "Natural refinement",
+        "Hormone-aware planning",
+        "Regenerative philosophy",
+        "Personalised treatment pathways",
+        "Long-term skin health focus"
+      ],
+      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    relatedClinicalInsights: {
+      title: "Related",
+      highlight: "Clinical Insights",
+      items: [
+        // { title: "Why Do I Look Tired Even When I'm Not?", url: "/journal/looking-tired-not-fatigue" },
+        // { title: "Why Do I Look Older Than I Feel?", url: "/journal/looking-older-than-i-feel" },
+        // { title: "Why Menopause Changes The Face", url: "/journal/menopause-skin-biology" },
+        // { title: "Can You Soften Lines Without Looking Frozen?", url: "/journal/soften-lines-without-looking-frozen" },
+        // { title: "Understanding Under-Eye Ageing", url: "/journal/tear-trough-shadowing" },
+        // { title: "Oestrogen, Collagen & Facial Change", url: "/journal/oestrogen-collagen-elasticity" },
+        { title: "Collagen Decline Explained", url: "/journal/collagen-decline-explained" }
+      ]
+    },
+    journals: {
+      title: "When Is This Appropriate?",
+      subtitle: "Read the clinical context behind this treatment approach.",
+      items: [
+        {
+          title: "Tear Trough Shadowing: Why Under-Eye Hollows Appear Over Time",
+          url: "/journal/tear-trough-shadowing",
+          internalLinks: [
+            { text: "Under-Eye Concerns", url: "/conditions/eye-area" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { text: "Lumi Eyes", url: "/treatments/injectable-skin-optimisation/lumi-eyes" },
+            { text: "Skin Boosters", url: "/treatments/skin-renewal-regeneration/skin-boosters" }
+          ]
+        },
+        {
+          title: "Collagen Decline Explained: Why Skin Loses Firmness Over Time",
+          url: "/journal/collagen-decline-explained",
+          internalLinks: [
+            { text: "Microneedling", url: "/treatments/skin-regeneration/microneedling" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" }
+          ]
+        },
+        {
+          title: "Oestrogen, Collagen and Elasticity: Why Skin Changes Rapidly in Midlife",
+          url: "/journal/oestrogen-collagen-elasticity",
+          internalLinks: [
+            { text: "Skin Boosters", url: "/treatments/skin-renewal-regeneration/skin-boosters" },
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Microneedling", url: "/treatments/skin-renewal-regeneration/microneedling" },
+            { text: "Chemical Peels", url: "/treatments/skin-renewal-regeneration/chemical-peel" }
+          ]
+        },
+        {
+          title: "Menopause and Skin Biology: How Hormonal Shifts Change Skin Behaviour",
+          url: "/journal/menopause-skin-biology",
+          internalLinks: [
+            { text: "Facial Balance & Vitality", url: "/conditions/facial-balance-Vitality" },
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" }
+          ]
+        },
+        {
+          title: "Crepey Skin and Elasticity Loss: What It Means and How to Treat It Safely",
+          url: "/journal/crepey-skin-elasticity-loss",
+          internalLinks: [
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Skin Boosters", url: "/treatments/skin-renewal-regeneration/skin-boosters" },
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" }
+          ]
+        },
+        {
+          title: "Skin Barrier Function: Why Your Skin Reacts Even When Products Are \"Gentle\"",
+          url: "/journal/skin-barrier-function",
+          internalLinks: [
+            { text: "Chemical Peels", url: "/treatments/skin-renewal-regeneration/chemical-peel" },
+            { text: "Skin Boosters", url: "/treatments/skin-renewal-regeneration/skin-boosters" },
+            { text: "Microneedling", url: "/treatments/skin-renewal-regeneration/microneedling" }
+          ]
+        },
+        {
+          title: "Menopause and Collagen Loss: Why Structural Ageing Accelerates in Midlife",
+          url: "/journal/menopause-collagen-loss",
+          internalLinks: [
+            { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" },
+            { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
+            { text: "Menopause Hub", url: "/concerns/menopause-hormonal-skin-change" }
+          ]
+        }
+      ]
+    },
+    consultationCta: {
+      title: "Start Your",
+      highlight: "Healthy Ageing",
+      titleSuffix: "Journey",
+      description: "Whether your goal is prevention, maintenance, regeneration or simply understanding what is changing, every recommendation begins with understanding.",
+      buttonText: "Book Skin Health Consultation",
+      buttonLink: "/consultation/skin-health-consultation"
+    },
+    advancedSkinHealthConsultation: {
+      title: "Advanced Skin Health Consultation",
+      subtitle: "Start With Understanding",
+      includes: [
+        "AI Skin Analysis",
+        "Barrier Assessment",
+        "Hormonal Review",
+        "Facial Ageing Assessment",
+        "Personalised Treatment Planning"
+      ],
+      investment: "£175 Fully Redeemable Against Your Treatment Plan",
+      tagline: "Understanding Before Treatment.",
+      url: "/consultation/skin-health-consultation"
+    },
+    cta: {
+      title: "Start Your",
+      highlight: "Healthy Ageing",
+      titleSuffix: "Journey",
+      description: "Whether your goal is prevention, maintenance, regeneration or simply understanding what is changing, every recommendation begins with understanding.",
+      buttonText: "Book Skin Health Consultation",
+      buttonLink: "/consultation/skin-health-consultation"
+    },
+    schema: {
+      faqSchema: true,
+      medicalWebPage: true,
+      breadcrumbSchema: true,
+      localBusinessReference: true
+    },
+    developerSchemaMapping: {
+      breadcrumb: [
+        { "name": "Home", "url": "https://www.ulanda.co.uk/" },
+        { "name": "Conditions", "url": "https://www.ulanda.co.uk/conditions" },
+        { "name": "Facial Balance & Vitality", "url": "https://www.ulanda.co.uk/conditions/facial-balance-Vitality" }
+      ],
+      localBusiness: {
+        name: "ULANDA",
+        location: "Ware SG12, Hertfordshire"
+      },
+      medicalWebPage: {
+        about: "Facial Balance, Healthy Ageing & Natural Anti-Wrinkle Treatments",
+        audience: "Women in Late Twenties, 30s, 40s, 50s and Beyond"
+      },
+      faqPage: {
+        mainEntityCount: 17
+      }
+    }
+  },
+  {
     id: 'dull-dehydrated-skin',
     seo: {
       title: "Dull Skin Treatment Ware SG12 | Hydration & Glow | ULANDA",
@@ -943,10 +1457,10 @@ export const individualConditions = [
       ]
     },
     relatedTreatments: [
-      { 
-        id: 'structural-regeneration', 
+      {
+        id: 'structural-regeneration',
         title: 'Structural Skin Regeneration Programme',
-        description: 'Primary Recommended Programme Pathway' 
+        description: 'Primary Recommended Programme Pathway'
       },
       {
         id: 'microneedling',
@@ -1313,13 +1827,13 @@ export const individualConditions = [
           image: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
           placeholderUrl: "https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZXRjaCUyMG1hcmtzfGVufDB8MXwwfHx8MA%3D%3D",
           points: [
-             { name: "Microneedling / Collagen Induction Therapy (Body Protocols)", desc: "improves texture and supports collagen rebuilding" },
-             { name: "Skin Regeneration Treatments", desc: "structured programmes designed to strengthen dermal support" },
-             { name: "LED Light Therapy", desc: "supports healing and tissue recovery post-treatment" },
-             { name: "Chemical Peel Therapy (Body-Suitable Protocols)", desc: "improves tone and surface smoothness where appropriate" },
-             { name: "Medical-Grade Body Skincare Planning", desc: "supports skin repair and collagen behaviour" },
-             { name: "Structural Regeneration Programme Sequencing", desc: "long-term plan for skin quality improvement" },
-             { name: "Hydration & Barrier Support Therapy", desc: "supports elasticity and reduces fragility risk" }
+            { name: "Microneedling / Collagen Induction Therapy (Body Protocols)", desc: "improves texture and supports collagen rebuilding" },
+            { name: "Skin Regeneration Treatments", desc: "structured programmes designed to strengthen dermal support" },
+            { name: "LED Light Therapy", desc: "supports healing and tissue recovery post-treatment" },
+            { name: "Chemical Peel Therapy (Body-Suitable Protocols)", desc: "improves tone and surface smoothness where appropriate" },
+            { name: "Medical-Grade Body Skincare Planning", desc: "supports skin repair and collagen behaviour" },
+            { name: "Structural Regeneration Programme Sequencing", desc: "long-term plan for skin quality improvement" },
+            { name: "Hydration & Barrier Support Therapy", desc: "supports elasticity and reduces fragility risk" }
           ]
         }
       ]
@@ -1573,10 +2087,10 @@ export const individualConditions = [
       ]
     },
     relatedTreatments: [
-      { 
-        id: 'photoaging', 
+      {
+        id: 'photoaging',
         title: 'Photoaging & Skin Architecture Programme',
-        description: 'Primary Recommended Programme Pathway' 
+        description: 'Primary Recommended Programme Pathway'
       },
       {
         id: 'chemical-peels',
@@ -1852,13 +2366,13 @@ export const individualConditions = [
           image: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww",
           placeholderUrl: "https://plus.unsplash.com/premium_photo-1675200989047-93781f21e05a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwd3JpbmtsZXN8ZW58MHwxfDB8fHww",
           points: [
-             { name: "LED Light Therapy", desc: "supports collagen activity and improves skin recovery safely" },
-             { name: "Microneedling (Under-Eye Suitable Protocols)", desc: "improves collagen behaviour and under-eye texture where clinically appropriate" },
-             { name: "Deep Hydration Facial", desc: "supports hydration retention and skin plumpness" },
-             { name: "Oxygen Glow Facial", desc: "improves radiance and tissue vitality without irritation" },
-             { name: "Skin Renewal Treatments", desc: "introduced only when under-eye barrier stability is confirmed" },
-             { name: "Medical-Grade Eye Skincare Planning", desc: "supports collagen, hydration and texture improvement" },
-             { name: "Lymphatic Detox Facial", desc: "supports under-eye puffiness reduction where fluid retention worsens creasing" }
+            { name: "LED Light Therapy", desc: "supports collagen activity and improves skin recovery safely" },
+            { name: "Microneedling (Under-Eye Suitable Protocols)", desc: "improves collagen behaviour and under-eye texture where clinically appropriate" },
+            { name: "Deep Hydration Facial", desc: "supports hydration retention and skin plumpness" },
+            { name: "Oxygen Glow Facial", desc: "improves radiance and tissue vitality without irritation" },
+            { name: "Skin Renewal Treatments", desc: "introduced only when under-eye barrier stability is confirmed" },
+            { name: "Medical-Grade Eye Skincare Planning", desc: "supports collagen, hydration and texture improvement" },
+            { name: "Lymphatic Detox Facial", desc: "supports under-eye puffiness reduction where fluid retention worsens creasing" }
           ]
         }
       ]
@@ -1967,13 +2481,13 @@ export const individualConditions = [
           image: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           placeholderUrl: "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1200",
           points: [
-             { name: "Under-Eye Regeneration Blueprint", desc: "structured planning for dark circles, hollows and fragility" },
-             { name: "LED Light Therapy", desc: "supports inflammation reduction and collagen stimulation safely" },
-             { name: "Deep Hydration Facial", desc: "improves hydration retention and reduces under-eye dullness" },
-             { name: "Oxygen Glow Facial", desc: "improves radiance and tissue oxygenation support" },
-             { name: "Microneedling (Under-Eye Suitable Protocols)", desc: "improves pigmentation and collagen behaviour where clinically appropriate" },
-             { name: "Medical-Grade Eye Skincare Planning", desc: "pigment and fragility support through safe formulations" },
-             { name: "Skin Renewal Treatments", desc: "introduced only when under-eye stability is confirmed" }
+            { name: "Under-Eye Regeneration Blueprint", desc: "structured planning for dark circles, hollows and fragility" },
+            { name: "LED Light Therapy", desc: "supports inflammation reduction and collagen stimulation safely" },
+            { name: "Deep Hydration Facial", desc: "improves hydration retention and reduces under-eye dullness" },
+            { name: "Oxygen Glow Facial", desc: "improves radiance and tissue oxygenation support" },
+            { name: "Microneedling (Under-Eye Suitable Protocols)", desc: "improves pigmentation and collagen behaviour where clinically appropriate" },
+            { name: "Medical-Grade Eye Skincare Planning", desc: "pigment and fragility support through safe formulations" },
+            { name: "Skin Renewal Treatments", desc: "introduced only when under-eye stability is confirmed" }
           ]
         }
       ]
@@ -2195,13 +2709,13 @@ export const individualConditions = [
           image: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
           placeholderUrl: "https://plus.unsplash.com/premium_photo-1711609635953-728d3ca1ac09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JlcGV5JTIwdW5kZXIlMjBleWUlMjBza2lufGVufDB8MXwwfHx8MA%3D%3D",
           points: [
-             { name: "LED Light Therapy", desc: "supports repair and collagen stimulation safely for fragile skin" },
-             { name: "Deep Hydration Facial", desc: "improves hydration retention and under-eye comfort" },
-             { name: "Oxygen Glow Facial", desc: "supports tissue vitality without aggressive stimulation" },
-             { name: "Microneedling (Under-Eye Protocols)", desc: "improves collagen density where clinically appropriate" },
-             { name: "Medical-Grade Eye Skincare Planning", desc: "supports barrier strength and tissue resilience" },
-             { name: "Skin Recovery & Regeneration Treatments", desc: "introduced only once stability is confirmed" },
-             { name: "Barrier Support Facial", desc: "beneficial where under-eye fragility is linked to wider barrier breakdown" }
+            { name: "LED Light Therapy", desc: "supports repair and collagen stimulation safely for fragile skin" },
+            { name: "Deep Hydration Facial", desc: "improves hydration retention and under-eye comfort" },
+            { name: "Oxygen Glow Facial", desc: "supports tissue vitality without aggressive stimulation" },
+            { name: "Microneedling (Under-Eye Protocols)", desc: "improves collagen density where clinically appropriate" },
+            { name: "Medical-Grade Eye Skincare Planning", desc: "supports barrier strength and tissue resilience" },
+            { name: "Skin Recovery & Regeneration Treatments", desc: "introduced only once stability is confirmed" },
+            { name: "Barrier Support Facial", desc: "beneficial where under-eye fragility is linked to wider barrier breakdown" }
           ]
         }
       ]
@@ -2310,13 +2824,13 @@ export const individualConditions = [
           image: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
           placeholderUrl: "https://images.unsplash.com/photo-1566592802482-e35d3ac43b67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyZXBleSUyMHVuZGVyJTIwZXllJTIwc2tpbnxlbnwwfDF8MHx8fDA%3D",
           points: [
-             { name: "Lymphatic Detox Facial", desc: "supports fluid movement and reduces under-eye stagnation" },
-             { name: "LED Light Therapy", desc: "supports inflammation reduction and skin recovery" },
-             { name: "Deep Hydration Facial", desc: "supports hydration balance and reduces dehydration-driven swelling patterns" },
-             { name: "Oxygen Glow Facial", desc: "improves radiance and tissue vitality without irritation" },
-             { name: "Under-Eye Regeneration Blueprint Planning", desc: "structured under-eye pathway for puffiness, fragility and shadowing" },
-             { name: "Medical-Grade Skincare Planning", desc: "supports under-eye inflammation reduction and barrier stability" },
-             { name: "Internal Wellness Screening", desc: "supports systemic inflammation and fluid retention behaviour" }
+            { name: "Lymphatic Detox Facial", desc: "supports fluid movement and reduces under-eye stagnation" },
+            { name: "LED Light Therapy", desc: "supports inflammation reduction and skin recovery" },
+            { name: "Deep Hydration Facial", desc: "supports hydration balance and reduces dehydration-driven swelling patterns" },
+            { name: "Oxygen Glow Facial", desc: "improves radiance and tissue vitality without irritation" },
+            { name: "Under-Eye Regeneration Blueprint Planning", desc: "structured under-eye pathway for puffiness, fragility and shadowing" },
+            { name: "Medical-Grade Skincare Planning", desc: "supports under-eye inflammation reduction and barrier stability" },
+            { name: "Internal Wellness Screening", desc: "supports systemic inflammation and fluid retention behaviour" }
           ]
         }
       ]
@@ -4711,12 +5225,12 @@ export const individualConditions = [
         highlight: "Treatment Fatigue",
         description: "You may be experiencing non-responsive skin if:",
         items: [
-           "Treatments that once worked no longer do",
-           "Results are short-lived or inconsistent",
-           "Downtime feels longer than before",
-           "Texture or firmness no longer improves",
-           "Skin appears \"tired\" rather than inflamed",
-           "This often marks a transition point in a client's skin aesthetic journey."
+          "Treatments that once worked no longer do",
+          "Results are short-lived or inconsistent",
+          "Downtime feels longer than before",
+          "Texture or firmness no longer improves",
+          "Skin appears \"tired\" rather than inflamed",
+          "This often marks a transition point in a client's skin aesthetic journey."
         ]
       },
       {
@@ -4724,25 +5238,25 @@ export const individualConditions = [
         highlight: "Not the Answer",
         description: "Increasing frequency, intensity or layering treatments rarely resolves non-responsive skin. Instead, this can:",
         items: [
-           "Increase inflammatory load",
-           "Exhaust collagen response",
-           "Compromise recovery capacity",
-           "Mask deeper structural or hormonal drivers",
-           "At this stage, strategy matters more than modality."
+          "Increase inflammatory load",
+          "Exhaust collagen response",
+          "Compromise recovery capacity",
+          "Mask deeper structural or hormonal drivers",
+          "At this stage, strategy matters more than modality."
         ]
       },
       {
-         title: "A Regenerative Interpretation of",
-         highlight: "Non-Responsive Skin",
-         description: [
-            "Within the Radiate Method™, non-responsive skin is viewed as a signal to:",
-            "Pause repetitive stimulation",
-            "Reassess tissue behaviour",
-            "Identify biological or structural barriers",
-            "Adjust sequencing and treatment focus",
-            "This transition from doing more to thinking differently is where regeneration begins."
-         ],
-         link: { text: "Learn more: Signature Pathways ?", url: "/signature" }
+        title: "A Regenerative Interpretation of",
+        highlight: "Non-Responsive Skin",
+        description: [
+          "Within the Radiate Method™, non-responsive skin is viewed as a signal to:",
+          "Pause repetitive stimulation",
+          "Reassess tissue behaviour",
+          "Identify biological or structural barriers",
+          "Adjust sequencing and treatment focus",
+          "This transition from doing more to thinking differently is where regeneration begins."
+        ],
+        link: { text: "Learn more: Signature Pathways ?", url: "/signature" }
       }
     ],
     whyChoose: {
@@ -4761,48 +5275,48 @@ export const individualConditions = [
       image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     relatedTreatments: [
-      { 
-        id: "skin-sensitivity-recovery", 
+      {
+        id: "skin-sensitivity-recovery",
         title: "Skin Sensitivity vs. Fatigue",
         description: "Sensitivity reflects reactivity; fatigue reflects reduced regenerative response. Understand the difference."
       },
-      { 
-        id: "radiate-method", 
-        title: "The Radiate Method™", 
-        description: "A regenerative framework for non-responsive skin, shifting from repetitive treatments to planned pathways." 
+      {
+        id: "radiate-method",
+        title: "The Radiate Method™",
+        description: "A regenerative framework for non-responsive skin, shifting from repetitive treatments to planned pathways."
       },
-      { 
-        id: "menopause-regeneration", 
-        title: "Hormonal Skin Support", 
-        description: "Address biological changes that stall skin response during perimenopause and menopause." 
+      {
+        id: "menopause-regeneration",
+        title: "Hormonal Skin Support",
+        description: "Address biological changes that stall skin response during perimenopause and menopause."
       }
     ],
     seoFooter: "ULANDA is a nurse-led skin clinic in Ware, Hertfordshire, focused on structured skin regeneration programmes and long-term skin resilience.",
     contentSections2: [
-        {
-            title: "When Radiate Is the",
-            highlight: "Right Next Step",
-            description: "Radiate may be appropriate when:",
-            items: [
-                "Results plateau despite varied treatments",
-                 "Skin concerns feel interconnected",
-                 "Structural or life-stage changes are present",
-                 "A plan is needed rather than another procedure",
-                 "Not all clients require Radiate — but when non-responsive skin is present, regenerative planning often becomes essential."
-            ]
-        },
-        {
-             title: "What to Expect From",
-             highlight: "a Consultation",
-             description: "A consultation for non-responsive skin focuses on:",
-             items: [
-                 "Understanding tissue response patterns",
-                 "Identifying barriers to regeneration",
-                 "Clarifying whether recovery, renewal or Radiate-level care is appropriate",
-                 "Avoiding unnecessary or premature intervention",
-                 "For many clients, this clarity alone restores confidence in their skin journey."
-             ]
-        }
+      {
+        title: "When Radiate Is the",
+        highlight: "Right Next Step",
+        description: "Radiate may be appropriate when:",
+        items: [
+          "Results plateau despite varied treatments",
+          "Skin concerns feel interconnected",
+          "Structural or life-stage changes are present",
+          "A plan is needed rather than another procedure",
+          "Not all clients require Radiate — but when non-responsive skin is present, regenerative planning often becomes essential."
+        ]
+      },
+      {
+        title: "What to Expect From",
+        highlight: "a Consultation",
+        description: "A consultation for non-responsive skin focuses on:",
+        items: [
+          "Understanding tissue response patterns",
+          "Identifying barriers to regeneration",
+          "Clarifying whether recovery, renewal or Radiate-level care is appropriate",
+          "Avoiding unnecessary or premature intervention",
+          "For many clients, this clarity alone restores confidence in their skin journey."
+        ]
+      }
     ],
     faqs: [
       {
@@ -7108,7 +7622,7 @@ export const individualConditions = [
         ],
         items: []
       },
-       {
+      {
         title: "Modalities This Pathway",
         highlight: "May Draw From (Not Exhaustive)",
         description: [
@@ -7123,25 +7637,25 @@ export const individualConditions = [
         items: []
       },
       {
-         title: "What You",
-         highlight: "Leave With",
-         description: [
-           "Women progressing through this pathway typically leave with:",
-           "? Improved tissue comfort and resilience",
-           "? A clearer understanding of bodily changes",
-           "? Reduced self-consciousness or uncertainty",
-           "? Confidence that care has been proportionate and safe",
-           "? A sense of being supported, not sold to",
-           "Outcomes are functional, embodied and personal — not cosmetic promises."
-         ],
-         items: []
+        title: "What You",
+        highlight: "Leave With",
+        description: [
+          "Women progressing through this pathway typically leave with:",
+          "? Improved tissue comfort and resilience",
+          "? A clearer understanding of bodily changes",
+          "? Reduced self-consciousness or uncertainty",
+          "? Confidence that care has been proportionate and safe",
+          "? A sense of being supported, not sold to",
+          "Outcomes are functional, embodied and personal — not cosmetic promises."
+        ],
+        items: []
       }
     ],
     whyChoose: {
       title: "Guardrails &",
       highlight: "Safety",
       description: "This pathway is NOT appropriate where:",
-       items: [
+      items: [
         "Concerns are purely aesthetic or enhancement-driven",
         "A quick-fix or one-off intervention is expected",
         "Clinical readiness has not been established",

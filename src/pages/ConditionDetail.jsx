@@ -46,6 +46,20 @@ export default function ConditionDetail() {
     });
   }
 
+  let treatmentsRecommended = [];
+
+  if (condition?.treatmentsRecommended) {
+    treatmentsRecommended = condition.treatmentsRecommended;
+  } else {
+    const relatedTreatmentIds = getTreatmentsForCondition(conditionId);
+    treatmentsRecommended = relatedTreatmentIds.map(tid => {
+      // try to resolve full object to get proper casing title
+      const tObj = getTreatmentById(tid);
+      // fallback to id if object not found (though object is preferred)
+      return tObj || tid;
+    });
+  }
+
   if (!condition) {
     return <div className="text-center py-20">Condition not found</div>;
   }
@@ -54,6 +68,21 @@ export default function ConditionDetail() {
   const canonicalUrl = `https://www.ulanda.co.uk${preferredPath}`.toLowerCase();
   const seoDescription = condition.seo?.description || (Array.isArray(condition.hero.description) ? condition.hero.description.join(' ') : condition.hero.description);
   const seoTitle = condition.seo?.title || `${condition.hero.title} ${condition.hero.highlight} Treatment | ULANDA Ware SG12`;
+
+  // Support FAQ schema for hubs that opt in (e.g. Facial Balance & Vitality)
+  const faqItems = condition.faq?.items || condition.faqs || [];
+  const faqSchema = (condition.faq?.schema && faqItems.length > 0) ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  } : null;
 
   const conditionSchema = {
     "@context": "https://schema.org",
@@ -91,6 +120,9 @@ export default function ConditionDetail() {
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(conditionSchema) }} />
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
       <BreadcrumbSchema items={breadcrumbItems} />
 
       <div className="bg-base-100">
@@ -111,6 +143,12 @@ export default function ConditionDetail() {
                 </HeroText>
               </h1>
 
+              {condition.hero.subheading && (
+                <p className="text-xl md:text-2xl font-serif italic text-primary/90 mb-6 -mt-2">
+                  {condition.hero.subheading}
+                </p>
+              )}
+
               <div className="text-lg font-sans font-light text-base-content/80 mb-8 leading-relaxed space-y-4">
                 {Array.isArray(condition.hero.description) ? (
                   condition.hero.description.map((desc, index) => (
@@ -122,17 +160,42 @@ export default function ConditionDetail() {
               </div>
 
               <FadeInWhenVisible delay={0.4}>
-                <a
-                  href={
-                    condition.hero.buttonLink ||
-                    'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ'
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  {condition.hero.buttonText}
-                </a>
+                <div className="flex flex-wrap items-center gap-4">
+                  <a
+                    href={
+                      condition.hero.buttonLink ||
+                      'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ'
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                  >
+                    {condition.hero.buttonText}
+                  </a>
+                  {condition.hero.secondaryButtonText && (
+                    <a
+                      href={condition.hero.secondaryButtonLink || '#treatments-recommended'}
+                      className="btn btn-outline "
+                    >
+                      {condition.hero.secondaryButtonText}
+                    </a>
+                  )}
+                </div>
+
+                {/* Anchor Navigation */}
+                {condition.hero.anchorLinks && condition.hero.anchorLinks.length > 0 && (
+                  <div className="flex flex-wrap items-center gap-x-6 gap-y-2 mt-6 text-sm font-sans">
+                    {condition.hero.anchorLinks.map((link, idx) => (
+                      <a
+                        key={idx}
+                        href={link.anchor}
+                        className="flex items-center gap-1 text-primary/80 hover:text-primary border-b border-primary/30 hover:border-primary transition-colors"
+                      >
+                        {link.label} <ChevronRight className="w-3 h-3" />
+                      </a>
+                    ))}
+                  </div>
+                )}
               </FadeInWhenVisible>
             </div>
 
@@ -162,6 +225,54 @@ export default function ConditionDetail() {
           </div>
         </section>
 
+        {/* At A Glance Section */}
+        {condition.atAGlance && (
+          <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
+            <div className="bg-secondary/40 rounded-lg p-8 md:p-12">
+              <h2 className="text-2xl md:text-3xl font-serif text-base-content text-center mb-6 tracking-wide uppercase">
+                {condition.atAGlance.title}
+              </h2>
+              <p className="text-base-content/80 leading-relaxed max-w-3xl mx-auto text-center mb-10">
+                {condition.atAGlance.description}
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                {condition.atAGlance.commonConcerns && (
+                  <div className="bg-base-100 p-6 rounded-lg">
+                    <h3 className="text-sm uppercase tracking-widest text-primary font-medium mb-4">Common Concerns</h3>
+                    <ul className="space-y-2">
+                      {condition.atAGlance.commonConcerns.map((item, idx) => (
+                        <li key={idx} className="flex items-start gap-2 text-base-content/80 font-light">
+                          <span className="text-primary mt-1">✔</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {condition.atAGlance.commonTreatments && (
+                  <div className="bg-base-100 p-6 rounded-lg">
+                    <h3 className="text-sm uppercase tracking-widest text-primary font-medium mb-4">Commonly Recommended Treatments</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {condition.atAGlance.commonTreatments.map((item, idx) => (
+                        <Link
+                          key={idx}
+                          to={item.url}
+                          className="px-4 py-2 bg-secondary border border-primary/20 rounded-full text-sm text-base-content/80 hover:border-primary hover:text-primary transition-colors"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+              {condition.atAGlance.footer && (
+                <p className="mt-10 text-center text-base-content/70 font-sans italic">{condition.atAGlance.footer}</p>
+              )}
+            </div>
+          </section>
+        )}
+
         {/* Content Section */}
         {condition.content && (
         <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
@@ -178,6 +289,42 @@ export default function ConditionDetail() {
             ))}
           </div>
         </section>
+        )}
+
+        {/* Introduction Section */}
+        {condition.introduction && (
+          <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <h2 className="text-3xl md:text-4xl font-serif text-base-content leading-tight">
+                  {condition.introduction.title}
+                </h2>
+                <div className="space-y-4 text-lg font-sans font-light text-base-content/80 leading-relaxed">
+                  {condition.introduction.content?.map((paragraph, idx) => <p key={idx}>{paragraph}</p>)}
+                  {condition.introduction.goals && (
+                    <ul className="list-disc list-inside space-y-2 pt-2 marker:text-primary">
+                      {condition.introduction.goals.map((goal, idx) => <li key={idx}>{goal}</li>)}
+                    </ul>
+                  )}
+                </div>
+                {condition.introduction.highlightBox && (
+                  <div className="bg-secondary p-6 rounded-lg border-l-4 border-primary">
+                    <p className="font-serif text-xl text-primary leading-snug">{condition.introduction.highlightBox.text1}</p>
+                    <p className="font-serif text-xl italic text-base-content/80 leading-snug">{condition.introduction.highlightBox.text2}</p>
+                  </div>
+                )}
+              </div>
+              {(condition.introduction.placeholderUrl || condition.introduction.image) && (
+                <RevealImage className="relative w-full aspect-[4/5] overflow-hidden rounded-lg">
+                  <img
+                    src={condition.introduction.placeholderUrl || condition.introduction.image}
+                    alt={condition.introduction.title}
+                    className="w-full h-full object-cover"
+                  />
+                </RevealImage>
+              )}
+            </div>
+          </section>
         )}
 
         {/* Science Section */}
@@ -223,6 +370,88 @@ export default function ConditionDetail() {
           </p>
         </section>
         )}
+
+        {/* Conditions We Treat — Card Grid Section */}
+        {condition.conditionsWeTreat && (
+          <section id="conditions-we-treat" className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-serif text-base-content">
+                {condition.conditionsWeTreat.title}{' '}
+                <span className="italic font-light text-primary">{condition.conditionsWeTreat.highlight}</span>
+              </h2>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {condition.conditionsWeTreat.cards.map((card, idx) => (
+                <div key={idx} className="bg-secondary p-8 rounded-lg flex flex-col space-y-4">
+                  <h3 className="text-xl font-serif text-primary">{card.title}</h3>
+                  {card.summary && (
+                    <p className="text-base-content/80 font-light leading-relaxed">{card.summary}</p>
+                  )}
+                  {card.commonSigns && (
+                    <div>
+                      <h4 className="text-xs uppercase tracking-widest text-base-content/50 font-medium mb-2">Common Signs</h4>
+                      <ul className="space-y-1">
+                        {card.commonSigns.map((sign, i) => (
+                          <li key={i} className="flex items-start gap-2 text-sm text-base-content/70 font-light">
+                            <span className="text-primary mt-1">•</span>
+                            <span>{sign}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {card.bestTreatments && (
+                    <div>
+                      <h4 className="text-xs uppercase tracking-widest text-base-content/50 font-medium mb-2">Best Treatments</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {card.bestTreatments.map((t, i) => (
+                          <Link
+                            key={i}
+                            to={t.url}
+                            className="px-3 py-1 bg-base-100 border border-primary/20 rounded-full text-xs text-base-content/70 hover:border-primary hover:text-primary transition-colors"
+                          >
+                            {t.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                  {/* {card.exploreLink && (
+                    <Link to={card.exploreLink.url} className="text-primary text-sm font-medium hover:underline pt-2">
+                      {card.exploreLink.text}
+                    </Link>
+                  )} */}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Treatments Recommended Section */}
+        {condition.treatmentsRecommended && (
+          <section id="treatments-recommended" className="py-20 px-4 md:px-8 max-w-7xl mx-auto bg-secondary/20">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-serif text-base-content">
+                {condition.treatmentsRecommended.title}{' '}
+                <span className="italic font-light text-primary">{condition.treatmentsRecommended.highlight}</span>
+              </h2>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {condition.treatmentsRecommended.items.map((item, idx) => (
+                <Link
+                  key={idx}
+                  to={item.url}
+                  className="bg-base-100 p-8 rounded-sm hover:shadow-lg transition-shadow duration-300 group block border-l-4 border-primary"
+                >
+                  {/* <img src={item.image} alt={item.name} className="w-full h-auto mb-4" /> */}
+                  <h3 className="text-xl font-serif text-primary mb-2 group-hover:underline">{item.name}</h3>
+                  <p className="text-sm text-base-content/70 mb-4 leading-relaxed">{item.description}</p>
+                  <span className="text-xs uppercase tracking-widest border-b border-primary pb-1 group-hover:border-b-2">Learn More</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
         
         {/* Related Treatments Section */}
         <RelatedTreatments
@@ -242,6 +471,29 @@ export default function ConditionDetail() {
             />
           ) : null;
         })()}
+
+        {/* Related Clinical Insights (manual/curated list) */}
+        {condition.relatedClinicalInsights && (
+          <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-serif text-base-content">
+                {condition.relatedClinicalInsights.title}{' '}
+                <span className="italic font-light text-primary">{condition.relatedClinicalInsights.highlight}</span>
+              </h2>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {condition.relatedClinicalInsights.items.map((item, idx) => (
+                <Link
+                  key={idx}
+                  to={item.url}
+                  className="bg-secondary p-6 rounded-lg hover:shadow-md transition-shadow duration-300 group block"
+                >
+                  <h3 className="font-serif text-lg text-base-content group-hover:text-primary transition-colors">{item.title}</h3>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Content Sections */}
         {condition.contentSections && condition.contentSections.map((section, index) => (
@@ -319,9 +571,11 @@ export default function ConditionDetail() {
             <div className="flex-1">
               <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8">
                 {condition.whyChoose.title}{' '}
-                {/* <span className="italic font-light text-primary">
-                  {condition.whyChoose.highlight}
-                </span> */}
+                {condition.whyChoose.highlight && (
+                  <span className="italic font-light text-primary">
+                    {condition.whyChoose.highlight}
+                  </span>
+                )}
               </h2>
 
               {condition.whyChoose.description && (
@@ -349,6 +603,18 @@ export default function ConditionDetail() {
                     </div>
                   )}
             </div>
+
+            {(condition.whyChoose.placeholderUrl || condition.whyChoose.image) && (
+              <div className="flex-1 w-full">
+                <RevealImage className="relative w-full aspect-[4/5] overflow-hidden rounded-lg">
+                  <img
+                    src={condition.whyChoose.placeholderUrl || condition.whyChoose.image}
+                    alt={condition.whyChoose.title}
+                    className="w-full h-full object-cover"
+                  />
+                </RevealImage>
+              </div>
+            )}
           </div>
         </section>
         )}
@@ -402,11 +668,58 @@ export default function ConditionDetail() {
           </section>
         ))}
 
+        {/* Advanced Skin Health Consultation Section */}
+        {condition.advancedSkinHealthConsultation && (
+          <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+            <div className="max-w-3xl mx-auto bg-secondary/30 rounded-lg p-8 md:p-12 text-center space-y-6">
+              <span className="text-xs uppercase tracking-widest text-primary font-medium">
+                {condition.advancedSkinHealthConsultation.subtitle}
+              </span>
+              <h2 className="text-3xl md:text-4xl font-serif text-base-content">
+                {condition.advancedSkinHealthConsultation.title}
+              </h2>
+              {condition.advancedSkinHealthConsultation.description && (
+                <p className="text-base-content/80 leading-relaxed max-w-xl mx-auto">
+                  {condition.advancedSkinHealthConsultation.description}
+                </p>
+              )}
+              {condition.advancedSkinHealthConsultation.includes && (
+                <ul className="grid sm:grid-cols-2 gap-2 text-left max-w-md mx-auto">
+                  {condition.advancedSkinHealthConsultation.includes.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-2 text-base-content/80 font-light">
+                      <span className="text-primary mt-1">✔</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <p className="text-lg font-serif text-primary">{condition.advancedSkinHealthConsultation.investment}</p>
+              {condition.advancedSkinHealthConsultation.url && (
+                <Link
+                  to={condition.advancedSkinHealthConsultation.url}
+                  className="inline-block btn btn-primary text-white px-10 py-3 h-auto text-lg rounded-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  Book Skin Health Consultation
+                </Link>
+              )}
+              {condition.advancedSkinHealthConsultation.tagline && (
+                <p className="text-sm font-medium text-primary/80 tracking-wide">
+                  {condition.advancedSkinHealthConsultation.tagline}
+                </p>
+              )}
+            </div>
+          </section>
+        )}
+
         {/* FAQs Section */}
         {((condition.faq && condition.faq.items && condition.faq.items.length > 0) || (condition.faqs && condition.faqs.length > 0)) && (
-          <section className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
+          <section id="faq" className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-serif text-center mb-12 text-[#2A2A2A]">
-              Frequently Asked <span className="italic font-light text-primary">Questions</span>
+              {condition.faq?.title ? (
+                <>{condition.faq.title}{' '}<span className="italic font-light text-primary">{condition.faq.highlight}</span></>
+              ) : (
+                <>Frequently Asked <span className="italic font-light text-primary">Questions</span></>
+              )}
             </h2>
             <div className="space-y-4">
               {(condition.faq?.items || condition.faqs).map((faq, index) => (
@@ -417,6 +730,15 @@ export default function ConditionDetail() {
                   </div>
                   <div className="collapse-content">
                     <p className="font-sans font-light text-base-content/80 text-left">{faq.answer}</p>
+                    {faq.internalLinks && faq.internalLinks.length > 0 && (
+                      <div className="flex flex-wrap gap-x-4 gap-y-1 mt-4 text-sm">
+                        {faq.internalLinks.map((link, i) => (
+                          <Link key={i} to={link.url} className="text-primary hover:underline font-medium">
+                            {link.text}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}

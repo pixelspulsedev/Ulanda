@@ -102,6 +102,7 @@ export default function Footer() {
                 <ul className="space-y-3 text-base-content/80 font-sans">
                   <li><Link to="/conditions/dehydration-dullness-skin-recovery" className="hover:text-primary transition-colors ">Dehydration & Dullness</Link></li>
                   <li><Link to="/conditions/menopause-hormone-skin-changes" className="hover:text-primary transition-colors ">Menopause & Hormonal Change</Link></li>
+                  <li><Link to="/conditions/facial-balance-Vitality" className="hover:text-primary transition-colors ">Facial Balance & Vitality</Link></li>
                   <li><Link to="/conditions/redness-sensitivity-reactive-skin" className="hover:text-primary transition-colors ">Redness & Sensitivity</Link></li>
                   <li><Link to="/conditions/pigmentation-and-skin-tone" className="hover:text-primary transition-colors ">Pigmentation & Skin Tone</Link></li>
                   <li><Link to="/conditions/eye-area" className="hover:text-primary transition-colors ">Eye Area</Link></li>

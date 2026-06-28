@@ -298,6 +298,10 @@ export default function Navbar() {
                   path: '/conditions/menopause-hormone-skin-changes',
                 },
                 {
+                  name: 'Facial Balance & Vitality',
+                  path: '/conditions/facial-balance-Vitality',
+                },
+                {
                   name: 'Redness & Sensitivity',
                   path: '/conditions/redness-sensitivity-reactive-skin',
                 },
@@ -723,6 +727,15 @@ export default function Navbar() {
                         className="py-2 active:bg-secondary/20"
                       >
                         Menopause & Hormonal Change
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/conditions/facial-balance-Vitality"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        Facial Balance & Vitality
                       </Link>
                     </li>
                     <li>
