@@ -40,8 +40,8 @@ export const individualConditions = [
         { label: "Treatments", anchor: "#treatments-recommended" },
         { label: "Q&A", anchor: "#faq" }
       ],
-      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
+      placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp"
     },
     atAGlance: {
       title: "FACIAL BALANCE & VITALITY AT A GLANCE",
@@ -370,8 +370,8 @@ export const individualConditions = [
         "Personalised treatment pathways",
         "Long-term skin health focus"
       ],
-      image: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      placeholderUrl: "https://images.pexels.com/photos/5067738/pexels-photo-5067738.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp",
+      placeholderUrl: "/assets/img/treatments/renew/skin-clinic-ware-skin-booster-Jalupro_png.webp"
     },
     relatedClinicalInsights: {
       title: "Related",
