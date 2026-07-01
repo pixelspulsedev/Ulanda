@@ -13,6 +13,16 @@
       "permanent": true
     },
     {
+      "source": "/journal/enlarged-pores-why-they-become-more-visible-over-time",
+      "destination": "/journal/enlarged-pores",
+      "permanent": true
+    },
+    {
+      "source": "/journal/acne-scarring-explained-why-texture-changes-remain-after-breakouts",
+      "destination": "/journal/acne-scarring",
+      "permanent": true
+    },
+    {
       "source": "/treatments/refresh/signature-facials/dermaplaning",
       "destination": "/treatments/skin-barrier-renewal-protocol",
       "permanent": true

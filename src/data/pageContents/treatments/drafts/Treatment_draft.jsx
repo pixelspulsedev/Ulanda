@@ -790,10 +790,21 @@ export default function TreatmentDraft() {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {treatment.whyTheseChangesHappen.insights?.map((insight, idx) => (
-                <div key={idx} className="bg-secondary p-8 rounded-lg space-y-2">
-                  <h3 className="font-medium font-sans text-primary text-lg">{insight.title}</h3>
-                  <p className="text-base-content/80 leading-relaxed">{insight.summary}</p>
-                </div>
+                insight.url ? (
+                  <Link
+                    key={idx}
+                    to={insight.url}
+                    className="block bg-secondary p-8 rounded-lg space-y-2 hover:shadow-md transition-shadow duration-300"
+                  >
+                    <h3 className="font-medium font-sans text-primary text-lg">{insight.title}</h3>
+                    <p className="text-base-content/80 leading-relaxed">{insight.summary}</p>
+                  </Link>
+                ) : (
+                  <div key={idx} className="bg-secondary p-8 rounded-lg space-y-2">
+                    <h3 className="font-medium font-sans text-primary text-lg">{insight.title}</h3>
+                    <p className="text-base-content/80 leading-relaxed">{insight.summary}</p>
+                  </div>
+                )
               ))}
             </div>
           </section>
@@ -802,13 +813,13 @@ export default function TreatmentDraft() {
         {/* Related Conditions Section */}
         <RelatedConditions conditions={relatedConditions} title="Treats Conditions" subtitle="This treatment is effective for the following conditions." />
 
-        {/* When Is This Appropriate? — Bidirectional Journal Links */}
+        {/* Why These Changes Happen — Bidirectional Journal Links */}
         {(() => {
           const relatedJournals = getJournalsForTreatment(treatmentId);
           return relatedJournals.length > 0 ? (
             <RelatedJournals
               journals={relatedJournals}
-              title="When Is This Appropriate?"
+              title="Why These Changes Happen"
               subtitle="Read the clinical context behind this treatment approach."
             />
           ) : null;
@@ -921,7 +932,7 @@ export default function TreatmentDraft() {
               {faqData.items?.map((item, idx) => (
                 <div key={idx} className="collapse collapse-plus bg-secondary/20 border border-base-200 rounded-lg">
                   <input type="radio" name="treatment-faq" defaultChecked={idx === 0} />
-                  <div className="collapse-title text-xl font-medium font-sans text-base-content py-6 text-primary">{item.question}</div>
+                  <div className="collapse-title text-xl font-medium font-sans py-6 text-primary">{item.question}</div>
                   <div className="collapse-content pb-6">
                     <p className="text-base-content/80 font-light leading-relaxed text-lg">{item.answer}</p>
                   </div>

@@ -1991,18 +1991,18 @@ export const treatments = {
             },
             "seo": {
               "title": "Chemical Peels Hertfordshire | Medical-Grade Peels in Ware | ULANDA",
-              "description": "Medical chemical peels in Hertfordshire at ULANDA Ware. Treat pigmentation, acne scarring & sun damage with peels tailored to your skin type."
+              "description": "Chemical peels in Hertfordshire at ULANDA. Clinical skin resurfacing for pigmentation, texture, dullness, congestion and menopause-related skin change."
             },
             "seoHeadings": {
               "h1": "Chemical Peels in Hertfordshire — Smooth, Brighten & Renew Your Skin",
               "h2": [
-                "What Chemical Peels Treat (Pigmentation • Ageing • Roughness • Scarring)",
-                "Types of Peels (Superficial • Medium • TCA • Brightening Peels)",
-                "Peels for Menopause Skin",
-                "Acne, PIH & Pigmentation Peel Options",
-                "Peels + Regeneration (PN, Boosters, LED)",
-                "Linked Conditions (Sun Damage, Melasma, Uneven Tone)",
-                "Book Chemical Peel in Hertfordshire"
+                "Chemical Peels At A Glance",
+                "What Is a Chemical Peel?",
+                "Why ULANDA Clients Choose Our Peels",
+                "Types Of Peels We Offer",
+                "Benefits Of Chemical Peels",
+                "Questions Women Commonly Ask About Chemical Peels",
+                "Book Your Chemical Peel Consultation"
               ]
             },
             "title": "Chemical",
@@ -2014,28 +2014,6 @@ export const treatments = {
               "Targeted Correction",
               "Midlife Tailored"
             ],
-            "detailedBenefits": {
-              "title": "Benefits of Chemical Peels",
-              "sections": [
-                {
-                  "title": "Benefits",
-                  "items": [
-                    "Brightens dull skin",
-                    "Smooths texture",
-                    "Softens fine lines",
-                    "Minimises pores",
-                    "Reduces pigmentation & sun spots",
-                    "Improves hormonal breakouts",
-                    "Boosts collagen",
-                    "Improves elasticity",
-                    "Evens out tone",
-                    "Restores radiance",
-                    "Safe for perimenopause and menopause",
-                    "Helps with dryness and skin roughness"
-                  ]
-                }
-              ]
-            },
             "locations": [
               "Ware SG12",
               "Hertford",
@@ -2043,28 +2021,35 @@ export const treatments = {
               "Hertfordshire"
             ],
             "category": "Refresh",
-            "description": "Medical-grade peeling for brighter skin, smoother texture and targeted correction — tailored for midlife and menopausal skin.",
-            "introduction": {
+            "description": "Clinical skin resurfacing designed to improve pigmentation, texture, dullness and long-term skin quality.",
+            "at-a-glance": {
+              "title": "CHEMICAL PEELS AT A GLANCE",
+              "description": "Chemical peels are clinical skin resurfacing treatments designed to improve pigmentation, texture, dullness, congestion and early signs of skin ageing. At ULANDA, peels are selected according to skin behaviour, barrier resilience, hormonal context and treatment goals rather than applying a one-size-fits-all approach.",
+              "commonly-used-for": [
+                "Pigmentation",
+                "Melasma",
+                "Uneven skin tone",
+                "Acne and congestion",
+                "Dull skin",
+                "Fine lines",
+                "Menopause skin changes",
+                "Texture improvement"
+              ]
+            },
+            "what-are": {
               "title": "What Is a Chemical Peel?",
-              "content": [
-                "A chemical peel is a clinical skin resurfacing treatment that uses controlled acids to dissolve dead skin cells, smooth texture, brighten pigmentation and stimulate skin renewal.",
-                "In simple terms: Chemical peels lift away old, dull skin and trigger fresh, glowing, healthier skin beneath.",
-                "In scientific terms: Peels accelerate corneocyte desquamation, epidermal turnover, dermal fibroblast activity, melanin regulation, and barrier lipid restoration."
-              ],
-              "goals": [
+              "description": "A chemical peel is a clinical skin resurfacing treatment that uses controlled acids to dissolve dead skin cells, smooth texture, brighten pigmentation and stimulate skin renewal.\n\nIn simple terms, chemical peels lift away old, dull skin and encourage fresher, brighter and healthier-looking skin to emerge.\n\nIn scientific terms, chemical peels accelerate corneocyte desquamation, epidermal turnover, dermal fibroblast activity, melanin regulation and barrier lipid restoration.",
+              "items": [
                 "Brightens dull skin",
                 "Smooths texture",
                 "Softens fine lines",
                 "Minimises pores",
-                "Reduces pigmentation & sun spots",
+                "Reduces pigmentation and sun spots",
                 "Improves hormonal breakouts",
-                "Boosts collagen",
+                "Supports collagen production",
                 "Improves elasticity"
               ],
-              "highlightBox": {
-                "text1": "ULANDA uses medical-grade blends, not cosmetic-strength formulations.",
-                "text2": "Fully customised to your hormonal stage, skin sensitivity and regeneration needs."
-              },
+              "additional-info": "In simple terms, chemical peels lift away old, dull skin and encourage fresher, brighter skin to emerge. In scientific terms, peels accelerate corneocyte desquamation, epidermal turnover, dermal fibroblast activity, melanin regulation and barrier lipid restoration."
             },
             "internalSupport": {
               "title": "Why ULANDA Clients Choose",
@@ -2073,92 +2058,153 @@ export const treatments = {
               placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "points": [
                 {
-                  "title": "Tailored to your skin tone & ethnicity",
-                  "description": "Ensuring clinical results without irritation."
+                  "title": "Tailored To Your Skin Tone & Ethnicity",
+                  "description": "Selected according to individual skin behaviour and pigmentation risk."
                 },
                 {
-                  "title": "Hormonal stage aware",
-                  "description": "(perimenopause, menopause)"
+                  "title": "Hormonal Stage Aware",
+                  "description": "Adapted for perimenopause and menopause skin."
                 },
                 {
-                  "title": "Barrier strength focus",
-                  "description": "Avoiding over-exfoliation."
+                  "title": "Barrier Strength Focus",
+                  "description": "Supporting skin health without unnecessary irritation."
                 },
                 {
-                  "title": "Regenerative LED included",
-                  "description": "Boosts healing."
+                  "title": "Regenerative LED Included",
+                  "description": "Helping reduce inflammation and support recovery."
                 },
                 {
-                  "title": "Hydration infusion finishing",
-                  "description": "Restores moisture immediately."
+                  "title": "Hydration Infusion Finish",
+                  "description": "Restoring moisture immediately after treatment."
+                },
+                {
+                  "title": "Menopause-Aware Treatment Planning",
+                  "description": "Peel selection is adapted to hormonal skin changes to support resilience rather than intensity."
+                }
+              ]
+            },
+            "commonlyConsideredFor": {
+              "title": "Commonly Considered For",
+              "categories": [
+                {
+                  "title": "Pigmentation & Uneven Skin Tone",
+                  "description": "Chemical peels are frequently incorporated into programmes addressing pigmentation, uneven tone and post-inflammatory discolouration.",
+                  "internalLink": {
+                    "anchorText": "Explore Pigmentation, Melasma & Uneven Tone →",
+                    "url": "/conditions/pigmentation-and-skin-tone"
+                  }
+                },
+                {
+                  "title": "Hormonal & Menopause Pigmentation",
+                  "description": "Many women notice pigmentation becoming more visible during hormonal transition.",
+                  "internalLink": {
+                    "anchorText": "Explore Menopause & Hormonal Skin Change →",
+                    "url": "/conditions/menopause-hormone-skin-changes"
+                  }
+                },
+                {
+                  "title": "Dull Skin & Loss Of Glow",
+                  "description": "Controlled resurfacing can help reveal brighter, fresher-looking skin.",
+                  "internalLink": {
+                    "anchorText": "Explore Dehydration, Dullness & Skin Recovery →",
+                    "url": "/conditions/dehydration-dullness-skin-recovery"
+                  }
+                },
+                {
+                  "title": "Acne & Congestion",
+                  "description": "Chemical peels are frequently incorporated into programmes addressing congestion, breakouts and texture irregularities.",
+                  "internalLink": {
+                    "anchorText": "Explore Acne, Breakouts & Texture →",
+                    "url": "/conditions/acne-texture"
+                  }
+                },
+                {
+                  "title": "Healthy Ageing & Skin Quality",
+                  "description": "Many women use chemical peels as part of broader healthy ageing programmes focused on maintaining skin quality and radiance.",
+                  "internalLink": {
+                    "anchorText": "Explore Facial Balance & Vitality →",
+                    "url": "/conditions/facial-balance-vitality"
+                  }
                 }
               ]
             },
             "ingredients": {
-              "title": "Types of Peels",
+              "title": "Types Of Peels",
               "highlight": "We Offer",
               "titleSuffix": "",
-              "subtitle": "We select the right peel for your specific concerns and skin type.",
+              "subtitle": "Selected according to skin behaviour, resilience and treatment objectives.",
               "items": [
                 {
-                  "title": "Superficial Peels (No Downtime)",
-                  "description": "Perfect for glow, hydration and texture. Includes AHA, BHA and enzyme blends."
+                  "title": "Superficial Peels (Minimal Downtime)",
+                  "description": "Ideal for glow, hydration and texture improvement. Includes AHA, BHA and enzyme-based formulations."
                 },
                 {
                   "title": "Medium Peels (Low Downtime)",
-                  "description": "Targets pigmentation, wrinkles & scarring. Includes mandelic, TCA blends, azelaic combinations."
+                  "description": "Designed for pigmentation, wrinkles and scarring concerns. Includes mandelic, TCA blends and azelaic combinations."
                 },
                 {
                   "title": "Regenerative Peels",
-                  "description": "Designed specifically for menopausal & sensitive skin. Less aggressive — more restorative."
+                  "description": "Developed for sensitive, menopausal and compromised skin. Focused on restoration rather than aggression."
                 },
                 {
                   "title": "Brightening Peels",
-                  "description": "For melasma, hormonal pigmentation & uneven tone."
+                  "description": "For melasma, pigmentation and uneven skin tone."
                 },
                 {
                   "title": "Clarifying Peels",
                   "description": "For congestion, breakouts & enlarged pores."
                 }
               ],
-              "footer": "Chemical peels are particularly effective for hormonal ageing because they compensate for slowed cell turnover."
+              "footer": "Hormonal transition influences hydration, barrier resilience, pigmentation behaviour and skin recovery. Peel selection should adapt to these biological changes."
             },
-            "treatmentAreas": {
-              "title": "Treatment Areas",
-              "items": [
-                "Face",
-                "Neck",
-                "Décolletage",
-                "Hands",
-                "Back / shoulders (optional)"
+            "detailedBenefits": {
+              "title": "Benefits Of Chemical Peels",
+              "sections": [
+                {
+                  "title": "Benefits",
+                  "items": [
+                    "Brightens dull skin",
+                    "Smooths texture",
+                    "Softens fine lines",
+                    "Minimises pores",
+                    "Reduces pigmentation and sun spots",
+                    "Improves hormonal breakouts",
+                    "Supports collagen production",
+                    "Improves elasticity",
+                    "Evens skin tone",
+                    "Restores radiance",
+                    "Supports menopause skin quality",
+                    "Helps address dryness and roughness"
+                  ]
+                }
               ]
             },
             "process": {
-              "title": "What Happens During the Treatment?",
+              "title": "What Happens During Treatment?",
               "steps": [
                 {
                   "title": "1. Consultation & Assessment",
-                  "description": "We evaluate barrier resilience, hormonal skin behaviour and pigmentation pattern."
+                  "description": "Barrier resilience, pigmentation behaviour and hormonal influences are assessed."
                 },
                 {
-                  "title": "2. Deep Cleanse & Prep",
-                  "description": "Prepares skin for even penetration."
+                  "title": "2. Deep Cleanse & Preparation",
+                  "description": "Preparing the skin for even peel penetration."
                 },
                 {
                   "title": "3. Chemical Peel Application",
-                  "description": "Layered according to your skin’s tolerance."
+                  "description": "Applied according to skin tolerance and treatment goals."
                 },
                 {
                   "title": "4. Neutralisation / Removal",
-                  "description": "Depending on peel type."
+                  "description": "Performed where appropriate for the peel selected."
                 },
                 {
                   "title": "5. Regenerative LED Therapy",
-                  "description": "Reduces inflammation + boosts collagen."
+                  "description": "Helping calm inflammation and support recovery."
                 },
                 {
                   "title": "6. Barrier Reinforcement",
-                  "description": "We apply ceramides, peptides and antioxidants to protect newly revealed skin."
+                  "description": "Ceramides, antioxidants and hydration support are applied following treatment."
                 }
               ]
             },
@@ -2166,30 +2212,21 @@ export const treatments = {
               "title": "Results Timeline",
               "items": [
                 {
-                  "title": "Immediately",
-                  "description": "Radiance, Smoother texture, Brighter complexion"
+                  "title": "24–72 Hours",
+                  "description": "Skin may feel smoother and appear brighter."
                 },
                 {
-                  "title": "1–3 days",
-                  "description": "Refined pores, Reduced congestion, Even tone"
+                  "title": "3–7 Days",
+                  "description": "Mild flaking may occur depending on peel depth."
                 },
                 {
-                  "title": "4–7 days",
-                  "description": "Healthy, renewed glow, More youthful appearance"
+                  "title": "1–2 Weeks",
+                  "description": "Improved clarity, texture and radiance become increasingly visible."
                 },
                 {
-                  "title": "For medium-depth peels",
-                  "description": "Light flaking may occur 48–72 hours after treatment."
+                  "title": "Ongoing Treatments",
+                  "description": "Progressive improvements develop through structured treatment programmes."
                 }
-              ]
-            },
-            "frequency": {
-              "title": "How Many Sessions Do I Need?",
-              "items": [
-                "Single session: glow and clarity",
-                "3 sessions: resurfacing and texture improvement",
-                "6 sessions: pigmentation correction & anti-aging effect",
-                "Maintenance: every 4–6 weeks"
               ]
             },
             "idealFor": {
@@ -2199,45 +2236,27 @@ export const treatments = {
               "items": [
                 "Dull, tired complexion",
                 "Texture irregularities",
-                "Roughness or dryness",
-                "Fine lines & early sagging",
-                "Pigmentation & sun damage",
+                "Roughness and dryness",
+                "Fine lines",
+                "Pigmentation and sun damage",
                 "Menopause-related dullness",
-                "Congestion or breakouts",
-                "Melasma (with specialised protocols)",
+                "Congestion and breakouts",
+                "Melasma",
                 "Enlarged pores",
                 "Uneven skin tone",
-                "Safe for all skin tones with correct protocol."
+                "Suitable for all skin tones when appropriately selected"
               ]
             },
-            "ulandaConnection": {
-              "title": "Perfect Pairings",
-              "subtitle": "Chemical peels pair exceptionally well with:",
-              "sections": [
-                {
-                  "title": "RENEW",
-                  "description": "Polynucleotides (PN), Microneedling, Skin Boosters (Profhilo/Hydrobooster), PRP, Lemon Bottle (for glow cycles). Chemical peels are a key skin-prep treatment before PN or biostimulators.",
-                  "points": [],
-                  "conclusion": "",
-                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                },
-                {
-                  "title": "REFRESH",
-                  "description": "Regenerative Facial, Vital Glow Facial.",
-                  "points": [],
-                  "conclusion": "",
-                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                },
-                {
-                  "title": "RADIATE",
-                  "description": "NAD+ IV (collagen + repair), Glutathione (brightening).",
-                  "points": [],
-                  "conclusion": "",
-                  image: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                  placeholderUrl: "https://images.unsplash.com/photo-1576671414121-aa0c81c869e1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                }
+            "conditios": {
+              "description": "This treatment may support the following concerns.",
+              "items": [
+                { "title": "Dull dehydrated skin", "description": "Supports brighter, healthier skin renewal." },
+                { "title": "Enlarged pores", "description": "Refines texture and pore appearance over time." },
+                { "title": "Hormonal breakouts", "description": "Often incorporated into congestion-focused programmes." },
+                { "title": "Hyperpigmentation", "description": "Supports gradual pigment dispersal and tone correction." },
+                { "title": "Melasma", "description": "Used within structured plans that also address inflammation and UV behaviour." },
+                { "title": "Post-inflammatory hyperpigmentation", "description": "Helps improve tone irregularity following inflammation." },
+                { "title": "Uneven texture", "description": "Supports smoother, more refined skin texture." }
               ]
             },
             "safetyOversight": {
@@ -2245,54 +2264,100 @@ export const treatments = {
               "items": [
                 {
                   "title": "Variable Downtime",
-                  "description": "Superficial: No downtime. Medium: Mild flaking possible.",
+                  "description": "Superficial peels may involve little or no visible peeling. Medium peels may result in mild flaking.",
                   "icon": "cqc"
                 },
                 {
-                  "title": "Safe For All",
-                  "description": "Safe for all skin tones (when correctly selected), menopause skin, perimenopause skin, rosacea (with caution), sensitive skin.",
+                  "title": "Safe For All Skin Tones",
+                  "description": "When appropriately selected and clinically managed.",
                   "icon": "clinician"
                 },
                 {
-                  "title": "Comfortable",
-                  "description": "You may feel light tingling or warmth.",
+                  "title": "Comfortable Treatment",
+                  "description": "Most clients experience only mild warmth or tingling during application.",
                   "icon": "prescribed"
                 }
               ]
             },
-            "faq": {
-              "title": "FAQ",
+            "faqs": {
+              "title": "Questions Women Commonly Ask About Chemical Peels",
               "items": [
                 {
-                  "question": "Will my skin peel?",
-                  "answer": "Sometimes — mostly mild flaking depending on peel type."
+                  "question": "Will My Skin Peel?",
+                  "answer": "Not necessarily. The amount of peeling depends on the type of peel used, your skin behaviour, barrier resilience and treatment goals. Many superficial peels produce little or no visible peeling while still improving brightness and skin quality."
                 },
                 {
-                  "question": "Is it painful?",
-                  "answer": "You may feel light tingling or warmth."
+                  "question": "Is It Painful?",
+                  "answer": "Most clients describe chemical peels as comfortable and well tolerated. You may experience temporary tingling or warmth depending on the peel selected."
                 },
                 {
-                  "question": "Can chemical peels treat pigmentation?",
-                  "answer": "Yes — they are excellent for early pigmentation and sun damage."
+                  "question": "Can Chemical Peels Treat Pigmentation?",
+                  "answer": "Chemical peels are frequently incorporated into pigmentation programmes because they support controlled skin renewal and pigment dispersal. More complex pigmentation conditions such as melasma often require a broader strategy."
                 },
                 {
-                  "question": "Is it safe for menopausal skin?",
-                  "answer": "Yes — we adjust strength based on your barrier health."
+                  "question": "Is It Safe For Menopausal Skin?",
+                  "answer": "Yes. Appropriately selected peels may support healthier turnover, improved radiance and better skin quality during menopause."
                 },
                 {
-                  "question": "Can I combine it with other treatments?",
-                  "answer": "Absolutely. Peels enhance results of PN, boosters and microneedling."
+                  "question": "Can I Combine Chemical Peels With Other Treatments?",
+                  "answer": "Yes. Peels are frequently combined with Microneedling, Skin Boosters, Polynucleotides, PRP and LED therapy depending on treatment goals."
                 },
                 {
-                  "question": "Is it good for acne or congestion?",
-                  "answer": "Yes — salicylic and mandelic peels are perfect for this."
+                  "question": "Is It Good For Acne Or Congestion?",
+                  "answer": "Chemical peels are commonly used to support clearer skin by improving turnover and reducing congestion. At ULANDA, acne treatment begins with understanding underlying drivers rather than only treating visible lesions."
                 }
               ]
+            },
+            "perfectTreatmentPairings": {
+              "title": "Perfect Pairings",
+              "introduction": "Chemical peels are frequently combined with regenerative and skin-quality treatments as part of a structured programme.",
+              "pairings": [
+                {
+                  "name": "Microneedling",
+                  "description": "Supporting collagen stimulation and texture improvement.",
+                  "whyItPairsWell": "Surface renewal plus collagen support.",
+                  "url": "/treatments/skin-renewal-regeneration/microneedling"
+                },
+                {
+                  "name": "Polynucleotides",
+                  "description": "Supporting tissue repair and regeneration.",
+                  "whyItPairsWell": "Regeneration support after resurfacing.",
+                  "url": "/treatments/skin-renewal-regeneration/polynucleotides"
+                },
+                {
+                  "name": "PRP",
+                  "description": "Supporting healing and collagen activity.",
+                  "whyItPairsWell": "Biological repair support.",
+                  "url": "/treatments/skin-renewal-regeneration/prp-skin-regeneration"
+                },
+                {
+                  "name": "Skin Boosters",
+                  "description": "Profhilo, Jalupro and Definisse Hydrobooster for hydration support.",
+                  "whyItPairsWell": "Hydration and resilience support.",
+                  "url": "/treatments/injectable-skin-optimisation/profhilo"
+                },
+                {
+                  "name": "Anti-Wrinkle Treatments",
+                  "description": "Supporting healthy ageing and facial harmony.",
+                  "whyItPairsWell": "Expression management plus skin quality support.",
+                  "url": "/treatments/structural-collagen-support/anti-wrinkle-injections"
+                }
+              ]
+            },
+            "ulandaConnection": {
+              "title": "THE ULANDA CONNECTION — HOW CHEMICAL PEELS SUPPORT SKIN RENEWAL",
+              "content": [
+                "At ULANDA, chemical peels are not viewed simply as exfoliation treatments.",
+                "They are incorporated into broader programmes designed to support pigmentation correction, skin clarity, healthy ageing, menopause skin change and long-term skin quality.",
+                "The goal is not simply brighter skin.",
+                "The goal is helping the skin function more effectively, recover more efficiently and behave more like healthy skin again."
+              ],
+              "tagline": "Look Like Yourself. Feel Like Yourself. Understanding Before Treatment."
             },
             "cta": {
               "title": "Reveal Brighter, Smoother,",
               "highlight": "Healthier Skin",
-              "description": "Book your Chemical Peel at ULANDA in Ware SG12 for refined texture, renewed radiance and long-lasting clarity.",
+              "description": "Book your Chemical Peel consultation at ULANDA and discover how a structured skin renewal programme can support clarity, radiance and long-term skin quality.",
               "buttonText": "Book Advanced Skin Health Consultation"
             }
           }
@@ -2325,28 +2390,28 @@ export const treatments = {
             },
             "seo": {
               "title": "Profhilo Treatment Hertfordshire | Bio-Remodelling Skin Booster | ULANDA Ware",
-              "description": "Profhilo treatment in Hertfordshire at ULANDA Ware SG12. Bio-remodelling skin booster for crepey skin, fine lines & deep hydration. Book a consultation."
+              "description": "Profhilo in Hertfordshire at ULANDA. Injectable bio-remodelling for hydration, elasticity and skin quality without adding volume."
             },
             "seoHeadings": {
-              "h1": "Profhilo Treatment in Hertfordshire — Bio-Remodelling for Skin Quality",
+              "h1": "Profhilo — Injectable Bio-Remodelling for Hydration, Elasticity & Skin Quality",
               "h2": [
-                "What Profhilo Treats: Dehydration, Crepey Skin, Fine Lines",
-                "How Profhilo Works — HA Hybrid Complex & Bio-Remodeling",
-                "Profhilo vs Hydrobooster vs SeventyHyal",
-                "Treatment Protocol & Results Timeline",
-                "Best Combination Treatments",
-                "Conditions Profhilo Improves",
-                "Book Profhilo in Hertfordshire (Ware SG12)"
+                "Profhilo At A Glance",
+                "What Is Profhilo?",
+                "Why Women Choose Profhilo",
+                "Commonly Considered For",
+                "Questions Women Commonly Ask About Profhilo",
+                "Perfect Treatment Pairings",
+                "Book Your Profhilo Consultation"
               ]
             },
             "title": "Profhilo",
             "highlight": "",
             "titleSuffix": "",
             "benefits": [
-              "Immediate glow",
+              "Immediate Glow",
               "Deep hydration",
-              "Subtle lift",
-              "Improves elasticity"
+              "Improved elasticity",
+              "Firmer skin"
             ],
             "locations": [
               "Ware SG12",
@@ -2357,53 +2422,183 @@ export const treatments = {
             image: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?q=80&w=2070&auto=format&fit=crop",
             placeholderUrl: "https://images.unsplash.com/photo-1609357912334-e96886c0212b?q=80&w=2070&auto=format&fit=crop",
             "category": "Renew",
-            "description": "Hydration + collagen stimulation in one",
-            "introduction": {
+            "description": "Injectable bio-remodelling designed to support hydration, elasticity and natural-looking skin quality improvement.",
+            "at-a-glance": {
+              "title": "PROFHILO AT A GLANCE",
+              "description": "Profhilo is an injectable bio-remodelling treatment designed to improve hydration, elasticity and overall skin quality. Unlike dermal fillers, Profhilo does not add volume or significantly alter facial shape.",
+              "commonly-used-for": [
+                "Skin laxity",
+                "Dehydration",
+                "Fine lines",
+                "Menopause skin changes",
+                "Crepey skin",
+                "Loss of elasticity",
+                "Dull skin",
+                "Prevention-focused healthy ageing"
+              ]
+            },
+            "what-are": {
               "title": "What Is Profhilo?",
-              "content": [
-                "An injectable skin booster with high-concentration hyaluronic acid that hydrates deeply while stimulating collagen and elastin."
+              "description": "Profhilo is an injectable bio-remodelling treatment containing one of the highest concentrations of stabilised hyaluronic acid available in aesthetic medicine.\n\nUnlike traditional fillers, Profhilo spreads through the tissue following treatment, helping improve hydration, elasticity and skin quality across a wider treatment area.\n\nThe treatment is commonly used on the face, neck and other areas where declining skin quality, dehydration and reduced elasticity have become noticeable.\n\nAt ULANDA, Profhilo is frequently selected when the objective is healthier skin rather than increased volume.",
+              "items": [
+                "Dehydrated skin",
+                "Loss of elasticity",
+                "Fine lines",
+                "Crepey skin",
+                "Menopause skin change",
+                "Skin laxity",
+                "Dull skin",
+                "Healthy ageing programmes"
               ],
-              "goals": [
-                "Immediate glow",
-                "Deep hydration",
-                "Subtle lift",
-                "Improves elasticity"
-              ],
-              "highlightBox": {
-                "text1": "Not a filler.",
-                "text2": "A bio-remodeling treatment for hydration and elasticity."
-              },
-              image: "/assets/img/treatments/Skin boosters/Profhilo.webp",
-              placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              "additional-info": ""
+            },
+            "internalSupport": {
+              "title": "Why Women Choose",
+              "titleSuffix": "Profhilo",
+              "points": [
+                { "title": "Loss of glow", "description": "Skin can look less radiant as hydration and elasticity decline." },
+                { "title": "Reduced elasticity", "description": "Profhilo is often considered when skin feels less resilient." },
+                { "title": "Fine lines and crepey skin", "description": "Supports smoother, healthier-looking skin quality." },
+                { "title": "Menopause-related skin changes", "description": "Frequently incorporated into hormone-aware skin quality plans." },
+                { "title": "Natural-looking outcomes", "description": "The goal is healthier skin quality while preserving facial identity." }
+              ]
+            },
+            "conditios": {
+              "description": "This treatment may support the following concerns.",
+              "items": [
+                { "title": "Dull dehydrated skin", "description": "Supports hydration and skin freshness." },
+                { "title": "Menopause skin decline", "description": "Addresses hydration and elasticity changes during hormonal transition." },
+                { "title": "Skin laxity", "description": "Supports firmer, more resilient skin behaviour." },
+                { "title": "Fine lines", "description": "Improves overall skin quality where early lines are visible." },
+                { "title": "Crepey skin", "description": "Often considered for face and neck crepiness." },
+                { "title": "Loss of elasticity", "description": "Supports skin bounce and resilience." },
+                { "title": "Texture decline", "description": "Helps improve smoothness and radiance." },
+                { "title": "Healthy ageing concerns", "description": "Frequently incorporated into longer-term skin quality planning." }
+              ]
+            },
+            "commonlyConsideredFor": {
+              "title": "Commonly Considered For",
+              "categories": [
+                {
+                  "title": "Menopause Skin Change",
+                  "description": "Hormonal transition frequently contributes to reduced hydration, declining elasticity and visible skin quality changes.",
+                  "internalLink": {
+                    "anchorText": "Explore Menopause & Hormonal Skin Change →",
+                    "url": "/conditions/menopause-hormone-skin-changes"
+                  }
+                },
+                {
+                  "title": "Skin Laxity & Elasticity Loss",
+                  "description": "Supporting tissue quality where skin has become less resilient and less firm."
+                },
+                {
+                  "title": "Crepey Skin",
+                  "description": "Helping improve hydration and elasticity where thinning and structural decline contribute to texture changes."
+                },
+                {
+                  "title": "Healthy Ageing & Facial Balance",
+                  "description": "Supporting long-term skin quality while preserving natural facial identity.",
+                  "internalLink": {
+                    "anchorText": "Explore Facial Balance & Vitality →",
+                    "url": "/conditions/facial-balance-vitality"
+                  }
+                },
+                {
+                  "title": "Dull Skin & Hydration Decline",
+                  "description": "Supporting healthier skin behaviour where hydration and radiance have diminished.",
+                  "internalLink": {
+                    "anchorText": "Explore Dehydration, Dullness & Skin Recovery →",
+                    "url": "/conditions/dehydration-dullness-skin-recovery"
+                  }
+                }
+              ]
+            },
+            "detailedBenefits": {
+              "title": "Why Profhilo Is Different",
+              "sections": [
+                {
+                  "title": "Many injectables focus on",
+                  "items": [
+                    "Volume",
+                    "Contour",
+                    "Structural enhancement"
+                  ]
+                },
+                {
+                  "title": "Profhilo focuses on",
+                  "items": [
+                    "Hydration",
+                    "Elasticity",
+                    "Skin quality",
+                    "Bio-remodelling"
+                  ]
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results Timeline",
+              "items": [
+                { "title": "First 1–2 Weeks", "description": "Skin often feels more hydrated and refreshed." },
+                { "title": "2–6 Weeks", "description": "Improvements in elasticity and skin quality become increasingly noticeable." },
+                { "title": "6–12 Weeks", "description": "Bio-remodelling processes continue supporting healthier skin behaviour." },
+                { "title": "Maintenance", "description": "Periodic treatments may help support long-term skin quality and healthy ageing." }
+              ]
             },
             "idealFor": {
               "title": "Best",
               "highlight": "For",
               "titleSuffix": "",
               "items": [
-                "Dull, dehydrated skin",
-                "Menopause dryness",
+                "Dehydrated skin",
+                "Loss of elasticity",
                 "Fine lines",
-                "Loss of elasticity"
+                "Crepey skin",
+                "Menopause skin change",
+                "Skin laxity",
+                "Dull skin",
+                "Healthy ageing programmes"
+              ]
+            },
+            "faqs": {
+              "title": "Questions Women Commonly Ask About Profhilo",
+              "items": [
+                { "question": "What Is Profhilo?", "answer": "Profhilo is an injectable bio-remodelling treatment designed to improve hydration, elasticity and skin quality without significantly altering facial shape or creating volume." },
+                { "question": "Is Profhilo A Filler?", "answer": "No. Fillers are used to restore volume and contours. Profhilo is designed to improve hydration, elasticity and overall skin quality across a wider area." },
+                { "question": "How Does Profhilo Work?", "answer": "Profhilo delivers stabilised hyaluronic acid into selected treatment points. It then spreads through tissue to support hydration and biological processes associated with healthier skin function." },
+                { "question": "Profhilo Or Polynucleotides?", "answer": "Both are skin-quality treatments but they support different priorities. Profhilo is hydration and elasticity focused. Polynucleotides are more regeneration and tissue-repair focused." },
+                { "question": "Profhilo Or Skin Boosters?", "answer": "Profhilo is often grouped with skin boosters but is distinct for its bio-remodelling behaviour across larger treatment areas." },
+                { "question": "Is Profhilo Suitable During Menopause?", "answer": "Yes. Many women explore Profhilo during menopause when hydration, elasticity and skin quality decline become more noticeable." },
+                { "question": "How Many Treatments Will I Need?", "answer": "Most protocols begin with two treatments spaced around four weeks apart, followed by maintenance depending on skin condition and goals." },
+                { "question": "Can Profhilo Be Combined With Anti-Wrinkle Treatments?", "answer": "Yes. They address different aspects of ageing and are frequently combined within the same strategy." },
+                { "question": "Can Profhilo Improve Crepey Skin?", "answer": "Many clients notice gradual improvement in hydration and elasticity that can improve crepey skin appearance over time." },
+                { "question": "When Will I See Results?", "answer": "Early hydration changes are often seen in the first weeks, with progressive improvements in elasticity and quality over four to twelve weeks." }
+              ]
+            },
+            "perfectTreatmentPairings": {
+              "title": "Perfect Treatment Pairings",
+              "introduction": "Profhilo is often integrated into broader plans where hydration, regeneration and facial expression are managed together.",
+              "pairings": [
+                { "name": "Skin Boosters", "description": "Supporting hydration and skin quality.", "whyItPairsWell": "Hydration-focused layering.", "url": "/treatments/injectable-skin-optimisation/definisse-hydrobooster" },
+                { "name": "Polynucleotides", "description": "Supporting regeneration and tissue resilience.", "whyItPairsWell": "Hydration plus regeneration.", "url": "/treatments/skin-renewal-regeneration/polynucleotides" },
+                { "name": "Microneedling", "description": "Supporting collagen renewal and texture refinement.", "whyItPairsWell": "Surface and tissue quality support.", "url": "/treatments/skin-renewal-regeneration/microneedling" },
+                { "name": "Chemical Peels", "description": "Supporting clarity and controlled skin renewal.", "whyItPairsWell": "Tone refinement plus hydration strategy.", "url": "/treatments/skin-renewal-regeneration/chemical-peel" },
+                { "name": "Anti-Wrinkle Treatments", "description": "Supporting facial harmony and expression management.", "whyItPairsWell": "Expression and skin-quality support.", "url": "/treatments/structural-collagen-support/anti-wrinkle-injections" }
               ]
             },
             "ulandaConnection": {
-              "subtitle": "ULANDA Protocol",
-              "sections": [
-                {
-                  "title": "Protocol",
-                  "description": "2 sessions, 4 weeks apart.",
-                  "points": [],
-                  "conclusion": "",
-                  image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-                  placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-                }
-              ]
+              "title": "THE ULANDA CONNECTION — HOW PROFHILO SUPPORTS SKIN VITALITY",
+              "content": [
+                "At ULANDA, Profhilo is not viewed simply as a skin booster.",
+                "It is incorporated into broader programmes designed to support hydration, elasticity, menopause skin change and long-term skin quality.",
+                "The goal is not simply smoother skin.",
+                "The goal is helping the skin remain resilient, hydrated and healthy as it changes through different stages of life."
+              ],
+              "tagline": "Look Like Yourself. Feel Like Yourself. Understanding Before Treatment."
             },
             "cta": {
-              "title": "Deep",
-              "highlight": "Hydration",
-              "description": "Book your Profhilo consultation at ULANDA.",
+              "title": "Support Hydration, Elasticity &",
+              "highlight": "Skin Quality",
+              "description": "Book your Profhilo consultation at ULANDA and discover how bio-remodelling can support healthier, more resilient skin over time.",
               "buttonText": "Book Advanced Skin Health Consultation"
             }
           },
@@ -2825,19 +3020,18 @@ export const treatments = {
             },
             "seo": {
               "title": "Microneedling Hertfordshire | Collagen Induction (Morpheus8 Alternative) | ULANDA Ware",
-              "description": "Medical microneedling in Hertfordshire at ULANDA Ware. Collagen induction for pores, texture & scars — a regenerative alternative to Morpheus8."
+              "description": "Microneedling in Hertfordshire for texture, pores, acne scarring and skin quality decline. Collagen-induction treatment with low downtime."
             },
             "seoHeadings": {
               "h1": "Microneedling in Hertfordshire — Collagen Induction for Pores, Texture & Scars",
               "h2": [
-                "What Microneedling Treats: Pores, Texture, Fine Lines, Pigmentation",
-                "How Microneedling Works — Controlled Micro-Injuries & Collagen Remodeling",
-                "Microneedling vs Morpheus8 — Why We Chose Regenerative Microneedling",
-                "Microneedling vs RF Microneedling — Which Do You Need?",
-                "Your Treatment Experience (Before, During, After)",
-                "Best Treatment Combos (PN, PRP, Skin Boosters)",
-                "Conditions Microneedling Improves",
-                "Book Microneedling in Hertfordshire (Ware SG12)"
+                "Microneedling At A Glance",
+                "What Is Microneedling?",
+                "Why Women Choose Microneedling",
+                "Commonly Considered For",
+                "Questions Women Commonly Ask About Microneedling",
+                "Perfect Treatment Pairings",
+                "Book Your Microneedling Consultation"
               ]
             },
             "title": "Microneedling",
@@ -2858,26 +3052,129 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
             "category": "Renew",
-            "description": "Collagen induction • Texture rejuvenation • Glow boosting",
-            "introduction": {
+            "description": "Collagen-induction treatment designed to improve texture, pores, acne scarring and long-term skin quality.",
+            "at-a-glance": {
+              "title": "MICRONEEDLING AT A GLANCE",
+              "description": "Microneedling is a collagen-induction treatment that creates controlled micro-injuries within the skin to stimulate repair, collagen production and skin renewal.",
+              "commonly-used-for": [
+                "Enlarged pores",
+                "Uneven texture",
+                "Acne scarring",
+                "Fine lines",
+                "Skin quality decline",
+                "Menopause skin changes",
+                "Collagen support",
+                "Healthy ageing programmes"
+              ]
+            },
+            "what-are": {
               "title": "What Is Microneedling?",
-              "content": [
-                "Microneedling at ULANDA in Ware, Hertfordshire is a controlled micro-injury treatment that stimulates fibroblasts to create new collagen and elastin — naturally remodelling skin texture, pores, fine lines and acne scarring.",
-                "Microneedling vs Morpheus8: Morpheus8 combines microneedling with radiofrequency energy for deeper dermal heating. At ULANDA we have chosen a regenerative microneedling pathway — paired where appropriate with Polynucleotides, PRP or Skin Boosters — because it delivers comparable collagen-induction outcomes for most clients with significantly less downtime and a gentler experience for menopausal and reactive skin. Clients searching for Morpheus8 in Hertfordshire often find that a regenerative microneedling protocol is the better-suited starting point.",
-                "If you specifically require radiofrequency-driven dermal contraction, our team will discuss RF microneedling options at your consultation."
-              ],
-              "goals": [
-                "Smooths texture",
-                "Improves firmness",
-                "Enhances product absorption",
-                "Low downtime"
-              ],
-              "highlightBox": {
-                "text1": "Collagen induction therapy.",
-                "text2": "A regenerative alternative to Morpheus8 for most skin concerns."
-              },
-              image: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
-              placeholderUrl: "https://plus.unsplash.com/premium_photo-1661481689382-4445fd07fd5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWljcm9uZWVkbGluZ3xlbnwwfDF8MHx8fDA%3D",
+              "description": "Microneedling at ULANDA in Ware, Hertfordshire is a controlled collagen-induction treatment designed to stimulate the skin's natural repair and renewal processes.\n\nUsing fine sterile needles, controlled micro-channels are created within the skin. These micro-injuries trigger fibroblast activity, encouraging the production of collagen and elastin — two essential proteins responsible for skin firmness, resilience and structure.\n\nAs new collagen develops, the skin gradually becomes smoother, stronger and more refined.\n\nMicroneedling is commonly used to improve concerns such as enlarged pores, uneven texture, acne scarring, fine lines and early signs of skin quality decline.\n\nUnlike treatments that focus purely on the surface of the skin, microneedling works by supporting biological renewal from within.\n\nAt ULANDA, microneedling is often incorporated into broader skin quality, healthy ageing and regenerative treatment programmes where the objective is long-term improvement rather than temporary correction.",
+              "additional-info": ""
+            },
+            "internalSupport": {
+              "title": "Why Women Choose",
+              "titleSuffix": "Microneedling",
+              "points": [
+                { "title": "Trusted collagen induction", "description": "Supports natural skin renewal with minimal downtime." },
+                { "title": "Broad concern coverage", "description": "Frequently used for texture, pores, acne scarring, fine lines and dullness." },
+                { "title": "Menopause-aware support", "description": "Can be integrated into plans for hormone-related skin quality decline." },
+                { "title": "Regenerative strategy", "description": "Encourages skin regeneration rather than masking concerns." },
+                { "title": "Long-term planning", "description": "Often used as a foundational treatment within healthy ageing programmes." }
+              ]
+            },
+            "conditios": {
+              "description": "This treatment is effective for the following conditions.",
+              "items": [
+                { "title": "Enlarged pores", "description": "Supports collagen around pore structures for improved refinement." },
+                { "title": "Acne scarring", "description": "Supports collagen remodelling in textured scar tissue." },
+                { "title": "Post-inflammatory hyperpigmentation", "description": "Can be incorporated into broader pigment-support pathways." },
+                { "title": "Stretch marks", "description": "Used to support collagen remodelling in affected skin." },
+                { "title": "Texture decline", "description": "Improves smoothness and tactile skin quality." },
+                { "title": "Uneven texture", "description": "Supports more even, refined surface quality." },
+                { "title": "Fine lines", "description": "Helps improve early structural line changes." },
+                { "title": "Skin quality decline", "description": "Supports healthier regenerative skin behaviour." },
+                { "title": "Menopause skin changes", "description": "Useful within hormone-aware skin quality programmes." }
+              ]
+            },
+            "commonlyConsideredFor": {
+              "title": "Commonly Considered For",
+              "categories": [
+                {
+                  "title": "Acne Scarring",
+                  "description": "Microneedling supports collagen remodelling where previous breakouts have left textural change or shallow scarring.",
+                  "internalLink": {
+                    "anchorText": "Explore Acne, Breakouts & Texture →",
+                    "url": "/conditions/acne-texture"
+                  }
+                },
+                {
+                  "title": "Enlarged Pores",
+                  "description": "As collagen declines, pores may appear larger. Microneedling can improve overall skin texture and pore appearance over time."
+                },
+                {
+                  "title": "Menopause Skin Changes",
+                  "description": "Hormonal transition can affect collagen production, elasticity and resilience.",
+                  "internalLink": {
+                    "anchorText": "Explore Menopause & Hormonal Skin Change →",
+                    "url": "/conditions/menopause-hormone-skin-changes"
+                  }
+                },
+                {
+                  "title": "Healthy Ageing & Skin Quality",
+                  "description": "Many women use microneedling within prevention-focused strategies to maintain collagen and skin quality.",
+                  "internalLink": {
+                    "anchorText": "Explore Facial Balance & Vitality →",
+                    "url": "/conditions/facial-balance-vitality"
+                  }
+                },
+                {
+                  "title": "Post-Inflammatory Hyperpigmentation",
+                  "description": "May be incorporated into treatment programmes addressing residual pigmentation marks following inflammation.",
+                  "internalLink": {
+                    "anchorText": "Explore Pigmentation, Melasma & Uneven Tone →",
+                    "url": "/conditions/pigmentation-and-skin-tone"
+                  }
+                },
+                {
+                  "title": "Stretch Marks",
+                  "description": "Frequently used to support collagen remodelling within skin affected by stretch marks.",
+                  "internalLink": {
+                    "anchorText": "Explore Stretch Marks →",
+                    "url": "/conditions/body-skin-structural/stretch-marks"
+                  }
+                },
+                {
+                  "title": "Skin Recovery & Renewal",
+                  "description": "May be used in broader programmes improving resilience after inflammation, skin fatigue or quality decline.",
+                  "internalLink": {
+                    "anchorText": "Explore Dehydration, Dullness & Skin Recovery →",
+                    "url": "/conditions/dehydration-dullness-skin-recovery"
+                  }
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results Timeline",
+              "items": [
+                { "title": "24–72 Hours", "description": "Skin may appear pink, tighter and slightly more sensitive as natural repair begins." },
+                { "title": "1–2 Weeks", "description": "Many clients notice brighter, fresher and smoother-looking skin." },
+                { "title": "4–8 Weeks", "description": "New collagen production begins supporting visible improvements in texture, pores and skin quality." },
+                { "title": "8–12 Weeks", "description": "Progressive improvements in smoothness, resilience and overall quality become increasingly noticeable." },
+                { "title": "Long-Term Maintenance", "description": "Periodic treatments may help support ongoing collagen renewal and healthy skin function." }
+              ]
+            },
+            "whyTheseChangesHappen": {
+              "title": "Why These Changes Happen",
+              "introduction": "Read the clinical context behind this treatment approach.",
+              "insights": [
+                { "title": "Acne Scarring Explained: Why Texture Changes Remain After Breakouts", "summary": "Why texture changes remain after breakouts.", "url": "/journal/acne-scarring" },
+                { "title": "Enlarged Pores: Why They Become More Visible Over Time", "summary": "Why they become more visible over time.", "url": "/journal/enlarged-pores" },
+                { "title": "Menopause and Collagen Loss", "summary": "Why structural ageing accelerates in midlife." },
+                { "title": "Collagen Decline Explained", "summary": "Why skin loses firmness over time." },
+                { "title": "Photoaging Explained", "summary": "How UV exposure changes skin structure over time." },
+                { "title": "Inflammation-Driven Pigmentation", "summary": "Why sensitive skin develops dark spots." }
+              ]
             },
             "idealFor": {
               "title": "Best",
@@ -2888,13 +3185,51 @@ export const treatments = {
                 "Enlarged pores",
                 "Acne scarring",
                 "Fine lines",
-                "Menopause dullness"
+                "Menopause dullness",
+                "Skin quality decline",
+                "Early collagen loss",
+                "Prevention-focused healthy ageing"
               ]
             },
+            "faqs": {
+              "title": "Questions Women Commonly Ask About Microneedling",
+              "items": [
+                { "question": "What Is Microneedling?", "answer": "Microneedling is a collagen-induction treatment that stimulates skin repair through controlled micro-injuries, supporting collagen and elastin production." },
+                { "question": "How Does Microneedling Stimulate Collagen?", "answer": "Micro-injuries activate the skin's repair response. Fibroblasts then produce collagen and elastin progressively over subsequent weeks." },
+                { "question": "Is Microneedling Good For Acne Scars?", "answer": "Microneedling is commonly used for acne scarring because it supports collagen remodelling in textured areas over a course of treatment." },
+                { "question": "Can Microneedling Improve Enlarged Pores?", "answer": "It may help reduce the appearance of enlarged pores by improving collagen support around pore structures." },
+                { "question": "Is Microneedling Suitable During Menopause?", "answer": "Yes. It is frequently used in menopause skin programmes to support collagen renewal and skin quality." },
+                { "question": "Microneedling Or Chemical Peel?", "answer": "Microneedling is collagen-focused. Chemical peels are turnover and pigmentation-focused. They can be complementary depending on goals." },
+                { "question": "Microneedling Or Polynucleotides?", "answer": "Microneedling and Polynucleotides are often complementary, with one driving collagen induction and the other supporting regeneration and repair." },
+                { "question": "How Many Sessions Will I Need?", "answer": "Most clients benefit from a course rather than a single session. The exact number depends on concern severity and treatment goals." },
+                { "question": "Can Microneedling Be Combined With Other Treatments?", "answer": "Yes. It is commonly combined with Polynucleotides, PRP, Skin Boosters and Chemical Peels in structured programmes." }
+              ]
+            },
+            "perfectTreatmentPairings": {
+              "title": "Perfect Treatment Pairings",
+              "introduction": "Microneedling is frequently combined with regenerative and hydration-focused treatments.",
+              "pairings": [
+                { "name": "Polynucleotides", "description": "Supporting tissue repair, regeneration and skin strengthening.", "whyItPairsWell": "Collagen induction plus regenerative support.", "url": "/treatments/skin-renewal-regeneration/polynucleotides" },
+                { "name": "PRP", "description": "Supporting collagen activity and natural healing processes.", "whyItPairsWell": "Amplifies biological recovery pathways.", "url": "/treatments/skin-renewal-regeneration/prp-skin-regeneration" },
+                { "name": "Skin Boosters", "description": "Supporting hydration, elasticity and skin quality.", "whyItPairsWell": "Hydration support alongside collagen renewal.", "url": "/treatments/injectable-skin-optimisation/profhilo" },
+                { "name": "Chemical Peels", "description": "Supporting texture refinement, pigmentation correction and renewal.", "whyItPairsWell": "Surface renewal plus structural renewal.", "url": "/treatments/skin-renewal-regeneration/chemical-peel" },
+                { "name": "Anti-Wrinkle Treatments", "description": "Supporting facial harmony and healthy ageing.", "whyItPairsWell": "Expression and skin-quality strategy combined.", "url": "/treatments/structural-collagen-support/anti-wrinkle-injections" }
+              ]
+            },
+            "ulandaConnection": {
+              "title": "The ULANDA Connection — How Microneedling Supports Healthy Skin Renewal",
+              "content": [
+                "At ULANDA, microneedling is not viewed simply as a texture treatment.",
+                "It is incorporated into broader programmes focused on skin quality, collagen support, acne recovery, menopause skin change and healthy ageing.",
+                "The goal is not simply smoother skin.",
+                "The goal is helping the skin renew, recover and behave more like healthy skin again."
+              ],
+              "tagline": "Look Like Yourself. Feel Like Yourself. Understanding Before Treatment."
+            },
             "cta": {
-              "title": "Boost Your",
-              "highlight": "Collagen",
-              "description": "Book your Microneedling consultation at ULANDA.",
+              "title": "Support Your Skin's Natural",
+              "highlight": "Renewal",
+              "description": "Book your Microneedling consultation at ULANDA and discover how a structured collagen-support programme can improve texture, resilience and long-term skin quality.",
               "buttonText": "Book Advanced Skin Health Consultation"
             }
           }
@@ -2916,19 +3251,19 @@ export const treatments = {
               "bookingType": "consultation"
             },
             "seo": {
-              "title": "Polynucleotides Ware SG12 | Regenerative DNA Repair | ULANDA",
-              "description": "Advanced Polynucleotides (PN) treatment in Ware. Repair thinning skin, dark circles & laxity. Ideal for postpartum & menopause skin regeneration."
+              "title": "Polynucleotides (PN) Hertfordshire | Regenerative Skin Repair | ULANDA",
+              "description": "Polynucleotides (PN) in Hertfordshire for regenerative skin repair, tissue resilience, under-eye rejuvenation and menopause-related skin change."
             },
             "seoHeadings": {
-              "h1": "Polynucleotides (PN) in Ware SG12 — Advanced Regenerative Skin Repair for Postpartum & Menopause Skin",
+              "h1": "Polynucleotides (PN) in Hertfordshire — Advanced Regenerative Skin Repair & Recovery",
               "h2": [
-                "What PN Treats: Laxity, Crepey Skin, Dullness, Dark Circles & Inflammation",
-                "How Polynucleotides Work — Cellular Repair, Fibroblast Activation & DNA Fragment Regeneration",
-                "PN vs Skin Boosters vs PRP — Which Is Best for Your Skin Stage?",
-                "PN Treatment Journey at ULANDA (Week-by-Week Outcome Timeline)",
-                "Best Combined Treatments (Microneedling, Skin Boosters, Biostimulators)",
-                "Conditions PN Improves (Crosslinks)",
-                "Book Polynucleotides in Ware SG12"
+                "Polynucleotides (PN) At A Glance",
+                "What Are Polynucleotides?",
+                "Why Women Choose Polynucleotides",
+                "Commonly Considered For",
+                "Questions Women Commonly Ask About Polynucleotides",
+                "Perfect Treatment Pairings",
+                "Book Your Polynucleotides Consultation"
               ]
             },
             "title": "Polynucleotides",
@@ -2937,7 +3272,8 @@ export const treatments = {
             "benefits": [
               "Cellular repair",
               "Collagen stimulation",
-              "Elasticity revival"
+              "Elasticity revival",
+              "Tissue regeneration"
             ],
             "locations": [
               "Ware SG12",
@@ -2948,26 +3284,68 @@ export const treatments = {
             image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
             placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
             "category": "Renew",
-            "description": "Cellular repair • Collagen stimulation • Elasticity revival",
-            "introduction": {
+            "description": "Regenerative injectable treatment supporting tissue repair, collagen production and long-term skin resilience.",
+            "at-a-glance": {
+              "title": "POLYNUCLEOTIDES (PN) AT A GLANCE",
+              "description": "Polynucleotides are regenerative injectable treatments designed to support tissue repair, collagen production, skin quality and cellular recovery. Unlike treatments focused primarily on hydration or volume, they support the skin's natural repair processes and improve tissue resilience over time.",
+              "commonly-used-for": [
+                "Under-eye rejuvenation",
+                "Menopause skin change",
+                "Crepey skin",
+                "Skin thinning",
+                "Skin quality decline",
+                "Post-inflammatory recovery",
+                "Healthy ageing",
+                "Tissue regeneration"
+              ]
+            },
+            "what-are": {
               "title": "What Are Polynucleotides?",
-              "content": [
-                "Polynucleotides (PDRN/PN/PNA) are DNA fragments derived from natural sources that repair the skin at a cellular level.",
-                "They activate fibroblasts, increase collagen, improve elasticity, restore hydration and reduce inflammation."
+              "description": "Polynucleotides (PDRN / PN / PNA) are DNA fragments derived from natural sources that help repair the skin at a cellular level.\n\nThey work by stimulating fibroblasts, supporting collagen production, improving elasticity, encouraging tissue repair and helping regulate inflammation.\n\nRather than simply hydrating the skin or replacing lost volume, Polynucleotides focus on supporting healthier skin behaviour through regeneration and recovery.\n\nThis makes them particularly valuable for fragile, thinning or stressed skin where resilience has declined.\n\nAt ULANDA, Polynucleotides are frequently incorporated into programmes addressing menopause skin change, under-eye ageing, skin thinning, inflammation-related concerns and healthy ageing.",
+              "items": [
+                "Thickens and strengthens the skin",
+                "Improves elasticity and firmness",
+                "Supports collagen production",
+                "Improves hydration",
+                "Reduces inflammation and redness",
+                "Supports skin recovery",
+                "Excellent for under-eye rejuvenation without filler",
+                "Supports long-term skin quality"
               ],
-              "goals": [
-                "Thickens & strengthens the skin",
-                "Improves elasticity + firmness",
-                "Hydrates from within",
-                "Reduces inflammation + redness",
-                "Excellent for tear troughs without filler"
-              ],
-              "highlightBox": {
-                "text1": "Deep regeneration for thinning skin.",
-                "text2": "Activates your body's own repair mechanisms."
-              },
-              image: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
-              placeholderUrl: "https://plus.unsplash.com/premium_photo-1675335221491-bc60e667ecfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9seW51Y2xlb3RpZGVzfGVufDB8MXwwfHx8MA%3D%3D",
+              "additional-info": ""
+            },
+            "internalSupport": {
+              "title": "Why Women Choose",
+              "titleSuffix": "Polynucleotides",
+              "points": [
+                { "title": "Biological repair focus", "description": "Designed to support skin repair mechanisms rather than surface-level correction." },
+                { "title": "Thinning and fragility support", "description": "Frequently selected when skin becomes thinner, crepey or less resilient." },
+                { "title": "Under-eye suitability", "description": "Commonly used for creasing, pigmentation and tissue fragility around the eye area." },
+                { "title": "Menopause skin support", "description": "Often integrated into programmes where collagen decline and fragility are more visible." },
+                { "title": "Regenerative strategy", "description": "Supports strengthening and recovery rather than masking skin changes." }
+              ]
+            },
+            "detailedBenefits": {
+              "title": "Why Polynucleotides Are Different",
+              "sections": [
+                {
+                  "title": "Many treatments focus on",
+                  "items": [
+                    "Hydration",
+                    "Volume restoration",
+                    "Surface correction"
+                  ]
+                },
+                {
+                  "title": "Polynucleotides focus on",
+                  "items": [
+                    "Repair",
+                    "Recovery",
+                    "Regeneration",
+                    "Resilience"
+                  ]
+                }
+              ]
             },
             "idealFor": {
               "title": "Best",
@@ -2977,28 +3355,130 @@ export const treatments = {
                 "Menopause skin thinning",
                 "Fine lines",
                 "Under-eye crepiness",
+                "Under-eye hollowness",
                 "Acne scarring",
                 "Dull or fragile skin",
-                "Slow healing / inflammatory skin"
+                "Slow healing skin",
+                "Inflammatory skin conditions",
+                "Skin quality decline",
+                "Healthy ageing support"
+              ]
+            },
+            "conditios": {
+              "description": "This treatment may support the following conditions.",
+              "items": [
+                { "title": "Crepey skin", "description": "Supports tissue quality and elasticity." },
+                { "title": "Crepey under-eye skin", "description": "Frequently used in under-eye rejuvenation plans." },
+                { "title": "Dark circles", "description": "May support skin quality where tissue fragility contributes." },
+                { "title": "Dull dehydrated skin", "description": "Supports healthier regenerative skin behaviour." },
+                { "title": "Enlarged pores", "description": "Can be part of wider skin quality programmes." },
+                { "title": "Menopause skin decline", "description": "Supports resilience during collagen and elasticity changes." },
+                { "title": "Neck crepiness", "description": "Used to support tissue quality and hydration." },
+                { "title": "Post-inflammatory hyperpigmentation", "description": "May be included in recovery-focused programmes." },
+                { "title": "Skin laxity", "description": "Supports structural skin resilience over time." },
+                { "title": "Tear trough concerns", "description": "Alternative regenerative support where filler is not the primary goal." },
+                { "title": "Texture decline", "description": "Improves smoothness and quality through regeneration." },
+                { "title": "Under-eye pigmentation", "description": "May support tissue quality around under-eye discolouration." },
+                { "title": "Uneven texture", "description": "Supports long-term texture improvement." }
+              ]
+            },
+            "commonlyConsideredFor": {
+              "title": "Commonly Considered For",
+              "categories": [
+                {
+                  "title": "Under-Eye Concerns",
+                  "description": "Frequently used around the eye area where thinning, creasing, pigmentation and tissue fragility contribute to a tired appearance.",
+                  "internalLink": {
+                    "anchorText": "Explore Under-Eye Concerns →",
+                    "url": "/conditions/eye-area"
+                  }
+                },
+                {
+                  "title": "Menopause Skin Change",
+                  "description": "Hormonal transition can accelerate collagen loss, reduce skin thickness and compromise elasticity.",
+                  "internalLink": {
+                    "anchorText": "Explore Menopause & Hormonal Skin Change →",
+                    "url": "/conditions/menopause-hormone-skin-changes"
+                  }
+                },
+                {
+                  "title": "Crepey Skin & Skin Thinning",
+                  "description": "Supports regenerative processes involved in maintaining healthier skin structure."
+                },
+                {
+                  "title": "Healthy Ageing & Skin Quality",
+                  "description": "Often used in prevention-focused strategies where the goal is stronger, healthier and more resilient skin.",
+                  "internalLink": {
+                    "anchorText": "Explore Facial Balance & Vitality →",
+                    "url": "/conditions/facial-balance-vitality"
+                  }
+                },
+                {
+                  "title": "Skin Recovery & Repair",
+                  "description": "Frequently incorporated into programmes supporting recovery after inflammation, barrier compromise or prolonged skin stress.",
+                  "internalLink": {
+                    "anchorText": "Explore Dehydration, Dullness & Skin Recovery →",
+                    "url": "/conditions/dehydration-dullness-skin-recovery"
+                  }
+                },
+                {
+                  "title": "Post-Inflammatory Skin Change",
+                  "description": "Where previous inflammation has contributed to textural change or reduced skin quality.",
+                  "internalLink": {
+                    "anchorText": "Explore Pigmentation, Melasma & Uneven Tone →",
+                    "url": "/conditions/pigmentation-and-skin-tone"
+                  }
+                }
+              ]
+            },
+            "resultsTimeline": {
+              "title": "Results Timeline",
+              "items": [
+                { "title": "1–2 Weeks", "description": "Skin often feels calmer, healthier and more hydrated." },
+                { "title": "2–6 Weeks", "description": "Improvement in skin quality, tissue resilience and elasticity becomes increasingly noticeable." },
+                { "title": "6–12 Weeks", "description": "Progressive collagen support and regenerative improvements continue to develop." },
+                { "title": "Long-Term Maintenance", "description": "Periodic treatments may help support ongoing tissue quality, resilience and healthy ageing." }
+              ]
+            },
+            "faqs": {
+              "title": "Questions Women Commonly Ask About Polynucleotides",
+              "items": [
+                { "question": "What Are Polynucleotides?", "answer": "Polynucleotides are regenerative injectable treatments that support tissue repair, collagen production and skin recovery." },
+                { "question": "How Do Polynucleotides Work?", "answer": "They support biological repair processes by stimulating fibroblasts, encouraging collagen production and helping regulate inflammatory activity." },
+                { "question": "Are Polynucleotides The Same As Profhilo?", "answer": "No. Profhilo primarily focuses on hydration and elasticity. Polynucleotides are more focused on tissue repair, regeneration and cellular recovery." },
+                { "question": "Polynucleotides Or Skin Boosters?", "answer": "Skin boosters are primarily hydration-focused. Polynucleotides place greater emphasis on regeneration and tissue repair." },
+                { "question": "Are Polynucleotides Good For Under-Eyes?", "answer": "Yes. They are among the most commonly used regenerative options for under-eye tissue quality concerns." },
+                { "question": "Can Polynucleotides Help Menopause Skin?", "answer": "Yes. They are commonly used where menopause-related decline in collagen, elasticity and resilience is present." },
+                { "question": "How Many Sessions Will I Need?", "answer": "Most protocols involve a course of two to four sessions, followed by maintenance based on individual response and goals." },
+                { "question": "Can Polynucleotides Be Combined With Microneedling?", "answer": "Yes. The combination is common because microneedling supports collagen stimulation while Polynucleotides support regeneration and recovery." }
+              ]
+            },
+            "perfectTreatmentPairings": {
+              "title": "Perfect Treatment Pairings",
+              "introduction": "Polynucleotides are frequently integrated with complementary regenerative and skin-quality treatments.",
+              "pairings": [
+                { "name": "PRP", "description": "Supporting natural healing and collagen activity.", "whyItPairsWell": "Regeneration and growth-factor support.", "url": "/treatments/skin-renewal-regeneration/prp-skin-regeneration" },
+                { "name": "Microneedling", "description": "Supporting collagen stimulation and texture improvement.", "whyItPairsWell": "Collagen induction plus regenerative repair.", "url": "/treatments/skin-renewal-regeneration/microneedling" },
+                { "name": "Chemical Peels", "description": "Supporting skin renewal and clarity.", "whyItPairsWell": "Surface refinement alongside tissue recovery.", "url": "/treatments/skin-renewal-regeneration/chemical-peel" },
+                { "name": "Skin Boosters", "description": "Profhilo and Jalupro to support hydration and elasticity.", "whyItPairsWell": "Regeneration plus hydration strategy.", "url": "/treatments/injectable-skin-optimisation/profhilo" },
+                { "name": "Anti-Wrinkle Treatments", "description": "Supporting facial harmony and healthy ageing.", "whyItPairsWell": "Expression and skin-quality management together.", "url": "/treatments/structural-collagen-support/anti-wrinkle-injections" }
               ]
             },
             "ulandaConnection": {
-              "subtitle": "ULANDA Protocol",
-              "sections": [
-                {
-                  "title": "Protocol",
-                  "description": "AI skin analysis to identify thinning zones. Course of 2–4 sessions. Often combined with microneedling or PRP.",
-                  "points": [],
-                  "conclusion": "Results: 2–12 weeks, progressive. Downtime: Minimal.",
-                  image: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-                  placeholderUrl: "https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=1200",
-                }
-              ]
+              "title": "THE ULANDA CONNECTION — HOW POLYNUCLEOTIDES SUPPORT SKIN REPAIR & HEALTHY AGEING",
+              "content": [
+                "At ULANDA, Polynucleotides are not viewed simply as another injectable treatment.",
+                "They are incorporated into broader programmes designed to support skin repair, menopause skin change, under-eye rejuvenation, tissue resilience and healthy ageing.",
+                "The goal is not simply hydration.",
+                "The goal is helping the skin recover, strengthen and behave more like healthy skin again.",
+                "Protocol: AI skin analysis is used to identify thinning and repair-priority zones. Typical course is 2–4 sessions and may be combined with Microneedling, PRP or Skin Boosters depending on treatment goals."
+              ],
+              "tagline": "Look Like Yourself. Feel Like Yourself. Understanding Before Treatment."
             },
             "cta": {
               "title": "Repair at the",
               "highlight": "Cellular Level",
-              "description": "Book your Polynucleotides consultation at ULANDA.",
+              "description": "Book your Polynucleotides consultation at ULANDA and discover how regenerative skin repair can support stronger, healthier and more resilient skin.",
               "buttonText": "Book Advanced Skin Health Consultation"
             }
           },

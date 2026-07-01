@@ -118,6 +118,9 @@ function generateStaticPaths() {
 
   // Authority Journal pages
   paths.push('/journal');
+  // Explicit additions for newly published journals
+  paths.push('/journal/enlarged-pores');
+  paths.push('/journal/acne-scarring');
   journalArticles
     .filter(a => a.status === 'published')
     .forEach(article => {

@@ -8236,6 +8236,479 @@ export const journalArticles = [
         content: "ULANDA is a nurse-led skin clinic in Ware SG12, Hertfordshire, supporting clients from Hertford, Hoddesdon and Broxbourne with structured Advanced Skin Health Consultations and clinically sequenced Signature treatments including Menopause Skin Rebuild, Photoaging & Skin Architecture and Skin Barrier Repair & Resilience. Our approach ensures hormonal pigmentation is stabilised before introducing advanced renewal and structural treatments."
       }
     ]
+  },
+  {
+    status: "published",
+    id: "enlarged-pores",
+    title: "Enlarged Pores: Why They Become More Visible Over Time",
+    subtitle: "My pores didn't used to look like this. Understand why pores become more visible over time and what this often signals about skin architecture.",
+    author: "Helen Balogun",
+    authorCredential: "Advanced Nurse Practitioner & Nurse Independent Prescriber",
+    date: "2026-07-01",
+    readTime: "10 min read",
+    image: "/assets/img/journal/Dehydrated-vs-dry-skin.webp",
+    keywords: "enlarged pores, visible pores, open pores, skin texture, acne scarring, collagen decline, photoaging, pore visibility",
+    seo: {
+      title: "Enlarged Pores: Why They Become More Visible Over Time | ULANDA Ware SG12",
+      description: "Understand why enlarged pores become more visible over time and how collagen behaviour, photoaging and skin architecture influence pore appearance.",
+      canonical: "https://www.ulanda.co.uk/journal/enlarged-pores"
+    },
+    relatedConditions: ["enlarged-pores", "acne-scarring", "sun-damage-photo-pigmentation"],
+    relatedTreatments: ["microneedling", "polynucleotides", "prp-skin-regeneration", "chemical-peel", "biorepeel", "led-light-therapy"],
+    relatedSignatures: ["photoaging-skin-architecture"],
+    content: [
+      {
+        type: "section",
+        title: "My Pores Didn't Used To Look Like This",
+        content: [
+          "Many people don't notice enlarged pores overnight.",
+          "Instead, they notice something more subtle.",
+          "The skin no longer appears as smooth as it once did.",
+          "Make-up sits differently.",
+          "Certain areas of the face catch the light in a way they never used to.",
+          "Photographs seem less forgiving.",
+          "The pores themselves may not have changed dramatically from one month to the next, yet the overall texture of the skin feels different.",
+          "This often leads to a common question:",
+          "\"Why do my pores seem more visible now than they did a few years ago?\"",
+          "The answer is usually more complex than excess oil alone."
+        ]
+      },
+      {
+        type: "section",
+        title: "What Are Pores?",
+        content: [
+          "Pores are natural openings in the skin.",
+          "Every pore contains a hair follicle and sebaceous gland.",
+          "They play an important role in allowing sebum (oil) to reach the skin surface, helping maintain hydration and barrier function.",
+          "In other words:",
+          { type: "list", items: ["Pores are normal.", "Everyone has them.", "The goal is not to eliminate pores.", "The goal is understanding why they sometimes become more noticeable."] }
+        ]
+      },
+      {
+        type: "section",
+        title: "Enlarged Pores Are Often A Skin Architecture Issue",
+        content: [
+          "One of the biggest misconceptions about enlarged pores is that they are purely an oil-related concern.",
+          "Oil production can certainly influence pore appearance.",
+          "However, skin structure also plays a major role.",
+          "Healthy skin is supported by collagen, elastin and a well-organised extracellular matrix.",
+          "These structures help provide firmness and support around each follicle opening.",
+          "As skin architecture changes over time, the support surrounding the pore can become less robust.",
+          "When this happens, pores may appear:",
+          { type: "list", items: ["Larger", "More visible", "More elongated", "More noticeable in certain lighting"] },
+          "The pore itself is not always the problem.",
+          "Often, the surrounding structure has changed."
+        ]
+      },
+      {
+        type: "section",
+        title: "Why Pores Often Become More Visible With Age",
+        content: [
+          "Many people first notice enlarged pores during periods when the skin's texture begins to change.",
+          "This is not a coincidence.",
+          "Over time:",
+          { type: "list", items: ["Collagen production gradually declines", "Elastin quality changes", "Skin elasticity reduces", "Tissue support weakens"] },
+          "As structural support decreases, pore openings can appear more prominent.",
+          "This is one reason why some people feel their pores become more noticeable despite having less oily skin than they did in their younger years.",
+          "The issue is no longer simply oil.",
+          "It is increasingly structural."
+        ]
+      },
+      {
+        type: "section",
+        title: "The Role Of Photoaging",
+        content: [
+          "Ultraviolet exposure affects more than pigmentation and wrinkles.",
+          "Over time, repeated exposure contributes to:",
+          { type: "list", items: ["Collagen degradation", "Elastin damage", "Oxidative stress", "Reduced skin resilience"] },
+          "Collectively, these changes alter skin architecture.",
+          "As support structures weaken, pores often become more visible.",
+          "This is one reason enlarged pores are frequently associated with broader concerns such as:",
+          { type: "list", items: ["Uneven texture", "Early laxity", "Reduced skin firmness", "Skin quality decline"] }
+        ]
+      },
+      {
+        type: "section",
+        title: "Why Acne Can Make Pores Appear Larger",
+        content: [
+          "Acne and enlarged pores often exist together.",
+          "Inflammation within the follicle can stretch pore openings and alter surrounding tissue.",
+          "Repeated breakouts may contribute to:",
+          { type: "list", items: ["Irregular collagen organisation", "Textural change", "Acne scarring", "More noticeable pore appearance"] },
+          "This is why enlarged pores are often part of a wider skin architecture conversation rather than an isolated concern."
+        ]
+      },
+      {
+        type: "section",
+        title: "Why Skincare Alone Doesn't Always Solve The Problem",
+        content: [
+          "Many products claim to \"shrink pores.\"",
+          "In reality, pores do not permanently open and close.",
+          "Certain ingredients can improve appearance by:",
+          { type: "list", items: ["Reducing congestion", "Controlling oil production", "Supporting skin renewal"] },
+          "These approaches can be very helpful.",
+          "However, when enlarged pores are linked to collagen decline, skin quality changes or structural support loss, skincare alone may not address the underlying cause.",
+          "This is why some people continue to notice pore visibility despite using good skincare consistently."
+        ]
+      },
+      {
+        type: "section",
+        title: "Enlarged Pores Are Often A Sign Of Changing Skin Behaviour",
+        content: [
+          "At ULANDA, we often view enlarged pores as a signal rather than a standalone condition.",
+          "The question becomes:",
+          "Why are the pores appearing more visible?",
+          "The answer may involve:",
+          { type: "list", items: ["Collagen behaviour", "Skin elasticity", "Acne history", "Oil production", "Photoaging", "Barrier health", "Overall skin quality"] },
+          "Understanding these factors helps create a more effective treatment strategy."
+        ]
+      },
+      {
+        type: "section",
+        title: "How We Approach Enlarged Pores At ULANDA",
+        content: [
+          "Before discussing treatment options, we seek to understand:",
+          { type: "list", items: ["Current skin behaviour", "Texture concerns", "Acne history", "Skin quality", "Barrier function", "Inflammation levels", "Structural support"] },
+          "Because enlarged pores rarely exist in isolation.",
+          "They usually form part of a broader pattern of skin change."
+        ]
+      },
+      {
+        type: "section",
+        title: "Treatment Approaches Commonly Considered For Enlarged Pores",
+        content: [
+          "Treatment recommendations vary according to the underlying cause.",
+          {
+            type: "list",
+            items: [
+              { label: "Microneedling", link: "/treatments/skin-renewal-regeneration/microneedling", text: "Microneedling supports collagen remodelling and may help improve skin texture and overall pore appearance over time." },
+              { label: "Polynucleotides", link: "/treatments/skin-renewal-regeneration/polynucleotides", text: "Polynucleotides support tissue repair and regeneration, helping create a healthier biological environment for skin quality improvement." },
+              { label: "PRP Skin Regeneration", link: "/treatments/skin-renewal-regeneration/prp-skin-regeneration", text: "PRP supports regenerative processes that may improve skin quality and texture." },
+              { label: "Chemical Peels", link: "/treatments/skin-renewal-regeneration/chemical-peel", text: "Chemical peels can support cell turnover, reduce congestion and improve overall skin refinement." },
+              { label: "BioRePeel", link: "/treatments/skin-renewal-regeneration/biorepeel", text: "BioRePeel may be considered when skin renewal and texture improvement are key objectives." },
+              "LED Light Therapy - LED Light Therapy may support recovery and inflammation management as part of a broader treatment strategy."
+            ]
+          }
+        ]
+      },
+      {
+        type: "section",
+        title: "The Goal Is Not Smaller Pores",
+        content: [
+          "This may sound surprising.",
+          "But the objective is rarely to make pores disappear.",
+          "The objective is to improve the quality of the skin surrounding them.",
+          "When skin architecture becomes healthier, stronger and more organised, pores often appear less noticeable naturally.",
+          "The focus shifts from chasing pores to improving skin quality as a whole."
+        ]
+      },
+      {
+        type: "section",
+        title: "Understanding Before Treatment™",
+        content: [
+          "Many people arrive looking for a product or treatment that will \"close\" their pores.",
+          "What they often need first is a better understanding of why their pores appear more visible.",
+          "Is it congestion?",
+          "Oil production?",
+          "Acne scarring?",
+          "Collagen decline?",
+          "Photoaging?",
+          "Skin quality changes?",
+          "The answer determines the strategy.",
+          "At ULANDA, every recommendation begins with understanding what has changed in the skin and why.",
+          "Because enlarged pores are rarely just about pores.",
+          "They are often one of the ways skin architecture tells us something deeper is changing."
+        ]
+      },
+      {
+        type: "section",
+        title: "Frequently Considered For",
+        content: [
+          {
+            type: "list",
+            items: [
+              "Enlarged Pores",
+              "Visible Pores",
+              "Open Pores",
+              "Uneven Skin Texture",
+              "Acne Scarring",
+              "Oily Skin",
+              "Skin Quality Decline",
+              "Rough Skin Texture",
+              "Photoaging",
+              "Collagen Loss"
+            ]
+          }
+        ]
+      },
+      {
+        type: "section",
+        title: "Related Treatment Approaches",
+        content: [
+          {
+            type: "list",
+            items: [
+              { label: "Microneedling", link: "/treatments/skin-renewal-regeneration/microneedling" },
+              { label: "Polynucleotides", link: "/treatments/skin-renewal-regeneration/polynucleotides" },
+              { label: "PRP Skin Regeneration", link: "/treatments/skin-renewal-regeneration/prp-skin-regeneration" },
+              { label: "Chemical Peels", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
+              { label: "BioRePeel", link: "/treatments/skin-renewal-regeneration/biorepeel" },
+              "LED Light Therapy"
+            ]
+          }
+        ]
+      },
+      {
+        type: "section",
+        title: "Related Clinical Topics",
+        content: [
+          {
+            type: "list",
+            items: [
+              { label: "Acne Scarring Explained: Why Texture Changes Remain After Breakouts", link: "/journal/acne-scarring" },
+              { label: "Inflammaging: The Silent Driver Behind Premature Skin Ageing", link: "/journal/inflammaging-skin-ageing" },
+              { label: "Collagen Decline Explained: Why Skin Loses Firmness Over Time", link: "/journal/collagen-decline-explained" },
+              { label: "Inflammation-Driven Pigmentation: Why Sensitive Skin Develops Dark Spots", link: "/journal/inflammation-driven-pigmentation" },
+              { label: "Over-Exfoliated Skin: Signs, Symptoms and How to Reverse Skin Barrier Damage", link: "/journal/over-exfoliated-skin-repair" },
+              { label: "Photoaging Explained: How UV Exposure Changes Skin Structure Over Time", link: "/journal/photoaging-explained" },
+              "Facial Balance & Vitality - Use this page once it is created"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    status: "published",
+    id: "acne-scarring",
+    title: "Acne Scarring Explained: Why Texture Changes Remain After Breakouts",
+    subtitle: "My acne has gone. Why doesn't my skin look the same? Understand why textural change can remain after breakouts and how skin architecture is affected.",
+    author: "Helen Balogun",
+    authorCredential: "Advanced Nurse Practitioner & Nurse Independent Prescriber",
+    date: "2026-07-01",
+    readTime: "11 min read",
+    image: "/assets/img/journal/Over-exfoliated-skin.webp",
+    keywords: "acne scarring explained, boxcar scars, rolling scars, ice pick scars, post acne texture, skin architecture, collagen remodelling",
+    seo: {
+      title: "Acne Scarring Explained: Why Texture Changes Remain After Breakouts | ULANDA Ware SG12",
+      description: "Understand why acne scarring and texture changes can remain after breakouts and how collagen behaviour and skin architecture influence recovery.",
+      canonical: "https://www.ulanda.co.uk/journal/acne-scarring"
+    },
+    relatedConditions: ["acne-scarring", "enlarged-pores", "post-inflammatory-hyperpigmentation"],
+    relatedTreatments: ["microneedling", "polynucleotides", "prp-skin-regeneration", "chemical-peel", "led-light-therapy"],
+    relatedSignatures: ["photoaging-skin-architecture", "structural-skin-regeneration"],
+    content: [
+      {
+        type: "section",
+        title: "My Acne Has Gone. Why Doesn't My Skin Look The Same?",
+        content: [
+          "For many people, clearing active acne feels like it should be the end of the journey.",
+          "The breakouts have settled.",
+          "The inflammation has reduced.",
+          "The painful spots have disappeared.",
+          "Yet when they look in the mirror, something still feels different.",
+          "The skin may appear uneven.",
+          "Certain areas catch the light differently.",
+          "Make-up may sit differently than before.",
+          "The surface no longer feels as smooth as it once did.",
+          "Many people describe it simply as:",
+          "\"My acne has gone, but my skin hasn't recovered.\"",
+          "This is one of the most common concerns we see after acne has improved.",
+          "The reason lies beneath the surface."
+        ]
+      },
+      {
+        type: "section",
+        title: "Why Does Acne Leave Lasting Changes In The Skin?",
+        content: [
+          "Acne is not simply a surface condition.",
+          "Inflammation develops within deeper layers of the skin and can affect the structures responsible for maintaining smoothness, strength and tissue integrity.",
+          "During an inflammatory breakout, the skin activates a repair response.",
+          "In an ideal situation, the tissue heals completely and normal skin architecture is restored.",
+          "However, when inflammation is significant, prolonged or recurrent, the repair process may not recreate the original structure perfectly.",
+          "Instead, changes can remain within the skin's architecture.",
+          "These changes are commonly referred to as acne scarring."
+        ]
+      },
+      {
+        type: "section",
+        title: "Acne Scars Are Often A Structural Change",
+        content: [
+          "Many people think of acne scars as marks on the surface.",
+          "In reality, most acne scars are changes within the deeper supporting structure of the skin.",
+          "Collagen is a key component of this structure.",
+          "When acne-related inflammation disrupts collagen organisation, the skin may heal with:",
+          { type: "list", items: ["Areas of tissue loss", "Uneven collagen distribution", "Irregular skin architecture", "Surface depressions", "Persistent texture changes"] },
+          "This is why acne scarring is often more noticeable in certain lighting conditions.",
+          "The issue is not always colour.",
+          "The issue is often structure."
+        ]
+      },
+      {
+        type: "section",
+        title: "Why Texture Changes Are Often More Noticeable Than Marks",
+        content: [
+          "Many people focus on post-inflammatory pigmentation because it is visible.",
+          "However, texture changes often create greater long-term concern.",
+          "Pigmentation reflects a colour change.",
+          "Texture reflects a structural change.",
+          "As pigmentation gradually fades, uneven skin architecture may remain.",
+          "This can present as:",
+          { type: "list", items: ["Small depressions", "Uneven texture", "Roughness", "Reduced smoothness", "Skin that reflects light unevenly"] },
+          "The skin may look healthy overall but still not appear as smooth as it once did."
+        ]
+      },
+      {
+        type: "section",
+        title: "Different Types Of Acne Scarring",
+        content: [
+          "Acne scarring is not a single condition.",
+          "Several different scar patterns can develop.",
+          { type: "heading", level: 3, text: "Atrophic Scars" },
+          "These are the most common acne scars.",
+          "They occur when insufficient collagen is produced during healing.",
+          "Examples include:",
+          { type: "list", items: ["Ice-pick scars", "Boxcar scars", "Rolling scars"] },
+          "These scars create areas of tissue loss and uneven texture.",
+          { type: "heading", level: 3, text: "Hypertrophic Scars" },
+          "Less common on the face, these occur when excess collagen is produced during healing.",
+          "The scar becomes raised above the surrounding skin.",
+          { type: "heading", level: 3, text: "Post-Inflammatory Pigmentation" },
+          "Although technically not a scar, pigmentation often develops following inflammation and can coexist with textural scarring."
+        ]
+      },
+      {
+        type: "section",
+        title: "Why The Skin Doesn't Always Repair Itself Completely",
+        content: [
+          "Many people assume that skin should naturally regenerate over time.",
+          "While the skin possesses remarkable healing capabilities, repair is not always the same as restoration.",
+          "The body prioritises healing.",
+          "It does not necessarily recreate the exact skin architecture that existed before inflammation occurred.",
+          "As a result, the skin may become stable and healthy while still retaining evidence of previous damage.",
+          "This is why acne scars can persist long after active acne has resolved."
+        ]
+      },
+      {
+        type: "section",
+        title: "The Goal Is Not To Hide The Scar",
+        content: [
+          "One of the biggest misconceptions surrounding acne scarring treatment is that the objective is to remove scars entirely.",
+          "In reality, treatment focuses on improving skin architecture.",
+          "This means supporting:",
+          { type: "list", items: ["Collagen remodelling", "Tissue repair", "Skin quality", "Surface smoothness", "Structural integrity"] },
+          "The objective is to encourage the skin to behave more like healthy, organised tissue again."
+        ]
+      },
+      {
+        type: "section",
+        title: "How We Approach Acne Scarring At ULANDA",
+        content: [
+          "At ULANDA, we view acne scarring through the lens of skin architecture rather than surface appearance alone.",
+          "Before discussing treatment options, we first seek to understand:",
+          { type: "list", items: ["The type of scarring present", "The severity of tissue change", "Current skin behaviour", "Barrier health", "Inflammation levels", "Skin sensitivity", "Previous treatment history"] },
+          "Every recommendation begins with understanding what the skin needs biologically."
+        ]
+      },
+      {
+        type: "section",
+        title: "Treatment Approaches Commonly Considered For Acne Scarring",
+        content: [
+          "Treatment recommendations vary according to scar type, skin type and overall skin health.",
+          "Approaches may include:",
+          {
+            type: "list",
+            items: [
+              { label: "Microneedling", link: "/treatments/skin-renewal-regeneration/microneedling", text: "Microneedling creates controlled stimulation within the skin to encourage collagen remodelling and improve skin texture over time." },
+              { label: "Polynucleotides", link: "/treatments/skin-renewal-regeneration/polynucleotides", text: "Polynucleotides support tissue repair and regeneration by creating a healthier biological environment for collagen activity." },
+              { label: "PRP Skin Regeneration", link: "/treatments/skin-renewal-regeneration/prp-skin-regeneration", text: "Platelet-Rich Plasma uses growth factors derived from your own blood to support tissue repair and regenerative processes." },
+              { label: "Chemical Peels", link: "/treatments/skin-renewal-regeneration/chemical-peel", text: "Selected chemical peels may help improve overall skin quality and support surface renewal when appropriate." },
+              "LED Light Therapy - LED Light Therapy may be used to support recovery and reduce inflammation as part of a broader treatment strategy."
+            ]
+          }
+        ]
+      },
+      {
+        type: "section",
+        title: "Why Early Treatment Matters",
+        content: [
+          "The earlier scar formation is understood, the more options are typically available.",
+          "This does not mean treatment must happen immediately.",
+          "It means understanding the skin's current condition allows for better planning and more realistic expectations.",
+          "Acne scarring is rarely improved through a single treatment.",
+          "Meaningful improvement is usually achieved through a structured approach focused on long-term skin quality and tissue remodelling."
+        ]
+      },
+      {
+        type: "section",
+        title: "Understanding Before Treatment™",
+        content: [
+          "Many people arrive expecting a recommendation for a specific procedure.",
+          "What they often need first is clarity.",
+          "What type of scar is present?",
+          "How much of the concern is pigmentation?",
+          "How much is structural?",
+          "What is realistically achievable?",
+          "These questions matter far more than selecting a treatment from a list.",
+          "At ULANDA, every acne scarring journey begins with understanding the biology of what has changed and developing a personalised plan to support healthier skin architecture over time.",
+          "Because the goal is not simply to treat a scar.",
+          "It is to help the skin move towards a stronger, smoother and more resilient version of itself."
+        ]
+      },
+      {
+        type: "section",
+        title: "Frequently Considered For",
+        content: [
+          {
+            type: "list",
+            items: [
+              "Acne Scarring",
+              "Rolling Acne Scars",
+              "Boxcar Scars",
+              "Ice Pick Scars",
+              "Uneven Skin Texture",
+              "Post-Acne Skin Changes",
+              "Enlarged Pores",
+              "Skin Surface Irregularities",
+              "Post-Inflammatory Pigmentation",
+              "Long-Term Skin Quality Improvement"
+            ]
+          }
+        ]
+      },
+      {
+        type: "section",
+        title: "Related Treatment Approaches",
+        content: [
+          {
+            type: "list",
+            items: [
+              { label: "Microneedling", link: "/treatments/skin-renewal-regeneration/microneedling" },
+              { label: "Polynucleotides", link: "/treatments/skin-renewal-regeneration/polynucleotides" },
+              { label: "PRP Skin Regeneration", link: "/treatments/skin-renewal-regeneration/prp-skin-regeneration" },
+              { label: "Chemical Peels", link: "/treatments/skin-renewal-regeneration/chemical-peel" },
+              "LED Light Therapy"
+            ]
+          }
+        ]
+      },
+      {
+        type: "section",
+        title: "Related Clinical Topics",
+        content: [
+          {
+            type: "list",
+            items: [
+              { label: "Inflammaging: The Silent Driver Behind Premature Skin Ageing", link: "/journal/inflammaging-skin-ageing" },
+              { label: "Collagen Decline Explained: Why Skin Loses Firmness Over Time", link: "/journal/collagen-decline-explained" },
+              { label: "Inflammation-Driven Pigmentation: Why Sensitive Skin Develops Dark Spots", link: "/journal/inflammation-driven-pigmentation" },
+              { label: "Over-Exfoliated Skin: Signs, Symptoms and How to Reverse Skin Barrier Damage", link: "/journal/over-exfoliated-skin-repair" },
+              { label: "Photoaging Explained: How UV Exposure Changes Skin Structure Over Time", link: "/journal/photoaging-explained" }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
 
