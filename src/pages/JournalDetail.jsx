@@ -287,8 +287,8 @@ export default function JournalDetail() {
                 </div>
               )}
 
-              <div className="mt-4">
-                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm text-white">
+              <div className="my-6">
+                <a href="https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ" target="_blank" rel="noopener noreferrer" className="bg-primary rounded-lg p-4 items-center justify-center btn-sm text-white">
                   Book Advanced Skin Health Consultation
                 </a>
               </div>
