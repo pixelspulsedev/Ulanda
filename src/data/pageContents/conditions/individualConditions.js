@@ -423,7 +423,7 @@ export const individualConditions = [
           title: "Menopause and Skin Biology: How Hormonal Shifts Change Skin Behaviour",
           url: "/journal/menopause-skin-biology",
           internalLinks: [
-            { text: "Facial Balance & Vitality", url: "/conditions/facial-balance-Vitality" },
+            { text: "Facial Balance & Vitality", url: "/conditions/facial-balance-vitality" },
             { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
             { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" },
             { text: "Polynucleotides", url: "/treatments/skin-renewal-regeneration/polynucleotides" }

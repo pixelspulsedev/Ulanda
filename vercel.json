@@ -901,11 +901,6 @@
       "source": "/contact/locations/aesthetic-clinic-sawbridgeworth",
       "destination": "/locations/aesthetic-clinic-sawbridgeworth",
       "permanent": true
-    },
-    {
-      "source": "/conditions/facial-balance-Vitality",
-      "destination": "/conditions/facial-balance-Vitality",
-      "permanent": true
     }
   ],
   "rewrites": [

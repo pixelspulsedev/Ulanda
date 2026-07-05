@@ -115,6 +115,10 @@ const generateSitemap = () => {
     'aesthetic-clinic-welwyn-garden-city',
     'aesthetic-clinic-stevenage',
     'aesthetic-clinic-sawbridgeworth',
+    'aesthetic-clinic-ware',
+    'aesthetic-clinic-stanstead-abbotts',
+    'aesthetic-clinic-great-amwell',
+    'aesthetic-clinic-buntingford',
   ];
   locationSlugs.forEach(slug => {
     urls.push(`/locations/${slug}`);
