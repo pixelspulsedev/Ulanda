@@ -6,10 +6,30 @@ import { Search, X } from 'lucide-react';
 import {
   getVisibleTreatmentCategories,
   findTreatmentById,
+  categorySEO,
 } from '../data/pageContents/treatments/drafts/treatments_restructured_draft';
 import { conditions } from '../data/pageContents/conditions/conditions';
 import { individualConditions } from '../data/pageContents/conditions/individualConditions';
+import { signaturePathways } from '../data/pageContents/signature/signatureData';
 import { getConditionUrl } from '../data/crosslinks';
+
+// Key non-treatment/condition pages that should be discoverable via search.
+const STATIC_SEARCH_PAGES = [
+  { title: 'Advanced Skin Health Consultation', description: 'Comprehensive clinician-led skin assessment and personalised treatment roadmap.', url: '/treatments/advanced-skin-health-consultation', keywords: 'consultation assessment ai skin analysis diagnostic' },
+  { title: 'The ULANDA Clinical System', description: 'Our diagnostic-led model of care — Understanding Before Treatment.', url: '/clinical-system', keywords: 'clinical system understanding before treatment pathways focused assessment' },
+  { title: 'Skin Barrier Renewal Protocol', description: 'Clinician-led barrier stabilisation before advanced treatment.', url: '/treatments/skin-barrier-renewal-protocol', keywords: 'barrier repair stabilisation renewal protocol' },
+  { title: 'Prescription Skincare', description: 'Medical-grade prescription skincare including Obagi Medical.', url: '/treatments/prescription-skincare', keywords: 'obagi prescription skincare medical grade tretinoin retinol' },
+  { title: 'Obagi Medical', description: 'Obagi medical prescription skincare programmes.', url: '/treatments/prescription-skincare/obagi-medical', keywords: 'obagi nu-derm prescription skincare' },
+  { title: 'Medical Aesthetics Clinic', description: 'Nurse-led medical aesthetics in Ware, Hertfordshire.', url: '/treatments/medical-aesthetics-clinic', keywords: 'medical aesthetics botox filler clinic' },
+  { title: 'All Treatments', description: 'Explore all treatments and treatment pathways.', url: '/treatments', keywords: 'treatments menu all' },
+  { title: 'Skin Conditions', description: 'Explore the skin concerns we treat.', url: '/conditions', keywords: 'conditions concerns skin' },
+  { title: 'Signature Programmes', description: 'Structured regenerative programmes for long-term skin health.', url: '/signature', keywords: 'signature programmes regenerative' },
+  { title: 'Clinical Journal', description: 'Clinical insights on skin science and regenerative medicine.', url: '/journal', keywords: 'journal articles science clinical insights' },
+  { title: 'The Skin Shift Guide', description: 'Free educational guide to skin change and barrier health.', url: '/downloads/skin-health', keywords: 'skin shift guide download free ebook' },
+  { title: 'About ULANDA', description: 'Our story and clinical approach.', url: '/about/our-story', keywords: 'about story clinic' },
+  { title: 'Our Founder', description: 'Meet Helen Balogun, Clinical Director.', url: '/about/our-founder', keywords: 'founder helen balogun nurse' },
+  { title: 'Contact', description: 'Get in touch with ULANDA.', url: '/contact', keywords: 'contact phone email address location' },
+];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -72,31 +92,35 @@ export default function Navbar() {
 
   // Get search results
   const searchResults = useMemo(() => {
-    if (!searchQuery.trim()) {
+    const query = searchQuery.trim().toLowerCase();
+    if (!query) {
       return [];
     }
 
-    const query = searchQuery.toLowerCase();
+    const norm = (v) => (Array.isArray(v) ? v.join(' ') : v || '');
     const results = [];
 
-    // Search treatments (new flattened structure)
+    // Search treatments (all visible categories)
     treatmentCategories.forEach((category) => {
       Object.entries(category.treatments || {}).forEach(
         ([treatmentKey, treatment]) => {
           if (!treatment) return;
 
-          let description = treatment.description || '';
-          if (Array.isArray(description)) {
-            description = description.join(' ');
-          }
+          const haystack = [
+            treatment.title,
+            treatment.highlight,
+            treatment.subtitle,
+            norm(treatment.description),
+            category.title,
+            treatment.seo?.title,
+            treatment.seo?.description,
+            treatment.seoHeadings?.h1,
+          ]
+            .map(norm)
+            .join(' ')
+            .toLowerCase();
 
-          const matchesSearch =
-            treatment.title?.toLowerCase().includes(query) ||
-            treatment.subtitle?.toLowerCase().includes(query) ||
-            description.toLowerCase().includes(query) ||
-            category.title?.toLowerCase().includes(query);
-
-          if (matchesSearch) {
+          if (haystack.includes(query)) {
             results.push({
               ...treatment,
               type: 'treatment',
@@ -109,20 +133,89 @@ export default function Navbar() {
       );
     });
 
-    // Search conditions
-    allConditions.forEach((condition) => {
-      const matchesSearch =
-        condition.title?.toLowerCase().includes(query) ||
-        condition.description?.toLowerCase().includes(query) ||
-        condition.seo?.title?.toLowerCase().includes(query) ||
-        condition.seo?.description?.toLowerCase().includes(query);
+    // Search treatment category landing pages
+    treatmentCategories.forEach((category) => {
+      const seo = categorySEO[category.id] || {};
+      const haystack = [
+        category.title,
+        category.subtitle,
+        norm(category.description),
+        seo.title,
+        seo.description,
+      ]
+        .map(norm)
+        .join(' ')
+        .toLowerCase();
+      if (haystack.includes(query)) {
+        results.push({
+          type: 'category',
+          title: category.title,
+          description: category.subtitle || norm(category.description),
+          url: `/treatments/${category.id}`,
+          categoryTitle: 'Treatment Category',
+          image: category.image,
+          placeholderUrl: category.placeholderUrl,
+        });
+      }
+    });
 
-      if (matchesSearch) {
+    // Search conditions (master + individual)
+    allConditions.forEach((condition) => {
+      const haystack = [
+        condition.title,
+        norm(condition.description),
+        condition.seo?.title,
+        condition.seo?.description,
+      ]
+        .map(norm)
+        .join(' ')
+        .toLowerCase();
+      if (haystack.includes(query)) {
         results.push(condition);
       }
     });
 
-    return results.slice(0, 8); // Limit to 8 results (increased from 6)
+    // Search Signature programmes
+    signaturePathways.forEach((sig) => {
+      const haystack = [
+        sig.title,
+        sig.subtitle,
+        norm(sig.concerns),
+        norm(sig.homepageTeaser),
+      ]
+        .map(norm)
+        .join(' ')
+        .toLowerCase();
+      if (haystack.includes(query)) {
+        results.push({
+          type: 'signature',
+          title: sig.title,
+          description: sig.subtitle || norm(sig.concerns),
+          url: sig.url || `/signature/${sig.id}`,
+          categoryTitle: 'Signature',
+          image: sig.image,
+          placeholderUrl: sig.image,
+        });
+      }
+    });
+
+    // Search key pages
+    STATIC_SEARCH_PAGES.forEach((page) => {
+      const haystack = [page.title, page.description, page.keywords]
+        .join(' ')
+        .toLowerCase();
+      if (haystack.includes(query)) {
+        results.push({
+          type: 'page',
+          title: page.title,
+          description: page.description,
+          url: page.url,
+          categoryTitle: 'Page',
+        });
+      }
+    });
+
+    return results.slice(0, 20);
   }, [searchQuery, treatmentCategories, allConditions]);
 
   const handleSearchClick = (result) => {
@@ -131,7 +224,7 @@ export default function Navbar() {
 
     if (result.type === 'treatment') {
       navigate(`/treatments/${result.categoryId}/${result.treatmentKey}`);
-    } else if (result.type === 'condition') {
+    } else if (result.url) {
       navigate(result.url);
     }
   };
@@ -395,6 +488,7 @@ export default function Navbar() {
             <ul className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-xl w-48 border border-secondary/10 mt-0 before:absolute before:top-[-10px] before:left-0 before:w-full before:h-[10px] before:bg-transparent">
               {[
                 { name: 'About', path: '/about/our-story' },
+                { name: 'The ULANDA Clinical System™', path: '/clinical-system' },
                 { name: 'Founder', path: '/about/our-founder' },
                 { name: 'Philosophy', path: '/about/our-philosophy' },
                 { name: 'Manifesto', path: '/about/manifesto' },
@@ -820,6 +914,15 @@ export default function Navbar() {
                     </li>
                     <li>
                       <Link
+                        to="/clinical-system"
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="py-2 active:bg-secondary/20"
+                      >
+                        The ULANDA Clinical System™
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
                         to="/about/our-founder"
                         onClick={() => setIsDrawerOpen(false)}
                         className="py-2 active:bg-secondary/20"
@@ -986,7 +1089,7 @@ export default function Navbar() {
                               <span className="text-xs px-2 py-0.5 bg-primary/10 text-primary rounded capitalize">
                                 {result.type === 'treatment'
                                   ? result.categoryTitle
-                                  : 'Condition'}
+                                  : result.categoryTitle || 'Condition'}
                               </span>
                               {result.subCategoryTitle && (
                                 <span className="text-xs text-base-content/60">

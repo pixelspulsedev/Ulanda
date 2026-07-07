@@ -202,6 +202,9 @@ export default function AdvancedSkinHealthConsultation() {
               <FadeInWhenVisible delay={0.35}>
                 <p>Where clinically indicated, <Link to="/treatments/prescription-skincare" className="text-primary font-bold hover:text-primary/80 underline">prescription skincare</Link> may be prescribed as part of your treatment plan to support and extend in-clinic results at home.</p>
               </FadeInWhenVisible>
+              <FadeInWhenVisible delay={0.38}>
+                <p>This consultation is the comprehensive entry pathway into <Link to="/clinical-system" className="text-primary font-bold hover:text-primary/80 underline">The ULANDA Clinical System™</Link>, our diagnostic-led model of care.</p>
+              </FadeInWhenVisible>
               <FadeInWhenVisible delay={0.4}>
                 <p className="font-medium text-base-content">£175 · Fully redeemable against your treatment plan</p>
               </FadeInWhenVisible>

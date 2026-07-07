@@ -9,12 +9,14 @@ import { getAllTreatmentCategories } from '../src/data/pageContents/treatments/d
 import { blogs } from '../src/data/pageContents/blogs/blogs.js';
 import { signaturePathways } from '../src/data/pageContents/signature/signatureData.js';
 import { journalArticles } from '../src/data/pageContents/journal/journalArticles.js';
+import { tools } from '../src/data/pageContents/tools/tools.js';
 import { getConditionUrl } from '../src/data/crosslinks.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const BASE_URL = 'https://www.ulanda.co.uk';
+const LASTMOD = new Date().toISOString().split('T')[0];
 
 const staticRoutes = [
   '',
@@ -24,6 +26,8 @@ const staticRoutes = [
   '/contact',
   '/book-consultation',
   '/help-and-support',
+  '/clinical-system',
+  '/downloads/skin-health',
   '/about/our-story',
   '/about/our-philosophy',
   '/about/manifesto',
@@ -95,6 +99,13 @@ const generateSitemap = () => {
     }
   });
 
+  // Add Tool (deep-dive technology) Pages
+  tools.forEach(tool => {
+    if (tool && tool.id) {
+      urls.push(`/tools/${tool.id}`);
+    }
+  });
+
   // Add Authority Journal Pages
   urls.push('/journal');
   journalArticles
@@ -157,6 +168,7 @@ const generateSitemap = () => {
       return `
   <url>
     <loc>${BASE_URL}${formattedUrl}</loc>
+    <lastmod>${LASTMOD}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>${url === '' ? '1.0' : '0.8'}</priority>
   </url>`;

@@ -448,6 +448,13 @@ export default function TreatmentsDraft() {
               <p className="mt-4 text-sm italic text-white/70">
                 Every treatment begins with a Barrier & Skin Readiness Assessment to ensure biological suitability.
               </p>
+              <p className="mt-2 text-sm text-white/80">
+                Learn how care is decided within{' '}
+                <Link to="/clinical-system" className="underline hover:text-white">
+                  The ULANDA Clinical System™
+                </Link>
+                .
+              </p>
             </div>
           </div>
         </section>

@@ -195,6 +195,14 @@ export default function SignatureHub() {
                     </li>
                   ))}
                 </ul>
+
+                <p className="mt-8 text-sm text-base-content/70">
+                  Every Signature Programme is delivered within{' '}
+                  <Link to="/clinical-system" className="text-primary hover:underline font-medium">
+                    The ULANDA Clinical System™
+                  </Link>
+                  , our diagnostic-led model of care.
+                </p>
               </div>
             </FadeInWhenVisible>
           </div>

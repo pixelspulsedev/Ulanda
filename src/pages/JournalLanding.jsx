@@ -132,6 +132,13 @@ export default function JournalLanding() {
                 Book Advanced Skin Health Consultation
               </a>
             </div>
+            <p className="mt-6 text-sm text-base-content/70">
+              Learn how every recommendation is made within{' '}
+              <Link to="/clinical-system" className="text-primary hover:underline font-medium">
+                The ULANDA Clinical System™
+              </Link>
+              .
+            </p>
           </div>
         </section>
         <ConsultationCTA />

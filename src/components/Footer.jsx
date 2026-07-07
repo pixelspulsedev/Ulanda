@@ -117,6 +117,7 @@ export default function Footer() {
               <h3 className="font-medium font-sans text-primary mb-4">Who We Are</h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
                 <li><Link to="/about/our-story" className="hover:text-primary transition-colors ">Our Story</Link></li>
+                <li><Link to="/clinical-system" className="hover:text-primary transition-colors ">The ULANDA Clinical System</Link></li>
                 <li><Link to="/about/our-philosophy" className="hover:text-primary transition-colors ">Our Philosophy</Link></li>
                 <li><Link to="/about/our-founder" className="hover:text-primary transition-colors ">Our Founder</Link></li>
                 <li><Link to="/about/manifesto" className="hover:text-primary transition-colors ">The Manifesto</Link></li>

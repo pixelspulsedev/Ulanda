@@ -22,7 +22,26 @@ import { getJournalsForTreatment } from '../../journal/journalArticles';
 import HeroText from '../../../../components/animations/HeroText';
 import RevealImage from '../../../../components/animations/RevealImage';
 import FadeInWhenVisible from '../../../../components/animations/FadeInWhenVisible';
+import ClinicalSystemBlock from '../../../../components/ClinicalSystemBlock';
 import { ServiceSchema, BreadcrumbSchema } from '../../../../components/Schema';
+
+const BOOKING_URL = 'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ';
+
+// Direct-booking eligible treatments. These pages show the ULANDA Clinical System
+// block and the "Book Treatment Appointment" CTA language.
+const DIRECT_BOOKABLE_TREATMENT_IDS = new Set([
+  'chemical-peel',
+  'biorepeel',
+  'melanostatic-peel',
+  'microneedling',
+  'profhilo',
+  'polynucleotides',
+  'prp-skin-regeneration',
+  'anti-wrinkle-injections',
+  'dermal-fillers',
+  'jawline-sculpting',
+  'thread-lifts',
+]);
 
 const SafetyIcon = ({ type }) => {
   switch (type) {
@@ -112,6 +131,16 @@ export default function TreatmentDraft() {
   // Check if this is a barrier modality page (non-bookable)
   const isBarrierModality = treatment.nonBookable === true || categoryId === 'skin-barrier-renewal-protocol';
 
+  // Direct-booking eligible treatment (shows Clinical System block + Treatment Appointment CTA)
+  const isDirectBookable = DIRECT_BOOKABLE_TREATMENT_IDS.has(treatmentId);
+
+  // Primary booking CTA label used across sticky header, hero and CTA section
+  const primaryBookingLabel = isDirectBookable
+    ? 'Book Treatment Appointment'
+    : treatment.booking
+      ? getBookingButtonLabel(treatment.booking)
+      : 'Book Consultation';
+
   const seoTitle = treatment.seo?.title || `Ulanda - ${treatment.title} ${treatment.highlight || ''}`;
   const seoDescription = treatment.seo?.description || treatment.description || '';
   const canonicalUrl = `https://www.ulanda.co.uk/treatments/${categoryId}/${treatmentId}`;
@@ -138,11 +167,15 @@ export default function TreatmentDraft() {
       navigate('/treatments/advanced-skin-health-consultation');
       return;
     }
+    if (isDirectBookable) {
+      window.open(treatment.booking?.bookingUrl || BOOKING_URL, '_blank');
+      return;
+    }
     const label = treatment.booking ? getBookingButtonLabel(treatment.booking) : 'Book Consultation';
     if (label === 'Book Consultation') {
       navigate('/book-consultation');
     } else {
-      const url = treatment.booking?.bookingUrl || 'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ';
+      const url = treatment.booking?.bookingUrl || BOOKING_URL;
       window.open(url, '_blank');
     }
   };
@@ -153,6 +186,14 @@ export default function TreatmentDraft() {
         <title>{seoTitle}</title>
         <meta name="description" content={seoDescription} />
         <link rel="canonical" href={canonicalUrl} />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={seoTitle} />
+        <meta property="og:description" content={seoDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={seoTitle} />
+        <meta name="twitter:description" content={seoDescription} />
       </Head>
       
       {!isBarrierModality && <ServiceSchema treatment={treatment} pathway={categoryId} subcategory={categoryId} />}
@@ -203,7 +244,7 @@ export default function TreatmentDraft() {
               </div>
             )}
             <button onClick={() => Book()} className="ml-4 btn btn-primary">
-              {treatment.booking ? getBookingButtonLabel(treatment.booking) : 'Book Consultation'}
+              {primaryBookingLabel}
             </button>
           </div>
         </div>
@@ -271,7 +312,7 @@ export default function TreatmentDraft() {
                     )}
                   </div>
                   <button onClick={() => Book()} className="btn btn-primary text-white rounded-sm px-10 py-3 h-auto text-lg font-light tracking-wide hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-                    {getBookingButtonLabel(treatment.booking)}
+                    {primaryBookingLabel}
                   </button>
                 </div>
               </FadeInWhenVisible>
@@ -615,6 +656,8 @@ export default function TreatmentDraft() {
           </section>
         )}
 
+        
+
         {/* Safety & Medical Oversight Section */}
         {treatment.safetyOversight && (
           <section className="bg-base-100 py-12 md:py-24">
@@ -632,6 +675,9 @@ export default function TreatmentDraft() {
             </div>
           </section>
         )}
+
+        {/* The ULANDA Clinical System block — direct-booking eligible treatments only */}
+        {isDirectBookable && <ClinicalSystemBlock treatmentName={treatment.title} />}
 
         {/* Process Section */}
         {treatment.process && (
@@ -842,6 +888,9 @@ export default function TreatmentDraft() {
           </section>
         )}
 
+        {/* The ULANDA Clinical System block — direct-booking eligible treatments only */}
+        {isDirectBookable && <ClinicalSystemBlock treatmentName={treatment.title} />}
+
         {/* CTA Section - show BarrierModalityCTA for barrier pages, else standard CTA */}
         {isBarrierModality ? (
           <BarrierModalityCTA />
@@ -885,8 +934,21 @@ export default function TreatmentDraft() {
                 </div>
               )}
               <button onClick={() => Book()} className="btn btn-primary text-white px-12 py-4 h-auto text-lg rounded-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                {treatment.booking ? getBookingButtonLabel(treatment.booking) : "Book Consultation"}
+                {primaryBookingLabel}
               </button>
+              {isDirectBookable && (
+                <>
+                  <p className="mt-4 text-sm text-base-content/70 font-sans max-w-xl mx-auto">
+                    Includes a Focused Clinical Assessment to confirm treatment suitability before treatment proceeds.
+                  </p>
+                  <p className="mt-6 text-base-content/80 font-sans">
+                    Not sure where to begin?{' '}
+                    <Link to="/treatments/advanced-skin-health-consultation" className="text-primary hover:underline font-medium">
+                      Explore the Advanced Skin Health Consultation &rarr;
+                    </Link>
+                  </p>
+                </>
+              )}
             </div>
           </section>
         ) : null}

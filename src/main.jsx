@@ -26,6 +26,7 @@ const ConditionDetail = lazy(() => import('./pages/ConditionDetail.jsx'))
 const NonResponsiveSkin = lazy(() => import('./data/pageContents/conditions/drafts/NonResponsiveSkin_draft.jsx'))
 // Company pages
 const About = lazy(() => import('./pages/About.jsx'))
+const ClinicalSystem = lazy(() => import('./pages/ClinicalSystem.jsx'))
 const Philosophy = lazy(() => import('./pages/Philosophy.jsx'))
 const Manifesto = lazy(() => import('./pages/Manifesto.jsx'))
 const Founder = lazy(() => import('./pages/Founder.jsx'))
@@ -200,6 +201,10 @@ const routes = [
         element: <SkinShiftGuide />,
       },
 
+      {
+        path: 'clinical-system',
+        element: <ClinicalSystem />,
+      },
       {
         path: 'about',
         element: <Navigate to="/about/our-story" replace />,

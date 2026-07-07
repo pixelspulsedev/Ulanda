@@ -180,29 +180,62 @@ export default function Home() {
                   Then <span className="italic font-extralight">Transformed.</span>
                 </HeroText>
               </h1>
-              <div className="mb-4 font-sans text-white/90 text-base md:text-lg leading-relaxed max-w-xl">
+              <div className="mb-5 font-sans text-white/90 text-base md:text-lg leading-relaxed max-w-xl">
                 <HeroText delay={0.2}>
-                  <p>
-                    If your skin has changed in a way that feels unexplained and the products, treatments and advice you have tried have not created the lasting results you were hoping for. ULANDA begins where most clinics stop.
-                  </p>
-                  <p className="mt-3">With a clinical understanding of what your skin is actually doing.</p>
-                  <p>And why.</p>
-                  <p className="mt-3">So, we can help restore not just skin health, but a calm, healthy glow.</p>
+                  <ul className="space-y-2">
+                    <li className="border-l-2 border-white/40 pl-3">Perhaps your skin no longer feels like it used to.</li>
+                    <li className="border-l-2 border-white/40 pl-3">Your usual skincare routine isn&rsquo;t giving you the same results.</li>
+                    <li className="border-l-2 border-white/40 pl-3">Your skin feels drier, more sensitive or less radiant.</li>
+                    <li className="border-l-2 border-white/40 pl-3">Or maybe you simply know something has changed, but you&rsquo;re not sure why.</li>
+                  </ul>
+                  <p className="mt-4">These changes are often signs that your skin is behaving differently, not that it has become impossible to improve.</p>
+                  <p className="mt-3">At ULANDA, the most important question isn&rsquo;t which treatment you need. It&rsquo;s understanding what your skin is trying to tell you.</p>
                 </HeroText>
               </div>
               <div className="mb-6 text-sm font-sans font-light text-white/60 tracking-wide">
                 <HeroText delay={0.3}>
-                  Assessment-first &middot; Personalised care &middot; Regenerative &middot; Natural glow
+                  Understanding Before Treatment&trade; &middot; Personalised Care &middot; Regenerative Medicine &middot; Natural-Looking Results
                 </HeroText>
               </div>
-              <FadeInWhenVisible delay={0.5}>
-                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                  Book Your Advanced Skin Health Consultation &rarr;
-                </a>
-                <p className="mt-3 text-sm text-white/60 font-sans">&pound;175 fully redeemable against your treatment plan</p>
-              </FadeInWhenVisible>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ============================================================
+          SECTION 1B — DOES THIS SOUND FAMILIAR?
+          ============================================================ */}
+      <section className="py-24 px-4 md:px-8 bg-base-100">
+        <div className="max-w-3xl mx-auto">
+          <FadeInWhenVisible>
+            <p className="text-lg text-base-content/80 font-sans leading-relaxed mb-12">
+              That clinical understanding allows us to recommend treatments that support healthier skin, restore confidence and create naturally beautiful results that respect your individuality.
+            </p>
+            <h2 className="text-3xl md:text-4xl font-serif text-base-content mb-8 leading-tight">
+              Does this <span className="italic font-light text-primary">sound familiar?</span>
+            </h2>
+            <ul className="space-y-4 mb-10">
+              {[
+                "My skin has changed and I'm not sure why.",
+                'My usual skincare no longer seems to work.',
+                'My skin feels more sensitive than it used to.',
+                'I want natural-looking results, not dramatic change.',
+                "I'm unsure which treatment, if any, is actually right for me.",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3 text-lg text-base-content/80 font-sans">
+                  <span className="mt-1 text-primary shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                      <rect x="3.5" y="3.5" width="17" height="17" rx="3" />
+                    </svg>
+                  </span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-xl font-serif italic text-primary">
+              If you recognised yourself in one or more of these, you&rsquo;re exactly where we begin.
+            </p>
+          </FadeInWhenVisible>
         </div>
       </section>
 
@@ -365,51 +398,44 @@ export default function Home() {
       </section>
 
       {/* ============================================================
-          SECTION 5 — BIOLOGICAL READINESS ASSESSMENT
+          SECTION 5 — THE DIFFERENCE IS HOW WE DECIDE (BRIDGE)
           ============================================================ */}
       <section className="py-24 px-4 md:px-8 bg-base-100">
         <div className="max-w-4xl mx-auto">
           <FadeInWhenVisible>
             <div className="inline-block px-4 py-1 mb-6 border border-primary/30 rounded-full bg-secondary/30">
-              <span className="text-xs font-bold tracking-widest text-primary uppercase">Biological Readiness Assessment</span>
+              <span className="text-xs font-bold tracking-widest text-primary uppercase">Understanding Comes Before Treatment</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-serif text-base-content mb-6 leading-tight">
-              What the <span className="italic font-light text-primary">Clinical Assessment</span> Establishes
+              The Difference Is Not the Treatment. <span className="italic font-light text-primary">It&rsquo;s How We Decide.</span>
             </h2>
-            <div className="text-lg text-base-content/80 font-sans leading-relaxed space-y-4 mb-8">
-              <p>
-                Once barrier stability is confirmed, clinicians assess whether the skin is biologically prepared to benefit from advanced treatments.
-              </p>
-              <p>This evaluation considers:</p>
-              <ul className="space-y-2 pl-4">
-                {[
-                  "hydration balance",
-                  "inflammatory activity",
-                  "collagen behaviour",
-                  "tissue condition",
-                  "previous treatment history"
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-3">
-                    <span className="text-primary mt-1.5 shrink-0">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                      </svg>
-                    </span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <p>
-                Understanding these factors allows treatments to be introduced when the skin environment is most receptive, improving both safety and durability of results.
-              </p>
-              <p>
-                The Advanced Skin Health Consultation is where this assessment takes place &mdash; and it includes your first clinical treatment, delivered on the same day where appropriate.
-              </p>
+            <div className="text-lg text-base-content/80 font-sans leading-relaxed space-y-4 mb-10">
+              <p>Many of our clients arrive believing they need a particular treatment.</p>
+              <p>In reality, the better question is often:</p>
+              <p className="border-l-2 border-primary pl-4 font-serif italic text-primary text-xl">&ldquo;What is my skin trying to tell me?&rdquo;</p>
+              <p>Many aesthetic clinics begin by asking which treatment you would like. At ULANDA, we begin by understanding what your skin is trying to tell you.</p>
+              <p>That understanding guides every recommendation we make.</p>
             </div>
-            <p className="text-base font-sans text-primary font-medium mb-6">&pound;175 &middot; Fully redeemable against your treatment plan</p>
-            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-              Book Your Advanced Skin Health Consultation &rarr;
-            </a>
+
+            {/* Helen's Clinical Reflection */}
+            <div className="bg-secondary/40 rounded-2xl p-8 md:p-10 mb-10">
+              <h3 className="text-xl font-serif text-primary mb-4">Helen&rsquo;s Clinical Reflection</h3>
+              <div className="space-y-3 text-base-content/80 font-sans italic leading-relaxed">
+                <p>&ldquo;One of the most common things I hear is, &lsquo;I don&rsquo;t recognise my skin anymore.&rsquo;</p>
+                <p>Often, people arrive expecting a treatment recommendation.</p>
+                <p>More often, what they need first is an explanation rather than another treatment.</p>
+                <p>Once we understand why the skin has changed, we can make much better decisions together.&rdquo;</p>
+              </div>
+              <p className="mt-4 font-medium text-base-content not-italic">&mdash; Helen Balogun</p>
+              <p className="text-sm text-base-content/60">Clinical Director</p>
+            </div>
+
+            <Link to="/clinical-system" className="btn btn-primary">
+              Explore The ULANDA Clinical System&trade; &rarr;
+            </Link>
+            <p className="mt-4 text-base text-base-content/70 font-sans max-w-2xl leading-relaxed">
+              Discover how Understanding Before Treatment&trade; guides every recommendation we make and why understanding your skin always comes before choosing treatment.
+            </p>
           </FadeInWhenVisible>
         </div>
       </section>
