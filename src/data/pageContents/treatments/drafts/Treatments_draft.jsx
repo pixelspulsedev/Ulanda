@@ -1,9 +1,12 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import Breadcrumbs from '../../../../components/Breadcrumbs';
-import { treatmentCategories, treatmentsPageDataDraft } from './treatments_restructured_draft';
+import {
+  treatmentCategories,
+  treatmentsPageDataDraft,
+} from './treatments_restructured_draft';
 import { getCondition } from '../../conditions/conditions';
 import { getIndividualCondition } from '../../conditions/individualConditions';
 import { getBlog } from '../../blogs/blogs';
@@ -14,27 +17,66 @@ const squareBookingUrl =
   'https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ';
 
 const barrierSupportLinks = [
-  { title: 'Skin Barrier Renewal Protocol', to: '/treatments/skin-barrier-renewal-protocol' },
-  { title: 'Skin Barrier Restore', to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-restore' },
-  { title: 'Advanced Cleansing & Hydration Therapy', to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-deep-cleanse' },
-  { title: 'Skin Barrier Oxygenation', to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation' },
-  { title: 'Skin Barrier Enzyme Renewal', to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-enzyme-renewal' },
-  { title: 'Deep Hydration Therapy', to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration' },
+  {
+    title: 'Skin Barrier Renewal Protocol',
+    to: '/treatments/skin-barrier-renewal-protocol',
+  },
+  {
+    title: 'Skin Barrier Restore',
+    to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-restore',
+  },
+  {
+    title: 'Advanced Cleansing & Hydration Therapy',
+    to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-deep-cleanse',
+  },
+  {
+    title: 'Skin Barrier Oxygenation',
+    to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-oxygenation',
+  },
+  {
+    title: 'Skin Barrier Enzyme Renewal',
+    to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-enzyme-renewal',
+  },
+  {
+    title: 'Deep Hydration Therapy',
+    to: '/treatments/skin-barrier-renewal-protocol/skin-barrier-hydration',
+  },
 ];
 
 const renewalLinks = [
-  { title: 'Chemical Peels', to: '/treatments/skin-renewal-regeneration/chemical-peel' },
+  {
+    title: 'Chemical Peels',
+    to: '/treatments/skin-renewal-regeneration/chemical-peel',
+  },
   { title: 'BioRePeel', to: '/treatments/skin-renewal-regeneration/biorepeel' },
-  { title: 'Melanostatic Peel', to: '/treatments/skin-renewal-regeneration/melanostatic-peel' },
-  { title: 'Microneedling', to: '/treatments/skin-renewal-regeneration/microneedling' },
+  {
+    title: 'Melanostatic Peel',
+    to: '/treatments/skin-renewal-regeneration/melanostatic-peel',
+  },
+  {
+    title: 'Microneedling',
+    to: '/treatments/skin-renewal-regeneration/microneedling',
+  },
 ];
 
 const injectableLinks = [
-  { title: 'Polynucleotides', to: '/treatments/skin-renewal-regeneration/polynucleotides' },
-  { title: 'Profhilo', to: '/treatments/injectable-skin-optimisation/profhilo' },
+  {
+    title: 'Polynucleotides',
+    to: '/treatments/skin-renewal-regeneration/polynucleotides',
+  },
+  {
+    title: 'Profhilo',
+    to: '/treatments/injectable-skin-optimisation/profhilo',
+  },
   { title: 'Jalupro', to: '/treatments/injectable-skin-optimisation/jalupro' },
-  { title: 'Seventy Hyal', to: '/treatments/injectable-skin-optimisation/seventy-hyal' },
-  { title: 'Definisse Hydrobooster', to: '/treatments/injectable-skin-optimisation/definisse-hydrobooster' },
+  {
+    title: 'Seventy Hyal',
+    to: '/treatments/injectable-skin-optimisation/seventy-hyal',
+  },
+  {
+    title: 'Definisse Hydrobooster',
+    to: '/treatments/injectable-skin-optimisation/definisse-hydrobooster',
+  },
 ];
 
 const popularPathways = [
@@ -66,30 +108,75 @@ const popularPathways = [
 ];
 
 const structuralLinks = [
-  { title: 'Anti-Wrinkle Injections', to: '/treatments/structural-collagen-support/anti-wrinkle-injections' },
-  { title: 'Dermal Fillers', to: '/treatments/structural-collagen-support/dermal-fillers' },
-  { title: 'Jawline Sculpting', to: '/treatments/structural-collagen-support/jawline-sculpting' },
-  { title: 'Biostimulators', to: '/treatments/structural-collagen-support/biostimulators' },
-  { title: 'Thread Lifts', to: '/treatments/structural-collagen-support/thread-lifts' },
-  { title: 'Neck & Lower Face Structural Lift', to: '/treatments/structural-collagen-support/neck-lower-face-lift' },
+  {
+    title: 'Anti-Wrinkle Injections',
+    to: '/treatments/structural-collagen-support/anti-wrinkle-injections',
+  },
+  {
+    title: 'Dermal Fillers',
+    to: '/treatments/structural-collagen-support/dermal-fillers',
+  },
+  {
+    title: 'Jawline Sculpting',
+    to: '/treatments/structural-collagen-support/jawline-sculpting',
+  },
+  {
+    title: 'Biostimulators',
+    to: '/treatments/structural-collagen-support/biostimulators',
+  },
+  {
+    title: 'Thread Lifts',
+    to: '/treatments/structural-collagen-support/thread-lifts',
+  },
+  {
+    title: 'Neck & Lower Face Structural Lift',
+    to: '/treatments/structural-collagen-support/neck-lower-face-lift',
+  },
 ];
 
 const conditionLinks = [
-  { title: 'Skin Ageing', to: '/conditions/menopause-hormone-skin-changes/fine-lines-wrinkles' },
-  { title: 'Pigmentation', to: '/conditions/pigmentation-and-skin-tone/hyperpigmentation' },
-  { title: 'Hormonal Skin Changes', to: '/conditions/menopause-hormone-skin-changes/menopause-skin-decline' },
+  {
+    title: 'Skin Ageing',
+    to: '/conditions/menopause-hormone-skin-changes/fine-lines-wrinkles',
+  },
+  {
+    title: 'Pigmentation',
+    to: '/conditions/pigmentation-and-skin-tone/hyperpigmentation',
+  },
+  {
+    title: 'Hormonal Skin Changes',
+    to: '/conditions/menopause-hormone-skin-changes/menopause-skin-decline',
+  },
   { title: 'Acne Scarring', to: '/conditions/acne-texture/acne-scarring' },
-  { title: 'Loss of Elasticity', to: '/conditions/menopause-hormone-skin-changes/skin-laxity' },
+  {
+    title: 'Loss of Elasticity',
+    to: '/conditions/menopause-hormone-skin-changes/skin-laxity',
+  },
   { title: 'Enlarged Pores', to: '/conditions/acne-texture/enlarged-pores' },
-  { title: 'Under-Eye Skin Quality', to: '/conditions/eye-area/crepey-under-eye' },
+  {
+    title: 'Under-Eye Skin Quality',
+    to: '/conditions/eye-area/crepey-under-eye',
+  },
 ];
 
 const programmeLinks = [
-  { title: 'Skin Barrier Repair & Resilience', to: '/signature/skin-barrier-repair-recovery' },
-  { title: 'Rosacea & Redness Control', to: '/signature/rosacea-redness-control' },
+  {
+    title: 'Skin Barrier Repair & Resilience',
+    to: '/signature/skin-barrier-repair-recovery',
+  },
+  {
+    title: 'Rosacea & Redness Control',
+    to: '/signature/rosacea-redness-control',
+  },
   { title: 'Menopause Skin Rebuild', to: '/signature/menopause-skin-rebuild' },
-  { title: 'Photoaging Skin Architecture', to: '/signature/photoaging-skin-architecture' },
-  { title: 'Structural Skin Regeneration', to: '/signature/structural-skin-regeneration' },
+  {
+    title: 'Photoaging Skin Architecture',
+    to: '/signature/photoaging-skin-architecture',
+  },
+  {
+    title: 'Structural Skin Regeneration',
+    to: '/signature/structural-skin-regeneration',
+  },
   { title: 'Under-Eye Renewal', to: '/signature/under-eye-renewal' },
 ];
 
@@ -179,10 +266,12 @@ const getHeroImageForItem = (item) => {
 
   if (root === 'conditions') {
     const individual = getIndividualCondition(last);
-    if (individual?.hero) return individual.hero.placeholderUrl || individual.hero.image;
+    if (individual?.hero)
+      return individual.hero.placeholderUrl || individual.hero.image;
 
     const condition = getCondition(last);
-    if (condition?.hero) return condition.hero.placeholderUrl || condition.hero.image;
+    if (condition?.hero)
+      return condition.hero.placeholderUrl || condition.hero.image;
   }
 
   if (root === 'programmes' || root === 'signature') {
@@ -362,11 +451,13 @@ export default function TreatmentsDraft() {
     })),
   };
 
+  const navigate = useNavigate();
   return (
     <>
       <Head>
         <title>
-          Skin Treatments in Ware, Hertfordshire | Regenerative Medical Aesthetic Treatments | ULANDA
+          Skin Treatments in Ware, Hertfordshire | Regenerative Medical
+          Aesthetic Treatments | ULANDA
         </title>
         <meta
           name="description"
@@ -392,7 +483,9 @@ export default function TreatmentsDraft() {
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalBusinessSchema) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(medicalBusinessSchema),
+          }}
         />
         <script
           type="application/ld+json"
@@ -407,7 +500,10 @@ export default function TreatmentsDraft() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
             <img
-              src={treatmentsPageDataDraft.hero.placeholderUrl || treatmentsPageDataDraft.hero.image}
+              src={
+                treatmentsPageDataDraft.hero.placeholderUrl ||
+                treatmentsPageDataDraft.hero.image
+              }
               alt={treatmentsPageDataDraft.hero.title}
               className="w-full h-full object-cover brightness-75"
               fetchpriority="high"
@@ -426,10 +522,15 @@ export default function TreatmentsDraft() {
               </p>
               <div className="space-y-3 text-white/90 font-light leading-relaxed max-w-3xl">
                 <p>
-                  At ULANDA, treatments are not presented as a simple menu. Each treatment is selected within a clinical framework that considers skin behaviour, barrier stability, hydration levels, hormonal context and tissue readiness.
+                  At ULANDA, treatments are not presented as a simple menu. Each
+                  treatment is selected within a clinical framework that
+                  considers skin behaviour, barrier stability, hydration levels,
+                  hormonal context and tissue readiness.
                 </p>
                 <p>
-                  Some treatments can be booked directly, while others are introduced following consultation to ensure the correct sequencing within your skin’s regenerative pathway.
+                  Some treatments can be booked directly, while others are
+                  introduced following consultation to ensure the correct
+                  sequencing within your skin’s regenerative pathway.
                 </p>
               </div>
               <div className="mt-6 flex flex-col sm:flex-row gap-4">
@@ -441,16 +542,23 @@ export default function TreatmentsDraft() {
                 >
                   Book Skin Health Consultation
                 </a>
-                <Link to="/conditions" className="btn btn-outline text-white border-white hover:bg-white/10">
+                <Link
+                  to="/conditions"
+                  className="btn btn-outline text-white border-white hover:bg-white/10"
+                >
                   Explore Skin Conditions
                 </Link>
               </div>
               <p className="mt-4 text-sm italic text-white/70">
-                Every treatment begins with a Barrier & Skin Readiness Assessment to ensure biological suitability.
+                Every treatment begins with a Barrier & Skin Readiness
+                Assessment to ensure biological suitability.
               </p>
               <p className="mt-2 text-sm text-white/80">
                 Learn how care is decided within{' '}
-                <Link to="/clinical-system" className="underline hover:text-white">
+                <Link
+                  to="/clinical-system"
+                  className="underline hover:text-white"
+                >
                   The ULANDA Clinical System™
                 </Link>
                 .
@@ -459,7 +567,10 @@ export default function TreatmentsDraft() {
           </div>
         </section>
 
-        <section id="popular-pathways" className="py-4 px-4 md:px-8 max-w-8xl mx-auto">
+        <section
+          id="popular-pathways"
+          className="py-4 px-4 md:px-8 max-w-8xl mx-auto"
+        >
           {/* <h2 className="text-3xl font-serif mb-4">Popular Treatment Pathways</h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
             A selection of ULANDA's most requested regenerative treatments. Each supports a specific skin outcome and can be explored in detail below.
@@ -468,37 +579,68 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">The ULANDA Regenerative Treatment Framework</h2>
+          <h2 className="text-3xl font-serif mb-4">
+            The ULANDA Regenerative Treatment Framework
+          </h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            ULANDA treatments follow a structured regenerative pathway. Rather than performing treatments in isolation, clinicians introduce therapies when the skin is biologically ready to benefit from them. This approach stabilises the skin first, stimulates regeneration second and introduces deeper structural treatments only when appropriate.
+            ULANDA treatments follow a structured regenerative pathway. Rather
+            than performing treatments in isolation, clinicians introduce
+            therapies when the skin is biologically ready to benefit from them.
+            This approach stabilises the skin first, stimulates regeneration
+            second and introduces deeper structural treatments only when
+            appropriate.
           </p>
         </section>
 
-        <section id="barrier-support" className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
+        <section
+          id="barrier-support"
+          className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200"
+        >
           <h2 className="text-3xl font-serif mb-2">Restore Skin Stability</h2>
-          <p className="text-primary font-medium mb-4">Barrier support for sensitive, reactive and compromised skin.</p>
-          <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            Healthy skin begins with a stable barrier. Barrier-focused therapies restore hydration balance, calm inflammation, and strengthen the skin’s protective function. These treatments are often introduced as foundational protocols before regenerative treatments or used as part of ongoing skin maintenance.
+          <p className="text-primary font-medium mb-4">
+            Barrier support for sensitive, reactive and compromised skin.
           </p>
-          <h3 className="text-2xl font-serif mt-8">Skin Barrier Support Treatments</h3>
+          <p className="text-base-content/80 leading-relaxed max-w-4xl">
+            Healthy skin begins with a stable barrier. Barrier-focused therapies
+            restore hydration balance, calm inflammation, and strengthen the
+            skin’s protective function. These treatments are often introduced as
+            foundational protocols before regenerative treatments or used as
+            part of ongoing skin maintenance.
+          </p>
+          <h3 className="text-2xl font-serif mt-8">
+            Skin Barrier Support Treatments
+          </h3>
           <LinkCards items={barrierSupportLinks} />
           <div className="mt-8">
-            <Link to="/treatments/skin-barrier-renewal-protocol" className="btn btn-outline">
+            <Link
+              to="/treatments/skin-barrier-renewal-protocol"
+              className="btn btn-outline"
+            >
               Explore Skin Barrier Support Treatments
             </Link>
           </div>
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-2">Renew Skin Texture &amp; Clarity</h2>
-          <p className="text-primary font-medium mb-4">For texture concerns, congestion and skin revitalisation.</p>
+          <h2 className="text-3xl font-serif mb-2">
+            Renew Skin Texture &amp; Clarity
+          </h2>
+          <p className="text-primary font-medium mb-4">
+            For texture concerns, congestion and skin revitalisation.
+          </p>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            Once the skin barrier is stable, treatments can stimulate epidermal renewal and collagen activity. These therapies improve skin texture, clarity, and resilience while encouraging natural regenerative processes.
+            Once the skin barrier is stable, treatments can stimulate epidermal
+            renewal and collagen activity. These therapies improve skin texture,
+            clarity, and resilience while encouraging natural regenerative
+            processes.
           </p>
           <h3 className="text-2xl font-serif mt-8">Skin Renewal Treatments</h3>
           <LinkCards items={renewalLinks} />
           <div className="mt-8">
-            <Link to="/treatments/skin-renewal-regeneration" className="btn btn-outline">
+            <Link
+              to="/treatments/skin-renewal-regeneration"
+              className="btn btn-outline"
+            >
               Explore Skin Renewal Treatments
             </Link>
           </div>
@@ -506,14 +648,25 @@ export default function TreatmentsDraft() {
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
           <h2 className="text-3xl font-serif mb-2">Regenerate Skin Quality</h2>
-          <p className="text-primary font-medium mb-4">For hydration, resilience, collagen support and skin quality.</p>
-          <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            Regenerative injectable treatments support dermal hydration, collagen signalling, and tissue repair. ULANDA allows direct booking for selected regenerative injectables while confirming treatment suitability through a Barrier & Skin Readiness Assessment before treatment begins.
+          <p className="text-primary font-medium mb-4">
+            For hydration, resilience, collagen support and skin quality.
           </p>
-          <h3 className="text-2xl font-serif mt-8">Regenerative Injectable Treatments</h3>
+          <p className="text-base-content/80 leading-relaxed max-w-4xl">
+            Regenerative injectable treatments support dermal hydration,
+            collagen signalling, and tissue repair. ULANDA allows direct booking
+            for selected regenerative injectables while confirming treatment
+            suitability through a Barrier & Skin Readiness Assessment before
+            treatment begins.
+          </p>
+          <h3 className="text-2xl font-serif mt-8">
+            Regenerative Injectable Treatments
+          </h3>
           <LinkCards items={injectableLinks} />
           <div className="mt-8">
-            <Link to="/treatments/injectable-skin-optimisation" className="btn btn-outline">
+            <Link
+              to="/treatments/injectable-skin-optimisation"
+              className="btn btn-outline"
+            >
               Explore Regenerative Injectables
             </Link>
           </div>
@@ -521,14 +674,22 @@ export default function TreatmentsDraft() {
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
           <h2 className="text-3xl font-serif mb-2">Refine Facial Balance</h2>
-          <p className="text-primary font-medium mb-4">For healthy ageing and subtle rejuvenation.</p>
+          <p className="text-primary font-medium mb-4">
+            For healthy ageing and subtle rejuvenation.
+          </p>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            Structural treatments support facial architecture and address deeper structural changes associated with ageing. Because these treatments influence tissue structure and facial balance, they are introduced through consultation to ensure appropriate treatment planning.
+            Structural treatments support facial architecture and address deeper
+            structural changes associated with ageing. Because these treatments
+            influence tissue structure and facial balance, they are introduced
+            through consultation to ensure appropriate treatment planning.
           </p>
           <h3 className="text-2xl font-serif mt-8">Structural Treatments</h3>
           <LinkCards items={structuralLinks} />
           <div className="mt-8">
-            <Link to="/treatments/structural-collagen-support" className="btn btn-outline">
+            <Link
+              to="/treatments/structural-collagen-support"
+              className="btn btn-outline"
+            >
               Explore Structural Treatments
             </Link>
           </div>
@@ -537,7 +698,9 @@ export default function TreatmentsDraft() {
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
           <h2 className="text-3xl font-serif mb-4">Skin Concerns We Treat</h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            Most clients arrive with a skin concern rather than a specific treatment in mind. ULANDA treatments are selected based on how they support underlying skin behaviour and regenerative potential.
+            Most clients arrive with a skin concern rather than a specific
+            treatment in mind. ULANDA treatments are selected based on how they
+            support underlying skin behaviour and regenerative potential.
           </p>
           <h3 className="text-2xl font-serif mt-8">Common Skin Concerns</h3>
           <LinkCards items={conditionLinks} />
@@ -549,9 +712,14 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Signature Skin Health Programmes</h2>
+          <h2 className="text-3xl font-serif mb-4">
+            Signature Skin Health Programmes
+          </h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            For clients seeking a more structured approach, ULANDA offers signature programmes that combine treatments into regenerative pathways. These programmes integrate barrier support, treatment sequencing, and long-term skin health strategies.
+            For clients seeking a more structured approach, ULANDA offers
+            signature programmes that combine treatments into regenerative
+            pathways. These programmes integrate barrier support, treatment
+            sequencing, and long-term skin health strategies.
           </p>
           <h3 className="text-2xl font-serif mt-8">Signature Programmes</h3>
           <LinkCards items={programmeLinks} />
@@ -563,21 +731,133 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">How ULANDA Selects the Right Treatment</h2>
-          <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            Every treatment journey begins with careful clinical evaluation of your skin’s current condition.
-          </p>
+          <h2 className="text-3xl font-serif mb-4">
+            How We Decide Whether This Treatment Is Right For You
+          </h2>
+          <div className="space-y-3 text-base-content/80 leading-relaxed max-w-4xl">
+            <p>
+              Choosing the right treatment isn&rsquo;t simply about selecting a
+              popular procedure.
+            </p>
+            <p>
+              It&rsquo;s about understanding whether it&rsquo;s the right
+              treatment for your skin, at the right time, and for the outcome
+              you&rsquo;re hoping to achieve.
+            </p>
+            <p>
+              At ULANDA, every recommendation follows our Understanding Before
+              Treatment&trade; philosophy.
+            </p>
+            <p>
+              Rather than treating every concern in the same way, we consider
+              how your skin is behaving today, including:
+            </p>
+          </div>
           <ul className="mt-5 space-y-2 text-base-content/80">
-            <li>• Barrier stability</li>
-            <li>• Hydration levels</li>
-            <li>• Inflammation or sensitivity</li>
-            <li>• Collagen decline</li>
+            <li>• Skin barrier health</li>
+            <li>• Hydration and skin quality</li>
+            <li>• Inflammation and sensitivity</li>
             <li>• Hormonal influences</li>
-            <li>• Treatment history</li>
+            <li>• Tissue readiness</li>
+            <li>• Your longer-term skin health goals</li>
           </ul>
-          <p className="mt-5 text-base-content/80 leading-relaxed max-w-4xl">
-            For first-time clients, treatment suitability is confirmed during your Skin Health Consultation to ensure the most appropriate treatment pathway and the best possible outcome for your skin.
+          <div className="mt-5 space-y-3 text-base-content/80 leading-relaxed max-w-4xl">
+            <p>
+              Some treatments are suitable for direct booking because they can
+              be safely assessed at the start of your appointment.
+            </p>
+            <p>
+              Others are best introduced following consultation, where they can
+              be incorporated into a personalised regenerative treatment plan.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                className="btn btn-primary"
+                href={squareBookingUrl}
+                target="_blank"
+              >
+                Book Skin Health Consultation
+              </a>
+              <a
+                className="btn btn-outline"
+                href="/conditions"
+              >
+                Explore Skin Conditions
+              </a>
+            </div>
+            <p>
+              Before treatment begins, we carry out a Barrier &amp; Skin
+              Readiness Assessment to help ensure your skin is ready to respond
+              well and that today&rsquo;s treatment is the most appropriate
+              choice.
+            </p>
+            <p>
+              Learn how care is decided within{' '}
+              <Link
+                to="/clinical-system"
+                className="text-primary underline hover:text-primary-focus"
+              >
+                The ULANDA Clinical System&trade;
+              </Link>
+              .
+            </p>
+          </div>
+
+          <div className="mt-8 bg-secondary rounded-xl border border-base-200 p-6 md:p-8 max-w-4xl">
+            <h3 className="text-xl font-serif text-primary mb-4">
+              Helen&rsquo;s Clinical Reflection
+            </h3>
+            <div className="space-y-3 text-base-content/80 leading-relaxed">
+              <p>
+                &ldquo;One of the most common misconceptions is that the newest
+                or most popular treatment is automatically the best one.
+              </p>
+              <p>
+                In reality, the best results usually come from choosing the
+                right treatment at the right stage of your skin journey.
+              </p>
+              <p>
+                Sometimes that confirms your original choice. Sometimes it leads
+                us in a different direction&mdash;and that&rsquo;s often where
+                the best long-term outcomes begin.&rdquo;
+              </p>
+            </div>
+            <p className="mt-4 text-sm text-base-content/70">
+              &mdash; Helen Balogun, Clinical Director
+            </p>
+          </div>
+
+          <h3 className="text-2xl font-serif mt-10 mb-4">
+            What this means for you
+          </h3>
+          <div className="space-y-3 text-base-content/80 leading-relaxed max-w-4xl">
+            <p>
+              You don&rsquo;t need to know whether this treatment is the right
+              choice. That&rsquo;s our responsibility.
+            </p>
+            <p>
+              Our role is to assess your skin, explain our findings and
+              recommend the treatment&mdash;or combination of
+              treatments&mdash;that best supports your skin today and your
+              long-term goals.
+            </p>
+            <p>
+              If today&rsquo;s treatment is appropriate, we&rsquo;ll explain
+              why. If another approach would be more beneficial, we&rsquo;ll
+              explain that too.
+            </p>
+            <p>
+              Either way, you&rsquo;ll understand the reasoning behind every
+              recommendation.
+            </p>
+          </div>
+          <p className="mt-5 text-lg font-serif italic text-primary max-w-4xl">
+            The right treatment at the wrong time can produce disappointing
+            results. The right treatment at the right time can make all the
+            difference.
           </p>
+
           <div className="mt-8">
             <a
               href={squareBookingUrl}
@@ -587,13 +867,19 @@ export default function TreatmentsDraft() {
             >
               Book Skin Health Consultation
             </a>
-            <p className="mt-3 text-sm text-base-content/70">£175 — Fully redeemable against your treatment plan</p>
-            <p className="text-sm font-medium text-primary">Skin Understood. Then Transformed.</p>
+            <p className="mt-3 text-sm text-base-content/70">
+              £175 — Fully redeemable against your treatment plan
+            </p>
+            <p className="text-sm font-medium text-primary">
+              Skin Understood. Then Transformed.
+            </p>
           </div>
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-serif mb-4">
+            Frequently Asked Questions
+          </h2>
           <div className="space-y-4 mt-8">
             {faqs.map((faq) => (
               <div
@@ -608,9 +894,13 @@ export default function TreatmentsDraft() {
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Begin Your Personalised Skin Regeneration Pathway</h2>
+          <h2 className="text-3xl font-serif mb-4">
+            Begin Your Personalised Skin Regeneration Pathway
+          </h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            Whether you already know the treatment you are considering or would prefer personalised guidance, ULANDA clinicians will help determine the most appropriate regenerative approach for your skin.
+            Whether you already know the treatment you are considering or would
+            prefer personalised guidance, ULANDA clinicians will help determine
+            the most appropriate regenerative approach for your skin.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
@@ -625,24 +915,35 @@ export default function TreatmentsDraft() {
               Browse Individual Treatments
             </a>
           </div>
-          <p className="mt-3 text-sm font-medium text-primary">Skin Understood. Then Transformed.</p>
+          <p className="mt-3 text-sm font-medium text-primary">
+            Skin Understood. Then Transformed.
+          </p>
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
           <h2 className="text-3xl font-serif mb-4">Clinical Insight</h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            Evidence-based reading from the ULANDA clinical journal exploring barrier science, stabilisation and regenerative sequencing.
+            Evidence-based reading from the ULANDA clinical journal exploring
+            barrier science, stabilisation and regenerative sequencing.
           </p>
           <LinkCards items={journalLinks} />
           <div className="mt-8">
-            <Link to="/blogs" className="btn btn-outline">Explore Clinical Insights</Link>
+            <Link to="/blogs" className="btn btn-outline">
+              Explore Clinical Insights
+            </Link>
           </div>
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">Visiting Our Skin Clinic in Ware</h2>
+          <h2 className="text-3xl font-serif mb-4">
+            Visiting Our Skin Clinic in Ware
+          </h2>
           <p className="text-base-content/80 leading-relaxed max-w-4xl">
-            ULANDA is a nurse-led skin clinic providing regenerative medical aesthetic treatments in Ware, Hertfordshire. Clients visit from Ware, Broxbourne, Hoddesdon, Hertford, and Bishop’s Stortford for barrier-first skin treatments, regenerative injectables, and clinically guided aesthetic care.
+            ULANDA is a nurse-led skin clinic providing regenerative medical
+            aesthetic treatments in Ware, Hertfordshire. Clients visit from
+            Ware, Broxbourne, Hoddesdon, Hertford, and Bishop’s Stortford for
+            barrier-first skin treatments, regenerative injectables, and
+            clinically guided aesthetic care.
           </p>
         </section>
       </div>

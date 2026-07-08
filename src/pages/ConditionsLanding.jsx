@@ -142,27 +142,42 @@ export default function ConditionsLanding() {
             <div className="max-w-4xl">
               <h1 className="text-4xl text-white md:text-5xl lg:text-6xl font-serif leading-tight mb-6">
                 <HeroText>
-                  Skin Concerns & Skin Conditions Treated in{' '}
-                  <span className="italic font-light">Ware, Hertfordshire</span>
+                  Where Skin Changes Begin To{' '}
+                  <span className="italic font-light">Make Sense</span>
                 </HeroText>
               </h1>
 
+              <HeroText delay={0.15}>
+                <p className="text-xl md:text-2xl font-serif italic text-white/90 mb-6">
+                  Skin Understood. Then Transformed.
+                </p>
+              </HeroText>
+
               <div className="space-y-4 text font-sans text-white/90 font-extralight leading-relaxed mx-auto">
                 <HeroText delay={0.2}>
-                  <p>Most clients visit ULANDA because of a specific skin concern rather than a particular treatment.</p>
+                  <p>Perhaps your skin no longer feels as healthy, comfortable or predictable as it once did.</p>
                 </HeroText>
                 <HeroText delay={0.3}>
-                  <p>Instead of recommending treatments in isolation, clinicians evaluate the underlying skin behaviour, barrier stability, hydration levels, hormonal influences and tissue condition before determining the most appropriate regenerative pathway.</p>
+                  <p>You may have noticed redness that does not settle, increased sensitivity, persistent breakouts, pigmentation, dryness or changes linked to hormones or ageing.</p>
                 </HeroText>
                 <HeroText delay={0.4}>
-                  <p>This approach ensures treatments are introduced at the correct stage of skin readiness, improving both safety and long-term outcomes.</p>
+                  <p>Sometimes the concern is obvious. Sometimes you simply know your skin does not feel like it used to.</p>
                 </HeroText>
                 <HeroText delay={0.5}>
-                  <p>Some concerns may be addressed with directly bookable treatments, while others benefit from consultation to ensure the correct sequencing within your skin&#39;s regenerative pathway.</p>
+                  <p>These changes often reflect how your skin is behaving beneath the surface, not just what you can see.</p>
+                </HeroText>
+                <HeroText delay={0.6}>
+                  <p>At ULANDA, we believe the most important step is not choosing a treatment.</p>
+                </HeroText>
+                <HeroText delay={0.7}>
+                  <p>It is understanding what your skin is trying to tell you.</p>
+                </HeroText>
+                <HeroText delay={0.8}>
+                  <p>That understanding allows us to recommend the most appropriate pathway for your skin today and your longer-term skin health.</p>
                 </HeroText>
               </div>
 
-              <FadeInWhenVisible delay={0.6}>
+              <FadeInWhenVisible delay={0.9}>
                 <div className="mt-10 space-y-4">
                   <div>
                     <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary text-white">
@@ -179,7 +194,7 @@ export default function ConditionsLanding() {
                 </div>
               </FadeInWhenVisible>
 
-              <FadeInWhenVisible delay={0.7}>
+              <FadeInWhenVisible delay={1.0}>
                 <div className="mt-8 p-4 bg-white/10 border border-white/20 rounded-lg">
                   <p className="text-sm font-sans text-white/70">
                     Every treatment begins with a Barrier &amp; Skin Readiness Assessment to ensure biological suitability.
@@ -190,27 +205,60 @@ export default function ConditionsLanding() {
           </div>
         </section>
 
-        {/* Understanding Skin Behaviour */}
+        {/* Section 1 Continuation */}
         <section className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
           <FadeInWhenVisible>
-            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-base-content">
-              Understanding{' '}
-              <span className="italic font-light text-primary">Skin Behaviour</span>
-            </h2>
-            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed mb-6">
-              Skin concerns rarely occur in isolation. Changes in skin quality are influenced by multiple biological factors including:
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10">
+              {[
+                'Understanding Before Treatment\u2122',
+                'Personalised Care',
+                'Regenerative Medicine',
+                'Natural-Looking Results'
+              ].map((item) => (
+                <div key={item} className="bg-secondary rounded-lg px-4 py-3 text-center text-sm font-medium text-base-content/80">
+                  {item}
+                </div>
+              ))}
+            </div>
+
+            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed mb-5">
+              You might recognise one or more of these.
             </p>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
-              {['Barrier stability', 'Hydration balance', 'Inflammation', 'Collagen decline', 'Hormonal changes', 'Environmental exposure'].map((item) => (
-                <li key={item} className="flex items-start gap-2 text-base-content/70 font-sans font-light">
-                  <span className="text-primary mt-1.5 w-1.5 h-1.5 rounded-full bg-primary/70 shrink-0"></span>
+            <ul className="space-y-3 mb-8">
+              {[
+                'My skin has become more sensitive.',
+                'I have redness that will not settle.',
+                'My pigmentation keeps returning.',
+                'My skin suddenly feels drier.',
+                'My skin has changed after 40.',
+                'I do not know what is causing the problem.',
+                'I have tried different products without lasting improvement.',
+                'I do not know which treatment is actually right for me.'
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3 text-base-content/80 font-light">
+                  <span className="text-primary mt-0.5">&#10003;</span>
                   {item}
                 </li>
               ))}
             </ul>
-            <p className="text-lg text-base-content/80 font-sans font-light leading-relaxed">
-              Understanding these influences allows clinicians to recommend treatments that support long-term skin regeneration rather than temporary correction.
+
+            <p className="text-lg font-serif italic text-primary mb-8">
+              If you recognised yourself in any of these, you&apos;re exactly where we begin.
             </p>
+
+            <div className="bg-secondary/60 border border-base-200 rounded-xl p-6 md:p-8">
+              <h3 className="text-xl font-serif text-primary mb-4">Helen&apos;s Clinical Reflection</h3>
+              <p className="text-base-content/80 font-light leading-relaxed mb-3">
+                &quot;One of the biggest misconceptions is that the visible concern tells us everything we need to know.
+              </p>
+              <p className="text-base-content/80 font-light leading-relaxed mb-3">
+                Two people can arrive with similar-looking skin but require completely different treatment approaches.
+              </p>
+              <p className="text-base-content/80 font-light leading-relaxed mb-3">
+                That&apos;s why we always begin by understanding how the skin is behaving before recommending a pathway.&quot;
+              </p>
+              <p className="text-sm text-base-content/70">- Helen Balogun, Clinical Director</p>
+            </div>
           </FadeInWhenVisible>
         </section>
 

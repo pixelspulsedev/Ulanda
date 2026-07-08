@@ -174,6 +174,89 @@ export default function Treatments() {
           </div>
         </section>
 
+        {/* How We Decide Whether This Treatment Is Right For You */}
+        <section className="py-20 px-4 md:px-8 bg-base-100">
+          <div className="max-w-4xl mx-auto">
+            <FadeInWhenVisible>
+              <h2 className="text-3xl md:text-4xl font-serif mb-6 text-base-content">
+                How We Decide Whether This Treatment Is{' '}
+                <span className="italic font-light text-primary">Right For You</span>
+              </h2>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-4">
+                Choosing the right treatment is not simply about selecting a popular procedure.
+              </p>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-4">
+                It is about understanding whether it is the right treatment for your skin, at the right time, and for the outcome you are hoping to achieve.
+              </p>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-6">
+                At ULANDA, every recommendation follows our Understanding Before Treatment&trade; philosophy.
+              </p>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-4">
+                Rather than treating every concern in the same way, we consider how your skin is behaving today, including:
+              </p>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+                {[
+                  'Skin barrier health',
+                  'Hydration and skin quality',
+                  'Inflammation and sensitivity',
+                  'Hormonal influences',
+                  'Tissue readiness',
+                  'Your longer-term skin health goals'
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-base-content/70 font-light">
+                    <span className="text-primary mt-1.5 w-1.5 h-1.5 rounded-full bg-primary/70 shrink-0"></span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-4">
+                Some treatments are suitable for direct booking because they can be safely assessed at the start of your appointment.
+              </p>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-4">
+                Others are best introduced following consultation, where they can be incorporated into a personalised regenerative treatment plan.
+              </p>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-8">
+                Before treatment begins, we carry out a Barrier &amp; Skin Readiness Assessment to help ensure your skin is ready to respond well and that today&apos;s treatment is the most appropriate choice. Learn how care is decided within{' '}
+                <Link to="/clinical-system" className="text-primary hover:underline">
+                  The ULANDA Clinical System&trade;
+                </Link>
+                .
+              </p>
+
+              <div className="bg-secondary border border-base-200 rounded-xl p-6 md:p-8 mb-8">
+                <h3 className="text-xl font-serif text-primary mb-4">Helen&apos;s Clinical Reflection</h3>
+                <p className="text-base-content/80 font-light leading-relaxed mb-3">
+                  &quot;One of the most common misconceptions is that the newest or most popular treatment is automatically the best one.
+                </p>
+                <p className="text-base-content/80 font-light leading-relaxed mb-3">
+                  In reality, the best results usually come from choosing the right treatment at the right stage of your skin journey.
+                </p>
+                <p className="text-base-content/80 font-light leading-relaxed mb-3">
+                  Sometimes that confirms your original choice. Sometimes it leads us in a different direction - and that is often where the best long-term outcomes begin.&quot;
+                </p>
+                <p className="text-sm text-base-content/70">- Helen Balogun, Clinical Director</p>
+              </div>
+
+              <h3 className="text-2xl font-serif mb-4 text-base-content">What this means for you</h3>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-3">
+                You do not need to know whether this treatment is the right choice. That is our responsibility.
+              </p>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-3">
+                Our role is to assess your skin, explain our findings and recommend the treatment, or combination of treatments, that best supports your skin today and your long-term goals.
+              </p>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-3">
+                If today&apos;s treatment is appropriate, we will explain why. If another approach would be more beneficial, we will explain that too.
+              </p>
+              <p className="text-lg text-base-content/80 font-light leading-relaxed mb-3">
+                Either way, you will understand the reasoning behind every recommendation.
+              </p>
+              <p className="text-lg text-primary font-serif italic">
+                The right treatment at the wrong time can produce disappointing results. The right treatment at the right time can make all the difference.
+              </p>
+            </FadeInWhenVisible>
+          </div>
+        </section>
+
         {/* Search Bar */}
         <section className="py-12 bg-base-200/50 border-b border-base-200">
           <div className="max-w-7xl mx-auto px-4 md:px-8">

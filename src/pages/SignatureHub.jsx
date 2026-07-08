@@ -68,6 +68,14 @@ export default function SignatureHub() {
                 </HeroText>
               </h1>
 
+              {data.hero.primaryHeadline && (
+                <HeroText delay={0.3}>
+                  <p className="text-2xl md:text-3xl font-serif italic text-white/90 mb-6">
+                    {data.hero.primaryHeadline}
+                  </p>
+                </HeroText>
+              )}
+
               <div className="space-y-2 text-lg md:text-xl font-light text-white/90 leading-relaxed">
                 <HeroText delay={0.4}>
                   <p className="font-medium">{data.hero.clinic}</p>
@@ -97,7 +105,7 @@ export default function SignatureHub() {
           <div className="max-w-4xl mx-auto">
             <FadeInWhenVisible>
               <h2 className="text-3xl md:text-4xl font-serif mb-8 text-center">
-                <span className="italic font-light text-primary">Introduction</span> {'\u2014'} {data.introduction.title}
+                <span className="italic font-light text-primary">Introduction</span>
               </h2>
             </FadeInWhenVisible>
 
@@ -117,13 +125,38 @@ export default function SignatureHub() {
                   <FadeInWhenVisible key={i} delay={0.1 * i}>
                     <div className="bg-secondary rounded-xl p-6 text-center">
                       <IconComp className="w-8 h-8 text-primary mx-auto mb-3" />
-                      <h3 className="font-serif text-lg font-medium text-primary mb-1">{pillar.name}</h3>
-                      <p className="text-sm text-base-content/70">{pillar.description}</p>
+                      <h3 className="font-serif font-medium text-primary mb-1">{pillar.name}</h3>
+                      {pillar.description && (
+                        <p className="text-sm text-base-content/70">{pillar.description}</p>
+                      )}
                     </div>
                   </FadeInWhenVisible>
                 );
               })}
             </div>
+
+            {Array.isArray(data.introduction.recognitionList) && data.introduction.recognitionList.length > 0 && (
+              <div className="mt-12 bg-secondary/50 rounded-2xl p-8">
+                <p className="text-lg text-base-content/80 font-light leading-relaxed mb-6">
+                  You might recognise one or more of these.
+                </p>
+                <ul className="space-y-3">
+                  {data.introduction.recognitionList.map((item, i) => (
+                    <FadeInWhenVisible key={i} delay={0.08 * i}>
+                      <li className="flex items-start gap-3 text-base-content/80">
+                        <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span>{item}</span>
+                      </li>
+                    </FadeInWhenVisible>
+                  ))}
+                </ul>
+                {data.introduction.recognitionClosing && (
+                  <p className="text-lg font-serif italic text-primary mt-6">
+                    {data.introduction.recognitionClosing}
+                  </p>
+                )}
+              </div>
+            )}
 
             <FadeInWhenVisible delay={0.3}>
               <p className="text-lg text-base-content/80 font-light leading-relaxed mt-8 text-center">
@@ -146,9 +179,19 @@ export default function SignatureHub() {
               </p>
             </FadeInWhenVisible>
 
-            <FadeInWhenVisible delay={0.2}>
-              <h3 className="text-xl font-medium mb-4">{data.whySignature.subtitle}</h3>
-            </FadeInWhenVisible>
+            {data.whySignature.introSecondary && (
+              <FadeInWhenVisible delay={0.15}>
+                <p className="text-lg text-base-content/80 font-light leading-relaxed mb-8">
+                  {data.whySignature.introSecondary}
+                </p>
+              </FadeInWhenVisible>
+            )}
+
+            {data.whySignature.subtitle && (
+              <FadeInWhenVisible delay={0.2}>
+                <h3 className="text-xl font-medium mb-4">{data.whySignature.subtitle}</h3>
+              </FadeInWhenVisible>
+            )}
 
             <ul className="space-y-3 mb-8">
               {data.whySignature.points.map((point, i) => (
@@ -166,6 +209,25 @@ export default function SignatureHub() {
                 {data.whySignature.closing}
               </p>
             </FadeInWhenVisible>
+
+            {data.whySignature.reflectionQuote && (
+              <FadeInWhenVisible delay={0.45}>
+                <div className="mt-10 bg-white rounded-xl border border-base-200 p-6 md:p-8">
+                  <h3 className="text-xl font-serif text-primary mb-4">
+                    {data.whySignature.reflectionTitle || "Helen's Clinical Reflection"}
+                  </h3>
+                  <p className="text-base-content/80 font-light leading-relaxed mb-3">
+                    &quot;{data.whySignature.reflectionQuote}
+                  </p>
+                  {data.whySignature.reflectionQuoteSecond && (
+                    <p className="text-base-content/80 font-light leading-relaxed mb-3">
+                      {data.whySignature.reflectionQuoteSecond}&quot;
+                    </p>
+                  )}
+                  <p className="text-sm text-base-content/70">- {data.whySignature.reflectionByline}</p>
+                </div>
+              </FadeInWhenVisible>
+            )}
           </div>
         </section>
 

@@ -11,7 +11,8 @@ export const signatureHubData = {
     canonical: "https://www.ulanda.co.uk/signature"
   },
   hero: {
-    h1: "Where Regenerative Science Becomes a Personalised Journey",
+    h1: "Where Long-Term Skin Health Begins",
+    primaryHeadline: "Skin Understood. Then Transformed.",
     clinic: "ULANDA \u2022 Regenerative Aesthetics & Women\u2019s Wellness",
     credential: "Led by an Advanced Nurse Practitioner & Nurse Independent Prescriber \u2022 NMC Registered",
     location: "Ware, Hertfordshire (SG12)",
@@ -21,32 +22,50 @@ export const signatureHubData = {
     }
   },
   introduction: {
-    title: "The ULANDA Way",
+    title: "Introduction",
     paragraphs: [
-      "At ULANDA, we combine regenerative aesthetics, longevity principles and hormone-smart women\u2019s care to deliver transformations that feel natural, balanced and deeply restorative.",
-      "Our Signatures are built around the four ULANDA pillars:"
+      "Perhaps you've reached the point where you're looking for more than a single treatment.",
+      "You want healthier, stronger and more resilient skin - not just temporary improvement.",
+      "You want a plan that makes sense for your skin today and continues to support it over time.",
+      "Because lasting results rarely come from one appointment.",
+      "They come from understanding your skin and caring for it in the right sequence.",
+      "At ULANDA, our Signature Programmes combine clinical assessment, regenerative medicine and personalised treatment planning into carefully designed skin health journeys.",
+      "Every programme begins with understanding what your skin is telling us before deciding how best to support it."
     ],
     pillars: [
-      { name: "Refresh", description: "skin surface renewal" },
-      { name: "Renew", description: "cellular regeneration" },
-      { name: "Restore", description: "structural support" },
-      { name: "Radiate", description: "internal wellness and metabolic balance" }
+      { name: "Understanding Before Treatment", description: "" },
+      { name: "Personalised Care", description: "" },
+      { name: "Regenerative Medicine", description: "" },
+      { name: "Natural-Looking Results", description: "" }
     ],
-    closing: "Together, they form structured journeys designed to help women age gracefully, confidently and powerfully with clinical intelligence guiding every step."
+    recognitionList: [
+      "I've tried individual treatments but want longer-lasting results.",
+      "I want healthier skin, not just cosmetic improvement.",
+      "I'm looking for a structured plan rather than one-off appointments.",
+      "My skin has changed over time and I don't know where to begin.",
+      "I want someone to guide me rather than simply recommend treatments."
+    ],
+    recognitionClosing: "If you recognised yourself in any of these, you're exactly where our Signature Programmes begin.",
+    closing: ""
   },
   whySignature: {
-    title: "Why Signatures?",
-    intro: "Women don\u2019t age in isolated parts. Skin, hormones, metabolism, inflammation and collagen decline are interconnected and the most effective results come from treating the whole picture.",
-    subtitle: "ULANDA Signatures deliver:",
+    title: "Why We Created Signature Programmes",
+    intro: "Many aesthetic treatments can produce good individual results.",
+    introSecondary: "But skin does not change in isolation.",
+    subtitle: "",
     points: [
-      "multi-layered results, not quick fixes",
-      "long-term regeneration and skin resilience",
-      "hormone-aware transformation planning",
-      "personalised sequencing based on skin behaviour and biology",
-      "internal + external alignment for lasting outcomes",
-      "visible, sustainable results that remain refined and natural"
+      "Barrier health.",
+      "Collagen.",
+      "Hydration.",
+      "Inflammation.",
+      "Hormonal influences.",
+      "Lifestyle."
     ],
-    closing: "A Signature ensures you experience complete transformation not just a one-off treatment."
+    reflectionTitle: "Helen's Clinical Reflection",
+    reflectionQuote: "One of the most rewarding parts of my work is seeing what happens when we stop thinking in terms of individual treatments and start thinking in terms of skin health over time.",
+    reflectionQuoteSecond: "A carefully planned programme often achieves more than any single procedure because every step builds on the one before it.",
+    reflectionByline: "Helen Balogun, Clinical Director",
+    closing: "Our Signature Programmes bring these factors together into personalised regenerative pathways designed to support healthier skin over the long term."
   },
   consultation: {
     title: "Book Your Advanced Skin Health Consultation",
