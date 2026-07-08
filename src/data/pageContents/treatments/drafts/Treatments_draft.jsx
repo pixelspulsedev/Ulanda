@@ -517,20 +517,43 @@ export default function TreatmentsDraft() {
               {/* <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-3">
                 Treatments &amp; Treatment Pathways
               </h1> */}
-              <p className="text-lg md:text-xl italic font-extralight text-white/90 mb-5">
-                Understanding Before Treatment
+              <p className="text-2xl font-serif md:text-4xl italic font-extralight text-white/90 mb-5">
+                How We Decide Whether This Treatment Is Right For You
               </p>
               <div className="space-y-3 text-white/90 font-light leading-relaxed max-w-3xl">
                 <p>
-                  At ULANDA, treatments are not presented as a simple menu. Each
-                  treatment is selected within a clinical framework that
-                  considers skin behaviour, barrier stability, hydration levels,
-                  hormonal context and tissue readiness.
+                  Choosing the right treatment isn't simply about selecting a
+                  popular procedure.
                 </p>
                 <p>
-                  Some treatments can be booked directly, while others are
-                  introduced following consultation to ensure the correct
-                  sequencing within your skin’s regenerative pathway.
+                  It's about understanding whether it's the right treatment for
+                  your skin, at the right time, and for the outcome you're
+                  hoping to achieve.
+                </p>
+                <p>
+                  At ULANDA, every recommendation follows our Understanding
+                  Before Treatment™ philosophy.
+                </p>
+                <p>
+                  Rather than treating every concern in the same way, we
+                  consider how your skin is behaving today, including:
+                </p>
+                <ul className="list-disc list-inside mt-2 space-y-1">
+                  <li> Skin barrier health</li>
+                  <li> Hydration and skin quality</li>
+                  <li> Inflammation and sensitivity</li>
+                  <li> Hormonal influences</li>
+                  <li> Tissue readiness</li>
+                  <li> Your longer-term skin health goals</li>
+                </ul>
+                <p>
+                  Some treatments are suitable for direct booking because they
+                  can be safely assessed at the start of your appointment.
+                </p>
+                <p>
+                  Others are best introduced following consultation, where they
+                  can be incorporated into a personalised regenerative treatment
+                  plan.
                 </p>
               </div>
               <div className="mt-6 flex flex-col sm:flex-row gap-4">
@@ -550,8 +573,9 @@ export default function TreatmentsDraft() {
                 </Link>
               </div>
               <p className="mt-4 text-sm italic text-white/70">
-                Every treatment begins with a Barrier & Skin Readiness
-                Assessment to ensure biological suitability.
+                Before treatment begins, we carry out a Barrier & Skin Readiness
+                Assessment to help ensure your skin is ready to respond well and
+                that today's treatment is the most appropriate choice.
               </p>
               <p className="mt-2 text-sm text-white/80">
                 Learn how care is decided within{' '}
@@ -576,6 +600,62 @@ export default function TreatmentsDraft() {
             A selection of ULANDA's most requested regenerative treatments. Each supports a specific skin outcome and can be explored in detail below.
           </p> */}
           <PopularPathwayCards items={popularPathways} />
+        </section>
+
+        <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto">
+          <div className="mt-8 bg-secondary rounded-xl border border-base-200 p-6 md:p-8 max-w-4xl">
+            <h3 className="text-xl font-serif text-primary mb-4">
+              Helen&rsquo;s Clinical Reflection
+            </h3>
+            <div className="space-y-3 text-base-content/80 leading-relaxed">
+              <p>
+                &ldquo;One of the most common misconceptions is that the newest
+                or most popular treatment is automatically the best one.
+              </p>
+              <p>
+                In reality, the best results usually come from choosing the
+                right treatment at the right stage of your skin journey.
+              </p>
+              <p>
+                Sometimes that confirms your original choice. Sometimes it leads
+                us in a different direction&mdash;and that&rsquo;s often where
+                the best long-term outcomes begin.&rdquo;
+              </p>
+            </div>
+            <p className="mt-4 text-sm text-base-content/70">
+              &mdash; Helen Balogun, Clinical Director
+            </p>
+          </div>
+
+          <h3 className="text-2xl font-serif mt-10 mb-4">
+            What this means for you
+          </h3>
+          <div className="space-y-3 text-base-content/80 leading-relaxed max-w-4xl">
+            <p>
+              You don&rsquo;t need to know whether this treatment is the right
+              choice. That&rsquo;s our responsibility.
+            </p>
+            <p>
+              Our role is to assess your skin, explain our findings and
+              recommend the treatment&mdash;or combination of
+              treatments&mdash;that best supports your skin today and your
+              long-term goals.
+            </p>
+            <p>
+              If today&rsquo;s treatment is appropriate, we&rsquo;ll explain
+              why. If another approach would be more beneficial, we&rsquo;ll
+              explain that too.
+            </p>
+            <p>
+              Either way, you&rsquo;ll understand the reasoning behind every
+              recommendation.
+            </p>
+          </div>
+          <p className="mt-5 text-lg font-serif italic text-primary max-w-4xl">
+            The right treatment at the wrong time can produce disappointing
+            results. The right treatment at the right time can make all the
+            difference.
+          </p>
         </section>
 
         <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
@@ -727,152 +807,6 @@ export default function TreatmentsDraft() {
             <Link to="/signature" className="btn btn-outline">
               Explore Signature Programmes
             </Link>
-          </div>
-        </section>
-
-        <section className="py-12 px-4 md:px-8 max-w-6xl mx-auto border-t border-base-200">
-          <h2 className="text-3xl font-serif mb-4">
-            How We Decide Whether This Treatment Is Right For You
-          </h2>
-          <div className="space-y-3 text-base-content/80 leading-relaxed max-w-4xl">
-            <p>
-              Choosing the right treatment isn&rsquo;t simply about selecting a
-              popular procedure.
-            </p>
-            <p>
-              It&rsquo;s about understanding whether it&rsquo;s the right
-              treatment for your skin, at the right time, and for the outcome
-              you&rsquo;re hoping to achieve.
-            </p>
-            <p>
-              At ULANDA, every recommendation follows our Understanding Before
-              Treatment&trade; philosophy.
-            </p>
-            <p>
-              Rather than treating every concern in the same way, we consider
-              how your skin is behaving today, including:
-            </p>
-          </div>
-          <ul className="mt-5 space-y-2 text-base-content/80">
-            <li>• Skin barrier health</li>
-            <li>• Hydration and skin quality</li>
-            <li>• Inflammation and sensitivity</li>
-            <li>• Hormonal influences</li>
-            <li>• Tissue readiness</li>
-            <li>• Your longer-term skin health goals</li>
-          </ul>
-          <div className="mt-5 space-y-3 text-base-content/80 leading-relaxed max-w-4xl">
-            <p>
-              Some treatments are suitable for direct booking because they can
-              be safely assessed at the start of your appointment.
-            </p>
-            <p>
-              Others are best introduced following consultation, where they can
-              be incorporated into a personalised regenerative treatment plan.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                className="btn btn-primary"
-                href={squareBookingUrl}
-                target="_blank"
-              >
-                Book Skin Health Consultation
-              </a>
-              <a
-                className="btn btn-outline"
-                href="/conditions"
-              >
-                Explore Skin Conditions
-              </a>
-            </div>
-            <p>
-              Before treatment begins, we carry out a Barrier &amp; Skin
-              Readiness Assessment to help ensure your skin is ready to respond
-              well and that today&rsquo;s treatment is the most appropriate
-              choice.
-            </p>
-            <p>
-              Learn how care is decided within{' '}
-              <Link
-                to="/clinical-system"
-                className="text-primary underline hover:text-primary-focus"
-              >
-                The ULANDA Clinical System&trade;
-              </Link>
-              .
-            </p>
-          </div>
-
-          <div className="mt-8 bg-secondary rounded-xl border border-base-200 p-6 md:p-8 max-w-4xl">
-            <h3 className="text-xl font-serif text-primary mb-4">
-              Helen&rsquo;s Clinical Reflection
-            </h3>
-            <div className="space-y-3 text-base-content/80 leading-relaxed">
-              <p>
-                &ldquo;One of the most common misconceptions is that the newest
-                or most popular treatment is automatically the best one.
-              </p>
-              <p>
-                In reality, the best results usually come from choosing the
-                right treatment at the right stage of your skin journey.
-              </p>
-              <p>
-                Sometimes that confirms your original choice. Sometimes it leads
-                us in a different direction&mdash;and that&rsquo;s often where
-                the best long-term outcomes begin.&rdquo;
-              </p>
-            </div>
-            <p className="mt-4 text-sm text-base-content/70">
-              &mdash; Helen Balogun, Clinical Director
-            </p>
-          </div>
-
-          <h3 className="text-2xl font-serif mt-10 mb-4">
-            What this means for you
-          </h3>
-          <div className="space-y-3 text-base-content/80 leading-relaxed max-w-4xl">
-            <p>
-              You don&rsquo;t need to know whether this treatment is the right
-              choice. That&rsquo;s our responsibility.
-            </p>
-            <p>
-              Our role is to assess your skin, explain our findings and
-              recommend the treatment&mdash;or combination of
-              treatments&mdash;that best supports your skin today and your
-              long-term goals.
-            </p>
-            <p>
-              If today&rsquo;s treatment is appropriate, we&rsquo;ll explain
-              why. If another approach would be more beneficial, we&rsquo;ll
-              explain that too.
-            </p>
-            <p>
-              Either way, you&rsquo;ll understand the reasoning behind every
-              recommendation.
-            </p>
-          </div>
-          <p className="mt-5 text-lg font-serif italic text-primary max-w-4xl">
-            The right treatment at the wrong time can produce disappointing
-            results. The right treatment at the right time can make all the
-            difference.
-          </p>
-
-          <div className="mt-8">
-            <a
-              href={squareBookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              Book Skin Health Consultation
-            </a>
-            <p className="mt-3 text-sm text-base-content/70">
-              £175 — Fully redeemable against your treatment plan
-            </p>
-            <p className="text-sm font-medium text-primary">
-              Skin Understood. Then Transformed.
-            </p>
           </div>
         </section>
 

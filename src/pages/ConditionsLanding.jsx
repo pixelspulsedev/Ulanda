@@ -1,7 +1,7 @@
 import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Sparkles } from 'lucide-react';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeroText from '../components/animations/HeroText';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
@@ -215,7 +215,8 @@ export default function ConditionsLanding() {
                 'Regenerative Medicine',
                 'Natural-Looking Results'
               ].map((item) => (
-                <div key={item} className="bg-secondary rounded-lg px-4 py-3 text-center text-sm font-medium text-base-content/80">
+                <div key={item} className="bg-secondary rounded-lg px-4 py-4 text-center font-serif font-medium text-base-content/80">
+                  <Sparkles className="w-8 h-8 text-primary mx-auto mb-3" />
                   {item}
                 </div>
               ))}
