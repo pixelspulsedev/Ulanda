@@ -20,9 +20,53 @@ import {
   GoogleReCaptchaProvider,
   useGoogleReCaptcha,
 } from 'react-google-recaptcha-v3';
+import { trackEvent } from '../lib/analytics';
 
 const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 const HAS_RECAPTCHA = Boolean(RECAPTCHA_SITE_KEY);
+
+/**
+ * Skin Shift™ behaviour classification options.
+ * Each visible label maps to a hidden first-party segmentation tag.
+ */
+const BEHAVIOUR_OPTIONS = [
+  { tag: 'TIRED_FACE', label: 'My skin looks more tired than I feel' },
+  { tag: 'DRYNESS', label: 'My skin feels drier than it once did' },
+  {
+    tag: 'FIRMNESS_BOUNCE',
+    label: "My skin doesn't feel as firm or bouncy as it used to",
+  },
+  { tag: 'UNDER_EYE', label: 'My under-eye area has changed' },
+  {
+    tag: 'PIGMENTATION',
+    label: 'Pigmentation or uneven tone has become more noticeable',
+  },
+  {
+    tag: 'TEXTURE_BREAKOUTS',
+    label: 'I am experiencing more breakouts, congestion or texture changes',
+  },
+];
+
+const PAGE_SOURCE = '/downloads/skin-health';
+
+/**
+ * Fire an analytics event to GA4/GTM (via dataLayer) and Meta Pixel.
+ * Behaviour tags are treated as first-party preference data (non-PII).
+ */
+const fireEvent = (eventName, params = {}) => {
+  try {
+    trackEvent(eventName, params);
+  } catch {
+    /* analytics must never block the funnel */
+  }
+  if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+    try {
+      window.fbq('trackCustom', eventName, params);
+    } catch {
+      /* ignore */
+    }
+  }
+};
 
 const SERIF = "font-['Cormorant_Garamond',Georgia,serif]";
 const EYEBROW =
@@ -56,7 +100,48 @@ const SkinShiftGuideContent = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({ firstName: '', email: '' });
   const [errors, setErrors] = useState({ firstName: false, email: false });
+  const [formStep, setFormStep] = useState(1);
+  const [selectedTags, setSelectedTags] = useState([]);
+  const [marketingConsent, setMarketingConsent] = useState(false);
+  const behaviourEventFired = React.useRef(false);
   const { executeRecaptcha } = useGoogleReCaptcha();
+
+  const scrollToForm = () => {
+    if (typeof document === 'undefined') return;
+    const el = document.getElementById('guide-form');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  // Hero CTA — user begins the download journey.
+  const handleDownloadStart = () => {
+    fireEvent('skin_shift_download_started', { page_source: PAGE_SOURCE });
+    scrollToForm();
+  };
+
+  const handleToggleTag = (tag) => {
+    setSelectedTags((prev) => {
+      const next = prev.includes(tag)
+        ? prev.filter((t) => t !== tag)
+        : [...prev, tag];
+
+      // Fire once, the first time the user has at least one option selected.
+      if (next.length > 0 && !behaviourEventFired.current) {
+        behaviourEventFired.current = true;
+        fireEvent('skin_shift_behaviour_selected', {
+          page_source: PAGE_SOURCE,
+          skin_shift_tags: next,
+          skin_shift_count: next.length,
+        });
+      }
+      return next;
+    });
+  };
+
+  const handleContinue = () => {
+    if (selectedTags.length === 0) return;
+    setFormStep(2);
+    scrollToForm();
+  };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -64,8 +149,19 @@ const SkinShiftGuideContent = () => {
     setErrors((prev) => ({ ...prev, [name]: false }));
   };
 
+  const selectedResponses = BEHAVIOUR_OPTIONS.filter((o) =>
+    selectedTags.includes(o.tag)
+  );
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Guard: at least one behaviour must be selected before submission.
+    if (selectedTags.length === 0) {
+      setFormStep(1);
+      scrollToForm();
+      return;
+    }
 
     const nameVal = formData.firstName.trim();
     const emailVal = formData.email.trim();
@@ -94,6 +190,9 @@ const SkinShiftGuideContent = () => {
       token = await executeRecaptcha('skin_shift_guide_submit');
     }
 
+    const submittedAt = new Date().toISOString();
+    const selectedLabels = selectedResponses.map((o) => o.label);
+
     try {
       const response = await fetch('https://formspree.io/f/xbdwnvvn', {
         method: 'POST',
@@ -104,12 +203,23 @@ const SkinShiftGuideContent = () => {
         body: JSON.stringify({
           firstName: nameVal,
           email: emailVal,
+          submittedAt,
+          pageSource: PAGE_SOURCE,
+          skinShiftResponses: selectedLabels,
+          skinShiftTags: selectedTags,
+          marketingConsent: marketingConsent ? 'yes' : 'no',
           'g-recaptcha-response': token,
         }),
       });
 
       if (response.ok) {
         setSuccess(true);
+        fireEvent('skin_shift_download_completed', {
+          page_source: PAGE_SOURCE,
+          skin_shift_tags: selectedTags,
+          skin_shift_count: selectedTags.length,
+          marketing_consent: marketingConsent,
+        });
         /* Google Ads conversion / Meta Pixel logic */
         if (typeof window.gtag !== 'undefined') {
           window.gtag('event', 'conversion', {
@@ -214,7 +324,11 @@ const SkinShiftGuideContent = () => {
               </span>
             </div>
 
-            <a href="#guide-form" className={BTN_PRIMARY}>
+            <a
+              href="#guide-form"
+              onClick={handleDownloadStart}
+              className={BTN_PRIMARY}
+            >
               Download the Free Guide <ArrowRight size={16} strokeWidth={2} />
             </a>
           </div>
@@ -419,96 +533,195 @@ const SkinShiftGuideContent = () => {
 
             {!success ? (
               <>
-                <p className={`${EYEBROW} mb-3`}>Get your free guide</p>
-                <h2
-                  className={`${SERIF} mb-2 text-3xl font-light text-[#2C1A0E]`}
-                >
-                  Begin with understanding your skin
-                </h2>
-                <p className="mb-7 text-[14px] leading-relaxed text-[#A68B6E]">
-                  Written by a Nurse Independent Prescriber. No marketing copy —
-                  clinical content only.
-                </p>
+                {formStep === 1 ? (
+                  /* ── Step 1 · Behaviour classification ── */
+                  <>
+                    <p className={`${EYEBROW} mb-3`}>Personalise your guide</p>
+                    <h2
+                      className={`${SERIF} mb-3 text-3xl font-light leading-tight text-[#2C1A0E]`}
+                    >
+                      What feels different about your skin today?
+                    </h2>
+                    <p className="mb-6 text-[14px] leading-relaxed text-[#6B4F38]">
+                      Many women notice changes in their skin before they
+                      understand why those changes are happening. To personalise
+                      your Skin Shift™ journey, tell us what feels different
+                      about your skin today.
+                    </p>
+                    <p className="mb-4 text-[11px] uppercase tracking-[0.16em] text-[#A68B6E]">
+                      Select all that apply
+                    </p>
 
-                <form
-                  onSubmit={handleSubmit}
-                  noValidate
-                  className="space-y-4 text-left"
-                >
-                  <div>
-                    <label
-                      htmlFor="firstName"
-                      className="mb-2 block text-[10px] uppercase tracking-[0.2em] text-[#5C3D26]"
-                    >
-                      First name
-                    </label>
-                    <input
-                      type="text"
-                      id="firstName"
-                      name="firstName"
-                      placeholder="Your first name"
-                      autoComplete="given-name"
-                      value={formData.firstName}
-                      onChange={handleInputChange}
-                      required
-                      className={`w-full border bg-[#F7F2EB] px-4 py-3 text-[14px] text-[#2C1A0E] outline-none transition-colors placeholder:text-[#8B6247]/40 focus:border-[#8B6247] focus:bg-white ${errors.firstName ? 'border-[#B5644A]' : 'border-[#8B6247]/25'}`}
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="emailAddr"
-                      className="mb-2 block text-[10px] uppercase tracking-[0.2em] text-[#5C3D26]"
-                    >
-                      Email address
-                    </label>
-                    <input
-                      type="email"
-                      id="emailAddr"
-                      name="email"
-                      placeholder="your@email.com"
-                      autoComplete="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      required
-                      className={`w-full border bg-[#F7F2EB] px-4 py-3 text-[14px] text-[#2C1A0E] outline-none transition-colors placeholder:text-[#8B6247]/40 focus:border-[#8B6247] focus:bg-white ${errors.email ? 'border-[#B5644A]' : 'border-[#8B6247]/25'}`}
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className={`${BTN_PRIMARY} w-full tracking-[0.2em] disabled:opacity-60`}
-                  >
-                    {isSubmitting ? 'Sending your guide…' : 'Send Me The Guide'}
-                    {!isSubmitting && <ArrowRight size={16} strokeWidth={2} />}
-                  </button>
-                </form>
+                    <fieldset className="space-y-3 text-left">
+                      <legend className="sr-only">
+                        What feels different about your skin today? Select all
+                        that apply.
+                      </legend>
+                      {BEHAVIOUR_OPTIONS.map(({ tag, label }) => {
+                        const checked = selectedTags.includes(tag);
+                        return (
+                          <label
+                            key={tag}
+                            className={`flex cursor-pointer items-start gap-3 border px-4 py-3 text-[14px] leading-snug transition-colors ${
+                              checked
+                                ? 'border-[#8B6247] bg-[#F2EBE0]'
+                                : 'border-[#8B6247]/25 bg-[#F7F2EB] hover:border-[#8B6247]/50'
+                            }`}
+                          >
+                            <input
+                              type="checkbox"
+                              value={tag}
+                              checked={checked}
+                              onChange={() => handleToggleTag(tag)}
+                              className="mt-0.5 h-4 w-4 shrink-0 accent-[#8B6247]"
+                            />
+                            <span className="text-[#2C1A0E]">{label}</span>
+                          </label>
+                        );
+                      })}
+                    </fieldset>
 
-                <p className="mt-5 text-[10px] tracking-[0.03em] text-[#A68B6E]">
-                  No spam · Unsubscribe at any time · Your data is never shared
-                </p>
+                    <button
+                      type="button"
+                      onClick={handleContinue}
+                      disabled={selectedTags.length === 0}
+                      aria-disabled={selectedTags.length === 0}
+                      className={`${BTN_PRIMARY} mt-6 w-full tracking-[0.2em] disabled:cursor-not-allowed disabled:opacity-40`}
+                    >
+                      Continue <ArrowRight size={16} strokeWidth={2} />
+                    </button>
 
-                {HAS_RECAPTCHA && (
-                  <p className="mt-3 text-[10px] leading-relaxed text-[#A68B6E]/80">
-                    This site is protected by reCAPTCHA and the Google{' '}
-                    <a
-                      href="https://policies.google.com/privacy"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline underline-offset-2 transition-colors hover:text-[#5C3D26]"
+                    <p className="mt-4 text-[11px] leading-relaxed text-[#A68B6E]">
+                      Your responses are used only to personalise your Skin
+                      Shift™ guide and are treated as first-party preference
+                      data.
+                    </p>
+                  </>
+                ) : (
+                  /* ── Step 2 · Details & delivery ── */
+                  <>
+                    <button
+                      type="button"
+                      onClick={() => setFormStep(1)}
+                      className="mb-4 text-[11px] uppercase tracking-[0.16em] text-[#8B6247] transition-colors hover:text-[#5C3D26]"
                     >
-                      Privacy Policy
-                    </a>{' '}
-                    and{' '}
-                    <a
-                      href="https://policies.google.com/terms"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline underline-offset-2 transition-colors hover:text-[#5C3D26]"
+                      ← Back
+                    </button>
+                    <p className={`${EYEBROW} mb-3`}>Get your free guide</p>
+                    <h2
+                      className={`${SERIF} mb-2 text-3xl font-light text-[#2C1A0E]`}
                     >
-                      Terms of Service
-                    </a>{' '}
-                    apply.
-                  </p>
+                      Begin with understanding your skin
+                    </h2>
+                    <p className="mb-7 text-[14px] leading-relaxed text-[#A68B6E]">
+                      Written by a Nurse Independent Prescriber. No marketing
+                      copy — clinical content only.
+                    </p>
+
+                    <form
+                      onSubmit={handleSubmit}
+                      noValidate
+                      className="space-y-4 text-left"
+                    >
+                      <div>
+                        <label
+                          htmlFor="firstName"
+                          className="mb-2 block text-[10px] uppercase tracking-[0.2em] text-[#5C3D26]"
+                        >
+                          First name
+                        </label>
+                        <input
+                          type="text"
+                          id="firstName"
+                          name="firstName"
+                          placeholder="Your first name"
+                          autoComplete="given-name"
+                          value={formData.firstName}
+                          onChange={handleInputChange}
+                          required
+                          className={`w-full border bg-[#F7F2EB] px-4 py-3 text-[14px] text-[#2C1A0E] outline-none transition-colors placeholder:text-[#8B6247]/40 focus:border-[#8B6247] focus:bg-white ${errors.firstName ? 'border-[#B5644A]' : 'border-[#8B6247]/25'}`}
+                        />
+                      </div>
+                      <div>
+                        <label
+                          htmlFor="emailAddr"
+                          className="mb-2 block text-[10px] uppercase tracking-[0.2em] text-[#5C3D26]"
+                        >
+                          Email address
+                        </label>
+                        <input
+                          type="email"
+                          id="emailAddr"
+                          name="email"
+                          placeholder="your@email.com"
+                          autoComplete="email"
+                          value={formData.email}
+                          onChange={handleInputChange}
+                          required
+                          className={`w-full border bg-[#F7F2EB] px-4 py-3 text-[14px] text-[#2C1A0E] outline-none transition-colors placeholder:text-[#8B6247]/40 focus:border-[#8B6247] focus:bg-white ${errors.email ? 'border-[#B5644A]' : 'border-[#8B6247]/25'}`}
+                        />
+                      </div>
+
+                      <label className="flex cursor-pointer items-start gap-3 pt-1 text-left">
+                        <input
+                          type="checkbox"
+                          checked={marketingConsent}
+                          onChange={(e) =>
+                            setMarketingConsent(e.target.checked)
+                          }
+                          className="mt-0.5 h-4 w-4 shrink-0 accent-[#8B6247]"
+                        />
+                        <span className="text-[12px] leading-relaxed text-[#6B4F38]">
+                          I would like to receive occasional Skin Shift™
+                          insights and clinical skincare guidance by email
+                          (optional). You can unsubscribe at any time.
+                        </span>
+                      </label>
+
+                      <button
+                        type="submit"
+                        disabled={isSubmitting}
+                        className={`${BTN_PRIMARY} w-full tracking-[0.2em] disabled:opacity-60`}
+                      >
+                        {isSubmitting
+                          ? 'Sending your guide…'
+                          : 'Send Me The Guide'}
+                        {!isSubmitting && (
+                          <ArrowRight size={16} strokeWidth={2} />
+                        )}
+                      </button>
+                    </form>
+
+                    <p className="mt-5 text-[10px] tracking-[0.03em] text-[#A68B6E]">
+                      Your guide is delivered by email regardless of marketing
+                      preference · Unsubscribe at any time · Your data is never
+                      shared
+                    </p>
+
+                    {HAS_RECAPTCHA && (
+                      <p className="mt-3 text-[10px] leading-relaxed text-[#A68B6E]/80">
+                        This site is protected by reCAPTCHA and the Google{' '}
+                        <a
+                          href="https://policies.google.com/privacy"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline underline-offset-2 transition-colors hover:text-[#5C3D26]"
+                        >
+                          Privacy Policy
+                        </a>{' '}
+                        and{' '}
+                        <a
+                          href="https://policies.google.com/terms"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline underline-offset-2 transition-colors hover:text-[#5C3D26]"
+                        >
+                          Terms of Service
+                        </a>{' '}
+                        apply.
+                      </p>
+                    )}
+                  </>
                 )}
               </>
             ) : (
