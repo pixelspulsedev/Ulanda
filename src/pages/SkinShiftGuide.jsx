@@ -138,7 +138,26 @@ const SkinShiftGuideContent = () => {
   };
 
   const handleContinue = () => {
-    if (selectedTags.length === 0) return;
+    const nameVal = formData.firstName.trim();
+    const emailVal = formData.email.trim();
+    let valid = true;
+    const newErrors = { firstName: false, email: false };
+
+    if (!nameVal) {
+      newErrors.firstName = true;
+      valid = false;
+    }
+
+    if (!emailVal || !emailVal.includes('@') || !emailVal.includes('.')) {
+      newErrors.email = true;
+      valid = false;
+    }
+
+    if (!valid) {
+      setErrors(newErrors);
+      return;
+    }
+
     setFormStep(2);
     scrollToForm();
   };
@@ -158,7 +177,7 @@ const SkinShiftGuideContent = () => {
 
     // Guard: at least one behaviour must be selected before submission.
     if (selectedTags.length === 0) {
-      setFormStep(1);
+      setFormStep(2);
       scrollToForm();
       return;
     }
@@ -180,6 +199,7 @@ const SkinShiftGuideContent = () => {
 
     if (!valid) {
       setErrors(newErrors);
+      setFormStep(1);
       return;
     }
 
@@ -534,79 +554,8 @@ const SkinShiftGuideContent = () => {
             {!success ? (
               <>
                 {formStep === 1 ? (
-                  /* ── Step 1 · Behaviour classification ── */
+                  /* ── Step 1 · Details & delivery ── */
                   <>
-                    <p className={`${EYEBROW} mb-3`}>Personalise your guide</p>
-                    <h2
-                      className={`${SERIF} mb-3 text-3xl font-light leading-tight text-[#2C1A0E]`}
-                    >
-                      What feels different about your skin today?
-                    </h2>
-                    <p className="mb-6 text-[14px] leading-relaxed text-[#6B4F38]">
-                      Many women notice changes in their skin before they
-                      understand why those changes are happening. To personalise
-                      your Skin Shift™ journey, tell us what feels different
-                      about your skin today.
-                    </p>
-                    <p className="mb-4 text-[11px] uppercase tracking-[0.16em] text-[#A68B6E]">
-                      Select all that apply
-                    </p>
-
-                    <fieldset className="space-y-3 text-left">
-                      <legend className="sr-only">
-                        What feels different about your skin today? Select all
-                        that apply.
-                      </legend>
-                      {BEHAVIOUR_OPTIONS.map(({ tag, label }) => {
-                        const checked = selectedTags.includes(tag);
-                        return (
-                          <label
-                            key={tag}
-                            className={`flex cursor-pointer items-start gap-3 border px-4 py-3 text-[14px] leading-snug transition-colors ${
-                              checked
-                                ? 'border-[#8B6247] bg-[#F2EBE0]'
-                                : 'border-[#8B6247]/25 bg-[#F7F2EB] hover:border-[#8B6247]/50'
-                            }`}
-                          >
-                            <input
-                              type="checkbox"
-                              value={tag}
-                              checked={checked}
-                              onChange={() => handleToggleTag(tag)}
-                              className="mt-0.5 h-4 w-4 shrink-0 accent-[#8B6247]"
-                            />
-                            <span className="text-[#2C1A0E]">{label}</span>
-                          </label>
-                        );
-                      })}
-                    </fieldset>
-
-                    <button
-                      type="button"
-                      onClick={handleContinue}
-                      disabled={selectedTags.length === 0}
-                      aria-disabled={selectedTags.length === 0}
-                      className={`${BTN_PRIMARY} mt-6 w-full tracking-[0.2em] disabled:cursor-not-allowed disabled:opacity-40`}
-                    >
-                      Continue <ArrowRight size={16} strokeWidth={2} />
-                    </button>
-
-                    <p className="mt-4 text-[11px] leading-relaxed text-[#A68B6E]">
-                      Your responses are used only to personalise your Skin
-                      Shift™ guide and are treated as first-party preference
-                      data.
-                    </p>
-                  </>
-                ) : (
-                  /* ── Step 2 · Details & delivery ── */
-                  <>
-                    <button
-                      type="button"
-                      onClick={() => setFormStep(1)}
-                      className="mb-4 text-[11px] uppercase tracking-[0.16em] text-[#8B6247] transition-colors hover:text-[#5C3D26]"
-                    >
-                      ← Back
-                    </button>
                     <p className={`${EYEBROW} mb-3`}>Get your free guide</p>
                     <h2
                       className={`${SERIF} mb-2 text-3xl font-light text-[#2C1A0E]`}
@@ -618,11 +567,7 @@ const SkinShiftGuideContent = () => {
                       copy — clinical content only.
                     </p>
 
-                    <form
-                      onSubmit={handleSubmit}
-                      noValidate
-                      className="space-y-4 text-left"
-                    >
+                    <div className="space-y-4 text-left">
                       <div>
                         <label
                           htmlFor="firstName"
@@ -679,23 +624,99 @@ const SkinShiftGuideContent = () => {
                       </label>
 
                       <button
+                        type="button"
+                        onClick={handleContinue}
+                        className={`${BTN_PRIMARY} w-full tracking-[0.2em]`}
+                      >
+                        Continue <ArrowRight size={16} strokeWidth={2} />
+                      </button>
+                    </div>
+
+                    <p className="mt-5 text-[10px] tracking-[0.03em] text-[#A68B6E]">
+                      Your guide is delivered by email regardless of marketing
+                      preference · Unsubscribe at any time · Your data is never
+                      shared
+                    </p>
+                  </>
+                ) : (
+                  /* ── Step 2 · Behaviour personalisation ── */
+                  <>
+                    <button
+                      type="button"
+                      onClick={() => setFormStep(1)}
+                      className="mb-4 text-[11px] uppercase tracking-[0.16em] text-[#8B6247] transition-colors hover:text-[#5C3D26] block mr-auto"
+                    >
+                      ← Back
+                    </button>
+                    <p className={`${EYEBROW} mb-3`}>Personalise your guide</p>
+                    <h2
+                      className={`${SERIF} mb-3 text-3xl font-light leading-tight text-[#2C1A0E]`}
+                    >
+                      What feels different about your skin today?
+                    </h2>
+                    <p className="mb-6 text-[14px] leading-relaxed text-[#6B4F38]">
+                      Many women notice changes in their skin before they
+                      understand why those changes are happening. To personalise
+                      your Skin Shift™ journey, tell us what feels different
+                      about your skin today.
+                    </p>
+                    <p className="mb-4 text-[11px] uppercase tracking-[0.16em] text-[#A68B6E]">
+                      Select all that apply
+                    </p>
+
+                    <form
+                      onSubmit={handleSubmit}
+                      noValidate
+                      className="space-y-4 text-left"
+                    >
+                      <fieldset className="space-y-3 text-left">
+                        <legend className="sr-only">
+                          What feels different about your skin today? Select all
+                          that apply.
+                        </legend>
+                        {BEHAVIOUR_OPTIONS.map(({ tag, label }) => {
+                          const checked = selectedTags.includes(tag);
+                          return (
+                            <label
+                              key={tag}
+                              className={`flex cursor-pointer items-start gap-3 border px-4 py-3 text-[14px] leading-snug transition-colors ${
+                                checked
+                                  ? 'border-[#8B6247] bg-[#F2EBE0]'
+                                  : 'border-[#8B6247]/25 bg-[#F7F2EB] hover:border-[#8B6247]/50'
+                              }`}
+                            >
+                              <input
+                                type="checkbox"
+                                value={tag}
+                                checked={checked}
+                                onChange={() => handleToggleTag(tag)}
+                                className="mt-0.5 h-4 w-4 shrink-0 accent-[#8B6247]"
+                              />
+                              <span className="text-[#2C1A0E]">{label}</span>
+                            </label>
+                          );
+                        })}
+                      </fieldset>
+
+                      <button
                         type="submit"
-                        disabled={isSubmitting}
-                        className={`${BTN_PRIMARY} w-full tracking-[0.2em] disabled:opacity-60`}
+                        disabled={isSubmitting || selectedTags.length === 0}
+                        aria-disabled={isSubmitting || selectedTags.length === 0}
+                        className={`${BTN_PRIMARY} mt-6 w-full tracking-[0.2em] disabled:cursor-not-allowed disabled:opacity-40`}
                       >
                         {isSubmitting
                           ? 'Sending your guide…'
-                          : 'Send Me The Guide'}
+                          : 'Submit'}
                         {!isSubmitting && (
                           <ArrowRight size={16} strokeWidth={2} />
                         )}
                       </button>
                     </form>
 
-                    <p className="mt-5 text-[10px] tracking-[0.03em] text-[#A68B6E]">
-                      Your guide is delivered by email regardless of marketing
-                      preference · Unsubscribe at any time · Your data is never
-                      shared
+                    <p className="mt-4 text-[11px] leading-relaxed text-[#A68B6E]">
+                      Your responses are used only to personalise your Skin
+                      Shift™ guide and are treated as first-party preference
+                      data.
                     </p>
 
                     {HAS_RECAPTCHA && (
