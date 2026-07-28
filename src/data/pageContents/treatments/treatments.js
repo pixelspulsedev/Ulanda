@@ -3012,8 +3012,8 @@ export const treatments = {
           "microneedling": {
             "id": "microneedling",
             "booking": {
-              "price": 75,
-              "duration": 30,
+              "price": 115,
+              "duration": 45,
               "treatmentType": "device",
               "bookingType": "Book Now",
               "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/DZWP3TZT6V3ADFYYETJX7MV5"
