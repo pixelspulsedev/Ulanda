@@ -349,7 +349,7 @@ const SkinShiftGuideContent = () => {
               onClick={handleDownloadStart}
               className={BTN_PRIMARY}
             >
-              Download the Free Guide <ArrowRight size={16} strokeWidth={2} />
+              Send Me the FREE Guide
             </a>
           </div>
 
