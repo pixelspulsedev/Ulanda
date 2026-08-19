@@ -97,6 +97,10 @@ const BookConsultationContent = () => {
         <meta name="twitter:title" content="Book a Consultation | ULANDA" />
         <meta name="twitter:description" content="Book your Advanced Skin Health Consultation at ULANDA in Ware, Hertfordshire." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Book a Consultation | ULANDA Skin Clinic Ware" />
+        <meta property="og:description" content="Book your Advanced Skin Health Consultation at ULANDA in Ware, Hertfordshire. Share your skin concerns and start your regenerative journey." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/book-consultation" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       {/* Hero Section */}

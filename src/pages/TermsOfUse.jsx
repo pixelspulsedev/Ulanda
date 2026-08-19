@@ -14,6 +14,9 @@ export default function TermsOfUse() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Terms of Use | ULANDA" />
         <meta name="twitter:description" content="ULANDA MedSpa terms of use. Read our conditions for using our website and services." />
+        <meta property="og:title" content="Terms of Use | ULANDA Skin Clinic" />
+        <meta property="og:description" content="ULANDA MedSpa terms of use. By accessing our website, you agree to comply with these terms. Read our conditions for using our services." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/terms-of-use" />
       </Head>
       
       <HeroText>

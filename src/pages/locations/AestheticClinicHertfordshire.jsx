@@ -14,7 +14,7 @@ const locationSchema = {
   '@id': 'https://www.ulanda.co.uk/#medicalbusiness',
   name: 'ULANDA Skin Clinic',
   url: 'https://www.ulanda.co.uk',
-  image: 'https://www.ulanda.co.uk/og-image.jpg',
+  image: 'https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
   telephone: '+44 7904 336031',
   email: 'info@ulanda.co.uk',
   priceRange: '£££',
@@ -193,6 +193,9 @@ export default function AestheticClinicHertfordshire() {
         <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-hertfordshire" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+        <meta property="og:title" content="Skin Clinic Hertfordshire | ULANDA Ware" />
+        <meta property="og:description" content="Nurse-led skin clinic in Ware, Hertfordshire. Consultation-led barrier assessment, regenerative treatments and structured skin programmes. Free parking on site." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/locations/aesthetic-clinic-hertfordshire" />
       </Head>
 
       <div className="bg-base-100 min-h-screen">

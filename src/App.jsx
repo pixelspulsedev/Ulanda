@@ -24,6 +24,9 @@ function App() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ulandamedspa" />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp" />
+        <meta property="og:title" content="ULANDA | Regenerative Aesthetics in Ware SG12, Hertfordshire" />
+        <meta property="og:description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12, Hertfordshire. Specialising in skin regeneration, bio-remodelling and hormone-smart treatments for mid-life women." />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp" />
       </Head>
       
       {/* Site-wide LocalBusiness Schema - added once */}

@@ -28,6 +28,10 @@ export default function ToolDetail() {
         <meta name="twitter:title" content={`${tool.title} | ULANDA`} />
         <meta name="twitter:description" content={tool.subtitle} />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content={`${tool.title} Biostimulator | ULANDA Skin Clinic`} />
+        <meta property="og:description" content={tool.subtitle} />
+        <meta property="og:url" content={`https://www.ulanda.co.uk/tools/${id}`} />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

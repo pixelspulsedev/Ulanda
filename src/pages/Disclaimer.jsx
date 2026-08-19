@@ -13,6 +13,9 @@ export default function Disclaimer() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Website Disclaimer | ULANDA" />
         <meta name="twitter:description" content="ULANDA website disclaimer. Content is for informational purposes only." />
+        <meta property="og:title" content="Website Disclaimer | ULANDA Skin Clinic" />
+        <meta property="og:description" content="ULANDA MedSpa website disclaimer. Content is for informational purposes only and is not a substitute for professional medical advice." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/disclaimer" />
       </Head>
       
       <HeroText>

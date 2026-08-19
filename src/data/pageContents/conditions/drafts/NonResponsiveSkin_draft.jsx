@@ -48,6 +48,9 @@ export default function NonResponsiveSkinDraft() {
         <title>{condition.seo.title}</title>
         <meta name="description" content={condition.seo.description} />
         <link rel="canonical" href={`https://www.ulanda.co.uk/conditions/${condition.id}`} />
+        <meta property="og:title" content={condition.seo.title} />
+        <meta property="og:description" content={condition.seo.description} />
+        <meta property="og:url" content={`https://www.ulanda.co.uk/conditions/${condition.id}`} />
       </Head>
 
       {/* FAQ Schema */}

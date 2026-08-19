@@ -8,7 +8,7 @@
 export const nonResponsiveSkinCondition = {
   id: 'non-responsive-skin',
   seo: {
-    title: "Non-Responsive Skin & Treatment Fatigue | Regenerative Skin Aesthetics | Skin Clinic Ware SG12",
+    title: "Non-Responsive Skin & Treatment Fatigue | ULANDA Ware",
     description: "Non-responsive skin and treatment fatigue occur when results plateau despite repeated treatments. Learn how ULANDA Skin Clinic identifies underlying barriers and guides care through its regenerative skin treatment."
   },
   hero: {

@@ -1,6 +1,17 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
+// Breadcrumbs are built from the URL, which assumes every intermediate segment
+// is itself a page. Two are not:
+//   /locations - 301s to the Hertfordshire hub, so linking it costs a redirect
+//                hop on every location page.
+//   /tools     - no such page exists, so linking it was a 404 on every tool page.
+// `null` means "render as plain text instead of a link".
+const SEGMENT_PATH_OVERRIDES = {
+  '/locations': '/locations/aesthetic-clinic-hertfordshire',
+  '/tools': null,
+};
+
 export default function Breadcrumbs() {
   const location = useLocation();
   const pathnames = location.pathname.split('/').filter((x) => x);
@@ -24,15 +35,19 @@ export default function Breadcrumbs() {
           <Link to="/" className="hover:text-primary transition-colors">Home</Link>
         </li>
         {pathnames.map((value, index) => {
-          const to = `/${pathnames.slice(0, index + 1).join('/')}`;
-          const isLast = index === pathnames.length - 1;
+          const path = `/${pathnames.slice(0, index + 1).join('/')}`;
+          const hasOverride = Object.prototype.hasOwnProperty.call(SEGMENT_PATH_OVERRIDES, path);
+          const to = hasOverride ? SEGMENT_PATH_OVERRIDES[path] : path;
+          const isCurrent = index === pathnames.length - 1;
 
           return (
-            <li key={to}>
-              {isLast ? (
+            <li key={path}>
+              {isCurrent ? (
                 <span className="font-medium text-primary cursor-default">
                   {formatSegment(value)}
                 </span>
+              ) : to === null ? (
+                <span className="cursor-default">{formatSegment(value)}</span>
               ) : (
                 <Link to={to} className="hover:text-primary transition-colors">
                   {formatSegment(value)}

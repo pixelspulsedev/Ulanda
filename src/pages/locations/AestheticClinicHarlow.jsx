@@ -16,7 +16,7 @@ const locationSchema = {
       '@id': 'https://www.ulanda.co.uk/#medicalbusiness',
       name: 'ULANDA Skin Clinic',
       url: 'https://www.ulanda.co.uk',
-      image: 'https://www.ulanda.co.uk/og-image.jpg',
+      image: 'https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp',
       telephone: '+44 7904 336031',
       email: 'info@ulanda.co.uk',
       priceRange: '£££',
@@ -255,6 +255,9 @@ export default function AestheticClinicHarlow() {
         />
         <link rel="canonical" href="https://www.ulanda.co.uk/locations/aesthetic-clinic-harlow" />
         <script type="application/ld+json">{JSON.stringify(locationSchema)}</script>
+        <meta property="og:title" content="Skin Clinic Near Harlow | ULANDA Ware" />
+        <meta property="og:description" content="Nurse-led skin clinic near Harlow, based in Ware. Barrier assessment, regenerative treatments and structured skin programmes. About 15 min drive." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/locations/aesthetic-clinic-harlow" />
       </Head>
 
       <div className="bg-base-100 min-h-screen">

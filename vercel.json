@@ -901,12 +901,31 @@
       "source": "/contact/locations/aesthetic-clinic-sawbridgeworth",
       "destination": "/locations/aesthetic-clinic-sawbridgeworth",
       "permanent": true
-    }
-  ],
-  "rewrites": [
+    },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/treatments/body-regeneration-tissue-support/stretch-mark-support",
+      "destination": "/treatments/body-regeneration-tissue-support",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/body-regeneration-tissue-support/minor-skin-lesion-removal",
+      "destination": "/treatments/body-regeneration-tissue-support",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/about/our-story",
+      "permanent": true
+    },
+    {
+      "source": "/pathways",
+      "destination": "/treatments",
+      "permanent": true
+    },
+    {
+      "source": "/programmes",
+      "destination": "/signature",
+      "permanent": true
     }
   ],
   "headers": [

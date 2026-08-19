@@ -129,7 +129,7 @@ export default function Footer() {
             {/* Locations */}
             <div>
               <h3 className="font-medium font-sans text-primary mb-4">
-                <Link to="/locations" className="hover:text-primary transition-colors text-primary">Locations</Link>
+                <Link to="/locations/aesthetic-clinic-hertfordshire" className="hover:text-primary transition-colors text-primary">Locations</Link>
               </h3>
               <ul className="space-y-3 text-base-content/80 font-sans">
                 <li><Link to="/locations/aesthetic-clinic-ware" className="hover:text-primary transition-colors ">Ware</Link></li>

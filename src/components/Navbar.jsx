@@ -352,7 +352,6 @@ export default function Navbar() {
                   <Link to="/treatments/body-regeneration-tissue-support/body-contouring" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Body Contouring</Link>
                   <Link to="/conditions/internal-wellness/slow-metabolism" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Medical Weight Management</Link>
                   <Link to="/treatments/wellness-regenerative-recovery" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">IV Therapy</Link>
-                  <Link to="/treatments/body-regeneration-tissue-support/minor-skin-lesion-removal" onClick={closeDropdown} className="block hover:bg-secondary/20 hover:text-primary rounded-lg py-2 px-3 transition-colors text-sm">Skin Lesion Removal</Link>
 
                   {/* PRESCRIPTION SKINCARE */}
                   <div className="pt-3 pb-1 px-2 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none">Prescription Skincare</div>
@@ -510,7 +509,7 @@ export default function Navbar() {
           {/* Locations Dropdown */}
           {/* <div className="dropdown dropdown-hover group px-2">
             <NavLink
-              to="/locations"
+              to="/locations/aesthetic-clinic-hertfordshire"
               onClick={closeDropdown}
               className={({ isActive }) =>
                 `flex items-center gap-1.5 font-sans text-[15px] hover:text-primary transition-colors py-2 px-2 ${isActive ? 'text-primary font-medium' : 'text-base-content/80'}`
@@ -698,7 +697,6 @@ export default function Navbar() {
                     <li><Link to="/treatments/body-regeneration-tissue-support/body-contouring" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Body Contouring</Link></li>
                     <li><Link to="/conditions/internal-wellness/slow-metabolism" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Medical Weight Management</Link></li>
                     <li><Link to="/treatments/wellness-regenerative-recovery" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">IV Therapy</Link></li>
-                    <li><Link to="/treatments/body-regeneration-tissue-support/minor-skin-lesion-removal" onClick={() => setIsDrawerOpen(false)} className="py-2 active:bg-secondary/20 min-h-[44px]">Skin Lesion Removal</Link></li>
 
                     {/* PRESCRIPTION SKINCARE */}
                     <li className="px-4 pt-4 pb-1 text-[10px] uppercase tracking-[0.15em] text-primary/50 select-none cursor-default">Prescription Skincare</li>

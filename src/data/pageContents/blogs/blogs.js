@@ -3,6 +3,7 @@ export const blogs = [
   {
     status: "published",
     id: "collagen-elastin-fibroblasts",
+    seo: { title: "Collagen, Elastin & Fibroblasts Explained | ULANDA" },
     slug: "collagen-elastin-fibroblasts",
     title: "Collagen, Elastin & Fibroblasts — The Three Engines of Beautiful Skin",
     subtitle: "The biological truth every Hertfordshire woman should know.",
@@ -244,6 +245,7 @@ export const blogs = [
   {
     status: "published",
     id: "inflammation-stress-skin-ageing",
+    seo: { title: "Inflammation, Stress & Skin Ageing | ULANDA Ware" },
     slug: "inflammation-stress-skin-ageing",
     title: "Inflammation, Stress & Skin Ageing — The Hertfordshire Regeneration Reset",
     subtitle: "A clinical, hormone-aware guide for women in Ware, Hertford & surrounding villages.",
@@ -471,6 +473,7 @@ export const blogs = [
   {
     status: "published",
     id: "internal-health-regeneration",
+    seo: { title: "Nutrition, Hormones & Skin Regeneration | ULANDA" },
     slug: "internal-health-regeneration",
     title: "Internal Health Meets Regeneration — How Nutrition, Hormones & Lifestyle Transform Skin",
     subtitle: "A clinical, regenerative roadmap for Hertfordshire women who want glowing skin from the inside and outside.",
@@ -651,6 +654,7 @@ export const blogs = [
   {
     status: "published",
     id: "is-regenerative-aesthetics-safe",
+    seo: { title: "Is Regenerative Aesthetics Safe? | ULANDA Ware" },
     slug: "is-regenerative-aesthetics-safe",
     title: "Is Regenerative Aesthetics Safe? The Medical Truth Behind the Trend",
     subtitle: "What Hertfordshire women must know before choosing PN, biostimulators, threads or Skin Boosters.",
@@ -810,6 +814,7 @@ export const blogs = [
   {
     status: "published",
     id: "regeneration-longevity",
+    seo: { title: "Regeneration & Longevity in Aesthetics | ULANDA Ware" },
     slug: "regeneration-longevity",
     title: "Regeneration & Longevity — The Future of Aesthetic Medicine in Ware",
     subtitle: "The evidence-based shift redefining midlife skin for Hertfordshire women.",
@@ -1363,6 +1368,7 @@ export const blogs = [
   },
   {
     id: "extracellular-matrix-science",
+    seo: { title: "The Extracellular Matrix & Skin Ageing | ULANDA" },
     slug: "extracellular-matrix-science",
     title: "The Extracellular Matrix — The Hidden Structure That Controls How Young Your Skin Looks",
     subtitle: "The science every Hertfordshire woman needs to understand before choosing any aesthetic treatment.",
@@ -1545,6 +1551,7 @@ export const blogs = [
   },
   {
     id: "menopause-regeneration-model",
+    seo: { title: "The Menopause Regeneration Model | ULANDA" },
     slug: "menopause-regeneration-model",
     title: "The Menopause Regeneration Model — Skin, Hormones & Cellular Repair",
     subtitle: "A clinically precise, hormone-aware framework for Hertfordshire women navigating midlife skin changes.",
@@ -1779,6 +1786,7 @@ export const blogs = [
   },
   {
     id: "regenerative-lifetime-timeline",
+    seo: { title: "Skin at 30, 40, 50 and 60+: A Regenerative Timeline | ULANDA" },
     slug: "regenerative-lifetime-timeline",
     title: "The Regenerative Lifetime Timeline — Skin at 30, 40, 50, 60+",
     subtitle: "A biological roadmap for Hertfordshire women who want to age with science, not guesswork.",
@@ -1928,6 +1936,7 @@ export const blogs = [
   },
   {
     id: "regenerative-triangle-skin-structure-cells",
+    seo: { title: "The Regenerative Triangle: Quality & Structure | ULANDA" },
     slug: "regenerative-triangle-skin-structure-cells",
     title: "The Regenerative Triangle: Skin Quality, Structure & Cellular Health",
     subtitle: "A deep scientific framework every Hertfordshire woman over 35 should understand.",
@@ -2088,6 +2097,7 @@ export const blogs = [
   },
   {
     id: "science-of-skin-repair-after-35",
+    seo: { title: "Skin Repair After 35: Why Regeneration Slows | ULANDA" },
     slug: "science-of-skin-repair-after-35",
     title: "The Science of Skin Repair After 35 — Why Regeneration Declines",
     subtitle: "A clinically accurate, regenerative guide for Hertfordshire women.",
@@ -2242,6 +2252,7 @@ export const blogs = [
   },
   {
     id: "skin-barrier-breakdown-after-40",
+    seo: { title: "Skin Barrier Breakdown After 40 | ULANDA Ware" },
     slug: "skin-barrier-breakdown-after-40",
     title: "The Skin Barrier Breakdown After 40 — A Regenerative Guide",
     subtitle: "A clinical, menopause-aware explanation every Hertfordshire woman needs to understand.",
@@ -2363,6 +2374,7 @@ export const blogs = [
   },
   {
     id: "what-regeneration-really-means",
+    seo: { title: "What Skin Regeneration Really Means | ULANDA Ware" },
     slug: "what-regeneration-really-means",
     title: "What Regeneration Really Means — The New Era of Anti-Aging for Hertfordshire Women",
     subtitle: "The New Era of Anti-Aging for Hertfordshire Women.",
@@ -2478,6 +2490,7 @@ export const blogs = [
   },
   {
     id: "why-collagen-is-not-enough",
+    seo: { title: "Why Collagen Alone Is Not Enough | ULANDA" },
     slug: "why-collagen-is-not-enough",
     title: "Why Collagen Is Not Enough — The Full Regenerative Matrix Explained",
     subtitle: "A deep clinical framework for Hertfordshire women who want results that are natural, long-lasting and biologically sound.",
@@ -2598,6 +2611,7 @@ export const blogs = [
   },
   {
     id: "hormone-changes-need-regenerative-treatments",
+    seo: { title: "Hormone Change Needs More Than Skincare | ULANDA" },
     slug: "hormone-changes-need-regenerative-treatments",
     title: "Why Hormone Changes Need Regenerative Treatments, Not Just Skincare",
     subtitle: "A clinical explanation for Hertfordshire women who want results that skincare alone can never deliver.",
@@ -2715,6 +2729,7 @@ export const blogs = [
   },
   {
     id: "menopause-accelerates-aging-regeneration-reverses",
+    seo: { title: "Why Menopause Accelerates Skin Ageing | ULANDA" },
     slug: "menopause-accelerates-aging-regeneration-reverses",
     title: "Why Menopause Accelerates Skin Ageing — And How Regeneration Reverses It",
     subtitle: "A clinical, science-led guide for Hertfordshire women in midlife.",
@@ -2822,6 +2837,7 @@ export const blogs = [
   },
   {
     id: "menopause-skin-responds-better-to-regeneration-than-fillers",
+    seo: { title: "Menopause Skin: Regeneration vs Fillers | ULANDA" },
     slug: "menopause-skin-responds-better-to-regeneration-than-fillers",
     title: "Why Menopause Skin Responds Better to Regeneration Than Fillers — The Hormonal Science Explained",
     subtitle: "The biological truth every midlife woman in Hertfordshire deserves to know.",
@@ -2930,6 +2946,7 @@ export const blogs = [
   },
   {
     id: "regeneration-produces-more-natural-results-than-fillers",
+    seo: { title: "Why Regeneration Looks More Natural Than Filler | ULANDA" },
     slug: "regeneration-produces-more-natural-results-than-fillers",
     title: "Why Regeneration Produces More Natural Results Than Fillers — The Biological Explanation",
     subtitle: "For Hertfordshire women who want refinement, not overfilled faces.",
@@ -3042,6 +3059,7 @@ export const blogs = [
   },
   {
     id: "regeneration-wins-over-filler-for-midlife-women",
+    seo: { title: "Regeneration vs Filler for Midlife Women | ULANDA" },
     slug: "regeneration-wins-over-filler-for-midlife-women",
     title: "Why Regeneration Wins Over Filler for Midlife Women",
     subtitle: "A clinical, hormone-aware explanation for Hertfordshire women who want natural, long-lasting results.",
@@ -3156,6 +3174,7 @@ export const blogs = [
   },
   {
     id: "barrier-breakdown-science-regenerative-restoration",
+    seo: { title: "Barrier Breakdown: The Science of Repair | ULANDA" },
     slug: "barrier-breakdown-science-regenerative-restoration",
     title: "Barrier Breakdown: The Science Behind Compromised Skin — And How Regeneration Restores It Naturally",
     subtitle: "A Clinician’s Guide to Strengthening Your Skin’s First Line of Defence",
@@ -3299,6 +3318,7 @@ export const blogs = [
   },
   {
     id: "biorepeel-vs-chemical-peels-menopausal-skin",
+    seo: { title: "BioRePeel vs Chemical Peels for Menopause | ULANDA" },
     slug: "biorepeel-vs-chemical-peels-menopausal-skin",
     title: "BioRePeel vs Chemical Peels — What Menopausal Skin Really Needs",
     subtitle: "A clinical ULANDA guide to exfoliation, regeneration and menopausal skin resilience",
@@ -3422,6 +3442,7 @@ export const blogs = [
   },
   {
     id: "regenerative-facials-pn-injectables-menopause",
+    seo: { title: "Regenerative Facials & PN for Menopause | ULANDA" },
     slug: "regenerative-facials-pn-injectables-menopause",
     title: "Blossoming Through Change: Regenerative Facials & PN Injectables for Peri- and Post-Menopausal Skin",
     subtitle: "How regenerative science restores radiance, firmness and vitality during midlife transitions.",
@@ -3518,6 +3539,7 @@ export const blogs = [
   },
   {
     id: "biostimulators-bridge-aesthetics-skin-health",
+    seo: { title: "Biostimulators & True Skin Health | ULANDA" },
     slug: "biostimulators-bridge-aesthetics-skin-health",
     title: "Blossoming Through Regeneration: Biostimulators as the Bridge Between Aesthetics & True Skin Health",
     subtitle: "How collagen biostimulation restores elasticity, firmness and longevity from within.",
@@ -3622,6 +3644,7 @@ export const blogs = [
   },
   {
     id: "chemical-peels-hertfordshire-local-guide",
+    seo: { title: "Chemical Peels in Hertfordshire | ULANDA Ware" },
     slug: "chemical-peels-hertfordshire-local-guide",
     title: "Chemical Peels in Hertfordshire — Best Options for Local Skin Concerns",
     subtitle: "A regenerative guide to brighter, smoother, healthier skin for Hertfordshire women.",
@@ -3715,6 +3738,7 @@ export const blogs = [
   },
   {
     id: "collagen-collapse-after-40",
+    seo: { title: "Collagen Collapse After 40: The Science | ULANDA" },
     slug: "collagen-collapse-after-40",
     title: "Collagen Collapse After 40 — The Real Science Every Woman Should Know",
     subtitle: "Why your skin changes so dramatically in your 40s and 50s — and how regenerative aesthetics rebuilds what time and hormones take away.",
@@ -3850,6 +3874,7 @@ export const blogs = [
   },
   {
     id: "collagen-therapy-vs-biostimulators",
+    seo: { title: "Collagen Therapy vs Biostimulators | ULANDA" },
     slug: "collagen-therapy-vs-biostimulators",
     title: "Collagen Therapy vs Biostimulators — What’s the Difference?",
     subtitle: "A clear, simple, science-backed guide for women in Ware SG12 and surrounding Hertfordshire villages.",
@@ -3980,6 +4005,7 @@ export const blogs = [
   },
   {
     id: "definisse-threads-regenerative-lifting-ware",
+    seo: { title: "Definisse Threads in Ware SG12 | ULANDA" },
     slug: "definisse-threads-regenerative-lifting-ware",
     title: "Definisse Threads: Regenerative Lifting & Collagen Renewal in Ware (SG12) & Hertfordshire",
     subtitle: "A next-generation ULANDA guide to restoring contours, firmness and youthfulness through regenerative thread therapy.",
@@ -4085,6 +4111,7 @@ export const blogs = [
   },
   {
     id: "dull-dehydrated-skin-after-35-hertfordshire",
+    seo: { title: "Dull, Dehydrated Skin After 35 | ULANDA Ware" },
     slug: "dull-dehydrated-skin-after-35-hertfordshire",
     title: "Dull, Dehydrated Skin After 35 — The Hertfordshire Midlife Guide",
     subtitle: "Why it happens, why it feels sudden, and how ULANDA restores your glow from the inside out.",
@@ -4165,6 +4192,7 @@ export const blogs = [
   },
   {
     id: "fillers-vs-biostimulators-natural-rejuvenation",
+    seo: { title: "Fillers vs Biostimulators: Which & When | ULANDA" },
     slug: "fillers-vs-biostimulators-natural-rejuvenation",
     title: "Fillers Have Their Place — But Biostimulators Are the Key to Natural-Looking Rejuvenation",
     subtitle: "A clinical ULANDA guide to understanding structure vs regeneration — and why biostimulators define the future of natural aesthetics.",
@@ -4273,6 +4301,7 @@ export const blogs = [
   },
   {
     id: "hormonal-skin-decline-regenerative-treatments",
+    seo: { title: "Hormonal Skin Decline: Treatments That Help | ULANDA" },
     slug: "hormonal-skin-decline-regenerative-treatments",
     title: "Hormonal Skin Decline — The Regenerative Treatments That Reverse It",
     subtitle: "The real reasons your skin changes in midlife — and the science-backed regenerative solutions that rebuild it from within.",
@@ -4372,6 +4401,7 @@ export const blogs = [
   },
   {
     id: "perimenopause-menopause-skin-impact",
+    seo: { title: "How Perimenopause & Menopause Affect Skin | ULANDA" },
     slug: "perimenopause-menopause-skin-impact",
     title: "How Perimenopause & Menopause Impact Your Skin — And How to Improve It",
     subtitle: "A regenerative ULANDA guide to restoring hydration, firmness and radiance during hormonal change.",
@@ -4475,6 +4505,7 @@ export const blogs = [
   },
   {
     id: "how-pn-thickens-menopause-skin",
+    seo: { title: "How PN Thickens Menopause Skin | ULANDA Ware" },
     slug: "how-pn-thickens-menopause-skin",
     title: "How PN Thickens Menopause Skin — The Real Science",
     subtitle: "Why Polynucleotides are the #1 regenerative treatment for thinning, crepey peri- and post-menopausal skin.",
@@ -4564,6 +4595,7 @@ export const blogs = [
   },
   {
     id: "sun-damage-treatments-hertfordshire",
+    seo: { title: "Sun Damage Treatments in Hertford & Ware | ULANDA" },
     slug: "sun-damage-treatments-hertfordshire",
     title: "How Sun Damage Affects Skin in Hertford & Ware (and the Best Treatments)",
     subtitle: "The science behind pigmentation, collagen loss & premature aging — and what really fixes it.",
@@ -4644,6 +4676,7 @@ export const blogs = [
   },
   {
     id: "hrt-myths-debunked",
+    seo: { title: "HRT Myths Debunked: The Truth | ULANDA Ware" },
     slug: "hrt-myths-debunked",
     title: "HRT Myths Debunked: The Truth About Hormone Replacement Therapy",
     subtitle: "Many common beliefs about hormone replacement therapy (HRT) are actually myths. We separate fact from fiction.",
@@ -5011,7 +5044,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Melasma Treatment Hertford & Ware | Regenerative Pigmentation",
+      title: "Melasma Treatment Hertford & Ware | ULANDA",
       description: "Expert melasma treatment in Ware SG12. Regenerative protocols using BioRePeel, Polynucleotides & bespoke plans for Hertfordshire clients.",
       keywords: [
         "melasma treatment Hertford",
@@ -5162,7 +5195,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Menopause Skin Treatments Ware SG12 | Regenerative Glow-Up",
+      title: "Menopause Skin Treatments Ware SG12 | ULANDA",
       description: "The 5 best regenerative treatments for menopause skin in Hertfordshire. PN, Biostimulators, Threads & Peels at Ulanda Ware SG12.",
       keywords: [
         "menopause skin treatment Ware SG12",
@@ -5409,7 +5442,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Microneedling + Polynucleotides Hertfordshire | Ultimate Duo",
+      title: "Microneedling + Polynucleotides | ULANDA Ware",
       description: "The most powerful skin duo in Ware SG12: Microneedling + Polynucleotides. Treat scarring, pigmentation, and menopause skin with Ulanda.",
       keywords: [
         "microneedling polynucleotides Hertfordshire",
@@ -5535,7 +5568,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Microneedling Hertford & Ware | Acne Scarring & Pigmentation",
+      title: "Microneedling Hertford & Ware | ULANDA",
       description: "Expert microneedling in Ware SG12. Treat acne scarring, pigmentation & signs of aging with regenerative protocols at Ulanda.",
       keywords: [
         "microneedling Hertford",
@@ -5665,7 +5698,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Polynucleotides, Biostimulators & Threads Ware | Regenerative Science",
+      title: "PN, Biostimulators & Threads in Ware | ULANDA",
       description: "Next-gen regenerative aesthetics in Hertfordshire. Learn how PNs, Biostimulators & Threads create natural, longevity-based results at Ulanda.",
       keywords: [
         "regenerative aesthetics Ware SG12",
@@ -5791,7 +5824,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "PDRN vs Skin Boosters Hertford | Which is Better?",
+      title: "PDRN vs Skin Boosters Hertford | ULANDA",
       description: "Confused between PDRN (Polynucleotides) & Skin Boosters? We explain the difference and which is best for your skin type in Ware SG12.",
       keywords: [
         "PDRN treatment Hertford",
@@ -5930,7 +5963,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Menopause Pigmentation Treatment Ware | Safe & Non-Laser",
+      title: "Menopause Pigmentation Treatment Ware | ULANDA",
       description: "Why regenerative treatments beat lasers for menopause pigmentation. Safe, effective melasma solutions in Ware SG12.",
       keywords: [
         "menopause pigmentation Ware SG12",
@@ -6045,7 +6078,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Pigmentation vs Melasma Treatment Hertford | What's the Difference?",
+      title: "Pigmentation vs Melasma Hertford | ULANDA",
       description: "Do you have pigmentation or melasma? Learn the difference and find the right treatment in Ware SG12. Expert guide for Hertfordshire skin.",
       keywords: [
         "melasma vs pigmentation Hertford",
@@ -6205,7 +6238,7 @@ export const blogs = [
     ],
     relatedTreatments: ['polynucleotides', 'profhilo', 'jalupro', 'definisse-hydrobooster'],
     seo: {
-      title: "PN vs Skin Boosters in Ware SG12 | Menopause Glow & Regeneration | ULANDA",
+      title: "PN vs Skin Boosters in Ware SG12 | ULANDA",
       description: "Confused between PN and Skin Boosters? ULANDA explains the difference for menopausal skin. Get the glow today and regenerate for tomorrow in Ware, Hertfordshire.",
       keywords: [
         "PN vs Skin Boosters Ware SG12",
@@ -6343,7 +6376,7 @@ export const blogs = [
     ],
     relatedTreatments: ['polynucleotides', 'profhilo', 'jalupro'],
     seo: {
-      title: "PN Treatment Ware SG12 | Menopause Regeneration | ULANDA",
+      title: "PN vs Skin Boosters for Menopause | ULANDA",
       description: "Menopausal skin needs regeneration. Discover why PN and Skin Boosters are the top treatments in Ware, Hertford & Broxbourne. Restore collagen & hydration.",
       keywords: [
         "PN treatment Ware SG12",
@@ -6469,7 +6502,7 @@ export const blogs = [
     ],
     relatedTreatments: ['polynucleotides'],
     seo: {
-      title: "Polynucleotides in Ware SG12 | Regenerative Skin Treatment | ULANDA",
+      title: "Polynucleotides in Ware SG12 | ULANDA",
       description: "Discover why Polynucleotides (PN) are the treatment everyone in Ware & Hertford is talking about. Natural collagen regeneration for menopause, under-eyes & crepey skin.",
       keywords: [
         "Polynucleotides Ware SG12",
@@ -6579,7 +6612,7 @@ export const blogs = [
     ],
     relatedTreatments: ['polynucleotides', 'profhilo'],
     seo: {
-      title: "PN vs Skin Boosters SG12 | Regenerative Skin Guide | ULANDA",
+      title: "Polynucleotides vs Skin Boosters SG12 | ULANDA",
       description: "Polynucleotides or Skin Boosters? ULANDA SG12 explains the difference for menopausal skin, under-eyes & elasticity. Choose the right regenerative path in Ware.",
       keywords: [
         "PN vs Skin Boosters SG12",
@@ -6802,7 +6835,7 @@ export const blogs = [
     ],
     relatedTreatments: ['polynucleotides', 'profhilo', 'microneedling'],
     seo: {
-      title: "Regenerative Aesthetics Ware SG12 | Natural Aesthetic Results | ULANDA",
+      title: "Regenerative Aesthetics Ware SG12 | ULANDA",
       description: "Why the industry is shifting from correction to regeneration. Natural, long-lasting aesthetic results for midlife women in Ware, Hertford & Broxbourne.",
       keywords: [
         "regenerative aesthetics Ware SG12",
@@ -6904,7 +6937,7 @@ export const blogs = [
     ],
     relatedTreatments: ['polynucleotides', 'profhilo'],
     seo: {
-      title: "Regenerative Aesthetics Ware SG12 | Natural Anti-Aging | ULANDA",
+      title: "Natural Anti-Ageing in Ware SG12 | ULANDA",
       description: "Discover the future of anti-aging in Ware. Regenerative aesthetics uses biology, not filler, to restore collagen, elasticity & natural youthfulness.",
       keywords: [
         "regenerative aesthetics Ware SG12",
@@ -7002,7 +7035,7 @@ export const blogs = [
     ],
     relatedTreatments: ['polynucleotides', 'biorepeel', 'profhilo'],
     seo: {
-      title: "Seasonal Skin Regeneration Ware SG12 | Year-Round Glow | ULANDA",
+      title: "Seasonal Skin Regeneration Ware SG12 | ULANDA",
       description: "Protect your skin across every season with ULANDA's regenerative guide. Clinical skincare plans for spring, summer, autumn & winter in Hertfordshire.",
       keywords: [
         "seasonal skin regeneration Ware",
@@ -7316,7 +7349,7 @@ export const blogs = [
     ],
     relatedTreatments: ['thread-lifts', 'biostimulators', 'polynucleotides'],
     seo: {
-      title: "Menopause Jawline Fix Ware SG12 | Regenerative Contouring | ULANDA",
+      title: "Menopause Jawline Contouring Ware | ULANDA",
       description: "Fix sagging jowls & jawline loss during menopause. ULANDA's regenerative contouring in Ware uses biology to lift, not just fill. Natural results for midlife women.",
       keywords: [
         "menopause jawline treatment Ware SG12",
@@ -7491,7 +7524,7 @@ export const blogs = [
     ],
     relatedTreatments: ['biostimulators', 'thread-lifts', 'microneedling'],
     seo: {
-      title: "Menopause Glow Biostimulants Ware SG12 | ULANDA",
+      title: "Menopause Glow: Biostimulators & Collagen | ULANDA",
       description: "Restore radiance & firmness in perimenopause with Biostimulants & Collagen Therapy. Regenerative aesthetic guide for women in Ware, Hertford & Broxbourne.",
       keywords: [
         "menopause biostimulant treatment Ware SG12",
@@ -7784,7 +7817,7 @@ export const blogs = [
     ],
     relatedTreatments: ["polynucleotides", "profhilo", "biostimulators", "thread-lifts", "nad-iv"],
     seo: {
-      title: "PN, Skin Boosters, Biostimulators & Threads Guide Ware SG12 | ULANDA",
+      title: "PN, Boosters, Biostimulators & Threads | ULANDA",
       description: "A clear menopause guide to PN, Skin Boosters, Biostimulators & Threads. Understand the difference and find the right regenerative treatment in Hertfordshire.",
       keywords: [
         "menopause skin treatment Ware SG12",
@@ -7903,7 +7936,7 @@ export const blogs = [
     ],
     relatedTreatments: ["polynucleotides", "thread-lifts", "lumi-eyes", "profhilo"],
     seo: {
-      title: "Under-Eye Regeneration Blueprint Ware SG12 | PN & Threads | ULANDA",
+      title: "Under-Eye Regeneration Ware SG12 | ULANDA",
       description: "Treat dark circles and hollows naturally. The ULANDA Under-Eye Regeneration Blueprint using PN, Skin Boosters and Threads in Ware, Hertfordshire.",
       keywords: [
         "under-eye regeneration Ware SG12",
@@ -8003,7 +8036,7 @@ export const blogs = [
     ],
     relatedTreatments: ["thread-lifts", "dermal-fillers"],
     seo: {
-      title: "Thread Lift vs Dermal Fillers Hertfordshire Guide | ULANDA Ware",
+      title: "Thread Lift vs Dermal Fillers | ULANDA Ware",
       description: "Which lifts better: Threads or Fillers? A clinical comparison for Hertfordshire women. Lift sagging or replace volume? Find out here.",
       keywords: [
         "thread lift Hertford",
@@ -8091,7 +8124,7 @@ export const blogs = [
     ],
     relatedTreatments: ["polynucleotides", "biorepeel", "nad-iv"],
     seo: {
-      title: "Science of Under-Eye Regeneration Ware SG12 | Dark Circles Solution",
+      title: "Under-Eye Regeneration & Dark Circles | ULANDA",
       description: "Clinical guide to repairing under-eye dark circles and thinning. Why regeneration works better than filler for midlife eyes. ULANDA Ware.",
       keywords: [
         "under-eye regeneration Ware SG12",
@@ -8292,7 +8325,7 @@ export const blogs = [
     ],
     relatedTreatments: ["profhilo", "definisse-hydrobooster"],
     seo: {
-      title: "Best Skin Booster for Menopause Ware | Profhilo vs Hydrobooster",
+      title: "Profhilo vs Hydrobooster for Menopause | ULANDA",
       description: "Profhilo or Hydrobooster? Which is best for menopausal skin elasticity and hydration? Definitive guide by ULANDA Clinic Ware SG12.",
       keywords: [
         "menopause skin booster Ware SG12",
@@ -8464,7 +8497,7 @@ export const blogs = [
     ],
     relatedTreatments: ["biostimulators", "polynucleotides", "thread-lifts", "nad-iv", "biorepeel"],
     seo: {
-      title: "Menopause Collagen Treatment Ware | Biostimulators vs Fillers",
+      title: "Menopause Collagen Treatment Ware | ULANDA",
       description: "Why menopause skin needs collagen stimulation instead of dermal fillers. Biostimulators, PN and Regenerative Aesthetics in Ware, Hertfordshire.",
       keywords: [
         "menopause collagen treatment Ware SG12",
@@ -8529,7 +8562,7 @@ export const blogs = [
     ],
     relatedTreatments: ["polynucleotides", "biostimulators", "profhilo", "thread-lifts", "biorepeel", "nad-iv"],
     seo: {
-      title: "Future of Aesthetics for Midlife Women Ware | Regenerative Medicine",
+      title: "Regenerative Aesthetics for Midlife Women | ULANDA",
       description: "Why regenerative aesthetics is replacing anti-ageing quick fixes. The biological approach to midlife skin in Ware, Hertfordshire.",
       keywords: [
         "regenerative aesthetics Ware SG12",
@@ -8605,7 +8638,7 @@ export const blogs = [
     ],
     relatedTreatments: ["polynucleotides", "profhilo", "biostimulators", "definisse-hydrobooster"],
     seo: {
-      title: "12-Week Menopause Skin Plan Ware | PN, Boosters & Biostimulators",
+      title: "12-Week Menopause Skin Plan | ULANDA Ware",
       description: "The ultimate 12-week regenerative skin plan for menopause. Combining PN, Skin Boosters and Biostimulators for natural transformation in Ware.",
       keywords: [
         "menopause skin plan Ware SG12",
@@ -8688,7 +8721,7 @@ export const blogs = [
     ],
     relatedTreatments: ["polynucleotides", "profhilo", "biorepeel", "enzyme-therapy", "nad-iv", "vitamin-b12-im"],
     seo: {
-      title: "Holistic Skin & Wellness Clinic Ware | ULANDA Integrated Approach",
+      title: "Holistic Skin & Wellness Clinic Ware | ULANDA",
       description: "Why ULANDA combines Skin, Wellness & Prevention. The science of whole-woman rejuvenation in midlife. Regenerative aesthetics in Ware, Hertfordshire.",
       keywords: [
         "holistic skin clinic Ware",
@@ -8776,7 +8809,7 @@ export const blogs = [
     ],
     relatedTreatments: ["polynucleotides", "biostimulators", "thread-lifts", "biorepeel", "microneedling", "nad-iv"],
     seo: {
-      title: "Skin Ageing Timeline 30s 40s 50s 60s | Regenerative Guide Ware",
+      title: "Skin Ageing Timeline: 30s to 60s | ULANDA Ware",
       description: "A decade-by-decade guide to female skin ageing. What treatments you need at 35, 45, 55 and 65. Regenerative aesthetics in Ware, Hertfordshire.",
       keywords: [
         "regenerative ageing Ware SG12",
@@ -8970,7 +9003,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Do You Need a Consultation Before Botox in Ware?",
+      title: "Do You Need a Consultation Before Botox? | ULANDA",
       description: "Discover why a medical consultation before Botox improves safety, dosing precision and long-term results in Ware.",
       keywords: [
         "consultation before Botox Ware",
@@ -9187,7 +9220,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Why Barrier Repair Is Essential Before Skin Regeneration | ULANDA Skin Clinic Ware",
+      title: "Why Barrier Repair Comes First | ULANDA Ware",
       description: "Discover why repairing the skin barrier improves collagen response and structural regeneration outcomes in Ware.",
       keywords: [
         "barrier repair before regeneration Ware",
@@ -9408,7 +9441,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "How to Repair a Damaged Skin Barrier | Clinical Guide",
+      title: "How to Repair a Damaged Skin Barrier | ULANDA",
       description: "Learn how to repair a damaged skin barrier professionally in Ware, Hertfordshire and why stabilisation improves treatment predictability and visible refinement.",
       keywords: [
         "repair damaged skin barrier Ware",
@@ -9616,7 +9649,7 @@ export const blogs = [
       }
     ],
     seo: {
-      title: "Where to Get a Medical Skin Consultation in Ware",
+      title: "Medical Skin Consultation in Ware | ULANDA",
       description: "Looking for a medical skin consultation in Ware? Learn what to expect from a clinician-led assessment at ULANDA.",
       keywords: [
         "medical skin consultation Ware",
@@ -9637,3 +9670,15 @@ export const getBlog = (id) => {
 export const getAllBlogs = () => {
     return blogs;
 }
+
+// Single source of truth for blog visibility.
+//
+// Most entries predate the `status` field and carry no value at all; only
+// work-in-progress posts are explicitly marked 'draft'. Treating a missing
+// status as published keeps the listing page, the SSG path list and
+// sitemap.xml in agreement - they previously disagreed, which left 64 live
+// posts rendered and sitemapped but absent from /blogs, and so unreachable
+// by any internal link.
+export const isPublishedBlog = (blog) => blog.status !== 'draft';
+
+export const getPublishedBlogs = () => blogs.filter(isPublishedBlog);

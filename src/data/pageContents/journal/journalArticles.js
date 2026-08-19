@@ -24,7 +24,7 @@ export const journalArticles = [
     image: "/assets/img/journal/Why-treatments-fail.webp",
     keywords: "why skin treatments fail, barrier instability, reactive skin after facial, over-exfoliation damage, skin not responding to treatments, failed aesthetic treatments Ware, Advanced Skin Health Consultation Hertfordshire, nurse-led skin clinic SG12",
     seo: {
-      title: "Why Treatments Fail: When Skin Is Not Ready for Correction | ULANDA Ware SG12",
+      title: "Why Skin Treatments Fail: Barrier Instability | ULANDA",
       description: "Discover why skin treatments fail when barrier instability and inflammation are ignored. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/why-treatments-fail-barrier-instability"
     },
@@ -362,7 +362,7 @@ export const journalArticles = [
     image: "/assets/img/journal/Skin-barrier-function.webp",
     keywords: "skin barrier function, damaged skin barrier, reactive skin, sensitive skin causes, gentle products burning skin, inflammation ageing, barrier repair Ware, Advanced Skin Health Consultation Hertfordshire, nurse-led skin clinic SG12",
     seo: {
-      title: "Skin Barrier Function: Why Your Skin Reacts Even When Products Are \"Gentle\" | ULANDA Ware SG12",
+      title: "Skin Barrier Function: Why Skin Reacts | ULANDA",
       description: "Discover why your skin barrier reacts even to \"gentle\" products. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire. Learn about barrier damage, inflammation, sequencing and when to book a Advanced Skin Health Consultation.",
       canonical: "https://www.ulanda.co.uk/journal/skin-barrier-function"
     },
@@ -704,7 +704,7 @@ export const journalArticles = [
     image: "/assets/img/journal/Over-exfoliated-skin.webp",
     keywords: "over exfoliated skin, skin barrier damage, damaged skin from acids, retinol irritation repair, over exfoliation symptoms, reactive skin Ware SG12, Advanced Skin Health Consultation Hertfordshire, nurse-led skin clinic",
     seo: {
-      title: "Over-Exfoliated Skin: Signs, Symptoms and How to Reverse Skin Barrier Damage | ULANDA Ware SG12",
+      title: "Over-Exfoliated Skin: Signs & How to Repair | ULANDA",
       description: "Learn the signs of over-exfoliated skin and how to safely reverse skin barrier damage. Nurse-led clinical guidance from ULANDA in Ware, Hertfordshire. Book a Advanced Skin Health Consultation for structured recovery.",
       canonical: "https://www.ulanda.co.uk/journal/over-exfoliated-skin-repair"
     },
@@ -1046,7 +1046,7 @@ export const journalArticles = [
     image: "/assets/img/journal/Dehydrated-vs-dry-skin.webp",
     keywords: "dehydrated vs dry skin, difference between dry and dehydrated skin, oily but dehydrated skin, dry skin treatment Ware SG12, skin dehydration Hertfordshire, Advanced Skin Health Consultation Ware, nurse-led skin clinic",
     seo: {
-      title: "Dehydrated vs Dry Skin: The Difference That Changes Your Treatment Plan | ULANDA Ware SG12",
+      title: "Dehydrated vs Dry Skin: The Difference | ULANDA",
       description: "Understand the difference between dehydrated and dry skin and why it changes your treatment plan. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire. Book a Advanced Skin Health Consultation for structured guidance.",
       canonical: "https://www.ulanda.co.uk/journal/dehydrated-vs-dry-skin"
     },
@@ -1385,7 +1385,7 @@ export const journalArticles = [
     readTime: "10 min read",
     image: "/assets/img/journal/Inflammation-driven-pigmentation-why-sensitive-skin-develops-dark-spots.webp",
     seo: {
-      title: "Inflammation-Driven Pigmentation: Why Sensitive Skin Develops Dark Spots | ULANDA Ware SG12",
+      title: "Sensitive Skin & Dark Spots: Inflammatory Pigment | ULANDA",
       description: "Learn why inflammation triggers dark spots in sensitive skin and how to treat pigmentation safely. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire. Book a Advanced Skin Health Consultation.",
       canonical: "https://www.ulanda.co.uk/journal/inflammation-driven-pigmentation"
     },
@@ -1748,7 +1748,7 @@ export const journalArticles = [
     readTime: "10 min read",
     image: "/assets/img/journal/Hard-water-inflammation-and-skin-sensitivity.webp",
     seo: {
-      title: "Hard Water, Inflammation & Skin Sensitivity: The Hidden Trigger in Hertfordshire | ULANDA Ware SG12",
+      title: "Hard Water & Skin Sensitivity in Hertfordshire | ULANDA",
       description: "Discover how hard water in Hertfordshire may trigger inflammation, barrier damage and skin sensitivity. Nurse-led clinical insight from ULANDA in Ware SG12. Learn when to book a Advanced Skin Health Consultation.",
       canonical: "https://www.ulanda.co.uk/journal/hard-water-skin-barrier"
     },
@@ -2113,7 +2113,7 @@ export const journalArticles = [
     image: "/assets/img/journal/Tear-trough-shadowing.webp",
     keywords: "tear trough shadowing, under eye hollows causes, hollow under eyes midlife, tear trough treatment Ware SG12, under eye volume loss Hertfordshire, Advanced Skin Health Consultation Ware",
     seo: {
-      title: "Tear Trough Shadowing Explained: Why Under-Eye Hollows Appear | ULANDA Ware SG12",
+      title: "Tear Trough Shadowing: Why Hollows Appear | ULANDA",
       description: "Understand why tear trough shadowing develops over time and how to treat under-eye hollows safely. Nurse-led assessment at ULANDA, Ware Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/tear-trough-shadowing"
     },
@@ -2447,7 +2447,7 @@ export const journalArticles = [
     image: "/assets/img/journal/Menopause-and-under-eye-aging.webp",
     keywords: "menopause under eye ageing, under eye creasing midlife, tear trough menopause, hollow eyes menopause, collagen loss under eyes, under eye treatment Ware SG12, Advanced Skin Health Consultation Hertfordshire",
     seo: {
-      title: "Menopause and Under-Eye Ageing: Why Creasing & Hollowness Accelerate | ULANDA Ware SG12",
+      title: "Menopause & Under-Eye Ageing Explained | ULANDA",
       description: "Discover why menopause accelerates under-eye creasing and hollowness. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/menopause-under-eye-ageing"
     },
@@ -2783,7 +2783,7 @@ export const journalArticles = [
     relatedTreatments: ["definisse-hydrobooster", "profhilo", "lumi-eyes"],
     relatedConditions: ["dark-circles"],
     seo: {
-      title: "Dark Circles Explained: Pigment vs Vascular Shadowing vs Hollowing | ULANDA Ware SG12",
+      title: "Dark Circles: Pigment, Vascular or Hollow? | ULANDA",
       description: "Discover the real cause of dark circles  -  pigment, vascular shadowing or hollowing. Nurse-led assessment at ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/dark-circles-explained",
       keywords: ["dark circles causes", "under eye pigmentation", "vascular dark circles", "hollow under eyes", "tear trough shadowing", "under eye treatment Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
@@ -3121,7 +3121,7 @@ export const journalArticles = [
     relatedTreatments: ["polynucleotides", "definisse-hydrobooster", "biostimulators", "dermal-fillers", "profhilo"],
     relatedConditions: ["volume-loss", "skin-laxity"],
     seo: {
-      title: "Menopause and Collagen Loss: Why Structural Ageing Accelerates in Midlife | ULANDA Ware SG12",
+      title: "Menopause & Collagen Loss in Midlife | ULANDA",
       description: "Understand why collagen loss accelerates during menopause and how structural ageing changes in midlife. Nurse-led clinical insight from ULANDA, Ware Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/menopause-collagen-loss",
       keywords: ["menopause collagen loss", "structural ageing midlife", "oestrogen collagen decline", "skin sagging menopause", "dermal thinning perimenopause", "collagen stimulation Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
@@ -3454,7 +3454,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "profhilo", "biorepeel"],
     relatedConditions: ["rosacea", "sensitive-skin", "skin-laxity"],
     seo: {
-      title: "Inflammaging Explained: The Silent Driver Behind Premature Skin Ageing | ULANDA Ware SG12",
+      title: "Inflammaging: The Silent Driver of Skin Ageing | ULANDA",
       description: "Discover how chronic low-grade inflammation accelerates skin ageing. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/inflammaging-skin-ageing",
       keywords: ["inflammaging skin", "chronic inflammation ageing", "premature skin ageing causes", "inflammation collagen breakdown", "skin ageing Ware SG12", "regenerative skin treatment Hertfordshire", "Advanced Skin Health Consultation Ware"]
@@ -3786,7 +3786,7 @@ export const journalArticles = [
     relatedTreatments: ["profhilo", "definisse-hydrobooster", "polynucleotides"],
     relatedConditions: ["skin-laxity", "crepey-under-eye", "volume-loss"],
     seo: {
-      title: "Crepey Skin and Elasticity Loss: What It Means & Safe Treatment | ULANDA Ware SG12",
+      title: "Crepey Skin & Elasticity Loss Explained | ULANDA",
       description: "Understand why crepey skin develops and how elasticity loss can be treated safely. Nurse-led clinical guidance from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/crepey-skin-elasticity-loss",
       keywords: ["crepey skin causes", "elasticity loss skin", "thin wrinkled skin midlife", "dermal thinning Ware SG12", "skin laxity treatment Hertfordshire", "collagen support treatment", "Advanced Skin Health Consultation Ware"]
@@ -4117,7 +4117,7 @@ export const journalArticles = [
     relatedTreatments: ["biostimulators", "definisse-hydrobooster", "biorepeel", "profhilo"],
     relatedConditions: ["volume-loss", "skin-laxity"],
     seo: {
-      title: "Collagen Decline Explained: Why Skin Loses Firmness Over Time | ULANDA Ware SG12",
+      title: "Collagen Decline: Why Skin Loses Firmness | ULANDA",
       description: "Discover why collagen declines with age and how it affects firmness, elasticity and skin structure. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/collagen-decline-explained",
       keywords: ["collagen decline explained", "skin firmness loss", "collagen loss midlife", "why skin sags", "dermal thinning causes", "collagen stimulation Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
@@ -4450,7 +4450,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "skin-barrier-hydration"],
     relatedConditions: ["rosacea", "sensitive-skin"],
     seo: {
-      title: "Rosacea Triggers: Heat, Stress, Hormones and Why Flushing Becomes Chronic | ULANDA Ware SG12",
+      title: "Rosacea Triggers: Heat, Stress & Hormones | ULANDA",
       description: "Discover why rosacea flushing becomes chronic and how heat, stress and hormones trigger inflammation. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire. Book a Advanced Skin Health Consultation.",
       canonical: "https://www.ulanda.co.uk/journal/rosacea-triggers-flushing",
       keywords: ["rosacea triggers", "chronic facial flushing", "heat induced rosacea", "stress rosacea flare", "hormonal rosacea", "rosacea treatment Ware SG12", "flushing face Hertfordshire", "Advanced Skin Health Consultation Ware"]
@@ -4791,7 +4791,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "skin-barrier-hydration"],
     relatedConditions: ["rosacea", "sensitive-skin"],
     seo: {
-      title: "Redness vs Sensitivity: How to Tell If Your Skin Is Inflamed or Barrier-Damaged | ULANDA Ware SG12",
+      title: "Redness vs Sensitivity: Inflamed or Damaged? | ULANDA",
       description: "Understand the difference between redness and sensitivity, and whether your skin is inflamed or barrier-damaged. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/redness-vs-sensitivity",
       keywords: ["redness vs sensitivity", "inflamed skin vs damaged barrier", "reactive skin Ware SG12", "skin burning after products", "rosacea or barrier damage", "Advanced Skin Health Consultation Hertfordshire", "nurse-led skin clinic"]
@@ -5122,7 +5122,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster"],
     relatedConditions: ["rosacea", "hyperpigmentation", "acne"],
     seo: {
-      title: "Inflammation-Driven Pigmentation: Why Red Skin Often Develops Dark Spots | ULANDA Ware SG12",
+      title: "Red Skin & Dark Spots: Why Pigment Follows | ULANDA",
       description: "Discover why red, inflamed skin often develops dark spots and how to treat inflammation-driven pigmentation safely. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/inflammation-driven-pigmentation",
       keywords: ["inflammation pigmentation", "dark spots after redness", "post inflammatory hyperpigmentation", "red skin turning brown", "rosacea pigmentation", "pigmentation treatment Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
@@ -5462,7 +5462,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["hyperpigmentation", "rosacea"],
     seo: {
-      title: "Inflammation-Driven Pigmentation: The Hidden Trigger Behind Uneven Tone | ULANDA Ware SG12",
+      title: "Inflammation & Uneven Skin Tone Explained | ULANDA",
       description: "Discover how chronic inflammation triggers uneven skin tone and dark patches. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire. Book a Advanced Skin Health Consultation.",
       canonical: "https://www.ulanda.co.uk/journal/inflammation-pigmentation-uneven-tone",
       keywords: ["inflammation pigmentation", "uneven skin tone causes", "post inflammatory hyperpigmentation", "redness turning brown", "melanin inflammation trigger", "pigmentation treatment Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
@@ -5817,7 +5817,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["hyperpigmentation"],
     seo: {
-      title: "Melasma vs Sun Damage: How to Identify the Difference | ULANDA Ware SG12",
+      title: "Melasma vs Sun Damage: How to Tell Apart | ULANDA",
       description: "Learn the difference between melasma and sun damage, how to identify each, and why correct diagnosis matters. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/melasma-vs-sun-damage",
       keywords: ["melasma vs sun damage", "brown patches face difference", "hormonal pigmentation vs sun spots", "melasma treatment Ware SG12", "sun damage pigmentation Hertfordshire", "Advanced Skin Health Consultation Ware"]
@@ -6176,7 +6176,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["hyperpigmentation"],
     seo: {
-      title: "Photoaging Explained: How UV Exposure Changes Skin Structure Over Time | ULANDA Ware SG12",
+      title: "Photoaging: How UV Changes Skin Structure | ULANDA",
       description: "Understand how UV exposure alters collagen, elastin and pigmentation over time. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/photoaging-explained",
       keywords: ["photoaging explained", "UV damage skin structure", "sun damage collagen breakdown", "skin architecture ageing", "pigmentation sun exposure Ware SG12", "photoaging treatment Hertfordshire", "Advanced Skin Health Consultation Ware"]
@@ -6521,7 +6521,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["hyperpigmentation"],
     seo: {
-      title: "Pigmentation Behaviour: Why Dark Spots Return After Treatment | ULANDA Ware SG12",
+      title: "Why Dark Spots Return After Treatment | ULANDA",
       description: "Discover why dark spots return after treatment and how pigmentation behaviour is influenced by inflammation, hormones and barrier instability. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/pigmentation-behaviour-dark-spots-return",
       keywords: ["dark spots coming back", "pigmentation returning after peel", "recurring hyperpigmentation", "melasma relapse", "inflammation pigmentation cycle", "pigmentation treatment Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
@@ -6864,7 +6864,7 @@ export const journalArticles = [
     relatedTreatments: ["definisse-hydrobooster", "biostimulators", "lumi-eyes", "polynucleotides"],
     relatedConditions: ["menopause-skin-changes"],
     seo: {
-      title: "Under-Eye Ageing in Menopause: Why Hollowness and Creasing Accelerate | ULANDA Ware SG12",
+      title: "Under-Eye Ageing in Menopause | ULANDA Ware",
       description: "Discover why under-eye hollowness and creasing accelerate during menopause. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire. Book a Advanced Skin Health Consultation.",
       canonical: "https://www.ulanda.co.uk/journal/under-eye-ageing-menopause",
       keywords: ["under eye ageing menopause", "hollow eyes midlife", "crepey under eye skin", "estrogen collagen eye area", "tear trough menopause", "under eye treatment Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
@@ -7216,7 +7216,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "polynucleotides", "profhilo"],
     relatedConditions: ["menopause-skin-changes"],
     seo: {
-      title: "Oestrogen, Collagen and Elasticity: Why Skin Changes Rapidly in Midlife | ULANDA Ware SG12",
+      title: "Oestrogen, Collagen & Skin Elasticity | ULANDA",
       description: "Learn how declining oestrogen affects collagen, elastin and skin elasticity in midlife. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire. Book a Advanced Skin Health Consultation.",
       canonical: "https://www.ulanda.co.uk/journal/oestrogen-collagen-elasticity",
       keywords: ["oestrogen and collagen", "midlife skin changes", "loss of elasticity menopause", "declining estrogen skin ageing", "collagen loss over 40", "skin sagging Ware SG12", "Advanced Skin Health Consultation Hertfordshire"]
@@ -7560,7 +7560,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "definisse-hydrobooster", "polynucleotides", "profhilo"],
     relatedConditions: ["menopause-skin-changes", "rosacea"],
     seo: {
-      title: "Menopause and Skin Biology: How Hormonal Shifts Change Skin Behaviour | ULANDA Ware SG12",
+      title: "Menopause & Skin Biology: What Changes | ULANDA",
       description: "Discover how menopause affects collagen, elastin and barrier stability. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire. Book a Advanced Skin Health Consultation.",
       canonical: "https://www.ulanda.co.uk/journal/menopause-skin-biology",
       keywords: ["menopause skin changes", "hormonal skin ageing", "estrogen and collagen loss", "menopausal dry skin", "perimenopause skin Ware SG12", "menopause pigmentation Hertfordshire", "Advanced Skin Health Consultation Ware"]
@@ -7904,7 +7904,7 @@ export const journalArticles = [
     relatedTreatments: ["skin-barrier-restore", "chemical-peel", "definisse-hydrobooster", "profhilo"],
     relatedConditions: ["menopause-skin-changes", "hyperpigmentation"],
     seo: {
-      title: "Menopause Pigmentation Patterns: Why Dark Spots Can Suddenly Worsen | ULANDA Ware SG12",
+      title: "Menopause Pigmentation: Why Spots Worsen | ULANDA",
       description: "Discover why dark spots often worsen during menopause and how hormonal shifts affect pigmentation. Nurse-led clinical insight from ULANDA in Ware, Hertfordshire.",
       canonical: "https://www.ulanda.co.uk/journal/menopause-pigmentation-patterns",
       keywords: ["menopause pigmentation", "dark spots during menopause", "hormonal hyperpigmentation", "midlife melasma", "pigmentation Ware SG12", "menopause skin changes Hertfordshire", "Advanced Skin Health Consultation Ware"]
@@ -8249,7 +8249,7 @@ export const journalArticles = [
     image: "/assets/img/journal/Dehydrated-vs-dry-skin.webp",
     keywords: "enlarged pores, visible pores, open pores, skin texture, acne scarring, collagen decline, photoaging, pore visibility",
     seo: {
-      title: "Enlarged Pores: Why They Become More Visible Over Time | ULANDA Ware SG12",
+      title: "Enlarged Pores: Why They Become Visible | ULANDA",
       description: "Understand why enlarged pores become more visible over time and how collagen behaviour, photoaging and skin architecture influence pore appearance.",
       canonical: "https://www.ulanda.co.uk/journal/enlarged-pores"
     },
@@ -8490,7 +8490,7 @@ export const journalArticles = [
     image: "/assets/img/journal/Over-exfoliated-skin.webp",
     keywords: "acne scarring explained, boxcar scars, rolling scars, ice pick scars, post acne texture, skin architecture, collagen remodelling",
     seo: {
-      title: "Acne Scarring Explained: Why Texture Changes Remain After Breakouts | ULANDA Ware SG12",
+      title: "Acne Scarring: Why Texture Changes Remain | ULANDA",
       description: "Understand why acne scarring and texture changes can remain after breakouts and how collagen behaviour and skin architecture influence recovery.",
       canonical: "https://www.ulanda.co.uk/journal/acne-scarring"
     },

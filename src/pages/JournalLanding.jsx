@@ -22,6 +22,10 @@ export default function JournalLanding() {
         <meta name="twitter:title" content="Authority Journal | ULANDA — Clinical Skin Science" />
         <meta name="twitter:description" content="Clinical insights on skin barrier science, regenerative aesthetics and hormone-aware skincare." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Authority Journal | ULANDA — Clinical Skin Science" />
+        <meta property="og:description" content="ULANDA Authority Journal — clinical insights on skin barrier science, regenerative aesthetics, inflammation, pigmentation and hormone-aware skincare from Ware, Hertfordshire." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/journal" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <BreadcrumbSchema items={[
@@ -35,10 +39,9 @@ export default function JournalLanding() {
           <div className="max-w-7xl mx-auto z-10 relative">
             <Breadcrumbs />
             <div className="mt- max-w-4xl">
-              <HeroText
-                text="Authority Journal"
-                className="font-serif text-5xl md:text-7xl text-gray-900 mb-6"
-              />
+              <h1 className="font-serif text-5xl md:text-7xl text-gray-900 mb-6">
+                <HeroText>Authority Journal</HeroText>
+              </h1>
               <FadeInWhenVisible>
                 <p className="text-3xl font-serif font-medium leading-relaxed max-w-4xl">
                   <span className="italic text-primary">Clinical</span> insights into skin barrier science, regenerative aesthetics and the biology of lasting transformation.

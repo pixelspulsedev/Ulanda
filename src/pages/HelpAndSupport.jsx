@@ -55,6 +55,9 @@ const HelpAndSupport = () => {
         <script type="application/ld+json">
           {JSON.stringify(generateSchema())}
         </script>
+        <meta property="og:title" content="Help &amp; Support | ULANDA Skin Clinic Ware" />
+        <meta property="og:description" content="Frequently asked questions about ULANDA's regenerative aesthetics, menopausal wellness treatments, safety protocols and booking process." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/help-and-support" />
       </Head>
 
       <div className="bg-base-100 pb-20 pt-32">

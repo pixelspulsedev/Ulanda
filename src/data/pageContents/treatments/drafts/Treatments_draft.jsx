@@ -401,7 +401,7 @@ export default function TreatmentsDraft() {
           addressLocality: 'Ware',
           addressRegion: 'Hertfordshire',
           postalCode: 'SG12',
-          addressCountry: 'UK',
+          addressCountry: 'GB',
         },
       },
       {
@@ -412,7 +412,7 @@ export default function TreatmentsDraft() {
           addressLocality: 'Ware',
           addressRegion: 'Hertfordshire',
           postalCode: 'SG12',
-          addressCountry: 'UK',
+          addressCountry: 'GB',
         },
       },
       {
@@ -455,10 +455,7 @@ export default function TreatmentsDraft() {
   return (
     <>
       <Head>
-        <title>
-          Skin Treatments in Ware, Hertfordshire | Regenerative Medical
-          Aesthetic Treatments | ULANDA
-        </title>
+        <title>Skin Treatments in Ware, Hertfordshire | ULANDA</title>
         <meta
           name="description"
           content="Explore regenerative skin treatments at ULANDA, a nurse-led skin clinic in Ware, Hertfordshire. Barrier-first therapies, regenerative injectables and advanced medical aesthetic treatments delivered through a clinically guided approach."
@@ -471,7 +468,7 @@ export default function TreatmentsDraft() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Skin Treatments in Ware, Hertfordshire | Regenerative Medical Aesthetic Treatments | ULANDA"
+          content="Skin Treatments in Ware, Hertfordshire | ULANDA"
         />
         <meta
           name="twitter:description"
@@ -491,6 +488,10 @@ export default function TreatmentsDraft() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
+        <meta property="og:title" content="Skin Treatments in Ware, Hertfordshire | ULANDA" />
+        <meta property="og:description" content="Explore regenerative skin treatments at ULANDA, a nurse-led skin clinic in Ware, Hertfordshire. Barrier-first therapies, regenerative injectables and advanced medical aesthetic treatments delivered through a clinically guided approach." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/treatments" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 text-base-content">
@@ -514,9 +515,9 @@ export default function TreatmentsDraft() {
           {/* Content */}
           <div className="w-full relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-6 text-white">
             <div className="max-w-3xl">
-              {/* <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-3">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-3">
                 Treatments &amp; Treatment Pathways
-              </h1> */}
+              </h1>
               <p className="text-2xl font-serif md:text-4xl italic font-extralight text-white/90 mb-5">
                 How We Decide Whether This Treatment Is Right For You
               </p>

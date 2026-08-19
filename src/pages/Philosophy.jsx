@@ -42,6 +42,10 @@ export default function Philosophy() {
         <meta name="twitter:title" content="Our Philosophy | ULANDA" />
         <meta name="twitter:description" content="Regeneration, Hormone Intelligence & Personalised Care for every stage of womanhood. Treating root causes, not just symptoms." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Our Philosophy | ULANDA Skin Clinic Ware" />
+        <meta property="og:description" content="ULANDA philosophy: Regeneration, Hormone Intelligence & Personalised Care for every stage of womanhood. Treating root causes, not just symptoms." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/about/our-philosophy" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 text-base-content">
@@ -52,12 +56,14 @@ export default function Philosophy() {
               Our Philosophy
             </div>
           </FadeInWhenVisible>
-          <HeroText className="text-3xl md:text-4xl font-serif leading-tight">
-            <span className="italic text-primary">Regeneration.</span> Hormone
-            Intelligence.{' '}
-            <span className="italic text-primary">Personalised Care</span> for
-            Every Stage of Womanhood.
-          </HeroText>
+          <h1 className="text-3xl md:text-4xl font-serif leading-tight">
+            <HeroText as="span">
+              <span className="italic text-primary">Regeneration.</span> Hormone
+              Intelligence.{' '}
+              <span className="italic text-primary">Personalised Care</span> for
+              Every Stage of Womanhood.
+            </HeroText>
+          </h1>
           <FadeInWhenVisible>
             <div className="space-y-4 text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
               <p>

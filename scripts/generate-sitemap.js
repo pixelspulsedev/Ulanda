@@ -6,7 +6,7 @@ import { individualConditions } from '../src/data/pageContents/conditions/indivi
 import { programmes } from '../src/data/pageContents/programmes/programmes.js';
 import { treatments } from '../src/data/pageContents/treatments/treatments.js';
 import { getAllTreatmentCategories } from '../src/data/pageContents/treatments/drafts/treatments_restructured_draft.js';
-import { blogs } from '../src/data/pageContents/blogs/blogs.js';
+import { blogs, isPublishedBlog } from '../src/data/pageContents/blogs/blogs.js';
 import { signaturePathways } from '../src/data/pageContents/signature/signatureData.js';
 import { journalArticles } from '../src/data/pageContents/journal/journalArticles.js';
 import { tools } from '../src/data/pageContents/tools/tools.js';
@@ -76,8 +76,8 @@ const generateSitemap = () => {
     urls.push(`/signature/${sig.id}`);
   });
 
-  // Add Blog Pages
-  blogs.forEach(blog => {
+  // Add Blog Pages (drafts excluded, matching /blogs and the SSG path list)
+  blogs.filter(isPublishedBlog).forEach(blog => {
     urls.push(`/blogs/${blog.id}`);
   });
 

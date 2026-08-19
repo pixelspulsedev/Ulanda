@@ -59,7 +59,7 @@ export default function ConditionsLanding() {
           "addressLocality": "Ware",
           "postalCode": "SG12 7JT",
           "addressRegion": "Hertfordshire",
-          "addressCountry": "UK"
+          "addressCountry": "GB"
         },
         "medicalSpecialty": "https://schema.org/Dermatology"
       },
@@ -73,7 +73,7 @@ export default function ConditionsLanding() {
           "addressLocality": "Ware",
           "postalCode": "SG12 7JT",
           "addressRegion": "Hertfordshire",
-          "addressCountry": "UK"
+          "addressCountry": "GB"
         },
         "areaServed": ["Ware", "Broxbourne", "Hoddesdon", "Hertford", "Bishop's Stortford"]
       },
@@ -114,6 +114,10 @@ export default function ConditionsLanding() {
         <meta name="twitter:title" content="Skin Concerns & Conditions | ULANDA Clinic Ware" />
         <meta name="twitter:description" content="Skin concerns treated at ULANDA, a nurse-led clinic in Ware, Hertfordshire. Regenerative treatments for ageing, pigmentation and acne scarring." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Skin Concerns &amp; Conditions | ULANDA Clinic Ware" />
+        <meta property="og:description" content="Skin concerns treated at ULANDA, a nurse-led clinic in Ware, Hertfordshire. Regenerative treatments for ageing, pigmentation, acne scarring and skin quality." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/conditions" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <script

@@ -187,7 +187,6 @@ export default function TreatmentDraft() {
         <meta name="description" content={seoDescription} />
         <link rel="canonical" href={canonicalUrl} />
         <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
         <meta property="og:title" content={seoTitle} />
         <meta property="og:description" content={seoDescription} />
         <meta property="og:url" content={canonicalUrl} />
@@ -253,13 +252,13 @@ export default function TreatmentDraft() {
         {/* Hero Section */}
         <section ref={heroRef} className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
-              <HeroText>
+            <h1 className="text-3xl md:text-5xl font-serif text-base-content leading-tight">
+              <HeroText as="span">
                 {treatment.seoHeadings?.h1 ? treatment.seoHeadings.h1 : (
                   <>{treatment.title} <span className="italic text-primary font-serif">{treatment.highlight}</span> {treatment.titleSuffix}</>
                 )}
               </HeroText>
-            </div>
+            </h1>
             <div className="flex flex-wrap text-base-content/80 text-lg font-light tracking-wide">
               {treatment.benefits?.map((benefit, index) => (
                 <span key={index} className="flex items-center">
@@ -1009,11 +1008,11 @@ export default function TreatmentDraft() {
           <>
             <section className="py-8 bg-base-100">
               <div className="max-w-7xl mx-auto px-4 md:px-8 text-center mb-8 md:mb-16">
-                <h1 className="text-3xl md:text-5xl font-serif text-base-content mb-4 leading-tight">
+                <h2 className="text-3xl md:text-5xl font-serif text-base-content mb-4 leading-tight">
                   {treatment.ulandaConnection.title ? treatment.ulandaConnection.title : (
                     <>The Ulanda Connection — How <span className="italic text-primary">{treatment.title}</span> Elevates Refresh, Renew & Restore</>
                   )}
-                </h1>
+                </h2>
               </div>
             </section>
 

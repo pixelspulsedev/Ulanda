@@ -13,6 +13,9 @@ export default function PrivacyPolicy() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Privacy Policy | ULANDA" />
         <meta name="twitter:description" content="ULANDA MedSpa privacy policy. Learn how we collect, use and safeguard your personal data." />
+        <meta property="og:title" content="Privacy Policy | ULANDA Skin Clinic" />
+        <meta property="og:description" content="ULANDA MedSpa privacy policy. Learn how we collect, use and safeguard your personal data when using our website or engaging with our services." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/privacy-policy" />
       </Head>
       
       <HeroText>

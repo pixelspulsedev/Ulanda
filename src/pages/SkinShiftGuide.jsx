@@ -284,6 +284,8 @@ const SkinShiftGuideContent = () => {
         {HAS_RECAPTCHA && (
           <style>{`.grecaptcha-badge{visibility:hidden!important;}`}</style>
         )}
+        <meta property="og:title" content="The Skin Shift Guide — ULANDA Skin Clinic" />
+        <meta property="og:description" content="Free clinical guide from ULANDA Skin Clinic. Why your skin has changed — and what to do about it. Written by a Nurse Independent Prescriber." />
       </Head>
 
       {/* Accent stripe */}

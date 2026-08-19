@@ -293,6 +293,9 @@ export default function ObagiMedical() {
         <meta name="description" content="Authorised Obagi Medical stockist in Ware, Hertfordshire. Prescription skincare prescribed by a Nurse Prescriber within clinical skin programmes." />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments/prescription-skincare/obagi-medical" />
         <script type="application/ld+json">{JSON.stringify(obagiSchemas)}</script>
+        <meta property="og:title" content="Obagi Medical Stockist Ware | ULANDA Skin Clinic" />
+        <meta property="og:description" content="Authorised Obagi Medical stockist in Ware, Hertfordshire. Prescription skincare prescribed by a Nurse Prescriber within clinical skin programmes." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/treatments/prescription-skincare/obagi-medical" />
       </Head>
 
       <div className="bg-base-100 min-h-screen">

@@ -2389,7 +2389,7 @@ export const treatments = {
               "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/DVS7MEQAXTUCGRUHSISLOFHF"
             },
             "seo": {
-              "title": "Profhilo Treatment Hertfordshire | Bio-Remodelling Skin Booster | ULANDA Ware",
+              "title": "Profhilo Treatment Hertfordshire | ULANDA Ware",
               "description": "Profhilo in Hertfordshire at ULANDA. Injectable bio-remodelling for hydration, elasticity and skin quality without adding volume."
             },
             "seoHeadings": {
@@ -2616,7 +2616,7 @@ export const treatments = {
               "definisse"
             ],
             "seo": {
-              "title": "Definisse Hydrobooster Hertfordshire | HA Skin Booster (Skinvive Alternative) | ULANDA Ware",
+              "title": "Definisse Hydrobooster Hertfordshire | ULANDA Ware",
               "description": "Definisse Hydrobooster in Hertfordshire at ULANDA Ware. HA microbooster for hydration & fine line smoothing — a skin-booster alternative to Skinvive."
             },
             "seoHeadings": {
@@ -3019,7 +3019,7 @@ export const treatments = {
               "bookingUrl": "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/DZWP3TZT6V3ADFYYETJX7MV5"
             },
             "seo": {
-              "title": "Microneedling Hertfordshire | Collagen Induction (Morpheus8 Alternative) | ULANDA Ware",
+              "title": "Microneedling Hertfordshire | Collagen Induction | ULANDA",
               "description": "Microneedling in Hertfordshire for texture, pores, acne scarring and skin quality decline. Collagen-induction treatment with low downtime."
             },
             "seoHeadings": {

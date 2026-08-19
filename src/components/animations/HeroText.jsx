@@ -2,7 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { luxuryTransition } from './constants';
 
-export default function HeroText({ children, className = "", delay = 0 }) {
+// `as="span"` renders the fallback wrapper as inline elements instead of divs,
+// so HeroText can sit inside a heading without producing invalid nesting
+// (h1's content model is phrasing content, which excludes div).
+export default function HeroText({ children, className = "", delay = 0, as = 'div' }) {
   // If children is a string, we can offer word-by-word animation
   const isString = typeof children === 'string';
 
@@ -51,15 +54,20 @@ export default function HeroText({ children, className = "", delay = 0 }) {
   }
 
   // Fallback for complex React Nodes (just slide up the whole block)
+  const inline = as === 'span';
+  const Outer = inline ? 'span' : 'div';
+  const Inner = inline ? motion.span : motion.div;
+
   return (
-    <div className={`overflow-hidden pb-2 -mb-1 ${className}`}>
-      <motion.div
+    <Outer className={`${inline ? 'inline-block ' : ''}overflow-hidden pb-2 -mb-1 ${className}`}>
+      <Inner
+        className={inline ? 'inline-block' : undefined}
         initial={{ y: "100%", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ ...luxuryTransition, delay }}
       >
         {children}
-      </motion.div>
-    </div>
+      </Inner>
+    </Outer>
   );
 }

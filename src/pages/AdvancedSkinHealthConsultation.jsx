@@ -175,6 +175,9 @@ export default function AdvancedSkinHealthConsultation() {
         {consultationSchema.map((schema, i) => (
           <script key={i} type="application/ld+json">{JSON.stringify(schema)}</script>
         ))}
+        <meta property="og:title" content="Advanced Skin Health Consultation | ULANDA Ware" />
+        <meta property="og:description" content="Medical skin consultation in Ware, Hertford & Broxbourne including AI Skin Analysis, barrier assessment and structured regenerative planning at ULANDA." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/treatments/advanced-skin-health-consultation" />
       </Head>
 
       <div className="bg-base-100 min-h-screen">

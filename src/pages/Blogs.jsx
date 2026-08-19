@@ -1,7 +1,7 @@
 import React from 'react'
 import { Head } from 'vite-react-ssg'
 import { Link } from 'react-router-dom'
-import { blogs } from '../data/pageContents/blogs/blogs'
+import { getPublishedBlogs } from '../data/pageContents/blogs/blogs'
 import Breadcrumbs from '../components/Breadcrumbs'
 import HeroText from '../components/animations/HeroText'
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible'
@@ -10,7 +10,7 @@ import ConsultationCTA from '../components/ConsultationCTA'
 import { BreadcrumbSchema } from '../components/Schema'
 
 export default function Blogs() {
-  const publishedBlogs = blogs.filter(blog => blog.status === 'published');
+  const publishedBlogs = getPublishedBlogs();
 
   return (
     <div>
@@ -22,6 +22,10 @@ export default function Blogs() {
         <meta name="twitter:title" content="The Journal | ULANDA Skin Clinic" />
         <meta name="twitter:description" content="Science-led insights on skin regeneration, menopause, hormone health and aesthetic medicine." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="The Journal | ULANDA Skin Clinic" />
+        <meta property="og:description" content="Science-led insights on skin regeneration, menopause, hormone health and aesthetic medicine from ULANDA in Ware, Hertfordshire." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/blogs" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blogs' }]} />
 
@@ -31,10 +35,9 @@ export default function Blogs() {
           <div className="max-w-7xl mx-auto z-10 relative">
             <Breadcrumbs />
             <div className="mt- max-w-4xl">
-              <HeroText 
-                text="The Journal"
-                className="font-serif text-5xl md:text-7xl text-gray-900 mb-6"
-              />
+              <h1 className="font-serif text-5xl md:text-7xl text-gray-900 mb-6">
+                <HeroText>The Journal</HeroText>
+              </h1>
               <FadeInWhenVisible>
                 <p className="text-3xl font-serif font-medium leading-relaxed max-w-4xl">
                   <span className='italic text-primary'>Science-backed</span> insights into skin longevity, regenerative aesthetics, and the biological engines of youth.

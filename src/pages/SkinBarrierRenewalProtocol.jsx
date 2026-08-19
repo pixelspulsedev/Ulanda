@@ -163,6 +163,9 @@ export default function SkinBarrierRenewalProtocol() {
         {barrierSchemas.map((schema, i) => (
           <script key={i} type="application/ld+json">{JSON.stringify(schema)}</script>
         ))}
+        <meta property="og:title" content="Skin Barrier Renewal Protocol | ULANDA Ware" />
+        <meta property="og:description" content="Clinical skin barrier repair in Ware, Hertford & Broxbourne. A structured protocol restoring barrier integrity before advanced treatment." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/treatments/skin-barrier-renewal-protocol" />
       </Head>
 
       <div className="bg-base-100 min-h-screen">

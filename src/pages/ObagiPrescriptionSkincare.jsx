@@ -14,7 +14,7 @@ const obagiSchemas = [
     "@id": "https://www.ulanda.co.uk/#medicalbusiness",
     "name": "ULANDA Skin Clinic",
     "url": "https://www.ulanda.co.uk",
-    "image": "https://www.ulanda.co.uk/og-image.jpg",
+    "image": "https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
     "telephone": "+44 7904 336031",
     "email": "info@ulanda.co.uk",
     "priceRange": "££",
@@ -130,6 +130,9 @@ export default function ObagiPrescriptionSkincare() {
         {obagiSchemas.map((schema, i) => (
           <script key={i} type="application/ld+json">{JSON.stringify(schema)}</script>
         ))}
+        <meta property="og:title" content="Obagi Medical® Skincare Ware | ULANDA Clinic" />
+        <meta property="og:description" content="Prescription skincare in Ware including Obagi medical-grade products introduced through consultation-led skin assessment and barrier-first treatment planning." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/treatments/obagi-prescription-skincare" />
       </Head>
 
       <div className="bg-base-100 min-h-screen">

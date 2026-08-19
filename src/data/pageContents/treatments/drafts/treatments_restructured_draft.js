@@ -587,8 +587,11 @@ const bodyRegenerationTissueSupport = {
     "shape-and-regenerate": getOriginalTreatment("radiate", "pathways", "shape-and-regenerate"),
     // Body Contouring
     "body-contouring": getOriginalTreatment("radiate", "structural-lifting", "body-contouring"),
-    // Stretch Mark Support (uses microneedling for textural regeneration)
-    "stretch-mark-support": getOriginalTreatment("renew", "microneedling", "microneedling"),
+    // NOTE: "stretch-mark-support" was aliased to the microneedling content, so the
+    // page rendered Microneedling's title, description, H1 and body copy verbatim -
+    // a duplicate of /treatments/skin-renewal-regeneration/microneedling competing
+    // for its own terms. Removed until dedicated stretch-mark copy exists; the URL
+    // is redirected to this category hub in vercel.json. Re-add with real content.
   }
 };
 

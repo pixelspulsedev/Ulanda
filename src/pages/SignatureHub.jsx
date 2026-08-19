@@ -53,6 +53,10 @@ export default function SignatureHub() {
           name="twitter:image"
           content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp"
         />
+        <meta property="og:title" content={data.seo.title} />
+        <meta property="og:description" content={data.seo.description} />
+        <meta property="og:url" content={data.seo.canonical} />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

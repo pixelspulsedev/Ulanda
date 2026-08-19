@@ -10,12 +10,18 @@ export const LocalBusinessSchema = () => {
   const { pathname } = useLocation();
   // Homepage has its own merged @graph schema — skip site-wide schema there
   if (pathname === '/') return null;
+  // Location pages emit their own, richer node under the SAME @id. Emitting
+  // both put two MedicalBusiness nodes with one @id but conflicting name,
+  // addressRegion and addressCountry on every location page — an entity
+  // conflict that undermines local ranking. One @id, one node per page.
+  if (pathname.startsWith('/locations/')) return null;
 
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     "@id": "https://www.ulanda.co.uk/#medicalbusiness",
-    "name": "ULANDA",
+    // Must match the location-page node and the Google Business Profile exactly.
+    "name": "ULANDA Skin Clinic",
     "url": "https://www.ulanda.co.uk",
     "logo": "https://www.ulanda.co.uk/assets/img/ui/Logo.webp",
     "image": "https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp",
@@ -27,8 +33,9 @@ export const LocalBusinessSchema = () => {
       "streetAddress": "Uphaven, 6 Hampden Hill",
       "addressLocality": "Ware",
       "postalCode": "SG12 7JT",
-      "addressRegion": "East Hertfordshire",
-      "addressCountry": "UK"
+      "addressRegion": "Hertfordshire",
+      // ISO 3166-1 alpha-2. "UK" is not a valid code; the correct one is GB.
+      "addressCountry": "GB"
     },
     "geo": {
       "@type": "GeoCoordinates",

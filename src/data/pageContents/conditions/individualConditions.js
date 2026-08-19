@@ -1140,7 +1140,7 @@ export const individualConditions = [
   {
     id: 'uneven-texture',
     seo: {
-      title: "Uneven Skin Texture Treatment Ware SG12 | Smooth Rough Skin Hermetic | ULANDA",
+      title: "Uneven Skin Texture Treatment Ware SG12 | ULANDA",
       description: "Smooth rough, bumpy or uneven skin texture in Ware. Nurse-led resurfacing using PHformula, Microneedling and Polynucleotides to restore softness and glow."
     },
     hero: {
@@ -1885,7 +1885,7 @@ export const individualConditions = [
   {
     id: 'keratosis-pilaris',
     seo: {
-      title: "Keratosis Pilaris Treatment Hertfordshire | Rough Skin & Bumps | ULANDA",
+      title: "Keratosis Pilaris Treatment Hertfordshire | ULANDA",
       description: "Treat Keratosis Pilaris (Chicken Skin) in Ware, Hertfordshire. Advanced nurse-led care for rough bumps, dry skin, and texture. Book your consultation.",
       keywords: "Keratosis Pilaris treatment Hertfordshire, chicken skin treatment Ware, rough skin bumps treatment, KP treatment, exfoliating treatments for KP"
     },
@@ -5175,7 +5175,7 @@ export const individualConditions = [
   {
     id: 'non-responsive-skin',
     seo: {
-      title: "Non-Responsive Skin & Treatment Fatigue | Regenerative Skin Aesthetics | Skin Clinic Ware SG12",
+      title: "Non-Responsive Skin & Treatment Fatigue | ULANDA Ware",
       description: "non-responsive skin and treatment fatigue occur when results plateau despite repeated treatments. Learn how ULANDA Skin Clinic identifies underlying barriers and guides care through its regenerative skin treatment."
     },
     hero: {
@@ -5914,7 +5914,7 @@ export const individualConditions = [
   {
     id: "perimenopause-skin-changes",
     seo: {
-      title: "Perimenopause Skin Treatment Ware SG12 | Hormonal Skin Support | ULANDA",
+      title: "Perimenopause Skin Treatment Ware SG12 | ULANDA",
       description: "Treat perimenopause dryness, sensitivity & collagen loss. Nurse-led hormonal skin support for stability & resilience."
     },
     hero: {
@@ -6700,7 +6700,7 @@ export const individualConditions = [
   {
     id: "rosacea",
     seo: {
-      title: "Rosacea Treatment Hertfordshire | Redness, Flushing & Sensitivity | ULANDA Ware",
+      title: "Rosacea Treatment Hertfordshire | ULANDA Ware",
       description: "Rosacea treatment in Hertfordshire at ULANDA Ware. Calm redness, reduce flushing & strengthen the skin barrier with regenerative protocols."
     },
     hero: {

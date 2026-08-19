@@ -82,6 +82,9 @@ export default function TreatmentCategoryDraft() {
           <title>{seo.title}</title>
           <meta name="description" content={seo.description} />
           <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${categoryId}`} />
+          <meta property="og:title" content={seo.title} />
+          <meta property="og:description" content={seo.description} />
+          <meta property="og:url" content={`https://www.ulanda.co.uk/treatments/${categoryId}`} />
         </Head>
 
         {/* FAQ Schema */}
@@ -457,6 +460,9 @@ export default function TreatmentCategoryDraft() {
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
         <link rel="canonical" href={`https://www.ulanda.co.uk/treatments/${categoryId}`} />
+        <meta property="og:title" content={seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:url" content={`https://www.ulanda.co.uk/treatments/${categoryId}`} />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

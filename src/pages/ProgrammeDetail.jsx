@@ -49,6 +49,10 @@ export default function ProgrammeDetail() {
         <meta name="twitter:title" content={seoTitle} />
         <meta name="twitter:description" content={subtitle} />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content={seoTitle} />
+        <meta property="og:description" content={subtitle} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 text-base-content">

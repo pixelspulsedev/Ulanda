@@ -143,6 +143,10 @@ export default function Home() {
           href="/assets/img/home/ulanda-homepage-hero-ware-sg12.webp"
           fetchpriority="high"
         />
+        <meta property="og:title" content="Skin Clinic in Ware | Nurse-Led Medical Aesthetics | ULANDA" />
+        <meta property="og:description" content="Nurse-led skin clinic in Ware, Hertfordshire. Barrier-first restoration, advanced medical aesthetics and structured Skin Health Consultation." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp" />
       </Head>
 
       {/* Homepage Schema - single merged JSON-LD block */}

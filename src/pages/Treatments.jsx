@@ -120,6 +120,10 @@ export default function Treatments() {
         <meta name="twitter:title" content="Regenerative Treatments in Ware SG12 | ULANDA" />
         <meta name="twitter:description" content="Explore ULANDA's regenerative treatments. Four pathways — Refresh, Renew, Restore, Radiate — designed for midlife skin regeneration." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/treatments/treatments-hero.webp" />
+        <meta property="og:title" content="Regenerative Treatments in Ware SG12 | ULANDA" />
+        <meta property="og:description" content="Regenerative treatments in Ware, Hertfordshire. Four pathways — Refresh, Renew, Restore, Radiate — for midlife skin regeneration and wellness." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/treatments" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/treatments/treatments-hero.webp" />
       </Head>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Treatments', url: '/treatments' }]} />
 

@@ -207,7 +207,7 @@ export default function ClinicalSystem() {
   return (
     <>
       <Head>
-        <title>The ULANDA Clinical System | Diagnostic-Led Skin Clinic Ware | ULANDA</title>
+        <title>The ULANDA Clinical System | Diagnostic-Led Skin Clinic Ware</title>
         <meta
           name="description"
           content="Discover how ULANDA’s diagnostic-led clinical system combines comprehensive skin assessment, focused treatment appointments, regenerative treatments and personalised treatment sequencing in Ware, Hertfordshire."

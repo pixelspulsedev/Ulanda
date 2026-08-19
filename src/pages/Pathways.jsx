@@ -22,6 +22,10 @@ export default function Pathways() {
         <meta name="twitter:title" content="Treatment Pathways | ULANDA" />
         <meta name="twitter:description" content="Discover ULANDA's four treatment pathways: Refresh, Renew, Restore, Radiate." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Treatment Pathways | ULANDA Skin Clinic Ware" />
+        <meta property="og:description" content="Discover ULANDA's four treatment pathways: Refresh, Renew, Restore, Radiate. A simple, intelligent way to understand your regenerative skincare journey." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/pathways" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 font-sans text-base-content">

@@ -37,6 +37,10 @@ const ContactContent = () => {
         <meta name="twitter:title" content="Contact ULANDA | Regenerative Aesthetics Clinic" />
         <meta name="twitter:description" content="Contact ULANDA in Ware SG12, Hertfordshire. Book a consultation for regenerative aesthetics and skin treatments." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Contact ULANDA | Regenerative Aesthetics Clinic Ware SG12" />
+        <meta property="og:description" content="Contact ULANDA in Ware, Hertfordshire. Book a consultation for regenerative skin treatments and wellness. Serving Ware, Hertford and surrounding areas." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/contact" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Contact', url: '/contact' }]} />
 

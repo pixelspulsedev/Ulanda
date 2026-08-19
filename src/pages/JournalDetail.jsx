@@ -245,6 +245,10 @@ export default function JournalDetail() {
         <meta name="twitter:title" content={article.seo?.title || article.title} />
         <meta name="twitter:description" content={article.seo?.description || article.subtitle} />
         <meta name="twitter:image" content={article.image ? `https://www.ulanda.co.uk${article.image}` : "https://www.ulanda.co.uk/assets/img/ui/Logo.webp"} />
+        <meta property="og:title" content={article.seo?.title || `${article.title} | ULANDA Authority Journal`} />
+        <meta property="og:description" content={article.seo?.description || article.subtitle} />
+        <meta property="og:url" content={article.seo?.canonical || `https://www.ulanda.co.uk/journal/${article.id}`} />
+        <meta property="og:image" content={article.image ? `https://www.ulanda.co.uk${article.image}` : "https://www.ulanda.co.uk/assets/img/ui/Logo.webp"} />
       </Head>
 
       {/* Structured Data */}

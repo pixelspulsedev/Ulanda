@@ -297,16 +297,31 @@ export default function BlogDetail() {
     { name: blog.title, url: `/blogs/${blog.id}` }
   ];
 
+  // Many seo.title values already end in a brand segment ("... | ULANDA Ware"),
+  // so unconditionally appending the suffix produced doubled brands such as
+  // "... | ULANDA Skin Clinic Ware | ULANDA Journal". Only add it when absent.
+  const rawTitle = blog.seo?.title || blog.title;
+  const pageTitle = /ULANDA/i.test(rawTitle) ? rawTitle : `${rawTitle} | ULANDA Journal`;
+
+  // heroImage values are site-relative; social crawlers require absolute URLs.
+  const shareImage = blog.heroImage
+    ? `https://www.ulanda.co.uk${blog.heroImage}`
+    : 'https://www.ulanda.co.uk/assets/img/home/ulanda-homepage-hero-ware-sg12.webp';
+
   return (
     <>
       <Head>
-        <title>{blog.seo?.title || blog.title} | ULANDA Journal</title>
+        <title>{pageTitle}</title>
         <meta name="description" content={blog.seo?.description || blog.subtitle} />
         <link rel="canonical" href={`https://www.ulanda.co.uk/blogs/${blog.id}`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${blog.title} | ULANDA`} />
+        <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={blog.subtitle} />
-        <meta name="twitter:image" content={blog.heroImage || "https://www.ulanda.co.uk/assets/img/ui/Logo.webp"} />
+        <meta name="twitter:image" content={shareImage} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={blog.seo?.description || blog.subtitle} />
+        <meta property="og:url" content={`https://www.ulanda.co.uk/blogs/${blog.id}`} />
+        <meta property="og:image" content={shareImage} />
       </Head>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       <BreadcrumbSchema items={breadcrumbItems} />

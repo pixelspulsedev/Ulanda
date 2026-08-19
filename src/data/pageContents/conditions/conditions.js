@@ -5,7 +5,7 @@ export const conditions = [
   {
     id: 'dehydration-dullness-skin-recovery',
     seo: {
-      title: "Dehydration & Dull Skin Treatment in Ware | Skin Recovery Clinic Hertfordshire",
+      title: "Dehydration & Dull Skin Treatment Ware | ULANDA",
       description: "Dehydrated, dull or tired skin? ULANDA in Ware, Hertfordshire offers nurse-led Advanced Skin Health Consultations and structured recovery programmes to restore hydration, glow and barrier strength safely."
     },
     hero: {
@@ -352,7 +352,7 @@ export const conditions = [
   {
     id: 'redness-sensitivity-reactive-skin',
     seo: {
-      title: "Redness & Sensitive Skin Treatment in Ware | Reactive Skin Clinic Hertfordshire",
+      title: "Redness & Sensitive Skin Treatment Ware | ULANDA",
       description: "Struggling with redness, flushing or reactive sensitive skin? ULANDA in Ware, Hertfordshire offers nurse-led Advanced Skin Health Consultations and structured calming programmes to restore stability."
     },
     hero: {

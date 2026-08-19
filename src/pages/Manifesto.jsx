@@ -195,6 +195,10 @@ export default function Manifesto() {
         <meta name="twitter:title" content="Our Manifesto | ULANDA" />
         <meta name="twitter:description" content="Where regeneration becomes a woman's birthright. We believe women deserve more than correction — they deserve regeneration." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Our Manifesto | ULANDA Skin Clinic Ware" />
+        <meta property="og:description" content="ULANDA Brand Manifesto. Where regeneration becomes a woman's birthright. We believe women deserve more than correction — they deserve regeneration." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/about/manifesto" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <div className="bg-base-100 text-base-content">

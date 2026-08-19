@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 import { treatmentCategories as newTreatmentCategories } from './src/data/pageContents/treatments/drafts/treatments_restructured_draft.js'
 import { conditions } from './src/data/pageContents/conditions/conditions.js'
 import { individualConditions } from './src/data/pageContents/conditions/individualConditions.js'
-import { blogs } from './src/data/pageContents/blogs/blogs.js'
+import { blogs, isPublishedBlog } from './src/data/pageContents/blogs/blogs.js'
 import { signaturePathways } from './src/data/pageContents/signature/signatureData.js'
 import { journalArticles } from './src/data/pageContents/journal/journalArticles.js'
 import { tools } from './src/data/pageContents/tools/tools.js'
@@ -95,8 +95,8 @@ function generateStaticPaths() {
     paths.push(`/conditions/${condition.id}`);
   });
 
-  // Blog pages
-  blogs.forEach(blog => {
+  // Blog pages (drafts are excluded, matching /blogs and sitemap.xml)
+  blogs.filter(isPublishedBlog).forEach(blog => {
     paths.push(`/blogs/${blog.id}`);
   });
 
@@ -128,6 +128,12 @@ function generateStaticPaths() {
     .forEach(article => {
       paths.push(`/journal/${article.id}`);
     });
+
+  // Pre-render the NotFound route so the build can emit a real dist/404.html.
+  // Without it Vercel has no 404 document and unmatched paths would need an
+  // SPA fallback rewrite, which serves the homepage with a 200 (a soft 404).
+  // Excluded from sitemap.xml, which maintains its own route list.
+  paths.push('/404');
 
   // Remove duplicates
   return [...new Set(paths)];

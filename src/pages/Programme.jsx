@@ -57,6 +57,10 @@ export default function Programme() {
         <meta name="twitter:title" content="Signature Pathways | ULANDA" />
         <meta name="twitter:description" content="Multi-week regenerative treatment pathways for transformational skin and body results." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Signature Programmes | ULANDA Skin Clinic Ware" />
+        <meta property="og:description" content="ULANDA Signature pathways combine regenerative science with personalised wellness. Multi-week treatment pathways for transformational skin and body results." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/signature" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
 
       <Breadcrumbs />

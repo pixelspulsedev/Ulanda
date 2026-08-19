@@ -283,6 +283,9 @@ export default function MedicalAestheticsClinic() {
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments/medical-aesthetics-clinic/" />
         <meta name="robots" content="index, follow" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
+        <meta property="og:title" content="Medical Aesthetics Clinic Ware | Nurse-Led | ULANDA" />
+        <meta property="og:description" content="Nurse-led medical aesthetics clinic in Ware, Hertfordshire. Regenerative injectables, skin boosters and microneedling within a structured clinical programme." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/treatments/medical-aesthetics-clinic/" />
       </Head>
 
       <div className="bg-base-100 min-h-screen">

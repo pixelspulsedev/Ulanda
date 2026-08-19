@@ -97,6 +97,10 @@ export default function About() {
         <meta name="twitter:title" content="About ULANDA | Regenerative Aesthetics in Hertfordshire" />
         <meta name="twitter:description" content="ULANDA is a regenerative aesthetics clinic in Ware SG12. Hormone-aware care and women-first treatments for midlife skin regeneration." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="About ULANDA | Regenerative Aesthetics Ware SG12 | Hertfordshire" />
+        <meta property="og:description" content="ULANDA is a regenerative aesthetics clinic in Ware, Hertfordshire. Hormone-aware care and women-first treatments for midlife skin regeneration." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/about/our-story" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about/our-story' }]} />
 
@@ -105,15 +109,15 @@ export default function About() {
           <div className="inline-block px-8 py-2 rounded-full border bg-secondary border-primary/30 text-primary text-sm font-bold tracking-wider mb-4 uppercase">
             About Ulanda
           </div>
-          <div className="text-3xl md:text-4xl font-serif leading-tight">
-            <HeroText>
+          <h1 className="text-3xl md:text-4xl font-serif leading-tight">
+            <HeroText as="span">
             Where women’s{' '}
             <span className="italic text-primary">
               skin, hormones and wellbeing
             </span>{' '}
             meet in one regenerative sanctuary.
             </HeroText>
-          </div>
+          </h1>
           <div className="space-y-4 text-base md:text-lg leading-relaxed font-sans font-light text-base-content/90">
             <FadeInWhenVisible delay={0.2}>
             <p>

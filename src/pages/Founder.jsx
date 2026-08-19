@@ -162,6 +162,10 @@ export default function Founder() {
         <meta name="twitter:title" content="Meet Our Founder Helen Balogun | ULANDA" />
         <meta name="twitter:description" content="Meet Helen Balogun, Advanced Nurse Practitioner and Regenerative Aesthetics Specialist with 20+ years clinical experience." />
         <meta name="twitter:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
+        <meta property="og:title" content="Meet Our Founder Helen Balogun | ULANDA" />
+        <meta property="og:description" content="Meet Helen Balogun, Founder of ULANDA. Advanced Nurse Practitioner and Regenerative Aesthetics Specialist with 20+ years clinical experience." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/about/our-founder" />
+        <meta property="og:image" content="https://www.ulanda.co.uk/assets/img/ui/Logo.webp" />
       </Head>
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about/our-story' }, { name: 'Our Founder', url: '/about/our-founder' }]} />
 

@@ -246,6 +246,9 @@ export default function PrescriptionSkincare() {
         <meta name="description" content="Prescription skincare clinic in Ware, Hertfordshire. Medical-grade skincare prescribed by a Nurse Prescriber within a structured clinical programme." />
         <link rel="canonical" href="https://www.ulanda.co.uk/treatments/prescription-skincare" />
         <script type="application/ld+json">{JSON.stringify(prescriptionSchemas)}</script>
+        <meta property="og:title" content="Prescription Skincare Ware | ULANDA Skin Clinic" />
+        <meta property="og:description" content="Prescription skincare clinic in Ware, Hertfordshire. Medical-grade skincare prescribed by a Nurse Prescriber within a structured clinical programme." />
+        <meta property="og:url" content="https://www.ulanda.co.uk/treatments/prescription-skincare" />
       </Head>
 
       <div className="bg-base-100 min-h-screen">
