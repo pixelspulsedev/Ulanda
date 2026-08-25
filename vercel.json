@@ -234,7 +234,7 @@
     },
     {
       "source": "/treatments/radiate/wellness/medical-weight-management",
-      "destination": "/treatments/wellness-regenerative-recovery/medical-weight-management",
+      "destination": "/conditions/internal-wellness/slow-metabolism",
       "permanent": true
     },
     {
@@ -549,7 +549,7 @@
     },
     {
       "source": "/conditions/skin-texture-quality",
-      "destination": "/conditions/age-and-regeneration",
+      "destination": "/conditions",
       "permanent": true
     },
     {
@@ -925,6 +925,91 @@
     {
       "source": "/programmes",
       "destination": "/signature",
+      "permanent": true
+    },
+    {
+      "source": "/journal/regenerative-injectables-explained",
+      "destination": "/journal",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/postpartum-skin",
+      "destination": "/conditions/menopause-hormone-skin-changes/postpartum-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/acne",
+      "destination": "/conditions/acne-texture",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/facial-laxity",
+      "destination": "/conditions/menopause-hormone-skin-changes/skin-laxity",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/jowls",
+      "destination": "/conditions/menopause-hormone-skin-changes/loss-of-definition",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/photoaging",
+      "destination": "/conditions/pigmentation-and-skin-tone/sun-damage-photo-pigmentation",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/sensitive-skin",
+      "destination": "/conditions/redness-sensitivity-reactive-skin/reactive-skin",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/menopause-hormone-skin-changes/hormonal-breakouts",
+      "destination": "/conditions/acne-texture/hormonal-breakouts",
+      "permanent": true
+    },
+    {
+      "source": "/tools",
+      "destination": "/treatments",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/injectable-skin-optimisation/anti-wrinkle-injections",
+      "destination": "/treatments/structural-collagen-support/anti-wrinkle-injections",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-renewal-regeneration/anti-wrinkle-injections",
+      "destination": "/treatments/structural-collagen-support/anti-wrinkle-injections",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-renewal-regeneration/profhilo",
+      "destination": "/treatments/injectable-skin-optimisation/profhilo",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-renewal-regeneration/skin-health-consultation",
+      "destination": "/treatments/advanced-skin-health-consultation",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/injectable-skin-optimisation/polynucleotides",
+      "destination": "/treatments/skin-renewal-regeneration/polynucleotides",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/injectable-skin-optimisation/prp-skin-regeneration",
+      "destination": "/treatments/skin-renewal-regeneration/prp-skin-regeneration",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/injectable-skin-optimisation/injectable-skin-optimisation/:path*",
+      "destination": "/treatments/injectable-skin-optimisation/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/wellness-regenerative-recovery/wellness-regenerative-recovery/:path*",
+      "destination": "/treatments/wellness-regenerative-recovery/:path*",
       "permanent": true
     }
   ],
