@@ -1367,6 +1367,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "extracellular-matrix-science",
     seo: { title: "The Extracellular Matrix & Skin Ageing | ULANDA" },
     slug: "extracellular-matrix-science",
@@ -1550,6 +1551,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "menopause-regeneration-model",
     seo: { title: "The Menopause Regeneration Model | ULANDA" },
     slug: "menopause-regeneration-model",
@@ -1785,6 +1787,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "regenerative-lifetime-timeline",
     seo: { title: "Skin at 30, 40, 50 and 60+: A Regenerative Timeline | ULANDA" },
     slug: "regenerative-lifetime-timeline",
@@ -1935,6 +1938,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "regenerative-triangle-skin-structure-cells",
     seo: { title: "The Regenerative Triangle: Quality & Structure | ULANDA" },
     slug: "regenerative-triangle-skin-structure-cells",
@@ -2096,6 +2100,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "science-of-skin-repair-after-35",
     seo: { title: "Skin Repair After 35: Why Regeneration Slows | ULANDA" },
     slug: "science-of-skin-repair-after-35",
@@ -2251,6 +2256,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "skin-barrier-breakdown-after-40",
     seo: { title: "Skin Barrier Breakdown After 40 | ULANDA Ware" },
     slug: "skin-barrier-breakdown-after-40",
@@ -2373,6 +2379,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "what-regeneration-really-means",
     seo: { title: "What Skin Regeneration Really Means | ULANDA Ware" },
     slug: "what-regeneration-really-means",
@@ -2489,6 +2496,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "why-collagen-is-not-enough",
     seo: { title: "Why Collagen Alone Is Not Enough | ULANDA" },
     slug: "why-collagen-is-not-enough",
@@ -2610,6 +2618,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "hormone-changes-need-regenerative-treatments",
     seo: { title: "Hormone Change Needs More Than Skincare | ULANDA" },
     slug: "hormone-changes-need-regenerative-treatments",
@@ -2728,6 +2737,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "menopause-accelerates-aging-regeneration-reverses",
     seo: { title: "Why Menopause Accelerates Skin Ageing | ULANDA" },
     slug: "menopause-accelerates-aging-regeneration-reverses",
@@ -2836,6 +2846,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "menopause-skin-responds-better-to-regeneration-than-fillers",
     seo: { title: "Menopause Skin: Regeneration vs Fillers | ULANDA" },
     slug: "menopause-skin-responds-better-to-regeneration-than-fillers",
@@ -2945,6 +2956,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "regeneration-produces-more-natural-results-than-fillers",
     seo: { title: "Why Regeneration Looks More Natural Than Filler | ULANDA" },
     slug: "regeneration-produces-more-natural-results-than-fillers",
@@ -3058,6 +3070,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "regeneration-wins-over-filler-for-midlife-women",
     seo: { title: "Regeneration vs Filler for Midlife Women | ULANDA" },
     slug: "regeneration-wins-over-filler-for-midlife-women",
@@ -3173,6 +3186,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "barrier-breakdown-science-regenerative-restoration",
     seo: { title: "Barrier Breakdown: The Science of Repair | ULANDA" },
     slug: "barrier-breakdown-science-regenerative-restoration",
@@ -3317,6 +3331,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "biorepeel-vs-chemical-peels-menopausal-skin",
     seo: { title: "BioRePeel vs Chemical Peels for Menopause | ULANDA" },
     slug: "biorepeel-vs-chemical-peels-menopausal-skin",
@@ -3441,6 +3456,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "regenerative-facials-pn-injectables-menopause",
     seo: { title: "Regenerative Facials & PN for Menopause | ULANDA" },
     slug: "regenerative-facials-pn-injectables-menopause",
@@ -3538,6 +3554,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "biostimulators-bridge-aesthetics-skin-health",
     seo: { title: "Biostimulators & True Skin Health | ULANDA" },
     slug: "biostimulators-bridge-aesthetics-skin-health",
@@ -3643,6 +3660,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "chemical-peels-hertfordshire-local-guide",
     seo: { title: "Chemical Peels in Hertfordshire | ULANDA Ware" },
     slug: "chemical-peels-hertfordshire-local-guide",
@@ -3737,6 +3755,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "collagen-collapse-after-40",
     seo: { title: "Collagen Collapse After 40: The Science | ULANDA" },
     slug: "collagen-collapse-after-40",
@@ -3873,6 +3892,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "collagen-therapy-vs-biostimulators",
     seo: { title: "Collagen Therapy vs Biostimulators | ULANDA" },
     slug: "collagen-therapy-vs-biostimulators",
@@ -4004,6 +4024,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "definisse-threads-regenerative-lifting-ware",
     seo: { title: "Definisse Threads in Ware SG12 | ULANDA" },
     slug: "definisse-threads-regenerative-lifting-ware",
@@ -4110,6 +4131,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "dull-dehydrated-skin-after-35-hertfordshire",
     seo: { title: "Dull, Dehydrated Skin After 35 | ULANDA Ware" },
     slug: "dull-dehydrated-skin-after-35-hertfordshire",
@@ -4191,6 +4213,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "fillers-vs-biostimulators-natural-rejuvenation",
     seo: { title: "Fillers vs Biostimulators: Which & When | ULANDA" },
     slug: "fillers-vs-biostimulators-natural-rejuvenation",
@@ -4300,6 +4323,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "hormonal-skin-decline-regenerative-treatments",
     seo: { title: "Hormonal Skin Decline: Treatments That Help | ULANDA" },
     slug: "hormonal-skin-decline-regenerative-treatments",
@@ -4400,6 +4424,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "perimenopause-menopause-skin-impact",
     seo: { title: "How Perimenopause & Menopause Affect Skin | ULANDA" },
     slug: "perimenopause-menopause-skin-impact",
@@ -4504,6 +4529,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "how-pn-thickens-menopause-skin",
     seo: { title: "How PN Thickens Menopause Skin | ULANDA Ware" },
     slug: "how-pn-thickens-menopause-skin",
@@ -4594,6 +4620,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "sun-damage-treatments-hertfordshire",
     seo: { title: "Sun Damage Treatments in Hertford & Ware | ULANDA" },
     slug: "sun-damage-treatments-hertfordshire",
@@ -4675,6 +4702,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "hrt-myths-debunked",
     seo: { title: "HRT Myths Debunked: The Truth | ULANDA Ware" },
     slug: "hrt-myths-debunked",
@@ -4747,6 +4775,7 @@ export const blogs = [
     ]
   },
   {
+    status: "draft",
     id: "layered-regeneration-fillers-biostimulators",
     slug: "layered-regeneration-fillers-biostimulators",
     title: "Layered Regeneration: How Fillers & Biostimulators Work Together for Natural, Long-Lasting Results",
@@ -4926,6 +4955,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "melasma-hertfordshire-treatments",
     slug: "melasma-hertfordshire-treatments",
     title: "Melasma in Hertfordshire — What REALLY Works (and What Makes It Worse)",
@@ -5058,6 +5088,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "menopause-skin-glow-up-treatments",
     slug: "menopause-skin-glow-up-treatments",
     title: "Menopause Skin Glow-Up — The 5 Most Powerful Regenerative Treatments in Ware SG12",
@@ -5209,6 +5240,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "menopause-skin-laxity-threads-biostimulators",
     slug: "menopause-skin-laxity-threads-biostimulators",
     title: "Menopause Skin Laxity — Why Threads + Biostimulators Outperform Fillers",
@@ -5346,6 +5378,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "microneedling-polynucleotides-duo",
     slug: "microneedling-polynucleotides-duo",
     title: "Microneedling + Polynucleotides — The Most Powerful Duo for Hertfordshire Women",
@@ -5455,6 +5488,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "microneedling-hertford-acne-pigmentation-anti-aging",
     slug: "microneedling-hertford-acne-pigmentation-anti-aging",
     title: "Microneedling in Hertford — Acne Scarring, Pigmentation & Anti-Aging",
@@ -5581,6 +5615,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "next-gen-regeneration-polynucleotides-biostimulators-threads",
     slug: "next-gen-regeneration-polynucleotides-biostimulators-threads",
     title: "Next-Gen Regeneration: Polynucleotides, Biostimulators, Threads & The Science of Skin Longevity",
@@ -5712,6 +5747,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "pdrn-vs-skin-boosters-hertford",
     slug: "pdrn-vs-skin-boosters-hertford",
     title: "PDRN vs Skin Boosters — Which Is Better for Hertford Clients?",
@@ -5838,6 +5874,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "menopause-pigmentation-regeneration-vs-lasers",
     slug: "menopause-pigmentation-regeneration-vs-lasers",
     title: "Pigmentation in Menopause — Why Regeneration Beats Lasers & Light",
@@ -5976,6 +6013,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "pigmentation-vs-melasma-hertfordshire",
     slug: "pigmentation-vs-melasma-hertfordshire",
     title: "Pigmentation vs Melasma — Why They Need Completely Different Treatments",
@@ -6091,6 +6129,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'pn-vs-skin-boosters-menopause-glow-vs-regeneration',
     slug: 'pn-vs-skin-boosters-menopause-glow-vs-regeneration',
     title: 'PN vs Skin Boosters — The Truth Behind Menopause Glow vs Regeneration',
@@ -6252,6 +6291,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'pn-vs-skin-boosters-best-for-menopausal-skin',
     slug: 'pn-vs-skin-boosters-best-for-menopausal-skin',
     title: 'PN vs Skin Boosters — Which Is Best for Menopausal Skin?',
@@ -6390,6 +6430,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'polynucleotides-ware-regenerative-treatment',
     slug: 'polynucleotides-ware-regenerative-treatment',
     title: 'Polynucleotides in Ware — The Regenerative Treatment Everyone Is Talking About',
@@ -6516,6 +6557,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'polynucleotides-vs-skin-boosters-sg12-guide',
     slug: 'polynucleotides-vs-skin-boosters-sg12-guide',
     title: 'Polynucleotides vs Skin Boosters — What Every Woman in SG12 Must Know',
@@ -6625,6 +6667,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'profhilo-vs-polynucleotides-hertford-skin-types',
     slug: 'profhilo-vs-polynucleotides-hertford-skin-types',
     title: 'Profhilo vs Polynucleotides — Which Suits Hertford Skin Types?',
@@ -6734,6 +6777,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'regeneration-vs-correction-natural-aesthetic-results',
     slug: 'regeneration-vs-correction-natural-aesthetic-results',
     title: 'Regeneration vs Correction — Why the Industry Is Shifting to Natural Aesthetic Results',
@@ -6848,6 +6892,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'regenerative-aesthetics-ware-future-natural-anti-aging',
     slug: 'regenerative-aesthetics-ware-future-natural-anti-aging',
     title: 'Regenerative Aesthetics in Ware — The Future of Natural Anti-Aging',
@@ -6951,6 +6996,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'seasonal-skin-regeneration-clinical-guide',
     slug: 'seasonal-skin-regeneration-clinical-guide',
     title: 'Seasonal Skin Regeneration: A Clinical Guide to Protecting Your Glow Year-Round',
@@ -7047,6 +7093,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'skin-boosters-vs-polynucleotide-pn-injectables-guide',
     slug: 'skin-boosters-vs-polynucleotide-pn-injectables-guide',
     title: 'Skin Boosters vs Polynucleotides (PN) Injectables — What’s the Real Difference?',
@@ -7159,6 +7206,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'skin-boosters-ware-full-guide',
     slug: 'skin-boosters-ware-full-guide',
     title: 'Skin Boosters in Ware: Full Guide to Glow, Hydration & Results',
@@ -7265,6 +7313,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'menopause-jawline-fix-regenerative-contouring',
     slug: 'menopause-jawline-fix-regenerative-contouring',
     title: 'The Menopause Jawline Fix — Regenerative Contouring Explained',
@@ -7362,6 +7411,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'glowing-through-perimenopause-chemical-peels-skin-boosters',
     slug: 'glowing-through-perimenopause-chemical-peels-skin-boosters',
     title: 'The Only Constant is Change: Glowing Through Perimenopause & Menopause with Chemical Peels & Skin Boosters',
@@ -7450,6 +7500,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'perimenopause-menopause-glow-biostimulants-collagen',
     slug: 'perimenopause-menopause-glow-biostimulants-collagen',
     title: 'The Perimenopause & Menopause Glow: Biostimulants & Collagen Therapy for Radiance, Firmness & Regeneration',
@@ -7537,6 +7588,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: 'science-of-nad-plus-womens-energy-after-40',
     slug: 'science-of-nad-plus-womens-energy-after-40',
     title: 'The Science of NAD+ for Women’s Energy: Why It Matters After 40',
@@ -7628,6 +7680,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "pn-skin-boosters-biostimulators-threads-menopause-guide",
     slug: "pn-skin-boosters-biostimulators-threads-menopause-guide",
     title: "The True Difference Between PN, Skin Boosters, Biostimulators and Threads — A Perimenopause & Menopause Complete Guide",
@@ -7830,6 +7883,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "under-eye-regeneration-blueprint-pn-boosters-threads",
     slug: "under-eye-regeneration-blueprint-pn-boosters-threads",
     title: "The Under-Eye Regeneration Blueprint (PN, Boosters & Threads)",
@@ -7948,6 +8002,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "thread-lift-vs-dermal-fillers-hertfordshire-guide",
     slug: "thread-lift-vs-dermal-fillers-hertfordshire-guide",
     title: "Thread Lift vs Dermal Fillers — Which Lifts Better for Hertfordshire Clients?",
@@ -8049,6 +8104,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "under-eye-regeneration-science-repair-dark-circles",
     slug: "under-eye-regeneration-science-repair-dark-circles",
     title: "Under-Eye Regeneration: The Science of Repairing Dark Circles, Thinning Skin & Midlife Hollowness Naturally",
@@ -8136,6 +8192,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "what-happens-skin-perimenopause-clinical-guide",
     slug: "what-happens-skin-perimenopause-clinical-guide",
     title: "What Happens to Your Skin in Perimenopause — A Clinical ULANDA Guide",
@@ -8233,6 +8290,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "skin-booster-menopause-profhilo-vs-definisse-hydrobooster",
     slug: "skin-booster-menopause-profhilo-vs-definisse-hydrobooster",
     title: "Which Skin Booster Is Best for Menopause Skin? Profhilo vs Definisse Hydrobooster",
@@ -8337,6 +8395,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "why-hertfordshire-women-ageing-differently",
     slug: "why-hertfordshire-women-ageing-differently",
     title: "Why Hertfordshire Women Are Ageing Differently — And What Actually Works",
@@ -8435,6 +8494,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "menopause-skin-needs-collagen-strategy-not-filler",
     slug: "menopause-skin-needs-collagen-strategy-not-filler",
     title: "Why Menopause Skin Needs a Collagen Strategy, Not a Filler Solution",
@@ -8509,6 +8569,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "regenerative-aesthetics-future-midlife-women",
     slug: "regenerative-aesthetics-future-midlife-women",
     title: "Why Regenerative Aesthetics Is the Only Future for Midlife Women",
@@ -8574,6 +8635,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "12-week-regenerative-menopause-skin-plan",
     slug: "12-week-regenerative-menopause-skin-plan",
     title: "The 12-Week Regenerative Menopause Skin Plan (PN + Boosters + Biostimulators)",
@@ -8650,6 +8712,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "glow-isnt-just-skin-deep-wellness-prevention",
     slug: "glow-isnt-just-skin-deep-wellness-prevention",
     title: "Your Glow Isn’t Just Skin Deep — Why ULANDA Combines Skin, Wellness & Prevention",
@@ -8733,6 +8796,7 @@ export const blogs = [
     }
   },
   {
+    status: "draft",
     id: "your-skin-at-35-45-55-65-regenerative-timeline",
     slug: "your-skin-at-35-45-55-65-regenerative-timeline",
     title: "Your Skin at 35, 45, 55 & 65 — The Regenerative Timeline",
@@ -8821,7 +8885,7 @@ export const blogs = [
     }
   },
   {
-     status: "published",
+     status: "draft",
     id: "consultation-before-botox-ware",
     slug: "consultation-before-botox-ware",
     title: "Do You Need a Consultation Before Botox?",
@@ -9016,7 +9080,7 @@ export const blogs = [
     }
   },
   {
-      status: "published",
+      status: "draft",
     id: "barrier-repair-before-skin-regeneration",
     slug: "barrier-repair-before-skin-regeneration",
     title: "Why Barrier Repair Is Essential Before Structural Regeneration",
@@ -9233,7 +9297,7 @@ export const blogs = [
     }
   },
   {
-    status: "published",
+    status: "draft",
     id: "how-to-repair-damaged-skin-barrier",
     slug: "how-to-repair-damaged-skin-barrier",
     title: "How to Repair a Damaged Skin Barrier Professionally",
@@ -9454,7 +9518,7 @@ export const blogs = [
     }
   },
   {
-      status: "published",
+      status: "draft",
     id: "medical-skin-consultation-ware",
     slug: "medical-skin-consultation-ware",
     title: "Where to Get a Medical Skin Consultation in Ware",
@@ -9672,13 +9736,8 @@ export const getAllBlogs = () => {
 }
 
 // Single source of truth for blog visibility.
-//
-// Most entries predate the `status` field and carry no value at all; only
-// work-in-progress posts are explicitly marked 'draft'. Treating a missing
-// status as published keeps the listing page, the SSG path list and
-// sitemap.xml in agreement - they previously disagreed, which left 64 live
-// posts rendered and sitemapped but absent from /blogs, and so unreachable
-// by any internal link.
-export const isPublishedBlog = (blog) => blog.status !== 'draft';
+// Only posts explicitly marked as 'published' are active and exposed in
+// the listing page, SSG path list, and sitemap.xml.
+export const isPublishedBlog = (blog) => blog.status === 'published';
 
 export const getPublishedBlogs = () => blogs.filter(isPublishedBlog);

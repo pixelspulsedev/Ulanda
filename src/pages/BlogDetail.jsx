@@ -2,7 +2,7 @@ import React from 'react';
 import { Head } from 'vite-react-ssg';
 import { useParams, Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
-import { getBlog } from '../data/pageContents/blogs/blogs';
+import { getBlog, isPublishedBlog } from '../data/pageContents/blogs/blogs';
 import { getTreatmentsForCondition } from '../data/crosslinks'; // repurpose or create new
 import HeroText from '../components/animations/HeroText';
 import RevealImage from '../components/animations/RevealImage';
@@ -255,7 +255,7 @@ export default function BlogDetail() {
   const id = rawId?.toLowerCase();
   const blog = getBlog(id);
 
-  if (!blog) {
+  if (!blog || !isPublishedBlog(blog)) {
     return <div className="text-center py-20">Blog post not found</div>;
   }
 

@@ -850,7 +850,7 @@ export default function Home() {
             <div className="space-y-4 mb-12">
               {[
                 { title: "Why Your Skin Stopped Responding", url: "/blogs" },
-                { title: "Where to Get a Medical Skin Consultation in Ware", url: "/blogs/medical-skin-consultation-ware" },
+                { title: "Regeneration & Longevity — The Future of Aesthetic Medicine", url: "/blogs/regeneration-longevity" },
                 { title: "Collagen, Elastin & Fibroblast \u2013 The 3 Engines of Beautiful Skin", url: "/blogs/collagen-elastin-fibroblasts" },
                 { title: "Internal Health Meets Regeneration", url: "/blogs/internal-health-regeneration" },
               ].map((article) => (
