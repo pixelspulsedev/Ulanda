@@ -13,13 +13,54 @@ import RelatedTreatments from '../components/RelatedTreatments';
 import { Crown, Check, X, Bookmark, ExternalLink, BookOpen } from 'lucide-react';
 import { getTreatmentById } from '../data/pageContents/treatments/treatments';
 
+// Helper to render inline markdown links like [anchor](url) into Link or <a> elements
+const renderTextWithLinks = (text) => {
+  if (typeof text !== 'string') return text;
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  if (!linkRegex.test(text)) return text;
+
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+  linkRegex.lastIndex = 0;
+  while ((match = linkRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    const label = match[1];
+    let url = match[2].trim();
+    const internalMatch = url.match(/^https?:\/\/(?:www\.)?ulanda\.co\.uk(\/.*)?$/i);
+    const targetUrl = internalMatch ? (internalMatch[1] || '/') : url;
+    const isInternal = targetUrl.startsWith('/');
+
+    if (isInternal) {
+      parts.push(
+        <Link key={match.index} to={targetUrl} className="text-primary hover:underline font-medium">
+          {label}
+        </Link>
+      );
+    } else {
+      parts.push(
+        <a key={match.index} href={url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">
+          {label}
+        </a>
+      );
+    }
+    lastIndex = linkRegex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+  return parts;
+};
+
 const BlogContent = ({ content }) => {
   if (!content) return null;
 
   if (typeof content === 'string') {
     return (
       <p className="mb-4 text-base-content/80 font-sans font-light leading-relaxed whitespace-pre-wrap">
-        {content}
+        {renderTextWithLinks(content)}
       </p>
     );
   }
@@ -81,16 +122,21 @@ const BlogContent = ({ content }) => {
                 <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2.5 shrink-0" />
               )}
               <span className="leading-relaxed">
-                {content.style === 'dict' && typeof item === 'object' && item.label ? (
+                {typeof item === 'object' && item.label && item.link ? (
                   <>
-                    <strong className="text-base-content">{item.label}:</strong> {item.text}
+                    <Link to={item.link} className="text-primary hover:underline font-medium">{item.label}</Link>
+                    {item.text ? <span className="text-base-content/70"> — {renderTextWithLinks(item.text)}</span> : null}
+                  </>
+                ) : content.style === 'dict' && typeof item === 'object' && item.label ? (
+                  <>
+                    <strong className="text-base-content">{renderTextWithLinks(item.label)}:</strong> {renderTextWithLinks(item.text)}
                   </>
                 ) : typeof item === 'object' && item.label ? (
                   <>
-                    <strong className="text-base-content">{item.label}:</strong> {item.text}
+                    <strong className="text-base-content">{renderTextWithLinks(item.label)}:</strong> {renderTextWithLinks(item.text)}
                   </>
                 ) : (
-                  item
+                  renderTextWithLinks(item)
                 )}
               </span>
             </li>
@@ -103,7 +149,7 @@ const BlogContent = ({ content }) => {
         <div className="bg-secondary/50 p-6 rounded-lg my-6 border border-primary/10">
           {content.title && (
             <h4 className="font-serif text-lg text-primary mb-2">
-              {content.title}
+              {renderTextWithLinks(content.title)}
             </h4>
           )}
           {content.content && <BlogContent content={content.content} />}
@@ -188,7 +234,7 @@ const BlogContent = ({ content }) => {
       const pText = content.content || content.text;
       return (
         <p className="mb-4 text-base-content/80 font-sans font-light leading-relaxed whitespace-pre-wrap">
-          {pText}
+          {renderTextWithLinks(pText)}
         </p>
       );
 
@@ -210,6 +256,31 @@ const BlogContent = ({ content }) => {
         <h3 className="text-xl font-medium font-sans text-base-content mb-4 mt-6">
           {content.content || content.text}
         </h3>
+      );
+
+    case 'image':
+      const isPortrait = content.orientation === 'portrait' || content.aspect === 'portrait';
+      return (
+        <div className={`my-8 md:my-12 w-full flex flex-col ${isPortrait ? 'items-center' : ''}`}>
+          <div className={isPortrait ? 'w-full max-w-md' : 'w-full max-w-4xl mx-auto'}>
+            <RevealImage className="w-full">
+              <img
+                src={content.src || content.url}
+                alt={content.alt || 'Illustration'}
+                className={`rounded-2xl shadow-sm ${
+                  isPortrait 
+                    ? 'w-full max-h-[640px] aspect-[2/3] object-cover mx-auto' 
+                    : 'w-full h-auto object-cover'
+                }`}
+              />
+            </RevealImage>
+            {content.caption && (
+              <p className="text-center text-xs text-base-content/60 mt-3 italic">
+                {content.caption}
+              </p>
+            )}
+          </div>
+        </div>
       );
 
     case 'table':
@@ -265,7 +336,8 @@ export default function BlogDetail() {
     : (blog.heroImage ? [blog.heroImage] : []);
   
   const heroImage = displayImages[0];
-  const contentImages = displayImages.slice(1);
+  const defaultContentImages = displayImages.slice(1);
+  const contentImages = blog.imagePositions || (blog.hasInlineImages ? [] : defaultContentImages);
 
   // Resolve related treatments
   const relatedTreatments = blog.relatedTreatments
@@ -353,17 +425,17 @@ export default function BlogDetail() {
             </div>
 
             {/* Image Content */}
-            <div className="flex-1 relative w-full flex justify-center md:justify-end">
-              {heroImage && (
+            {!blog.hideHeroImage && heroImage && (
+              <div className="flex-1 relative w-full flex justify-center md:justify-end">
                 <RevealImage delay={0.2} className="w-full h-full">
                   <img
                     src={heroImage}
                     alt={blog.title}
-                    className="aspect-video w-full h-full object-cover"
+                    className={`aspect-video w-full h-full object-cover ${blog.heroImagePosition || 'object-center'}`}
                   />
                 </RevealImage>
-              )}
-            </div>
+              </div>
+            )}
           </div>
         </section>
 

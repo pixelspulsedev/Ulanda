@@ -63,7 +63,7 @@ export default function Blogs() {
                              <img 
                                src={blog.images && blog.images.length > 0 ? blog.images[0] : blog.heroImage} 
                                alt={blog.title}
-                               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                               className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${blog.heroImagePosition || 'object-center'}`}
                              />
                            </RevealImage>
                         ) : (
