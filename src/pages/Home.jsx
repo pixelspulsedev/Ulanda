@@ -114,7 +114,7 @@ const homeFaqs = [
     answer: "Yes. The Advanced Skin Health Consultation is the clinical entry point for all new clients. Treatments perform better and produce more predictable results when introduced after proper assessment. The \u00a3175 fee is fully redeemable against your treatment plan when you proceed."
   },
   {
-    question: "Do you offer Botox and aesthetic treatments in Ware?",
+    question: "Do you offer anti-wrinkle treatments and aesthetic treatments in Ware?",
     answer: "Yes. ULANDA offers anti-wrinkle injections, dermal fillers, Profhilo, polynucleotides, microneedling and other medical aesthetic treatments within a structured clinical programme following the Advanced Skin Health Consultation."
   },
   {

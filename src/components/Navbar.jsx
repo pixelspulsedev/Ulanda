@@ -20,7 +20,7 @@ const STATIC_SEARCH_PAGES = [
   { title: 'Skin Barrier Renewal Protocol', description: 'Clinician-led barrier stabilisation before advanced treatment.', url: '/treatments/skin-barrier-renewal-protocol', keywords: 'barrier repair stabilisation renewal protocol' },
   { title: 'Prescription Skincare', description: 'Medical-grade prescription skincare including Obagi Medical.', url: '/treatments/prescription-skincare', keywords: 'obagi prescription skincare medical grade tretinoin retinol' },
   { title: 'Obagi Medical', description: 'Obagi medical prescription skincare programmes.', url: '/treatments/prescription-skincare/obagi-medical', keywords: 'obagi nu-derm prescription skincare' },
-  { title: 'Medical Aesthetics Clinic', description: 'Nurse-led medical aesthetics in Ware, Hertfordshire.', url: '/treatments/medical-aesthetics-clinic', keywords: 'medical aesthetics botox filler clinic' },
+  { title: 'Medical Aesthetics Clinic', description: 'Nurse-led medical aesthetics in Ware, Hertfordshire.', url: '/treatments/medical-aesthetics-clinic', keywords: 'medical aesthetics anti-wrinkle filler clinic' },
   { title: 'All Treatments', description: 'Explore all treatments and treatment pathways.', url: '/treatments', keywords: 'treatments menu all' },
   { title: 'Skin Conditions', description: 'Explore the skin concerns we treat.', url: '/conditions', keywords: 'conditions concerns skin' },
   { title: 'Signature Programmes', description: 'Structured regenerative programmes for long-term skin health.', url: '/signature', keywords: 'signature programmes regenerative' },
