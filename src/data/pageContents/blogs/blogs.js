@@ -5866,7 +5866,7 @@ export const blogs = [
     }
   },
   {
-    status: "draft",
+    status: "published",
     id: "microneedling-hertford-acne-pigmentation-anti-aging",
     slug: "microneedling-hertford-acne-pigmentation-anti-aging",
     title: "Microneedling in Hertford — Acne Scarring, Pigmentation & Anti-Aging",
@@ -7471,7 +7471,7 @@ export const blogs = [
     }
   },
   {
-    status: "draft",
+    status: "published",
     id: 'skin-boosters-vs-polynucleotide-pn-injectables-guide',
     slug: 'skin-boosters-vs-polynucleotide-pn-injectables-guide',
     title: 'Skin Boosters vs Polynucleotides (PN) Injectables — What’s the Real Difference?',
@@ -8482,7 +8482,7 @@ export const blogs = [
     }
   },
   {
-    status: "draft",
+    status: "published",
     id: "under-eye-regeneration-science-repair-dark-circles",
     slug: "under-eye-regeneration-science-repair-dark-circles",
     title: "Under-Eye Regeneration: The Science of Repairing Dark Circles, Thinning Skin & Midlife Hollowness Naturally",
@@ -9263,7 +9263,7 @@ export const blogs = [
     }
   },
   {
-     status: "draft",
+     status: "published",
     id: "consultation-before-botox-ware",
     slug: "consultation-before-botox-ware",
     title: "Do You Need a Consultation Before Botox?",
@@ -9675,7 +9675,7 @@ export const blogs = [
     }
   },
   {
-    status: "draft",
+    status: "published",
     id: "how-to-repair-damaged-skin-barrier",
     slug: "how-to-repair-damaged-skin-barrier",
     title: "How to Repair a Damaged Skin Barrier Professionally",
@@ -9896,7 +9896,7 @@ export const blogs = [
     }
   },
   {
-      status: "draft",
+      status: "published",
     id: "medical-skin-consultation-ware",
     slug: "medical-skin-consultation-ware",
     title: "Where to Get a Medical Skin Consultation in Ware",

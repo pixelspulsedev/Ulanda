@@ -4,7 +4,7 @@ export const individualConditions = [
     url: '/conditions/facial-balance-vitality',
     seo: {
       title: "Facial Balance & Vitality | Healthy Ageing Hertfordshire | ULANDA",
-      description: "Facial balance, healthy ageing & natural anti-wrinkle treatments in Hertfordshire. Profhilo, Polynucleotides & Botox guidance from ULANDA's nurse-led clinic."
+      description: "Facial balance, healthy ageing & natural anti-wrinkle treatments in Hertfordshire. Profhilo, Polynucleotides & anti-wrinkle treatment guidance from ULANDA's nurse-led clinic."
     },
     seoTargets: [
       "Facial Balance",
@@ -15,7 +15,7 @@ export const individualConditions = [
       "Looking Older Than You Feel",
       "Profhilo Hertfordshire",
       "Polynucleotides Hertfordshire",
-      "Botox Hertfordshire",
+      "Anti-Wrinkle Injections Hertfordshire",
       "Anti-Wrinkle Treatments Hertfordshire",
       "Menopause Facial Ageing",
       "Under-Eye Ageing",
@@ -284,25 +284,25 @@ export const individualConditions = [
           ]
         },
         {
-          question: "Is Botox the same as Anti-Wrinkle Treatment?",
-          answer: "Botox® is a brand name for a prescription anti-wrinkle treatment. Many people use the word Botox to describe anti-wrinkle treatments generally, although several licensed products are available that work in a similar way. Anti-wrinkle treatments temporarily relax specific facial muscles responsible for dynamic expression lines such as forehead lines, frown lines and crow's feet. At ULANDA, anti-wrinkle treatments are used to support facial balance and healthy ageing while preserving natural facial movement. The goal is not to remove expression but to soften expression-heavy areas in a way that looks natural and appropriate to the individual.",
+          question: "How do Anti-Wrinkle Treatments work?",
+          answer: "Anti-wrinkle treatments temporarily relax specific facial muscles responsible for dynamic expression lines such as forehead lines, frown lines and crow's feet. At ULANDA, anti-wrinkle treatments are used to support facial balance and healthy ageing while preserving natural facial movement. The goal is not to remove expression but to soften expression-heavy areas in a way that looks natural and appropriate to the individual.",
           internalLinks: [
             { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" }
           ]
         },
         {
-          question: "Will Botox make me look frozen?",
+          question: "Will anti-wrinkle treatments make me look frozen?",
           answer: "No. A frozen appearance is usually the result of treatment choices rather than the treatment itself. Modern anti-wrinkle treatments can be tailored to soften lines while preserving natural facial movement and expression. At ULANDA, treatment planning focuses on facial harmony, balance and natural refinement rather than complete muscle immobilisation. The objective is for people to notice that you look refreshed and well rather than noticing the treatment itself. This approach aligns with ULANDA's philosophy of helping your appearance reflect how you feel while maintaining natural identity and expression."
         },
         {
-          question: "Am I too young for Botox?",
+          question: "Am I too young for anti-wrinkle treatments?",
           answer: "There is no specific age at which anti-wrinkle treatments become appropriate. Some women explore preventative anti-wrinkle treatments in their late twenties or thirties when expression lines begin to persist after movement. Others choose treatment later as lines become more established. The most important factor is not age but how your skin and facial movement patterns are behaving. At ULANDA, recommendations are based on individual assessment rather than age-based treatment plans. For some women, skincare, skin quality treatments or regenerative approaches may be more appropriate than anti-wrinkle treatment.",
           internalLinks: [
             { text: "Skin Health Consultation", url: "/treatments/advanced-skin-health-consultation" }
           ]
         },
         {
-          question: "What is better for healthy ageing: Botox, Profhilo or Polynucleotides?",
+          question: "What is better for healthy ageing: anti-wrinkle treatments, Profhilo or Polynucleotides?",
           answer: "These treatments support different aspects of healthy ageing. Anti-wrinkle treatments help manage expression lines and dynamic wrinkles. Profhilo focuses on hydration, elasticity and overall skin quality through bio-remodelling. Polynucleotides support tissue repair, collagen production and skin regeneration at a cellular level. One treatment is not necessarily better than another. Many women benefit from combining approaches depending on their concerns, goals and stage of healthy ageing. The most appropriate option depends on what is driving change within the skin and face.",
           internalLinks: [
             { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" },
@@ -341,8 +341,8 @@ export const individualConditions = [
           ]
         },
         {
-          question: "What is preventative Botox and when should you start?",
-          answer: "Preventative Botox refers to the use of anti-wrinkle treatments before expression lines become permanently established in the skin. When we smile, frown or raise our eyebrows, repeated muscle movement creates temporary lines that can begin to remain visible even when the face is at rest. Preventative anti-wrinkle treatment aims to soften excessive muscle activity before deeper lines develop. There is no specific age at which preventative treatment becomes appropriate; the decision should be based on facial movement patterns, skin quality, family history, lifestyle factors and individual goals. At ULANDA, preventative anti-wrinkle treatment is approached as one potential component of a wider healthy ageing strategy that may also include Profhilo, Polynucleotides, Microneedling and skin health optimisation. The goal is not to freeze movement or change appearance — it is to help your appearance reflect how you feel while preserving natural expression and facial harmony.",
+          question: "What are preventative anti-wrinkle treatments and when should you start?",
+          answer: "Preventative anti-wrinkle treatments refer to the use of targeted treatments before expression lines become permanently established in the skin. When we smile, frown or raise our eyebrows, repeated muscle movement creates temporary lines that can begin to remain visible even when the face is at rest. Preventative anti-wrinkle treatment aims to soften excessive muscle activity before deeper lines develop. There is no specific age at which preventative treatment becomes appropriate; the decision should be based on facial movement patterns, skin quality, family history, lifestyle factors and individual goals. At ULANDA, preventative anti-wrinkle treatment is approached as one potential component of a wider healthy ageing strategy that may also include Profhilo, Polynucleotides, Microneedling and skin health optimisation. The goal is not to freeze movement or change appearance — it is to help your appearance reflect how you feel while preserving natural expression and facial harmony.",
           internalLinks: [
             { text: "Anti-Wrinkle Treatments", url: "/treatments/skin-renewal-regeneration/anti-wrinkle-injections" },
             { text: "Profhilo", url: "/treatments/skin-renewal-regeneration/profhilo" },
@@ -812,7 +812,7 @@ export const individualConditions = [
       description: "Fine lines and wrinkles are one of the earliest signs of ageing - often first appearing around the eyes, forehead, and mouth. At ULANDA, we strengthen skin from within rather than masking the surface.",
       buttonText: "Book Advanced Skin Health Consultation",
       buttonLink: "https://book.squareup.com/appointments/h7hzrz9qwytnyc/location/LR2D9RK1GVWAH/services/WPFHQ2NODO6MXBIV4UBQKEOQ",
-      image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-anti-wrinkes-botox.webp"
+      image: "/assets/img/conditions/skin-clinic-ware-regenerative-aesthetic-anti-wrinkles.webp"
     },
     science_removed: {
       title: "What's Really Happening -",

@@ -3,6 +3,46 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/treatments/injectable-skin-optimisation/injectable-skin-optimisation/profhilo",
+      "destination": "/treatments/injectable-skin-optimisation/profhilo",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/wellness-regenerative-recovery/wellness-regenerative-recovery/skin-glow-iv",
+      "destination": "/treatments/wellness-regenerative-recovery/skin-glow-iv",
+      "permanent": true
+    },
+    {
+      "source": "/treatments/skin-renewal-regeneration/skin-renewal-regeneration/biorepeel",
+      "destination": "/treatments/skin-renewal-regeneration/biorepeel",
+      "permanent": true
+    },
+    {
+      "source": "/signatures/rosacea-redness-control",
+      "destination": "/signature/rosacea-redness-control",
+      "permanent": true
+    },
+    {
+      "source": "/signatures/:path*",
+      "destination": "/signature/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/menopause-skin",
+      "destination": "/conditions/menopause-hormone-skin-changes/menopause-skin-changes",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/loss-of-elasticity",
+      "destination": "/conditions/menopause-hormone-skin-changes/skin-laxity",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/fine-lines",
+      "destination": "/conditions/menopause-hormone-skin-changes/fine-lines-wrinkles",
+      "permanent": true
+    },
+    {
       "source": "/conditions/facial-balance-Vitality",
       "destination": "/conditions/facial-balance-vitality",
       "permanent": true

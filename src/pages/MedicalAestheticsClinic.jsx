@@ -49,7 +49,7 @@ const pageSchema = {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do you offer Botox and anti-wrinkle injections in Ware?",
+          "name": "Do you offer anti-wrinkle treatments in Ware?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. Anti-wrinkle injections are available following the Advanced Skin Health Consultation which determines treatment suitability and sequencing."
@@ -57,7 +57,7 @@ const pageSchema = {
         },
         {
           "@type": "Question",
-          "name": "Do I need a consultation before booking Botox or fillers?",
+          "name": "Do I need a consultation before booking anti-wrinkle treatments or fillers?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. All new clients begin with the Advanced Skin Health Consultation."
@@ -143,7 +143,7 @@ const pageSchema = {
 const treatments = [
   {
     title: "Anti-Wrinkle Injections",
-    alsoKnownAs: "Botox · frown lines · forehead lines · crow's feet · brow lift · lip flip",
+    alsoKnownAs: "anti-wrinkle treatments · frown lines · forehead lines · crow's feet · brow lift · lip flip",
     description: "Relaxation of targeted facial muscles softens dynamic expression lines while maintaining natural facial movement.",
     detail: "At ULANDA anti-wrinkle injections are introduced following barrier assessment because inflamed or barrier-compromised skin responds less predictably to injectable treatments.",
     linkText: "Anti-wrinkle injections at ULANDA",
@@ -235,10 +235,10 @@ const journalArticles = [
 ];
 
 const faqs = [
-  { q: "Do you offer Botox and anti-wrinkle injections in Ware?", a: "Yes. Anti-wrinkle injections are available following the Advanced Skin Health Consultation which determines treatment suitability and sequencing." },
+  { q: "Do you offer anti-wrinkle treatments in Ware?", a: "Yes. Anti-wrinkle treatments are available following the Advanced Skin Health Consultation which determines treatment suitability and sequencing." },
   { q: "Do you offer Profhilo in Ware?", a: "Yes. Profhilo bio-remodelling treatments are available following consultation." },
   { q: "Are polynucleotides available at ULANDA?", a: "Yes. Polynucleotide therapy is introduced where regenerative repair support is clinically indicated." },
-  { q: "Do I need a consultation before booking Botox or fillers?", a: "Yes. All new clients begin with the Advanced Skin Health Consultation." },
+  { q: "Do I need a consultation before booking anti-wrinkle treatments or fillers?", a: "Yes. All new clients begin with the Advanced Skin Health Consultation." },
   { q: "Is the consultation fee refunded if I proceed with treatment?", a: "The £175 consultation investment is fully redeemable against your treatment plan." },
   { q: "How do I know which injectable I need?", a: "Treatment selection is based on assessment of your skin\u2019s biology, structural needs and long-term goals." },
   { q: "Where is ULANDA located?", a: "ULANDA is located at Uphaven, 6 Hampden Hill, Ware, Hertfordshire SG12 7JT with free dedicated parking on site." }
